@@ -1,0 +1,70 @@
+SELECT first 1 0  REGISTERS_SEND , 
+SEmail REGISTERS_EMAIL,
+c.WAccountId REGISTERS_ID, 
+c.WAccountId , 
+c.WAccountTypeId ,
+cast('' as char(500)) XREGISTER_ATT ,
+''  as xHTMLLAYOUT ,
+c.SAccountCode ,
+c.SAccountCode Code,
+c.SDescription, 
+SPassword,
+ SPostal1, 
+SPostal2, 
+SPostal3, 
+SPostalCode, 
+SDelivery1,
+SDelivery2,
+SDelivery3, 
+SDeliveryCode, 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+cast(LEADS_ACTIVITIES.SMEMO as varchar(2000)) SMEMO,
+LEADS_ACTIVITIES.*
+from debtor b 
+join Account c on b.WAccountId = c.WAccountId 
+join LEADS_ACTIVITIES on LEADS_ACTIVITIES.WACCOUNTID = c.WACCOUNTID 
+and LEADS_ACTIVITIES.WLEADACTIVITIESID = <@WLEADACTIVITIESID@>
+where  c.WAccountId = <@WACCOUNTID@>
+union all
+SELECT first 1  0  REGISTERS_SEND , 
+SEmail REGISTERS_EMAIL,
+WLeadid REGISTERS_ID, 
+0 , 
+0 ,
+cast('' as char(500)) XREGISTER_ATT ,
+'' xHTMLLAYOUT ,
+'' ,
+'' Code,
+SNAme, 
+SPassword,
+ SPostal1, 
+SPostal2, 
+SPostal3, 
+SPostalCode, 
+SDelivery1,
+SDelivery2,
+SDelivery3, 
+SDeliveryCode, 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+cast(LEADS_ACTIVITIES.SMEMO as varchar(2000)) SMEMO,
+LEADS_ACTIVITIES.*
+from  leads
+join LEADS_ACCOUNT on leads.WLEADID = LEADS_ACCOUNT.WLEADSID
+join LEADS_ACTIVITIES on LEADS_ACTIVITIES.WACCOUNTID = LEADS_ACCOUNT.WACCOUNTID 
+and LEADS_ACTIVITIES.WLEADACTIVITIESID = <@WLEADACTIVITIESID@> 
+where  WLEADID =   <@WLEADID@>
+

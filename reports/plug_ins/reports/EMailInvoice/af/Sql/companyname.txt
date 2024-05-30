@@ -1,0 +1,9 @@
+Select SCompanyName || ascii_char(13) || ascii_char(10) 
+|| sysvars.SADDRESS1
+|| ascii_char(13) || ascii_char(10) 
+|| sysvars.SADDRESS2
+|| sysvars.SADDRESS3
+|| sysvars.SPOSTCODE
+|| ascii_char(13) || ascii_char(10) 
+|| sysvars.SPHONENUMBER
+ from sysvars

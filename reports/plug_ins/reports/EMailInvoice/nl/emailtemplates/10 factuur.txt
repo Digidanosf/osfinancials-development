@@ -1,0 +1,31 @@
+Bevestiging van uw factuur
+Uw verwijzing : <#SREFERENCE#> 
+
+Adres : 
+<#COMPANY#> 
+<#CONTACT#>
+<#POSTAL1#>
+<#POSTALCODE#> <#POSTAL2#>
+<#STELEPHONE1#>
+
+<#REGISTERS_EMAIL#>
+
+Geachte heer / mevrouw,  
+
+Hartelijk dank voor uw bestelling.
+In de bijlage vindt u de factuur en hieronder ziet u het overzicht van de producten die u besteld.
+Mochten er vragen zijn dan horen wij het graag van u.
+
+<#@LS@doclines.txt=border="1" WIDTH=100% CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+
+<#FREETEXT#>
+
+Aflever Adres :        
+<#DELCOMPANY#> 
+<#DELCONTACT#>
+<#DELPOSTAL1#>
+<#DELPOSTALCODE#> <#DELPOSTAL2#>
+
+Met vriendelijke groet,
+
+<#@LS@companyname.txt=border="0" WIDTH=150px CELLPADDING=0 CELLSPACING=0#> <@LS@#>

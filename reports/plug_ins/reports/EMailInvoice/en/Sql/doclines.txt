@@ -1,0 +1,12 @@
+select 0 id, 'Description','Price','Quantity','Excl.','Incl.' from RDB$DATABASE
+union
+Select a.WSortno,  m.Sdescription || COALESCE(m.SEXTRADESCRIPTION,'') Description ,
+IIF(a.WLINETYPEID = 91,'',cast(cast(a.FSELLINGPRICE as numeric (12,2))as varchar(16)))  Sellingprice ,
+IIF(a.WLINETYPEID = 91,'',cast(cast(a.FQTYSHIPPED as numeric (12,0))as varchar(16)))  Shipped ,
+ IIF(a.WLINETYPEID = 91,'',cast(cast(a.FEXCLUSIVEAMT as numeric (12,2))as varchar(16))) Exclamount,
+IIF(a.WLINETYPEID = 91,'',cast(cast(a.FINCLUSIVEAMT as numeric (12,2))as varchar(16))) IncAmount
+from docline a left 
+join stock b on  a.WStockid = b.WStockid 
+join Messages m on a.WDESCRIPTIONID = m.WMessageID
+where a.Wdocid = :wdocid
+order by 1 

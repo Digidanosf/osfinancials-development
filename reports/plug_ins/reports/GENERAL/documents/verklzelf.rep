@@ -1,0 +1,557 @@
+object _1: TRpReport
+  GridWidth = 57
+  GridHeight = 57
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'COMPANYDATA'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SCompanyName  ,'#13#10'SCompanyRegNo ,'#13#10'SEmailAddress ,'#13#10'SAddre' +
+        'ss1 ,'#13#10'SAddress2 ,'#13#10'SAddress3 ,'#13#10'SPostCode ,'#13#10'SPhoneNumber ,'#13#10'SF' +
+        'axNumber ,'#13#10'STaxRegNo ,'#13#10'SAccountReportName1 ,'#13#10'SAccountReportNa' +
+        'me1 ,'#13#10'SDebtorReportName1 ,'#13#10'SDebtorReportName2 ,'#13#10'SCreditorRepo' +
+        'rtName1 ,'#13#10'SCreditorReportName2 ,'#13#10'SStockReportName1 ,'#13#10'SStockRe' +
+        'portName1 ,'#13#10'SBANKNAME1, '#13#10'SBANKNAME2, '#13#10'SBANKNUMBER2, '#13#10'SBANKNU' +
+        'MBER1, '#13#10'SBANKSWIFT1, '#13#10'SBANKIBAN1, '#13#10'SBANKSWIFT2, '#13#10'SBANKIBAN2,' +
+        ' '#13#10'SBANKACCOUNTNAME1, '#13#10'SBANKACCOUNTNAME2'#13#10'from Sysvars '
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'MDN5CONF'
+      Visible = False
+      NeverVisible = True
+      Value = '85 30 C2 88 87 96 B3 42 E8 A3 56 55 E8 6E 2E 89'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'BEDRIJFSNAAM'
+      Visible = False
+      NeverVisible = True
+      Value = 'aaaaaa'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'KVKNR'
+      Visible = False
+      NeverVisible = True
+      Value = '1234567'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'PLAATS'
+      Visible = False
+      NeverVisible = True
+      Value = 'plaats'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'LAND'
+      Visible = False
+      NeverVisible = True
+      Value = 'NL'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'AFDELING'
+      Visible = False
+      NeverVisible = True
+      Value = 'afdeling'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'FILIAALNR'
+      Visible = False
+      NeverVisible = True
+      Value = '1234'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'STRAAT'
+      Visible = False
+      NeverVisible = True
+      Value = 'staat'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'HUISNR'
+      Visible = False
+      NeverVisible = True
+      Value = '111111111'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'MAIL'
+      Visible = False
+      NeverVisible = True
+      Value = 'helene@test.nl'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'SMTPSERVER'
+      Visible = False
+      NeverVisible = True
+      Value = 'Zwaanzinnig'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'NAAMAANVRAGER'
+      Visible = False
+      NeverVisible = True
+      Value = 'n.j. aanvrager'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'PASSWORD'
+      Visible = False
+      NeverVisible = True
+      Value = '12345'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'DOCUMENTENAFDRUKKEN0'
+      Visible = False
+      NeverVisible = True
+      Value = 'True'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'DOCUMENTENAFDRUKKEN1'
+      Visible = False
+      NeverVisible = True
+      Value = 'True'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'POSTADRES'
+      Visible = False
+      NeverVisible = True
+      Value = 'postadres'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'VESTADRES'
+      Visible = False
+      NeverVisible = True
+      Value = 'vets adres'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'NAMENANVR'
+      Visible = False
+      NeverVisible = True
+      Value = 'naam aanvrager'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'GEBDATUMAANVR'
+      Visible = False
+      NeverVisible = True
+      Value = 'gebdatum aanvrager'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'STATVEST'
+      Visible = False
+      NeverVisible = True
+      Value = 'statvestnaam'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'STATNAAM'
+      Visible = False
+      NeverVisible = True
+      Value = 'statnaam'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'HASDONEREQUEST'
+      Visible = False
+      NeverVisible = True
+      Value = 'False'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'TYPEAANVRAAG'
+      Visible = False
+      NeverVisible = True
+      Value = 'eerste aanvraag '
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'OPMERKINGAANVRAAG'
+      Visible = False
+      NeverVisible = True
+      Value = '           '
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'MDN5AUTH'
+      Visible = False
+      NeverVisible = True
+      Value = '0B 85 44 CA A1 5D 4A 03 8D B6 87 17 9B FE 67 31'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'TELEFOONNUMMER'
+      Visible = False
+      NeverVisible = True
+      Value = ''
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'FAXNR'
+      Visible = False
+      NeverVisible = True
+      Value = ''
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection4
+      end
+      item
+        Section = TRpSection15
+      end
+      item
+        Section = TRpSection5
+      end
+      item
+        Section = TRpSection18
+      end>
+    Alias = 'COMPANYDATA'
+    PrintOnlyIfDataAvailable = False
+  end
+  object TRpSection4: TRpSection
+    Width = 10772
+    Height = 11970
+    SubReport = TRpSubReport0
+    GroupName = 'MAIN'
+    ChangeBool = False
+    PageRepeat = True
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgheader
+    Components = <
+      item
+        Component = TRpLabel0
+      end
+      item
+        Component = TRpLabel19
+      end
+      item
+        Component = TRpExpression1
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection5: TRpSection
+    Width = 10772
+    Height = 0
+    SubReport = TRpSubReport0
+    GroupName = 'MAIN'
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgfooter
+    Components = <>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection15: TRpSection
+    Width = 10772
+    Height = 15
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpLabel15
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection18: TRpSection
+    Width = 10772
+    Height = 270
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpfooter
+    Components = <>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    Global = True
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpLabel0: TRpLabel
+    Width = 7305
+    Height = 810
+    PosX = 1590
+    PosY = 225
+    Type1Font = poHelvetica
+    FontSize = 15
+    Alignment = 4
+    WordWrap = True
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Verklaring Zelfstandig Bevoegd'
+  end
+  object TRpLabel15: TRpLabel
+    Width = 4560
+    Height = 240
+    PosX = 60
+    PosY = 5760
+    Type1Font = poHelvetica
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = '11 Statutaire naam   '
+  end
+  object TRpExpression1: TRpExpression
+    Width = 10605
+    Height = 7860
+    PosX = 0
+    PosY = 2055
+    Type1Font = poHelvetica
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      #39' ________________________________________ <naam vertegenwoordig' +
+      'ingsbevoegde>, verklaart '#39' + #13+#10 +'#13#10#39#39'+ #13+#10 +'#13#10#39'hierbij ' +
+      'alleen en zelfstandig  bevoegd te zijn om namens '#39'+ #13+#10 +'#13#10#39 +
+      #39'+ #13+#10 +'#13#10#39'_______________________________________<naam orga' +
+      'nisatie>, alle handelingen te mogen '#39'+ #13+#10 +'#13#10#39#39'+ #13+#10 +'#13 +
+      #10#39'verrichten die benodigd zijn voor het verkrijgen van digitale ' +
+      'certificaten voor genoemde organisatie, '#39'+ #13+#10 +'#13#10#39#39'+ #13+#1' +
+      '0 +'#13#10#39'en overigens al datgene te doen dat hiermee verband houdt,' +
+      ' in de ruimste zin des woords.'#39'+ #13+#10 +'#13#10#39#39'+ #13+#10 +'#13#10#39#39'+ #' +
+      '13+#10 +'#13#10#39#39'+ #13+#10 +'#13#10#39#39'  + #13+#10 +'#13#10#39#39'+ #13+#10 +'#13#10#39#39'+ #13' +
+      '+#10 +'#13#10#39#39'+ #13+#10 +'#13#10#39'Plaats ________________________________ ' +
+      ' d.d. _________________________________'#39' + #13+#10 +'#13#10#39#39'  + #13+' +
+      '#10 +'#13#10#39#39'  + #13+#10 +'#13#10#39#39'  + #13+#10 +'#13#10#39'______________________' +
+      '___________________'#39'  + #13+#10 +'#13#10#39'(Plaats hierboven uw handtek' +
+      'ening)'#39'  + #13+#10 +'#13#10#39#39'  + #13+#10 +'#13#10#39#39'  + #13+#10 +'#13#10#39'Gaarne ' +
+      'bijvoegen:'#39'  + #13+#10 +'#13#10#39'kopie geldig legitimatiebewijs '#39
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpLabel19: TRpLabel
+    Width = 4560
+    Height = 285
+    PosX = 0
+    PosY = 1545
+    Type1Font = poHelvetica
+    FontStyle = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Ondergetekende verklaart:'
+  end
+end

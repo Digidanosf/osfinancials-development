@@ -1,0 +1,39 @@
+
+Your credit note : <#SDOCNO#>
+Your reference : <#SREFERENCE#>
+
+Address :
+<#COMPANY#>
+<#POSTAL1#>
+<#POSTAL2#>
+<#POSTAL3#>
+<#POSTALCODE#> 
+
+Contact :
+<#CONTACT#>
+<#STELEPHONE1#>
+<#REGISTERS_EMAIL#>
+
+Dear Sir / Madam,
+
+In the attachment you will find your credit note - <#SDOCNO#>.
+
+The summary of the products, is as follows :
+
+<#@LS@doclines.txt=border="1" WIDTH=700px CELLPADDING=2 CELLSPACING=2#> <@LS@#>
+
+<#FREETEXT#>
+
+If you have any questions, please contact us.
+
+Delivery address :
+<#DELCOMPANY#> 
+<#DELCONTACT#>
+<#DELPOSTAL1#>
+<#DELPOSTAL2#>
+<#DELPOSTAL3#>
+<#DELPOSTALCODE#> 
+
+Sincerly,
+
+<#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
