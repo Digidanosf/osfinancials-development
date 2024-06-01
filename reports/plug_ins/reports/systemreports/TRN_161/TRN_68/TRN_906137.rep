@@ -1,0 +1,271 @@
+object _1: TRpReport
+  PageHeight = 8120
+  PageWidth = 5742
+  PageBackColor = 16777215
+  PrinterSelect = pRpUserPrinter1
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'LABEL'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select  '#13#10'Account.SMainAccountCode, '#13#10'Account.SSubAccountCode,'#13#10 +
+        'Account.SAccountCode,'#13#10'Account.WaccountTypeId,'#13#10'Account.SDescrip' +
+        'tion,'#13#10'Account.WReportingGroup1ID,'#13#10'Account.WReportingGroup2ID,'#13 +
+        #10'Creditor.*,'#13#10'contacts.*'#13#10'from '#13#10'creditor Creditor JOIN Account ' +
+        'on (Creditor.WAccountID = Account.WAccountID)'#13#10'left join contact' +
+        's on (Creditor.WContactId =Contacts.Recordid)'#13#10#13#10'   LEFT OUTER J' +
+        'OIN Groups'#13#10'   ON  (Account.WReportingGroup1ID = Groups.WGroupID' +
+        ')  '#13#10'   LEFT OUTER JOIN Groups Groups_1'#13#10'   ON  (Account.WReport' +
+        'ingGroup2ID = Groups_1.WGroupID)  '#13#10#13#10'where SAccountCode between' +
+        '  :FromACC and  :ToACC '#13#10#13#10'@REPOGROUP1@'#13#10#13#10'Order by @ORDER'
+    end
+    item
+      Alias = 'COMPANYDATA'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select a.*, SCompanyName  ,'#13#10'SCompanyRegNo ,'#13#10'SEmailAddress ,'#13#10'S' +
+        'Address1 ,'#13#10'SAddress2 ,'#13#10'SAddress3 ,'#13#10'SPostCode ,'#13#10'SPhoneNumber ' +
+        ','#13#10'SFaxNumber ,'#13#10'STaxRegNo ,'#13#10'BLOBLOGO,'#13#10'SAccountReportName1 ,'#13#10 +
+        'SAccountReportName2 ,'#13#10'SDebtorReportName1 ,'#13#10'SDebtorReportName2 ' +
+        ','#13#10'SCreditorReportName1 ,'#13#10'SCreditorReportName2 ,'#13#10'SStockReportN' +
+        'ame1 ,'#13#10'SStockReportName2 ,'#13#10'SBANKNAME1, '#13#10'SBANKNAME2, '#13#10'SBANKNU' +
+        'MBER2, '#13#10'SBANKNUMBER1, '#13#10'SBANKSWIFT1, '#13#10'SBANKIBAN1, '#13#10'SBANKSWIFT' +
+        '2, '#13#10'SBANKIBAN2, '#13#10'SBANKACCOUNTNAME1, '#13#10'SBANKACCOUNTNAME2,'#13#10'SBAN' +
+        'KBIC1,'#13#10'SBANKBIC2'#13#10'from Sysvars '#13#10', sysvarsext a'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end
+    item
+      Alias = 'INMEMFILES'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatamybase
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'FROMACC'
+      NeverVisible = True
+      AllowNulls = False
+      Value = '2ABCOS'
+      Datasets.Strings = (
+        'LABEL')
+      SearchDataset = 'DEBTOR'
+      Description = 'FromCode'
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'TOACC'
+      NeverVisible = True
+      AllowNulls = False
+      Value = '2COPEN'
+      Datasets.Strings = (
+        'LABEL')
+      SearchDataset = 'DEBTOR'
+      Description = 'ToCode'
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'SEQ'
+      NeverVisible = True
+      Value = '3'
+      Description = 'Sequence'
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'SEQTX'
+      NeverVisible = True
+      Value = 'Creditor code'
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'SEQTX2'
+      NeverVisible = True
+      Value = '3'
+      ParamType = rpParamSubst
+      Datasets.Strings = (
+        'LABEL')
+      Description = ''
+      Hint = ''
+      Search = '@ORDER'
+      ErrorMessage = ''
+      Validation = ''
+    end
+    item
+      Name = 'ACCOUNT.WREPORTINGGROUP1ID'
+      NeverVisible = True
+      AllowNulls = False
+      Value = ''
+      ParamType = rpParamSubst
+      Datasets.Strings = (
+        'LABEL')
+      Description = 'Reporting group 1'
+      Hint = ''
+      Search = '@REPOGROUP1@'
+      ErrorMessage = ''
+      Validation = ''
+    end>
+  Language = 0
+  StreamFormat = rpStreamText
+  ReportAction = []
+  PreviewAbout = False
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'LABEL'
+  end
+  object TRpSection0: TRpSection
+    Width = 3690
+    Height = 2310
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression2
+      end>
+    AutoExpand = True
+    HorzDesp = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression0: TRpExpression
+    Width = 3450
+    Height = 1485
+    PosX = 120
+    PosY = 810
+    Type1Font = poHelvetica
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = True
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF((LABEL.SDESCRIPTION <> LABEL.FIRSTNAME+ LABEL.LASTNAME) and ' +
+      '(trim(LABEL.FIRSTNAME+ LABEL.LASTNAME) <> '#39#39'), +'#39#39'+ CUSTOM('#39'GETT' +
+      'EXTLANG'#39',2048,'#39'Name'#39',0,0,0)+'#39':  '#39'  +LABEL.FIRSTNAME +LABEL.LASTN' +
+      'AME + #13+#10,'#39#39')'#13#10'+ LABEL.SPOSTAL1'#13#10'+ #13+#10 + LABEL.SPOSTAL2'#13 +
+      #10'+ #13+#10 + LABEL.SPOSTAL3+ #13+#10 + LABEL.SPOSTALCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression1: TRpExpression
+    Width = 3450
+    Height = 465
+    PosX = 120
+    PosY = 345
+    Type1Font = poHelvetica
+    FontStyle = 1
+    CutText = True
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.SDESCRIPTION'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression2: TRpExpression
+    Width = 3450
+    Height = 225
+    PosX = 120
+    PosY = 120
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF(STR(WACCOUNTTYPEID)='#39'0'#39','#39'G'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39 +
+      '1'#39','#39'D'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39'2'#39','#39'C'#39','#39#39') +'#13#10'IIF(STR(WAC' +
+      'COUNTTYPEID)='#39'3'#39','#39'B'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39'4'#39','#39'T'#39','#39#39')+' +
+      ' LABEL.SACCOUNTCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end
