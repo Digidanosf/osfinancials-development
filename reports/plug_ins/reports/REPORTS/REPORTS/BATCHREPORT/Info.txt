@@ -1,0 +1,14 @@
+(C) osFinancials Pieter Valentijn GPL Licence.
+
+The four reports are used based on 3 checkboxes in the params screen.
+
+If there all off the report  PERIODS_DATE.rep will be used
+If Eatch batch seperate is ticked then PERIODS_BATCHSEP is used
+If Tax only is ticked then PERIODS_BATCHTAX is used
+If Eatch period seperate is ticked then PERIODS_PERIOD is used
+
+If theres a report PERIODS_DATECUST.rep 
+then it will use this report and not the PERIODS_DATECUST.rep so we allow users or consultants 
+to make a custom report thet will not be overriden by the installer
+
+

@@ -1,0 +1,1570 @@
+object _1: TRpReport
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'ADMINISTRATIEGEGEVENS'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SCompanyName Bedrijfsnaam,'#13#10'SCompanyRegNo KVKNummer,'#13#10'SEm' +
+        'ailAddress EMailadres,'#13#10'SAddress1 Straat,'#13#10'SAddress2 Plaats,'#13#10'SA' +
+        'ddress3 Land,'#13#10'SPostCode Postcode,'#13#10'SPhoneNumber TelefoonNummer,' +
+        #13#10'SFaxNumber FaxNummer,'#13#10'STaxRegNo BTWNummer,'#13#10'SAccountReportNam' +
+        'e1 GrootBoekRapGroep1,'#13#10'SAccountReportName1 GrootBoekRapGroep2,'#13 +
+        #10'SDebtorReportName1 DebiteurenRapGroep1,'#13#10'SDebtorReportName2 Deb' +
+        'iteurenRapGroep2,'#13#10'SCreditorReportName1 CrediteurenRapGroep1,'#13#10'S' +
+        'CreditorReportName2 CrediteurenRapGroep2,'#13#10'SStockReportName1 Voo' +
+        'rraadRapGroep1,'#13#10'SStockReportName1 VoorraadRapGroep2'#13#10'from Sysva' +
+        'rs '
+    end
+    item
+      Alias = 'SALESPERCUST'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT DH.DDate, '#13#10'              DH.SDocNo, '#13#10'             S.SSt' +
+        'ockCode,'#13#10'             S.SDescription,'#13#10'             S.SExtraDes' +
+        'c,'#13#10'             SAccountCode,'#13#10'DL.*'#13#10'FROM Account A,  DocLine D' +
+        'L, Stock S, DocHead DH '#13#10'WHERE A.SACCOUNTCODE = :CUSTOMER'#13#10'AND  ' +
+        'DH.WTypeID = 10'#13#10'AND DH.DDate >= :FROMDATE'#13#10'AND DH.DDATE <= :TOD' +
+        'ATE'#13#10'AND A.WAccountID = DH.WAccountID'#13#10'AND DH.WDocID = DL.WDocID' +
+        #13#10'AND DL.WStockID = S.WStockID'#13#10'ORDER BY DH.DDate desc, SDocNo;'
+    end
+    item
+      Alias = 'DSCUSTOMER'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SAccountCode,SDescription from Account where WAccountType' +
+        'Id = 1'#13#10'order by SAccountcode'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'FROMDATE'
+      AllowNulls = False
+      Value = 39539
+      ParamType = rpParamDate
+      Datasets.Strings = (
+        'SALESPERCUST')
+      Description = ''
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'TODATE'
+      AllowNulls = False
+      Value = 39898
+      ParamType = rpParamDate
+      Datasets.Strings = (
+        'SALESPERCUST')
+      Description = ''
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'CUSTOMER'
+      AllowNulls = False
+      Value = '14124'
+      Datasets.Strings = (
+        'SALESPERCUST')
+      Items.Strings = (
+        '14124'
+        '14125'
+        '14126'
+        '14127'
+        '14128'
+        '14129'
+        '14130'
+        '14131'
+        '14132'
+        '14133'
+        '14134'
+        'A001001'
+        'A001002'
+        'A001003'
+        'A001004'
+        'A001005'
+        'A001007'
+        'A001008'
+        'A500115'
+        'A500132'
+        'A500189'
+        'A500205'
+        'A500284'
+        'A500396'
+        'A500558'
+        'A501147'
+        'A501280'
+        'A501380'
+        'A501833'
+        'A502110'
+        'A502612'
+        'A503731'
+        'A504262'
+        'A504931'
+        'A505883'
+        'A505979'
+        'A506165'
+        'A506432'
+        'A506540'
+        'A506620'
+        'A506877'
+        'A507103'
+        'A507288'
+        'A507557'
+        'A507629'
+        'A507944'
+        'A507964'
+        'A508163'
+        'A509076'
+        'A509203'
+        'A509781'
+        'A509814'
+        'A510177'
+        'A600020'
+        'A600040'
+        'A600054'
+        'A600057'
+        'A600092'
+        'A600123'
+        'A600154'
+        'A600174'
+        'A600182'
+        'A600228'
+        'A600332'
+        'A600374'
+        'A600435'
+        'A600548'
+        'A600605'
+        'A600662'
+        'A600679'
+        'A600721'
+        'A600727'
+        'A600832'
+        'A600842'
+        'A600873'
+        'A600904'
+        'A600928'
+        'A600935'
+        'A600943'
+        'A600993'
+        'A601089'
+        'A601094'
+        'A601108'
+        'A601150'
+        'A601261'
+        'A601349'
+        'A601389'
+        'A601420'
+        'A601423'
+        'A601484'
+        'A601487'
+        'A601523'
+        'A601571'
+        'A601590'
+        'A601593'
+        'A601605'
+        'A601612'
+        'A601628'
+        'A601631'
+        'A601650'
+        'A601821'
+        'A601970'
+        'A602104'
+        'A602647'
+        'A602969'
+        'A602999'
+        'A603123'
+        'A603167'
+        'A603174'
+        'A603255'
+        'A603355'
+        'A603407'
+        'A603408'
+        'A603471'
+        'A603488'
+        'A603498'
+        'A603675'
+        'A603680'
+        'A603723'
+        'A603730'
+        'A603814'
+        'A603843'
+        'A603862'
+        'A603876'
+        'A603934'
+        'A604051'
+        'A604076'
+        'A604103'
+        'A604185'
+        'A604254'
+        'A604263'
+        'A604346'
+        'A604375'
+        'AGRIFIR'
+        'ALGD'
+        'BARKAS'
+        'BLAAUBO'
+        'CH00001'
+        'CMWITTE'
+        'D000116'
+        'D000117'
+        'D000118'
+        'D000414'
+        'D000573'
+        'D000580'
+        'D000581'
+        'D000582'
+        'D000583'
+        'D000636'
+        'D000637'
+        'D000638'
+        'D000639'
+        'D000640'
+        'D000641'
+        'D000642'
+        'D000643'
+        'D000644'
+        'D000645'
+        'D000646'
+        'D000647'
+        'D000910'
+        'D000911'
+        'D000955'
+        'D001120'
+        'D001441'
+        'D001727'
+        'D001928'
+        'D002110'
+        'D002302'
+        'D002672'
+        'D002722'
+        'D002735'
+        'D002737'
+        'D002739'
+        'D002744'
+        'D002746'
+        'D002749'
+        'D002750'
+        'D002754'
+        'D002758'
+        'D002760'
+        'D002764'
+        'D002766'
+        'D002767'
+        'D002771'
+        'D002772'
+        'D002774'
+        'D002775'
+        'D002776'
+        'D002777'
+        'D002780'
+        'D002781'
+        'D002782'
+        'D002783'
+        'D002784'
+        'D002785'
+        'D002787'
+        'D002788'
+        'D002789'
+        'D002791'
+        'D002792'
+        'D002793'
+        'D002794'
+        'D002796'
+        'D002797'
+        'D002798'
+        'D002800'
+        'D002801'
+        'D002802'
+        'D002803'
+        'D002804'
+        'D002807'
+        'D002808'
+        'D002810'
+        'D002811'
+        'D002812'
+        'D002815'
+        'D002819'
+        'D002820'
+        'D002821'
+        'D002822'
+        'D002823'
+        'D002824'
+        'D002825'
+        'D002826'
+        'D002827'
+        'D002828'
+        'D002829'
+        'D002830'
+        'D002831'
+        'D002832'
+        'D002833'
+        'D002834'
+        'D002835'
+        'D002837'
+        'D002838'
+        'D002841'
+        'D002845'
+        'D002849'
+        'D002850'
+        'HIPPOST'
+        'KARTING'
+        'N000007'
+        'N000008'
+        'N000009'
+        'N000010'
+        'N000265'
+        'N001461'
+        'N001494'
+        'N001598'
+        'N001838'
+        'N003262'
+        'N003740'
+        'N004004'
+        'N004084'
+        'N004503'
+        'N005113'
+        'N007565'
+        'N009182'
+        'N009363'
+        'N009539'
+        'N009651'
+        'N009709'
+        'N009774'
+        'N010001'
+        'N010014'
+        'N010017'
+        'N010068'
+        'N010072'
+        'N010094'
+        'N010110'
+        'N010112'
+        'N010130'
+        'N010135'
+        'N010143'
+        'N010149'
+        'N010154'
+        'N010155'
+        'N010156'
+        'N010157'
+        'N010158'
+        'N010159'
+        'N010160'
+        'N010161'
+        'N010163'
+        'N010164'
+        'N010165'
+        'N010166'
+        'N010167'
+        'N010168'
+        'N010169'
+        'N010171'
+        'N010172'
+        'N010173'
+        'N010174'
+        'N010175'
+        'N010177'
+        'N010178'
+        'N010180'
+        'N010181'
+        'N010182'
+        'N010183'
+        'N010184'
+        'N010185'
+        'N010186'
+        'N010188'
+        'N010190'
+        'N010191'
+        'N010192'
+        'N010193'
+        'N010194'
+        'N010195'
+        'N010196'
+        'N010197'
+        'N010200'
+        'N010201'
+        'N010202'
+        'N010203'
+        'N010204'
+        'N010206'
+        'N010207'
+        'N010209'
+        'N010210'
+        'N010211'
+        'N010212'
+        'N010213'
+        'N010215'
+        'N010216'
+        'N010217'
+        'N010218'
+        'N010219'
+        'N010220'
+        'N010221'
+        'N010222'
+        'N010223'
+        'N010224'
+        'N010225'
+        'N010227'
+        'N010229'
+        'N010230'
+        'N010231'
+        'N010232'
+        'N010233'
+        'N010234'
+        'N010235'
+        'N010236'
+        'N010237'
+        'N010239'
+        'N010240'
+        'N010241'
+        'N010242'
+        'N010243'
+        'N010244'
+        'N010245'
+        'N010246'
+        'N010247'
+        'N010249'
+        'N010250'
+        'N010252'
+        'N010253'
+        'N010254'
+        'N010255'
+        'N010256'
+        'N010259'
+        'N010261'
+        'N010263'
+        'N010264'
+        'N010265'
+        'N010266'
+        'N010267'
+        'N010268'
+        'N010269'
+        'N010270'
+        'N010271'
+        'N010272'
+        'N010273'
+        'N010274'
+        'N010275'
+        'N010276'
+        'N010277'
+        'N010278'
+        'N010280'
+        'N010283'
+        'N010285'
+        'N010286'
+        'N010290'
+        'N010291'
+        'N010292'
+        'N010293'
+        'N010295'
+        'N010296'
+        'RENTENA'
+        'RITECO'
+        'W500558'
+        'W501053'
+        'W501764'
+        'W504262'
+        'W509781'
+        'W604960'
+        'WADDENR')
+      Values.Strings = (
+        'pieter'
+        'jantje'
+        'sfdhds'
+        'wqetwq'
+        'sadgfa'
+        'sdfsdh'
+        'sdfhsdh'
+        'dfshfsd'
+        'sfdsdh'
+        'xzcbnxcv'
+        'sxdcbfv'
+        'onlinezoo e.U'
+        'P. van Harten en Zn B.V.'
+        'Afvalverwerking Regio Nijmegen'
+        'Angela Leyenhorst'
+        'P-Fect Solutions'
+        'VCHN'
+        'Domino'#39's Pizza'
+        'test'
+        'Dock05'
+        'Bead-Wave Wholesale cc'
+        'benjamin mampaey'
+        'Digital Adventures'
+        'Flevo Garage'
+        'Bruno Verschaeren'
+        'ghs'
+        'Budget Fasteners'
+        'wwdig.nl'
+        'babymand.nl'
+        'F.G.R. Reuvers'
+        'Modesi BV'
+        'NetServ'
+        'Jeroen Hermans'
+        'Dirk Kissing'
+        'Broek Accounting'
+        'Ruben de Meijer'
+        'Impala ICT'
+        'Candela'
+        'ActiVast Beheerders'
+        'Picture Events'
+        'Electrofarm bv'
+        'Bob Rozema'
+        'Yagoda'
+        'Jansen Services & Solutions'
+        'Xites webdesign'
+        'A. Oosterwijk Advies'
+        'Speelectronics'
+        'Walter Bakker'
+        'ILLumore'
+        'Rondomzorg'
+        'Willem  Verhagen'
+        'MASSWEB'
+        'Cde  van der Weij'
+        'Rob Ter Morshuizen'
+        'Car Fantasy'
+        'Morebasketball'
+        'Andromeda VOF'
+        'Rivo Sports B.V.'
+        'Bloze Kriekske'
+        'Adorcom'
+        'HOKAP'
+        'Ykoon B.V.'
+        'N.S.D.V. Trivium'
+        'Capellegoed'
+        'AvG ICT Diensten'
+        'F.J. Ronchetti'
+        'Vrai-Culinair'
+        'VDMi'
+        'Kenan Dolutas'
+        'RYT Holding BV'
+        'Juwelier Groenland'
+        'Idhuna Jewels'
+        'Miluvo'
+        'test'
+        'Arnold Werkman'
+        'eLJeBee'
+        'Slaghek ICT'
+        'vinomolino'
+        'geng tuin- en parkmachines'
+        'Uniq-IT BV'
+        'kastinklusbedrijf'
+        'R.R. van Kuijk'
+        'rederijbek'
+        'J & J Renovatie'
+        'OGB International'
+        'Fiscoop'
+        'Handelsonderneming Graziella'
+        'Almere Ercoreizen'
+        'Nagas Treasure'
+        'Zwaanzinnig'
+        'wester health supplies'
+        'Victorian Flowers'
+        'Sails4s'
+        'Van Esch Trading'
+        'WSO'
+        'Wim Bax'
+        'Henry Van Reenen'
+        'Stephan Ververda'
+        'Joel Meinema'
+        'Alinde Ondersteunt'
+        ''
+        'Assembla Computers'
+        'BizCare CV'
+        'WVNS'
+        'Allard Katstra'
+        'De Kruk Specialist'
+        'Edwin Van Heerewaarden'
+        'Amustore'
+        'arcad'
+        'Kats Techniek'
+        'Franklin Service Products B.V.'
+        'Dream Reef'
+        'CompuSell Nederland'
+        'KwaliteitsSystemen van Os B.V.'
+        'dagzondervlees.nl'
+        '-'
+        'Stichting Suvadra'
+        'Wilsum Multimedia'
+        'Westhoek IT'
+        'Johan Droogers'
+        'Stormlantern'
+        'NBH bedrijfskleding'
+        'Mr Nogevenniet Effetesten'
+        'Biofaan'
+        '3D Techdraw'
+        'Rinket'
+        'Dave Teunissen'
+        'PersoneelenVerzuim'
+        'Jacob Oosterhof'
+        'Go Incognito kledingverhuur'
+        'Webwinkel Klein'
+        'VLBM'
+        'BC Consulting'
+        'Welkoop'
+        'Standaard Debiteur'
+        'Opbrengst Barkassa'
+        'Janice Blaauboer'
+        'Rolf Bammerlin'
+        'Carlo Witte'
+        'sdfh'
+        'ZV'
+        ''
+        'Denise Janthur'
+        'test persoon'
+        'test persoon'
+        'pieter'
+        'test persoon'
+        'pieter'
+        'winnie'
+        'Bosman'
+        'Winnie'
+        'Winnie'
+        'Winnie'
+        'winnie'
+        'winnie'
+        'Bosman'
+        'Winnie Bosman'
+        'test'
+        'test'
+        'test'
+        'test'
+        'test persoon'
+        'Manuela Gr&#246;nstad'
+        'Werner B&#246;ttcher'
+        'Evelyn Reinl'
+        'Ines Depner'
+        'Andr&#233; Niew&#246;hner'
+        'Nina Barrett'
+        'Jan Maarfeld'
+        'Christina Nowak'
+        'Andrea Timp-Atzeni'
+        'Nancy Kling'
+        'Isabella Henn'
+        'Robert Nickel'
+        'Hundefriseur'
+        'Stephan Wiesigkstrauch'
+        'Seldina Mehic'
+        'Angelika Teschner'
+        'Bianca Enzenro&#223;'
+        'Steffen Schulze'
+        'Michaela Tschech'
+        'Jens Gerling'
+        'J&#252;rgen Kelm'
+        'Angie Kreuter'
+        'ursula vogel'
+        'Edith Bobel'
+        'Bettina  von Nottbeck-Winnen'
+        'Alexandra Bloch'
+        'Petra Schurf'
+        'Thomas Bodensohn'
+        'Thomas Rieger'
+        'Helga Tr&#246;ller'
+        'silke lex'
+        'Isabel Magnasco'
+        'Stefan Bartl'
+        'Claudia Mohler'
+        'Inken Shakchir'
+        'Daniela Liebmann'
+        'Frauke Weidinger'
+        'Ilona Bruss'
+        'sandra nickel'
+        'Irmgard Schmidt'
+        'Manfred Kornberger'
+        'Sabine H&#246;fs'
+        'Claudio Politano'
+        'Andreas Fuchs'
+        'Kerstin Uhlig'
+        'Manuela Bergmann'
+        'kirsten burk-strehlau'
+        'Oliver Bischof'
+        'Michael Schulthei&#223;'
+        'Ingeborg Zartenar'
+        'Kiedrowski Racing'
+        'Maria Tiborski'
+        'Tom Werner'
+        'Michaela Ku&#223;ler'
+        'Manfred Fleck'
+        'Claudia Frensch'
+        'Irene Richter'
+        'Andre Br&#228;mer'
+        'Marion Edleditsch'
+        'Martin Zahner'
+        'Cornelius Fink'
+        'Arno Viebke'
+        'Robert Wagner'
+        'Alfred C. G. Nolte KG'
+        'Carola Kooymans'
+        'Michael Elbers'
+        'Silvia H&#228;lbig'
+        'Nadine Koch'
+        'Dirk Kleiner'
+        'Daniela Wessendorf'
+        'Astrid Friebe'
+        'Andreas Gebel'
+        'Helge  Tischer'
+        'Juliane Schulte'
+        'Winnie Fromberger'
+        'Patricia Kolz'
+        'Sascha Langenbach'
+        'Markus Wensauer'
+        'Hippostar'
+        'Karting Texel'
+        'A. IJsselstein'
+        'Mevrouw Smit'
+        'K.A.T. Kattengedrag, Advies & Thera'
+        'Martin Schouten'
+        'P van Yperen'
+        'Claudia van Sligtenhorst'
+        'Melenkurion'
+        'Rieneke van der Veen'
+        'cuny de nie'
+        'D. Cozijnsen'
+        'jessica wesselius'
+        'Renate van Wijk'
+        'L. Rijnen-Stuijt'
+        'annet fiegel'
+        'dita versteeg'
+        'm van soest'
+        'andrea deene'
+        'Jose Heutinck'
+        'niels willems'
+        'Rachel van Lingen'
+        'A Louissen'
+        'ans achterkamp'
+        'joke faber'
+        'auke ten ten Hoeve'
+        'Robbie barelds'
+        'lisanne verwaaijen'
+        'Merel Volkers'
+        'Laurens De Muer'
+        'Jeroen Klomp'
+        'Esther Egeter'
+        'Kyo-Jitsu-Balance'
+        'esther ooms'
+        'bart duivenvoorden'
+        'geen'
+        'Cattery Van IngenSande'
+        'P Krikken'
+        'Larisa Landr&#233;'
+        'Vincent Sanders'
+        'michel olden photography'
+        'mendy van der  zwart'
+        'ams vastgoed'
+        'Chantal Leijen'
+        'Andor Barocsi'
+        'Erwin Wijburg'
+        'Henkel Belgium - K'#39'hout - Publicite'
+        'yvonne tamminga'
+        'Mila Groot'
+        'S. Smeekes'
+        'Martijn Barendregt'
+        'Christa de  Geus-Falkena'
+        'Patricia Balik'
+        'Sandra van Galen'
+        'G Kurvink'
+        'H Stuivenberg'
+        'bert snijder'
+        'OBS De Kleine Beer'
+        'Mariska  Rienks'
+        'cindy buys'
+        'C Snel'
+        'bram husken'
+        'Marc Breukers'
+        'M Sjoerdsma'
+        'Michelle  Miracle'
+        'Jan Metselaar'
+        'rolinka blankenstijn'
+        'Renate Neef'
+        'Sacha Terluin'
+        'Heleen van den Belt'
+        'Eveline Peverelli'
+        'Sonja de Vriend'
+        'Pieter Rademaker'
+        'diana hoogland'
+        'Harry van de  Pol'
+        'katrien hermans'
+        'Corry Back'
+        'Ellen de Geus'
+        'Sonja Kracht'
+        'Max de  Boer'
+        'Tim van der  Zwet'
+        'Ri&#235;tte Mellink'
+        'john de haan agenturen'
+        'Marielle Garritsen'
+        'Marvin Kooij'
+        'mariska marelis'
+        'gerda fransman'
+        'T. Leppers'
+        'Dennis Jager'
+        'K Verberne'
+        'zandbergen'
+        'Herma Kreunen'
+        'gonda dijkstra'
+        'Annemieke Scheeres'
+        'marianne van der donk'
+        'CPW Molenaar'
+        'j Arts'
+        'Michael Swolfs'
+        'W.F.D van der Panne'
+        'Annet Wiegman'
+        'Anne Santing'
+        'marian loermans'
+        'famke beeloo'
+        'Chris Momberger'
+        'Brenda Visser'
+        'Geerlof Stam'
+        'Natascha Zohlandt'
+        'Henny Manukilej'
+        'Marcel Branger'
+        'claudia huijgens'
+        'kelly van reijen'
+        'wilma hendriks'
+        'jouke kromkamp'
+        'Merel Trumpie'
+        'EvaMelody van Groeningen'
+        'Susan Prins'
+        'Richard Meester'
+        'b.breddels'
+        'S.L. Knol'
+        'Elke Hagenaars'
+        'jos deckers'
+        'Bianca  le Febre'
+        'suzanne ardon'
+        'willem jan  Van den Ham'
+        'Marijke Dijkstra'
+        'Patrick Huenestein'
+        'Petra de Jong'
+        'F Cserep'
+        'Michiel de Ru'
+        'Bibi Pijnappel'
+        'Valerie Kroszijnski'
+        'Caroline Timmerman'
+        'Diana de Reus'
+        'Brigitte Boer'
+        'Cindy van Hattum'
+        'Marco b. Journalistiek'
+        'odette van santen'
+        'Laura Roosen'
+        'Michael Westhoeve'
+        's jansen'
+        'Dominique Vijgen'
+        'Willlem Hupkes'
+        'Ronald von Ende'
+        'debby holzken'
+        'Dirk-Jan van Zuijdam'
+        'c.h. franse'
+        'ron voots'
+        'robert de wit'
+        'Jolanda Terrink'
+        'Marca Jager'
+        'Andries Faassen'
+        'Garage Rentenaar'
+        'Pim Tjepkema-Riteco'
+        'Bruno Verschaeren'
+        'OptiTune Bike Performance'
+        'Happy dogprint'
+        'Jeroen Hermans'
+        'Willem  Verhagen'
+        'Fotografie Johan Brouwer B.V.'
+        'LR Waddenruiters en PC Kleppertjes')
+      LookupDataset = 'DSCUSTOMER'
+      SearchDataset = 'DSCUSTOMER'
+      Description = 'Select customer'
+      Hint = ''
+      Search = ''
+    end>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection1
+      end
+      item
+        Section = TRpSection3
+      end
+      item
+        Section = TRpSection0
+      end
+      item
+        Section = TRpSection4
+      end
+      item
+        Section = TRpSection2
+      end>
+    Alias = 'SALESPERCUST'
+  end
+  object TRpSection0: TRpSection
+    Width = 10772
+    Height = 285
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression2
+      end
+      item
+        Component = TRpExpression3
+      end
+      item
+        Component = TRpExpression12
+      end
+      item
+        Component = TRpExpression14
+      end
+      item
+        Component = TRpExpression13
+      end
+      item
+        Component = TRpExpression15
+      end>
+    AutoExpand = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection1: TRpSection
+    Width = 10772
+    Height = 1560
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpheader
+    Components = <
+      item
+        Component = TRpExpression4
+      end
+      item
+        Component = TRpExpression5
+      end
+      item
+        Component = TRpExpression6
+      end
+      item
+        Component = TRpExpression7
+      end
+      item
+        Component = TRpExpression8
+      end
+      item
+        Component = TRpExpression9
+      end
+      item
+        Component = TRpLabel4
+      end
+      item
+        Component = TRpLabel5
+      end
+      item
+        Component = TRpLabel6
+      end
+      item
+        Component = TRpLabel7
+      end
+      item
+        Component = TRpLabel9
+      end
+      item
+        Component = TRpLabel10
+      end
+      item
+        Component = TRpExpression10
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection2: TRpSection
+    Width = 10772
+    Height = 510
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpfooter
+    Components = <>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression4: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 1605
+    PosY = 465
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.Straat'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression5: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 1605
+    PosY = 690
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'trim(ADMINISTRATIEGEGEVENS.Postcode+'#39' '#39' + ADMINISTRATIEGEGEVENS.' +
+      'Plaats  )'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression6: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 1605
+    PosY = 915
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.Land'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression7: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 1605
+    PosY = 1155
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.TelefoonNummer'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression8: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 5985
+    PosY = 690
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.BTWNummer'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression9: TRpExpression
+    Width = 3150
+    Height = 264
+    PosX = 5985
+    PosY = 465
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.KVKNummer'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpLabel4: TRpLabel
+    Width = 1605
+    Height = 240
+    PosX = 0
+    PosY = 465
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Straat'
+  end
+  object TRpLabel5: TRpLabel
+    Width = 1605
+    Height = 225
+    PosX = 0
+    PosY = 690
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Postcode Plaats'
+  end
+  object TRpLabel6: TRpLabel
+    Width = 1275
+    Height = 225
+    PosX = 0
+    PosY = 915
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Land'
+  end
+  object TRpLabel7: TRpLabel
+    Width = 1380
+    Height = 225
+    PosX = 0
+    PosY = 1155
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Telefoon'
+  end
+  object TRpLabel9: TRpLabel
+    Width = 810
+    Height = 225
+    PosX = 5175
+    PosY = 465
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'KVKNr'
+  end
+  object TRpLabel10: TRpLabel
+    Width = 810
+    Height = 225
+    PosX = 5175
+    PosY = 690
+    Type1Font = poHelvetica
+    Alignment = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'BTWNr'
+  end
+  object TRpExpression10: TRpExpression
+    Width = 6450
+    Height = 345
+    PosX = 0
+    PosY = 120
+    Type1Font = poHelvetica
+    FontSize = 18
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.Bedrijfsnaam'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression0: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 0
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.DDATE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression1: TRpExpression
+    Width = 1155
+    Height = 270
+    PosX = 1605
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.SDOCNO'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression2: TRpExpression
+    Width = 1830
+    Height = 225
+    PosX = 2760
+    PosY = 0
+    Type1Font = poHelvetica
+    CutText = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.SSTOCKCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression3: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 8055
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '#0.00'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.FSELLINGPRICE'
+    DisplayFormat = '#0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpSection3: TRpSection
+    Width = 10772
+    Height = 75
+    SubReport = TRpSubReport0
+    GroupName = 'DAYGROUP'
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgheader
+    Components = <>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = 'SALESPERCUST.DDATE'
+    BeginPageExpression = ''
+    ChangeExpression = 'SALESPERCUST.DDATE'
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection4: TRpSection
+    Width = 10772
+    Height = 375
+    SubReport = TRpSubReport0
+    GroupName = 'DAYGROUP'
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgfooter
+    Components = <
+      item
+        Component = TRpExpression11
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = 'SALESPERCUST.DDATE'
+    BeginPageExpression = ''
+    ChangeExpression = 'SALESPERCUST.DDATE'
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression11: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 9435
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '#0.00'
+    Aggregate = rpAgGroup
+    GroupName = 'DAYGROUP'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.FINCLUSIVEAMT'
+    DisplayFormat = '#0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression12: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 9435
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '#0.00'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.FINCLUSIVEAMT'
+    DisplayFormat = '#0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression14: TRpExpression
+    Width = 360
+    Height = 270
+    PosX = 7710
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.FQTYSHIPPED'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression13: TRpExpression
+    Width = 360
+    Height = 225
+    PosX = 9090
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 1
+    DataType = rpParamDouble
+    DisplayFormat = ' -00.%'
+    AutoExpand = False
+    AutoContract = False
+    PrintNulls = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.FITEMDISCOUNT'
+    DisplayFormat = ' -00.%'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression15: TRpExpression
+    Width = 3345
+    Height = 225
+    PosX = 4605
+    PosY = 0
+    Type1Font = poHelvetica
+    CutText = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SALESPERCUST.SEXTRADESC'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

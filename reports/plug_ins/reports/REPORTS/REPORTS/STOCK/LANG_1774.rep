@@ -1,0 +1,278 @@
+object TRpReport
+  PageHeight = 8120
+  PageWidth = 5742
+  PageBackColor = 16777215
+  PrinterSelect = pRpTicketPrinter
+  SubReports = <
+    item
+      SubReport = TRpSubReport1
+    end
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'LIJST'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT stock.WStockID ,'#13#10'stock.FQtyOnHand AantalAanw'#13#10'FROM stock' +
+        #13#10'   LEFT OUTER JOIN Groups Groups'#13#10'   ON  (stock.WReportingGrou' +
+        'p1ID = Groups.WGroupID)  '#13#10'   LEFT OUTER JOIN Unit Unit'#13#10'   ON  ' +
+        '(stock.WUnitID = Unit.WUnitID) '#13#10'where   @SQL@'
+    end
+    item
+      Alias = 'ADMINISTRATIEGEGEVENS'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SCompanyName Bedrijfsnaam,'#13#10'SCompanyRegNo KVKNummer,'#13#10'SEm' +
+        'ailAddress EMailadres,'#13#10'SAddress1 Straat,'#13#10'SAddress2 Plaats,'#13#10'SA' +
+        'ddress3 Land,'#13#10'SPostCode Postcode,'#13#10'SPhoneNumber TelefoonNummer,' +
+        #13#10'SFaxNumber FaxNummer,'#13#10'STaxRegNo BTWNummer,'#13#10'SAccountReportNam' +
+        'e1 GrootBoekRapGroep1,'#13#10'SAccountReportName1 GrootBoekRapGroep2,'#13 +
+        #10'SDebtorReportName1 DebiteurenRapGroep1,'#13#10'SDebtorReportName2 Deb' +
+        'iteurenRapGroep2,'#13#10'SCreditorReportName1 CrediteurenRapGroep1,'#13#10'S' +
+        'CreditorReportName2 CrediteurenRapGroep2,'#13#10'SStockReportName1 Voo' +
+        'rraadRapGroep1,'#13#10'SStockReportName1 VoorraadRapGroep2'#13#10'from Sysva' +
+        'rs '
+    end
+    item
+      Alias = 'VOORRAADSELECTIE'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select SStockcode Code, SDescription Omschrijving from stock'#13#10'or' +
+        'der by SStockcode '
+    end
+    item
+      Alias = 'VOORRAAD'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT '#13#10'stock.WStockID Nr, '#13#10'stock.SStockCode Code, '#13#10'stock.SBa' +
+        'rCodeNumber Barcode, '#13#10'stock.SDescription Omschrijving, '#13#10'stock.' +
+        'WReportingGroup1ID RapGroep1Id, '#13#10'stock.WReportingGroup2ID RapGr' +
+        'oep2ID, '#13#10'stock.FOpeningAveCost GemKosten, '#13#10'stock.FQtyOnHand Aa' +
+        'ntalAanw, '#13#10'stock.FOpeningQty OpeningsAantal, '#13#10'stock.FReorderQt' +
+        'y HerbestellenNivo, '#13#10'stock.BApplyInvoiceDiscount FactuurKorting' +
+        ', '#13#10'stock.WSalesAccountID VerkoopRekId, '#13#10'stock.WStockAccountID ' +
+        'VoorraadRekId, '#13#10'stock.WCostAccountID KostenVanVerkoopRekId, '#13#10's' +
+        'tock.WInputTaxID InkoopBTWRekId, '#13#10'stock.WOutputTaxID VerkoopBtw' +
+        'RekId, '#13#10'stock.FSellingPrice1 VerkoopPrijs1, '#13#10'stock.FSellingPri' +
+        'ce2 VerkoopPrijs2, '#13#10'stock.FSellingPrice3 VerkoopPrijs3, '#13#10'stock' +
+        '.FUnitAveCost GemKosten, '#13#10'stock.FUnitCost LaatePRijs, '#13#10'stock.D' +
+        'SysDate DatumMutatie, '#13#10'stock.BDisabled Actief, '#13#10'stock.WUnitID ' +
+        'ArtTypeId,'#13#10'Unit.SDescription ArtTypeOmsch'#13#10', Groups.WSortNo Gro' +
+        'ep1SorteerVolg,'#13#10' Groups.SDescription Groep1Omschr'#13#10'FROM stock'#13#10 +
+        '   LEFT OUTER JOIN Groups Groups'#13#10'   ON  (stock.WReportingGroup1' +
+        'ID = Groups.WGroupID)  '#13#10'   LEFT OUTER JOIN Unit Unit'#13#10'   ON  (s' +
+        'tock.WUnitID = Unit.WUnitID) '#13#10'where  stock.WStockID =:WStockID'
+      DataSource = 'LIJST'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end
+    item
+      Alias = 'INMEMFILES'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatamybase
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'SQL'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = 'WStockid = 20'
+      ParamType = rpParamSubst
+      Datasets.Strings = (
+        'LIJST')
+      Description = ''
+      Hint = ''
+      Search = '@SQL@'
+    end>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'VOORRAAD'
+    ParentSubReport = TRpSubReport1
+    ParentSection = TRpSection1
+  end
+  object TRpSection0: TRpSection
+    Width = 3960
+    Height = 1290
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression3
+      end
+      item
+        Component = TRpBarcode0
+      end>
+    HorzDesp = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression1: TRpExpression
+    Width = 3210
+    Height = 240
+    PosX = 120
+    PosY = 345
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'VOORRAAD.Omschrijving'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression3: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 2295
+    PosY = 120
+    Type1Font = poHelvetica
+    Alignment = 2
+    DataType = rpParamCurrency
+    DisplayFormat = '##,###,###,##0.00'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'VOORRAAD.VerkoopPrijs1'
+    DisplayFormat = '##,###,###,##0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpBarcode0: TRpBarcode
+    Width = 3675
+    Height = 465
+    PosX = 120
+    PosY = 690
+    Modul = 36
+    Ratio = 2.000000000000000000
+    Typ = bcCode39
+    PrintCondition = '(TRIM(VOORRAAD.Barcode) <> '#39#39')'
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    DisplayFormat = ''
+    Expression = 'VOORRAAD.Barcode'
+  end
+  object TRpExpression0: TRpExpression
+    Width = 2175
+    Height = 225
+    PosX = 120
+    PosY = 120
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'VOORRAAD.Code'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpSubReport1: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection1
+      end>
+    Alias = 'LIJST'
+  end
+  object TRpSection1: TRpSection
+    Width = 3810
+    Height = 60
+    SubReport = TRpSubReport1
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    ChildSubReport = TRpSubReport0
+    PrintCondition = ''
+    DoBeforePrint = 'SETREPEATCOUNT('#39'VOORRAAD'#39',LIJST.AANTALAANW)'
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+end

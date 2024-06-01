@@ -1,0 +1,190 @@
+object TRpReport
+  PageHeight = 8120
+  PageWidth = 5742
+  PageBackColor = 16777215
+  LeftMargin = 283
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'ADMINISTRATIEGEGEVENS'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SCompanyName Bedrijfsnaam,'#13#10'SCompanyRegNo KVKNummer,'#13#10'SEm' +
+        'ailAddress EMailadres,'#13#10'SAddress1 Straat,'#13#10'SAddress2 Plaats,'#13#10'SA' +
+        'ddress3 Land,'#13#10'SPostCode Postcode,'#13#10'SPhoneNumber TelefoonNummer,' +
+        #13#10'SFaxNumber FaxNummer,'#13#10'STaxRegNo BTWNummer,'#13#10'SAccountReportNam' +
+        'e1 GrootBoekRapGroep1,'#13#10'SAccountReportName1 GrootBoekRapGroep2,'#13 +
+        #10'SDebtorReportName1 DebiteurenRapGroep1,'#13#10'SDebtorReportName2 Deb' +
+        'iteurenRapGroep2,'#13#10'SCreditorReportName1 CrediteurenRapGroep1,'#13#10'S' +
+        'CreditorReportName2 CrediteurenRapGroep2,'#13#10'SStockReportName1 Voo' +
+        'rraadRapGroep1,'#13#10'SStockReportName1 VoorraadRapGroep2'#13#10'from Sysva' +
+        'rs '
+    end
+    item
+      Alias = 'LABEL'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select  '#13#10'Account.SMainAccountCode, '#13#10'Account.SSubAccountCode,'#13#10 +
+        'Account.SAccountCode,'#13#10'Account.SDescription,'#13#10'Debtor.*,'#13#10'contact' +
+        's.*'#13#10'from '#13#10'Debtor JOIN Account on (Debtor.WAccountID = Account.' +
+        'WAccountID)'#13#10'left join contacts on (Debtor.WContactId =Contacts.' +
+        'Recordid)'#13#10'where SAccountCode >= :FromCode and SAccountCode <= :' +
+        'ToCode '
+    end
+    item
+      Alias = 'DEBTOR'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SAccountCode Code , SDescription Omschrijving from accoun' +
+        't where WAccountTypeId = 1'#13#10'order by SAccountCode'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end
+    item
+      Alias = 'INMEMFILES'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatamybase
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'FROMCODE'
+      AllowNulls = False
+      Value = '0DAVIE'
+      Datasets.Strings = (
+        'LABEL')
+      SearchDataset = 'DEBTOR'
+      Description = ''
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'TOCODE'
+      AllowNulls = False
+      Value = '0SMITH'
+      Datasets.Strings = (
+        'LABEL')
+      SearchDataset = 'DEBTOR'
+      Description = ''
+      Hint = ''
+      Search = ''
+    end>
+  Language = 0
+  StreamFormat = rpStreamText
+  ReportAction = []
+  PreviewAbout = False
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'LABEL'
+  end
+  object TRpSection0: TRpSection
+    Width = 5310
+    Height = 1905
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end>
+    HorzDesp = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression0: TRpExpression
+    Width = 3450
+    Height = 225
+    PosX = 120
+    PosY = 345
+    Type1Font = poHelvetica
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = True
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF((LABEL.SDESCRIPTION <> LABEL.FIRSTNAME+ LABEL.LASTNAME) and ' +
+      '(LABEL.FIRSTNAME+ LABEL.LASTNAME <> '#39#39'), '#39' '#39'  +LABEL.FIRSTNAME +' +
+      #39'  '#39' + LABEL.LASTNAME + #13+#10,'#39#39')'#13#10'+ LABEL.SPOSTAL1'#13#10'+ #13+#10' +
+      ' + LABEL.SPOSTAL2 +'#39' '#39' +LABEL.SPOSTAL3+'#39'  '#39' '#13#10'+ #13+#10 + LABEL.' +
+      'SPOSTALCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression1: TRpExpression
+    Width = 3450
+    Height = 225
+    PosX = 120
+    PosY = 120
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.SDESCRIPTION'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end
