@@ -1,0 +1,1 @@
+Update dochead set bprinted = 1 where Wdocid = :wdocid

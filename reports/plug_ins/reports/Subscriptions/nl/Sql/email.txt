@@ -1,0 +1,65 @@
+SELECT 0  REGISTERS_SEND , 
+SEmail REGISTERS_EMAIL,
+a.WAccountId REGISTERS_ID, 
+a.WAccountId , 
+a.WSUBSCRIPT_id,
+cast('' as char(500)) REGISTER_ATT ,
+c.SAccountCode,
+c.SAccountCode Code,
+c.SDescription, 
+SPassword,
+SPostal1, 
+SPostal2, 
+SPostal3, 
+SPostalCode, 
+SDelivery1,
+SDelivery2,
+SDelivery3, 
+SDeliveryCode, 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBankName, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+trim(trim(trim(con.Title) {concat} ' ' {concat} con.Firstname) {concat} ' ' {concat} con.Lastname) CONTACTPERSOON
+from SUBSCRIPTION_ACCOUNT a 
+join debtor b on a.WAccountId = b.wAccountId
+join Account c on a.WAccountId = c.WAccountId 
+left join Contacts con on b.WcontactId = con.RecordId 
+where dNextrun - subscript_warning <= current_date and bwarningsend = 0
+and bEnable = 1
+and c.WAccountID in (select cast(Field1 as integer) from REPORT_TRANSPORT where USERSESSIONID =  {currentsessionid} and WFIELDTYPE = 0)
+
+
+group by
+WSUBSCRIPT_id ,
+REGISTERS_SEND , 
+REGISTERS_EMAIL,
+REGISTERS_ID, 
+REGISTER_ATT ,
+c.SAccountCode ,
+c.SAccountCode ,
+c.SDescription, 
+SPassword,
+SPostal1, 
+SPostal2, 
+SPostal3, 
+SPostalCode, 
+SDelivery1,
+SDelivery2,
+SDelivery3, 
+SDeliveryCode, 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBankName, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+CONTACTPERSOON
