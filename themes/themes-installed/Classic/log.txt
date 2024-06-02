@@ -1,0 +1,5 @@
+F:\osfinancials5\bin\themes\Classic\backward.bmp
+F:\osfinancials5\bin\themes\Classic\forward.bmp
+F:\osfinancials5\bin\themes\Classic\end.bmp
+F:\osfinancials5\bin\themes\Classic\retry.bmp
+F:\osfinancials5\bin\themes\Classic\Send.bmp
