@@ -15976,7 +15976,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3642
-      Text = 'Maak tabelbewegings skoon'
+      Text = 'Maak tafelbewegings skoon'
     end
     item
       IndexID = 3643
