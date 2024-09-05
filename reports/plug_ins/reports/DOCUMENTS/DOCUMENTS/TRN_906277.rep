@@ -272,7 +272,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 111
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -390,7 +390,7 @@ object _1: TRpReport
   end
   object TRpSection1: TRpSection
     Width = 10725
-    Height = 3810
+    Height = 3795
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -2172,7 +2172,7 @@ object _1: TRpReport
   object TRpExpression53: TRpExpression
     Width = 4590
     Height = 225
-    PosX = 2880
+    PosX = 3105
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 15
@@ -2922,7 +2922,7 @@ object _1: TRpReport
   object TRpExpression35: TRpExpression
     Width = 185
     Height = 230
-    PosX = 9660
+    PosX = 10125
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 8
@@ -2947,7 +2947,7 @@ object _1: TRpReport
   object TRpExpression89: TRpExpression
     Width = 1725
     Height = 225
-    PosX = 7935
+    PosX = 8400
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 8
@@ -3031,7 +3031,7 @@ object _1: TRpReport
   object TRpShape3: TRpShape
     Width = 5355
     Height = 2310
-    PosX = 5400
+    PosX = 5443
     PosY = 900
     BrushStyle = 1
     BrushColor = 0
@@ -3041,7 +3041,7 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpShape1: TRpShape
-    Width = 5400
+    Width = 5443
     Height = 2310
     PosX = 0
     PosY = 907

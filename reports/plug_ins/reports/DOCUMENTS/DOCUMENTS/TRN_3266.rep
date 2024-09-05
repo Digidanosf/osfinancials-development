@@ -390,7 +390,7 @@ object _1: TRpReport
   end
   object TRpSection1: TRpSection
     Width = 10725
-    Height = 3810
+    Height = 3765
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -2491,8 +2491,9 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'trim(TYPES.SDESCRIPTION)+'#39'  '#39'+(CUSTOM('#39'GETTEXTLANG'#39',906275,'#39'Acce' +
-      'pted'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)+('#39': '#39'))'
+      'CUSTOM('#39'GETTEXTLANG'#39',3266,'#39'BOM(Production'#39',CLIENTORDEFLANG.SLANG' +
+      'UAGE,0,0)+'#39'  '#39'+(CUSTOM('#39'GETTEXTLANG'#39',906275,'#39'Accepted'#39',CLIENTORD' +
+      'EFLANG.SLANGUAGE,0,0)+('#39': '#39'))'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -2649,7 +2650,7 @@ object _1: TRpReport
   object TRpShape3: TRpShape
     Width = 5355
     Height = 2310
-    PosX = 5400
+    PosX = 5443
     PosY = 0
     BrushStyle = 1
     BrushColor = 0
@@ -2659,7 +2660,7 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpShape1: TRpShape
-    Width = 5400
+    Width = 5443
     Height = 2310
     PosX = 0
     PosY = 0

@@ -232,7 +232,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 72
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
