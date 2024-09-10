@@ -1,0 +1,5 @@
+Select '<A href="https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || 
+parcel.SPOSTALCODE || '">https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || 
+parcel.SPOSTALCODE || '</a>' FROM PARCEL_XDBSEND,  PARCEL 
+where SDOCNO = :SDOCNO
+and PARCEL.WDocid = :WDOCID
