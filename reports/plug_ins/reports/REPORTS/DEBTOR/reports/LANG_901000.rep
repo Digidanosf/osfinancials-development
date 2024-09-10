@@ -51,7 +51,7 @@ object _1: TRpReport
       Name = 'WACCOUNTID'
       NeverVisible = True
       AllowNulls = False
-      Value = 51
+      Value = 257
       ParamType = rpParamInteger
       Datasets.Strings = (
         'SUBSCIPTIONS')
@@ -90,7 +90,7 @@ object _1: TRpReport
   end
   object TRpSection0: TRpSection
     Width = 10772
-    Height = 225
+    Height = 315
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -131,7 +131,7 @@ object _1: TRpReport
   end
   object TRpSection1: TRpSection
     Width = 10772
-    Height = 3315
+    Height = 3600
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -213,6 +213,12 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression35
+      end
+      item
+        Component = TRpShape4
+      end
+      item
+        Component = TRpExpression19
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -451,7 +457,7 @@ object _1: TRpReport
     Width = 1155
     Height = 225
     PosX = 1965
-    PosY = 2865
+    PosY = 3195
     Type1Font = poHelvetica
     FontSize = 9
     FontStyle = 1
@@ -467,31 +473,6 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'CUSTOM('#39'GETTEXTLANG'#39',257,'#39'date'#39',0,0,0)'
-    DisplayFormat = ''
-    ExportDisplayFormat = ''
-    AgIniValue = '0'
-    ExportExpression = ''
-  end
-  object TRpExpression11: TRpExpression
-    Width = 1155
-    Height = 225
-    PosX = 15
-    PosY = 2865
-    Type1Font = poHelvetica
-    FontSize = 9
-    FontStyle = 1
-    Alignment = 1
-    AutoExpand = False
-    AutoContract = False
-    ExportPosition = 0
-    ExportSize = 1
-    ExportDoNewLine = False
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-    WFontName = 'Arial'
-    LFontName = 'Helvetica'
-    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1707,'#39'date'#39',0,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -563,12 +544,13 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1725
-    Height = 225
+    Width = 9540
+    Height = 240
     PosX = 1155
-    PosY = 2415
+    PosY = 2625
     Type1Font = poHelvetica
     FontStyle = 1
+    WordWrap = True
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -589,7 +571,7 @@ object _1: TRpReport
     Width = 690
     Height = 225
     PosX = 0
-    PosY = 2415
+    PosY = 2640
     Type1Font = poHelvetica
     FontStyle = 1
     AutoExpand = False
@@ -612,7 +594,7 @@ object _1: TRpReport
     Width = 1155
     Height = 225
     PosX = 8175
-    PosY = 2865
+    PosY = 3195
     Type1Font = poHelvetica
     FontSize = 9
     FontStyle = 1
@@ -637,7 +619,7 @@ object _1: TRpReport
     Width = 5175
     Height = 240
     PosX = 120
-    PosY = 690
+    PosY = 585
     Type1Font = poHelvetica
     FontStyle = 2
     AutoExpand = False
@@ -660,7 +642,7 @@ object _1: TRpReport
     Width = 5175
     Height = 240
     PosX = 120
-    PosY = 915
+    PosY = 810
     Type1Font = poHelvetica
     FontStyle = 2
     AutoExpand = False
@@ -683,7 +665,7 @@ object _1: TRpReport
     Width = 5175
     Height = 240
     PosX = 120
-    PosY = 1155
+    PosY = 1050
     Type1Font = poHelvetica
     FontStyle = 2
     AutoExpand = False
@@ -804,7 +786,7 @@ object _1: TRpReport
     Width = 3118
     Height = 240
     PosX = 1155
-    PosY = 1605
+    PosY = 1500
     Type1Font = poHelvetica
     FontSize = 8
     FontStyle = 2
@@ -828,7 +810,7 @@ object _1: TRpReport
     Width = 1984
     Height = 225
     PosX = 120
-    PosY = 1605
+    PosY = 1500
     Type1Font = poHelvetica
     FontSize = 8
     FontStyle = 2
@@ -852,7 +834,7 @@ object _1: TRpReport
     Width = 1984
     Height = 225
     PosX = 120
-    PosY = 1845
+    PosY = 1740
     Type1Font = poHelvetica
     FontSize = 8
     FontStyle = 2
@@ -876,7 +858,7 @@ object _1: TRpReport
     Width = 3118
     Height = 240
     PosX = 1155
-    PosY = 1845
+    PosY = 1740
     Type1Font = poHelvetica
     FontSize = 8
     FontStyle = 2
@@ -969,22 +951,11 @@ object _1: TRpReport
     AgIniValue = '0'
     ExportExpression = ''
   end
-  object TRpShape2: TRpShape
-    Width = 10755
-    Height = 105
-    PosX = 0
-    PosY = 2190
-    Shape = rpsHorzLine
-    PenWidth = 0
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-  end
   object TRpExpression28: TRpExpression
     Width = 5175
     Height = 345
     PosX = 120
-    PosY = 120
+    PosY = 15
     Type1Font = poHelvetica
     FontSize = 11
     FontStyle = 1
@@ -1008,7 +979,7 @@ object _1: TRpReport
     Width = 5175
     Height = 240
     PosX = 120
-    PosY = 465
+    PosY = 360
     Type1Font = poHelvetica
     FontStyle = 2
     AutoExpand = False
@@ -1190,7 +1161,7 @@ object _1: TRpReport
     Width = 10755
     Height = 105
     PosX = 0
-    PosY = 1500
+    PosY = 1395
     Shape = rpsHorzLine
     PenWidth = 0
     PrintCondition = ''
@@ -1212,7 +1183,7 @@ object _1: TRpReport
     Width = 1155
     Height = 225
     PosX = 5880
-    PosY = 2865
+    PosY = 3195
     Type1Font = poHelvetica
     FontSize = 9
     FontStyle = 1
@@ -1238,7 +1209,7 @@ object _1: TRpReport
     Width = 1155
     Height = 225
     PosX = 9660
-    PosY = 2880
+    PosY = 3210
     Type1Font = poHelvetica
     FontSize = 9
     FontStyle = 1
@@ -1280,6 +1251,77 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'CUSTOM('#39'GETTEXTLANG'#39',960,'#39'Total'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpShape2: TRpShape
+    Width = 10755
+    Height = 105
+    PosX = 0
+    PosY = 2085
+    Shape = rpsHorzLine
+    PenWidth = 0
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+  end
+  object TRpShape4: TRpShape
+    Width = 10755
+    Height = 105
+    PosX = 0
+    PosY = 2535
+    Shape = rpsHorzLine
+    PenWidth = 0
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+  end
+  object TRpExpression11: TRpExpression
+    Width = 1155
+    Height = 225
+    PosX = 0
+    PosY = 3210
+    Type1Font = poHelvetica
+    FontSize = 9
+    FontStyle = 1
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1707,'#39'date'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression19: TRpExpression
+    Width = 4140
+    Height = 225
+    PosX = 0
+    PosY = 2190
+    Type1Font = poHelvetica
+    FontStyle = 1
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',901000,'#39'Subscriptionse'#39',0,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
