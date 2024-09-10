@@ -559,7 +559,7 @@ object _1: TRpReport
     Type1Font = poHelvetica
     FontSize = 8
     Alignment = 2
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -573,7 +573,7 @@ object _1: TRpReport
     Expression = 
       'CUSTOM('#39'GETPRICE'#39',SUBSCIPTIONS.WACCOUNTID,SUBSCIPTIONS.WSTOCKID,' +
       '0,0,0) * SUBSCIPTIONS.FQTY'
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
@@ -649,7 +649,7 @@ object _1: TRpReport
     Type1Font = poHelvetica
     FontSize = 9
     Alignment = 2
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     Aggregate = rpAgGroup
     GroupName = 'GROUP'
     AutoExpand = False
@@ -665,7 +665,7 @@ object _1: TRpReport
     Expression = 
       'CUSTOM('#39'GETPRICE'#39',SUBSCIPTIONS.WACCOUNTID,SUBSCIPTIONS.WSTOCKID,' +
       '0,0,0) * SUBSCIPTIONS.FQTY'
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
@@ -678,7 +678,7 @@ object _1: TRpReport
     Type1Font = poHelvetica
     FontStyle = 1
     Alignment = 2
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     Aggregate = rpAgGroup
     GroupName = 'MAIN'
     AutoExpand = False
@@ -694,7 +694,7 @@ object _1: TRpReport
     Expression = 
       'CUSTOM('#39'GETPRICE'#39',SUBSCIPTIONS.WACCOUNTID,SUBSCIPTIONS.WSTOCKID,' +
       '0,0,0) * SUBSCIPTIONS.FQTY'
-    DisplayFormat = '0.00'
+    DisplayFormat = '###,###,##0.00'
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
