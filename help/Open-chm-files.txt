@@ -1,0 +1,8 @@
+Once the EngHelp.chm file is downloaded from GitHub, the topics may be blank.
+To view the content:
+1. Navigate to the downloaded EngHelp.chm file.
+2. Right-click on the EngHelp.chm file and select Properties.
+3. Tick unblock to allow click Apply. 
+4. Close the EngHelp.chm file if opened and reopen the EngHelp.chm file. 
+
+The content in the topics will be displayed. 
