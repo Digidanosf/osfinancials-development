@@ -1,0 +1,947 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Create / Edit Tax accounts</title>
+  <meta name="description" content="How to add / edit tax accounts / tax codes and tax rates - osfinancials.org" /> 
+  <meta name="keywords" content="Account groups,Accounts,Setup ribbon,Chart of accounts,Sub-accounts,Account type,Tax,VAT,GST,Sales tax,BTW">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Create / Edit Tax accounts">
+  <meta name="twitter:description" content="How to add / edit tax accounts / tax codes and tax rates - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Create / Edit Tax accounts" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to add / edit tax accounts / tax codes and tax rates - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="tax-accounts-add-edit"
+		  data-hnd-context="10516"
+		  data-hnd-title="Create / Edit Tax accounts"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="ledger-accounts.html">Accounts (Ledger)</a></li><li><a href="accounts-edit.html">Edit - Accounts</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="accounts-edit.html" title="Edit - Accounts" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="bank-accounts-new.html" title="Create Bank accounts" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="accounts-delete.html" title="Delete accounts" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Create / Edit Tax accounts</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Sets of Books and Tax (VAT/GST/Sales Tax) terminology</span></span></h1>
+<p class="rvps19"><span class="rvts30">You need to use this option whenever you wish to create a new Tax account or Tax code for VAT/GST/Sales Tax (Output Tax as well as Input Tax).&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">You may also change the descriptions of an existing account, change the percentages on your various tax types and percentages whenever the legislation is amended, or to delete an existing account.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">The Tax codes and percentages, which apply for VAT/GST/Sales Tax, are prescribed by VAT/GST/Sales Tax or Tax Legislation and may be amended from time to time by the Tax Authorities.</span></p>
+<p class="rvps19"><span class="rvts30">Being registered for VAT/GST/Sales Tax, you will have two basic accounts, i.e. Output Tax that is charged when selling services or goods, and Input Tax when you purchase from another registered VAT/GST/Sales Tax vendor.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts6">osFinancials5</span><span class="rvts30"> will have setup an Output VAT/GST/Sales Tax and an Input VAT/GST/Sales Tax account as sub-accounts of the VAT/GST/Sales Tax Control account as Current liabilities for you in the templates.&nbsp;</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 906px;">
+   <p class="rvps12"><span class="rvts54">The Tax codes and percentages differ from country to country and you may be required to change the percentages and create new codes whenever the legislation changes.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/flag-english-international.jpeg"><span class="rvts82"> English (Default language file) refers to Tax. </span><span class="rvts30">If you select the following English languages, it will refer to the following tax terminology:</span></p>
+<div class="rvps89">
+<table width="100%" style="border-color: #000000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td colspan="2" style="padding: 5px; background-color: #ccffff; vertical-align: top; width: 279px;">
+   <p class="rvps19"><span class="rvts286">English VAT</span></p>
+  </td>
+  <td colspan="2" style="padding: 5px; background-color: #ccffff; width: 1308px;">
+   <p class="rvps19"><span class="rvts286">English GST</span></p>
+  </td>
+  <td colspan="2" style="padding: 5px; background-color: #ccffff; width: 559px;">
+   <p class="rvps19"><span class="rvts286">English Sales Tax / Consumption Tax</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-bangladesh.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Bangladesh</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-australia.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207">en-Australia</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-usa.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207">en-American (Sales Tax)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-barbados.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Barbados</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-belize.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207">en-Belize</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-tonga.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207">en-Tonga (Consumption Tax)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-botswana.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Botswana</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-new-zealand.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207">en-New-Zealand</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-cameroon.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Cameroon</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-ireland.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Ireland</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-isle-man.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Isle-of-Man</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-lesotho.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Lesotho</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-malawi.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Malawi</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-malta.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Malta</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-mauritius.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Mauritius</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-namibia.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Namibia</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-rwanda.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Rwanda</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-za.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-South-Africa</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-tanzania.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Tanzania</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-trinidad.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Trinadad</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-uganda.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Uganda</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-uk.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-UK</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-zambia.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Zambia</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 58px;">
+   <p class="rvps105"><img alt="" style="padding : 1px;" src="lib/flag-zimbabwe.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 221px;">
+   <p class="rvps19"><span class="rvts207">en-Zimbabwe</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 48px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 327px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 39px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 302px;">
+   <p class="rvps19"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 906px;">
+   <p class="rvps12"><span class="rvts54">It is of utmost importance that you create these codes and percentages correctly to suit your needs and the requirements of legislation applicable to your country. You have to create, or add the Tax accounts (Tax codes), which you will need to fill in your VAT/GST/Sales Tax return. </span><span class="rvts54">osFinancials 5</span><span class="rvts54"> will print the necessary Tax or VAT/GST/Sales Tax reports for your Tax codes.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 62px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 763px;">
+   <p class="rvps12"><span class="rvts54">These Tax codes, or Tax accounts, should be created as sub-accounts. Before you can create the Tax codes you need the following two General ledger accounts created in </span><span class="rvts53">Setup → Accounts </span><span class="rvts54">(</span><span class="rvts53">Setup</span><span class="rvts54"> ribbon):&nbsp;</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps12 noindent"><span class="rvts53">VAT/GST/Sales Tax Control account </span><span class="rvts54">- the main account which will be used as a totalling account for the Tax codes.</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">VAT/GST/Sales Tax Payments account</span><span class="rvts54"> - the sub-account which you need to allocate your Tax payable (as submitted on your VAT/GST/Sales Tax returns) when you make payments in the payments journal to the Tax Authorities.</span></li>
+   </ol>
+   <p class="rvps12"><span class="rvts54">In cases where the Input Tax is more than the Output Tax, you need to allocate the refunds received from the Tax Authorities in the receipts journal.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Sets of Books Templates - Simplified Structure of VAT Accounts in the Chart of Accounts and the VAT-Return&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">osFinancials5 supports 79 different languages and tax regimes languages such as 87 </span><a class="rvts33" href="create-books-default-download.html">Sets of Books (databases) that can be downloaded</a><span class="rvts6"> and customized to meet your requirements.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If you are a new user of osFinancials, you can download the "</span><span class="rvts15">EN-SOUTHAFRICA</span><span class="rvts6">" Set of Books or of the industry-specific Set of Books (namely, </span><span class="rvts15">"FARMING, SERVICE, &nbsp;CHURCH, MEDICAL, MANUFACTURING, RETAIL</span><span class="rvts6">" or "</span><span class="rvts15">WORKSHOP</span><span class="rvts6">") from select the available Firebird database Sets of Books and linked languages available as a free download, the basic Chart of Accounts which already includes basic Output and Input VAT accounts and VAT codes is already pre-configured. There are also Manual Sets of Books namely HANDYMAN, HANDYMAN-A and HANDYMAN-B available for English which illustrate the basic transactions where VAT is involved.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">These English-language versions of the Sets of Books, can be downloaded free of charge from the available Firebird database Sets of Books and linked languages that are available. While the Afrikaans-language Set of Books will contain "</span><span class="rvts15">Belasting op Toegevoegde Waarde (BTW)</span><span class="rvts6">", the English-language Set of Books will contain "</span><span class="rvts15">Value Added Tax (VAT)</span><span class="rvts6">". osFinancials has already included for your basic Output VAT and Input VAT account as sub-accounts of the VAT control account as an "</span><span class="rvts15">Current liabilities</span><span class="rvts6">" in the master "</span><span class="rvts15">templates</span><span class="rvts6">".&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The following basic simplified VAT accounts have already been created for the purposes of this documentation:&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-width: 0px; border-collapse: collapse;">
+ <tr style="vertical-align: top;">
+  <td colspan="3" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 526px;">
+   <p class="rvps12"><span class="rvts37">Tutorial Sets of Books HANDYMAN, HANDYMAN-A and HANDYMAN-B and&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts37">Documentation in in this Help file</span></p>
+  </td>
+  <td colspan="3" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 371px;">
+   <p class="rvps12"><span class="rvts37">EN-SOUTH-AFRICA Sets of Books template</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts37">Account code/</span></p>
+   <p class="rvps12"><span class="rvts37">Tax-code</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts37">Description&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts37">Tax-rate&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts37">Account code/</span></p>
+   <p class="rvps12"><span class="rvts37">Tax-code</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-right: none; background-color: #eeeeee; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts37">Account code</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; background-color: #eeeeee; vertical-align: top; width: 117px;">
+   <p class="rvps12"><span class="rvts37">VAT-Rate&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">G850-000</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">VAT - Control - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">Not applicable</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">G950-000</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">VAT CONTROL ACCOUNT - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: bottom; width: 117px;">
+   <p class="rvps12"><span class="rvts40">NVT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">T860-010</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">Output VAT - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">T950-005</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">Output VAT - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: bottom; width: 117px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">T860-020</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">Input VAT - Standard rate -15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">T950-010</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">Input VAT - Standard rate -15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: bottom; width: 117px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">T860-030</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">Input VAT - Capital goods -15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">T950-020</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">Input VAT - Capital goods -15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: bottom; width: 117px;">
+   <p class="rvps12"><span class="rvts40">15%</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">T860-040</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">Zero-rated VAT - 0%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">0%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">T950-030</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">Zero-rated VAT - 0%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 117px;">
+   <p class="rvps12"><span class="rvts40">0%</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 97px;">
+   <p class="rvps12"><span class="rvts40">G850-100</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 245px;">
+   <p class="rvps12"><span class="rvts40">VAT - Payment - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 133px;">
+   <p class="rvps12"><span class="rvts40">Not applicable</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 226px;">
+   <p class="rvps12"><span class="rvts40">G950-100</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; vertical-align: top; width: 188px;">
+   <p class="rvps12"><span class="rvts40">VAT PAYMENT ACCOUNT - 15%</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 117px;">
+   <p class="rvps12"><span class="rvts40">NVT</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">The Output VAT codes and Input VAT codes were created as sub-accounts under the "</span><span class="rvts15">VAT CONTROL ACCOUNT - 15%</span><span class="rvts6">" and included in the "</span><span class="rvts15">Current liabilities</span><span class="rvts6">" account group in the Chart of Accounts in the Set of Books. VAT codes or rather sub-accounts are indicated with a "</span><span class="rvts15">T</span><span class="rvts6">" prefix on which the applicable VAT code's percentage must be specified whether it is at 15% or 0% percent, for example in the case of zero rate VAT.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Finally, a General Ledger account "</span><span class="rvts15">VAT PAYMENT ACCOUNT - 15%</span><span class="rvts6">" (indicated with a "</span><span class="rvts15">G</span><span class="rvts6">" prefix) was also created as a sub-account under the "</span><span class="rvts15">VAT CONTROL ACCOUNT - 15%</span><span class="rvts6">" (indicated with a "</span><span class="rvts15">G</span><span class="rvts6">" prefix).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">VAT PAYMENT ACCOUNT - 15%</span><span class="rvts6">" is the account in which all payments that must be remitted to the South African Revenue Service (SARS) (if the Output VAT is more than the Input VAT) as well as refunds received from the South African Revenue Service (SARS) is received (if the Input VAT is more than the Output VAT), is recorded.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The balances of the "</span><span class="rvts15">VAT CONTROL ACCOUNT - 15%</span><span class="rvts6">" are as follows:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts14">A credit balance on the "</span><span class="rvts16">VAT CONTROL ACCOUNT - 15%</span><span class="rvts14">"</span><span class="rvts6"> means that the Output VAT is more than the Input VAT, which consequently normally shows that VAT is owed to the South African Revenue Service (SARS).&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">A debit balance on the "VAT CONTROL ACCOUNT - 15%"</span><span class="rvts6"> means that the Input VAT is more than the Output VAT and that there is VAT from the South African Revenue Service (SARS) recoverable or refundable.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">The transactions of the "VAT PAYMENT ACCOUNT - 15%" are as follows:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts14">Debit transactions</span><span class="rvts6"> - Payments owed to the South African Revenue Service (SARS) are debited against this account when the payment is made from the payment journal linked to the Bank Account. This amount should be indicated on the VAT return (VAT-201), for the period of the VAT return, as the amount you must pay to SARS.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Credit transactions</span><span class="rvts6"> - Refunds received from the South African Revenue Service (SARS) are credited to this account and credited when the payment is received from the receipt journal linked to the Bank account. This amount should be shown on the VAT return (VAT-201), for the period of the VAT return, as owed to you by SARS.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">In addition to these basic Tax codes or Tax accounts, within the "</span><span class="rvts15">VAT CONTROL ACCOUNT - 15%</span><span class="rvts6">" main account, you can create further sub-accounts to accommodate the respective classifications and/or tax percentages in respect of Output VAT and Input VAT to help you complete the VAT returns and make the correct payments to the tax authority.</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 62px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 763px;">
+   <p class="rvps12"><span class="rvts40">The following examples of the "Full Structure of VAT accounts and VAT-codes in the Chart of Accounts" and the alignment to the relevant fields or boxes on VAT Returns"or VAT-declarations is available in this documentation:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts52" href="tax-vat-south-africa.html">Value Added Tax (VAT) - South Africa</a><span class="rvts40"> - The "Full Structure of VAT accounts in the Chart of Accounts and the VAT Return" The stricture South African VAT-accounts and VAT-codes of the Chart of Accounts is aligned with the VAT201-return.</span></li>
+    <li class="rvps12 noindent"><a class="rvts52" href="tax-vat-united-kingdom.html">Value Added Tax (VAT) - United Kingdom</a><span class="rvts40"> - Various schemes for VAT may be applicable for various scenarios. The most commonly used VAT Standard rate scheme is documented as an example of the VAT-account and VAT-codes structure in Chart of Accounts for the United Kingdom (UK) to match the various Boxes on the UK VAT return.. "VAT Standard Rate Scheme - Structure of VAT Accounts in the Chart of Accounts"</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Create Tax accounts (Tax Codes)</span></span></h1>
+<p class="rvps19"><span class="rvts29">&nbsp;To create a new Tax account (Tax Code):</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps42 noindent"><span class="rvts30">On the </span><span class="rvts29">Setup</span><span class="rvts30"> ribbon, select</span><span class="rvts29"> Setup → Accounts</span><span class="rvts30">. The </span><span class="rvts78">Accounts</span><span class="rvts30"> screen; listing your available accounts will be displayed.&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the Tax Control account (as in this case, “</span><span class="rvts78">G860-000 VAT Control account</span><span class="rvts30">”).</span></li>
+</ol>
+<p class="rvps93"><img alt="" style="padding : 1px;" src="lib/accounts-setup-tax-new.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps19 noindent"><span class="rvts30">Click on the </span><img alt="" style="padding : 1px;" src="lib/icon-accounts-add.png"><span class="rvts30"> (</span><span class="rvts29">Add:Account</span><span class="rvts30">) icon (or select the </span><img alt="" style="padding : 1px;" src="lib/icon-accounts-add.png"><span class="rvts30"> </span><span class="rvts29">Add</span><span class="rvts30"> on the context menu). An entry for the new Ledger account is displayed (e.g. “</span><span class="rvts78">G850 000 Account name</span><span class="rvts30">” on the Account list. The Tax code is a Sub-account for the Tax main account (i.e. “</span><span class="rvts78">VAT Control account</span><span class="rvts30">”).</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Enter or select the following:</span><span class="rvts30"> &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps19 noindent"><span class="rvts29">Account type</span><span class="rvts30"> - Select “</span><span class="rvts78">Tax account</span><span class="rvts30">”.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Account no.</span><span class="rvts30"> - The Main account “</span><span class="rvts78">860</span><span class="rvts30">” is displayed and cannot be edited. Type “</span><span class="rvts78">040</span><span class="rvts30">” in the sub-account field.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Description</span><span class="rvts30"> - Replace </span><span class="rvts78">Account name</span><span class="rvts30"> with the new Tax code description e.g. “</span><span class="rvts78">Zero-rated VAT – 0%</span><span class="rvts30">”.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Account group 1 </span><span class="rvts30">- “</span><span class="rvts78">Current liabilities</span><span class="rvts30">” should be displayed. This is the Account group which is linked to the Main account.&nbsp;</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Account group 2</span><span class="rvts30"> - Select Account group 2, if not selected.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Account type</span><span class="rvts30"> - “</span><span class="rvts78">Balance sheet</span><span class="rvts30">” should be displayed. This field cannot be selected, since the Main account is a Balance sheet account type.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Sub-accounts</span><span class="rvts30"> - This field cannot be selected, since this is a sub-account.&nbsp;</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Status</span><span class="rvts30"> - “</span><span class="rvts78">Enabled</span><span class="rvts30">” (default) should be selected.</span></li>
+  <li class="rvps19 noindent"><span class="rvts29">Open item account</span><span class="rvts30"> - “</span><span class="rvts78">No</span><span class="rvts30">” (default) should be selected.</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps42 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Tax</span><span class="rvts30"> tab.&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter the Percentage “</span><span class="rvts78">0</span><span class="rvts30">” for the purposes of this example.</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Use Link Tax</span><span class="rvts30"> - To be advised.</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Show tax in documents </span><span class="rvts30">- To be advised.</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps19 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Save</span><span class="rvts30"> button. The account will automatically be placed in the correct structure of the Account list.</span></li>
+</ol>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">The icon will change from </span><img alt="" style="width : 32px; height : 26px; padding : 1px;" src="lib/admon-material-accounts-balance.png"><span class="rvts228"> (Assets / Liabilities) to </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-tax.png"><span class="rvts228"> (Tax account).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

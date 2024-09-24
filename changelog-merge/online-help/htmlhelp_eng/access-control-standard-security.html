@@ -1,0 +1,538 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Access control - Standard security tab</title>
+  <meta name="description" content="How to add users and set standard security options - osfinancials.org " /> 
+  <meta name="keywords" content="Access control">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Access control - Standard security tab">
+  <meta name="twitter:description" content="How to add users and set standard security options - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Access control - Standard security tab" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to add users and set standard security options - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="access-control-standard-security"
+		  data-hnd-context="581"
+		  data-hnd-title="Access control - Standard security tab"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="access-control.html">Access control</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="access-control.html" title="Access control" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="access-control-passwords-login.html" title="Enter passwords (Login)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="access-control-reports-access-ta.html" title="Access control - Reports access tab" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Access control - Standard security tab</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts6">The </span><span class="rvts14">Standard security</span><span class="rvts6"> tab in the </span><span class="rvts14">Access control</span><span class="rvts6"> feature of osFinancials serves as the primary tool for managing user access and permissions. Here are the key features of the </span><span class="rvts14">Standard security</span><span class="rvts6"> tab:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">User management</span><span class="rvts6">: The </span><span class="rvts14">Standard security</span><span class="rvts6"> tab allows you to create users and set or change their passwords and email addresses. You can also disable or delete user accounts as needed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Access to main functions</span><span class="rvts6">: In the </span><span class="rvts14">Standard security</span><span class="rvts6"> tab, you can define user access to important functions such as System setup, System menu, Global processes, and Bank reconciliation. By allowing or restricting access to these functions, you can control what users can do within the system.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Display of menu options</span><span class="rvts6">: When you restrict a user's access to specific functions, all menu items are displayed by default. However, the menu options to which the user has no access will be displayed as inactive or greyed out. If desired, you can choose to hide these inactive menu options, ensuring that users only see and interact with the functions they are allowed to access.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">By utilizing the </span><span class="rvts14">Standard security</span><span class="rvts6"> tab, you can create a secure environment and tailor user access to specific functions within osFinancials. This helps maintain control over system configuration, global processes, and critical financial functions while ensuring that users only see and access the relevant features based on their assigned permissions.</span></p>
+<p class="rvps19"><span class="rvts29">To set standard security options for an user:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon, click on </span><span class="rvts29">Setup → Access control</span><span class="rvts30">. &nbsp; &nbsp;</span></li>
+</ol>
+<p class="rvps24"><img alt="" style="padding : 1px;" src="lib/access-control-tab-standard.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">System lang</span><span class="rvts30"> - The default language set for the Set of Books will be displayed in this field. You may set another language for the Set of Books. The selected language will be displayed every time the Set of Books is opened.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Language</span><span class="rvts30"> - The languages added in the </span><span class="rvts29">Languages</span><span class="rvts30"> tab in </span><span class="rvts29">Groups</span><span class="rvts30"> (</span><span class="rvts29">Setup</span><span class="rvts30"> ribbon) may be selected for the </span><a class="rvts86" href="plugin-multi-language-accounts.html">Multi-Language accounts</a><span class="rvts6">&nbsp;</span><span class="rvts30"> plugin.</span></li>
+</ol>
+<div class="rvps40">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="width : 48px; height : 48px; float: left; padding : 1px;" src="lib/B-multi-language.jpg"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><a class="rvts86" href="plugin-multi-language-accounts.html">Multi-Language accounts</a><span class="rvts6"> -</span><span class="rvts15"> </span><a class="rvts34" href="https://www.osfinancials.org/en/plugin-manuals/515-multi-language-plugin" target="_blank">Manual</a><span class="rvts15"> - </span><a class="rvts34" href="https://www.osfinancials.org/en/webshop/accountancy/multi-language-set-of-books" target="_blank">Shop</a><span class="rvts15"> - </span><span class="rvts213">Licence</span><span class="rvts210"> : Once-off -</span></p>
+   <p class="rvps12"><span class="rvts40">This plugin makes it possible to translate the ledger and group names in multiple languages. It is already possible to choose different languages for the interface (the buttons). But this plugin makes it possible to do the accounting in different languages. Per user you can select a language, so the user can account in his/her own language. The set of books can be viewed in different languages, therefore it is possible an employee enters information into an English Set of Books and a bookkeeper, auditor, etc. can see the set of books in a set language, e.g. Afrikaans, Dutch, etc.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select an user in the "</span><span class="rvts78">User"</span><span class="rvts30"> field or area of the screen.&nbsp;</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">Do not select the Default user with all rights (Universal administrator).&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">The Universal administrator (Default user) user should not have any restrictions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">By default, all options are selected (ticked), except the "</span><span class="rvts78">Disabled"</span><span class="rvts30"> and "</span><span class="rvts78">Hide disabled"</span><span class="rvts30"> options.</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps139"><span class="rvts228">If an user is set to disabled, (Disabled field ticked), and the disabled user tries to log in, an error message will be displayed. &nbsp;</span></p>
+   <p class="rvps6"><span class="rvts46">"Access control"</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">The options to set the access levels is as follows:&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">System setup</span><span class="rvts30"> -&nbsp;</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps40 noindent"><span class="rvts29">Start</span><span class="rvts30"> ribbon - Disables the following:</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps81 noindent"><span class="rvts30">Create Set of Books (Creation wizard).</span></li>
+    <li class="rvps81 noindent"><span class="rvts30">Save as.&nbsp;</span></li>
+    <li class="rvps81 noindent"><span class="rvts30">Delete Set of Books.</span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li value="2" class="rvps40 noindent"><span class="rvts29">Setup</span><span class="rvts30"> ribbon - Disables all features, except the following:</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps81 noindent"><span class="rvts14">Calculator</span><span class="rvts6"> - Can access the calculator.</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Import</span><span class="rvts6"> - Import accounts, debtors, creditors, documents and stock from specific file formats.&nbsp;</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Export</span><span class="rvts6"> - Export accounts, debtors, creditors, documents, stock and posted batches to specific file formats.</span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Global processes</span><span class="rvts30"> -&nbsp;</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps40 noindent"><span class="rvts14">Import</span><span class="rvts6"> - Disables import of accounts, debtors, creditors, documents and stock from specific file formats.&nbsp;</span></li>
+   <li class="rvps40 noindent"><span class="rvts14">Export</span><span class="rvts6"> - Disables export accounts, debtors, creditors, documents, stock and posted batches to specific file formats.</span></li>
+   <li class="rvps40 noindent"><span class="rvts14">Setup</span><span class="rvts6"> ribbon - Disables the following seven (7) options:</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps81 noindent"><span class="rvts14">Global processes</span><span class="rvts6"> - The following four (4) options are available:</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li style="text-indent: 0px" class="rvps274 noindent"><a class="rvts227" href="clear-reset-set-of-books.html">Clear / Reset</a><span class="rvts6"> - </span><span class="rvts30">This option allows you to clear all the transactions and balances in a Set of Books.&nbsp;</span></li>
+     <li class="rvps275 noindent"><span class="rvts227">Do year end</span><span class="rvts6"> - </span><span class="rvts30">This option allows you to close off all the nominal accounts (income and expense accounts) and transfer the balances for the financial year to the Retained income / earnings account. The start date and the reporting dates for the financial year will also be created for the new financial year.</span></li>
+     <li class="rvps275 noindent"><a class="rvts227" href="copy-from-set-of-books.html">Copy from a Set of Books</a><span class="rvts6"> - </span><span class="rvts30">This option allows you to copy the data from a selected Set of Books into the active (open) Set of Books. This will replace all the data in the active Set of Books.&nbsp;</span></li>
+     <li class="rvps275 noindent"><a class="rvts84" href="reverse-posted-batch-document.html">Reverse posted batch / document</a><span class="rvts6"> - </span><span class="rvts30">This feature allows you to reverse or cancel the transactions in posted documents and batches.</span></li>
+    </ul>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li value="4" class="rvps40 noindent"><span class="rvts14">Tools</span><span class="rvts6"> - Disables the following options:</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps81 noindent"><a class="rvts84" href="data-integrity-check.html">Data integrity check</a><span class="rvts6"> - Run a Data integrity check and print a Data integrity check report.</span></li>
+    <li class="rvps81 noindent"><a class="rvts244" href="customise-language.html">Customise language</a><span class="rvts6"> - Customise (edit, change and translate) language files.&nbsp;</span></li>
+    <li class="rvps81 noindent"><a class="rvts32" href="close-active-forms.html">Close active forms</a><span class="rvts6"> &nbsp;- Close any open forms (e.g. Documents, Debtors, Creditors, Stock items screens, etc.)</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Activate plugins</span><span class="rvts6"> - By default, no plugins is activated when </span><span class="rvts30">osFinancials 5</span><span class="rvts6"> is installed. This option allows you to activate / deactivate all plugins, registered plugins or specific plugins. The activated plugins will be available from the Plugins menu. &nbsp;</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Plugins </span><span class="rvts6">- By default, no plugins are listed on this menu. Only activated plugins will be listed.&nbsp;</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Others</span><span class="rvts6"> - Not used.</span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Reconciliation</span><span class="rvts30"> - Disables the bank reconciliation feature.</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">System menu</span><span class="rvts30"> -</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps19 noindent"><span class="rvts30">This will disable the &nbsp;(</span><span class="rvts29">Start</span><span class="rvts30"> ribbon).</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps24 noindent"><span class="rvts29">Delete Set of Books</span><span class="rvts30"> option.</span></li>
+    <li class="rvps81 noindent"><a class="rvts84" href="register-osfinancials5.html">Online registration</a><span class="rvts6"> - </span><span class="rvts30">Register the osFinancials program.</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Help menu</span><span class="rvts6"> - Disable the following seven (7) options:</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps275 noindent"><span class="rvts14">Help</span><span class="rvts6"> - </span><span class="rvts30">Launch the osFinancials Help system where you may locate topics.</span></li>
+     <li class="rvps104 noindent"><a class="rvts227" href="support.html">Support</a><span class="rvts6"> - </span><span class="rvts30">View contact information of </span><span class="rvts193">osFinancials5</span><span class="rvts30"> or go to the Support page via the Internet.</span></li>
+     <li class="rvps104 noindent"><span class="rvts14">Show Welcome</span><span class="rvts6"> - By default, the </span><span class="rvts30">Welcome to </span><span class="rvts193">osFinancials5</span><span class="rvts30"> screen displays the website. If the Welcome to </span><span class="rvts193">osFinancials5</span><span class="rvts30"> screen is not displayed, it will launch the Welcome to </span><span class="rvts193">osFinancials5</span><span class="rvts30"> screen.&nbsp;</span></li>
+     <li class="rvps104 noindent"><span class="rvts29">Updates</span><span class="rvts30"> -&nbsp;</span></li>
+     <li class="rvps104 noindent"><a class="rvts227" href="forum.html">Forum</a><span class="rvts6"> - P</span><span class="rvts30">lease visit our Forum to find solutions or to post comments, etc.</span></li>
+     <li class="rvps104 noindent"><a class="rvts32" href="webshop.html">Webshop</a><span class="rvts6"> - Please visit our webshop.&nbsp;</span></li>
+     <li class="rvps104 noindent"><a class="rvts84" href="bug-report.html">Bug report</a><span class="rvts6"> - </span><span class="rvts30">View, search and report any bugs on our bug-tracking system.</span></li>
+    </ul>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li value="2" class="rvps19 noindent"><span class="rvts30">This will disable the following on the </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon:&nbsp;</span></li>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps24 noindent"><span class="rvts29">Update ledger</span><span class="rvts30"> (</span><span class="rvts29">F3</span><span class="rvts30">) – Disables Update ledger (</span><span class="rvts29">F3</span><span class="rvts30">) posting of batches and documents.</span></li>
+    <li class="rvps81 noindent"><span class="rvts14">Edit menu</span><span class="rvts6"> - Disable the following three (3) options:</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps104 noindent"><a class="rvts84" href="batch-repeating-transactions.html">Repeating transactions</a><span class="rvts6"> - Enter / edit transactions in batches of a recurring nature.</span></li>
+     <li class="rvps104 noindent"><a class="rvts84" href="repeating-invoices.html">Repeating invoices</a><span class="rvts6"> - Generate and process invoices of an recurring nature.</span></li>
+     <li class="rvps104 noindent"><a class="rvts227" href="delete-documents.html">Delete</a><span class="rvts6"> - Delete sales documents (i.e. invoices, credit notes and quotes) and purchase documents (i.e. purchases, supplier returns and orders).</span></li>
+    </ul>
+    <li class="rvps81 noindent"><span class="rvts14">Input</span><span class="rvts6"> - Disable the following six (6) options:</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps104 noindent"><span class="rvts14">Adjust stock</span><span class="rvts6"> - Access the Edit Stock screen.&nbsp;</span></li>
+     <li class="rvps104 noindent"><a class="rvts227" href="confirm-quotes-orders.html">Confirm</a><span class="rvts6"> - Confirm and convert quotes to invoices and orders to purchases.</span></li>
+     <li class="rvps104 noindent"><span class="rvts14">Backorders</span><span class="rvts6"> - Add, edit and delete back orders for stock items.</span></li>
+     <li class="rvps104 noindent"><span class="rvts14">Sales documents</span><span class="rvts6"> - Process / edit invoices, credit notes and quotes.</span></li>
+     <li class="rvps104 noindent"><span class="rvts14">Purchase documents</span><span class="rvts6"> - &nbsp;Process / edit purchases, supplier returns and orders.</span></li>
+     <li class="rvps104 noindent"><span class="rvts14">POS Invoice</span><span class="rvts6"> - Run and manage a point-of-sales shift and process point-of-sale invoices.&nbsp;</span></li>
+    </ul>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select to allow or restrict a user to System Setup, Delete Set of Books on the </span><span class="rvts29">Start</span><span class="rvts30"> ribbon and Global processes (Clear / Reset, Do year end, Reverse posted batches / documents) on the </span><span class="rvts29">Tools</span><span class="rvts30"> ribbon. (You may press the </span><span class="rvts29">Spacebar</span><span class="rvts30"> on your keyboard to select or deselect an option).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts14">Applying changes</span><span class="rvts6">: Click on the </span><span class="rvts14">Apply</span><span class="rvts6"> button to save the changes for the selected user.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts14">Setting access levels for other users</span><span class="rvts6">: If necessary, select the next available user and configure their access and restrictions in the same manner.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts14">Finalizing changes</span><span class="rvts6">: Once you have finished setting the access levels for all desired users, click on the </span><span class="rvts14">Close</span><span class="rvts6"> button to exit the "</span><span class="rvts15">Access control</span><span class="rvts6">" screen.</span></li>
+</ol>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">You may select the specific options for which you wish to restrict that user by removing the tick for the specific option the user may not access. You may move down the options with the </span><span class="rvts232">Down Arrow</span><span class="rvts228"> or </span><span class="rvts232">Up Arrow keys</span><span class="rvts228"> and toggle between a tick and a blank in the tick box fields with the </span><span class="rvts232">Spacebar</span><span class="rvts228"> on your keyboard, or select it with the mouse and click on the box you want to select or deselect.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">It is recommended that at least one User (Default user or System administrator) should have no restrictions on the System setup.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">If you disable some menu or access options for a user, you may select to hide disabled menu items, If this option is not selected, any disabled menu items, (e.g. system setup, global processes, reconciliation, reports, edit accounts, etc.) will be displayed as an inactive option (greyed out).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">User icons are displayed as follows:</span></p>
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/access-control-icon-user-all-functions.png"><span class="rvts228"> - indicates that all functions are allowed to that user.</span></p>
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/access-control-icon-user-limited-functions.png"><span class="rvts228"> - some functions or security options are restricted or disabled.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Reportman output - Save metafile as PDF</title>
+  <meta name="description" content="How to save reports to pdf files - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reportman output - Save metafile as PDF">
+  <meta name="twitter:description" content="How to save reports to pdf files - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Reportman output - Save metafile as PDF" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to save reports to pdf files - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="reportman-metafile-save-as-pdf"
+		  data-hnd-context="15033"
+		  data-hnd-title="Reportman output - Save metafile as PDF"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reports-ribbon-options.html">Reports (Reports ribbon)</a></li><li><a href="reportman-reports-print-options.html">Reportman reports - Print options</a></li><li><a href="reportman-output-screen.html">Reportman output - Send to screen</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="reportman-output-screen.html" title="Reportman output - Send to screen" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="reportman-output-e-mail.html" title="Reportman output - E-mail" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="reportman-metafile-save-as-text.html" title="Reportman output - Save metafile as text file" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Reportman output - Save metafile as PDF</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts416">"</span><span class="rvts418">PDF</span><span class="rvts416">"&nbsp;is the acronym for "</span><span class="rvts417">Portable Document Format</span><span class="rvts416">". The "</span><span class="rvts417">PDF</span><span class="rvts416">" file format is generally used to save files that cannot be modified. The "PDF files can be saved as a hardcopy of reports and document layout files can be saved as a hardcopy for audit and record purposes.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts416">PDF files can be easily shared across all devices (e.g. desktops, laptops, mobile devices (tablets, cellular phones, etc.). It is also compatible and readable with the default pdf app or pdf reader app on all operating system platforms (e.g. Windows, Linux, Mac, Android, etc.).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts416">You may also open saved PDF files on your system, in the your system's associated default Web browser , e.g. Google Chrome, Firefox, Microsoft Edge, etc.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts416">PDF files may easily be sent via e-mail, read, printed on demand according to your own requirements; or the recipient's requirements. &nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Save metafile options</span></span></h1>
+<p class="rvps2"><span class="rvts419">To save reports or document layout files as a PDF file:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">On the "</span><span class="rvts15">Reportman print preview</span><span class="rvts6">" screen, select </span><span class="rvts14">Save</span><span class="rvts6"> (</span><span class="rvts14">Ctrl+S</span><span class="rvts6">) </span><img alt="" style="padding : 1px;" src="lib/reportman-preview-icon-save.png"><span class="rvts6"> - This will launch the “</span><span class="rvts15">Save metafile as</span><span class="rvts6">” screen.&nbsp;</span></li>
+</ol>
+<p class="rvps93"><img alt="" style="padding : 1px;" src="lib/reports-screen-save-metafile-as.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the directory (folder) where you need to save this file, if necessary.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Enter a file name.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the "</span><span class="rvts15">PDF File – compressed</span><span class="rvts6">" (default option) or the "</span><span class="rvts15">PDF File – uncompressed</span><span class="rvts6">" file type.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click </span><span class="rvts14">Save</span><span class="rvts6">.</span></li>
+</ol>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 44px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 781px;">
+   <p class="rvps12"><span class="rvts40">You may select the compressed or uncompressed PDF file types</span></p>
+   <p class="rvps12"><span class="rvts40">"PDF File – compressed" (default) - The file size and quality may be reduced (smaller) for sending these files via e-mail, etc.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">"PDF File – uncompressed"&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">In osFinancials, the average file pdf file size and quality for reports and document layout files, saved to the PDF compressed or PDF uncompressed, is hardly noticeable. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 44px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 781px;">
+   <p class="rvps12"><span class="rvts40">The default print (</span><span class="rvts37">Print</span><span class="rvts40"> (</span><span class="rvts37">Ctrl+P</span><span class="rvts40">) option where the “</span><a class="rvts52" href="reportman-output-printer.html">Print</a><span class="rvts40">” screen is set to "Microsoft Print to PDF" option is much smaller in size (263K) than the "PDF File – compressed" size (51K) or "PDF File – uncompressed" size (59K) PDF file types "Save metafile as" option.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts416">The PDF file format may be selected for all reports and document layout files to external recipients.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Income statement - PDF</span></span></h1>
+<p class="rvps2"><span class="rvts6">If the saved file does not open automatically; or if you need to open it at a later stage; you may open the file in your system's file explorer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/reports-screen-saved-metafile-open.png"></p>
+<p class="rvps2"><span class="rvts6">An example of the "</span><span class="rvts15">Income statement</span><span class="rvts6">" saved as a PDF file, opened in "</span><span class="rvts15">Microsoft Edge</span><span class="rvts6">", is as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/reports-screen-saved-metafile-opened.png"></p>
+<p class="rvps2"><span class="rvts15"><br/></span></p>
+<p class="rvps2"><span class="rvts416">The PDF file format may be selected for all reports and document layout files to external recipients</span></p>
+<p class="rvps2"><span class="rvts416">Irrespective of the operating systems and apps your debtors (customers / clients) are running, Invoices, Credit notes, Quotes and Statements may be easily shared and sent to these recipients.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts416">Irrespective of the operating systems and apps your creditors (suppliers / vendors) are running, Purchase, Supplier returns, Orders and Remittance advises may be easily shared and sent to these recipients.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Document layout file - PDF</span></span></h1>
+<p class="rvps2"><span class="rvts6">An example of an "</span><span class="rvts15">Invoice</span><span class="rvts6">" saved as a PDF file, opened in "</span><span class="rvts15">Microsoft Edge</span><span class="rvts6">", is as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/reportman-save-layout-file-pdf.png"><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

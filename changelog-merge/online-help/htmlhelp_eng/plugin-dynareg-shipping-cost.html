@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Dynareg - Shipping costs separately on invoice plugin</title>
+  <meta name="description" content="Dynareg plugin - Shipping cost in documents - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dynareg - Shipping costs separately on invoice plugin">
+  <meta name="twitter:description" content="Dynareg plugin - Shipping cost in documents - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Dynareg - Shipping costs separately on invoice plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Dynareg plugin - Shipping cost in documents - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-dynareg-shipping-cost"
+		  data-hnd-context="1169"
+		  data-hnd-title="Dynareg - Shipping costs separately on invoice plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-dynareg.html">Dynareg plugins</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-dynareg.html" title="Dynareg plugins" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-dynareg-payment-discount.html" title="Dynareg - Payment discount invoice plugin" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-dynareg-cost-price-sales.html" title="Dynareg - Bruto margin in documents plugin" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Dynareg - Shipping costs separately on invoice plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Shipping costs separately on invoice plugin</span></span></h1>
+<div class="rvps12">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="width : 48px; height : 48px; padding : 5px; margin : 5px 5px;" src="lib/shop-dyna-documentverzendkosten.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Shipping costs separately on invoice plugin</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/shipments/shipping-costs-separately-on-invoice-plugin" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40"> : Once-off -</span></p>
+   <p class="rvps12"><span class="rvts37">Enable</span><span class="rvts40"> : "Verzenden als apart onderdeel"</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps65">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">After processing shipping costs on an invoice using the "Shipping costs separately on invoice" plugin, it's important to reopen your Set of Books after disabling the plugin. Failure to do so may result in encountering an error message when accessing any document type:</span></p>
+   <p class="rvps6"><span class="rvts502">tblDocHeader: Field 'WSHIPSTOCKID' not found</span></p>
+   <p class="rvps12"><span class="rvts40">This error indicates that the 'WSHIPSTOCKID' field is missing from the 'tblDocHeader' table.</span></p>
+   <p class="rvps12"><span class="rvts40">To resolve this issue, simply reopen your Set of Books. Alternatively, if you intend to continue using this plugin, you may re-enable it.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps17"><span class="rvts6">The "</span><span class="rvts15">Dyna - Shipping costs separately on invoice</span><span class="rvts6">" plugin will add a "</span><span class="rvts15">Shipment</span><span class="rvts6">" option in the document header. Once you have added your stock items or products in your document, and you wish to add shipment cost to the document, simply select the shipment item from the drop-down list and enter the shipment amount.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">The shipment item and shipment cost will be included when printing document layout file for sales documents (invoices, credit notes and quotes).&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">When the Invoices and Credit notes is posted (updated to the ledger), it will include the shipping cost transactions.</span></p>
+<p class="rvps17"><span class="rvts6">This option is available on both sales documents (invoices, credit notes, and quotes) as well as purchase documents (purchases, supplier returns and orders).&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Activation of the "Dyna - Shipping costs separately on invoice" plugin</span></span></h1>
+<p class="rvps26"><span class="rvts14">To activate the "Dyna - Shipping costs separately on invoice" plugin follow these steps:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;">
+ <li class="rvps26 noindent"><span class="rvts6"><br/></span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps28 noindent"><span class="rvts69">Access Plugins</span><span class="rvts6">: Navigate to </span><span class="rvts14">Plugins → Tools → DYNADBREG</span><span class="rvts6"> menu.</span></li>
+ <li class="rvps28 noindent"><span class="rvts14">Enable the plugin</span><span class="rvts6">: Select the &nbsp;"</span><span class="rvts15">Verzenden als apart onderdeel</span><span class="rvts6">" option and click </span><span class="rvts14">Enable</span><span class="rvts6">.</span></li>
+ <li class="rvps28 noindent"><span class="rvts69">Reopen Set of Books</span><span class="rvts6">: Once you've enabled the DYNADBREG, reopen your Set of Books. This step is essential for the changes to take effect.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Configuration Set of Books for the "Dyna - Shipping costs separately on invoice" plugin</span></span></h1>
+<p class="rvps17"><span class="rvts6">After activating the "</span><span class="rvts15">Dyna - Shipping costs separately on invoice" plugin</span><span class="rvts6">, you need to reopen your Set of Books for the plugin to take effect. Once you have reopened your Set of Books, follow these steps to set up your configuration:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts69">Setup Shipcost Unit Type</span><span class="rvts70">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">After reopening your Set of Books, go to </span><span class="rvts14">Setup → Stock Information</span><span class="rvts6"> (</span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">You'll notice a new option labeled "</span><span class="rvts15">Shipcost unit type</span><span class="rvts6">" added to the </span><span class="rvts14">Stock Information</span><span class="rvts6"> setup.</span></li>
+ </ul>
+</ul>
+<p class="rvps59"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Initially, the setting is likely to be "</span><span class="rvts15">Disabled</span><span class="rvts6">."</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">To enable the plugin, select a unit description from the list. If there's no suitable unit available, you may need to add a new unit (</span><span class="rvts14">Units</span><span class="rvts6"> tab on </span><span class="rvts14">Stock Information</span><span class="rvts6"> screen). For example, you can add "</span><span class="rvts15">Shipping</span><span class="rvts6">" as a unit.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts69">Setup Ledger Accounts</span><span class="rvts70">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Locate the appropriate ledger accounts for shipping costs associated with sales and purchases in your chart of accounts to record transactions related to shipping costs for both sales and purchases. You can locate the shipping cost accounts in your Trial Balance. If you cannot find the appropriate accounts for shipping costs, you may create or add them in </span><span class="rvts14">Setup → Accounts</span><span class="rvts6"> on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">These accounts will be linked to a stock items for shipping costs in the next step.&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts69">Add Stock Items for Shipment</span><span class="rvts70">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Add stock items for shipment in the Stock items (</span><span class="rvts14">Default</span><span class="rvts6"> ribbon).</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Link these stock items to the "</span><span class="rvts15">Shipping</span><span class="rvts6">" unit that you've added or selected.</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps378 noindent"><span class="rvts6">Shipping cost for sales - Select the appropriate ledger account to record the transactions for sales related to shipping cost.&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<p class="rvps378"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-stock-item-sales.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps378 noindent"><span class="rvts6">Shipping cost for purchases - Select the appropriate ledger account to record the transactions for purchases related to shipping cost.</span></li>
+  </ul>
+ </ul>
+</ul>
+<p class="rvps378"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-stock-item-purchases.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">If Tax VAT/GST/Sales tax applies to shipping costs in your jurisdiction, it is important to select the correct tax code. For shipping costs on sales documents, Output Tax may be applicable. For shipping costs on purchase documents, Input Tax may be applicable.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps61"><span class="rvts14">IMPORTANT</span><span class="rvts6">: In these simplified examples, for processing shipping costs on sales documents and purchase documents, Tax is not included on shipping cost transactions.</span></p>
+<p class="rvps26"><span class="rvts6">Once these configurations are completed, you are ready to utilise the "</span><span class="rvts15">Dyna - Shipping costs separately on invoice</span><span class="rvts6">" plugin for both sales documents, including invoices, credit notes and quotes; and purchase documents, including purchases, supplier returns, and orders. These settings ensure that the plugin functions correctly and records shipping accurately in your Set of Books.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Processing Shipping Costs in Sales Documents</span></span></h1>
+<p class="rvps26"><span class="rvts6">Once the "</span><span class="rvts15">Dyna - Shipping costs separately on invoice</span><span class="rvts6">" plugin is correctly configured, it will add a "</span><span class="rvts15">Shipment</span><span class="rvts6">" option in the document header, You can process sales documents such as invoices, credit notes, and quotes. In the </span><span class="rvts14">Shipment</span><span class="rvts6"> section on the document header, select the relevant shipping cost stock item from the drop-down list and enter the "</span><span class="rvts15">Shipment amount</span><span class="rvts6">".</span></p>
+<p class="rvps17"><span class="rvts6">When invoices and credit notes are posted or updated to the ledger, the transactions shipment will be included in the "</span><span class="rvts15">Shipping cost</span><span class="rvts6">" account. However, quotes cannot be posted or updated to the ledger and will not generate any transactions. Once a quote is accepted and confirmed, it will be converted to an invoice. These converted quotes can then be posted or updated to the ledger as invoices.</span></p>
+<p class="rvps26"><span class="rvts6">If you choose not to apply a shipping cost to the invoice, simply leave the "</span><span class="rvts15">Shipment amount</span><span class="rvts6">" as "0". Please note that the invoices, credit notes, and quotes will not print the shipping cost on the document layout file.</span></p>
+<p class="rvps26"><span class="rvts69">Examples Sales Document Processing Layout and Transaction Screenshots</span></p>
+<p class="rvps26"><span class="rvts6">Now, let's explore an example layout file for invoice, credit note, and quote processing, along with screenshots of the related transactions.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Processing Shipping Costs in Invoices</span></span></h2>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-invoice.png"></p>
+<p class="rvps17"><span class="rvts6">If the amount entered in the Shipment amount field of the document entry screen is 0, no shipping cost will be included in the invoice.</span></p>
+<p class="rvps17"><span class="rvts6">If the invoice has not been posted (updated to the ledger), you can simply edit the invoice without needing to process a credit note. In such cases, there's no necessity to issue a credit note. However, if you have edited an invoice, make sure that the edited or changed invoice is forwarded to the customer.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Invoice with Shipping cost</span></span></h3>
+<p class="rvps2"><span class="rvts6">If you have selected a product and a shipment stock item, and entered a shipment amount, the shipping stock item will be added to the document layout file. In the case of an invoice, the debtor (customer/client) will be invoiced to pay for the selected stock items (products) and the shipping costs.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-invoice-printed.png"></p>
+<p class="rvps2"><span class="rvts6">If the amount entered in the Shipping amount field of the document entry screen is 0, no shipping cost will be included in the invoice.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Transactions - Invoice with Shipping cost</span></span></h3>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-ship-cost-invoice-transactions.png"></p>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Processing Shipping Costs in Credit notes</span></span></h2>
+<p class="rvps17"><span class="rvts6">When processing credit notes to cancel an invoice, remove an item, or adjust the selling price, ensure that the correct shipping cost is included. If a shipment cost was applied to the original invoice and it has already been posted to the ledger, it's important to reflect this accurately in the credit note.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-ship-cost-credit-note%201.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Credit note with Shipping cost</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-ship-cost-credit-note-print.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Transactions - Credit note with Shipping cost</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-ship-cost-credit-note-reansaction.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Quote with Shipping cost&nbsp;</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-quote-print.png"></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Processing Purchase documents - Shipping cost&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once the "</span><span class="rvts15">Dyna - Shipping costs separately on invoice</span><span class="rvts6">" plugin is correctly configured, it will add a "</span><span class="rvts15">Shipment</span><span class="rvts6">" option in the document header, You can process purchase documents such as purchases, supplier returns, and orders. In the </span><span class="rvts14">Shipment</span><span class="rvts6"> section on the document header, select the relevant shipping cost stock item from the drop-down list and enter the "</span><span class="rvts15">Shipment amount</span><span class="rvts6">".</span></p>
+<p class="rvps2"><span class="rvts6">When purchases and supplier returns are posted or updated to the ledger, the transactions shipment will be included in the "</span><span class="rvts15">Shipping cost</span><span class="rvts6">" account. However, orders cannot be posted or updated to the ledger and will not generate any transactions. Once an order is accepted and confirmed, it will be converted to a purchase. These converted orders can then be posted or updated to the ledger as purchases.</span></p>
+<p class="rvps2"><span class="rvts6">If you choose not to apply a shipping cost to purchases, supplier returns, and orders, simply leave the "</span><span class="rvts15">Shipment amount</span><span class="rvts6">" as "0". Please note that the purchases, supplier returns, and orders will not print the shipping cost on the document layout file.</span></p>
+<p class="rvps26"><span class="rvts69">Example Purchase Document Processing Layout and Transaction Screenshots</span></p>
+<p class="rvps26"><span class="rvts6">Now, let's explore an example layout file for purchase, supplier return and order processing, along with screenshots of the related transactions.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Processing Purchase with Shipping cost on purchases</span></span></h2>
+<p class="rvps26"><span class="rvts6">When processing invoices, a </span><span class="rvts14">Payment discount</span><span class="rvts6"> tab is included in the document header. Here, you can enter a percentage discount. This will incorporate the Payment discount into the printed purchase document layout file. The stock item "</span><span class="rvts15">Payment discount - creditor</span><span class="rvts6">" will be added, and the discount will be calculated based on the total of all items included in the purchase.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-purchase.png"></p>
+<p class="rvps17"><span class="rvts6">If the purchase has not been posted (updated to the ledger), you can simply edit the purchase without needing to process a supplier return. In such cases, there's no necessity to issue a supplier return. However, if you have edited an purchase, make sure that the edited or changed purchase is forwarded to the supplier.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Purchase with Shipping cost on purchases</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-purchase-printed.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Transactions - T-accounts - Posted Purchase with Shipping cost on purchases</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-purchase-transactions.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Processing Supplier returns with Shipping cost on purchases</span></span></h2>
+<p class="rvps17"><span class="rvts6">When processing a supplier return to cancel a purchase, remove an item, or adjust the purchase or cost price, ensure that the correct shipment cost is included. If a shipment cost was included to the original purchase and it has already been posted to the ledger, it's important to reflect this accurately in the a supplier return.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-s-return.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Supplier return with Shipping cost on purchases</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-s-return-print.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Transactions - T-accounts - Posted supplier return with Shipping cost on purchases</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-s-return-transactions.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Printed - Order with Shipping cost on purchases</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/dyna-ship-costs-order-print.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps17"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,351 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Data integrity check</title>
+  <meta name="description" content="How to do a data integrity check on a set of books - osfinancials.org" /> 
+  <meta name="keywords" content="Data integrity check,Setup ribbon">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Data integrity check">
+  <meta name="twitter:description" content="How to do a data integrity check on a set of books - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Data integrity check" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to do a data integrity check on a set of books - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="data-integrity-check"
+		  data-hnd-context="111"
+		  data-hnd-title="Data integrity check"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="manage-sets-of-books.html">Manage Sets of Books</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="manage-sets-of-books.html" title="Manage Sets of Books" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="books-save-as.html" title="Save as" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="backup-restore-set-of-books-opti.html" title="Backup / Restore Sets of Books" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Data integrity check</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts82">This option allows you to run a check on the integrity of your data and generate a corresponding report. By selecting this option, you can verify that your data is accurate and free of errors that could cause issues in your Set of Books. Once the check is complete, you can print the "</span><span class="rvts101">Data integrity check report</span><span class="rvts82">" to review the results and take any necessary corrective action.</span></p>
+<p class="rvps19"><span class="rvts82">The Data integrity check should be performed on a regular basis. It is recommended that you perform this check at regular intervals and after performing major changes to your Set of Books. It is good practice to perform a Data integrity check on your Set of Books before you make a Backup and after you have restored from a Set of Books.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts82">Performing a Data integrity check on a regular basis is essential for maintaining the accuracy and reliability of your financial records. It is recommended that you perform this check at regular intervals and after making any major changes to your Set of Books.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts82">It is also good practice to perform a Data integrity check on your Set of Books before making a Backup, as well as after restoring from a Set of Books.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts82">By regularly checking your data for integrity issues, you can help ensure that your financial records remain accurate and up-to-date.</span></p>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 53px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 898px;">
+   <p class="rvps12"><span class="rvts85">If you are operating in a multi-user environment (i.e. in a networked environment and other users are using the same Set of Books as you are) then ALL users need to exit the Set of Books before the Data integrity check is started.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Run the data integrity check&nbsp;</span></span></h1>
+<p class="rvps19"><span class="rvts29">To perform a data integrity check:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">On the </span><span class="rvts29">Setup </span><span class="rvts30">ribbon, select&nbsp;</span><span class="rvts29"> Tools → Data integrity check</span><span class="rvts30">.&nbsp;</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/data-integrity-check.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select one of the available options:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts30">Select a Set of Books by clicking on the From List down arrow (drop-down list) and select an available Set of Books.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps134">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 50px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 889px;">
+   <p class="rvps12"><span class="rvts85">If the Set of Books on which you wish to perform the data integrity check is open on the system, the Data integrity check will be performed for that Set of Books.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">If no Set of Books is open on the system, the Data integrity check will be performed for the Set of Books that was open before the Data integrity check was initiated, unless another Set of Books is selected.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">The full path or directory and name of the selected Set of Books on which the Data integrity check is to be performed, if the </span><span class="rvts98">Check</span><span class="rvts85"> button is clicked on, will be displayed directly under the Data integrity check title bar.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts30">Select the type of function, the data integrity check has to perform. It is recommended that in most cases, all of these functions should be selected (with a tick).</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Check</span><span class="rvts30"> button and the process will be performed. The word </span><span class="rvts78">Finished</span><span class="rvts30"> will be displayed next to each function when the process for that function is completed. When the whole process is completed, you may click on the </span><span class="rvts29">Print</span><span class="rvts30"> button to print the Data integrity check report.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Close</span><span class="rvts30"> button.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Study the report to determine if there is any data corruption or errors.</span></li>
+</ol>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 906px;">
+   <p class="rvps12"><span class="rvts85">Check for any errors on the report. If there are any errors, see if you can fix these errors. If these errors cannot be fixed, the Set of Books may have to be restored from your last backup disks. You may have to re-enter some data from the last backup to the last transaction entered before the problem/s arose.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">View data integrity check reports&nbsp;</span></span></h1>
+<p class="rvps19"><span class="rvts30">The Data integrity check report consists of the following five (5) basic sections:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Files check</span><span class="rvts30"> - List all the tables in the database (Set of Books).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Accounts check</span><span class="rvts30"> - This specifies the number of Account master files created for each Account type (General ledger, Debtors, Creditors, Bank and Tax accounts) in </span><span class="rvts29">Setup → Accounts </span><span class="rvts30">(</span><span class="rvts29">Setup</span><span class="rvts30"> ribbon). The number of Accounts for Debtors indicates the number of Debtor accounts in the Debtors ledger and the number of Accounts for Creditors indicates the number of Creditor accounts in the Creditors ledger. The total of all account types (ledger, bank, tax, debtor and creditor) in the Set of Books will be displayed.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Trial balance check</span><span class="rvts30"> - This will list the Accounting Periods and the Debit Totals and Credit Totals and Balances for each period. If there are any balances (i.e. the Debit and Credit Totals for an Accounting period do not balance), it indicates that the data may be corrupt for the specific accounting period in which the Balance is displayed.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Debtors / Creditor check</span><span class="rvts30"> (Control accounts check) - This will indicate the balances for the Full Amount, Control account and the Outstanding Amount for the Debtors and Creditors. These three amounts must be in balance and must balance with the Debtor's control account or the Creditor's control account in the Balance sheet or Trial balance.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Unposted batches check</span><span class="rvts30"> - This will only be displayed if there are any documents and batches or journals which have not yet been posted to the ledger. If you have set any users (</span><span class="rvts29">Setup → Access control</span><span class="rvts30"> on the </span><span class="rvts29">Setup</span><span class="rvts30"> ribbon), the name of the user will also be displayed.</span></li>
+</ol>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 907px;">
+   <p class="rvps12"><span class="rvts85">If the differences or corruption is not fixed, you may need to Restore the Set of Books from a previous backup. It is advisable not to continue entering transactions until the current Set of Books is repaired.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

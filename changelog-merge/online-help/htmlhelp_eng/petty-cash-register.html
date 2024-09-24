@@ -1,0 +1,723 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Bank import plugin - Petty cash transactions (Import - CSV)</title>
+  <meta name="description" content="Bank import plugin - petty cash register - osfinancials.org" /> 
+  <meta name="keywords" content="Bank import,Bank accounts">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bank import plugin - Petty cash transactions (Import - CSV)">
+  <meta name="twitter:description" content="Bank import plugin - petty cash register - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Bank import plugin - Petty cash transactions (Import - CSV)" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Bank import plugin - petty cash register - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="petty-cash-register"
+		  data-hnd-context="777"
+		  data-hnd-title="Bank import plugin - Petty cash transactions (Import - CSV)"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins.html" title="Plugins" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-bank-import-petty-cash.html" title="Bank import plugin - Petty cash transactions (Manual entry)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-multi-language-accounts.html" title="Multi-language accounts" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Bank import plugin - Petty cash transactions (Import - CSV)</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Introduction to Petty Cash</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Receipt and Payment batch journal – Bank accounts</span></span></h2>
+<p class="rvps2"><span class="rvts6">The use of cheques or electronic transfers (banking transactions) should be used for all transactions. The handling of cash should be limited as far as possible. Any amounts received from debtors (customers / clients) for cash sales or payments on accounts, should be banked as soon as possible.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">These cash received by a business, should not be used for purchases, etc. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Cash, if not controlled and safeguarded properly, will create a climate for theft and fraud.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Any cash and payments received should be deposited in the bank account of the business. In </span><span class="rvts30">osFinancials</span><span class="rvts6"> the receipts should be recorded in the Receipts batch (journal).</span></p>
+<p class="rvps2"><span class="rvts6">Any payments made should be paid out of the bank account of the business. In </span><span class="rvts30">osFinancials</span><span class="rvts6"> the payments should be recorded in the Payments batch (journal).</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Receipt and Payment batches &nbsp;- Petty Cash&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">A business may need to pay cash for smaller items and items needed urgently. For this reason, a business may need to keep a certain amount of cash (petty cash float) on hand to pay for these smaller necessary or urgent purchases.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Petty cash is a minimum amount of cash kept on hand for small purchases or reimbursements.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Petty cash money and payments or reimbursements must be safeguarded and properly documented to ensure that theft and fraud do not happen.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Petty cash payments (reimbursements) may be handled in the following:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts505">Employees may be required to fill in a form (e.g. Petty cash voucher) to receive the cash from the petty cash. Directly after the purchase, the employee must submit a receipt or acceptable supporting documentation as proof of the purchase and return any change if applicable.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts505">Employees may be asked to make purchases themselves and then get reimbursed from the fund after submitting a receipts</span><span class="rvts6"> and/or</span><span class="rvts505"> acceptable supporting documentation as proof of the purchase.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts505">The Petty cash receipts batch is hardly ever used. Any Petty cash float</span><span class="rvts6"> and/or</span><span class="rvts505"> replenishment is recorded in the Payment batch of the bank account from which the Petty cash float is recorded.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts505">All petty cash payments or reimbursements is recorded in the Petty Cash Payments batch.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Petty cash guidelines</span></span></h1>
+<p class="rvps2"><span class="rvts6">Some guidelines for using Petty cash, is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Appointing a Petty cashier – Only one person may have assess to the Petty cash. The petty cash cashier, must make sure that nobody else has access to the cash.&nbsp;</span></li>
+ <li class="rvps9 noindent"><span class="rvts6">The petty cashier should be responsible for any cash shortages or a lack of </span><span class="rvts505">receipts</span><span class="rvts6"> and/or</span><span class="rvts505"> acceptable supporting documentation as proof of the purchase.&nbsp;</span><span class="rvts6">&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Calculating the amount of float – The petty cash float should not have large amounts. &nbsp;It should be calculated for the average petty cash expenses for a period, monthly, fortnightly or weekly according to the needs of the business.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Another person needs to be appointed to check, on a regular basis, in the presence of the petty cashier, that the petty cash is correct. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Clear guidelines or policies and limits:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts6">Purchases or reimbursements from the Petty cash should only be allowed for valid business expenses (not anything else which are regarded as private expenses).&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts505">Receipts&nbsp;</span><span class="rvts6"> and/or</span><span class="rvts505"> acceptable supporting documentation as proof of the purchase or reimbursement must be submitted.</span></li>
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts6">Restrict the Petty cash payments or reimbursements to specific employees.&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts6">Implement a clear list of allowed purchases or reimbursements.</span></li>
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts6">Limit the amount for which purchases reimbursed.&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts6">Make the petty cash guidelines and policies available to all employees.</span></li>
+ </ol>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">If Tax (VAT/GST/Sales tax ) is charged on a reimbursed purchase, the Tax should also be recorded as Input tax.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">Petty cash can be recorded in in a pre-printed Petty cash register, or done in a spreadsheet. The spreadsheet can be used to record and control petty cash payments or reimbursements &nbsp;as well as to import the transactions as a Comma Separated Value (*.csv) – Tab delimited file into osFinancials.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Recording Petty Cash transactions</span></span></h1>
+<p class="rvps2"><span class="rvts6">The following options are available to record petty cash transactions:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Manually enter the transactions in a batch.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Petty Cash Register - Import the Petty cash transactions from Comma Separated Value (*.csv) – Tab delimited file into batches. This is very useful for bringing in external data without having to recapture it. This allows us to easily develop add on systems in Spreadsheet format and to synch them with </span><span class="rvts30">osFinancials</span><span class="rvts6">. &nbsp;</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Petty Cash Register</span></span></h2>
+<p class="rvps2"><span class="rvts6">Depending on your requirements, the petty cash register may be designed for the necessary controls to keep accurate track cash in the petty cash and moneys paid for expenses / reimbursements.</span></p>
+<p class="rvps2"><span class="rvts6">The Petty Cash Register, in a spreadsheet format, can be used to implement the necessary controls and keep track of your expenses, payments and reimbursements. Transactions in the Petty Cash Register can be saved in a comma separated value (*.csv) -Tab delimited file format. These transactions can then be imported into a Petty Cash payments batch and updated to the ledger.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Delimited file import</span></span></h1>
+<p class="rvps2"><span class="rvts6">The CSV format has been around for many years as a means of transferring data between datasets. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">osFinancials can import CSV files into batches. This is very useful for bringing in external data without having to recapture it. This allows us to easily develop add on systems in Spreadsheet format and to synch them with osFinancials. &nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">OpenOffice 4 / LibreOffice 5</span></span></h2>
+<p class="rvps2"><span class="rvts6">There are a number of contenders for the Office Software Market, &nbsp;Microsoft Office, OpenOffice LibreOffice. I have found OpenOffice to be the best at handling CSV files. You can use their packages, but I sincerely recommend you take advantage of the FREE Download of Open Office at </span><a class="rvts318" href="http://www.openoffice.org/" target="_blank">www.openoffice.org</a><span class="rvts6"> and use OpenOffice for working with the data you are going to import into osFinancials.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">LibreOffice can be downloaded at </span><a class="rvts318" href="http://www.libreoffice.org/" target="_blank">http://www.libreoffice.org/</a><span class="rvts6">&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Get the Data Ready in OpenOffice / LibreOffice</span></span></h2>
+<p class="rvps2"><span class="rvts6">osFinancials is particular about the CSV format that it will accept. osFinancials accepts the Tab delimited csv files.</span></p>
+<p class="rvps387"><span class="rvts6"><br/></span></p>
+<div class="rvps387">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the CSV file is not EXACTLY the format that osFinancials accepts it will generate an error:&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">“List index out of bounds (3)”.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps387">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the Date is not entered as “31/03/2016”, and is entered as “2016/03/31”, depending on your system settings, and the delimited file import in osFinancials is imported, the dates may be imported as 1899/12/31. Irrespective of your operating system’s date and regional settings, if the date is entered as “31/03/2016” the date should be, by default, be imported correctly according to the format of your operating system’s date and regional settings.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0; padding-left: 5px; text-indent: 0px" class="rvps396"><span class="rvts6"><br/></span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Petty Cash Register Template</span></span></h2>
+<p class="rvps2"><span class="rvts6">Open the Petty Cash Register Template</span></p>
+<p class="rvps2"><span class="rvts6">Open the PETTYCASHTEMPLATE.ods (Open Document Spreadsheet). &nbsp;&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-01.png"></p>
+<p class="rvps2"><span class="rvts6">Enter the name of your business and the period.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The default sheet (Sheet1), consists of Receipts and Payments / Reimbursements:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Receipts</span><span class="rvts6"> – </span><span class="rvts14">Column A – D</span><span class="rvts6"> - The Petty cash advances and replenishment as well as any shortages refunded should be entered in these columns. The transactions for the Petty Cash advances and replenishments, does not need to be recorded in TurboCASH, since these will be recorded in the Payments batch of the Bank account &nbsp;from which the petty cash float amount is paid.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Payments / Reimbursements</span><span class="rvts6"> – </span><span class="rvts14">Column E – H</span><span class="rvts6"> – All payments or reimbursements must be entered in these columns. These transactions must be recorded in the Petty Cash batch (journal). These transactions will be updated in the CSV sheet. Once the transactions is added, the CSV sheet, may be saved as a comma separated value – Tab delimited file type. The transactions may then be imported into TurboCASH as a delimited file import.&nbsp;</span></li>
+</ol>
+<p class="rvps93"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-14.png"></p>
+<p class="rvps2"><span class="rvts6">To add more transactions, you may select a row, e.g. Row 9, and insert the required rows.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Balancing the Petty Cash</span></p>
+<p class="rvps2"><span class="rvts505">Petty cash funds must be periodically checked to ensure that the balance of the petty cash fund is correct.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="width : 260px; height : 67px; padding : 1px; background-color : #ffffff;" src="lib/bank-import-petty-cash-register-15.png"></p>
+<p class="rvps2"><span class="rvts505">The petty cash float must always be in balance with the cash on hand plus the receipt or acceptable supporting documentation as proof of the purchase.&nbsp;</span></p>
+<div class="rvps376">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If it does not balance and you have checked that you have counted the cash at hand correctly, and that the petty cash payment transactions are entered correctly.</span></p>
+   <p class="rvps12"><span class="rvts40">If it is correctly counted and entered, a difference indicates a surplus or a shortage:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">Surplus</span><span class="rvts40"> - This is where the amount in the petty cash, and the petty cash vouchers and/or slips exceeds the amount of the float.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Shortage</span><span class="rvts40"> - This is where the amount in the petty cash, and the petty cash vouchers and/or slips is less than the amount of the float.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Updating the CSV sheet to a Tab delimited file</span></span></h2>
+<p class="rvps2"><span class="rvts6">Once the transactions is added in Sheet1, click on the CSV sheet.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">To add more transactions in the CSV sheet, as added in Sheet1, copy the formulas in Columns A – H to the next rows.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">This will update the CSV sheet with the transactions as entered in the Payments / Reimbursements – Column E – H of Sheet1. &nbsp;&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-02.png"></p>
+<p class="rvps2"><span class="rvts6">The values of the columns is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column A</span><span class="rvts6"> – Reference =Sheet1.E8 Reference as entered in column E Row 8 of Sheet1.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column B</span><span class="rvts6"> – Date =Sheet1.F8 the Date as entered in column F Row 8 of Sheet1.</span></li>
+</ol>
+<div class="rvps388">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the Date is not entered as “31/03/2016”, and is entered as “2016/03/31”, depending on your system settings, and the delimited file import in TurboCASH is imported, the dates may be imported as 1899/12/31. Irrespective of your operating system’s date and regional settings, if the date is entered as “31/03/2016” the date should be, by default, be imported correctly according to the format of your operating system’s date and regional settings.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column C</span><span class="rvts6"> – Description =Sheet1.G8 the Description as entered in column G Row 8 of Sheet1.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column D</span><span class="rvts6"> – Account = The default expense / purchase account which will be imported into the batch.&nbsp;</span></li>
+</ol>
+<div class="rvps389">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may enter an existing default account, e.g. “G999-000” – Suspense account or a “Petty cash control” account (added in </span><span class="rvts37">Accounts</span><span class="rvts40"> (</span><span class="rvts37">Default</span><span class="rvts40"> ribbon)). Once the csv file (Delimited file import) of the petty cash transactions in batch is imported, you need to select the correct account for each transaction.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps389">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You need to type the account type prefix e.g. “G” followed by the main account code e.g. “290” and the sub-account, separated by a hyphen “-” for example, “G290-000” for the Printing, Postage and Stationery account.</span></p>
+   <p class="rvps12"><span class="rvts40">Income and expense accounts (starting with the “G” prefix for General ledger accounts) are prefixed with an “*” (asterisk). If the “*” asterisk is also entered in this column, the account will not be imported into the delimited file batch.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps389">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may type the correct account in this column from the printed Chart of accounts from </span><span class="rvts37">Reports → Ledger → Listing</span><span class="rvts40"> (</span><span class="rvts37">Reports</span><span class="rvts40"> ribbon), e.g. “G290-000” – Printing, Postage and Stationery account. Once the csv file (Delimited file import) of the petty cash transactions in batch is imported, you can check and confirm the correct account for each transaction.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps389"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column E</span><span class="rvts6"> – Contra account – The default value is “</span><span class="rvts15">T</span><span class="rvts6">”. Do not delete this column and leave the value as “</span><span class="rvts15">T</span><span class="rvts6">”.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column F</span><span class="rvts6"> – Tax account – The default value is “</span><span class="rvts15">T</span><span class="rvts6">”. Leave the value as “</span><span class="rvts15">T</span><span class="rvts6">”, unless Tax (VAT/GST/Sales tax) is applicable to the transaction.&nbsp;</span></li>
+</ol>
+<div class="rvps388">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may leave the default as “T”. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Once the csv file (Delimited file import) of the petty cash transactions in the petty cash batch is imported, you need to select the correct tax account for each transaction on which Tax (VAT/GST/Sales tax) is applicable.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps388">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If Tax (VAT/GST/Sales tax) is applicable to the transaction, you may type the account type prefix e.g. “T” followed by the main account code e.g. “950” and the sub-account, separated by a hyphen “-” for example, “T950-015” for the Input VAT – Standard rate – 14% account.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column G</span><span class="rvts6"> – Amount – =VALUE(Sheet1.H8) – The amount of the transaction (expense / payment / reimbursement).&nbsp;</span></li>
+</ol>
+<div class="rvps366">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The amount should be a positive amount, since the transactions need to be imported as a debit transaction into the Petty cash batch (journal).&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">If the amount is negative (prefixed by a minus “-” sign) amount, it will be imported as a credit amount into imported into the delimited file batch. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Column H</span><span class="rvts6"> – The default value is “</span><span class="rvts15">FALSE</span><span class="rvts6">”. Once the transactions is imported, and you select an account (i.e. Debtor (customer/client), Creditor (supplier/vendor) and/or a Ledger account), which is set as Open item account and the account has processed transactions to be linked, the “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen will be displayed.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Save the CSV sheet to a Tab delimited file&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Once the transactions is updated in the CSV sheet, the CSV sheet, need to be saved as a comma separated value – Tab delimited file type. The transactions may then be imported into osFinancials as a delimited file import.&nbsp;</span></p>
+<div class="rvps323">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Before proceeding with the next step, remember to </span><span class="rvts37">SAVE</span><span class="rvts40"> the PETTYCASHTEMPLATE.ods (Open Document Spreadsheet).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps323"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">To save the Transactions in the CSV tab to a Tab delimited file:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">On the “</span><span class="rvts15">PETTYCASHTEMPLATE.ods</span><span class="rvts6">” (Open Document Spreadsheet), click on the CSV sheet, if not already selected.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the rows and columns on the CSV sheet.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-03.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Enter the name for the Batch file, (e.g. “</span><span class="rvts15">PettyCASH-2016-03</span><span class="rvts6">”. In this example, it will indicate the petty cash transactions for “</span><span class="rvts15">March 2016</span><span class="rvts6">”.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Save as type: - Select the “</span><span class="rvts15">Text CSV (.csv) (*.csv)</span><span class="rvts6">” as the file type. The “</span><span class="rvts15">Edit filter settings</span><span class="rvts6">” field (tick box) will be activated for the “</span><span class="rvts15">Text CSV (.csv)</span><span class="rvts6">” file type.&nbsp;</span></li>
+</ol>
+<div class="rvps390">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">It is important to select (tick) the “Edit filter settings” field. This will launch the “Export Text file” screen on which the </span><span class="rvts37">TAB</span><span class="rvts40"> field delimiter needs to be selected.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Edit filter settings – Tick this option.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click </span><span class="rvts14">Save</span><span class="rvts6">. &nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-04.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">On the “</span><span class="rvts15">Confirm File Format</span><span class="rvts6">” screen, click </span><span class="rvts14">Use Text CSV Format</span><span class="rvts6"> button. The “</span><span class="rvts15">Export Text File</span><span class="rvts6">” screen is displayed:</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-05.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the following options:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps286 noindent"><span class="rvts14">Field delimiter:</span><span class="rvts6"> - Select </span><span class="rvts14">{TAB}</span><span class="rvts6">.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps284">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If this option is not selected, the delimited file import in osFinancials will fail. The Tab delimited CSV import file is required by osFinancials.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" style="text-indent: 0px" class="rvps286 noindent"><span class="rvts14">Save cell content as shown</span><span class="rvts6"> – Select (tick) this option. If this option is not selected (not ticked), formula values will be imported and may produce REF (Reference) errors.</span></li>
+ </ol>
+ <li value="9" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click the </span><span class="rvts14">OK</span><span class="rvts6"> button.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-06.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="10" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click the </span><span class="rvts14">OK</span><span class="rvts6"> button.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Close the “</span><span class="rvts15">PettyCASH-2016-03.csv</span><span class="rvts6">” file.</span></li>
+</ol>
+<div class="rvps391">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the csv file is opened (active) on your system, the following error message will be displayed:&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">“Cannot open file "...\Spreadsheets\PettyCASH\PettyCASH-2016-03.csv". The process cannot access the file because it is being used by another process.”.</span></p>
+   <p class="rvps12"><span class="rvts40">Close the file in which it is open, e.g. Excel / OpenOffice / LibreOffice and import the file again.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Delimited File Import - CSV file into osFinancials&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once the transactions is saved as a comma separated value – Tab delimited file type, the petty cash transactions can be imported into osFinancials as a delimited file import.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">To Import Petty Cash Transactions from the CSV - Tab delimited file:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">On the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon, select </span><span class="rvts14">Batch entry</span><span class="rvts6">.</span></li>
+ <li style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Select the Payments batch to which the Petty Cash account is linked.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-07.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Open</span><span class="rvts6"> button. The Batch entry transaction screen for the Payments batch to which the Petty Cash bank account is linked will be displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">On the </span><span class="rvts14">F10:Setup</span><span class="rvts6"> icon to check the settings for the batch.&nbsp;</span></li>
+</ol>
+<div class="rvps391">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">On the </span><span class="rvts37">Standard</span><span class="rvts40"> tab, check that the “Consolidate balancing” option, is not selected.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">If the “Consolidate balancing” option, is selected the following error message will be displayed:</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-08.png"></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-09.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Click on </span><span class="rvts14">F9:Process</span><span class="rvts6"> icon and select the “</span><span class="rvts15">Delimited file import</span><span class="rvts6">” option and click </span><span class="rvts14">OK</span><span class="rvts6">.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-10.png"></p>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-11.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Navigate and select the Petty cash batch file (e.g. “</span><span class="rvts15">PETTYCASH-2016-03.csv</span><span class="rvts6">”) to import and click </span><span class="rvts14">Open</span><span class="rvts6">.&nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-12.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Enter the Alias (batch name) in the “</span><span class="rvts15">Change alias</span><span class="rvts6">” field.</span></li>
+ <li style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">After importing the petty cash transactions, you may need to change / edit the imported petty cash transactions:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Reference</span><span class="rvts6"> – The Petty cash voucher or reference number as entered in Column E of Sheet1 and updated in Column A of the CSV sheet in the Petty Cash Register.</span></li>
+  <li style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Date</span><span class="rvts6"> – The date as entered in Column F of Sheet1 and updated in Column B of the CSV sheet in the Petty Cash Register.</span></li>
+ </ol>
+</ol>
+<div class="rvps284">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the Date (in Sheet1 of the Petty Cash Register) is not entered as “31/03/2016”, and is entered as “2016/03/31”, depending on your system settings, and the delimited file import in TurboCASH is imported, the dates may be imported as 1899/12/31. Irrespective of your operating system’s date and regional settings, if the date is entered as “31/03/2016” the date should be, by default, be imported correctly according to the format of your operating system’s date and regional settings.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Description</span><span class="rvts6"> – The descriptions as entered in Column G of Sheet1 and updated in Column C of the CSV sheet in the Petty Cash Register.</span></li>
+  <li style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Account</span><span class="rvts6"> – The account code as entered in Column D of the CSV sheet in the Petty Cash Register. Each payment or reimbursement transaction needs to be linked (allocated) to the correct account.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps284">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If you have entered an existing default account, e.g. “G999-000” – Suspense account or a “Petty cash control” account (added in </span><span class="rvts37">Accounts</span><span class="rvts40"> (</span><span class="rvts37">Default</span><span class="rvts40"> ribbon)). Once the csv file (Delimited file import) of the petty cash transactions in batch is imported, you need to select the correct account for each transaction.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps284">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You need to type the account type prefix e.g. “G” followed by the main account code e.g. “290” and the sub-account, separated by a hyphen “-” for example, “G290-000” for the Printing, Postage and Stationery account.</span></p>
+   <p class="rvps12"><span class="rvts40">Income and expense accounts (starting with the “G” prefix for General ledger accounts) are prefixed with an “*” (asterisk). If the “*” asterisk is also entered in this column, the account will not be imported into the delimited file batch.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps284">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may type the correct account in this column from the printed Chart of accounts from </span><span class="rvts37">Reports → Ledger → Listing</span><span class="rvts40"> (</span><span class="rvts37">Reports</span><span class="rvts40"> ribbon), e.g. “G290-000” – Printing, Postage and Stationery account. Once the csv file (Delimited file import) of the petty cash transactions in batch is imported, you can check and confirm the correct account for each transaction.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Tax account</span><span class="rvts6"> – The correct tax account (code) must be selected, if Tax (VAT / GST / Sales tax) is applicable to the transaction. The Tax account code as entered in Column F of the CSV sheet in the Petty Cash Register.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps394">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The tax column will only be displayed if the “No Tax” option is left blank (not ticked) in the F10:Setup option in the Batch entry screen. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">If no Tax (VAT/GST/Sales Tax) is applicable to all the transactions in the Petty Cash Register; or if you are not registered for Tax (VAT/GST/Sales Tax) you may select to hide the tax column will only be displayed if the “No Tax” option is left blank (not ticked) in the F10:Setup option in the Batch entry screen. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Debit</span><span class="rvts6"> – Positive amounts – The amount of the transaction (expense / payment / reimbursement) as entered in Column H of Sheet1 and updated in Column G of the CSV sheet in the Petty Cash Register.</span></li>
+  <li style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Credit</span><span class="rvts6"> – Negative amounts – &nbsp;&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps395">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The amount should be a positive amount, since the transactions need to be imported as a debit transaction into the Petty cash batch (journal).&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">If the amount is negative (prefixed by a minus “-” sign) amount, it will be imported as a credit amount into imported into the delimited file batch. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="8" style="text-indent: 0px" class="rvps393 noindent"><span class="rvts14">Open item</span><span class="rvts6"> – If an account (i.e. Debtor (customer/client), Creditor (supplier/vendor) and/or a Ledger account), which is set as Open item account and the account has processed transactions to be linked, the “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen will be displayed. On this “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen, you may select to link a payment transaction to a credit transaction, ode a receipt (deposit) transaction to a debit transaction.</span></li>
+ </ol>
+ <li value="9" style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Click on the </span><span class="rvts14">F5:Balance</span><span class="rvts6"> icon. This will generate balancing transactions to the Petty cash bank account. </span><img alt="" style="padding : 1px;" src="lib/bank-import-petty-cash-register-13.png"></li>
+ <li style="text-indent: 0px" class="rvps392 noindent"><span class="rvts6">Click on the </span><span class="rvts14">F8:List</span><span class="rvts6"> icon to print a list of the transactions in the unposted batch.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

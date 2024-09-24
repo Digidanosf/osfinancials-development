@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Structure of osFinancials</title>
+  <meta name="description" content="What is the structure of a database in osFinancials? - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Structure of osFinancials">
+  <meta name="twitter:description" content="What is the structure of a database in osFinancials? - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Structure of osFinancials" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="What is the structure of a database in osFinancials? - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="new-accounting-structure-osfinan"
+		  data-hnd-context="10220"
+		  data-hnd-title="Structure of osFinancials"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="new-to-accounting.html">New to Accounting</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="new-to-accounting.html" title="New to Accounting" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="chart-of-accounts-income-stateme.html" title="Income / Expense accounts - Chart of accounts" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="new-accounting-research.html" title="Research and Development (R&amp;D)" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Structure of osFinancials</h2>
+
+            <div class="main-content">
+                
+<p class="rvps65"><span class="rvts30">osFinancials is a software that is straightforward to set up and use. You only need to create a Set of Books once, add your master records, set some defaults, and begin processing your transactions. Whenever you need to manage your financial activities, you can generate, print, or export various reports.</span></p>
+<p class="rvps65"><span class="rvts30">The user interface of osFinancials is designed to be user-friendly and intuitive, making it easy for users to perform most functions with just a few clicks and minimal typing. In certain fields, search facilities are available to help you select transaction details or report selection criteria quickly.</span></p>
+<p class="rvps65"><span class="rvts30">The financial data in osFinancials is processed, stored, and reported on using a specific structure</span><span class="rvts29"> </span><span class="rvts30">in the osFinancials file system:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Sets of Books</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps86"><span class="rvts30">The osFinancials file system consists of various components that are used to manage and monitor financial activities for different entities. You can create an unlimited number of Sets of Books, which are sets of computerized files used to enter, process, summarize, and report financial data for a business entity or organization. Each Set of Books is stored in a separate directory or folder on your system, and the list of these Sets of Books is kept in the "</span><span class="rvts78">books.fdb</span><span class="rvts30">" file.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Company info, defaults and settings</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps86"><span class="rvts30">For each Set of Books, the entity's information and defaults or settings are stored. This information is reflected on reports, and the defaults or settings are used to enter, process, and report on the data.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Accounting periods</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps86"><span class="rvts30">The accounting periods are used to report on financial activities for a specific period. The financial year is divided into accounting periods, usually representing the calendar months. All transactions of an entity must be recorded in the accounting period in which they occurred. The accounting periods are used to generate reports on the transaction data, and osFinancials stores the totals and other financial information for any number of years to allow for comparison between reports for this year and last year.</span></p>
+<p class="rvps86"><span class="rvts30">The "</span><span class="rvts78">totals</span><span class="rvts30">" table in osFinancials stores the total amounts for each accounting period of the current year and the previous year. This table is used to cross-reference and ensure that the Set of Books is balanced. For each account, the total of the debits (positive numbers) and credits (negative numbers) for any given period must be equal to zero, as every transaction should have an equal amount debited and credited.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Accounts</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps86"><span class="rvts30">The Chart of Accounts is the core component of a Set of Books. This data is kept in the "</span><span class="rvts78">accounts</span><span class="rvts30">" table, and there are five types of Accounts files specific to each type:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps112 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.png"><span class="rvts29"> General ledger accounts</span><span class="rvts30"> - Assets, Capital, Liabilities, Income or Expense accounts.</span></li>
+  <li style="text-indent: 0px" class="rvps112 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-bank.png"><span class="rvts29"> Bank accounts</span><span class="rvts30"> - Cashbook payments and receipts journals.</span></li>
+  <li style="text-indent: 0px" class="rvps112 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-creditor.png"><span class="rvts29"> Creditor accounts</span><span class="rvts30"> - Creditor contact information, remittance advice messages, credit limits, charge amounts, tax references, groups, etc.</span></li>
+  <li style="text-indent: 0px" class="rvps112 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-debtor.png"><span class="rvts29"> Debtor accounts</span><span class="rvts30"> - Debtor contact information, statement messages, credit limits, charge amounts, interest percentage, tax references, groups, etc.</span></li>
+  <li style="text-indent: 0px" class="rvps112 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-tax.png"><span class="rvts29"> Tax accounts</span><span class="rvts30"> - Percentages for VAT/GST/Sales Tax and effective dates for which these percentages apply.</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Stock items</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps86"><span class="rvts30">osFinancials stores specific data of your stock items (inventory items / products) in the "</span><span class="rvts78">stock</span><span class="rvts30">" table, including codes, descriptions, selling prices, and barcodes, tax accounts, sales, cost of sales, and stock account information.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Transactions</span><span class="rvts30"> &nbsp;</span></li>
+</ol>
+<p class="rvps10"><span class="rvts30">All transactions are entered in batches and documents, such as, invoices, credit notes, purchases and supplier returns), and these batches are posted to the ledger. The information of each transaction is kept in the "</span><span class="rvts78">transact</span><span class="rvts30">" table, including the batch type, date and period of the transaction, reference number, description, amount, tax amounts, account, and contra account.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps111 noindent"><span class="rvts29">Documents</span><span class="rvts30">&nbsp;</span></li>
+</ol>
+<p class="rvps10"><span class="rvts30">The details of documents such as invoices, credit notes, quotes, purchases, supplier returns, and orders are stored in various tables. These tables contain information about the inventory items and quantities as selected on the documents. When documents are updated or posted to the general ledger, osFinancials will generate transactions and update the appropriate accounts with these transactions. This saves you the effort of unravelling the complex relationships between transactions.</span></p>
+<p class="rvps86"><span class="rvts30"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

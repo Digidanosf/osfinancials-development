@@ -1,0 +1,467 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>List batch</title>
+  <meta name="description" content="How to print a list of transactions in unposted batches (journals) - osfinancials.org " /> 
+  <meta name="keywords" content="Alias (batch name),Batch report,Batch processing options,Batches (journals)">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="List batch">
+  <meta name="twitter:description" content="How to print a list of transactions in unposted batches (journals) - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="List batch" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to print a list of transactions in unposted batches (journals) - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="batch-list"
+		  data-hnd-context="356"
+		  data-hnd-title="List batch"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="batches-journals.html">Batches (Journals)</a></li><li><a href="batch-entry-form.html">Batch entry form</a></li><li><a href="batch-processing-options.html">F9:Batch processing options</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="batch-processing-options.html" title="F9:Batch processing options" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-balance.html" title="Balance batch" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-post.html" title="Post batch" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>List batch</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts30">After entering all your transactions in a batch, and before updating or posting the transactions to the ledger, you need to print a list of the transactions entered in the batch.&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">It is recommended to review the batch list and edit or correct any transactions before proceeding to post the batch (journal). This ensures that the transactions are accurate and complete before being updated to the ledger.&nbsp;</span><span class="rvts85">&nbsp;</span><span class="rvts40">&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Printing the list of transactions allows you to have a physical record that can be used for reference, auditing, or reconciliation purposes.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Once a batch is posted, any errors or corrections would need to be addressed through additional journal transactions or by reversing the posted batch and making the necessary corrections before reposting it.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">It's important to ensure accuracy in the initial batch entry and review process to minimize the need for subsequent corrections.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Using the printed batch list as an index or cover for the supporting source documents is a good practice. It provides a clear connection between the batch list and the underlying transactions, serving as evidence or proof of the recorded transactions.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">This can be helpful during audits or when reviewing the accuracy and completeness of the batch. Keeping the supporting documents organized and easily accessible alongside the printed batch list helps maintain proper documentation and facilitates efficient reference and verification processes.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Tax authorities and legislation in various jurisdictions often prescribe specific retention periods for financial documents and records. These retention periods determine how long businesses are required to keep their documents as proof of profits, deductions, and other financial transactions. The purpose of these regulations is to ensure that businesses maintain proper records for auditing, compliance, and legal purposes.</span></p>
+   <p class="rvps12"><span class="rvts40">The retention periods can vary depending on the jurisdiction and the specific type of document. It's important for businesses to familiarize themselves with the applicable regulations in their jurisdiction and ensure that they comply with the required retention periods. This may involve retaining documents such as invoices, receipts, bank statements, financial statements, and other supporting documentation for a certain number of years.</span></p>
+   <p class="rvps12"><span class="rvts40">By adhering to the prescribed retention periods, businesses can meet their legal obligations, facilitate audits or inspections, and maintain a reliable and accurate record-keeping system. It's always recommended to consult with tax professionals or legal advisors to ensure compliance with the specific requirements of your jurisdiction.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps19"><span class="rvts30">You may list the entries at any time when transactions have been entered in a batch, even if the batch has been balanced or not. Before printing a list of your batch transactions, you need to decide if you wish to include the balancing entries. Should you wish to include the balancing entries on your batch list, you need to first balance the batch.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts29">To list transactions entered in a batch:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Once the transactions are entered in a batch, you may print a list of transactions entered in the batch to check the transactions.&nbsp;</span></li>
+</ol>
+<h1 class="rvps198"><img alt="" style="padding : 1px;" src="lib/batch-entry-list-unposted-batch.png"></h1>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">F8:List</span><span class="rvts30"> icon to print a list of the transactions in the batch.</span></li>
+</ol>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts207">You may also right-click on the selected batch (journal) on the "Batch type" selection screen, and select the </span><span class="rvts286">Print</span><span class="rvts207"> option on the context menu.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts207">You may </span><span class="rvts228">click</span><span class="rvts207"> on the</span><span class="rvts286"> F9:Process</span><span class="rvts207"> icon. You then need to select the </span><span class="rvts286">List batch</span><span class="rvts207"> option from the list of batch processing options.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">An example of the transactions in the "</span><span class="rvts78">List batch - - Unposted batch</span><span class="rvts30">" report, is as follows:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/batch-entry-list-unposted-batch-printed.png"></li>
+</ol>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">Check that the "Alias (batch name)" is displayed on correctly on the report.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps19 noindent"><span class="rvts30">The details of the transactions, displayed in nine (9) columns, are as follows:&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Date</span><span class="rvts30"> - This is the transaction date as entered in the date field.&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Reference number</span><span class="rvts30"> - This is usually refers to the source document from which the transaction is entered (e.g. the cheque number, deposit number, invoice number, supplier invoice number, etc. as entered in the "</span><span class="rvts78">Reference</span><span class="rvts30">" field.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If a batch is balanced, the reference number will be indicated by eight asterisks (********).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">This refers to the contra account and cannot not, under any circumstances, be over typed or changed before you post the batch.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Description</span><span class="rvts30"> - This is the description of the transaction as entered in the description field.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">This detail should be entered sensibly so as to enable any person or independent auditor to determine the nature of the transaction (what was paid, purchased, sold, etc.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">When a Creditor account or a Debtor account was selected, the descriptions should also make sense for the creditor or debtor if Creditor Remittance advises or Debtor statements are sent.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Account</span><span class="rvts30"> - The account code for the selected General ledger, Creditor or Debtor account will be displayed.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If a batch is balanced (if the Consolidate balancing is selected in the Options for this batch), the selected Contra account (balancing account) will be displayed.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If any VAT/GST/Sales Tax was applicable to transactions and a Tax account or Code was selected, the Tax code &nbsp;would also be displayed as a balancing entry.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Contra account</span><span class="rvts30"> - This is the default </span><span class="rvts82">the selected Contra account (balancing account) selected in the Options for this batch Standard tab.</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Tax</span><span class="rvts30"> - The tax code will be displayed (if tax was selected for a transaction).</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Tax</span><span class="rvts30"> - The tax amount will be displayed (if tax was selected for a transaction).&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Debit</span><span class="rvts30"> - The amount of each transaction as entered in the debit column.&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps133 noindent"><span class="rvts29">Credit</span><span class="rvts30"> - The amount of each transaction as entered in the credit column.&nbsp;</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">After printing the report, click on the </span><span class="rvts29">Close</span><span class="rvts30"> button.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

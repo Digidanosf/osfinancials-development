@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Backup / Restore Sets of Books</title>
+  <meta name="description" content="Options to backup a set of books - osfinancials.org" /> 
+  <meta name="keywords" content="Start ribbon,Backup,Browse For Folder">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Backup / Restore Sets of Books">
+  <meta name="twitter:description" content="Options to backup a set of books - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Backup / Restore Sets of Books" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Options to backup a set of books - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="backup-restore-set-of-books-opti"
+		  data-hnd-context="103"
+		  data-hnd-title="Backup / Restore Sets of Books"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="data-integrity-check.html" title="Data integrity check" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="backup-set-of-books.html" title="Backup a Set of Books" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Backup / Restore Sets of Books</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">What is a Backup file in osFinancials?</span></span></h1>
+<p class="rvps19"><span class="rvts30">A backup file is a copy of data in a Set of Books in osFinancials that is stored separately in case the original data is lost or becomes inaccessible. The backup file is essentially a snapshot of the original data at a particular point in time, and it can be used to restore the data in a Set of Books in case of data loss, corruption, or system failure.</span></p>
+<p class="rvps19"><span class="rvts30">They are typically stored on an external device or in a remote location to protect against disasters like fire, theft, or hardware failure that could damage or destroy the original data.</span></p>
+<p class="rvps19"><span class="rvts30">Backup files can be created manually or automatically on a scheduled basis. Manual backups require the user to initiate the backup process, while automatic backups are configured to run automatically at regular intervals.</span></p>
+<p class="rvps19"><span class="rvts30">In summary, backup files are essential for ensuring data integrity and availability in case of data loss or system failure. They provide a way to recover data and restore system functionality quickly and efficiently.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Options to store backup files</span></span></h1>
+<p class="rvps19"><span class="rvts30">Backup files can be stored in a variety of locations, depending on your needs and preferences. Here are some common options:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts29">External hard drive</span><span class="rvts30">: You can store backup files on an external hard drive that is connected to your computer or server. This provides a physical backup that is easily accessible and can be quickly restored if needed.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Cloud storage:</span><span class="rvts30"> You can store backup files in cloud storage services such as Google Drive, Dropbox, or OneDrive. This provides an off-site backup that is accessible from anywhere with an internet connection and can protect against physical disasters like fire or theft.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Network-attached storage (NAS)</span><span class="rvts30">: You can store backup files on a NAS device that is connected to your network. This provides a centralized backup solution that can be easily accessed by multiple devices.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Tape backup:</span><span class="rvts30"> You can store backup files on magnetic tapes that are stored in a secure location. This is a traditional backup method that is still used in some organizations because of its durability and reliability.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">USB drive:</span><span class="rvts30"> You can store backup files on a USB drive that is stored in a secure location. This is a portable backup solution that can be easily transported and used to restore data on different devices.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Optical media</span><span class="rvts30">: Optical media such as CDs, DVDs, and Blu-ray discs can be used to store backup files.</span></li>
+</ol>
+<p class="rvps19"><span class="rvts30">Overall, the choice of storage location for backup files depends on your needs for accessibility, security, and reliability. It is recommended to store backup files in at least two separate locations to ensure redundancy and protect against data loss.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Options to Backup or Copy a Set of Books in osFinancials</span></span></h1>
+<p class="rvps65"><span class="rvts30">In addition to the </span><span class="rvts29">Backup/Restore</span><span class="rvts30"> feature, you can create exact copies of existing Sets of Books or templates that are installed in your osFinancials5/books directory.</span></p>
+<p class="rvps2"><span class="rvts6">The following options are available in osFinancials for backing up or copying a Set of Books:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><a class="rvts31" href="backup-restore-set-of-books-opti.html">Backup / Restore</a><span class="rvts6">: This option is available on the </span><span class="rvts14">Start</span><span class="rvts6"> ribbon. It allows you to create backups of your Set of Books and restore them when needed. You can select the backup option to create a backup file and choose the restore option to restore a previously created backup.</span></li>
+ <li class="rvps2 noindent"><a class="rvts31" href="books-save-as.html">Save as</a><span class="rvts6">: This option is also available on the </span><span class="rvts14">Start</span><span class="rvts6"> ribbon. It enables you to create a copy of an existing Set of Books with a new name and/or a new location. This is useful when you want to create a duplicate or backup of a Set of Books.</span></li>
+ <li class="rvps2 noindent"><a class="rvts31" href="create-set-of-books.html">Create Set of Books</a><span class="rvts6">: This option is found in the </span><span class="rvts30">"</span><a class="rvts34" href="copy-set-of-books.html">Copy an existing Set of Books?</a><span class="rvts30">" </span><span class="rvts6">section of the "</span><span class="rvts15">Creation wizard</span><span class="rvts6">" on the </span><span class="rvts14">Start</span><span class="rvts6"> ribbon. It allows you to create a new Set of Books based on an existing one. You can select an existing Set of Books and provide a new name and/or location for the copied Set of Books.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Tools → Global processes</span><span class="rvts6"> → </span><a class="rvts31" href="copy-from-set-of-books.html">Copy from a Set of Books</a><span class="rvts6">: This menu-option is available on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon. It provides a feature for copying a Set of Books from an existing one. You can select the source Set of Books and specify the name and/or location for the copied Set of Books.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">These options allow you to create backups or copies of Sets of Books in osFinancials, either by directly saving them as new files or by using existing Sets of Books as templates. Each option provides flexibility in terms of naming, location, and source for the copied Set of Books.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,489 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Import General ledger accounts (Setup ribbon)</title>
+  <meta name="description" content=" How to export ledger accounts - osfinancials.org" /> 
+  <meta name="keywords" content="Accounts,Chart of accounts,tab delimited export / import,Browse For Folder">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Import General ledger accounts (Setup ribbon)">
+  <meta name="twitter:description" content=" How to export ledger accounts - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Import General ledger accounts (Setup ribbon)" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content=" How to export ledger accounts - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="accounts-import-tab-delimited"
+		  data-hnd-context="6"
+		  data-hnd-title="Import General ledger accounts (Setup ribbon)"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="ledger-accounts.html">Accounts (Ledger)</a></li><li><a href="accounts-export-import-options.html">Export / Import - General ledger accounts</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="accounts-export-import-options.html" title="Export / Import - General ledger accounts" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="accounts-export-tab-delimited.html" title="Export General ledger accounts (Setup ribbon)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="accounts-export-tab-spreadsheet.html" title="Open exported text file - Spreadsheet" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Import General ledger accounts (Setup ribbon)</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts30">This option will allow you to import data for Account records from a valid file format into an existing Set of Books.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">To be able to import the data for Account records, you need to have created a "</span><span class="rvts78">Tab delimited</span><span class="rvts30">" (*.txt) export file in the </span><a class="rvts31" href="accounts-export-tab-delimited.html">Export</a><span class="rvts30"> (</span><span class="rvts29">Setup</span><span class="rvts30"> ribbon). &nbsp;</span></p>
+<p class="rvps19"><span class="rvts29">To import accounts into </span><span class="rvts14">a Set of Books</span><span class="rvts29">:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">On the </span><span class="rvts29">Setup </span><span class="rvts30">ribbon, select </span><span class="rvts29">Import</span><span class="rvts30">. &nbsp;</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/import-accounts.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select </span><span class="rvts29">Accounts</span><span class="rvts30"> as the "</span><span class="rvts78">Data type to import</span><span class="rvts30">".</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the "</span><span class="rvts78">Tab delimited</span><span class="rvts30">" (recommended) file type to import.</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts40">Other file types created with the export as "Tab delimited" file type, is </span><span class="rvts54">SLK, XML Database File (*.XML), which is stored in your exported folder.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts54">Other available file types, is:" (*.TXF) TurboCASH Exchange File , (*.WK1) Lotus Spreadsheet File, (*.Xml) Xml Database, Comma separated values" and "Windows list separator values".</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><img alt="" style="padding : 1px;" src="lib/tools-import-icon-next.png"><span class="rvts30"> button to locate the data file.&nbsp;</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/import-accounts-file-select.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><img alt="" style="padding : 1px;" src="lib/tools-import-icon-browse.png"><span class="rvts30"> button to locate the data file.&nbsp;</span></li>
+</ol>
+<div class="rvps132">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts53">Optional</span><span class="rvts54"> - You may click on the </span><span class="rvts53">View file</span><span class="rvts54"> button to view the file in your system's default app (program) associated with the exported file type.</span></p>
+   <p class="rvps12"><span class="rvts54">An example of the exported Tab Delimited text file is as follows:</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/import-accounts-text-notepad.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><img alt="" style="padding : 1px;" src="lib/tools-import-icon-next.png"><span class="rvts30"> button.</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/import-accounts-step3.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Import</span><span class="rvts30"> button. The "</span><span class="rvts78">ImportCheck"</span><span class="rvts30"> screen is displayed:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/import-accounts-import-check.png"></li>
+</ol>
+<div class="rvps132">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts40">You may use the </span><a class="rvts52" href="record-buttons.html">record buttons</a><span class="rvts40"> to add, delete or change the accounts on the "ImportCheck" screen. You may then click on the </span><span class="rvts37">All</span><span class="rvts40"> or </span><span class="rvts37">OK</span><span class="rvts40"> buttons to import the accounts.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps87">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts54">The values of the data in the "ImportCheck" screen, listing the general ledger accounts, is as follows:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+    <li class="rvps12 noindent"><span class="rvts53">ACCOUNTTYPEID</span><span class="rvts54"> - Account type - 0=General ledger, 3=Bank accounts and 4=Tax accounts.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SDESCRIPTION</span><span class="rvts54"> - Account description (Name).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SACCOUNTCODE</span><span class="rvts54"> - Account number (Code).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">BINCOMEEXPENSE</span><span class="rvts54"> - 1=Income / Expenses, 2=General ledger (Tax and Bank accounts is by default a Balance sheet Account).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">BSUBACCOUNTS</span><span class="rvts54"> - 1=Sub-accounts, 0=No Sub-accounts.</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">BOPENITEM</span><span class="rvts54"> - Column values is blank.</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">BINACTIVE</span><span class="rvts54"> - Column values is blank.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SGroup1</span><span class="rvts54"> - Account group 1 Description&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SGroup2</span><span class="rvts54"> - Account group 2 Description&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">DSTARTDATE</span><span class="rvts54"> - Start Date - (only applicable to Account type 4 only (i.e. Tax accounts)).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">DENDDATE</span><span class="rvts54"> - End Date - (only applicable to Account type 4 only (i.e. Tax accounts)).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">FRATE</span><span class="rvts54"> - Tax Rate (Percentage) - (only applicable to Account type 4 only (i.e. Tax accounts)).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SReceipt</span><span class="rvts54"> - Receipts journal - (only applicable to Account type 3 only (i.e. Bank accounts)).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SPayment</span><span class="rvts54"> - Payments journal - (only applicable to Account type 3 only (i.e. Bank accounts)).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts53">SCurrency</span><span class="rvts54"> - Currency (Not used).&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps132">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts53">BOPENITEM</span><span class="rvts54"> column is blank. All accounts for which the "Open item account" was set as "Yes" is set to "No" is blank. This will import any Open accounts as normal accounts.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">You may need to identify and set these accounts as a "Open item account". &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps132">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts53">BINACTIVE</span><span class="rvts54"> column is blank. All accounts for which the "Status" is set to "Disabled" is blank. This will import any "Disabled (inactive) accounts as "Enabled" (active) accounts.</span></p>
+   <p class="rvps12"><span class="rvts54">You need to Delete these accounts; or set them as "Disabled" (inactive) after importing these accounts.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps132">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts53">Bank accounts</span><span class="rvts54"> - </span><span class="rvts53">WACCOUNTTYPEID column is "3"</span><span class="rvts54">. If Bank accounts is imported, it will create Payments bathes and/or Receipt batches for each bank account depending on the Default bank reconciliation method setting (Setup - System parameters on the Setup ribbon). &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">You may select to delete the Bank accounts on the "ImportCheck" screen.</span></p>
+   <p class="rvps12"><span class="rvts54">If these Bank accounts is not &nbsp;deleted on the "ImportCheck" screen, it will import the Bank accounts, as well as the Payments bathes and/or Receipt batches associated with each of the Bank accounts.</span></p>
+   <p class="rvps12"><span class="rvts54">You may then need to delete these Bank accounts, as well as &nbsp;its associated Payments bathes and/or Receipt batches associated with each of the Bank accounts and create (add) your own Bank accounts and associated Payments bathes</span><span class="rvts40"> and/or </span><span class="rvts54">Receipt batches.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Once the import process is finished an information message will be displayed.&nbsp;</span></li>
+</ol>
+<p class="rvps11"><span class="rvts46">"Data file import completed!</span><span class="rvts46">"&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">OK</span><span class="rvts30"> button.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Go to the </span><span class="rvts29">Reports</span><span class="rvts30"> ribbon and select </span><span class="rvts29">Reports → Ledger &nbsp;→ </span><a class="rvts31" href="report-ledger-chart-of-accounts.html">Listing</a><span class="rvts30"> menu to check that the ledger accounts are correct.&nbsp;</span></li>
+</ol>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 49px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 782px;">
+   <p class="rvps12"><span class="rvts53">Blocked accounts </span><span class="rvts54">- If accounts status is set to disabled, these accounts will be imported. Note the status of disabled accounts is set to enabled. For example, if you have changed the Tax rates, and do not wish to &nbsp;use these old accounts, you may delete these accounts or disable them.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">The Reporting groups for Account groups 1 and Account group 2, will also be imported in the Setup </span><span class="rvts53">→ </span><span class="rvts54">Groups. &nbsp;&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="11" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">If you need to edit the ledger accounts, go to the </span><span class="rvts29">Setup</span><span class="rvts30"> ribbon and select</span><span class="rvts29"> Accounts.&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">After Import</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Link Account group 1 / Account group 2 to Financial categories</span></span></h2>
+<p class="rvps2"><span class="rvts6">If Account group 1 and or Account group 2 is imported into your Set of Books, these Account groups should be linked to the imported general ledger accounts in </span><span class="rvts14">Setup → </span><a class="rvts32" href="accounts-edit.html">Accounts</a><span class="rvts6"> (</span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">These Account groups may not be linked to the 5 Financial categories (i.e. Assets, Liabilities, Capital, Income and Expenses). &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may need to link the Account groups to the Financial categories (on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon) in the following &nbsp;two (2) options:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Setup </span><span class="rvts29">→</span><span class="rvts14"> </span><a class="rvts32" href="financial-categories-setup.html">Financial categories</a><span class="rvts6">.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Setup </span><span class="rvts29">→</span><span class="rvts14"> </span><a class="rvts32" href="financial-categories-accounts.html">Accounts</a><span class="rvts6">.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">The basic account groups should already be included in your imported Set of Books, and you may add, edit or delete any of these groups in </span><span class="rvts14">Setup → </span><a class="rvts32" href="reporting-groups-setup-accounts.html">Groups</a><span class="rvts6"> on the Account group 1 and/or Account group 2, before linking them to financial categories.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The sequence in which the groups and accounts are listed, may be changed by selecting the groups on the list and use the </span><span class="rvts14">Move up</span><span class="rvts6"> or </span><span class="rvts14">Move down</span><span class="rvts6"> buttons.</span></p>
+<p class="rvps2"><span class="rvts6">This will enable you to structure your general ledger reports (i.e. Trial balance, Income statement, Balance sheet, Chart of Accounts), according to your specific reporting needs. &nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Disabled (Inactive) Accounts&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">If the status of Accounts were set as Disabled in the source Set of Books from which the Export file was exported, the Disabled accounts will be imported as "Enabled". You may need to:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Delete the "</span><span class="rvts15">Disabled</span><span class="rvts6">" accounts, if you do not wish to keep these accounts; or&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Keep the Status of these Accounts as "Enabled" (active); or set the Status of these Accounts as "</span><span class="rvts15">Disabled</span><span class="rvts6">" (inactive).</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Tax (VAT/GST/Sales tax) Accounts / Codes</span></span></h2>
+<p class="rvps2"><span class="rvts6">It is important to check the Tax (VAT/GST/Sales tax accounts and Tax percentages, before you process any transactions in batches and/or documents.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Recreate Tax (VAT/GST/Sales tax) codes with missing Tax tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts14">Tax</span><span class="rvts6"> tab on the first Tax code (e.g. Output VAT - 14% (T850010) and Output VAT - 15% (T850010) is missing after Import.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/import-accounts-tax-missing-tax-tab-x.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Select the Tax code (e.g. T860010) and Copy the Description (e.g. Output VAT - 15%) to your clipboard.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Click on the Delete </span><img alt="" style="padding : 1px;" src="lib/icon-accounts-delete.png"><span class="rvts6"> icon.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Select the Tax control account (e.g. VAT - Control - Output VAT - 15%) (main account).</span></p>
+<p class="rvps2"><span class="rvts6">Click on the Add </span><img alt="" style="padding : 1px;" src="lib/icon-accounts-add.png"><span class="rvts6"> icon.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/import-accounts-tax-missing-tax-tab-fix.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A new Ledger account will be added. Select the following:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts14">Account type</span><span class="rvts6"> - Select Tax.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Account number</span><span class="rvts6"> - Change the "000" in the Sub-account section with "010". You may use the same sub account code as the deleted Tax account.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Description</span><span class="rvts6"> - Enter the name of your Output tax account (or paste from your clipboard).</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Account group 2</span><span class="rvts6"> - If Account group 2 is used in the in the other accounts, you need to reselect Account group 2.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">On the </span><span class="rvts14">Tax</span><span class="rvts6"> tab, enter the Tax percentage (e.g. 15) and click on the </span><span class="rvts14">Save</span><span class="rvts6"> button.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">The Account name will change to "</span><span class="rvts15">Output VAT - 15%</span><span class="rvts6">" (as in this example) and the Ledger </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.png"><span class="rvts6"> icon will change to the Tax </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-tax.png"><span class="rvts6"> icon.&nbsp;</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">&nbsp;Zero -rated Tax (VAT/GST/Sales tax) accounts - Confirm Zero percentage</span></span></h3>
+<p class="rvps2"><span class="rvts6">Zero- rated Tax (VAT/GST/Sales tax) with a Tax percentage of "</span><span class="rvts15">0%</span><span class="rvts6">" may be blank.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">On the </span><a class="rvts33" href="user-reports-tax-list-rates.html">Tax codes - Tax rates</a><span class="rvts6"> report (</span><span class="rvts14">User reports → Tax</span><span class="rvts6"> on the </span><span class="rvts14">Reports</span><span class="rvts6"> ribbon), Tax percentages with a zero-rate &nbsp;will be Imported as a blank percentage.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">This may cause the Zero rated Tax (VAT/GST/Sales tax) selected in processing transactions in Batches and/or Documents not to display correctly on Tax reports.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/import-accounts-tax-missing-tax-tab-report-x.png"></p>
+<p class="rvps2"><span class="rvts6">To fix this; select the Zero-rated Tax (VAT/GST/Sales tax) account.</span></p>
+<p class="rvps2"><span class="rvts6">Overtype the Tax percentage with "</span><span class="rvts15">0</span><span class="rvts6">" and click </span><span class="rvts14">Save</span><span class="rvts6">.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/import-accounts-tax-missing-tax-tab-zero-rate.png"></p>
+<p class="rvps2"><span class="rvts6">After confirming Zero-rated "0" tax percentages (tax rates) the Tax rates should be correctly listed as &nbsp;"</span><span class="rvts15">0</span><span class="rvts6">" percentage.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/import-accounts-tax-missing-tax-tab-report.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Delete / Add Bank Accounts&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">If Bank accounts is imported, it will create a Payments batch/ Receipts batch for each Bank account / Petty Cash account.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">It is recommended that the Bank Accounts, as well as the Imported batch types be deleted and recreated.</span></p>
+<p class="rvps2"><span class="rvts6">If a blank Set of Books was created; using the "</span><a class="rvts34" href="create-books-advanced.html">Customise your own Set of Books (Advanved)?</a><span class="rvts6">" option on the "Creation wizard", the setting for the </span><a class="rvts33" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6">, will be activated. This means, that by default, the "</span><span class="rvts15">Default bank reconciliation method</span><span class="rvts6">" option is not selected (</span><span class="rvts14">Setup → System parameters</span><span class="rvts6">) and the Bank account will be linked to a combined Payments and Receipt batch. &nbsp;</span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/accounts-setup-bank-tab-bank-import.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If you do not wish to use the </span><a class="rvts33" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6">, to import bank statements, (and manually process bank transactions is a separate Payments batch and Receipts batch), the "</span><span class="rvts15">Default bank reconciliation method</span><span class="rvts6">" option is need to be selected (</span><span class="rvts14">Setup → System parameters</span><span class="rvts6">).</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/accounts-bank-tab-b-i-p-not-activated.png"></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

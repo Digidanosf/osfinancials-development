@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Report designer - Writing SQL</title>
+  <meta name="description" content="Report designer writing sql - osfinancials.org" /> 
+  <meta name="keywords" content="Report designer">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Report designer - Writing SQL">
+  <meta name="twitter:description" content="Report designer writing sql - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Report designer - Writing SQL" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Report designer writing sql - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="report-designer-writing-sql"
+		  data-hnd-context="10302"
+		  data-hnd-title="Report designer - Writing SQL"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reportman.html">Working with Reportman</a></li><li><a href="report-designer-menus.html">Report designer menu structure</a></li><li><a href="report-designer-report-data-stru.html">Report designer - Report Structure and Data</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="report-designer-report-data-stru.html" title="Report designer - Report Structure and Data" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="report-designer-data-access-conf.html" title="Report designer -  Data access configuration" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="report-designer-add-dataset.html" title="Report designer - Add a Dataset" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Report designer - Writing SQL</h2>
+
+            <div class="main-content">
+                
+<p class="rvps314"><span class="rvts30">To write SQL is actually very simple, for example, “select data from table”, &nbsp;where data is a valid field name (e.g. ScompanyName Company Name) in the table and table is a valid table name (e.g. Sysvars).&nbsp;</span></p>
+<p class="rvps314"><span class="rvts30">To call the company name and Fax number (as entered in the </span><span class="rvts29">Company info</span><span class="rvts30"> (</span><a class="rvts244" href="setup-ribbon.html">Setup</a><span class="rvts82"> ribbon) </span><span class="rvts30">screen (it is stored in the sysvars table)), you may simply write </span><span class="rvts81">select SCompanyName CompanyName, SFaxNumber Fax from Sysvars</span><span class="rvts30">. &nbsp;</span></p>
+<p class="rvps314"><span class="rvts78">Select </span><span class="rvts81">YOUR DATA FIELDS</span><span class="rvts78"> &nbsp;from sysvars</span></p>
+<p class="rvps314"><span class="rvts78">An example of the SQL for the COMPANYINFO dataset is as follows:</span></p>
+<div class="rvps232">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; background-color: #ffffcc; vertical-align: middle;">
+   <p class="rvps12"><span class="rvts53">SQL Text</span></p>
+  </td>
+  <td style="padding: 5px; background-color: #ffffcc; vertical-align: middle;">
+   <p class="rvps12"><span class="rvts53">Data on Screens</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle;">
+   <p class="rvps12"><span class="rvts54">select&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">SCompanyName CompanyName,</span></p>
+   <p class="rvps12"><span class="rvts54">BlobLogo Logo,</span></p>
+   <p class="rvps12"><span class="rvts54">SAddress1 Address1,</span></p>
+   <p class="rvps12"><span class="rvts54">SAddress2 Address2,</span></p>
+   <p class="rvps12"><span class="rvts54">SAddress3 Address3,</span></p>
+   <p class="rvps12"><span class="rvts54">SPostCode Postcode,</span></p>
+   <p class="rvps12"><span class="rvts54">SPhoneNumber Telephone,</span></p>
+   <p class="rvps12"><span class="rvts54">SFaxNumber Fax,</span></p>
+   <p class="rvps12"><span class="rvts54">SEmailAddress EMailAddress,</span></p>
+   <p class="rvps12"><span class="rvts54">SCompanyRegNo CompanyRegNo,</span></p>
+   <p class="rvps12"><span class="rvts54">STaxRegNo TaxRegNo,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKNAME1 BankName1,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKNAME2 BankName2,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKNUMBER1 BankNo1,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKNUMBER2 BankNo2,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKSWIFT1 BankSwift1,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKSWIFT2 BankSwift2,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKIBAN1 BankIBAN1,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKIBAN2 BankIBAN2,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKACCOUNTNAME1 BankAccountName1,</span></p>
+   <p class="rvps12"><span class="rvts54">SBANKACCOUNTNAME2 BankAccountName2,</span></p>
+   <p class="rvps12"><span class="rvts54">SInvoiceHeading InvoceHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SInvoicesMessage1 InvoiceMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SInvoicesMessage2 InvoiceMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SInvoicesMessage3 InvoiceMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditNoteHeading CreditNoteHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditNoteMessage1 CreditNoteMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditNoteMessage2 CreditNoteMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditNoteMessage3 CreditNoteMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SQuoteHeading QuoteHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SQuoteMessage1 QuoteMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SQuoteMessage2 QuoteMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SQuoteMessage3 QuoteMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SPurchaseHeading PurchaseHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SPurchasesMessage1 PurchaseMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SPurchasesMessage2 PurchaseMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SPurchasesMessage3 PurchaseMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SGoodsReturnedHeading SupplierReturnHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SGoodsReturnedMessage1 SupplierReturnMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SGoodsReturnedMessage2 SupplierReturnMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SGoodsReturnedMessage3 SupplierReturnMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SOrderHeading OrderHead,</span></p>
+   <p class="rvps12"><span class="rvts54">SOrderMessage1 OrderMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SOrderMessage2 OrderMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SOrderMessage3 OrderMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SStatementMessage1 StatementMessage1,</span></p>
+   <p class="rvps12"><span class="rvts54">SStatementMessage2 StatementMessage2,</span></p>
+   <p class="rvps12"><span class="rvts54">SStatementMessage3 StatementMessage3,</span></p>
+   <p class="rvps12"><span class="rvts54">SSellingPriceName1 SellingPrice1,</span></p>
+   <p class="rvps12"><span class="rvts54">SSellingPriceName2 SellingPrice2,</span></p>
+   <p class="rvps12"><span class="rvts54">SSellingPriceName3 SellingPrice3,</span></p>
+   <p class="rvps12"><span class="rvts54">SAccountReportName1 LedgerRepGroup1,</span></p>
+   <p class="rvps12"><span class="rvts54">SAccountReportName1 LedgerRepGroup2,</span></p>
+   <p class="rvps12"><span class="rvts54">SDebtorReportName1 DebtorRepGroup1,</span></p>
+   <p class="rvps12"><span class="rvts54">SDebtorReportName2 DebtorRepGroup2,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditorReportName1 CreditorRepGroup1,</span></p>
+   <p class="rvps12"><span class="rvts54">SCreditorReportName2 CreditorRepGroup2,</span></p>
+   <p class="rvps12"><span class="rvts54">SStockReportName1 StockRepGroup1,</span></p>
+   <p class="rvps12"><span class="rvts54">SStockReportName1 &nbsp;StockRepGroup2,</span></p>
+   <p class="rvps12"><span class="rvts54">WRetainedIncomeID RetainedIncomeAccId,</span></p>
+   <p class="rvps12"><span class="rvts54">WDebtorsControlID DebtorsControlAccId,</span></p>
+   <p class="rvps12"><span class="rvts54">WCreditorsControlID CreditorControlAccId</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">from sysvars</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top;">
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Company info</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Invoices)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Credit notes)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Quotes)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Purchases)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Supplier returns)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Documents (Orders)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Statements&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Stock information (selling prices)</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Account groups&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Debtor groups&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Creditor groups</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Setup Stock groups&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54"><br/></span></p>
+   <p class="rvps12"><span class="rvts54">Control accounts linked to the books (default per Set of Books template selected or specified in the Create Set of Books (Advanced) option on the creation wizard.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps254"><span class="rvts78"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

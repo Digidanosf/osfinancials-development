@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Workflow plugin</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Workflow plugin">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Workflow plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-workflow"
+		  data-hnd-context="1"
+		  data-hnd-title="Workflow plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins.html" title="Plugins" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-multi-language-print-cred.html" title="Print documents in Creditor (supplier/ vendor) language" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="taxonomies-xbrl.html" title="Taxonomies and XBRL" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Workflow plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Workflow plugin&nbsp;</span></span></h1>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps2"><img alt="" style="width : 48px; height : 48px; float: left; padding : 5px; margin : 5px 5px;" src="lib/workflow.jpg"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Workflow</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/plugin-manuals/544-workflow-plugin" target="_blank">Manual</a><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/workflow" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40">: Once-off -</span></p>
+   <p class="rvps12"><span class="rvts37">Workflow Bank Import Plugin</span><span class="rvts40"> - </span><a class="rvts52" href="https://www.osfinancials.org/en/webshop/workflow/workflow-bankimport-plugin" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40">: Once-off -</span></p>
+   <p class="rvps12"><span class="rvts37">Workflow Editor Plugin</span><span class="rvts40"> - </span><a class="rvts52" href="https://www.osfinancials.org/en/webshop/workflow/workflow-editor" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40">: Once-off -</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Unlock the power of streamlined task management with our Workflow plugin. Seamlessly record every step and process, whether it's inventory management, debtor/creditor tracking, or document handling, within osFinancials/TurboCASH. Visualize your workflow at a glance, gaining instant insights into each stage of progress.</span></p>
+<p class="rvps2"><span class="rvts6">Assign tasks or steps to specific users, track outstanding steps, and effortlessly manage transitions between stages. Our Workflow Plugin isn't just a tool - it's a knowledge system, empowering you to formalise and share business processes efficiently. Gain better control over your operations, with historical data readily available for informed decision-making. Say hello to optimized processes and enhanced productivity with the Workflow Plugin.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Workflow Bank Import Plugin</span></span></h2>
+<p class="rvps2"><span class="rvts14">Workflow Bank Import Plugin</span><span class="rvts6"> - </span><a class="rvts33" href="https://www.osfinancials.org/en/webshop/workflow/workflow-bankimport-plugin" target="_blank">Shop</a><span class="rvts6"> - Licence : Once-off</span></p>
+<p class="rvps2"><span class="rvts6">The Workflow Bank Import plugin provides users with a guided step-by-step process for importing downloaded bank transactions and posting them to the appropriate journal or batch. This streamlined workflow ensures efficiency and accuracy in handling bank transactions within osFinancials.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Workflow Editor Plugin</span></span></h2>
+<p class="rvps2"><span class="rvts14">Workflow Editor Plugin</span><span class="rvts6"> - </span><a class="rvts33" href="https://www.osfinancials.org/en/webshop/workflow/workflow-editor" target="_blank">Shop</a><span class="rvts6"> - Licence : Once-off</span></p>
+<p class="rvps2"><span class="rvts6">Use workflow to create you own processes. With the Workflow Editor plugin, you can customize and create your own processes tailored to your specific needs. Whether it's automating tasks, managing approvals, or streamlining workflows, this tool empowers you to design efficient processes that align with your business requirements.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Older Workflow documentation</span></span></h1>
+<p class="rvps2"><span class="rvts6">The workflow plugin allows you to record the steps or processes of a task.</span></p>
+<p class="rvps2"><span class="rvts6">You can also gain knowledge of a process through easier to go through the various tutorials and record the steps.</span></p>
+<p class="rvps2"><span class="rvts6">The different screens osFinancials / TurboCASH can be created such as the stock screen or debtors / creditors and documents. But also websites, or for example, Excel documents appear in the active window with a description. This allows you to record almost every conceivable process, visualize and gain instant insight wherever you are in the process and what steps have been taken before.</span></p>
+<p class="rvps2"><span class="rvts6">A step can be assigned to a user and an administrator can see all workflow steps not done (outstanding steps) and possibly assign a task to a user. Outstanding transitions that are possible after showing the step. A transition is one step to another step. If there is only one valid transition, you will not have any choices.</span></p>
+<p class="rvps2"><span class="rvts6">A transition may include a condition that must be met.</span></p>
+<p class="rvps2"><span class="rvts6">Workflow is a knowledge system that can gain your knowledge or just to share it with others. This allows you to formalize your business and capture the steps in an automated system.</span></p>
+<p class="rvps2"><span class="rvts6">Another advantage is that you retain a better overview of your running processes and you have historical data at hand.</span></p>
+<p class="rvps2"><span class="rvts478">Setup / Activate Workflow</span></p>
+<p class="rvps19"><span class="rvts91">In the standard Set of Books, there are already workflows but if you have an older database, you may import a workflow file from another database using the Workflow editor.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-03.png"></p>
+<p class="rvps19"><span class="rvts479">Editor</span></p>
+<p class="rvps2"><span class="rvts479">Workflow list</span></p>
+<p class="rvps19"><span class="rvts91">In the Workflow list, you can create workflow, edit save or load or assign rights.</span></p>
+<p class="rvps19"><span class="rvts479">Rights</span></p>
+<p class="rvps19"><span class="rvts91">Select users (added in Setup </span><span class="rvts29">→</span><span class="rvts91"> Access control) who are allowed to start this workflow.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-02.png"></p>
+<p class="rvps19"><span class="rvts479">Save / load file</span></p>
+<p class="rvps19"><span class="rvts91">With these capabilities, you can easily copy workflow file (*.wfd file type) from one Set of Books to another.</span></p>
+<p class="rvps19"><span class="rvts91">Please note that some selected parameters are not the same in the records which reads your workflow.</span></p>
+<p class="rvps19"><span class="rvts479">Use Workflow designer</span></p>
+<p class="rvps19"><span class="rvts91">With the designer, you can add steps and see the connections (transitions) visually.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-05.png"></p>
+<p class="rvps19"><span class="rvts479">Workflow Add / Edit Steps</span></p>
+<p class="rvps19"><span class="rvts91">Each step is identified by a step name which can be assigned to a screen type. The screen types may be assigned to specific users.</span></p>
+<p class="rvps19"><span class="rvts91">If you edit a step, you will see the following tabs.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts247">Stepname</span><span class="rvts91">: The name of the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Screen type</span><span class="rvts91">: Various screens from which you can choose to see a step by step explanation types.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">User</span><span class="rvts91">: All users is the default. If you have added users (in Setup </span><span class="rvts29">→</span><span class="rvts91"> Access control), you may assign this step to a specific to process this step. If a step is set (assigned) to a specific user, then this step will put someone else performing the transition to the user.</span></li>
+</ol>
+<p class="rvps19"><span class="rvts479">Screen type</span></p>
+<p class="rvps19"><span class="rvts91">If you select a screen type, is some documentation on the parameters in the Document groups (Extra) tab. The screen types are as follows:</span><img alt="" style="float: left; padding : 1px;" src="lib/pi-workflow-10.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts91">report-manager: show reportman reports.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">groups: Groups maintenance screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">groups-plugins: Plugins a group.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">stock: Stock screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">stock-plugins: Plugins for stock.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">debtor-creditor-plugins: Plugins for debtors creditors.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">debtor-creditor: Debtors or creditors screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">planner: Agenda.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">totalviewer: Totals list.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">batch-entry: Journal (batch) entry.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">documents: Documents.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">documents-plugins: Plugins for documents.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">openitem: Open item screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">projects: Projects screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">workflow-selecteddata: Show selected dates (confirm a selection).</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">Workflow-dialog: Dialog (question text with possibly different answers).</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">Workflow-webbrowser: Internet Explorer (IE) Web Browser imbedded with which you can go for example to a specific page.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">workflow-olecontainer: Ole container to open different mime types and edit as an Excel document, or displaying a PDF with Acrobad reader.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">workflow-mobilestep: not implemented yet reserved for taking steps via a mobile device.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">workflow-splittask: not implemented yet reserved for splitting a task to two tasks.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">workflow-selectiondata: Make a selection screen with free sql or use one of the standard options.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">main-plugins: Plugins for the main program.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">setup-data: Screens for settings.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">main: Main functions - currently only closes year / open new year.</span></li>
+</ul>
+<p class="rvps19"><span class="rvts479">Step data tab</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-07.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts247">Status</span><span class="rvts91">: reserved</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Duration</span><span class="rvts91">: The duration of the interval which should be completed within the task.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Interval</span><span class="rvts91">: The interval is the maximum duration for a task (step).</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Comments</span><span class="rvts91">: The text to explain the task (step). This will float as a comment when the mouse is moved over or focus on a step in the Workflow designer. When the Workflow steps are performed, the comments entered here will be displayed when a step (screen) is launched.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Memo underneath</span><span class="rvts91">: The SQL to display the line in the workflow list.</span></li>
+</ul>
+<p class="rvps19"><span class="rvts479">Step Reporting groups (Extra) tab</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-078.png"></p>
+<p class="rvps19"><span class="rvts91">The fields are as follows:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts247">Params</span><span class="rvts91">: Parameters for the screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Active param name</span><span class="rvts91">: the name of the selected parameter.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">lookup value</span><span class="rvts91">: for some parameters a selection screen is available to select the correct value for this screen.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Sql step</span><span class="rvts91">: sql start at step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Sql step back</span><span class="rvts91">: reserved.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Make this workflow start at documenttype</span><span class="rvts91">: Fill in the edit box the document type id that you want to use as it is created to start this workflow automatically. If you enter document type 14, for quotes this will create a quote for this workflow. Thus, you can keep progress of the delivery (quote accepted) status process in the different stages and track that different people together can complete a job.</span></li>
+ <li class="rvps19 noindent"><span class="rvts91">The document types is as follows:</span></li>
+</ul>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 10 – Invoice</span></p>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 11 – Credit note</span></p>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 12 – Purchase</span></p>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 13 – Supplier return</span></p>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 14 – Quote</span></p>
+<p class="rvps19"><span class="rvts91">&nbsp; &nbsp; &nbsp; &nbsp; 15 - Order</span></p>
+<p class="rvps19"><span class="rvts479">Workflow Transition tab</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-08.png"></p>
+<p class="rvps19"><span class="rvts91">Transitions are the flow to the next step. You may add, delete or edit transitions.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-09.png"></p>
+<p class="rvps19"><span class="rvts91">In a transition, you can still make various settings.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts247">Name</span><span class="rvts91">: Name of the button in the selection of transitions.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">From</span><span class="rvts91">: Select the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Workflow</span><span class="rvts91">: this field is set to empty = current.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">To step</span><span class="rvts91">: Select the next step where is the transition to.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Offset left</span><span class="rvts91">: The left position of the transition to the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Offset top</span><span class="rvts91">: The upper position of the transition to the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Offset left end</span><span class="rvts91">: The left position of the transition to the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Offset top end</span><span class="rvts91">: The upper position of the transition to the step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Condition</span><span class="rvts91">: sql condition, for example; “Select * from dochead where wdocid = &lt;@KEY@&gt;” it produces a record then the transition can proceed.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts478">Workflow useage</span></p>
+<p class="rvps19"><span class="rvts479">Workflow list</span></p>
+<p class="rvps19"><span class="rvts91">In this list you will see the active tasks that still need to be handled, or you can start a new task.</span></p>
+<p class="rvps19"><span class="rvts91">View historical data of a job and looking for completed tasks.</span></p>
+<p class="rvps19"><span class="rvts91">If you are an administrator, you can also edit same workflow.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/tr-workflow-03.png"></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-11.png"></p>
+<p class="rvps19"><span class="rvts91">With your right mouse button, you can also assign tasks to other users.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts247">Type</span><span class="rvts91">: The type of workflow that you start when you press on the </span><span class="rvts247">New</span><span class="rvts91"> icon.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">New</span><span class="rvts91">: Create a new workflow.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Process</span><span class="rvts91">: Show execution screen. This will launch the screens in TurboCASH / osFinancials as assigned to each step.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">History</span><span class="rvts91">: Shows the history of the task. You may right-click on a selected step to launch the “</span><span class="rvts247">Where am I?</span><span class="rvts91">” feature.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Edit</span><span class="rvts91">: If you are an administrator, you can quickly edit the workflow.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Show closed</span><span class="rvts91">: Shows finished or partially completed workflow steps for a task from date from date field. If you click on the </span><span class="rvts247">View closed</span><span class="rvts91"> icon, the Open tasks will be listed.</span></li>
+ <li class="rvps19 noindent"><span class="rvts247">Where am I?</span><span class="rvts91">: A screen that shows you where you are currently in the process.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts478">Process workflow</span></p>
+<p class="rvps19"><span class="rvts91">In the output screen shows the current screen or the choice of transitions. The upper part is always displayed and the set screen appears in the lower right by this step. If several transition opportunities as they are executed through selection buttons. You can then choose from the various transitions.</span></p>
+<p class="rvps19"><span class="rvts91">If you click on </span><span class="rvts247">Continue</span><span class="rvts91"> button the next screen will be lauched.</span></p>
+<p class="rvps19"><span class="rvts91">For example, the Setup workflow is as follows:</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-01.png"></p>
+<p class="rvps19"><span class="rvts91">Click </span><span class="rvts247">OK</span><span class="rvts91"> and the Setup company information screen is displayed.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-02.png"></p>
+<p class="rvps19"><span class="rvts91">Enter / edit the necessary details, and click </span><span class="rvts247">OK</span><span class="rvts91"> to save the changes. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-03.png"></p>
+<p class="rvps19"><span class="rvts91">Add users and assign rights, if necessary, and click </span><span class="rvts247">Apply</span><span class="rvts91"> to save the changes. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-04.png"></p>
+<p class="rvps19"><span class="rvts91">Check and set the periods (Start of financial year) and click </span><span class="rvts247">OK</span><span class="rvts91"> to save the changes. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-05.png"></p>
+<p class="rvps19"><span class="rvts91">Add, delete or change the batch (journal) names as necessary. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-06.png"></p>
+<p class="rvps19"><span class="rvts91">Add / edit / delete accounts as necessary. Remember to save the changes. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-07.png"></p>
+<p class="rvps19"><span class="rvts91">Add / edit / accounts for debtors (customers) as necessary. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-08.png"></p>
+<p class="rvps19"><span class="rvts91">Add / edit / accounts for creditors (suppliers) as necessary. Click </span><span class="rvts247">Continue</span><span class="rvts91"> to proceed to the next step.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-process-10.png"></p>
+<p class="rvps19"><span class="rvts479">Where am I</span></p>
+<p class="rvps19"><span class="rvts91">In which I can see where you are in the process screen and what steps have been dealt with when and by whom.</span></p>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/pi-workflow-11.png"><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Stock items edit form</title>
+  <meta name="description" content="How to edit stock (inventory / products) - osfinancials.org" /> 
+  <meta name="keywords" content="Tax,Sales tax,BTW,Manufacturer,Apply invoice discount,Customer discount,Inventory groups,Preferred supplier,Investigator,Inventory reports,Product reports">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Stock items edit form">
+  <meta name="twitter:description" content="How to edit stock (inventory / products) - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Stock items edit form" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to edit stock (inventory / products) - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="stock-item-edit"
+		  data-hnd-context="10114"
+		  data-hnd-title="Stock items edit form"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="stock-inventory.html">Stock (Inventory / Products)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="stock-inventory.html" title="Stock (Inventory / Products)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="stock-adjustments-input-menu.html" title="Adjust stock menu" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="stock-item-tab-ledger.html" title="Stock items - Ledger tab" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Stock items edit form</h2>
+
+            <div class="main-content">
+                
+<p class="rvps186"><span class="rvts193">The stock entry form is basically similar for all stock items (inventory items) for all stock item types. Depending on the selected stock item type, some fields on the </span><a class="rvts32" href="stock-item-tab-ledger.html">Ledger</a><span class="rvts193"> tab, may be disabled and some fields may be hidden.&nbsp;</span></p>
+<p class="rvps186"><span class="rvts193">For some </span><a class="rvts33" href="stock-item-types.html">stock item types</a><span class="rvts193">, additional tabs may be added, e.g. Option items, BOM and Linked items.</span></p>
+<p class="rvps2"><span class="rvts6">When you process documents, you need to select a stock item.</span></p>
+<p class="rvps2"><span class="rvts6">The </span><a class="rvts33" href="document-types.html">document type</a><span class="rvts6"> for </span><span class="rvts14">Sales documents </span><span class="rvts6">(</span><a class="rvts32" href="quotes.html">Quotes</a><span class="rvts14">, </span><a class="rvts32" href="invoices.html">Invoices</a><span class="rvts14"> </span><span class="rvts6">and</span><span class="rvts14"> </span><a class="rvts32" href="credit-notes.html">Credit notes</a><span class="rvts6">) and for </span><span class="rvts14">Purchase documents </span><span class="rvts6">(</span><a class="rvts32" href="orders.html">Orders</a><span class="rvts14">, </span><a class="rvts32" href="purchases.html">Purchases</a><span class="rvts14"> </span><span class="rvts6">and</span><span class="rvts14"> </span><a class="rvts32" href="supplier-returns.html">Supplier returns</a><span class="rvts6">)</span><span class="rvts14"> </span><span class="rvts6">will list only specific </span><a class="rvts33" href="stock-item-types.html">stock item types</a><span class="rvts6"> in the </span><a class="rvts33" href="stock-lookup-options.html">stock item lookup</a><span class="rvts6">.</span></p>
+<p class="rvps19"><span class="rvts29">To edit stock items:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">On the </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon, select</span><span class="rvts29"> Stock items</span><span class="rvts30"> (</span><span class="rvts29">F12</span><span class="rvts30">). &nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select a stock item and click on the </span><span class="rvts29">Edit</span><span class="rvts30"> button. &nbsp;</span></li>
+</ol>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 45px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 906px;">
+   <p class="rvps12"><span class="rvts85">You may also double click on a selected stock item to open the stock item form.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/stock-form-01.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter and select the following:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Stock code</span><span class="rvts30"> - Enter any code for your purchase stock item. You may enter a stock code of up to 15 characters.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">You need to plan the Stock item codes to optimise this facility in </span><span class="rvts54">osFinancials 5</span><span class="rvts85">.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Description</span><span class="rvts30"> - Enter a description for the purchase stock item.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Barcode</span><span class="rvts30"> - Enter the barcode, if applicable.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">The EAN13 Barcode validates for 13 numbers (the last number is a checksum number). If the Barcode is incorrect, the labels will not be printed.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Manufacturer</span><span class="rvts30"> - You may enter any additional information or description of the manufacturer (e.g. the name of the manufacturer). This is optional.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Type</span><span class="rvts30"> - Default is the default stock item type.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">The </span><span class="rvts54">default stock item type </span><span class="rvts85">is recommended for trading stock. If it is not trading stock, you may select one of the following stock types:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts85">Financial entry&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Sales&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Sales (no stock)&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Purchases&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Purchases (no stock)&nbsp;</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts85">In addition to the above-mentioned stock types, you may also select the following stock types:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts85">Options&nbsp;</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps12 noindent"><span class="rvts85">Option item&nbsp;</span></li>
+     <li class="rvps12 noindent"><span class="rvts85">Option item (no stock)&nbsp;</span></li>
+    </ul>
+    <li class="rvps12 noindent"><span class="rvts85">Bill of Materials (BOM)&nbsp;</span></li>
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps12 noindent"><span class="rvts85">BOM&nbsp;</span></li>
+     <li class="rvps12 noindent"><span class="rvts85">BOM (Production)&nbsp;</span></li>
+    </ul>
+    <li class="rvps12 noindent"><span class="rvts85">Linked Sale</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">Once a transaction has been processed for a stock item, this field will be disabled.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Unit size</span><span class="rvts30"> - Leave blank or select any unit e.g. each, hours, boxes, etc., which you wish to be displayed on your purchase documents. These Units of your Stock items such as: each, hours, boxes, etc., are setup in </span><span class="rvts29">Setup →Stock information</span><span class="rvts30">.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Disabled</span><span class="rvts30"> - By default, all Stock items are active (enabled) when Stock items are created or edited. Select this field if you (or any of your salespersons) do not want to process any documents for a Service Stock item. Select this field to hide the Stock item from the Stock item lookup when processing new documents. This will speed up document processing.</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">You will still be able to update (post) any unposted documents, which include transactions for the disabled Stock item, to the ledger.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">You may select the disabled Stock items on the Stock item lookup when generating Stock, Sales analysis and Purchase analysis reports and view the transactions of disabled Stock items.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">You may de-select this field at any stage, when necessary to continue processing documents for the Stock item.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="8" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Apply invoice discount</span><span class="rvts30"> - Do not select. This is applicable to debtor (customer / client) accounts, as the percentage customer discount is specified on the </span><span class="rvts29">Accounting information</span><span class="rvts30"> tab - </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts29"> → Debtors</span><span class="rvts30">.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Extra description</span><span class="rvts30"> - You may enter any additional information or description (up to 255 characters) for the stock item, as necessary. This is optional.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Reports - </span><a class="rvts32" href="stock-item-reporting-groups.html">Groups</a><span class="rvts29"> 1 / 2</span><span class="rvts30"> - The reporting group to which you wish this Stock item to be allocated.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">The description of Stock group 1 or 2 you have entered on the </span><span class="rvts54">"Reporting group name"</span><span class="rvts85"> field on the Stock groups tab on </span><span class="rvts98">Setup → </span><a class="rvts38" href="stock-item-reporting-groups.html">Groups</a><span class="rvts85"> may be reflected in this list.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="11" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Preferred supplier 1</span><span class="rvts30"> - The main creditor (supplier / vendor) you purchase stock items from, may be selected. You may enter the supplier's stock code, if applicable.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Preferred supplier 2</span><span class="rvts30"> - If you have a backup or alternative supplier, you may select the creditor (supplier / vendor) and enter the supplier's stock code, if applicable.</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Ledger</span><span class="rvts30"> tab, if not already displayed. </span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

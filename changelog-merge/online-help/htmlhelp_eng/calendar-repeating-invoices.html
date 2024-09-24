@@ -1,0 +1,437 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Repeating invoices - Calendar</title>
+  <meta name="description" content="How to schedule and process events for repeating transactions in the calendar - osfinancials.org " /> 
+  <meta name="keywords" content="Appointments,Calendar,Invoices,Repeating invoices,Client accounts,Customer accounts">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Repeating invoices - Calendar">
+  <meta name="twitter:description" content="How to schedule and process events for repeating transactions in the calendar - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Repeating invoices - Calendar" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to schedule and process events for repeating transactions in the calendar - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="calendar-repeating-invoices"
+		  data-hnd-context="653"
+		  data-hnd-title="Repeating invoices - Calendar"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="calendar-planner.html">Calendar / Planner</a></li><li><a href="calendar-create-documents.html">Create documents - Events (Appointments)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="calendar-create-documents.html" title="Create documents - Events (Appointments)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="calendar-create-documents.html" title="Create documents - Events (Appointments)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="calendar-invoices-for-hours.html" title="Invoices - Hours - Calendar" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Repeating invoices - Calendar</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Repeating invoices</span><span class="rvts6">" appointment category in the Calendar feature of osFinancials provides a convenient way to schedule and generate recurring invoices for your debtors (customers/clients). This feature is especially useful for invoices that occur frequently or on a regular basis, such as monthly service fees or subscription payments.</span></p>
+<p class="rvps2"><span class="rvts6">With the "</span><span class="rvts15">Repeating invoices</span><span class="rvts6">" category, you have the flexibility to select invoices for selected debtors or debtors linked to a selected group that need to be generated repeatedly. These can be invoices for specific services or products that are billed to multiple debtors or a single debtor.</span></p>
+<p class="rvps2"><span class="rvts6">Once you have selected the invoices to be generated, osFinancials5 will automatically generate invoice numbers and copy the document details into the normal invoice document for the selected debtor or debtors. This eliminates the need for manual entry of invoice information, saving you time and reducing the chances of errors.</span></p>
+<p class="rvps2"><span class="rvts6">To review and make any necessary edits to the generated invoices, you can access the Invoices section of osFinancials. Here, you can check the details, adjust any amounts or descriptions if needed, and ensure the accuracy of the invoices before they are sent to the debtors.</span></p>
+<p class="rvps2"><span class="rvts6">After reviewing and editing the invoices, the next step is to update (post) them to the ledger. This final step ensures that the generated invoices are properly recorded in the accounting system and reflected in the relevant debtor accounts.</span></p>
+<p class="rvps2"><span class="rvts6">By utilizing the "</span><span class="rvts15">Repeating invoices</span><span class="rvts6">" category in the Calendar, you can streamline the invoicing process for recurring transactions. It eliminates the need to manually enter the same invoices each month and reduces the risk of overlooking or forgetting to bill for recurring services. This feature in osFinancials5 saves you time and effort by automating the generation of repeating invoices, allowing you to focus on other aspects of your business.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Schedule Repeating invoice events&nbsp;</span></span></h2>
+<p class="rvps19"><span class="rvts29">To schedule a Repeating Invoice Event:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts30">On the </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon, select</span><span class="rvts29"> Calendar</span><span class="rvts30">. &nbsp;The Planner (Display - Agenda - the default screen) will be displayed.</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Select a suitable time and right-click on the Day View. On the context menu, select the </span><span class="rvts29">Add Event</span><span class="rvts30"> option. The </span><span class="rvts78">Untitled - Event</span><span class="rvts30"> screen is displayed:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/calendar-repeating-invoice-new.png"></li>
+ <li class="rvps19 noindent"><span class="rvts30">Enter and select the following:&nbsp;</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps24 noindent"><span class="rvts29">Subject</span><span class="rvts30"> - Enter the subject for the repeating invoices event. This subject needs to be a sensible one to allow you to easily identify and manage the scheduled event on the Calendar.</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Category</span><span class="rvts30"> - Select the category as Repeating invoices. This will be indicated with red in the Calendar. (Other options are Appointments, Debtors Appointments or Creditors Appointments).</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Start time ... End time </span><span class="rvts30">- The selected time when the Add Event option was launched, will be displayed. You may set or adjust the Start time, if necessary.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps251">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 4px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 597px;">
+   <p class="rvps19"><span class="rvts207">You may need to:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps19 noindent"><span class="rvts207">If it will take longer than the default 30 minutes (from the Starting time), you may adjust the end time.&nbsp;</span></li>
+    <li class="rvps19 noindent"><span class="rvts207">If you wish to mark this event as an all day event, select the "All day event" option. You will then not be able to set the start and the end date.&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" class="rvps24 noindent"><span class="rvts29">Recurrence</span><span class="rvts30"> - This is the frequency and times you may schedule the repeating invoices. For example, if you need to process the Invoices on a monthly basis, you may select the "</span><span class="rvts78">Monthly by day</span><span class="rvts30">" or the "</span><span class="rvts78">Monthly by date</span><span class="rvts30">" options.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps251">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 4px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 597px;">
+   <p class="rvps19"><span class="rvts207">Select the appointment recurrence (i.e. "None" (default), "Daily, Weekly, Monthly by day, Monthly by date, Yearly by day, Yearly by date" or "Custom"). If "Custom" is selected, you may set the interval in the number of days.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps251">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 4px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 597px;">
+   <p class="rvps19"><span class="rvts286">Interval</span><span class="rvts207"> (days) - If "Custom" is selected you may set the interval in the number of days, for example, 30 days if you need to process the repeating invoices every 30 days.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps251">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 4px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 597px;">
+   <p class="rvps19"><span class="rvts286">Repeat until</span><span class="rvts207"> - If the Recurrence is set to any other value than "None", the "Repeat until date" will be displayed for one calendar year, e.g. 07/05/2022 if the end date is 07/05/2023.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" class="rvps24 noindent"><span class="rvts29">Reminder</span><span class="rvts30"> - Select this option, if you need to be reminded of the event or appointment. This will remind you of a scheduled event or task well in advance (from any number of minutes, hours and even days). This will also remind you until the Event or appointment is deleted.&nbsp;</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Notes / Information</span><span class="rvts30"> - Enter any notes or additional information about the appointment. This will also be displayed when you edit the event, or when the "</span><span class="rvts78">Reminder</span><span class="rvts30">" is displayed.</span></li>
+ </ol>
+ <li value="4" class="rvps19 noindent"><span class="rvts30">Click on the </span><span class="rvts29">OK</span><span class="rvts30"> button.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Copy scheduled Repeating invoice&nbsp;</span></span></h2>
+<p class="rvps19"><span class="rvts29">To copy scheduled Repeating invoices:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts30">You may also open the event - Repeating invoices using the following two options:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps24 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Open item</span><span class="rvts30"> button of the Reminder screen to edit the event - Repeating invoices.</span></li>
+  <li class="rvps24 noindent"><span class="rvts30">Right-click on the event - "</span><span class="rvts78">Repeating invoices</span><span class="rvts30">" on the Calendar. Select the </span><span class="rvts29">Add event</span><span class="rvts30"> option. This will launch the </span><span class="rvts29">Repeating invoices</span><span class="rvts30">&nbsp;</span><span class="rvts29"> - Event</span><span class="rvts30"> screen.</span></li>
+ </ol>
+ <li class="rvps19 noindent"><span class="rvts30">On the </span><span class="rvts29">Event</span><span class="rvts30"> tab you may edit any of the fields you need to edit. You may also add any additional information or edit any notes or information already added when the event or appointment was created or previously edited.</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Repeating invoice</span><span class="rvts30"> tab. The following Process list screen is displayed:</span></li>
+</ol>
+<p class="rvps19"><span class="rvts30">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/calendar-repeating-invoice-process-options.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps19 noindent"><span class="rvts30">The first time the Process list screen is displayed, no Invoices will be listed. Click on the </span><span class="rvts29">New</span><span class="rvts30"> button to copy or set the Invoices as recurring invoices. The following screen is displayed:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/calendar-repeating-invoice-process-select.png"></li>
+ <li class="rvps19 noindent"><span class="rvts30">Enter and select the following:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps24 noindent"><span class="rvts29">Type</span><span class="rvts30"> - Select one of the following:&nbsp;</span></li>
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps40 noindent"><span class="rvts29">Copy Invoice</span><span class="rvts30"> (default option) - to copy a selected Debtor account.&nbsp;</span></li>
+   <li class="rvps40 noindent"><span class="rvts29">Copy Invoice to group 1</span><span class="rvts30"> - this will copy a selected document (Invoice or Quote) to all Debtor accounts linked to a specific debtor group 1.&nbsp;</span></li>
+  </ol>
+ </ol>
+</ol>
+<div class="rvps252">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 50px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 781px;">
+   <p class="rvps19"><span class="rvts207">This option is only available if you have created Debtor groups 1 in </span><span class="rvts286">Setup </span><span class="rvts232">→</span><span class="rvts286"> Groups </span><span class="rvts207">(</span><span class="rvts286">Debtors</span><span class="rvts207">).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" class="rvps24 noindent"><span class="rvts29">Debtor</span><span class="rvts30"> - Select one of the following:&nbsp;</span></li>
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps40 noindent"><span class="rvts30">If the Copy Invoice has been selected, select the Debtor account for which you need to set or copy a selected Invoice as a Repeating Invoice.&nbsp;</span></li>
+   <li class="rvps40 noindent"><span class="rvts30">If the Copy Invoice to group 1 has been selected, you need to select an available debtor group from the drop-down list.&nbsp;</span></li>
+  </ol>
+  <li class="rvps24 noindent"><span class="rvts29">Documents</span><span class="rvts30"> - Select a specific document (Invoice or Quote) from the drop-down list. This Invoice will be set or copied to a selected Debtor account, or to all Debtor accounts within the selected Debtor group 1.</span></li>
+ </ol>
+ <li value="6" class="rvps19 noindent"><span class="rvts30">Select the date on which these repeating invoices are to be processed / generated, if necessary.</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Enter a message which you would like to be displayed on the repeating Invoice, or all repeating invoices for the selected Debtor group 1.</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Click on the </span><span class="rvts29">OK</span><span class="rvts30"> button. All Repeating invoices will be listed on the Process list.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Edit scheduled Repeating invoices&nbsp;</span></span></h2>
+<p class="rvps19"><span class="rvts30">Once a document (Invoice or Quote) has been copied or added to the Process list, you may edit the Process List, if necessary. The process list will display a list of the copied documents. The following information for each document will be displayed on each row:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts29">Account number</span><span class="rvts30"> - Account number or account code of the Debtor account.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Description</span><span class="rvts30"> - Account description or name of the Debtor account.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Debtor group 1</span><span class="rvts30"> - The debtor group 1 if the selected Debtor account have been linked to a Debtor group 1 and the Copy Invoice to group 1 option was selected will be displayed.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Document number</span><span class="rvts30"> - The selected document number from which the repeating Invoice will be copied to create / generate a new Invoice.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Reference</span><span class="rvts30"> - The reference, if entered on the Document entry screen for the document.&nbsp;</span></li>
+</ul>
+<p class="rvps19"><span class="rvts30">The following options are available:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps24 noindent"><span class="rvts29">Edit</span><span class="rvts30"> button - click to edit the selected Repeating Invoice's selection (Type, Debtor / Debtor group 1 or Documents).&nbsp;</span></li>
+  <li class="rvps24 noindent"><span class="rvts29">Delete</span><span class="rvts30"> button - click to remove the selected Repeating invoice from the Process list.&nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Process scheduled Repeating invoices&nbsp;</span></span></h2>
+<p class="rvps19"><span class="rvts30">Once a document (Invoice or Quote) has been copied or added to the Process list, you may process or create the Repeating documents. Before you do this, you need to check that the date is correct and enter or edit the message, if necessary.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts29">To Process Scheduled Repeating invoices:</span><span class="rvts30">&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">When you are ready you may click on one of the following buttons:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts29">Process selected</span><span class="rvts30"> - click to process or create a document for selected Debtor accounts, or all Debtor accounts linked to the selected debtor group 1, from the selected document on the process list.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Process All</span><span class="rvts30"> - click to process or create documents for selected Debtor accounts or all Debtor accounts linked to the selected debtor group 1 from the selected document on the process list. Once the process is finished, a confirmation message will be displayed.</span></li>
+</ol>
+<p class="rvps11"><span class="rvts46">“</span><span class="rvts46">Document(s) created!</span><span class="rvts46">”&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps19 noindent"><span class="rvts30">Click on the </span><span class="rvts29">OK</span><span class="rvts30"> button to close or exit the Repeating invoices - Process list screen, or Repeating invoices - Event screen.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Edit / Process copied / created invoices&nbsp;</span></span></h2>
+<p class="rvps19"><span class="rvts30">When the Invoices are created with this feature, </span><span class="rvts193">osFinancials5</span><span class="rvts30"> will automatically generate document numbers for each Invoice. The created / generated Invoices will be listed on the Document list screen for Invoices.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">To do this, go to Invoices. You need to select the Debtor account and the Invoice number to check, edit (if necessary) and print the Invoices.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">Finally you need to update (post) the Invoices to the ledger. This will update the transactions to the general ledger, debtors ledger, and the stock ledger. You may select the Invoice and edit the Invoices before posting or updating it to the ledger.&nbsp;</span></p>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 4px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 597px;">
+   <p class="rvps19"><span class="rvts207">Should you by accident have generated a Repeating invoice incorrectly to a Debtor account, you need to delete the Invoice.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

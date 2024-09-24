@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Accounts lookup - Batches</title>
+  <meta name="description" content="Options select accounts and tax (VAT/GST/Sales tax) accounts  in batches (journals) - osfinancials.org " /> 
+  <meta name="keywords" content="Account lookup,Sales tax,GST,VAT,BTW,Tax,Vendor accounts,Batches (journals)">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Accounts lookup - Batches">
+  <meta name="twitter:description" content="Options select accounts and tax (VAT/GST/Sales tax) accounts  in batches (journals) - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Accounts lookup - Batches" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Options select accounts and tax (VAT/GST/Sales tax) accounts  in batches (journals) - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="batch-entry-lookups"
+		  data-hnd-context="68"
+		  data-hnd-title="Accounts lookup - Batches"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="batches-journals.html">Batches (Journals)</a></li><li><a href="batch-entry-form.html">Batch entry form</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="batch-entry-form.html" title="Batch entry form" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-entry-menu-edit-accounts.html" title="Batch entry - Context menu - Edit accounts" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-entry-posted-batches-tab.html" title="Batch entry screen - Posted batches tab" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Accounts lookup - Batches</h2>
+
+            <div class="main-content">
+                
+<p class="rvps85"><span class="rvts6">When the cursor is in various fields on a screen, osFinancials will &nbsp;display the lookup screen for that specific field. A lookup screen is basically a list of all the valid master records in a Set of Books from which you need to select one item from the list.&nbsp;</span></p>
+<p class="rvps85"><span class="rvts6">Some lookup screens contains all accounts. Other lookup screens lists only ledger accounts / only debtor accounts and / only creditor accounts.&nbsp;</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps2"><span class="rvts228">Disabled or blocked accounts will be excluded from some lookups.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts232">Debtor / Creditor</span><span class="rvts228"> accounts - "Account disabled" field selected (ticked) on Accounting information tab (</span><span class="rvts232">Default</span><span class="rvts228"> ribbon).</span></p>
+   <p class="rvps2"><span class="rvts232">Accounts</span><span class="rvts228"> - "Status" field set to "Disabled". (</span><span class="rvts232">Setup </span><span class="rvts130">→</span><span class="rvts232"> Accounts</span><span class="rvts228"> on the </span><span class="rvts232">Setup</span><span class="rvts228"> ribbon). For example;&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+    <li class="rvps2 noindent"><span class="rvts228">if a ledger account is disabled, it will not be listed on the Accounts lookup when processing transactions.&nbsp;</span></li>
+    <li class="rvps2 noindent"><span class="rvts228">if a Tax type account (Tax code) is disabled, the disabled accounts will not be available on the Tax lookup in batches.&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Account lookup for Contra account in batch setup</span></span></h1>
+<p class="rvps65"><span class="rvts30">The last selected contra account for a batch will be displayed in the Batch entry selection screen.&nbsp;</span></p>
+<p class="rvps191"><img alt="" style="padding : 1px;" src="lib/batch-entry-selection.png"></p>
+<p class="rvps65"><span class="rvts30">If no contra account is displayed in the Contra account, you need to select a contra account.&nbsp;</span></p>
+<p class="rvps65"><span class="rvts30">If a contra account is displayed in the Contra account column, and you wish to select a different contra account for a selected batch, you may change it.&nbsp;</span></p>
+<p class="rvps65"><span class="rvts30">The options to select a contra account is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps65 noindent"><span class="rvts30">Access the batch.&nbsp;</span></li>
+ <li class="rvps65 noindent"><span class="rvts30">Click on the </span><span class="rvts29">F10:Setup</span><span class="rvts30"> - </span><span class="rvts78">Options for this batch</span><span class="rvts30"> - </span><span class="rvts29">Standard</span><span class="rvts30"> tab.&nbsp;</span></li>
+ <li class="rvps65 noindent"><span class="rvts30">Select the contra account on the "</span><span class="rvts78">Accounts"</span><span class="rvts30"> lookup.&nbsp;</span></li>
+</ol>
+<p class="rvps65"><img alt="" style="padding : 1px;" src="lib/batch-lookup-accounts.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps2"><span class="rvts228">Bank accounts &nbsp;- Payments and receipt batches - Select contra accounts disabled. &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts228">When creating Bank accounts, a Payments and Receipt batch is linked to the bank account. The Bank account will be by default set as the contra account of the Payments and Receipt batches. The select Contra account option, will for this reason be disabled for Payments and Receipt batches linked to Bank accounts.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps2"><span class="rvts57">You may also go to the </span><span class="rvts58">Setup</span><span class="rvts57"> ribbon and select </span><span class="rvts58">Setup</span><span class="rvts57"> </span><span class="rvts14">→ Batch types</span><span class="rvts57">. Then click on the </span><span class="rvts58">Edit</span><span class="rvts57"> button to launch the </span><span class="rvts232">F10:Setup</span><span class="rvts228"> - Options for this batch - </span><span class="rvts232">Standard</span><span class="rvts228"> tab.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Account lookup for ledger reports</span></span></h1>
+<p class="rvps65"><img alt="" style="padding : 1px;" src="lib/lookup-accounts-x.png"></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Account lookup for selecting accounts when entering transactions</span></span></h1>
+<p class="rvps65"><span class="rvts30">The lookup in the batch entry screen automatically filter the code or the description. When the Account or Tax columns are focused, you may type the code or description. In this example, the description is typed as “</span><span class="rvts78">fu</span><span class="rvts30">” and it lists only those accounts with the starting with the typed characters, e.g. </span><span class="rvts78">Fuel and Oil</span><span class="rvts30"> and </span><span class="rvts78">Furniture...</span><span class="rvts30"> &nbsp;</span></p>
+<p class="rvps65"><img alt="" style="padding : 1px;" src="lib/lookup-batch-entry-accounts.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps12"><span class="rvts40">The number of records matching your search characters will be displayed.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Your search characters entered will be displayed at the bottom of the lookup as well as above the column descriptions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps12"><span class="rvts40">You may configure the Account types to be included in the lookup Account lookup. On the </span><span class="rvts37">F10:Setup</span><span class="rvts40"> </span><span class="rvts37">Advanced</span><span class="rvts40"> tab, you may set the Account lookup type to:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+    <li class="rvps12 noindent"><span class="rvts37">All</span><span class="rvts40"> (default) all account types,&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">General ledger</span><span class="rvts40"> – All account types, except Debtors, Creditors.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Debtors</span><span class="rvts40"> (only Debtor accounts),&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Creditors</span><span class="rvts40"> (only Creditor accounts).</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Open item</span><span class="rvts40"> – Only those General ledger, Debtor and Creditor accounts for which Open item is activated.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps2"><span class="rvts126">Context menu (right-click) lookup on Batch entry screen:</span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/batch-entry-context-menu.png"></p>
+   <p class="rvps2"><span class="rvts126">You may right-click on a selected transaction to allocate a transaction to a debtor (customer / client) or creditor (supplier) account, or to copy and paste a contra account, reference or date from one transaction to other transaction(s)</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Configure the account lookup list for batches</span></span></h1>
+<p class="rvps65"><span class="rvts30">To display only the accounts for the specific transactions you need to enter in the batch, you may configure the accounts to be listed in the lookup.&nbsp;</span></p>
+<p class="rvps65"><span class="rvts30">To do this, you may select the </span><span class="rvts29">Account lookup type</span><span class="rvts30"> option and the </span><span class="rvts29">Contra account lookup type</span><span class="rvts30"> option on the </span><span class="rvts29">F10:Setup</span><span class="rvts30"> - </span><span class="rvts78">Options for this batch</span><span class="rvts30"> - </span><span class="rvts29">Advanced</span><span class="rvts30"> tab as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps112 noindent"><span class="rvts29">All</span><span class="rvts30"> - select to display all accounts (i.e. General ledger, Debtors, Creditors and Special ledgers).</span></li>
+ <li style="text-indent: 0px" class="rvps112 noindent"><span class="rvts29">General ledger</span><span class="rvts30"> - select to display all General ledger accounts (excluding Debtors, Creditor and Special ledgers). Examples would be if only need to enter and process transactions which does not apply to Debtors or Creditor accounts, e.g. Depreciation or adjustments to General ledger accounts in the General journal. Other examples would be cash purchases in the Payments journal or Petty cash payments journal which need to be allocated to the Expense and Asset accounts).</span></li>
+ <li style="text-indent: 0px" class="rvps112 noindent"><span class="rvts29">Debtors</span><span class="rvts30"> - select to display only Debtor accounts (excluding General ledger, Creditors and Special ledgers). An example would be if only sales invoices are batched and entered into the Sales journal for which you only need to select the Debtor accounts. Another example would be if you only batch or group deposits (receipts) for payments received from Debtors.</span></li>
+ <li style="text-indent: 0px" class="rvps112 noindent"><span class="rvts29">Creditors</span><span class="rvts30"> - select to display all Creditor accounts (excluding General ledger, Debtors, and Special ledgers). An example would be if only purchase invoices (received from creditors) are batched and entered into the Purchase journal for which you only need to select the Creditor accounts. Another example would be if you only batch or group a payments (cheque counterfoils or payment remittance advises) for payments made to Creditors.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Tax column - Tax lookup</span></span></h1>
+<p class="rvps65"><span class="rvts30">If the </span><span class="rvts29">No tax</span><span class="rvts30"> option on the </span><span class="rvts29">F10:Setup</span><span class="rvts30"> - </span><span class="rvts78">Options for this batch</span><span class="rvts30"> - </span><span class="rvts29">Standard</span><span class="rvts30"> tab is not ticked (default option), the Tax lookup list will also be displayed.&nbsp;</span></p>
+<p class="rvps65"><img alt="" style="padding : 1px;" src="lib/lookup-batch-entry-tax.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps12"><span class="rvts40">The number of records matching your search characters will be displayed.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Your search characters entered will be displayed at the bottom of the lookup as well as above the column descriptions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 40px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1004px;">
+   <p class="rvps12"><span class="rvts54">If the </span><span class="rvts53">No tax</span><span class="rvts54"> option on the </span><span class="rvts53">F10:Setup</span><span class="rvts54"> - Options for this batch - </span><span class="rvts53">Standard</span><span class="rvts54"> tab is ticked, the Tax column and Tax lookup list will not be displayed.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Create accounts if the account does not exist</span></span></h1>
+<p class="rvps2"><span class="rvts6">If you enter an invalid account code or account description in the standard filter options for the account lookup in the Accounts column for a transaction, a confirmation message will be displayed.</span></p>
+<p class="rvps6"><span class="rvts17">"</span><span class="rvts17">w Account does not exist, do you wish to create it?</span><span class="rvts17">" (where "</span><span class="rvts17">w</span><span class="rvts17">" does not exist in the chart of accounts, debtor accounts or creditor accounts) &nbsp;&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If you click on the </span><span class="rvts14">No</span><span class="rvts6"> button, you will be returned to the batch entry screen, on which you may select a different account.</span></p>
+<p class="rvps2"><span class="rvts6">If you click on the </span><span class="rvts14">Yes</span><span class="rvts6"> button, you may select the "</span><span class="rvts15">Account type"</span><span class="rvts6"> screen is displayed: &nbsp;</span></p>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/account-type-new-options.png"></p>
+<p class="rvps2"><span class="rvts6">Select the account type for which you need to create a new account. The account types will launch the screens as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Debtors</span><span class="rvts6"> - The "</span><span class="rvts15">Debtor accounts"</span><span class="rvts6"> list screen, will be displayed on which you may use the search and filter options to locate a debtor (customer / client) account. If the account does not exist, you may click on the </span><span class="rvts14">New</span><span class="rvts6"> button and create a new debtor (customer / client) account.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Creditors</span><span class="rvts6"> - The "</span><span class="rvts15">Creditor accounts"</span><span class="rvts6"> list screen, will be displayed on which you may use the search and filter options to locate a creditor (supplier / vendor) account. If the account does not exist, you may click on the </span><span class="rvts14">New</span><span class="rvts6"> button and create a new creditor (supplier / vendor) account.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Bank account, Tax account</span><span class="rvts6"> and </span><span class="rvts14">General ledger account</span><span class="rvts6"> - The </span><span class="rvts14">Accounts</span><span class="rvts6"> screen will be displayed. You may filter for that account and create the new account, if necessary.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

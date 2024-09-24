@@ -1,0 +1,675 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Create / Edit Stock items - BOM (Production)</title>
+  <meta name="description" content="How to create stock (inventory) items for bill of materials - bom (production) stock item type - osfinancials.org" /> 
+  <meta name="keywords" content="BOM,BOM (Production),Bills of Materials,Tax classes,Tax,VAT,GST,Sales tax,BTW,Calculate BOM Stock">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Create / Edit Stock items - BOM (Production)">
+  <meta name="twitter:description" content="How to create stock (inventory) items for bill of materials - bom (production) stock item type - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Create / Edit Stock items - BOM (Production)" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to create stock (inventory) items for bill of materials - bom (production) stock item type - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="stock-item-new-bom-production"
+		  data-hnd-context="579"
+		  data-hnd-title="Create / Edit Stock items - BOM (Production)"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="stock-inventory.html">Stock (Inventory / Products)</a></li><li><a href="stock-item-types-entries.html">Create / Edit Stock item types</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="stock-item-types-entries.html" title="Create / Edit Stock item types" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="stock-item-new-bom.html" title="Create / Edit Stock items - BOM" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="stock-item-new-linked-sale.html" title="Create / Edit Stock items - Linked sale" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Create / Edit Stock items - BOM (Production)</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">BOM (Production) stock item type</span></span></h1>
+<p class="rvps17"><span class="rvts6">The BOM (Production) stock item type is used when you are selling stock items or products that consist of various other stock items (components) and services. This allows you to link existing physical and non-physical stock items to create a finished product.&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Manufacturing and BOM (Production) Stock Item Type</span></span></h2>
+<p class="rvps26"><span class="rvts6">The </span><span class="rvts69">Manufacturing</span><span class="rvts6"> process would specifically apply to the </span><span class="rvts69">BOM (Production)</span><span class="rvts6"> stock item type. This is because BOM (Production) includes features that are essential for manufacturing processes, such as the ability to assemble and disassemble products. Here’s a detailed explanation:</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">BOM (Production) Stock Item Type and Manufacturing:</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts69">Manufacturing Focus</span><span class="rvts6">: BOM (Production) is designed to handle the manufacturing process where components and services are combined to create finished products.</span></li>
+ <li class="rvps189 noindent"><span class="rvts69">Assembly</span><span class="rvts6">: Allows for specifying and combining quantities of various components to form a finished product. This reflects the manufacturing process of creating new products from raw materials or parts.</span></li>
+ <li class="rvps189 noindent"><span class="rvts69">Disassembly</span><span class="rvts6">: Enables breaking down finished products back into their individual components, which can be necessary for various manufacturing and inventory management scenarios.</span></li>
+ <li class="rvps46 noindent"><span class="rvts69">Inventory Management</span><span class="rvts6">: Tracks the usage and adjustments of components and finished products, ensuring accurate inventory control during manufacturing operations.</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Conclusion:</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts69">BOM (Bills of Materials)</span><span class="rvts6">: Generally used for tracking and managing items that consist of various components and services.</span></li>
+ <li class="rvps46 noindent"><span class="rvts69">BOM (Production)</span><span class="rvts6">: Specifically tailored for manufacturing processes, providing features to assemble and disassemble items, crucial for creating and managing finished products from various components.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">Therefore, the </span><span class="rvts69">Manufacturing</span><span class="rvts6"> process applies specifically to the </span><span class="rvts69">BOM (Production)</span><span class="rvts6"> stock item type due to its specialized features for handling the complexities of production.</span></p>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Instructions for BOM (Production) Stock Item Type: Assemble / Disassemble</span></span></h1>
+<p class="rvps26"><span class="rvts6">Before you proceed with the assembly or disassembly of BOM (Production) stock items, you need to perform the following preliminary steps:</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts171">Add Stock items as BOM (Production) stock item type</span></span></h2>
+<p class="rvps2"><span class="rvts69">Add Stock items as BOM (Production) stock item type</span><span class="rvts6">: On the </span><span class="rvts14">BOM</span><span class="rvts6"> tab of the </span><span class="rvts14">BOM (Production</span><span class="rvts6">) stock item type, add or the link existing physical and non-physical stock items to create a finished product on the BOM list. On the </span><span class="rvts14">BOM</span><span class="rvts6"> tab, you need to configure to recalculate the base (on cost price or selling price). You may also recalculate the sales percentage. &nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts171">Select a BOM (Production) Contra Account</span></span></h2>
+<p class="rvps17"><span class="rvts70">The </span><span class="rvts69">BOM (Production)</span><span class="rvts70"> stock item type, will add the</span><span class="rvts69"> Assembly</span><span class="rvts70"> and </span><span class="rvts69">Disassembly</span><span class="rvts6"> features as context menu options which include the ability to:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts69">Assemble</span><span class="rvts6">: Specify and combine quantities of components to create finished items.</span></li>
+ <li class="rvps46 noindent"><span class="rvts69">Disassemble</span><span class="rvts6">: Specify and break down quantities of finished items back into components.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts70">The </span><span class="rvts69">Assemble</span><span class="rvts70"> and </span><span class="rvts69">Disassemble</span><span class="rvts70"> context menu options will process transactions to the </span><span class="rvts6">"</span><span class="rvts15">BOM (Production) Contra account</span><span class="rvts6">"</span><span class="rvts69"> </span><span class="rvts6">will record the transactions when the you:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps26 noindent"><span class="rvts69">Assemble</span><span class="rvts6">: Specify and combine quantities of components to create finished items from the BOM. This will debit the "</span><span class="rvts15">BOM (Production) Contra account</span><span class="rvts6">" and credit the "</span><span class="rvts15">Stock control account</span><span class="rvts6">" .</span></li>
+ <li class="rvps26 noindent"><span class="rvts69">Disassemble</span><span class="rvts6">: Specify and break down quantities of finished items from the BOM list back into components. This will debit the "</span><span class="rvts15">Stock control account</span><span class="rvts6">" and credit the "</span><span class="rvts15">BOM (Production) Contra account</span><span class="rvts6">".</span></li>
+</ul>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 988px;">
+   <p class="rvps12"><span class="rvts40">If the BOM (Production) contra account is not selected, the system will display an information message:</span></p>
+   <p class="rvps11"><span class="rvts17">"Please setup production contra account in Stock setup."</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">To select the BOM (Production) contra account, navigate to </span><span class="rvts14">Setup → Stock information</span><span class="rvts6"> and select the ledger account.</span></p>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 988px;">
+   <p class="rvps12"><span class="rvts85">You will not be allowed to specify the re-order level and select the Cost of sales, Stock control and Input Tax accounts.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Create (Add) stock items for Bills of Materials - Production (BOM (Production)</span></span></h1>
+<p class="rvps19"><span class="rvts29">To create a stock item for Bills of Materials - Production (BOM (Production):</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">On the </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon, select</span><span class="rvts29"> Stock items</span><span class="rvts30"> (</span><span class="rvts29">F12</span><span class="rvts30">).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">New</span><span class="rvts30"> button. &nbsp;A blank Stock form will be displayed.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the "</span><span class="rvts78">BOM (Production)"</span><span class="rvts30"> stock item type. The Stock entry form is displayed as follows:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/stock-new-type-bom-production.png"></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter the </span><span class="rvts29">Stock code</span><span class="rvts30">, </span><span class="rvts29">Description</span><span class="rvts30">,</span><span class="rvts29"> Barcode, Manufacturer </span><span class="rvts30">and </span><span class="rvts29">Extra description</span><span class="rvts30"> as required.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the </span><span class="rvts29">Unit size</span><span class="rvts30">. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Apply invoice discount</span><span class="rvts30"> - This is applicable to debtor (customer / client) accounts, as the percentage customer discount is specified on the </span><span class="rvts29">Accounting information</span><span class="rvts30"> tab - </span><span class="rvts29">Debtors</span><span class="rvts30"> (</span><a class="rvts32" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon).</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Reports - Stock group 1 / 2</span><span class="rvts30"> - The reporting group to which you wish this Stock item to be allocated.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Preferred supplier 1</span><span class="rvts30"> - Optional - Select a creditor (supplier / vendor) account and enter a supplier stock code if applicable.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts29">Preferred supplier 2</span><span class="rvts30"> - Optional - Select a creditor (supplier / vendor) account and enter a supplier stock code if applicable.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Ledger</span><span class="rvts30"> tab, if not already displayed.&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/stock-new-type-bom-production-ledger.png"></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter or select the following options:&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Tax class - </span><span class="rvts30">If you have created tax classes, select the tax class. The Tax class will automatically add the </span><span class="rvts29">Input Tax</span><span class="rvts30"> and</span><span class="rvts29"> Output Tax </span><span class="rvts30">accounts in the </span><span class="rvts29">Tax</span><span class="rvts30"> section, the</span><span class="rvts29"> Sales </span><span class="rvts30">account,</span><span class="rvts29"> Cost of sales</span><span class="rvts30"> and </span><span class="rvts29">Stock control</span><span class="rvts30"> accounts in the </span><span class="rvts29">Ledger</span><span class="rvts30"> section.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Last invoice</span><span class="rvts30"> - Field inactive. The date of the last purchase or other document generated on which the Stock item was selected. This field will not display any date if it is a new item, or if no Stock items have been selected on any documents.</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Default cost group</span><span class="rvts30"> - This is by default inactive. If you have created and activated cost centres, these may be selected.&nbsp;</span></li>
+  <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Weight</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-roman;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps19 noindent"><span class="rvts29">Gross weight</span><span class="rvts30"> - Enter, if applicable.</span></li>
+   <li class="rvps19 noindent"><span class="rvts29">Net weight</span><span class="rvts30"> - Enter, if applicable.</span></li>
+  </ol>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Selling prices</span><span class="rvts30"> - Enter the Selling price 1/2/3 exclusive or inclusive of Tax. The inclusive of VAT/GST/Sales Tax will be calculated based on the percentage entered in your Output Tax account. (if you selected that account in advance).</span></li>
+ </ol>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">This description should reflect your selling price descriptions as you have entered in </span><span class="rvts286">Setup → Stock information</span><span class="rvts207">.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">If you have for example entered: "Retail", "Wholesale" and "Cash" for these Selling prices, the Selling price 1 / 2 / 3 will be respectively displayed as such.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">The amounts as entered in these fields will be displayed on Invoices, Credit notes and Quotes. When the cursor is displayed on the Amount fields, you may select any of the available selling prices you wish to charge your debtors (customers / clients).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts29">Values</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-roman;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps19 noindent"><span class="rvts29">Average cost</span><span class="rvts30"> - Field inactive. The average cost price of your Stock item cannot be entered at this stage. When you process purchases, the Average cost Price will be automatically updated.</span></li>
+   <li class="rvps19 noindent"><span class="rvts29">Total cost</span><span class="rvts30"> - Field inactive. The total cost price of your Stock item cannot be entered at this stage. When you process purchases, the Total cost price will be automatically updated.</span></li>
+   <li class="rvps19 noindent"><span class="rvts29">Quantity on hand</span><span class="rvts30"> - Field inactive. The quantity, or number of Stock items on hand, cannot be entered at this stage. When you process purchases, the quantities will be automatically updated.</span></li>
+   <li class="rvps19 noindent"><span class="rvts29">Latest cost</span><span class="rvts30"> - The latest cost price of your Stock item can now be entered. When you process purchases, the Latest cost Price will be automatically updated.</span></li>
+   <li class="rvps19 noindent"><span class="rvts29">Reorder level</span><span class="rvts30"> - The minimum level of stock that you wish to keep on hand for this Stock item. In the case of Stock item codes for the purchase of services, this field should be left blank.</span></li>
+  </ol>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li value="6" style="text-indent: 0px" class="rvps95 noindent"><span class="rvts29">Reorder at</span><span class="rvts30"> - Specify the quantity of stock to be available when you need to reorder stock.&nbsp;</span></li>
+   <li style="text-indent: 0px" class="rvps95 noindent"><span class="rvts29">Minimum</span><span class="rvts30"> - Specify the minimum quantity of stock to be on hand.&nbsp;</span></li>
+  </ol>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li style="text-indent: 0px" class="rvps188 noindent"><span class="rvts29">Delivery delay</span><span class="rvts30"> - To be advised.</span></li>
+  </ol>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="12" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">BOM</span><span class="rvts30"> tab, if not already displayed.&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/stock-new-type-bom-production-bom.png"></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Add</span><span class="rvts30"> button to select an item on the Stock item lookup. Repeat this process until all the items (components) have been added to the list.&nbsp;</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">If more than 1 Stock item is included in the finished product, you need to enter the quantities to be included in the finished product.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">To delete (remove) an item from the BOM List, select the item on the list and click on the </span><span class="rvts286">Delete</span><span class="rvts207"> button.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="14" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Once you have added the BOM items to the list, enter the quantities of the components for each item. The values in the </span><span class="rvts78">Average cost, Latest cost</span><span class="rvts30"> and </span><span class="rvts78">Quantities on Hand</span><span class="rvts30"> fields will automatically be displayed for each stock item. The total Cost price value will also be automatically calculated (sum of the number of items x cost price for each item).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select </span><span class="rvts29">Cost price</span><span class="rvts30"> or </span><span class="rvts29">Selling price</span><span class="rvts30"> option in the </span><span class="rvts78">Calculate Base</span><span class="rvts30"> field. Click on the </span><span class="rvts29">Recalculate Sales&nbsp;%</span><span class="rvts30"> button. This will calculate the Percentage of Sales for each item on the BOM List.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Save</span><span class="rvts30"> button to save this stock item. The "</span><span class="rvts78">Stock item - List view"</span><span class="rvts30"> (default) screen will be displayed.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">BOM (Production) Assemble / Disassemble</span></span></h1>
+<p class="rvps2"><span class="rvts30">Before you may process the assemble / disassemble options for the "</span><span class="rvts78">BOM (Production)</span><span class="rvts30">" stock item, you need to </span><span class="rvts6">add the stock items and do some basic settings.&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Select a BOM (Production) contra account</span></span></h2>
+<div class="rvps42">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If the </span><span class="rvts40">BOM (Production) contra account</span><span class="rvts54"> is not selected, an information message is displayed:</span></p>
+   <p class="rvps6"><span class="rvts46">"Please setup production contra account in Stock setup."</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Add a BOM (Production) contra account in </span><span class="rvts14">Setup → Stock information</span><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/stock-bom-production-contra-account.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Add the stock items&nbsp;</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-bom-setting.png"></p>
+<p class="rvps2"><span class="rvts30"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Assemble and Disassemble BOM (Production) stock item type</span></span></h1>
+<p class="rvps2"><span class="rvts30">Once this you have finished adding and configuring your items (products) pm the </span><span class="rvts29">BOM</span><span class="rvts30"> tab, you may select the "</span><span class="rvts78">Assemble</span><span class="rvts30">" or "</span><span class="rvts78">Disassemble</span><span class="rvts30">" on the context menu for the "</span><span class="rvts78">BOM (Production)</span><span class="rvts30">" stock item type.</span></p>
+<p class="rvps2"><span class="rvts29">IMPORTANT</span><span class="rvts30"> : This will automatically generate a document and post (update the ledger) the transactions based on your configuration, for the items (products) on your BOM list.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-context-menu%201.png"></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts47">Assemble BOM (Production) item</span></span><span class="rvts0"><span class="rvts75">&nbsp;</span></span></h1>
+<p class="rvps19"><span class="rvts29">To assemble BOM (Production) item:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the "</span><span class="rvts78">BOM (Production)</span><span class="rvts30">" item on the "</span><span class="rvts78">Stock item" </span><span class="rvts30">grid</span><span class="rvts78">.</span><span class="rvts30">&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Right-click on a selected stock item (BOM (Production) stock item type) and select the "</span><span class="rvts78">Assemble"</span><span class="rvts30"> option on the context menu. The "</span><span class="rvts78">Quantity"</span><span class="rvts30"> screen is displayed:&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/stock-bom-production-assemble-enter-quantity.png"></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter the quantity and click on the </span><span class="rvts29">OK</span><span class="rvts30"> button. The confirmation screen will list the details of the assembly: &nbsp;</span></li>
+</ol>
+<p class="rvps11"><span class="rvts17">Processing lvl 0 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing lvl 1 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing trans qty:5 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing lvl 1 &nbsp;3DRILL Drill press</span><br/><span class="rvts17">Processing trans qty:5 &nbsp;3DRILL Drill press</span><br/><span class="rvts17">Processing trans qty:-5 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:5 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:5 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:5 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing costofsale:5 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:5 &nbsp;3DRILL Drill press</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Click </span><span class="rvts14">OK</span><span class="rvts6"> to update quantities to </span><span class="rvts30">BOM (Production) stock item</span><span class="rvts6"> and post transactions. A posted document with prefix </span><span class="rvts16">'SA'</span><span class="rvts6"> (e.g., </span><span class="rvts16">'SA00001'</span><span class="rvts6">) will be generated for "</span><span class="rvts15">Assemble</span><span class="rvts6">".</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts47">Disassemble BOM (Production) item</span></span><span class="rvts0"><span class="rvts75">&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts30">Once you have assembled items, you may disassemble quantities.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts29">To disassemble BOM (Production) item:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the"</span><span class="rvts78">BOM (Production)</span><span class="rvts30">" item on the "</span><span class="rvts78">Stock item - List view"</span><span class="rvts30"> (default) screen.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Right-click and select the "</span><span class="rvts78">Assemble"</span><span class="rvts30"> option on the context menu. The "</span><span class="rvts78">Quantity"</span><span class="rvts30"> screen is displayed:&nbsp;</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-disassemble-quantity.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter the quantity and click on the </span><span class="rvts29">OK</span><span class="rvts30"> button. The confirmation screen will list the details of the disassembly:&nbsp;</span></li>
+</ol>
+<p class="rvps11"><span class="rvts17">Processing lvl 0 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing lvl 1 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing trans qty:1 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing lvl 1 &nbsp;3DRILL Drill press</span><br/><span class="rvts17">Processing trans qty:1 &nbsp;3DRILL Drill press</span><br/><span class="rvts17">Processing trans qty:-1 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:1 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:1 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:1 &nbsp;3COMP Compressor</span><br/><span class="rvts17">Processing costofsale:1 &nbsp;BOMPRODUCTION BOM (Production)</span><br/><span class="rvts17">Processing costofsale:1 &nbsp;3DRILL Drill press</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Click </span><span class="rvts14">OK</span><span class="rvts6"> to update quantities to </span><span class="rvts30">BOM (Production) stock item</span><span class="rvts6"> and post transactions. A posted document with prefix </span><span class="rvts16">'SA'</span><span class="rvts6"> (e.g., </span><span class="rvts16">'SA00001'</span><span class="rvts6">) will be generated for "</span><span class="rvts15">Disassemble</span><span class="rvts6">".</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">BOM (Production) Document groups / Transactions tabs</span></span></h1>
+<p class="rvps26"><span class="rvts6">The "</span><span class="rvts15">Assemble</span><span class="rvts6">" and "</span><span class="rvts15">Disassemble</span><span class="rvts6">" functions for BOM (Production) items create posted documents. These transactions will be listed under the </span><span class="rvts14">Document groups</span><span class="rvts6"> tab and the </span><span class="rvts14">Transactions</span><span class="rvts6"> tab.&nbsp;</span></p>
+<p class="rvps45"><span class="rvts6">Documents generated by these functions will have a </span><span class="rvts69">document prefix "</span><span class="rvts103">SA</span><span class="rvts69">"</span><span class="rvts6"> (e.g., "</span><span class="rvts15">SA00001</span><span class="rvts6">"), using a similar 7-digit format.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">BOM (Production) Document Groups Tab</span></span></h2>
+<p class="rvps26"><span class="rvts6">The Document Groups tab for BOM (Production) stock items shows documents related to assembly and disassembly. These documents are automatically posted when you perform the Assemble and Disassemble actions.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-tab-document-groups.png"></p>
+<p class="rvps26"><span class="rvts70">On the </span><span class="rvts69">Document groups</span><span class="rvts70"> tab, you can:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts69">Print a document</span><span class="rvts6">: Double-click on the document to print it.</span></li>
+ <li class="rvps46 noindent"><span class="rvts69">Open a posted document</span><span class="rvts6">: Right-click on the document and select "</span><span class="rvts15">Open document</span><span class="rvts6">" from the context menu.</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">BOM (Production) Transactions Tab</span></span></h2>
+<p class="rvps26"><span class="rvts6">The </span><span class="rvts14">Transactions</span><span class="rvts6"> tab includes posted documents generated by the assembly and disassembly of BOM (Production) items.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-tab-transactions.png"></p>
+<p class="rvps26"><span class="rvts70">On the</span><span class="rvts69"> Transactions</span><span class="rvts70"> tab, you can:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps28 noindent"><span class="rvts69">Open a posted document</span><span class="rvts6">: Right-click on the document and select "Open document" from the context menu.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">By following these instructions, you can efficiently manage and review the documents and transactions related to the assembly and disassembly of BOM (Production) items.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Viewing Posted Documents for BOM (Production) Items</span></span></h2>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Opening a Posted document</span></span></h3>
+<p class="rvps26"><span class="rvts6">On the </span><span class="rvts69">BOM (Production) Document groups</span><span class="rvts6"> and </span><span class="rvts69">Transactions</span><span class="rvts6"> tabs, you can open posted documents generated by the "</span><span class="rvts15">Assemble</span><span class="rvts6">" and "</span><span class="rvts15">Disassemble</span><span class="rvts6">" functions as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps27 noindent"><span class="rvts69">Right-click</span><span class="rvts6"> on the desired document.</span></li>
+ <li class="rvps46 noindent"><span class="rvts6">Select </span><span class="rvts69">"Open document"</span><span class="rvts6"> from the context menu.</span></li>
+</ol>
+<p class="rvps47"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-open-posred-document.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Identifying the Document type</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps28 noindent"><span class="rvts6">The </span><span class="rvts69">"</span><span class="rvts102">Your reference</span><span class="rvts69">"</span><span class="rvts6"> field and the </span><span class="rvts69">"</span><span class="rvts102">Description</span><span class="rvts69">"</span><span class="rvts6"> column in the posted document will indicate whether the document was generated using the "</span><span class="rvts15">Assemble</span><span class="rvts6">" or "</span><span class="rvts15">Disassemble</span><span class="rvts6">" options for BOM (Production) items.</span></li>
+</ul>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps46 noindent"><span class="rvts6">Documents generated by these functions will have a </span><span class="rvts69">document prefix "SA"</span><span class="rvts6"> (e.g., "SA00001"), using a similar 7-digit format.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">By using these steps, you can easily access and identify the specific documents related to the assembly and disassembly of BOM (Production) items.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Print a Posted document&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">You may print selected posted document generated by the "</span><span class="rvts15">Assemble</span><span class="rvts6">" and "</span><span class="rvts15">Disassemble</span><span class="rvts6">" of BOM (Production) items from the following options:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts14">BOM (Production)</span><span class="rvts6"> - </span><span class="rvts14">Document groups</span><span class="rvts6"> tab : (Double-click to print).</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Search</span><span class="rvts6"> (central search) : Locate these posted document generated by the "</span><span class="rvts15">Assemble</span><span class="rvts6">" and "</span><span class="rvts15">Disassemble</span><span class="rvts6">" of BOM (Production) items. (Double-click to print).</span></li>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-print-document.png"></p>
+<p class="rvps2"><span class="rvts30">The "</span><span class="rvts78">POS Tax Invoice</span><span class="rvts30">" will print the correct document number, but will print the system date and time stamp of your operating system and not the actual transaction date.</span></p>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">The default document layout file which will be used to print </span><span class="rvts40">documents generated by the "Assemble" and "Disassemble" of BOM (Production) items, is the "Layout file point-of-sale" selected in </span><span class="rvts37">Setup </span><span class="rvts98">→ </span><span class="rvts37">Documents setup</span><span class="rvts40">.&nbsp;</span><span class="rvts85">&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts98">WARNING</span><span class="rvts85">: Point-of-sale document layouts might not be ideal for printing "Assemble" and "Disassemble" documents for BOM (Production) item types due to:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts98">Date</span><span class="rvts85">: POS invoices show your system's date, not the actual processing date.</span></li>
+    <li class="rvps12 noindent"><span class="rvts98">Document Name</span><span class="rvts85">: Might say "POS Tax Invoice" instead of something relevant.</span></li>
+    <li class="rvps12 noindent"><span class="rvts98">Footer</span><span class="rvts85">: Contains data like cashup amounts, not relevant for BOM operations.</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts98">Recommendation</span><span class="rvts85">: Select a different document layout file for BOM (Production) transactions (</span><span class="rvts98">Setup → Documents setup</span><span class="rvts85">).</span></p>
+   <p class="rvps41"><img alt="" style="padding : 1px;" src="lib/documents-setup-pos-layout-file-select.png"></p>
+   <p class="rvps12"><span class="rvts37">NOTE</span><span class="rvts40">: Selecting the document layout files, which supports the "TYPES.SDESCRIPTION" document name from the "TYPES" table, will print the document name as "Delivery note" for "Assemble" option and "Remittance" for "Disassemble" option. Selecting the following document layout files, will replicate the document names:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts40">Layout file - (TRN_1910)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Document layout - (TRN_3174)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Document layout (15codes) - (TRN_906277)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">NO-TAX Layout file - (TRN_906589)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">NO-TAX Document layout - (TRN_906590)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">NO-TAX Document layout (15codes) - (TRN_906591)</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts98">Recommendation</span><span class="rvts85">: </span><span class="rvts40">You may select the </span><span class="rvts37">BOM (Production)</span><span class="rvts99"> Layout file </span><span class="rvts100">(TRN_3266)</span><span class="rvts99"> for the</span><span class="rvts37"> </span><span class="rvts99">Stock item type </span><span class="rvts100">to print layout files generated </span><span class="rvts40">during "Assembly" or "Disassembly".&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts37">Document prefix</span><span class="rvts40">: "</span><span class="rvts37">SA</span><span class="rvts40">" (e.g., "SA00001"), with a similar 7-digit format.</span></p>
+   <p class="rvps12"><span class="rvts37">Example</span><span class="rvts40"> : Assemble&nbsp;</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/add-layout-file-bom-production-assemble.png"></p>
+   <p class="rvps12"><span class="rvts37">Delivery note accepted:</span><span class="rvts40"> in SubReport-1(TAX) - Changed label TRpExpression85 to print BOM (Production accepted :)</span></p>
+   <p class="rvps6"><span class="rvts17">CUSTOM('GETTEXTLANG',3266,'BOM(Production',CLIENTORDEFLANG.SLANGUAGE,0,0)+' &nbsp;'+(CUSTOM('GETTEXTLANG',906275,'Accepted',CLIENTORDEFLANG.SLANGUAGE,0,0)+(': '))</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/add-layout-file-bom-production-assemble-accep.png"></p>
+   <p class="rvps12"><span class="rvts37">Example</span><span class="rvts40"> : Disassemble&nbsp;</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/add-layout-file-bom-production-disassemble.png"></p>
+   <p class="rvps12"><span class="rvts37">Remittance accepted: </span><span class="rvts40">in SubReport-1(TAX) - Changed label TRpExpression85 to print BOM (Production accepted :)</span></p>
+   <p class="rvps6"><span class="rvts17">CUSTOM('GETTEXTLANG',3266,'BOM(Production',CLIENTORDEFLANG.SLANGUAGE,0,0)+' &nbsp;'+(CUSTOM('GETTEXTLANG',906275,'Accepted',CLIENTORDEFLANG.SLANGUAGE,0,0)+(': '))</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/add-layout-file-bom-production-disassemble-ac.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Viewing BOM (Production) Transactions</span></span></h1>
+<p class="rvps26"><span class="rvts6">The transactions generated by assembling and disassembling BOM (Production) items are posted to the "BOM (Production) Contra account" as configured in </span><span class="rvts69">Setup → Stock Information</span><span class="rvts6">.</span></p>
+<p class="rvps26"><span class="rvts6">These transactions are recorded in the ledger and can be viewed through various reports and tools. Here’s how you can view, print, and export these transactions:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;">
+ <li class="rvps43 noindent"><span class="rvts0"><span class="rvts106"><br/></span></span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps26 noindent"><span class="rvts69">Reports Menu</span><span class="rvts6">: To view these transactions, navigate to the </span><span class="rvts69">Reports</span><span class="rvts6"> menu and select </span><span class="rvts69">Reports → Ledger → Transactions</span><span class="rvts6">. You can choose from the following reports:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps44 noindent"><span class="rvts69">Transactions</span></li>
+  <li class="rvps44 noindent"><span class="rvts69">Transactions - Standard</span></li>
+  <li class="rvps44 noindent"><span class="rvts69">Transactions - Extra details&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps26 noindent"><span class="rvts14">Batch entry: Cost of Sales journal</span><span class="rvts6">: Open the </span><span class="rvts14">Batch entry</span><span class="rvts6"> (</span><span class="rvts14">F2</span><span class="rvts6">) and select Cost of Sales journal. In the Cost of Sales journal, click on the posted batches tab and select the batch. You can print the transactions in the "</span><span class="rvts15">Batch type report - Posted batch</span><span class="rvts6">".</span></li>
+ <li class="rvps26 noindent"><span class="rvts69">T-Account Viewer</span><span class="rvts6">: Access the </span><span class="rvts14">T-Account viewer</span><span class="rvts6"> and select the "</span><span class="rvts102">BOM (Production) Contra account</span><span class="rvts70">". </span><span class="rvts6">This allows you to view, print, and export the transactions.</span></li>
+ <li class="rvps26 noindent"><span class="rvts69">Ledger Analyser</span><span class="rvts6">: Alternatively, you can print a </span><span class="rvts69">Trial Balance</span><span class="rvts6"> in </span><span class="rvts69">Ledger Analyser 1</span><span class="rvts6"> or </span><span class="rvts69">Ledger Analyser 2</span><span class="rvts6">. Double-click on the desired account or use the "</span><span class="rvts15">Show details</span><span class="rvts6">" option from the context menu to view detailed transactions.</span></li>
+ <li class="rvps26 noindent"><span class="rvts69">Central Search</span><span class="rvts6">: To locate specific assemble or disassemble transactions or document numbers. In the search results, double-click on the Batch type to display the transactions in the T-Account viewer.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Example : Ledger transactions - BOM (Production) Contra account</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-transactions-ledger.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts96">&nbsp;BOM (Production) - Assemble and Disassemble options will automatically generate transactions, which is posted to the ledger.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts96">The Document no. for a BOM (Production) - Assemble and Disassemble options is automatically generated as a seven-digit number (consisting of a prefix </span><span class="rvts97">SA</span><span class="rvts96"> followed by 5 numerical digits).</span></p>
+   <p class="rvps12"><span class="rvts96">The Document type is "Assemble" or "Disassemble"</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Example : Batch type report - Posted batch - BOM (Production) Batch transactions</span></span></h2>
+<p class="rvps26"><span class="rvts6">Open the </span><span class="rvts14">Batch entry</span><span class="rvts6"> (</span><span class="rvts14">F2</span><span class="rvts6">) and select Cost of Sales journal. In the Cost of Sales journal, click on the posted batches tab and select the batch.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-batch-transactions-cos-1.png"></p>
+<p class="rvps2"><span class="rvts6">&nbsp;Click the Print button to &nbsp;print the transactions in the "</span><span class="rvts15">Batch type report - Posted batch</span><span class="rvts6">".</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-batch-transactions-cos-2.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Batch type report - Posted batch report - Assemble transactions</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-batch-transactions-cos-3.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Example : Batch type report - Posted batch report - Disassemble transactions</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-batch-transactions-cos-4.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">T-Account viewer</span></span></h1>
+<p class="rvps19"><span class="rvts82">In addition to the transaction reports on the </span><span class="rvts72">Reports</span><span class="rvts82"> menu; you may view, print and export transactions in the T-Account viewer from the following options.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts72">T- Account viewer </span><span class="rvts82">: On the reports menu, select the </span><span class="rvts72">T-Account viewer</span><span class="rvts82"> icon and select the&nbsp;</span><span class="rvts6"> "</span><span class="rvts15">BOM (Production) Contra account</span><span class="rvts6">"</span><span class="rvts82">.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts82">Alternatively, you may print a Trial balance in the </span><span class="rvts72">Ledger analyser 1 / Ledger analyser 2 </span><span class="rvts82">and double-click or use the "</span><span class="rvts101">Show details</span><span class="rvts82">" option on the context menu.</span></li>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-t-account-1.png"></p>
+<p class="rvps2"><span class="rvts82">You may filter the transactions by batch number, e,g, "</span><span class="rvts101">34</span><span class="rvts82">" or &nbsp;"</span><span class="rvts101">35</span><span class="rvts82">".&nbsp;</span></p>
+<p class="rvps2"><span class="rvts82">Click on the </span><span class="rvts72">Print</span><span class="rvts82"> button to print a T-account view of the transactions.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-t-account-2.png"></p>
+<p class="rvps2"><span class="rvts82">Should you wish to export these transactions to a spreadsheet click </span><span class="rvts72">Export</span><span class="rvts82">. If you need to include Contra accounts, in your spreadsheet, select the "</span><span class="rvts101">Show contra</span><span class="rvts82">" option&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Search (Central search)</span></span></h1>
+<p class="rvps26"><span class="rvts6">To locate specific assemble or disassemble transactions or document numbers:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps17 noindent"><span class="rvts6">Search for keywords such as "</span><span class="rvts15">assemble</span><span class="rvts6">", "</span><span class="rvts15">disassemble</span><span class="rvts6">", or document numbers starting with "</span><span class="rvts15">SA</span><span class="rvts6">".</span></li>
+ <li class="rvps45 noindent"><span class="rvts6">In the search results, double-click on the "</span><span class="rvts15">Batch</span><span class="rvts6">" type to display the transactions in the </span><span class="rvts14">T-Account viewer</span><span class="rvts6">.</span></li>
+ <li class="rvps45 noindent"><span class="rvts6">To print a document, double-click on a document for the "</span><span class="rvts15">Document</span><span class="rvts6">" type.</span></li>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-bom-production-search.png"></p>
+<p class="rvps12"><span class="rvts104">NOTE</span><span class="rvts105">: On the </span><span class="rvts104">Search</span><span class="rvts105"> (central search), the "</span><span class="rvts40">Description</span><span class="rvts105">" column for the "</span><span class="rvts40">Document</span><span class="rvts105">" type, is indicated as follows:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps12 noindent"><span class="rvts104">Dissable Details</span><span class="rvts105"> - Should be "</span><span class="rvts40">Production Details</span><span class="rvts105">" since the document e.g. "</span><span class="rvts40">SA00001</span><span class="rvts105">" is created using the "</span><span class="rvts40">Assemble</span><span class="rvts105">" option. The document type is listed as "</span><span class="rvts40">Assemble</span><span class="rvts105">" on the </span><span class="rvts104">Document groups</span><span class="rvts105"> and </span><span class="rvts104">Transactions</span><span class="rvts105"> tabs of the stock item for the BOM (Production) stock item type.&nbsp;</span></li>
+ <li class="rvps12 noindent"><span class="rvts104">Production Details</span><span class="rvts105"> - Should be "</span><span class="rvts40">Disassemble Details</span><span class="rvts105">" since the document e.g. "</span><span class="rvts40">SA00002</span><span class="rvts105">" is created using the "</span><span class="rvts40">Disassemble</span><span class="rvts105">" option. The document type is listed as "</span><span class="rvts40">Disassemble</span><span class="rvts105">" on the </span><span class="rvts104">Document groups</span><span class="rvts105"> and </span><span class="rvts104">Transactions</span><span class="rvts105"> tabs of the stock item for the BOM (Production) stock item type.&nbsp;</span></li>
+</ul>
+<p class="rvps26"><span class="rvts69">Search Description Inaccuracy:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Central Search shows "</span><span class="rvts15">Dissable Details</span><span class="rvts6">" for "Assemble" documents (e.g., "SA00001"). This should be </span><span class="rvts15">"Production Details</span><span class="rvts6">".</span></li>
+ <li class="rvps46 noindent"><span class="rvts6">Conversely, "</span><span class="rvts15">Production Details</span><span class="rvts6">" are shown for "</span><span class="rvts15">Disassemble</span><span class="rvts6">" documents (e.g., "SA00002"). This should be "</span><span class="rvts15">Disassemble Details</span><span class="rvts6">".</span></li>
+</ul>
+<p class="rvps26"><span class="rvts69">Correct Descriptions:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">"</span><span class="rvts15">Assemble</span><span class="rvts6">" documents: Use "</span><span class="rvts15">Production Details</span><span class="rvts6">".</span></li>
+ <li class="rvps46 noindent"><span class="rvts6">"</span><span class="rvts15">Disassemble</span><span class="rvts6">" documents: Use "</span><span class="rvts15">Disassemble Details</span><span class="rvts6">".</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">These descriptions are consistent with the document types listed on the stock item's "Document groups" and "Transactions" tabs (BOM (Production) stock item type).</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

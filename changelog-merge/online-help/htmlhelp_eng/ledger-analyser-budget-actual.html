@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Ledger analyser - Budget vs actual</title>
+  <meta name="description" content="How to print budget vs actual reports and export to text file to spreadsheets - osfinancials.org" /> 
+  <meta name="keywords" content="Budget vs actual,Account groups,Accounting periods,income statement,export text file (spreadsheets),Trial balance,Ledger analyser,Budgets,T-Account viewer,Pivot,Show contra">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ledger analyser - Budget vs actual">
+  <meta name="twitter:description" content="How to print budget vs actual reports and export to text file to spreadsheets - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Ledger analyser - Budget vs actual" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to print budget vs actual reports and export to text file to spreadsheets - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ledger-analyser-budget-actual"
+		  data-hnd-context="809"
+		  data-hnd-title="Ledger analyser - Budget vs actual"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reports-ribbon-options.html">Reports (Reports ribbon)</a></li><li><a href="ledger-analyser.html">Ledger analyser</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="ledger-analyser.html" title="Ledger analyser" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-standard-ccolumn.html" title="Ledger analyser - Standard column balances" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-this-last-year.html" title="Ledger analyser - This year vs last year" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Ledger analyser - Budget vs actual</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Print comparative reports for the budget&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">You may print the </span><span class="rvts14">Budget vs actual</span><span class="rvts6"> report in the Ledger analyser as well as a </span><a class="rvts33" href="report-ledger-budget-actual.html">Budget vs actual - 3 periods</a><span class="rvts6"> report to compare the budget to actual totals to determine whether your targets were met and whether you underspent or overspent and whether you have generated too little income, etc.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Budget vs actual report</span></span></h1>
+<p class="rvps117"><span class="rvts193">The Budget vs actual report will list the budget figures as well as the actual totals of posted batches and documents for selected period(s) or date(s).&nbsp;</span></p>
+<p class="rvps117"><span class="rvts193">This report will display the following:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Trial balance</span><span class="rvts193">&nbsp;– The actual figures on the Trial balance - totals of transactions as posted (updated to the ledger) in batches (journals), sales documents (i.e. Invoices, Point-of-Sale Invoices and Credit notes) and purchase documents (i.e. Purchases and Supplier returns).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Budget</span><span class="rvts193">&nbsp;– Once any budget figures are entered or edited (and saved), these figures will automatically be updated to the applicable accounts and will be available in the Ledger analyser and any reports which supports budget figures.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Difference</span><span class="rvts193">&nbsp;– The difference amount actual trial Trial balance vs the Budget figures.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Percentage</span><span class="rvts193"> – The difference expressed as a percentage.&nbsp;</span></li>
+</ol>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps12"><span class="rvts54">To print this report your system's digit separator symbol need to be set to a comma and the decimal symbol needs to be set as a period. See - </span><a class="rvts62" href="system-setting-number-format.html">Suystem settings - Number format</a><span class="rvts54">.</span></p>
+   <p class="rvps12"><span class="rvts54">If these settings are not set, this report will produce an error:</span></p>
+   <p class="rvps6"><span class="rvts46">Type conversion error 'Val':Expression TRpExpression46</span></p>
+   <p class="rvps12"><span class="rvts54">You may access your system's Regional settings from the </span><span class="rvts53">Setup </span><span class="rvts37">→</span><span class="rvts53"> Company info - Options</span><span class="rvts54"> tab </span><span class="rvts53">Set Windows date format/style</span><span class="rvts54"> button or on the </span><span class="rvts53">DateTime settings</span><span class="rvts54"> button on the </span><span class="rvts53">Setup </span><span class="rvts37">→ </span><span class="rvts53">System parameters</span><span class="rvts54"> (</span><span class="rvts53">Setup</span><span class="rvts54"> ribbon).</span></p>
+   <p class="rvps12"><span class="rvts54">&nbsp;On your system's "Region"-screen click on the </span><span class="rvts53">Additional settings...</span><span class="rvts54"> button to launch your system's "Customize Format" screen.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">This report only includes </span><span class="rvts40">batch and document transactions</span><span class="rvts54"> which are posted. Unposted </span><span class="rvts40">batches and documents </span><span class="rvts54">will be </span><span class="rvts53">NOT</span><span class="rvts54"> be included in this report.</span></p>
+   <p class="rvps12"><span class="rvts54">To view a list of unposted batches and documents, which is not updated to the ledger, go to </span><span class="rvts53">Input → </span><a class="rvts180" href="checking-for-unposted-items.html">Checking unposted items</a><span class="rvts54"> (</span><span class="rvts53">Default</span><span class="rvts54"> ribbon).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Budget vs actual options</span></span></h1>
+<p class="rvps117"><span class="rvts327">To print a budget vs actual report:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts193">On the&nbsp;</span><span class="rvts327">Reports </span><span class="rvts193">ribbon, select&nbsp;</span><span class="rvts327">Ledger analyser 1</span><span class="rvts193">&nbsp;or&nbsp;</span><span class="rvts327">Ledger analyser 2</span><span class="rvts193">.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts193">Select the “</span><span class="rvts129">Budget vs actual</span><span class="rvts193">” report type.&nbsp;</span></li>
+</ol>
+<p class="rvps293"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-budget-actual-options.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Per&nbsp;period</span><span class="rvts193"> - Select a period (Month, 2 Months, 3 Months, 4 Months, 6 Months or Year).&nbsp;</span></li>
+</ol>
+<div class="rvps242">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps2"><span class="rvts331">You may click on the “Free selection” tab. You may select or enter any date or dates, which you need to include the "Budget vs actual" report. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Ignore zero balances</span><span class="rvts193"> - If this field is not selected, all accounts will be listed for the "</span><span class="rvts129">Budget vs actual</span><span class="rvts193">" report. If you select (tick) this field; only those accounts with balances and or budget figures, will be included in the "</span><span class="rvts129">Budget vs actual</span><span class="rvts193">" report. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Include opening balances</span><span class="rvts193"> - If this option is selected (ticked), it will include the opening balances of those accounts which have opening balances. If this option is not selected; the opening balances will not be included in the "</span><span class="rvts129">Budget vs actual</span><span class="rvts193">" report. &nbsp; &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Opening balances only</span><span class="rvts193"> - </span><span class="rvts6">This option will only be available if the "</span><span class="rvts15">Include opening balances</span><span class="rvts6">" option is selected. You can select (check) this option to include only the opening balances. All other balances will then be ignored.</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts327">Cost centre 1</span><span class="rvts193"> and </span><span class="rvts327">Cost centre 2</span><span class="rvts193"> - The&nbsp;</span><a class="rvts33" href="cost-centres.html">Cost centres</a><span class="rvts193">&nbsp;(2 Groups) will only be available, if Cost centres are added in </span><span class="rvts327">Setup → Groups</span><span class="rvts193"> on the </span><span class="rvts327">Setup</span><span class="rvts193"> ribbon; and if activated.</span></li>
+ <li style="text-indent: 0px" class="rvps241 noindent"><span class="rvts193">Click on the&nbsp;</span><span class="rvts327">Report</span><span class="rvts193">&nbsp;button. This will build or refresh the "</span><span class="rvts129">Budget vs actual</span><span class="rvts193">" report with the selected options.&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Example : Budget vs actual&nbsp;</span></span></h1>
+<p class="rvps117"><span class="rvts193">An example of the "</span><span class="rvts129">Budget vs actual"</span><span class="rvts193">&nbsp;report type, is displayed as follows:&nbsp;</span></p>
+<p class="rvps293"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-budget-actual-report.png"></p>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps12"><span class="rvts166">Buttons </span><span class="rvts183">7, 6, 5, 4, 3, 2</span><span class="rvts166"> and </span><span class="rvts183">1</span><span class="rvts166"> at the bottom of the report - is shortcut keys to the last accessed </span><a class="rvts52" href="t-account-viewer.html">T-Account viewer</a><span class="rvts166"> options or </span><a class="rvts52" href="ledger-analyser-pivot.html">Pivot</a><span class="rvts166"> options. These shortcuts will be cleared when you </span><a class="rvts52" href="close-active-forms.html">close active forms</a><span class="rvts166">, or when you open the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts166">If any of the budget figures needs to be changed, you may go to the </span><a class="rvts38" href="budgets-reports-ribbon.html">Budgets</a><span class="rvts40"> option (</span><span class="rvts37">Reports ribbon</span><span class="rvts40">) or</span><span class="rvts166">&nbsp;</span><span class="rvts183">Setup → Accounts</span><span class="rvts166">&nbsp;option on the </span><span class="rvts183">Setup</span><span class="rvts166"> ribbon.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps117"><span class="rvts193"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Printed example : Budget vs actual</span></span></h1>
+<p class="rvps117"><span class="rvts193">Click on the&nbsp;</span><span class="rvts327">Print</span><span class="rvts193">&nbsp;button.&nbsp;The parameter screen is displayed:</span></p>
+<p class="rvps117"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-budget-actual-parameter.png"></p>
+<p class="rvps117"><span class="rvts193">Click on </span><span class="rvts327">OK</span><span class="rvts193">.</span></p>
+<p class="rvps117"><span class="rvts193">An example of the printed "</span><span class="rvts129">Budget vs actual</span><span class="rvts193">" (no opening balances) report, is as follows:</span></p>
+<p class="rvps117"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-budget-actual-print.png"></p>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps2"><span class="rvts436">To save the&nbsp;</span><span class="rvts332">Budget vs actual report</span><span class="rvts436">&nbsp;as a PDF file:</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="text-indent: 0px" class="rvps39 noindent"><span class="rvts331">On the "Reportman print preview" screen, select&nbsp;</span><span class="rvts332">Save</span><span class="rvts331">&nbsp;(</span><span class="rvts332">Ctrl+S</span><span class="rvts331">)&nbsp;</span><img alt="" style="padding : 1px;" src="lib/reportman-preview-icon-save.png"><span class="rvts331">&nbsp;– This will launch the “</span><span class="rvts15">Save metafile as</span><span class="rvts331">” screen.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps39 noindent"><span class="rvts331">Select the directory (folder) where you need to save this file, if necessary.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps39 noindent"><span class="rvts331">Enter a file name.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps39 noindent"><span class="rvts331">Select the "PDF File – compressed" default file type.</span></li>
+    <li style="text-indent: 0px" class="rvps39 noindent"><span class="rvts331">Click&nbsp;</span><span class="rvts332">Save</span><span class="rvts331">.</span></li>
+   </ol>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps117"><span class="rvts30"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Spreadsheet example : Budget vs actual&nbsp;</span></span></h1>
+<p class="rvps19"><span class="rvts14">To create a Budget vs actual - Export file:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Export</span><span class="rvts6"> button. This will launch the "</span><span class="rvts15">Save as"</span><span class="rvts6"> screen.</span></li>
+</ol>
+<p class="rvps41"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/export-txt-save-as.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Select the folder in which you wish to save the file.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">The default file name will be "</span><span class="rvts15">Export.txt"</span><span class="rvts6">. Overtype this with your own name.</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps12"><span class="rvts40">&nbsp;If you do not enter and save the Export.txt file name, you may replace existing (previously exported) files.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Of an existing exported file is opened, and you are trying to save a export file with the same name, a similar error message as the following will be displayed:</span></p>
+   <p class="rvps6"><span class="rvts17">Cannot create file "D:\exports\Export.txt". The process cannot access the file because it is being used by another process.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Save</span><span class="rvts6"> button.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">This will automatically open (launch) the file in your system's default text editor program associated with value text file type.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-budget-actual-exported.png"><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,1253 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>SQL Browser plugin</title>
+  <meta name="description" content="SQL Browser plugin - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SQL Browser plugin">
+  <meta name="twitter:description" content="SQL Browser plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="SQL Browser plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="SQL Browser plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-sql-browser"
+		  data-hnd-context="197"
+		  data-hnd-title="SQL Browser plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu-tools.html">Plugins menu - Tools</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-menu-tools.html" title="Plugins menu - Tools" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugins-menu-tools.html" title="Plugins menu - Tools" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugins-products-other.html" title="Other Plugins / Products" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>SQL Browser plugin</h2>
+
+            <div class="main-content">
+                
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/B93.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">SQL Browser - </span><a class="rvts56" href="https://www.osfinancials.org/en/plugin-manuals/507-sqlbrowser" target="_blank">Manual</a><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/other/sqlbrowser" target="_blank">Shop</a><span class="rvts40"> -</span><span class="rvts37"> Licence :</span><span class="rvts40"> Once-off - This program is licenced under a commercial licence. A nag screen will be displayed when this plugin is launched and will pop up with regular intervals.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/B93.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">SQL Browser is used to add cost and project groups and paper types after creating a new blank Set of Books from scratch:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts52" href="create-books-advanced.html">Create Set of Books (Advanced) option for Firebird Database types</a><span class="rvts40">&nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts52" href="mssql-sql-database-create.html">Create Set of Books (Advanced) option for MSSQL Database types</a><span class="rvts40">&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Introduction to the SQL Browser</span></span></h1>
+<p class="rvps26"><span class="rvts6">The SQL Browser plugin in osFinancials provides users with a powerful tool to interact with their data using Structured Query Language (SQL). This feature is especially beneficial for users familiar with SQL and enables them to run custom queries, group, filter, and sort results effortlessly. Additionally, users can export data to "</span><span class="rvts15">JASON</span><span class="rvts6">"- files for further analysis or documentation purposes.</span></p>
+<p class="rvps26"><span class="rvts69">Compatibility with Database Types</span></p>
+<p class="rvps26"><span class="rvts6">The SQL Browser plugin is designed to seamlessly integrate with any Set of Books utilizing either Firebird or MSSQL database types. Whether your organization relies on Firebird or MSSQL for database management, the SQL Browser provides a unified platform for accessing and manipulating data.</span></p>
+<p class="rvps26"><span class="rvts6">This flexibility allows users to leverage the SQL Browser's powerful features across different database environments, ensuring consistent functionality and ease of use regardless of the underlying database technology.</span></p>
+<p class="rvps26"><span class="rvts14">Overview : Step-by-step guide on how to use the SQL Browser in osFinancials:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;">
+ <li class="rvps26 noindent"><span class="rvts69">Accessing SQL Browser</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Navigate to the Setup ribbon and click on </span><span class="rvts14">Plug-ins → Tools → SQLBrowser</span><span class="rvts6">.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Selecting a Table</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Once in the SQL Browser, a list of tables in the active Set of Books will be displayed.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Select a table from the list.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Viewing Table Data</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Right-click on the selected table and choose the "Open" option. This action loads the data from the table into the bottom half of the SQL Browser screen.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Working with Data</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Utilize context menus to perform various actions such as opening, dropping, or emptying tables.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Use the Script Editor to write or edit SQL scripts.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Navigate and manipulate records using the Records section.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Apply filters, groups, and configure columns as needed.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Exporting Data</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps17 noindent"><span class="rvts6">Export data to XML, HTML, Excel, or Text formats (</span><span class="rvts14">File</span><span class="rvts6"> menu).</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Export data to JSON files Create tables from JSON files (</span><span class="rvts14">Export import</span><span class="rvts6"> menu).</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Save SQL queries for future use.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Exiting SQL Browser</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps224 noindent"><span class="rvts6">To exit the SQL Browser, click on the </span><span class="rvts14">File → Exit</span><span class="rvts6"> menu or close the window.</span></li>
+ </ul>
+</ol>
+<p class="rvps26"><span class="rvts6">Additionally, the SQL Browser menu system provides options for managing queries efficiently, customizing font settings, and handling records effectively. Users can write SQL scripts to filter and search data based on various criteria such as date, reference number, document number, or amount.</span></p>
+<p class="rvps26"><span class="rvts6">Furthermore, users can customize the display of columns, sort data in ascending or descending order, and apply filters to refine search results. Options for custom filtering allow users to specify conditions such as equal to, not equal to, less than, greater than, like, and more.</span></p>
+<p class="rvps26"><span class="rvts6">Overall, the SQL Browser in osFinancials empowers users to interact with their data in a flexible and efficient manner, making it a valuable tool for both novice and expert users alike.</span></p>
+<div class="rvps376">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts99">Backup Recommendation</span></p>
+   <p class="rvps12"><span class="rvts40">Before utilizing advanced features within the SQL Browser, such as dropping tables, executing or running scripts, creating a new table from a "JSON"-file, or any other advanced options, it is highly recommended to create a backup copy of your Set of Books. This precautionary measure helps safeguard against accidental data loss or unintended modifications.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">If you are more than expert than the average user and you know how to write SQL (Structured Query Language) then you will love the SQL Browser. Make any valid SQL query and run it.</span></p>
+<p class="rvps2"><span class="rvts6">The return or result of your SQL rows can be grouped, filtered and sorted with just a few mouse clicks. This SQL browser also allows drag and drop features, which make it easy to work with.</span></p>
+<p class="rvps2"><span class="rvts6">Anything can be exported to the XML (Extensible Mark-up Language), HTML (Hypertext Mark-up Language), Microsoft Excel, or Text File formats. This powerful tool will empower you to produce your own custom view of your data in TurboCASH and osFinancials.</span></p>
+<p class="rvps2"><span class="rvts6">Anything can be exported to JSON-file format. This powerful tool will empower you to produce your own custom view of your data in osFinancials and TurboCASH.</span></p>
+<p class="rvps2"><span class="rvts6">Even if you are not an expert in the details or file structure of osFinancials, you can also use this SQL Browser to filter and sort to see what you need to see. You may also use the SQL Browser to filter, sort and analyse your data.</span></p>
+<p class="rvps2"><span class="rvts6">This option allows you to generate queries and connect to the Database of a selected Set of Books using the Structured Query Language (SQL) standard. This Browse will list all the Firebird Database Files (*.fdb File extension) for the Set of Books.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Using the SQLBrowser</span></span></h1>
+<p class="rvps2"><span class="rvts6">To use this option, you need to open a Set of Books. The SQL Browser will list all the tables in the database of the active (opened) Set of Books.</span></p>
+<p class="rvps2"><span class="rvts14">To Access and Use the SQLBrowser:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon, click on the</span><span class="rvts14"> Plug-ins → Tools → SQLBrowser</span><span class="rvts6">. The "</span><span class="rvts15">SQL Browser</span><span class="rvts6">" screen will list all the tables of the active Set of Books.</span></li>
+</ol>
+<div class="rvps366">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the SQL Browser is not available from the </span><span class="rvts37">Plug-ins → Tools → SQLBrowser </span><span class="rvts40">menu, you need to Activate the SQL Browser plugin. To do this go to the </span><span class="rvts37">Tools → </span><a class="rvts38" href="plugins-activate.html">Activate plugins</a><span class="rvts40"> on the </span><span class="rvts37">Setup</span><span class="rvts40"> ribbon.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Select a table from the list.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Right-click on the selected table and select the </span><span class="rvts14">Open</span><span class="rvts6"> option from the context menu. The data for the selected table will be loaded in the bottom half of the "</span><span class="rvts15">SQL Browser</span><span class="rvts6">" screen. In this documentation, the “</span><span class="rvts15">TRANSACT</span><span class="rvts6">” table is opened. The transactions will be displayed as follows:</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser.png"></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may click on the &gt; icon on the list to expand and view the list of columns on the selected table (e.g. TRANSACT as in this example).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">* Click here to show/hide/move columns</span></p>
+   <p class="rvps12"><span class="rvts40">Click on the asterisk of the column headings to view a list of the column names.</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-1.png"></p>
+   <p class="rvps12"><span class="rvts40">If you tick "(Sorted)" option, the columns on this list will listed alphabetically in the ascending sequence.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts6">You may use the context menu's on each of the sections to work with your data, if necessary:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Tables</span><span class="rvts6"> – Open, Drop or Empty a selected table. You may also extract data (i.e. all Table names or the entire table including the properties (i.e. datatype and width) in the wiki format to the Script Editor all the Table names in a Set of Books. This can be copied and used in documentation and for development.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Script Editor</span><span class="rvts6"> – You may write or edit SQL script in this section. If the entire table or a selected record is exported as SQL script in the Records section, it will also be displayed in this section. You may also configure the editor font.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Records</span><span class="rvts6"> – This is the records in a table. For example, each line in a posted batch will shows a record in the TRANSACT (Transaction) table. In this section, you may configure columns, filters, groups to view the data in a table. You may also export the entire table or a selected record as SQL script to the SQL Editor.</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts6">Once you are done, you may Export, Save SQL and Load SQL.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">To exit the SQLBrowser, click on the </span><span class="rvts14">File → Exit</span><span class="rvts6"> menu; or click on the </span><span class="rvts14">Close</span><span class="rvts6"> button on the titlebar.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">SQL Browser Menu System</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">File menu</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-menu-file.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">&nbsp;Options menu</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-menu-options.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Speedbar</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-icon-bar.png"></p>
+<p class="rvps2"><span class="rvts6">The buttons on the speedbar, is as follows:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Run SQL</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Browse older executed SQL (previous)</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Browse older executed SQL (next)</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Insert a new tab (i.e. TS2, TS3, etc.)</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Run script</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Run script set term</span></li>
+</ul>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">SQL Script Editor</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Writing SQL Script</span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">On the top half of the SQL Browser screen, the following SQL script is displayed:</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">&nbsp; &nbsp; Select * FROM followed by the name of the selected (active / opened) table. In this example,</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp; &nbsp; Select * FROM TRANSACT represents the TRANSACT (Transaction) table.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">After the name of the table, leave a space, type where and leave a space and type the name of the column, (e.g. to list only those transactions for a specific date, type DDATE).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Leave a space and type an Operator symbol (e.g. to list all transactions equal to the value that needs to be entered, type =)</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Leave a space and type a valid value (e.g. for the date, type '2021/03/16') This value must start and end with an apostrophe.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Run</span><span class="rvts6"> icon (or press the Enter key on your keyboard) to run the script.</span></li>
+</ol>
+<p class="rvps26"><span class="rvts6">Here is an example SQL script to select the date from the Transaction table ("</span><span class="rvts15">TRANSACT</span><span class="rvts6">"):</span></p>
+<p class="rvps374"><span class="rvts488">sql</span></p>
+<div class="rvps374">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><span class="rvts18">SELECT</span><span class="rvts19"> </span><span class="rvts21">*</span><span class="rvts19"> </span><span class="rvts18">FROM</span><span class="rvts19"> TRANSACT</span></p>
+   <p class="rvps2"><span class="rvts18">WHERE</span><span class="rvts19"> DDATE </span><span class="rvts21">=</span><span class="rvts19"> </span><span class="rvts36">'2021/03/16'</span><span class="rvts21">;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps26"><span class="rvts6">In this example:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts162">SELECT *</span><span class="rvts6"> retrieves all columns from the table </span><span class="rvts162">TRANSACT</span><span class="rvts6">.</span></li>
+ <li class="rvps189 noindent"><span class="rvts162">FROM TRANSACT</span><span class="rvts6"> specifies the table named </span><span class="rvts162">TRANSACT</span><span class="rvts6"> from which to retrieve the data.</span></li>
+ <li class="rvps46 noindent"><span class="rvts162">WHERE DDATE = '2021/03/16'</span><span class="rvts6"> filters the results to only include rows where the value in the column </span><span class="rvts162">DDATE</span><span class="rvts6"> is equal to </span><span class="rvts162">'2021/03/16'</span><span class="rvts6">.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">You can replace </span><span class="rvts162">'2021/03/16'</span><span class="rvts6"> with any valid value depending on your data. Remember to follow the formatting conventions, such as surrounding date values with apostrophes.</span></p>
+<p class="rvps26"><span class="rvts6">Similarly you can replace DDATE column name with any valid column name, for example "SREFERENCE" to specify a reference number in journals, or a document number.</span></p>
+<p class="rvps26"><span class="rvts6">5. When finished writing your SQL script, click on the </span><span class="rvts14">Run</span><span class="rvts6"> icon (or press the </span><span class="rvts14">Enter</span><span class="rvts6"> key on your keyboard) to run the script.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Font Editor</span></span></h2>
+<p class="rvps2"><span class="rvts6">You may also customise the font in which the query data is to be displayed on the SQL Script Editor.</span></p>
+<p class="rvps2"><span class="rvts14">To Edit the Font:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Right-click on the "</span><span class="rvts15">SQL Script Editor</span><span class="rvts6">" section of this screen and select the </span><span class="rvts14">Editor Font …</span><span class="rvts6"> option. Alternatively, click on the </span><span class="rvts14">Options → Editor Font</span><span class="rvts6"> menu.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Change the font, font style, size, effects and colour as necessary.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button. The text in the "</span><span class="rvts15">SQL Script Editor</span><span class="rvts6">" will be displayed in the selected font settings.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Tables - Records&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">The data for the selected table will be loaded in the bottom half of the SQL Browser screen.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Data records context menu</span></span></h2>
+<p class="rvps2"><span class="rvts6">If you right-click on the records (table data) the following context menu is displayed:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px; width: 252px;">
+   <p class="rvps12"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/plugins-sql-browser-cpntext-memu.png"></p>
+  </td>
+  <td style="padding: 1px; width: 655px;">
+   <p class="rvps12"><span class="rvts37">Columns</span><span class="rvts40"> - Configure (Show / hide) columns / change sequence of columns.</span></p>
+   <p class="rvps12"><span class="rvts37">Filters</span><span class="rvts40"> - This will add a filter icon to hide or show the data and filter data.</span></p>
+   <p class="rvps12"><span class="rvts37">Grouping</span><span class="rvts40"> - Apply grouping to the data.</span></p>
+   <p class="rvps12"><span class="rvts37">Export as SQL insert</span><span class="rvts40"> - This will run and export the entire selected table to SQL script.</span></p>
+   <p class="rvps12"><span class="rvts37">Export record as SQL insert</span><span class="rvts40"> - This will run and export the selected record(s) to SQL script.</span></p>
+   <p class="rvps12"><span class="rvts37">Extract update or insert on field1-</span><span class="rvts40"> This will extract the update or insert SQL script.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Buttons to manage records</span></span></h2>
+<p class="rvps2"><span class="rvts6">The following buttons may be used to navigate and manage the records:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-01.png"><span class="rvts6"> - </span><span class="rvts14">First</span><span class="rvts6"> - Go to the first record.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/record-icons-02.png"><span class="rvts6">- </span><span class="rvts14">Previous</span><span class="rvts6"> - Go to the previous record.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-03.png"><span class="rvts6"> - </span><span class="rvts14">Next</span><span class="rvts6"> - Go to the next record.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/record-icons-04.png"><span class="rvts6">- </span><span class="rvts14">Last</span><span class="rvts6"> - Go to the last record.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-05.png"><span class="rvts6"> - </span><span class="rvts14">Add</span><span class="rvts6"> - Add a new record.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/record-icons-06.png"><span class="rvts6">- </span><span class="rvts14">Delete</span><span class="rvts6"> - Delete a record. Once you click on this button, a confirmation message is displayed:</span></p>
+<p class="rvps20"><span class="rvts17">Delete record? &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Make absolutely sure that the correct record before you click on the </span><span class="rvts37">OK</span><span class="rvts40"> button. If it is not the correct record, click on the </span><span class="rvts37">No</span><span class="rvts40"> button and select the correct record.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-07.png"><span class="rvts6"> - </span><span class="rvts14">Action</span><span class="rvts6"> - This will activate the </span><span class="rvts14">Save</span><span class="rvts6"> or </span><span class="rvts14">Delete</span><span class="rvts6"> buttons.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-08.png"><span class="rvts6"> - </span><span class="rvts14">Save</span><span class="rvts6"> - Save the changes to the record.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-09.png"><span class="rvts6"> - </span><span class="rvts14">Cancel</span><span class="rvts6"> - Cancel changes to the record.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/record-icons-10.png"><span class="rvts6"> - </span><span class="rvts14">Undo</span><span class="rvts6"> - Undo the latest changes.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Show / hide Columns</span></span></h2>
+<p class="rvps2"><span class="rvts6">The SQLBrowser displays all the columns for the selected table by default. You may filter (hide) or show only those columns</span><img alt="" style="float: right; padding : 5px; margin : 5px 5px;" src="lib/plugins-sql-browser-columns.png"><span class="rvts6"> you need to see.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">To configure columns:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">The SQL Browser displays all the columns for the selected table by default. Should you wish to hide any of these columns, you may click on the </span><span class="rvts14">Options → Columns</span><span class="rvts6"> menu of the SQL Browser.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select the following options, if necessary:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Show / Hide Columns</span><span class="rvts6"> – You may de-select (remove the tick) the columns which you do not wish to view by simply removing the tick from the selected column.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Sequence</span><span class="rvts6"> – Should you wish to change the sequence in which the columns are displayed, you may click on </span><span class="rvts14">Down</span><span class="rvts6"> or </span><span class="rvts14">Up</span><span class="rvts6"> buttons.</span></li>
+ </ol>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps10">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may click on the </span><span class="rvts37">All</span><span class="rvts40"> button to select all columns.</span></p>
+   <p class="rvps12"><span class="rvts40">To clear all remove all the columns, click on the </span><span class="rvts37">Clear</span><span class="rvts40"> button.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">You may then select (place a tick) only in those columns to be displayed in the SQL Browser. To select (tick) or de-select (remove the tick), you may use the Spacebar and use the </span><span class="rvts37">Down</span><span class="rvts40"> and or </span><span class="rvts37">Up</span><span class="rvts40"> keys to select a column.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts6">Once your selection is finished click on the </span><span class="rvts14">OK</span><span class="rvts6"> button to apply these changes to the data in the SQL Browser.</span></li>
+</ol>
+<div class="rvps375">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">Move Columns using the mouse:</span></p>
+   <p class="rvps12"><span class="rvts40">You may also click on a column and drag it to the right (or to the left) to change the sequence in which you prefer the columns to be displayed.</span></p>
+   <p class="rvps12"><span class="rvts37">Remove Columns using the mouse:</span></p>
+   <p class="rvps12"><span class="rvts40">If you wish to delete or remove a column, simply click on the column and drag it down and leave the mouse button.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Sequence of Data in Rows</span></span></h2>
+<p class="rvps2"><span class="rvts6">All the data is by default displayed ascending; from the smallest to the highest value (e.g. a-z or 0-9) according to the record number or record ID (e.g. Accounts.DB table it would be the AccountID, in the TRANSACT table, it would be the TRANSACTIONID, etc.)</span></p>
+<p class="rvps2"><span class="rvts6">To change the sort order from ascending (e.g. a-z or 0-9) to descending (e.g. z-a or 9-0) select a column and click on it. If you click on it again it will change back to ascending sequence.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Filter Options in Column Headings</span></span></h2>
+<p class="rvps2"><span class="rvts6">While viewing and analysing the data you may sort and filter the data, in each column of the active or loaded table. To do this, select the column and click on the &nbsp;drop-down arrow. A list displaying the data as well as an All option and a customise option in the selected column will be displayed.</span></p>
+<p class="rvps2"><span class="rvts6">For example, the Reference column (i.e. SREFERENCE) of the Transaction table (i.e. TRANSACT) will display as follows:</span></p>
+<p class="rvps2"><img alt="" style="float: left; padding : 5px; margin : 5px 5px;" src="lib/plugins-sql-browser-filter-column.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The filter for this column (as per example) will list all reference numbers as entered in batches (journals) example, the reference for balancing entries (i,e, 8 asterisks ********) Reference column (i.e. SReference) of the Transaction Database table (i.e. TransAct.DB).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps75"><span class="rvts6"><br/></span></p>
+<p class="rvps75"><span class="rvts6"><br/></span></p>
+<p class="rvps75"><span class="rvts6"><br/></span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Custom Filter</span></span></h3>
+<p class="rvps2"><span class="rvts6">You have the following options to sort or filter the data:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Select a specific entry from the list - only those entries which match the selection in the table, will be listed, e.g. with the same reference number.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">All</span><span class="rvts6"> - Select to display all the entries in the selected table.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Custom</span><span class="rvts6"> - This will launch a screen on which you may set further criteria to filter the data.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-filter-adjust.png"></p>
+<p class="rvps10"><span class="rvts6">The type of filter options/conditions available for data manipulation can vary depending on the nature of the data contained within the column. Some common Filter options is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Equal to</span><span class="rvts6"> - Lists or displays all values that are exactly the same as the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Not equal to</span><span class="rvts6"> - Lists or displays all values that are not exactly the same as the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Less than</span><span class="rvts6"> - Lists or displays all values smaller than the specified value. &nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Less than or equal to</span><span class="rvts6"> - Lists or displays all values smaller than or equal to the specified value.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Greater than</span><span class="rvts6"> - Lists or displays all values greater than the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Greater than or equal to</span><span class="rvts6"> - Lists or displays all values greater than or equal to the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Like</span><span class="rvts6"> - Lists all values in the table similar to the specified value using pattern matching (often with wildcard characters).&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Not like</span><span class="rvts6"> - Lists all values in the table not similar to the specified value using pattern matching.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Is null</span><span class="rvts6"> - Excludes any rows where the value is missing (NULL), meaning they will not be listed or displayed.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Is not null</span><span class="rvts6"> - Lists or displays any rows where the value is not missing (NULL).&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Start with</span><span class="rvts6"> - Lists or displays values where the text starts with the specified string.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">End with </span><span class="rvts6">- Lists or displays values where the text ends with the specified string.&nbsp;</span></li>
+  <li class="rvps17 noindent"><span class="rvts6"> </span><span class="rvts14">Include</span><span class="rvts6"> - Lists or displays all values that match any of the specified values. This option is useful when you want to filter for multiple specific values.</span></li>
+  <li class="rvps17 noindent"><span class="rvts14">Not include</span><span class="rvts6"> - Lists or displays all values that do not match any of the specified values. This option is useful when you want to exclude specific values from the result set.</span></li>
+ </ol>
+</ol>
+<p class="rvps26"><span class="rvts6">These options provide a comprehensive set of conditions for filtering data in columns, allowing for precise control over the displayed dataset.</span></p>
+<p class="rvps26"><span class="rvts6">Adjusting filter options based on the data type ensures that you have access to the most relevant and effective tools for manipulating and analysing your data. This flexibility enhances usability and allows for more efficient data exploration and decision-making.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Date Filter</span></span></h3>
+<p class="rvps2"><span class="rvts6">In date columns, a date picker or date selection screen will be available for ease of selection.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Export data</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Export to files</span></span></h2>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts14">File </span><span class="rvts6">menu, you may select the Export option to export your saved data &nbsp;data to XML, HTML, Excel, or Texts formats.</span></p>
+<p class="rvps2"><span class="rvts6">Once you have sorted and filtered your criteria, you may:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Export the data in exactly the same sequence as displayed in the bottom half of the "</span><span class="rvts15">SQLBrowser</span><span class="rvts6">" screen to any of the following file formats:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps10 noindent"><span class="rvts6">XML - Extensible Mark-up Language</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">HTML - HyperText Mark-up Language</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">Excel - Microsoft Excel Spreadsheet</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">Text - Text file</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Save the SQL in a (*.sql) SQL file format. You may then at any later stage open the saved *.sql file in the SQL Browser.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Export to JSON file / Create from JSON file</span></span></h2>
+<p class="rvps17"><span class="rvts6">A JSON (JavaScript Object Notation) file is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is often used for transmitting data between a server and a web application as an alternative to XML.</span></p>
+<p class="rvps17"><span class="rvts6">JSON files are commonly used in various applications and scenarios such as web APIs, configuration files, and data storage. They are flexible and easy to work with, making them a popular choice for data interchange.</span></p>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts14">Export import</span><span class="rvts6"> menu, you may export data from a selected table and export it to a "</span><span class="rvts15">JASON</span><span class="rvts6">"-file.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-menu-export-import.png"></p>
+<p class="rvps2"><span class="rvts6">You may also Create a new table from a &nbsp;"</span><span class="rvts15">JASON</span><span class="rvts6">"-file.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugins-sql-browser-expoer-create.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Table names in a Set of Books</span></span></h1>
+<p class="rvps2"><span class="rvts6">All tables in the Set of Books may be extracted form the "</span><span class="rvts15">Extract all table names</span><span class="rvts6">" in the context menu (right-click on "</span><span class="rvts15">Tables</span><span class="rvts6">") option.</span></p>
+<div class="rvps13">
+<table width="100%" style="border-width: 0px; border-collapse: collapse;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">ABREVIAT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">ACCOUNT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">ACCOUNTREF</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">ADDRESSPERACCOUNT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">ASSETMAS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BACKORD</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BANK</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BAT0T1</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BAT0T2</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BAT0T23</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BAT0T3</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BAT0T4</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BATCON</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BATRBT0T4</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BATTYPES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">BOM</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">CONTACTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">COUNTRIES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">CREDITOR</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">CURRENCY</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">DEBTOR</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">DNLBANKS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">DOCBATCH_0_0</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">DOCHEAD</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">DOCLINE</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">EMPMAS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">EMPSOURCE</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">EVENTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">EVENTSPECIALDAYS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">FLOWTMP</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">GLOBAL</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">GROUPS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">GROUPSSTATUS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">IMP_LINK</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">IMP_SOURCE</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">IMP_STOCKACCOUNTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">IMP_TOTALS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">JOBPROJECT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">KEYSCONT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">LABSPECS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">LOCATIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">LOGENTRY</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">LOGGEDIN</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">MANUFACD</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">MANUFACH</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">MESSAGES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">MULTIMEDIA</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">MULTIMEDIABLOB</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">OILINKS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">OPREPORT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">OSF_EDIT_FIELDS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">OSF_EDIT_FORM</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">OSF_SEARCH_FIELDS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">PAYCON</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">PAYTRANS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">PERIODS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">POSTBATCH_0_0</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">PRINTERS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">PROFILES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$CHARACTER_SETS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$CHECK_CONSTRAINTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$COLLATIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$DATABASE</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$DEPENDENCIES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$EXCEPTIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FIELDS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FIELD_DIMENSIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FILES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FILTERS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FORMATS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FUNCTIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$FUNCTION_ARGUMENTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$GENERATORS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$INDEX_SEGMENTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$INDICES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$LOG_FILES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$PAGES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$PROCEDURES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$PROCEDURE_PARAMETERS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$REF_CONSTRAINTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$RELATIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$RELATION_CONSTRAINTS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$RELATION_FIELDS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$ROLES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$SECURITY_CLASSES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$TRANSACTIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$TRIGGERS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$TRIGGER_MESSAGES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$TYPES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$USER_PRIVILEGES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RDB$VIEW_RELATIONS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RECON0</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RECONBANK</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPCELLS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPCOLS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPHEAD</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPLINE</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPORTOP</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPTBAT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">REPTDOCS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">RESOURCES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">STOCK</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">STOCKPUB</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">STOCKTRN</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">SYSPARAMS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">SYSVARS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">SYSVARSEXT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TASKACTION</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TASKS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TAX</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TEMP1</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TMPAGEAN</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TOTALS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TRANSACT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TRANSACTASBATCH</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">TYPES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">UNIT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">USERS</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">V_OPENDOCAMOUNT</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">V_TRANSACTASBATCHWITHTRANSID</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">V_TRANSACTTAXENTRIES</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; vertical-align: top; width: 634px;">
+   <p class="rvps12"><span class="rvts40">YEARS</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

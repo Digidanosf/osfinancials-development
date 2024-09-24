@@ -1,0 +1,611 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Process Fixed assets in the Activa plugin</title>
+  <meta name="description" content="Process Fixed assets to the Activa plugin - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Process Fixed assets in the Activa plugin">
+  <meta name="twitter:description" content="Process Fixed assets to the Activa plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Process Fixed assets in the Activa plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Process Fixed assets to the Activa plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="activa-plugin-process"
+		  data-hnd-context="99"
+		  data-hnd-title="Process Fixed assets in the Activa plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu-financial-tools.html">Plugins menu - Financial tools</a></li><li><a href="activa-plugin.html">Activa plugin</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="activa-plugin.html" title="Activa plugin" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="activa-plugin-add-fixed-assets.html" title="Add Fixed assets to the Activa plugin" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="activa-plugin-reports.html" title="Activa reports" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Process Fixed assets in the Activa plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Activa processing</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin is activated, you may access the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin manually on the </span><span class="rvts14">Default </span><span class="rvts6">ribbon.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/activa-setup-activated-default-ribbon.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The Activa plugin will launch automatically when:</span></p>
+   <p class="rvps12"><span class="rvts37">New transactions</span><span class="rvts40"> tab - Purchase or any transaction is allocated and posted top the ledger to the Asset at cost account.</span></p>
+   <p class="rvps12"><span class="rvts37">Next process date</span><span class="rvts40"> - If an asset needs processing and the processing date is due to write off depreciation.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Once the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin is activated, and you launch it for the first time, you need to add the new transactions.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts14">Activa</span><span class="rvts6"> - </span><span class="rvts14">New transactions</span><span class="rvts6"> tab will list all existing transactions in posted batches and documents allocated to the accounts as selected on the </span><span class="rvts14">Activa</span><span class="rvts6"> setup.</span></p>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/activa-tab-new-transactions.png"></p>
+<p class="rvps2"><span class="rvts6">Select the transaction and click in the </span><span class="rvts14">Add (selected) lines</span><span class="rvts6"> button. The transactions will be removed from the </span><span class="rvts14">New transactions</span><span class="rvts6"> tab added to the List tab.</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">Multi-select records:</span></p>
+   <p class="rvps12"><span class="rvts40">Press the </span><span class="rvts37">Ctrl</span><span class="rvts40"> key and click on the transactions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">Context menu - Add consolidated:</span></p>
+   <p class="rvps12"><span class="rvts40">If you wish to consolidate (merge) more than one transaction to one (1) record, you may right-click and select the </span><span class="rvts37">Add consolidated</span><span class="rvts40"> option. This will add the selected transactions as one (1) transaction on the </span><span class="rvts37">Activa - List</span><span class="rvts40"> tab.</span></p>
+   <p class="rvps12"><span class="rvts40">This would normally be the case where a specific asset consists of more than one transaction (e.g. Purchase transaction of the asset and any other transactions, for example to install that asset and make it usable and operational).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">&nbsp;Once finished, adding the transactions, you need to select the items from the list and check and change the details as necessary on the </span><span class="rvts14">Activa - Details</span><span class="rvts6"> tab.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If there are no new posted transactions in batches and or documents the </span><span class="rvts37">New transactions</span><span class="rvts40"> tab will not be displayed.</span></p>
+   <p class="rvps12"><span class="rvts40">When any further transactions in batches and documents are posted (updated) to the ledger, it will automatically be added to the </span><span class="rvts37">New transactions</span><span class="rvts40"> tab.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">When opening the Set of Books and any new transactions are added (posted or updated to the ledger), the </span><span class="rvts37">Activa</span><span class="rvts40"> plugin </span><span class="rvts37">New transactions</span><span class="rvts40"> tab will automatically be launched.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts334">Activa - List and Details</span></p>
+<p class="rvps2"><span class="rvts6">Once the Fixed assets is added from the the </span><span class="rvts14">Activa - New transactions</span><span class="rvts6"> tab (</span><span class="rvts14">Add (selected) lines</span><span class="rvts6"> button) add these new transactions is added to the</span><span class="rvts14"> Activa - List</span><span class="rvts6"> tab. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">Add manual </span><span class="rvts6">button - You may also </span><span class="rvts14">Add manual</span><span class="rvts6"> transactions and set up and configure these transactions manually on the blank </span><span class="rvts14">Activa - Details</span><span class="rvts6"> tab.</span></p>
+<p class="rvps2"><span class="rvts14">Stop check for 7 Days</span><span class="rvts6"> button - The default value is 7 days. The Fixed assets which need processing (on the "</span><span class="rvts15">Next process date</span><span class="rvts6">") will automatically launch after 7 days from that date. You may set the number of days according to your specific needs.&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Before you start to process any Activa lines, you need to make absolutely sure that each of your Fixed assets is correctly set and configured. If any information is incorrect, or you need to change the information listed in the columns of the </span><span class="rvts37">Activa - List</span><span class="rvts40"> tab, click on the </span><span class="rvts37">Activa - Details</span><span class="rvts40"> tab of the selected Fixed asset.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Once you click on the on the </span><span class="rvts37">Process (selected) lines</span><span class="rvts40"> button, this will process the Activa write-off transactions and automatically post (update) these transactions to the ledger.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Once new purchase transactions is allocated to the "</span><span class="rvts15">Transactions</span><span class="rvts6">" account (Asset at cost account) and the transactions is posted in batch transactions (e.g. Purchase journal) or Items selected in documents updated to the ledger, the transactions will be listed on the </span><span class="rvts14">New transactions</span><span class="rvts6"> tab of the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Once the selected lines is added to the </span><span class="rvts14">List</span><span class="rvts6"> tab, you need to specify the necessary information and values of each asset.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Tax Legislation, Companies Act and accounting standards in some countries may prescribe different methods to write off depreciation (wear and tear allowances) over the life span for the types of fixed assets. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">When you add Fixed assets, you need to decide the method on which depreciation is calculated for the assets. These values only needs to be set once for a Fixed asset on the </span><span class="rvts37">Details</span><span class="rvts40"> tab of the Activa plugin. The depreciation will be written-off each period over the life span of the fixed asset.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Some of these methods is:</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps12 noindent"><span class="rvts40">Straight-line method (fixed instalment method)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Declining balance method (Reducing-value method)</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Double-declining balance</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Production method</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Sum-of-years digits</span></li>
+   </ol>
+   <p class="rvps12"><span class="rvts40">In addition to these methods, items (assets purchased for less than a prescribed amount) may be written-off in full.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Once you have activated the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin, you may click on the </span><span class="rvts14">Activa</span><span class="rvts6"> icon on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon. The </span><span class="rvts14">Activa</span><span class="rvts6"> - </span><span class="rvts14">List</span><span class="rvts6"> screen is displayed:</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/activa-tab-list.png"></p>
+<div class="rvps10">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">All transactions (including opening balances) will automatically be imported in this list. All unprocessed transactions will be indicated in </span><span class="rvts421">red</span><span class="rvts40"> row.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Once these have been processed, these will be indicated in a white background.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps10">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">Filter</span><span class="rvts40"> - Use the following Filter options to locate an asset record:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">All</span><span class="rvts40"> is the default option. It will list all records.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Need processing</span><span class="rvts40"> - This option will list only the assets that need processing (automatic journals).</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Active</span><span class="rvts40"> - This option will list all the active records only. If asset records are inactive (Active field not selected (not ticked) on the </span><span class="rvts37">Activa</span><span class="rvts40"> - </span><span class="rvts37">Details</span><span class="rvts40"> screen, it will not be listed.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">The details for each of these asset transactions, will be displayed in the following columns:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps10 noindent"><span class="rvts14">Next process date</span><span class="rvts6"> - By default this will be the system date. Later when processing the transactions, it will be the date as set in the write-off period.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Description</span><span class="rvts6"> - The transaction reference and description as entered in batches which are updated (posted) to the ledger.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Original amount</span><span class="rvts6"> - The original amount of the batch transaction. Note this should be exclusive of VAT/GST/Sales Tax).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Current value</span><span class="rvts6"> - This is calculated as the current value minus any transactions processed in the Activa plugin.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Extra description</span><span class="rvts6"> - You may enter extra text or descriptions as necessary.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps16">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">For example, asset number on your asset register (Asset inventory), the method for calculation of Depreciation, reference to the Management's write-off authorisation (decision), reference to the section of the Tax Act of Tax Practice Note, etc.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" class="rvps10 noindent"><span class="rvts14">Purchase date</span><span class="rvts6"> - The date of the purchase transaction is the document date or as entered in batches which are updated (posted) to the ledger.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Write-off type</span><span class="rvts6"> - The values are as follows:&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps9 noindent"><span class="rvts6">1 = Amount per Period&nbsp;</span></li>
+   <li class="rvps9 noindent"><span class="rvts6">0 = Percentage per Period.</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="8" class="rvps10 noindent"><span class="rvts14">Write-off period</span><span class="rvts6"> - The values are as follows:</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps9 noindent"><span class="rvts6">1 = 1 Month</span></li>
+   <li class="rvps9 noindent"><span class="rvts6">3 = Quarter (3 Months)</span></li>
+   <li class="rvps9 noindent"><span class="rvts6">6 = Half year (6 Months)</span></li>
+   <li class="rvps9 noindent"><span class="rvts6">12 = Year (12 Months)</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="9" class="rvps10 noindent"><span class="rvts14">Enabled</span><span class="rvts6"> - The values are as follows:&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps9 noindent"><span class="rvts6">1 = Enabled (active)&nbsp;</span></li>
+   <li class="rvps9 noindent"><span class="rvts6">0 = Inactive (Enabled) not selected on the </span><span class="rvts14">Activa</span><span class="rvts6"> - </span><span class="rvts14">Details</span><span class="rvts6"> tab).</span></li>
+  </ul>
+ </ul>
+</ul>
+<div class="rvps289">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Once the final depreciation or write-off amount is reached, the following confirmation message &nbsp;will be displayed:</span></p>
+   <p class="rvps6"><span class="rvts17">"Write off for </span><span class="rvts271">Asset description</span><span class="rvts17"> ended do you want to clear the activa accounts?"</span></p>
+   <p class="rvps12"><span class="rvts40">&nbsp;If select </span><span class="rvts37">Yes</span><span class="rvts40"> to you clear the Activa account, the "End of life" entry will be displayed.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="10" class="rvps10 noindent"><span class="rvts14">Linked transaction</span><span class="rvts6"> - The transaction number as automatically generated.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Rest amount</span><span class="rvts6"> - This is the nominal value, scrap value, trade-in value, etc. of the assets at the end of its life span, that needs to be reflected in the balance sheet.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps118">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Tax Legislation and accounting standards in some countries may require a nominal value (e.g. 1.00) to be displayed. This simply means that the Asset is completely written-off, still on the business books or in use. Once that asset is disposed of, the nominal value will be written-off when determining the profit or loss with the sale of the fixed asset.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="12" class="rvps10 noindent"><span class="rvts14">Write-off percentage</span><span class="rvts6"> – If the write-off type is set to Write-off percentage you may add the Write-off percentage (e.g. per month, quarter (3 months), 6 months (half-year) or year (12 months)).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Write-off amount</span><span class="rvts6"> – If the write-off type is set to Write-off amount, you may enter the write-off amount (e.g. per month, quarter (3 months), 6 months (half-year) or year (12 months)).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Next Write-off amount</span><span class="rvts6"> - This will automatically be calculated.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Total Write-off on ledger</span><span class="rvts6"> – This amount will automatically be calculated. It accumulates the total of all transactions posted to the write-off account.</span></li>
+ </ol>
+ <li value="3" class="rvps2 noindent"><span class="rvts6">Once you have located an entry on the </span><span class="rvts14">Activa</span><span class="rvts6"> - </span><span class="rvts14">List</span><span class="rvts6"> tab, click on the </span><span class="rvts14">Details</span><span class="rvts6"> tab. The following screen is displayed:</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/activa-asset-details.png"></p>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may use the </span><a class="rvts52" href="record-buttons.html">record buttons</a><span class="rvts40"> to save and manage records.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts6">Enter and/or select the following options:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps10 noindent"><span class="rvts14">Description</span><span class="rvts6"> - This is the description of the transaction.&nbsp;</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Extra description</span><span class="rvts6"> - Add additional text for the depreciation transactions.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Purchase amount</span><span class="rvts6"> - The purchase amount (cost amount), excluding Tax (VAT/GST/Sales tax) of the fixed asset will automatically be displayed. &nbsp;Check the Purchase amount. If you have entered any opening balances, please make sure that you enter the correct value of the asset here.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Purchase date</span><span class="rvts6"> - &nbsp;The date of the purchase transaction is the document date or as entered in batches which are updated (posted) to the ledger The date of the purchase transaction is the document date or as entered in batches which are updated (posted) to the ledger</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Next process date</span><span class="rvts6"> - The date on which the next depreciation is scheduled for processing.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Rest amount</span><span class="rvts6"> - The Rest amount, is by default 0. Enter the rest amount, scrap value (trade-in value) of the asset, if applicable.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Current value</span><span class="rvts6"> - The current book value or holding value.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Write-off type</span><span class="rvts6"> - Select Percentage or Amount.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Percentage / Amount</span><span class="rvts6"> - Enter the percentage or the amount (depending on the selection in the "</span><span class="rvts15">Write-off type</span><span class="rvts6">" options).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Write-off period</span><span class="rvts6"> - Select month, 3 months, 6 months or year.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Next write-off amount</span><span class="rvts6"> - The next amount of depreciation that will be processed.</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts6">Once finished, click on the </span><span class="rvts14">OK</span><span class="rvts6"> button.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Process Activa records</span></span></h1>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Before you need to process depreciation (wear and tear allowances) make absolutely sure that the correct settings and details is listed for each asset class. You may need to consult the tax guidelines and practice notes issued by your tax authorities or other legislation applicable to your specific country.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">If this is not correct at this stage, select the asset and click on the </span><span class="rvts37">Details</span><span class="rvts40"> tab to edit the necessary fields.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">To process transactions for depreciation (wear and tear allowances):&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">On the </span><span class="rvts14">Activa</span><span class="rvts6"> - </span><span class="rvts14">List</span><span class="rvts6"> screen, use the Filter options to list the asset records the need processing.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/activa-tab-list.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Select an asset record and make absolutely sure that the asset's details is correct.</span></li>
+</ol>
+<div class="rvps40">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">Multi-select records:</span></p>
+   <p class="rvps12"><span class="rvts40">Press the </span><span class="rvts37">Ctrl</span><span class="rvts40"> key and click on the transactions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts6">Click on the</span><span class="rvts14"> Process (selected) lines</span><span class="rvts6"> button. The </span><span class="rvts14">Activa</span><span class="rvts6"> plugin will generate the necessary transactions in the selected batch (e.g. </span><span class="rvts14">Activa</span><span class="rvts6"> journal) and update (post) these transactions to the ledger.</span></li>
+</ol>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Once the final depreciation or write-off amount is reached, the following confirmation message &nbsp;will be displayed:</span></p>
+   <p class="rvps6"><span class="rvts17">"Write off for </span><span class="rvts271">Asset description</span><span class="rvts17"> ended do you want to clear the activa accounts?"</span></p>
+   <p class="rvps12"><span class="rvts40">&nbsp;If select </span><span class="rvts37">Yes</span><span class="rvts40"> to you clear the Activa account, the "End of life" entry will be displayed.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the "Next process date" is scheduled and the New Financial year is not opened for the scheduled process date, an error message will be displayed:&nbsp;</span></p>
+   <p class="rvps6"><span class="rvts17">&nbsp;"Process failed please check batch!"</span></p>
+   <p class="rvps12"><span class="rvts40">Click OK. When the Year-end process is finalised, you may proceed to process the selected Fixed assets.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts6">Select the next Activa record, and repeat his process. Each of the processed lines for a selected asset in the </span><span class="rvts14">Activa</span><span class="rvts6"> plugin will list the transactions in the "</span><span class="rvts15">Posted transactions</span><span class="rvts6">" section of the </span><span class="rvts14">Activa - Details</span><span class="rvts6"> tab. This will keep track of all transactions and amounts written-off over the life span of the asset.&nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/activa-tab-list-details.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts6">Once this is done, click on the </span><span class="rvts14">OK</span><span class="rvts6"> button to exit close the Activa plugin.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

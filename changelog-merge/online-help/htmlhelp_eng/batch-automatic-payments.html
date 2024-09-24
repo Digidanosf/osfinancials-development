@@ -1,0 +1,536 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Automatic payments</title>
+  <meta name="description" content="How to process transactions for automatic / electronic payments to creditor (supplier / vendor) and debtor (customer / client) accounts in batches (journals) - osfinancials.org " /> 
+  <meta name="keywords" content="Alias (batch name),Automatic payments,pain.001.001.03,Clieop file,Single Euro Payments Area (SEPA),IBAN,SWIFT,BIC,Creditor accounts,Supplier accounts,Batch processing options,Batches (journals),Client accounts">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automatic payments">
+  <meta name="twitter:description" content="How to process transactions for automatic / electronic payments to creditor (supplier / vendor) and debtor (customer / client) accounts in batches (journals) - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Automatic payments" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to process transactions for automatic / electronic payments to creditor (supplier / vendor) and debtor (customer / client) accounts in batches (journals) - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="batch-automatic-payments"
+		  data-hnd-context="516"
+		  data-hnd-title="Automatic payments"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="batches-journals.html">Batches (Journals)</a></li><li><a href="batch-entry-form.html">Batch entry form</a></li><li><a href="batch-processing-options.html">F9:Batch processing options</a></li><li><a href="batch-processing-transactions.html">F9:Batch processing options - Transactions</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="batch-processing-transactions.html" title="F9:Batch processing options - Transactions" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-creditor-balances-date.html" title="Creditor balances to date (Payments batches)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-automatic-receipts.html" title="Automatic receipts" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Automatic payments</h2>
+
+            <div class="main-content">
+                
+<div class="rvps202">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps2"><span class="rvts57">You may use the "</span><a class="rvts87" href="batch-creditor-balances-date.html">Creditor balances at date</a><span class="rvts57">" batch processing option to generate all Creditor accounts with outstanding balances as at the specified date. The transactions will automatically be imported into the Payments journal.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">You may pay your creditor (supplier / vendor) accounts, as well as refunds to debtor (customer / client) accounts (with credit balances, which need to be refunded) via the electronic banking system. The transactions for accounts with outstanding transactions and balances will be transferred into the "</span><span class="rvts15">Automatic payments</span><span class="rvts6">" screen, where you may select the accounts and outstanding amounts you need to pay.</span></p>
+<p class="rvps2"><span class="rvts6">The accounts which have open or outstanding amounts will be listed. The (outstanding amount) balances are transferred to an intermediate account or clearing account on the date of the transactions.</span></p>
+<p class="rvps2"><span class="rvts6">Once the payment is cleared at the bank (on the due date) payment is deducted from the Bank account and will appear on the bank statement. When you allocate the transaction on the bank statement, the intermediate account or clearing (account contra account) will be debited.</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Before using this feature, bank accounts need to be entered the </span><a class="rvts38" href="creditor-tab-accounting-info.html">Accounting information</a><span class="rvts40"> tab of Creditor (supplier / vendor) accounts (</span><span class="rvts37">Default</span><span class="rvts40"> ribbon).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts14">To pay accounts using the automatic payments feature</span><span class="rvts29">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts30">On the </span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon, select </span><span class="rvts29">Batch entry </span><span class="rvts30">(</span><span class="rvts29">F2</span><span class="rvts30">).</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the General journal or any other batch type.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Open</span><span class="rvts30"> button. The "</span><span class="rvts78">Batch entry</span><span class="rvts30">" screen for the selected batch will be displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Enter the </span><a class="rvts74" href="batch-change-alias.html">Alias (batch name)</a><span class="rvts30"> and press the </span><span class="rvts29">Enter</span><span class="rvts30"> key.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">F9: Process</span><span class="rvts30"> icon. The "</span><span class="rvts78">Process the batch</span><span class="rvts30">" options screen will be displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the "</span><span class="rvts78">Automatic payments</span><span class="rvts30">" option, and click on the </span><span class="rvts29">OK</span><span class="rvts30"> button. The "</span><span class="rvts78">Automatic payments</span><span class="rvts30">" screen is displayed:</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-options.png"></p>
+<div class="rvps209">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 37px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 668px;">
+   <p class="rvps12"><span class="rvts40">Debtor (customer / client) accounts, with a credit balance, which need to be refunded, may also be included in this "Automatic payments" feature.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps209">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 37px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 668px;">
+   <p class="rvps12"><span class="rvts37">See -</span><span class="rvts40">&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts52" href="https://www.paiementor.com/keys-to-understand-the-sepa-messages-names/" target="_blank">https://www.paiementor.com/keys-to-understand-the-sepa-messages-names/</a><span class="rvts40"> &nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts52" href="https://wiki.xmldation.com/General_Information/ISO_20022/pain.001" target="_blank">https://wiki.xmldation.com/General_Information/ISO_20022/pain.001</a><span class="rvts40">&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">All the creditors (supplier / vendor) accounts with transactions will be imported. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts6">Select and enter the following:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Contra Account</span></span><span class="rvts0"><span class="rvts6"> - Select the intermediate account. This is basically a clearing account for the payments to creditor (supplier / vendor) accounts.</span></span></li>
+ </ol>
+</ol>
+<div class="rvps201">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts40">It is recommended that a General ledger account, which is linked to the Current liabilities Account group be selected.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Payment Date</span></span><span class="rvts0"><span class="rvts6"> - Enter or select the date for which you need to process payments for creditor (supplier / vendor) accounts.</span></span></li>
+ </ol>
+</ol>
+<div class="rvps104">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts358">The</span><span class="rvts40"> transactions on this date to the intermediate account or clearing account (Contra account), and calculate the due days as specified in the Due days field on the Accounting information tab of the selected creditor (supplier / vendor) account.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Create Clieop File</span></span><span class="rvts0"><span class="rvts6"> - If you select this option, you need to specify the name for the Clieop file.</span></span></li>
+ </ol>
+</ol>
+<div class="rvps201">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts40">The Clieop file is a general accepted file format that can be read into a bank program for payments.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Payment Bank Account</span></span><span class="rvts0"><span class="rvts6"> - Enter the payment Bank account.</span></span></li>
+  <li class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Clieop comment </span></span><span class="rvts0"><span class="rvts6">- By default, this will be the system date in the format "</span></span><span class="rvts0"><span class="rvts15">DD-MM-YYYY</span></span><span class="rvts0"><span class="rvts6">". Enter a comment for the transaction.</span></span></li>
+  <li class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Export Type - "</span></span><span class="rvts0"><span class="rvts15">None</span></span><span class="rvts0"><span class="rvts6">" is the default option. This will transfer the selected transactions into the "</span></span><span class="rvts0"><span class="rvts15">Batch entry</span></span><span class="rvts0"><span class="rvts6">" screen. If you select the following export types you need to save a export file before the selected transactions is transferred into the "</span></span><span class="rvts0"><span class="rvts15">Batch entry</span></span><span class="rvts0"><span class="rvts6">" screen:</span></span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps203 noindent"><span class="rvts0"><span class="rvts14">Create a clieop file</span></span><span class="rvts0"><span class="rvts6"> - Create an export file.&nbsp;</span></span></li>
+   <li class="rvps203 noindent"><span class="rvts0"><span class="rvts14">pain.001.001.03</span></span><span class="rvts0"><span class="rvts6"> - Create an export file in the XML Document type.</span></span></li>
+  </ol>
+ </ol>
+</ol>
+<div class="rvps206">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 37px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-read.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 668px;">
+   <p class="rvps12"><span class="rvts37">See -</span><span class="rvts40">&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts52" href="https://www.paiementor.com/keys-to-understand-the-sepa-messages-names/" target="_blank">https://www.paiementor.com/keys-to-understand-the-sepa-messages-names/</a><span class="rvts40"> &nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts52" href="https://wiki.xmldation.com/General_Information/ISO_20022/pain.001" target="_blank">https://wiki.xmldation.com/General_Information/ISO_20022/pain.001</a><span class="rvts40">&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="7" class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Do not close</span></span><span class="rvts0"><span class="rvts6"> - By default, this option is not selected. If this option is selected, the </span></span><span class="rvts0"><span class="rvts14">Process ok</span></span><span class="rvts0"><span class="rvts6"> button will be available.</span></span></li>
+  <li class="rvps201 noindent"><span class="rvts0"><span class="rvts14">Search and filter options</span></span><span class="rvts0"><span class="rvts6"> -&nbsp;</span></span></li>
+ </ol>
+</ol>
+<h2 class="rvps208"><span class="rvts0"><span class="rvts6">&nbsp;</span></span><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-search-by-options.png"></h2>
+<h2 class="rvps208"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-search-type.png"></h2>
+<h2 class="rvps208"><span class="rvts0"><span class="rvts6"><br/></span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" class="rvps200 noindent"><span class="rvts0"><span class="rvts6">Check that the payment information and outstanding amounts for each account is correct.&nbsp;</span></span></li>
+</ol>
+<div class="rvps209">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts40">If you do not wish to pay an account at this stage, deselect (remove the tick) the "Pay transaction" field next to the selected creditor. If the "Pay transaction" field is not selected, no transactions will be generated for the account and the account will be excluded from the "Automatic payments report".</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="10" class="rvps200 noindent"><span class="rvts0"><span class="rvts6">Click on the </span></span><span class="rvts0"><span class="rvts14">Print</span></span><span class="rvts0"><span class="rvts6"> button to print a "</span></span><span class="rvts0"><span class="rvts15">Automatic payments report</span></span><span class="rvts0"><span class="rvts6">" for all accounts with outstanding amounts (balances) for which the "</span></span><span class="rvts0"><span class="rvts15">Pay transaction</span></span><span class="rvts0"><span class="rvts6">" field was selected. An example of the "</span></span><span class="rvts0"><span class="rvts15">Automatic payments report</span></span><span class="rvts0"><span class="rvts6">", is as follows:</span></span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/batch-auto-payments-report.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="11" class="rvps200 noindent"><span class="rvts0"><span class="rvts6">Click on the </span></span><span class="rvts0"><span class="rvts14">Process</span></span><span class="rvts0"><span class="rvts6"> button. All accounts with outstanding amounts (balances), for which the "</span></span><span class="rvts0"><span class="rvts15">Pay transaction</span></span><span class="rvts0"><span class="rvts6">" field was selected will be imported into the selected batch (journal).</span></span></li>
+</ol>
+<div class="rvps200">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts40">If "Create a clieop file" or pain.001.001.03" is selected as the "ExportType" option, a "Save As" screen will be launched, in which the export file needs to be saved. Thereafter, all &nbsp;selected creditor (supplier / vendor) accounts, as well as debtor (customer / client) accounts, if any, with outstanding amounts (balances) for which the receive transaction field was selected, will be imported into the selected batch (journal).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps205"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-unposted-transactions.png"></h1>
+<div class="rvps207">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 37px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 668px;">
+   <p class="rvps12"><span class="rvts40">Debtor (customer / client) accounts, with a credit balance, which need to be refunded, may also be included in this "Automatic payments" feature.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps200"><span class="rvts0"><span class="rvts6"><br/></span></span></h1>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 52px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 986px;">
+   <p class="rvps12"><span class="rvts54">Once you have finished entering / editing the transactions in the batch you need to: -</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps12 noindent"><a class="rvts61" href="batch-change-alias.html">Change the Alias (Batch name)</a><span class="rvts40">.</span></li>
+    <li class="rvps12 noindent"><a class="rvts62" href="batch-balance.html">Balance the batch</a><span class="rvts54">.</span></li>
+    <li class="rvps12 noindent"><a class="rvts338" href="batch-list.html">List the batch</a><span class="rvts54">.</span></li>
+    <li class="rvps12 noindent"><a class="rvts338" href="batch-post.html">Post the batch</a><span class="rvts54">.</span></li>
+   </ol>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Export type : Clieop file</span></span></h1>
+<p class="rvps2"><span class="rvts6">If the "</span><span class="rvts15">Create Clieop file</span><span class="rvts6">" option was selected as the "</span><span class="rvts15">ExportType</span><span class="rvts6">" field, the "</span><span class="rvts15">Save As</span><span class="rvts6">" screen will be displayed, if you click on the </span><span class="rvts14">Update</span><span class="rvts6"> button of the "</span><span class="rvts15">Automatic payments</span><span class="rvts6">" screen.</span></p>
+<h1 class="rvps204"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-save-clieop-file.png"></h1>
+<p class="rvps2"><span class="rvts6">Select the directory in which you need to store the file and specify the name for the file.&nbsp;</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 0px; vertical-align: top; width: 25px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps2"><span class="rvts57">If the bank accounts is not entered for a creditor (supplier / vendor) account (on the </span><a class="rvts86" href="creditor-tab-accounting-info.html">Accounting information</a><span class="rvts57"> tab, a message similar to </span><span class="rvts210">this will be displayed. &nbsp;&nbsp;</span></p>
+   <p class="rvps6"><span class="rvts17">"No bank account for C2ABCOS ABC-Office-Supplies</span><br/><span class="rvts17">Skiping record!"&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Click on the </span><span class="rvts14">Save</span><span class="rvts6"> button to save and generate the "</span><span class="rvts15">clieop</span><span class="rvts6">" export file. An example of the exported "</span><span class="rvts15">clieop</span><span class="rvts6">" file, is as follows:</span></p>
+<h1 class="rvps204"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-cliop-file-example.png"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-clieop-02.png"></h1>
+<h2 class="rvps202"><span class="rvts0"><span class="rvts6"><br/></span></span></h2>
+<h2 class="rvps202"><span class="rvts0"><span class="rvts30"><br/></span></span></h2>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Export type : pain.001.001.03</span></span></h1>
+<p class="rvps2"><span class="rvts6">If the "</span><span class="rvts15">pain.001.001.03</span><span class="rvts6">" option was selected as the "</span><span class="rvts15">ExportType</span><span class="rvts6">" &nbsp;field, the "</span><span class="rvts15">Save As</span><span class="rvts6">" screen will be displayed, (after the "</span><span class="rvts15">Automatic receipts report</span><span class="rvts6">" is printed) if you click on the </span><span class="rvts14">Update</span><span class="rvts6"> button of the "</span><span class="rvts15">Automatic receipts</span><span class="rvts6">" screen.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-pain-001-file-save.png"></p>
+<p class="rvps2"><span class="rvts6">Click on the </span><span class="rvts14">Save</span><span class="rvts6"> button. This will create an XML Document file type for the "</span><span class="rvts15">pain.001.001.03</span><span class="rvts6">" "</span><span class="rvts15">ExportType</span><span class="rvts6">".</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 56px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 982px;">
+   <p class="rvps12"><span class="rvts40">The export file name will be generated as "pain_002", etc. These numbers indicate the version number of the file export.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">An example of the &nbsp;"</span><span class="rvts15">pain.001.001.03</span><span class="rvts6">" export file, is as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/batch-auto-pay-pain-001-file-saved-example.png"><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

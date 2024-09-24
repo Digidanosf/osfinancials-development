@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Drill Down plugin</title>
+  <meta name="description" content="Drill down plugin - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Drill Down plugin">
+  <meta name="twitter:description" content="Drill down plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Drill Down plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Drill down plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-drill-down"
+		  data-hnd-context="203"
+		  data-hnd-title="Drill Down plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu-financial-tools.html">Plugins menu - Financial tools</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-menu-financial-tools.html" title="Plugins menu - Financial tools" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-charter.html" title="Charter plugin" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-remittance.html" title="Remittance plugin" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Drill Down plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Introduction to the DrillDown plugin</span></span></h1>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/B41.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">DrillDown plugin</span><span class="rvts40"> - </span><a class="rvts52" href="https://www.osfinancials.org/en/plugin-manuals/526-drill-down-plugin" target="_blank">Manual</a><span class="rvts40"> - </span><a class="rvts52" href="https://www.osfinancials.org/en/webshop/other/drill-down-plugin" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence </span><span class="rvts40">: Once-off -</span></p>
+   <p class="rvps12"><span class="rvts40">This TC Drill Down plugin enables you to review all your filtered data and export it to i.e. MS Excel.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps26"><span class="rvts6">The "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin for osFinancials offers a robust solution for delving into your data and creating customised reports quickly and efficiently. Whether you're looking to analyse transactions, track customer invoices, or monitor stock item sales, the DrillDown plugin provides powerful features to streamline your processes. Here's an introduction to its key functionalities:</span></p>
+<p class="rvps2"><span class="rvts14">Transactions</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">All the transactions in the Set of Books will be populated in the transactions view. You may filter and sort the views in the powerful grid to build your own custom views of the transactions.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">Customers → Invoices</span><br/><span class="rvts6">Here you can locate your customer and see his invoices. The invoices show the items the items that where both. It has a good a quick navigation interface the helps you hunt down any invoice. The key element here is that you know what client has this invoice. You may print specific invoices directly from the interface by double-clicking on them.</span></p>
+<p class="rvps2"><span class="rvts14">Invoices → Stock item</span><br/><span class="rvts6">Here you can find all you invoices and the stock items that were sold on the invoice. It is a fast way of just finding that invoice if the invoice number is what you got. You may print specific invoices directly from the interface by double-clicking on them.</span></p>
+<p class="rvps2"><span class="rvts14">Stock item → Invoice</span><br/><span class="rvts6">See what invoices where used to sell this stock item. Giving you the ability to find an invoice if you now the stock item. Just find that item and if it was sold you will find the invoice with that.</span><br/><span class="rvts14">Charts</span></p>
+<p class="rvps2"><span class="rvts6">The Charts view of your sales documents, during the selected dates will visually display the sales data in the following graphs:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps17 noindent"><span class="rvts14">Total sales</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps57 noindent"><span class="rvts14">Total sales</span><span class="rvts6"> : Your total sales per day are displayed in a pie chart. Your inventory items or products are displayed as parts in different colors per day. It will visually display at a glance the day or days in which the most sales occurred.&nbsp;</span></li>
+  <li class="rvps57 noindent"><span class="rvts14">Total sales per day</span><span class="rvts6"> : Your total amount of sales per day is indicated in a bar graph. It will visually display as amounts the day or days in which the most sales occurred at a glance.&nbsp;</span></li>
+ </ul>
+ <li class="rvps17 noindent"><span class="rvts14">Total quantities</span><span class="rvts6">:&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps57 noindent"><span class="rvts14">Total sales quantities</span><span class="rvts6"> : Displays the total quantities of your inventory items or products sold during the selected dates in a pie chart. The total quantities of your inventory items or products sold will be displayed as parts in different colors per day. It will visually display at a glance the inventory items or products that are the top sellers during the selected dates.&nbsp;</span></li>
+  <li class="rvps57 noindent"><span class="rvts14">Total sales quantities per day</span><span class="rvts6">: The total quantities of your stock items or products sold during the selected dates are visually represented in a bar graph. It will visually display at a glance the number of inventory items or products that are the top sellers during the selected dates. It will graphically display how certain days affect the quantities of inventory items or products.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts14">Export data</span></p>
+<p class="rvps2"><span class="rvts6">You may export data from all views (except the </span><span class="rvts14">Charts</span><span class="rvts6">-option) to XML, HTML, Excel, or Text files, facilitating further analysis or integration with other tools.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Using the DrillDown</span></span></h1>
+<p class="rvps2"><span class="rvts6">To use this option, you need to open a Set of Books. When the DrillDown is launched, it will by default list all the transactions in the database of the active (opened) Set of Books.</span></p>
+<p class="rvps2"><span class="rvts14">To launch the TC Drill Down:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon, select&nbsp;</span><span class="rvts14">Plugins → Financial tools → DrillDown</span><span class="rvts6">. If this plugin is not listed under </span><span class="rvts69">Plugins → </span><span class="rvts14">Financial tools</span><span class="rvts6">, activate it via </span><span class="rvts69">Tools → </span><a class="rvts32" href="plugins-activate.html">Activate plugins</a><span class="rvts6">.</span></li>
+</ol>
+<div class="rvps366">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If the </span><span class="rvts37">DrillDown plugin</span><span class="rvts40"> is not available from the </span><span class="rvts37">Plug-ins → Financial tools → DrillDown </span><span class="rvts40">menu, you need to Activate the Drill down plugin. To do this go to the </span><span class="rvts37">Tools → </span><a class="rvts38" href="plugins-activate.html">Activate plugins</a><span class="rvts40"> on the </span><span class="rvts37">Setup</span><span class="rvts40"> ribbon.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/drill-down-main.png"></p>
+<div class="rvps10">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps2"><span class="rvts58">Optional</span><span class="rvts57"> - You may select to "Show on ribbon" option to add the TC Drill Down icon to the </span><span class="rvts58">Default</span><span class="rvts57"> ribbon. This will only be added for the active (opened) Set of Books.</span></p>
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-activate-icon.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">View data</span><span class="rvts6"> button to launch the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin (</span><span class="rvts14">Transactions</span><span class="rvts6">).</span><img alt="" style="padding : 1px;" src="lib/drill-down-transactions.png"></li>
+ <li class="rvps2 noindent"><span class="rvts6">You may use various options to sort and/or filter your data.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">For example, if you need to check your sales for a specific date, select the date in the date column, and the sales in the account column.&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Transactions</span></span></h1>
+<p class="rvps2"><span class="rvts6">The default view when TC Drill Down is launched, is Transactions.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">When you launch the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, the default view is the Transactions view. This view provides an overview of all transactions within your Set of Books.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-transactions.png"></p>
+<p class="rvps26"><span class="rvts6">Here's how you can customize and utilize filter options within the Transactions view to meet your specific requirements:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;">
+ <li class="rvps27 noindent"><span class="rvts69">Customize Data Columns:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">You can customize the data columns displayed in the Transactions view according to your preferences.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Choose which columns to display based on the information relevant to your analysis.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Utilize Filter Options:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">The plugin offers various filter options to refine the displayed data according to specific criteria.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Filters allow you to focus on transactions that meet certain conditions, such as date range, account type, transaction type, etc.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Export Data:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">Once you've customized the view and applied filters to display the desired subset of transactions, you can export this data.</span></li>
+  <li class="rvps61 noindent"><span class="rvts6">Only the data visible in the customized view, along with the selected sequence of data columns and applied filters, will be included in the exported files.</span></li>
+ </ul>
+ <li class="rvps189 noindent"><span class="rvts69">Further Analysis and Actions:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts6">After exporting the data, you can perform further analysis using external tools such as Microsoft Excel or LibreOffice Calc.</span></li>
+  <li class="rvps224 noindent"><span class="rvts6">Identify trends, anomalies, or specific transaction details to inform decision-making or address any issues within your financial records.</span></li>
+ </ul>
+</ol>
+<p class="rvps26"><span class="rvts6">By leveraging the customization and filter options within the Transactions view of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can tailor your analysis to focus on the specific data elements and criteria relevant to your needs. This flexibility allows for efficient data exploration and analysis within your osFinancials Set of Books.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Show / hide / move columns</span></span></h2>
+<p class="rvps2"><span class="rvts6">By default, all columns, except the "</span><span class="rvts15">Transaction no., Batch no., Debit tax</span><span class="rvts6">" and "</span><span class="rvts15">Credit tax</span><span class="rvts6">" columns) is not available.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may add these manually by selecting those columns. You may select only those columns you need to see.</span></p>
+<div class="rvps65">
+<table width="100%" style="border-color: #800080; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps12"><span class="rvts37">Visible columns </span><span class="rvts40">(</span><span class="rvts37">Options → Columns</span><span class="rvts40"> menu)</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps12"><span class="rvts37">Default </span><span class="rvts40">* Click here to show/hide/move columns</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps12"><span class="rvts37">Sorted (selected) </span><span class="rvts40">- Alphabetical list</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-visble-columns.png"></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-transactions-colums-list.png"></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/drill-down-transactions-colums-list-sorted.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Hidden columns will not be included in an export files.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">In the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you have the ability to show, hide, or move columns according to your preferences. By default, only certain columns are visible, but you can manually add or remove columns as needed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Here's an overview of the available columns and their descriptions:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Account Type </span><span class="rvts6">- There are five (5) account types (i.e. Bank, Creditor, Debtor, General ledger and Tax).</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Transaction no.</span><span class="rvts6"> - The number of the Transaction in the Transaction table of the database.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Batch no.</span><span class="rvts6"> - This is the number of the batch (journal) as allocated by osFinancials. The last column (i.e. “</span><span class="rvts15">Journaal</span><span class="rvts6">”) displays a more friendly version of the Batch no.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Date</span><span class="rvts6"> - The date of the transaction.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Period</span><span class="rvts6"> - The accounting period (e.g. Month) of the transaction. "</span><span class="rvts15">Last year</span><span class="rvts6">" is the previous financial year.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Account no.</span><span class="rvts6"> - The account code for Bank, Creditor, Debtor, General Ledger and Tax accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Account</span><span class="rvts6"> - The description or account name.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Group1</span><span class="rvts6"> - Account group 1 for Bank, General Ledger and Tax accounts. Creditor Group 1 for Creditor accounts and Debtor Group 1 for Debtor accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Group2</span><span class="rvts6"> - Account group 1 for Bank, General Ledger and Tax accounts. Creditor group 1 for Creditor accounts and Debtor group 1 for Debtor accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Reference</span><span class="rvts6"> - The reference as entered in the Reference column of batches and in the case of sales documents (i.e. Invoices, Point-of-Sales Invoices and Credit notes) and purchase documents (i.e. Purchases and Supplier returns), the document number will be displayed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Description</span><span class="rvts6"> - The description as entered in the Description column of batches. In the case of documents, the description is as follows:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Sales account</span><span class="rvts6"> - Stock Item's description.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Cost of Sales</span><span class="rvts6"> and </span><span class="rvts14">Stock Control account</span><span class="rvts6"> - COST OF SALES/Document number.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Creditor account</span><span class="rvts6"> - Document type/Document number.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Debtor account</span><span class="rvts6"> - Document type/Document number.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Tax</span><span class="rvts6"> (Input and Output Tax) - Document Type/Document number.</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts14">Debit</span><span class="rvts6"> - Amounts entered or generated as balancing entries in the Debit column of batches. In the case of documents, the description is as follows:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Debit tax</span><span class="rvts6"> - Amounts entered or generated as balancing entries in the Debit column of batches. In the case of documents, the description is as follows:</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Debit Outstanding</span><span class="rvts6"> - Outstanding amounts in the Debit column. This is usually the same, as the Debit amount, unless a credit transaction have been linked to the debit transaction to an Open Item account.&nbsp;</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts14">Credit</span><span class="rvts6"> - Amounts entered or generated as balancing entries in the Credit column of batches. In the case of documents, the description is as follows:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Credit tax</span><span class="rvts6"> - Amounts entered or generated as balancing entries in the Debit column of batches. In the case of documents, the description is as follows:</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Credit Outstanding</span><span class="rvts6"> - Outstanding amounts in the Credit column. This is usually the same, as the Credit amount, unless a debit transaction have been linked to the credit transaction to an Open item account.</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts14">Journaal</span><span class="rvts6"> - This is the Alias (Batch name). If the "</span><span class="rvts15">Change alias</span><span class="rvts6">" option on batches were used before posting batches, the Alias will be displayed. Should the aliases of batches not be used, more than one batch (with the same name) will be listed. You may then need to use the Batch no. to filter for a specific batch. In the case of documents, the Document no. will be displayed.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">You can customise the visibility and order of these columns using the "</span><span class="rvts15">Visible columns</span><span class="rvts6">" option in the menu. Hidden columns will not be included in export files, ensuring that only relevant data is exported. This flexibility allows you to tailor the view to your specific needs, facilitating efficient analysis and reporting within the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Move column sequence</span></span></h3>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you have the ability to change the sequence in which the data in the columns is displayed. This feature allows you to customize the layout of your data according to your preferences.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">In addition to the option in the "</span><span class="rvts15">Visible columns</span><span class="rvts6">" screen (</span><span class="rvts14">Options → Columns</span><span class="rvts6"> menu) you can change the order (sequence) in which the data is displayed in the columns, by simply clicking on a selected column and drag it to the desired position (left or right.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-group-move.png"></p>
+<p class="rvps26"><span class="rvts6">By moving column headings in the </span><span class="rvts14">Transactions</span><span class="rvts6"> option, you can organize your data in a way that makes it easier to analyse and interpret. This customisation feature allows you to prioritise the display of information based on its relevance to your analysis, enhancing your workflow efficiency within the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts482">Group / Ungroup columns</span></span><span class="rvts0"><span class="rvts22">&nbsp;</span></span></h3>
+<p class="rvps65"><span class="rvts30">Select a column and click on it. While holding the mouse button down, drag it to the column header bar "</span><span class="rvts78">Use your mouse to pull a column here to group on that column</span><span class="rvts30">". Select any other column to drag and drop it on column header bar. You may select as many columns, as necessary, to group your data. &nbsp;&nbsp;</span></p>
+<p class="rvps65"><span class="rvts30">You may also drag and drop these columns to the right or left to change the grouping of these columns.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you have the ability to group and ungroup columns to organize your data according to specific criteria.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-group.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts92">Remove grouped columns</span></span></h3>
+<p class="rvps65"><span class="rvts30">To remove a column from column header bar "</span><span class="rvts78">Use your mouse to pull a column here to group on that column</span><span class="rvts30">", you may use the following two (2) options:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-group-remove.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps111 noindent"><span class="rvts30">Select the column heading (e.g., “</span><span class="rvts78">Account</span><span class="rvts30">”) on column header bar "</span><span class="rvts78">Use your mouse to pull a column here to group on that column</span><span class="rvts30">", and drag it to the first line (above the column headings). When the mouse pointer change to a big </span><span class="rvts340">X</span><span class="rvts30">, drop it. The column will automatically be placed in the correct default sequence (or the place of the previous grid layout).&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps111 noindent"><span class="rvts30">If you wish to change the column to a specific place, select the column heading (e.g., “</span><span class="rvts78">Account</span><span class="rvts30">”) on column header bar "</span><span class="rvts78">Use your mouse to pull a column here to group on that column</span><span class="rvts30">", and drag it to the first line (column headings). When you drop it, the column will be added to the selected position or sequence of the columns.&nbsp;</span></li>
+</ol>
+<p class="rvps26"><span class="rvts6">By utilising the group and ungroup column features, you can organize your data effectively within the Transactions option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin. This allows for better analysis and visualization of your financial information based on specific criteria and groupings.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Sort sequences</span></span></h2>
+<p class="rvps2"><span class="rvts6">All the data is, by default, displayed ascending; from the smallest to the highest value (e.g. a-z or 0-9) according to the Period (e.g. April, February, March, etc.).</span></p>
+<p class="rvps2"><span class="rvts6">To change the sort order from ascending (e.g. a-z or 0-9) to descending (e.g. z-a or 9-0) select a column which you need to sort) and click on it. If you click on the same column again, it will change back to ascending sequence.</span></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you have the ability to sort data sequences to facilitate easier analysis and interpretation. By default, data is displayed in ascending order, but you can change the sort order to descending if needed.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">By adjusting the sort sequence in the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can organise your data according to your preferences, making it easier to analyse and interpret information effectively. This feature enhances the usability of the plugin, allowing for more efficient data exploration and analysis within osFinancials.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Filter options in column headings</span></span></h2>
+<p class="rvps2"><span class="rvts6">While viewing and analysing the data you may sort and filter the data, in each column of the active or loaded table. To do this, select the column and click on the </span><img alt="" style="width : 12px; height : 12px; padding : 1px;" src="lib/filter-sort-column-ilist.png"><span class="rvts6"> filter icon. A list displaying the data, as well as an "</span><span class="rvts15">All</span><span class="rvts6">" option and a "</span><span class="rvts15">(Custom...)</span><span class="rvts6">" option in the selected column will be displayed.&nbsp;</span><br/><span class="rvts6">For example, the "</span><span class="rvts15">Account</span><span class="rvts6">" column, is selected, a list of all "</span><span class="rvts15">Accounts</span><span class="rvts6">" will be displayed.&nbsp;&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-transactions-filter-column-account.png"></p>
+<p class="rvps2"><span class="rvts6">You may select those account you wish to list. Only the transactions for the selected account(s) will be listed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">To adjust a filter in a column, select the "</span><span class="rvts15">(Custom...)</span><span class="rvts6">" option in the selected column. The "</span><span class="rvts15">Adjust filter</span><span class="rvts6">" will be displayed:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-adjusted-filter.png"></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you have the capability to apply filters to column headings, allowing you to refine and focus your data analysis.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">The type of filter options/conditions available for data manipulation can vary depending on the nature of the data contained within the column. Some common Filter options is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts14">Equal to</span><span class="rvts6"> - Lists or displays all values that are exactly the same as the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Not equal to</span><span class="rvts6"> - Lists or displays all values that are not exactly the same as the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Less than</span><span class="rvts6"> - Lists or displays all values smaller than the specified value. &nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Less than or equal to</span><span class="rvts6"> - Lists or displays all values smaller than or equal to the specified value.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Greater than</span><span class="rvts6"> - Lists or displays all values greater than the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Greater than or equal to</span><span class="rvts6"> - Lists or displays all values greater than or equal to the specified value.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Like</span><span class="rvts6"> - Lists all values in the table similar to the specified value using pattern matching (often with wildcard characters).&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Not like</span><span class="rvts6"> - Lists all values in the table not similar to the specified value using pattern matching.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Is null</span><span class="rvts6"> - Excludes any rows where the value is missing (NULL), meaning they will not be listed or displayed.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Is not null</span><span class="rvts6"> - Lists or displays any rows where the value is not missing (NULL).&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Start with</span><span class="rvts6"> - Lists or displays values where the text starts with the specified string.&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">End with</span><span class="rvts6"> - Lists or displays values where the text ends with the specified string.&nbsp;</span></li>
+  <li class="rvps17 noindent"><span class="rvts6"> </span><span class="rvts14">Include</span><span class="rvts6"> - Lists or displays all values that match any of the specified values. This option is useful when you want to filter for multiple specific values.</span></li>
+  <li class="rvps17 noindent"><span class="rvts14">Not include </span><span class="rvts6">- Lists or displays all values that do not match any of the specified values. This option is useful when you want to exclude specific values from the result set.</span></li>
+ </ol>
+</ol>
+<p class="rvps26"><span class="rvts6">By utilising the filter options in column headings, you can refine your data analysis within the </span><span class="rvts14">Transactions</span><span class="rvts6"> option of the"</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, allowing for more focused and insightful examination of your financial data.</span></p>
+<p class="rvps26"><span class="rvts6">Adjusting filter options based on the data type ensures that you have access to the most relevant and effective tools for manipulating and analysing your data. This flexibility enhances usability and allows for more efficient data exploration and decision-making.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Working with custom filters</span></span></h2>
+<p class="rvps2"><span class="rvts6">Once you have selected an option on a list, the your selection will be displayed at the bottom section of the"</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" screen as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-filter-select.png"></p>
+<p class="rvps2"><span class="rvts6">The selected filters will be listed. You may select any filters for quick access to previous filter options. You may click on the </span><span class="rvts14">Customise</span><span class="rvts6"> button to:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Make a filter (add or delete conditions and groups).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Save a filter.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Open a filter.</span></li>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-make%20filter.png"></p>
+<p class="rvps2"><span class="rvts14">To make a filter:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Select a column and click on the </span><span class="rvts14">Filter</span><span class="rvts6"> button (or on the … button) and select one of the following options on the context menu:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts6">New condition</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">New group</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts6">Delete row (If you click on the </span><span class="rvts14">Filter</span><span class="rvts6"> button, you may delete the rows (conditions and groups).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select the or option to set a filter value. The following options are available:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts6">New condition</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">New group</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts6">Once you have created your conditions or groups, click on the </span><span class="rvts14">Apply</span><span class="rvts6"> button.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button to close and exit this "</span><span class="rvts15">Make filter</span><span class="rvts6">" screen.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">To save a custom filter file:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Once you have sorted or filtered your data with the "</span><span class="rvts15">Make filter</span><span class="rvts6">" screen, click on the </span><span class="rvts14">Save as.. b</span><span class="rvts6">utton. The "</span><span class="rvts15">Save active filter</span><span class="rvts6">" screen will be displayed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select a directory in which you wish to save the custom filter file.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Enter a file name.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Save</span><span class="rvts6"> button to save the Filter in a (*.flt) Filter file format. You may then at any later stage open the saved *.flt file.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">To open a saved a custom filter file:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Once you have sorted or filtered your data with the "</span><span class="rvts15">Make filter</span><span class="rvts6">" screen, click on the </span><span class="rvts14">Open...</span><span class="rvts6"> button. The "</span><span class="rvts15">Open a saved filter</span><span class="rvts6">" screen will be displayed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select a directory in which you have saved the custom filter file.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select a valid filter file.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Open</span><span class="rvts6"> button. The selected filter file's name will be displayed in the titlebar of the &nbsp;"</span><span class="rvts15">Make filter</span><span class="rvts6">" screen.</span></li>
+</ol>
+<p class="rvps26"><span class="rvts6">Working with custom filters in the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin allows you to refine and save filter settings for quick access to specific data views.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">By utilizing custom filters, you can save time and effort by quickly accessing predefined filter settings for your data analysis needs. Whether you're refining data views for specific criteria or reusing previously defined filters, the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin offers flexibility and efficiency in managing your data within osFinancials.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Customer invoice&nbsp;</span></span></h1>
+<p class="rvps17"><span class="rvts6">The "Customer → Invoice" option in the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin lists all customers and their respective invoices, allowing you to sort, filter and view quantities of ordered and shipped stock items along with total invoice amounts, and to print invoices directly from the interface.</span><br/><img alt="" style="padding : 1px;" src="lib/drill-down-customer-invoice.png"></p>
+<p class="rvps26"><span class="rvts6">The </span><span class="rvts14">Customer invoice</span><span class="rvts6"> option lists all your customers (debtors or clients). For each customer account, it displays up to three address lines and the total of all invoices (excluding tax, tax amount, and including tax). You can sort columns or use custom filters to search for a specific customer.</span></p>
+<p class="rvps26"><span class="rvts6">Expanding a specific customer account reveals all posted and unposted invoices. Each invoice displays quantities of ordered and shipped stock items, along with the total amount (excluding tax, tax amount, and including tax) in columns. You can also sort columns or use custom filters to search for an inventory item or product.</span></p>
+<p class="rvps26"><span class="rvts6">Additionally, you can print specific invoices directly from the interface by double-clicking on them.</span></p>
+<p class="rvps26"><span class="rvts6">By leveraging the </span><span class="rvts14">Customer invoice</span><span class="rvts15"> </span><span class="rvts6">option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can efficiently manage customer transactions, track sales, and maintain clear communication with customers regarding their invoices. This feature enhances your ability to provide excellent customer service and ensures accuracy in your financial records within osFinancials.</span></p>
+<p class="rvps2"><span class="rvts50">Invoice stock Item&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Invoice stock item</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can quickly find invoices and the stock items that were sold on each invoice. This functionality allows for efficient tracking of invoices based on invoice numbers and provides insight into the items sold within each invoice.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-invoice-stock-item.png"></p>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts14">Invoice stock item</span><span class="rvts6"> option displays all inventory items or products, showing which items were sold in each invoice. It includes details such as stock code, description, quantities, and total invoice amounts, allowing sorting and custom filtering for specific items.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Expanding a specific item reveals all invoices, posted and unposted, with quantities and total amounts displayed for each invoice, and provides options for sorting and custom filtering.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Additionally, you can print specific invoices directly from the interface by double-clicking on them.</span></p>
+<p class="rvps2"><span class="rvts6">By utilizing the </span><span class="rvts14">Invoices stock item</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can efficiently find invoices based on invoice numbers and gain insight into the stock items sold within each invoice. This feature enhances your ability to manage sales transactions, track inventory, and analyse sales performance within osFinancials.</span><br/><span class="rvts6"></span><br/><span class="rvts50">Stock item invoice</span><br/><span class="rvts6">In the </span><span class="rvts14">Stock item invoice</span><span class="rvts6"> section of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, allows you to quickly locate invoices associated with the sale of a particular item. &nbsp;In this option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can track which invoices issued to which debtors (customers / clients) and were used to sell specific stock items, facilitating quick access to associated sales records.</span><br/><img alt="" style="padding : 1px;" src="lib/drill-down-stock-item-invoice.png"></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Stock item invoice</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can track which invoices were used to sell specific stock items, facilitating quick access to associated sales records. This feature lists all customer accounts with both posted and unposted invoices, detailing items sold in each invoice. It provides invoice numbers, dates, and total amounts, and enables sorting and filtering for efficient invoice management.&nbsp;</span></p>
+<p class="rvps26"><span class="rvts6">Expanding invoices reveals listed stock items with quantities and total amounts, allowing further sorting and filtering for inventory items. This functionality enhances tracking of customer invoices and stock item movements, facilitating effective sales analysis within osFinancials.</span></p>
+<p class="rvps26"><span class="rvts6">By leveraging the </span><span class="rvts14">Stock item invoice</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can efficiently track sales of individual invoices stock items, identify associated customer (debtor or client) accounts, and gain insights into your stock management and sales processes within osFinancials.&nbsp;</span><br/><span class="rvts6"></span><br/><span class="rvts50">Charts</span></p>
+<p class="rvps26"><span class="rvts6">In the </span><span class="rvts14">Charts</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, you can visualise your sales data in various formats to gain insights into your business performance. The graphs are as follows:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps17 noindent"><span class="rvts14">Total sales</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps57 noindent"><span class="rvts14">Total sales</span><span class="rvts6"> : Your total sales per day are displayed in a pie chart. Your inventory items or products are displayed as parts in different colors per day. It will visually display at a glance the day or days in which the most sales occurred.&nbsp;</span></li>
+  <li class="rvps57 noindent"><span class="rvts14">Total sales per day</span><span class="rvts6"> : Your total amount of sales per day is indicated in a bar graph. It will visually display as amounts the day or days in which the most sales occurred at a glance.&nbsp;</span></li>
+ </ul>
+ <li class="rvps17 noindent"><span class="rvts14">Total quantities</span><span class="rvts6">:&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps57 noindent"><span class="rvts14">Total sales quantities</span><span class="rvts6"> : Displays the total quantities of your inventory items or products sold during the selected dates in a pie chart. The total quantities of your inventory items or products sold will be displayed as parts in different colors per day. It will visually display at a glance the inventory items or products that are the top sellers during the selected dates.&nbsp;</span></li>
+  <li class="rvps57 noindent"><span class="rvts14">Total sales quantities per day</span><span class="rvts6">: The total quantities of your stock items or products sold during the selected dates are visually represented in a bar graph. It will visually display at a glance the number of inventory items or products that are the top sellers during the selected dates. It will graphically display how certain days affect the quantities of inventory items or products.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/drill-down-charts.png"></p>
+<p class="rvps17"><span class="rvts6">By using the Charts section of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin and exporting the data, you can effectively analyse your sales performance, identify trends and make informed business decisions based on the insights gained by visualizing your data.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Export the Data</span></span></h1>
+<p class="rvps17"><span class="rvts6">Except &nbsp;the </span><span class="rvts14">Charts</span><span class="rvts6"> option of the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin, all other options (i.e Transactions, Customer invoice, Invoice stock item, Stock item invoice) in the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin can be exported to a spreadsheet.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">Once you have sorted and filtered your criteria, you can export the data in exactly the same order as displayed in the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" screen.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Once you have sorted or filtered your data, click on the </span><span class="rvts14">File → Export </span><span class="rvts6">menu.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">The "</span><span class="rvts15">Save as</span><span class="rvts6">" screen will be displayed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select a directory in which you wish to export the selected data.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Enter a file name.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select one of the following file formats:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts6">XML - Extensible Mark-up Language</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">HTML - HyperText Mark-up Language</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Excel - Microsoft Excel Spreadsheet</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Text - Text file</span></li>
+ </ol>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Save</span><span class="rvts6"> button.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">Once exported, you can locate the file and open it in your preferred software, such as Microsoft Excel or LibreOffice Calc, to further analyse and visualize the data.</span></p>
+<p class="rvps2"><span class="rvts6">For example, you may use it to build graphs in &nbsp;or Microsoft Excel, LibreOffice Calc spreadsheets, and make powerful presentations of your data in or Microsoft PowerPoint or LibreOffice Impress.</span></p>
+<p class="rvps26"><span class="rvts6">By utilising the Charts section of the"</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin and exporting the data, you can effectively analyse your sales performance, identify trends, and make informed business decisions based on the insights gained from visualising your data.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Spreadsheets</span></span></h2>
+<p class="rvps2"><span class="rvts6">The exported data can be easily used to build custom pivot tables and charts in spreadsheets. The following is an example of exported data in Microsoft Excel spreadsheet with charts for income and expenses exported using the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">":</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/drill-down-transactions-excel-charts-pivot.png"></p>
+<p class="rvps2"><span class="rvts6">By using pivot tables and charts in Excel, you can analyse and visualise your expenses data exported from the "</span><span class="rvts15">TC Drill Down</span><span class="rvts6">" plugin effectively. These tools allow you to gain insights into your spending patterns, identify areas for cost optimization, and make informed financial decisions for your business.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

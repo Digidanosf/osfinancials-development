@@ -1,0 +1,562 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Ledger analyser</title>
+  <meta name="description" content="Ledger analyser options and report types - osfinancials.org" /> 
+  <meta name="keywords" content="Account groups,Accounting periods,Ledger analyser,Column balances,T-Account viewer,Pivot,Customer groups,Debtor groups">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ledger analyser">
+  <meta name="twitter:description" content="Ledger analyser options and report types - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Ledger analyser" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Ledger analyser options and report types - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ledger-analyser"
+		  data-hnd-context="801"
+		  data-hnd-title="Ledger analyser"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reports-ribbon-options.html">Reports (Reports ribbon)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="reports-ribbon-options.html" title="Reports (Reports ribbon)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="reportman-metafile-save-as-metaf.html" title="Reportman output - Save metafile as metafiles" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-trial-balance.html" title="Ledger analyser - Trial balance" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Ledger analyser</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">All processed (posted) transactions will be accumulated in the </span><span class="rvts14">Ledger analyser 1</span><span class="rvts6"> or </span><span class="rvts14">Ledger analyser 2</span><span class="rvts6"> (</span><span class="rvts14">Reports</span><span class="rvts6"> ribbon). There are various ways in which the transactions may be viewed, exported and analysed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The options, is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Transactions and balances</span><span class="rvts6"> – These are the balances of transactions as posted (updated to the ledger) in batches (journals), sales documents (i.e. Invoices, Point-of-Sale Invoices and Credit notes) and purchase documents (i.e. Purchases and Supplier returns).&nbsp;</span></li>
+</ol>
+<p class="rvps10"><span class="rvts6">There are six (6) report types, which may be selected (i.e. Trial balance, Income statement, Balance sheet, Standard column balances, Budget vs actual and This year vs last year) which may be printed and exported to spreadsheets.</span></p>
+<p class="rvps10"><span class="rvts6">In addition to this, there are 6 report types which may be exported to spreadsheets (i.e. Column balances, Column balances Debit/Credit, Column balances debtor, Column balances creditor, Column balances debtor Debit/Credit, and Column balances creditor Debit/Credit.)</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Budget</span><span class="rvts6"> – Budget figures as entered in </span><a class="rvts32" href="budgets-reports-ribbon.html">Budgets</a><span class="rvts6"> (</span><a class="rvts32" href="reports-ribbon-options.html">Reports</a><span class="rvts6"> ribbon) or in the</span><span class="rvts14"> Setup → </span><a class="rvts32" href="budget-setup-accounts.html">Accounts</a><span class="rvts6"> (</span><a class="rvts32" href="setup-ribbon.html">Setup</a><span class="rvts14"> </span><span class="rvts6">ribbon). This option, if selected, will list only the budget figures (Budget listing) in the Trial balance, Income statement, Balance sheet and Standard column balances report types. The Budget vs Actual is the budget performance report. It will list and compare the budget figures versus the actual posted (updated) transactions.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">T-Account viewer</span><span class="rvts6"> – You may select a specific account, group, etc. to view the transactions in the T-Account viewer. To do this, right-click on a selected account, and select the “</span><span class="rvts15">Show details</span><span class="rvts6">” option on the context menu.</span></li>
+</ol>
+<div class="rvps93">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts40">The T-Account viewer may also be selected on the </span><span class="rvts37">T-Account viewer</span><span class="rvts40"> on the</span><span class="rvts37"> Reports</span><span class="rvts40"> ribbon. When launching it from the </span><span class="rvts37">Reports</span><span class="rvts40"> ribbon, you may select the following:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">Account</span><span class="rvts40"> – Select a specific account.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">From date</span><span class="rvts40"> and</span><span class="rvts37"> To date </span><span class="rvts40">– Select a specific date or a range of dates to view data. &nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps93">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts40">You may click on the following to get specific views of transactions:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">Batch number</span><span class="rvts40"> (e.g. 10012, etc. automatically generated). This will list only the transactions for a specific batch (journal).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Account code</span><span class="rvts40"> (e.g. G010000 Sales, B810000 ABC - Bank, T860010 Input VAT/GST/Sales tax, etc.). This will list the transactions for a specific account.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Date</span><span class="rvts40"> – This will list the transactions for a specific date. If you double-click on a date, the “From date” and “To date” will be changed to the selected date.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps290"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Ledger analyser options</span></span></h1>
+<p class="rvps85"><span class="rvts14">To print reports in the Ledger analyser:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">On the </span><span class="rvts14">Reports </span><span class="rvts6">ribbon, select </span><span class="rvts14">Ledger analyser 1 / 2</span><span class="rvts6">.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-trial-balance-options.png"></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts37">Ledger analyser 1 and Ledger analyser 2 Features implemented in osFinancials5:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts38" href="sbr-standard-business-reporting.html">SBR view</a><span class="rvts40"> - (Standard Business Reporting) Add &nbsp;SBR references for accounts and reporting groups in </span><span class="rvts37">Setup → Accounts</span><span class="rvts40">. Once the references are set, and generate reports on screen, click on the </span><span class="rvts37">SBR view</span><span class="rvts40"> button, check, filter and copy to clipboard. Open your spreadsheet program, and copy the contents into your spreadsheet, save the data, etc.&nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-pivot.html">Pivot</a><span class="rvts40"> – View, filter and analyse your report on screen, view graphs, customise datasets and types of graphs.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-zoom-options.html">Zoom in / Zoom out + / -</a><span class="rvts40"> buttons added to resize (increase / decrease the font) the reports (i.e. Trial balance, Balance sheet and Income statement) on screen.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the following options:</span></li>
+</ol>
+<div class="rvps9">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; background-color: #99ccff; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts37">Option</span></p>
+  </td>
+  <td style="padding: 5px; background-color: #99ccff; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts37">Description&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Report type:</span><img alt="" style="vertical-align: -webkit-baseline-middle; padding : 5px; margin : 5px 5px;" src="lib/ledger-analyser-report-types.png"></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-trial-balance.html">Trial balance</a><span class="rvts40"> – List of all accounts in the chart of accounts. This will include:</span></li>
+    <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-income.png"><span class="rvts40"> - Income / </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-expenses.png"><span class="rvts40"> - Expense;&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.png"><span class="rvts40"> - Asset / Liability / Capital accounts;&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-retained-income.png"><span class="rvts40"> &nbsp;- Retained earnings / income;&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/admon-material-accounts-debtor.png"><span class="rvts40"> &nbsp;- Debtor's control; and</span></li>
+     <li class="rvps12 noindent"><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/admon-material-accounts-creditor.png"><span class="rvts40"> &nbsp;- Creditor's control accounts.</span></li>
+    </ol>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-income-statement.html">Income statement</a><span class="rvts40"> - </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-income.png"><span class="rvts40"> Income / </span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-expenses.png"><span class="rvts40"> Expenses &nbsp;– List only those accounts which is reported on the Income statement.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-balance-sheet.html">Balance sheet</a><span class="rvts40"> – List only those Accounts, which is reported in the Balance sheet. This will include:&nbsp;</span></li>
+    <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.png"><span class="rvts40"> - Asset / Liability / Capital accounts;&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-retained-income.png"><span class="rvts40"> &nbsp;- Retained earnings / income;&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-debtor.png"><span class="rvts40"> &nbsp;- Debtor's control; and&nbsp;</span></li>
+     <li class="rvps12 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-creditor.png"><span class="rvts40"> &nbsp;- Creditor's control accounts.</span></li>
+    </ol>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-standard-ccolumn.html">Standard column balances</a><span class="rvts40"> – Lists the debit and credit account balances in the Trial balance and the Income statement and Balance sheet accounts in separate columns.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-budget-actual.html">Budget vs actual</a><span class="rvts40"> – Lists the budget figures entered in the</span><span class="rvts37"> </span><span class="rvts183">Setup → </span><span class="rvts37">Accounts</span><span class="rvts40"> (</span><span class="rvts37">Setup</span><span class="rvts40"> ribbon) versus the actual totals of all transactions in posted batches and documents.&nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-this-last-year.html">This year vs last year</a><span class="rvts40"> – This will list the actual totals of all transactions in posted batches and documents in this year periods versus the actual totals of all transactions in posted batches and documents posted to last year periods (previous financial years).&nbsp;</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-column-balances1.html">Column balances</a><span class="rvts40"> – Lists all accounts in a spreadsheet view. These are the Accounts reported in the Trial balance (this includes both the accounts reported in the Trial balance, Income statement and Balance sheet).</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-debtor-column-balances1.html">Column balances debtors</a><span class="rvts40"> – Lists the balances of all accounts which is created and maintained in the </span><span class="rvts37">Debtors</span><span class="rvts40"> (</span><a class="rvts38" href="default-ribbon.html">Default</a><span class="rvts40"> ribbon) in a spreadsheet view. The total of these accounts are reported in the Debtor's control account on the Trial balance and the Balance sheet.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-creditor-column-balances1.html">Column balances creditors</a><span class="rvts40"> – Lists all accounts which is created and maintained in the </span><span class="rvts37">Creditors</span><span class="rvts40"> (</span><a class="rvts38" href="default-ribbon.html">Default</a><span class="rvts40"> ribbon) in a spreadsheet view. The total of these accounts are reported in the Creditor's control account on the Trial balance and the Balance sheet.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-analyser-column-balances2.html">Column balances D/C</a><span class="rvts37"> </span><span class="rvts40">– Lists all debit and credit account balances in a spreadsheet view. These are the Accounts reported in the Trial balance (this includes both the accounts reported in the Trial balance, Income statement and Balance sheet).</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-debtor-column-balances2.html">Column balances debtors D/C</a><span class="rvts40"> – Lists the debit and credit account balances of all accounts which is created and maintained in the </span><span class="rvts37">Debtors</span><span class="rvts40"> &nbsp;(</span><a class="rvts38" href="default-ribbon.html">Default</a><span class="rvts40"> ribbon) in a spreadsheet view. The total of these accounts are reported in the Debtor's control account on the Trial balance and the Balance sheet.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="ledger-creditor-column-balances2.html">Column balances creditors D/C</a><span class="rvts37"> </span><span class="rvts40">– Lists all debit and credit account balances which is created and maintained in the </span><span class="rvts37">Creditors</span><span class="rvts40"> (</span><a class="rvts38" href="default-ribbon.html">Default</a><span class="rvts40"> ribbon) in a spreadsheet view. The total of these accounts are reported in the Creditor's control account on the Trial balance and the Balance sheet.</span></li>
+   </ol>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Budget:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">This will list all accounts for which budget figures were entered (and / or edited) in </span><a class="rvts38" href="budgets-reports-ribbon.html">Budgets</a><span class="rvts40"> (</span><a class="rvts38" href="reports-ribbon-options.html">Reports</a><span class="rvts40"> ribbon) or the </span><span class="rvts37">Setup → </span><a class="rvts38" href="budget-setup-accounts.html">Accounts</a><span class="rvts40"> (</span><a class="rvts38" href="setup-ribbon.html">Setup</a><span class="rvts37"> </span><span class="rvts40">ribbon).</span><img alt="" style="float: right; padding : 1px; margin : 5px 5px;" src="lib/ledger-analyser-report-types-budget-option.png"></p>
+   <p class="rvps12"><span class="rvts54">If you wish to print a list of the Budget figures, tick the "Budget option" on the following report types:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts54">Trial balance</span></li>
+    <li class="rvps12 noindent"><span class="rvts54">Income statement&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts54">Balance sheet</span></li>
+   </ul>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Cost centre 1 / 2:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">The Cost centres (2 Groups) will only be available, if Cost centres are added in </span><span class="rvts37">Groups </span><span class="rvts40">(</span><span class="rvts37">Setup</span><span class="rvts40"> ribbon); and if activated.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Groups:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">Select one of the following options:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">None</span><span class="rvts40"> – This is the default. This will list all accounts for the selected Report type according to the Account numbers (codes) in numerical order.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Reporting group 1</span><span class="rvts40"> – Lists all accounts according to the Account reporting group 1 as created in </span><span class="rvts37">Groups </span><span class="rvts40">(</span><span class="rvts37">Setup</span><span class="rvts40"> ribbon).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Reporting group 2 </span><span class="rvts40">– Lists all accounts according to the Account reporting group 2 as created in </span><span class="rvts37">Groups </span><span class="rvts40">(</span><span class="rvts37">Setup</span><span class="rvts40"> ribbon).&nbsp;</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts37">Reporting group 1 </span><span class="rvts40">and</span><span class="rvts37"> 2</span><span class="rvts40"> – The sequence in which the groups and accounts are listed, may be changed in</span><span class="rvts37"> Groups</span><span class="rvts40">. (</span><span class="rvts37">Setup</span><span class="rvts40"> ribbon).</span></p>
+   <p class="rvps12"><span class="rvts40">This is done by selecting the groups on the list and use the </span><span class="rvts37">Move up</span><span class="rvts40"> or </span><span class="rvts37">Move down</span><span class="rvts40"> buttons.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Period:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">Select “Per period” or “Free selection”</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">Per period</span><span class="rvts40"> – Select a period (Month, 2 Months, 3 Months, 4 Months, 6 Months or Year.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Free selection –</span><span class="rvts40"> You may select or enter any date or dates.&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">From:</span></p>
+   <p class="rvps12"><span class="rvts40">To:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">The periods will automatically filter and display the periods matching the selected option in the “Per period” radio selection options. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">On the “Free selection” tab, you may select any date or dates in the “From date” and “To date” fields.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Ignore zero balances:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">If this field is not selected, all accounts will be listed for the selected reports type. If you select (tick) this field; only those accounts with balances will be included in the report. &nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Include opening balances:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">If this option is selected (ticked), it will include the opening balances of those accounts which have opening balances. &nbsp;If this option is not selected; the opening balances will not be included in the report. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">(Not applicable to the Income statement report type).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Opening balances only:&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">If the “Include opening balances” option is not selected; this option will not be displayed. &nbsp;If this option is available; you may select (tick) this option to include only the opening balances. All other balances will then be ignored.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">(Not applicable to the Income statement and Column balances report types).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts40">Viewer Debtors / Creditors:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">Do not select (tick) if you only need to view the balances of the Debtor's control account and Creditor's control account only. If this field is selected (ticked), it will list all the individual accounts in the following ledgers:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts40">Debtor's ledger - all debtor (customer / client) accounts.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts40">Creditor's ledger - all creditor (supplier / vendor) accounts.&nbsp;</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts54">(Only applicable to the Trial balance and the Balance sheet report types).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts37">Report</span><span class="rvts40"> button:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">This will generate the report as per your selection of the report parameters.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts37">Export</span><span class="rvts40"> button:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">This will export the report to a comma separated value (*.csv) file format. The exported data will automatically be opened in your system's default spreadsheet (if configured) e.g. Excel. &nbsp;&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 153px;">
+   <p class="rvps12"><span class="rvts37">Print</span><span class="rvts40"> button:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 786px;">
+   <p class="rvps12"><span class="rvts40">Click to print the report.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select a group or account and right-click on it. On the context menu, select the “</span><span class="rvts15">Show details</span><span class="rvts6">” option. This will launch the T-Account viewer.&nbsp;</span></li>
+</ol>
+<div class="rvps93">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts40">The </span><span class="rvts37">T-Account viewer</span><span class="rvts40"> may also be selected on the&nbsp;</span><span class="rvts37"> T-Account viewer</span><span class="rvts40"> option (</span><span class="rvts37">Reports</span><span class="rvts40"> ribbon).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: middle; width: 35px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 827px;">
+   <p class="rvps12"><span class="rvts85">The Ledger analyser will not be &nbsp;automatically updated when batches or documents are updated (posted) to the ledger. &nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">You need to click on the </span><span class="rvts98">Report</span><span class="rvts85"> button to rebuild (refresh) the report.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps93">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><a class="rvts38" href="ledger-analyser-unposted-reports.html">Printing unposted batches in the Ledger analyser</a></p>
+   <p class="rvps12"><span class="rvts85">The Ledger analyser does not include unposted batches and documents. </span><span class="rvts54">You may view, print and export a Trial balance, Income statement and Balance sheet for unposted as well as posted batches from the Batch entry (</span><span class="rvts53">F2</span><span class="rvts54">) context menu.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Viewer Debtors / Creditors - Trial balance / Balance sheet</span></span></h1>
+<p class="rvps2"><span class="rvts82">The Trial balance and the Balance sheet report types allows you to select the Viewer Debtors / Creditors option. This will list the individual debtor (customer / client) account balances for the Debtor's control account and the individual creditor (supplier / vendor) account balances for the Creditor's control account.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts30">Do not select (tick) if you only need to view only the control accounts of the Debtor and Creditor accounts.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">An example, in the "</span><span class="rvts15">Trial balance</span><span class="rvts6">" and "</span><span class="rvts15">Balance sheet</span><span class="rvts6">", listing the individual debtor (customer / client) and creditor (supplier / vendor) accounts, is as follows:</span></p>
+<p class="rvps242"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-view-debtor-creditor.png"></p>
+<p class="rvps2"><span class="rvts29"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Export to CSV Files&nbsp;</span></span></h1>
+<p class="rvps19"><span class="rvts30">The export feature of the T-Account Analyser allows you to create export files of any view of the data to the Comma Separated Value (*.csv) file format. You may then use your favourite Spreadsheet program (e.g. OpenOfficeCalc or Microsoft Excel, etc.) to analyse, sort and filter the data.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">You may also build charts in your Spreadsheet program and use it to make powerful presentations in your presentation program (e.g. OpenOfficeImpress, Microsoft Powerpoint, etc.).&nbsp;</span></p>
+<p class="rvps19"><span class="rvts29">To create a Ledger Export report:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Once finished, selecting your options, click on the </span><span class="rvts29">Report</span><span class="rvts30"> button to update the Ledger analyser screen.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">You may then click on the </span><span class="rvts29">Export</span><span class="rvts30"> button. This will launch the </span><span class="rvts78">Save as</span><span class="rvts30"> screen.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the folder in which you wish to save the file.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">The default file name will be </span><span class="rvts78">ExportLedger</span><span class="rvts30">. Overtype this with your own, if necessary. If you do not do this, you may replace existing (previously exported) files.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the file type </span><span class="rvts78">Comma Separated Value</span><span class="rvts30"> (*.csv).</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Save</span><span class="rvts30"> button. This will automatically open (launch) the file in the program associated with the Comma Separated Value file type (e.g. OpenOfficeCalc or Microsoft Excel, etc.).&nbsp;</span></li>
+</ol>
+<p class="rvps19"><span class="rvts30"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

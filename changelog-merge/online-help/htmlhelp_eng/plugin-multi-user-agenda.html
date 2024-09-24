@@ -1,0 +1,506 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Multi-user Agenda plugin</title>
+  <meta name="description" content="Multi-user agenda plugin - osfinancials.org" /> 
+  <meta name="keywords" content="Bulk time entries,Appointments,Calendar">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Multi-user Agenda plugin">
+  <meta name="twitter:description" content="Multi-user agenda plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Multi-user Agenda plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Multi-user agenda plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-multi-user-agenda"
+		  data-hnd-context="44"
+		  data-hnd-title="Multi-user Agenda plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu-generic-plugins.html">Plugins menu - Generic plugins </a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-menu-generic-plugins.html" title="Plugins menu - Generic plugins " role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugins-menu-generic-plugins.html" title="Plugins menu - Generic plugins " role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-free-fields.html" title="*Freefields plugin" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Multi-user Agenda plugin</h2>
+
+            <div class="main-content">
+                
+<div class="rvps12">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/B57.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Multi-user Agenda plugin</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/plugin-manuals/516-multi-user-calendar" target="_blank">Manual</a><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/index.php/en/webshop/other/multi-user-calendar-plug-in" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40"> : Commercial : Once-off payment -</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">With this plugin you have the possibility the run multiple agenda in osFinancials.</span><br/><span class="rvts6">You can have a agenda for each employee and create invoices directly from out his/hers agenda with a simple click.</span><br/><span class="rvts6">Each agenda has it's own calendar and task list.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Introduction to Multi-user Agenda plugin&nbsp;</span></span></h1>
+<p class="rvps184"><span class="rvts6">This plugin enhances multi-user agenda (multiple agendas) on the Calendar. You can add agendas and link them as default to the current user. For every agenda a tab will appear in the agenda in </span><span class="rvts30">osFinancials</span><span class="rvts6"> so you can see what the other agenda's have for appointments. You may also create invoices for each of these all agendas.</span></p>
+<p class="rvps184"><span class="rvts6">You can have a agenda for each employee, salesperson, user, etc. and create invoices directly from his / her agenda with a simple click. Each agenda has it's own calendar and task list.</span></p>
+<p class="rvps184"><span class="rvts6">If you create users in the </span><span class="rvts14">Setup → Access control</span><span class="rvts6"> menu, you may link each of these users to their own Agenda on the </span><span class="rvts15">Access Control - Others</span><span class="rvts6"> tab.</span></p>
+<p class="rvps184"><span class="rvts6">There are ten (10) main categories of events which you can manage (add, edit, delete or change dates of events) for each users agenda. These are:</span></p>
+<p class="rvps184"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/calendar-event-types.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps370 noindent"><span class="rvts14">Appointment</span><span class="rvts6"> (general - i.e. with bank manager, lunches, etc.)</span></li>
+ <li style="text-indent: 0px" class="rvps370 noindent"><span class="rvts14">Repeating invoices</span><span class="rvts6"> - schedule when you need to copy / process repeating invoices.</span></li>
+ <li style="text-indent: 0px" class="rvps370 noindent"><span class="rvts14">Debtors appointment</span><span class="rvts6"> - schedule any of the six (6) categories of appointments with debtors / customers for specials, accounts, etc.</span></li>
+ <li style="text-indent: 0px" class="rvps370 noindent"><span class="rvts14">Creditors appointment</span><span class="rvts6"> - schedule appointments with creditors / suppliers for orders, accounts, etc.</span></li>
+ <li style="text-indent: 0px" class="rvps370 noindent"><span class="rvts14">Hours</span><span class="rvts6"> - schedule the hours (time) to invoice debtors / customers. Once these are set you may generate Quotes for the hours. Once these Quotes are generated, you may edit them (if necessary) and convert them to Invoices.</span></li>
+</ul>
+<p class="rvps184"><span class="rvts6">An example of the Multi-user Agenda screen is as follows:&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-view.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">User dates</span><span class="rvts6"> - Displays only for the selected user.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">General dates</span><span class="rvts6"> - Displays for all users.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">Appointments</span><span class="rvts6">- Appointments (events) scheduled for this day</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">Flexi-time</span><span class="rvts6"> - Time may be set different for each working day. You may also use colours to display the working hours for each different working day. For example, on Tuesdays, the user may work longer hours e.g. from 6:00 - 17:00 while working from 08:00 - 16:00 on other days.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">Tasks</span><span class="rvts6"> - Each user has its own task list. Once a task is completed, the user may tick the task as completed. The task will be displayed with a line through the text. Overdue (unattended) tasks will be indicated in a </span><span class="rvts14">red font colour</span><span class="rvts6">.</span></li>
+</ul>
+<p class="rvps184"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Activate the Multi-user Agenda plugin</span></span></h1>
+<p class="rvps184"><span class="rvts14">To Activate the Multi-user calendar plugin:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon, select </span><span class="rvts14">Plugins → Generic → Multi-user Agenda</span><span class="rvts6">. If this plugin is not listed under </span><span class="rvts69">Plugins → </span><span class="rvts14">Generic</span><span class="rvts6">, activate it via </span><span class="rvts69">Tools → </span><a class="rvts32" href="plugins-activate.html">Activate plugins</a><span class="rvts6">.</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-menu.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If you have not purchased and registered this Plugin, and launch this plugin from the</span><span class="rvts37"> Tools → Activate plugins</span><span class="rvts40"> menu </span><span class="rvts37">Setup</span><span class="rvts40"> ribbon), following message is displayed:&nbsp;</span></p>
+   <p class="rvps6"><span class="rvts17">You will need to purchase this plugin to enable it.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the "</span><span class="rvts15">Register plugins</span><span class="rvts6">" screen, select (tick) the "</span><span class="rvts15">Enable multyuser agenda'</span><span class="rvts6"> option to activate it.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-activate.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Close</span><span class="rvts6"> button. At first only the </span><span class="rvts14">osFinancials</span><span class="rvts6"> tab is added to the Calendar.&nbsp;</span></li>
+</ol>
+<p class="rvps371"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Adding users to the Multi-user Agenda plugin&nbsp;</span></span></h1>
+<p class="rvps184"><span class="rvts14">To add users to the Multi-user Agenda plugin:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the </span><span class="rvts14">Calendar</span><span class="rvts6">, click on the </span><span class="rvts14">add / edit</span><span class="rvts6"> &nbsp;button. The Resource Maintenance screen is displayed:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+</ol>
+<p class="rvps185"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-add1.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><img alt="" style="padding : 1px;" src="lib/icon-resource-add.png"><span class="rvts6">button to add a user. &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
+</ol>
+<p class="rvps185"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-add-new.png"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Enter the name for the User. You may also add additional text for the user, if necessary.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Select (tick) the "</span><span class="rvts15">Use as default for this user</span><span class="rvts6">" option to load the user when launching the calandar.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button to save this resource.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">If you need to set colours or add / edit delete special day events for the user, click on the </span><span class="rvts14">Edit special day events</span><span class="rvts6"> button.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Agenda</span><span class="rvts6"> button.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Tasks</span><span class="rvts6"> button or on the </span><span class="rvts14">osFinancials</span><span class="rvts6"> tab (or any of the User tabs, if already created). This will add the new user's tab for each resource added..</span></li>
+</ol>
+<p class="rvps185"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-add-resources-added.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the New User's tab to view his / her agenda. An example of the Multi-user Agenda (after a users have been added), is displayed as follows:&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Change events to another user</span></span></h1>
+<p class="rvps184"><span class="rvts6">By default, all existing events scheduled before adding users to the Multi-user agenda plugin, will be available under the main resource, i.e. </span><span class="rvts14">osFinancials</span><span class="rvts6">. You may need to select these and assign or change these to specific users. &nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">You may assign an event / appointment from a user to another user.&nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">To do this, select an event / appointment and right-click.</span></p>
+<p class="rvps184"><span class="rvts6">On the context menu, select the </span><span class="rvts14">Change to</span><span class="rvts6"> option.&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-change1.png"></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-change.png"></p>
+<p class="rvps184"><span class="rvts6">Select an user and click on </span><span class="rvts14">OK</span><span class="rvts6">.</span></p>
+<p class="rvps184"><span class="rvts6">The selected event will be removed from the existing user and added to the selected user.&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-view.png"></p>
+<div class="rvps185">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Colour coding also makes it easier to identify the category of the event, when displayed in the Calendar.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Editing General and Special dates&nbsp;</span></span></h1>
+<p class="rvps184"><span class="rvts14">To edit General and Special dates:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the the Calendar, select a User on the tabs.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the</span><span class="rvts14"> Edit special days</span><span class="rvts6"> button to change the colors and to add, edit or delete user dates for the selected user. You may also change the colors and to add, edit or delete days applicable to all users on the</span><span class="rvts14"> General dates</span><span class="rvts6"> tab.</span></li>
+</ol>
+<p class="rvps185"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-user-dates.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">To select the colours, click on the </span><span class="rvts14">Select color</span><span class="rvts6"> button.&nbsp;</span></li>
+</ol>
+<p class="rvps185"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-colour-picker1.png"><span class="rvts6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Once finished, click on the </span><span class="rvts14">Save</span><span class="rvts6"> button.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Tasks </span><span class="rvts6">or</span><span class="rvts14"> Agenda</span><span class="rvts6"> button. The resources will be changed for the selected user.</span></li>
+</ol>
+<div class="rvps371">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The standard colours will be displayed. To select different shades or customise your colours, click on the </span><span class="rvts37">Define Custom Colors</span><span class="rvts40"> button. You may drag the slider up or down, etc. to select your own color. Once you have decided upon a color, click on the</span><span class="rvts37"> Add Custom Colors</span><span class="rvts40"> button and on the </span><span class="rvts37">OK</span><span class="rvts40"> button. This will generate and insert the color code into the Special days screen.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Delete a user</span></span></h1>
+<div class="rvps184">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps184"><span class="rvts6">This operation cannot be undone. Make absolutely sure that this is the correct user, before deleting. Should you delete the incorrect user, you need to recreate the user that was erroneously deleted.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps184"><span class="rvts14">To delete a user from the Multi-user Agenda&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Launch the </span><span class="rvts15">Calendar</span><span class="rvts6">, if not already displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Select the correct User on the tabs, if the correct user is not already selected.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">add / edit</span><span class="rvts6"> button. The </span><span class="rvts15">Resource Maintenance</span><span class="rvts6"> screen will be displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Make absolutely sure that this is the correct user. If not, select a user from the </span><span class="rvts15">Resource</span><span class="rvts6"> list or click on the correct User tab.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><img alt="" style="padding : 1px;" src="lib/icon-resource-delete.png"><span class="rvts6"> button to delete a user. The User will be removed from the list and the User tabs.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Bulk time entries</span></span></h1>
+<p class="rvps184"><span class="rvts6">Users may create hours events for a selected debtor (customer / client). To do this, click on the </span><span class="rvts14">Bulk time entry</span><span class="rvts6">.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-agenda-bulk-entry.png"></p>
+<p class="rvps184"><span class="rvts30">On the Bulk time entry screen, The User will be displayed.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/calendar-bulk-time-entry-options.png"></p>
+<p class="rvps2"><span class="rvts30"><br/></span></p>
+<p class="rvps42"><span class="rvts30">Select and enter the start dates and number of hours.&nbsp;</span></p>
+<p class="rvps42"><span class="rvts30">Select a stock item (usually sales no stock type)</span></p>
+<p class="rvps42"><span class="rvts30">Select the debtor (customer / client) account.&nbsp;</span></p>
+<p class="rvps42"><span class="rvts30">Click on the </span><span class="rvts29">Create entries</span><span class="rvts30"> button. A confirmation message </span><span class="rvts6">will be displayed.</span></p>
+<p class="rvps6"><span class="rvts46">"</span><span class="rvts17">Entries created!"&nbsp;</span></p>
+<p class="rvps19"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/calendar-bulk-time-entry-created-entries.png"></p>
+<p class="rvps42"><span class="rvts6">Once the entries are created, these entries will be listed in the calendar. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may then edit the Hours event, if necessary. You need to click on the </span><span class="rvts14">Create invoices for hours</span><span class="rvts6"> button on top of the Calendar to generate invoices.&nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">These </span><span class="rvts14">Bulk time entries</span><span class="rvts6"> will be listed on the </span><span class="rvts14">Appointment</span><span class="rvts6"> tab of the selected debtor (customer / client) account.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts476">Reports for the Calendar</span></span></h1>
+<p class="rvps184"><span class="rvts6">The Calendar report allows you to print the categories of events (i.e. Appointments, Debtor appointments, Creditor appointments and Hours) scheduled in the Calendar (Planner).</span></p>
+<p class="rvps184"><span class="rvts14">To print Calendar - Hours report:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps184 noindent"><span class="rvts6">On the </span><span class="rvts14">Reports</span><span class="rvts6"> ribbon, select </span><span class="rvts14">Reports → Calendar</span><span class="rvts6">.&nbsp;</span></li>
+</ol>
+<p class="rvps369"><img alt="" style="padding : 1px;" src="lib/reports-calendar-hours-options.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps184 noindent"><span class="rvts6">Select the period on the </span><span class="rvts14">Per period</span><span class="rvts6"> tab. You may click on the </span><span class="rvts14">Per date(s)</span><span class="rvts6"> tab to select a specific date or a range of dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts6">Select the the following options:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps369 noindent"><span class="rvts14">Agenda</span><span class="rvts6"> - Select to include the general events (e.g. meetings, appointments, etc.). &nbsp;</span></li>
+  <li class="rvps369 noindent"><span class="rvts14">Debtor appointment</span><span class="rvts6"> - Select to include the appointments for debtor (customer / client) accounts. All appointments are also listed in the </span><span class="rvts14">Appointment</span><span class="rvts6"> tab of the</span><span class="rvts14"> Debtors</span><span class="rvts6"> (</span><span class="rvts14">Default</span><span class="rvts6"> ribbon).&nbsp;</span></li>
+  <li class="rvps369 noindent"><span class="rvts14">Creditor appointment</span><span class="rvts6"> - Select to include the appointments for creditor (supplier / vendor) accounts. All appointments are also listed in the </span><span class="rvts14">Appointment</span><span class="rvts6"> tab of the </span><span class="rvts14">Creditors</span><span class="rvts6"> &nbsp;(</span><span class="rvts14">Default</span><span class="rvts6"> ribbon).&nbsp;</span></li>
+  <li class="rvps369 noindent"><span class="rvts14">Hours</span><span class="rvts6"> - Select to include the appointments for the hours event category. The are scheduled appointments for which quotes are generated and confirmed to invoices. &nbsp;</span></li>
+ </ol>
+ <li class="rvps184 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button.&nbsp;</span></li>
+</ol>
+<p class="rvps184"><span class="rvts6">An example of the "</span><span class="rvts15">Calendar - Hours</span><span class="rvts6">" (all events) report, is as follows:</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-multi-user-report.png"></p>
+<p class="rvps184"><span class="rvts6">The colours for the events are as follows:</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/calendar-event-types.png"></p>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">Repeating invoices are not included in this report.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps184">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">In addition to osFinancials resource, &nbsp;will be replaced when using the Multi-user Agenda plugin with the name of the Resource (User). This report will be printed for each user.</span></p>
+   <p class="rvps12"><span class="rvts40">The resource can also be linked to an user in the </span><span class="rvts37">Others</span><span class="rvts40"> tab of the </span><span class="rvts37">Setup → Access control</span><span class="rvts40"> menu.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Settings for the Calendar</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Set the Calendar as default</span></span></h2>
+<p class="rvps184"><span class="rvts6">By default, the Welcome screen will be launched when opening a Set of Books. You may activate the Calendar to be displayed when opening a Set of Books.</span></p>
+<p class="rvps184"><span class="rvts6">When launching osFinancials and you open the Set of Books, the Welcome screen will be displayed. When opening the Set of Books again, the Calendar will automatically be displayed.&nbsp;&nbsp;</span></p>
+<p class="rvps184"><span class="rvts14">To set the calendar as the default option when opening the Set of Books:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup </span><span class="rvts6">ribbon, select</span><span class="rvts14"> Setup → System parameters</span><span class="rvts6">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Select (tick) the “</span><span class="rvts15">Show calendar</span><span class="rvts6">” field.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button.&nbsp;</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Access control settings</span></span></h2>
+<p class="rvps184"><span class="rvts14">To add users and settings for the Multi-user Agenda:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">On the </span><span class="rvts14">Setup </span><span class="rvts6">ribbon, select</span><span class="rvts14"> Access control</span><span class="rvts6">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Add users, if necessary.</span></li>
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Others</span><span class="rvts6"> tab.&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="text-indent: 0px" class="rvps356 noindent"><span class="rvts14">Link to calendar</span><span class="rvts6"> - The resource can also be linked to an user in the </span><span class="rvts14">Others</span><span class="rvts6"> tab of the </span><span class="rvts14">Setup → Access control</span><span class="rvts6"> menu.</span></li>
+  <li style="text-indent: 0px" class="rvps356 noindent"><span class="rvts14">Edit calendar</span><span class="rvts6"> - Allow or block user to add evens, tasks, contacts, etc. to the calendar.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps185 noindent"><span class="rvts6">Click on the </span><span class="rvts14">OK</span><span class="rvts6"> button.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

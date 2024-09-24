@@ -1,0 +1,496 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Reverse posted documents</title>
+  <meta name="description" content="How to reverse (cancel) posted documents - osfinancials.org " /> 
+  <meta name="keywords" content="Setup ribbon,Global processes menu,Reverse posted document,Document types,Document status,Batch report">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reverse posted documents">
+  <meta name="twitter:description" content="How to reverse (cancel) posted documents - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Reverse posted documents" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to reverse (cancel) posted documents - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="reverse-cancel-posted-documents"
+		  data-hnd-context="601"
+		  data-hnd-title="Reverse posted documents"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="documents.html">Documents (Sales and Purchases)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="documents.html" title="Documents (Sales and Purchases)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="update-post-documents.html" title="Update / Post documents" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="export-documents-grid.html" title="Export Documents - Export grid" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Reverse posted documents</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts30">This facility allows you to cancel or reverse all the transactions and balances of a selected document which have been updated (posted) to the ledger. This process will automatically:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts30">Export (remove) the transactions from the transaction file (TransAct.DB) file, reset the totals and account balances of all the accounts (which is linked to the selected stock items on </span><span class="rvts29">Stock items </span><span class="rvts30">(</span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon), debtor or creditor accounts, stock quantities, etc.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">The reversed document may then be selected for the debtor or creditor, edited and posted to the ledger. If you do not need to update (post) the document to the ledger, you may delete the document in </span><span class="rvts29">Edit → Documents </span><span class="rvts30">(</span><a class="rvts84" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon).&nbsp;</span></li>
+</ul>
+<p class="rvps19"><span class="rvts30">The balances of the accounts and stock item records will be corrected automatically for the following documents:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps19 noindent"><span class="rvts30">Documents for Debtors (customers / clients) (Invoices or Credit notes) - debtor account, sales account, cost of sales and stock control account as well as any Output VAT/GST/Sales Tax accounts and the quantities and cost prices of any stock items.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts30">Documents for Creditors (suppliers) (Purchase or Supplier return documents) - creditor account, cost of sales and stock control account, as well as any Input VAT/GST/Sales Tax accounts, and the quantities and cost prices of any stock items returned to creditors (suppliers).&nbsp;</span></li>
+</ul>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The </span><a class="rvts52" href="access-control-log-report.html">Log-report</a><span class="rvts40"> in </span><span class="rvts37">Setup → Access control</span><span class="rvts40"> (</span><span class="rvts37">Setup </span><span class="rvts40">ribbon) will list the date and time, as well as which user and on which device, the documents were cancelled as </span><span class="rvts53">REVDOC -</span><span class="rvts54"> Reverse doc! and the Batch ID.</span><span class="rvts40">&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If a document for a debtor (customer / client) (Invoice is generated or a Quote which is confirmed and converted to an Invoice), or if a document for a creditor (supplier / vendor) (purchase document is generated an order is confirmed and converted to a purchase document ), and these documents are not yet updated (posted) to the ledger, the following options are available to edit the transactions and/or comments:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts85">Delete Document - delete the entire document, including all transactions and comments in the document.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Delete transactions and/or comments in a document - only the selected transaction(s), or comment(s), will be deleted from the document.&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">It is recommended that you make a backup of the Set of Books, before you start to use this facility to cancel or reverse a posted batch. In the event of making a mistake or if some problems are experienced, you may then easily restore the Set of books from the backup file.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">It is strongly recommended that you take the utmost precautions, before you use this facility. The following is a few guidelines to be taken into account, before using this facility:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts85">Invoices - Once an invoice is already handed to, or sent to a debtor (customer / client), you need to generate a credit note to reverse or cancel the invoice.&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">Purchase documents - Once a purchase document is already handed to or sent to a creditor (supplier / vendor), you need to generate a supplier return document to reverse or cancel the purchase document.&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">This is of importance as the debtor (customer / client) or creditor (supplier / vendor) will receive the documents (invoice or purchase document), and record it in their books. They will then receive no source document to cancel or correct the source document received earlier in their records. If you and your debtors (customers / clients) or creditors (suppliers) are registered as VAT/GST/Sales Tax-vendors, it may have implications for VAT/GST/Sales Tax.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps90"><span class="rvts30"><br/></span></p>
+<p class="rvps19"><span class="rvts29">To reverse or cancel all the transactions in a posted document:</span><span class="rvts30">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps42 noindent"><span class="rvts30">On the </span><span class="rvts29">Setup</span><span class="rvts30"> ribbon, select</span><span class="rvts29"> Global processes → Reverse posted batch/document</span><span class="rvts30">. The "</span><span class="rvts78">Reverse posted batch/document"</span><span class="rvts30"> screen is displayed, listing only the posted batches on the </span><span class="rvts29">Batches</span><span class="rvts30"> tab:</span></li>
+</ol>
+<p class="rvps41"><span class="rvts30">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/reverse-posted-batch-select.png"></p>
+<div class="rvps63">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">By default, only the posted batches will be listed. If you select (tick) the "No document po" (No documents posting) option, it will add the posted documents to the posted batches on the list.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">To list the posted documents, click on the </span><span class="rvts29">Documents</span><span class="rvts30"> tab. The "</span><span class="rvts78">Reverse posted batch/document"</span><span class="rvts30"> screen will change to list all the documents which are already updated (posted) to the ledger.&nbsp;</span></li>
+</ol>
+<p class="rvps41"><img alt="" style="padding : 1px;" src="lib/reverse-posted-document-select.png"></p>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">The document numbers for Invoices, Credit notes, Purchases and Supplier returns, as prefixed in the </span><span class="rvts98">Documents setup</span><span class="rvts85"> (</span><span class="rvts98">Setup</span><span class="rvts85"> ribbon), makes it easy to identify the document type.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">The following documents may be included:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><a class="rvts38" href="stock-change-stock-quantities.html">Stock adjustments</a><span class="rvts85"> - Document numbers prefixed with "ST" is a 7-digit document number. These are automatically generated when doing </span><a class="rvts52" href="stock-change-stock-quantities.html">stock adjustments</a><span class="rvts85"> (changes in the quantities on hand). These </span><a class="rvts52" href="stock-change-stock-quantities.html">stock adjustments</a><span class="rvts85"> does not show any transactions and it prints a blank Posted batch type reports.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="stock-item-new-bom-production.html">BOM (Production)</a><span class="rvts85"> stock type - </span><span class="rvts98">Assemble</span><span class="rvts85"> / </span><span class="rvts98">Disassemble</span><span class="rvts85"> context menu options - Document numbers prefixed with"SA" will be a 7-digit number.</span></li>
+    <li class="rvps12 noindent"><a class="rvts38" href="projects.html">Project Quote</a><span class="rvts85"> - &nbsp;Document numbers prefixed with"D" will be a 7-digit number.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Select the posted document you need to reverse or cancel from the list.&nbsp;</span></li>
+</ol>
+<div class="rvps63">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If you have more than one updated (posted) document to cancel (reverse), you may press the </span><span class="rvts98">Ctrl</span><span class="rvts85"> key and click on each document you wish to reverse / cancel.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps63">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">If you have more than one updated (posted) document to cancel (reverse), you may click on the </span><span class="rvts98">Select from delimited list</span><span class="rvts85"> button.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts85">For example, if you wish to cancel (reverse) Invoices IN000003 and IN000004 as well as Credit note CR000001 simultaneously, enter each of the document numbers separated by a comma (without a space) e.g. IN000003,IN000004,CR000001. If you click on the </span><span class="rvts98">Reverse posted document</span><span class="rvts85"> button, all the selected documents will be cancelled (reversed) during the same process.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">View the details of the document(s) to make absolutely sure that it is the correct document(s).</span></li>
+</ol>
+<div class="rvps83">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 55px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 860px;">
+   <p class="rvps12"><span class="rvts85">To view the details of the transactions in the selected </span><span class="rvts54">document(s)</span><span class="rvts85">, you may:-&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts85">Double-click on the selected </span><span class="rvts54">document(s</span><span class="rvts85">).&nbsp;</span></li>
+    <li class="rvps12 noindent"><span class="rvts85">On the </span><span class="rvts98">Details</span><span class="rvts85"> tab, the transactions for the selected document(s) will be listed.&nbsp;</span></li>
+   </ul>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/reverse-posted-document-details.png"></p>
+   <p class="rvps12"><span class="rvts85">If you wish to print a list of the transactions in the posted batch (posted batches), you may click on the </span><span class="rvts98">Print</span><span class="rvts85"> button to print a "Batch type - Posted batch" report.&nbsp;</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/reverse-posted-document-details-printed.png"></p>
+   <p class="rvps12"><span class="rvts85">The Cost of Sales "*COST OF SALES entries for each stock item will not be printed.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Reverse posted document</span><span class="rvts30"> button to start the process. The following information message will be displayed:</span></li>
+</ol>
+<p class="rvps11"><span class="rvts46">This will radically alter your data! We recommend that you stop and make a backup!</span><br/><span class="rvts46">Do you wish to continue?</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Yes</span><span class="rvts30"> button, only if you are absolutely sure that the selected document(s) is correct, and that you need to continue with this process.&nbsp;</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts207">If you have not made a backup of the Set of Books before starting this process it is recommended that you click on the </span><span class="rvts286">No</span><span class="rvts207"> button and first make a backup of the Set of Books.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">If you click on the </span><span class="rvts29">Yes</span><span class="rvts30"> button, the process will be started.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Wait until the process is finalised. &nbsp;</span></li>
+</ol>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">A log displaying the new quantities for each stock item on the reversed documents will be displayed, for example:</span></p>
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/reverse-posted-document-finished-log.png"></p>
+   <p class="rvps12"><span class="rvts54">You may copy this information to Notepad or your favourite text editor.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">It is advisable not to use your system for other tasks while this process is running.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps41">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts85">Once this process is finalised, the selected document will not be listed on the Reverse posted document screen.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Close</span><span class="rvts30"> button in the title bar of the Reverse posted batch/document screen.</span></li>
+ <li style="text-indent: 0px" class="rvps41 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Invoice</span><span class="rvts30"> icon, and select the document type. If you select the debtor or creditor, for which the document was reversed, or cancelled, you may select the reversed document number. You may then edit these documents, delete the transactions, etc. Once the document is corrected, you may update (post) the document to the ledger.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

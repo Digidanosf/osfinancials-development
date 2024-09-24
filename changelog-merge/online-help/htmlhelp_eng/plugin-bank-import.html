@@ -1,0 +1,1376 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Bank import plugin</title>
+  <meta name="description" content="Bank import plugin - osfinancials.org" /> 
+  <meta name="keywords" content="osFinancials5 subscription,Bank import,Bank accounts">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bank import plugin">
+  <meta name="twitter:description" content="Bank import plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Bank import plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Bank import plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-bank-import"
+		  data-hnd-context="235"
+		  data-hnd-title="Bank import plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins.html" title="Plugins" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-dynareg-creditor-stock.html" title="Dynareg - Limit by Creditor with selection list plugin" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-bank-import-petty-cash.html" title="Bank import plugin - Petty cash transactions (Manual entry)" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Bank import plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Introduction to the Bank Import Plugin</span></span></h1>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps2"><img alt="" style="width : 48px; height : 48px; padding : 5px; margin : 5px 5px;" src="lib/icon-osf-shop-bank.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts168">Bank Import Plugin Licence</span></p>
+   <p class="rvps12"><span class="rvts159">The Bank Import Plugin is included with the osFinancials5 Business class subscription. With a registered osFinancials5 Business class subscription, you gain access to import and process unlimited statements for each of your bank accounts.</span></p>
+   <p class="rvps12"><span class="rvts159">Upon purchasing the osFinancials5 Business class subscription, you will receive an email containing registration (activation) codes and detailed instructions.</span></p>
+   <p class="rvps12"><span class="rvts159">For unregistered versions of osFinancials5, a message may appear:&nbsp;</span></p>
+   <p class="rvps6"><span class="rvts464">"This demo plugin allows %s records to be entered. If you need more, please buy the product at </span><a class="rvts240" href="https://www.osfinancials.org/en/webshop/best-sellers/bankimport-plugin" target="_blank">https://www.osfinancials.org/en/webshop</a><span class="rvts464">".</span></p>
+   <p class="rvps12"><span class="rvts159">We encourage users to support osFinancials by purchasing the osFinancials5 Business class subscription. This not only unlocks the full functionality of the Bank Import Plugin but also supports ongoing development and improvements.</span></p>
+   <p class="rvps12"><span class="rvts159">For users of osFinancials 4, the Bank Import Licence is available for purchase from our </span><a class="rvts169" href="https://www.osfinancials.org/en/webshop/best-sellers/bankimport-plugin" target="_blank">osFinancials webshop</a><span class="rvts159">.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps26"><span class="rvts6">The Bank Import Plugin in osFinancials empowers you to seamlessly download bank statement files from your online banking platform, provided by your bank or financial institution. These downloaded statements can then be effortlessly imported into the corresponding bank accounts, referred to as cash books within osFinancials.</span></p>
+<p class="rvps26"><span class="rvts6">This plugin supports the download of statements for multiple bank accounts and credit cards, accommodating users with diverse banking needs. It's essential to have the corresponding Payments and Receipts journals set up for each bank or credit card account within osFinancials.</span></p>
+<p class="rvps26"><span class="rvts6">By importing bank statements, transactions are automatically populated into the Payments and Receipts columns, eliminating the need for manual data entry. This automation not only saves time but also minimizes the risk of errors inherent in manual input.</span></p>
+<p class="rvps26"><span class="rvts6">The user-friendly interface of the Bank Import Plugin includes context menus that facilitate the location, selection, and search for specific transactions, debtors, creditors, or general ledger accounts. This enhances the navigation and management of bank transactions, contributing to efficient financial data handling.</span></p>
+<p class="rvps26"><span class="rvts6">Setting debtors, creditors, or general ledger accounts as open item accounts enables precise linking of debit and credit transactions, ensuring accurate tracking of outstanding balances and facilitating efficient payment and receipt management. The plugin allows flexibility in linking portions of payments or receipts to multiple outstanding transactions as needed.</span></p>
+<p class="rvps26"><span class="rvts6">Furthermore, the plugin enables the linking of accounts to specific debtors, creditors, or general ledger accounts, ensuring subsequent bank statement imports automatically allocate transactions correctly based on predefined account linkages. This feature streamlines transaction allocation, enhancing the accuracy of financial records and saving time.</span></p>
+<p class="rvps26"><span class="rvts6">Utilizing bank references, the plugin automatically allocates or links various transactions, such as payments, deposits, receipts, and other debits/credits, to the correct accounts within your Set of Books. This automation simplifies processes and reduces the need for manual intervention.</span></p>
+<p class="rvps26"><span class="rvts6">In summary, the Bank Import Plugin in osFinancials offers a comprehensive solution for importing bank statements, automating transaction allocation, and efficiently managing and reconciling bank accounts within your accounting system. With its array of features and functionalities, it not only reduces manual data entry but also enhances the accuracy and effectiveness of financial management processes.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Managing Bank Statements</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Download and Save your Bank Statement</span></span></h2>
+<p class="rvps2"><span class="rvts6">Before you can use this </span><a class="rvts31" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6">, you need to download your Bank Statement from your financial institution and save it in a valid file format.</span></p>
+<p class="rvps2"><span class="rvts6">When downloading a bank statement; from your bank or financial institution; you may need to:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Sequence to list your transactions, e.g. Date, Amount or Description.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the correct start and end dates, for your requirements.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">You may download bank statements for more than one bank account; credit card statements; etc.; provided that:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">You are registered for online banking at your bank or financial institution.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Have a created separate Bank, Credit card accounts, etc. which is linked to its own Payments and Receipt journals).</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">If you have created and use the Petty Cash account as a Bank Account, you may still enter the transactions manually, if required.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Different Methods for Tracking Bank Transactions</span></span></h2>
+<p class="rvps2"><span class="rvts6">You can keep track of your bank bookings in different ways, in this manual we will discuss the 2 most common ones.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Statement method</span><span class="rvts6">, where you make your bookings per statement from the bank.</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps16 noindent"><span class="rvts14">Benefits</span><span class="rvts6"> :</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">You have a good check of the balances: the final amounts on the statement.</span></li>
+  </ul>
+  <li class="rvps16 noindent"><span class="rvts14">Cons</span><span class="rvts6"> :</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">The bank balances are not "up to date", you always fall behind "today" depending on the shear frequency.</span></li>
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">It is possible that there are 2 statements with the same date</span></li>
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">In the download, you will always download all bookings from that date</span></li>
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">These "extra" bookings must be deleted either before importing, or immediately after the import in the screen for assigning the reference</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Date method</span><span class="rvts6">, in which you record the bookings by date.</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps16 noindent"><span class="rvts14">Benefits</span><span class="rvts6"> :</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">The bank balances are "up to date", you are one day behind today.</span></li>
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">No corrections on downloads, with bookings of the same date appearing on 2 statements.</span></li>
+  </ul>
+  <li class="rvps16 noindent"><span class="rvts14">Cons :</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="text-indent: 0px" class="rvps385 noindent"><span class="rvts6">None as far as known.</span></li>
+  </ul>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts14">Enter cash / bank details according to the "statement method"</span></p>
+<p class="rvps2"><span class="rvts6">You prepare statement no. 1 to verify the data.</span></p>
+<p class="rvps2"><span class="rvts6">You now have 2 options for entering the transactions:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">You can download the statement and process it electronically via electronic banking.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">You can enter the statement manually.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Configuring the Set of Books for the Bank Import plugin</span></span></h1>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Activating the Bank Import Plugin</span></span></h2>
+<p class="rvps17"><span class="rvts6">To activate the Bank Import Plugin's features, you must first check or confirm the setting. The Bank Import plugin uses a combined payment and receipt journal into a single journal for each bank account.</span></p>
+<p class="rvps2"><span class="rvts14">To activate the Bank Import plugin:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Go to the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon and select </span><span class="rvts14">Setup → System parameters</span><span class="rvts6">.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Deselect (remove the tick) on the “</span><span class="rvts15">Default bank reconciliation</span><span class="rvts6">” to activate this plugin.</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/pkugin-bank-import-activate.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts6">Click </span><span class="rvts14">OK</span><span class="rvts6">. This will save your setting.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Settings for the bank account batch</span></span></h2>
+<p class="rvps2"><span class="rvts6">Firstly, you will need to check and confirm the settings of the Bank entry batch.&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Go to the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon and select Cash/Bank entry </span><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/importbank.png"><span class="rvts6">. The “</span><span class="rvts15">Bank statement options</span><span class="rvts6">” screen is displayed:</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-1.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Select the “</span><span class="rvts15">Bank account</span><span class="rvts6">” into which you need to import your bank statement. In this example, &nbsp;"</span><span class="rvts15">ABC-Bank</span><span class="rvts6">" is selected.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click </span><span class="rvts14">Open</span><span class="rvts6">. The "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen, is displayed, as follows:</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/bank-import-03.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts6"> Click </span><span class="rvts14">F10: Setup</span><span class="rvts6"> </span><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/batchsetup.png"><span class="rvts6">. The "</span><span class="rvts15">Options for this batch</span><span class="rvts6">” - “</span><span class="rvts15">Standard</span><span class="rvts6">” tab is displayed:&nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-3.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts6">Check the following items:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts6">The contra account is the Account code (number) of your bank account in your ledger.</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">The check mark "</span><span class="rvts15">No tax</span><span class="rvts6">” should be 'on'. If you are not registered as a VAT (GST/Sales tax vendor you may leave this option unticked.&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" class="rvps2 noindent"><span class="rvts6">Then click on the "</span><span class="rvts15">Advanced</span><span class="rvts6">" tab and accept the settings as below.&nbsp;</span></li>
+</ol>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-4.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" class="rvps2 noindent"><span class="rvts6">Click on </span><span class="rvts14">OK</span><span class="rvts6">. if the settings are selected correctly. This will save your options and close the “</span><span class="rvts15">Options for this batch</span><span class="rvts6">” screen.&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Working with the bank import plugin</span></span></h1>
+<p class="rvps2"><span class="rvts6">Now all settings are checked/set correctly, transactions can be imported with the bank import plug-in.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Import Bank statements&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon and select </span><span class="rvts14">Cash/Bank entry</span><span class="rvts6"> </span><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/importbank.png"><span class="rvts6">. The “</span><span class="rvts15">Bank statement options</span><span class="rvts6">” screen is displayed:</span></p>
+<p class="rvps10"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-1.png"></p>
+<p class="rvps2"><span class="rvts6">Select the “</span><span class="rvts15">Bank account</span><span class="rvts6">” into which you need to import your bank statement.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">For the purposes of this tutorial, select “</span><span class="rvts15">ABC – Bank</span><span class="rvts6">”.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Click </span><span class="rvts14">Open</span><span class="rvts6">. The "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen, is displayed, as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-5.png"></p>
+<p class="rvps2"><span class="rvts6">Click on the "</span><span class="rvts15">Import bank statement</span><span class="rvts6">" </span><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/importbank.png"><span class="rvts6">. The “</span><span class="rvts15">Import bank statement</span><span class="rvts6">” screen is displayed:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-6.png"></p>
+<p class="rvps2"><span class="rvts6">Select a file format. You may select a Country to list the available file formats supported for a specific country. See - Supported bank import file formats.</span></p>
+<p class="rvps2"><span class="rvts6">For the purposes of this tutorial, select the “</span><span class="rvts15">INT-OFC / OFX standaard 2</span><span class="rvts6">” file format.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-7.png"></p>
+<p class="rvps2"><span class="rvts6">Then click on "</span><span class="rvts15">Import</span><span class="rvts6">".</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-8.png"></p>
+<p class="rvps2"><span class="rvts6">Select the “</span><span class="rvts15">Show details</span><span class="rvts6">” option. If the “</span><span class="rvts15">Show details</span><span class="rvts6">” is not selected (not ticked), the “</span><span class="rvts15">Check</span><span class="rvts6">” screen will not be launched.</span></p>
+<p class="rvps2"><span class="rvts6">The “</span><span class="rvts14">Open</span><span class="rvts6">” screen is displayed. Select the correct bank statement saved on your system.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-9.png"></p>
+<p class="rvps2"><span class="rvts6">Click on </span><span class="rvts14">Open</span><span class="rvts6">. The transactions included in the bank statement file will be imported.&nbsp;</span></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts57">If the “Show details” option is not selected (not ticked) on the "Import" tab of the "Import bank statement" screen, the “Check” screen will not be launched.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-11.png"></p>
+<p class="rvps2"><span class="rvts6">Check here if the transactions are correct. If a transaction is incorrect, this can be removed with the "</span><span class="rvts15">Delete line</span><span class="rvts6">" button. If a line is yellow, there is a change this transaction has already been imported into a previous import.</span></p>
+<p class="rvps2"><span class="rvts6">Check this transaction carefully!</span></p>
+<p class="rvps2"><span class="rvts14">Explanation of the "</span><span class="rvts16">Check</span><span class="rvts14">" screen:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #000080; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 148px;">
+   <p class="rvps2"><span class="rvts58">Delete line</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 1106px;">
+   <p class="rvps2"><span class="rvts57">This removes a selected line. For example, if it has been imported before.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 148px;">
+   <p class="rvps2"><span class="rvts58">Split</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 1106px;">
+   <p class="rvps2"><span class="rvts57">With this button, an amount can be split, for example, if one amount has been paid, but there are two VAT rates or one payment is made for more than one items, which need to be allocated to different accounts.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 148px;">
+   <p class="rvps2"><span class="rvts58">Merge</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 1106px;">
+   <p class="rvps2"><span class="rvts57">With this button amounts can be merged, for example if two payments are actually one invoice or need to be allocated to one account.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 148px;">
+   <p class="rvps2"><span class="rvts58">Statement reference</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 1106px;">
+   <p class="rvps2"><span class="rvts57">The reference is entered here, so that the payment can easily be retrieved later. Entering the statement reference it is not necessary, but you may need to enter for your specific requirements.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 148px;">
+   <p class="rvps2"><span class="rvts58">Apply</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 1106px;">
+   <p class="rvps2"><span class="rvts57">With the apply button, the reference is adjusted.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">If all statements are correct, click on </span><span class="rvts14">Close</span><span class="rvts6">. The screen below is displayed. In this screen, the imported bank statement(s), are listed.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-12.png"></p>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The details displayed on the “Import Bank Statement” screen is as follows:</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps12 noindent"><span class="rvts37">Transaction no.</span><span class="rvts40"> - This will be the transaction number generated and would consist basically of the date yyyy/mm/dd format; followed a time stamp and a reference number. This may differ from your operating system's regional and date settings.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Total</span><span class="rvts40"> - This is the net value Credit (Deposits / Receipts) minus the Debit (Payments) amounts. If the Credit (Deposits / Receipts) is more than the Debit (Payments) this will display a positive amount. Should the Debit (Payments be more than the Credit (Deposits / Receipts) this amount should be displayed as a negative (“ -”) amount.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">From</span><span class="rvts40"> - The start date as selected while downloading (exporting) the bank statement from your bank or financial institution.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Until</span><span class="rvts40"> - The end date until when transactions would be included in the downloaded (exported bank statement).</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Posted</span><span class="rvts40"> - The default value is “0”. This means that the transactions have not yet been posted (updated to the ledger). Once you have allocated (selected) Accounts and/or Tax accounts (where applicable) a value of “1” as posted (processed) will be displayed.</span></li>
+   </ol>
+   <p class="rvps12"><span class="rvts40">If the bank import is done, the font colour will change to green. The colour of the font for this line will change from black to blue after the journal is updated or posted to the ledger. If the next bank statement is entered, the font colour will change to green.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps386"><span class="rvts6">Click </span><span class="rvts14">Close</span><span class="rvts6"> again to import the transactions in the bank statement into the batch. This closes the “</span><span class="rvts15">Import bank statement</span><span class="rvts6">” screen. The bank statement transactions is imported into the “</span><span class="rvts15">Batch entry</span><span class="rvts6">” screen for the selected bank account:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-%2014.png"></p>
+<p class="rvps17"><span class="rvts6">If there is already a reference on the </span><span class="rvts14">Bank links</span><span class="rvts6"> tab for ledger accounts and on the </span><span class="rvts14">Bank accounts</span><span class="rvts6"> tab for debtor accounts and creditor accounts that exactly matches the reference field of the bank statement, the transactions from the imported bank statement will automatically be allocated against the correct accounts.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">This information will be displayed on the </span><span class="rvts14">Match log</span><span class="rvts6"> tab of the journal.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-14.png"></p>
+<p class="rvps2"><span class="rvts6">In this example, the transactions listed in the Match log tab, indicates that the imported transactions in lines 6, 8 and 9, is matched.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">This means that the bank references in the the "</span><span class="rvts15">Account code</span><span class="rvts6">" column on the </span><span class="rvts15">"Import bank statement - Check" </span><span class="rvts6">screen, matches the existing references on the </span><span class="rvts14">Bank links</span><span class="rvts6"> tab for these ledger accounts.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">Managing bank references with VAT (GST/Sales tax)&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If a matching "</span><span class="rvts15">References</span><span class="rvts6">" is entered in the </span><span class="rvts14">Bank links</span><span class="rvts6"> tab of a ledger account, and there is an exact match on the bank reference on an imported bank statement, the account will be allocated to the correct account in the "</span><span class="rvts15">Account</span><span class="rvts6">"column of the "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen, &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If VAT (GST/Sales tax) is applicable to transactions included in the import file of the bank statement, you need to link a Tax code from the "</span><span class="rvts15">Link tax</span><span class="rvts6">" list. This will ensure that the tax-code will be allocated to the correct account in the "</span><span class="rvts15">Tax</span><span class="rvts6">"column of the "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen, &nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-references-account-tax.png"></p>
+<p class="rvps2"><span class="rvts6">This setup streamlines the process of reconciling bank transactions by automating the allocation of transactions based on predefined references and tax codes, reducing manual effort and potential errors. It's a helpful feature for businesses dealing with a large volume of transactions and complex tax requirements.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Change the name of the Batch entry</span></span></h1>
+<p class="rvps2"><span class="rvts6">Change the name of the batch (alias) (i.e. “</span><span class="rvts15">ABC-Payments ABC-Bank</span><span class="rvts6">”) of the Batch. In this example, "</span><span class="rvts15">ABC-Bank-St.5</span><span class="rvts6">" is entered in the “</span><span class="rvts15">Change alias</span><span class="rvts6">” field. This will identify the specific Bank statement for which bank is processed in the specific batch. &nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-alias.png"></p>
+<div class="rvps17">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">If you have imported an incorrect bank statement, you can click on the </span><span class="rvts37">^D: Delete statement</span><span class="rvts40"> icon. This will delete all imported transactions in the journal.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Allocating transactions to ledgers / debtors / creditors&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">In the next step each transaction must be specified with an account (debtor / creditor / ledger) which belongs to the transaction.&nbsp;</span><br/><span class="rvts6">This account can be allocated in the account column. There are different ways to link a transaction to an account.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">The account is looked up by account name.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">The account is looked up by looking up the corresponding document.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">The account is looked up by looking for a debtor or creditor account.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">The account is entered automatically, because it is linked to the (bank) account number (i.e. the debtor is entered because the debtor himself and his / her bank account are linked).</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-1.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Account looked up by account name</span></span></h2>
+<p class="rvps2"><span class="rvts6">The details on a bank statement will be available in the batch entry screen for the bank account. These details will be displayed, for each selected transaction, in the following options of the batch entry screen:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Underneath the icons the descriptions as entered or processed by the bank.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Description column.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">These descriptions or details provide an important guide to identify and select the correct applicable account.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">To allocate an account to a transaction by name:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select a transaction.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click on the Account column and enter a few characters of the descriptions. In this example, “</span><span class="rvts15">ba</span><span class="rvts6">” is entered. All the accounts containing “</span><span class="rvts15">ba</span><span class="rvts6">” is listed.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select “</span><span class="rvts15">Bank charges</span><span class="rvts6">”. &nbsp; &nbsp;</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-2.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">The account looked up by searching for the corresponding document</span></span></h2>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts504">This way of allocating account to the transaction is only possible if there is a document (invoice / quote / credit note / purchase / purchase return / order).</span></p>
+   <p class="rvps12"><span class="rvts358">If the transaction belongs to a journal entry, this option cannot be used.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts14">To allocate an account to a transaction by document number:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select a transaction. In this example, “</span><span class="rvts15">IN000003</span><span class="rvts6">” is selected. The details from the imported bank statement displays 2 key details. You can now choose to select either “</span><span class="rvts15">Document lookup</span><span class="rvts6">”, “</span><span class="rvts15">Document lookup with amount</span><span class="rvts6">” or “L</span><span class="rvts15">ookup debtor</span><span class="rvts6">”. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Right-click on the transaction line and select “</span><span class="rvts15">Document lookup</span><span class="rvts6">” or “</span><span class="rvts15">Lookup document with amount</span><span class="rvts6">” on the context menu. The document entry listing all invoices will be listed. &nbsp;</span></li>
+</ol>
+<p class="rvps93"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-document.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts503">Select “</span><span class="rvts489">IN000003</span><span class="rvts503">” for “</span><span class="rvts489">Mr. AB Green</span><span class="rvts503">”. &nbsp; &nbsp; &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Double-click to transfer the selected “</span><span class="rvts15">Document</span><span class="rvts6">” to the “</span><span class="rvts15">Batch entry</span><span class="rvts6">” screen.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">In the "</span><span class="rvts16">Lookup document</span><span class="rvts14">" or “</span><span class="rvts16">Lookup document with amount</span><span class="rvts14">":&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">With the first option, the “</span><span class="rvts15">Document entry</span><span class="rvts6">” screen will be opened and the correct document can be searched for.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">With the second option, “</span><span class="rvts15">Lookup document with amount</span><span class="rvts6">", a document with a corresponding amount will be searched for.</span></li>
+</ul>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts57">You may use the filter options, to filter for a specific document. If the document you are searching for is still unposted, it will not be listed if “Posted” is selected. You may then select “All or “Unposted” options to list unposted documents.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">With the double-click, the “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen will automatically be launched (if the Debtor account is set as an “</span><span class="rvts15">Open item</span><span class="rvts6">” account) . In the example of “</span><span class="rvts15">Mr. AB Green</span><span class="rvts6">”, the transaction can be directly linked (matched) to the specific invoice</span><span class="rvts489">.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-doc-3.png"></p>
+<p class="rvps2"><span class="rvts6">The payment details and the invoice, (i.e. invoice “</span><span class="rvts15">IN000003</span><span class="rvts6">”) is displayed. Since the 2,000.00 payment is more than the payment, you can select to link other outstanding invoices, e.g. “</span><span class="rvts15">INV001</span><span class="rvts6">” (Batch entry invoice) for the balance of the payment received.&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">The account looked up by searching for the Debtors / Creditors account</span></span></h2>
+<p class="rvps2"><span class="rvts6">If a debtor or creditor name is in the details of the batch entry screen, you may select from the context menu to lookup a debtor or creditor account.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">To allocate an account to a transaction by creditor account:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select a transaction. In this example, “</span><span class="rvts15">PAYMENT ABC-OFFICE SUPPLIES</span><span class="rvts6">” is selected.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Right-click on the transaction line and select “</span><span class="rvts15">Lookup creditor</span><span class="rvts6">” on the context menu. The “</span><span class="rvts15">Creditor accounts</span><span class="rvts6">” listing all creditors (suppliers) will be listed. &nbsp;</span></li>
+</ol>
+<p class="rvps93"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-creditor-2.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select “</span><span class="rvts15">ABC-Office supplies</span><span class="rvts6">”. &nbsp;&nbsp;</span><span class="rvts503"> &nbsp;&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Double-click to transfer the selected creditor account to the batch entry screen.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">With the double-click, the “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen will automatically be opened (if the Creditor account is set as an “</span><span class="rvts15">Open item</span><span class="rvts6">” account. In the example of “</span><span class="rvts15">ABC-Office Supplies</span><span class="rvts6">”, the payment transaction can be linked (matched) to the batch transactions or documents</span><span class="rvts489">.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-allocate-creditor-1.png"></p>
+<p class="rvps2"><span class="rvts6">Select “</span><span class="rvts15">PU002</span><span class="rvts6">” (batch purchase) as the purchase transaction, for which this payment was made. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Press the Enter key and the linked transaction will updated in the “</span><span class="rvts15">Batch entry</span><span class="rvts6">” screen.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Account automatically selected as it is linked to the bank account number</span></span></h2>
+<p class="rvps2"><span class="rvts6">It is also possible to link an account number to debtors/creditor/ledger account.</span><br/><span class="rvts6">With this, transactions in the bank import are directly linked to the correct account. This linking can be done in several ways:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">If the number of the bank account of a debtor or creditor is known, this can be entered into the details of the relevant debtor/ledger/creditor.</span><br/><span class="rvts6">The transactions with the same bank account number entered for the debtor / creditor will be linked to the correct account in the "</span><span class="rvts15">Account</span><span class="rvts6">" column.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">It is also possible to link a bank account from a transaction. Stand on a transaction. The account (debtor, creditor or ledger) must be entered here for the first time.</span><br/><span class="rvts6">Then click the right mouse button and choose "</span><span class="rvts15">Link bank account</span><span class="rvts6">". With the next transaction from this account, the account will be filled in automatically.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Managing Bank Accounts and Account Bank References</span></span></h2>
+<p class="rvps2"><span class="rvts6">When Bank statements are imported, it will automatically import all transactions into the Batch entry screen (combined Payments and Receipts journal). You need to allocate the transactions to the correct accounts, as the bank statement does not know which accounts in </span><span class="rvts30">osFinancials</span><span class="rvts6"> is matched to items on the bank statement.</span></p>
+<p class="rvps2"><span class="rvts6">osFinancials allows you to manage these references to specific accounts. When importing a bank statement, and the account links are correct, it will automatically allocate the bank statement transactions to the correct accounts.</span></p>
+<p class="rvps2"><span class="rvts6">When importing statements and these are not linked, e.g. new receipts, payments, etc., these will then be set to "</span><span class="rvts15">Empty</span><span class="rvts6">" in the Accounts column of the Bank accounts Batch entry screen.</span></p>
+<p class="rvps2"><span class="rvts6">To automate the process for allocating (selecting accounts) to an imported bank statement, please take not of the following settings:</span></p>
+<p class="rvps2"><span class="rvts14">General ledger accounts</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Bank References</span><span class="rvts6"> – This needs to be correctly entered on the </span><span class="rvts14">Bank links</span><span class="rvts6"> tab. If this is correctly entered (edited), it will match the references as imported from bank statements.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Tax (VAT / GST / Sales Tax) </span><span class="rvts6">- If you are registered as a VAT / GST / Sales Tax Vendor, and VAT is applicable to the specific account, you need to link that account to the correct Input or Output Tax (VAT / GST / Sales Tax) account.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Debtor accounts</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps384 noindent"><span class="rvts14">Bank references</span><span class="rvts6"> - This needs to be correctly entered on the </span><span class="rvts14">Bank accounts</span><span class="rvts6"> tab. If this is correctly entered (edited), it will match the references as imported from bank statements.</span></li>
+ <li style="text-indent: 0px" class="rvps384 noindent"><span class="rvts14">Bank accounts</span><span class="rvts6"> – The Banking details for the Debtor (customer / client) account needs to be correctly maintained on the </span><span class="rvts14">Accounting information</span><span class="rvts6"> tab of the Debtor account. This may be used to manage debit orders, refund debtors, etc. via the automated payments system. BIC (Bank Identifier Code) and IBAN (International Bank Account Number) accounts are also supported.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Creditor accounts</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Bank references</span><span class="rvts6"> - This needs to be correctly entered on the </span><span class="rvts14">Bank accounts</span><span class="rvts6"> tab. If this is correctly entered (edited), it will match the references as imported from bank statements.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts14">Bank accounts</span><span class="rvts6"> – The Banking details of the creditor (supplier / vendor) account needs to be correctly maintained on the </span><span class="rvts14">Accounting information </span><span class="rvts6">tab. This may be used to pay creditors (suppliers) via the automated payments system. BIC (Bank Identifier Code) and IBAN (International Bank Account Number) accounts are also supported.</span></li>
+</ul>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Account bank references - Details</span></span></h3>
+<p class="rvps39"><img alt="" style="padding : 1px;" src="lib/bank-import-reference-details.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Account bank references - List</span></span></h3>
+<p class="rvps39"><img alt="" style="padding : 1px;" src="lib/bank-import-reference-list.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Account bank references - Check</span></span></h3>
+<p class="rvps39"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-11.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Account bank references - Batch entry - Match log tab</span></span></h3>
+<p class="rvps39"><img alt="" style="padding : 1px;" src="lib/bank-import-batch-log.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">List the transactions in the batch</span></span></h2>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Post (Update) the transactions to the ledger</span></span></h2>
+<p class="rvps2"><span class="rvts6">If all the transactions are correctly allocated to the correct accounts, the imported bank transactions can be posted (updated) to the ledger.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Click on the</span><span class="rvts14"> F6: Post </span><img alt="" style="width : 24px; height : 24px; padding : 1px;" src="lib/post.png"><span class="rvts6"> icon.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/bank-import-batch-allocated.png"></p>
+<p class="rvps2"><span class="rvts6">Since a transaction is posted from this bank account to another bank account (e.g. Petty cash) is posted, the following confirmation message, is displayed:</span></p>
+<p class="rvps6"><span class="rvts17">You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?</span><br/><span class="rvts17">Line : 24042101 PETTYCASH REPLENISHMENT 12345678902 810000 ABC-Bank to 820000 Petty cash</span></p>
+<p class="rvps2"><span class="rvts6">Click </span><span class="rvts14">OK</span><span class="rvts6"> on the confirmation message. The “</span><span class="rvts15">Batch entry</span><span class="rvts6">” screen will automatically be closed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The “</span><span class="rvts15">Bank statement options</span><span class="rvts6">” screen is displayed:&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-bank-import-batch-posted.png"></p>
+<p class="rvps2"><span class="rvts6">All the imported and processed bank statement transactions, which are posted (updated) to the ledger, will be listed.&nbsp;</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Bank Import Check screen options&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Before you close the “</span><span class="rvts15">Import bank statement - Check</span><span class="rvts6">” screen, you may delete a line, merge or split transactions.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Splitting transactions</span></span></h2>
+<p class="rvps2"><span class="rvts6">If there any transactions on the “</span><span class="rvts15">Import bank statement - Check</span><span class="rvts6">” screen, you may split the transaction into two (2) or more entries.</span></p>
+<p class="rvps2"><span class="rvts6">You may need to do this, if a payment or receipt needs to be allocated to different accounts.</span></p>
+<p class="rvps2"><span class="rvts14">To do this on the “</span><span class="rvts16">Import bank statement – Check</span><span class="rvts14">” screen:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click on the transaction to split.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click in the </span><span class="rvts14">Split</span><span class="rvts6"> button. You may also right-click and select the “</span><span class="rvts15">Split</span><span class="rvts6">” option on the context menu. The “</span><span class="rvts15">Split</span><span class="rvts6">” amount screen will be displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Enter the amount for the amount to split. It will insert another transaction with the same details as the selected transaction with the remaining amount.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click </span><span class="rvts14">OK</span><span class="rvts6">. Repeat the process, if necessary.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">If this is not done at this stage (on the “</span><span class="rvts15">Import bank statement – Check</span><span class="rvts6">” screen), you may add it later on the Batch entry screen for the Bank account.</span></p>
+<p class="rvps2"><span class="rvts14">To do this on the “</span><span class="rvts16">Batch entry</span><span class="rvts14">” screen:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the transaction and click on the </span><span class="rvts14">^N:Insert</span><span class="rvts6"> icon. In the blank row, enter the transaction details and the new amount.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">On the selected transaction to split, over type it with required amount. Repeat as necessary.</span></li>
+</ol>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Merge transactions</span></span></h2>
+<p class="rvps2"><span class="rvts6">If there are a few transactions on the “</span><span class="rvts15">Import bank statement – Check</span><span class="rvts6">” screen, you may merge (consolidate) it into one (1) entry.</span></p>
+<p class="rvps2"><span class="rvts14">To do this on the “</span><span class="rvts16">Import bank statement – Check</span><span class="rvts14">” screen:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Press the </span><span class="rvts14">Ctrl</span><span class="rvts6"> key and while holding your mouse down, click on the transactions to merge (consolidate).</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Click in the </span><span class="rvts14">Merge</span><span class="rvts6"> button. You may also right-click and select the “</span><span class="rvts15">Merge</span><span class="rvts6">” option on the context menu.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">To do this on the Batch entry screen:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the transaction to be merged and over type the amount with the total of the transactions to be merged.</span></li>
+ <li style="text-indent: 0px" class="rvps93 noindent"><span class="rvts6">Select the transaction to be deleted and click on the </span><span class="rvts14">^D:Delete</span><span class="rvts6"> icon. Repeat, as necessary.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Batch entry – Context menu options&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">This context menu offers advanced options to facilitate the editing, assignment of transactions to accounts, and management of imported transactions from bank statements within the "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen:</span><img alt="" style="float: right; padding : 5px; margin : 5px 5px;" src="lib/plugin-bank-import-batch-context-menu.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts69">^D:Delete</span><span class="rvts70">:</span><span class="rvts6"> Remove selected transactions from the "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Update bank account</span><span class="rvts70">:</span><span class="rvts6"> Update references in the "</span><span class="rvts15">Reknr</span><span class="rvts6">" column to:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts14">Bank links </span><span class="rvts6">tab of</span><span class="rvts14"> Ledger accounts </span><span class="rvts6">(</span><span class="rvts14">Setup → Accounts</span><span class="rvts6">).</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Bank account references on the</span><span class="rvts14"> </span><a class="rvts32" href="debtor-tab-bank-accounts.html">Bank accounts</a><span class="rvts14"> </span><span class="rvts6">tab of debtor (customer/client) accounts (</span><span class="rvts14">Debtors</span><span class="rvts6">).</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Bank account references on the </span><a class="rvts32" href="creditor-tab-bank-accounts.html">Bank accounts</a><span class="rvts14"> </span><span class="rvts6">tab of creditor (supplier/vendor) accounts (</span><span class="rvts14">Creditors</span><span class="rvts6">).</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts69">Lookup document</span><span class="rvts70">:</span><span class="rvts6"> Locate a specific document using advanced search and filter options.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Lookup document with amount</span><span class="rvts70">:</span><span class="rvts6"> Locate a specific document by amount using advanced search and filter options.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Lookup debtor</span><span class="rvts70">:</span><span class="rvts6"> Find and locate existing debtor accounts. You may edit existing debtor accounts or create new ones if needed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Lookup creditor</span><span class="rvts70">:</span><span class="rvts6"> Find and locate existing creditor accounts. You may edit existing creditor accounts or create new ones if needed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Link bank account from import to accounts</span><span class="rvts70">:</span><span class="rvts6"> Update accounts with bank references from imported bank statements to ensure accurate transaction allocation.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Link all records with current account bank accounts</span><span class="rvts70">:</span><span class="rvts6"> Update accounts with bank references from imported bank statements.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Show references for account</span><span class="rvts70">:</span><span class="rvts6"> View, add, edit, or delete references for accounts, updating</span><span class="rvts14"> Bank links</span><span class="rvts6"> tab of ledger accounts and the </span><span class="rvts14">Bank accounts</span><span class="rvts6"> tab of debtor and creditor accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Select from account open item list</span><span class="rvts70">:</span><span class="rvts6"> Display transactions on the “</span><span class="rvts15">Open item selection</span><span class="rvts6">” screen for the selected account to link transactions in the "</span><span class="rvts15">Batch entry</span><span class="rvts6">" screen.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Open item link</span><span class="rvts70">:</span><span class="rvts6"> Launch the “</span><span class="rvts15">Open item</span><span class="rvts6">” screen for the selected account to select transactions or manage links to transactions.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Search by amount:</span><span class="rvts6"> Search for transactions by amount.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Find with central search</span><span class="rvts70">:</span><span class="rvts6"> Launch the </span><a class="rvts33" href="search-investigator.html">Search (Investigator)</a><span class="rvts6"> feature on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon, allowing efficient search for specific accounts, documents, transactions, and more within the Set of Books.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Match Ideal Bank @*@</span><span class="rvts70">:</span><span class="rvts6"> A specific feature integrating </span><a class="rvts33" href="https://www.ideal.nl/en/" target="_blank">iDEAL</a><span class="rvts6"> online payment method for payments or transactions within the Bank-import plugin.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts69">Debtor account - Context menu options</span><span class="rvts70">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts69">Go to document</span><span class="rvts70">:</span><span class="rvts6"> List the document grid with the selected document.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Create Invoices / Credit notes</span><span class="rvts70">:</span><span class="rvts6"> Create an invoice or a credit note for transactions imported from the bank statement if none is available.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Payment divergence</span><span class="rvts70">:</span><span class="rvts6"> Launch the Receive payment screen to process adjustments or receipt transactions if a payment recorded in the bank statement does not match any existing transaction in the accounts.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts69">Creditor account - Context menu options</span><span class="rvts70">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts69">Create Purchases / Supplier returns</span><span class="rvts70">:</span><span class="rvts6"> Create a purchase or a supplier return document for transactions imported from the bank statement if none is available.</span></li>
+ <li class="rvps2 noindent"><span class="rvts69">Payment divergence</span><span class="rvts70">:</span><span class="rvts14"> </span><span class="rvts6">Launch the Receive payment screen to process adjustments or receipt transactions if a payment recorded in the bank statement does not match any existing transaction in the accounts.</span></li>
+</ul>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Supported bank import file formats</span></span></h1>
+<p class="rvps2"><span class="rvts6">If your bank or financial institution's available file formats, is not currently supported (cannot be imported in this </span><a class="rvts31" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6">), please send us one downloaded file, and we will implement support for your bank or financial institution's bank statement format.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Country specific formats&nbsp;</span></span></h2>
+<div class="rvps2">
+<table width="100%" style="border-color: #000080; border-style: solid; border-width: 2px; border-collapse: collapse;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts132">Country</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts132">File</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts132">Comment 1</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts132">Remarks</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">Belgium</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Fortis bank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">ING</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">KCB</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">KCB</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Paypal</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">BE</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Recordbank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">France</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">FR&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">INT-ofx general format</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">OFX [Open Financial eXchange file]</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">Netherlands</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">ABN-AMRO</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Tab delimited</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Afterpay</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Fortis bank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Tab delimited</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Frieslandbank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Icepay</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">iDeal</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">Download from Dashboard</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">iDeal</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">Email from dashboard (rapport)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">ING</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Mastercard Creditcard</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">TSV</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MCG</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">New</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MT940</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">General format</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MT940</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">General format</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">On booking date</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MT940 Rabobank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MT940 SNS bank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">MT940 Triodos bank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Multi Safe pay</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">MT940 (General format)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Paypal</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Postbank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Postbank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">New</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Rabobank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">Fixed length</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">NL</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Rabobank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">ideal payment id</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">Spain</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">SP&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">SP-MT940 Triodosbank</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">United Kingdom</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">UK&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">UK-HSBC UK Transaction File</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td colspan="4" style="border-width : 1px; border-color: #dddddd; border-style: solid; padding: 5px; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 642px;">
+   <p class="rvps2"><span class="rvts132">United Sates of America</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">USA&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Bank of America – Quicken QIF 4 digit&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">QIF [Quicken Interchange Format]</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 75px;">
+   <p class="rvps2"><span class="rvts126">USA</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 226px;">
+   <p class="rvps2"><span class="rvts126">Bank of America – Comma separated</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 147px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none; vertical-align: top; width: 191px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">International (universal) formats</span></span></h2>
+<p class="rvps2"><span class="rvts6">In addition to a various file formats for the Belgium, Netherlands, France, Spain, United Kingdom and United States of America environments, the following file formats are currently supported for the international banking environments:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #000080; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts132">Country</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts132">File</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts132">Comment 1</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts132">Comment 2</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts132">Remarks</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126">INT</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-MT940 (algemeen formaat (SEPA proof))</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-PayPal</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-OFC/OFX standaard</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">OFC [Open Financial Connectivity file] /&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts126">OFX [Open Financial eXchange file]</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-Simple comma separated column Date dd/mm/yyyy, description, Amount . is thousandseperator</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 167px;">
+   <p class="rvps2"><span class="rvts126">Simple comma seperated</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 108px;">
+   <p class="rvps2"><span class="rvts126">Comma separated (CSV)</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-OFX bankexport</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">OFX [Open Financial eXchange]</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-QIF format (mm-dd-yyyy)</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">QIF [Quicken Interchange Format]</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT-OFC / OFX standaard 2</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">OFC [Open Financial Connectivity file] /&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts126">OFX [Open Financial eXchange file]</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: middle; width: 55px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126">INT 053 CAMT file format</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 167px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 108px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: middle; width: 141px;">
+   <p class="rvps2"><span class="rvts126"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">&nbsp; &nbsp;</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

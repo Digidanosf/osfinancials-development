@@ -1,0 +1,539 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Debtor accounts - Accounting information tab</title>
+  <meta name="description" content="How to set the accounting information for a debtor (customer / client) account - osfinancials.org" /> 
+  <meta name="keywords" content="Single Euro Payments Area (SEPA),IBAN,SWIFT,BIC,Tax,VAT,GST,Sales tax,BTW,Open item link,Due days,Credit limit,Charge amount,Customer discount,Monthly interest on overdue amounts,Stock file override,Use default tax,Use default account,Interest on overdue debtors,Fixed amount to all debtors,Apply invoice discount,Open item debtor accounts,Client accounts,Customer accounts">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Debtor accounts - Accounting information tab">
+  <meta name="twitter:description" content="How to set the accounting information for a debtor (customer / client) account - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Debtor accounts - Accounting information tab" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to set the accounting information for a debtor (customer / client) account - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="debtor-tab-accounting-info"
+		  data-hnd-context="523"
+		  data-hnd-title="Debtor accounts - Accounting information tab"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="debtor-accounts.html">Debtor (customer / client) accounts</a></li><li><a href="debtor-account-edit.html">Debtor accounts edit form</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="debtor-account-edit.html" title="Debtor accounts edit form" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="debtor-tab-delivery-address.html" title="Debtor accounts - Delivery address tab" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="debtor-tab-contacts.html" title="Debtor accounts - Contacts tab" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Debtor accounts - Accounting information tab</h2>
+
+            <div class="main-content">
+                
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 0px; list-style-position: inside;">
+ <li class="rvps65 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Accounting information</span><span class="rvts30"> tab.</span></li>
+</ol>
+<p class="rvps86"><img alt="" style="padding : 1px;" src="lib/debtor-tab-accounting-information.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 0px; list-style-position: inside;">
+ <li value="2" class="rvps65 noindent"><span class="rvts30">Enter</span><span class="rvts6"> and/or</span><span class="rvts30"> select the following, if necessary: &nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps85 noindent"><span class="rvts29">Account disabled</span><span class="rvts30"> - This field should not be selected (ticked) if you wish to enter and post transactions to the debtor (customer / client) account. Select (tick) this field if you wish to disable the debtor (customer / client) account (e.g. if you no longer do business with this debtor (customer / client)). osFinancials5 will allow you to enter transactions for the debtor (customer / client), but it will not allow you to post transactions to the debtor (customer / client) account. However, you will still be able to view reports for the debtor (customer / client).</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">Open item account</span><span class="rvts30"> - Select (tick) this field if you wish to allocate or link receipts or credit notes (credit transactions) to a particular invoice or debit transaction. If this field is left blank, the Balance B/F (brought forward) posting method will be used, where payments received or credit notes issued are allocated against the oldest outstanding amount.</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">Due days</span><span class="rvts30"> - Enter the number of days for the credit facility granted to the debtor (customer / client).</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">This date will be used to calculate the date when payments are to be received from debtor (customer / client) on sales documents (i.e. invoices, credit notes or quotes) and via the electronic payment system in the Automatic receipts batch processing option. It will also print on sales documents (i.e. invoices, credit notes or quotes).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" class="rvps85 noindent"><span class="rvts29">Credit limit</span><span class="rvts30"> - Enter the credit limit which you have agreed and granted to your debtor (customer / client). When you are processing transactions, </span><span class="rvts6">osFinancials5</span><span class="rvts30"> will warn you if the debtor is exceeding this credit limit.</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">It will also display the Available balance (i.e. Current balance minus the Credit limit) on sales document entry screens (i.e. Invoices, Credit notes or Quotes).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The Calculator's buttons may also be launched from the Credit limit field.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" class="rvps85 noindent"><span class="rvts29">Charge amount</span><span class="rvts30"> - Enter an amount as agreed upon when you have granted the credit facility to your debtor (customer / client).</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">You may generate Multiple Transactions - Debtors with charge amount option in any Batch type or Journal (except the Receipts and Payments batch types). When you post this Batch, osFinancials will debit (increase the debtor (customer / client) account) for each of the debtor (customer / client) accounts with the amount specified in this field and credit a specified account (e.g. Income account).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">The Calculator's buttons may be launched from the Charge amount field.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" class="rvps85 noindent"><span class="rvts29">Customer discount </span><span class="rvts30">- You may enter a percentage for the debtor (customer / client) discount which you wish to allow to the specific debtor (customer / client).</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">The discount will automatically be calculated on the selected selling price of a selected stock item (if the "Allow invoice discount field is selected on the </span><span class="rvts53">Stock items </span><span class="rvts54">(</span><a class="rvts38" href="default-ribbon.html">Default</a><span class="rvts54"> ribbon)</span><span class="rvts54">) when sales documents (i.e. invoices, credit notes or quotes) are created or edited for the selected debtor (customer / client).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="7" class="rvps85 noindent"><span class="rvts29">Monthly interest on overdue amounts (percentage)</span><span class="rvts30"> - The percentage of the monthly interest on overdue accounts that will be charged to the debtor (customer / client).</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If the annual interest is 18%, you would enter 1.5% (18 / 12 months) for the monthly interest. Another example, if the annual interest rate you wish to charge is 24% (24 / 12 months), you would enter 2&nbsp;%).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">You may generate Multiple Entries - Interest on overdue debtors option - in any Batch type or Journal (except the Receipts and Payments batch types). osFinancials will calculate the interest for the number of overdue days for each debtor (customer / client) account for which you have entered an amount in this field.</span></p>
+   <p class="rvps12"><span class="rvts54">When you post this Batch, </span><span class="rvts54">osFinancials 5</span><span class="rvts54"> will debit (increase the debtor (customer / client) account) for each of the debtor (customer / client) accounts with the amount specified in this field and credit a specified account (e.g. Interest Income account).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="8" class="rvps85 noindent"><span class="rvts29">Selling prices</span><span class="rvts30"> - You may select any one of the three (3) available selling prices as the default selling price for this debtor (customer / client).</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If you have changed the descriptions of your selling prices 1 / 2 / 3 in </span><span class="rvts53">Setup → Stock information</span><span class="rvts54">, your own descriptions will be displayed on the list.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="9" class="rvps85 noindent"><span class="rvts29">Bank account type</span><span class="rvts30"> - Select </span><span class="rvts78">Arbitrair</span><span class="rvts30"> or </span><span class="rvts78">11 Proof</span><span class="rvts30">. This is for electronic payments received from debtor (customer / client) accounts via the electronic banking system.</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="width : 40px; height : 40px; padding : 1px;" src="lib/admon-read.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">11-Proof</span><span class="rvts40"> - See - </span><a class="rvts285" href="http://nl.wikipedia.org/wiki/Elfproef" target="_blank">http://nl.wikipedia.org/wiki/Elfproef</a><span class="rvts40">&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts37">Arbitrair</span><span class="rvts40"> - Random - not controlled</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="10" class="rvps85 noindent"><span class="rvts29">Bank account no.</span><span class="rvts30"> - Enter the bank account number, if available.</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">Bank name</span><span class="rvts30"> - Enter the bank account name, if available.</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">BIC</span><span class="rvts30"> - </span><span class="rvts6">(Bank Identifier Code). </span><span class="rvts30">Enter, if available.</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">IBAN</span><span class="rvts30"> - </span><span class="rvts6">(International Bank Account Number). </span><span class="rvts30">Enter, if available.</span><span class="rvts6">&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-read.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">See - </span><a class="rvts285" href="http://en.wikipedia.org/wiki/International_Bank_Account_Number" target="_blank">http://en.wikipedia.org/wiki/International_Bank_Account_Number</a></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="14" class="rvps85 noindent"><span class="rvts29">Signature</span><span class="rvts30"> - Enter, if available.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps126">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-read.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts37">SWIFT</span><span class="rvts40"> - (Society for Worldwide Interbank Financial Telecommunication) - See - </span><a class="rvts285" href="http://en.wikipedia.org/wiki/SWIFT" target="_blank">http://en.wikipedia.org/wiki/SWIFT</a><span class="rvts40"> / </span><a class="rvts285" href="http://www.theswiftcodes.com/" target="_blank">http://www.theswiftcodes.com/</a><span class="rvts40">&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts37">SEPA</span><span class="rvts40"> - (Single Euro Payments Area) - See - </span><a class="rvts285" href="http://en.wikipedia.org/wiki/Single_Euro_Payments_Area" target="_blank">http://en.wikipedia.org/wiki/Single_Euro_Payments_Area</a><span class="rvts40">&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="15" class="rvps85 noindent"><span class="rvts29">Signature date</span><span class="rvts30"> - Enter, if available.</span></li>
+  <li class="rvps85 noindent"><span class="rvts29">Stock file override</span><span class="rvts30"> - By default, the Stock file override settings is not activated. If necessary, select the following:</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li class="rvps163 noindent"><span class="rvts29">Use default account </span><span class="rvts30">- By default, the "</span><span class="rvts78">Use default account </span><span class="rvts30">" option is not selected. The Sales account, as selected on the on </span><span class="rvts29">Stock items </span><span class="rvts30">(</span><a class="rvts32" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon), will be used when invoices or credit notes for the debtor (customer / client) is updated (posted) to the ledger.</span></li>
+  </ol>
+ </ol>
+</ol>
+<div class="rvps164">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If you activate the Use default account settings, you need to select a different account on the Accounts lookup facility.</span></p>
+   <p class="rvps12"><span class="rvts54">When invoices or credit notes for the debtor (customer / client) is updated (posted) to the ledger, the selected Sales account for this Stock item will be ignored and the sales transaction will be updated (posted) to the specified account for the debtor (customer / client).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;">
+   <li value="2" style="text-indent: 0px" class="rvps165 noindent"><span class="rvts29">Use default tax</span><span class="rvts30"> - By default, the "</span><span class="rvts78">Use default tax</span><span class="rvts30">" option is not selected. The Output Account, as selected on the on </span><span class="rvts29">Stock items</span><span class="rvts30"> (</span><a class="rvts32" href="default-ribbon.html">Default</a><span class="rvts30"> ribbon), will be used when invoices or credit notes for the debtor (customer / client) is updated (posted) to the ledger.</span></li>
+  </ol>
+ </ol>
+</ol>
+<div class="rvps166">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If you activate the Use default tax settings, you need to select a different VAT/GST/Sales Tax account or code on the Tax Lookup.</span></p>
+   <p class="rvps12"><span class="rvts54">When invoices or credit notes for the debtor (customer / client) is updated (posted) to the ledger, the selected Tax account or code for this Stock item will be ignored and the Output VAT/GST/Sales Tax transaction will be updated (posted) to the specified VAT/GST/Sales Tax account or code for the debtor (customer / client).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps164">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">Do not select this option, if you are not registered for VAT/GST/Sales Tax, or if multiple Tax codes (accounts) is applicable to the transactions with the debtor (customer / client).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps164">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">If you do not generate sales documents (Invoices, Credit notes and Quotes), the selling prices and customer discount fields are not applicable.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps65 noindent"><span class="rvts30">Click on the </span><span class="rvts29">Save</span><span class="rvts30"> button. </span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

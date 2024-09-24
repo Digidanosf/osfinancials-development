@@ -1,0 +1,603 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Serials-Batches-Location plugin</title>
+  <meta name="description" content="Serials-Batches-Location plugin - osfinancials.org" /> 
+  <meta name="keywords" content="Serial tracking">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Serials-Batches-Location plugin">
+  <meta name="twitter:description" content="Serials-Batches-Location plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Serials-Batches-Location plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Serials-Batches-Location plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-serials-batches-location"
+		  data-hnd-context="216"
+		  data-hnd-title="Serials-Batches-Location plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu--stock.html">Plugins menu - Stock plugins</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-menu--stock.html" title="Plugins menu - Stock plugins" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugins-menu--stock.html" title="Plugins menu - Stock plugins" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-stock-check.html" title="Stock check" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Serials-Batches-Location plugin</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Serials-Batches-Location plugin&nbsp;</span></span></h1>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps75"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/B84.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Serials-Batches-Location plugin</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/plugin-manuals/540-locations-batches-and-serials-plugin-en" target="_blank">Manual</a><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/stock/serial-batch-location" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40"> : Once-off -&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">Added the Serials and Batches to document layout files and 2 reports (i.e. On hand and Stock movement report).</span></p>
+   <p class="rvps12"><span class="rvts37">Translations</span><span class="rvts40"> : </span><a class="rvts52" href="translate-plugins-batch-serial-l.html">Translations outstanding</a><span class="rvts40">&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps12"><span class="rvts105">The "</span><span class="rvts40">Serials-Batches-Location</span><span class="rvts105">" plugin in osFinancials appears to be a tool designed to manage and track inventory, specifically serial numbers, batches, and locations. </span><span class="rvts40">Here's a summary of the key features and steps to activate and use this plugin:</span></p>
+<p class="rvps2"><span class="rvts14">Features</span><span class="rvts6">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps184 noindent"><span class="rvts14">Serial</span><span class="rvts6"> : Allows for tracking individual serial numbers, suitable for items like phones or computers. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Batch/Location</span><span class="rvts6"> : Enter batch numbers and quantities and have the possibility to move between locations. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Location</span><span class="rvts6"> : Just location management. Focuses on managing item locations in your shop, store, or warehouse. You can add locations (e.g., bin, aisle number, row) where you store stock items if needed.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">Activate in Stock Items</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">In the </span><span class="rvts14">Stock items</span><span class="rvts6"> section, a new tab called "</span><span class="rvts16">Location-Serials-Batches</span><span class="rvts6">" is added for each stock item.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">By default, this feature is set to "</span><span class="rvts14">Off</span><span class="rvts6">" for all stock items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">You can activate it for specific items and choose one of the three tracking types: </span><span class="rvts14">Serial, Batch/Location, </span><span class="rvts6">or</span><span class="rvts14"> Location</span><span class="rvts6">.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Processing Documents</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">For purchases, you can enter new batches or serials after selecting the product. The system automatically updates the quantities when you enter serial numbers. Similar functionality is available for supplier returns.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">For sales invoices, you can select from the list of locations, serials, and batches of the selected product. Similar functionality is available for credit notes.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Printing Documents</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Serial numbers or batch numbers will appear on delivery notes, invoices, credit notes, delivery notes, purchases, and supplier returns.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Search for Serial Numbers</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">You can search for serial numbers using the </span><span class="rvts14">Search</span><span class="rvts6"> function on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Enter the serial number or other criteria in the "</span><span class="rvts15">Search for</span><span class="rvts6">" field.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">You can search for documents or stock items matching your criteria.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Reports</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">There are several reports available under </span><span class="rvts14">Reports → Plugins → Locations-Batches-Serials</span><span class="rvts6">, including:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts14">On hand</span><span class="rvts6">: Lists serials or batches available to sell to customers.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Stock movement</span><span class="rvts6">: Lists serials or batches purchased from suppliers and sold to customers.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Bought from supplier</span><span class="rvts6">: Lists serials or batches purchased from suppliers.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Sold to customer</span><span class="rvts6">: Lists serials or batches sold to customers.</span></li>
+  <li class="rvps2 noindent"><span class="rvts14">Outdated batch</span><span class="rvts6">: Lists serials or batches that are still on hand but past the maximum sales date.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6">This plugin seems to provide comprehensive inventory tracking and management capabilities within the osFinancials or TurboCASH software.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Introduction</span></span></h1>
+<p class="rvps184"><span class="rvts6">The "</span><span class="rvts15">Serials-Batches-Location</span><span class="rvts6">" plugin allows you to purchase and sell products (stock items) and keep track of serial numbers, batches and locations.</span></p>
+<p class="rvps184"><span class="rvts6">In addition to serials, batches and locations, you may keep track of a manufacturing and sell by date. &nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">You can select 3 different types of tracking.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps184 noindent"><span class="rvts14">Serial</span><span class="rvts6"> : Allows for tracking individual serial numbers, suitable for items like phones or computers. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Batch/Location</span><span class="rvts6"> : Enter batch numbers and quantities and have the possibility to move between locations. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Location</span><span class="rvts6"> : Just location management. Focuses on managing item locations in your shop, store, or warehouse. You can add locations (e.g., bin, aisle number, row) where you store stock items if needed.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Activation</span></span></h1>
+<p class="rvps184"><span class="rvts6">In osFinancials / TurboCASH:</span></p>
+<p class="rvps184"><span class="rvts6">Go to the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon tab, select </span><span class="rvts14">Plugins → Stock plugins → Location-Serials-Batches</span><span class="rvts6">. If this plugin is not listed under </span><span class="rvts69">Plugins → </span><span class="rvts14">Stock plugins</span><span class="rvts6">, activate it via </span><span class="rvts69">Tools → </span><a class="rvts32" href="plugins-activate.html">Activate plugins</a><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-batches-location-activate-menu.png"></p>
+<p class="rvps184"><span class="rvts6">You will see the setup screen for the plugin : Set </span><span class="rvts14">Activate</span><span class="rvts6"> to on and press </span><span class="rvts14">Save</span><span class="rvts6">.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-batches-location-activate.png"></p>
+<p class="rvps184"><span class="rvts6">You may add Locations (Bin, Isle number row) as the place where you keep the stock items in your shop, store, warehouse, if necessary.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-batches-location-add-location.png"></p>
+<p class="rvps184"><span class="rvts6">If locations were added, remember to click on the </span><span class="rvts14">Save</span><span class="rvts6"> button.</span></p>
+<p class="rvps184"><span class="rvts14">Close the Set of Books or restart osFinancials or TurboCASH!</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Activate in Stock items - Location-Batches-Serial tab</span></span></h1>
+<p class="rvps184"><span class="rvts6">Go to </span><span class="rvts14">Stock items</span><span class="rvts6"> (on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon tab). If you select any stock item, a new tab "</span><span class="rvts15">Location-Serials-Batches</span><span class="rvts6">" is added.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-batches-location-stock-turn-on.png"></p>
+<p class="rvps184"><span class="rvts6">By default, the "</span><span class="rvts15">Location-Serials-Batches</span><span class="rvts6">" is set to </span><span class="rvts14">Off</span><span class="rvts6"> (not activated) for all stock items.&nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">You can select 3 different types of tracking.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps184 noindent"><span class="rvts14">Serial</span><span class="rvts6"> : Allows for tracking individual serial numbers, suitable for items like phones or computers. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Batch/Location</span><span class="rvts6"> : Enter batch numbers and quantities and have the possibility to move between locations. You can track manufacturing dates or production dates and sell by dates or expiry dates.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Location</span><span class="rvts6"> : Just location management. Focuses on managing item locations in your shop, store, or warehouse. You can add locations (e.g., bin, aisle number, row) where you store stock items if needed.</span></li>
+</ol>
+<p class="rvps184"><span class="rvts6">Press </span><span class="rvts14">Add</span><span class="rvts6"> to add a new record to enter products you already have like a start position. Do not enter products you still are going to purchase and enter in documents.</span></p>
+<p class="rvps184"><span class="rvts14">Filter</span><span class="rvts6"> - Once purchase documents and sales documents have been processed, the options is as follows:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps184 noindent"><span class="rvts14">All</span><span class="rvts6">: This will list all the available Serials, Batches/Locations or Locations which is Enabled (available for selling) as well as Disabled (already sold).</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Enabled</span><span class="rvts6">: This will list the available Serials, Batches/Locations or Locations which is available for selling.This would usually be the processed purchase documents.</span></li>
+ <li class="rvps184 noindent"><span class="rvts14">Disabled</span><span class="rvts6">: This will list the Serials, Batches/Locations or Locations which is already sold. This would usually be the processed sales documents. This would be listed in a </span><span class="rvts391">RED</span><span class="rvts6"> font or row background colour.</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Serial</span></span></h2>
+<p class="rvps2"><span class="rvts6">Serial option - Fast mode on &nbsp;(default view)</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-batch-fast-mode-on.png"></p>
+<p class="rvps2"><span class="rvts6">Serial option - Fast mode off</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-batch-fast-mode-off.png"></p>
+<p class="rvps2"><span class="rvts6">Serial option - Add</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-add.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Batch / location</span></span></h2>
+<p class="rvps184"><span class="rvts6">Also you can move and correct quantities here, if the need arises.</span></p>
+<p class="rvps2"><span class="rvts6">Batch / location option - Fast mode on &nbsp;(default view)</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-batch-fast-mode-on.png"></p>
+<p class="rvps2"><span class="rvts6">Batch / location - Fast mode off</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-batch-fast-mode-off.png"></p>
+<p class="rvps2"><span class="rvts6">Batch / location &nbsp;- Add</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-batch-add.png"></p>
+<p class="rvps184"><span class="rvts6">The quantities adjusted will reflect on then quantity on hand for the stock item after saving the stock item.</span></p>
+<p class="rvps13"><span class="rvts243"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Location</span></span></h2>
+<p class="rvps2"><span class="rvts6">Location option - Fast mode on (default view)</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-location-fast-mode-on.png"></p>
+<p class="rvps2"><span class="rvts6">Location - Fast mode off</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-location-fast-mode-off.png"></p>
+<p class="rvps2"><span class="rvts6">Location - Add</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serials-stock-location-add.png"></p>
+<p class="rvps184"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Processing documents</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Purchases</span></span></h2>
+<p class="rvps184"><span class="rvts6">If you do a purchase you can enter new batches or serials after selecting the product.</span></p>
+<p class="rvps184"><span class="rvts6">The number of items (products) with serial numbers will automatically update the quantities in the document lines field.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-purchase-document.png"></p>
+<p class="rvps184"><span class="rvts6"><br/></span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-purchase-document-serials.png"></p>
+<p class="rvps184"><span class="rvts6">If you enter serial numbers in the From and To fields, and you click on the Add all button, a similar confirmation message will be displayed.</span></p>
+<p class="rvps6"><span class="rvts17">"Continue action Add 5 Serial ?"</span></p>
+<p class="rvps184"><span class="rvts6">A similar lookup screen will be displayed for serial input when processing supplier returns.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Sales</span></span></h2>
+<p class="rvps184"><span class="rvts6">At sales you can select from the list of locations serials and batches of the product selected.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-invoice-document.png"></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-invoice-document-select.png"></p>
+<p class="rvps184"><span class="rvts6">A similar lookup screen will be displayed for serial input when processing credit notes.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Printing documents</span></span></h1>
+<p class="rvps184"><span class="rvts6">The serial numbers will print on Delivery notes, Invoices, Credit notes, Delivery notes, Purchases and Supplier returns.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-purchase-document-print.png"></p>
+<p class="rvps184"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Search for Serial numbers</span></span></h1>
+<p class="rvps184"><span class="rvts6">On the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon, select </span><span class="rvts14">Search</span><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-central-search.png"></p>
+<p class="rvps184"><span class="rvts6">Enter the serial number, etc. in the </span><span class="rvts14">Search for</span><span class="rvts6"> field. In this example, only the first (prefix) of the serial numbers, is entered in the "</span><span class="rvts15">Search for:</span><span class="rvts6">" field.&nbsp;</span></p>
+<p class="rvps184"><span class="rvts6">If a document number is prefixed with "</span><span class="rvts15">ST</span><span class="rvts6">" followed by 5 numeric digits, as in this example, "</span><span class="rvts15">ST00002</span><span class="rvts6">", it is a posted document ("</span><span class="rvts15">Stock</span><span class="rvts6">" document type) generated when you save a stock item as an "</span><span class="rvts15">Adjustment</span><span class="rvts6">" after a serial, batch or location quantities is changed.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serilal-change-remark.png"></p>
+<p class="rvps184"><span class="rvts6">The description you have entered in the "</span><span class="rvts15">Change remark</span><span class="rvts6">" screen will be displayed in the "</span><span class="rvts15">Description</span><span class="rvts6">" column of the </span><a class="rvts33" href="stock-item-tab-document-groups.html">Document groups</a><span class="rvts6"> tab and in the "</span><span class="rvts15">Reference</span><span class="rvts6">" column of the </span><a class="rvts33" href="stock-item-tab-transactions.html">Transactions</a><span class="rvts6"> tab.</span></p>
+<p class="rvps184"><span class="rvts14">Type</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps185 noindent"><span class="rvts14">Document</span><span class="rvts6"> - The document details will list all documents matching your search criteria. If you double-click on it (or right-click and select </span><span class="rvts14">Show details</span><span class="rvts6"> option on the context menu), you may print the selected document.&nbsp;</span></li>
+</ul>
+<p class="rvps185"><img alt="" style="padding : 1px;" src="lib/plugin-serial-input-invoice-document-print.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps371 noindent"><span class="rvts14">Stock</span><span class="rvts6"> - The Stock items matching your search criteria will be listed. If you double-click on it (or right-click and select </span><span class="rvts14">Show details</span><span class="rvts6"> option on the context menu), the selected Stock item form will be opened.</span></li>
+</ul>
+<p class="rvps371"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/plugin-serial-central-search-stock-item.png"></p>
+<p class="rvps371"><span class="rvts6">By default, only the "</span><span class="rvts15">Enabled</span><span class="rvts6">" items will be listed on the "</span><span class="rvts15">Location-Serials-Batches</span><span class="rvts6">" tab. You may click on the "</span><span class="rvts15">All</span><span class="rvts6">" filter option to view all items.&nbsp;</span></p>
+<p class="rvps371"><span class="rvts6">By default, only the "</span><span class="rvts15">fastmode</span><span class="rvts6">" is selected. To view more details, remove the tick in the "</span><span class="rvts15">fastmode</span><span class="rvts6">" tick box.</span></p>
+<p class="rvps371"><span class="rvts6">If any documents is not posted, these will be listed in the "</span><span class="rvts15">Search - Investigator</span><span class="rvts6">" search results.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Reports</span></span></h1>
+<p class="rvps184"><span class="rvts6">On the </span><span class="rvts14">Reports</span><span class="rvts6"> ribbon, select </span><span class="rvts14">Reports → Plugins → Locations-Batches-Serials</span><span class="rvts6">.</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-reports-menu.png"></p>
+<p class="rvps184"><span class="rvts243"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">On hand report</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - On hand</span><span class="rvts6">" report lists those serials or batches which is still available to sell to debtors (customers / clients)..</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-reports-stock-on-hand-print.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Stock movement report</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Stock Movement</span><span class="rvts6">" report is a valuable tool for tracking the movement of serials or batches of products in your inventory.&nbsp;</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-serial-reports-stock-movement-print.png"></p>
+<p class="rvps2"><span class="rvts6">Specifically, this report lists the serials or batches that have been purchased from creditors (suppliers or vendors) and subsequently sold to debtors (customers or clients). Here's how this report can be helpful:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Tracking</span><span class="rvts6">: The report provides a comprehensive overview of the movement of specific products, including their serials or batches. It allows you to see which items have been acquired from suppliers and then sold to customers.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Transaction History</span><span class="rvts6">: You can view the complete transaction history for each product, including purchase dates, supplier information, sale dates, and customer details.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Stock Accuracy</span><span class="rvts6">: By tracking the flow of products from suppliers to customers, you can ensure the accuracy of your inventory records. This helps prevent overstocking or under-stocking of items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Quality Control</span><span class="rvts6">: The report helps in quality control by allowing you to trace products back to their source. If there are issues with product quality or recalls, you can quickly identify affected items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Order Fulfilment</span><span class="rvts6">: It aids in order fulfilment by verifying that you have the necessary stock on hand to meet customer demands.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Supplier Performance</span><span class="rvts6">: You can assess the performance of your suppliers by tracking the movement of their products. This information can be useful for supplier evaluations and negotiations.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Customer Service</span><span class="rvts6">: When customers inquire about specific products or orders, you can use the report to provide accurate and detailed information about the products they purchased.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Returns and Exchanges</span><span class="rvts6">: If customers need to return or exchange products, you can use the report to identify the exact serials or batches that were sold to them, making the process more efficient.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Accounting and Financial Reporting</span><span class="rvts6">: The report provides data that can be useful for accounting purposes, including tracking the cost of goods sold (COGS) and calculating profit margins.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">Overall, the "</span><span class="rvts15">Location-Serials-Batches - Stock Movement</span><span class="rvts6">" report enhances your ability to manage inventory, track product history, and provide better customer service by offering detailed insights into the movement of products from suppliers to customers.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Warranty and Guarantee Management</span></span></h2>
+<p class="rvps2"><span class="rvts6">the "</span><span class="rvts15">Serial Tracking</span><span class="rvts6">" feature is essential for keeping track of individual serial numbers for items like phones or computers. Here's why it's important and how it can support warranty and guarantee management:</span></p>
+<p class="rvps2"><span class="rvts14">Purchase and Supplier Returns</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">When you purchase products from suppliers, each item can have a unique serial number associated with it.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Serial tracking allows you to record which specific items you received from suppliers and when.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">If you need to return products to the supplier for any reason, you can accurately identify and track the items using their serial numbers.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Sales and Customer Returns</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">When selling products to customers, you can associate a serial number with each item sold.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">This helps you keep a record of which product was sold to which customer and when.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">If customers need to return items due to warranty claims or defects, you can easily identify the specific product using its serial number.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts14">Warranty and Guarantee Management</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Serial tracking is instrumental in managing warranties and guarantees effectively.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">You can associate warranty or guarantee information with each product based on its serial number.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">This includes details such as the warranty period, terms and conditions, and contact information for warranty support.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">When customers request warranty service or have issues with a product, you can quickly access the warranty details associated with the serial number and provide the necessary support.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">By using the "Serial Tracking" feature, businesses can maintain a detailed and organized record of individual products throughout their life-cycle, from purchase to sale and potential returns. This not only enhances inventory management but also streamlines warranty and guarantee processes, improving customer satisfaction and operational efficiency.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Bought from supplier</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Batch bought from supplier</span><span class="rvts6">" report lists those serials or batches which is purchased from creditors (suppliers / vendors).</span></p>
+<p class="rvps184"><img alt="" style="padding : 1px;" src="lib/plugin-batch-bought-supplier.png"></p>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Batch Bought from Supplier</span><span class="rvts6">" report is a specific type of inventory report that lists the serials or batches of products that have been purchased from creditors (suppliers or vendors). This report serves several important purposes:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Purchase Tracking</span><span class="rvts6">: It provides a detailed record of the batches or serials acquired from suppliers. This information helps in tracking the products you have received from different suppliers.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Supplier Relations</span><span class="rvts6">: By maintaining a record of batches bought from suppliers, you can assess the performance and reliability of your suppliers. This data can be useful in supplier negotiations and evaluations.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Quality Control</span><span class="rvts6">: The report helps in monitoring the quality of products received from suppliers. If there are issues with a specific batch or serial, you can identify it through this report.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Accuracy</span><span class="rvts6">: It contributes to the accuracy of your inventory records. By knowing which batches were received from suppliers, you can manage your stock levels effectively.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Accounting and Cost Analysis</span><span class="rvts6">: The report assists in cost analysis and financial reporting. You can calculate the cost of goods sold (COGS) by referencing the batches bought from suppliers, which is essential for accurate financial statements.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Product Traceability</span><span class="rvts6">: If there are recalls or safety concerns related to specific batches of products, you can use this report to trace back to the source and identify affected items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Reorder Management</span><span class="rvts6">: It helps in identifying when specific batches need to be reordered from suppliers based on sales trends and inventory levels.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Documentation</span><span class="rvts6">: When dealing with regulatory requirements or audits, having a clear record of batches bought from suppliers is essential for compliance and documentation purposes.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">In summary, the "Location-Serials-Batches - Batch Bought from Supplier" report is a valuable tool for businesses that rely on batch or serial tracking to manage their inventory effectively, assess supplier performance, and maintain accurate financial records. It provides transparency and traceability in your supply chain processes.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Sold to customer</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Batch sold to customer</span><span class="rvts6">" report lists those serials or batches which is sold to debtors (customers / clients).</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-batch-sold-customer.png"></p>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Batch Sold to Customer</span><span class="rvts6">" report is a valuable inventory management tool that lists the serials or batches of products that have been sold to debtors, including customers or clients. This report offers several important benefits:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Sales Tracking</span><span class="rvts6">: The report provides a comprehensive record of the batches or serials that have been sold to customers. This information helps you track the sales history of specific products.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Customer Service</span><span class="rvts6">: When customers have inquiries about their purchased items, returns, or warranty claims, this report enables you to quickly and accurately identify the exact serials or batches associated with their transactions. It enhances customer service by providing detailed information.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Accuracy</span><span class="rvts6">: It contributes to maintaining accurate inventory records. By knowing which batches have been sold, you can keep track of your remaining stock and plan for restocking when necessary.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Quality Control</span><span class="rvts6">: The report helps in quality control by allowing you to trace products back to specific batches. If there are quality issues or recalls, you can identify affected items through this report.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Returns and Exchanges</span><span class="rvts6">: When customers need to return or exchange products, you can use the report to verify which serials or batches were sold to them, streamlining the return process.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Warranty and Support</span><span class="rvts6">: For products with warranties or guarantees, you can use the report to confirm warranty coverage for specific items based on their serials or batches.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Accounting and Financial Reporting</span><span class="rvts6">: The report is useful for accounting purposes, including tracking the revenue generated from the sale of specific batches and calculating profit margins.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Product Traceability</span><span class="rvts6">: If there are regulatory compliance requirements or safety concerns related to specific batches, this report helps you trace the products back to their source and identify affected items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Marketing and Sales Analysis</span><span class="rvts6">: By understanding which batches or serials are selling well, you can make informed decisions regarding marketing strategies and product promotions.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">Overall, the "Location-Serials-Batches - Batch Sold to Customer" report enhances your ability to manage inventory, provide excellent customer service, ensure product quality, and meet regulatory requirements. It offers transparency and traceability in your sales processes and supports various aspects of your business operations.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Outdated batch</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Outdated batch</span><span class="rvts6">" report lists only those serials or batches which is still on hand, but which is past the maximum sales date.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-serial-reports-outdated-batch.png"></p>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Location-Serials-Batches - Outdated Batch</span><span class="rvts6">" report plays a crucial role in helping businesses manage expired items effectively. Here's how this report can be beneficial in managing expired items:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Identifying Expired Items</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">The report identifies and lists all serials or batches that have passed their maximum sales date.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">It provides a clear and concise overview of which products are no longer fit for sale due to expiration.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts14">Preventing Sale of Expired Items</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">By having a list of expired items at hand, businesses can prevent the accidental sale of products that are past their sell-by or expiry dates.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">This helps maintain product quality and ensures that customers receive fresh and safe products.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts14">Reducing Wastage</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Businesses can take proactive measures to address expired items, such as removing them from shelves or disposing of them appropriately.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">This reduces the risk of keeping expired products in inventory, which can lead to financial losses.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts14">Inventory Management</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">The report aids in efficient inventory management by highlighting items that need attention.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">It allows businesses to make informed decisions regarding restocking, discounts, or disposal of expired items.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts14">Compliance and Liability</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">For items with legal or regulatory requirements, like food or pharmaceuticals, tracking expiration dates is essential to comply with safety standards.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Having an accurate record of expired items can also protect businesses from liability issues.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" class="rvps2 noindent"><span class="rvts14">Customer Satisfaction</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Avoiding the sale of expired items enhances customer satisfaction and trust in your business.</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">It demonstrates your commitment to providing fresh and safe products to customers.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" class="rvps2 noindent"><span class="rvts14">Cost Savings</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts6">Efficiently managing expired items reduces financial losses associated with wastage.</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">Businesses can potentially plan better for purchasing and stocking items to minimize overstocking of perishable goods.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6">In summary, the "</span><span class="rvts15">Location-Serials-Batches - Outdated Batch</span><span class="rvts6">" report is a valuable tool for businesses to proactively manage and mitigate the risks associated with expired products. It supports compliance, reduces wastage, and ensures that customers receive quality goods, ultimately contributing to the overall success of the business.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Common practice - Specific steps to dispose of these items and to returns to suppliers</span></span></h3>
+<p class="rvps2"><span class="rvts6">The specific steps for disposing of or returning expired items identified on the "</span><span class="rvts15">Location-Serials-Batches - Outdated Batch</span><span class="rvts6">" report may vary depending on your business processes, the type of products involved, and any applicable regulations or agreements with suppliers. However, here are some common practices that you can consider when dealing with expired items:</span></p>
+<p class="rvps2"><span class="rvts14">For Disposal</span><span class="rvts6">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Separation</span><span class="rvts6">: Physically separate expired items from non-expired inventory to avoid accidental sale.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Record</span><span class="rvts6">: Document the details of the expired items, including their serial or batch numbers and quantities.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Dispose Properly</span><span class="rvts6">: Dispose of the expired items according to local regulations and environmental guidelines. This may involve recycling, donating non-perishable items if possible, or disposing of perishables in an environmentally responsible manner.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Adjust Inventory</span><span class="rvts6">: Update your inventory management system to reflect the disposal of expired items. This ensures accurate tracking of your remaining stock.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Review and Adjust</span><span class="rvts6">: Analyse why these items expired. Adjust your inventory management practices or purchasing strategies to minimize future wastage.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts14">For Returns to Suppliers</span><span class="rvts6">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Verification</span><span class="rvts6">: Ensure that the items marked as expired are indeed within the warranty or return period specified by the supplier. Check your purchase records and supplier agreements.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Contact Supplier</span><span class="rvts6">: Reach out to the supplier or vendor from whom you purchased the items. Inform them of the expired items and request return instructions.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Return Authorization</span><span class="rvts6">: Obtain a return authorization or an RMA (Return Merchandise Authorization) from the supplier if required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Packaging</span><span class="rvts6">: Properly package the expired items for return. Include any required documentation, such as the RMA, along with a clear explanation of why the items are being returned.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Shipping</span><span class="rvts6">: Arrange for the return shipment, following the supplier's preferred shipping method or instructions.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Tracking</span><span class="rvts6">: Keep a record of the return shipment's tracking information for reference.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Credit or Replacement</span><span class="rvts6">: Once the supplier receives and processes the returned items, they may offer a credit or replacement, depending on their policies and the condition of the items.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Update</span><span class="rvts6">: Update your inventory management system to reflect the returned items and any credit received.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">It's essential to have clear internal procedures for handling expired items and returns to suppliers. Communication with suppliers is key, as their specific return policies and procedures may vary. Additionally, maintaining accurate records of these transactions is crucial for accountability and compliance.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Importance to check the expiry dates</span></span></h3>
+<p class="rvps2"><span class="rvts6">Checking the expiry dates of products when receiving them from suppliers is a crucial part of effective inventory management, especially if your business deals with perishable goods or products with limited shelf life. Here are some key reasons why it's essential:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Quality Assurance</span><span class="rvts6">: Verifying expiry dates ensures that the products you receive are fresh and safe for your customers. It helps maintain the quality and safety of the items you sell.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Minimize Waste</span><span class="rvts6">: By being aware of expiry dates, you can avoid receiving products that are close to or have already passed their expiration date. This reduces the risk of inventory becoming obsolete or being wasted.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Compliance</span><span class="rvts6">: Depending on your industry, there may be regulatory requirements related to handling and selling products within their specified shelf life. Compliance with these regulations is critical to avoid legal issues.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Customer Satisfaction</span><span class="rvts6">: Customers expect to purchase products with reasonable shelf life. Selling expired items can lead to dissatisfied customers, returns, and damage to your business's reputation.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Turnover</span><span class="rvts6">: Understanding expiry dates helps you manage your inventory turnover effectively. You can prioritize the sale of items that are closer to expiration to minimize the risk of unsold stock.</span></li>
+</ol>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Managing Expiry Dates</span></span></h3>
+<p class="rvps2"><span class="rvts6">To effectively manage expiry dates when receiving products from suppliers, consider the following practices:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" class="rvps2 noindent"><span class="rvts14">Inspect Shipments</span><span class="rvts6">: Inspect incoming shipments carefully and check the expiry dates on each product. Ensure that the products received have sufficient shelf life for your expected sales.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">First-In-First-Out (FIFO)</span><span class="rvts6">: Implement a FIFO inventory system, where you sell the oldest items first. This ensures that products with shorter shelf lives are sold before newer ones.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Communication with Suppliers</span><span class="rvts6">: Maintain open communication with your suppliers. Make them aware of your requirements regarding product shelf life and expectations for fresh inventory.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Storage Practices</span><span class="rvts6">: Store products with shorter shelf lives in a way that ensures they are used or sold before items with longer shelf lives.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Inventory Tracking</span><span class="rvts6">: Use an inventory management system that tracks expiry dates and provides alerts or reports on items approaching their expiry.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Regular Audits</span><span class="rvts6">: Conduct regular audits of your inventory to identify and address any items nearing expiration.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Training</span><span class="rvts6">: Train your staff to be vigilant about checking expiry dates during the receiving process and when restocking shelves.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">By incorporating these practices into your inventory management processes, you can minimize waste, provide high-quality products to your customers, and maintain efficient inventory turnover. This, in turn, contributes to the success and reputation of your business.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

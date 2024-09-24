@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Column balances debtors</title>
+  <meta name="description" content="How to view and export debtor column balances as period totals in a spreadsheet - osfinancials.org" /> 
+  <meta name="keywords" content="Accounting periods,export text file (spreadsheets),Ledger analyser,Column balances,T-Account viewer,Show contra,Customer accounts,Client reports,Debtor reports,Customer reports">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Column balances debtors">
+  <meta name="twitter:description" content="How to view and export debtor column balances as period totals in a spreadsheet - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Column balances debtors" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to view and export debtor column balances as period totals in a spreadsheet - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ledger-debtor-column-balances1"
+		  data-hnd-context="827"
+		  data-hnd-title="Column balances debtors"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reports-ribbon-options.html">Reports (Reports ribbon)</a></li><li><a href="ledger-analyser.html">Ledger analyser</a></li><li><a href="ledger-analyser-column-balances.html">Ledger analyser - Column balances - Spreadsheets</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="ledger-analyser-column-balances.html" title="Ledger analyser - Column balances - Spreadsheets" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-column-balances2.html" title="Column balances - Debit / Credit" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-debtor-column-balances2.html" title="Column balances debtors - Debit / Credit" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Column balances debtors</h2>
+
+            <div class="main-content">
+                
+<p class="rvps19"><span class="rvts30">The Column balances debtors report type list the net balances (debits </span><span class="rvts78">minus</span><span class="rvts30"> credits) of the transactions totals for the for the individual debtor (customer / client) accounts for each period.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">You may select to list all debtor (customer / client) accounts, or only those accounts with balances.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts30">This report type cannot be printed but can be exported to a spreadsheet (e.g. OpenOfficeCalc / </span><a class="rvts33" href="https://www.libreoffice.org/discover/calc/" target="_blank">LibreOffice Calc</a><span class="rvts30"> or Microsoft Excel, etc.).</span></p>
+<p class="rvps19"><span class="rvts193">You may generate the transactions in a spreadsheet format in the </span><a class="rvts33" href="ledger-debtor-column-balances1.html">Column balances debtors</a><span class="rvts193"> or the </span><a class="rvts33" href="ledger-debtor-column-balances2.html">Column balances debtors D/C</a><span class="rvts193"> report types on the </span><a class="rvts33" href="ledger-analyser.html">Ledger analyser</a><span class="rvts193">.&nbsp;</span></p>
+<p class="rvps19"><span class="rvts193">These transaction totals may &nbsp;be exported to an "</span><span class="rvts129">Export.txt</span><span class="rvts193">" file or "</span><span class="rvts129">Export.csv</span><span class="rvts193">" and opened in a spreadsheet.&nbsp;</span></p>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 75px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1372px;">
+   <p class="rvps12"><span class="rvts166">To view the transactions for a specific debtor customer / client) account for a specific period, simply double-click on a period. The transactions will be displayed in the&nbsp;</span><a class="rvts275" href="t-account-viewer.html">T-Account viewer</a><span class="rvts166">&nbsp;to filter, print or export the transactions.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">In addition to the </span><a class="rvts52" href="reports-debtors-transactions.html">transaction reports</a><span class="rvts40">, you may also view and filter transactions on the </span><a class="rvts52" href="debtor-tab-transactions.html">Transactions</a><span class="rvts40"> tab of a selected </span><span class="rvts166">debtor (customer / client)</span><span class="rvts40"> account.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps19">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts54">This spreadsheet only includes </span><span class="rvts40">batch and document transactions</span><span class="rvts54"> which are posted. Unposted </span><span class="rvts40">batches and documents </span><span class="rvts54">will be </span><span class="rvts53">NOT</span><span class="rvts54"> be included in this spreadsheet.</span></p>
+   <p class="rvps12"><span class="rvts54">To view a list of unposted batches and documents, which is not updated to the ledger, go to </span><span class="rvts53">Input → </span><a class="rvts180" href="checking-for-unposted-items.html">Checking unposted items</a><span class="rvts54"> (</span><span class="rvts53">Default</span><span class="rvts54"> ribbon).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">Example : Column balances debtors</span></span></h1>
+<p class="rvps19"><img alt="" style="padding : 1px;" src="lib/column-balances-debtors.png"></p>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps12"><span class="rvts166">Buttons </span><span class="rvts183">12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2</span><span class="rvts166"> and </span><span class="rvts183">1</span><span class="rvts166"> at the bottom of the report - is shortcut keys to the last accessed </span><a class="rvts52" href="t-account-viewer.html">T-Account viewer</a><span class="rvts166"> options or </span><a class="rvts52" href="ledger-analyser-pivot.html">Pivot</a><span class="rvts166"> options. These shortcuts will be cleared when you </span><a class="rvts52" href="close-active-forms.html">close active forms</a><span class="rvts166">, or when you open the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps19"><span class="rvts30">This report cannot be printed but can be exported to a spreadsheet (e.g. OpenOfficeCalc / </span><a class="rvts33" href="https://www.libreoffice.org/discover/calc/" target="_blank">LibreOffice Calc</a><span class="rvts30"> or Microsoft Excel, etc.).</span></p>
+<p class="rvps19"><span class="rvts30">The periods is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps19 noindent"><span class="rvts29">Opening Balance Last Year</span><span class="rvts30"> - Period -1&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Periods</span><span class="rvts30"> - This is last year periods - usually 1 to 12 (depending on the number of periods and descriptions specified and entered in </span><a class="rvts31" href="setup-reporting-dates.html">Reporting dates</a><span class="rvts30"> on the</span><span class="rvts29"> </span><a class="rvts244" href="setup-ribbon.html">Setup</a><span class="rvts82"> ribbon</span><span class="rvts30">).</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Period Total</span><span class="rvts30"> - The total of the period totals for last year.</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">End Last Year</span><span class="rvts30"> - &nbsp;Opening Balance Last Year total and the Period Total.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Opening This Year</span><span class="rvts30"> - &nbsp;Period 0 - This should be the same as the End Last Year totals. &nbsp;&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Periods</span><span class="rvts30"> - This is the current year (this year) periods - usually 14 to 25 (depending on the number of periods and descriptions specified and entered in</span><span class="rvts29"> </span><a class="rvts31" href="setup-reporting-dates.html">Reporting dates</a><span class="rvts29"> </span><span class="rvts30">on the </span><a class="rvts244" href="setup-ribbon.html">Setup</a><span class="rvts82"> ribbon</span><span class="rvts30">). &nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">Period Total</span><span class="rvts30"> - The total of the period totals for this year.&nbsp;</span></li>
+ <li class="rvps19 noindent"><span class="rvts29">End This Year</span><span class="rvts30"> - Opening Balance This Year total and the Period Total (This Year).&nbsp;</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts75">View transactions in T-Account viewer</span></span></h1>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts54">You may double-click on a specific period of an account to list and view the transaction details in the </span><a class="rvts275" href="t-account-viewer.html">T-Account viewer</a><span class="rvts54">. You may be print the transactions.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Print transactions in T-Account viewer</span></span></h2>
+<p class="rvps129"><img alt="" style="padding : 1px;" src="lib/column-balances-debtors-print.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts45">Export transactions in T-Account viewer&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts30"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/column-balances-debtors-exported.png"></p>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 77px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-spreadsheet.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1055px;">
+   <p class="rvps12"><span class="rvts54">You may double-click on an account and/or in a specific period to list and view the transaction details in the </span><a class="rvts275" href="t-account-viewer.html">T-Account viewer</a><span class="rvts54">. You may be print the transactions.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts54">You may also click on the </span><a class="rvts62" href="t-account-viewer.html">Export button of the T-Account viewer</a><span class="rvts54"> to export the transactions to a spreadsheet.&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts40">You may select to save the export file as Text files (*.txt) (default file type); or as CSV files (*.csv) (Comma Separated Values) file type. This will automatically open (launch) the exported file in the program associated with the selected file type:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+     <li class="rvps12 noindent"><span class="rvts37">Text files e.g. (Export.txt)</span><span class="rvts40"> - This should automatically open the exported text file of your system's default text file program associated with Text file type (*.txt) file types (e.g. Notepad, etc). You need to close the exported text file and launch your spreadsheet program. In your spreadsheet program, Open the text file to launch the "Text Import" options.</span></li>
+     <li class="rvps12 noindent"><span class="rvts37">CSV files e.g. (Export.csv)</span><span class="rvts40"> - This should automatically open the "Text Import" options of your system's default spreadsheet program associated with Comma Separated Value file type (*.csv) file types (e.g. Microsoft Excel, </span><a class="rvts52" href="https://www.libreoffice.org/discover/calc/" target="_blank">LibreOffice Calc</a><span class="rvts40">, OpenOffice Calc, Ultra Office, etc.).&nbsp;</span></li>
+    </ul>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

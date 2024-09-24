@@ -1,0 +1,467 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Dynareg - Stock in and Stock out document type</title>
+  <meta name="description" content="Dynareg plugin - Stock in and Stock out document types - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dynareg - Stock in and Stock out document type">
+  <meta name="twitter:description" content="Dynareg plugin - Stock in and Stock out document types - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Dynareg - Stock in and Stock out document type" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Dynareg plugin - Stock in and Stock out document types - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-dynareg-stock-in-out"
+		  data-hnd-context="1171"
+		  data-hnd-title="Dynareg - Stock in and Stock out document type"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-dynareg.html">Dynareg plugins</a></li><li><a href="plugin-dynareg--bug-stock-in-ou1.html">Dynareg - Extra document types </a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugin-dynareg--bug-stock-in-ou1.html" title="Dynareg - Extra document types " role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-dynareg--bug-stock-in-out.html" title="Dynareg - Extra documnent types - BUG - Stock items" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-dynareg-stock-in-out1.html" title="Dynareg - Extra stock of correction document (Stock in / Stock out) document type)" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Dynareg - Stock in and Stock out document type</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Separate item issue (Stock In + Stock Out)</span></span></h1>
+<div class="rvps12">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="width : 48px; height : 48px; padding : 5px; margin : 5px 5px;" src="lib/shop-dyna-voorraad-inkoop%201.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Dynareg - Separate Item Issue Plugin</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/small-adjusments/dynareg-alleen-inkoop-via-nieuw-type" target="_blank">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40"> : Once-off -</span><img alt="" style="float: right; padding : 5px; margin : 5px 5px;" src="lib/plugin-dyna-extra-document-types.png"></p>
+   <p class="rvps12"><span class="rvts37">Enable</span><span class="rvts40"> : "Documenten -&gt; Aparte artickel uitgifte"</span></p>
+   <p class="rvps12"><span class="rvts37">BUG</span><span class="rvts40"> - Disables the Ledger tab of all Stock items- See - </span><a class="rvts52" href="plugin-dynareg--bug-stock-in-out.html">Dynareg - Extra documnent types - BUG - Stock items</a><span class="rvts40"> -&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Known issues&nbsp;</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Previous stock adjustments - Stock out document type</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps17 noindent"><span class="rvts6">Any stock adjustments, including Auto correction, Surpluses, and Shortages, processed before activating this plugin, will be listed on the document grid under the Stock out document type.&nbsp;</span></li>
+ <li class="rvps17 noindent"><span class="rvts6">These adjustments would have been made using the </span><span class="rvts14">Input → </span><a class="rvts32" href="stock-adjustments-input-menu.html">Adjust stock</a><span class="rvts6"> menu or by </span><a class="rvts33" href="stock-change-stock-quantities.html">manually changing stock quantities on the stock item grid</a><span class="rvts6">.&nbsp;</span></li>
+ <li class="rvps17 noindent"><span class="rvts6">The document numbers for these stock adjustments consist of 7 digits and include '</span><span class="rvts15">ST</span><span class="rvts6">' as the prefix.</span></li>
+ <li class="rvps17 noindent"><span class="rvts6">Duplicate document number - The first Stock out document created, also starts with "ST00001" which is a duplication of previous &nbsp;stock adjustments before activating </span><span class="rvts14">Enable</span><span class="rvts6"> this plugin.</span></li>
+</ul>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-stock-out-fi.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Input menu&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts14">Input → Stock in </span><span class="rvts6">menu - launches </span><span class="rvts14">Stock out</span><span class="rvts6"> can process debtors instead of creditors. On Documents grid document type Stock in launches creditors.</span></p>
+<p class="rvps2"><span class="rvts14">Input → Stock out</span><span class="rvts6"> menu- launches</span><span class="rvts14"> Stock in</span><span class="rvts6"> can process creditors instead of debtors. On Documents grid document type Stock out launches debtors.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Print posted transactions - Cannot print posted transactions for Stock in</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts14">Debtors - Documents tab</span><span class="rvts6"> - "</span><span class="rvts15">Show transactions</span><span class="rvts6">" context menu. can view and print "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen "</span><span class="rvts15">Batch type report - Posted batches</span><span class="rvts6">" report. Only prints the Cost of Sales transactions. &nbsp;When create Stock out Document - Output tax is included in the selected stock item.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Creditors - Documents tab</span><span class="rvts6"> - "</span><span class="rvts15">Show transactions</span><span class="rvts6">" context menu. Cannot view and print "Transactions" screen "</span><span class="rvts15">Batch type report - Posted batches</span><span class="rvts6">" report. Transactions screen is empty and "</span><span class="rvts15">No data to print</span><span class="rvts6">!" error. When create Stock in Document - Output tax is included in the selected stock item and not Input tax. In </span><span class="rvts14">Ledger analyser</span><span class="rvts6"> cannot trace and print the transactions for the Stock in document type.&nbsp;</span></li>
+</ul>
+<p class="rvps383"><span class="rvts6">Right-click and select "</span><span class="rvts15">Show transactions</span><span class="rvts6">" on the context menu. This lists the transactions on a "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen for the selected document. </span><span class="rvts14">Note</span><span class="rvts6">: For the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type, the quantities will be adjusted, and the transactions for cost of sales will be adjusted in a journal. Additionally, for the </span><span class="rvts14">Stock in</span><span class="rvts6"> document type, the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen may be empty, as it primarily adjusts quantities. For the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type, the cost of sales transactions, will be listed the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen.&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Update ledger / Delete documents - Titlebar captions&nbsp;</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Update documents - Stock in - Delete supplier returns</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Update documents - Stock out - Delete orders</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Delete documents - Stock in - Delete supplier returns</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Delete documents - Stock out - Delete orders</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Print layout files</span></span></h2>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Layout files added for Stock in / Stock out document types</span></span></h3>
+<p class="rvps2"><span class="rvts6">To fix this, added two translatable Document layout files from the Stock in / Stock out document types:&nbsp;</span></p>
+<p class="rvps2"><span class="rvts14">Stock in</span><span class="rvts6"> (TRN_906178) This layout file may be selected on the Documents grid or Creditors - Documents tab&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-in-layout.png"></p>
+<p class="rvps2"><span class="rvts14">Stock out</span><span class="rvts6"> (TRN_906179) This layout file may be selected on the Documents grid or Debtors - Documents tab&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-print-layout.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Layout file document names issues</span></span></h3>
+<p class="rvps17"><span class="rvts6">The plugin prints the layout file selected in the "</span><span class="rvts15">Layout file point-of-sale</span><span class="rvts6">" field within </span><span class="rvts14">Setup → Documents setup</span><span class="rvts6">. This setting does not work for the "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" document types &nbsp;By default, the "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" will print the till slip layout file "</span><span class="rvts15">POS Tax invoice</span><span class="rvts6">". &nbsp;&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">In the central search (</span><a class="rvts32" href="search-investigator.html">Search</a><span class="rvts6"> on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon), it will print this POS - START-SP100 (TRN_906183). &nbsp;If any other layout file, is selected. the name of the report is not translated, but will display for example TRN_906183 in </span><span class="rvts14">Setup → Point of-Sale - Printers</span><span class="rvts6"> tab&nbsp;</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/bug-setup-pos-printer-layout-name.png"></p>
+<p class="rvps17"><span class="rvts6">Changing the layout file in </span><span class="rvts14">Setup → Documents setup</span><span class="rvts6"> will update the layout file in </span><span class="rvts14">Setup → Point of-Sale - Printers</span><span class="rvts6"> tab but it still prints Stock in and Stock out using the POS - START-SP100 (TRN_906183)layout file.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-print.png"></p>
+<p class="rvps17"><span class="rvts14">NOTE</span><span class="rvts6"> If "</span><span class="rvts15">Layout file</span><span class="rvts6">" is selected as the option within </span><span class="rvts14">Documents setup </span><span class="rvts6">for other document types, the "</span><span class="rvts15">Default</span><span class="rvts6">" option on Document grid does not work. You need to select the "</span><span class="rvts15">Layout file</span><span class="rvts6">" or other layout file. You have the option to choose a different layout file for "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" document types.</span></p>
+<p class="rvps17"><span class="rvts6">Layout file - The default "</span><span class="rvts15">Layout file</span><span class="rvts6">" for all document types, will print the headings in the Types on </span><span class="rvts14">Tools → Customise language</span><span class="rvts6">.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Stock out - Adjustment</span></span></h3>
+<h2 class="rvps4"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-in-print-1.png"></h2>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Stock in - Statement&nbsp;</span></span></h3>
+<h2 class="rvps4"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-in-print-2.png"></h2>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Separate Item Issue Plugin</span></span></h1>
+<div class="rvps12">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps12"><img alt="" style="width : 48px; height : 48px; padding : 5px; margin : 5px 5px;" src="lib/shop-dyna-voorraad-inkoop%201.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps12"><span class="rvts37">Dynareg - Separate Item Issue Plugin</span><span class="rvts40"> - </span><a class="rvts56" href="https://www.osfinancials.org/en/webshop/small-adjusments/dynareg-alleen-inkoop-via-nieuw-type">Shop</a><span class="rvts40"> - </span><span class="rvts37">Licence</span><span class="rvts40"> : Once-off -</span></p>
+   <p class="rvps12"><span class="rvts37">Enable</span><span class="rvts40"> : "Aparte artickel uitgifte"</span></p>
+   <p class="rvps12"><span class="rvts37">BUG</span><span class="rvts40"> - Disables the Ledger tab of all Stock items- See - </span><a class="rvts52" href="plugin-dynareg--bug-stock-in-out.html">Dynareg - Extra documnent types - BUG - Stock items</a><span class="rvts40"> -&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps17"><span class="rvts6">"Provides 2 additional document types i.e. Stock in for purchase documents and Stock out for Sales documents with which items can be entered and issued.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">This then processes quantities and any costs of sales. With the other documents, only turnover and VAT items are recorded and no more quantities.</span></p>
+<p class="rvps26"><span class="rvts6">"</span><span class="rvts15">Dynareg - Separate Item Issue</span><span class="rvts6">" plugin enhances osFinancials by providing two additional document types: </span><span class="rvts14">Stock in</span><span class="rvts6"> for purchase documents and </span><span class="rvts14">Stock out</span><span class="rvts6"> for sales documents. With these document types, items can be entered and issued, enabling precise tracking of quantities and associated costs of sales.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Enable the "</span></span><span class="rvts0"><span class="rvts110">Dyna - Separate item issue</span></span><span class="rvts0"><span class="rvts13">" plugin</span></span></h1>
+<p class="rvps26"><span class="rvts14">To activate the "</span><span class="rvts16">Dyna - Separate item issue</span><span class="rvts14">" plugin follow these steps:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;">
+ <li class="rvps26 noindent"><span class="rvts6"><br/></span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps28 noindent"><span class="rvts69">Access Plugins</span><span class="rvts6">: Navigate to </span><span class="rvts14">Plugins → Tools → DYNADBREG</span><span class="rvts6"> menu.</span></li>
+ <li class="rvps28 noindent"><span class="rvts14">Enable the plugin</span><span class="rvts6">: Select the &nbsp;"</span><span class="rvts15">Aparte artickel uitgifte</span><span class="rvts6">" option and click </span><span class="rvts14">Enable</span><span class="rvts6">.</span></li>
+ <li class="rvps28 noindent"><span class="rvts69">Reopen Set of Books</span><span class="rvts6">: Once you've enabled this plugin, reopen your Set of Books. This step is essential for the changes to take effect.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Access to Stock in and Stock out document types</span></span></h1>
+<p class="rvps26"><span class="rvts6">In addition to the standard document types, this plugin adds </span><span class="rvts14">Stock in</span><span class="rvts6"> and </span><span class="rvts14">Stock out</span><span class="rvts6"> document types, each serving distinct purposes:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts14">Stock in</span><span class="rvts6"> is added alongside the existing purchase document types: purchases, supplier returns, and orders. Document numbers for Stock in start with SI00001.</span></li>
+ <li class="rvps46 noindent"><span class="rvts14">Stock out</span><span class="rvts6"> is added alongside the existing sales document types: invoices, credit notes, and quotes. Document numbers for Stock out start with ST00001.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">Accessing the Additional Document Types: You may access these two additional document types via the following options:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps27 noindent"><span class="rvts14">Default ribbon</span><span class="rvts6">: Navigate to Documents and select either the standard document types or the </span><span class="rvts14">Stock in</span><span class="rvts6"> and </span><span class="rvts14">Stock out</span><span class="rvts6"> document types. This launches the document entry screen as an integrated part of the document grid.</span></li>
+</ol>
+<p class="rvps32"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps189 noindent"><span class="rvts14">Input menu</span><span class="rvts6">: Choose from the standard document types or the </span><span class="rvts14">Stock in</span><span class="rvts6"> and </span><span class="rvts14">Stock out</span><span class="rvts6"> document types from the </span><span class="rvts14">Input</span><span class="rvts6"> menu. This launches the document entry screen as a separate screen.</span></li>
+</ol>
+<p class="rvps57"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-2.png"></p>
+<p class="rvps26"><span class="rvts6">Additionally, the "</span><span class="rvts15">Stock in</span><span class="rvts6">" and "</span><span class="rvts15">Stock out</span><span class="rvts6">" document types are available as options on the context menu of the document grid, accessible via </span><span class="rvts14">Documents → Copy to → Stock in</span><span class="rvts6"> and </span><span class="rvts14">Documents → Copy to → Stock out</span><span class="rvts6">.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Layout file setting</span></span></h1>
+<p class="rvps17"><span class="rvts6">The plugin prints the layout file selected in the "</span><span class="rvts15">Layout file point-of-sale</span><span class="rvts6">" field within </span><span class="rvts14">Documents setup</span><span class="rvts6">. By default, the "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" will print the till slip layout file "</span><span class="rvts15">POSTax invoice</span><span class="rvts6">". &nbsp;You have the option to choose a different layout file for "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" document types.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-3.png"></p>
+<p class="rvps26"><span class="rvts6">On the Documents screen, you can select "</span><span class="rvts15">Layout file</span><span class="rvts6">". The "</span><span class="rvts15">Layout File</span><span class="rvts6">" document layout supports all document type descriptions, whether they are sales documents like invoices, credit notes, and quotes, or purchase documents like purchases, supplier returns, and orders. If documents for the "</span><span class="rvts15">Stock in</span><span class="rvts6">" or "</span><span class="rvts15">Stock out</span><span class="rvts6">" document type are printed, the heading will be displayed as "</span><span class="rvts15">Adjustment</span><span class="rvts6">" document type.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Document grid - Search and Filter options&nbsp;</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Previous stock adjustments&nbsp;</span></span></h2>
+<p class="rvps17"><span class="rvts6">Any stock adjustments, including Auto correction, Surpluses, and Shortages, processed before activating this plugin, will be listed on the document grid under the Stock out document type.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">These adjustments would have been made using the </span><span class="rvts14">Input → </span><a class="rvts32" href="stock-adjustments-input-menu.html">Adjust stock</a><span class="rvts6"> menu or by </span><a class="rvts33" href="stock-change-stock-quantities.html">manually changing stock quantities on the stock item grid</a><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts6">The document numbers for these stock adjustments consist of 7 digits and include '</span><span class="rvts15">ST</span><span class="rvts6">' as the prefix.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-stock-out-fi.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Filter and Search options</span></span></h2>
+<p class="rvps26"><span class="rvts6">For the Stock in and Stock out document types, utilize the powerful grid for filtering and searching. Some of the available options include:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Document status: Filter by Unposted, Posted, or view All documents.</span></li>
+ <li class="rvps189 noindent"><span class="rvts6">Groups: Filter for specific document groups.</span></li>
+ <li class="rvps46 noindent"><span class="rvts6">Document details: Access all available document details, including references, dates, and more.</span></li>
+</ul>
+<p class="rvps17"><span class="rvts6">Additionally, you can build custom filters tailored to your specific needs.</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Stock in&nbsp;</span></span></h1>
+<p class="rvps26"><span class="rvts6">The "</span><span class="rvts15">Stock in</span><span class="rvts6">" document type resembles the "</span><span class="rvts15">Purchase</span><span class="rvts6">" document type. To create a new document for the </span><span class="rvts14">Stock in</span><span class="rvts6"> document type, click </span><span class="rvts14">New</span><span class="rvts6">. On the "</span><span class="rvts15">Creditor accounts</span><span class="rvts6">" screen, select a creditor (supplier/vendor) account and click </span><span class="rvts14">Open</span><span class="rvts6">. If no account exists, you may create a new creditor account.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-stock-in.png"></p>
+<p class="rvps26"><span class="rvts6">On the </span><span class="rvts14">Stock in</span><span class="rvts6"> document entry screen, select the stock item. You may enter references in the "</span><span class="rvts15">Your reference</span><span class="rvts6">" field in the document header. Additionally, you can include remarks and comments:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts14">Remarks</span><span class="rvts6">: Beneath each stock item, you can add remarks. These remarks will print in document layout files but are not searchable in the central search.</span></li>
+ <li class="rvps46 noindent"><span class="rvts14">Comments</span><span class="rvts6">: Use the </span><span class="rvts14">F9: Comment</span><span class="rvts6"> option to enter comments for each item.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">The document references entered in the "</span><span class="rvts15">Your reference</span><span class="rvts6">" field in the document header, along with the comments, are searchable using the central search option (accessible via the </span><a class="rvts32" href="search-investigator.html">Search</a><span class="rvts6"> on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon).</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Stock out</span></span></h1>
+<p class="rvps26"><span class="rvts6">The "</span><span class="rvts15">Stock out</span><span class="rvts6">" document type resembles the "</span><span class="rvts15">Invoice</span><span class="rvts6">" document type. To create a new document for the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type, click </span><span class="rvts14">New</span><span class="rvts6">. On the "</span><span class="rvts15">Debtor accounts</span><span class="rvts6">" screen, select a debtor (customer/client) account and click </span><span class="rvts14">Open</span><span class="rvts6">. If no account exists, you may create a new debtor account.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-extra-document-types-stock-out.png"></p>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<p class="rvps26"><span class="rvts6">On the </span><span class="rvts14">Stock out</span><span class="rvts6"> document entry screen, select the stock item. You may enter references in the "</span><span class="rvts15">Your reference</span><span class="rvts6">" field in the document header. Additionally, you can include remarks and comments:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts14">Remarks</span><span class="rvts6">: Beneath each stock item, you can add remarks. These remarks will print in document layout files but are not searchable in the central search.</span></li>
+ <li class="rvps46 noindent"><span class="rvts14">Comments</span><span class="rvts6">: Use the </span><span class="rvts14">F9: Comment</span><span class="rvts6"> option to enter comments for each item.</span></li>
+</ul>
+<p class="rvps26"><span class="rvts6">The document references entered in the "</span><span class="rvts15">Your reference</span><span class="rvts6">" field in the document header, along with the comments, are searchable using the central search option (accessible via the </span><a class="rvts32" href="search-investigator.html">Search</a><span class="rvts6"> on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon).</span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Update to ledger&nbsp;</span></span></h1>
+<p class="rvps26"><span class="rvts6">If the "</span><span class="rvts15">Auto-post document on print</span><span class="rvts6">" setting on the </span><span class="rvts14">Documents setup</span><span class="rvts6"> in the </span><span class="rvts14">Setup</span><span class="rvts6"> menu (accessible via the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon) is not activated, or if you have not yet printed the document, you will need to manually post the Stock in and Stock out documents.</span></p>
+<p class="rvps26"><span class="rvts6">To do this, press </span><span class="rvts14">F3</span><span class="rvts6"> or select </span><span class="rvts14">Update Ledger</span><span class="rvts6"> on the </span><span class="rvts14">Default</span><span class="rvts6"> ribbon. The "</span><span class="rvts15">Update Invoices</span><span class="rvts6">" screen is displayed:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-update.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Select the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type and click </span><span class="rvts14">Update</span><span class="rvts6">.</span></li>
+ <li class="rvps46 noindent"><span class="rvts6">Repeat the process for the </span><span class="rvts14">Stock in</span><span class="rvts6"> document type if necessary.</span></li>
+</ul>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">View the posted transactions</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once the Stock in and Stock out documents have been posted (updated to the ledger), you may view the transactions in the following options:</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Stock items (Default ribbon)&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Includes the Stock in and / or &nbsp;Stock out document types if processed for the selected stock item.</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Document groups tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">This will include posted as well as unposted documents for the Stock in and Stock out document types.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Double-click to print the selected document or choose a different layout file.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Right-click to open the document entry screen in a separate window. Note that both posted and unposted documents cannot be edited.</span></li>
+</ul>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Transactions tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">This will only include posted documents for the Stock in and Stock out document types.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Right-click and select "</span><span class="rvts15">Open document</span><span class="rvts6">" from the context menu. Note that posted documents cannot be edited.</span></li>
+</ul>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Debtors (Default Ribbon)</span></span></h2>
+<p class="rvps26"><span class="rvts6">The Stock out document type should be listed since you can only select a debtor account.&nbsp;</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Documents tab</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-trans-debtor.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Includes both posted and unposted documents for the Stock out document type.</span></li>
+ <li class="rvps189 noindent"><span class="rvts6">Here, you may:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts14">Print the document layout file</span><span class="rvts6">: Double-click to print the selected document or click the </span><span class="rvts14">Print</span><span class="rvts6"> button. You may select a different layout file.</span></li>
+  <li class="rvps224 noindent"><span class="rvts14">View and Print transactions</span><span class="rvts6">: Right-click and select "</span><span class="rvts15">Show transactions</span><span class="rvts6">" on the context menu. This lists the transactions on a "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen for the selected document. </span><span class="rvts14">Note</span><span class="rvts6">: For the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type, the quantities will be adjusted, and the transactions for cost of sales will be adjusted in a journal. Additionally, for the </span><span class="rvts14">Stock in</span><span class="rvts6"> document type, the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen may be empty, as it primarily adjusts quantities. For the </span><span class="rvts14">Stock out</span><span class="rvts6"> document type, the cost of sales transactions, will be listed the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps16"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-trans.png"></p>
+<p class="rvps224"><span class="rvts6">Clicking the </span><span class="rvts14">Print</span><span class="rvts6"> button will print a "</span><span class="rvts15">Batch type report - Posted batches</span><span class="rvts6">". If an unposted batch is selected, the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen will be blank.</span></p>
+<p class="rvps16"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-out-trans-print.png"></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Stock item tab&nbsp;</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Includes both posted and unposted documents for the Stock out document type.</span></li>
+ <li class="rvps27 noindent"><span class="rvts6">The stock out document type numbers will consist of 7 digits of which the first two is prefixed with "ST" .The document type for the Stock out is indicated as "Stock+"&nbsp;</span></li>
+</ul>
+<p class="rvps17"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Creditors (Default Ribbon)</span></span></h2>
+<p class="rvps26"><span class="rvts6">The Stock in document type should be listed since you can only select a creditor account.&nbsp;</span></p>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Documents tab</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-dyna-stock-1-item-9.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Includes both posted and unposted documents for the Stock in document type.</span></li>
+ <li class="rvps189 noindent"><span class="rvts6">Here, you may:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps61 noindent"><span class="rvts14">Print the document layout file</span><span class="rvts6">: Double-click to print the selected document or click the </span><span class="rvts14">Print</span><span class="rvts6"> button. You may select a different layout file.&nbsp;</span></li>
+  <li class="rvps224 noindent"><span class="rvts14">View and Print transactions</span><span class="rvts6">: Right-click and select "</span><span class="rvts15">Show transactions</span><span class="rvts6">" on the context menu. This lists the transactions on a "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen for the selected document. </span><span class="rvts14">Note</span><span class="rvts6">: for Stock In document type, the "</span><span class="rvts15">Transactions</span><span class="rvts6">" screen may be empty, as it primarily adjusts quantities.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps8"><span class="rvts0"><span class="rvts22">Stock item tab&nbsp;</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps27 noindent"><span class="rvts6">Includes both posted and unposted documents for the Stock in document type.</span></li>
+ <li class="rvps27 noindent"><span class="rvts6">The stock in document type numbers will consist of 7 digits of which the first two is prefixed with "</span><span class="rvts15">SI</span><span class="rvts6">" .The document type for the Stock in is indicated as "</span><span class="rvts15">Stock-</span><span class="rvts6">"&nbsp;</span></li>
+</ul>
+<p class="rvps17"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

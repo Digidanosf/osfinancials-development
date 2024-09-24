@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Budgets - Pivot - Ledger analyser</title>
+  <meta name="description" content="Budgets - Pivots in Ledger analyser - osfinancials.org " /> 
+  <meta name="keywords" content="Account groups,Budgets,Pivot">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Budgets - Pivot - Ledger analyser">
+  <meta name="twitter:description" content="Budgets - Pivots in Ledger analyser - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Budgets - Pivot - Ledger analyser" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Budgets - Pivots in Ledger analyser - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="budgets-pivot-ledger-analyser"
+		  data-hnd-context="465"
+		  data-hnd-title="Budgets - Pivot - Ledger analyser"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="budgets.html">Budgets</a></li><li><a href="budgets-reports-ribbon.html">Budgets (Reports ribbon)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="budgets-reports-ribbon.html" title="Budgets (Reports ribbon)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="budgets-pivot-tab.html" title="Budgets - Pivot tab (Reports ribbon)" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="budget-listing-reports.html" title="Budget listing reports" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Budgets - Pivot - Ledger analyser</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">To view the budget figures in the Pivot view in the Ledger analyser:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">On the Ledger analyser 1 or Ledger analyser 2,&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select &nbsp;the </span><a class="rvts33" href="ledger-analyser-trial-balance.html">Trial balance</a><span class="rvts6">, </span><a class="rvts33" href="ledger-analyser-income-statement.html">Income statement</a><span class="rvts6">, </span><a class="rvts33" href="ledger-analyser-balance-sheet.html">Balance sheet</a><span class="rvts6"> or </span><a class="rvts33" href="ledger-analyser-standard-ccolumn.html">Standard column balances</a><span class="rvts6"> report types. In this example, </span><a class="rvts33" href="ledger-analyser-income-statement.html">Income statement</a><span class="rvts6"> the report type is selected.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select (tick) the </span><span class="rvts14">Budget</span><span class="rvts6"> option.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Select the </span><span class="rvts14">Period</span><span class="rvts6"> or dates on the </span><span class="rvts14">Free selection</span><span class="rvts6"> tab. In this example, the year from 1 March 2022 to 28 February 2023 is selected.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Report</span><span class="rvts6"> button.</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-reports-income-statement.png"></p>
+<div class="rvps117">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps12"><span class="rvts166">Buttons </span><span class="rvts183">2</span><span class="rvts166"> and </span><span class="rvts183">1</span><span class="rvts166"> at the bottom of the report - is shortcut keys to the last accessed </span><a class="rvts52" href="t-account-viewer.html">T-Account viewer</a><span class="rvts166"> options or </span><a class="rvts52" href="ledger-analyser-pivot.html">Pivot</a><span class="rvts166"> options. These shortcuts will be cleared when you </span><a class="rvts52" href="close-active-forms.html">close active forms</a><span class="rvts166">, or when you open the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts14">Pivot</span><span class="rvts6"> button.&nbsp;</span></li>
+</ol>
+<div class="rvps9">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 774px;">
+   <p class="rvps12"><span class="rvts40">You may use right-click in any area of the report to launch the context menu:</span></p>
+   <p class="rvps12"><img alt="" style="float: right; padding : 1px;" src="lib/ledger-analyser-context-menu.png"></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps12 noindent"><span class="rvts37">Show details</span><span class="rvts40"> - Launch the T-Account viewer for a selected account.</span></li>
+    <li class="rvps12 noindent"><span class="rvts37">Show pivot</span><span class="rvts40"> - Launch the Pivot feature based on the selected report options.</span></li>
+   </ul>
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" class="rvps2 noindent"><span class="rvts6">The budget figures for the selected period is displayed:</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-01.png"></p>
+<div class="rvps40">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">You may click on any graph to display the graph for the next available data level fields.</span></p>
+   <p class="rvps19"><span class="rvts228">The cursor will be displayed as a magnifying glass and move to the next dataset. In this example, "Date" is selected. &nbsp; </span><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-02.png"></p>
+   <p class="rvps19"><span class="rvts228">Move over graph area will display the values, e.g. "Credit for 2022/05/01 is 15000"&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" class="rvps2 noindent"><span class="rvts6">Click on the</span><img alt="" style="width : 22px; height : 18px; padding : 5px; margin : 5px 5px;" src="lib/pivot-01.png"><span class="rvts6">icon to Profit loss to list the budget totals for the account types (e.g. Income and Expenses financial categories for the selected period or dates. &nbsp;The icon will change</span><img alt="" style="width : 22px; height : 20px; padding : 5px; margin : 5px 5px;" src="lib/pivot-02.png"><span class="rvts6">to list totals for each financial category (i.e. Income and Expenses).</span></li>
+</ol>
+<div class="rvps40">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">You may right-click to launch the context menu, and select the following options: </span><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-03.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" class="rvps2 noindent"><span class="rvts6">Once all the available columns are expanded, the Budget for the financial year should be displayed as follows:</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-04.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Default filter options</span></span></h1>
+<p class="rvps2"><span class="rvts6">The default filter options, is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Transaction id</span><span class="rvts6"> - The transaction id is automatically added for posted transactions in batches and documents as well as budget entries.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Cost group 1</span><span class="rvts6"> - If budgets </span><span class="rvts30">were </span><span class="rvts6">entered entered for </span><a class="rvts33" href="cost-centres.html">Cost centres</a><span class="rvts6"> (Cost centre 1), the Cost centres for Cost centre 1 may be selected as filter options.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Cost group 2</span><span class="rvts6"> - If budgets </span><span class="rvts30">were </span><span class="rvts6">entered entered for </span><a class="rvts33" href="cost-centres.html">Cost centres</a><span class="rvts6"> (Cost centre 2), the Cost centres for Cost centre 2 may be selected as filter options.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Account group 2</span><span class="rvts6"> - The groups set for Account group 2 in </span><span class="rvts14">Setup </span><span class="rvts29">→ </span><span class="rvts14">Groups</span><span class="rvts6"> (</span><span class="rvts14">Setup</span><span class="rvts6"> ribbon) and linked to Accounting group 2 in </span><span class="rvts14">Setup </span><span class="rvts29">→ </span><span class="rvts14">Accounts</span><span class="rvts6"> (</span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Date / week</span><span class="rvts6"> - The number of the week (from 1 to 53).</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Debit</span><span class="rvts6"> - The debit amounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Credit</span><span class="rvts6"> - The credit amounts.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Batch id</span><span class="rvts6"> - The batch id is auto generated for posted transactions in batches and documents. In the case of Budgets, the Batch id is "0" (zero).&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Reference</span><span class="rvts6"> - The default Reference "</span><span class="rvts15">BUDG</span><span class="rvts6">" or your reference as entered on the options section of the </span><span class="rvts14">Budget</span><span class="rvts6"> tab. Select the available reference(s) on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Transaction description</span><span class="rvts6"> - The default Description "</span><span class="rvts15">Auto budget</span><span class="rvts6">" or your description as entered on the options section of the </span><span class="rvts14">Budget</span><span class="rvts6"> tab. &nbsp;Select the available description(s) on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Balance account</span><span class="rvts6"> - The values, are as follows:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts6">0 = Income and Expense (Income statement) accounts.&nbsp;</span></li>
+  <li class="rvps10 noindent"><span class="rvts6">1 = Ledger accounts set as Balance sheet account type. These Capital, Assets and Liabilities accounts are reported on the Balance sheet.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="12" class="rvps2 noindent"><span class="rvts14">Amount</span><span class="rvts6"> - &nbsp;The &nbsp;total debit amounts an credit amounts (prefixed by a - (minus sign)) will be listed. Select the available amount(s) on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Income expense </span><span class="rvts6">- The options is as follows:&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts14">True</span><span class="rvts6"> = Income and Expense (Income statement) accounts. The totals of the Income and Expense (Income statement) accounts will be displayed as</span><span class="rvts14"> True Total</span><span class="rvts6">.&nbsp;</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">False</span><span class="rvts6"> = Capital, Assets and Liabilities (Balance sheet) accounts. The totals of the Capital, Assets and Liabilities (Balance sheet) accounts will be displayed as </span><span class="rvts14">False Total</span><span class="rvts6">.&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="14" class="rvps2 noindent"><span class="rvts14">Account</span><span class="rvts6"> - All accounts will be listed by Account code and description. Select the available account(s) on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Year</span><span class="rvts6"> - The budget totals will be listed for each calendar year. &nbsp;For example, if your financial year starts on 1 January 2022 and ends on 31 December 2022, only one (1) financial year will be listed, i.e. 2022. In this example the financial year starts on 1 March 2022 and ends on 28 February 2023, the totals will be listed for 2022 and 2023. Select the year on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Month</span><span class="rvts6"> - Period 0 to 12 will be listed if your Reporting dates are set for a 12 periods (</span><span class="rvts14">Setup </span><span class="rvts29">→</span><span class="rvts14"> Reporting dates</span><span class="rvts6"> (</span><span class="rvts14">Setup</span><span class="rvts6"> ribbon), the period numbers will be listed. Select the period (month) on the list as filter options, as required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Date</span><span class="rvts6"> - All the dated for the selected period or dates selected on the options section of the </span><span class="rvts14">Budget</span><span class="rvts6"> tab, will be listed. &nbsp;Select the available date(s) on the list as filter options, as required.</span></li>
+</ol>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Change sequence add / remove Pivot grid fields</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Hide Pivot grid fields&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Select a Pivot grid field, right-click, and select </span><span class="rvts14">Hide</span><span class="rvts6"> on the context menu. The selected Pivot grid field will be removed from the grid. For example, If you do not use Cost centres, You may hide Cost group 1 and Cost group 2.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-05.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Order</span></span></h2>
+<p class="rvps2"><span class="rvts6">You may select a Pivot grid field, right-click, and select the following options on the context menu:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Move to Beginning - Move to the first Pivot grid field.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Move to End - &nbsp;Move to the last Pivot grid field.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Move Left - Move the selected Pivot grid field before the previous Pivot grid field to the left.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Move Right - Move the selected Pivot grid field after the next Pivot grid field to the right.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps40">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps19"><span class="rvts228">You may use your mouse to drag a selected Pivot grid field to the right or left to your required position.</span></p>
+   <p class="rvps19"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-067.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Filters&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Right-click to access the "</span><span class="rvts15">Show Field List</span><span class="rvts6">" or the "</span><span class="rvts15">Show Prefilter Dialog</span><span class="rvts6">" options.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-07.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">PivotGrid Field List</span></span></h2>
+<p class="rvps2"><span class="rvts6">Pivot grid fields&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-08.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Show Prefilter Dialog</span></span></h2>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Prefilter Dialog</span><span class="rvts6">" allows you to create custom filters for the Pivot.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-09.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Customise the graphs&nbsp;</span></span></h1>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Graph types&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">You may select the one of the following diagrams to view the graph.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-11.png"></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Series</span></span></h2>
+<p class="rvps2"><span class="rvts6">By default, only the Amount and Debit and Credit amount is displayed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may remove the tick of the series or add a tick to a series. For example, if you wish to see only the Debit and Credit amounts, tick these options; and if you do not wish to view the Amount, remove the tick.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-12.png"></p>
+<p class="rvps2"><span class="rvts14">Sort by:</span><span class="rvts6"> select the options in the series to change the sequence in which the data in the graph will be displayed.</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Data groups&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Data groups is empty.&nbsp;</span></p>
+<h2 class="rvps4"><span class="rvts0"><span class="rvts11">Options&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">You may change the default values for the “</span><span class="rvts15">Legend, Title, Toolbox</span><span class="rvts6">” and “</span><span class="rvts15">Other (Value Hints)</span><span class="rvts6">“ according to your requirements. &nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/budget-pivot-ledger-analyser-custom-options.png"></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

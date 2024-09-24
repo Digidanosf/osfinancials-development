@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Designing a Chart of Accounts</title>
+  <meta name="description" content="What is the steps to consider when designing a Chart of Accounts? - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Designing a Chart of Accounts">
+  <meta name="twitter:description" content="What is the steps to consider when designing a Chart of Accounts? - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Designing a Chart of Accounts" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="What is the steps to consider when designing a Chart of Accounts? - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="chart-of-accounts-design-steps"
+		  data-hnd-context="539"
+		  data-hnd-title="Designing a Chart of Accounts"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="new-accounting-research.html">Research and Development (R&amp;D)</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="new-accounting-research.html" title="Research and Development (R&amp;D)" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="accounting-terminology-countries.html" title="Differences in accounting terminology in countries" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="chart-of-accounts-objectives.html" title="Chart of Accounts - Definition and objectives" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Designing a Chart of Accounts</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">Designing a chart of accounts from scratch is a crucial step in setting up a robust and efficient accounting system for your business. The chart of accounts organizes and categorises your financial transactions, making it easier to track and analyse your company's financial performance. Here are some steps to consider when designing a Chart of Accounts in osFinancials:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts14">Understand Accounting Standards and Framework and Legislation</span><span class="rvts6">: Begin by familiarizing yourself with the accounting standards and frameworks, Legal Requirements and Tax Regulations, Legislation Regarding Business Ownership and Structure, Labour Laws and Employment Regulations and any applicable matters regarding the nature of your business and the industry and jurisdiction in which it operates. Let's delve into the significance of each aspect:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts14">Accounting Standards and Frameworks</span><span class="rvts6">: Different countries may follow specific accounting principles and frameworks, such as Generally Accepted Accounting Principles (GAAP) or International Financial Reporting Standards (IFRS). Complying with these standards ensures that your financial statements are prepared in a consistent and transparent manner, making it easier for stakeholders to understand your company's financial performance. Adhering to recognized accounting standards also facilitates comparisons with other companies and builds credibility with investors, creditors, and regulatory authorities.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Legal Requirements and Tax Regulations</span><span class="rvts6">: Each country has its own set of legal requirements and tax regulations that businesses must follow. Understanding these regulations is crucial for ensuring compliance and avoiding potential legal and financial risks. Specific attention should be given to areas such as Value Added Tax (VAT), Goods and Services Tax (GST), Sales Tax, Income Tax, and other taxes applicable to your business activities. Non-compliance with tax regulations can lead to penalties and other consequences, so it's essential to be well-informed and stay up-to-date with changes in tax laws.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Legislation Regarding Business Ownership and Structure:</span><span class="rvts6"> Depending on the type of business ownership and legal structure (e.g., sole proprietorship, partnership, corporation), there may be specific legal requirements and obligations to consider. The Companies Act or other relevant legislation governs the formation, management, and dissolution of companies. Similarly, for non-profit organizations (NGOs/NPOs), there may be additional regulatory requirements specific to their operations and funding sources.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Labour Laws and Employment Regulations</span><span class="rvts6">: Compliance with labour laws and employment regulations is essential for businesses with employees. These laws cover areas such as wages, working hours, benefits, health and safety, and employment contracts. Failure to comply with labour laws can result in legal liabilities and damage to the company's reputation.</span></li>
+ </ul>
+</ul>
+<p class="rvps10"><span class="rvts6">Incorporating these considerations into your accounting and financial management processes ensures that your business operates ethically and within the legal framework of the country and industry. It also helps you maintain accurate financial records, prepare reliable financial statements, and comply with tax obligations, providing a solid foundation for sustainable growth and success. Seeking professional advice from accountants or legal experts familiar with your country's regulations can be beneficial in ensuring compliance and proper financial management.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts14">Creating a Chart of Accounts from scratch: </span><span class="rvts6">When creating a Set of Books from (Using the "</span><a class="rvts34" href="create-books-advanced.html">Customise your own Set of Books (Advanced)?</a><span class="rvts6">" option in osFinancials, The basic Chart of Accounts will only include three basic control accounts (i.e. Debtors control account, Creditors control account and Retained earnings). You need to add an Inventory Control account into the Chart of Accounts when setting up osFinancials. These are essential control accounts that help track and manage specific financial activities within your business. Let's take a closer look at each of these control accounts:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts14">Debtors Control Account</span><span class="rvts6">: The Debtors Control Account is used to track the amounts owed to your business by customers who have purchased goods or services on credit. It serves as a summary of all outstanding accounts receivable balances. Each individual customer's outstanding balance is recorded in a subsidiary ledger, while the total of all outstanding balances is reflected in the Debtors Control Account in the general ledger. This control account helps monitor and manage your company's accounts receivable effectively.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Creditors Control Account</span><span class="rvts6">: The Creditors Control Account is used to track the amounts your business owes to suppliers or vendors for goods or services purchased on credit. Similar to the Debtors Control Account, individual supplier balances are recorded in a subsidiary ledger, while the total of all outstanding balances is maintained in the Creditors Control Account in the general ledger. This control account enables you to manage and keep track of your company's accounts payable.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Retained Earnings Account</span><span class="rvts6">: The Retained Earnings Account is used to track the accumulated profits or losses earned by the company since its inception, minus any dividends or distributions paid to shareholders. It represents the portion of the company's profits that have been retained within the business rather than distributed to shareholders. The Retained Earnings Account is an essential component of the equity section in the balance sheet.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Inventory Control Account</span><span class="rvts6">: The Inventory Control Account is used to monitor the value of your company's inventory or stock items. It represents the total value of all inventory items held by the company and is a critical account for managing inventory levels and cost of goods sold (COGS). Like the other control accounts, individual item details are maintained in a subsidiary ledger, while the summarized total is reflected in the Inventory Control Account in the general ledger.</span></li>
+ </ul>
+</ul>
+<p class="rvps10"><span class="rvts6">Incorporating these control accounts in osFinancials ensures that your financial data is well-organized, easy to track, and provides valuable insights into your business's financial health. Subsidiary ledgers help provide more detailed information for each account, while control accounts in the general ledger provide a summarised view, allowing for better financial management and reporting.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts14">Add Accounts to the Chart of Accounts</span><span class="rvts6">&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps10 noindent"><span class="rvts14">Identify Account Groups and Classifications</span><span class="rvts6">: Create account groups based on your accounting standards and framework. Common account groups include assets, liabilities, equity, income, and expenses. Within each group, establish relevant classifications to further organize the accounts. For example, under assets, you may have subgroups like current assets, fixed assets, and intangible assets. These groups are added in the </span><span class="rvts14">Setup → </span><a class="rvts32" href="groups-accounts.html">Groups</a><span class="rvts6"> menu on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Align with Your Business Plan and Products</span><span class="rvts6">: Ensure that your Chart of Accounts aligns with your business plan and reflects the nature of your business operations. Consider the products or services you offer and the revenue and expense categories associated with them. For instance, if you sell multiple product lines, you may want separate income accounts for each product to track their individual performance.</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Add Accounts and Link to Account Groups</span><span class="rvts6">: Once you have defined your account groups and classifications, start adding specific accounts. Include accounts for cash, accounts receivable, accounts payable, inventory, sales, salaries, rent, etc. Assign each account to its appropriate group and classification. These Accounts are added in the </span><span class="rvts14">Setup → </span><a class="rvts32" href="ledger-accounts.html">Accounts</a><span class="rvts6"> menu on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).</span></li>
+  <li class="rvps10 noindent"><span class="rvts14">Map Accounts to Financial Categories</span><span class="rvts6">: Map your accounts to the five main financial categories: assets, liabilities, equity, income, and expenses. This step ensures that transactions are correctly classified in financial statements generated by osFinancials. These groups is can be linked to the financial categories in the </span><span class="rvts14">Setup → </span><a class="rvts32" href="financial-categories.html">Financial categories</a><span class="rvts6"> menu on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon).</span></li>
+ </ul>
+</ul>
+<p class="rvps9"><span class="rvts6">After you have created the accounts and linked them to account groups, and linked accounting groups to financial categories, you can print the structure of your ledger accounts according to Reporting group 1 or Reporting group 2 in a </span><a class="rvts33" href="report-ledger-chart-of-accounts.html">list of accounts</a><span class="rvts6"> or </span><a class="rvts33" href="ledger-analyser-trial-balance.html">trial balance</a><span class="rvts6">, </span><a class="rvts33" href="ledger-analyser-income-statement.html">income statement</a><span class="rvts6"> and </span><a class="rvts33" href="ledger-analyser-balance-sheet.html">balance sheet</a><span class="rvts6">. If any adjustments are needed, you can do them at this stage.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts14">Customise language</span><span class="rvts6">: osFinancials offers the flexibility to </span><a class="rvts33" href="customise-language.html">customise the language</a><span class="rvts6"> used within your Set of Books to cater to specific industries and regional requirements. This customisation allows businesses to tailor the terminologies and labels used in osFinancials to match their industry jargon, corporate preferences, and local language requirements. By setting your preferred language or customizing the language settings through the </span><span class="rvts14">Setup → </span><a class="rvts32" href="set-default-language.html">Access control</a><span class="rvts6"> menu on the </span><span class="rvts14">Setup</span><span class="rvts6"> ribbon, osFinancials will display all labels, terminologies, and interface elements in the selected language whenever you access your Set of Books and print reports or documents. This makes it more convenient and user-friendly, especially when you have customised the language to suit your industry or regional requirements.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Review and Refine</span><span class="rvts6">: Periodically review and refine your chart of accounts as your business grows or undergoes changes. Ensure that it remains relevant and useful for financial reporting and analysis.</span></li>
+ <li class="rvps2 noindent"><span class="rvts14">Test and Implement</span><span class="rvts6">: Before fully implementing the Chart of Accounts, test it with some sample transactions to ensure it works as intended and captures the necessary information accurately.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">By following these steps, you can create a well-structured chart of accounts in osFinancials that supports your business's financial management needs and facilitates accurate reporting and decision-making.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 9.4.0.372">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Print single item - Transaction details</title>
+  <meta name="description" content="How to print transaction details reports for all or selected stock items (inventory items / products) - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Print single item - Transaction details">
+  <meta name="twitter:description" content="How to print transaction details reports for all or selected stock items (inventory items / products) - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Print single item - Transaction details" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to print transaction details reports for all or selected stock items (inventory items / products) - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="print-single-item-transactions"
+		  data-hnd-context="139"
+		  data-hnd-title="Print single item - Transaction details"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="stock-inventory.html">Stock (Inventory / Products)</a></li><li><a href="stock-items-context-menu.html">Stock items - Context menu</a></li><li><a href="stock-print-single-item.html">Context menu - Print single item</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="stock-print-single-item.html" title="Context menu - Print single item" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="print-single-item-listing-active.html" title="Print single item - Stock item listing - Active items" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="print-single-item-stock-account.html" title="Print single item - Value stock account" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Print single item - Transaction details</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps183"><span class="rvts0"><span class="rvts107">Transaction details</span></span><span class="rvts0"><span class="rvts50"> - Stock grid reports&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts15">Transaction details</span><span class="rvts6">" report list the document date (and time, if available) document number, document type, quantities, salesperson and document reference for each stock item.</span></p>
+<div class="rvps12">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps12"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps12"><span class="rvts40">You may select the "</span><a class="rvts52" href="report-stock-in-out-documents.html">Documents</a><span class="rvts40">" and the "</span><a class="rvts52" href="report-stock-in-out.html">Stock In / Out</a><span class="rvts40">" reports on the </span><span class="rvts37">Reports </span><span class="rvts53">→</span><span class="rvts37"> Stock </span><span class="rvts53">→</span><span class="rvts40"> </span><span class="rvts37">Stock In / Out</span><span class="rvts40"> menu (</span><span class="rvts37">Reports</span><span class="rvts40"> ribbon) to print stock transactions. &nbsp;You may select a specific stock item or a range of stock items; or all stock items linked to a specific Stock reporting group 1. &nbsp;&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps183"><span class="rvts0"><span class="rvts107">Transaction details options</span></span></h1>
+<p class="rvps117"><img alt="" style="padding : 1px;" src="lib/stock-sidebar-transaction-details-options.png"></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Print single item (context menu)&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts342">Prints directly to default printer and not to the Reportman preview screen.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts342">In this example, the system's default printer is set to "</span><span class="rvts343">Microsoft print to PDF</span><span class="rvts342">" &nbsp;where you need to enter a file name to save the file print as "</span><span class="rvts343">PDF Document (*pdf)</span><span class="rvts342">" file type on the " </span><span class="rvts343">Save Print Output As</span><span class="rvts342">" screen.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/stock-sidebar-transaction-details-single-ite3.png"></p>
+<p class="rvps2"><span class="rvts6">The Types column on the report, is as follows:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #993366; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts37">Type</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts37">Description</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts37">+ Increase Quantities&nbsp;</span></p>
+   <p class="rvps12"><span class="rvts37">- Decrease Quantities</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts37"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">10</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Invoice</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">-&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">11</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Credit note</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">+</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">12</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Purchase</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">+</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">13</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Supplier return</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">-</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">14</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Quote</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Not applicable to this report</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">15</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Order</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Not applicable to this report</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">16</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Stock adjustments</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">+ Surplus</span></p>
+   <p class="rvps12"><span class="rvts40">- Shortage</span></p>
+   <p class="rvps12"><span class="rvts40">+ / - Auto correction</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">ST00001, etc. &nbsp;- Document numbers - Auto prefixed with ST followed by seven (7) numerical digits.</span></p>
+   <p class="rvps12"><a class="rvts52" href="stock-change-stock-quantities.html">Stock adjustments</a><span class="rvts40"> - Remarks entered in the "Change remarks" screen (e.g. Surplus / Shortage or Auto correction).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">17</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Stock in / Stock+</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Stock+</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">SI00001, etc. &nbsp;- Document numbers - Auto prefixed with SI followed by seven (7) numerical digits.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">18</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Disassemble - BOM (Production)&nbsp;</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">+</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><a class="rvts52" href="stock-item-new-bom-production.html">BOM (Production)</a><span class="rvts40"> stock item type - Disassemble option on context menu.</span></p>
+   <p class="rvps12"><span class="rvts40">SA00001, etc. &nbsp;- Document numbers - Auto prefixed with SA followed by seven (7) numerical digits.</span></p>
+   <p class="rvps12"><span class="rvts40"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">19</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">Assemble - BOM (Production)</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><span class="rvts40">-</span></p>
+  </td>
+  <td style="border-width : 1px; border-color: #000000; border-style: solid; padding: 5px; border-top: none; border-right: none; border-bottom: none; border-left: none;">
+   <p class="rvps12"><a class="rvts52" href="stock-item-new-bom-production.html">BOM (Production)</a><span class="rvts40"> stock item type - Assemble option on context menu.</span></p>
+   <p class="rvps12"><span class="rvts40">SA00001, etc. &nbsp;- Document numbers - Auto prefixed with SA followed by seven (7) numerical digits.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps117"><span class="rvts117"><br/></span></p>
+<h1 class="rvps5"><span class="rvts0"><span class="rvts13">Report button&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Prints the report for all stock items.</span></p>
+<p class="rvps117"><img alt="" style="padding : 1px;" src="lib/stock-sidebar-transaction-details-print3.png"></p>
+<p class="rvps117"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials 5.1 - 2023 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) </div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
