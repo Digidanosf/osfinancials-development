@@ -5443,7 +5443,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1314
-      Text = 'Receipts options'
+      Text = 'Receipt options'
     end
     item
       IndexID = 1315
