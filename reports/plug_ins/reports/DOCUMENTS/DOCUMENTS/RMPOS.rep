@@ -207,7 +207,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 46
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTKOP'
@@ -592,29 +592,6 @@ object _1: TRpReport
     BackExpression = ''
     Stream = {0000000000000000}
   end
-  object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
-    PosX = 5745
-    PosY = 120
-    Type1Font = poHelvetica
-    FontStyle = 1
-    AutoExpand = False
-    AutoContract = False
-    ExportPosition = 0
-    ExportSize = 1
-    ExportDoNewLine = False
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-    WFontName = 'Arial'
-    LFontName = 'Helvetica'
-    Expression = 'DOCUMENTKOP.DDate'
-    DisplayFormat = ''
-    ExportDisplayFormat = ''
-    AgIniValue = '0'
-    ExportExpression = ''
-  end
   object TRpExpression1: TRpExpression
     Width = 1575
     Height = 264
@@ -751,20 +728,6 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     WideText = 'Factuurnummer:'
-  end
-  object TRpLabel1: TRpLabel
-    Width = 1260
-    Height = 225
-    PosX = 4020
-    PosY = 120
-    Type1Font = poHelvetica
-    FontStyle = 1
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-    WFontName = 'Arial'
-    LFontName = 'Helvetica'
-    WideText = 'Factuurdatum:'
   end
   object TRpLabel2: TRpLabel
     Width = 1035
@@ -2191,5 +2154,42 @@ object _1: TRpReport
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
+  end
+  object TRpExpression0: TRpExpression
+    Width = 1260
+    Height = 270
+    PosX = 5520
+    PosY = 120
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'DOCUMENTKOP.DDate'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpLabel1: TRpLabel
+    Width = 1260
+    Height = 225
+    PosX = 4020
+    PosY = 120
+    Type1Font = poHelvetica
+    FontStyle = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Factuurdatum:'
   end
 end

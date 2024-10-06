@@ -210,7 +210,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTKOP'
@@ -514,9 +514,9 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
-    PosX = 5745
+    Width = 1725
+    Height = 270
+    PosX = 5400
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
@@ -537,8 +537,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression1: TRpExpression
-    Width = 1575
-    Height = 264
+    Width = 1725
+    Height = 270
     PosX = 1950
     PosY = 120
     Type1Font = poHelvetica
@@ -676,7 +676,7 @@ object _1: TRpReport
   object TRpLabel1: TRpLabel
     Width = 1260
     Height = 225
-    PosX = 4020
+    PosX = 3915
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1

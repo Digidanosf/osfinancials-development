@@ -275,7 +275,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 111
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -398,7 +398,7 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
-        Component = TRpShape6
+        Component = TRpImage1
       end
       item
         Component = TRpShape5
@@ -494,7 +494,7 @@ object _1: TRpReport
         Component = TRpExpression76
       end
       item
-        Component = TRpImage1
+        Component = TRpShape6
       end>
     AutoExpand = True
     AutoContract = True
@@ -654,11 +654,11 @@ object _1: TRpReport
   object TRpExpression21: TRpExpression
     Width = 1260
     Height = 225
-    PosX = 9315
+    PosX = 8970
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
-    Alignment = 2
+    Alignment = 1
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -729,9 +729,9 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression5: TRpExpression
-    Width = 2775
-    Height = 240
-    PosX = 7020
+    Width = 3330
+    Height = 225
+    PosX = 7245
     PosY = 2415
     Type1Font = poHelvetica
     FontSize = 9
@@ -1033,9 +1033,9 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression6: TRpExpression
-    Width = 2775
+    Width = 3330
     Height = 225
-    PosX = 7020
+    PosX = 7245
     PosY = 2190
     Type1Font = poHelvetica
     FontSize = 9
@@ -1172,8 +1172,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1725
+    Height = 345
     PosX = 5175
     PosY = 120
     Type1Font = poHelvetica
@@ -1427,7 +1427,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression44: TRpExpression
-    Width = 1260
+    Width = 3330
     Height = 225
     PosX = 120
     PosY = 120
@@ -1689,7 +1689,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression33: TRpExpression
-    Width = 1155
+    Width = 1845
     Height = 225
     PosX = 5400
     PosY = 2190
@@ -1716,7 +1716,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression34: TRpExpression
-    Width = 1155
+    Width = 1845
     Height = 225
     PosX = 5400
     PosY = 2415
@@ -2476,14 +2476,14 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression70: TRpExpression
-    Width = 1260
-    Height = 270
-    PosX = 8970
-    PosY = 2175
+    Width = 2520
+    Height = 255
+    PosX = 7365
+    PosY = 2190
     Type1Font = poHelvetica
     FontSize = 6
     FontStyle = 2
-    Alignment = 4
+    Alignment = 1
     VAlignment = 8
     AutoExpand = False
     AutoContract = False
@@ -2622,9 +2622,9 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression68: TRpExpression
-    Width = 2940
+    Width = 3225
     Height = 225
-    PosX = 1725
+    PosX = 2070
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 9
@@ -2646,7 +2646,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression69: TRpExpression
-    Width = 1035
+    Width = 1950
     Height = 225
     PosX = 120
     PosY = 120

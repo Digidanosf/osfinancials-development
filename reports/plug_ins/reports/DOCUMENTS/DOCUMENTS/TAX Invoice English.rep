@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -352,6 +352,9 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
+        Component = TRpImage1
+      end
+      item
         Component = TRpExpression8
       end
       item
@@ -440,9 +443,6 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression34
-      end
-      item
-        Component = TRpImage1
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -681,9 +681,9 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression5: TRpExpression
-    Width = 3675
+    Width = 3570
     Height = 225
-    PosX = 7020
+    PosX = 7125
     PosY = 2415
     Type1Font = poHelvetica
     FontSize = 9
@@ -1017,9 +1017,9 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression6: TRpExpression
-    Width = 3675
+    Width = 3570
     Height = 225
-    PosX = 7020
+    PosX = 7125
     PosY = 2190
     Type1Font = poHelvetica
     FontSize = 9
@@ -1180,8 +1180,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1605
+    Height = 225
     PosX = 5295
     PosY = 120
     Type1Font = poHelvetica
@@ -2041,7 +2041,7 @@ object _1: TRpReport
     WideText = 'Invoice'
   end
   object TRpLabel1: TRpLabel
-    Width = 1500
+    Width = 1620
     Height = 225
     PosX = 5400
     PosY = 2190
@@ -2086,7 +2086,7 @@ object _1: TRpReport
     WideText = 'Fax:'
   end
   object TRpLabel7: TRpLabel
-    Width = 1275
+    Width = 1380
     Height = 225
     PosX = 5400
     PosY = 3330
@@ -2331,7 +2331,7 @@ object _1: TRpReport
   object TRpLabel26: TRpLabel
     Width = 1380
     Height = 225
-    PosX = 7470
+    PosX = 7365
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
@@ -2519,8 +2519,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpLabel2: TRpLabel
-    Width = 1380
-    Height = 240
+    Width = 1620
+    Height = 225
     PosX = 5400
     PosY = 2415
     Type1Font = poHelvetica

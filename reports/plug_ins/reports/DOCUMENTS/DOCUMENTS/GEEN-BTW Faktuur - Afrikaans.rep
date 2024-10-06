@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 21
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -1124,8 +1124,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1830
+    Height = 225
     PosX = 5295
     PosY = 120
     Type1Font = poHelvetica
@@ -1703,7 +1703,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression68: TRpExpression
-    Width = 3570
+    Width = 3450
     Height = 225
     PosX = 1725
     PosY = 1155
@@ -2014,7 +2014,7 @@ object _1: TRpReport
     WideText = 'Boodskap:'
   end
   object TRpLabel15: TRpLabel
-    Width = 915
+    Width = 1605
     Height = 225
     PosX = 120
     PosY = 1155
@@ -2044,7 +2044,7 @@ object _1: TRpReport
     WideText = 'Jou verwysing:'
   end
   object TRpLabel18: TRpLabel
-    Width = 1380
+    Width = 1725
     Height = 225
     PosX = 120
     PosY = 120
@@ -2057,7 +2057,7 @@ object _1: TRpReport
     WideText = 'Naam van Bank:'
   end
   object TRpLabel19: TRpLabel
-    Width = 1500
+    Width = 1725
     Height = 225
     PosX = 120
     PosY = 345

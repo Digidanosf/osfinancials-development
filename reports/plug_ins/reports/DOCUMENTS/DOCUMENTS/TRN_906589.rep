@@ -275,7 +275,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 22
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -632,7 +632,7 @@ object _1: TRpReport
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
-    Alignment = 2
+    Alignment = 1
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -1112,8 +1112,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1725
+    Height = 225
     PosX = 5175
     PosY = 120
     Type1Font = poHelvetica
@@ -1392,7 +1392,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression44: TRpExpression
-    Width = 1260
+    Width = 3450
     Height = 225
     PosX = 120
     PosY = 120
@@ -1828,7 +1828,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression67: TRpExpression
-    Width = 1035
+    Width = 1260
     Height = 225
     PosX = 120
     PosY = 690
@@ -2102,7 +2102,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression66: TRpExpression
-    Width = 1035
+    Width = 1380
     Height = 225
     PosX = 120
     PosY = 345
@@ -2129,14 +2129,14 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression70: TRpExpression
-    Width = 1260
+    Width = 2760
     Height = 270
-    PosX = 8970
+    PosX = 7470
     PosY = 1950
     Type1Font = poHelvetica
     FontSize = 6
     FontStyle = 2
-    Alignment = 4
+    Alignment = 1
     VAlignment = 8
     AutoExpand = False
     AutoContract = False
@@ -2248,8 +2248,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression65: TRpExpression
-    Width = 1035
-    Height = 225
+    Width = 1380
+    Height = 240
     PosX = 120
     PosY = 1605
     Type1Font = poHelvetica
@@ -2299,7 +2299,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression69: TRpExpression
-    Width = 1035
+    Width = 1485
     Height = 225
     PosX = 120
     PosY = 120

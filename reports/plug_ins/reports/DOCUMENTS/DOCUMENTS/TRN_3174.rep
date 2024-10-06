@@ -4,6 +4,7 @@ object _1: TRpReport
   PageHeight = 8120
   PageWidth = 5742
   PageBackColor = 16777215
+  TopMargin = 480
   SubReports = <
     item
       SubReport = TRpSubReport0
@@ -274,7 +275,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 111
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -332,7 +333,7 @@ object _1: TRpReport
   end
   object TRpSection0: TRpSection
     Width = 10772
-    Height = 270
+    Height = 240
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -396,7 +397,7 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
-        Component = TRpShape6
+        Component = TRpImage1
       end
       item
         Component = TRpShape5
@@ -492,7 +493,7 @@ object _1: TRpReport
         Component = TRpExpression62
       end
       item
-        Component = TRpImage1
+        Component = TRpShape6
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -512,7 +513,7 @@ object _1: TRpReport
   end
   object TRpSection2: TRpSection
     Width = 10800
-    Height = 15
+    Height = 0
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -545,7 +546,7 @@ object _1: TRpReport
   end
   object TRpSection3: TRpSection
     Width = 10740
-    Height = 945
+    Height = 960
     SubReport = TRpSubReport0
     GroupName = 'MAINGROUP'
     ChangeBool = False
@@ -725,9 +726,9 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression5: TRpExpression
-    Width = 2775
-    Height = 240
-    PosX = 7245
+    Width = 3105
+    Height = 225
+    PosX = 7470
     PosY = 2415
     Type1Font = poHelvetica
     FontSize = 9
@@ -902,7 +903,7 @@ object _1: TRpReport
   end
   object TRpSection6: TRpSection
     Width = 10772
-    Height = 180
+    Height = 240
     SubReport = TRpSubReport1
     GroupName = 'TAX'
     ChangeBool = False
@@ -932,7 +933,7 @@ object _1: TRpReport
   end
   object TRpSection7: TRpSection
     Width = 10770
-    Height = 795
+    Height = 720
     SubReport = TRpSubReport1
     GroupName = 'TAX'
     ChangeBool = False
@@ -976,9 +977,9 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression6: TRpExpression
-    Width = 2775
+    Width = 3105
     Height = 225
-    PosX = 7245
+    PosX = 7470
     PosY = 2190
     Type1Font = poHelvetica
     FontSize = 9
@@ -1115,8 +1116,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 2415
+    Height = 270
     PosX = 5175
     PosY = 120
     Type1Font = poHelvetica
@@ -1294,12 +1295,13 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression44: TRpExpression
-    Width = 1260
+    Width = 3450
     Height = 225
     PosX = 120
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
+    Alignment = 1
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -1529,7 +1531,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression33: TRpExpression
-    Width = 1155
+    Width = 1845
     Height = 225
     PosX = 5400
     PosY = 2190
@@ -1556,7 +1558,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression34: TRpExpression
-    Width = 1155
+    Width = 1845
     Height = 225
     PosX = 5400
     PosY = 2415
@@ -1908,7 +1910,7 @@ object _1: TRpReport
   object TRpImage1: TRpImage
     Width = 5386
     Height = 3231
-    PosX = 5175
+    PosX = 5295
     PosY = 570
     DrawStyle = rpDrawStretch
     PrintCondition = ''
@@ -1969,7 +1971,7 @@ object _1: TRpReport
   end
   object TRpSection8: TRpSection
     Width = 10772
-    Height = 270
+    Height = 240
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -2009,7 +2011,7 @@ object _1: TRpReport
   end
   object TRpSection9: TRpSection
     Width = 10772
-    Height = 255
+    Height = 240
     SubReport = TRpSubReport2
     ChangeBool = False
     PageRepeat = False
@@ -2128,7 +2130,7 @@ object _1: TRpReport
   end
   object TRpSection10: TRpSection
     Width = 10772
-    Height = 285
+    Height = 240
     SubReport = TRpSubReport3
     ChangeBool = False
     PageRepeat = False
@@ -2163,7 +2165,7 @@ object _1: TRpReport
   end
   object TRpSection11: TRpSection
     Width = 10772
-    Height = 270
+    Height = 240
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False

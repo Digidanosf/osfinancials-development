@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 22
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -352,6 +352,9 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
+        Component = TRpImage1
+      end
+      item
         Component = TRpExpression8
       end
       item
@@ -440,9 +443,6 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression2
-      end
-      item
-        Component = TRpImage1
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -1134,7 +1134,7 @@ object _1: TRpReport
   object TRpExpression1: TRpExpression
     Width = 1575
     Height = 264
-    PosX = 1380
+    PosX = 1500
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
@@ -1156,8 +1156,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 2070
+    Height = 270
     PosX = 5295
     PosY = 120
     Type1Font = poHelvetica
@@ -2004,9 +2004,9 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpLabel3: TRpLabel
-    Width = 1380
-    Height = 225
-    PosX = 4485
+    Width = 2190
+    Height = 345
+    PosX = 4020
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 15
@@ -2019,7 +2019,7 @@ object _1: TRpReport
     WideText = 'BTW-Faktuur'
   end
   object TRpLabel1: TRpLabel
-    Width = 1500
+    Width = 1620
     Height = 225
     PosX = 5400
     PosY = 2190
@@ -2046,7 +2046,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    WideText = 'Tellefoon:'
+    WideText = 'Telefoon:'
   end
   object TRpLabel6: TRpLabel
     Width = 1275
@@ -2168,7 +2168,7 @@ object _1: TRpReport
     WideText = 'Boodskap:'
   end
   object TRpLabel15: TRpLabel
-    Width = 915
+    Width = 1605
     Height = 225
     PosX = 120
     PosY = 1155
@@ -2213,7 +2213,7 @@ object _1: TRpReport
     WideText = 'BTW-verwysing:'
   end
   object TRpLabel18: TRpLabel
-    Width = 1380
+    Width = 1725
     Height = 225
     PosX = 120
     PosY = 120
@@ -2226,7 +2226,7 @@ object _1: TRpReport
     WideText = 'Banknaam:'
   end
   object TRpLabel19: TRpLabel
-    Width = 1500
+    Width = 1725
     Height = 225
     PosX = 120
     PosY = 345
@@ -2322,7 +2322,7 @@ object _1: TRpReport
     WideText = 'Rekeningnr.:'
   end
   object TRpLabel24: TRpLabel
-    Width = 1275
+    Width = 1500
     Height = 225
     PosX = 0
     PosY = 120
@@ -2497,8 +2497,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpLabel2: TRpLabel
-    Width = 1380
-    Height = 240
+    Width = 1725
+    Height = 225
     PosX = 5400
     PosY = 2415
     Type1Font = poHelvetica

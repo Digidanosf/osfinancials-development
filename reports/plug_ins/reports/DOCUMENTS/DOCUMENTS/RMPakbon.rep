@@ -204,7 +204,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTKOP'
@@ -246,7 +246,7 @@ object _1: TRpReport
   end
   object TRpSection0: TRpSection
     Width = 10772
-    Height = 240
+    Height = 225
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -426,6 +426,12 @@ object _1: TRpReport
       end
       item
         Component = TRpShape1
+      end
+      item
+        Component = TRpExpression18
+      end
+      item
+        Component = TRpLabel2
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -1260,5 +1266,42 @@ object _1: TRpReport
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
+  end
+  object TRpExpression18: TRpExpression
+    Width = 1500
+    Height = 225
+    PosX = 5520
+    PosY = 120
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'FORMATSTR('#39'dd-mm-yyyy'#39',DOCUMENTKOP.DDate)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpLabel2: TRpLabel
+    Width = 1260
+    Height = 225
+    PosX = 4020
+    PosY = 120
+    Type1Font = poHelvetica
+    FontStyle = 1
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Datum:'
   end
 end

@@ -272,7 +272,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 22
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -1309,13 +1309,13 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression44: TRpExpression
-    Width = 2295
+    Width = 3105
     Height = 225
     PosX = 120
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
-    Alignment = 2
+    Alignment = 1
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
@@ -1883,9 +1883,9 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpExpression53: TRpExpression
-    Width = 4590
+    Width = 3675
     Height = 225
-    PosX = 2880
+    PosX = 4140
     PosY = 120
     Type1Font = poHelvetica
     FontSize = 15
@@ -2838,8 +2838,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression21: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1260
+    Height = 225
     PosX = 5175
     PosY = 120
     Type1Font = poHelvetica

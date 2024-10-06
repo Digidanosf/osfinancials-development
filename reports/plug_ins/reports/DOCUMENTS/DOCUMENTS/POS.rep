@@ -162,7 +162,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 21
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTKOP'
@@ -629,9 +629,9 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression0: TRpExpression
-    Width = 1050
-    Height = 264
-    PosX = 5755
+    Width = 1620
+    Height = 270
+    PosX = 5400
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
