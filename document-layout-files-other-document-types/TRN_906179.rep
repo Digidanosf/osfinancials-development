@@ -1,4 +1,6 @@
 object _1: TRpReport
+  PageOrientation = rpOrientationPortrait
+  Pagesize = rpPageSizeCustom
   PageHeight = 8120
   PageWidth = 5742
   PageBackColor = 16777215
@@ -272,7 +274,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 21
+      Value = 80
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -2491,8 +2493,9 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'trim(TYPES.SDESCRIPTION)+'#39'  '#39'+(CUSTOM('#39'GETTEXTLANG'#39',906275,'#39'Acce' +
-      'pted'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)+('#39': '#39'))'
+      'CUSTOM('#39'GETTEXTLANG'#39',906179,'#39'Stock in'#39',CLIENTORDEFLANG.SLANGUAGE' +
+      ',0,0)+'#39'  '#39'+(CUSTOM('#39'GETTEXTLANG'#39',906275,'#39'Accepted'#39',CLIENTORDEFLA' +
+      'NG.SLANGUAGE,0,0)+('#39': '#39'))'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -2649,7 +2652,7 @@ object _1: TRpReport
   object TRpShape3: TRpShape
     Width = 5355
     Height = 2310
-    PosX = 5400
+    PosX = 5443
     PosY = 0
     BrushStyle = 1
     BrushColor = 0
@@ -2659,7 +2662,7 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpShape1: TRpShape
-    Width = 5400
+    Width = 5443
     Height = 2310
     PosX = 0
     PosY = 0
@@ -2769,8 +2772,8 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression21: TRpExpression
-    Width = 1050
-    Height = 264
+    Width = 1380
+    Height = 225
     PosX = 5175
     PosY = 120
     Type1Font = poHelvetica
@@ -3232,13 +3235,13 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression53: TRpExpression
-    Width = 2295
+    Width = 2865
     Height = 225
     PosX = 120
     PosY = 120
     Type1Font = poHelvetica
     FontStyle = 1
-    Alignment = 2
+    Alignment = 1
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
