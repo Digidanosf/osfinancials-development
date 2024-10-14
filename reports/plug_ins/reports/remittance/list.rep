@@ -101,7 +101,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = ' and Account.WAccountid <> 74'
+      Value = ' and Account.WAccountid <> 49'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'OPENITEMS')
@@ -131,7 +131,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 45346d
+      Value = 45577d
       ParamType = rpParamDate
       Datasets.Strings = (
         'OPENITEMS')
@@ -146,7 +146,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 44576d
+      Value = 44778d
       ParamType = rpParamDate
       Datasets.Strings = (
         'OPENITEMS')
@@ -161,7 +161,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 45412d
+      Value = 45578d
       ParamType = rpParamDate
       Datasets.Strings = (
         'OPENITEMS')

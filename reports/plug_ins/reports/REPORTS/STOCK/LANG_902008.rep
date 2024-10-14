@@ -84,7 +84,7 @@ object _1: TRpReport
       Name = 'SQL'
       NeverVisible = True
       AllowNulls = False
-      Value = 'stock.WStockid = 9'
+      Value = ' 1 = 1'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'STOCK')
@@ -97,35 +97,22 @@ object _1: TRpReport
     item
       Name = 'DEBITEUR'
       AllowNulls = False
-      Value = '257'
+      Value = '47'
       ParamType = rpParamList
       Items.Strings = (
-        '1999999 OPENING BALANCES DEBTORS'
-        '1000001 CASH SALES'
-        '1000002 SUNDRY CUSTOMERS'
+        '1ABGRE Mr. AB Green'
         '1CASHC CASH CUSTOMERS'
-        
-          '1MIKEDA Mr. Mike Davies 1234567890 1234567890 1234567890 1234567' +
-          '890 1234567890 1234567890 1234567890 1234567890 1234567890 12345' +
-          '67890 12'
-        
-          '1ABGREE Mr. AB Green 1234567890 1234567890 1234567890 1234567890' +
-          ' 1234567890 1234567890 1234567890 1234567890 1234567890 12345678' +
-          '90 12345'
-        
-          '1ROGERS Mr. Roger Smith1234567890 1234567890 1234567890 12345678' +
-          '90 1234567890 1234567890 1234567890 1234567890 1234567890 123456' +
-          '7890 123'
-        '1MACSHO MAC Shop Decor Specialists')
+        '1DOPEN Opening Balances - Debtor'
+        '1MACDS MAC Shop Decor Specialists'
+        '1MDAVI Mr. Mike Davies'
+        '1ROGSM Mr. Roger Smith')
       Values.Strings = (
-        '242'
-        '161'
-        '162'
-        '249'
-        '257'
-        '258'
-        '259'
-        '260')
+        '47'
+        '48'
+        '49'
+        '50'
+        '51'
+        '52')
       LookupDataset = 'DEBITEUR'
       SearchDataset = 'DEBITEUR'
       Description = 'Select debtor'

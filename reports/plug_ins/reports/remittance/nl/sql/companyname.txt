@@ -1,4 +1,4 @@
-Select SCompanyName || ascii_char(13) || ascii_char(10) 
+Select SCompanyName || ascii_char(35) || ascii_char(25) 
 || sysvars.SADDRESS1
 || ascii_char(13) || ascii_char(10) 
 || sysvars.SPOSTCODE

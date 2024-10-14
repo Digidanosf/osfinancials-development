@@ -1,6 +1,6 @@
 Select  SCompanyName || '<br/>'
 || sysvars.SADDRESS1 || '<br/>' 
-|| sysvars.SPOSTCODE || ' ' || sysvars.SADDRESS2  || '<br/>' ||
+|| sysvars.SPOSTCODE || ' ' || sysvars.SADDRESS2  || '<br/>' ||'<br/>'
 
 sysvars.SPHONENUMBER || '<br/>' 
  from sysvars

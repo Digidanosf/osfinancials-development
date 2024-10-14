@@ -97,36 +97,20 @@ object _1: TRpReport
     item
       Name = 'DEBITEUR'
       AllowNulls = False
-      Value = '160'
+      Value = '56'
       ParamType = rpParamList
       Items.Strings = (
-        '2000001 SUNDRY SUPPLIERS'
-        '2999999 OPENING BALANCES CEDITORS'
-        '2SUNSU SUNDRY SUPPLIERS'
-        
-          '2ABCOFF ABC-Office-Supplies 1234567890 1234567890 1234567890 123' +
-          '4567890 1234567890 1234567890 1234567890 1234567890 1234567890 1' +
-          '23456789'
-        
-          '2ABCSER ABC-Service-Centre 1234567890 1234567890 1234567890 1234' +
-          '567890 1234567890 1234567890 1234567890 1234567890 1234567890 12' +
-          '34567890'
-        
-          '2AONESU A-ONE Suppliers 1234567890 1234567890 1234567890 1234567' +
-          '890 1234567890 1234567890 1234567890 1234567890 1234567890 12345' +
-          '67890  1'
-        
-          '2BESTSU BEST Suppliers 1234567890 1234567890 1234567890 12345678' +
-          '90 1234567890 1234567890 1234567890 1234567890 1234567890 123456' +
-          '7890  12')
+        '2ABCOS ABC-Office-Supplies'
+        '2ABCSC ABC-Service-Centre'
+        '2AONES A-ONE Suppliers'
+        '2BESTS BEST Suppliers'
+        '2COPEN Opening balances - Creditor')
       Values.Strings = (
-        '160'
-        '243'
-        '251'
-        '261'
-        '262'
-        '263'
-        '264')
+        '53'
+        '54'
+        '55'
+        '56'
+        '57')
       LookupDataset = 'DEBITEUR'
       SearchDataset = 'DEBITEUR'
       Description = 'Select Creditor'

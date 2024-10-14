@@ -63,7 +63,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = '198'
+      Value = 198
       ParamType = rpParamInteger
       Datasets.Strings = (
         'OPENITEMS'
@@ -79,7 +79,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = '11-9-2006'
+      Value = 45513d
       ParamType = rpParamDate
       Description = ''
       Hint = ''
