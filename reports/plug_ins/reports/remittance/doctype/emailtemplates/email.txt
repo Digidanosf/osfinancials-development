@@ -1,0 +1,6 @@
+Dear <#SDESCRIPTION#>
+Our records have revealed that you still have an outstanding amount of <#OUTSTANDING#>. The details are attached.
+&nbsp;
+
+
+<#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
