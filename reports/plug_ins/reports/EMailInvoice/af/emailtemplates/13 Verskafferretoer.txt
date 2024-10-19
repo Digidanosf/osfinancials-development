@@ -1,6 +1,6 @@
 
 Verskafferretoer dokument : <#SDOCNO#>
-U verwysing : <#SREFERENCE#> 
+Jou verwysing : <#SREFERENCE#> 
 
 Adres :
 <#COMPANY#>
@@ -24,7 +24,7 @@ Die uiteensetting van die produkte, is soos volg:
 
 <#FREETEXT#>
 
-Kontak ons gerus indien u enige navrae het.
+Kontak ons gerus indien jy enige navrae het.
 
 Afleweringsadres :
 <#DELCOMPANY#> 
@@ -34,6 +34,6 @@ Afleweringsadres :
 <#DELPOSTAL3#>
 <#DELPOSTALCODE#> 
 
-Die uwe,
+Vriendelike groete,
 
 <#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
