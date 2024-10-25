@@ -58,7 +58,7 @@ object _1: TRpReport
       ParamType = rpParamDate
       Datasets.Strings = (
         'SUBSCIPTIONS')
-      Description = 'Fromdate'
+      Description = 'From date'
       Hint = ''
       Search = ''
       ErrorMessage = ''
