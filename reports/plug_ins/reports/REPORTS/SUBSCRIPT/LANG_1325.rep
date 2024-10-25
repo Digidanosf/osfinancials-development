@@ -54,7 +54,7 @@ object _1: TRpReport
     item
       Name = 'FROMDATE'
       AllowNulls = False
-      Value = 2d
+      Value = 44986d
       ParamType = rpParamDate
       Datasets.Strings = (
         'SUBSCIPTIONS')
@@ -67,7 +67,7 @@ object _1: TRpReport
     item
       Name = 'TODATE'
       AllowNulls = False
-      Value = 45526d
+      Value = 45107d
       ParamType = rpParamDate
       Datasets.Strings = (
         'SUBSCIPTIONS')
@@ -112,7 +112,7 @@ object _1: TRpReport
   end
   object TRpSection0: TRpSection
     Width = 10770
-    Height = 225
+    Height = 510
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -140,6 +140,9 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression22
+      end
+      item
+        Component = TRpExpression43
       end>
     AutoExpand = True
     AutoContract = True
@@ -1578,6 +1581,32 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'CUSTOM('#39'GETTEXTLANG'#39',650,'#39'Amount Escl.'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression43: TRpExpression
+    Width = 3555
+    Height = 270
+    PosX = 3225
+    PosY = 225
+    Type1Font = poHelvetica
+    FontSize = 8
+    FontStyle = 2
+    FontColor = 64
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'SUBSCIPTIONS.SREFERENCE'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
