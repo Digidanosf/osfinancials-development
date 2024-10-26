@@ -272,7 +272,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 43
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -390,7 +390,7 @@ object _1: TRpReport
   end
   object TRpSection1: TRpSection
     Width = 10725
-    Height = 3795
+    Height = 3780
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -905,7 +905,7 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpSection7: TRpSection
-    Width = 10770
+    Width = 10815
     Height = 3300
     SubReport = TRpSubReport1
     GroupName = 'TAX'
@@ -3017,7 +3017,7 @@ object _1: TRpReport
     DoAfterPrint = ''
   end
   object TRpShape0: TRpShape
-    Width = 10755
+    Width = 10815
     Height = 915
     PosX = 0
     PosY = 0
