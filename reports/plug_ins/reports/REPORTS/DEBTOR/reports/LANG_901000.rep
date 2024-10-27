@@ -379,13 +379,13 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression3: TRpExpression
-    Width = 690
+    Width = 1845
     Height = 225
     PosX = 0
     PosY = 0
     Type1Font = poHelvetica
     FontSize = 8
-    CutText = True
+    WordWrap = True
     AutoExpand = False
     AutoContract = False
     ExportPosition = 0
