@@ -1,13 +1,24 @@
-select 0 id,  '<B>Description</B>','<P ALIGN=RIGHT><B>Price</B></P>','<P ALIGN=RIGHT><B>Quantity</B></P>','<P ALIGN=RIGHT><B>Excl.</B></P>','<P ALIGN=RIGHT><B>Incl.</B></P>' from RDB$DATABASE
-union
-Select a.WSortno,m.Sdescription || COALESCE(m.SEXTRADESCRIPTION,'') Description ,
-'<P ALIGN=RIGHT>' || IIF(a.WLINETYPEID = 91,'',cast(cast(a.FSELLINGPRICE as numeric (12,2))as varchar(16))) || '</P>' Sellingprice ,
-'<P ALIGN=RIGHT>' || IIF(a.WLINETYPEID = 91,'',cast(cast(a.FQTYSHIPPED as numeric (12,0))as varchar(16))) || '</P>' Shipped ,
-
-'<P ALIGN=RIGHT>' || IIF(a.WLINETYPEID = 91,'',cast(cast(a.FEXCLUSIVEAMT as numeric (12,2))as varchar(16))) || '</P>'Exclamount,
-'<P ALIGN=RIGHT>' ||IIF(a.WLINETYPEID = 91,'',cast(cast(a.FINCLUSIVEAMT as numeric (12,2))as varchar(16))) || '</P>'IncAmount
-from docline a left 
-join stock b on  a.WStockid = b.WStockid 
-join Messages m on a.WDESCRIPTIONID = m.WMessageID
-where a.Wdocid = :wdocid
-order by 1 
+SELECT
+    0 AS ID,
+    '<B>Description</B>',
+    '<P ALIGN=RIGHT><B>Price</B></P>',
+    '<P ALIGN=RIGHT><B>Quantity</B></P>',
+    '<P ALIGN=RIGHT><B>Excl.</B></P>',
+    '<P ALIGN=RIGHT><B>Incl.</B></P>'
+FROM
+    RDB$DATABASE
+UNION
+SELECT
+    a.WSortno,
+    CONCAT(m.Sdescription, COALESCE(m.SEXTRADESCRIPTION, '')),
+    CONCAT('<P ALIGN=RIGHT>', IIF(a.WLINETYPEID = 91, '', CAST(CAST(a.FSELLINGPRICE AS NUMERIC(12, 2)) AS VARCHAR(16))), '</P>'),
+    CONCAT('<P ALIGN=RIGHT>', IIF(a.WLINETYPEID = 91, '', CAST(CAST(a.FQTYSHIPPED AS NUMERIC(12, 0)) AS VARCHAR(16))), '</P>'),
+    CONCAT('<P ALIGN=RIGHT>', IIF(a.WLINETYPEID = 91, '', CAST(CAST(a.FEXCLUSIVEAMT AS NUMERIC(12, 2)) AS VARCHAR(16))), '</P>'),
+    CONCAT('<P ALIGN=RIGHT>', IIF(a.WLINETYPEID = 91, '', CAST(CAST(a.FINCLUSIVEAMT AS NUMERIC(12, 2)) AS VARCHAR(16))), '</P>')
+FROM
+    docline a
+    LEFT JOIN stock b ON a.WStockid = b.WStockid
+    JOIN Messages m ON a.WDESCRIPTIONID = m.WMessageID
+WHERE
+    a.Wdocid = :wdocid
+ORDER BY 1; 

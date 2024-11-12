@@ -1,6 +1,6 @@
 
 Your invoice : <#SDOCNO#>
-Your reference : <#SREFERENCE#>
+Your reference : <#SREFERENCE#> 
 
 Address :
 <#COMPANY#>
@@ -8,7 +8,6 @@ Address :
 <#POSTAL2#>
 <#POSTAL3#>
 <#POSTALCODE#> 
-
 Contact :
 <#CONTACT#>
 <#STELEPHONE1#>
@@ -18,9 +17,10 @@ Dear Sir / Madam,
 
 In the attachment you will find your invoice - <#SDOCNO#>.
 
-The summary of the products, is as follows :
+The summary of the products, is as follows : 
 
 <#@LS@doclines.txt=border="1" WIDTH=700px CELLPADDING=2 CELLSPACING=2#> <@LS@#>
+
 
 <#FREETEXT#>
 
@@ -34,6 +34,9 @@ Delivery address :
 <#DELPOSTAL3#>
 <#DELPOSTALCODE#> 
 
-Sincerly,
+Sincerely,
 
 <#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+
+<#@LS@logo.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+

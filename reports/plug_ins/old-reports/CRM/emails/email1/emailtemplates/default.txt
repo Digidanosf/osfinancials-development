@@ -1,0 +1,7 @@
+Geachte @$$SDESCRIPTION$$@ 
+
+Dit is een voorbeeld
+
+Met vriendelijke groet
+
+@$$@LS@companyname.txt= border="0" $$@  @LS@$$@

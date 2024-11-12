@@ -103,22 +103,26 @@ object _1: TRpReport
       Datasets.Strings = (
         'TRANSACTIES')
       Items.Strings = (
-        'Beginbalans'
-        'Inkopen'
-        'Verkopen'
-        'Kasboek'
-        'Bankboek 1 Onv.'
-        'Memoriaal'
-        'Rabobank'
-        'Kostprijs omzet')
+        'Verkoopsjoernaal'
+        'Koste v verkope'
+        'Aankoopjoernaal'
+        'ABC-Betalings'
+        'Algemene joern.'
+        'ABC-Ontvangste'
+        'KK-Betalings'
+        'KK-Ontvanste'
+        'XYZ-Betalings'
+        'XYZ-Ontvangste')
       Values.Strings = (
-        '1'
         '2'
-        '3'
-        '4'
         '5'
+        '3'
         '7'
+        '4'
+        '8'
         '9'
+        '10'
+        '11'
         '12')
       Selected.Strings = (
         '0'
@@ -130,6 +134,8 @@ object _1: TRpReport
       Description = 'Batches'
       Hint = ''
       Search = '@BATCHTYPEID'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'STARTPERIOD'
@@ -143,6 +149,8 @@ object _1: TRpReport
       Description = 'Startperiod'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'ENDPERIOD'
@@ -156,6 +164,8 @@ object _1: TRpReport
       Description = 'End period'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'SHOWDETAIL'
@@ -167,6 +177,8 @@ object _1: TRpReport
       Description = 'Show balance'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end>
   Language = 12
   StreamFormat = rpStreamText

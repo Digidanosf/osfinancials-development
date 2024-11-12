@@ -91,7 +91,7 @@ object _1: TRpReport
     item
       Name = 'DEBITEURACC'
       AllowNulls = False
-      Value = '1ABGRE'
+      Value = '1MACSHO'
       Datasets.Strings = (
         'SELECTEDCREDITOR')
       Items.Strings = (

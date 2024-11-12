@@ -173,7 +173,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = '0'
       ParamType = rpParamBool
-      Description = 'Include zero balances'
+      Description = 'Sluit nulbalanse in'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -183,9 +183,9 @@ object _1: TRpReport
       Name = 'DATE1'
       NeverVisible = True
       Value = 
-        'cast(DATE1 as date) >=  Cast('#39'2021/03/01'#39' as datetime)  and cast' +
-        '(DATE1 as date) < Cast('#39'2022/03/01'#39' as datetime) '
-      Description = 'Date'
+        'cast(DATE1 as date) >=  Cast('#39'2024/03/01'#39' as date)  and cast(DAT' +
+        'E1 as date) < Cast('#39'2024/04/01'#39' as date) '
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -194,7 +194,7 @@ object _1: TRpReport
     item
       Name = 'DATE1FROM'
       NeverVisible = True
-      Value = '2021/03/01'
+      Value = '2024/03/01'
       Description = ''
       Hint = ''
       Search = ''
@@ -204,7 +204,7 @@ object _1: TRpReport
     item
       Name = 'DATE1TO'
       NeverVisible = True
-      Value = '2022/02/28'
+      Value = '2024/03/31'
       Description = ''
       Hint = ''
       Search = ''
@@ -214,14 +214,14 @@ object _1: TRpReport
     item
       Name = 'DATE1FROMFL'
       NeverVisible = True
-      Value = 44256
+      Value = 45352
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARDEB'
         'THISYEARCRED'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -230,14 +230,14 @@ object _1: TRpReport
     item
       Name = 'DATE1TOFL'
       NeverVisible = True
-      Value = 44620
+      Value = 45382
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARDEB'
         'THISYEARCRED'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -247,9 +247,9 @@ object _1: TRpReport
       Name = 'DATE2'
       NeverVisible = True
       Value = 
-        'cast(DATE2 as date) >=  Cast('#39'2021/03/01'#39' as datetime)  and cast' +
-        '(DATE2 as date) < Cast('#39'2022/03/01'#39' as datetime) '
-      Description = 'Date'
+        'cast(DATE2 as date) >=  Cast('#39'2024/04/01'#39' as date)  and cast(DAT' +
+        'E2 as date) < Cast('#39'2024/05/01'#39' as date) '
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -258,7 +258,7 @@ object _1: TRpReport
     item
       Name = 'DATE2FROM'
       NeverVisible = True
-      Value = '2021/03/01'
+      Value = '2024/04/01'
       Description = ''
       Hint = ''
       Search = ''
@@ -268,7 +268,7 @@ object _1: TRpReport
     item
       Name = 'DATE2TO'
       NeverVisible = True
-      Value = '2022/02/28'
+      Value = '2024/04/30'
       Description = ''
       Hint = ''
       Search = ''
@@ -278,14 +278,14 @@ object _1: TRpReport
     item
       Name = 'DATE2FROMFL'
       NeverVisible = True
-      Value = 44256
+      Value = 45383
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARMIN2DEB'
         'THISYEARMIN2CRED'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -294,14 +294,14 @@ object _1: TRpReport
     item
       Name = 'DATE2TOFL'
       NeverVisible = True
-      Value = 44620
+      Value = 45412
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARMIN2CRED'
         'THISYEARMIN2DEB'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -311,9 +311,9 @@ object _1: TRpReport
       Name = 'DATE3'
       NeverVisible = True
       Value = 
-        'cast(DATE3 as date) >=  Cast('#39'2021/03/01'#39' as datetime)  and cast' +
-        '(DATE3 as date) < Cast('#39'2022/03/01'#39' as datetime) '
-      Description = 'Date'
+        'cast(DATE3 as date) >=  Cast('#39'2024/05/01'#39' as date)  and cast(DAT' +
+        'E3 as date) < Cast('#39'2024/06/01'#39' as date) '
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -322,7 +322,7 @@ object _1: TRpReport
     item
       Name = 'DATE3FROM'
       NeverVisible = True
-      Value = '2021/03/01'
+      Value = '2024/05/01'
       Description = ''
       Hint = ''
       Search = ''
@@ -332,7 +332,7 @@ object _1: TRpReport
     item
       Name = 'DATE3TO'
       NeverVisible = True
-      Value = '2022/02/28'
+      Value = '2024/05/31'
       Description = ''
       Hint = ''
       Search = ''
@@ -342,14 +342,14 @@ object _1: TRpReport
     item
       Name = 'DATE3FROMFL'
       NeverVisible = True
-      Value = 44256
+      Value = 45413
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARMIN3DEB'
         'THISYEARMIN3CRED'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -358,14 +358,14 @@ object _1: TRpReport
     item
       Name = 'DATE3TOFL'
       NeverVisible = True
-      Value = 44620
+      Value = 45443
       ParamType = rpParamDate
       Datasets.Strings = (
         'THISYEARMIN3CRED'
         'THISYEARMIN3DEB'
         'KOSTENPLAATS'
         'KOSTENPLAATS2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -384,7 +384,7 @@ object _1: TRpReport
         'THISYEARMIN3DEB'
         'THISYEARMIN3CRED'
         'KOSTENPLAATS')
-      Description = 'Cost centre 1'
+      Description = 'Kostesentrum 1'
       Hint = ''
       Search = '@REPGR1@'
       ErrorMessage = ''
@@ -403,7 +403,7 @@ object _1: TRpReport
         'THISYEARCRED'
         'THISYEARDEB'
         'KOSTENPLAATS2')
-      Description = 'Cost centre 2'
+      Description = 'Kostesentrum 2'
       Hint = ''
       Search = '@REPGR2@'
       ErrorMessage = ''
@@ -414,7 +414,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = '0'
       ParamType = rpParamBool
-      Description = 'Balances'
+      Description = 'Balanse'
       Hint = ''
       Search = ''
       ErrorMessage = ''

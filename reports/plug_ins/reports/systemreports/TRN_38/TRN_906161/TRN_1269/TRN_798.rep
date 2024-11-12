@@ -61,7 +61,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44986
+      Value = 45352
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
@@ -74,7 +74,7 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 45351
+      Value = 45716
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
@@ -145,7 +145,7 @@ object _1: TRpReport
     item
       Name = 'FROMACCOUNTACC'
       AllowNulls = False
-      Value = '2000001'
+      Value = '2ABCOS'
       Datasets.Strings = (
         'DOCUMENTLINE')
       Description = ''

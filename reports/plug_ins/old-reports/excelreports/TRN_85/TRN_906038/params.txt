@@ -1,0 +1,5 @@
+DDATE=cast(DDATE as date) >=  Cast('2020/01/01' as timestamp)  and cast(DDATE as date) < Cast('2021/01/01' as timestamp) 
+DDATEfrom=2020-01-01
+DDATEto=2020-12-31
+DDATEfromfl=43831
+DDATEtofl=44196

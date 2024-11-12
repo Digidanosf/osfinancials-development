@@ -60,7 +60,7 @@ object _1: TRpReport
       Name = 'FROMDATE'
       NeverVisible = True
       AllowNulls = False
-      Value = 43767.9999884259d
+      Value = 45383d
       ParamType = rpParamDateTime
       Datasets.Strings = (
         'SALESPERCUST')
@@ -74,7 +74,7 @@ object _1: TRpReport
       Name = 'TODATE'
       NeverVisible = True
       AllowNulls = False
-      Value = 44135.9999884259d
+      Value = 45400d
       ParamType = rpParamDateTime
       Datasets.Strings = (
         'SALESPERCUST')
@@ -88,7 +88,7 @@ object _1: TRpReport
       Name = 'TYPE'
       NeverVisible = True
       AllowNulls = False
-      Value = '2'
+      Value = '1'
       Datasets.Strings = (
         'SALESPERCUST')
       Description = ''
@@ -101,7 +101,7 @@ object _1: TRpReport
       Name = 'LASTCHANGED'
       NeverVisible = True
       AllowNulls = False
-      Value = 43768.6069212963d
+      Value = 45388d
       ParamType = rpParamDateTime
       Datasets.Strings = (
         'SALESPERCUST')

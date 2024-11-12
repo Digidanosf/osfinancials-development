@@ -121,7 +121,7 @@ object _1: TRpReport
       Name = 'FROMDATE'
       NeverVisible = True
       AllowNulls = False
-      Value = 45341d
+      Value = 39888
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTIES')
@@ -136,7 +136,7 @@ object _1: TRpReport
       Name = 'TODATE'
       NeverVisible = True
       AllowNulls = False
-      Value = 45371d
+      Value = 45566
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTIES'
@@ -155,7 +155,7 @@ object _1: TRpReport
       Name = 'PAYMENT'
       NeverVisible = True
       AllowNulls = False
-      Value = 7
+      Value = 3
       ParamType = rpParamInteger
       Datasets.Strings = (
         'PAYMENT')
@@ -169,7 +169,7 @@ object _1: TRpReport
       Name = 'RECIEPT'
       NeverVisible = True
       AllowNulls = False
-      Value = 8
+      Value = 2
       ParamType = rpParamInteger
       Datasets.Strings = (
         'RECIEPT')
@@ -183,7 +183,7 @@ object _1: TRpReport
       Name = 'BANKACCOUNT'
       NeverVisible = True
       AllowNulls = False
-      Value = 6
+      Value = 21
       ParamType = rpParamInteger
       Datasets.Strings = (
         'BANK'
@@ -213,7 +213,7 @@ object _1: TRpReport
       Name = 'PAYMENTTBL'
       NeverVisible = True
       AllowNulls = False
-      Value = 'BAT0T7'
+      Value = 'BAT0T3'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'UNPOSTEDPAYMENTS'
@@ -228,7 +228,7 @@ object _1: TRpReport
       Name = 'RECIEPTTBL'
       NeverVisible = True
       AllowNulls = False
-      Value = 'BAT0T8'
+      Value = 'BAT0T2'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'UNPOSTEDRECIEPT'

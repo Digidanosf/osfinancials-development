@@ -143,9 +143,9 @@ object _1: TRpReport
     item
       Name = 'AANTAL1FL'
       AllowNulls = False
-      Value = '5'
+      Value = '1'
       ParamType = rpParamDouble
-      Description = 'Quantity'
+      Description = 'Aantal'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -154,9 +154,9 @@ object _1: TRpReport
     item
       Name = 'AANTAL2FL'
       AllowNulls = False
-      Value = '10'
+      Value = '5'
       ParamType = rpParamDouble
-      Description = 'Quantity'
+      Description = 'Aantal'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -165,9 +165,9 @@ object _1: TRpReport
     item
       Name = 'AANTAL3FL'
       AllowNulls = False
-      Value = '20'
+      Value = '10'
       ParamType = rpParamDouble
-      Description = 'Quantity'
+      Description = 'Aantal'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -176,9 +176,9 @@ object _1: TRpReport
     item
       Name = 'AANTAL4FL'
       AllowNulls = False
-      Value = '30'
+      Value = '15'
       ParamType = rpParamDouble
-      Description = 'Quantity'
+      Description = 'Aantal'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -187,9 +187,9 @@ object _1: TRpReport
     item
       Name = 'AANTAL5FL'
       AllowNulls = False
-      Value = '40'
+      Value = '20'
       ParamType = rpParamDouble
-      Description = 'Quantity'
+      Description = 'Aantal'
       Hint = ''
       Search = ''
       ErrorMessage = ''

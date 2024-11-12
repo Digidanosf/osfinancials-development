@@ -62,7 +62,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44621
+      Value = 44986
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
@@ -75,7 +75,7 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 44985
+      Value = 45351
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
@@ -738,7 +738,7 @@ object _1: TRpReport
         Color = -1
       end
       item
-        Color = 454
+        Color = 234567
       end>
     ChartType = rpchartbar
     Driver = rpchartdriverdefault

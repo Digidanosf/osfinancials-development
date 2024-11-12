@@ -172,13 +172,13 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 45046
+      Value = 45412
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTION_DETAIL'
         'TRANSACTDETAIL'
         'OPENITEM')
-      Description = 'Date of ageing'
+      Description = 'Datum van ontleding'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -197,7 +197,7 @@ object _1: TRpReport
         'TRANSACTIONSPERIODE3'
         'TRANSACTDETAIL'
         'OPENITEM')
-      Description = ' Days overdue'
+      Description = 'Dae laat'
       Hint = ''
       Search = 'periode1'
       ErrorMessage = ''
@@ -216,7 +216,7 @@ object _1: TRpReport
         'TRANSACTDETAIL'
         'TRANSACTIONSPERIODE1'
         'OPENITEM')
-      Description = 'Number of days overdue'
+      Description = 'Aantal dae agterstallig'
       Hint = ''
       Search = 'periode2'
       ErrorMessage = ''
@@ -273,7 +273,7 @@ object _1: TRpReport
       NeverVisible = True
       AllowNulls = False
       Value = '2'
-      Description = 'Sequence'
+      Description = 'Volgorde'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -283,7 +283,7 @@ object _1: TRpReport
       Name = 'SEQTX'
       Visible = False
       NeverVisible = True
-      Value = 'Description'
+      Value = 'Beskrywing'
       Description = ''
       Hint = ''
       Search = ''
@@ -367,7 +367,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = '1ABGRE'
+      Value = '1DAVIE'
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
       SearchDataset = 'TRANSACTION_DETAIL'
@@ -383,7 +383,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = '1ROGSM'
+      Value = '1SMITH'
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
       SearchDataset = 'TRANSACTION_DETAIL'
@@ -398,8 +398,8 @@ object _1: TRpReport
       Name = 'DDATE'
       Visible = False
       NeverVisible = True
-      Value = 'DDATE=2023/04/30'
-      Description = 'Date of ageing'
+      Value = 'DDATE=2024/04/30'
+      Description = 'Datum van ontleding'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -409,7 +409,7 @@ object _1: TRpReport
       Name = 'DDATETX'
       Visible = False
       NeverVisible = True
-      Value = '2023/04/30'
+      Value = '2024/04/30'
       Description = ''
       Hint = ''
       Search = ''
@@ -420,8 +420,8 @@ object _1: TRpReport
       Name = 'FROMACCOUNT'
       Visible = False
       NeverVisible = True
-      Value = '54'
-      Description = 'From account'
+      Value = '76'
+      Description = 'Vanaf rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -431,7 +431,7 @@ object _1: TRpReport
       Name = 'FROMACCOUNTTX'
       Visible = False
       NeverVisible = True
-      Value = 'D1ABGRE'
+      Value = 'D1DAVIE'
       Description = ''
       Hint = ''
       Search = ''
@@ -443,7 +443,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       Value = 'DAYS2=30'
-      Description = 'Number of days overdue'
+      Description = 'Aantal dae agterstallig'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -475,8 +475,8 @@ object _1: TRpReport
       Name = 'TOACCOUNT'
       Visible = False
       NeverVisible = True
-      Value = '28'
-      Description = 'To account'
+      Value = '77'
+      Description = 'Tot rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -486,7 +486,7 @@ object _1: TRpReport
       Name = 'TOACCOUNTTX'
       Visible = False
       NeverVisible = True
-      Value = 'D1ROGSM'
+      Value = 'D1SMITH'
       Description = ''
       Hint = ''
       Search = ''
@@ -498,7 +498,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       Value = 'DAYS1=30'
-      Description = ' Days overdue'
+      Description = 'Dae laat'
       Hint = ''
       Search = ''
       ErrorMessage = ''

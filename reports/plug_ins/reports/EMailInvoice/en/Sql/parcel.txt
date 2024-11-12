@@ -1,3 +1,9 @@
-Select   'https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || parcel.SPOSTALCODE FROM PARCEL_XDBSEND,  PARCEL 
-where SDOCNO = :SDOCNO
-and PARCEL.WDocid = :WDOCID
+SELECT CONCAT(
+  'https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE=',
+  SSHIPMENT_IDENTCODE,
+  '&ZIPCODE=',
+  parcel.SPOSTALCODE
+) AS TrackingLink
+FROM PARCEL_XDBSEND, PARCEL
+WHERE SDOCNO = :SDOCNO
+AND PARCEL.WDocid = :WDOCID;

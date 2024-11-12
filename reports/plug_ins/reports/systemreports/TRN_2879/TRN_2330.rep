@@ -103,7 +103,7 @@ object _1: TRpReport
       ParamType = rpParamDate
       Datasets.Strings = (
         'HOURES')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -116,7 +116,7 @@ object _1: TRpReport
       ParamType = rpParamDate
       Datasets.Strings = (
         'HOURES')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -127,7 +127,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = '1'
       ParamType = rpParamBool
-      Description = 'Debtor appointment'
+      Description = 'Debiteurafspraak'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -138,7 +138,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = '1'
       ParamType = rpParamBool
-      Description = 'Creditor appointment'
+      Description = 'Krediteurafspraak'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -149,7 +149,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = '1'
       ParamType = rpParamBool
-      Description = 'Hours'
+      Description = 'Ure'
       Hint = ''
       Search = ''
       ErrorMessage = ''

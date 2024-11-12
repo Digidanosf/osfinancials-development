@@ -95,10 +95,10 @@ object _1: TRpReport
       Name = 'PERIOD'
       Visible = False
       Value = 
-        'cast(PERIOD as date) >=  Cast('#39'2022/03/01'#39' as datetime)  and cas' +
-        't(PERIOD as date) < Cast('#39'2023/03/01'#39' as datetime) '
+        'cast(PERIOD as date) >=  Cast('#39'2022/03/01'#39' as date)  and cast(PE' +
+        'RIOD as date) < Cast('#39'2023/03/01'#39' as date) '
       ParamType = rpParamSubst
-      Description = 'Period'
+      Description = 'Periode'
       Hint = ''
       Search = '@PERIOD@'
       ErrorMessage = ''
@@ -118,7 +118,7 @@ object _1: TRpReport
     item
       Name = 'PERIODTO'
       Visible = False
-      Value = '2023/02/28'
+      Value = '2023-02-28'
       Description = ''
       Hint = ''
       Search = ''
@@ -132,7 +132,7 @@ object _1: TRpReport
       ParamType = rpParamDate
       Datasets.Strings = (
         'DETAILS')
-      Description = 'Period'
+      Description = 'Periode'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -145,7 +145,7 @@ object _1: TRpReport
       ParamType = rpParamDate
       Datasets.Strings = (
         'DETAILS')
-      Description = 'Period'
+      Description = 'Periode'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -193,7 +193,7 @@ object _1: TRpReport
     end
     item
       Name = 'SSTOCKCODEFROMCODE'
-      Value = '3DRILL'
+      Value = '3COMP'
       Datasets.Strings = (
         'STOCK')
       SearchDataset = 'STOCK'
@@ -206,7 +206,7 @@ object _1: TRpReport
     end
     item
       Name = 'SSTOCKCODETOCODE'
-      Value = 'SALES-NS'
+      Value = '3DRILL'
       Datasets.Strings = (
         'STOCK')
       SearchDataset = 'STOCK'
@@ -220,9 +220,9 @@ object _1: TRpReport
     item
       Name = 'NEWPAGEPERITEM'
       AllowNulls = False
-      Value = 0
+      Value = 1
       ParamType = rpParamInteger
-      Description = 'New page per item'
+      Description = 'Nuwe bladsy per item'
       Hint = ''
       Search = ''
       ErrorMessage = ''

@@ -72,7 +72,7 @@ object _1: TRpReport
       Name = 'GROUPTYPEID'
       Visible = False
       AllowNulls = False
-      Value = 20
+      Value = 26
       ParamType = rpParamInteger
       Datasets.Strings = (
         'GROUPDATA'

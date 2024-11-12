@@ -1,0 +1,39 @@
+
+Kredietnota : <#SDOCNO#>
+Jou verwysing : <#SREFERENCE#> 
+
+Adres :
+<#COMPANY#>
+<#POSTAL1#>
+<#POSTAL2#>
+<#POSTAL3#>
+<#POSTALCODE#> 
+
+Kontak :
+<#CONTACT#>
+<#STELEPHONE1#>
+<#REGISTERS_EMAIL#>
+
+Geagte Meneer / Mevrou,
+
+Aangeheg kredietnota - <#SDOCNO#>.
+
+Die uiteensetting van die produkte, is soos volg:
+<#@LS@doclines.txt=border="1" WIDTH=700px CELLPADDING=2 CELLSPACING=2#> <@LS@#>
+
+
+<#FREETEXT#>
+
+Kontak ons gerus indien jy enige navrae het.
+
+Afleweringsadres :
+<#DELCOMPANY#> 
+<#DELCONTACT#>
+<#DELPOSTAL1#>
+<#DELPOSTAL2#>
+<#DELPOSTAL3#>
+<#DELPOSTALCODE#> 
+
+Vriendelike groete,
+
+<#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>

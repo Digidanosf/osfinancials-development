@@ -1,14 +1,114 @@
-select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameCreditNote'and :WTYPEID=11
-union select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameGret'and :WTYPEID=13
-union select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameQuote'and :WTYPEID=14
-union select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameOrder'and :WTYPEID=15
-union select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameInv'and :WTYPEID=10
-union select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNamePurchases'and :WTYPEID=12
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTINVOICE , 1 from debtor where waccountid = :WACCOUNTID and SLAYOUTINVOICE <> '' and :WTYPEID=10
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTINVOICE , 1 from creditor where waccountid = :WACCOUNTID and SLAYOUTINVOICE <> '' and :WTYPEID=12
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTCREDITNOTE , 1 from debtor where waccountid = :WACCOUNTID and SLAYOUTCREDITNOTE <> '' and :WTYPEID=11
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTCREDITNOTE , 1 from creditor where waccountid = :WACCOUNTID and SLAYOUTCREDITNOTE <> '' and :WTYPEID=13
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTQUOTE , 1 from debtor where waccountid = :WACCOUNTID and SLAYOUTQUOTE <> '' and :WTYPEID=14
-union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTQUOTE , 1 from creditor where waccountid = :WACCOUNTID and SLAYOUTQUOTE <> '' and :WTYPEID=15
-
-order by 2
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNameCreditNote'
+    AND :WTYPEID = 11
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNameGret'
+    AND :WTYPEID = 13
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNameQuote'
+    AND :WTYPEID = 14
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNameOrder'
+    AND :WTYPEID = 15
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNameInv'
+    AND :WTYPEID = 10
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', soptionValue),
+    2 AS a
+FROM
+    opreport
+WHERE
+    stroption = 'SDocLayoutNamePurchases'
+    AND :WTYPEID = 12
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTINVOICE),
+    1 AS a
+FROM
+    debtor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTINVOICE <> ''
+    AND :WTYPEID = 10
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTINVOICE),
+    1 AS a
+FROM
+    creditor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTINVOICE <> ''
+    AND :WTYPEID = 12
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTCREDITNOTE),
+    1 AS a
+FROM
+    debtor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTCREDITNOTE <> ''
+    AND :WTYPEID = 11
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTCREDITNOTE),
+    1 AS a
+FROM
+    creditor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTCREDITNOTE <> ''
+    AND :WTYPEID = 13
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTQUOTE),
+    1 AS a
+FROM
+    debtor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTQUOTE <> ''
+    AND :WTYPEID = 14
+UNION ALL
+SELECT
+    CONCAT('\DOCUMENTS\DOCUMENTS\', SLAYOUTQUOTE),
+    1 AS a
+FROM
+    creditor
+WHERE
+    waccountid = :WACCOUNTID
+    AND SLAYOUTQUOTE <> ''
+    AND :WTYPEID = 15
+ORDER BY 2;

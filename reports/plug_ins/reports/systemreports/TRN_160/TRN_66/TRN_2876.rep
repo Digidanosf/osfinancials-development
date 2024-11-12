@@ -67,7 +67,7 @@ object _1: TRpReport
     item
       Name = 'SEQ'
       NeverVisible = True
-      Value = '49'
+      Value = '3'
       Description = 'Sequence'
       Hint = ''
       Search = ''
@@ -77,7 +77,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX'
       NeverVisible = True
-      Value = 'Debtor code'
+      Value = 'First name'
       Description = ''
       Hint = ''
       Search = ''
@@ -87,7 +87,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX2'
       NeverVisible = True
-      Value = '49'
+      Value = '3'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'CONTACTS')
@@ -100,7 +100,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODE'
       NeverVisible = True
-      Value = '47'
+      Value = '90'
       Description = 'From account'
       Hint = ''
       Search = ''
@@ -123,7 +123,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETO'
       NeverVisible = True
-      Value = '52'
+      Value = '95'
       Description = 'To account'
       Hint = ''
       Search = ''

@@ -62,7 +62,7 @@ object _1: TRpReport
       Name = 'SEQ'
       NeverVisible = True
       Value = '2'
-      Description = 'Volgorde'
+      Description = 'Sequence'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -71,7 +71,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX'
       NeverVisible = True
-      Value = 'BTW-kode'
+      Value = 'Tax code'
       Description = ''
       Hint = ''
       Search = ''

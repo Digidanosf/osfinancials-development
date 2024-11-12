@@ -160,8 +160,8 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODEFROM'
       Visible = False
-      Value = '3'
-      Description = 'From'
+      Value = '4'
+      Description = 'Vanaf'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -180,8 +180,8 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODETO'
       Visible = False
-      Value = '6'
-      Description = 'To'
+      Value = '9'
+      Description = 'Tot'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -199,8 +199,8 @@ object _1: TRpReport
     item
       Name = 'MAXSALE'
       Visible = False
-      Value = 'MAXSALE=2023/11/30'
-      Description = 'Max sales date'
+      Value = 'MAXSALE=2022-06-30'
+      Description = 'Maks verkoopsdatum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -209,11 +209,11 @@ object _1: TRpReport
     item
       Name = 'MAXSALEFL'
       Visible = False
-      Value = 45260
+      Value = 44742
       ParamType = rpParamDate
       Datasets.Strings = (
         'DETAILS')
-      Description = 'Max sales date'
+      Description = 'Maks verkoopsdatum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -222,7 +222,7 @@ object _1: TRpReport
     item
       Name = 'MAXSALETX'
       Visible = False
-      Value = '2023/11/30'
+      Value = '2022-06-30'
       Description = ''
       Hint = ''
       Search = ''

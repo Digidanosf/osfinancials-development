@@ -1,7 +1,2 @@
-Select  SCompanyName || '<br/>'
-|| sysvars.SADDRESS1 || '<br/>'
-|| sysvars.SADDRESS2 || '<br/>'
-|| sysvars.SADDRESS3 || '<br/>'
-|| sysvars.SPOSTCODE || '<br/>' 
-|| sysvars.SPHONENUMBER || '<br/>' 
- from sysvars
+SELECT CONCAT(SCompanyName, CHAR(13), CHAR(10), SADDRESS1, CHAR(13), CHAR(10), SADDRESS2, SADDRESS3, SPOSTCODE, CHAR(13), CHAR(10), SPHONE_NUMBER)
+FROM SYSVARS;

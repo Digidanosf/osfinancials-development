@@ -506,7 +506,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       Value = '2'
-      Description = 'Sequence'
+      Description = 'Volgorde'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -516,7 +516,7 @@ object _1: TRpReport
       Name = 'SEQTX'
       Visible = False
       NeverVisible = True
-      Value = 'Debtor code'
+      Value = 'Debiteurkode'
       Description = ''
       Hint = ''
       Search = ''
@@ -541,11 +541,11 @@ object _1: TRpReport
       Name = 'DDATEFROMFL'
       Visible = False
       AllowNulls = False
-      Value = 44256
+      Value = 44621
       ParamType = rpParamDate
       Datasets.Strings = (
         'TEST2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -555,11 +555,11 @@ object _1: TRpReport
       Name = 'DDATETOFL'
       Visible = False
       AllowNulls = False
-      Value = 44620
+      Value = 44681
       ParamType = rpParamDate
       Datasets.Strings = (
         'TEST2')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''

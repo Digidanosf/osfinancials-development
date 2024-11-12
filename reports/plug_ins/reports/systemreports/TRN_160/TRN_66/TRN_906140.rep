@@ -120,7 +120,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODE'
       NeverVisible = True
-      Value = '47'
+      Value = '90'
       Description = 'From account'
       Hint = ''
       Search = ''
@@ -143,7 +143,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETO'
       NeverVisible = True
-      Value = '52'
+      Value = '95'
       Description = 'To account'
       Hint = ''
       Search = ''

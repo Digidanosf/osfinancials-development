@@ -229,6 +229,8 @@ object _1: TRpReport
       Description = 'Van periode'
       Hint = ''
       Search = ':FROMPERIOD'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'TOPERIOD'
@@ -242,6 +244,8 @@ object _1: TRpReport
       Description = 'Tot periode'
       Hint = ''
       Search = ':TOPERIOD'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'SHOWNILBALANCE'
@@ -252,6 +256,8 @@ object _1: TRpReport
       Description = 'Toon nul balans'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'DEBCONTROLID'
@@ -269,6 +275,8 @@ object _1: TRpReport
       Description = 'debtorscontrol id'
       Hint = ''
       Search = 'DEBCONTROLID'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'CREDCONTROLID'
@@ -286,6 +294,8 @@ object _1: TRpReport
       Description = 'Creditor control id'
       Hint = ''
       Search = 'CREDCONTROLID'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'RETAINEDINCOME'
@@ -302,6 +312,8 @@ object _1: TRpReport
       Description = 'Retained earnings'
       Hint = ''
       Search = 'RETCONTROLID'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'REPORTTYPE'
@@ -320,6 +332,8 @@ object _1: TRpReport
       Description = 'Reporttype'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'FROMACCOUNT'
@@ -330,6 +344,8 @@ object _1: TRpReport
       Description = ''
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'TOACCOUNT'
@@ -340,6 +356,8 @@ object _1: TRpReport
       Description = ''
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end>
   StreamFormat = rpStreamText
   ReportAction = []

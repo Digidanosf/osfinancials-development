@@ -1,0 +1,154 @@
+SELECT first 1 0  REGISTERS_SEND , 
+Trim(COALESCE(d.x_customers_email_address,b.sEmail) )  REGISTERS_EMAIL,
+ 
+c.WAccountId REGISTERS_ID, 
+c.WAccountId , 
+c.WAccountTypeId ,
+cast('' as char(500)) REGISTER_ATT ,
+'test' as HTMLLAYOUTx,
+c.SAccountCode ,
+c.SAccountCode Code,
+c.SDescription, 
+SPassword, 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+d.SDOCNO,
+cast(d.ddate as date) ddate,
+d.DDUEDATE,
+d.WTypeid,
+d.SEXTERNALID,
+d.Sreference,
+d.Wdocid,
+sysvars.SCOMPANYNAME as FROMCOMPANYNAME,
+d.Wdocid TCVAR_DOCID,
+cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) DOCTOTAL,
+cast(cast(d.FTAXAMOUNT as numeric (12,2))as varchar(16)) DOCTAX,
+SUBSTRING(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) from 1 for CHAR_LENGTH(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)))-3) 
+|| ','||
+SUBSTRING(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) from CHAR_LENGTH(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)))-1 for 2) DOCTOTDUTCH
+,
+poscon.SDescription  Contact,
+poscomp.SDescription Company,
+
+delcon.SDescription delContact,
+delcomp.SDescription DelCompany ,
+DelPostid1.SDescription as DelPostal1,
+DelPostid2.SDescription as DelPostal2,
+DelPostid3.SDescription as DelPostal3,
+DelPostCode.SDescription as DelPostalCode,
+
+Postid1.SDescription as Postal1,
+Postid2.SDescription as Postal2,
+Postid3.SDescription as Postal3,
+PostCode.SDescription as PostalCode 
+ 
+,IIF(DC.COUNTRIES_ISO_CODE_2='DE',
+'?d=DE/#!/'
+,IIF(DC.COUNTRIES_ISO_CODE_2='BE','?d=BE/#!/','#!/')) HTMLPJVURL
+
+from debtor b 
+ 
+join Account c on b.WAccountId = c.WAccountId 
+join dochead d on b.WAccountId = d.WAccountId 
+left join messages poscon on (d.WPOSTALCONTACT = poscon.WMessageId)
+left join messages poscomp on (d.WPOSTALNAME = poscomp.WMessageId)
+left join Messages Postid1 on (d.WPostal1ID = Postid1.WMessageID)
+left join Messages Postid2 on (d.WPostal2ID = Postid2.WMessageID)
+left join Messages Postid3 on (d.WPostal3ID = Postid3.WMessageID)
+left join Messages Postcode on (d.WPostalCodeID = Postcode.WMessageID)
+
+left join messages delcon on (d.WDELCONTACT = delcon.WMessageId)
+left join messages delcomp on (d.WDELNAME = delcomp.WMessageId)
+
+left join Messages DelPostid1 on (d.WDelAddress1ID = DelPostid1.WMessageID)
+left join Messages DelPostid2 on (d.WDelAddress2ID = DelPostid2.WMessageID)
+left join Messages DelPostid3 on (d.WDelAddress3ID = DelPostid3.WMessageID)
+left join Messages DelPostcode on (d.WDelCodeID = DelPostcode.WMessageID)
+ 
+left join countries dc on d.WDELCOUNTRIES_ID  = dc.COUNTRIES_ID,
+sysvars
+where  d.WDocid = <@WDOCID@>
+union
+SELECT first 1 0  REGISTERS_SEND , 
+Trim(COALESCE(d.x_customers_email_address,b.sEmail) )  REGISTERS_EMAIL,
+ 
+c.WAccountId REGISTERS_ID, 
+c.WAccountId , 
+c.WAccountTypeId ,
+cast('' as char(500)) REGISTER_ATT ,
+'test' as HTMLLAYOUTx,
+c.SAccountCode ,
+c.SAccountCode Code,
+c.SDescription, 
+SPassword, 
+ 
+STelephone1, 
+STelephone2, 
+SFax, 
+SEmail, 
+SBranchCode,  
+SBankAccountNumber, 
+SBankAccountName, 
+WDueDays,
+d.SDOCNO,
+cast(d.ddate as date) ddate ,
+d.DDUEDATE,
+d.WTypeid,
+d.SEXTERNALID,
+d.Sreference,
+d.Wdocid,
+sysvars.SCOMPANYNAME as FROMCOMPANYNAME,
+d.Wdocid TCVAR_DOCID,
+cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) DOCTOTAL,
+cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) DOCTAX,
+SUBSTRING(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) from 1 for CHAR_LENGTH(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)))-3) 
+|| ','||
+SUBSTRING(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)) from CHAR_LENGTH(cast(cast(d.FDOCAMOUNT as numeric (12,2))as varchar(16)))-1 for 2) DOCTOTDUTCH
+,
+poscon.SDescription Contact,
+poscomp.SDescription Company,
+
+delcon.SDescription delContact,
+delcomp.SDescription DelCompany ,
+DelPostid1.SDescription as DelPostal1,
+DelPostid2.SDescription as DelPostal2,
+DelPostid3.SDescription as DelPostal3,
+DelPostCode.SDescription as DelPostalCode,
+
+Postid1.SDescription as Postal1,
+Postid2.SDescription as Postal2,
+Postid3.SDescription as Postal3,
+PostCode.SDescription as PostalCode 
+ 
+,IIF(DC.COUNTRIES_ISO_CODE_2='DE',
+'?d=DE/#!/'
+,IIF(DC.COUNTRIES_ISO_CODE_2='BE','?d=BE/#!/','#!/')) HTMLPJVURL
+from creditor b 
+ 
+join Account c on b.WAccountId = c.WAccountId 
+join dochead d on b.WAccountId = d.WAccountId 
+left join messages poscon on (d.WPOSTALCONTACT = poscon.WMessageId)
+left join messages poscomp on (d.WPOSTALNAME = poscomp.WMessageId)
+left join Messages Postid1 on (d.WPostal1ID = Postid1.WMessageID)
+left join Messages Postid2 on (d.WPostal2ID = Postid2.WMessageID)
+left join Messages Postid3 on (d.WPostal3ID = Postid3.WMessageID)
+left join Messages Postcode on (d.WPostalCodeID = Postcode.WMessageID)
+
+left join messages delcon on (d.WDELCONTACT = delcon.WMessageId)
+left join messages delcomp on (d.WDELNAME = delcomp.WMessageId)
+
+left join Messages DelPostid1 on (d.WDelAddress1ID = DelPostid1.WMessageID)
+left join Messages DelPostid2 on (d.WDelAddress2ID = DelPostid2.WMessageID)
+left join Messages DelPostid3 on (d.WDelAddress3ID = DelPostid3.WMessageID)
+left join Messages DelPostcode on (d.WDelCodeID = DelPostcode.WMessageID)
+ 
+left join countries dc on d.WDELCOUNTRIES_ID = dc.COUNTRIES_ID,
+sysvars
+where  d.WDocid = <@WDOCID@>
+ 

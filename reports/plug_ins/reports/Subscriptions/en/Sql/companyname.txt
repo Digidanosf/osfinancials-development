@@ -1,8 +1,2 @@
-Select SCompanyName || ascii_char(13) || ascii_char(10) 
-|| sysvars.SADDRESS1
-|| ascii_char(13) || ascii_char(10) 
-|| sysvars.SPOSTCODE
-|| ' ' || sysvars.SADDRESS2
-|| ascii_char(13) || ascii_char(10) 
-|| sysvars.SPHONENUMBER
- from sysvars
+SELECT SCompanyName {concat} CHAR(13){concat} CHAR(10){concat} SADDRESS1 {concat} CHAR(13) {concat} CHAR(10) {concat} SADDRESS2 {concat} SADDRESS3 {concat} SPOSTCODE {concat} CHAR(13) {concat} CHAR(10) {concat} SPHONE_NUMBER 
+FROM SYSVARS;

@@ -1,5 +1,15 @@
-Select '<A href="https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || 
-parcel.SPOSTALCODE || '">https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || 
-parcel.SPOSTALCODE || '</a>' FROM PARCEL_XDBSEND,  PARCEL 
+SELECT CONCAT(
+    '<A href="https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE=',
+    SSHIPMENT_IDENTCODE,
+    '&ZIPCODE=',
+    parcel.SPOSTALCODE,
+    '">' ,
+    'https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE=',
+    SSHIPMENT_IDENTCODE,
+    '&ZIPCODE=',
+    parcel.SPOSTALCODE,
+    '</a>'
+) AS TrackingLink
+FROM PARCEL_XDBSEND
+INNER JOIN PARCEL ON PARCEL_XDBSEND.WDocid = PARCEL.WDocid -- Assuming the join condition
 where SDOCNO = :SDOCNO
-and PARCEL.WDocid = :WDOCID

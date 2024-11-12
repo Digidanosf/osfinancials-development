@@ -83,7 +83,7 @@ object _1: TRpReport
     item
       Name = 'UNTILACC'
       NeverVisible = True
-      Value = '37'
+      Value = '2'
       Description = 'To account'
       Hint = ''
       Search = ''
@@ -93,7 +93,7 @@ object _1: TRpReport
     item
       Name = 'UNTILACCTX'
       NeverVisible = True
-      Value = 'G999000'
+      Value = 'G900000'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'ACCOUNTS')

@@ -1,0 +1,11 @@
+Geachte @$$SDESCRIPTION$$@ 
+
+@$$SREMARK$$@ 
+
+
+@$$SMEMO$$@ 
+
+
+Met vriendelijke groet
+
+@$$@LS@companyname.txt= border="0" $$@  @LS@$$@

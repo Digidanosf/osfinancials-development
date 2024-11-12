@@ -92,8 +92,8 @@ object _1: TRpReport
   Params = <
     item
       Name = 'DEBFROM'
-      Value = '53'
-      Description = 'From'
+      Value = '30'
+      Description = 'Vanaf'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -101,7 +101,7 @@ object _1: TRpReport
     end
     item
       Name = 'DEBFROMTX'
-      Value = 'C2ABCOS'
+      Value = 'C2BESTS'
       Datasets.Strings = (
         'STOCK'
         'DETAILS')
@@ -113,8 +113,8 @@ object _1: TRpReport
     end
     item
       Name = 'DEBTO'
-      Value = '57'
-      Description = 'To'
+      Value = '30'
+      Description = 'Tot'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -122,7 +122,7 @@ object _1: TRpReport
     end
     item
       Name = 'DEBTOTX'
-      Value = 'C2COPEN'
+      Value = 'C2BESTS'
       Datasets.Strings = (
         'STOCK'
         'DETAILS')
@@ -135,9 +135,9 @@ object _1: TRpReport
     item
       Name = 'DATES'
       Value = 
-        'cast(DATES as date) >=  Cast('#39'2021/03/01'#39' as datetime)  and cast' +
-        '(DATES as date) < Cast('#39'2022/03/01'#39' as datetime) '
-      Description = 'Period'
+        'cast(DATES as date) >=  Cast('#39'2022/03/01'#39' as date)  and cast(DAT' +
+        'ES as date) < Cast('#39'2023/03/01'#39' as date) '
+      Description = 'Periode'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -146,7 +146,7 @@ object _1: TRpReport
     item
       Name = 'DATESFROM'
       Visible = False
-      Value = '2021/03/01'
+      Value = '2022-03-01'
       Description = ''
       Hint = ''
       Search = ''
@@ -156,7 +156,7 @@ object _1: TRpReport
     item
       Name = 'DATESTO'
       Visible = False
-      Value = '2022/02/28'
+      Value = '2023-02-28'
       Description = ''
       Hint = ''
       Search = ''
@@ -166,12 +166,12 @@ object _1: TRpReport
     item
       Name = 'DATESFROMFL'
       Visible = False
-      Value = 44256
+      Value = 44621
       ParamType = rpParamDate
       Datasets.Strings = (
         'STOCK'
         'DETAILS')
-      Description = 'Period'
+      Description = 'Periode'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -180,12 +180,12 @@ object _1: TRpReport
     item
       Name = 'DATESTOFL'
       Visible = False
-      Value = 44620
+      Value = 44985
       ParamType = rpParamDate
       Datasets.Strings = (
         'STOCK'
         'DETAILS')
-      Description = 'Period'
+      Description = 'Periode'
       Hint = ''
       Search = ''
       ErrorMessage = ''

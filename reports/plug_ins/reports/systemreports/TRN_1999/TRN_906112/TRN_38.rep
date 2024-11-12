@@ -90,7 +90,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44256
+      Value = 44621
       ParamType = rpParamDate
       Datasets.Strings = (
         'STOCKTRN'
@@ -105,7 +105,7 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 44620
+      Value = 44985
       ParamType = rpParamDate
       Datasets.Strings = (
         'STOCKTRN'
@@ -120,7 +120,7 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODEFROMCODE'
       AllowNulls = False
-      Value = '3COMP6789012345'
+      Value = '3COMP'
       Datasets.Strings = (
         'STOCK')
       Description = 'Vanaf code'
@@ -156,7 +156,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP1ID'
       NeverVisible = True
       AllowNulls = False
-      Value = ' and WREPORTINGGROUP1ID in(26)'
+      Value = ' and WREPORTINGGROUP1ID in(14)'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'STOCK')

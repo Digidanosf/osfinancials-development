@@ -1,4 +1,4 @@
-object TRpReport
+object _1: TRpReport
   PageHeight = 8120
   PageWidth = 5742
   PageBackColor = 16777215
@@ -121,23 +121,9 @@ object TRpReport
       Datasets.Strings = (
         'TRANSACTIES')
       Items.Strings = (
-        'Beginbalans'
-        'Inkopen'
-        'Verkopen'
-        'Kasboek'
-        'Bankboek 1 Onv.'
-        'Memoriaal'
-        'Rabobank'
-        'Kostprijs omzet')
+        'Aankoopjoernaal')
       Values.Strings = (
-        '1'
-        '2'
-        '3'
-        '4'
-        '5'
-        '7'
-        '9'
-        '12')
+        '3')
       Selected.Strings = (
         '0'
         '1'
@@ -148,6 +134,8 @@ object TRpReport
       Description = 'Batches'
       Hint = ''
       Search = '@BATCHTYPEID'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'STARTPERIOD'
@@ -161,6 +149,8 @@ object TRpReport
       Description = 'Startperiod'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'ENDPERIOD'
@@ -174,6 +164,8 @@ object TRpReport
       Description = 'End period'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'SHOWBALANCE'
@@ -185,6 +177,8 @@ object TRpReport
       Description = 'Show balance'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'SHOWCONTRA'
@@ -196,6 +190,8 @@ object TRpReport
       Description = ''
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end>
   Language = 12
   StreamFormat = rpStreamText

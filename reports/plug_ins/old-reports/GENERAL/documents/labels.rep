@@ -1,0 +1,379 @@
+object _1: TRpReport
+  Pagesize = rpPageSizeCustom
+  PagesizeQt = 133
+  PageHeight = 8448
+  PageWidth = 3281
+  CustomPageHeight = 1440
+  CustomPageWidth = 4320
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'LABEL'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select '#13#10'DocHead.WDocID, '#13#10'DocHead.SDocNo, '#13#10'DocHead.DDate, '#13#10'Do' +
+        'cHead.DDueDate,'#13#10'Account.SAccountCode,'#13#10'Account.WAccountTypeID,'#13 +
+        #10'Account.SDescription AccountName,'#13#10'DocHead.SReference,'#13#10'Mess1.S' +
+        'Description as Message1,'#13#10'Mess2.SDescription as Message2,'#13#10'Mess3' +
+        '.SDescription as Message3,'#13#10'DelPostid1.SDescription as DelPostal' +
+        '1,'#13#10'DelPostid2.SDescription as DelPostal2,'#13#10'DelPostid3.SDescript' +
+        'ion as DelPostal3,'#13#10'DelPostCode.SDescription as DelPostalCode,'#13#10 +
+        #13#10'Postid1.SDescription as Postal1,'#13#10'Postid2.SDescription as Post' +
+        'al2,'#13#10'Postid3.SDescription as Postal3,'#13#10'PostCode.SDescription as' +
+        ' PostalCode,'#13#10'Salesman.SDescription as Salesman,'#13#10'DocHead.BPoste' +
+        'd,'#13#10'DocHead.BPrinted,'#13#10'DocHead.WUserID,'#13#10#13#10'DocHead.WReportingGro' +
+        'up1ID,'#13#10'DocHead.WReportingGroup2ID,'#13#10'DocHead.FInvoiceDiscount,'#13#10 +
+        'DocHead.FDocAmount,'#13#10'DocHead.FTaxAmount,'#13#10#13#10'Postname.SDescriptio' +
+        'n as  Postname,'#13#10'PostContact.SDescription as PostContact,'#13#10'DelNa' +
+        'me.SDescription as  DelName,'#13#10'DelContact.SDescription as DelCont' +
+        'act'#13#10#13#10#13#10'from '#13#10'dochead JOIN Account Account ON  (dochead.WAccou' +
+        'ntID = Account.WAccountID) '#13#10#13#10'left join Messages Postid1 on (do' +
+        'chead.WPostal1ID = Postid1.WMessageID)'#13#10'left join Messages Posti' +
+        'd2 on (dochead.WPostal2ID = Postid2.WMessageID)'#13#10'left join Messa' +
+        'ges Postid3 on (dochead.WPostal3ID = Postid3.WMessageID)'#13#10'left j' +
+        'oin Messages Postcode on (dochead.WPostalCodeID = Postcode.WMess' +
+        'ageID)'#13#10#13#10'left join Messages DelPostid1 on (dochead.WDelAddress1' +
+        'ID = DelPostid1.WMessageID)'#13#10'left join Messages DelPostid2 on (d' +
+        'ochead.WDelAddress2ID = DelPostid2.WMessageID)'#13#10'left join Messag' +
+        'es DelPostid3 on (dochead.WDelAddress3ID = DelPostid3.WMessageID' +
+        ')'#13#10'left join Messages DelPostcode on (dochead.WDelCodeID = DelPo' +
+        'stcode.WMessageID)'#13#10'left join Groups salesman on (dochead.WSales' +
+        'manID = salesman.WGroupid)'#13#10#13#10'left join Messages Mess1 on (doche' +
+        'ad.WMessage1ID = Mess1.WMessageID)'#13#10'left join Messages Mess2 on ' +
+        '(dochead.WMessage2ID = Mess2.WMessageID)'#13#10'left join Messages Mes' +
+        's3 on (dochead.WMessage3ID = Mess3.WMessageID)'#13#10#13#10'left join Mess' +
+        'ages Postname on (dochead.WPostalname = Postname.WMessageID)'#13#10'le' +
+        'ft join Messages PostContact on (dochead.WPostalContact = PostCo' +
+        'ntact.WMessageID)'#13#10'left join Messages DelName on (dochead.WDelna' +
+        'me = DelName.WMessageID)'#13#10'left join Messages DelContact on (doch' +
+        'ead.WDelContact = DelContact.WMessageID)'#13#10#13#10' where dochead.WDocI' +
+        'd=:TCVAR_DocID'
+    end
+    item
+      Alias = 'DECREDDATA'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT debtor.SDELIVERY1 ,debtor.SDELIVERY2,debtor.SDELIVERY3, d' +
+        'ebtor.SDELIVERYCODE,dc.COUNTRIES_NAME delcountry,pc.COUNTRIES_NA' +
+        'ME poscountry, account.SDescription, account.SAccountCode, SPost' +
+        'al1, '#13#10'  SPostal2,SPostal3, SPostalCode, STelephone1, STelephone' +
+        '2, '#13#10'  SFax, SEmail, SBranchCode, SBankAccountNumber, '#13#10'  DLastA' +
+        'ctivity, SReference, WDueDays,account.WAccountID,Firstname , Las' +
+        'tName, Groups1.SDescription GroupDesc1,Groups1.WSortNo GroupSort' +
+        '1, Groups2.SDescription GroupDesc2, Groups2.WSortNo GroupSort2'#13#10 +
+        ',Groups1.WColor,Groups1.WTextColor,'#13#10'account.WReportingGroup2ID'#13 +
+        #10#13#10#13#10#13#10'  FROM debtor JOIN account ON  (debtor.WAccountID = accou' +
+        'nt.WAccountID) left OUTER JOIN Contacts Contacts '#13#10'    ON  (debt' +
+        'or.WContactID = Contacts.RecordID) '#13#10'    left JOIN Groups Groups' +
+        '2 ON  (account.WReportingGroup2ID = Groups2.WGroupID) '#13#10'    left' +
+        ' JOIN Groups Groups1 ON  (account.WReportingGroup1ID = Groups1.W' +
+        'GroupID) '#13#10'    left JOIN COUNTRIES pc on pc.COUNTRIES_ID = debto' +
+        'r.WPOSTCOUNTRIES_ID'#13#10'    left JOIN COUNTRIES dc on dc.COUNTRIES_' +
+        'ID = debtor.WDELCOUNTRIES_ID'#13#10'    where WAccountTypeId = 1   and' +
+        ' account.Waccountid = :WAccountid'#13#10'union'#13#10' SELECT creditor.SDELI' +
+        'VERY1 ,creditor.SDELIVERY2,creditor.SDELIVERY3, creditor.SDELIVE' +
+        'RYCODE,dc.COUNTRIES_NAME delcountry,pc.COUNTRIES_NAME poscountry' +
+        ', account.SDescription, account.SAccountCode, SPostal1, '#13#10'  SPos' +
+        'tal2,SPostal3, SPostalCode, STelephone1, STelephone2, '#13#10'  SFax, ' +
+        'SEmail, SBranchCode, SBankAccountNumber, '#13#10'  DLastActivity, SRef' +
+        'erence, WDueDays,account.WAccountID,firstname, LastName, Groups1' +
+        '.SDescription GroupDesc1,Groups1.WSortNo GroupSort1, Groups2.SDe' +
+        'scription GroupDesc2, Groups2.WSortNo GroupSort2'#13#10',Groups1.WColo' +
+        'r,Groups1.WTextColor'#13#10',account.WReportingGroup2ID'#13#10#13#10#13#10'  FROM cr' +
+        'editor JOIN account ON  (creditor.WAccountID = account.WAccountI' +
+        'D) left OUTER JOIN Contacts Contacts '#13#10'    ON  (creditor.WContac' +
+        'tID = Contacts.RecordID) '#13#10'    left JOIN Groups Groups2 ON  (acc' +
+        'ount.WReportingGroup2ID = Groups2.WGroupID) '#13#10'    left JOIN Grou' +
+        'ps Groups1 ON  (account.WReportingGroup1ID = Groups1.WGroupID) '#13 +
+        #10'    left JOIN COUNTRIES pc on pc.COUNTRIES_ID = creditor.WPOSTC' +
+        'OUNTRIES_ID'#13#10'    left JOIN COUNTRIES dc on dc.COUNTRIES_ID = cre' +
+        'ditor.WDELCOUNTRIES_ID'#13#10'    where WAccountTypeId = 2  and accoun' +
+        't.Waccountid = :WAccountid '
+      DataSource = 'LABEL'
+    end
+    item
+      Alias = 'COMPANYDATA'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select SCompanyName  ,'#13#10'SCompanyRegNo ,'#13#10'SEmailAddress ,'#13#10'SAddre' +
+        'ss1 ,'#13#10'SAddress2 ,'#13#10'SAddress3 ,'#13#10'SPostCode ,'#13#10'SPhoneNumber ,'#13#10'SF' +
+        'axNumber ,'#13#10'STaxRegNo ,'#13#10'SAccountReportName1 ,'#13#10'SAccountReportNa' +
+        'me1 ,'#13#10'SDebtorReportName1 ,'#13#10'SDebtorReportName2 ,'#13#10'SCreditorRepo' +
+        'rtName1 ,'#13#10'SCreditorReportName2 ,'#13#10'SStockReportName1 ,'#13#10'SStockRe' +
+        'portName1 ,'#13#10'SBANKNAME1, '#13#10'SBANKNAME2, '#13#10'SBANKNUMBER2, '#13#10'SBANKNU' +
+        'MBER1, '#13#10'SBANKSWIFT1, '#13#10'SBANKIBAN1, '#13#10'SBANKSWIFT2, '#13#10'SBANKIBAN2,' +
+        ' '#13#10'SBANKACCOUNTNAME1, '#13#10'SBANKACCOUNTNAME2'#13#10'from Sysvars '
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end
+    item
+      Alias = 'INMEMFILES'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatamybase
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'TCVAR_DOCID'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = 33
+      ParamType = rpParamInteger
+      Datasets.Strings = (
+        'LABEL')
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end>
+  Language = 12
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'LABEL'
+  end
+  object TRpSection0: TRpSection
+    Width = 4650
+    Height = 1935
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression2
+      end
+      item
+        Component = TRpExpression3
+      end
+      item
+        Component = TRpExpression4
+      end
+      item
+        Component = TRpExpression5
+      end
+      item
+        Component = TRpExpression6
+      end>
+    AutoExpand = True
+    HorzDesp = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    dpires = 300
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression1: TRpExpression
+    Width = 4245
+    Height = 225
+    PosX = 120
+    PosY = 915
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.POSTAL1'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression2: TRpExpression
+    Width = 4245
+    Height = 225
+    PosX = 120
+    PosY = 1140
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.POSTAL2'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression0: TRpExpression
+    Width = 4245
+    Height = 465
+    PosX = 120
+    PosY = 225
+    Type1Font = poHelvetica
+    FontStyle = 1
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.POSTNAME'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression3: TRpExpression
+    Width = 4245
+    Height = 225
+    PosX = 120
+    PosY = 690
+    Type1Font = poHelvetica
+    CutText = True
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'CUSTOM('#39'GETTEXTLANG'#39',2048,'#39'Name'#39',0,0,0)+'#39':  '#39'  +LABEL.POSTCONTAC' +
+      'T'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression4: TRpExpression
+    Width = 4245
+    Height = 264
+    PosX = 120
+    PosY = 1605
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.POSTALCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression5: TRpExpression
+    Width = 4245
+    Height = 264
+    PosX = 120
+    PosY = 1380
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'LABEL.POSTAL3'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression6: TRpExpression
+    Width = 4245
+    Height = 264
+    PosX = 120
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF(STR(WACCOUNTTYPEID)='#39'0'#39','#39'G'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39 +
+      '1'#39','#39'D'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39'2'#39','#39'C'#39','#39#39') +'#13#10'IIF(STR(WAC' +
+      'COUNTTYPEID)='#39'3'#39','#39'B'#39','#39#39') +'#13#10'IIF(STR(WACCOUNTTYPEID)='#39'4'#39','#39'T'#39','#39#39') ' +
+      '+ LABEL.SACCOUNTCODE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

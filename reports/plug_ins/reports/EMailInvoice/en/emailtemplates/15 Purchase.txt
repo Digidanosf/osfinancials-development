@@ -1,7 +1,8 @@
+
 Bevestiging van uw bestelling
 Bestelnummer: <#SREFERENCE#> 
 
-Bestelling <#COMPANY#> 
+Bestelling <#COMPANY#>
 <#CONTACT#>
 <#POSTAL1#>
 <#POSTALCODE#> <#POSTAL2#>
@@ -9,17 +10,18 @@ Bestelling <#COMPANY#>
 
 <#REGISTERS_EMAIL#>
 
-Geachte heer / mevrouw,  
+Geachte heer / mevrouw,
 
 Hartelijk dank voor uw bestelling.
 In de bijlage vindt u de factuur en hieronder ziet u het overzicht van de producten die u besteld.
 Mochten er vragen zijn dan horen wij het graag van u.
 
-<#@LS@doclines.txt=border="1" WIDTH=100% CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+<#@LS@doclines.txt=border="1" WIDTH=700px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+
 
 <#FREETEXT#>
 
-Aflever Adres :        
+Aflever Adres :
 <#DELCOMPANY#> 
 <#DELCONTACT#>
 <#DELPOSTAL1#>
@@ -27,4 +29,5 @@ Aflever Adres :
 
 Met vriendelijke groet,
 
-<#@LS@companyname.txt=border="0" WIDTH=150px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+<#@LS@companyname.txt=border="0" WIDTH=300px CELLPADDING=0 CELLSPACING=0#> <@LS@#>
+

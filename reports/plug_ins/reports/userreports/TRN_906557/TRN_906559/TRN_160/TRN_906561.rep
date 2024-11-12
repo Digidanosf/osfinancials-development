@@ -62,11 +62,11 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44256d
+      Value = 44986
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -75,11 +75,11 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 44620d
+      Value = 45351
       ParamType = rpParamDate
       Datasets.Strings = (
         'DOCUMENTLINE')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -535,6 +535,9 @@ object _1: TRpReport
     Series = <
       item
         Color = -1
+      end
+      item
+        Color = 234567
       end>
     ChartType = rpchartbar
     Driver = rpchartdriverdefault

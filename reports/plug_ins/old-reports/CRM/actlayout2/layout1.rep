@@ -1,0 +1,222 @@
+object _1: TRpReport
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'ADMINISTRATIEGEGEVENS'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select '#13#10'SCompanyName Bedrijfsnaam'#13#10',SCompanyRegNo KVKNummer'#13#10',B' +
+        'lobLogo Logo'#13#10',SAddress1 Straat'#13#10',SAddress2 Plaats'#13#10',SAddress3 L' +
+        'and'#13#10',SPostCode Postcode'#13#10',SPhoneNumber Telefoon'#13#10',SFaxNumber Fa' +
+        'x'#13#10',WRetainedIncomeID WinstVorigJaarAccId'#13#10',WDebtorsControlID De' +
+        'biteurenbeheerAccId'#13#10',WCreditorsControlID CrediteurenbeheerAccId' +
+        #13#10',SCreditNoteMessage1 creditnotabericht1'#13#10',SCreditNoteMessage2 ' +
+        'creditnotabericht2'#13#10',SCreditNoteMessage3 creditnotabericht3'#13#10',SP' +
+        'urchasesMessage1 Inkoopbericht1'#13#10',SPurchasesMessage2 Inkoopberic' +
+        'ht2'#13#10',SPurchasesMessage3 Inkoopbericht3'#13#10',SGoodsReturnedMessage1' +
+        ' Retoerzendingbericht1'#13#10',SGoodsReturnedMessage2 Retoerzendingber' +
+        'icht1'#13#10',SGoodsReturnedMessage3 Retoerzendingbericht1'#13#10',SInvoices' +
+        'Message1 Factuurbericht1'#13#10',SInvoicesMessage2 Factuurbericht2'#13#10',S' +
+        'InvoicesMessage3 Factuurbericht3'#13#10',SStatementMessage1 Herinderin' +
+        'genbericht1'#13#10',SStatementMessage2 Herinderingenbericht2'#13#10',SStatem' +
+        'entMessage3 Herinderingenbericht3'#13#10',SInvoiceHeading Factuurkop'#13#10 +
+        ',SCreditNoteHeading Creditnotakop'#13#10',SPurchaseHeading InkopenKop'#13 +
+        #10',SGoodsReturnedHeading RetoerzendingKop'#13#10',SQuoteHeading Offerte' +
+        'Kop'#13#10',SQuoteMessage1 Offertebericht1'#13#10',SQuoteMessage2 Offerteber' +
+        'icht1'#13#10',SQuoteMessage3 Offertebericht1'#13#10',SOrderHeading Bestellin' +
+        'gKop'#13#10',SOrderMessage1 Bestellingbericht1'#13#10',SOrderMessage2 Bestel' +
+        'lingbericht2'#13#10',SOrderMessage3 Bestellingbericht3'#13#10',STaxRegNo BTW' +
+        'Nummer'#13#10',SAccountReportName1 GrootboekRap1naam'#13#10',SAccountReportN' +
+        'ame2 GrootboekRap2naam'#13#10',SDebtorReportName1 DebiteurenRap1naam'#13#10 +
+        ',SDebtorReportName2 DebiteurenRap2naam'#13#10',SCreditorReportName1 Cr' +
+        'editeurenRap1naam'#13#10',SCreditorReportName2 CrediteurenRap2naam'#13#10',S' +
+        'StockReportName1 VoorraadRap1naam'#13#10',SStockReportName2 VoorraadRa' +
+        'p2naam'#13#10',SDocumentReportName1 DocumentenRap1naam'#13#10',SDocumentRepo' +
+        'rtName2 DocumentenRap2naam'#13#10',SSellingPriceName1 Verkoopprijs1'#13#10',' +
+        'SSellingPriceName2 Verkoopprijs2'#13#10',SSellingPriceName3 Verkooppri' +
+        'js3'#13#10#13#10',SEmailAddress EMailadres'#13#10',SBANKNAME1 banknaam1'#13#10',SBANKN' +
+        'AME2 banknaam2'#13#10',SBANKNUMBER1 banknummer1'#13#10',SBANKNUMBER2 banknum' +
+        'mer2'#13#10',SBANKSWIFT1 bankSwift1'#13#10',SBANKSWIFT2 bankSwift2'#13#10',SBANKIB' +
+        'AN1 bankIBAN1'#13#10',SBANKIBAN2 bankIBAN2'#13#10',SBANKACCOUNTNAME1 bankTen' +
+        'aamStelling1'#13#10',SBANKACCOUNTNAME2 bankTenaamStelling2'#13#10' from sysv' +
+        'ars'
+    end
+    item
+      Alias = 'DOCUMENTHEAD'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT 0 rectype ,act.*, a.SNAME, a.SCONTACT, a.SPASSWORD, a.SPO' +
+        'STAL1, a.SPOSTAL2, a.SPOSTAL3, a.WPOSTCOUNTRIES_ID, a.SPOSTALCOD' +
+        'E, a.SDELIVERY1, a.SDELIVERY2, '#13#10'a.SDELIVERY3, a.WDELCOUNTRIES_I' +
+        'D, a.SDELIVERYCODE, a.STELEPHONE1, a.STELEPHONE2, a.SFAX, a.SEMA' +
+        'IL, a.SBANKNAME,'#13#10' a.SBRANCHCODE, a.SBANKACCOUNTNUMBER, a.SBANKA' +
+        'CCOUNTNAME, a.SCREDITCARDNUMBER, a.DEXPIRYDATE, a.SCREDITCARDTYP' +
+        'E, a.SCREDITCARDHOLDER, a.FCREDITLIMIT, a.FCHARGEAMOUNT, '#13#10' a.FD' +
+        'ISCOUNT, a.FINTEREST, a.WBANKID, a.WSALESMANID, a.BOPENITEM, a.B' +
+        'POSTBBF, a.BDISABLED, a.SMESSAGE, a.WDEFAULTPRICETYPEID, a.DLAST' +
+        'ACTIVITY, a.WCURRENCYID, '#13#10' a.WFOREXACCOUNTID, a.SREFERENCE, a.D' +
+        'SYSDATE, a.WDUEDAYS, a.DREMITTANCE, a.WDEFAULTACCOUNT, '#13#10'a.WDEFA' +
+        'ULTTAX, a.SCOMPANYREGNO, a.SFREEFIELD1, a.SFREEFIELD2, a.SFREEFI' +
+        'ELD3, a.SLANGUAGE, a.SLAYOUTINVOICE, a.SLAYOUTCREDITNOTE, a.SLAY' +
+        'OUTQUOTE, a.SWEBSITE, '#13#10'a.WTRANSMISSIONTYPE, a.WLEADGROUP1ID, a.' +
+        'WLEADGROUP2ID,  gr1.SDescription STATUSDESC '#13#10', gr2.SDescription' +
+        ' ACTIVITYDESC '#13#10'FROM LEADS a join LEADS_ACCOUNT la on a.WLEADID ' +
+        '= la.WLEADSID '#13#10'join LEADS_ACTIVITIES act on act.WACCOUNTID = la' +
+        '.WACCOUNTID '#13#10'left join groups gr1 on act.WSTATUSID = gr1.WGROUP' +
+        'ID'#13#10'left join groups gr2 on act.WACTIVITYTYPE = gr2.WGROUPID'#13#10'wh' +
+        'ere  act.WLEADACTIVITIESID = :ID'#13#10#13#10'union'#13#10'SELECT 1 , act.* , a.' +
+        'SDESCRIPTION, trim(c.FIRSTNAME) || '#39' '#39' || c.LASTNAME, '#13#10'b.SPASSW' +
+        'ORD, b.SPOSTAL1, b.SPOSTAL2, b.SPOSTAL3, b.WPOSTCOUNTRIES_ID, b.' +
+        'SPOSTALCODE, b.SDELIVERY1, b.SDELIVERY2, b.SDELIVERY3, b.WDELCOU' +
+        'NTRIES_ID,'#13#10' b.SDELIVERYCODE, b.STELEPHONE1, b.STELEPHONE2, '#13#10' b' +
+        '.SFAX, b.SEMAIL, b.SBANKNAME, b.SBRANCHCODE,'#13#10'  b.SBANKACCOUNTNU' +
+        'MBER, b.SBANKACCOUNTNAME, '#13#10'  b.SCREDITCARDNUMBER, b.DEXPIRYDATE' +
+        ', '#13#10'  b.SCREDITCARDTYPE, b.SCREDITCARDHOLDER, '#13#10'  b.FCREDITLIMIT' +
+        ', b.FCHARGEAMOUNT, b.FDISCOUNT,'#13#10'   b.FINTEREST, b.WBANKID, b.WS' +
+        'ALESMANID, b.BOPENITEM, '#13#10'   b.BPOSTBBF, b.BDISABLED, b.SMESSAGE' +
+        ', b.WDEFAULTPRICETYPEID,'#13#10'    b.DLASTACTIVITY, b.WCURRENCYID, b.' +
+        'WFOREXACCOUNTID, b.SREFERENCE, b.DSYSDATE, b.WDUEDAYS,'#13#10'     b.D' +
+        'REMITTANCE, b.WDEFAULTACCOUNT, b.WDEFAULTTAX, b.SCOMPANYREGNO, b' +
+        '.SFREEFIELD1,'#13#10'      b.SFREEFIELD2, b.SFREEFIELD3, b.SLANGUAGE, ' +
+        'b.SLAYOUTINVOICE, b.SLAYOUTCREDITNOTE,'#13#10'       b.SLAYOUTQUOTE, b' +
+        '.SWEBSITE, b.WTRANSMISSIONTYPE,'#13#10#13#10#13#10'a.WREPORTINGGROUP1ID, a.WRE' +
+        'PORTINGGROUP2ID, gr1.SDescription STATUSDESC '#13#10', gr2.SDescriptio' +
+        'n ACTIVITYDESC '#13#10'FROM ACCOUNT a'#13#10'join debtor b on a.WACCOUNTID =' +
+        ' b.WACCOUNTID  '#13#10'left join contacts c on c.RECordid = b.WCONTACT' +
+        'ID '#13#10'join LEADS_ACTIVITIES act on act.WACCOUNTID = a.WACCOUNTID ' +
+        #13#10'left join groups gr1 on act.WSTATUSID = gr1.WGROUPID'#13#10'left joi' +
+        'n groups gr2 on act.WACTIVITYTYPE = gr2.WGROUPID'#13#10'where  act.WLE' +
+        'ADACTIVITIESID = :ID'#13#10
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'ID'
+      NeverVisible = True
+      AllowNulls = False
+      Value = '3421'
+      ParamType = rpParamInteger
+      Datasets.Strings = (
+        'DOCUMENTHEAD')
+      Description = ''
+      Hint = ''
+      Search = ''
+      ErrorMessage = ''
+      Validation = ''
+    end>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'DOCUMENTHEAD'
+    PrintOnlyIfDataAvailable = False
+  end
+  object TRpSection0: TRpSection
+    Width = 3630
+    Height = 1770
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpBarcode0
+      end
+      item
+        Component = TRpLabel0
+      end
+      item
+        Component = TRpExpression0
+      end>
+    AutoExpand = True
+    AutoContract = True
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpBarcode0: TRpBarcode
+    Width = 2985
+    Height = 690
+    PosX = 225
+    PosY = 915
+    Modul = 10
+    Ratio = 2.000000000000000000
+    Typ = bcCode39
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    DisplayFormat = ''
+    Expression = 'DOCUMENTHEAD.WLEADACTIVITIESID'
+  end
+  object TRpLabel0: TRpLabel
+    Width = 1380
+    Height = 345
+    PosX = 225
+    PosY = 120
+    Type1Font = poHelvetica
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Intern nummer'
+  end
+  object TRpExpression0: TRpExpression
+    Width = 3000
+    Height = 345
+    PosX = 225
+    PosY = 465
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'DOCUMENTHEAD.WLEADACTIVITIESID'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

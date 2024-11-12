@@ -1,0 +1,4 @@
+Update SUBSCRIPTION_ACCOUNT set bwarningsend = 1 
+where dNextrun - subscript_warning <= current_date and bwarningsend = 0
+and bEnable = 1
+and WAccountid =:WAccountid

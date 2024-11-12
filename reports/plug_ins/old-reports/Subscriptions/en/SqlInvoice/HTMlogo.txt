@@ -1,0 +1,1 @@
+Select bloblogo as IMG FROM SYSVARS

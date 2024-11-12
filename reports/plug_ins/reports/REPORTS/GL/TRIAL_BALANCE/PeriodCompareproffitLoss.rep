@@ -243,6 +243,8 @@ object _1: TRpReport
       Description = 'Van periode'
       Hint = ''
       Search = ':FROMPERIOD'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'TOPERIOD'
@@ -256,6 +258,8 @@ object _1: TRpReport
       Description = 'Tot periode'
       Hint = ''
       Search = ':TOPERIOD'
+      ErrorMessage = ''
+      Validation = ''
     end
     item
       Name = 'SHOWNILBALANCE'
@@ -265,6 +269,8 @@ object _1: TRpReport
       Description = 'Toon nul balans'
       Hint = ''
       Search = ''
+      ErrorMessage = ''
+      Validation = ''
     end>
   StreamFormat = rpStreamText
   ReportAction = []

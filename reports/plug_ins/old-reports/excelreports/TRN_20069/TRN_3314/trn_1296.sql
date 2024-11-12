@@ -1,0 +1,24 @@
+SELECT  TRANSACT.WTRANSACTIONID TRN_906081,
+TRANSACT.WBatchId TRN_906099,
+TRANSACT.WLINEID TRN_592 ,
+TRANSACT.SREFERENCE TRN_1719,
+TRANSACT.DDATE TRN_238,
+b.SDescription TRN_241,
+MESSAGES.SDESCRIPTION TRN_906039,
+Mainaccount.WACCOUNTID ID,
+trim(cast(
+case Mainaccount.WACCOUNTTYPEID when 0 then
+'G'   when 1 then 'D'   when 2 then 'C'    when 3 then
+'B' else 'T' end  {concat} coalesce(Mainaccount.SMAINACCOUNTCODE,'') {concat}
+  coalesce(Mainaccount.SSUBACCOUNTCODE,'') 
+as varchar(20))) TRN_34,
+Mainaccount.SDESCRIPTION TRN_1213,
+TRANSACT.FAMOUNT TRN_946,
+'=SUM(L<@PREVLINENR@>+K<@LINENR@>)' TRN_0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   join battypes b on transact.WBATCHTYPEID = b.WBATCHTYPEID
+ where 
+<@DDATE@>
+order by ddate

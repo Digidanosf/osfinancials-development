@@ -83,7 +83,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44256
+      Value = 44986
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -150,7 +150,7 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 44620
+      Value = 45351
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -218,7 +218,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP1ID'
       NeverVisible = True
       AllowNulls = False
-      Value = 33
+      Value = 67
       ParamType = rpParamInteger
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP2ID'
       NeverVisible = True
       AllowNulls = False
-      Value = 0
+      Value = 68
       ParamType = rpParamInteger
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -272,7 +272,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP2IDTX'
       NeverVisible = True
       AllowNulls = False
-      Value = 'No group'
+      Value = 'Empty'
       Description = ''
       Hint = ''
       Search = ''
@@ -330,7 +330,7 @@ object _1: TRpReport
     item
       Name = 'FROMACCOUNTACC'
       AllowNulls = False
-      Value = '2ABCOS'
+      Value = '1000000'
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
       Description = ''
@@ -342,7 +342,7 @@ object _1: TRpReport
     item
       Name = 'TOACCOUNTACC'
       AllowNulls = False
-      Value = '2COPEN'
+      Value = '9050000'
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
       Description = ''

@@ -96,7 +96,7 @@ object _1: TRpReport
       Name = 'BATCHTYPEID'
       NeverVisible = True
       AllowNulls = False
-      Value = 7
+      Value = 3
       ParamType = rpParamInteger
       Datasets.Strings = (
         'TRANSACTIES')
@@ -109,7 +109,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROMFL'
       AllowNulls = False
-      Value = 44256
+      Value = 45352
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTIES'
@@ -127,7 +127,7 @@ object _1: TRpReport
     item
       Name = 'DDATETOFL'
       AllowNulls = False
-      Value = 44620
+      Value = 45382
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTIES'

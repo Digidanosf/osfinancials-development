@@ -77,11 +77,11 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 44256
+      Value = 45352
       ParamType = rpParamDate
       Datasets.Strings = (
         'TAXTOTALS')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -92,11 +92,11 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 44316
+      Value = 45716
       ParamType = rpParamDate
       Datasets.Strings = (
         'TAXTOTALS')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''

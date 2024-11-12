@@ -1,0 +1,940 @@
+object TRpReport
+  PageHeight = 8120
+  PageWidth = 5742
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'JOURNAALEN'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select SDEscription Journaalnaam ,  WBatchTypeID Journaalnummer'#13 +
+        #10'from battypes'
+    end
+    item
+      Alias = 'ADMINISTRATIEGEGEVENS'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select '#13#10'SCompanyName Bedrijfsnaam'#13#10',SCompanyRegNo KVKNummer'#13#10',B' +
+        'lobLogo Logo'#13#10',SAddress1 Straat'#13#10',SAddress2 Plaats'#13#10',SAddress3 L' +
+        'and'#13#10',SPostCode Postcode'#13#10',SPhoneNumber Telefoon'#13#10',SFaxNumber Fa' +
+        'x'#13#10',WRetainedIncomeID WinstVorigJaarAccId'#13#10',WDebtorsControlID De' +
+        'biteurenbeheerAccId'#13#10',WCreditorsControlID CrediteurenbeheerAccId' +
+        #13#10',SCreditNoteMessage1 creditnotabericht1'#13#10',SCreditNoteMessage2 ' +
+        'creditnotabericht2'#13#10',SCreditNoteMessage3 creditnotabericht3'#13#10',SP' +
+        'urchasesMessage1 Inkoopbericht1'#13#10',SPurchasesMessage2 Inkoopberic' +
+        'ht2'#13#10',SPurchasesMessage3 Inkoopbericht3'#13#10',SGoodsReturnedMessage1' +
+        ' Retoerzendingbericht1'#13#10',SGoodsReturnedMessage2 Retoerzendingber' +
+        'icht1'#13#10',SGoodsReturnedMessage3 Retoerzendingbericht1'#13#10',SInvoices' +
+        'Message1 Factuurbericht1'#13#10',SInvoicesMessage2 Factuurbericht2'#13#10',S' +
+        'InvoicesMessage3 Factuurbericht3'#13#10',SStatementMessage1 Herinderin' +
+        'genbericht1'#13#10',SStatementMessage2 Herinderingenbericht2'#13#10',SStatem' +
+        'entMessage3 Herinderingenbericht3'#13#10',SInvoiceHeading Factuurkop'#13#10 +
+        ',SCreditNoteHeading Creditnotakop'#13#10',SPurchaseHeading InkopenKop'#13 +
+        #10',SGoodsReturnedHeading RetoerzendingKop'#13#10',SQuoteHeading Offerte' +
+        'Kop'#13#10',SQuoteMessage1 Offertebericht1'#13#10',SQuoteMessage2 Offerteber' +
+        'icht1'#13#10',SQuoteMessage3 Offertebericht1'#13#10',SOrderHeading Bestellin' +
+        'gKop'#13#10',SOrderMessage1 Bestellingbericht1'#13#10',SOrderMessage2 Bestel' +
+        'lingbericht2'#13#10',SOrderMessage3 Bestellingbericht3'#13#10',STaxRegNo BTW' +
+        'Nummer'#13#10',SAccountReportName1 GrootboekRap1naam'#13#10',SAccountReportN' +
+        'ame2 GrootboekRap2naam'#13#10',SDebtorReportName1 DebiteurenRap1naam'#13#10 +
+        ',SDebtorReportName2 DebiteurenRap2naam'#13#10',SCreditorReportName1 Cr' +
+        'editeurenRap1naam'#13#10',SCreditorReportName2 CrediteurenRap2naam'#13#10',S' +
+        'StockReportName1 VoorraadRap1naam'#13#10',SStockReportName2 VoorraadRa' +
+        'p2naam'#13#10',SDocumentReportName1 DocumentenRap1naam'#13#10',SDocumentRepo' +
+        'rtName2 DocumentenRap2naam'#13#10',SSellingPriceName1 Verkoopprijs1'#13#10',' +
+        'SSellingPriceName2 Verkoopprijs2'#13#10',SSellingPriceName3 Verkooppri' +
+        'js3'#13#10#13#10',SEmailAddress EMailadres'#13#10#13#10' from sysvars'
+    end
+    item
+      Alias = 'PERIODES'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select '#13#10#13#10'WPeriodID PeriodeID'#13#10',DStartDate StartDatum'#13#10',DEndDat' +
+        'e TotEnMetDatum'#13#10',SDescription Omschrijving'#13#10#13#10#13#10' from periods'
+    end
+    item
+      Alias = 'TRANSACTIES'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'SELECT  '#13#10'a.WDOCID, '#13#10'a.WTRANSACTIONID, '#13#10'a.WBATCHID, '#13#10'a.WLINEI' +
+        'D, '#13#10'a.SREFERENCE, '#13#10'a.DDATE, '#13#10'a.SDESCRIPTION, '#13#10'a.WACCOUNTID, ' +
+        #13#10'a.SACCOUNT, '#13#10'a.WCONTRAACCOUNTID, '#13#10'a.SCONTRAACCOUNT, '#13#10'a.WTAX' +
+        'ID, '#13#10'a.STAX, '#13#10'a.FAMOUNT, '#13#10'c.SDescription Accountname,'#13#10'cast(c' +
+        'ast(a.FDEBIT *100 as integer) as float) / 100 FDEBIT, '#13#10'cast(cas' +
+        't(a.FCREDIT*100 as integer) as float) / 100 FCREDIT, '#13#10'a.FTAXAMO' +
+        'UNT, '#13#10'a.DALLOCATEDDATE, '#13#10'a.BEXCLUSIVE, '#13#10'a.WLINKEDID, '#13#10'a.WREP' +
+        'ORTINGGROUP1ID, '#13#10'a.WREPORTINGGROUP2ID,'#13#10'b.WPeriodID,'#13#10'c.SDescri' +
+        'ption SAccountName,'#13#10'batcon.SAlias'#13#10' from v_transactasbatchwitht' +
+        'ransid a,Transact b,batcon, Account c where '#13#10'a.wbatchid = batco' +
+        'n.WbatchId and '#13#10'a.WTRANSACTIONID = b.WTRANSACTIONID and'#13#10'c.WAcc' +
+        'ountID = a.WAccountID and'#13#10'b.WbatchTypeId in (@BATCHTYPEID) '#13#10'an' +
+        'd'#13#10'(b.WPeriodID >= :STARTPERIOD and b.WPeriodID <= :ENDPERIOD)'#13#10 +
+        'order by a.ddate,a.WLINKEDID,a.WLINEID'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <
+    item
+      Name = 'BATCHTYPEID'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = '6'
+      ParamType = rpParamSubst
+      Datasets.Strings = (
+        'TRANSACTIES')
+      Items.Strings = (
+        'Beginbalans'
+        'Inkopen'
+        'Verkopen'
+        'Kasboek'
+        'Bankboek 1 Onv.'
+        'Memoriaal'
+        'Rabobank'
+        'Kostprijs omzet')
+      Values.Strings = (
+        '1'
+        '2'
+        '3'
+        '4'
+        '5'
+        '7'
+        '9'
+        '12')
+      Selected.Strings = (
+        '0'
+        '1'
+        '2'
+        '7'
+        '8')
+      LookupDataset = 'JOURNAALEN'
+      Description = 'Batches'
+      Hint = ''
+      Search = '@BATCHTYPEID'
+    end
+    item
+      Name = 'STARTPERIOD'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = '25'
+      ParamType = rpParamInteger
+      Datasets.Strings = (
+        'TRANSACTIES')
+      Description = 'Startperiod'
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'ENDPERIOD'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = '25'
+      ParamType = rpParamInteger
+      Datasets.Strings = (
+        'TRANSACTIES')
+      Description = 'End period'
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'SHOWBALANCE'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = '-1'
+      ParamType = rpParamInteger
+      Description = 'Show balance'
+      Hint = ''
+      Search = ''
+    end
+    item
+      Name = 'SHOWCONTRA'
+      Visible = False
+      NeverVisible = True
+      AllowNulls = False
+      Value = '0'
+      ParamType = rpParamInteger
+      Description = ''
+      Hint = ''
+      Search = ''
+    end>
+  Language = 12
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection1
+      end
+      item
+        Section = TRpSection3
+      end
+      item
+        Section = TRpSection0
+      end
+      item
+        Section = TRpSection4
+      end
+      item
+        Section = TRpSection2
+      end>
+    Alias = 'TRANSACTIES'
+    PrintOnlyIfDataAvailable = False
+  end
+  object TRpSection0: TRpSection
+    Width = 10772
+    Height = 240
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression4
+      end
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression5
+      end
+      item
+        Component = TRpExpression2
+      end
+      item
+        Component = TRpExpression3
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = 
+      '(str(M.SHOWBALANCE) <> '#39'0'#39') or (str(TRANSACTIES.WLINEID) = str(T' +
+      'RANSACTIES.WLINKEDID)) or (str(TRANSACTIES.WLINKEDID) = '#39#39')'
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection1: TRpSection
+    Width = 10772
+    Height = 825
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpheader
+    Components = <
+      item
+        Component = TRpExpression8
+      end
+      item
+        Component = TRpExpression9
+      end
+      item
+        Component = TRpExpression10
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection2: TRpSection
+    Width = 10772
+    Height = 660
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpfooter
+    Components = <
+      item
+        Component = TRpExpression18
+      end
+      item
+        Component = TRpExpression7
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    Global = True
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection3: TRpSection
+    Width = 10772
+    Height = 1020
+    SubReport = TRpSubReport0
+    GroupName = 'MAINGROUP'
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgheader
+    Components = <
+      item
+        Component = TRpExpression28
+      end
+      item
+        Component = TRpExpression31
+      end
+      item
+        Component = TRpExpression32
+      end
+      item
+        Component = TRpExpression35
+      end
+      item
+        Component = TRpExpression36
+      end
+      item
+        Component = TRpExpression37
+      end
+      item
+        Component = TRpExpression38
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = 'FORMATSTR('#39'DD-MM-YYYY'#39',TRANSACTIES.DDATE)'
+    BeginPageExpression = ''
+    ChangeExpression = 'FORMATSTR('#39'DD-MM-YYYY'#39',TRANSACTIES.DDATE)'
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection4: TRpSection
+    Width = 10772
+    Height = 405
+    SubReport = TRpSubReport0
+    GroupName = 'MAINGROUP'
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecgfooter
+    Components = <
+      item
+        Component = TRpExpression33
+      end
+      item
+        Component = TRpExpression34
+      end
+      item
+        Component = TRpShape4
+      end
+      item
+        Component = TRpExpression39
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = 'FORMATSTR('#39'DD-MM-YYYY'#39',TRANSACTIES.DDATE)'
+    BeginPageExpression = ''
+    ChangeExpression = 'FORMATSTR('#39'DD-MM-YYYY'#39',TRANSACTIES.DDATE)'
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression18: TRpExpression
+    Width = 1830
+    Height = 345
+    PosX = 8745
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1024,'#39'Page'#39',0,0,0)+'#39'  '#39'  +Str(M.PAGENUM)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression1: TRpExpression
+    Width = 2295
+    Height = 225
+    PosX = 5745
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    CutText = True
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.SACCOUNT +'#39'  '#39' + TRANSACTIES.SACCOUNTNAME'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression4: TRpExpression
+    Width = 915
+    Height = 225
+    PosX = 1155
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.SREFERENCE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression0: TRpExpression
+    Width = 3450
+    Height = 225
+    PosX = 2295
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    CutText = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.SDESCRIPTION'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression2: TRpExpression
+    Width = 810
+    Height = 225
+    PosX = 0
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    DataType = rpParamDate
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.DDATE'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression5: TRpExpression
+    Width = 1050
+    Height = 225
+    PosX = 8625
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    Alignment = 2
+    DisplayFormat = '0.00'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = 'TRANSACTIES.FDEBIT>0'
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.FDEBIT'
+    DisplayFormat = '0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression3: TRpExpression
+    Width = 975
+    Height = 225
+    PosX = 9780
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 8
+    Alignment = 2
+    DisplayFormat = '0.00'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = 'TRANSACTIES.FCREDIT >0'
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'TRANSACTIES.FCREDIT'
+    DisplayFormat = '0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression33: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 8625
+    PosY = 120
+    Type1Font = poHelvetica
+    FontSize = 8
+    Alignment = 2
+    DisplayFormat = '0.00'
+    Aggregate = rpAgGroup
+    GroupName = 'MAINGROUP'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF((str(M.SHOWBALANCE) <> '#39'0'#39') or (str(TRANSACTIES.WLINEID) = s' +
+      'tr(TRANSACTIES.WLINKEDID)) or (str(TRANSACTIES.WLINKEDID) = '#39#39'),' +
+      'TRANSACTIES.FDEBIT,0)'
+    DisplayFormat = '0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression34: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 9780
+    PosY = 120
+    Type1Font = poHelvetica
+    FontSize = 8
+    Alignment = 2
+    DisplayFormat = '0.00'
+    Aggregate = rpAgGroup
+    GroupName = 'MAINGROUP'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'IIF((str(M.SHOWBALANCE) <> '#39'0'#39') or (str(TRANSACTIES.WLINEID) = s' +
+      'tr(TRANSACTIES.WLINKEDID)) or (str(TRANSACTIES.WLINKEDID) = '#39#39'),' +
+      'TRANSACTIES.FCREDIT,0)'
+    DisplayFormat = '0.00'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpShape4: TRpShape
+    Width = 4260
+    Height = 75
+    PosX = 6555
+    PosY = 0
+    Shape = rpsHorzLine
+    PenWidth = 0
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+  end
+  object TRpExpression28: TRpExpression
+    Width = 2640
+    Height = 345
+    PosX = 0
+    PosY = 0
+    Type1Font = poHelvetica
+    FontStyle = 1
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'CUSTOM('#39'GETTEXTLANG'#39',600,'#39'Period'#39',0,0,0) +'#39': '#39' + FORMATSTR('#39'DD-M' +
+      'M-YYYY'#39',TRANSACTIES.DDATE)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression31: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 0
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',238,'#39'Date'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression32: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 1155
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',607,'#39'Reference'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression35: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 2295
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',178,'#39'Description'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression36: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 5745
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',34,'#39'Account'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression37: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 8625
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    Alignment = 2
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',211,'#39'Description'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression38: TRpExpression
+    Width = 1035
+    Height = 240
+    PosX = 9780
+    PosY = 570
+    Type1Font = poHelvetica
+    FontStyle = 1
+    Alignment = 2
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',212,'#39'Credit'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression39: TRpExpression
+    Width = 1260
+    Height = 225
+    PosX = 7245
+    PosY = 120
+    Type1Font = poHelvetica
+    FontSize = 8
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',2228,'#39'Totals'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression8: TRpExpression
+    Width = 1920
+    Height = 405
+    PosX = 0
+    PosY = 345
+    Type1Font = poHelvetica
+    FontSize = 8
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'CUSTOM('#39'GETTEXTLANG'#39',600,'#39'Period'#39',0,0,0)+'#39': '#39' +#13+#10+'#13#10'CUSTOM(' +
+      #39'GETTEXTLANG'#39',2126,'#39'ShowContra'#39',0,0,0)+'#39': '#39
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression9: TRpExpression
+    Width = 2205
+    Height = 405
+    PosX = 2070
+    PosY = 345
+    Type1Font = poHelvetica
+    FontSize = 8
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'CUSTOM('#39'RETURNSQL'#39' , '#39'Select SDescription From Periods where Wye' +
+      'arid in (1,2) and WPeriodID = '#39' + str(M.STARTPERIOD),0,0,0,0) + ' +
+      #39' '#39' +CUSTOM('#39'RETURNSQL'#39' , '#39'Select  substring(Cast(DSTARTDate as ' +
+      'char(35)) from 1 for 4) From Periods where Wyearid in (1,2) and ' +
+      'WPeriodID = '#39' + str(M.STARTPERIOD),0,0,0,0)'#13#10'+'#39' '#39'+ CUSTOM('#39'GETTE' +
+      'XTLANG'#39',1022,'#39'from'#39',0,0,0) +'#39': '#39'+    CUSTOM('#39'RETURNSQL'#39' , '#39'Selec' +
+      't SDescription From Periods where Wyearid in (1,2) and WPeriodID' +
+      ' = '#39' +  str(M.ENDPERIOD),0,0,0,0) + '#39' '#39' +     CUSTOM('#39'RETURNSQL'#39 +
+      ' , '#39'Select substring(Cast(DSTARTDate as char(35)) from 1 for 4) ' +
+      'From Periods where Wyearid in (1,2) and WPeriodID = '#39' +  str(M.E' +
+      'NDPERIOD),0,0,0,0)+#13+#10+'#13#10'IIF(M.SHOWBALANCE <> 0,CUSTOM('#39'GETT' +
+      'EXTLANG'#39',2,'#39'Yes'#39',0,0,0),CUSTOM('#39'GETTEXTLANG'#39',1,'#39'No'#39',0,0,0))'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression10: TRpExpression
+    Width = 6390
+    Height = 285
+    PosX = 0
+    PosY = 0
+    Type1Font = poHelvetica
+    FontSize = 11
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'ADMINISTRATIEGEGEVENS.Bedrijfsnaam'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression7: TRpExpression
+    Width = 4260
+    Height = 450
+    PosX = 3105
+    PosY = 0
+    Type1Font = poHelvetica
+    FontStyle = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = 'EOF('#39'TRANSACTIES'#39')'
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',906023,'#39'EndofReport'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

@@ -1,0 +1,3 @@
+Select   'https://securepostplaza.tntpost.nl/TPGApps/tracktrace/findByBarcodeServlet?BARCODE='|| SSHIPMENT_IDENTCODE ||  '&ZIPCODE=' || parcel.SPOSTALCODE FROM PARCEL_XDBSEND,  PARCEL 
+where SDOCNO = :SDOCNO
+and PARCEL.WDocid = :WDOCID

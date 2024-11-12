@@ -273,7 +273,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFROM'
       AllowNulls = False
-      Value = '2021/03/01'
+      Value = '2024/03/01'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'DATES'
@@ -287,7 +287,7 @@ object _1: TRpReport
     item
       Name = 'DDATETO'
       AllowNulls = False
-      Value = '2022/02/28'
+      Value = '2025/02/28'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'DATES'
@@ -312,7 +312,7 @@ object _1: TRpReport
     item
       Name = 'DEBCONTROLID'
       AllowNulls = False
-      Value = '3'
+      Value = '4'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'THISYEARDEB'
@@ -329,7 +329,7 @@ object _1: TRpReport
     item
       Name = 'CREDCONTROLID'
       AllowNulls = False
-      Value = '2'
+      Value = '3'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'THISYEARDEB'
@@ -346,7 +346,7 @@ object _1: TRpReport
     item
       Name = 'RETAINEDINCOME'
       AllowNulls = False
-      Value = '4'
+      Value = '5'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'THISYEARCRED'
@@ -362,7 +362,7 @@ object _1: TRpReport
     item
       Name = 'FROMACCOUNTACC'
       AllowNulls = False
-      Value = '010000'
+      Value = '760000'
       Datasets.Strings = (
         'ACCOUNTS')
       Description = ''
@@ -374,7 +374,7 @@ object _1: TRpReport
     item
       Name = 'TOACCOUNTACC'
       AllowNulls = False
-      Value = '999000'
+      Value = '760000'
       Datasets.Strings = (
         'ACCOUNTS')
       Description = ''

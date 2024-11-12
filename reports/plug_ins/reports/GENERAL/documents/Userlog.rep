@@ -60,7 +60,7 @@ object _1: TRpReport
     item
       Name = 'FROMDATE'
       AllowNulls = False
-      Value = -141752.655416667d
+      Value = -413967.655416667d
       ParamType = rpParamDateTime
       Datasets.Strings = (
         'USERLOG')

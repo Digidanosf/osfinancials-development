@@ -98,7 +98,7 @@ object _1: TRpReport
       Name = 'PAYMETHODE'
       NeverVisible = True
       AllowNulls = False
-      Value = 'Contant'
+      Value = 'Kontant'
       Description = ''
       Hint = ''
       Search = ''
@@ -109,7 +109,7 @@ object _1: TRpReport
       Name = 'TRANSDESC'
       NeverVisible = True
       AllowNulls = False
-      Value = 'Betaling - FB000014'
+      Value = 'Betaling '
       Description = ''
       Hint = ''
       Search = ''
@@ -120,7 +120,7 @@ object _1: TRpReport
       Name = 'REFERENCE'
       NeverVisible = True
       AllowNulls = False
-      Value = 'FB000014'
+      Value = ''
       Description = ''
       Hint = ''
       Search = ''
@@ -131,7 +131,7 @@ object _1: TRpReport
       Name = 'AMOUNT'
       NeverVisible = True
       AllowNulls = False
-      Value = '85.87'
+      Value = '100'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'VALUESQL')

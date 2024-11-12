@@ -117,7 +117,7 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODEFROMCODE'
       AllowNulls = False
-      Value = '3DRILL'
+      Value = '3COMP'
       Datasets.Strings = (
         'STOCK')
       SearchDataset = 'STOCK'
@@ -147,7 +147,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = 0
       ParamType = rpParamInteger
-      Description = 'New page per item'
+      Description = 'Nuwe bladsy per item'
       Hint = ''
       Search = ''
       ErrorMessage = ''

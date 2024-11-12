@@ -64,7 +64,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 51
+      Value = 257
       ParamType = rpParamInteger
       Datasets.Strings = (
         'LABEL'

@@ -1,4 +1,6 @@
 object _1: TRpReport
+  PageOrientation = rpOrientationPortrait
+  Pagesize = rpPageSizeCustom
   PageHeight = 8120
   PageWidth = 5742
   PageBackColor = 16777215
@@ -296,7 +298,7 @@ object _1: TRpReport
       Name = 'SHOWOPENINGBALTX'
       NeverVisible = True
       AllowNulls = False
-      Value = 'True'
+      Value = 'False'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'TRANSACTION_DETAIL'
@@ -310,7 +312,7 @@ object _1: TRpReport
     item
       Name = 'SHOWOPENINGBAL'
       NeverVisible = True
-      Value = '1'
+      Value = '0'
       Description = 'Include opening balances'
       Hint = ''
       Search = ''

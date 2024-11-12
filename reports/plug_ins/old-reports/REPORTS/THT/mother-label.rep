@@ -1,0 +1,126 @@
+object _1: TRpReport
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'BBF'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select BBF.* ,'#13#10's.Sstockcode,'#13#10's.sdescription,'#13#10'U.SUSERNAME'#13#10#13#10'f' +
+        'rom STOCK_BEST_BEFORE BBF'#13#10'join stock s on s.wstockid  = BBF.Wst' +
+        'ockid'#13#10'join USERS U on U.wUSERID  = BBF.WUSERID'#13#10#13#10' where BBF.WS' +
+        'BBID = 14'
+    end
+    item
+      Alias = 'BBF_SUB'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'select  * from STOCK_BEST_BEFORE_SUB  BBF where BBF.WSBBID = :WS' +
+        'BBID '#13#10'order by   bestbefore_date desc'
+      DataSource = 'BBF'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'BBF'
+    PrintOnlyIfDataAvailable = False
+  end
+  object TRpSection0: TRpSection
+    Width = 3105
+    Height = 1560
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpImage0
+      end
+      item
+        Component = TRpExpression0
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpImage0: TRpImage
+    Width = 1260
+    Height = 930
+    PosX = 120
+    PosY = 120
+    DrawStyle = rpDrawFull
+    dpires = 200
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    Expression = 
+      'CUSTOM('#39'BARCODE'#39', '#39'QRCODE'#39',BBF.SREFERENCE + #13+#10+  FormatStr(' +
+      #39'YYYY/MMM/DD'#39',BBF_SUB.BESTBEFORE_DATE)'#13#10'+ #13+#10+BBF.SSTOCKCODE' +
+      '+ #13+#10+BBF.SUSERNAME  ,'#39#39' ,'#39#39','#39#39');'
+    Stream = {0000000000000000}
+  end
+  object TRpExpression0: TRpExpression
+    Width = 1260
+    Height = 450
+    PosX = 1500
+    PosY = 120
+    Type1Font = poHelvetica
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      #39'Batch :'#39' +BBF.SREFERENCE + #13+#10+ '#13#10#39'THT :'#39' + FormatStr('#39'YYYY' +
+      '/MMM/DD'#39',BBF_SUB.BESTBEFORE_DATE)+ #13+#10+'#13#10#39'Code :'#39'+BBF.SSTOCK' +
+      'CODE+ #13+#10+'#13#10#39'Packager: '#39'+BBF.SUSERNAME'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

@@ -52,7 +52,7 @@ object _1: TRpReport
       Name = 'DATEFL'
       NeverVisible = True
       AllowNulls = False
-      Value = 43880d
+      Value = 45566
       ParamType = rpParamDate
       SearchDataset = 'TRANSACTIES'
       Description = ''
@@ -65,7 +65,7 @@ object _1: TRpReport
       Name = 'ACCOUNTID'
       NeverVisible = True
       AllowNulls = False
-      Value = 27
+      Value = 258
       ParamType = rpParamInteger
       Datasets.Strings = (
         'ACCOUNTINFO')
@@ -79,7 +79,7 @@ object _1: TRpReport
       Name = 'LINENR'
       NeverVisible = True
       AllowNulls = False
-      Value = '00000001'
+      Value = 'RC000001'
       Description = ''
       Hint = ''
       Search = ''
@@ -90,7 +90,7 @@ object _1: TRpReport
       Name = 'DESCRIPTION'
       NeverVisible = True
       AllowNulls = False
-      Value = 'gdfgd'
+      Value = 'Receipt test'
       Description = ''
       Hint = ''
       Search = ''
@@ -101,7 +101,7 @@ object _1: TRpReport
       Name = 'AMOUNTFL'
       NeverVisible = True
       AllowNulls = False
-      Value = '44'
+      Value = '1000'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'SELVALUE')
@@ -115,7 +115,7 @@ object _1: TRpReport
       Name = 'PAYMETHODE'
       NeverVisible = True
       AllowNulls = False
-      Value = 'Cash'
+      Value = 'Credit Card'
       Description = ''
       Hint = ''
       Search = ''

@@ -1,0 +1,12 @@
+Select  SCompanyName   from sysvars
+union all
+Select  sysvars.SADDRESS1   from sysvars
+union all
+Select  sysvars.SPOSTCODE   from sysvars
+union all
+Select   sysvars.SADDRESS2   from sysvars
+union all
+Select ' Tel.' || sysvars.SPHONENUMBER  from sysvars
+union all
+Select 'email '|| trim(sysvars.SEMAILADDRESS) from sysvars
+

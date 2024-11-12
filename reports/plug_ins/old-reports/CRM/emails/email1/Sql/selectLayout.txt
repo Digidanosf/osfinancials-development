@@ -1,0 +1,5 @@
+select '\DOCUMENTS\DOCUMENTS\' ||soptionValue , 2 a from opreport where stroption = 'SDocLayoutNameInv'
+union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTINVOICE , 1 from debtor where waccountid = :WACCOUNTID and SLAYOUTINVOICE <> '' 
+union select '\DOCUMENTS\DOCUMENTS\'  || SLAYOUTINVOICE , 1 from leads where wleadid = :WLEADID and SLAYOUTINVOICE <> '' 
+order by 2
+ 

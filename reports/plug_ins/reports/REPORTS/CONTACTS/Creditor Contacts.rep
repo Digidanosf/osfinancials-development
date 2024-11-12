@@ -1,4 +1,4 @@
-object TRpReport
+object _1: TRpReport
   PageHeight = 8120
   PageWidth = 5742
   PageBackColor = 16777215

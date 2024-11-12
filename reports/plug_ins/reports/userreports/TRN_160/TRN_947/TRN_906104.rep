@@ -164,7 +164,7 @@ object _1: TRpReport
       Datasets.Strings = (
         'OPENITEM'
         'TRANSACTION_DETAIL')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -173,9 +173,9 @@ object _1: TRpReport
     item
       Name = 'BDETAILS'
       AllowNulls = False
-      Value = '1'
+      Value = '0'
       ParamType = rpParamBool
-      Description = 'Show contact details'
+      Description = 'Vertoon kontakbesonderhede'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -190,7 +190,7 @@ object _1: TRpReport
         'TRANSACTION_DETAIL'
         'OPENITEM'
         'ACCLIST')
-      Description = 'Date'
+      Description = 'Datum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -216,7 +216,7 @@ object _1: TRpReport
       NeverVisible = True
       AllowNulls = False
       Value = '44'
-      Description = 'Sequence'
+      Description = 'Volgorde'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -226,7 +226,7 @@ object _1: TRpReport
       Name = 'SEQTX'
       NeverVisible = True
       AllowNulls = False
-      Value = 'Debtor code'
+      Value = 'Debiteurkode'
       Description = ''
       Hint = ''
       Search = ''
@@ -252,7 +252,7 @@ object _1: TRpReport
       AllowNulls = False
       Value = 0
       ParamType = rpParamInteger
-      Description = 'New page per account'
+      Description = 'Nuwe bladsy per rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -266,7 +266,7 @@ object _1: TRpReport
       ParamType = rpParamInteger
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
-      Description = 'Cost centre 1'
+      Description = 'Kostesentrum 1'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -276,7 +276,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP1IDTX'
       NeverVisible = True
       AllowNulls = False
-      Value = 'No group'
+      Value = 'Empty'
       Description = ''
       Hint = ''
       Search = ''
@@ -291,7 +291,7 @@ object _1: TRpReport
       ParamType = rpParamInteger
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
-      Description = 'Cost centre 2'
+      Description = 'Kostesentrum 2'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -301,7 +301,7 @@ object _1: TRpReport
       Name = 'WREPORTINGGROUP2IDTX'
       NeverVisible = True
       AllowNulls = False
-      Value = 'No group'
+      Value = 'Empty'
       Description = ''
       Hint = ''
       Search = ''
@@ -311,8 +311,8 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODE'
       NeverVisible = True
-      Value = '161'
-      Description = 'From account'
+      Value = '54'
+      Description = 'Vanaf rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -321,7 +321,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETX'
       AllowNulls = False
-      Value = 'D1000001'
+      Value = 'D1ABGRE'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'ACCLIST')
@@ -335,8 +335,8 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETO'
       NeverVisible = True
-      Value = '259'
-      Description = 'To'
+      Value = '28'
+      Description = 'Einddatum'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -345,7 +345,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETOTX'
       AllowNulls = False
-      Value = 'D1ROGERS'
+      Value = 'D1ROGSM'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'ACCLIST')

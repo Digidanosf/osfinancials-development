@@ -92,7 +92,7 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODEFROMCODE'
       AllowNulls = False
-      Value = '3COMP'
+      Value = '3-BOOR'
       Datasets.Strings = (
         'STOCK')
       Description = 'Vanaf code'
@@ -104,7 +104,7 @@ object _1: TRpReport
     item
       Name = 'SSTOCKCODETOCODE'
       AllowNulls = False
-      Value = 'SALES-NS'
+      Value = 'V-VER-GE'
       Datasets.Strings = (
         'STOCK')
       Description = 'Tot en met code'
@@ -116,9 +116,9 @@ object _1: TRpReport
     item
       Name = 'BDETAILS'
       AllowNulls = False
-      Value = '1'
+      Value = '0'
       ParamType = rpParamBool
-      Description = 'Show details'
+      Description = 'Wys detail'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -128,11 +128,11 @@ object _1: TRpReport
       Name = 'STOCK.WREPORTINGGROUP1ID'
       NeverVisible = True
       AllowNulls = False
-      Value = ''
+      Value = ' and STOCK.WREPORTINGGROUP1ID in(30)'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'STOCK')
-      Description = 'Reporting group 1'
+      Description = 'Verslaggroep 1'
       Hint = ''
       Search = '@REPOGROUP1@'
       ErrorMessage = ''
@@ -142,7 +142,7 @@ object _1: TRpReport
       Name = 'SEQ'
       NeverVisible = True
       Value = '2'
-      Description = 'Sequence'
+      Description = 'Volgorde'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -151,7 +151,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX'
       NeverVisible = True
-      Value = 'Stock code'
+      Value = 'Voorraadkode'
       Description = ''
       Hint = ''
       Search = ''
@@ -176,7 +176,7 @@ object _1: TRpReport
       NeverVisible = True
       Value = 0
       ParamType = rpParamInteger
-      Description = 'New page per item'
+      Description = 'Nuwe bladsy per item'
       Hint = ''
       Search = ''
       ErrorMessage = ''
