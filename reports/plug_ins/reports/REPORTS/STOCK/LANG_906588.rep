@@ -682,7 +682,7 @@ object _1: TRpReport
     PosY = 225
     Type1Font = poHelvetica
     Alignment = 2
-    DisplayFormat = '0.00'
+    DisplayFormat = '##,###,###,##0.00'
     Aggregate = rpAgGroup
     GroupName = 'GROEP'
     AutoExpand = False
@@ -696,7 +696,7 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'STOCK.AANTALAANW * STOCK.GEMKOSTEN_1'
-    DisplayFormat = '0.00'
+    DisplayFormat = '##,###,###,##0.00'
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
@@ -709,7 +709,7 @@ object _1: TRpReport
     Type1Font = poHelvetica
     FontStyle = 1
     Alignment = 2
-    DisplayFormat = '0.00'
+    DisplayFormat = '##,###,###,##0.00'
     Aggregate = rpAgGroup
     GroupName = 'GRANDTOTAL'
     AutoExpand = False
@@ -723,7 +723,7 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'STOCK.AANTALAANW * STOCK.GEMKOSTEN_1'
-    DisplayFormat = '0.00'
+    DisplayFormat = '##,###,###,##0.00'
     ExportDisplayFormat = ''
     AgIniValue = '0'
     ExportExpression = ''
