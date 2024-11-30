@@ -1334,7 +1334,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 337
-      Text = 'Verskafferreoereboodskap'
+      Text = 'Verskafferretoereboodskap'
     end
     item
       IndexID = 338
