@@ -72,41 +72,42 @@ object _1: TRpReport
       Alias = 'TRANSACTDETAIL'
       DatabaseAlias = 'SETOFBOOKS'
       SQL = 
-        'SELECT '#13#10'cast(transact.FAmount as decimal(12,2)) p1,'#13#10'transact.*' +
-        ',Account.*,messages.SDescription'#13#10'FROM transact'#13#10'   LEFT OUTER J' +
-        'OIN account'#13#10'   ON  (transact.WAccountID = account.WAccountID) '#13 +
-        #10'join Messages on (transact.WDescriptionid = messages.WMessageID' +
-        ')'#13#10'WHERE WAccountTypeId  = :ACCID '#13#10'and account.WAccountId =:WAc' +
-        'countid'#13#10'and (transact.DDate <=  :DDATEFL )'#13#10'and (transact.DDate' +
-        ' <=  :DDATEFL )'#13#10'and (transact.DDate >= '#13#10' dateadd(day,-(periode' +
-        '1+periode2),:DDATEFL))'#13#10'union all'#13#10'SELECT '#13#10'sum(transact.FAmount' +
-        ' ) p1,'#13#10'max(transact.WTRANSACTIONID),max( transact.WBATCHID),max' +
-        '( transact.WBATCHTYPEID),max( transact.WLINEID), max(transact.BC' +
-        'ARRIEDFORWARD), '#13#10'max(transact.BLASTYEAR),max( transact.BLINKSUS' +
-        'ED), max(transact.BMULTIPLEITEMS),'#13#10'max( transact.WACCOUNTID),ma' +
-        'x( transact.DDATE), '#13#10'max(transact.WPERIODID),max( transact.WYEA' +
-        'RID), '#39'Opening'#39', max(transact.FTAXRATE),max( transact.WTAXACCOUN' +
-        'TID), '#13#10'sum(transact.FAMOUNT), sum(transact.FTAXAMOUNT),sum( tra' +
-        'nsact.FOUTSTANDINGAMOUNT), max(transact.BRECONCILED), '#13#10'0, 0, 0,' +
-        ' '#13#10'0,max( transact.WUSERID),0,max( transact.DSYSDATE), '#13#10'0,0,0,0' +
-        ', '#13#10'0,0, 0,0, '#13#10'0, 0, 0, 0, '#13#10'max(transact.DPAYMENTDATE),0,0,'#13#10'A' +
-        'ccount.WACCOUNTID, Account.SACCOUNTCODE, Account.SMAINACCOUNTCOD' +
-        'E, '#13#10'Account.SSUBACCOUNTCODE, Account.SDESCRIPTION, Account.WACC' +
-        'OUNTTYPEID, '#13#10'Account.WREPORTINGGROUP1ID, Account.WREPORTINGGROU' +
-        'P2ID, '#13#10'Account.BSUBACCOUNTS, Account.BINCOMEEXPENSE, Account.BO' +
-        'PENITEM, '#13#10'Account.BINACTIVE, Account.DSYSDATE, Account.WPROFILE' +
-        'ID, '#13#10'Account.WLINKACCOUNT, Account.WTAXACCOUNT, Account.WCURREN' +
-        'CYID,'#39'Opening'#39' FROM transact'#13#10'   LEFT  JOIN account'#13#10'   ON  (tra' +
-        'nsact.WAccountID = account.WAccountID) '#13#10' '#13#10'WHERE WAccountTypeId' +
-        '  = :ACCID'#13#10'and account.WAccountId =:WAccountid'#13#10'and (transact.D' +
-        'Date < '#13#10' dateadd(day,-(periode1+periode2),:DDATEFL))'#13#10#13#10' '#13#10'grou' +
-        'p by Account.WACCOUNTID, Account.SACCOUNTCODE, Account.SMAINACCO' +
-        'UNTCODE, '#13#10'Account.SSUBACCOUNTCODE, Account.SDESCRIPTION, Accoun' +
-        't.WACCOUNTTYPEID, '#13#10'Account.WREPORTINGGROUP1ID, Account.WREPORTI' +
-        'NGGROUP2ID, '#13#10'Account.BSUBACCOUNTS, Account.BINCOMEEXPENSE, Acco' +
-        'unt.BOPENITEM, '#13#10'Account.BINACTIVE, Account.DSYSDATE, Account.WP' +
-        'ROFILEID, '#13#10'Account.WLINKACCOUNT, Account.WTAXACCOUNT, Account.W' +
-        'CURRENCYID '#13#10#13#10'order by 11'
+        'SELECT  '#13#10'cast(transact.FAmount as decimal(12,2)) p1,'#13#10'transact.' +
+        '*,Account.*, '#13#10'cast(messages.SDescription as varchar(255))  as S' +
+        'DESCRIPTION_1'#13#10'FROM transact'#13#10'   LEFT OUTER JOIN account'#13#10'   ON ' +
+        ' (transact.WAccountID = account.WAccountID) '#13#10'join Messages on (' +
+        'transact.WDescriptionid = messages.WMessageID)'#13#10'WHERE WAccountTy' +
+        'peId  = :ACCID '#13#10'and account.WAccountId =:WAccountid'#13#10'and (trans' +
+        'act.DDate <=  :DDATEFL )'#13#10'and (transact.DDate <=  :DDATEFL )'#13#10'an' +
+        'd (transact.DDate >= '#13#10' dateadd(day,-(periode1+periode2),:DDATEF' +
+        'L))'#13#10'union all'#13#10'SELECT '#13#10'sum(transact.FAmount ) p1,'#13#10'max(transac' +
+        't.WTRANSACTIONID),max( transact.WBATCHID),max( transact.WBATCHTY' +
+        'PEID),max( transact.WLINEID), max(transact.BCARRIEDFORWARD), '#13#10'm' +
+        'ax(transact.BLASTYEAR),max( transact.BLINKSUSED), max(transact.B' +
+        'MULTIPLEITEMS),'#13#10'max( transact.WACCOUNTID),max( transact.DDATE),' +
+        ' '#13#10'max(transact.WPERIODID),max( transact.WYEARID), '#39'Opening'#39', ma' +
+        'x(transact.FTAXRATE),max( transact.WTAXACCOUNTID), '#13#10'sum(transac' +
+        't.FAMOUNT), sum(transact.FTAXAMOUNT),sum( transact.FOUTSTANDINGA' +
+        'MOUNT), max(transact.BRECONCILED), '#13#10'0, 0, 0, '#13#10'0,max( transact.' +
+        'WUSERID),0,max( transact.DSYSDATE), '#13#10'0,0,0,0, '#13#10'0,0, 0,0, '#13#10'0, ' +
+        '0, 0, 0, '#13#10'max(transact.DPAYMENTDATE),0,0,'#13#10'Account.WACCOUNTID, ' +
+        'Account.SACCOUNTCODE, Account.SMAINACCOUNTCODE, '#13#10'Account.SSUBAC' +
+        'COUNTCODE, Account.SDESCRIPTION, Account.WACCOUNTTYPEID, '#13#10'Accou' +
+        'nt.WREPORTINGGROUP1ID, Account.WREPORTINGGROUP2ID, '#13#10'Account.BSU' +
+        'BACCOUNTS, Account.BINCOMEEXPENSE, Account.BOPENITEM, '#13#10'Account.' +
+        'BINACTIVE, Account.DSYSDATE, Account.WPROFILEID, '#13#10'Account.WLINK' +
+        'ACCOUNT, Account.WTAXACCOUNT, Account.WCURRENCYID,'#39'Opening'#39' FROM' +
+        ' transact'#13#10'   LEFT  JOIN account'#13#10'   ON  (transact.WAccountID = ' +
+        'account.WAccountID) '#13#10' '#13#10'WHERE WAccountTypeId  = :ACCID'#13#10'and acc' +
+        'ount.WAccountId =:WAccountid'#13#10'and (transact.DDate < '#13#10' dateadd(d' +
+        'ay,-(periode1+periode2),:DDATEFL))'#13#10#13#10' '#13#10'group by Account.WACCOU' +
+        'NTID, Account.SACCOUNTCODE, Account.SMAINACCOUNTCODE, '#13#10'Account.' +
+        'SSUBACCOUNTCODE, Account.SDESCRIPTION, Account.WACCOUNTTYPEID, '#13 +
+        #10'Account.WREPORTINGGROUP1ID, Account.WREPORTINGGROUP2ID, '#13#10'Accou' +
+        'nt.BSUBACCOUNTS, Account.BINCOMEEXPENSE, Account.BOPENITEM, '#13#10'Ac' +
+        'count.BINACTIVE, Account.DSYSDATE, Account.WPROFILEID, '#13#10'Account' +
+        '.WLINKACCOUNT, Account.WTAXACCOUNT, Account.WCURRENCYID '#13#10#13#10'orde' +
+        'r by 11'
       DataSource = 'TRANSACTION_DETAIL'
     end
     item
@@ -164,7 +165,7 @@ object _1: TRpReport
     item
       Name = 'DDATEFL'
       AllowNulls = False
-      Value = 44316
+      Value = 45412
       ParamType = rpParamDate
       Datasets.Strings = (
         'TRANSACTION_DETAIL'
@@ -172,7 +173,7 @@ object _1: TRpReport
         'TRANSACTIONSPERIODE2'
         'TRANSACTIONSPERIODE3'
         'TRANSACTDETAIL')
-      Description = 'Date of ageing'
+      Description = 'Datum van ontleding'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -189,7 +190,7 @@ object _1: TRpReport
         'TRANSACTIONSPERIODE3'
         'TRANSACTION_DETAIL'
         'TRANSACTDETAIL')
-      Description = ' Days overdue'
+      Description = 'Dae laat'
       Hint = ''
       Search = 'periode1'
       ErrorMessage = ''
@@ -205,7 +206,7 @@ object _1: TRpReport
         'TRANSACTIONSPERIODE3'
         'TRANSACTION_DETAIL'
         'TRANSACTDETAIL')
-      Description = 'Number of days overdue'
+      Description = 'Aantal dae agterstallig'
       Hint = ''
       Search = 'periode2'
       ErrorMessage = ''
@@ -243,8 +244,8 @@ object _1: TRpReport
     item
       Name = 'SEQ'
       NeverVisible = True
-      Value = '3'
-      Description = 'Sequence'
+      Value = '2'
+      Description = 'Volgorde'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -253,7 +254,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX'
       NeverVisible = True
-      Value = 'Creditor code'
+      Value = 'Beskrywing'
       Description = ''
       Hint = ''
       Search = ''
@@ -263,7 +264,7 @@ object _1: TRpReport
     item
       Name = 'SEQTX2'
       AllowNulls = False
-      Value = '3'
+      Value = '2'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -286,8 +287,8 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODE'
       NeverVisible = True
-      Value = '53'
-      Description = 'From account'
+      Value = '84'
+      Description = 'Vanaf rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -296,7 +297,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETX'
       NeverVisible = True
-      Value = 'C2ABCOS'
+      Value = 'C2A1VER'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
@@ -309,8 +310,8 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETO'
       NeverVisible = True
-      Value = '57'
-      Description = 'To account'
+      Value = '81'
+      Description = 'Tot rekening'
       Hint = ''
       Search = ''
       ErrorMessage = ''
@@ -319,7 +320,7 @@ object _1: TRpReport
     item
       Name = 'SACCOUNTCODETOTX'
       NeverVisible = True
-      Value = 'C2COPEN'
+      Value = 'C2OPENB'
       ParamType = rpParamSubst
       Datasets.Strings = (
         'TRANSACTION_DETAIL')
