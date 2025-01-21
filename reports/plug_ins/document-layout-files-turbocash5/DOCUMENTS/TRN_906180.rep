@@ -1,0 +1,131 @@
+object _1: TRpReport
+  PageHeight = 8120
+  PageWidth = 5742
+  PageBackColor = 16777215
+  PreviewMargins = True
+  LeftMargin = 283
+  TopMargin = 0
+  RightMargin = 0
+  BottomMargin = 0
+  PrinterSelect = pRpUserPrinter1
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'COMPANYINFO'
+      DatabaseAlias = 'SETOFBOOKS'
+      SQL = 
+        'Select a.*,'#13#10#13#10'SCompanyName CompanyName,'#13#10'BlobLogo Logo,'#13#10'SAddre' +
+        'ss1 Address1,'#13#10'SAddress2 Address2,'#13#10'SAddress3 Address3,'#13#10'SPostCo' +
+        'de Postcode,'#13#10'SPhoneNumber Telephone,'#13#10'SFaxNumber Fax,'#13#10'SEmailAd' +
+        'dress EMailAddress,'#13#10'SCompanyRegNo CompanyRegNo,'#13#10'STaxRegNo TaxR' +
+        'egNo,'#13#10'SBANKNAME1 BankName1,'#13#10'SBANKNAME2 BankName2,'#13#10'SBANKNUMBER' +
+        '1 BankNo1,'#13#10'SBANKNUMBER2 BankNo2,'#13#10'SBANKSWIFT1 BankSwift1,'#13#10'SBAN' +
+        'KSWIFT2 BankSwift2,'#13#10'SBANKIBAN1 BankIBAN1,'#13#10'SBANKIBAN2 BankIBAN2' +
+        ','#13#10'SBANKBIC1 BankBIC1,'#13#10'SBANKBIC2 BankBIC2,'#13#10'SBANKACCOUNTNAME1 B' +
+        'ankAccountName1,'#13#10'SBANKACCOUNTNAME2 BankAccountName2,'#13#10'SInvoiceH' +
+        'eading InvoceHead,'#13#10'SInvoicesMessage1 InvoiceMessage1,'#13#10'SInvoice' +
+        'sMessage2 InvoiceMessage2,'#13#10'SInvoicesMessage3 InvoiceMessage3,'#13#10 +
+        'SCreditNoteHeading CreditNoteHead,'#13#10'SCreditNoteMessage1 CreditNo' +
+        'teMessage1,'#13#10'SCreditNoteMessage2 CreditNoteMessage2,'#13#10'SCreditNot' +
+        'eMessage3 CreditNoteMessage3,'#13#10'SQuoteHeading QuoteHead,'#13#10'SQuoteM' +
+        'essage1 QuoteMessage1,'#13#10'SQuoteMessage2 QuoteMessage2,'#13#10'SQuoteMes' +
+        'sage3 QuoteMessage3,'#13#10'SPurchaseHeading PurchaseHead,'#13#10'SPurchases' +
+        'Message1 PurchaseMessage1,'#13#10'SPurchasesMessage2 PurchaseMessage2,' +
+        #13#10'SPurchasesMessage3 PurchaseMessage3,'#13#10'SGoodsReturnedHeading Su' +
+        'pplierReturnHead,'#13#10'SGoodsReturnedMessage1 SupplierReturnMessage1' +
+        ','#13#10'SGoodsReturnedMessage2 SupplierReturnMessage2,'#13#10'SGoodsReturne' +
+        'dMessage3 SupplierReturnMessage3,'#13#10'SOrderHeading OrderHead,'#13#10'SOr' +
+        'derMessage1 OrderMessage1,'#13#10'SOrderMessage2 OrderMessage2,'#13#10'SOrde' +
+        'rMessage3 OrderMessage3,'#13#10'SStatementMessage1 StatementMessage1,'#13 +
+        #10'SStatementMessage2 StatementMessage2,'#13#10'SStatementMessage3 State' +
+        'mentMessage3,'#13#10'SSellingPriceName1 SellingPrice1,'#13#10'SSellingPriceN' +
+        'ame2 SellingPrice2,'#13#10'SSellingPriceName3 SellingPrice3,'#13#10'SAccount' +
+        'ReportName1 LedgerRepGroup1,'#13#10'SAccountReportName2 LedgerRepGroup' +
+        '2,'#13#10'SDebtorReportName1 DebtorRepGroup1,'#13#10'SDebtorReportName2 Debt' +
+        'orRepGroup2,'#13#10'SCreditorReportName1 CreditorRepGroup1,'#13#10'SCreditor' +
+        'ReportName2 CreditorRepGroup2,'#13#10'SStockReportName1 StockRepGroup1' +
+        ','#13#10'SStockReportName2  StockRepGroup2,'#13#10'WRetainedIncomeID Retaine' +
+        'dIncomeAccId,'#13#10'WDebtorsControlID DebtorsControlAccId,'#13#10'WCreditor' +
+        'sControlID CreditorControlAccId'#13#10#13#10'from sysvars, '#13#10'sysvarsext a'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'SETOFBOOKS'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdatazeos
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = ''
+    end>
+  Params = <>
+  StreamFormat = rpStreamText
+  ReportAction = [rpDrawerAfter]
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'COMPANYINFO'
+  end
+  object TRpSection0: TRpSection
+    Width = 2805
+    Height = 750
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpExpression0: TRpExpression
+    Width = 1260
+    Height = 225
+    PosX = 120
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1755,'#39'OpenDrawer'#39',0,0,0)'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end
