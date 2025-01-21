@@ -223,7 +223,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 70
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -2113,6 +2113,7 @@ object _1: TRpReport
     Type1Font = poHelvetica
     FontSize = 8
     FontStyle = 2
+    FontColor = 16512
     WordWrap = True
     AutoExpand = False
     AutoContract = False

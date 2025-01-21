@@ -232,7 +232,7 @@ object _1: TRpReport
       Visible = False
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -441,9 +441,6 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
-        Component = TRpImage0
-      end
-      item
         Component = TRpShape4
       end
       item
@@ -541,6 +538,9 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression66
+      end
+      item
+        Component = TRpImage0
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -600,9 +600,6 @@ object _1: TRpReport
         Component = TRpShape0
       end
       item
-        Component = TRpExpression38
-      end
-      item
         Component = TRpExpression0
       end
       item
@@ -625,6 +622,9 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression75
+      end
+      item
+        Component = TRpExpression38
       end>
     AutoExpand = True
     ExternalTable = 'REPMAN_REPORTS'
@@ -902,29 +902,6 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'COMPANYINFO.Address1'
-    DisplayFormat = ''
-    ExportDisplayFormat = ''
-    AgIniValue = '0'
-    ExportExpression = ''
-  end
-  object TRpExpression10: TRpExpression
-    Width = 6435
-    Height = 240
-    PosX = 120
-    PosY = 225
-    Type1Font = poHelvetica
-    WordWrap = True
-    AutoExpand = False
-    AutoContract = False
-    ExportPosition = 0
-    ExportSize = 1
-    ExportDoNewLine = False
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-    WFontName = 'Arial'
-    LFontName = 'Helvetica'
-    Expression = 'trim(DOCUMENTLINE.DESCRIPTION)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1483,33 +1460,6 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'COMPANYINFO.EMAILADDRESS'
-    DisplayFormat = ''
-    ExportDisplayFormat = ''
-    AgIniValue = '0'
-    ExportExpression = ''
-  end
-  object TRpExpression38: TRpExpression
-    Width = 2295
-    Height = 225
-    PosX = 120
-    PosY = 120
-    Type1Font = poHelvetica
-    FontSize = 9
-    FontStyle = 1
-    Alignment = 1
-    AutoExpand = False
-    AutoContract = False
-    ExportPosition = 0
-    ExportSize = 1
-    ExportDoNewLine = False
-    PrintCondition = ''
-    DoBeforePrint = ''
-    DoAfterPrint = ''
-    WFontName = 'Arial'
-    LFontName = 'Helvetica'
-    Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',1708,'#39'Description'#39',DEBTORINFO.SLANGUAGE,0,0' +
-      ')'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -2944,6 +2894,57 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 'SUNIT.SDESCRIPTION'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression38: TRpExpression
+    Width = 2295
+    Height = 225
+    PosX = 120
+    PosY = 120
+    Type1Font = poHelvetica
+    FontSize = 9
+    FontStyle = 1
+    Alignment = 1
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 
+      'CUSTOM('#39'GETTEXTLANG'#39',605,'#39'Code'#39',DEBTORINFO.SLANGUAGE,0,0)+'#39' / '#39'+' +
+      'CUSTOM('#39'GETTEXTLANG'#39',1708,'#39'Description'#39',DEBTORINFO.SLANGUAGE,0,0' +
+      ')'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression10: TRpExpression
+    Width = 6435
+    Height = 240
+    PosX = 120
+    PosY = 225
+    Type1Font = poHelvetica
+    WordWrap = True
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'trim(DOCUMENTLINE.DESCRIPTION)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'

@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -352,9 +352,6 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
-        Component = TRpImage1
-      end
-      item
         Component = TRpExpression8
       end
       item
@@ -443,6 +440,9 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression2
+      end
+      item
+        Component = TRpImage1
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -729,8 +729,8 @@ object _1: TRpReport
   object TRpExpression11: TRpExpression
     Width = 1035
     Height = 225
-    PosX = 3105
-    PosY = 225
+    PosX = 3450
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     AutoExpand = False
@@ -753,7 +753,7 @@ object _1: TRpReport
     Width = 1050
     Height = 225
     PosX = 4365
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1401,7 +1401,7 @@ object _1: TRpReport
     Width = 585
     Height = 225
     PosX = 7710
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '0.00%'
@@ -1425,7 +1425,7 @@ object _1: TRpReport
     Width = 885
     Height = 225
     PosX = 8505
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1449,7 +1449,7 @@ object _1: TRpReport
     Width = 1050
     Height = 225
     PosX = 6330
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1498,7 +1498,7 @@ object _1: TRpReport
     Width = 1050
     Height = 225
     PosX = 9660
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1782,7 +1782,7 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression10: TRpExpression
-    Width = 5400
+    Width = 3225
     Height = 225
     PosX = 0
     PosY = 0
@@ -1807,8 +1807,8 @@ object _1: TRpReport
   object TRpExpression16: TRpExpression
     Width = 450
     Height = 225
-    PosX = 5745
-    PosY = 225
+    PosX = 5865
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '0.00'
@@ -2554,7 +2554,7 @@ object _1: TRpReport
   object TRpLabel28: TRpLabel
     Width = 1275
     Height = 225
-    PosX = 2880
+    PosX = 3225
     PosY = 570
     Type1Font = poHelvetica
     FontSize = 9
@@ -2570,7 +2570,7 @@ object _1: TRpReport
   object TRpLabel36: TRpLabel
     Width = 810
     Height = 240
-    PosX = 2415
+    PosX = 2985
     PosY = 570
     Type1Font = poHelvetica
     FontSize = 9
@@ -2586,8 +2586,8 @@ object _1: TRpReport
   object TRpExpression22: TRpExpression
     Width = 840
     Height = 264
-    PosX = 2415
-    PosY = 225
+    PosX = 2880
+    PosY = 0
     Type1Font = poHelvetica
     AutoExpand = False
     AutoContract = False
@@ -2800,7 +2800,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    WideText = 'Serial / Batch :'
+    WideText = 'Reeks / Bondel :'
   end
   object TRpExpression35: TRpExpression
     Width = 4200

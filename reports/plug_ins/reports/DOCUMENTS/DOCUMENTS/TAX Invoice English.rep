@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -352,9 +352,6 @@ object _1: TRpReport
     SectionType = rpsecpheader
     Components = <
       item
-        Component = TRpImage1
-      end
-      item
         Component = TRpExpression8
       end
       item
@@ -443,6 +440,9 @@ object _1: TRpReport
       end
       item
         Component = TRpExpression34
+      end
+      item
+        Component = TRpImage1
       end>
     ExternalTable = 'REPMAN_REPORTS'
     ExternalField = 'REPORT'
@@ -3005,7 +3005,7 @@ object _1: TRpReport
     ExportExpression = ''
   end
   object TRpExpression42: TRpExpression
-    Width = 4035
+    Width = 4485
     Height = 225
     PosX = 225
     PosY = 0

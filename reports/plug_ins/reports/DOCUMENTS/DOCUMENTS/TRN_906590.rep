@@ -274,7 +274,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -1304,8 +1304,8 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',238,'#39'InvoiceDate'#39',CLIENTORDEFLANG.SLANGUAGE' +
-      ',0,0)+'#39': '#39
+      'CUSTOM('#39'GETTEXTLANG'#39',238,'#39'InvoiceDate'#39',ACCOUNTINFO.SLANGUAGE,0,0' +
+      ')+'#39': '#39
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1355,7 +1355,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1709,'#39'Price'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1709,'#39'Price'#39',ACCOUNTINFO.SLANGUAGE,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1541,9 +1541,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',191,'#39'Email'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)+' +
-      #39': '#39
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',191,'#39'Email'#39',ACCOUNTINFO.SLANGUAGE,0,0)+'#39': '#39
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1567,9 +1565,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',189,'#39'Fax'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)+'#39':' +
-      ' '#39
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',189,'#39'Fax'#39',ACCOUNTINFO.SLANGUAGE,0,0)+'#39': '#39
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1594,8 +1590,8 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',1319,'#39'Phone'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)' +
-      '+'#39': '#39
+      'CUSTOM('#39'GETTEXTLANG'#39',1319,'#39'Phone'#39',ACCOUNTINFO.SLANGUAGE,0,0)+'#39': ' +
+      #39
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1618,8 +1614,8 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',1024,'#39'Page'#39',CLIENTORDEFLANG.SLANGUAGE,0,0) ' +
-      '+ '#39'  '#39'  +Str(M.PAGENUM)'
+      'CUSTOM('#39'GETTEXTLANG'#39',1024,'#39'Page'#39',ACCOUNTINFO.SLANGUAGE,0,0) + '#39' ' +
+      ' '#39'  +Str(M.PAGENUM)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1729,7 +1725,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1710,'#39'Qty'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1710,'#39'Qty'#39',ACCOUNTINFO.SLANGUAGE,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -1934,7 +1930,7 @@ object _1: TRpReport
   end
   object TRpSection11: TRpSection
     Width = 10772
-    Height = 270
+    Height = 390
     SubReport = TRpSubReport0
     ChangeBool = False
     PageRepeat = False
@@ -1994,7 +1990,7 @@ object _1: TRpReport
     Width = 4365
     Height = 255
     PosX = 120
-    PosY = 0
+    PosY = 120
     Type1Font = poHelvetica
     FontSize = 9
     FontStyle = 2
@@ -2140,7 +2136,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',960,'#39'Total'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',960,'#39'Total'#39',ACCOUNTINFO.SLANGUAGE,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -2299,7 +2295,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1131,'#39'Unit'#39',CLIENTORDEFLANG.SLANGUAGE,0,0)'
+    Expression = 'CUSTOM('#39'GETTEXTLANG'#39',1131,'#39'Unit'#39',ACCOUNTINFO.SLANGUAGE,0,0)'
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'
@@ -2324,8 +2320,8 @@ object _1: TRpReport
     WFontName = 'Arial'
     LFontName = 'Helvetica'
     Expression = 
-      'CUSTOM('#39'GETTEXTLANG'#39',3212,'#39'Website'#39',CLIENTORDEFLANG.SLANGUAGE,0,' +
-      '0)+'#39': '#39
+      'CUSTOM('#39'GETTEXTLANG'#39',3212,'#39'Website'#39',ACCOUNTINFO.SLANGUAGE,0,0)+'#39 +
+      ': '#39
     DisplayFormat = ''
     ExportDisplayFormat = ''
     AgIniValue = '0'

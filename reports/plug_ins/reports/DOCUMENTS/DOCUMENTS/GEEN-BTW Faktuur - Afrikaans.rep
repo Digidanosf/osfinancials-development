@@ -232,7 +232,7 @@ object _1: TRpReport
       Name = 'TCVAR_DOCID'
       NeverVisible = True
       AllowNulls = False
-      Value = 80
+      Value = 48
       ParamType = rpParamInteger
       Datasets.Strings = (
         'DOCUMENTHEAD'
@@ -706,8 +706,8 @@ object _1: TRpReport
   object TRpExpression11: TRpExpression
     Width = 1035
     Height = 225
-    PosX = 4830
-    PosY = 225
+    PosX = 5295
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     AutoExpand = False
@@ -730,7 +730,7 @@ object _1: TRpReport
     Width = 1050
     Height = 225
     PosX = 7125
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1393,7 +1393,7 @@ object _1: TRpReport
     Width = 1050
     Height = 225
     PosX = 9660
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '###,###,##0.00'
@@ -1628,7 +1628,7 @@ object _1: TRpReport
     Stream = {0000000000000000}
   end
   object TRpExpression10: TRpExpression
-    Width = 5400
+    Width = 4140
     Height = 225
     PosX = 0
     PosY = 0
@@ -1654,7 +1654,7 @@ object _1: TRpReport
     Width = 450
     Height = 225
     PosX = 8625
-    PosY = 225
+    PosY = 0
     Type1Font = poHelvetica
     Alignment = 2
     DisplayFormat = '0.00'
@@ -2321,7 +2321,7 @@ object _1: TRpReport
   object TRpLabel28: TRpLabel
     Width = 1275
     Height = 225
-    PosX = 4605
+    PosX = 5055
     PosY = 570
     Type1Font = poHelvetica
     FontSize = 9
@@ -2337,7 +2337,7 @@ object _1: TRpReport
   object TRpLabel36: TRpLabel
     Width = 810
     Height = 240
-    PosX = 3675
+    PosX = 4365
     PosY = 570
     Type1Font = poHelvetica
     FontSize = 9
@@ -2353,8 +2353,8 @@ object _1: TRpReport
   object TRpExpression22: TRpExpression
     Width = 840
     Height = 264
-    PosX = 3675
-    PosY = 225
+    PosX = 4365
+    PosY = 0
     Type1Font = poHelvetica
     AutoExpand = False
     AutoContract = False
@@ -2566,7 +2566,7 @@ object _1: TRpReport
     DoAfterPrint = ''
     WFontName = 'Arial'
     LFontName = 'Helvetica'
-    WideText = 'Serial / Batch :'
+    WideText = 'Reeks / Bondel :'
   end
   object TRpExpression35: TRpExpression
     Width = 4200
