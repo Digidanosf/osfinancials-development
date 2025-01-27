@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1573"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   width="210mm"
+   height="297mm"
+   sodipodi:docbase="C:\Documents and Settings\DIGIDAN\Desktop\SVGFixed"
+   sodipodi:docname="AccountPrinciplesDtCr01.svg">
+  <metadata
+     id="metadata1578">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1576" />
+  <sodipodi:namedview
+     inkscape:window-height="712"
+     inkscape:window-width="1024"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.0000000"
+     inkscape:cx="372.04724"
+     inkscape:cy="846.18109"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg1573" />
+  <rect
+     style="opacity:1.0000000;fill:#b51e1e;fill-opacity:0.059210483;fill-rule:nonzero;stroke:#140c1e;stroke-width:0.61799997;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:0.97368419"
+     id="rect1582"
+     width="255.00000"
+     height="22.000000"
+     x="17.000000"
+     y="100.36218"
+     ry="0.00000000" />
+  <rect
+     style="opacity:1.0000000;fill:#ffefef;fill-opacity:0.059210483;fill-rule:nonzero;stroke:#140c1e;stroke-width:0.61799997;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:0.97368419"
+     id="rect1586"
+     width="255.00000"
+     height="22.000000"
+     x="17.000000"
+     y="123.36218" />
+  <rect
+     style="opacity:1.0000000;fill:#b51e1e;fill-opacity:0.059210483;fill-rule:nonzero;stroke:#140c1e;stroke-width:0.61799997;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:0.97368419"
+     id="rect1590"
+     width="255.00000"
+     height="22.000000"
+     x="272.50000"
+     y="100.36218"
+     ry="0.00000000" />
+  <rect
+     style="opacity:1.0000000;fill:#ffefef;fill-opacity:0.059210483;fill-rule:nonzero;stroke:#140c1e;stroke-width:0.61920762;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:0.97368419"
+     id="rect2320"
+     width="255.99759"
+     height="22.000000"
+     x="271.50122"
+     y="123.36218" />
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+     x="122"
+     y="114.36218"
+     id="text2322"
+     sodipodi:linespacing="100.00000%"><tspan
+       sodipodi:role="line"
+       id="tspan2324"
+       x="122.00000"
+       y="114.36218">Debit</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+     x="377"
+     y="115.36218"
+     id="text2326"
+     sodipodi:linespacing="100.00000%"><tspan
+       sodipodi:role="line"
+       id="tspan2328"
+       x="377.00000"
+       y="115.36218">Credit</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+     x="20"
+     y="137.36218"
+     id="text2330"
+     sodipodi:linespacing="100.00000%"><tspan
+       sodipodi:role="line"
+       id="tspan2332"
+       x="20.000000"
+       y="137.36218">The account receiving the value is debited</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+     x="279"
+     y="137.36218"
+     id="text2334"
+     sodipodi:linespacing="100.00000%"><tspan
+       sodipodi:role="line"
+       id="tspan2336"
+       x="279.00000"
+       y="137.36218">The account giving the value is credited</tspan></text>
+</svg>

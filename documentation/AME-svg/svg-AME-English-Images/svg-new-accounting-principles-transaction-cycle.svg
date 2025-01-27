@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="svg-new-accounting-principles-transaction-cycle.svg"
+   version="1.1">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4935">
+      <stop
+         style="stop-color:#dafff3;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop4937" />
+      <stop
+         style="stop-color:#f0f0f0;stop-opacity:0;"
+         offset="1"
+         id="stop4939" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4935"
+       id="radialGradient4941"
+       cx="374.00000"
+       cy="390.86218"
+       fx="374.00000"
+       fy="390.86218"
+       r="330.30750"
+       gradientTransform="matrix(1.000000,0.000000,0.000000,0.341523,0.000000,257.3739)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="225.5"
+     inkscape:cy="599"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1.0000000;fill:url(#radialGradient4941);fill-opacity:1.0;fill-rule:nonzero;stroke:#110507;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect4207"
+       width="660.00000"
+       height="225.00000"
+       x="44.000000"
+       y="278.36218" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.31769794;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3957"
+       width="165.04501"
+       height="34.468513"
+       x="531.47748"
+       y="457.62793" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.46685877;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3955"
+       width="345.51648"
+       height="35.554817"
+       x="130.74174"
+       y="456.58478" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.40742847;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3953"
+       width="139.12094"
+       height="67.252190"
+       x="555.43951"
+       y="369.73608" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.40742847;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3951"
+       width="139.12094"
+       height="67.252190"
+       x="386.43951"
+       y="368.73608" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.40742847;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3949"
+       width="139.12094"
+       height="67.252190"
+       x="217.43951"
+       y="367.73608" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.40742847;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3946"
+       width="139.12094"
+       height="67.252190"
+       x="50.439529"
+       y="365.73608" />
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.47236305;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1367"
+       width="187.00000"
+       height="67.252190"
+       x="50.000000"
+       y="283.23608" />
+    <image
+       id="image3090"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="58.000000"
+       y="287.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="83"
+       y="313.36218"
+       id="text3093"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3095"
+         x="83.000000"
+         y="313.36218"
+         style="-inkscape-font-specification:'Segoe UI Semi-Bold';font-family:'Segoe UI';font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal">Owner Invests in business</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="92"
+       y="329.36218"
+       id="text3097"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3099"
+         x="92.000000"
+         y="329.36218"
+         style="-inkscape-font-specification:'Segoe UI';font-family:'Segoe UI';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Capital</tspan><tspan
+         sodipodi:role="line"
+         x="92.000000"
+         y="341.36218"
+         id="tspan3101"
+         style="-inkscape-font-specification:'Segoe UI';font-family:'Segoe UI';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Assets</tspan></text>
+    <rect
+       style="opacity:1.0000000;fill:#f0f0f0;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.71166152;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect3943"
+       width="424.45999"
+       height="67.252190"
+       x="274.77002"
+       y="282.73608" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="335"
+       y="316.36218"
+       id="text3103"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3105"
+         x="335.00000"
+         y="316.36218">Owner receives profits on the business activities</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="87"
+       y="395.36218"
+       id="text3107"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3109"
+         x="87.000000"
+         y="395.36218">Purchase Assets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="98"
+       y="401.36218"
+       id="text3111"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3113"
+         x="98.000000"
+         y="401.36218" /><tspan
+         sodipodi:role="line"
+         x="98.000000"
+         y="413.36218"
+         id="tspan3115">Cash</tspan><tspan
+         sodipodi:role="line"
+         x="98.000000"
+         y="425.36218"
+         id="tspan3117">Credit</tspan></text>
+    <image
+       id="image3123"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="55.500000"
+       y="372.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="75.773537"
+       y="329.72766"
+       id="text3125"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3127"
+         x="75.773537"
+         y="329.72766">2</tspan></text>
+    <image
+       id="image3159"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="222.50000"
+       y="370.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360535px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="275.33957"
+       y="328.78613"
+       id="text3139"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3141"
+         x="275.33957"
+         y="328.78613">3</tspan></text>
+    <image
+       id="image3161"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="390.50000"
+       y="371.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360537px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="472.56754"
+       y="329.62784"
+       id="text3143"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3145"
+         x="472.56754"
+         y="329.62784">4</tspan></text>
+    <image
+       id="image3163"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="558.50000"
+       y="370.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360535px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="672.17163"
+       y="328.78616"
+       id="text3147"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3149"
+         x="672.17163"
+         y="328.78616">5</tspan></text>
+    <image
+       id="image3167"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="534.50000"
+       y="461.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360537px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="643.65686"
+       y="406.21942"
+       id="text3151"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3153"
+         x="643.65686"
+         y="406.21942">6</tspan></text>
+    <image
+       id="image3165"
+       height="25.000000"
+       width="25.000000"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\button-green_benji_park_01.png"
+       x="134.50000"
+       y="460.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.360535px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="170.78506"
+       y="404.53607"
+       id="text3155"
+       sodipodi:linespacing="100.00000%"
+       transform="scale(0.841666,1.188120)"><tspan
+         sodipodi:role="line"
+         id="tspan3157"
+         x="170.78506"
+         y="404.53607">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="604.05859"
+       y="398.85925"
+       id="text3169"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3171"
+         x="604.05859"
+         y="398.85925" /><tspan
+         sodipodi:role="line"
+         x="604.05859"
+         y="410.85925"
+         id="tspan3173">Cash</tspan><tspan
+         sodipodi:role="line"
+         x="604.05859"
+         y="422.85925"
+         id="tspan3175">Credit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="435.05859"
+       y="400.85925"
+       id="text3177"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3179"
+         x="435.05859"
+         y="400.85925" /><tspan
+         sodipodi:role="line"
+         x="435.05859"
+         y="412.85925"
+         id="tspan3181">Cash</tspan><tspan
+         sodipodi:role="line"
+         x="435.05859"
+         y="424.85925"
+         id="tspan3183">Credit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="262.05859"
+       y="401.85925"
+       id="text3185"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3187"
+         x="262.05859"
+         y="401.85925" /><tspan
+         sodipodi:role="line"
+         x="262.05859"
+         y="413.85925"
+         id="tspan3189">Cash</tspan><tspan
+         sodipodi:role="line"
+         x="262.05859"
+         y="425.85925"
+         id="tspan3191">Credit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="249"
+       y="393.36218"
+       id="text3193"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3195"
+         x="249.00000"
+         y="393.36218">Incur expenses</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="418"
+       y="395.36218"
+       id="text3197"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3199"
+         x="418.00000"
+         y="395.36218">Purchase of goods</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="585"
+       y="386.36218"
+       id="text3201"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3203"
+         x="585.00000"
+         y="386.36218">Sale of Goods and </tspan><tspan
+         sodipodi:role="line"
+         x="585.00000"
+         y="398.36218"
+         id="tspan3213">Services</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="167"
+       y="478.36218"
+       id="text3205"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3207"
+         x="167.00000"
+         y="478.36218">Payment of Creditors</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="562"
+       y="474.36218"
+       id="text3209"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan3211"
+         x="562.00000"
+         y="474.36218">Receive payment from </tspan><tspan
+         sodipodi:role="line"
+         x="562.00000"
+         y="486.36218"
+         id="tspan3215">Debtors</tspan></text>
+    <image
+       id="image4186"
+       height="36.359631"
+       width="24.654173"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="307.07001"
+       y="-271.34451"
+       transform="matrix(4.206417e-3,0.999991,-0.999968,8.028977e-3,0.000000,0.000000)" />
+    <image
+       id="image4189"
+       height="20.467009"
+       width="20.689249"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="610.71814"
+       y="433.00229"
+       transform="matrix(0.999978,6.673196e-3,-9.133077e-3,0.999958,0.000000,0.000000)" />
+    <image
+       id="image4191"
+       height="16.568256"
+       width="12.988935"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="89.397530"
+       y="350.47589"
+       transform="matrix(0.999907,-1.361797e-2,2.262476e-2,0.999744,0.000000,0.000000)" />
+    <image
+       id="image4193"
+       height="20.466997"
+       width="20.689260"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="434.71515"
+       y="433.17700"
+       transform="matrix(0.999978,6.673192e-3,-9.133083e-3,0.999958,0.000000,0.000000)" />
+    <image
+       id="image4195"
+       height="20.466997"
+       width="20.689260"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="274.71222"
+       y="433.24475"
+       transform="matrix(0.999978,6.673192e-3,-9.133083e-3,0.999958,0.000000,0.000000)" />
+    <image
+       id="image4197"
+       height="20.466997"
+       width="20.689260"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="136.72665"
+       y="435.16565"
+       transform="matrix(0.999978,6.673192e-3,-9.133083e-3,0.999958,0.000000,0.000000)" />
+    <image
+       id="image4199"
+       height="29.069197"
+       width="20.710646"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="-428.95596"
+       y="498.43002"
+       transform="matrix(-6.394308e-2,-0.997954,0.999550,-2.998620e-2,0.000000,0.000000)" />
+    <image
+       id="image4201"
+       height="29.069178"
+       width="20.710665"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="-419.96024"
+       y="332.42990"
+       transform="matrix(-6.394302e-2,-0.997954,0.999550,-2.998622e-2,0.000000,0.000000)" />
+    <image
+       id="image4203"
+       height="29.069178"
+       width="20.710665"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="-414.91959"
+       y="164.67676"
+       transform="matrix(-6.394302e-2,-0.997954,0.999550,-2.998622e-2,0.000000,0.000000)" />
+    <image
+       id="image4205"
+       height="17.145477"
+       width="16.846594"
+       sodipodi:absref="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       xlink:href="C:\Program Files\Open Clip Art Library\openclipart-0.13.2\shapes\arrows\arrow-down-green_benji_p_01.png"
+       x="-615.00781"
+       y="-371.04236"
+       transform="matrix(-0.999979,6.410821e-3,3.468459e-2,-0.999398,0.000000,0.000000)" />
+  </g>
+</svg>

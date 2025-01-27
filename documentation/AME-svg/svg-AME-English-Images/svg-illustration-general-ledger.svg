@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="C:\Documents and Settings\DIGIDAN\Desktop\SVGFixed"
+   sodipodi:docname="AccountPrinciplesGeneralLedger.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2931">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2932" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.0000000;"
+         offset="1.0000000"
+         id="stop2933" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4810">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.0000000;"
+         offset="0.0000000"
+         id="stop4811" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.68041235;"
+         offset="1.0000000"
+         id="stop4812" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9837">
+      <stop
+         style="stop-color:#f8f5da;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop9838" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop9839" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9837"
+       id="linearGradient2670"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.047270,0.000000,0.000000,0.954863,53.74994,56.25002)"
+       x1="111.99757"
+       y1="125.16961"
+       x2="-29.110085"
+       y2="-21.865551" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9837"
+       id="linearGradient2694"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.047270,0.000000,0.000000,0.954863,53.74994,56.24999)"
+       x1="111.99757"
+       y1="125.16961"
+       x2="-29.110085"
+       y2="-21.865551" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9837"
+       id="linearGradient2698"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.047270,0.000000,0.000000,0.954863,53.74994,56.24999)"
+       x1="111.99757"
+       y1="125.16961"
+       x2="-29.110085"
+       y2="-21.865551" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9837"
+       id="linearGradient2702"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.047270,0.000000,0.000000,0.954864,53.74994,56.24994)"
+       x1="111.99757"
+       y1="125.16961"
+       x2="-29.110085"
+       y2="-21.865551" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0000000"
+     inkscape:cx="375.00000"
+     inkscape:cy="683.88491"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="712"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1.0000000;fill:#f4f5d8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.67255425;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1369"
+       width="163.78255"
+       height="371.08334"
+       x="16.108725"
+       y="247.32051" />
+    <rect
+       style="opacity:1.0000000;fill:#f8f8eb;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1373"
+       width="147.00000"
+       height="75.000000"
+       x="25.000000"
+       y="281.36218" />
+    <rect
+       style="opacity:1.0000000;fill:#eeebf8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1375"
+       width="147.00000"
+       height="75.000000"
+       x="25.500000"
+       y="361.86218" />
+    <rect
+       style="opacity:1.0000000;fill:#f8ebeb;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1377"
+       width="147.00000"
+       height="75.000000"
+       x="25.500000"
+       y="441.86218" />
+    <rect
+       style="opacity:1.0000000;fill:#eff8eb;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect1379"
+       width="147.00000"
+       height="75.000000"
+       x="25.500000"
+       y="520.86218" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="71"
+       y="267.36218"
+       id="text1381"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan1383"
+         x="71.000000"
+         y="267.36218">LEDGER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="56"
+       y="295.36218"
+       id="text1385"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan1387"
+         x="56.000000"
+         y="295.36218">General Ledger</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="54"
+       y="379.36218"
+       id="text1389"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan1391"
+         x="54.000000"
+         y="379.36218">Debtor's Ledger</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="52"
+       y="457.36218"
+       id="text1393"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan1395"
+         x="52.000000"
+         y="457.36218">Creditor's Ledger</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="64"
+       y="538.36218"
+       id="text1397"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan1399"
+         x="64.000000"
+         y="538.36218">Stock Ledger</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#f4f5d8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path2127"
+       sodipodi:cx="50.000000"
+       sodipodi:cy="654.36218"
+       sodipodi:rx="15.000000"
+       sodipodi:ry="4.0000000"
+       d="M 65.000000 654.36218 A 15.000000 4.0000000 0 1 1  35.000000,654.36218 A 15.000000 4.0000000 0 1 1  65.000000 654.36218 z"
+       transform="translate(52.00000,-72.00000)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#f4f5d8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path2129"
+       sodipodi:cx="50.000000"
+       sodipodi:cy="654.36218"
+       sodipodi:rx="15.000000"
+       sodipodi:ry="4.0000000"
+       d="M 65.000000 654.36218 A 15.000000 4.0000000 0 1 1  35.000000,654.36218 A 15.000000 4.0000000 0 1 1  65.000000 654.36218 z"
+       transform="translate(50.00000,-153.0000)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#f4f5d8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path2131"
+       sodipodi:cx="50.000000"
+       sodipodi:cy="654.36218"
+       sodipodi:rx="15.000000"
+       sodipodi:ry="4.0000000"
+       d="M 65.000000 654.36218 A 15.000000 4.0000000 0 1 1  35.000000,654.36218 A 15.000000 4.0000000 0 1 1  65.000000 654.36218 z"
+       transform="translate(44.00000,-233.0000)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#f4f5d8;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#f30c44;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path2133"
+       sodipodi:cx="50.000000"
+       sodipodi:cy="654.36218"
+       sodipodi:rx="15.000000"
+       sodipodi:ry="4.0000000"
+       d="M 65.000000 654.36218 A 15.000000 4.0000000 0 1 1  35.000000,654.36218 A 15.000000 4.0000000 0 1 1  65.000000 654.36218 z"
+       transform="translate(44.00000,-311.0000)" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="M 184.72331,263.76290 L 390.82798,262.29346 C 395.37440,292.66196 377.18870,322.29572 404.46726,353.39894 L 201.39354,353.39894 C 173.10467,323.52027 190.28004,293.64158 184.72331,263.76290 z "
+       id="rect9215"
+       style="fill:url(#linearGradient2670);fill-opacity:1.0000000;stroke:#000000;stroke-width:2.1104054;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="212"
+       y="277.36218"
+       id="text2672"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2674"
+         x="212.00000"
+         y="277.36218">General Ledger</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="194"
+       y="293.36218"
+       id="text2680"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2682"
+         x="194.00000"
+         y="293.36218">1. Income and Expense Accounts</tspan><tspan
+         sodipodi:role="line"
+         x="194.00000"
+         y="305.36218"
+         id="tspan2684">2. Assets and Liablities Accounts</tspan><tspan
+         sodipodi:role="line"
+         x="194.00000"
+         y="317.36218"
+         id="tspan2686">3. Debtor's Control Account</tspan><tspan
+         sodipodi:role="line"
+         x="194.00000"
+         y="329.36218"
+         id="tspan2688">4. Creditor's Control Account</tspan><tspan
+         sodipodi:role="line"
+         x="194.00000"
+         y="341.36218"
+         id="tspan2690"> 5. Stock Control Account</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="M 186.22326,360.68304 L 392.32793,359.56040 C 396.87435,382.76159 378.68865,405.40145 405.96721,429.16396 L 202.89349,429.16396 C 174.60462,406.33699 191.77999,383.51001 186.22326,360.68304 z "
+       id="path2692"
+       style="fill:url(#linearGradient2694);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.8446305;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="M 187.22326,439.60178 L 393.32793,438.52644 C 397.87435,460.75027 379.68865,482.43642 406.96721,505.19792 L 203.89349,505.19792 C 175.60462,483.33255 192.77999,461.46716 187.22326,439.60178 z "
+       id="path2696"
+       style="fill:url(#linearGradient2698);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.8053595;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="M 185.22326,522.57470 L 391.32793,521.51512 C 395.87435,543.41316 377.68865,564.78140 404.96721,587.20924 L 201.89349,587.20924 C 173.60462,565.66440 190.77999,544.11955 185.22326,522.57470 z "
+       id="path2700"
+       style="fill:url(#linearGradient2702);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.7920779;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="246"
+       y="373.36218"
+       id="text2704"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2706"
+         x="246.00000"
+         y="373.36218">Debtor Accounts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="201"
+       y="388.36218"
+       id="text2708"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2710"
+         x="201.00000"
+         y="388.36218">Personal and Contact Information</tspan><tspan
+         sodipodi:role="line"
+         x="201.00000"
+         y="400.36218"
+         id="tspan2712">Accounting Information</tspan><tspan
+         sodipodi:role="line"
+         x="201.00000"
+         y="412.36218"
+         id="tspan2714"> Terms and Conditions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="197.77539"
+       y="470.71277"
+       id="text2716"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2718"
+         x="197.77539"
+         y="470.71277">Personal and Contact Information</tspan><tspan
+         sodipodi:role="line"
+         x="197.77539"
+         y="482.71277"
+         id="tspan2720">Accounting Information</tspan><tspan
+         sodipodi:role="line"
+         x="197.77539"
+         y="494.71277"
+         id="tspan2722"> Terms and Conditions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="234"
+       y="456.36218"
+       id="text2724"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2726"
+         x="234.00000"
+         y="456.36218">Creditor Accounts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="235"
+       y="534.36218"
+       id="text2728"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2730"
+         x="235.00000"
+         y="534.36218">Stock Item Records</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Comic Sans MS"
+       x="196"
+       y="550.36218"
+       id="text2732"
+       sodipodi:linespacing="100.00000%"><tspan
+         sodipodi:role="line"
+         id="tspan2734"
+         x="196.00000"
+         y="550.36218">Quantities</tspan><tspan
+         sodipodi:role="line"
+         x="196.00000"
+         y="562.36218"
+         id="tspan2736">Re-Order Levels</tspan><tspan
+         sodipodi:role="line"
+         x="196.00000"
+         y="574.36218"
+         id="tspan2738"> Unit Size, etc.</tspan></text>
+    <rect
+       style="opacity:1.0000000;fill:none;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#110507;stroke-width:0.61500001;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect2740"
+       width="405.00000"
+       height="382.00000"
+       x="12.000000"
+       y="240.36218" />
+  </g>
+</svg>
