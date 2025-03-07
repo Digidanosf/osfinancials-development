@@ -16265,7 +16265,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3690
-      Text = 'Enter email adress seperate with ;'
+      Text = 'Enter email address separate with ;'
     end
     item
       IndexID = 3691
