@@ -1637,8 +1637,8 @@ object TTranslationSaveObject
     item
       IndexID = 1969
       Text = 
-        'Cannot have more than %s for this unregisted <@APPNAME@> copie %' +
-        's! Please register and get your licence code!'
+        #1604#1575' '#1610#1605#1603#1606' '#1575#1604#1581#1589#1608#1604' '#1593#1604#1609' '#1571#1603#1579#1585' '#1605#1606' %s '#1604#1607#1584#1607' '#1575#1604#1606#1587#1582#1577' '#1594#1610#1585' '#1575#1604#1605#1587#1580#1604#1577' '#1605#1606' <@APPNA' +
+        'ME@> %s! '#1610#1585#1580#1609' '#1575#1604#1578#1587#1580#1610#1604' '#1608#1575#1604#1581#1589#1608#1604' '#1593#1604#1609' '#1585#1605#1586' '#1575#1604#1578#1585#1582#1610#1589' '#1575#1604#1582#1575#1589' '#1576#1603'!'
     end
     item
       IndexID = 1968
@@ -4385,7 +4385,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 396
-      Text = '*Theme'
+      Text = #1575#1604#1587#1605#1577
     end
     item
       IndexID = 397
@@ -4879,9 +4879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 515
-      Text = 
-        '*This copy of <@APPNAME@> is not registered! Do you wish to regi' +
-        'ster it now?'
+      Text = #1607#1584#1607' '#1575#1604#1606#1587#1582#1577' '#1605#1606' <@APPNAME@> '#1594#1610#1585' '#1605#1587#1580#1604#1577'! '#1607#1604' '#1578#1585#1594#1576' '#1601#1610' '#1578#1587#1580#1610#1604#1607#1575' '#1575#1604#1570#1606#1567
     end
     item
       IndexID = 516
@@ -10514,11 +10512,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3101
-      Text = 'Unregistered'
+      Text = #1594#1610#1585' '#1605#1587#1580#1604
     end
     item
       IndexID = 3102
-      Text = 'registered to'
+      Text = #1605#1587#1580#1604' '#1601#1610
     end
     item
       IndexID = 3103
@@ -10579,8 +10577,8 @@ object TTranslationSaveObject
     item
       IndexID = 3117
       Text = 
-        'Unregistered version! Please buy this plugin at https://www.osfi' +
-        'nancials.org/en/webshop and support the <@APPNAME@> development.'
+        #1606#1587#1582#1577' '#1594#1610#1585' '#1605#1587#1580#1604#1577'! '#1610#1585#1580#1609' '#1588#1585#1575#1569' '#1607#1584#1607' '#1575#1604#1573#1590#1575#1601#1577' '#1605#1606' https://www.osfinancial' +
+        's.org/en/webshop '#1608#1583#1593#1605' '#1578#1591#1608#1610#1585' <@APPNAME@>.'
     end
     item
       IndexID = 3118
@@ -10967,7 +10965,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3210
-      Text = 'You have registered successfully !'
+      Text = #1604#1602#1583' '#1578#1605' '#1578#1587#1580#1610#1604#1603' '#1576#1606#1580#1575#1581'!'
     end
     item
       IndexID = 3211
@@ -10979,7 +10977,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3213
-      Text = 'Reregister'
+      Text = #1573#1593#1575#1583#1577' '#1575#1604#1578#1587#1580#1610#1604
     end
     item
       IndexID = 3214
@@ -11179,7 +11177,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3262
-      Text = 'Register'
+      Text = #1578#1587#1580#1610#1604
     end
     item
       IndexID = 3263
@@ -12271,7 +12269,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3374
-      Text = 'Tools'
+      Text = #1571#1583#1608#1575#1578
     end
     item
       IndexID = 3375
@@ -12279,7 +12277,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3376
-      Text = 'financial tools'
+      Text = #1571#1583#1608#1575#1578' '#1605#1575#1604#1610#1577
     end
     item
       IndexID = 3377
@@ -12379,11 +12377,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3402
-      Text = 'Handytools'
+      Text = #1571#1583#1608#1575#1578' '#1605#1601#1610#1583#1577' ('#1604#1604#1605#1587#1578#1582#1583#1605#1610#1606' '#1575#1604#1605#1578#1602#1583#1605#1610#1606' '#1601#1602#1591')'
     end
     item
       IndexID = 3403
-      Text = 'Register plugins'
+      Text = #1578#1587#1580#1610#1604' '#1575#1604#1573#1590#1575#1601#1575#1578
     end
     item
       IndexID = 3404
@@ -12460,9 +12458,9 @@ object TTranslationSaveObject
     item
       IndexID = 3422
       Text = 
-        'You are not yet registered to post on our forum! You will need t' +
-        'o register <@APPNAME@> to use that username password to login to' +
-        ' our forum or shop.'
+        #1571#1606#1578' '#1594#1610#1585' '#1605#1587#1580#1604' '#1576#1593#1583' '#1604#1604#1606#1588#1585' '#1601#1610' '#1605#1606#1578#1583#1575#1606#1575'! '#1587#1578#1581#1578#1575#1580' '#1573#1604#1609' '#1578#1587#1580#1610#1604' <@APPNAME@> ' +
+        #1604#1575#1587#1578#1582#1583#1575#1605' '#1575#1587#1605' '#1575#1604#1605#1587#1578#1582#1583#1605' '#1608#1603#1604#1605#1577' '#1575#1604#1605#1585#1608#1585' '#1604#1578#1587#1580#1610#1604' '#1575#1604#1583#1582#1608#1604' '#1573#1604#1609' '#1605#1606#1578#1583#1575#1606#1575' '#1571#1608' ' +
+        #1605#1578#1580#1585#1606#1575'..'
     end
     item
       IndexID = 3423
@@ -12554,11 +12552,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3445
-      Text = 'Please register <@APPNAME@> first!'
+      Text = #1610#1585#1580#1609' '#1578#1587#1580#1610#1604' <@APPNAME@> '#1571#1608#1604#1575#1611'!'
     end
     item
       IndexID = 3446
-      Text = 'To register plugins, you need to register <@APPNAME@> first!'
+      Text = #1604#1578#1587#1580#1610#1604' '#1575#1604#1573#1590#1575#1601#1575#1578#1548' '#1578#1581#1578#1575#1580' '#1573#1604#1609' '#1578#1587#1580#1610#1604' <@APPNAME@> '#1571#1608#1604#1575#1611'!'
     end
     item
       IndexID = 3447
@@ -12614,7 +12612,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3469
-      Text = 'Workflow setup'
+      Text = #1573#1593#1583#1575#1583' '#1587#1610#1585' '#1575#1604#1593#1605#1604
     end
     item
       IndexID = 3470
@@ -12666,15 +12664,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3482
-      Text = 'Links from'
+      Text = #1585#1608#1575#1576#1591' '#1605#1606
     end
     item
       IndexID = 3483
-      Text = 'Links to'
+      Text = #1585#1608#1575#1576#1591' '#1573#1604#1609
     end
     item
       IndexID = 3484
-      Text = 'Link'
+      Text = #1585#1575#1576#1591
     end
     item
       IndexID = 3485
@@ -12682,27 +12680,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3486
-      Text = 'Step hint'
+      Text = #1578#1604#1605#1610#1581' '#1575#1604#1582#1591#1608#1577
     end
     item
       IndexID = 3487
-      Text = 'Rights'
+      Text = #1589#1604#1575#1581#1610#1575#1578
     end
     item
       IndexID = 3488
-      Text = 'Add step'
+      Text = #1573#1590#1575#1601#1577' '#1582#1591#1608#1577
     end
     item
       IndexID = 3489
-      Text = 'Edit step'
+      Text = #1578#1593#1583#1610#1604' '#1582#1591#1608#1577
     end
     item
       IndexID = 3490
-      Text = 'Delete step'
+      Text = #1581#1584#1601' '#1582#1591#1608#1577
     end
     item
       IndexID = 3491
-      Text = 'Transition'
+      Text = #1575#1606#1578#1602#1575#1604
     end
     item
       IndexID = 3492
@@ -12710,7 +12708,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3493
-      Text = 'Duration'
+      Text = #1605#1583#1577
     end
     item
       IndexID = 3494
@@ -12718,7 +12716,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3495
-      Text = 'Status text'
+      Text = #1606#1589' '#1575#1604#1581#1575#1604#1577
     end
     item
       IndexID = 3496
@@ -12740,15 +12738,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3500
-      Text = 'Add transition'
+      Text = #1573#1590#1575#1601#1577' '#1575#1606#1578#1602#1575#1604
     end
     item
       IndexID = 3501
-      Text = 'Condition'
+      Text = #1588#1585#1591
     end
     item
       IndexID = 3502
-      Text = 'Next process date'
+      Text = #1578#1575#1585#1610#1582' '#1575#1604#1605#1593#1575#1604#1580#1577' '#1575#1604#1578#1575#1604#1610#1577
     end
     item
       IndexID = 3503
@@ -12760,51 +12758,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3505
-      Text = 'Write-off type'
+      Text = #1606#1608#1593' '#1575#1604#1588#1591#1576
     end
     item
       IndexID = 3506
-      Text = 'Write-off period'
+      Text = #1601#1578#1585#1577' '#1575#1604#1588#1591#1576
     end
     item
       IndexID = 3507
-      Text = 'Linked transaction'
+      Text = #1575#1604#1605#1593#1575#1605#1604#1577' '#1575#1604#1605#1585#1578#1576#1591#1577
     end
     item
       IndexID = 3508
-      Text = 'Rest-amount'
+      Text = #1575#1604#1605#1576#1604#1594' '#1575#1604#1605#1578#1576#1602#1610
     end
     item
       IndexID = 3509
-      Text = 'Write-off percentage'
+      Text = #1606#1587#1576#1577' '#1575#1604#1588#1591#1576
     end
     item
       IndexID = 3510
-      Text = 'Next write-off amount'
+      Text = #1605#1576#1604#1594' '#1575#1604#1588#1591#1576' '#1575#1604#1578#1575#1604#1610
     end
     item
       IndexID = 3511
-      Text = 'Total write-off on ledger'
+      Text = #1573#1580#1605#1575#1604#1610' '#1575#1604#1588#1591#1576' '#1601#1610' '#1575#1604#1583#1601#1578#1585
     end
     item
       IndexID = 3512
-      Text = 'Needs processing'
+      Text = #1610#1581#1578#1575#1580' '#1573#1604#1609' '#1605#1593#1575#1604#1580#1577
     end
     item
       IndexID = 3513
-      Text = 'New transactions'
+      Text = #1605#1593#1575#1605#1604#1575#1578' '#1580#1583#1610#1583#1577
     end
     item
       IndexID = 3514
-      Text = 'Add manual'
+      Text = #1573#1590#1575#1601#1577' '#1610#1583#1608#1610#1577
     end
     item
       IndexID = 3515
-      Text = 'Posted transactions'
+      Text = #1575#1604#1605#1593#1575#1605#1604#1575#1578' '#1575#1604#1605#1585#1581#1617#1604#1577
     end
     item
       IndexID = 3516
-      Text = 'Process (selected) lines'
+      Text = #1605#1593#1575#1604#1580#1577' '#1575#1604#1571#1587#1591#1585' ('#1575#1604#1605#1581#1583#1583#1577')'
     end
     item
       IndexID = 3517
@@ -12812,11 +12810,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3518
-      Text = 'Activa'
+      Text = #1575#1604#1571#1589#1608#1604' '#1575#1604#1579#1575#1576#1578#1577
     end
     item
       IndexID = 3519
-      Text = 'Add (selected) lines'
+      Text = #1573#1590#1575#1601#1577' '#1575#1604#1571#1587#1591#1585' ('#1575#1604#1605#1581#1583#1583#1577')'
     end
     item
       IndexID = 3520
@@ -12824,15 +12822,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3521
-      Text = 'Show for this user'
+      Text = #1593#1585#1590' '#1604#1607#1584#1575' '#1575#1604#1605#1587#1578#1582#1583#1605
     end
     item
       IndexID = 3522
-      Text = 'Selection'
+      Text = #1578#1581#1583#1610#1583
     end
     item
       IndexID = 3523
-      Text = 'Adjust remittance date of selection to :'
+      Text = #1578#1593#1583#1610#1604' '#1578#1575#1585#1610#1582' '#1575#1604#1578#1581#1608#1610#1604' '#1604#1604#1593#1606#1575#1589#1585' '#1575#1604#1605#1581#1583#1583#1577' '#1573#1604#1609':'
     end
     item
       IndexID = 3524
@@ -12840,7 +12838,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3525
-      Text = 'With a remittance date from'
+      Text = #1605#1593' '#1578#1575#1585#1610#1582' '#1578#1581#1608#1610#1604' '#1605#1606
     end
     item
       IndexID = 3526
@@ -12856,23 +12854,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3529
-      Text = 'Edit remittance'
+      Text = #1578#1593#1583#1610#1604' '#1575#1604#1578#1581#1608#1610#1604
     end
     item
       IndexID = 3530
-      Text = 'Print all'
+      Text = #1591#1576#1575#1593#1577' '#1575#1604#1603#1604
     end
     item
       IndexID = 3531
-      Text = 'Edit report'
+      Text = #1593#1585#1590' '#1575#1604#1578#1602#1585#1610#1585
     end
     item
       IndexID = 3532
-      Text = 'Show report'
+      Text = #1593#1585#1590' '#1575#1604#1578#1602#1585#1610#1585
     end
     item
       IndexID = 3533
-      Text = 'Default days no remittance'
+      Text = #1575#1604#1571#1610#1575#1605' '#1575#1604#1575#1601#1578#1585#1575#1590#1610#1577' '#1576#1583#1608#1606' '#1578#1581#1608#1610#1604
     end
     item
       IndexID = 3534
@@ -12892,23 +12890,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3537
-      Text = 'Popup if there are transactions'
+      Text = #1606#1575#1601#1584#1577' '#1605#1606#1576#1579#1602#1577' '#1573#1584#1575' '#1603#1575#1606#1578' '#1607#1606#1575#1603' '#1605#1593#1575#1605#1604#1575#1578
     end
     item
       IndexID = 3538
-      Text = 'Date oldest transaction'
+      Text = #1578#1575#1585#1610#1582' '#1571#1602#1583#1605' '#1605#1593#1575#1605#1604#1577
     end
     item
       IndexID = 3539
-      Text = 'Date last remittance'
+      Text = #1578#1575#1585#1610#1582' '#1570#1582#1585' '#1578#1581#1608#1610#1604
     end
     item
       IndexID = 3540
-      Text = 'Design edit fields'
+      Text = #1578#1589#1605#1610#1605' '#1581#1602#1608#1604' '#1575#1604#1578#1581#1585#1610#1585
     end
     item
       IndexID = 3541
-      Text = 'Design search fields'
+      Text = #1578#1589#1605#1610#1605' '#1581#1602#1608#1604' '#1575#1604#1576#1581#1579
     end
     item
       IndexID = 3542
@@ -12916,11 +12914,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3543
-      Text = 'Lookup language'
+      Text = #1604#1594#1577' '#1575#1604#1576#1581#1579
     end
     item
       IndexID = 3544
-      Text = 'Type of control'
+      Text = #1606#1608#1593' '#1593#1606#1589#1585' '#1575#1604#1578#1581#1603#1605
     end
     item
       IndexID = 3545
@@ -12928,7 +12926,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3546
-      Text = 'Size'
+      Text = #1575#1604#1581#1580#1605
     end
     item
       IndexID = 3547
@@ -12940,11 +12938,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3549
-      Text = 'Save and rebuild'
+      Text = #1581#1601#1592' '#1608#1573#1593#1575#1583#1577' '#1576#1606#1575#1569
     end
     item
       IndexID = 3550
-      Text = 'Copy as new'
+      Text = #1606#1587#1582' '#1603#1580#1583#1610#1583
     end
     item
       IndexID = 3551
@@ -12960,7 +12958,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3554
-      Text = 'Default value'
+      Text = #1575#1604#1602#1610#1605#1577' '#1575#1604#1575#1601#1578#1585#1575#1590#1610#1577
     end
     item
       IndexID = 3555
@@ -12996,7 +12994,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3563
-      Text = 'User tab'
+      Text = #1593#1604#1575#1605#1577' '#1575#1604#1605#1587#1578#1582#1583#1605
     end
     item
       IndexID = 3564
