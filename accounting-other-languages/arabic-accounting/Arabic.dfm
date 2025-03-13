@@ -287,8 +287,8 @@ object TTranslationSaveObject
     item
       IndexID = 20078
       Text = 
-        'This version wil only work till 1-3-2005 for more info go to htt' +
-        'ps://www.osfinancials.org/'
+        #1607#1584#1607' '#1575#1604#1606#1587#1582#1577' '#1587#1578#1603#1608#1606' '#1601#1593#1575#1604#1577' '#1601#1602#1591' '#1581#1578#1609' 1-3-2005'#1548' '#1604#1605#1586#1610#1583' '#1605#1606' '#1575#1604#1605#1593#1604#1608#1605#1575#1578' '#1578#1601#1590#1604 +
+        ' '#1576#1586#1610#1575#1585#1577' https://www.osfinancials.org'
     end
     item
       IndexID = 20077
@@ -529,8 +529,8 @@ object TTranslationSaveObject
     item
       IndexID = 20018
       Text = 
-        'ExtLookupComboBox|Represents an ultra-advanced lookup using the ' +
-        'QuantumGrid as its drop down control'
+        #1605#1585#1576#1593' '#1575#1604#1576#1581#1579' '#1575#1604#1605#1605#1578#1583' (ExtLookupComboBox) - '#1610#1605#1579#1604' '#1576#1581#1579#1611#1575' '#1605#1578#1602#1583#1605#1611#1575' '#1604#1604#1594#1575#1610 +
+        #1577' '#1576#1575#1587#1578#1582#1583#1575#1605' '#1575#1604#1588#1576#1603#1577' '#1575#1604#1603#1605#1610#1577' '#1603#1593#1606#1589#1585' '#1578#1581#1603#1605' '#1605#1606#1587#1583#1604'!'
     end
     item
       IndexID = 20017
@@ -972,7 +972,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2144
-      Text = '*Use A5 Size'
+      Text = #1575#1587#1578#1582#1583#1575#1605' '#1581#1580#1605' A5'
     end
     item
       IndexID = 2143
@@ -1308,7 +1308,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2060
-      Text = '*Generate bank bookings'
+      Text = #1573#1606#1588#1575#1569' '#1581#1580#1608#1586#1575#1578' '#1576#1606#1603#1610#1577
     end
     item
       IndexID = 2059
@@ -1340,7 +1340,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = 'Indicates non-VAT item'
+      Text = #1610#1588#1610#1585' '#1573#1604#1609' '#1593#1606#1589#1585' '#1594#1610#1585' '#1582#1575#1590#1593' '#1604#1604#1590#1585#1610#1576#1577
     end
     item
       IndexID = 2050
@@ -1372,7 +1372,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = '*VAT-AMT'
+      Text = #1575#1604#1590#1585#1610#1576#1577' - '#1575#1604#1605#1576#1604#1594
     end
     item
       IndexID = 2042
@@ -1654,35 +1654,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1966
-      Text = '*Server Connection Failed'
+      Text = #1601#1588#1604' '#1575#1604#1575#1578#1589#1575#1604' '#1576#1575#1604#1582#1575#1583#1605'!'
     end
     item
       IndexID = 1965
-      Text = 'User Testing on Server'
+      Text = #1575#1582#1578#1576#1575#1585' '#1575#1604#1605#1587#1578#1582#1583#1605' '#1593#1604#1609' '#1575#1604#1582#1575#1583#1605
     end
     item
       IndexID = 1964
-      Text = '*Connecting to %s '#1605#1581#1575#1608#1604#1577' '#1575#1578#1589#1575#1604
+      Text = #1580#1575#1585#1610' '#1575#1604#1575#1578#1589#1575#1604' '#1576#1600' %s'
     end
     item
       IndexID = 1963
-      Text = '*Net Server Resolved'
+      Text = #1578#1605' '#1581#1604' '#1582#1575#1583#1605' '#1575#1604#1588#1576#1603#1577'!'
     end
     item
       IndexID = 1962
-      Text = '*Invalid Server'
+      Text = #1582#1575#1583#1605' '#1594#1610#1585' '#1589#1575#1604#1581'!'
     end
     item
       IndexID = 1961
-      Text = '*! '#1576#1583#1575#1574#1578' '#1578#1580#1585#1576#1577' '#1575#1604#1573#1578#1589#1575#1604
+      Text = #1576#1583#1571' '#1575#1582#1578#1576#1575#1585' '#1575#1604#1575#1578#1589#1575#1604'!'
     end
     item
       IndexID = 1960
-      Text = #1610#1580#1585#1609' '#1575#1604#1601#1581#1589' :%s bytes out of %s'
+      Text = #1575#1604#1575#1582#1578#1576#1575#1585' '#1602#1610#1583' '#1575#1604#1578#1602#1583#1605': %s '#1576#1575#1610#1578' '#1605#1606' %s'
     end
     item
       IndexID = 1959
-      Text = '*Authentification Failed.'
+      Text = #1601#1588#1604' '#1575#1604#1605#1589#1575#1583#1602#1577'!'
     end
     item
       IndexID = 1958
@@ -1710,43 +1710,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1952
-      Text = '*E-Mail Server not found...'
+      Text = #1604#1605' '#1610#1578#1605' '#1575#1604#1593#1579#1608#1585' '#1593#1604#1609' '#1582#1575#1583#1605' '#1575#1604#1576#1585#1610#1583' '#1575#1604#1573#1604#1603#1578#1585#1608#1606#1610'...'
     end
     item
       IndexID = 1951
-      Text = '*<@APPNAME@> Report mail sender %s e-mail account %s'
+      Text = #1605#1585#1587#1604' '#1578#1602#1585#1610#1585' <@APPNAME@> %s '#1581#1587#1575#1576' '#1575#1604#1576#1585#1610#1583' '#1575#1604#1573#1604#1603#1578#1585#1608#1606#1610' %s'
     end
     item
       IndexID = 1950
-      Text = 'not verified. Test failed'
+      Text = #1604#1605' '#1610#1578#1605' '#1575#1604#1578#1581#1602#1602'! '#1601#1588#1604' '#1575#1604#1575#1582#1578#1576#1575#1585'!'
     end
     item
       IndexID = 1949
-      Text = '*verified'
+      Text = #1578#1605' '#1575#1604#1578#1581#1602#1602
     end
     item
       IndexID = 1948
-      Text = '*Verifying %s on server %s'
+      Text = #1575#1604#1578#1581#1602#1602' '#1605#1606' %s '#1593#1604#1609' '#1575#1604#1582#1575#1583#1605' %s'
     end
     item
       IndexID = 1947
-      Text = '&Test Net Server'
+      Text = '&'#1575#1582#1578#1576#1575#1585' '#1582#1575#1583#1605' '#1575#1604#1588#1576#1603#1577
     end
     item
       IndexID = 1946
-      Text = 'or IP Address'
+      Text = #1571#1608' '#1593#1606#1608#1575#1606' IP'
     end
     item
       IndexID = 1945
-      Text = '*Server Name'
+      Text = #1575#1587#1605' '#1575#1604#1582#1575#1583#1605
     end
     item
       IndexID = 1944
-      Text = '*Network Server ( Data Replication)'
+      Text = #1582#1575#1583#1605' '#1575#1604#1588#1576#1603#1577' ('#1578#1603#1585#1575#1585' '#1575#1604#1576#1610#1575#1606#1575#1578')'
     end
     item
       IndexID = 1943
-      Text = '*User ID'
+      Text = #1605#1593#1585#1601' '#1575#1604#1605#1587#1578#1582#1583#1605
     end
     item
       IndexID = 1942
@@ -1810,7 +1810,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1927
-      Text = '*'#1578#1587#1583#1610#1583' -'
+      Text = #1575#1604#1583#1601#1593
     end
     item
       IndexID = 1926
@@ -2042,27 +2042,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1860
-      Text = '*'#1575#1604#1608#1589#1601
+      Text = #1575#1604#1608#1589#1601
     end
     item
       IndexID = 1859
-      Text = '*90+ '#1610#1608#1605
+      Text = '90+ '#1610#1608#1605#1611#1575
     end
     item
       IndexID = 1858
-      Text = '*60 '#1610#1608#1605
+      Text = '60 '#1610#1608#1605#1611#1575
     end
     item
       IndexID = 1857
-      Text = '*30 '#1610#1608#1605
+      Text = '30 '#1610#1608#1605#1611#1575
     end
     item
       IndexID = 1856
-      Text = #1575#1604#1609
+      Text = #1575#1604#1581#1575#1604#1610
     end
     item
       IndexID = 1855
-      Text = '*'#1580#1583#1610#1583' '#1605#1580#1605#1608#1593#1577
+      Text = #1605#1580#1605#1608#1593#1577' '#1580#1583#1610#1583#1577
     end
     item
       IndexID = 1854
@@ -2602,11 +2602,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1710
-      Text = '*'#1603#1605#1610#1577
+      Text = #1575#1604#1603#1605#1610#1577
     end
     item
       IndexID = 1709
-      Text = '*'#1587#1593#1585
+      Text = #1587#1593#1585
     end
     item
       IndexID = 1708
@@ -2813,9 +2813,9 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        '*Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please' +
-        ' select an option and click on the Next button, or click on the ' +
-        'Cancel button to cancel the creation of a new Set of Books.'
+        #1605#1585#1581#1576#1611#1575' '#1576#1603' '#1601#1610' '#1605#1593#1575#1604#1580' '#1573#1606#1588#1575#1569' '#1605#1580#1605#1608#1593#1577' '#1575#1604#1603#1578#1576' '#1604#1600' <@APPNAME@>. '#1610#1585#1580#1609' '#1578#1581#1583#1610#1583 +
+        ' '#1582#1610#1575#1585' '#1608#1575#1604#1606#1602#1585' '#1593#1604#1609' '#1586#1585' '#1575#1604#1578#1575#1604#1610#1548' '#1571#1608' '#1575#1604#1606#1602#1585' '#1593#1604#1609' '#1586#1585' '#1575#1604#1573#1604#1594#1575#1569' '#1604#1573#1604#1594#1575#1569' '#1573#1606#1588#1575#1569 +
+        ' '#1605#1580#1605#1608#1593#1577' '#1603#1578#1576' '#1580#1583#1610#1583#1577'.'
     end
     item
       IndexID = 543
@@ -4245,7 +4245,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 357
-      Text = '*Reset'
+      Text = #1573#1593#1575#1583#1577' '#1578#1593#1610#1610#1606
     end
     item
       IndexID = 358
@@ -4405,7 +4405,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 401
-      Text = '*Scottish'
+      Text = 'Scottish*'
     end
     item
       IndexID = 402
@@ -4864,14 +4864,14 @@ object TTranslationSaveObject
     item
       IndexID = 512
       Text = 
-        '*WARNING this will overwrite your current Set of Books! Are you ' +
-        'sure you want to continue?'
+        #1578#1581#1584#1610#1585': '#1607#1584#1575' '#1587#1610#1602#1608#1605' '#1576#1575#1604#1603#1578#1575#1576#1577' '#1601#1608#1602' '#1605#1580#1605#1608#1593#1577' '#1575#1604#1603#1578#1576' '#1575#1604#1581#1575#1604#1610#1577'! '#1607#1604' '#1571#1606#1578' '#1605#1578#1571#1603#1583 +
+        ' '#1571#1606#1603' '#1578#1585#1610#1583' '#1575#1604#1605#1578#1575#1576#1593#1577#1567
     end
     item
       IndexID = 513
       Text = 
-        '*Please insert your backup disk in the drive and continue, or '#1573#1604 +
-        #1594#1575#1569' the operation now.'
+        #1610#1585#1580#1609' '#1573#1583#1582#1575#1604' '#1602#1585#1589' '#1575#1604#1606#1587#1582' '#1575#1604#1575#1581#1578#1610#1575#1591#1610' '#1601#1610' '#1605#1581#1585#1603' '#1575#1604#1571#1602#1585#1575#1589' '#1608#1575#1604#1605#1578#1575#1576#1593#1577#1548' '#1571#1608' '#1573#1604#1594 +
+        #1575#1569' '#1575#1604#1593#1605#1604#1610#1577' '#1575#1604#1570#1606'.'
     end
     item
       IndexID = 514
@@ -5173,7 +5173,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 633
-      Text = '*Select Pastel Data folder !!!'
+      Text = #1575#1582#1578#1585' '#1605#1580#1604#1583' '#1576#1610#1575#1606#1575#1578' Pastel !!!'
     end
     item
       IndexID = 635
@@ -5253,11 +5253,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 655
-      Text = ' '#1603#1605#1610#1577#1575#1604#1591#1604#1576
+      Text = #1575#1604#1603#1605#1610#1577' '#1575#1604#1605#1591#1604#1608#1576#1577
     end
     item
       IndexID = 656
-      Text = '*'#1603#1605#1610#1577' Ship'
+      Text = #1575#1604#1603#1605#1610#1577' '#1575#1604#1605#1588#1581#1608#1606#1577
     end
     item
       IndexID = 657
@@ -5343,9 +5343,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 679
-      Text = 
-        '*Cannot  have the same '#1605#1583#1601#1608#1593#1575#1578' '#1585#1586#1605#1577' type as another Bank account' +
-        '!'
+      Text = #1604#1575' '#1610#1605#1603#1606' '#1571#1606' '#1610#1603#1608#1606' '#1606#1608#1593' '#1583#1601#1593#1577' '#1575#1604#1605#1583#1601#1608#1593#1575#1578' '#1607#1608' '#1606#1601#1587#1607' '#1604#1581#1587#1575#1576' '#1576#1606#1603#1610' '#1570#1582#1585'!'
     end
     item
       IndexID = 680
@@ -5501,7 +5499,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 718
-      Text = 'Or Trouble on Network Maped Drive'
+      Text = #1571#1608' '#1605#1588#1603#1604#1577' '#1601#1610' '#1605#1581#1585#1603' '#1575#1604#1571#1602#1585#1575#1589' '#1575#1604#1605#1593#1610#1606' '#1593#1604#1609' '#1575#1604#1588#1576#1603#1577
     end
     item
       IndexID = 719
@@ -5673,7 +5671,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 763
-      Text = '*Balance brought forward when posting'
+      Text = #1575#1604#1585#1589#1610#1583' '#1575#1604#1605#1581#1608#1604' '#1593#1606#1583' '#1575#1604#1578#1585#1581#1610#1604
     end
     item
       IndexID = 764
@@ -6232,7 +6230,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902
-      Text = 'Zipping '#1610#1580#1585#1609' '#1603#1576#1587' '#1575#1604#1605#1604#1601
+      Text = #1590#1594#1591
     end
     item
       IndexID = 903
@@ -6354,7 +6352,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = '*Gen BB/F'
+      Text = #1573#1606#1588#1575#1569' '#1585#1589#1610#1583' '#1575#1604#1576#1583#1575#1610#1577'/'#1575#1604#1606#1607#1575#1610#1577
     end
     item
       IndexID = 934
@@ -6628,7 +6626,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1001
-      Text = '*Windows '#1573#1593#1578#1610#1575#1583#1609
+      Text = #1575#1604#1573#1593#1583#1575#1583#1575#1578' '#1575#1604#1575#1601#1578#1585#1575#1590#1610#1577' '#1604#1606#1592#1575#1605' Windows'
     end
     item
       IndexID = 1002
@@ -7060,7 +7058,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1114
-      Text = '*Service'
+      Text = #1582#1583#1605#1577
     end
     item
       IndexID = 1115
@@ -7396,11 +7394,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1197
-      Text = '*<@APPNAME@> Support'
+      Text = #1583#1593#1605' <@APPNAME@>'
     end
     item
       IndexID = 1198
-      Text = '*<@APPNAME@> Support page'
+      Text = #1589#1601#1581#1577' '#1583#1593#1605' <@APPNAME@>'
     end
     item
       IndexID = 1199
@@ -7594,7 +7592,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1246
-      Text = '*Cashed up (In the Drawer)'
+      Text = #1575#1604#1606#1602#1583#1610#1577' '#1601#1610' '#1575#1604#1583#1585#1580
     end
     item
       IndexID = 1247
@@ -7842,15 +7840,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1308
-      Text = #1580#1575#1585#1613' '#1578#1581#1605#1610#1604' '#1587#1580#1604#1575#1578' Message.db'
+      Text = #1578#1581#1605#1610#1604' '#1587#1580#1604#1575#1578' Message.db'
     end
     item
       IndexID = 1309
-      Text = #1610#1580#1585#1609' '#1590#1594#1591' Message.db'
+      Text = #1590#1594#1591' Message.db'
     end
     item
       IndexID = 1310
-      Text = '*Error Filling table structure'
+      Text = #1582#1591#1571': '#1578#1593#1576#1574#1577' '#1607#1610#1603#1604' '#1575#1604#1580#1583#1608#1604'!'
     end
     item
       IndexID = 1311
@@ -8182,19 +8180,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1393
-      Text = '*Baud Rate'
+      Text = #1605#1593#1583#1604' '#1575#1604#1576#1575#1608#1583
     end
     item
       IndexID = 1394
-      Text = '*Data Bits'
+      Text = #1576#1578#1575#1578' '#1575#1604#1576#1610#1575#1606#1575#1578
     end
     item
       IndexID = 1395
-      Text = '*Stop Bits'
+      Text = #1576#1578#1608#1602#1610#1601
     end
     item
       IndexID = 1396
-      Text = '*Parity'
+      Text = #1575#1604#1578#1603#1575#1601#1572
     end
     item
       IndexID = 1397
@@ -8202,23 +8200,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1398
-      Text = '*Comfirm Printing'
+      Text = #1578#1571#1603#1610#1583' '#1575#1604#1591#1576#1575#1593#1577
     end
     item
       IndexID = 1399
-      Text = '*Use First Printer'
+      Text = #1575#1587#1578#1582#1583#1575#1605' '#1575#1604#1591#1575#1576#1593#1577' '#1575#1604#1571#1608#1604#1609
     end
     item
       IndexID = 1400
-      Text = '*Use Second Printer'
+      Text = #1575#1587#1578#1582#1583#1575#1605' '#1575#1604#1591#1575#1576#1593#1577' '#1575#1604#1579#1575#1606#1610#1577
     end
     item
       IndexID = 1401
-      Text = '*Second Printer'
+      Text = #1575#1604#1591#1575#1576#1593#1577' '#1575#1604#1579#1575#1606#1610#1577
     end
     item
       IndexID = 1402
-      Text = '*First Printer'
+      Text = #1575#1604#1591#1575#1576#1593#1577' '#1575#1604#1571#1608#1604#1609
     end
     item
       IndexID = 1403
@@ -8226,7 +8224,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1404
-      Text = 'Printer Control Code'
+      Text = #1603#1608#1583' '#1578#1581#1603#1605' '#1575#1604#1591#1575#1576#1593#1577
     end
     item
       IndexID = 1405
@@ -8238,15 +8236,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1407
-      Text = '*Dotmatrix Printer Paper Setup'
+      Text = #1573#1593#1583#1575#1583' '#1608#1585#1602' '#1591#1575#1576#1593#1577' '#1575#1604#1605#1589#1601#1608#1601#1577' '#1575#1604#1606#1602#1591#1610#1577
     end
     item
       IndexID = 1408
-      Text = '*Data Parameters'
+      Text = #1605#1593#1604#1605#1575#1578' '#1575#1604#1606#1592#1575#1605
     end
     item
       IndexID = 1409
-      Text = '*POS Setup'
+      Text = #1573#1593#1583#1575#1583' '#1606#1602#1591#1577' '#1575#1604#1576#1610#1593
     end
     item
       IndexID = 1410
@@ -8266,7 +8264,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1414
-      Text = '*To enable access use :Setup->System Parameters->Access Control'
+      Text = #1578#1605#1603#1610#1606' '#1575#1604#1608#1589#1608#1604' '#1601#1610' '#1575#1604#1573#1593#1583#1575#1583#1575#1578' -> '#1575#1604#1578#1581#1603#1605' '#1601#1610' '#1575#1604#1608#1589#1608#1604
     end
     item
       IndexID = 2239
@@ -8286,7 +8284,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2243
-      Text = '*Y'
+      Text = #1606#1593#1605
     end
     item
       IndexID = 2244
@@ -8470,7 +8468,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2290
-      Text = '*TTY/TDD'
+      Text = 'TTY/TDD'
     end
     item
       IndexID = 2291
@@ -9214,7 +9212,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2776
-      Text = 'Unable to allocate memory for XML source'
+      Text = #1594#1610#1585' '#1602#1575#1583#1585' '#1593#1604#1609' '#1578#1582#1589#1610#1589' '#1584#1575#1603#1585#1577' '#1604#1605#1589#1583#1585' XML!'
     end
     item
       IndexID = 2777
@@ -9226,11 +9224,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2779
-      Text = 'Unable to send HTTP request'
+      Text = #1594#1610#1585' '#1602#1575#1583#1585' '#1593#1604#1609' '#1573#1585#1587#1575#1604' '#1591#1604#1576' HTTP!'
     end
     item
       IndexID = 2780
-      Text = 'Unable to open HTTP request'
+      Text = #1594#1610#1585' '#1602#1575#1583#1585' '#1593#1604#1609' '#1601#1578#1581' '#1591#1604#1576' HTTP'
     end
     item
       IndexID = 2781
@@ -9258,7 +9256,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2787
-      Text = 'Unable to open FTP file'
+      Text = #1594#1610#1585' '#1602#1575#1583#1585' '#1593#1604#1609' '#1601#1578#1581' '#1605#1604#1601' FTP!'
     end
     item
       IndexID = 2788
@@ -9294,7 +9292,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2796
-      Text = 'System identifier missing'
+      Text = #1605#1593#1585#1601' '#1575#1604#1606#1592#1575#1605' '#1605#1601#1602#1608#1583
     end
     item
       IndexID = 2797
@@ -9314,7 +9312,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2801
-      Text = 'Unexpected end of file'
+      Text = #1606#1607#1575#1610#1577' '#1594#1610#1585' '#1605#1578#1608#1602#1593#1577' '#1604#1604#1605#1604#1601'!'
     end
     item
       IndexID = 2802
@@ -9350,7 +9348,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2810
-      Text = 'Unable to create stream for input.'
+      Text = #1594#1610#1585' '#1602#1575#1583#1585' '#1593#1604#1609' '#1573#1606#1588#1575#1569' '#1578#1583#1601#1602' '#1604#1604#1573#1583#1582#1575#1604'.'
     end
     item
       IndexID = 2811
@@ -9426,7 +9424,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2829
-      Text = 'There is invalid data after valid XML document'
+      Text = #1607#1606#1575#1603' '#1576#1610#1575#1606#1575#1578' '#1594#1610#1585' '#1589#1575#1604#1581#1577' '#1576#1593#1583' '#1608#1579#1610#1602#1577' XML '#1589#1575#1604#1581#1577'!'
     end
     item
       IndexID = 2830
@@ -9470,7 +9468,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2840
-      Text = 'Unexpected end of document stream'
+      Text = #1606#1607#1575#1610#1577' '#1594#1610#1585' '#1605#1578#1608#1602#1593#1577' '#1604#1578#1583#1601#1602' '#1575#1604#1605#1587#1578#1606#1583
     end
     item
       IndexID = 2841
@@ -9530,7 +9528,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2855
-      Text = 'TCanvas not assigned'
+      Text = 'TCanvas '#1594#1610#1585' '#1605#1593#1610#1606
     end
     item
       IndexID = 2856
@@ -9852,11 +9850,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2935
-      Text = 'Pole Display'
+      Text = #1588#1575#1588#1577' '#1575#1604#1593#1585#1590' '#1575#1604#1602#1591#1576#1610#1577
     end
     item
       IndexID = 2936
-      Text = 'Pole Display Connected'
+      Text = #1588#1575#1588#1577' '#1575#1604#1593#1585#1590' '#1575#1604#1602#1591#1576#1610#1577' '#1605#1578#1589#1604#1577
     end
     item
       IndexID = 2937
@@ -9892,7 +9890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2946
-      Text = 'Round POS End Amount'
+      Text = #1578#1602#1585#1610#1576' '#1605#1576#1604#1594' '#1606#1607#1575#1610#1577' '#1606#1602#1591#1577' '#1575#1604#1576#1610#1593
     end
     item
       IndexID = 2947
@@ -9994,7 +9992,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2972
-      Text = 'Select from delemited list'
+      Text = #1575#1582#1578#1610#1575#1585' '#1605#1606' '#1602#1575#1574#1605#1577' '#1605#1601#1589#1608#1604#1577
     end
     item
       IndexID = 2973
@@ -10194,7 +10192,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Use Link Tax'
+      Text = #1575#1587#1578#1582#1583#1575#1605' '#1590#1585#1610#1576#1577' '#1575#1604#1585#1576#1591
     end
     item
       IndexID = 3054
@@ -10222,11 +10220,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3022
-      Text = 'Set reportinggroup 1'
+      Text = #1578#1593#1610#1610#1606' '#1605#1580#1605#1608#1593#1577' '#1575#1604#1578#1602#1575#1585#1610#1585' 1'
     end
     item
       IndexID = 3023
-      Text = 'Set reportinggroup 2'
+      Text = #1578#1593#1610#1610#1606' '#1605#1580#1605#1608#1593#1577' '#1575#1604#1578#1602#1575#1585#1610#1585' 2'
     end
     item
       IndexID = 3024
@@ -10270,7 +10268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3034
-      Text = 'Remember inc'
+      Text = #1578#1584#1603#1585' '#1588#1605#1608#1604#1610#1575
     end
     item
       IndexID = 3035
@@ -10286,7 +10284,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3038
-      Text = 'Openitem Account'
+      Text = #1581#1587#1575#1576' '#1575#1604#1593#1606#1575#1589#1585' '#1575#1604#1605#1601#1578#1608#1581#1577
     end
     item
       IndexID = 3039
@@ -10314,11 +10312,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3045
-      Text = 'Like search for strings'
+      Text = #1576#1581#1579' '#1593#1606' '#1575#1604#1587#1604#1575#1587#1604' '#1575#1604#1606#1589#1610#1577
     end
     item
       IndexID = 3046
-      Text = 'Sub-total'
+      Text = #1575#1604#1605#1580#1605#1608#1593' '#1575#1604#1601#1585#1593#1610
     end
     item
       IndexID = 3047
@@ -10346,7 +10344,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3060
-      Text = 'Subaccounts'
+      Text = #1575#1604#1581#1587#1575#1576#1575#1578' '#1575#1604#1601#1585#1593#1610#1577
     end
     item
       IndexID = 3061
@@ -10399,8 +10397,8 @@ object TTranslationSaveObject
     item
       IndexID = 3074
       Text = 
-        'Theres still accounts using this group please remove them first!' +
-        ' (Firts account ='
+        #1604#1575' '#1578#1586#1575#1604' '#1607#1606#1575#1603' '#1581#1587#1575#1576#1575#1578' '#1578#1587#1578#1582#1583#1605' '#1607#1584#1607' '#1575#1604#1605#1580#1605#1608#1593#1577#1548' '#1610#1585#1580#1609' '#1573#1586#1575#1604#1578#1607#1575' '#1571#1608#1604#1575#1611'! '#1575#1604#1581 +
+        #1587#1575#1576' '#1575#1604#1571#1608#1604
     end
     item
       IndexID = 3075
@@ -10408,7 +10406,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3076
-      Text = 'Theres still stock using this group please remove them first!'
+      Text = #1604#1575' '#1610#1586#1575#1604' '#1607#1606#1575#1603' '#1605#1582#1586#1608#1606' '#1610#1587#1578#1582#1583#1605' '#1607#1584#1607' '#1575#1604#1605#1580#1605#1608#1593#1577'! '#1610#1585#1580#1609' '#1573#1586#1575#1604#1578#1607' '#1571#1608#1604#1575#1611'!'
     end
     item
       IndexID = 3077
@@ -10436,7 +10434,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3083
-      Text = 'This item is out of stock! Auto adjusting quantitity!'
+      Text = #1607#1584#1575' '#1575#1604#1593#1606#1589#1585' '#1594#1610#1585' '#1605#1578#1608#1601#1585' '#1601#1610' '#1575#1604#1605#1582#1586#1608#1606'! '#1610#1578#1605' '#1578#1593#1583#1610#1604' '#1575#1604#1603#1605#1610#1577' '#1578#1604#1602#1575#1574#1610#1611#1575'!'
     end
     item
       IndexID = 3084
@@ -10476,7 +10474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3093
-      Text = 'Transaction Date'
+      Text = #1578#1575#1585#1610#1582' '#1575#1604#1605#1593#1575#1605#1604#1577
     end
     item
       IndexID = 3094
@@ -11493,7 +11491,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Select Stock Item>'
+      Text = '<'#1575#1582#1578#1585' '#1593#1606#1589#1585' '#1575#1604#1605#1582#1586#1608#1606'>'
     end
     item
       IndexID = 901010
@@ -11509,7 +11507,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901013
-      Text = 'Start Date'
+      Text = #1578#1575#1585#1610#1582' '#1575#1604#1573#1601#1578#1578#1575#1581
     end
     item
       IndexID = 901014
@@ -11549,7 +11547,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902000
-      Text = 'Price Agreement'
+      Text = #1575#1578#1601#1575#1602#1610#1577' '#1575#1604#1587#1593#1585
     end
     item
       IndexID = 902001
@@ -11837,7 +11835,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906008
-      Text = 'Total Paid'
+      Text = #1573#1580#1605#1575#1604#1610' '#1575#1604#1605#1583#1601#1608#1593
     end
     item
       IndexID = 906009
@@ -11957,11 +11955,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906037
-      Text = 'Sales Hours'
+      Text = #1587#1575#1593#1575#1578' '#1575#1604#1605#1576#1610#1593#1575#1578
     end
     item
       IndexID = 906038
-      Text = 'Stock Movement'
+      Text = #1581#1585#1603#1577' '#1575#1604#1605#1582#1586#1608#1606
     end
     item
       IndexID = 906039
@@ -11969,7 +11967,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906040
-      Text = 'Yagoda Barcode'
+      Text = #1576#1575#1585#1603#1608#1583' '#1610#1575#1594#1608#1583#1575
     end
     item
       IndexID = 906041
@@ -11981,11 +11979,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906043
-      Text = 'Sales by Customer Group'
+      Text = #1575#1604#1605#1576#1610#1593#1575#1578' '#1604#1603#1604' '#1605#1580#1605#1608#1593#1577' '#1593#1605#1604#1575#1569
     end
     item
       IndexID = 906044
-      Text = 'Sales by Stock Group'
+      Text = #1575#1604#1605#1576#1610#1593#1575#1578' '#1604#1603#1604' '#1605#1580#1605#1608#1593#1577' '#1605#1582#1586#1608#1606
     end
     item
       IndexID = 906045
@@ -12065,7 +12063,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3326
-      Text = 'Openitem'
+      Text = #1593#1606#1589#1585' '#1605#1601#1578#1608#1581
     end
     item
       IndexID = 3327
@@ -12161,14 +12159,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input asossiated with this project do you wish' +
-        ' to continue ? all project data will be lost'
+        #1607#1606#1575#1603' '#1573#1583#1582#1575#1604' '#1605#1587#1578#1606#1583' '#1605#1585#1578#1576#1591' '#1576#1607#1584#1575' '#1575#1604#1605#1588#1585#1608#1593'! '#1607#1604' '#1578#1585#1594#1576' '#1601#1610' '#1575#1604#1605#1578#1575#1576#1593#1577#1567' '#1587#1610#1578#1605' '#1601 +
+        #1602#1583#1575#1606' '#1580#1605#1610#1593' '#1576#1610#1575#1606#1575#1578' '#1575#1604#1605#1588#1585#1608#1593'!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input asossiated with this project do you w' +
-        'ish to continue ? all project data will be lost'
+        #1607#1606#1575#1603' '#1573#1583#1582#1575#1604' '#1605#1593#1575#1605#1604#1575#1578' '#1605#1585#1578#1576#1591' '#1576#1607#1584#1575' '#1575#1604#1605#1588#1585#1608#1593'! '#1607#1604' '#1578#1585#1594#1576' '#1601#1610' '#1575#1604#1605#1578#1575#1576#1593#1577#1567' '#1587#1610#1578#1605 +
+        ' '#1601#1602#1583#1575#1606' '#1580#1605#1610#1593' '#1576#1610#1575#1606#1575#1578' '#1575#1604#1605#1588#1585#1608#1593'!'
     end
     item
       IndexID = 3351
@@ -12188,7 +12186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3355
-      Text = 'Transfare transactions'
+      Text = #1578#1581#1608#1610#1604' '#1575#1604#1605#1593#1575#1605#1604#1575#1578
     end
     item
       IndexID = 3356
@@ -12229,8 +12227,8 @@ object TTranslationSaveObject
     item
       IndexID = 3365
       Text = 
-        'Stock Qty has been changed do you want to retain the current dat' +
-        'abase data?'
+        #1578#1605' '#1578#1594#1610#1610#1585' '#1603#1605#1610#1577' '#1575#1604#1605#1582#1586#1608#1606'! '#1607#1604' '#1578#1585#1594#1576' '#1601#1610' '#1575#1604#1575#1581#1578#1601#1575#1592' '#1576#1576#1610#1575#1606#1575#1578' '#1602#1575#1593#1583#1577' '#1575#1604#1576#1610#1575#1606#1575 +
+        #1578' '#1575#1604#1581#1575#1604#1610#1577#1567
     end
     item
       IndexID = 3366
@@ -12242,7 +12240,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3368
-      Text = 'Standard Column balance'
+      Text = #1571#1585#1589#1583#1577' '#1575#1604#1571#1593#1605#1583#1577' '#1575#1604#1602#1610#1575#1587#1610#1577
     end
     item
       IndexID = 3369
@@ -12296,7 +12294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3381
-      Text = 'Stockcheck'
+      Text = #1601#1581#1589' '#1575#1604#1605#1582#1586#1608#1606
     end
     item
       IndexID = 3382
@@ -12316,7 +12314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3386
-      Text = 'Sql browser'
+      Text = #1605#1578#1589#1601#1581' SQL'
     end
     item
       IndexID = 3387
@@ -12356,7 +12354,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3396
-      Text = 'RETAIL Pos'
+      Text = #1606#1602#1591#1577' '#1576#1610#1593' '#1575#1604#1578#1580#1586#1574#1577
     end
     item
       IndexID = 3397
@@ -12404,7 +12402,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'Postalcode / tax id / regno lookup'
+      Text = #1576#1581#1579' '#1575#1604#1585#1605#1586' '#1575#1604#1576#1585#1610#1583#1610' / '#1585#1602#1605' '#1575#1604#1590#1585#1610#1576#1577' / '#1585#1602#1605' '#1575#1604#1578#1587#1580#1610#1604
     end
     item
       IndexID = 3410
@@ -12475,7 +12473,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3426
-      Text = 'Rental / reservations'
+      Text = #1575#1604#1573#1610#1580#1575#1585' / '#1575#1604#1581#1580#1608#1586#1575#1578
     end
     item
       IndexID = 3427
@@ -12571,7 +12569,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3450
-      Text = 'Use point'
+      Text = #1606#1602#1591#1577' '#1575#1604#1575#1587#1578#1582#1583#1575#1605
     end
     item
       IndexID = 3451
@@ -12647,7 +12645,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3478
-      Text = 'Sync Email'
+      Text = #1605#1586#1575#1605#1606#1577' '#1575#1604#1576#1585#1610#1583' '#1575#1604#1573#1604#1603#1578#1585#1608#1606#1610
     end
     item
       IndexID = 3479
@@ -12723,11 +12721,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3497
-      Text = 'Stepname'
+      Text = #1575#1587#1605' '#1575#1604#1582#1591#1608#1577
     end
     item
       IndexID = 3498
-      Text = 'Stepdata'
+      Text = #1576#1610#1575#1606#1575#1578' '#1575#1604#1582#1591#1608#1577
     end
     item
       IndexID = 3499
@@ -12841,7 +12839,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3526
-      Text = 'Openitems with paydate from'
+      Text = #1575#1604#1593#1606#1575#1589#1585' '#1575#1604#1605#1601#1578#1608#1581#1577' '#1605#1593' '#1578#1575#1585#1610#1582' '#1575#1604#1583#1601#1593' '#1605#1606
     end
     item
       IndexID = 3527
@@ -12909,7 +12907,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3542
-      Text = 'Search sql'
+      Text = #1576#1581#1579' SQL'
     end
     item
       IndexID = 3543
@@ -13049,11 +13047,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906062
-      Text = 'Selected Debtor Label'
+      Text = #1578#1587#1605#1610#1577' '#1575#1604#1605#1583#1610#1606' '#1575#1604#1605#1581#1583#1583
     end
     item
       IndexID = 906063
-      Text = 'Selected Creditor Label'
+      Text = #1578#1587#1605#1610#1577' '#1575#1604#1583#1575#1574#1606' '#1575#1604#1605#1581#1583#1583
     end
     item
       IndexID = 906064
@@ -13061,11 +13059,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906065
-      Text = 'Selected Debtor Delivery Label'
+      Text = #1578#1587#1605#1610#1577' '#1578#1587#1604#1610#1605' '#1575#1604#1605#1583#1610#1606' '#1575#1604#1605#1581#1583#1583
     end
     item
       IndexID = 906066
-      Text = 'Selected Creditor Delivery Label'
+      Text = #1578#1587#1605#1610#1577' '#1578#1587#1604#1610#1605' '#1575#1604#1583#1575#1574#1606' '#1575#1604#1605#1581#1583#1583
     end
     item
       IndexID = 906067
@@ -13145,7 +13143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906085
-      Text = 'Tax on Tax Account'
+      Text = #1581#1587#1575#1576' '#1575#1604#1590#1585#1610#1576#1577' '#1593#1604#1609' '#1575#1604#1590#1585#1610#1576#1577
     end
     item
       IndexID = 906086
@@ -13185,11 +13183,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906094
-      Text = 'Total Balance'
+      Text = #1573#1580#1605#1575#1604#1610' '#1575#1604#1585#1589#1610#1583
     end
     item
       IndexID = 906095
-      Text = 'Total Lines'
+      Text = #1573#1580#1605#1575#1604#1610' '#1575#1604#1571#1587#1591#1585
     end
     item
       IndexID = 906096
@@ -13213,7 +13211,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906101
-      Text = 'Unposted Batch'
+      Text = #1575#1604#1583#1601#1593#1577' '#1594#1610#1585' '#1575#1604#1605#1585#1581#1617#1604#1577
     end
     item
       IndexID = 906102
@@ -13261,7 +13259,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906113
-      Text = 'Period Quantity'
+      Text = #1575#1604#1603#1605#1610#1577' '#1604#1604#1601#1578#1585#1577
     end
     item
       IndexID = 906114
@@ -13281,7 +13279,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906118
-      Text = 'Stock Group'
+      Text = #1605#1580#1605#1608#1593#1577' '#1575#1604#1605#1582#1586#1608#1606
     end
     item
       IndexID = 906119
@@ -13357,7 +13355,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906137
-      Text = 'Postal Address Labels'
+      Text = #1605#1604#1589#1602#1575#1578' '#1575#1604#1593#1606#1575#1608#1610#1606' '#1575#1604#1576#1585#1610#1583#1610#1577
     end
     item
       IndexID = 906138
@@ -13457,7 +13455,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906162
-      Text = 'Unprinted Document Listing'
+      Text = #1602#1575#1574#1605#1577' '#1575#1604#1605#1587#1578#1606#1583#1575#1578' '#1594#1610#1585' '#1575#1604#1605#1591#1576#1608#1593#1577
     end
     item
       IndexID = 906163
@@ -13505,11 +13503,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906174
-      Text = 'Sales by Product - Stock Group 1'
+      Text = #1575#1604#1605#1576#1610#1593#1575#1578' '#1604#1603#1604' '#1605#1606#1578#1580' - '#1605#1580#1605#1608#1593#1577' '#1575#1604#1605#1582#1586#1608#1606' 1'
     end
     item
       IndexID = 906175
-      Text = 'Sales by Product - Stock Group 2'
+      Text = #1575#1604#1605#1576#1610#1593#1575#1578' '#1604#1603#1604' '#1605#1606#1578#1580' - '#1605#1580#1605#1608#1593#1577' '#1575#1604#1605#1582#1586#1608#1606' 2'
     end
     item
       IndexID = 906176
@@ -13521,11 +13519,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906178
-      Text = 'Stock In'
+      Text = #1573#1590#1575#1601#1577' '#1575#1604#1605#1582#1586#1608#1606
     end
     item
       IndexID = 906179
-      Text = 'Stock Out'
+      Text = #1589#1585#1601' '#1575#1604#1605#1582#1586#1608#1606
     end
     item
       IndexID = 906180
@@ -13869,7 +13867,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906265
-      Text = 'Tax Report'
+      Text = #1578#1602#1585#1610#1585' '#1575#1604#1590#1585#1575#1574#1576
     end
     item
       IndexID = 903101
@@ -14359,7 +14357,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3583
-      Text = 'Save gridlayout'
+      Text = #1581#1601#1592' '#1578#1582#1591#1610#1591' '#1575#1604#1588#1576#1603#1577
     end
     item
       IndexID = 3584
@@ -16114,7 +16112,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906443
-      Text = 'Ref. No.'
+      Text = #1585#1602#1605' '#1575#1604#1605#1585#1580#1593
     end
     item
       IndexID = 906444
