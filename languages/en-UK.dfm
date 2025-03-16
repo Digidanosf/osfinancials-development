@@ -5739,7 +5739,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1398
-      Text = 'Comfirm printing'
+      Text = 'Confirm printing'
     end
     item
       IndexID = 1399
@@ -6847,7 +6847,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1959
-      Text = 'Authentification failed!'
+      Text = 'Authentication failed!'
     end
     item
       IndexID = 1958
@@ -8487,7 +8487,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2251
-      Text = 'No Window'#39's timers are available!'
+      Text = 'No Windows timers are available!'
     end
     item
       IndexID = 2249
@@ -10097,11 +10097,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2939
-      Text = '2 X 20 chars POS Poll'
+      Text = '2 X 20 chars POS Pole'
     end
     item
       IndexID = 2938
-      Text = 'Default POS Poll'
+      Text = 'Default POS Pole'
     end
     item
       IndexID = 2937
@@ -10109,11 +10109,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2936
-      Text = 'Poll display connected'
+      Text = 'Pole display connected'
     end
     item
       IndexID = 2935
-      Text = 'Poll display'
+      Text = 'Pole display'
     end
     item
       IndexID = 2934
@@ -10591,7 +10591,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3073
-      Text = 'Group still has nesteled groups! Remove them first!'
+      Text = 'Group still has nested groups remove them first!'
     end
     item
       IndexID = 3074
@@ -10615,7 +10615,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3078
-      Text = 'Account code already exist!'
+      Text = 'Account code already exists!'
     end
     item
       IndexID = 3079
@@ -11229,8 +11229,8 @@ object TTranslationSaveObject
     item
       IndexID = 906000
       Text = 
-        'In spite of previous reminders, according to our records your ac' +
-        'count is still overdue.'
+        'Despite previous reminders, according to our records your accoun' +
+        't is still overdue. '
     end
     item
       IndexID = 906001
@@ -12242,9 +12242,9 @@ object TTranslationSaveObject
       IndexID = 3276
       Text = 
         'Bank import extra link functions. Enter bank account for exact m' +
-        'atch on account. Enter text with a # prefix to look inside a imp' +
-        'orted'#13#10'bank line to see if the text is in that string. Text will' +
-        ' be searched in the uppercase.'
+        'atch on account. Enter text with a # prefix to look inside an im' +
+        'ported'#13#10'bank line to see if the text is in that string. Text wil' +
+        'l be searched in the uppercase.'
     end
     item
       IndexID = 3277
@@ -12581,13 +12581,13 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input asossiated with this project! Do you wis' +
+        'There is document input associated with this project! Do you wis' +
         'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input asossiated with this project! Do you ' +
+        'There is transaction input associated with this project! Do you ' +
         'wish to continue ? All project data will be lost!'
     end
     item
@@ -12644,7 +12644,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3364
-      Text = 'No remaker entered process aborted!'
+      Text = 'No remark entered, process aborted!'
     end
     item
       IndexID = 3365
@@ -12889,7 +12889,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this PC can not find)'
+      Text = 'Delete not local (Books this PC cannot find)'
     end
     item
       IndexID = 3425
@@ -14103,7 +14103,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3471
-      Text = 'I have read this instruction and I understand the action!'
+      Text = 'I have read this instruction, and I understand the action!'
     end
     item
       IndexID = 3472

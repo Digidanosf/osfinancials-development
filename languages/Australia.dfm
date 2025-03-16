@@ -8155,7 +8155,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2186
-      Text = 'Bank account recon options'
+      Text = 'Bank statement options'
     end
     item
       IndexID = 2185
@@ -9989,11 +9989,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2939
-      Text = '2 X 20 chars POS Poll'
+      Text = '2 X 20 chars POS Pole'
     end
     item
       IndexID = 2938
-      Text = 'Default POS Poll'
+      Text = 'Default POS Pole'
     end
     item
       IndexID = 2937
@@ -10001,11 +10001,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2936
-      Text = 'Poll display connected'
+      Text = 'Pole display connected'
     end
     item
       IndexID = 2935
-      Text = 'Poll display'
+      Text = 'Pole display'
     end
     item
       IndexID = 2934
@@ -11121,8 +11121,8 @@ object TTranslationSaveObject
     item
       IndexID = 906000
       Text = 
-        'In spite of previous reminders, according to our records your ac' +
-        'count is still overdue.'
+        'Despite previous reminders, according to our records your accoun' +
+        't is still overdue. '
     end
     item
       IndexID = 906001
