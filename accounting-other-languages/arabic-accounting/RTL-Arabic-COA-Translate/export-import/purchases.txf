@@ -1,0 +1,580 @@
+<?xml version="1.0" standalone="yes"?>
+<TCASH3 ID="77SP80" TXT="SYL">
+<booksname>HANDYMAN-B</booksname>
+<txf><acclist><accinfo><code>C2AONES</code>
+<accid>98</accid>
+<description>A-ONE Suppliers</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>1</bopenitem>
+<binactive>0</binactive>
+<group1>Creditor group 1B</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>P O Box 31318</spostal1>
+<spostal2>Marshalltown</spostal2>
+<spostal3>Johannesburg</spostal3>
+<spostalcode>2000</spostalcode>
+<sdelivery1>Austin Street</sdelivery1>
+<sdelivery2>Marshalltown</sdelivery2>
+<sdelivery3>Johannesburg</sdelivery3>
+<stelephone1>(011) 838-9221</stelephone1>
+<stelephone2>(011) 838-9222</stelephone2>
+<sfax>(011) 838-9223</sfax>
+<semail>aones@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>12000</fcreditlimit>
+<fchargeamount>10</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>906012345</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2024/02/16 17:59:11</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>123459060</scompanyregno>
+<sfreefield1>2.5% Early settlement discount</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<sdeliverycode/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo><accinfo><code>T860020</code>
+<accid>85</accid>
+<description>Input VAT - Standard rate -15%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current liabilities</group1>
+<group2>Current liabilities2</group2>
+<sdescription/>
+<dstartdate>1899/12/30</dstartdate>
+<denddate>1899/12/30</denddate>
+<frate>15</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>T860010</code>
+<accid>89</accid>
+<description>Output VAT - 15%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current liabilities</group1>
+<group2>Current liabilities2</group2>
+<sdescription/>
+<dstartdate/>
+<denddate/>
+<frate>15</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>G010000</code>
+<accid>50</accid>
+<description>Sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Income</group1>
+<group2>Income2</group2>
+</accinfo><accinfo><code>G100000</code>
+<accid>51</accid>
+<description>Cost of sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Income</group1>
+<group2>Income2</group2>
+</accinfo><accinfo><code>G750000</code>
+<accid>74</accid>
+<description>Stock control</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current assets</group1>
+<group2>Current assets2</group2>
+</accinfo><accinfo><code>C2BESTS</code>
+<accid>99</accid>
+<description>BEST Suppliers</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Creditor group 1B</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>P O Box 45532</spostal1>
+<spostal2>Halfway House</spostal2>
+<spostal3/>
+<spostalcode>1685</spostalcode>
+<sdelivery1>Best Street</sdelivery1>
+<sdelivery2>Halfway House</sdelivery2>
+<sdelivery3/>
+<stelephone1>(011) 310-3110</stelephone1>
+<stelephone2/>
+<sfax>(011) 310-3111</sfax>
+<semail>best@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>15</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>1234567892</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2024/02/16 17:59:11</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>2987654321</scompanyregno>
+<sfreefield1>2.5% Early settlement discount</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<sdeliverycode/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo><accinfo><code>C2ABCSC</code>
+<accid>97</accid>
+<description>ABC-Service-Centre</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Creditor group 1C</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>PO Box 9999</spostal1>
+<spostal2>Lakeside</spostal2>
+<spostal3>Johannesburg</spostal3>
+<spostalcode>2122</spostalcode>
+<sdelivery1>Metro Building</sdelivery1>
+<sdelivery2>Lake Street</sdelivery2>
+<sdelivery3>Lakeside</sdelivery3>
+<stelephone1>(011)313-9997</stelephone1>
+<stelephone2>(011)313-9998</stelephone2>
+<sfax>(011)313-9999</sfax>
+<semail>abc@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>3333333333</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2024/02/16 17:59:11</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>6666666666</scompanyregno>
+<sfreefield1>2.5% Early settlement discount</sfreefield1>
+<sfreefield2>30 Days guarantee</sfreefield2>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<sdeliverycode/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo><accinfo><code>C2ABCOS</code>
+<accid>96</accid>
+<description>ABC-Office-Supplies</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>1</bopenitem>
+<binactive>0</binactive>
+<group1>Creditor group 1C</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>PO Box 8888</spostal1>
+<spostal2>Lakeview</spostal2>
+<spostal3>Johannesburg</spostal3>
+<spostalcode>2012</spostalcode>
+<sdelivery1>Lake Street 444</sdelivery1>
+<sdelivery2>Lakeview</sdelivery2>
+<sdelivery3>Johannesburg</sdelivery3>
+<stelephone1>(011)312-9997</stelephone1>
+<stelephone2>(011)312-9998</stelephone2>
+<sfax>(011)312-9999</sfax>
+<semail>officesupplies@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>4444444444</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2024/02/16 17:59:11</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>5555555555</scompanyregno>
+<sfreefield1>2.5% Early settlement discount</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<sdeliverycode/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo></acclist>
+<stocklist><stockinfo><code>3DRILL</code><wstockid>2</wstockid><description>Drill press</description><barcode>1234567890</barcode><manufacturer>Bosch</manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>3COMP</code><wstockid>3</wstockid><description>Compressor</description><barcode>3456789123</barcode><manufacturer>CMP</manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>GL-CODE</code><wstockid>9</wstockid><description>General ledger</description><barcode></barcode><manufacturer></manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo></stocklist><doclist>
+<doctrans><docinfo><docid>11</docid>
+<acctcode>2AONES</acctcode>
+<accttypeid>2</accttypeid>
+<type>12</type>
+<date>20240405</date>
+<number>PU000003</number>
+<reference>4562</reference>
+<printed>0</printed>
+<posted>1</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1725</docamount>
+<taxamount>225</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Russell</salesperson>
+<postcompany>A-ONE Suppliers</postcompany>
+<postcontact>Austin Andy</postcontact>
+<delcompany>A-ONE Suppliers</delcompany>
+<delcontact>Austin Andy</delcontact>
+<taxref>906012345</taxref>
+<postal1>P O Box 31318</postal1>
+<postal2>Marshalltown</postal2>
+<postal3>Johannesburg</postal3>
+<postalcode>2000</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>Early settlement discount of</msg1>
+<msg2>2.5%, if paid within 30 days.</msg2>
+<msg3>Ref:OR000002</msg3>
+<deladdr1>Austin Street</deladdr1>
+<deladdr2>Marshalltown</deladdr2>
+<deladdr3>Johannesburg</deladdr3>
+<delcode>2001</delcode>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1B</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20240305 041826</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>11</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>3DRILL</stockcode>
+<description>Drill press</description>
+<qtyordered>3</qtyordered>
+<qtyshipped>3</qtyshipped>
+<sellingprice>500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1725</inclusiveamt>
+<exclusiveamt>1500</exclusiveamt>
+<taxamount>225</taxamount>
+<taxcode>860020</taxcode>
+<stockcode>3DRILL</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>11</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>Industrial</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>12</docid>
+<acctcode>2BESTS</acctcode>
+<accttypeid>2</accttypeid>
+<type>12</type>
+<date>20240406</date>
+<number>PU000004</number>
+<reference>3532</reference>
+<printed>0</printed>
+<posted>1</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>2300</docamount>
+<taxamount>300</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Russell</salesperson>
+<postcompany>BEST Suppliers</postcompany>
+<postcontact>Ben Best</postcontact>
+<delcompany>BEST Suppliers</delcompany>
+<delcontact>Ben Best</delcontact>
+<taxref>1234567892</taxref>
+<postal1>P O Box 45532</postal1>
+<postal2>Halfway House</postal2>
+<postal3/>
+<postalcode>1685</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>Early settlement discount of</msg1>
+<msg2>2.5%, if paid within 30 days.</msg2>
+<msg3/>
+<deladdr1>Best Street</deladdr1>
+<deladdr2>Halfway House</deladdr2>
+<deladdr3/>
+<delcode/>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1B</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20240305 041827</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>12</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>3COMP</stockcode>
+<description>Compressor</description>
+<qtyordered>2</qtyordered>
+<qtyshipped>2</qtyshipped>
+<sellingprice>1000</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>2300</inclusiveamt>
+<exclusiveamt>2000</exclusiveamt>
+<taxamount>300</taxamount>
+<taxcode>860020</taxcode>
+<stockcode>3COMP</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>12</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>Serial no.: COMP1234567890
+Serial no.: COMP1234567891</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>3</docid>
+<acctcode>2ABCSC</acctcode>
+<accttypeid>2</accttypeid>
+<type>12</type>
+<date>20240314</date>
+<number>PU000001</number>
+<reference>AAB234GP</reference>
+<printed>2</printed>
+<posted>1</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1150</docamount>
+<taxamount>150</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Russell</salesperson>
+<postcompany>ABC-Service-Centre</postcompany>
+<postcontact>Xavier Brown</postcontact>
+<delcompany>ABC-Service-Centre</delcompany>
+<delcontact>Xavier Brown</delcontact>
+<taxref>3333333333</taxref>
+<postal1>PO Box 9999</postal1>
+<postal2>Lakeside</postal2>
+<postal3>Johannesburg</postal3>
+<postalcode>2122</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>Please confirm extras</msg1>
+<msg2/>
+<msg3>Ref:OR000001</msg3>
+<deladdr1>Metro Building</deladdr1>
+<deladdr2>Lake Street</deladdr2>
+<deladdr3>Lakeside</deladdr3>
+<delcode/>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1A</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20240305 040616</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>3</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>GL-CODE</stockcode>
+<description>Motor vehicles - Maintenance</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>400</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>460</inclusiveamt>
+<exclusiveamt>400</exclusiveamt>
+<taxamount>60</taxamount>
+<taxcode>860020</taxcode>
+<stockcode>GL-CODE</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>3</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>Service delivery van</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem><lineitem><docid>3</docid>
+<type>90</type>
+<linenbr>3</linenbr>
+<stockcode>GL-CODE</stockcode>
+<description>Motor vehicles - Repairs</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>600</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>690</inclusiveamt>
+<exclusiveamt>600</exclusiveamt>
+<taxamount>90</taxamount>
+<taxcode>860020</taxcode>
+<stockcode>GL-CODE</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>3</docid>
+<type>91</type>
+<linenbr>4</linenbr>
+<stockcode/>
+<description>5 x New Tyres Fitting and balancing</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>4</docid>
+<acctcode>2ABCOS</acctcode>
+<accttypeid>2</accttypeid>
+<type>12</type>
+<date>20240315</date>
+<number>PU000002</number>
+<reference>IN0014</reference>
+<printed>0</printed>
+<posted>1</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1725</docamount>
+<taxamount>225</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>No group</salesperson>
+<postcompany>ABC-Office-Supplies</postcompany>
+<postcontact>Penny Walters</postcontact>
+<delcompany>ABC-Office-Supplies</delcompany>
+<delcontact>Penny Walters</delcontact>
+<taxref>4444444444</taxref>
+<postal1>PO Box 8888</postal1>
+<postal2>Lakeview</postal2>
+<postal3>Johannesburg</postal3>
+<postalcode>2012</postalcode>
+<poscountry/>
+<msg1>Early settlement discount of</msg1>
+<msg2>2.5%, if paid within 30 days.</msg2>
+<msg3/>
+<deladdr1>Lake Street 444</deladdr1>
+<deladdr2>Lakeview</deladdr2>
+<deladdr3>Johannesburg</deladdr3>
+<delcode/>
+<delcountry/>
+<repgroup1>Document group 1A</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20240305 040616</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>4</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>GL-CODE</stockcode>
+<description>Furniture &amp; fittings @ cost</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>1500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1725</inclusiveamt>
+<exclusiveamt>1500</exclusiveamt>
+<taxamount>225</taxamount>
+<taxcode>860020</taxcode>
+<stockcode>GL-CODE</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>4</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>Installation of office equipment</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans>
+</doclist>
+</txf></TCASH3>

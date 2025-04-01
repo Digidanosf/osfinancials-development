@@ -1,0 +1,380 @@
+
+Contents
+Types table	2
+Error	2
+Accounts	3
+General ledger	3
+Debtor	4
+Creditor	4
+Bank account	4
+Tax account	4
+Is GST applicable in Any of the Arabic jurisdictions?	5
+Document types	8
+Invoice	8
+Credit note	8
+Purchase	8
+Supplier return	8
+Quote	8
+Order	8
+Adjustment	8
+Statement	9
+Remittance	9
+Delivery note	9
+Reporting Groups	10
+Account group1	10
+Account group1	10
+Account group2	11
+Debtor group1	11
+Debtor group2	11
+Creditor group 1	11
+Creditor group 2	11
+Stock group1	11
+Stock group2	11
+Document group1	12
+Document group2	12
+Payment types	12
+Salespersons	12
+Projects	12
+Cost centre 1	12
+Cost centre 2	12
+Languages	12
+Types themes	12
+Types – Papertypes	13
+Preprinted	13
+Plain	13
+Service	13
+Forty	13
+ABS1	13
+Till slip	13
+New plain	13
+Types (TurboCASH3 Report writer)	13
+Stock item	14
+Comment	14
+Serial number	14
+Financial entry	14
+Customise Languages – Rest tab	14
+Empty account	14
+No group	14
+
+
+
+Types table 
+Error 
+Dynamic SQL Error replicated in Firebird database types on the following screens:
+* Tools -> Customise languages Types tab
+* Setup -> Groups (Reporting group name) The groups can be translated.
+* Setup ->  Stock information (Selling price 1, Selling price 2 and Selling price 3) fields (Can only exit the Stock information screen once you have changed it back to the English translation.
+* Setup -> Batch types
+* Setup -> Accounts - Bank accounts – Bank tab
+* Setup -> Access control 
+Dynamic SQL Error
+SQL error code = -303
+arithmetic exception, numeric overflow, or string truncation
+NOTE : In MSSQL database types, this error is not replicated.
+Accounts
+General ledger
+NOTE: The translation of "Ledger" in Arabic (Modern Standard Arabic) is:
+"???? ???????"
+(Daftar Al-Astadh)
+Brief Description:
+A ledger is a book or digital record that contains all the financial accounts of a business, such as assets, liabilities, revenues, and expenses. It is used to summarize and organize financial transactions for reporting and analysis.
+The term "General Ledger" translates to ???? ??????? ????? in Arabic. This refers to the primary accounting record that contains all the financial transactions of a business, organized by accounts such as assets, liabilities, equity, revenue, and expenses.
+
+Translation:
+* General Ledger: ???? ??????? ?????
+
+Usage in a Sentence:
+* English: All transactions are recorded in the general ledger for accurate financial reporting.
+* Arabic: ??? ????? ???? ????????? ?? ???? ??????? ????? ?????? ???????? ??????? ????.
+
+Related Terms:
+English TermArabic TermChart of Accounts???? ????????Journal Entries?????? ???????Trial Balance????? ????????Financial Statements??????? ???????Subsidiary Ledger???? ??????? ??????
+Debtor 
+Arabic: ?????? (Al-Mud?n)
+Explanation:
+A debtor is an individual or entity that owes money to another party (the creditor).
+In accounting, this term is used to describe someone who has a financial obligation to repay a debt.
+Creditor 
+Arabic: ?????? (Al-D??in)
+Explanation:
+A creditor is an individual or entity to whom money is owed by another party (the debtor).
+In accounting, this term refers to someone who has the right to receive payment for a debt or obligation.
+Bank account
+Arabic: ?????? ?????? (Al-?is?b al-Bank?)
+Explanation:
+A bank account is a financial account maintained by a bank for a customer, where deposits, withdrawals, and other transactions are recorded.
+It is used to manage funds, make payments, and track financial activities.
+Tax account
+Arabic: ?????? ??????? (Al-?is?b al-?ar?b?)
+Explanation:
+A tax account is a record maintained by a taxpayer or tax authority to track tax-related transactions, such as payments, refunds, and liabilities.
+It is used to ensure compliance with tax regulations and calculate the amount owed or refundable.
+Tax account - this is related to VAT/GST/Sales Tax accounts only
+Thank you for the clarification! If Tax Account specifically refers to VAT/GST/Sales Tax accounts, the translation and explanation can be refined to reflect this context. Here's the updated information:
+
+Tax Account (VAT/GST/Sales Tax)
+* Arabic: ?????? ??????? ?????? ???????/??????? ??? ????? ????????
+(Al-?is?b al-?ar?b? lil-Q?ma al-Mu??fa/?ar?bat ?al? al-Sil?? wa-l-Khadam?t)
+* Explanation:
+o A Tax Account in this context refers to an account specifically used to track VAT (Value Added Tax), GST (Goods and Services Tax), or Sales Tax transactions.
+o It records tax collected from customers, tax paid to suppliers, and the resulting tax liability or refund.
+o This account is essential for businesses to comply with tax regulations and file accurate tax returns.
+
+Example Usage in a Sentence
+* English: "The company maintains a separate tax account for VAT to ensure accurate reporting and compliance."
+* Arabic: "????? ?????? ????? ????? ????? ?????? ??????? ????? ??????? ?????? ?????????."
+(Ta?tafi? al-Sharika bi-?is?b ?ar?b? munfa?il lil-Q?ma al-Mu??fa li-?am?n al-Ibl?gh al-Daq?q wa-l-Imti??l.)
+
+Key Points
+* VAT/GST/Sales Tax are indirect taxes levied on the sale of goods and services.
+* The Tax Account is used to manage these taxes, ensuring proper calculation, payment, and reporting to tax authorities.
+
+Is GST applicable in Any of the Arabic jurisdictions?
+Goods and Services Tax (GST) is not commonly applied in Arabic-speaking jurisdictions. Instead, most countries in the region use Value Added Tax (VAT) or other forms of sales tax. However, the implementation and rates of VAT vary across countries. Below is an overview of VAT/GST applicability in key Arabic jurisdictions:
+
+1. Gulf Cooperation Council (GCC) Countries
+* Saudi Arabia:
+o VAT: Introduced in 2018 at a standard rate of 15% (increased from 5% in 2020).
+o GST: Not applicable.
+* United Arab Emirates (UAE):
+o VAT: Introduced in 2018 at a standard rate of 5%.
+o GST: Not applicable.
+* Qatar:
+o VAT: Not yet implemented, but plans are underway as part of the GCC VAT framework.
+o GST: Not applicable.
+* Oman:
+o VAT: Introduced in 2021 at a standard rate of 5%.
+o GST: Not applicable.
+* Kuwait:
+o VAT: Not yet implemented, but plans are in place as part of the GCC VAT framework.
+o GST: Not applicable.
+* Bahrain:
+o VAT: Introduced in 2019 at a standard rate of 5%.
+o GST: Not applicable.
+
+2. North Africa (Maghreb)
+* Egypt:
+o VAT: Introduced in 2016 at a standard rate of 14% (increased to 15% in 2020).
+o GST: Not applicable.
+* Morocco:
+o VAT: Standard rate of 20%.
+o GST: Not applicable.
+* Tunisia:
+o VAT: Standard rate of 19%.
+o GST: Not applicable.
+* Algeria:
+o VAT: Standard rate of 19%.
+o GST: Not applicable.
+* Libya:
+o VAT: Not implemented.
+o GST: Not applicable.
+
+3. Levant Region
+* Jordan:
+o VAT: Standard rate of 16%.
+o GST: Not applicable.
+* Lebanon:
+o VAT: Standard rate of 11%.
+o GST: Not applicable.
+* Syria:
+o VAT: Standard rate of 14%.
+o GST: Not applicable.
+* Iraq:
+o VAT: Not implemented.
+o GST: Not applicable.
+* Palestine:
+o VAT: Standard rate of 16%.
+o GST: Not applicable.
+
+4. Other Arabic Countries
+* Yemen:
+o VAT: Not implemented.
+o GST: Not applicable.
+* Sudan:
+o VAT: Not implemented.
+o GST: Not applicable.
+* Mauritania:
+o VAT: Standard rate of 16%.
+o GST: Not applicable.
+
+Key Takeaways
+* VAT is the predominant form of indirect tax in Arabic-speaking jurisdictions.
+* GST is not applicable in any Arabic jurisdiction.
+* VAT rates and implementation timelines vary by country, with some countries (e.g., Libya, Iraq, Kuwait) yet to implement VAT.
+* The GCC countries have been gradually introducing VAT as part of a unified framework, with Saudi Arabia, UAE, Oman, and Bahrain already implementing it.
+
+Conclusion
+If you are working with financial or accounting systems in Arabic jurisdictions, you will primarily encounter VAT rather than GST. Ensure that your software or reports are configured to handle the specific VAT rules and rates applicable in the target country. 
+Document types
+Invoice
+Arabic: ?????? (F?t?ra)
+Explanation: A document issued by a seller to a buyer, detailing the products or services provided, their quantities, prices, and the total amount due.
+Credit note
+Arabic: ????? ???? (Ish??r D??in)
+Explanation: A document issued by a seller to a buyer to reduce the amount owed, typically due to returned goods, overpayment, or a pricing error.
+Purchase 
+Arabic: ???? (Shir??)
+Explanation: A document or transaction record that confirms the acquisition of goods or services by a buyer from a supplier.
+Supplier return
+Arabic: ????? ?????? (Murtaja? al-Mawrid)
+Explanation: A document issued when goods are returned to a supplier, typically due to defects, incorrect shipments, or other issues.
+Quote 
+Arabic: ??? ??? (?Ar? al-Si?r)
+Explanation: A document provided by a seller to a potential buyer, outlining the proposed prices for goods or services before an order is placed.
+Order
+Arabic: ??? ???? (Amr Shir??)
+Explanation: A document issued by a buyer to a seller, formally requesting the supply of specified goods or services.
+Adjustment 
+Arabic: ????? (Taswiya)
+Explanation: A document or entry made to correct or adjust financial records, such as inventory levels, account balances, or pricing errors.
+Statement
+Arabic: ??? ???? (Kashf ?is?b)
+Explanation: A document issued by a seller or service provider to a customer, summarizing transactions, payments, and outstanding balances over a specific period.
+Remittance
+Arabic: ????? ???? (Ta?w?l M?l?)
+Explanation: A document or notification confirming the transfer of funds from one party to another, often used in the context of payments to suppliers or employees.
+Delivery note
+Arabic: ????? ????? (Ish??r Tasl?m)
+Explanation: A document accompanying a shipment of goods, detailing the items delivered and serving as proof of delivery.
+Summary Table
+Document TypeArabic TranslationExplanationInvoice?????? (F?t?ra)A bill issued by a seller to a buyer for goods or services.Credit Note????? ???? (Ish??r D??in)A document reducing the amount owed by a buyer.Purchase???? (Shir??)A record of goods or services acquired by a buyer.Supplier Return????? ?????? (Murtaja? al-Mawrid)A document for returning goods to a supplier.Quote??? ??? (?Ar? al-Si?r)A price proposal for goods or services.Order??? ???? (Amr Shir??)A formal request for goods or services from a buyer to a seller.Adjustment????? (Taswiya)A correction or adjustment to financial records.Statement??? ???? (Kashf ?is?b)A summary of transactions and balances.Remittance????? ???? (Ta?w?l M?l?)A document confirming the transfer of funds.Delivery Note????? ????? (Ish??r Tasl?m)A document detailing goods delivered to a buyer.Notes:
+These translations are in Modern Standard Arabic (MSA), which is universally understood across Arabic-speaking countries.
+Reporting Groups 
+Account group1
+Account Reporting group1
+The term "Account Reporting Group 1" translates to ?????? ?????? ???????? 1 in Arabic. This refers to a categorization or grouping of accounts used for financial reporting purposes, often to organize accounts based on specific criteria (e.g., type, function, or department).
+
+Translation:
+* Account Reporting Group 1: ?????? ?????? ???????? 1
+
+Breakdown of the Term:
+* Account: ????????
+* Reporting: ??????
+* Group: ??????
+* 1: 1 (remains the same in Arabic)
+
+Usage in a Sentence:
+* English: The accounts in Reporting Group 1 are used for tracking operational expenses.
+* Arabic: ??????? ???????? ?? ?????? ?????? ???????? 1 ????? ????????? ?????????.
+
+Related Terms:
+English TermArabic TermAccount Group?????? ????????Financial Reporting???????? ???????Chart of Accounts???? ????????Reporting Category??? ????????Account Classification????? ????????
+Account group1
+Arabic: ?????? ???????? 1 (Majm??at al-?is?b?t 1)
+Explanation: A primary classification of accounts based on their type or purpose (e.g., assets, liabilities, income, expenses).
+Account group2
+Arabic: ?????? ???????? 2 (Majm??at al-?is?b?t 2)
+Explanation: A secondary classification of accounts for further categorization or grouping.
+Debtor group1
+Arabic: ?????? ???????? 1 (Majm??at al-Mud?n?n 1)
+Explanation: A classification or grouping of debtors (customers who owe money) based on specific criteria, such as credit terms or risk level.
+Debtor group2
+Arabic: ?????? ???????? 2 (Majm??at al-Mud?n?n 2)
+Explanation: A secondary classification or grouping of debtors, often used for further categorization.
+Creditor group 1
+The translation of "Creditor group 1" in Arabic (Modern Standard Arabic) is:
+"?????? ???????? 1"
+(Majmu'at Al-Da'inin 1)
+Brief Description:
+A creditor group refers to a classification or category of creditors (entities or individuals to whom money is owed). Creditor group 1 typically represents a specific set of creditors grouped together for organizational or reporting purposes.
+Creditor group 2
+The translation of "Creditor group " in Arabic (Modern Standard Arabic) is:
+"?????? ???????? 2"
+(Majmu'at Al-Da'inin 2)
+Brief Description:
+A secondary classification or grouping of creditors, often used for further categorization.
+Stock group1
+Arabic: ?????? ??????? 1 (Majm??at al-Makhz?n 1)
+Explanation: A classification of inventory items based on specific criteria, such as product type, category, or usage.
+Stock group2
+Arabic: ?????? ??????? 2 (Majm??at al-Makhz?n 2)
+Explanation: A secondary classification of inventory items for further categorization.
+Document group1
+Arabic: ?????? ????????? 1 (Majm??at al-Mustanad?t 1)
+Explanation: A classification of documents based on their type or purpose (e.g., invoices, purchase orders).
+Document group2
+Arabic: ?????? ????????? 2 (Majm??at al-Mustanad?t 2)
+Explanation: A secondary classification of documents for further categorization.
+Payment types
+Arabic: ????? ????? (Anw?? al-Daf?)
+Explanation: Categories or methods of payment, such as cash, credit card, bank transfer, etc.
+Salespersons
+Arabic: ?????? ???????? (Mund?b? al-Mab???t)
+Explanation: Individuals responsible for selling products or services to customers.
+Projects
+Arabic: ???????? (Al-Mash?r??)
+Explanation: Specific tasks or initiatives undertaken by a business, often tracked separately for budgeting and reporting purposes.
+Cost centre 1
+Arabic: ???? ??????? 1 (Markaz al-Taklifa 1)
+Explanation: A division or department within an organization for which costs are tracked separately.
+Cost centre 2
+Arabic: ???? ??????? 2 (Markaz al-Taklifa 2)
+Explanation: A secondary cost centre for further categorization of expenses.
+Languages
+Arabic: ?????? (Al-Lugh?t)
+Explanation: The languages supported or used within a system or organization.
+Types themes 
+The following 6 themes was only applicable to TurboCASH3 and is not translated:
+Classic, Brilliant, Pastel, Keywest, NewSA and Windows default.
+NOTE : Translation not necessary. All TurboCASH3 Themes were redesigned in TurboCASH4/TurboCASH5 and includes its own themes maintained in the ‘bin/themes’ folder. 
+Types – Papertypes 
+Preprinted 
+"????? ??????"
+(Matbu' Musbaqan)
+Paper that has been printed with content (e.g., logos, headers) before being used.
+Plain
+"????"
+('Adi)
+Plain or blank paper without any preprinted content.
+Service 
+"????"
+(Khidmah)
+Refers to paper used for service-related purposes, such as receipts or invoices.
+Forty
+"??????"
+(Arba'un)
+Likely refers to a specific type or size of paper (e.g., 40gsm paper).
+ABS1
+"ABS1"
+(ABS1)
+A specific paper type or model (retains the same name in Arabic).
+Till slip
+"????? ???????"
+(Irsal Al-Sunduq)
+A receipt or slip printed at a cash register (till).
+New plain
+"???? ????"
+('Adi Jadeed)
+Refers to a new type of plain paper.
+Types (TurboCASH3 Report writer) 
+The following 15 records is used in TurboCASH3 Report writer and is not applicable in TurboCASH5:
+Account, Blank, Column line, Group1, Group1 Detail, Group2, Group2 Detail, Single line, Text, Budget, Formulae, Last year and This year.
+NOTE : Translation not necessary. All TurboCASH3 Reports were redesigned using the Report Designer (Reportman) in TurboCASH4 and TurboCASH5. 
+Stock item 
+Arabic: ???? ??????? (?Un?ur al-Makhz?n)
+Explanation: A product or item that is part of the inventory, tracked for stock management purposes.
+Comment 
+Arabic: ????? (Ta?l?q)
+Explanation: A note or remark added to provide additional information or context.
+Serial number
+Arabic: ????? ???????? (Al-Raqam al-Tasalsul?)
+Explanation: A unique identifier assigned to a specific item for tracking and identification purposes.
+Financial entry 
+"????? ????"
+(Idkhal Mali)
+A financial transaction or entry.
+Customise Languages – Rest tab
+Empty account
+The translation of "Empty account" in Arabic (Modern Standard Arabic) is:
+"???? ????"
+(Hisab Fariq)
+Brief Description:
+An empty account refers to an account in accounting or financial systems that has no transactions, balances, or entries recorded in it. It may be a newly created account or one that has been cleared of all data.
+No group
+The translation of "No group" in Arabic (Modern Standard Arabic) is:
+"?? ???? ??????"
+(La Tujad Majmu'ah)
+Brief Description:
+No group indicates that there is no assigned or existing group for a specific item, account, or entity. It is often used in contexts where grouping or categorization is expected but not applied.
+
+

@@ -1,0 +1,473 @@
+<?xml version="1.0" standalone="yes"?>
+<TCASH3 ID="77SP80" TXT="SYL">
+<booksname>HANDYMAN-B</booksname>
+<txf><acclist><accinfo><code>D1MDAVI</code>
+<accid>94</accid>
+<description>Mr. Mike Davies</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>1</bopenitem>
+<binactive>0</binactive>
+<group1>Debtor group 1B</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>P O Box 333</spostal1>
+<spostal2>Halfway House</spostal2>
+<spostal3/>
+<spostalcode>1685</spostalcode>
+<sdelivery1>195 AZ Street</sdelivery1>
+<sdelivery2>Eastern Areas</sdelivery2>
+<sdelivery3>Halfway House</sdelivery3>
+<sdeliverycode>1686</sdeliverycode>
+<stelephone1>(011) 315-1225</stelephone1>
+<stelephone2>083 286-8763</stelephone2>
+<sfax>(011) 315-1226</sfax>
+<semail>mike@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<screditcardnumber/>
+<dexpirydate/>
+<screditcardtype/>
+<screditcardholder/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<fdiscount>0</fdiscount>
+<finterest>0</finterest>
+<bopenitem/>
+<bpostbbf/>
+<bdisabled/>
+<smessage>Please refer any queries to our accounts</smessage>
+<dlastactivity>1899/12/30</dlastactivity>
+<sreference>336012345</sreference>
+<dsysdate>2024/02/16 15:33:26</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>543212345</scompanyregno>
+<sfreefield1>department</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<dremittance/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+</accinfo><accinfo><code>T860020</code>
+<accid>85</accid>
+<description>Input VAT - Standard rate -15%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current liabilities</group1>
+<group2>Current liabilities2</group2>
+<sdescription/>
+<dstartdate>1899/12/30</dstartdate>
+<denddate>1899/12/30</denddate>
+<frate>15</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>T860010</code>
+<accid>89</accid>
+<description>Output VAT - 15%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current liabilities</group1>
+<group2>Current liabilities2</group2>
+<sdescription/>
+<dstartdate/>
+<denddate/>
+<frate>15</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>G010000</code>
+<accid>50</accid>
+<description>Sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Income</group1>
+<group2>Income2</group2>
+</accinfo><accinfo><code>G100000</code>
+<accid>51</accid>
+<description>Cost of sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Income</group1>
+<group2>Income2</group2>
+</accinfo><accinfo><code>G750000</code>
+<accid>74</accid>
+<description>Stock control</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Current assets</group1>
+<group2>Current assets2</group2>
+</accinfo><accinfo><code>D1ABGRE</code>
+<accid>90</accid>
+<description>Mr. AB Green</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>1</bopenitem>
+<binactive>0</binactive>
+<group1>Debtor group 1C</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>PO Box 1111</spostal1>
+<spostal2>Lakeside</spostal2>
+<spostal3>Johannesburg</spostal3>
+<spostalcode>2122</spostalcode>
+<sdelivery1>Green Street</sdelivery1>
+<sdelivery2>Lakeside</sdelivery2>
+<sdelivery3>Johannesburg</sdelivery3>
+<sdeliverycode>2123</sdeliverycode>
+<stelephone1>(011)314-9997</stelephone1>
+<stelephone2>(011)314-9998</stelephone2>
+<sfax>(011)314-9999</sfax>
+<semail>green@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<screditcardnumber/>
+<dexpirydate/>
+<screditcardtype/>
+<screditcardholder/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<fdiscount>0</fdiscount>
+<finterest>0</finterest>
+<bopenitem/>
+<bpostbbf/>
+<bdisabled/>
+<smessage>Please refer any queries to our accounts</smessage>
+<dlastactivity>1899/12/30</dlastactivity>
+<sreference>111111111</sreference>
+<dsysdate>2024/02/16 15:33:26</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>222222222</scompanyregno>
+<sfreefield1>department</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<dremittance/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+</accinfo><accinfo><code>D1ROGSM</code>
+<accid>95</accid>
+<description>Mr. Roger Smith</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>Debtor group 1B</group1>
+<group2>Unallocated</group2>
+<spassword/>
+<spostal1>Plot 539 Boxer Road</spostal1>
+<spostal2>Glen Austin Ext 3</spostal2>
+<spostal3>Midrand</spostal3>
+<spostalcode>1685</spostalcode>
+<sdelivery1>Plot 539 Boxer Road</sdelivery1>
+<sdelivery2>Glen Austin Ext 3</sdelivery2>
+<sdelivery3>Midrand</sdelivery3>
+<sdeliverycode>1686</sdeliverycode>
+<stelephone1>(011) 310-1677</stelephone1>
+<stelephone2/>
+<sfax>(011) 310-1678</sfax>
+<semail>smith@hismail.com</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<screditcardnumber/>
+<dexpirydate/>
+<screditcardtype/>
+<screditcardholder/>
+<fcreditlimit>12000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<fdiscount>0</fdiscount>
+<finterest>0</finterest>
+<bopenitem/>
+<bpostbbf/>
+<bdisabled/>
+<smessage>Please refer any queries to our accounts</smessage>
+<dlastactivity>1899/12/30</dlastactivity>
+<sreference>342023456</sreference>
+<dsysdate>2024/02/16 15:33:26</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>South Africa</spostcountries_id>
+<sdelcountries_id>South Africa</sdelcountries_id>
+<scompanyregno>56105681045</scompanyregno>
+<sfreefield1>department</sfreefield1>
+<sfreefield2/>
+<sfreefield3/>
+<slanguage>English</slanguage>
+<dremittance/>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite/>
+</accinfo></acclist>
+<stocklist><stockinfo><code>3DRILL</code><wstockid>2</wstockid><description>Drill press</description><barcode>1234567890</barcode><manufacturer>Bosch</manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>4L-PAINT-E</code><wstockid>7</wstockid><description>Paint - Exterior</description><barcode></barcode><manufacturer></manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>4L-PAINT-E</code><wstockid>7</wstockid><description>Paint - Exterior</description><barcode></barcode><manufacturer></manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>3COMP</code><wstockid>3</wstockid><description>Compressor</description><barcode>3456789123</barcode><manufacturer>CMP</manufacturer><intax>T860020</intax><Outax>T860010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo></stocklist><doclist>
+<doctrans><docinfo><docid>13</docid>
+<acctcode>1MDAVI</acctcode>
+<accttypeid>1</accttypeid>
+<type>14</type>
+<date>20240401</date>
+<number>QU000002</number>
+<reference>D-101</reference>
+<printed>0</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1150</docamount>
+<taxamount>150</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Tracy</salesperson>
+<postcompany>Mr. Mike Davies</postcompany>
+<postcontact>Mike Davies</postcontact>
+<delcompany>Mr. Mike Davies</delcompany>
+<delcontact>Mike Davies</delcontact>
+<taxref>336012345</taxref>
+<postal1>P O Box 333</postal1>
+<postal2>Halfway House</postal2>
+<postal3/>
+<postalcode>1685</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>This quote is valid for 14</msg1>
+<msg2>days only!</msg2>
+<msg3/>
+<deladdr1>195 AZ Street</deladdr1>
+<deladdr2>Eastern Areas</deladdr2>
+<deladdr3>Halfway House</deladdr3>
+<delcode>1686</delcode>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1A</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20241103 045206</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>13</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>3DRILL</stockcode>
+<description>Drill press</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>1000</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1150</inclusiveamt>
+<exclusiveamt>1000</exclusiveamt>
+<taxamount>150</taxamount>
+<taxcode>860010</taxcode>
+<stockcode>3DRILL</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>13</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>1 year guarantee</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>19</docid>
+<acctcode>1ABGRE</acctcode>
+<accttypeid>1</accttypeid>
+<type>14</type>
+<date>20240503</date>
+<number>QU000003</number>
+<reference>PH-103</reference>
+<printed>0</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1150</docamount>
+<taxamount>150</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>No group</salesperson>
+<postcompany>Mr. AB Green</postcompany>
+<postcontact>Andrew Green</postcontact>
+<delcompany>Mr. AB Green</delcompany>
+<delcontact>Andrew Green</delcontact>
+<taxref>111111111</taxref>
+<postal1>PO Box 1111</postal1>
+<postal2>Lakeside</postal2>
+<postal3>Johannesburg</postal3>
+<postalcode>2122</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1/>
+<msg2/>
+<msg3/>
+<deladdr1>Green Street</deladdr1>
+<deladdr2>Lakeside</deladdr2>
+<deladdr3>Johannesburg</deladdr3>
+<delcode>2122</delcode>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1B</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20241212 172942</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>19</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>4L-PAINT-E</stockcode>
+<description>03-05-2024 Russell</description>
+<qtyordered>2</qtyordered>
+<qtyshipped>2</qtyshipped>
+<sellingprice>500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1150</inclusiveamt>
+<exclusiveamt>1000</exclusiveamt>
+<taxamount>150</taxamount>
+<taxcode>860010</taxcode>
+<stockcode>4L-PAINT-E</stockcode>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>5</docid>
+<acctcode>1ABGRE</acctcode>
+<accttypeid>1</accttypeid>
+<type>14</type>
+<date>20240301</date>
+<number>QU000001</number>
+<reference>AB-IN110</reference>
+<printed>2</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1150</docamount>
+<taxamount>150</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Russell</salesperson>
+<postcompany>Mr. AB Green</postcompany>
+<postcontact>Andrew Green</postcontact>
+<delcompany>Mr. AB Green</delcompany>
+<delcontact>Andrew Green</delcontact>
+<taxref>111111111</taxref>
+<postal1>PO Box 1111</postal1>
+<postal2>Lakeside</postal2>
+<postal3>Johannesburg</postal3>
+<postalcode>2122</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>This quote is valid for 14</msg1>
+<msg2>days only!</msg2>
+<msg3/>
+<deladdr1>Green Street</deladdr1>
+<deladdr2>Lakeside</deladdr2>
+<deladdr3>Johannesburg</deladdr3>
+<delcode>2123</delcode>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1B</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20241103 045219</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>5</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>4L-PAINT-E</stockcode>
+<description>Paint - Exterior</description>
+<qtyordered>2</qtyordered>
+<qtyshipped>2</qtyshipped>
+<sellingprice>500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1150</inclusiveamt>
+<exclusiveamt>1000</exclusiveamt>
+<taxamount>150</taxamount>
+<taxcode>860010</taxcode>
+<stockcode>4L-PAINT-E</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>5</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>Paint - White</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>21</docid>
+<acctcode>1ROGSM</acctcode>
+<accttypeid>1</accttypeid>
+<type>14</type>
+<date>20240503</date>
+<number>QU000004</number>
+<reference/>
+<printed>0</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1725</docamount>
+<taxamount>225</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>Tracy</salesperson>
+<postcompany>Mr. Roger Smith</postcompany>
+<postcontact>Roger Smith</postcontact>
+<delcompany>Mr. Roger Smith</delcompany>
+<delcontact>Roger Smith</delcontact>
+<taxref>342023456</taxref>
+<postal1>Plot 539 Boxer Road</postal1>
+<postal2>Glen Austin Ext 3</postal2>
+<postal3>Midrand</postal3>
+<postalcode>1685</postalcode>
+<poscountry>South Africa</poscountry>
+<msg1>This quote is valid for 14</msg1>
+<msg2>days only!</msg2>
+<msg3/>
+<deladdr1>Plot 539 Boxer Road</deladdr1>
+<deladdr2>Glen Austin Ext 3</deladdr2>
+<deladdr3>Midrand</deladdr3>
+<delcode>1686</delcode>
+<delcountry>South Africa</delcountry>
+<repgroup1>Document group 1A</repgroup1>
+<repgroup2>No group</repgroup2>
+<currency/>
+<sysdate>20241103 045306</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>21</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>3COMP</stockcode>
+<description>Compressor</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>1500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1725</inclusiveamt>
+<exclusiveamt>1500</exclusiveamt>
+<taxamount>225</taxamount>
+<taxcode>860010</taxcode>
+<stockcode>3COMP</stockcode>
+<barcode/>
+</lineitem></linesdetail></doctrans>
+</doclist>
+</txf></TCASH3>
