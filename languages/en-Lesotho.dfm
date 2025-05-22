@@ -7587,7 +7587,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2047
-      Text = 'Name'
+      Text = 'Last name'
     end
     item
       IndexID = 2046
