@@ -730,7 +730,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2207
-      Text = #1593#1606#1608#1575#1606' 3'
+      Text = #1583#1608#1604#1577
     end
     item
       IndexID = 2206
@@ -7666,7 +7666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1265
-      Text = '*T '#1605#1606#1592#1575#1585' '#1581#1587#1575#1576
+      Text = 'T '#1605#1606#1592#1575#1585' '#1581#1587#1575#1576
     end
     item
       IndexID = 1266
@@ -8858,7 +8858,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2388
-      Text = #1576#1604#1583#1577
+      Text = #1583#1608#1604#1577
     end
     item
       IndexID = 2389
@@ -8982,15 +8982,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2419
-      Text = #1605#1583#1610#1606#1577
+      Text = '2 '#1605#1583#1610#1606#1577' '
     end
     item
       IndexID = 2420
-      Text = #1608#1604#1575#1610#1577
+      Text = '3 '#1608#1604#1575#1610#1577
     end
     item
       IndexID = 2421
-      Text = #1576#1604#1583#1577
+      Text = #1583#1608#1604#1577
     end
     item
       IndexID = 2422
@@ -11862,15 +11862,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906015
-      Text = 'IBAN'
+      Text = #1585#1602#1605' '#1575#1604#1570#1610#1576#1575#1606' (IBAN)'
     end
     item
       IndexID = 906016
-      Text = 'BIC'
+      Text = #1585#1605#1586' '#1575#1604#1576#1606#1603' (BIC)'
     end
     item
       IndexID = 906017
-      Text = 'SWIFT'
+      Text = #1585#1605#1586' '#1575#1604#1587#1608#1610#1601#1578' (SWIFT)'
     end
     item
       IndexID = 906018
@@ -12569,7 +12569,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3450
-      Text = #1606#1602#1591#1577' '#1575#1604#1575#1587#1578#1582#1583#1575#1605
+      Text = #1575#1587#1578#1582#1583#1575#1605' '#1575#1604#1606#1602#1575#1591
     end
     item
       IndexID = 3451

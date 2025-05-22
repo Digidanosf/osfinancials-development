@@ -7603,7 +7603,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2047
-      Text = 'Naam'
+      Text = 'Van'
     end
     item
       IndexID = 2048
