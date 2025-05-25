@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="yes"?>
+<TCASH3 ID="77SP80" TXT="SYL">
+<booksname>AR-HNDYMAN-B</booksname>
+<txf><acclist><accinfo><code>C2ABCSC</code>
+<accid>64</accid>
+<description>مركز أي بي سي للخدمات</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>مجموعة الدائنين 1ج</group1>
+<group2>بدون مجموعة</group2>
+<spassword/>
+<spostal1>حي الصناعية، الرياض</spostal1>
+<spostal2>مجمع الخدمات، مبنى ٨</spostal2>
+<spostal3>ص.ب ١١١٢٢</spostal3>
+<spostalcode>١٢٣٤٥</spostalcode>
+<sdelivery1>منطقة جبل علي الحرة، دبي</sdelivery1>
+<sdelivery2>مستودع أي بي سي الرئيسي، بوابة ٤</sdelivery2>
+<sdelivery3>ص.ب ١١١٢٢</sdelivery3>
+<stelephone1>+971 4 333 3333</stelephone1>
+<stelephone2>+971 4 333 3334‎</stelephone2>
+<sfax>+971 4 333 3335</sfax>
+<semail>service@abc-station.ua</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>10000</fcreditlimit>
+<fchargeamount>0</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>٣٠١٢٣٤٥٦٧٨٩١٢٣٤٥</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2025/04/20 20:50:43</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>United Arab Emirates</spostcountries_id>
+<sdelcountries_id>United Arab Emirates</sdelcountries_id>
+<scompanyregno>**١٢٣٤٥</scompanyregno>
+<sfreefield1>نشكركم على تعاونكم المستمر.</sfreefield1>
+<sfreefield2>الرجاء إرسال الفواتير وفق الشروط المتفق عليها.</sfreefield2>
+<sfreefield3>للاستفسارات، يرجى التواصل مع قسم الحسابات الدائنة.</sfreefield3>
+<slanguage>English</slanguage>
+<sdeliverycode>٥٤٣٢١</sdeliverycode>
+<slayoutinvoice/>
+<slayoutcreditnote/>
+<slayoutquote/>
+<swebsite>www.abc-station.ua</swebsite>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo><accinfo><code>T850020</code>
+<accid>41</accid>
+<description>Input VAT -  5%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>الالتزامات قصيرة الأجل</group1>
+<group2>الالتزامات قصيرة الأجل 2</group2>
+<sdescription/>
+<dstartdate/>
+<denddate/>
+<frate>5</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>T850010</code>
+<accid>6</accid>
+<description>Output VAT - 5%</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>الالتزامات قصيرة الأجل</group1>
+<group2>الالتزامات قصيرة الأجل 2</group2>
+<sdescription/>
+<dstartdate/>
+<denddate/>
+<frate>5</frate>
+<dsysdate/>
+<blinkcontra>0</blinkcontra>
+</accinfo><accinfo><code>G010000</code>
+<accid>11</accid>
+<description>Sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>الإيرادات</group1>
+<group2>الإيرادات 2</group2>
+</accinfo><accinfo><code>G100000</code>
+<accid>12</accid>
+<description>Cost of sales</description>
+<incomeexpense>1</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>الإيرادات</group1>
+<group2>الإيرادات 2</group2>
+</accinfo><accinfo><code>G750000</code>
+<accid>35</accid>
+<description>Stock control</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>0</bopenitem>
+<binactive>0</binactive>
+<group1>الأصول المتداولة</group1>
+<group2>الأصول المتداولة 2</group2>
+</accinfo><accinfo><code>C2AONES</code>
+<accid>65</accid>
+<description>موردو إي-وان</description>
+<incomeexpense>0</incomeexpense>
+<bsubaccounts>0</bsubaccounts>
+<bopenitem>1</bopenitem>
+<binactive>0</binactive>
+<group1>مجموعة الدائنين 1ب</group1>
+<group2>بدون مجموعة</group2>
+<spassword/>
+<spostal1>حي الصحافة، الرياض</spostal1>
+<spostal2>برج الأعمال، الطابق ٥</spostal2>
+<spostal3>ص.ب ١٣٥٧٩</spostal3>
+<spostalcode>١٢٣٤٥</spostalcode>
+<sdelivery1>الرياض، الحي الصناعية الجنوبية</sdelivery1>
+<sdelivery2>مستودع التقنية، بوابة ٤</sdelivery2>
+<sdelivery3>ص.ب ١٣٥٧٩</sdelivery3>
+<stelephone1>+966 11 876 5431</stelephone1>
+<stelephone2>+966 11 876 5432</stelephone2>
+<sfax>+966 11 876 5433</sfax>
+<semail>billing@integratedtech.sa</semail>
+<sbankname/>
+<sbranchcode>Arbitrair</sbranchcode>
+<sbankaccountnumber/>
+<sbankaccountname/>
+<fcreditlimit>12000</fcreditlimit>
+<fchargeamount>10</fchargeamount>
+<scode/>
+<bopenitem/>
+<bpostbbf/>
+<dlastactivity>1899/12/30</dlastactivity>
+<smessage/>
+<sreference>٣١٠١٢٣٤٥٦٧٨٩٠١٢٣</sreference>
+<fdiscount>0</fdiscount>
+<dsysdate>2025/04/20 20:50:43</dsysdate>
+<wduedays>30</wduedays>
+<spostcountries_id>United Arab Emirates</spostcountries_id>
+<sdelcountries_id>United Arab Emirates</sdelcountries_id>
+<scompanyregno>٢٠٢٣٠١٢٣٤٥٦٧٨</scompanyregno>
+<sfreefield1>نشكركم على تعاونكم المستمر.</sfreefield1>
+<sfreefield2>الرجاء إرسال الفواتير وفق الشروط المتفق عليها.</sfreefield2>
+<sfreefield3>للاستفسارات، يرجى التواصل مع قسم الحسابات الدائنة.</sfreefield3>
+<slanguage>English</slanguage>
+<sdeliverycode>١٢٣٤٥</sdeliverycode>
+<slayoutinvoice>TRN_906209</slayoutinvoice>
+<slayoutcreditnote>TRN_906210</slayoutcreditnote>
+<slayoutquote>TRN_906211</slayoutquote>
+<swebsite>www.integratedtech.sa</swebsite>
+<screditcardnumber/>
+<screditcardholder/>
+<sbankname/>
+<dexpirydate/>
+</accinfo></acclist>
+<stocklist><stockinfo><code>GL-CODE</code><wstockid>9</wstockid><description>دفتر الأستاذ العام</description><barcode></barcode><manufacturer></manufacturer><intax>T850020</intax><Outax>T850010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo><stockinfo><code>3DRILL</code><wstockid>2</wstockid><description>مكبس مثقاب</description><barcode>1234567890</barcode><manufacturer>Bosch</manufacturer><intax>T850020</intax><Outax>T850010</Outax><SalesAcc>G010000</SalesAcc><CostAcc>G100000</CostAcc><StockAcc>G750000</StockAcc></stockinfo></stocklist><doclist>
+<doctrans><docinfo><docid>2</docid>
+<acctcode>2ABCSC</acctcode>
+<accttypeid>2</accttypeid>
+<type>15</type>
+<date>20250301</date>
+<number>OR000001</number>
+<reference>OR000001 AAB234GP</reference>
+<printed>0</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1050</docamount>
+<taxamount>50</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>ليلى</salesperson>
+<postcompany>مركز أي بي سي للخدمات</postcompany>
+<postcontact>السيد أحمد خليفة</postcontact>
+<delcompany>مركز أي بي سي للخدمات</delcompany>
+<delcontact>السيد أحمد خليفة</delcontact>
+<taxref>٣٠١٢٣٤٥٦٧٨٩١٢٣٤٥</taxref>
+<postal1>حي الصناعية، الرياض</postal1>
+<postal2>مجمع الخدمات، مبنى ٨</postal2>
+<postal3>ص.ب ١١١٢٢</postal3>
+<postalcode>١٢٣٤٥</postalcode>
+<poscountry>United Arab Emirates</poscountry>
+<msg1>نشكركم على تعاونكم معنا.</msg1>
+<msg2>يرجى التأكد من مطابقة الكميات والمواصفات قبل الشحن.</msg2>
+<msg3/>
+<deladdr1>منطقة جبل علي الحرة، دبي</deladdr1>
+<deladdr2>مستودع أي بي سي الرئيسي، بوابة ٤</deladdr2>
+<deladdr3>ص.ب ١١١٢٢</deladdr3>
+<delcode>٥٤٣٢١</delcode>
+<delcountry>United Arab Emirates</delcountry>
+<repgroup1>مجموعة الوثائق 1أ</repgroup1>
+<repgroup2>بدون مجموعة</repgroup2>
+<currency/>
+<sysdate>20250521 104541</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>2</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>GL-CODE</stockcode>
+<description>المركبات - الصيانة</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>400</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>420</inclusiveamt>
+<exclusiveamt>400</exclusiveamt>
+<taxamount>20</taxamount>
+<taxcode>850020</taxcode>
+<stockcode>GL-CODE</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>2</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>الخدمة - سيارة توصيل</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem><lineitem><docid>2</docid>
+<type>90</type>
+<linenbr>3</linenbr>
+<stockcode>GL-CODE</stockcode>
+<description>المركبات - الإصلاحات</description>
+<qtyordered>1</qtyordered>
+<qtyshipped>1</qtyshipped>
+<sellingprice>600</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>630</inclusiveamt>
+<exclusiveamt>600</exclusiveamt>
+<taxamount>30</taxamount>
+<taxcode>850020</taxcode>
+<stockcode>GL-CODE</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>2</docid>
+<type>91</type>
+<linenbr>4</linenbr>
+<stockcode/>
+<description>5 إطارات جديدة - تركيز وتوازن</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans><doctrans><docinfo><docid>3</docid>
+<acctcode>2AONES</acctcode>
+<accttypeid>2</accttypeid>
+<type>15</type>
+<date>20250401</date>
+<number>OR000002</number>
+<reference>OR000002 4562</reference>
+<printed>0</printed>
+<posted>0</posted>
+<exclusive>1</exclusive>
+<invoicediscount>0</invoicediscount>
+<docamount>1575</docamount>
+<taxamount>75</taxamount>
+<paymenttype>none</paymenttype>
+<paymentgroup>none</paymentgroup>
+<salesperson>أحمد</salesperson>
+<postcompany>موردو إي-وان</postcompany>
+<postcontact>المهندس يوسف أحمد</postcontact>
+<delcompany>موردو إي-وان</delcompany>
+<delcontact>المهندس يوسف أحمد</delcontact>
+<taxref>٣١٠١٢٣٤٥٦٧٨٩٠١٢٣</taxref>
+<postal1>حي الصحافة، الرياض</postal1>
+<postal2>برج الأعمال، الطابق ٥</postal2>
+<postal3>ص.ب ١٣٥٧٩</postal3>
+<postalcode>١٢٣٤٥</postalcode>
+<poscountry>United Arab Emirates</poscountry>
+<msg1>نشكركم على تعاونكم معنا.</msg1>
+<msg2>يرجى التأكد من مطابقة الكميات والمواصفات قبل الشحن.</msg2>
+<msg3/>
+<deladdr1>الرياض، الحي الصناعية الجنوبية</deladdr1>
+<deladdr2>مستودع التقنية، بوابة ٤</deladdr2>
+<deladdr3>ص.ب ١٣٥٧٩</deladdr3>
+<delcode>١٢٣٤٥</delcode>
+<delcountry>United Arab Emirates</delcountry>
+<repgroup1>مجموعة الوثائق 1ب</repgroup1>
+<repgroup2>بدون مجموعة</repgroup2>
+<currency/>
+<sysdate>20250512 103919</sysdate>
+<username/>
+</docinfo><linesdetail><lineitem><docid>3</docid>
+<type>90</type>
+<linenbr>1</linenbr>
+<stockcode>3DRILL</stockcode>
+<description>مكبس مثقاب</description>
+<qtyordered>3</qtyordered>
+<qtyshipped>3</qtyshipped>
+<sellingprice>500</sellingprice>
+<itemdiscount>0</itemdiscount>
+<inclusiveamt>1575</inclusiveamt>
+<exclusiveamt>1500</exclusiveamt>
+<taxamount>75</taxamount>
+<taxcode>850020</taxcode>
+<stockcode>3DRILL</stockcode>
+<barcode/>
+</lineitem><lineitem><docid>3</docid>
+<type>91</type>
+<linenbr>2</linenbr>
+<stockcode/>
+<description>مثقاب ثابت جديد مطلوب لتلبية زيادة الطلب على الإنتاج</description>
+<qtyordered/>
+<qtyshipped/>
+<sellingprice/>
+<itemdiscount/>
+<inclusiveamt/>
+<exclusiveamt/>
+<taxamount/>
+<taxcode/>
+<stockcode/>
+<barcode/>
+</lineitem></linesdetail></doctrans>
+</doclist>
+</txf></TCASH3>
