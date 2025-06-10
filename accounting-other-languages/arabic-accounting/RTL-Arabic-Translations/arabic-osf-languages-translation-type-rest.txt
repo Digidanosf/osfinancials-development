@@ -2,61 +2,56 @@
 Contents
 Types table	2
 Error	2
-Accounts	3
-General ledger	3
-Debtor	4
-Creditor	4
-Bank account	4
-Tax account	4
-Is GST applicable in Any of the Arabic jurisdictions?	5
-Document types	8
-Invoice	8
-Credit note	8
-Purchase	8
-Supplier return	8
-Quote	8
-Order	8
-Adjustment	8
-Statement	9
-Remittance	9
-Delivery note	9
-Reporting Groups	10
-Account group1	10
-Account group1	10
-Account group2	11
-Debtor group1	11
-Debtor group2	11
-Creditor group 1	11
-Creditor group 2	11
-Stock group1	11
-Stock group2	11
-Document group1	12
-Document group2	12
-Payment types	12
-Salespersons	12
-Projects	12
-Cost centre 1	12
-Cost centre 2	12
-Languages	12
-Types themes	12
-Types – Papertypes	13
-Preprinted	13
-Plain	13
-Service	13
-Forty	13
-ABS1	13
-Till slip	13
-New plain	13
-Types (TurboCASH3 Report writer)	13
-Stock item	14
-Comment	14
-Serial number	14
-Financial entry	14
-Customise Languages – Rest tab	14
-Empty account	14
-No group	14
-
-
+Accounts	
+General ledger	
+Debtor	
+Creditor	
+Bank account	
+Tax account	
+Document types	
+Invoice	
+Credit note	
+Purchase	
+Supplier return	
+Quote	
+Order	
+Adjustment	
+Statement	
+Remittance	
+Delivery note	
+Reporting Groups	
+Account group1	
+Account group1	
+Account group2	
+Debtor group1	
+Debtor group2	
+Creditor group 1	
+Creditor group 2	
+Stock group1	
+Stock group2	
+Document group1	
+Document group2	
+Payment types	
+Salespersons	
+Projects	
+Cost centre 1	
+Cost centre 2	
+Languages	
+Types themes	
+Types â€“ Papertypes	
+Preprinted	
+Plain	
+Service	
+Forty	
+ABS1	
+Till slip	
+New plain	
+Stock item	
+Comment	
+Serial number	
+Financial entry	
+Empty account	
+No group	
 
 Types table 
 Error 
@@ -65,7 +60,7 @@ Dynamic SQL Error replicated in Firebird database types on the following screens
 * Setup -> Groups (Reporting group name) The groups can be translated.
 * Setup ->  Stock information (Selling price 1, Selling price 2 and Selling price 3) fields (Can only exit the Stock information screen once you have changed it back to the English translation.
 * Setup -> Batch types
-* Setup -> Accounts - Bank accounts – Bank tab
+* Setup -> Accounts - Bank accounts â€“ Bank tab
 * Setup -> Access control 
 Dynamic SQL Error
 SQL error code = -303
@@ -88,7 +83,18 @@ Usage in a Sentence:
 * Arabic: ??? ????? ???? ????????? ?? ???? ??????? ????? ?????? ???????? ??????? ????.
 
 Related Terms:
-English TermArabic TermChart of Accounts???? ????????Journal Entries?????? ???????Trial Balance????? ????????Financial Statements??????? ???????Subsidiary Ledger???? ??????? ??????
+English Term
+Arabic Term
+Chart of Accounts
+???? ????????
+Journal Entries
+?????? ???????
+Trial Balance
+????? ????????
+Financial Statements
+??????? ???????
+Subsidiary Ledger
+???? ??????? ??????
 Debtor 
 Arabic: ?????? (Al-Mud?n)
 Explanation:
@@ -237,7 +243,40 @@ Delivery note
 Arabic: ????? ????? (Ish??r Tasl?m)
 Explanation: A document accompanying a shipment of goods, detailing the items delivered and serving as proof of delivery.
 Summary Table
-Document TypeArabic TranslationExplanationInvoice?????? (F?t?ra)A bill issued by a seller to a buyer for goods or services.Credit Note????? ???? (Ish??r D??in)A document reducing the amount owed by a buyer.Purchase???? (Shir??)A record of goods or services acquired by a buyer.Supplier Return????? ?????? (Murtaja? al-Mawrid)A document for returning goods to a supplier.Quote??? ??? (?Ar? al-Si?r)A price proposal for goods or services.Order??? ???? (Amr Shir??)A formal request for goods or services from a buyer to a seller.Adjustment????? (Taswiya)A correction or adjustment to financial records.Statement??? ???? (Kashf ?is?b)A summary of transactions and balances.Remittance????? ???? (Ta?w?l M?l?)A document confirming the transfer of funds.Delivery Note????? ????? (Ish??r Tasl?m)A document detailing goods delivered to a buyer.Notes:
+Document Type
+Arabic Translation
+Explanation
+Invoice
+?????? (F?t?ra)
+A bill issued by a seller to a buyer for goods or services.
+Credit Note
+????? ???? (Ish??r D??in)
+A document reducing the amount owed by a buyer.
+Purchase
+???? (Shir??)
+A record of goods or services acquired by a buyer.
+Supplier Return
+????? ?????? (Murtaja? al-Mawrid)
+A document for returning goods to a supplier.
+Quote
+??? ??? (?Ar? al-Si?r)
+A price proposal for goods or services.
+Order
+??? ???? (Amr Shir??)
+A formal request for goods or services from a buyer to a seller.
+Adjustment
+????? (Taswiya)
+A correction or adjustment to financial records.
+Statement
+??? ???? (Kashf ?is?b)
+A summary of transactions and balances.
+Remittance
+????? ???? (Ta?w?l M?l?)
+A document confirming the transfer of funds.
+Delivery Note
+????? ????? (Ish??r Tasl?m)
+A document detailing goods delivered to a buyer.
+Notes:
 These translations are in Modern Standard Arabic (MSA), which is universally understood across Arabic-speaking countries.
 Reporting Groups 
 Account group1
@@ -258,7 +297,18 @@ Usage in a Sentence:
 * Arabic: ??????? ???????? ?? ?????? ?????? ???????? 1 ????? ????????? ?????????.
 
 Related Terms:
-English TermArabic TermAccount Group?????? ????????Financial Reporting???????? ???????Chart of Accounts???? ????????Reporting Category??? ????????Account Classification????? ????????
+English Term
+Arabic Term
+Account Group
+?????? ????????
+Financial Reporting
+???????? ???????
+Chart of Accounts
+???? ????????
+Reporting Category
+??? ????????
+Account Classification
+????? ????????
 Account group1
 Arabic: ?????? ???????? 1 (Majm??at al-?is?b?t 1)
 Explanation: A primary classification of accounts based on their type or purpose (e.g., assets, liabilities, income, expenses).
@@ -316,8 +366,8 @@ Explanation: The languages supported or used within a system or organization.
 Types themes 
 The following 6 themes was only applicable to TurboCASH3 and is not translated:
 Classic, Brilliant, Pastel, Keywest, NewSA and Windows default.
-NOTE : Translation not necessary. All TurboCASH3 Themes were redesigned in TurboCASH4/TurboCASH5 and includes its own themes maintained in the ‘bin/themes’ folder. 
-Types – Papertypes 
+NOTE : Translation not necessary. All TurboCASH3 Themes were redesigned in TurboCASH4/TurboCASH5 and includes its own themes maintained in the â€˜bin/themesâ€™ folder. 
+Types â€“ Papertypes 
 Preprinted 
 "????? ??????"
 (Matbu' Musbaqan)
@@ -363,7 +413,7 @@ Financial entry
 "????? ????"
 (Idkhal Mali)
 A financial transaction or entry.
-Customise Languages – Rest tab
+Customise Languages â€“ Rest tab
 Empty account
 The translation of "Empty account" in Arabic (Modern Standard Arabic) is:
 "???? ????"
