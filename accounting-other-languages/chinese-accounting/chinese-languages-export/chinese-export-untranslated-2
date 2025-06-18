@@ -1,0 +1,457 @@
+﻿20	&Switch language	&Switch language
+205	%	%
+397	Christian	Christian
+398	Comic	Comic
+399	Egypt	Egypt
+400	Jewish	Jewish
+401	Scottish	Scottish
+402	Space	Space
+403	Wildlife	Wildlife
+1017	<@APPNAME@> - Load logo	<@APPNAME@> - Load logo
+1091	Graph	Graph
+1123	deleted!	deleted!
+1284	Report range	Report range
+1995	COS*DOC*	COS*DOC*
+2044	14.00%	14.00%
+2118	Compress message file	Compress message file
+2180	N	N
+2243	Y	Y
+2244	N	N
+2245	T	T
+2246	F	F
+2247	Wy	Wy
+2264	Error: Day is required!	Error: Day is required!
+2266	Error: Year is required!	Error: Year is required!
+2268	Error: Failure while creating task!	Error: Failure while creating task!
+2269	Error: Failure while creating event!	Error: Failure while creating event!
+2271	Error: Failure while creating resource!	Error: Failure while creating resource!
+2272	Error: Duplicate resource!	Error: Duplicate resource!
+2273	Error: Invalid table specified!	Error: Invalid table specified!
+2275	Error: Unable to update!	Error: Unable to update!
+2276	Assistant	Assistant
+2278	Car	Car
+2282	ISDN	ISDN
+2284	Other	Other
+2285	Other fax	Other fax
+2286	Pager	Pager
+2287	Primary	Primary
+2288	Radio	Radio
+2289	Telex	Telex
+2290	TTY/TDD	TTY/TDD
+2293	Business	Business
+2294	Clients	Clients
+2295	Family	Family
+2296	Personal	Personal
+2297	Other	Other
+2298	Week of	Week of
+2299	Through	Through
+2326	Yearly by day	Yearly by day
+2327	Yearly by date	Yearly by date
+2328	Custom	Custom
+2329	Minutes	Minutes
+2331	Days	Days
+2342	Task list -	Task list -
+2343	Task list	Task list
+2344	Today	Today
+2347	Next year	Next year
+2352	Change date	Change date
+2353	Today	Today
+2354	Next week	Next week
+2358	Next year	Next year
+2367	Change date	Change date
+2368	Today	Today
+2369	Tomorrow	Tomorrow
+2370	Yesterday	Yesterday
+2371	Next day	Next day
+2373	Next week	Next week
+2377	Next year	Next year
+2379	Today	Today
+2380	Tomorrow	Tomorrow
+2381	Yesterday	Yesterday
+2382	Next week	Next week
+2386	Title	Title
+2389	Category	Category
+2390	Notes	Notes
+2395	OK	OK
+2396	Cancel	Cancel
+2398	&Print	&Print
+2399	Untitled	Untitled
+2400	Select a sound	Select a sound
+2401	Sound finder	Sound finder
+2402	Use default sound	Use default sound
+2403	Event	Event
+2404	Appointment	Appointment
+2405	Subject	Subject
+2406	Category	Category
+2414	Notes	Notes
+2416	Name	Name
+2417	Title	Title
+2422	Postal code	Postal code
+2426	Task	Task
+2430	 Days overdue	 Days overdue
+2432	Completed on	Completed on
+2436	Subject	Subject
+2437	Notes	Notes
+2438	&Dismiss	&Dismiss
+2439	&Snooze	&Snooze
+2441	5 minutes	5 minutes
+2442	10 minutes	10 minutes
+2443	15 minutes	15 minutes
+2444	30 minutes	30 minutes
+2445	45 minutes	45 minutes
+2454	1 day	1 day
+2455	2 days	2 days
+2456	3 days	3 days
+2457	4 days	4 days
+2458	5 days	5 days
+2459	6 days	6 days
+2460	1 week	1 week
+2470	Next year	Next year
+2472	Revert	Revert
+2775	File %s could not be found!	File %s could not be found!
+2776	Unable to allocate memory for XML source!	Unable to allocate memory for XML source!
+2777	HTTP read request failed!	HTTP read request failed!
+2778	HTTP data not available!	HTTP data not available!
+2784	Invalid FTP directory!	Invalid FTP directory!
+2785	FTP read request failed!	FTP read request failed!
+2786	FTP data not available!	FTP data not available!
+2788	Could not save file via FTP to %s	Could not save file via FTP to %s
+2789	Unable to load source!	Unable to load source!
+2791	Line: %d Col: %d Error: %s !	Line: %d Col: %d Error: %s !
+2793	Expected markup declaration, but found:	Expected markup declaration, but found:
+2794	Illegal attribute type:	Illegal attribute type:
+2795	Illegal keyword for attribute default value:	Illegal keyword for attribute default value:
+2797	External modifier missing:	External modifier missing:
+2798	Conditional section must begin with INCLUDE or IGNORE	Conditional section must begin with INCLUDE or IGNORE
+2799	Bad separator in content model:	Bad separator in content model:
+2800	Expected comment or CDATA section!	Expected comment or CDATA section!
+2804	Reference to undeclared entity:	Reference to undeclared entity:
+2805	Expected String:	Expected String:
+2806	Whitespace expected at byte!	Whitespace expected at byte!
+2808	Expected " or '	Expected " or '
+2811	Invalid XML name:	Invalid XML name:
+2812	Invalid comment text!	Invalid comment text!
+2814	Invalid characters in CDATA section	Invalid characters in CDATA section
+2816	Circular reference to:	Circular reference to:
+2817	Invalid character in attribute value:	Invalid character in attribute value:
+2818	Invalid characters in element's character data:	Invalid characters in element's character data:
+2821	Notation not declared:	Notation not declared:
+2822	Invalid public id character:	Invalid public id character:
+2823	NDATA not allowed in parameter entity declaration	NDATA not allowed in parameter entity declaration
+2824	Stand alone value must equal 'yes' or 'no'	Stand alone value must equal 'yes' or 'no'
+2825	Invalid encoding declaration:	Invalid encoding declaration:
+2827	Invalid character in entity value:	Invalid character in entity value:
+2831	Invalid element name:	Invalid element name:
+2833	Invalid character encoding specified!	Invalid character encoding specified!
+2834	Attribute %s of element %s does not have an integer value!	Attribute %s of element %s does not have an integer value!
+2835	Unknown axis specifier: %s	Unknown axis specifier: %s
+2836	Invalid XML Character found!	Invalid XML Character found!
+2839	Badly formed UTF-8 character in stream!	Badly formed UTF-8 character in stream!
+2868	No resources have been defined! Would you like to add one now?	No resources have been defined! Would you like to add one now?
+2869	No resource has been selected! Would you like to select one now?	No resource has been selected! Would you like to select one now?
+2877	Loaded events	Loaded events
+2878	# Display days	# Display days
+2923	BOM list	BOM list
+2937	Can you see this ??	Can you see this ??
+2943	Test	Test
+2951	Drawer	Drawer
+2971	Your list with comma separation	Your list with comma separation
+2978	Known bug fix	Known bug fix
+2982	Add unposted	Add unposted
+2984	Price inclusive	Price inclusive
+2988	Cash-up report	Cash-up report
+2989	Sales report	Sales report
+2990	Print frames	Print frames
+2991	Print logo	Print logo
+2994	Hide	Hide
+2995	Disable	Disable
+2996	Show	Show
+2997	Enable	Enable
+2998	Replication	Replication
+3000	Upload only	Upload only
+3001	Download only	Download only
+3002	Creating directory	Creating directory
+3005	of	of
+3012	All years	All years
+3017	Difference	Difference
+3027	Use default tax	Use default tax
+3055	Contra tax	Contra tax
+3056	Refresh	Refresh
+3057	Expand	Expand
+3058	Collapse	Collapse
+3070	Clieop comment lines must be filled!	Clieop comment lines must be filled!
+3072	Abort import!	Abort import!
+3081	Reset stock?	Reset stock?
+3082	Import file format not implemented!	Import file format not implemented!
+3084	Finished!	Finished!
+3086	Code exists!	Code exists!
+3124	Forward	Forward
+3126	Convert <@APPNAME@> to this version?	Convert <@APPNAME@> to this version?
+3130	Minimum	Minimum
+3170	Post warning per invoice	Post warning per invoice
+3171	Process warnings	Process warnings
+3172	Process subscriptions	Process subscriptions
+3175	Contract term not the same!	Contract term not the same!
+3199	Male	Male
+3200	Female	Female
+3201	Newsletters and password	Newsletters and password
+3202	Referral source	Referral source
+3203	Newsletters	Newsletters
+3204	Password confirmation	Password confirmation
+3206	Release	Release
+3207	Bug fix	Bug fix
+3213	Reregister	Reregister
+3214	Consultant	Consultant
+3220	Mail template	Mail template
+3221	Select layout	Select layout
+3222	Select template	Select template
+3230	Path to the HTML files	Path to the HTML files
+3231	POP username	POP username
+3232	POP password	POP password
+3233	POP server	POP server
+3234	SMTP port	SMTP port
+3235	SMTP server	SMTP server
+3237	Return name	Return name
+3240	Timer threshold in sec.	Timer threshold in sec.
+3241	SMTP username	SMTP username
+3242	SMTP password	SMTP password
+3243	Sign certificate	Sign certificate
+3244	Certificate password	Certificate password
+3245	Sign any PDF	Sign any PDF
+3246	Free text	Free text
+3247	Preview in browser	Preview in browser
+3249	Extra CC	Extra CC
+3250	CC (multiple separate with ;)	CC (multiple separate with ;)
+3251	BCC (multiple separate with ;)	BCC (multiple separate with ;)
+3256	On	On
+3257	Off	Off
+3259	E-mail Pro	E-mail Pro
+3261	Freefields	Freefields
+3262	Register	Register
+3265	Percentage of sale	Percentage of sale
+3270	Assemble	Assemble
+3271	Disassemble	Disassemble
+3281	Plugin mass action	Plugin mass action
+3282	Plugin action	Plugin action
+3290	Paste to plugin	Paste to plugin
+3292	Paste to / perform	Paste to / perform
+3295	Sales/Debit	Sales/Debit
+3298	All	All
+3305	Data saved	Data saved
+3306	Split bill	Split bill
+3307	Data saved	Data saved
+3325	<- Set selected to this price	<- Set selected to this price
+3327	Clieop comment	Clieop comment
+3328	City	City
+3341	Init all translations and plugins	Init all translations and plugins
+3355	Transfer transactions	Transfer transactions
+3356	Payroll import	Payroll import
+3362	Change remark	Change remark
+3366	Manual adjust	Manual adjust
+3367	Continue action %s ?	Continue action %s ?
+3377	Generic plugins	Generic plugins
+3378	Freefields	Freefields
+3379	Multimedia	Multimedia
+3383	E-commerce	E-commerce
+3384	Activa	Activa
+3385	Office	Office
+3386	Sql Browser	Sql Browser
+3387	DrillDown	DrillDown
+3388	Xml Audit File	Xml Audit File
+3389	POS Display	POS Display
+3391	Subscriptions	Subscriptions
+3395	HORECA POS	HORECA POS
+3396	RETAIL POS	RETAIL POS
+3397	Charter	Charter
+3401	Reportman	Reportman
+3403	Register plugins	Register plugins
+3405	Stock plugins	Stock plugins
+3407	Branch Specific	Branch Specific
+3408	Driving school plugin	Driving school plugin
+3410	Dutch Tax plugin	Dutch Tax plugin
+3411	CCV Pin	CCV Pin
+3412	POS Points	POS Points
+3413	Controller Login	Controller Login
+3415	Woodsales	Woodsales
+3417	Promeetec	Promeetec
+3418	Plugin load list	Plugin load list
+3419	Activate plugin	Activate plugin
+3420	Deactivate plugin	Deactivate plugin
+3423	Copy to	Copy to
+3425	Reprint ticket	Reprint ticket
+3426	Rental / Reservations	Rental / Reservations
+3428	Minutes inactive	Minutes inactive
+3429	Std disc%	Std disc%
+3432	Step status	Step status
+3433	Process	Process
+3435	Step name	Step name
+3436	Used time	Used time
+3438	Belgium Tax Returns	Belgium Tax Returns
+3439	Retype password	Retype password
+3440	Branches	Branches
+3441	Skype name	Skype name
+3444	Change password	Change password
+3447	Time license	Time license
+3448	Current total	Current total
+3450	Use points	Use points
+3451	Current points	Current points
+3452	Points to use	Points to use
+3455	Rate	Rate
+3470	Currencies	Currencies
+3475	Outlook sync	Outlook sync
+3480	Outlook syncroniser	Outlook syncroniser
+3485	Where am I?	Where am I?
+3486	Step hint	Step hint
+3487	Rights	Rights
+3488	Add step	Add step
+3491	Transition	Transition
+3493	Duration	Duration
+3494	Years	Years
+3496	Screen type	Screen type
+3497	Step name	Step name
+3498	Step data	Step data
+3500	Add transition	Add transition
+3501	Condition	Condition
+3502	Next process date	Next process date
+3503	Current value	Current value
+3512	Needs processing	Needs processing
+3514	Add manual	Add manual
+3515	Posted transactions	Posted transactions
+3516	Process (selected) lines	Process (selected) lines
+3518	Activa	Activa
+3519	Add (selected) lines	Add (selected) lines
+3520	Add consolidated	Add consolidated
+3522	Selection	Selection
+3523	Adjust remittance date of selection to :	Adjust remittance date of selection to :
+3530	Print all	Print all
+3534	Update Multimedia	Update Multimedia
+3537	Popup if there are transactions	Popup if there are transactions
+3538	Date oldest transaction	Date oldest transaction
+3544	Type of control	Type of control
+3545	Height	Height
+3546	Size	Size
+3547	Translation	Translation
+3549	Save and rebuild	Save and rebuild
+3551	Generate on table	Generate on table
+3552	SQL and extra data	SQL and extra data
+3553	Field type	Field type
+3554	Default value	Default value
+3556	Project	Project
+3559	Bulk time entry	Bulk time entry
+3560	Stock out	Stock out
+3561	Stock in	Stock in
+3581	Explorer folder	Explorer folder
+3584	Leads	Leads
+3585	Mass tag	Mass tag
+3586	Tags	Tags
+3587	Add tag	Add tag
+3588	Mass activity	Mass activity
+3589	CRM	CRM
+3590	Activities	Activities
+3591	Add %s to records	Add %s to records
+3595	Lead	Lead
+3597	Direction	Direction
+3598	Incoming	Incoming
+3600	Handled	Handled
+3601	Perform run on	Perform run on
+3602	Mass contact	Mass contact
+3603	Billing matrix	Billing matrix
+3604	Minimum bill minutes	Minimum bill minutes
+3605	Increment bill minutes	Increment bill minutes
+3607	Skip lines	Skip lines
+3611	Decimal separator	Decimal separator
+3612	Redo	Redo
+3613	Leads dataset importer	Leads dataset importer
+3614	Headers in file	Headers in file
+3615	Billing	Billing
+3616	Bill visible	Bill visible
+3617	Convert to	Convert to
+3619	Duration	Duration
+3620	Manual input in minutes	Manual input in minutes
+3621	Is billed	Is billed
+3622	Convert	Convert
+3630	Table overview	Table overview
+3632	Print ticket	Print ticket
+3633	Date reservation	Date reservation
+3634	Day memo	Day memo
+3635	Guest	Guest
+3637	Person(s)	Person(s)
+3638	Stay in minutes	Stay in minutes
+3640	Horizontal POS layout	Horizontal POS layout
+3641	Vertical POS layout	Vertical POS layout
+3643	Move seat	Move seat
+3649	Lock	Lock
+3651	Click here again	Click here again
+3652	Click here	Click here
+3653	Reservations	Reservations
+3658	Simple action buttons	Simple action buttons
+3660	Daily provision	Daily provision
+3663	Sales per table	Sales per table
+3674	Do you want to run this process for 1 creditor?	Do you want to run this process for 1 creditor?
+3705	Profile	Profile
+3706	Save profile	Save profile
+3707	Add profile	Add profile
+3708	Import type	Import type
+3714	Beta versions	Beta versions
+3715	Install	Install
+3723	Counted quantity	Counted quantity
+3724	Current quantity	Current quantity
+3727	Uncounted	Uncounted
+3728	Counted	Counted
+3729	Fast add	Fast add
+3730	Post difference	Post difference
+3738	LTR	LTR
+9901	//  These are the main menu comments	//  These are the main menu comments
+20004	Click here to add a new row	Click here to add a new row
+20005	Filter is empty>	Filter is empty>
+20010	Bands	Bands
+20011	Missing an intermediary component! Please add a %s component to the form!	Missing an intermediary component! Please add a %s component to the form!
+20012	cxGrid does not exist!	cxGrid does not exist!
+20013	Component does not exist!	Component does not exist!
+20014	Import error!	Import error!
+20015	Grid view does not exist!	Grid view does not exist!
+20016	Active grid level does not exist!	Active grid level does not exist!
+20019	Equal to	Equal to
+20020	Not equal to	Not equal to
+20021	Less than	Less than
+20022	Less than or equal to	Less than or equal to
+20023	Greater than	Greater than
+20024	Greater than or equal to	Greater than or equal to
+20026	Not like	Not like
+20027	Between	Between
+20028	Not between	Not between
+20029	in	in
+20030	Not in	Not in
+20031	is yesterday	is yesterday
+20032	is today	is today
+20033	is tomorrow	is tomorrow
+20037	is this week	is this week
+20039	is this year	is this year
+20040	is next week	is next week
+20042	is next year	is next year
+20043	and	and
+20044	or	or
+20045	Not	Not
+20047	is nul	is nul
+20048	is not nul	is not nul
+20049	Begins with	Begins with
+20050	Does not begin with	Does not begin with
+20053	Contains	Contains
+20054	Does not contain	Does not contain
+20055	(All)	(All)
+20061	,0.00	,0.00
+20066	Total Qty.	Total Qty.
+20068	Total qty. per day	Total qty. per day
+20122	flt	flt
+900003	House no. tv	House no. tv
+903007	URL	URL
+906015	IBAN	IBAN
+906016	BIC	BIC
+906017	SWIFT	SWIFT
+906183	POS - STARTSP100	POS - STARTSP100
+906184	POS 1	POS 1
+906185	POS 2	POS 2
+906186	POS A4	POS A4
+906446	ID	ID
+1000003	*Your Currency	*Your Currency
+1000004	<@APPNAME@>	<@APPNAME@>

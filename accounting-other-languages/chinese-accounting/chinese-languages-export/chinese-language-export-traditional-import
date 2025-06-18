@@ -1,0 +1,4073 @@
+﻿1	&否 	&No		
+2	&是 	&Yes		
+3	一月 	January		
+4	二月 	February		
+5	三月 	March		
+6	四月 	April		
+7	五月 	May		
+8	六月 	June		
+9	七月 	July		
+10	八月 	August		
+11	九月 	September		
+13	十月 	October		
+14	十一月 	November		
+15	十二月 	December		
+16	&開啟帳簿 	&Open Set of Books		
+17	&建立帳簿集 	&Create Set of Books		
+18	&刪除帳簿集 	&Delete Set of Books		
+19	另存為 	Save as		
+20	切換語言 	&Switch language		
+21	&退出<@APPNAME@> 	&Exit <@APPNAME@>		
+22	&帳戶 	&Accounts		
+23	&預算 	&Budgets		
+24	&刪除 	&Delete		
+25	&重複交易 	&Repeating transactions		
+26	重複&發票	Repeating &invoices		
+27	&庫存項目 	&Stock items		
+28	&使用者報告 	&User reports		
+29	銀行帳戶 	Bank account		
+30	債權人 	Creditors		
+31	債務人 	Debtors		
+32	總分類帳 	General ledger		
+33	稅務帳戶 	Tax account		
+34	帳戶 	Account		
+35	使用者報告 	User report		
+36	訂單確認 	Order confirmation		
+37	庫存項目 	Stock item		
+38	單據 	Documents		
+39	刪除發票 	Delete invoices		
+40	刪除採購 	Delete purchases		
+41	刪除供應商退貨 	Delete supplier returns		
+42	&調整庫存 	&Adjust stock		
+43	&批次輸入 	&Batch entry		
+44	&銀行對帳 	&Reconcile bank		
+45	&文件清單 	&Documents listing		
+46	輸入過帳到分類帳 	Input post to ledger		
+47	&貸記單 	&Credit notes		
+48	&發票 	&Invoices		
+49	&採購 	&Purchases		
+50	供應商&退貨 	Supplier &returns		
+51	&輸入 	&Enter		
+52	&列印 	&Print		
+53	&更新分類帳 	&Update ledger		
+54	列印&送貨單 	Print &delivery notes		
+55	&批次類型 	&Batch type		
+56	&債權人 	&Creditor		
+57	&債務人 	&Debtor		
+58	&總分類帳 	&General ledger		
+59	&對帳 	&Reconciliation		
+60	&發票 	&Invoices		
+61	&採購 	&Purchases		
+62	&庫存 	&Stock		
+63	&稅務 	&Tax		
+64	&使用者報告 	&User reports		
+65	&帳齡分析 	&Age analysis		
+66	&清單 	&Listing		
+67	&變動 	&Movements		
+68	&列印標籤 	&Print labels		
+69	&匯款通知 	&Remittance advises		
+70	&交易 	&Transactions		
+71	&報表 	&Statements		
+72	&預算績效 	&Budget performance		
+73	&會計科目表 	&Chart of accounts		
+74	交易 	Transactions		
+75	&試算表 	&Trial balance		
+76	&缺貨訂單清單 	&Backorder listing		
+77	&貸記單清單 	&Credit note listing		
+78	&發票清單 	&Invoice listing		
+79	&採購清單 	&Purchases listing		
+80	&退貨清單 	&Returns listing		
+81	&活動 	&Activity		
+82	&變動彙總 	&Movement summary		
+83	&重新訂購報告 	&Reorder report		
+84	&庫存項目清單 	&Stock item listing		
+85	銷售分析 	Sales analysis		
+86	&發票明細 	&Invoiced details		
+87	&發票彙總 	&Invoiced summary		
+88	&已收／已付明細 	&Received / paid details		
+89	已收／已&付彙總 	Received / &paid summary		
+90	&存取控制 	&Access control		
+91	備份&路徑 	Backup &path		
+92	&批次類型 	&Batch types		
+93	公司&資訊 	Company &info		
+94	&顏色 	&Colours		
+95	定義&標籤 	Define &labels		
+96	形式發票 	Proforma		
+97	&分組 	&Groups		
+98	&文件 	&Documents		
+99	&印表機 	&Printer		
+100	&報告日期 	&Reporting dates		
+101	銷售&人員 	Sales&person		
+102	&對帳單 	&Statements		
+103	庫存資訊 	Stock information		
+104	&備份／還原帳簿 	&Backup / Restore Set of Books		
+105	&計算機 	&Calculator		
+106	資料完整性檢查 	Data integrity check		
+107	&匯出 	&Export		
+108	&全域處理 	&Global processes		
+109	&匯入 	&Import		
+110	&未清項目重新連結 	&Open item relink		
+111	&從備份還原 	&Restore from backup		
+112	&檢視器 	&Viewer		
+113	&支援 	&Support		
+114	&清除／重設 	&Clear / Reset		
+115	&執行年終 	&Do year end		
+116	&對帳 	&Reconcile		
+117	&轉移交易 	&Transfer transactions		
+118	取消對帳 	Unreconcile		
+119	關於<@APPNAME@> 	About <@APPNAME@>		
+120	文件 	File		
+121	編輯 	Edit		
+122	輸入 	Input		
+123	報告 	Reports		
+124	設定 	Setup		
+125	工具 	Tools		
+126	說明 	Help		
+127	一 	One		
+128	二 	Two		
+129	三 	Three		
+130	四 	Four		
+131	五 	Five		
+132	六 	Six		
+133	七 	Seven		
+134	八 	Eight		
+135	九 	Nine		
+136	十 	Ten		
+137	十一 	Eleven		
+138	十二 	Twelve		
+139	十三 	Thirteen		
+140	十四 	Fourteen		
+141	十五 	Fifteen		
+142	十六 	Sixteen		
+143	十七 	Seventeen		
+144	十八 	Eighteen		
+145	十九 	Nineteen		
+146	二十 	Twenty		
+147	三十 	Thirty		
+148	四十 	Forty		
+149	五十 	Fifty		
+150	六十 	Sixty		
+151	七十 	Seventy		
+152	八十 	Eighty		
+153	九十 	Ninety		
+154	百 	Hundred		
+155	千 	Thousand		
+156	百萬 	Million		
+157	蘭特 	Rands		
+158	分 	Cents		
+159	單價 	Piece price		
+160	債務人 	Debtors		
+161	債權人 	Creditors		
+162	發票歷史 	Invoice history		
+163	&開啟 	&Open		
+164	批次輸入 	Batch entry		
+165	發票 	Invoice		
+166	現金／銀行輸入 	Cash/Bank entry		
+167	&確定 	&OK		
+168	&取消 	&Cancel		
+169	&關閉 	&Close		
+170	包裝單位 	Packaging unit		
+171	選擇語言 	Choose a language		
+172	帳簿 	Set of Books		
+173	刪除 	Delete		
+174	建立 	Create		
+175	新帳簿名稱 	Name for a new Set of Books		
+176	帳號 	Account no.		
+177	子帳戶 	Sub-account		
+178	描述 	Description		
+179	報告組別 一 	Reporting group 1		
+180	報告組別 二 	Reporting group 2		
+181	付款 	Payments		
+182	收款 	Receipts		
+183	銀行帳戶 	Bank accounts		
+184	未清項目帳戶 	Open item account		
+185	名稱 	Name		
+186	地址 	Address		
+187	電話 一 	Phone 1		
+188	電話 二 	Phone 2		
+189	傳真 	Fax		
+190	郵政編碼 	Postal code		
+191	電子郵件 	E-mail		
+192	信用額度 	Credit limit		
+193	收費金額 	Charge amount		
+194	目前餘額 	Current balance		
+195	最後付款 	Last paid		
+196	於 	On		
+197	聯絡人 	Contactperson		
+198	銷售人員 	Salesperson		
+199	送貨地址 	Delivery address		
+200	對帳單訊息 	Statement message		
+201	帳戶已禁用 	Account disabled		
+202	稅務登記號 	Tax reference		
+203	客戶折扣 	Customer discount		
+204	過期金額月利息 	Monthly interest on overdue amounts		
+205	% 	%		
+206	收益表 	Income statement		
+207	有效日期自 	Valid from		
+208	至 	To		
+209	百分比 	Percentage		
+210	年度 	Annual		
+211	借方 	Debit		
+212	貸方 	Credit		
+213	庫存代碼 	Stock code		
+214	單位 	Units		
+215	最新成本 	Latest cost		
+216	銷售價格 1 	Selling price 1		
+217	銷售價格 2 	Selling price 2		
+218	銷售價格 3 	Selling price 3		
+219	進項稅 	Input tax		
+220	銷項稅 	Output tax		
+221	重報訂購水平 	Reorder level		
+222	應用發票折扣 	Apply invoice discount		
+223	銷售帳戶 	Sales account		
+224	銷售成本 	Cost of sales		
+225	庫存控制 	Stock control		
+226	平均成本 	Average cost		
+227	現有數量 	Quantity on hand		
+228	總成本 	Total cost		
+229	最後發票 	Last invoice		
+230	從發票 	From invoice		
+231	至發票 	To invoice		
+232	包含項目至 	Include items until		
+233	銀行餘額 	Bank balance		
+234	發票號 	Invoice no.		
+235	郵寄地址 	Postal address		
+236	可用 	Available		
+237	您的參考 	Your reference		
+238	日期 	Date		
+239	訊息 	Message		
+240	發送報告至 	Send report to		
+241	批次類型 	Batch type		
+242	哪一年 	Which year		
+243	從報告日期 	From reporting date		
+244	各期間分開 	Each period separately		
+245	顯示平衡條目 	Show balancing entries		
+246	從帳戶 	From account		
+247	序列 	Sequence		
+248	包含零餘額 	Include zero balances		
+249	債權人交易報告選項 	Creditor transaction report options		
+250	銀行帳戶 	Bank accounts		
+251	債權人帳戶 	Creditor accounts		
+252	債務人帳戶 	Debtor accounts		
+253	總分類帳戶 	General ledger accounts		
+254	稅務帳戶 	Tax accounts		
+255	預算帳戶 	Budget accounts		
+256	銀行帳戶 	Bank accounts		
+257	庫存項目 	Stock item		
+258	使用者報告 	User report		
+259	銀行帳戶對帳 	Reconcile bank account		
+260	開具發票 	Invoicing		
+261	批次類型報告選項 	Batch type report options		
+262	帳戶列表選項 	Account list options		
+263	債務人帳齡分析選項 	Debtor age analysis options		
+264	最低金額 	Minimum amount		
+265	使用開放項目 	Use open item		
+266	忽略零餘額 	Ignore zero balances		
+267	顯示帳戶明細 	Show account detail		
+268	按名稱排序 	Sort by name		
+269	顯示交易 	Show transactions		
+270	老化日期 	Date of ageing		
+271	到 	up to		
+272	月數至 	Month(s) up to		
+273	帳戶列表選項 	Account list options		
+274	債務人變動選項 	Debtor movement options		
+275	債務人交易報告選項 	Debtor transaction report options		
+276	顯示子帳戶 	Show sub-accounts		
+277	預算績效選項 	Budget performance options		
+278	總帳選項 	General ledger options		
+279	債權人變動選項 	Creditor movement options		
+280	總帳帳戶變動選項 	General ledger account movement options		
+281	試算表選項 	Trial balance options		
+282	從 	From		
+283	銀行對帳 	Bank reconciliation		
+284	從發票號 	From invoice no.		
+285	到發票號 	To invoice no.		
+286	從日期 	From date		
+287	到日期 	To date		
+288	文件清單選項 	Documents listing options		
+289	庫存活動選項 	From stock code		
+290	庫存活動選項 	Stock activity options		
+291	存取控制 	Access control		
+292	添加 	Add		
+293	刪除 	Delete		
+294	安全選項 	Security Options		
+295	使用者密碼 	User password		
+296	編輯帳戶 	Edit accounts		
+297	編輯庫存 	Edit stock		
+298	批次輸入 	Batch entry		
+299	貸記單號 	Credit note no.		
+300	發票 	Invoices		
+301	系統設定 	System setup		
+302	採購 	Purchases		
+303	供應商退貨 	Supplier returns		
+304	禁用 	Disabled		
+305	債權人報告 	Creditor reports		
+306	債務人報告 	Debtor reports		
+307	總帳報告 	General ledger reports		
+308	庫存報告 	Stock reports		
+309	使用者報告 	User reports		
+310	過帳 	Posting		
+311	全域處理 	Global processes		
+312	電話 	Tel		
+313	公司名稱 	Company name		
+314	稅務方法 	Tax method		
+315	應付帳戶 	Due account		
+316	公司註冊號 	Company reg. no.		
+317	稅務登記號 	Tax reg. no.		
+318	報告金額 	Report amount with		
+319	設定Windows日期格式／樣式 	Set Windows date format/style		
+320	公司資訊 	Company info		
+321	下一張發票號 	Next invoice no.		
+322	發票批次 	Invoice batch		
+323	紙張類型 	Paper type		
+324	發票標題 	Invoice heading		
+325	發票訊息 	Invoice message		
+326	下一張貸記單號 	Next credit note no.		
+327	貸記單批次 	Credit note batch		
+328	貸記單標題 	Credit note heading		
+329	貸記單訊息 	Credit note message		
+330	下一張採購單號 	Next purchase no.		
+331	採購批次 	Purchase batch		
+332	採購標題 	Purchase heading		
+333	採購訊息 	Purchase message		
+334	下一張退貨單號 	Next return no.		
+335	供應商退貨批次 	Supplier return batch		
+336	供應商退貨標題 	Supplier return heading		
+337	供應商退貨訊息 	Supplier return message		
+338	下一張訂單號 	Next order no.		
+339	訂單標題 	Order heading		
+340	訂單訊息 	Order message		
+341	下一張報價單號 	Next quote no.		
+342	報價標題 	Quote heading		
+343	報價訊息 	Quote message		
+344	文件設定 	Documents setup		
+345	群組 	Groups		
+346	付款方式 	Payment types		
+347	對帳單設定 	Statement setup		
+348	對帳單訊息 	Statement message		
+349	銷售成本批次 	Cost of sales batch		
+350	庫存資訊 	Stock information		
+351	建立銷售成本 	Create cost of sales		
+352	一般資訊 	General information		
+353	會計資訊 	Accounting information		
+354	對帳單 	Statements		
+355	描述 	Description		
+356	編輯 	Edit		
+357	重設 	Reset		
+358	更新 	Update		
+359	開放項目重新連結 	Open item relink		
+360	開放項目連結 	Open item link		
+365	關於 <@APPNAME@> 	About <@APPNAME@>		
+366	批次輸入 	Batch entry		
+367	^D: 刪除 	^D: Delete		
+368	^N: 插入 	^N: Insert		
+369	F5: 餘額 	F5: Balance		
+370	F6: 過帳 	F6: Post		
+371	F7: 獨佔 	F7: Exclusive		
+372	F8: 清單 	F8: List		
+373	F9: 處理 	F9: Process		
+374	F10: 設定 	F10: Setup		
+375	含稅金額: 	Inclusive amount:		
+376	不含稅金額: 	Exclusive amount:		
+377	參考總額: 	Reference total:		
+378	分配到: 	Allocate to:		
+379	對方帳戶: 	Contra account:		
+380	每客戶銷售 	Sales per customer		
+381	每產品銷售 	Sales per product		
+382	每銷售員銷售 	Sales per salesperson		
+383	每組銷售 	Sales per group		
+384	每客戶銷售選項 	Sales per customer options		
+385	每產品銷售選項 	Sales per product options		
+386	每銷售員銷售選項 	Sales per salesperson options		
+387	每組銷售選項 	Sales per group options		
+388	來自群組 	From group		
+389	來自產品 	From product		
+390	稅務報告選項 	Tax report options		
+391	稅碼 	Tax code		
+392	顯示詳情 	Show details		
+393	經典 	Classic		
+394	輝煌 	Brilliant		
+395	新南非 	New SA		
+396	主題 	Theme		
+397	Christian 	Christian		
+398	Comic 	Comic		
+399	Egypt 	Egypt		
+400	Jewish 	Jewish		
+401	Scottish 	Scottish		
+402	Space 	Space		
+403	Wildlife 	Wildlife		
+404	開放項目連結 	Open item link		
+405	更新發票 	Update invoices		
+406	報表日期 	Date of statements		
+407	顯示稅務交易 	Show tax transactions		
+408	債務人報告 	Debtor reports		
+409	單獨顯示稅務 	Show tax separately		
+410	庫存移動選項 	Stock movement options		
+411	庫存清單選項 	Stock list options		
+412	包含的資訊 	Information to include		
+413	數量 	Quantity		
+414	成本價 	Cost price		
+415	庫存計數 	Stock count		
+416	售價 	Selling price		
+417	庫存價值 	Stock value		
+418	報價 	Quotes		
+419	供應商退貨 	Supplier returns		
+420	帳戶群組 	Account groups		
+421	債務人群組 	Debtor groups		
+422	債權人群組 	Creditor groups		
+423	庫存群組 	Stock groups		
+424	文件群組 	Document groups		
+425	警告，這將嚴重影響您的帳簿！您仍然希望繼續嗎？ 	Warning, this will seriously affect your Set of Books! Do you still wish to continue?		
+426	您選擇刪除所有使用者！存取控制將被禁用！ 	You have chosen to delete all users! Access control will now be disabled!		
+427	與此使用者關聯的未發布批次！請在刪除此使用者之前發布或刪除它們。 	There are unposted batches associated with this user! Please post or delete them before deleting this user.		
+428	與此使用者關聯的批次！請選擇一個新使用者來分配這些批次。 	There are batches associated with this user! Please select a new user to assign these batches to.		
+429	與此使用者關聯的交易！請選擇一個新使用者來分配這些交易。 	There are transactions associated with this user! Please select a new user to assign these transactions to.		
+430	您希望儲存對此使用者的變更嗎？ 	Do you wish to save the changes to this user?		
+431	請輸入此使用者的密碼！ 	Please type in a password for this user!		
+432	建立此帳戶？ 	Create this account?		
+433	無效的帳戶號碼！第一個字元必須是數字！ 	Invalid account number! The first character must be a number!		
+434	這不是一個銀行帳戶！ 	This is not a bank account!		
+435	您要儲存變更嗎？ 	Do you want to save the changes?		
+436	!!! 致命檔案錯誤 12 !!! 	!!! FATAL FILE ERROR 12 !!!		
+437	您確定要刪除此交易嗎？ 	Are you sure you wish to delete this transaction?		
+438	您希望將此交易分配到去年嗎？ 	Do you wish to allocate this transaction to last year?		
+439	批次不平衡！ 	Batch is not in balance!		
+440	帳戶不存在，您希望建立它嗎？ 	Account does not exist, do you wish to create it?		
+441	您希望繼續報告嗎？ 	Do you want to continue reporting?		
+442	您希望繼續報告嗎？ 	Cannot delete this batch type! It has batches associated with it!		
+443	編輯批次類型將嚴重影響您的帳簿！您確定要這樣做嗎？ 	Editing batch types will seriously affect your Set of Books! Are you sure you want to do this?		
+444	這將嚴重影響您的帳簿！您希望現在取消嗎？ 	This will seriously affect your Set of Books! Do you wish to cancel now?		
+445	您要儲存這些變更嗎？ 	Do you want to save these changes?		
+446	您確定要建立 	Are you sure you want to create the		
+447	帳簿嗎？ 	 Set of Books?		
+448	帳簿已建立！ 	 Set of Books created!		
+449	建立帳簿時出錯！ 	Error creating books!		
+450	該 	The		
+451	帳簿已存在！ 	 Set of Books already exist!		
+452	帳戶不能為空！ 	Account cannot be blank!		
+453	帳戶號碼的第一個字元必須是數字！ 	The first character of the account number must be a number!		
+454	完成！ 	Finished!		
+455	此目錄不包含 TurboCASH 2.01、2.02 或 2.03 帳簿！ 	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!		
+456	您確定要取消嗎？ 	Are you sure you wish to cancel?		
+457	您要建立此帳戶嗎？ 	Do you want to create this account?		
+458	您確定要刪除 	Are you sure you want to delete the		
+459	帳戶集嗎？	set of accounts?		
+460	您確定要刪除此帳戶嗎？	Are you sure you want to delete this account?		
+461	此帳戶包含	This account contains		
+462	子帳戶，無法刪除！ 	Sub-account(s) and cannot be deleted!		
+463	您不能刪除此庫存項目！它有交易記錄！ 	You cannot delete this stock item! It has transactions!		
+464	您確定要刪除此庫存項目嗎？ 	Are you sure you want to delete this stock item?		
+465	庫存項目已刪除！ 	Stock item deleted!		
+466	此庫存項目不存在！ 	This stock item does not exist!		
+467	這不是一個總帳帳戶！ 	This is not a general ledger account!		
+468	此帳戶仍然活躍！所有交易將被移動到新的子帳戶！您確定要建立子帳戶嗎？ 			
+	這不是一個稅務帳戶！ 			
+469	連結金額必須小於或等於 	This is not a tax account!		
+470	您還沒有設定帳簿！ 	The link amount has to be less than or equal to		
+471	此條目已連結！ 	You have not set up a Set of Books yet!		
+472	此債務人沒有可連結的項目！ 	This entry is already linked!		
+473	您確定要取消連結此條目嗎？ 	Nothing to link for this debtor!		
+474	密碼無效！ 	Are you sure you want to unlink this entry?		
+475	日期衝突!!!! 檢查日期 1 	Invalid password!		
+476	日期衝突!!!! 檢查日期 2 	Date conflict !!!! Check date 1		
+477	日期衝突!!!! 檢查日期 3 	Date conflict !!!! Check date 2		
+478	日期衝突!!!! 檢查日期 4 	Date conflict !!!! Check date 3		
+479	日期衝突!!!! 檢查日期 5 	Date conflict !!!! Check date 4		
+480	日期衝突!!!! 檢查日期 6 	Date conflict !!!! Check date 5		
+481	日期衝突!!!! 檢查日期 7 	Date conflict !!!! Check date 6		
+482	日期衝突!!!! 檢查日期 8 	Date conflict !!!! Check date 7		
+483	日期衝突!!!! 檢查日期 9 	Date conflict !!!! Check date 8		
+484	日期衝突!!!! 檢查日期 10 	Date conflict !!!! Check date 9		
+485	日期衝突!!!! 檢查日期 11 	Date conflict !!!! Check date 10		
+486	日期衝突!!!! 檢查日期 12 	Date conflict !!!! Check date 11		
+487	日期衝突!!!! 檢查日期 13 	Date conflict !!!! Check date 12		
+488	只允許 1 到 13 之間的期間！ 	Date conflict !!!! Check date 13		
+489	您確定要取消變更嗎？ 	Only periods between 1 and 13 are allowed!		
+490	沒有要對帳的項目！ 	Are you sure you want to cancel the changes?		
+491	這不是一個收入／支出帳戶！ 	No items to reconcile!		
+492	此帳戶包含子帳戶！ 	This is not an income / expense account!		
+493	您希望建立此庫存項目嗎？ 	This account contains sub-accounts!		
+494	發布發票時出錯！請還原備份！ 	Do you wish to create this stock item?		
+495	選擇使用者報告 	Error posting invoice! Please restore backup!		
+496	庫存單位 	Select a user report		
+497	售價描述 	Units of stock		
+498	銷售成本 	Selling price descriptions		
+499	在備份前執行資料完整性檢查嗎？ 	Cost of sales		
+500	在备份前运行数据完整性检查吗？	Do you want to run the data integrity check before making the backup?		
+501	您希望繼續備份嗎？ 	Do you wish to continue with the backup?		
+502	!!! 致命檔案錯誤 11 !!! 	!!! FATAL FILE ERROR 11 !!!		
+503	此日期不在目前年份內！必須介於 	This date is out of the current year! It must be between		
+504	和 	and		
+505	您希望現在列印此發票嗎？ 	Do you wish to print this Invoice now?		
+506	警告，有 	Warning there are		
+507	手頭的項目。 	items on hand.		
+508	您確定要清除此發票中的所有條目嗎？ 	Are you sure you want to clear all the entries in this Invoice?		
+509	無效的折扣！金額必須為正數！ 	Invalid discount! Amount must be positive!		
+510	在備份前執行資料完整性檢查嗎？ 	Do you want to run the Data Integrity Check before making the backup?		
+511	備份完成！ 	Backup completed!		
+512	警告，這將覆蓋您目前的帳簿！您確定要繼續嗎？ 	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?		
+513	請插入備份磁碟並繼續，或現在取消操作。 	Please insert your backup disk in the drive and continue, or cancel the operation now.		
+514	還原完成！ 	Restore completed!		
+515	<@APPNAME@> 此副本未註冊！您希望現在註冊嗎？ 	This copy of <@APPNAME@> is not registered! Do you wish to register it now?		
+516	將刪除您的所有資訊！您確定要這樣做嗎？ 	This will delete all your information! Are you sure you want to do this?		
+517	完成！ 	Finished!		
+518	此目錄不包含帳簿！ 	This directory does not contain a Set of Books!		
+519	這將嚴重影響您的帳簿！您確定要清除此帳簿嗎？ 	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?		
+520	請填寫註冊表！ 	Please complete the registration form!		
+521	無效的解鎖代碼！ 	Invalid unlocking code!		
+522	您希望取消註冊嗎？ 	Do you wish to cancel registration?		
+523	此帳戶有交易！您希望將交易轉移到另一個帳戶嗎？ 	This account has transactions! Do you wish to transfer the transactions to another account?		
+524	您不能轉移到此帳戶！它有子帳戶！ 	You cannot transfer to this account! It has sub-accounts!		
+525	帳戶已刪除！ 	Account deleted!		
+526	此債務人有交易！您希望將交易轉移到另一個債務人嗎？ 	This debtor has transactions! Do you wish to transfer the transactions to another debtor?		
+527	此債權人有交易！您希望將交易轉移到另一個債權人嗎？ 	This creditor has transactions! Do you wish to transfer the transactions to another creditor?		
+528	此銀行帳戶有交易！您希望將交易轉移到另一個銀行帳戶嗎？ 	This bank account has transactions! Do you wish to transfer the transactions to another bank account?		
+529	此稅務帳戶有交易！您希望將交易轉移到另一個稅務帳戶嗎？ 	This tax account has transactions! Do you wish to transfer the transactions to another tax account?		
+530	警告，有 	Warning, there are		
+531	未發布的批次和 	Unposted batches and		
+532	未發布的批次 	Unposted batches		
+533	未發布的文件 	Unposted documents		
+534	屬性 	Properties		
+535	更改帳簿屬性 	Change Set of Books properties		
+536	輸入帳簿的名稱 	Enter the name of the Set of Books		
+537	輸入儲存帳簿的路徑 	Enter the path where the books are stored		
+538	更改 	Change		
+539	名為的帳簿 	A Set of Books called		
+540	建立精靈 	Creation wizard		
+541	請選擇下面列表中的帳簿，或點擊瀏覽按鈕在系統的其他資料夾中選擇要複製的帳簿。 	Please select a Set of Books from the list below, or click Browse button to select the Set of Books you wish to copy in a folder elsewhere on your system.		
+542	瀏覽 	Browse		
+543	完成 	Finish		
+544	歡迎使用<@APPNAME@>帳簿建立精靈。請選擇一個選項並點擊下一步按鈕，或點擊取消按鈕取消建立新帳簿。 	Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please select an option and click on the Next button, or click on the Cancel button to cancel the creation of a new Set of Books.		
+545	您希望： 	Do you wish to:		
+546	從舊版 TurboCASH（v 2.01, 2.02, 2.03）轉換？ 	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?		
+547	複製現有的帳簿？ 	Copy an existing Set of Books?		
+548	讓 <@APPNAME@> 幫助您建立帳簿？ 	Let <@APPNAME@> help you to create a Set of Books?		
+549	自訂您的帳簿（進階）？ 	Customise your own Set of Books (Advanced)?		
+550	將 TurboCASH3 轉換為 <@APPNAME@>？ 	Convert TurboCASH3 to <@APPNAME@>?		
+551	下一步 >> 	Next >>		
+552	債權人控制 	Creditors control		
+553	債務人控制 	Debtors control		
+554	保留盈餘 	Retained earnings		
+555	正在建立帳戶集...... 	Creating set of accounts...		
+556	您現在需要輸入財年的期間數和年度開始日期！ 	You now need to type in the number of periods there are in your financial year and the date of the start of the year!		
+557	請點擊完成以指定您的： 	Please click Finish to specify your:		
+558	此目錄不包含帳簿，或帳簿已損壞！ 	This directory does not contain a Set of Books, or the Set of Books is damaged!		
+559	您必須選擇一個帳簿集或目錄進行複製 	You have to choose a Set of Books or directory to copy		
+560	正在建立帳簿...... 	Creating Set of Books...		
+561	正在建立所需帳戶...... 	Creating required accounts...		
+562	正在建立所需帳戶（債權人控制）...... 	Creating required accounts (Creditors control)...		
+563	正在建立所需帳戶（債務人控制）...... 	Creating required accounts (Debtors control)...		
+564	正在建立所需帳戶（保留盈餘）正在建立所需帳戶（債權人控制）...... 	Creating required accounts (Retained earnings)...		
+565	正在轉換帳簿...... 	Converting Set of Books...		
+566	正在讀取 Pastel 資料...... 	Reading data from Pastel...		
+567	正在轉換 Pastel 系統變數...... 	Converting Pastel system variables...		
+568	正在轉換 Pastel 帳戶...... 	Converting Pastel accounts...		
+569	正在轉換 Pastel 庫存...... 	Converting Pastel stock...		
+570	正在轉換 Pastel 庫存...... 	Converting Pastel journals...		
+571	正在轉換 Pastel 帳戶 	Please select a Pastel data folder		
+572	請選擇要轉換的舊帳簿。 	Please select an old Set of Books to convert from the list below.		
+573	請選擇要轉換的 Pastel Partner 資料。 	Please select Pastel Partner Data to convert from the list below.		
+574	選擇目錄 	Pick a directory		
+575	編號 	Number		
+576	報告日期 	Reporting dates		
+577	開始日期 	Start date		
+578	發布到其他年份 	Post to other years		
+579	結束日期 	Ends on		
+580	開放發布 	Open for posting		
+581	輸入您的詳細資訊 	*Translate : Enter your details		
+582	&系統參數 	&Client server		
+583	&偏好設定 	&Preferences		
+584	&系統參數 	&System parameters		
+585	&存取控制 	&Access control		
+586	&說明 	&Help		
+587	發票錄入 	Invoice entry		
+588	錯誤 	Error		
+589	警告，此日期不在今年或去年的任何報告日期內！ 	Warning, this date does not fall into any of this or last year's reporting dates!		
+590	此批次無效！ 	This batch does not validate!		
+591	不平衡 	is out of balance by		
+592	行 	Line		
+593	允許兩者 	Allow both		
+594	批次包含發布到去年的交易！ 	Batch contains transactions posting to last year!		
+595	您要繼續發布嗎？ 	Do you want to continue posting?		
+596	無法發布到包含子帳戶的主帳戶！ 	Cannot post to main account containing Sub-accounts!		
+597	帳戶不存在！您想建立它嗎？ 	Account does not exist! Do you wish to create it?		
+598	沒有資料可匯入！ 	No data to import!		
+599	輸入月份和年份以重複條目 	Enter month and year to repeat entries to		
+600	期間 	Period		
+601	年份 	Year		
+602	&選擇對方帳戶 	&Select contra account		
+603	今年 	This year		
+604	去年 	Last year		
+605	代碼 	Code		
+606	描述 	Description		
+607	參考 	Reference		
+608	帳戶 	Account		
+609	稅 	Tax		
+610	縮寫定義 	Abbreviation definition		
+611	平衡批次 	Balance batch		
+612	分隔檔案匯入 	Delimited file import		
+613	刪除批次 	Erase batch		
+614	產生多個交易 	Generate multiple transactions		
+615	列出批次 	List batch		
+616	發布批次 	Post batch		
+617	重複交易 	Repeating transactions		
+618	每個期間的總計 	Totals for each period		
+619	寫入分隔檔案 	Write delimited file		
+620	處理批次 	Process the batch		
+621	您確定要刪除整個批次嗎？ 	Are you sure you want to erase this entire batch?		
+622	此批次的選項 	Options for this batch		
+623	增加參考 	Increment reference		
+624	重複詳細資訊 	Repeat details		
+625	每行對方帳戶 	Contra account per line		
+626	合併平衡 	Consolidate balancing		
+627	金額輸入 	Amount entry		
+628	確認 	Confirmation		
+629	資訊 	Information		
+630	警告 	Warning		
+631	您不能從 	You cannot report from		
+632	已經存在！ 	already exists!		
+633	選擇 Pastel 資料夾 !!! 	Select Pastel data folder !!!		
+635	您必須打開一本帳簿才能使用此選項！ 	You must have a Set of Books open to use this option!		
+636	您還沒有設定帳簿！ 	You have not set up a Set of Books yet!		
+637	包括期初餘額 	Include opening balances		
+638	您不能選擇此帳戶，因為它包含子帳戶！ 	You cannot select this account because it contains sub-accounts!		
+639	如果更改為註釋，此行的資訊將遺失！ 	The information on this line will be lost if it's changed to comment!		
+640	您確定要在此行添加註釋嗎？ 	Are you sure you want a comment on this line?		
+641	您確定要在此行添加註釋嗎？ 	This will radically alter your data! We recommend that you stop and make a backup!		
+642	這將極大地改變您的資料！我們建議您停止並進行備份！ 	Do you wish to continue?		
+643	此帳戶有上年的期初餘額！您不能刪除該帳戶！ 	This account has an opening last year balance! You cannot delete the account!		
+644	此帳戶不是收入／費用帳戶！ 	This account is not an income / expense account!		
+645	獨占總計 	Exclusive total		
+646	發票總計 	Invoice total		
+647	總折扣 	Total discount		
+648	單位不含稅 	Unit excl.		
+649	單位含稅 	Unit incl.		
+650	金額不含稅 	Amount excl.		
+651	金額含稅l. 	Amount incl.		
+652	項目代碼 	Item code		
+653	描述 	Description		
+655	訂單數量 	Qty order		
+656	出貨數量 	Qty ship		
+657	折扣 	Disc.		
+658	F8: 折扣 	F8: Discount		
+659	F9: 註釋 	F9: Comment		
+660	F10: 刪除所有 	F10: Delete all		
+662	&註釋行 	&Comment line		
+663	&輸入總體折扣 	&Enter overall discount		
+664	F7: 含稅 	F7: Inclusive		
+665	您已更改付款和收款批次！這將破壞您的對帳！您是否要繼續？ 	You have changed payment and receipt batch! This will corrupt your recon! Do you wish to continue?		
+666	控制帳戶不能使用！ 	Control account cannot be used!		
+667	您已更改百分比！ 	You have changed the percentage!		
+668	不能為包含子帳戶的帳戶設定預算！ 	Cannot have budgets for an account which has sub-accounts!		
+669	總帳帳戶不能使用！ 	General ledger account cannot be used!		
+670	貸項通知單錄入 	Credit note entry		
+671	F10: 刪除貸項通知單 	F10: Delete credit note		
+673	您是否要立即列印此貸項通知單？ 	Do you wish to print this credit note now?		
+674	更新貸項通知單 	Update credit notes		
+675	從貸項通知單 	From credit note		
+676	到貸項通知單 	To credit note		
+677	繼續 	Continue		
+678	沒有發票可列印！ 	There is no invoice to print!		
+679	不能有與其他銀行帳戶相同的付款批次類型！ 	Cannot have the same payments batch type as for another bank account!		
+680	匯款 	Remittance		
+681	匯款訊息 	Remittance message		
+682	貨物已收到 	Goods received		
+683	不能有與其他銀行帳戶相同的收款批次類型！ 	Cannot have the same receipt batch type as for another bank account!		
+684	單價 	Unit price		
+685	您確定要清除此採購中的所有條目嗎？ 	Are you sure you want to clear all the entries in this purchase?		
+686	現在列印採購文件嗎？ 	Print a purchase document now?		
+687	不含稅 	Tax excluded		
+688	含稅 	Tax included		
+689	貸項通知單歷史 	Credit note history		
+690	供應商退貨歷史 	Supplier return history		
+691	採購歷史 	Purchases history		
+692	報價歷史 	Quote history		
+693	訂單歷史 	Orders history		
+694	從採購 	From purchase		
+695	刪除貸項通知單 	Delete credit notes		
+696	無效的下一個號碼！在設定 -> 文件設定中更改它！ 	Invalid next number! Change it in Setup -> Documents setup!		
+697	您要繼續備份嗎？ 	Do you want to continue backup?		
+698	您要繼續從中恢復嗎？ 	Do you want to continue restore from?		
+699	未選擇帳簿！ 	No Set of Books selected!		
+700	更新採購 	Update purchase		
+701	更新供應商退貨 	Update supplier returns		
+702	從供應商退貨 	From supplier return		
+703	採購編號 	Purchase no.		
+704	供應商退貨編號 	Supplier ret. no.		
+705	退貨 	Return		
+706	貸項通知單 	Credit notes		
+707	您要列印此訂單嗎？ 	Do you wish to print this order?		
+708	您要列印此供應商退貨嗎？ 	Do you wish to print this supplier return?		
+709	您要列印此採購嗎？ 	Do you wish to print this purchase?		
+710	您要列印此報價嗎？ 	Do you wish to print this quote?		
+711	執行設定 -> 批次類型並選擇此批次的對方帳戶！ 	Run Setup -> Batch types and select contra account for this batch!		
+712	您確定要刪除此行的資訊嗎？ 	Are you sure you wish to delete this row's information?		
+713	用戶端伺服器更新 	Client server update		
+714	網路更新 	Internet update		
+715	是否要刪除此標籤定義？ 	Do want to delete this label definitions?		
+716	位置： 	Location :		
+717	帳套未找到！目錄不存在： 	Set of Books not found! Directory doesn't exist:		
+718	或網路映射磁碟機出錯 	Or trouble on a network mapped drive		
+719	這將刪除所有資訊！確定要繼續嗎？ 	This will delete all your information! Are you sure you want to continue?		
+720	資料庫錯誤： 	Btrv error:		
+721	沒有可連結的債權人！ 	Nothing to link for this creditor!		
+722	警告，如果點擊確定，您將失去此帳戶所有目前連結！ 	Warning, if you click yes you will lose all your current links for this account!		
+723	插入磁碟 	Insert disk in		
+724	網路設定資訊不正確！執行設定->設定->網路。 	Internet setup information is incorrect! Run Setup -> Setup -> Internet.		
+725	您要刪除嗎？ 	Do you want to delete?		
+726	儲存 	Save		
+727	首頁(&F) 	&First		
+728	上一頁(&P) 	&Previous		
+729	下一頁(&N) 	&Next		
+730	末頁(&L) 	&Last		
+731	縮放(&Z) 	&Zoom		
+732	副本 	Copies		
+733	列印範圍 	Print range		
+734	頁面(&P) 	&Pages		
+735	從(&F) 	&From		
+736	到(&T) 	&To		
+737	所有頁面(&A) 	&All pages		
+738	副本數量(&C) 	Number of &copies		
+739	匯出報告錯誤！ 	Exporting report error!		
+740	建立暫存檔案時出錯！ 	Error when creating Tmp!		
+741	密碼無效！ 	Invalid password!		
+742	您不能將此帳戶用作對方帳戶！它包含子帳戶 	You cannot use this account as a contra account! It contains sub-accounts!		
+743	建立目錄 	Create directory		
+744	該帳套已存在！請重新輸入 	That Set of Books already exists! Please re-enter!		
+745	無法建立目錄！ 	Couldn't create directory!		
+746	請重新輸入！ 	Please re-enter!		
+747	沒有資料可列印！ 	No data to print!		
+748	非法帳戶代碼！ 	Illegal account code!		
+750	稅務發票號 	Tax Invoice no.		
+751	報價單號 	Quote no.		
+752	供應商退貨單號 	Supplier return no.		
+753	備份媒體類型無效！ 	Invalid media type for backup!		
+754	無法刪除控制帳戶！ 	Cannot delete a control account!		
+755	帳套 	The Set of Books		
+756	將被永久從磁碟中刪除！！ 	will permanently be removed from disk!		
+757	您要取消刪除嗎？ 	Do you want to cancel the deletion?		
+758	貸方通知單號 	Credit note no.		
+759	採購單號 	Purchase no.		
+761	收貨憑證 	Goods received voucher		
+762	訂單號 	Order no.		
+763	過帳時的餘額結轉 	Balance brought forward when posting		
+764	然後點擊關閉完成建立精靈。 	Then click Close to finish the Creation wizard.		
+765	債務人餘額超出信用額度： 	Debtor's balance is over credit limit with:		
+766	不能轉帳到相同帳戶！ 	Cannot transfer transactions to the same account!		
+767	上次使用此帳套時程式未正常結束！ 	The last time that you worked with this Set of Books you did not exit the program properly!		
+768	如遇到任何問題，請從備份恢復資料。 	If you encounter any problems, restore your data from a backup.		
+769	<@APPNAME@> 想提醒您： 	<@APPNAME@> would like to remind you that:		
+770	定期備份和歸檔帳套是良好的做法，可防止資料遺失。 	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.		
+771	報價單號 	Quote no.		
+772	來自報價單 	From quote		
+773	來自訂單 	From order		
+774	此帳戶有餘額，無法刪除！ 	This account has balances, cannot be deleted!		
+775	您要建立此聯絡人嗎？ 	Do you want to create this contactperson?		
+776	您要刪除此聯絡人嗎？ 	Do you want to delete this contactperson?		
+777	聯絡人已刪除！ 	Contactperson deleted!		
+778	非法聯絡人名稱！ 	Illegal contact name!		
+779	帳號必須唯一！ 	Account numbers should be unique!		
+780	所有交易將被刪除，帳戶餘額將清零！ 	All transactions will be removed and account balances will be set to zero!		
+781	您要取消清算過程嗎？ 	Do you want to cancel the clearing process?		
+782	已存在！ 	already exist!		
+783	非法單據編號！ 	Illegal document number!		
+784	非法庫存代碼！ 	Illegal stock code!		
+785	餘額債務人金額 < x.xx 	Balance debtors with amount < x.xx		
+786	有收費金額的債權人 	Creditors with charge amount		
+787	有收費金額的債務人 	Debtors with charge amount		
+788	所有債務人固定金額 	Fixed amount to all debtors		
+789	逾期債務人利息 	Interest on overdue debtors		
+790	債權人日期餘額 	Creditor balances at date		
+791	建立收據 	Create receipts		
+792	現金 	Cash		
+793	支票 	Cheque		
+794	其他 	Other		
+795	十億 	Billion		
+796	萬億 	Trillion		
+797	金額與交易金額不一致！ 	Amount is not the same as the transaction amount!		
+798	訂單 	Orders		
+799	參考編號與交易參考編號不一致！ 	Reference is not the same as the transaction reference!		
+800	您要關閉<@APPNAME@> 嗎？ 	Do you wish to close <@APPNAME@>?		
+801	您要取消文件列印嗎？ 	Do you want to cancel documents printing?		
+802	未選擇方法！請選擇一個！ 	No method selected! Please select one!		
+803	不能對現有庫存量不為零的商品進行入庫！ 	Cannot take stock on for an item with a non-zero quantity on hand!		
+804	未選擇使用者報告！請選擇一個！ 	No user report selected! Please select one!		
+805	您要填寫此新聯絡人的所有詳細資訊嗎？ 	Do you want to fill all details for this new contact?		
+806	您確定要更改下一個單據編號嗎？ 	Are you sure you want to change the next document number?		
+807	複製過程中發生錯誤！ 	Error occurred during copy process!		
+808	折扣必須在0%到99.99%範圍內 	Discount must be in range 0 % to 99.99 %		
+809	逾期金額利息必須在0%到99.99%範圍內 	Interest on overdue amount must be in range 0 % to 99.99 %		
+810	此價格低於庫存檔案中的單位價格 	This price is lower than the unit price of		
+811	在庫存檔案中 	on the stock file		
+812	舊的T3資料已成功轉換 	The old T3 data was successfully converted		
+813	舊的T3資料已成功轉換 	An error occurred while converting your old T3 data!		
+814	找不到未付金額！ 	Could not find unpaid amount!		
+815	您的付款和收據批次未正確連結到此銀行帳戶！ 	Your payment and receipt batch are not linked correctly to this bank account!		
+816	在基於付款的系統中可能沒有債務人或債權人的稅收類型！ 	May not have a tax type for a debtor or creditor in the payments based system!		
+817	在此未找到備份檔案 	Backup file not found in		
+818	選擇備份或還原模式 	Select Backup or Restore mode		
+820	執行基於付款的系統要求將所有債務人和債權人轉換為開放項目帳戶。您要繼續嗎？ 	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?		
+821	基於付款的稅收處理方法完全基於現金。只有從客戶收到稅款時才需要向稅務機關繳納。您要繼續嗎？ 	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?		
+822	您正在執行基於付款的方法，但找不到到期帳戶！請執行「設定->公司資訊」！ 	You are running payment based method and the due account cannot be found! Please run Setup -> Company info!		
+823	信用卡 	Credit Card		
+824	點擊完成執行。 	Click on Finish to execute.		
+825	您想使用哪個會計科目表？ 	Which Chart of Accounts do you want to use?		
+826	請輸入新帳簿的名稱！ 	Please type in the name of the new Set of Books!		
+827	從批次 	From batch		
+828	關閉 	Close		
+829	您沒有處理權限！拒絕存取此流程！ 	You have no right to process!  Access to this process denied!		
+830	請聯繫您的系統管理員！ 	Please contact your <@APPNAME@> administrator!		
+831	此帳戶已禁用，無法使用！ 	This account is disabled and cannot be used!		
+832	帳戶不存在！無法執行此操作！ 	Account does not exist! Process cannot be performed!		
+833	無法打開傳真簽名檔案 	Cannot open fax signature file in		
+834	備份 ／ 恢復 	Backup / Restore		
+835	顯示&歡迎 	C&lose Set of Books		
+836	備份／還原(&B) 	&Backup / Restore Set of Books		
+837	資料重建索引(&T) 	Da&ta Re-index		
+838	聯絡人(&C) 	&Contacts		
+839	報價單(&Q) 	&Quotes		
+840	確認(&N) 	Co&nfirm		
+841	訂單(&D) 	Or&ders		
+842	收入報表(&I) 	&Income statement		
+843	聯絡人列表(&C) 	&Contact listing		
+844	未完成訂單(&B) 	&Backorders		
+845	網際網路 	&Internet		
+846	財務類別 	&Financial categories		
+847	字體 	&Fonts		
+848	系統參數(&P) 	System &parameters		
+849	自訂語言 	Customise language		
+850	&匯入 	&Import		
+851	顯示 &歡迎 	Show &welcome		
+852	線上 &註冊 	Online &registration		
+853	線上 &更新 	Online &update		
+854	&瀏覽 	&Browse		
+855	每個產品的銷售人員 	Salesperson per product		
+856	每個客戶的銷售人員 	Salesperson per customer		
+857	每個客戶的產品 	Product per customer		
+858	每個銷售人員的產品 	Product per salesperson		
+859	每個銷售人員的客戶 	Customer per salesperson		
+860	每個產品的客戶 	Customer per product		
+861	每個供應商的採購 	Purchases per supplier		
+862	每個產品的採購 	Purchases per product		
+863	列印選項 	Printing options		
+864	印表機設定(&P) 	&Printer setup		
+865	傳送報告至： 	Send report to:		
+866	份數： 	Copies:		
+867	F11：複製 	F11: Copy		
+868	表格(&T) 	&Tables		
+869	庫存 	Stock		
+870	可用欄位(&A) 	&Available fields		
+871	已選欄位(&S) 	&Selected fields		
+872	選擇自： 	Select from:		
+873	全部清除(&C) 	&Clear All		
+874	表格 	Table		
+875	財務期間 	Financial periods		
+876	銷售人員 	Salesperson		
+877	要複製的帳簿： 	Set of Books to copy:		
+879	返回(&B) 	&Back		
+880	每期餘額 	Files corruption		
+881	每期餘額 	Balances per period		
+882	統計帳戶和庫存項目 	Count accounts and stock items		
+883	債務人和債權人 	Debtors and creditors		
+884	未完成的批次和單據 	Outstanding batches and documents		
+885	未過帳單據 	Unposted documents		
+886	選擇帳簿 	Select Set of Books		
+887	檢查 	Check		
+888	去年已關閉過帳！ 	Last year is closed for posting!		
+889	此期間已關閉過帳！ 	This period is closed for posting!		
+890	要啟用，請轉到設定->報告日期 	To turn it on, go to Setup -> Reporting dates		
+891	備份 	Backup		
+892	還原 	Restore		
+893	從此還原 	Restore from		
+894	還原至 	Restore to		
+895	從此備份 	Backup from		
+896	備份至 	Backup to		
+897	停止 	Stop		
+898	還原帳簿 	Restore Set of Books		
+899	備份帳簿 	Backup Set of Books		
+900	備份已完成...... 	Backup completed...		
+901	備份過程已完成！ 	The backup process is completed!		
+902	正在壓縮 	Zipping		
+903	 請插入磁碟！ 	Please insert disk!		
+904	多磁碟帳簿備份的 	of the multi-disk Set of Books backup.		
+905	選擇備份目標 	Select backup target		
+906	正在解壓縮 	UnZipping		
+908	還原過程已完成！ 	The restore process is completed!		
+909	已還原 	Restored		
+910	插入磁碟組的最後一張磁碟，然後 	Insert the last disk of disk set then		
+911	點擊是繼續或否中止 	Click on Yes to continue or No to abort		
+912	開始備份...... 	Starting backup...		
+913	在此未找到有效帳簿： 	No valid Set of Books found in:		
+914	無法使用此磁碟機！請映射後重試...... 	Cannot use this drive! Map it and try again...		
+915	無法執行備份...... 	Cannot run backup...		
+916	備份未完成...... 	Backup incompleted...		
+917	帳簿 - 備份過程被使用者取消！ 	Set of Books - Backup process cancelled by user!		
+918	檔案已壓縮 	Files compressed		
+919	過程被使用者取消 	Process cancelled by the user!		
+920	開始還原...... 	Starting Restore...		
+921	您的帳簿集將在： 	Your Set of Books will be restored in:		
+922	檔案已還原 	Files restored		
+923	密碼錯誤！ 	Incorrect password!		
+924	跳過檔案： 	Skipping file:		
+925	錯誤：打開檔案！ 	Error: Opening file!		
+926	等待執行...... 	Waiting to run...		
+927	此使用者設定現已被系統轉為管理員使用者！ 		This user setting is now turned to administrator user by <@APPNAME@>!	
+928	單據錄入 	Document entry		
+929	採購 	Purchases		
+930	詳細資訊 	Details		
+931	表頭 	Header		
+932	清除連結 	Clear links		
+933	產生期初餘額 	Gen BB/F		
+934	取消連結 	Unlink		
+935	總金額 	Total amount		
+936	未結總額 	Total outstanding		
+937	總分類帳 	Total ledger		
+938	差額／金額 	Difference/Amount		
+939	差額／未結 	Difference/Outstand.		
+940	清除連結選項 	Clear link options		
+941	清除所有連結 	Clear all links		
+942	使用開始日期 	Use start date		
+943	按信用日期 	By credit dates		
+944	搜尋方式 	Search by		
+945	套用 	Apply		
+946	金額 	Amount		
+947	未結金額 	Outstanding		
+948	合併 	Consolidate		
+949	顯示對帳單 	Show statement		
+950	核對 	Reconcile		
+951	取消核對 	UnReconcile		
+952	搜尋(&S) 	&Search		
+953	處理 	Process		
+954	已核對 	Reconciled		
+955	差額 	Difference		
+956	按參考號搜尋 	Search by reference		
+957	按金額搜尋 	Search by amount		
+958	按日期搜尋 	Search by date		
+959	目前銀行帳戶 	Current bank account		
+960	合計 	Total		
+961	已過帳 	Posted		
+962	未過帳 	Unposted		
+963	付款項目 	Payment item		
+964	收款項目 	Receipt item		
+965	此庫存項目的庫存控制和／或銷售帳戶設定不正確！ 	Stock control and / or Sales account not set up correctly for this stock item!		
+966	此單據無法過帳！請正確設定 - 銷售、庫存控制帳戶（和銷售成本帳戶），然後再過帳！ 	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!		
+967	未註冊版本<@APPNAME@> 	Unregistered copies of <@APPNAME@>		
+968	限制使用500筆交易或500份單據 	are limited to 500 transactions or 500 documents		
+969	線上取得(&G) 	&Get it online		
+970	解鎖碼：<@APPNAME@>)： 	Unlocking code (from <@APPNAME@> ):		
+971	序號： 	Serial number:		
+972	註冊您的軟體 <@APPNAME@> 	Register your <@APPNAME@>		
+973	取得您的解鎖碼或 	To get your unlocking code or		
+974	電話： 	Phone:		
+975	此軟體副本尚未註冊！您想現在註冊嗎？ 	This copy of <@APPNAME@> is not registered! Do you wish to register it now?		
+976	公司名稱： 	Company name:		
+977	採購分析 	Purchase analysis		
+978	資產負債表選項 	Balance sheet options		
+979	顯示小數 	Show decimal		
+980	損益表選項 	Income statement options		
+981	顯示去年 	Show last year		
+982	顯示差異 	Show variance		
+983	新建 	New		
+984	刪除 	Delete		
+985	螢幕 	Screen		
+986	印表機 	Printer		
+987	開始 	Start		
+988	結束 	End		
+989	自動選擇 	Auto-select		
+990	條碼 	Barcode		
+991	條碼 	Barcode		
+992	每客戶產品選項 	Product per customer options		
+993	每銷售人員產品選項 	Product per salesperson options		
+994	每銷售人員客戶選項 	Customer per salesperson options		
+995	每產品客戶選項 	Customer per product options		
+996	每客戶銷售人員選項 	Salesperson per customer options		
+997	付款現金簿 	Payments cashbook		
+998	收款現金簿 	Receipt cashbook		
+999	含稅模式 	Inclusive mode		
+1000	資產負債表 	Balance sheet		
+1001	Windows預設 	Windows default		
+1002	帳戶 	Accounts		
+1003	選擇聯絡人 	Select contact		
+1004	選擇群組 	Select groups		
+1005	您要取消年終處理嗎？ 	Do you want to cancel the year-end process?		
+1006	您確定要刪除此使用者報告嗎？ 	Are you sure you want delete this user report?		
+1007	這將嚴重影響您的帳簿！您確定要刪除此批次類型嗎？ 	This will seriously affect your Set of Books! Are you sure you want delete this batch type?		
+1008	每產品銷售選項 	Sales per product options		
+1009	預設輸出 	Default output		
+1010	公司標誌 	Company logo		
+1011	在報告上使用標誌 	Use logo on reports		
+1012	選項 	Options		
+1013	重新命名 	Rename		
+1014	從檔案載入(&L) 	&Load from file		
+1015	貼上(&P) 	&Paste		
+1016	清除(&C) 	&Clear		
+1017	<@APPNAME@> - 載入徽標 	<@APPNAME@> - Load logo		
+1018	刪除報價 	Delete quotes		
+1019	刪除訂單 	Delete orders		
+1020	列印標準徽標 	Print standard logo		
+1021	試算表 	Trial balance		
+1022	到 	to		
+1023	淨利潤 	Net profit		
+1024	頁 	Page		
+1025	淨虧損 	Net loss		
+1026	總計 	Total for		
+1027	預算 	Budget		
+1028	截至 	As at		
+1029	重新執行(&R) 	&Re-run		
+1030	現金流量(&a) 	C&ash flow		
+1033	應付帳款帳齡分析選項 	Creditor age analysis options		
+1034	總帳選項 	Ledger options		
+1035	分別按期間 	Each period separately		
+1036	每個帳戶一個新頁面 	New page per account		
+1037	報告日期 	Date of report		
+1039	選擇報告 	Select report		
+1040	顯示明細 	Show lines		
+1041	規格檔案 	Spec file		
+1042	標籤報告選項 	Labels report options		
+1043	債務人列表選項 	Debtor listing options		
+1044	債權人列表選項 	Creditor listing options		
+1045	現金流量選項 	Cash flow options		
+1046	會計期間 	Periods		
+1047	來源銀行帳戶 	From bank account		
+1048	包含零用金 	Include petty cash		
+1049	帳簿集名稱不能為空！ 	Set of Books name cannot be blank!		
+1050	預設縮放預覽 	Default zoom preview		
+1051	按產品列出的銷售人員選項 	Salesperson per product options		
+1052	清除列表 	Purge list		
+1053	選擇 設定 -> 您要更改的公司資訊！ 	Select Setup -> Company info you want to change!		
+1054	您想取消這個程序嗎？ 	Do you want to cancel the process?		
+1055	您是否要刪除此銷售員？ 	Do you want to delete the salesperson?		
+1056	所有銷售價格 	All selling prices		
+1057	無 	None		
+1058	庫存描述 	Stock description		
+1059	無法執行兩次報告！第一個報告正在執行！ 	Cannot run a report twice! The first report is running!		
+1060	您的帳簿集已損壞！請執行資料重建索引以重建關鍵值。 	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.		
+1063	選擇試算表庫存檔案 	Select spreadsheet stock file		
+1064	密碼 	Password		
+1065	聯絡人姓名 	Contact name		
+1066	期初餘額 	Opening balances		
+1067	預覽(&P) 	&Preview		
+1068	選擇類型 	Select type		
+1069	從......到 	From ... to		
+1070	已選擇 	Selected		
+1071	使用者 	Batches		
+1072	使用者 	User		
+1073	線上 	Online		
+1074	更新批次 	Update batches		
+1076	顯示庫存群組 	Show stock groups		
+1077	按產品列出的採購選項 	Purchases per product options		
+1078	按供應商列出的採購選項 	Purchases per supplier options		
+1079	產品種類 	Type		
+1080	使用 	Use		
+1081	銷售成本帳戶 	Cost of sales account		
+1082	補貨選項 	Reorder options		
+1083	缺貨選項 	Backorder options		
+1084	缺貨選項 	Show all items		
+1085	每項新建一頁 	New page per item		
+1086	送貨單選項 	Delivery note options		
+1087	文件類型 	Document type		
+1088	僅限去年 	Last year only		
+1089	債權人付款通知單 	Creditor remittance advise		
+1090	債務人報表 	Debtor statement		
+1091	圖表 	Graph		
+1092	計算機 	Calculator		
+1093	退格 	Backspace		
+1094	轉帳 	Transfer		
+1095	列印文件 	Print documents		
+1096	未列印 	UnPrinted		
+1097	未過帳 	Unposted		
+1098	所有 	All		
+1099	付款 	Payment		
+1100	收據 	Receipt		
+1101	取消對帳選項 	UnReconcile options		
+1102	取消按日期對帳 	UnReconcile by date		
+1103	取消按引用對帳 	UnReconcile by reference		
+1104	對帳選項 	Reconcile options		
+1105	按日期對帳 	Reconcile by date		
+1106	按引用對帳 	Reconcile by reference		
+1107	目錄 	Directory		
+1108	帳戶描述 	Account description		
+1109	帳戶類型 	Account type		
+1110	基於發票 	Invoice based		
+1111	基於付款 	Payments based		
+1112	預先列印 	Preprinted		
+1113	普通 A4 	Plain A4		
+1114	服務 	Service		
+1115	普通 Eyeline 	Plain Eyeline		
+1116	四十 	Forty		
+1117	已新增 	Added		
+1118	顯示聯絡人 	Show contactperson		
+1119	從列表 	From list		
+1120	單據號 	Document no.		
+1121	文件日期 	Document date		
+1122	'價格名稱',值 	"""Price Name"",Value"		
+1123	已刪除！ 	deleted!		
+1124	應收帳款和應付帳款控制帳戶！請聯繫 <@APPNAME@> 支援！ 	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!		
+1125	到期 	Due		
+1126	結轉 	Brought forward		
+1127	結餘 	Carried forward		
+1128	報表至 	Statement to		
+1129	付款通知單至 	Remittance advise to		
+1130	客戶稅務參考號 	Customer tax ref.		
+1131	單位 	Unit		
+1132	價格 	Price		
+1133	接受發票 	Invoice accepted		
+1134	簽名 	Signature		
+1135	稅務登記 	TAX registration		
+1136	未含稅金額 	Amount exclusive		
+1137	含稅金額 	Amount inclusive		
+1138	稅額 	Tax amount		
+1139	發票 	Inv.		
+1140	項目 	Item		
+1141	折扣 	Discount		
+1142	庫存項目描述 	Stock item description		
+1143	類別 	Category		
+1144	供應商地址 	Supplier address		
+1145	發票地址 	Invoice address		
+1146	接受貸方通知單 	Credit note accepted		
+1147	購買文件已接受 	Purchase document accepted		
+1148	接受報價 	Quote accepted		
+1149	接受訂單 	Order accepted		
+1150	送貨單已接受 	Delivery note accepted		
+1151	資產 	Assets		
+1152	總資產 	Total Assets		
+1153	資本和負債 	Capital and Liabilities		
+1154	資本和負債總額 	Total Capital and Liabilities		
+1155	淨利潤／虧損總計 	Total Net Profit/Loss		
+1156	未分配 	unllocated		
+1157	在 	at		
+1158	收入與支出報告 	Income and expense report		
+1159	差異 	Variance		
+1160	淨利潤／虧損 	Net Profit/Loss		
+1161	搜尋停止，達到上限！ 	Search stopped, limit reached!		
+1162	今天的日期已超出您的財務期間，您應該執行年終結轉處理至今日！ 	Today's date is beyond your financial period, you should run your year end to process to this date!		
+1163	查找(&L) 	&Lookup		
+1164	客戶(&C) 	&Customer		
+1165	找零(&F) 	&Float		
+1166	付款(&P) 	&Payment		
+1167	刪除所有資料 	&Delete all		
+1168	請閱讀此內容 	Please read this		
+1169	抽屜裡的現金 	Cash in drawer		
+1170	信用卡 	Credit Cards		
+1171	找零進出 	Float in/out		
+1172	支票 	Cheques		
+1173	代金券 	Vouchers		
+1174	POS 存取控制 	POS Access control		
+1175	銷售點登入 	Point-of-Sale login		
+1176	收銀員姓名 	Cashier name		
+1177	(銷售員姓名) 	(Saleperson name)		
+1178	記住我的登入 	Remember my login		
+1179	鍵 	Key		
+1180	縮寫列表 	Abbreviation list		
+1181	債務人變動 	Debtor movement		
+1182	債權人變動 	Creditor movement		
+1183	帳戶變動 	Account movement		
+1184	預算績效 	Budget performance		
+1185	差異金額 	Variance amount		
+1186	差異百分比 	Variance percentage		
+1187	保留收益 	Retained income		
+1188	收入 ／ 支出 	Inc / Exp		
+1189	帳戶列表 	List of accounts		
+1190	缺貨項目 	Items on backorder		
+1191	缺貨訂單 	Backorders		
+1192	各期限總額 	Totals for each period		
+1193	平衡 	To balance		
+1194	批次錄入明細 	Batch entry details		
+1195	含稅 	Inclusive		
+1196	對銷 	Contra		
+1197	<@APPNAME@> 支援 	<@APPNAME@> Support		
+1198	<@APPNAME@> 支援頁面 	<@APPNAME@> Support page		
+1199	批次類型詳細報告 	Batch type details report		
+1200	淨額 	Excl. amt.		
+1201	含稅金額. 	Incl. amt.		
+1202	總計: 	Total:		
+1203	調查者 	Investigator		
+1204	搜尋 	Search		
+1205	搜尋 	Seach for		
+1206	立即搜尋 	Search now		
+1207	進階選項 	Advanced options		
+1208	返回 	Back		
+1209	精簡搜尋 	Refine search		
+1210	記錄找到上限 	Record found limit		
+1211	輸入您要查找的內容，如果您想查找某種特定類型，請選中相應的按鈕或在此點擊以完善搜尋。 	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.		
+1212	搜尋提示 	Search tip		
+1213	帳戶資訊 	Account information		
+1214	大小寫敏感 	Case sensitive		
+1215	無論何處 	Where ever in		
+1216	起始位置 	Starting position		
+1217	結尾 	Ending		
+1218	更多 	More		
+1219	搜尋選項 	Search options		
+1220	帳戶名稱 	Account names		
+1221	所有 	Everything		
+1222	選擇債務人 	Select debtor		
+1223	轉換為發票的報價單 	Quotes to convert to invoice		
+1224	訂單號 	Order no.		
+1225	要轉換為採購的訂單 	Order to convert to purchase		
+1226	選擇債權人 	Select creditor		
+1227	按編號搜尋 	Search by number		
+1228	按帳戶搜尋 	Search by account		
+1229	按描述搜尋 	Search by description		
+1230	現金流量 	CASH flow		
+1231	開戶銀行餘額 	Opening BANK balance		
+1232	淨現金流量 	Net cash flow		
+1233	銀行總餘額 	Total bank balance		
+1234	期初備用金餘額 	Opening petty cash balance		
+1235	備現金收入 	Petty cash in		
+1236	小額現金支出 	Petty cash out		
+1237	淨備用金流動 	Net petty cash flow		
+1238	備用金總額 	Total petty cash		
+1239	現金流量總額 	Total cash flow		
+1240	可用資金 	Funds available		
+1241	現金收入 	CASH RECEIVED		
+1242	現金支出 	CASH PAID OUT		
+1243	POS 現金盤點 	Point-of-Sale cash-up check		
+1244	系統 	System		
+1245	數量 	Quantity		
+1246	收銀（在抽屜裡） 	Cashed up (in the drawer)		
+1247	摘要 	Summary		
+1248	檢查未過帳項目 	Checking unposted items		
+1249	項目 	Items		
+1250	計數' 	Count		
+1251	聯絡人列表 	Contact listing		
+1252	電話 1 	Telephone 1		
+1253	電話 2 	Telephone 2		
+1254	電子郵件地址 	E-mail address		
+1255	處理中 	Processing		
+1256	請稍候...... 	Please wait...		
+1257	實數 	Real numbers		
+1258	固定小數 	Fix decimals		
+1259	文件數量 	Document quantity		
+1260	報告小數 	Reporting decimals		
+1261	資料儲存 	Data storage		
+1262	報告金額 	Report amounts with		
+1263	信用 	for Credit		
+1264	借貸 	for Debit/Credit		
+1265	T字帳戶查看器 	T-Account viewer		
+1266	銷售點 	Point-of-Sale		
+1267	腳本引擎(&S) 	&Script engine		
+1268	銷售文件 	Sales documents		
+1269	購買文件 	Purchase documents		
+1270	POS 發票 	POS Invoice		
+1271	輸入要關聯的金額 	Enter amount to link		
+1272	輸入金額 	Enter amount		
+1273	收據號 	Receipt number		
+1274	簽發人 	Issued by		
+1275	付款方式 	Payment method		
+1276	收到 	Received for		
+1277	接收自 	Received from		
+1278	未結項選擇 	Open item selection		
+1279	付款憑證 	Payment reference		
+1280	尚未結清 	Outstanding		
+1281	債務人交易 	Debtor transactions		
+1282	詳細總帳 	Detailed ledger		
+1283	債權人交易 	Creditor transactions		
+1284	報告範圍 	Report range		
+1285	參考 	Reference		
+1286	累計餘額 	Cumulative balance		
+1287	餘額在 	Balance at		
+1288	期初餘額在 	Opening balance at		
+1289	期末餘額在 	Closing balance at		
+1290	累計總額 	Accumulative total		
+1291	資料庫重建 	Database rebuild		
+1292	選擇要重建的帳簿集 	Select Set of Books to rebuild		
+1293	標題 	Status		
+1294	標題 	Header		
+1295	索引 	Indexes		
+1296	資料 	Data		
+1297	重建 	Rebuild		
+1298	所有使用者必須先登出才能執行此程序！ 	All users must logout before running this process!		
+1299	等待執行...... 	Waiting to run ...		
+1300	重新生成鍵 	Re-building keys		
+1301	已檢查 	Checked		
+1302	鍵值 	Key values		
+1303	鍵損壞 	Key corruption		
+1304	檢查 OK 檔案 	Checked OK file(s)		
+1305	損壞檔案 	Corrupted file(s)		
+1306	事務日期／期間重建 	Transaction date/period rebuilt		
+1307	事務日期／期間失敗！請再試一次！ 	Transaction date/period failed! Try again!		
+1308	載入 Message.db 記錄 	Loading Message.db records		
+1309	壓縮 Message.db 	Compressing Message.db		
+1310	錯誤：填充表格結構！ 	Error: Filling table structure!		
+1311	重建中 	Rebuilding		
+1312	取得報告值日期 	Get date report value		
+1313	發貨單 	Delivery note		
+1314	收據選項 	Receipt options		
+1315	列印 	Print out		
+1316	債務人帳戶列表 	List of debtor accounts		
+1317	債權人帳戶列表 	List of creditor accounts		
+1318	未定位 	Unlocated		
+1319	電話 	Telephone		
+1320	未結項 	Open Item		
+1321	期初餘額 	Balance B/F		
+1322	啟用 	Enabled		
+1323	報告組 1 	Reporting group 1		
+1324	年齡類型 	Age type		
+1325	報告組 2 	Reporting group 2		
+1326	銷售員 	Salesperson		
+1327	聯絡人姓名 	Contact		
+1328	月利息 	Monthly interest		
+1329	報告類型 	Report type		
+1330	邊距 	Margins		
+1331	紙張尺寸 	Paper size		
+1332	紙張品質 	Paper quality		
+1333	其他 	Others		
+1334	左 	Left		
+1335	上 	Top		
+1336	右 	Right		
+1337	下 	Bottom		
+1338	毫米 	mm		
+1339	長度 	Length		
+1340	寬度 	Width		
+1341	預設 	Default		
+1342	自訂 	Custom		
+1343	紙張 	Paper		
+1344	草稿 	Draft		
+1345	信紙 	Letter		
+1346	客戶 	Customer		
+1347	選擇客戶 	Select customer		
+1348	按 <ESC> 鍵關閉 	Press <ESC> to close		
+1349	尚欠 	Still to pay		
+1350	記入帳戶 	Charge to account		
+1351	銀行帳戶代碼 	Bank account code		
+1352	支票號碼 	Cheque number		
+1353	卡號 	Card number		
+1354	持卡人姓名： 	Holder's name		
+1355	卡類型 	Card type		
+1356	到期日期 	Expiry date		
+1357	POS 銷售分析 	POS Sales analysis		
+1358	項目描述 	Item description		
+1359	銷售額 	Sales amount		
+1360	總計 	Totals		
+1361	餘額 	Balance		
+1362	編輯價格 	Edit price		
+1363	使用序號追蹤 	Use serial number tracking		
+1364	預設付款方式 	Default payment method		
+1365	找零限額 	Float limit		
+1366	允許現金找零 	Allow cash float		
+1367	一般 	General		
+1368	設定 	Settings		
+1369	條目 	Entry		
+1370	週邊設備 	Peripherals		
+1371	輸入介面 	Entry screen		
+1372	總帳 	Ledger		
+1373	列印客戶詳細資訊 	Print customer details		
+1374	列印配送地址 	Print delivery address		
+1375	列印付款明細 	Print payment details		
+1376	銷售批量錄入 	Sales batch entry		
+1377	收據批量錄入 	Receipts batch entry		
+1378	付款描述錄入 	Payment description entry		
+1379	現金銷售帳戶 	Cash sales account		
+1380	現金轉帳帳戶 	Cash transfer account 		
+1381	收銀台帳戶 	Till account		
+1382	收銀台最大現金金額 	Max cash in till		
+1383	下一個數字 	Next number		
+1384	使用 POS 訊息 	&Use POS messages		
+1385	抽屜已連接 	Drawer connected		
+1386	條碼掃描器已連接 	Barcode scanner connected		
+1387	收銀台測試(&T) 	&Test drawer		
+1388	序列埠參數 	Serial port parameters		
+1389	連接埠 	Port		
+1390	打開收銀台抽屜，用於 	Open cash drawer for		
+1391	並口 	Parallel port		
+1392	序列埠 	Serial port		
+1393	鮑率 	Baud rate		
+1394	資料位元 	Data bits		
+1395	停止位元 	Stop bits		
+1396	同位檢查 	Parity		
+1397	連接埠號 	Port number		
+1398	確認列印 	Confirm printing		
+1399	使用第一台印表機 	Use first printer		
+1400	使用第二台印表機 	Use second printer		
+1401	第二台印表機 	Second printer		
+1402	第一台印表機 	First printer		
+1403	測試印表機(&T) 	&Test printers		
+1404	印表機控制碼 	Printer control code		
+1405	登入 	Login		
+1406	輸入您的密碼 	Enter your password		
+1407	點陣式印表機紙張設定 	Dot-matrix printer paper setup		
+1408	系統參數 	System parameters		
+1409	POS 設定 	POS setup		
+1410	使用發票訊息 	&Use invoice messages		
+1411	印表機 	Printers		
+1412	匯入時出錯或檔案格式無效！ 	Error while importing or invalid file format!		
+1413	使用者無法使用此批次！ 	User cannot use this batch!		
+1414	在設定 -> 存取控制中啟用存取 	Enable access in Setup -> Access control		
+1700	債權人年齡分析 	Creditor age analysis		
+1701	參考編號 	Reference no.		
+1702	交易總額 	Transaction total		
+1703	報告總計： 	Totals for report :		
+1704	債務人年齡分析截至 	Debtor age analysis as at		
+1706	編號 	No.		
+1707	庫存代碼 	Stock code		
+1708	描述 	Description		
+1709	價格 	Price		
+1710	數量 	Qty		
+1711	s折扣 	Discount		
+1712	金額 	Amount		
+1713	浮動金額 	Float movement		
+1714	銷售點發票錄入 	Point-of-Sale invoice entry		
+1715	&取出抽屜 	&Out of the drawer		
+1716	&存入抽屜 	&Into the drawer		
+1717	客戶 	Customer		
+1718	銷售人員： 	Salesperson:		
+1719	參考 	Reference		
+1720	預設客戶帳戶未設定！請進行設定！ 	Default customer account not setup! Please setup!		
+1721	新發票 	New invoice		
+1722	發票 %s (信用卡) 	Inv. %s (Credit Card)		
+1723	發票 %s (帳戶) 	Inv. %s (Account)		
+1724	發票 %s (憑證) 	Inv. %s (Voucher)		
+1725	發票 %s 支票) 	Inv. %s (Cheque)		
+1726	發票 %s (現金) 	Inv. %s (Cash)		
+1727	（信用卡） 	(Credit Card)		
+1728	（帳戶） 	(Account)		
+1729	（憑證） 	(Voucher)		
+1730	(支票) 	(Cheque)		
+1731	（現金） 	(Cash)		
+1732	卡號： 	Card number:		
+1733	持卡人姓名： 	Holder name:		
+1734	卡類型: 	Card type:		
+1735	到期日期: 	Expiry date:		
+1736	您要現在關閉並取消這張發票嗎？ 	Do you want to close and cancel this invoice now?		
+1737	沒有預設值無法執行！ 	Cannot run without default!		
+1738	這將關閉發票錄入螢幕並過帳所有 POS 發票，適用於...... 	This will close the invoice entry screen and post all POS invoices for ...		
+1739	找零 	Change to give back.		
+1740	謝謝。 	Thanks.		
+1741	結班並過帳所有發票 	Closing shift and posting all invoices		
+1742	過帳憑證 	Posting document		
+1743	收銀條印表機測試 	Till slip PRINTER TEST		
+1744	左對齊 	Left alignment		
+1745	居中對齊 	Centre alignment		
+1746	右對齊 	Right alignment		
+1747	3 行空白行 	3 Blank lines		
+1748	上方有 3 行空白行？ 	Up 3 blank lines ?		
+1749	<@APPNAME@> 收銀台測試 	<@APPNAME@> till test		
+1750	&現金結算 	&Cash up		
+1751	重印最後一張發票 	&Reprint last invoice		
+1752	關閉班次 	Cl&ose shift		
+1753	含稅／不含稅模式 	Incl./Excl. mode		
+1754	報表 	&Report		
+1755	打開錢箱 	&Open drawer		
+1756	更改別名(批次名稱) (&C) 	Change alias (batch name)		
+1757	報告設計器 	Reverse batch (D<-->C)		
+1758	搜尋 	Posted batches import		
+1759	銷售點 	Point-of-Sale		
+1760	搜尋 	Search		
+1761	報告設計器 	&Report designer		
+1762	標準 	&Standard		
+1763	搜尋 	Search		
+1764	新建項目 	New item		
+1765	刪除項目 	Delete item		
+1766	進階 	&Advanced		
+1767	銷售點 	Adjustment		
+1768	搜尋 	Ave && latest cost		
+1769	數量 &和平均成本 	Qty && ave cost		
+1770	銷售價格 	Selling prices		
+1771	庫存盤點 	Stock take-on		
+1772	股票代碼 	Stock code		
+1773	描述 	Description		
+1774	條碼 	Barcode		
+1775	單位 	Unit		
+1776	數量 	Quantities		
+1777	在手 	On hand		
+1778	補貨 	Reorder		
+1779	數量 &和最新成本 	Qty && latest cost		
+1780	銷售價格 1 	Selling price1		
+1781	銷售價格 2 	Selling price2		
+1782	銷售價格 3 	Selling price3		
+1783	成本 	Cost		
+1784	平均成本 	Avg. cost		
+1785	單位成本 	Unit cost		
+1786	折扣 	Discount		
+1787	輸入 	Input		
+1788	輸出 	Output		
+1789	稅收帳戶 	Tax accounts		
+1790	總帳帳戶 	General ledger accounts		
+1791	成本 	Cost		
+1792	銷售 	Sales		
+1793	庫存 	Stock		
+1794	報告組 	Reporting group		
+1795	報告組2 	Reporting group2		
+1796	報告組 	Reporting group		
+1797	使用試算表檔案 	Use spreadsheet file		
+1798	生成交易 	Generate transactions		
+1799	使用百分比 	Use percentage		
+1800	對所有物品 	To all items		
+1801	條碼 	Barcode		
+1802	日期 	Date		
+1803	更改股票代碼將導致所有報告使用此代碼！ 	Changing the stock code will result in all reports to use this code!		
+1804	您確定要更改代碼嗎？ 	 Are you sure you want to change the code?		
+1805	外掛程式 	Plugins		
+1806	正在建立帳簿集...... 	Creating Set of Books...		
+1807	正在建立必需的帳戶...... 	Creating required accounts...		
+1808	正在建立必需的帳戶（應付帳款控制）...... 	Creating required accounts(Creditors control)...		
+1809	應付帳款控制 	Creditors Control		
+1810	正在建立必需的帳戶（應收帳款控制）...... 	Creating required accounts(Debtors control)...		
+1811	應收帳款控制 	Debtors control		
+1812	正在建立必需的帳戶（保留盈餘）...... 	Creating required accounts(Retained earnings)...		
+1813	保留盈餘 	Retained earnings		
+1814	完成！ 	Finished!		
+1815	設定控制帳戶編號、公司設定和參數 	Set control accounts number and company setting and parameters		
+1816	請輸入新帳簿集名稱 	Enter the name of new Set of Books		
+1817	要複製的帳簿集: 	Set of Books to copy :		
+1818	要轉換的舊帳簿集: 	Old Set of Books to convert :		
+1820	瀏覽 (&B) 	&Browse		
+1821	正在建立帳戶集...... 	Creating set of accounts...		
+1822	會計期間設定 	Accounting periods setup		
+1823	批次類型設定 	Batch types setup		
+1824	群組設定 	Groups setup		
+1825	文件設定 	Documents setup		
+1826	新增銷售人員 	Add salespersons		
+1827	帳簿已複製！ 	Set of Books copied!		
+1828	名稱 : 	Name :		
+1829	位置: 	Location :		
+1831	正在轉換帳簿...... 	Converting Set of Books...		
+1832	物品編號 	Item no.		
+1833	帳戶群組 	Account groups		
+1834	債務人群組 	Debtor groups		
+1835	債權人群組 	Creditor groups		
+1836	庫存 	Stock		
+1837	文件群組 	Document groups		
+1838	群組1 	Group1		
+1839	群組2 	Group2		
+1840	新增 	New		
+1841	編輯 	Edit		
+1842	刪除 	Delete		
+1843	上移 	Move up		
+1844	下移 	Move down		
+1845	報告組名稱: 	Reporting group name:		
+1846	群組 	Groups		
+1847	報告組根 	REPORTING GROUP ROOT		
+1848	有子節點，請先刪除子節點！ 	There are subnodes delete subnodes first!		
+1849	正在清除總計...... 	Clearing totals...		
+1850	正在清除交易...... 	Clearing transactions...		
+1851	正在清除庫存交易...... 	Clearing stock transactions...		
+1852	正在清除庫存資訊...... 	Clearing stock information...		
+1853	清理文件交易中...... 	Clearing document transactions...		
+1854	正在清除批次資訊...... 	Clearing batch information...		
+1855	新群組 	New group		
+1856	目前 	Current		
+1857	30天 	30 days		
+1858	60 天 	60 days		
+1859	90+ 天 	90+ days		
+1860	描述 	Description		
+1861	訂單 	Order		
+1862	船 	Ship		
+1863	稅 	Tax		
+1864	不含金額 	Excl. amt.		
+1865	折扣% 	Disc%		
+1866	含金額 	Incl. amt.		
+1867	批次名稱 	Batch name		
+1868	對銷帳戶 	Contra account		
+1869	文件類型 	Document type		
+1870	報價 	Quotes		
+1871	訂單 	Orders		
+1872	&新增選中項(&A) 	&Add selected		
+1873	刪除(&R) 	&Remove		
+1874	確認報價和訂單 	Confirm quotes and orders		
+1875	日期 	Date		
+1876	帳戶 	Account		
+1877	已確認 	Confirmed		
+1878	轉換(&O) 	C&onvert		
+1879	選擇日期 	Select date		
+1880	搜尋(&S)... 	&Search...		
+1881	連結 	Link		
+1882	處理 	Process		
+1883	報表 	Statement		
+1884	超過 90 天 	Over 90 days		
+1885	到期 	Due		
+1886	發票歷史 	Invoice history		
+1887	需重複的發票 	Invoices to repeat		
+1888	生成 	Generate		
+1889	按發票號搜尋 	Search by invoice number		
+1890	新增所有 	Add all		
+1891	重複 	Repeating		
+1892	套用於所選 	Apply to selection		
+1893	全部套用 	Apply to all		
+1894	用以下文字取代訊息 	Replace message with		
+1895	將新發票設為重複 	Set new invoice as repeating		
+1896	新增此評論行 	Add this comment line		
+1897	存取控制 	Access control		
+1898	標準安全 	Standard security		
+1899	使用者名稱 	Username		
+1900	使用者電子郵件 	User e-mail		
+1901	報告存取權限 	Reports access		
+1902	總帳報告 	General ledger reports		
+1903	批次存取權限 	Batches access		
+1904	選擇要封鎖的帳戶 	Select accounts to block		
+1905	其他 	Others		
+1906	編輯帳戶 	Edit accounts		
+1907	編輯庫存 	Edit stock		
+1908	編輯使用者報告 	Edit user report		
+1909	新使用者 	New user		
+1910	版面配置檔案 	Layout file		
+1911	頁面設定(&P) 	&Page setup		
+1912	財務類別 	Financial categories		
+1913	選擇類別並分配適當的群組 	Select categories and allocate appropriate groups		
+1914	資本 	Capital		
+1915	費用 	Expenses		
+1916	 收入 	Income		
+1917	負債 	Liabilities		
+1918	先列印資產後列印負債 	Print Capital before Liabilities		
+1919	列印負債前資本 	Print Liabilities before Capital		
+1920	列印收入前支出 	Print Income before Expenses		
+1921	列印費用前收入 	Print Expenses before Income		
+1922	群組 	Groups		
+1923	轉移 	Transfering		
+1924	銀行 	Bank		
+1925	稅 	Tax		
+1926	銀行帳戶批次設定不正確！ 	Bank account batches not setup correctly!		
+1927	付款(&P) 	Payment		
+1928	無法將交易過帳到具有子帳戶的帳戶！ 	Cannot post transactions to an account which has sub-accounts!		
+1929	處理 	Process		
+1930	收款自 	Receiving from		
+1931	列印收據 	Print receipt		
+1932	至 	To		
+1933	來源帳戶 	From account		
+1934	記入帳簿 	To account		
+1935	帳戶類型 	Account type		
+1936	設定縮寫 	Set an abbreviation		
+1937	按下要為其分配縮寫的鍵 	Push the key you want to assign an abbreviation to		
+1938	列印列表(&P) 	&Print list		
+1939	輸入縮寫： 	Type in the abbreviation :		
+1940	網際網路設定 	Internet setup		
+1941	電子郵件帳戶： 	E-mail account :		
+1942	伺服器名稱 	Server name		
+1943	使用者 ID 	User id		
+1944	網路伺服器（資料複製） 	Network server (data replication)		
+1945	伺服器名稱 	Server name		
+1946	或 IP 位址 	or IP address		
+1947	測試網路伺服器(&T) 	&Test net server		
+1948	正在驗證伺服器 %s 上的 %s 	Verifying %s on server %s		
+1949	已驗證 	verified		
+1950	未驗證！測試失敗！ 	not verified! Test failed!		
+1951	<@APPNAME@> 報告郵件傳送者 %s 電子郵件帳戶 %s 	<@APPNAME@> Report mail sender %s e-mail account %s		
+1952	未找到電子郵件伺服器...... 	E-mail server not found...		
+1953	已連接。 	Connected.		
+1954	電子郵件測試正在進行中...... 	E-mail test in progress...		
+1955	測試結束！成功！ 	Test finished! Success!		
+1956	測試結束！成功！ 	Connection failed!		
+1957	郵件傳送一般失敗！ 	General e-mail failure!		
+1958	已中斷連接...... 	Disconnected...		
+1959	驗證失敗！ 	Authentication failed!		
+1960	測試進行中：%s 位元組完成 %s 	Test in progress :%s bytes out of %s		
+1961	!連接測試已開始 	! Connection test started		
+1962	無效的伺服器！ 	Invalid server!		
+1963	網路伺服器已解析！ 	Net server resolved!		
+1964	正在連接到 %s 	Connecting to %s		
+1965	正在伺服器上進行使用者測試 	User testing on server		
+1966	伺服器連接失敗！ 	Server connection failed!		
+1967	<@APPNAME@> 已達到500筆交易或500個文件的限制！請註冊並購買授權。 	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.		
+1968	此軟體限於500筆交易或500個文件！請註冊並購買 <@APPNAME@> 的授權。 	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.		
+1969	未註冊的 <@APPNAME@> 副本不能超過 %s 個！請註冊並獲取您的授權碼！ 	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!		
+1970	僅允許1到13之間的期間！ 	Only periods between 1 and 13 are allowed!		
+1971	您要儲存這些變更嗎？ 	Do you want to save these changes ?		
+1972	使用者密碼 	User password		
+1973	日期 	Date		
+1974	參考 	Reference		
+1975	付款憑證 	Payment reference		
+1976	數字 	Number		
+1977	未付款 	Outstanding		
+1978	輸入金額 	Enter amount		
+1979	未結項選擇 	Open item selection		
+1980	使用者密碼 	User password		
+1981	始終平衡 	Always balance		
+1982	無稅 	No tax		
+1983	未開放項目批次 	Not open item batch		
+1984	反向對沖 	Reverse contra		
+1985	記住往來帳戶的稅款 	Remember tax on contra account		
+1986	記住往來帳戶 	Remember contra on account		
+1987	特殊總帳 	Special ledgers		
+1988	查找文件 	Account lookup type		
+1989	往來帳戶查找類型 	Contra account lookup type		
+1990	標準 	Standard		
+1991	進階 	Advanced		
+1992	數量 &和最新成本 	Qty && latest cost		
+1993	過帳：%s 的 %s 	Posting: %s of %s		
+1994	銷售成本 	COST OF SALES		
+1995	COS*DOC* 	COS*DOC*		
+1996	正在檢查批次條目...... 	Checking batch entries ...		
+1997	更新總額 	Updating totals		
+1998	文件 	Documents		
+1999	庫存 	Stock		
+2000	債務人 	Debtors		
+2001	帳戶 	Accounts		
+2002	債權人 	Creditors		
+2003	已過帳批次 	Posted batches		
+2004	匯出到： 	Export to:		
+2005	檔案類型 	File type		
+2006	匯出檔案名稱 	Export files name		
+2007	檔案名稱 	File name		
+2008	日誌檔案 	Log file		
+2009	範圍 	Range		
+2010	從 	From		
+2011	至 	To		
+2012	日期／期間 	Date / Period		
+2013	匯出(&E) 	&Export		
+2014	匯入(&I) 	&Import		
+2015	要匯入的檔案 	File to import		
+2016	標題 	Headers		
+2017	行 	Lines		
+2018	匯入自： 	Import from:		
+2019	查看檔案 	View file		
+2020	匯入資料精靈 	Import data wizard		
+2021	匯入資料到<@APPNAME@> 	Import data into <@APPNAME@>		
+2022	資料檔案匯入完成！ 	Data file import completed!		
+2023	匯入檔案格式未實現！ 	Import file format not implemented!		
+2024	按日期排序 	Sort by date		
+2025	請選擇您要匯入的資料類型 	Please select the type of data you want to import		
+2026	資料類型匯入 	Data type to import		
+2027	檔案格式 	File format		
+2028	您現在可以點擊匯入以開始程序。 	You can now click on Import to start the process.		
+2029	更改別名(&C) 	&Change alias		
+2030	請稍候...... 	Please wait...		
+2031	處理 	Processing		
+2032	的 	of		
+2033	更改公司資訊 	Change company info.		
+2034	未結項選擇 	Open item selection		
+2035	是否使用目前餘額作為期初餘額？ 	Opening drawer		
+2036	<@APPNAME@>發票 	<@APPNAME@> Invoice		
+2037	稅務發票 	TAX INVOICE		
+2038	電話 	Tel.		
+2039	傳真 	Fax.		
+2040	手機 	Cel.		
+2041	現金 	CASH		
+2042	更改 	Change		
+2043	稅額 	TAX-AMT		
+2044	14.00% 	14.00%		
+2045	收銀員姓名 : 	Cashier name :		
+2046	數字 	Number		
+2047	姓氏 	Name		
+2048	聯絡人姓名 	Contact		
+2049	送貨地址 	Delivery address		
+2050	評論 	Comments		
+2051	標示非稅項 	*Indicates non-TAX item		
+2052	項目 	Items		
+2053	到期 	Due		
+2054	記錄被其他使用者鎖定！請再試一次！ 	Record locked by other user! Please try again!		
+2056	使用發票列印 	Use invoice print		
+2057	底部進紙線 	Bottom feed lines		
+2058	POS 現金盤點 	POS Cash up		
+2059	無法取得新編號！記錄已鎖定！請稍後重試！ 	Cannot get new number! Record is locked! Try again later!		
+2060	生成銀行帳單 	Generate bank bookings		
+2061	銀行對帳單交易 	Bank statement transactions		
+2062	生成餘額...... 	Generating balances ...		
+2063	分配未付餘額 	Allocating outstanding balances		
+2064	老化中 ...... 	Ageing ...		
+2065	建立帳簿集 	Creating Set of Books		
+2066	合併 	Consolidating		
+2067	平衡 	Balancing		
+2068	匯入庫存項目 	Importing stock items		
+2069	讀取試算表檔案 	Reading spreadsheet file		
+2070	匯入帳戶 	Importing accounts		
+2071	匯出交易 	Exporting transactions		
+2072	匯出債務人 	Exporting debtors		
+2073	匯入庫存項目 	Importing stock items		
+2074	匯出科目表 	Exporting chart of accounts		
+2075	匯出帳戶 	Exporting accounts		
+2076	匯入文件 	Importing documents		
+2077	匯出文件 	Exporting documents		
+2078	匯出到 CSV 檔案 	Exporting to CSV file		
+2079	匯出到試算表檔案 	Exporting to spreadsheet file		
+2080	匯出到 OpenOffice 試算表檔案 	Exporting to OpenOffice spreadsheet file		
+2081	匯出到 SYLK 試算表檔案 	Exporting to SYLK spreadsheet file		
+2082	匯出到 MS Excel 檔案 	Exporting to MS Excel file		
+2083	準備列表 	Preparing list		
+2084	反轉已發布的批次／文件 	Reverse posted batch/document		
+2085	別名（批次名稱） 	Alias (batch name)		
+2086	反轉已發布的批次 	Reverse posted batch		
+2087	反轉已發布的文件 	Reverse posted document		
+2088	行數 	Line count		
+2089	文件編號 	Doc. no.		
+2090	使用數字 	Use numbers		
+2091	使用期間 	Use periods		
+2092	顯示對銷 	Show contra		
+2093	包含未過帳項目 	Including unposted items		
+2094	是否使用目前餘額作為期初餘額？ 	Do you wish to use the current balance as opening balance?		
+2095	無法從 %s 報告到 %s！ 	You cannot report from %s to %s !		
+2096	記錄已被編輯！您是否要過帳您的資料？ 	A record was edited! Do you wish to post you data?		
+2097	找零轉移不允許！ 	Float transfer not allowed!		
+2098	您仍有未收款金額。%s 無法為 POS 發票留下未付金額！ 	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!		
+2099	未找到報告版面配置檔案！ 	Report layout file not found!		
+2100	點擊確定儲存新名稱 	Click on OK to save new name		
+2101	一般數字 	General numbers		
+2102	列印時自動過帳 	Auto-post documents on print		
+2103	自訂(&C) 	&Customise		
+2104	更新伺服器(&U) 	&Update server		
+2105	版本： 	Version :		
+2106	數字 	Number		
+2107	顯示聯絡詳情 	Show contact details		
+2108	起始日期 	From date		
+2109	選擇帳簿目錄 	Select Set of Books directory		
+2110	瀏覽資料夾 	Browse for folder		
+2111	可執行檔案 (exe 檔案) 	Executable exe file		
+2112	電子郵件備份 	E-mail backup		
+2113	從伺服器恢復 	Restore from server		
+2114	<@APPNAME@> 選擇備份檔案 	<@APPNAME@> select backup file		
+2115	帳戶數字 	Account digits		
+2116	帳套名稱 	Name of Set of Books		
+2117	路徑 	Path		
+2118	壓縮訊息檔案 	Compress message file		
+2119	更改代碼 	Change code		
+2120	更改股票代碼將導致所有報告使用此代碼！ 	Changing the stock code will result in all reports to use this code!		
+2121	確定要更改代碼嗎？ 	Are you sure you want to change the code?		
+2122	新股票代碼 	New stock code		
+2123	代碼 	Code		
+2124	庫存資訊 	Stock information		
+2125	全部更新 	Update all		
+2126	平衡分錄 	BALANCING ENTRY		
+2127	更正借項／貸項 	Correct Debit/Credit		
+2128	每個期間的總計 	Totals for each period		
+2129	將此新增到描述中 	Add this to descriptions		
+2130	新參考 	New reference		
+2131	處理 	Process		
+2132	交易日期(&D) 	&Date for transactions		
+2133	對銷帳戶(&C) 	&Contra account		
+2134	描述(&D) 	De&scription		
+2135	向債務人收取（金額） 	To debtors for (amount)		
+2136	到餘額少於（金額）的債務人 	To debtors with a balance less than (amount)		
+2137	逾期天數 	Number of days overdue		
+2138	生成多個交易 	Generate multiple transactions		
+2139	從債務人 	From debtor		
+2140	到： 	To:		
+2141	%s 的 %s %s 於 %s 逾期 	%s %s of %s overdue on %s		
+2142	餘額 	Bal		
+2143	計數： 	Count :		
+2144	使用 A5 紙張尺寸 	Use A5 size		
+2145	和 	and		
+2146	零 	Zero		
+2147	銀行餘額於 	Bank balance at		
+2148	根據 <@APPNAME@>: 	According to <@APPNAME@>:		
+2149	餘額在 	BALANCE AT		
+2150	庫存數量 	items on hand		
+2151	輸入總折扣 	Enter overall discount		
+2152	貸項通知單 	Credit note		
+2153	採購 	Purchases		
+2154	供應商退貨 	Supplier returns		
+2155	發票 	Invoice		
+2156	發票總計： 	Invoice totals :		
+2157	貸方票總計： 	Credit note totals :		
+2158	客戶合計： 	Customer totals :		
+2159	銷售分析 - 每個客戶的銷售 	Sales analysis - Sales per customer		
+2160	採購總計： 	Purchase totals :		
+2161	供應商退貨總計： 	Supplier return totals :		
+2162	供應商總計： 	Supplier totals :		
+2163	銷售分析 - 每個供應商的採購 	Sales analysis - Purchases per supplier		
+2167	按發票編號搜尋 	Search by invoice no.		
+2168	帳簿集位置 : 	Set of Books location :		
+2169	報價 	Quote		
+2170	訂單 	Order		
+2171	使用參考 	Use reference		
+2172	生成餘額 B/F 選項 	Generate Balance BF options		
+2173	清除連結選項 	Clear links options		
+2174	按借項日期 	By debit dates		
+2175	包含自 	Include items since		
+2176	目前日期 	Current date		
+2177	已找到，但稅收帳戶已被刪除！ 	Tax amount found but tax account is deleted!		
+2178	銷售成本 	COST OF SALES		
+2179	天 	Day		
+2180	N 	N		
+2181	從債務人 	From debtor		
+2182	到債務人 	To debtor		
+2183	匯入中：%s / %s 	Importing : %s  of %s		
+2184	匯入債務人／債權人 	Importing debtors/creditors		
+2185	我的描述 	My description		
+2186	銀行對帳單選項 	Bank statement options		
+2187	(文件) 	(Doc.)		
+2188	檢查未過帳項目 	Checking unposted items		
+2189	僅顯示未過帳 	Unposted only		
+2190	每批單獨處理 	Each batch separately		
+2191	顯示詳細資訊 	Show details		
+2192	列印在 	Printing on		
+2193	荷蘭語文本編號 	Dutch text numbering		
+2194	使用貨幣符號 	Use currency sign		
+2195	數字符號 	Digit symbol		
+2196	小數點符號 	Decimal symbol		
+2197	模式 	Mode		
+2198	發票／會計 	Invoice/Accounting		
+2199	會計 	Accounting		
+2200	銷售點 	Point-of-Sale		
+2201	編輯債務人 	Edit debtors		
+2202	編輯債權人 	Edit creditors		
+2203	編輯稅款 	Edit tax		
+2204	編輯銀行 	Edit bank		
+2205	預設銀行對帳 	Default bank reconciliation		
+2206	地址 2 	Address 2		
+2207	國家 	Country		
+2208	11 校對 	11 Proof		
+2209	任意 	Arbitrair		
+2210	銀行帳戶類型 	Bank account type		
+2211	銀行帳號 	Bank account no.		
+2212	自動付款 	Automatic payments		
+2213	付款日期 	Payment date		
+2214	建立 Clieop 檔案 	Create Clieop file		
+2215	付款銀行帳戶 	Payment bank account		
+2216	支付交易 	Pay transaction		
+2217	儲存檔案 	Save file		
+2218	債務人代碼 	Debtor code		
+2219	債權人代碼 	Creditor code		
+2220	地址 	Address		
+2221	預產期 	Due days		
+2222	到期日 	Due date		
+2223	取消全選 	Uncheck all		
+2224	取消選中已選項 	Uncheck selected		
+2225	選中已選項 	Check selected		
+2226	債權人付款報告 	Creditor payment report		
+2227	總行數 	Total rows		
+2228	總金額 	Total amount		
+2229	校验銀行帳戶 	Checksum bank accounts		
+2230	輸入報表編號 	Enter statement reference		
+2231	報表參考 	Statement reference		
+2232	付款 	Payments		
+2233	收據 	Receipts		
+2234	上次總計 	Last total		
+2235	最後輸入的報表 	Last entered statement		
+2236	^D : 刪除報表 	^D : Delete statement		
+2237	刪除行 	Delete line		
+2238	匯入銀行對帳單 	Import bank statement		
+2239	11 校對 	11 Proof		
+2240	不檢查 	No check		
+2241	預產期 	Due days		
+2242	排序 	Sort		
+2243	Y 	Y		
+2244	N 	N		
+2245	T 	T		
+2246	F 	F		
+2247	Wy 	Wy		
+2248	刪除 	Delete		
+2249	此功能目前尚未實現！ 	This feature is not implemented at this time!		
+2250	錯誤：無效日期！ 	Error: Invalid date!		
+2251	沒有可用的視窗計時器！ 	No Windows timers are available!		
+2252	無效的觸發器句柄！ 	Invalid trigger handle!		
+2253	資料夾項目編輯器。 	Folder items editor.		
+2254	資料夾編輯器 	Folder editor		
+2255	與另一項排他事件衝突！ 	Conflicts with another exclusive event!		
+2256	結束時間不能早於開始時間！ 	The end time cannot precede the start time!		
+2257	錯誤：將資料發布到資料庫中！ 	Error: Posting data to the database!		
+2258	錯誤：無法轉換月份編號！ 	Error converting the month number!		
+2259	錯誤：無效的日子！ 	Error: Invalid day!		
+2260	錯誤：建立聯絡人時出錯！ 	Error: Failure while creating contact!		
+2261	錯誤：無效的月份！ 	Error: Invalid month!		
+2262	錯誤：無效的月份名稱！ 	Error: Invalid month name!		
+2263	錯誤：無效年份！ 	Error: Invalid year!		
+2264	錯誤：日期（日）是必需的！ 	Error: Day is required!		
+2265	錯誤：需要月份！ 	Error: Month is required!		
+2266	錯誤：日期（年）是必需的！ 	Error: Year is required!		
+2267	錯誤: 名稱不能為空! 	Error: Name cannot be empty!		
+2268	錯誤：建立任務失敗！ 	Error: Failure while creating task!		
+2269	錯誤：建立事件失敗！ 	Error: Failure while creating event!		
+2271	錯誤：建立資源失敗！ 	Error: Failure while creating resource!		
+2272	錯誤：資源重複！ 	Error: Duplicate resource!		
+2273	錯誤：指定的表格無效！ 	Error: Invalid table specified!		
+2274	錯誤：無法開啟！ 	Error: Unable to open!		
+2275	錯誤：無法更新！ 	Error: Unable to update!		
+2276	助理 	Assistant		
+2277	回撥 	Callback		
+2278	汽車 	Car		
+2279	公司 	Company		
+2280	家 	Home		
+2281	家庭傳真 	Home fax		
+2282	ISDN 	ISDN		
+2283	行動 	Mobile		
+2284	其他 	Other		
+2285	其他傳真 	Other fax		
+2286	呼叫器 	Pager		
+2287	主要 	Primary		
+2288	無線電 	Radio		
+2289	電傳 	Telex		
+2290	TTY/TDD 	TTY/TDD		
+2291	工作 	Work		
+2292	工作傳真 	Work fax		
+2293	業務 	Business		
+2294	客戶 	Clients		
+2295	家庭 	Family		
+2296	個人 	Personal		
+2297	其他 	Other		
+2298	週 	Week of		
+2299	截止 	Through		
+2300	星期日 	Sunday		
+2301	星期一 	Monday		
+2302	星期二 	Tuesday		
+2303	星期三 	Wednesday		
+2304	星期四 	Thursday		
+2305	星期五 	Friday		
+2306	星期六 	Saturday		
+2307	週日 	Sun		
+2308	週一 	Mon		
+2309	週二 	Tue		
+2310	週三 	Wed		
+2311	週四 	Thu		
+2312	週五 	Fri		
+2313	週六 	Sat		
+2314	日 	S		
+2315	一 	M		
+2316	二 	T		
+2317	三 	W		
+2318	四 			
+	五 			
+2319	五 	F		
+2320	無 	S		
+2321	每日 	None		
+2322	每週 	Daily		
+2323	按天每月 	Weekly		
+2324	按日期每月 	Monthly by day		
+2325	每年按天 	Monthly by date		
+2326	每年按日期 	Yearly by day		
+2327	自訂 	Yearly by date		
+2328	分鐘 	Custom		
+2329	小時 	Minutes		
+2330	天 	Hours		
+2331	此操作無法撤銷! 	Days		
+2332	從您的聯絡人列表中？ 	This operation cannot be undone!		
+2333	新增聯絡人...... 	from your list of contacts?		
+2334	編輯聯絡人...... 	Add contact...		
+2335	刪除聯絡人..... 	Edit contact...		
+2336	從您的日程安排中？ 	Delete contact...		
+2337	從您的任務列表中？ 	from your schedule?		
+2338	新增任務...... 	from your task list?		
+2339	編輯任務...... 	Add task...		
+2340	刪除任務...... 	Edit task...		
+2341	任務列表 - 	Delete task...		
+2342	任務列表 	Task list -		
+2343	今天 	Task list		
+2344	下個月 	Today		
+2345	上個月 	Next month		
+2346	明年 	Previous month		
+2347	前一年 	Next year		
+2348	新增事件...... 	Previous year		
+2349	編輯事件...... 	Add event...		
+2350	刪除事件...... (&D) 	Edit event...		
+2351	更改日期 	&Delete event...		
+2352	今天 	Change date		
+2353	下週 	Today		
+2354	上週 	Next week		
+2355	下個月 	Previous week		
+2356	上個月 	Next month		
+2357	明年 	Previous month		
+2358	前一年 	Next year		
+2359	上一頁 	Previous year		
+2360	下一頁 	Previous page		
+2361	首頁 	Next page		
+2362	最後一頁 	First page		
+2363	新增事件...... 	Last page		
+2364	編輯事件...... 	Add event...		
+2365	刪除事件...... 	Edit event...		
+2366	更改日期 	Delete event...		
+2367	今天 	Change date		
+2368	明天 	Today		
+2369	昨天 	Tomorrow		
+2370	明天 	Yesterday		
+2371	前日 	Next day		
+2372	下週 	Previous day		
+2373	上週 	Next week		
+2374	下個月 	Previous week		
+2375	上個月 	Next month		
+2376	明年 	Previous month		
+2377	前一年 	Next year		
+2378	今天 	Previous year		
+2379	明天 	Today		
+2380	昨天 	Tomorrow		
+2381	下週 	Yesterday		
+2382	上週 	Next week		
+2383	位置 	Previous week		
+2384	公司 	Position		
+2385	標題 	Company		
+2386	電子郵件 	Title		
+2387	國家 	E-mail		
+2388	類別 	Country		
+2389	備註 	Category		
+2390	自訂 1 	Notes		
+2391	自訂 2 	Custom 1		
+2392	自訂 3 	Custom 2		
+2393	自訂 4 	Custom 3		
+2394	確定 	Custom 4		
+2395	取消 	OK		
+2396	關閉(&C) 	Cancel		
+2397	列印 (&) 	&Close		
+2398	未命名 	&Print		
+2399	選擇聲音 	Untitled		
+2400	选择声音	Select a sound		
+2401	聲音尋找器 	声音查找器	Sound finder	
+2402	使用預設聲音 	使用默认声音	Use default sound	
+2403	事件 	事件	Event	
+2404	預約 	预约	Appointment	
+2405	主題 	主题	Subject	
+2406	類別 	类别	Category	
+2407	開始時間 	开始时间	Start time	
+2408	結束時間 	结束时间	End time	
+2409	提醒(&R) 	提醒(&R)	&Reminder	
+2410	預約重複 	预约重复	Appointment recurrence	
+2411	間隔（日） 	间隔（日）	Interval (days)	
+2412	重複直到 	重复直到	Repeat until	
+2413	全天事件(&A) 	全天事件(&A)	&All day event	
+2414	備註 	备注	Notes	
+2415	聯絡人姓名 	联系人姓名	Contact	
+2416	名稱 	名称	Name	
+2417	標題 	标题	Title	
+2418	地址 	地址	Address	
+2419	地址 2 	地址 2	Address 2	
+2420	地址 3 	地址 3	Address 3	
+2421	國家 	国家	Country	
+2422	郵政編碼 	邮政编码	Postal code	
+2423	公司 	公司	Company	
+2424	位置 	位置	Position	
+2425	列印預覽 	打印预览	Print preview	
+2426	任務 	任务	Task	
+2427	到期日 	到期日	Due date	
+2428	詳細資訊 	详细信息	Details	
+2429	任務完成 	任务完成	Task complete	
+2430	逾期天數 	逾期天数	 Days overdue	
+2431	建立於 	创建于	Created on	
+2432	完成於 	完成于	Completed on	
+2433	提醒 	提醒	Reminder	
+2434	逾期！ 	逾期！	OVERDUE!	
+2435	點擊 &休眠 以在以下時間再次提醒： 	点击 &休眠 以在以下时间再次提醒：	Click &Snooze to be reminded again in:	
+2436	主題 	主题	Subject	
+2437	備註 	备注	Notes	
+2438	&忽略 	&忽略	&Dismiss	
+2439	&貪睡 	&贪睡	&Snooze	
+2440	總帳 (&O) 	总账 (&O)	&Open item	
+2441	5 分鐘 	5 分钟	5 minutes	
+2442	10 分鐘 	10 分钟	10 minutes	
+2443	15 分鐘 	15 分钟	15 minutes	
+2444	30 分鐘 	30 分钟	30 minutes	
+2445	45 分鐘 	45 分钟	45 minutes	
+2446	1 小時 	1 小时	1 hour	
+2447	2 小時 	2 小时	2 hours	
+2448	3 小時 	3 小时	3 hours	
+2449	4 小時 	4 小时	4 hours	
+2450	5 小時 	5 小时	5 hours	
+2451	6 小時 	6 小时	6 hours	
+2452	7 小時 	7 小时	7 hours	
+2453	8 小時 	8小时	8 hours	
+2454	1 天 	1 天	1 day	
+2455	2 天 	2 天	2 days	
+2456	3 天 	3 天	3 days	
+2457	4 天 	4 天	4 days	
+2458	5 天 	5 天	5 days	
+2459	6 天 	6 天	6 days	
+2460	1 週 	1 周	1 week	
+2461	上個月 	上个月	Previous month	
+2462	下個月 	下个月	Next month	
+2463	前一年 	前一年	Previous year	
+2464	明年 	明年	Next year	
+2465	今天 	今天	Today	
+2466	恢復 	恢复	Revert	
+2467	今天 	Today		
+2468	下個月 	Next month		
+2469	上個月 	Previous month		
+2470	明年 	Next year		
+2471	前一年 	Previous year		
+2472	還原 	Revert		
+2773	無法開啟 WININET！需要 Microsoft IE！ 	Cannot open WININET! Microsoft IE required!		
+2774	無法開啟檔案！ 	Unable to open file!		
+2775	檔案 %s 未找到！ 	File %s could not be found!		
+2776	無法為 XML 源分配記憶體！ 	Unable to allocate memory for XML source!		
+2777	HTTP 讀取請求失敗！ 	HTTP read request failed!		
+2778	HTTP 資料不可用！ 	HTTP data not available!		
+2779	無法傳送 HTTP 請求！ 	Unable to send HTTP request!		
+2780	無法開啟 HTTP 請求！ 	Unable to open HTTP request!		
+2781	無法連線網際網路！ 	Unable to make Internet connection!		
+2782	無法開啟 FTP 檔案！ 	Unable to open Internet!		
+2783	FTP 位置無效！ 	Invalid FTP location!		
+2784	無效的 FTP 目錄！ 	Invalid FTP directory!		
+2785	FTP 讀取請求失敗！ 	FTP read request failed!		
+2786	FTP 資料不可用！ 	FTP data not available!		
+2787	無法開啟 FTP 檔案！ 	Unable to open FTP file!		
+2788	無法透過 FTP 將檔案儲存到 %s 	Could not save file via FTP to %s		
+2789	無法載入來源！ 	Unable to load source!		
+2790	無效的記憶體指標！ 	Invalid memory pointer!		
+2791	行：%d 列：%d 錯誤：%s！ 	Line: %d Col: %d Error: %s !		
+2792	錯誤：索引超出範圍！ 	ERROR INDEX OUT OF BOUNDS!		
+2793	預期標記宣告，但找到： 	Expected markup declaration, but found:		
+2794	非法屬性類型： 	Illegal attribute type:		
+2795	屬性預設值的非法關鍵字： 	Illegal keyword for attribute default value:		
+2796	系統識別碼缺失！ 	System identifier missing!		
+2797	缺少外部修飾符： 	External modifier missing:		
+2798	條件段必須以 INCLUDE 或 IGNORE 開頭 	Conditional section must begin with INCLUDE or IGNORE		
+2799	內容模型中的分隔符錯誤： 	Bad separator in content model:		
+2800	預期註釋或 CDATA 部分！ 	Expected comment or CDATA section!		
+2801	意外的檔案結束！ 	Unexpected end of file!		
+2802	不匹配的結束標籤： 	Mismatched end tag:		
+2803	引用中有非法字元！ 	Illegal character in reference!		
+2804	引用未宣告的實體： 	Reference to undeclared entity:		
+2805	預期字串： 	Expected String:		
+2806	位元組處需要空白！ 	Whitespace expected at byte!		
+2807	在尋找分隔符時輸入結束： 	End of input while looking for delimiter:		
+2808	"預期 "" 或 ' "	"Expected "" or '"		
+2809	XMLPartner 不支援大於 %s 的 XML 規範 	XMLPartner does not support XML specification greater than %s		
+2810	無法為輸入建立流！ 	Unable to create stream for input!		
+2811	無效的 XML 名稱： 	Invalid XML name:		
+2812	無效的註釋文字！ 	Invalid comment text!		
+2813	如果文件還包含 XML 宣告，則文件不能以註釋開始！ 	Document cannot start with a comment if it also contains an XML declaration!		
+2814	CDATA 部分中包含無效字元 	Invalid characters in CDATA section		
+2815	屬性不能在開始標籤中重新定義！ 	Attributes cannot be redefined in a start tag!		
+2816	循環引用： 	Circular reference to:		
+2817	屬性值中包含無效字元： 	Invalid character in attribute value:		
+2818	元素的字元資料中包含無效字元： 	Invalid characters in element's character data:		
+2820	文件類型宣告內部子集中不允許有條件部分！ 	Conditional sections not allowed in internal subset of document type declaration!		
+2821	未宣告的符號： 	Notation not declared:		
+2822	無效的公共 ID 字元： 	Invalid public id character:		
+2823	參數實體宣告中不允許 NDATA 	NDATA not allowed in parameter entity declaration		
+2824	獨立值必須等於「yes」或「no」 	Stand alone value must equal 'yes' or 'no'		
+2825	無效的編碼宣告： 	Invalid encoding declaration:		
+2826	無效的 XML 版本號： 	Invalid XML version number:		
+2827	實體值中包含無效字元： 	Invalid character in entity value:		
+2828	評論不能放在其他標記內！ 	Comments cannot be placed within other markup!		
+2829	在有效的 XML 文件之後有無效資料！ 	There is invalid data after valid XML document!		
+2830	XML 宣告必須出現在第一個元素之前！ 	The XML declaration must appear before the first element!		
+2831	無效的元素名稱： 	Invalid element name:		
+2832	參數實體文字必須正確嵌套： 	Parameter-entity text must be properly nested:		
+2833	指定的字元編碼無效！ 	Invalid character encoding specified!		
+2834	元素 %s 的屬性 %s 不是整數值！ 	Attribute %s of element %s does not have an integer value!		
+2835	未知的軸指定符：%s 	Unknown axis specifier: %s		
+2836	發現無效的 XML 字元！ 	Invalid XML Character found!		
+2837	無效（大端）UTF-16 字元編碼！ 	Invalid (big-endian) UTF-16 character encoding!		
+2838	無效（小端）UTF-16 字元編碼！ 	Invalid (little-endian) UTF-16 character encoding!		
+2839	流中 UTF-8 字元格式錯誤！ 	Badly formed UTF-8 character in stream!		
+2840	文件流意外結束！ 	Unexpected end of document stream!		
+2841	無法轉換 UCS-4 字元到 ISO-8859-1！ 	Cannot convert UCS-4 character to ISO-8859-1!		
+2842	無法轉換 UCS-4 字元到 UTF-16！ 	Cannot convert UCS-4 character to UTF-16!		
+2843	無法轉換 UCS-4 字元到 UTF-8！ 	Cannot convert UCS-4 character to UTF-8!		
+2844	超出範圍！ 	Out of range!		
+2845	不支援！ 	not supported!		
+2846	請提供元素名稱！ 	Please supply an element name!		
+2847	格式名稱不能為空！ 	Format name cannot be blank!		
+2848	列印控制器未被任何使用者擁有 TVpControlLink！ 	Print controller is not owned by a TVpControlLink!		
+2849	無效的列印格式！ 	Invalid Print format!		
+2850	無效的項目類型！ 	Invalid item type!		
+2851	無效的測量！ 	Invalid measurement!		
+2852	所有者必須是 TWinControl 的後代！ 	Owner must be a TWinControl descendent!		
+2853	元件必須連結到一個 TVpControlLink！ 	Component must be linked to a TVpControlLink!		
+2854	未定義列印格式！ 	No print formats have been defined!		
+2855	TCanvas 未分配！ 	TCanvas not assigned!		
+2856	未找到本地化檔案！ 	Localisation file not found!		
+2857	預約 	Appointment		
+2858	重複發票 	Repeating invoices		
+2859	債務人預約 	Debtor appointment		
+2860	債權人預約 	Creditor appointment		
+2861	類別 4 	Category 4		
+2862	類別 5 	Category 5		
+2863	類別 6 	Category 6		
+2864	類別 7 	Category 7		
+2865	類別 8 	Category 8		
+2866	類別 9 	Category 9		
+2867	編輯列印格式...... 	Edit print formats...		
+2868	尚未定義任何資源！您想立即新增一個嗎？ 	No resources have been defined! Would you like to add one now?		
+2869	尚未選擇任何資源！您想立即選擇一個嗎？ 	No resource has been selected! Would you like to select one now?		
+2870	篩選欄 	Filter column		
+2871	數值 	Value		
+2872	螢幕 	Display		
+2873	時鐘 	Clock		
+2874	議程 	Agenda		
+2875	任務 	Tasks		
+2876	聯絡人姓名 	Contacts		
+2877	已載入事件 	Loaded events		
+2878	# 顯示天數 	# Display days		
+2879	日曆 	Calendar		
+2880	請先儲存此重複發票！重新開啟後，您可以將客戶新增到發票中。 	Please save this repeating invoice first! After reopening you can add clients to the invoice.		
+2881	您是否要刪除此項 %s? 	Do you wish to delete this %s?		
+2882	刪除全部選中項 %s? 	Do you wish to delete all %s?		
+2883	重複發票 	Repeating invoice		
+2884	發票日期 	Invoice date		
+2885	處理所有 	Process all		
+2886	處理列表 	Process list		
+2887	處理所選 	Process selected		
+2888	新的(&N) 	&New		
+2889	編輯(&E) 	&Edit		
+2890	主要 (&M) 	&Main		
+2891	電話(&T) 	&Telephone		
+2892	備註 	&Notes		
+2893	應付金額 	Due amount		
+2894	文件已建立！ 	Document(s) created!		
+2895	到期日低於文件日期！ 	Due date is lower then document date!		
+2896	自動收據 	Automatic receipts		
+2897	請輸入帳簿集名稱！ 	Please enter a name for the Set of Books!		
+2898	更新銀行帳戶 	Update bank account		
+2899	查詢文件 	Lookup document		
+2900	查詢帶金額的文件 	Lookup document with amount		
+2901	查詢債務人 	Lookup debtor		
+2902	查詢債權人 	Lookup creditor		
+2903	已找到一個銀行帳戶！是否要更新它？ 	There was already a bank account found! Do you wish to update this?		
+2904	報告金額與 	Report amounts with		
+2905	資料儲存 	Data storage		
+2906	速度 	Speed		
+2907	特殊設定 	Special settings		
+2908	報告小數 	Reporting decimals		
+2909	總帳 	Open item ledgers		
+2910	不要使用 Reportman 	Do not use Reportman		
+2911	實數 	Real numbers		
+2912	固定小數 	Fixed decimals		
+2913	<> 用於信用 	<>  for Credit		
+2914	+/- 用於借方/貸方 	+/-  for Debit/Credit		
+2915	借方/貸方 	D/C for Debit/Credit		
+2916	顯示日曆 	Show calandar		
+2917	沒有警告未發布 	No warning unposted		
+2918	使用目前日期生成報告 	Use current date for reports		
+2919	額外描述 	Extra description		
+2920	物料清單 	BOM		
+2921	銷售（缺貨） 	Sales (no stock)		
+2922	採購（缺貨） 	Purchase (no stock)		
+2923	BOM 清單 	BOM list		
+2924	從項目複製 	Copy from item		
+2925	不要計算批次 	Do not calculate batches		
+2926	文件數量 	Document quantity		
+2927	自動複製資訊 	Auto-copy info		
+2928	使用預設帳戶 	Use default account		
+2929	預設帳戶 	Default account		
+2930	無欠貨訂單 	No backorder		
+2931	無法出售庫存不足的商品 	Cannot sell out of stock		
+2932	無列印確認 	No print confirmation		
+2933	檢查引用使用情況 	Check reference used		
+2934	無法建立項目 	Cannot create items		
+2935	桿式顯示器 	Pole display		
+2936	桿式顯示器已連線 	Pole display connected		
+2937	你能看到這個嗎？？ 	Can you see this ??		
+2938	預設 POS 桿式顯示器 	Default POS Pole		
+2939	2 X 20 字元 POS 桿式顯示器 	2 X 20 chars POS Pole		
+2940	秤盤 	Weight dish		
+2941	秤盤已連線 	Weight dish connected		
+2942	返回秤盤資料 	Return value from weight dish		
+2943	測試 	Test		
+2945	快速切換銷售員 	Fast switch salesperson		
+2946	四捨五入 POS 結束金額 	Round POS end amount		
+2947	顯示庫存數量 	Show qty on hand		
+2948	折扣密碼 	Discount password		
+2949	使用密碼取得折扣 	Use password for discount		
+2950	使用債務人銷售價格 	Use debtor selling price		
+2951	抽屜 	Drawer		
+2952	這將刪除您目前的註冊資訊並開啟註冊表單！您是否要取消？ 	This will remove your current registration and open the enter registration form! Do you want to cancel?		
+2953	列印條碼 	Print bacodes		
+2954	更改帳戶 	Change account		
+2956	備份報告 	Backup reports		
+2957	生成 Reportman 目錄 	Generate Reportman directories		
+2958	取消連結交易 	Unlink transaction		
+2959	接收付款 	Receive payment		
+2960	重新列印交易 	Reprint transactions		
+2961	輸入要關聯的金額 	Enter amount to link		
+2962	抑制未結項 	Suppress open item		
+2963	記住包容性 	Remember inclusive		
+2964	列印的 	Printed		
+2965	選擇備份目錄 	Select backup directory		
+2966	範例 	Sample		
+2967	使用篩選器 	Use filter		
+2968	外發郵件伺服器識別 (SMTP) 	Outgoing mail server identification (SMTP)		
+2969	預設文字 	Default text		
+2970	請輸入您的列表 	Please enter your list		
+2971	您的列表以逗號分隔 	Your list with comma separation		
+2972	從分隔列表中選擇 	Select from delimited list		
+2973	隱藏已禁用的選單項目 	Hide disabled menu items		
+2974	文件過帳 	Document posting		
+2975	連結到銷售人員 	Link to salesperson		
+2976	編輯數量 	Edit quantity		
+2977	選擇新的帳簿目錄 	Select new Set of Books directory		
+2978	已知錯誤修復 	Known bug fix		
+2979	僅顯示期初餘額 	Opening balances only		
+2980	顯示預算 	Show budget		
+2981	顯示所有庫存項目 	Show all stock items		
+2982	新增未過帳 	Add unposted		
+2983	報價／訂單 	Quotes / Orders		
+2984	含稅價格 	Price inclusive		
+2985	顯示零庫存數量 	Show zero stock count		
+2986	顯示所有銷售人員 	Show all salespersons		
+2987	顯示發票編號 	Show invoice no.		
+2988	現金結帳報告 	Cash-up report		
+2989	銷售報告 	Sales report		
+2990	列印框架 	Print frames		
+2991	列印標誌 	Print logo		
+2992	不允許文件過帳 	No document posting		
+2993	自訂限制 	Custom limitation		
+2994	隱藏 	Hide		
+2995	停用 	Disable		
+2996	顯示 	Show		
+2997	啟用 	Enable		
+2998	複製 	Replication		
+2999	開啟批次視窗 	Open batches		
+3000	僅上傳 	Upload only		
+3001	僅下載 	Download only		
+3002	正在建立目錄...... 	Creating directory		
+3003	正在複製帳套...... 	Copying Set of Books...		
+3004	從一組書中複製 	Copy from a Set of Books		
+3005	的 	of		
+3006	傳輸已開始到 	Transfer started to		
+3007	僅此帳戶 	Only this account		
+3008	新的一年已成功開啟！ 	A new year has been opened succesfully!		
+3009	正在移動總計...... 	Moving totals...		
+3010	所有文件 	The reference has been used in a other document! Please check your input for duplicates!		
+3011	所有文件 	All documents		
+3012	所有年份 	All years		
+3013	銀行對帳單餘額 	Bank balance as per bank statement		
+3014	銀行對帳單截至 	Bank reconciliation report as at		
+3015	已調節銀行餘額 	Reconciled bank balance		
+3016	根據 <@APPNAME@> 銀行餘額為 	Bank balance according to <@APPNAME@> at		
+3017	差異 	Difference		
+3018	警告 - 此報表包含未過帳批次！ 	Warning - This report contains unposted batches!		
+3019	顯示零庫存數量 	Show zero stock count		
+3020	將發票轉換為訂單 	Convert invoice to order		
+3021	複製文件 	Copy document		
+3022	設定報告組 1 	Set reporting group 1		
+3023	設定報告組 2 	Set reporting group 2		
+3024	在瀏覽器中開啟 osCommerce 訂單 	Open osCommerce order in browser		
+3025	在瀏覽器中開啟 osCommerce 客戶 	Open osCommerce customer in browser		
+3026	銀行名稱 	Bank name		
+3027	使用預設稅 	Use default tax		
+3028	預設稅務帳戶 	Default tax account		
+3029	名字 	First name		
+3030	連線到遠端資料庫 	Connect to remote database		
+3031	包含模式 	Inclusive mode		
+3032	單行模式 	Single line mode		
+3033	自動別名 	Auto-alias		
+3034	記住包容性 	Remember inclusive		
+3035	使用連結稅 	Use link tax		
+3036	連結稅 	Link tax		
+3037	對沖稅 	Contra tax		
+3038	應收應付帳款 	Open item account		
+3039	POS 報告選項 	POS report options		
+3040	使用文件日期 	Use document date		
+3041	將往來憑證號視為帳戶憑證號 	Contra ref. as account ref.		
+3042	自動重新整理 	Auto refresh		
+3043	間隔（秒） 	Interval (sec.)		
+3044	限制文件 SQL 	Limit documents SQL		
+3045	搜尋字串 	Search for strings		
+3046	小計 	Subtotal		
+3047	金額輸入 	Amount entry		
+3048	文件行 	Document row		
+3049	匯入已過帳批次 	Import a posted batch		
+3050	使用預設稅 	Use default tax		
+3051	帳戶以開頭 	Account starts with		
+3052	重新整理後展開 	Expand after refresh		
+3053	使用連結稅 	Use link tax		
+3054	連結稅 	Link tax		
+3055	對沖稅 	Contra tax		
+3056	重新整理 	Refresh		
+3057	展開 	Expand		
+3058	折疊 	Collapse		
+3059	左移 	Move left		
+3060	子帳戶 	Sub-accounts		
+3061	總期間預算 	Total period budget		
+3062	設定期間預算 	Set period budget		
+3063	財務類別 	Financial categories		
+3064	無效的帳戶！ 	Not a valid account!		
+3065	沒有使用者權限！ 	No user rights!		
+3066	欄位遺失！請檢查匯入檔案！ 	Field missing! Please check import file!		
+3067	關閉班次時出錯！請再試一次！ 	Error in closing shift! Please try again!		
+3068	錯誤：未找到帳戶！ 	Error : No account found!		
+3070	Clieop 評論行必須填寫！ 	Clieop comment lines must be filled!		
+3071	您需要輸入銀行帳號！ 	You need to enter a bank account number!		
+3072	中止匯入！ 	Abort import!		
+3073	該群組中仍有巢狀群組！請先移除它們！ 	Group still has nested groups remove them first!		
+3074	仍有帳戶正在使用此分組！請先將其移除！（第一個帳戶 = 	There's still accounts using this group! Please remove them first! (First account =		
+3075	仍有文件正在使用此分組！請先將它們移除！ 	There's still documents using this group! Please remove them first!		
+3076	該群組中仍有庫存！請先移除它們！ 	There's still stock using this group! Please remove them first!		
+3077	未分配連線！ 	No connection assigned!		
+3078	帳戶代碼已存在！ 	Account code already exists!		
+3079	報價已產生！ 	Quote(s) generated!		
+3080	您是否要過帳到留存收益帳戶？ 	Do you wish to post on the retained earnings account?		
+3081	重設庫存？ 	Reset stock?		
+3082	匯入檔案格式未實作！ 	Import file format not implemented!		
+3083	該商品已脫銷！自動調整數量！ 	This item is out of stock! Auto adjusting quantity!		
+3084	已完成！ 	Finished!		
+3085	代碼為空！ 	Empty code!		
+3086	代碼已存在！ 	Code exists!		
+3087	編號 %s 不是有效的 11 位校驗碼！ 	Number %s is not a valid 11 proof number!		
+3088	使用條碼印表機 	Use barcode printer		
+3089	進階模式 	Advanced mode		
+3090	更新類別 	Update type		
+3091	設定庫存 	Setup stock		
+3092	設定群組 	Setup group		
+3093	交易日期 	Transaction date		
+3094	首選供應商 1 	Preferred supplier1		
+3095	首選供應商 2 	Preferred supplier2		
+3096	根據工時建立發票 	Create invoices for hours		
+3097	限制庫存 SQL 	Limit stock SQL		
+3098	包含未過帳的發票 	Include unposted invoices		
+3099	專案 	Projects		
+3100	您正在嘗試連線到遠端資料庫！此版本預設不支援該功能！請造訪 https://www.turbocash.net 聯絡我們以支援該專案並取得多使用者授權！ 	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!		
+3101	未註冊 	Unregistered		
+3102	註冊到 	Registered to		
+3103	單一使用者 	Single user		
+3104	帳簿分析器 	Ledger analyser		
+3105	序號 	Serial number		
+3106	欄位平衡 	Column balances		
+3107	債務人欄位平衡 	Column balances debtors		
+3108	貸方欄位平衡 	Column balances creditors		
+3109	版面配置檔案 1 	Layout file 1		
+3110	版面配置檔案 2 	Layout file 2		
+3111	版面配置檔案 3 	Layout file 3		
+3112	語言 	Language		
+3113	https://www.<@APPNAME@>.net 	https://www.osfinancials.org/en/forum-en?view=category&catid=8		
+3114	https://www.<@APPNAME@>.org/en/forum-en 	https://www.osfinancials.org/en/forum-en		
+3115	https://www.turbocash.net 	https://www.osfinancials.org/en/webshop		
+3116	https://www.reddit.com/r/Turbocash/ 	https://www.osfinancials.org/en/forum-en?view=category&catid=8 		
+3117	未註冊版本！請在此購買此外掛程式：https://www.<@APPNAME@>.net 	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.		
+3118	該演示外掛程式允許錄入 %s 條記錄。如果您需要更多記錄，請造訪以下連結購買完整版產品：https://www.turbocash.net/pages/TCBuy.html 	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop		
+3119	https://www.turbocash.net 	https://www.osfinancials.org/		
+3120	授權將在 %s 天後到期！請造訪 https://www.turbocash.net/pages/TCBuy.html 	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 		
+3121	授權將在 %s 天後到期！請造訪 https://www.turbocash.net/pages/TCBuy.html 	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 		
+3122	授權已過期！請造訪 https://www.turbocash.net/pages/TCBuy.html 	Time license expired! Please visit https://www.osfinancials.org/en/webshop 		
+3123	歡迎來到 <@APPNAME@> 	Welcome to <@APPNAME@>		
+3124	前進 	Forward		
+3125	啟動時自動開啟 <@APPNAME@> 	Auto-open when starting <@APPNAME@>		
+3126	將 <@APPNAME@> 轉換為此版本？ 	Convert <@APPNAME@> to this version?		
+3127	淨重 	Net weight		
+3128	毛重 	Gross weight		
+3129	訂貨點 	Reorder at		
+3130	最小 	Minimum		
+3131	訂貨點 - 您的商品將補貨至該數量！ 	Reorder level - your items will be reordered until this quantity!		
+3132	如果庫存低於此數量，系統將自動補貨至補貨數量！ 	If your stock goes below this, then the system will reorder until the reorder quantity!		
+3133	如果您想為銷售預留一些庫存，此欄位將在報價中從目前庫存水準中扣除 	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!		
+3134	語言 	Languages		
+3135	語言 	Language		
+3136	多組 	Multi-group		
+3137	選擇影像 	Select image		
+3138	刪除影像 	Delete image		
+3139	目前：%s 報價：%s 訂單：%s 過期：%s 	Cur : %s Quote : %s Order : %s Exp : %s		
+3140	預計數量 	Expected quantity		
+3141	產品製造商 	Manufacturer		
+3142	選項項目 	Option item		
+3143	選項（缺貨） 	Option item (no stock)		
+3144	選項 	Options		
+3145	產生 	Generate		
+3146	已連結選項 	Linked options		
+3147	以樹狀檢視查看 	View as tree		
+3148	組合名稱 	Combination name		
+3149	移除 	Remove		
+3150	額外價格 	Extra price		
+3151	財務分錄 	Financial entry		
+3152	重量 	Weight		
+3153	如果您安裝了 OpenOffice，您可以雙擊此文字欄位以將其編輯為 HTML！ 	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!		
+3154	選項 	Options		
+3155	設定選項 	Setup options		
+3156	雙擊以進入選項列表。 	Double-click to enter the option list.		
+3157	文件預設含稅 	Default inclusive for documents		
+3158	僅用於庫存查詢的 SQL 	SQL only for stock lookup		
+3159	將發票合併到訂單 	Merge invoice to orders		
+3160	按分類帳上的稅合併項目 	Merge items per tax on ledger		
+3161	按鈕查詢 	Button lookup		
+3162	無法編輯價格 	Cannot edit price		
+3163	無法編輯描述 	Cannot edit description		
+3164	前往數量 	Go to quantity		
+3165	銀行帳戶 	Bank accounts		
+3166	借方/貸方欄位平衡 	Column balances D/C		
+3167	借方/貸方債務人欄位平衡 	Column balances debtors D/C		
+3168	貸方/借方債權人欄位平衡 	Column balances creditors D/C		
+3169	嚴格的帳戶稅收 	Strict tax on account		
+3170	每張發票過帳警告 	Post warning per invoice		
+3171	處理警告 	Process warnings		
+3172	處理訂閱 	Process subscriptions		
+3173	傳送電子郵件 	Send e-mail		
+3174	文件版面配置 	Document layout		
+3175	合同條款不同！ 	Contract term not the same!		
+3176	傳送警告 	Send warning		
+3177	已簽名的電子郵件 	E-mail signed document		
+3178	連結稅 	Link tax		
+3179	銀行連結 	Bank links		
+3180	編輯帳戶 	Edit account		
+3181	轉換為貸項通知單／供應商退貨 	Convert to credit note / supplier return		
+3182	在瀏覽器中開啟電子商務訂單 	Open e-Commerce order in browser		
+3183	在瀏覽器中開啟電子商務客戶 	Open e-Commerce customer in browser		
+3184	將多個文件合併為單個文件 	Convert documents to single document		
+3185	在預設供應商 1 上建立採購 	Create purchase on default supplier 1		
+3186	影像 	Image		
+3187	錯誤報告 	Bug report		
+3188	成本中心 	Cost centres		
+3189	關閉作用中表單 	Close active forms		
+3190	顯示／隱藏側邊欄 	Show / hide sidebar		
+3191	顯示／隱藏頂部欄 	Show / hide topbar		
+3192	僅在帳戶中搜尋 	Only look in account for search		
+3193	歡迎使用 	Bug report		
+3194	網路商店 	Webshop		
+3195	說明 	Help		
+3196	論壇 	Forum		
+3197	期初餘額 - 本年度 	Opening balance - This year		
+3198	性別 	Gender		
+3199	男性 	Male		
+3200	女性 	Female		
+3201	電子報和密碼 	Newsletters and password		
+3202	推薦來源 	Referral source		
+3203	電子報 	Newsletters		
+3204	密碼確認 	Password confirmation		
+3205	一般 	General		
+3206	發布 	Release		
+3207	錯誤修正 	Bug fix		
+3208	社區日 	Community day		
+3209	現有使用者 	Existing user		
+3210	您已成功註冊！ 	You have registered successfully ! 		
+3211	使用情況 	Usage		
+3212	網站 	Website		
+3213	重新註冊 	Reregister		
+3214	顧問 	Consultant		
+3215	傳送 	Send		
+3216	新使用者 	New user		
+3217	動作 	Action		
+3218	www.turbocash.net 	Username and password are used to log in to our forum and shop not for <@APPNAME@> self		
+3219	可以透過文件列表中的上下文選單傳送電子郵件。 	E-mail can be sent via the context menu in the Document list.		
+3220	郵件範本 	Mail template		
+3221	選擇版面配置 	Select layout		
+3222	選擇範本 	Select template		
+3223	報告名稱 	Report name		
+3224	基礎資料夾 應收帳款／應付帳款 	Base folder debtor/creditor		
+3225	基礎資料夾 	Base folder		
+3226	測試電子郵件 	Test e-mail		
+3227	傳送電子郵件 	Send e-mail(s)		
+3228	恢復電子郵件 	Resume e-mail(s)		
+3229	停止電子郵件 	Stop e-mail(s)		
+3230	HTML 檔案路徑 	Path to the HTML files		
+3231	POP 使用者名稱 	POP username		
+3232	POP 密碼 	POP password		
+3233	POP 伺服器 	POP server		
+3234	SMTP 連接埠 	SMTP port		
+3235	SMTP 伺服器 	SMTP server		
+3236	回覆電子郵件 	Return e-mail		
+3237	返回名稱 	Return name		
+3238	電子郵件標題文字 	E-mail header text		
+3239	傳送最大郵件 	Send max mail		
+3240	計時器閾值（秒） 	Timer threshold in sec.		
+3241	SMTP 使用者名稱 	SMTP username		
+3242	SMTP 密碼 	SMTP password		
+3243	簽署憑證 	Sign certificate		
+3244	憑證密碼 	Certificate password		
+3245	簽署任何 PDF 	Sign any PDF		
+3246	自由文字 	Free text		
+3247	在瀏覽器中預覽 	Preview in browser		
+3248	測試電子郵件到額外副本 	Test E-mail to Extra CC		
+3249	額外副本 	Extra CC		
+3250	副本（多個請用 ; 分隔） 	CC (multiple separate with ;)		
+3251	密件副本（多個請用 ; 分隔） 	BCC (multiple separate with ;)		
+3252	傳送電子郵件 	Send E-mail		
+3253	未找到額外副本！請在該按鈕下方的文字方塊中輸入電子郵件地址！ 	No extra CC found! Please enter an e-mail address in text box below this button!		
+3254	未輸入 POP 密碼！ 	No POP password entered!		
+3255	使用者已停止！ 	Stopped by user!		
+3256	開啟 	On		
+3257	關閉 	Off		
+3258	設定 E-mail Pro 	Setup E-mail Pro		
+3259	E-mail Pro 	E-mail Pro		
+3260	無類別 	No category		
+3261	自由欄位 	Freefields		
+3262	註冊 	Register		
+3263	清除無效 	Purge invalid		
+3264	重新計算單據折扣 	Redo discount on document		
+3265	銷售百分比 	Percentage of sale		
+3266	生產物料清單 	BOM (Production)		
+3267	供應商庫存編碼 	Supplier stock code		
+3268	首選供應商 	Preferred supplier		
+3269	下一個成本價格 	Next cost price		
+3270	組裝 	Assemble		
+3271	拆卸 	Disassemble		
+3272	將匯入的銀行帳戶連結到帳簿 	Link bank account from import to accounts		
+3273	將所有記錄與目前帳戶銀行帳戶關聯 	Link all records with current account bank accounts		
+3274	從未結項列表中選擇 	Select from account open item list		
+3275	顯示帳戶參考 	Show references for account		
+3276	銀行匯入額外連結功能。輸入銀行帳戶以精確比對帳戶。輸入以「#」為前綴的文字，以查看該文字是否包含在匯入的銀行行中。文字將在搜尋中轉換為大寫。 	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside an imported bank line to see if the text is in that string. Text will be searched in the uppercase.		
+3277	帳戶銀行參考 	Account bank references		
+3278	標準銀行帳號 	Std Bank account no.		
+3279	送貨日期 	Delivery date		
+3280	檢查 	Check		
+3281	外掛程式批次操作 	Plugin mass action		
+3282	外掛程式操作 	Plugin action		
+3283	快速新增項目（代碼／條碼／序號） 	Fast add item (code/barcode/serial)		
+3284	輸入總額 	Enter total		
+3285	重新計算基數 	Recalculate base		
+3286	成本價格 	Cost price		
+3287	銷售價格 	Selling price		
+3288	重新計算銷售 % 	Recalculate sales %		
+3289	從外掛程式複製 	Copy from plugin		
+3290	貼到外掛程式 	Paste to plugin		
+3291	從／初始化複製 	Copy from / init		
+3292	貼到／執行 	Paste to / perform		
+3293	複製 	Copy		
+3294	顯示文件中的稅金 	Show tax in documents		
+3295	銷售／借方 	Sales/Debit		
+3296	購買／貸方 	Purchase/Credit		
+3297	隱藏此稅項 	Hide this tax		
+3298	全部 	All		
+3299	沒有缺貨訊息 	No out of stock message		
+3300	用顏色表示缺貨 	Use colours for out of stock		
+3301	計算物料清單庫存 	Calculate BOM stock		
+3302	僅限於預設供應商或非預設供應商的庫存採購 	Limit stock purchase only for default supplier or non		
+3303	歡迎來到 	Welcome		
+3304	新發票 	New invoice		
+3305	資料已儲存 	Data saved		
+3306	分攤帳單 	Split bill		
+3307	資料已儲存 	Data saved		
+3308	重新開啟發票 	Reopen invoice		
+3309	+開啟快速新增 	+Open fast add		
+3310	-快速關閉 	-Close fast add		
+3311	建立預設供應商 1 的採購單 	Create purchase on default supplier 1		
+3312	這些庫存項目沒有預設供應商 1！請先更正！ 	No default supplier 1 for these stock items! Please correct first!		
+3313	月 	Months		
+3314	每週期 	Per period		
+3315	自由選擇 	Free selection		
+3316	日期之間的小時數 	Hours between date		
+3317	重新計算銷售價格 	Recalculate selling price		
+3318	預設成本中心 	Default cost centre		
+3319	成本中心 	Cost centre		
+3320	儲存此未儲存的文件？ 	Save this unsaved document?		
+3321	代碼、描述和額外描述 	Code, description and extra description		
+3322	輸入新的含稅總額 	Enter new inclusive total		
+3323	建立待送貨的缺貨單 	Create backorders to deliver		
+3324	僅限新增項目（不調整） 	Only new items (no adjust)		
+3325	<- 將選取項目設為此價格 	<- Set selected to this price		
+3326	總帳 	Open item		
+3327	Clieop 評論 	Clieop comment		
+3328	城市 	City		
+3329	目前 	Cur		
+3330	報價 	Quote		
+3331	價 	P		
+3332	尾價 	LP		
+3333	訂單 	Order		
+3334	預計 	Exp		
+3335	日誌層級 	Log level		
+3336	下一個批次號 	Next batch no.		
+3337	背景顏色 	Back colour		
+3338	字體顏色 	Font colour		
+3339	連結影像 	Link image		
+3340	清除影像 	Clear image		
+3341	初始化所有翻譯和外掛程式 	Init all translations and plugins		
+3342	顯示顏色 	Show colours		
+3343	尋找無效 	Find invalid		
+3344	調整付款日期 	Adjust payment date		
+3345	合併行和使用稅金將會搞亂您的稅務報告！請確保您不使用稅金或不合併行！ 	Consolidating lines and using tax will mess up your tax report! Please make sure you do not use tax or do not consolidate lines!		
+3346	作為 PDF 檔案 	As PDF file		
+3347	時間段 	Timeslot		
+3348	在啟動時顯示 	Show at startup		
+3349	此項目關聯有文件輸入！您是否要繼續？所有項目資料將遺失！ 	There is document input associated with this project! Do you wish to continue ? All project data will be lost!		
+3350	此項目關聯有事務輸入！是否繼續？所有項目資料將會遺失！ 	There is transaction input associated with this project! Do you wish to continue ? All project data will be lost!		
+3351	存在未過帳的文件！無法關閉此專案！ 	There are unposted documents! You cannot close this project!		
+3352	銷售、採購、銷貨成本和稅務帳戶 	Sales, Purchase, Cost of sales and Tax accounts		
+3353	僅顯示未結交易 	Open transactions only		
+3354	移除故障連結 	Remove fault links		
+3355	轉移交易 	Transfer transactions		
+3356	薪資單匯入 	Payroll import		
+3357	自由選擇 	Free selection		
+3358	自動付款 	AutoPayment		
+3359	條碼印表機 	Barcode printer		
+3360	標籤印表機 	Label printer		
+3361	使用多台印表機 	Use multi printers		
+3362	變更備註 	Change remark		
+3363	請輸入變更說明 	Please enter change remark		
+3364	未輸入重做者，程序中止！ 	No remark entered, process aborted!		
+3365	庫存數量已變更！您是否要保留目前的資料庫資料？ 	Stock quantity has been changed! Do you want to retain the current database data?		
+3366	手動調整 	Manual adjust		
+3367	繼續操作 %s ？ 	Continue action %s ?		
+3368	標準欄位餘額 	Standard column balances		
+3369	此文件的資料已被其他使用者或輸入介面變更。%s 您是否要覆寫資料？ 	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 		
+3370	使用者退出！ 	User exit!		
+3371	如果您要清除（刪除）所有文件，請按一下「是」。如果您要保留所有文件並將其設定為未過帳，請按一下「否」。 	If you wish to clear (remove) all documents, click Yes. If you wish to retain all documents and set them to unposted, click No.		
+3372	預算 vs 實際 	Budget vs actual		
+3373	今年與去年 	This year vs last year		
+3374	工具 	Tools		
+3375	外部系統連結 	External system links		
+3376	財務工具 	Financial tools		
+3377	通用外掛程式 	Generic plugins		
+3378	自由欄位 	Freefields		
+3379	多媒體 	Multimedia		
+3380	價格協議 	Price agreement		
+3381	庫存檢查 	StockCheck		
+3382	快速訂單 	QuickOrder		
+3383	E-commerce	E-commerce		
+3384	Activa 	Activa		
+3385	Office 	Office		
+3386	Sql 瀏覽器 	Sql Browser		
+3387	鑽取 	DrillDown		
+3388	XML 稽核檔案 	Xml Audit File		
+3389	POS 顯示 	POS Display		
+3390	傳送包裹 	Send Package		
+3391	訂閱 	Subscriptions		
+3392	網路匯出 	Web Export		
+3393	客戶暫停服務 	Customer on hold		
+3394	文件電子郵件專業版 	Document E-mail Pro		
+3395	HORECA POS 	HORECA POS		
+3396	RETAIL POS 	RETAIL POS		
+3397	Charter 	Charter		
+3398	位置-序號-批次 	Location-Serials-Batches		
+3400	匯款 	Remittance		
+3401	Reportman 	Reportman		
+3402	輔助工具（限進階使用者） 	HandyTools (Advanced users only)		
+3403	註冊外掛程式 	Register plugins		
+3404	匯出／匯入 	Export / Import		
+3405	庫存外掛程式 	Stock plugins		
+3406	文件外掛程式 	Document plugins		
+3407	分支機構專用 	Branch Specific		
+3408	駕訓班外掛程式 	Driving school plugin		
+3409	郵遞區號／稅號／登記號碼查詢 	Postal code / tax id / reg. no. lookup		
+3410	荷蘭稅務外掛程式 	Dutch Tax plugin		
+3411	CCV Pin 	CCV Pin		
+3412	POS 點數 	POS Points		
+3413	控制器登入 	Controller Login		
+3414	多使用者議程 	Multi-user Agenda		
+3415	Woodsales 	Woodsales		
+3416	文件匯出匯入 	Document Export Import		
+3417	Promeetec 	Promeetec		
+3418	外掛程式載入清單 	Plugin load list		
+3419	啟用外掛程式 	Activate plugin		
+3420	停用外掛程式 	Deactivate plugin		
+3421	在存貨中使用標籤 	Use tabs in stock		
+3422	您尚未註冊在我們的論壇上發文！您需要註冊 <@APPNAME@> 才能使用該使用者名稱密碼登入我們的論壇或商店。 	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.		
+3423	複製到 	Copy to		
+3424	刪除非本機（此電腦找不到的書籍） 	Delete not local (Books this PC cannot find)		
+3425	重新列印收據 	Reprint ticket		
+3426	租賃／預訂 	Rental / Reservations		
+3427	計算分鐘 	Calculate minutes		
+3428	不活躍分鐘 	Minutes inactive		
+3429	標準折扣 % 	Std disc%		
+3430	文件 ID 	Document id		
+3431	網路商店／論壇登入及電子通訊 	Webshop/Forum Login and Newsletters		
+3432	步驟狀態 	Step status		
+3433	流程 	Process		
+3434	最後操作日期 	Date last action		
+3435	步驟名稱 	Step name		
+3436	已用時間 	Used time		
+3437	查看已關閉 	View closed		
+3438	比利時稅務申報 	Belgium Tax Returns		
+3439	重新輸入密碼 	Retype password		
+3440	分支機構 	Branches		
+3441	Teams 名稱 	Skype name		
+3442	重設密碼（將新密碼傳送到您的電子郵件） 	Reset password (E-mail new password to you)		
+3443	開啟網路商店 	Open webshop		
+3444	變更密碼 	Change password		
+3445	請先註冊 <@APPNAME@> ！ 	Please register <@APPNAME@> first!		
+3446	若要註冊外掛程式，您需要先註冊 <@APPNAME@>！ 	To register plugins, you need to register <@APPNAME@> first!		
+3447	時間許可 	Time license		
+3448	目前總計 	Current total		
+3449	未使用積分！請使用積分或關閉視窗！ 	No points used! Please use points or close window!		
+3450	使用積分 	Use points		
+3451	目前積分 	Current points		
+3452	要使用的積分 	Points to use		
+3453	總帳差異 	General ledger differences		
+3454	符號 	Symbol		
+3455	費率 	Rate		
+3465	稅率類別 	Tax classes		
+3466	稅率類別 	Tax class		
+3467	強制庫存類型檢查 	Force stock type check		
+3468	預設成本組 	Default cost group		
+3469	工作流程設定 	Workflow setup		
+3470	貨幣 	Currencies		
+3471	我已閱讀此說明並理解該操作！ 	I have read this instruction, and I understand the action!		
+3472	付款折扣 	Payment discount		
+3473	付款差額 	Payment difference		
+3474	自動處理 	Auto process		
+3475	Outlook 同步 	Outlook sync		
+3476	同步到 <@APPNAME@> 	Sync to <@APPNAME@>		
+3477	從 <@APPNAME@> 到 Outlook 	From <@APPNAME@> to Outlook		
+3478	同步電子郵件 	Sync E-mail		
+3479	郵件連結 	E-mail link		
+3480	Outlook 同步器 	Outlook syncroniser		
+3481	文件連結 	Document links		
+3482	來自的連結 	Links from		
+3483	連結到 	Links to		
+3484	連結 	Link		
+3485	我在哪裡？ 	Where am I?		
+3486	步驟提示 	Step hint		
+3487	權限 	Rights		
+3488	新增步驟 	Add step		
+3489	編輯步驟 	Edit step		
+3490	刪除步驟 	Delete step		
+3491	轉換 	Transition		
+3492	建立過渡 	Create transition		
+3493	持續時間 	Duration		
+3494	年 	Years		
+3495	狀態文字 	Status text		
+3496	螢幕類型 	Screen type		
+3497	步驟名稱 	Step name		
+3498	步驟資料 	Step data		
+3499	您仍有一個明細畫面處於開啟狀態！請按一下「取消」或「儲存」以關閉！ 	You still have a detail screen open! Click Cancel or Save to close!		
+3500	新增轉換 	Add transition		
+3501	條件	Condition		
+3502	下一個處理日期	Next process date		
+3503	目前值	Current value		
+3504	購買日期 	Purchase date		
+3505	沖銷類型	Write-off type		
+3506	沖銷期間	Write-off period		
+3507	已链接交易	Linked transaction		
+3508	剩余金额	Rest-amount		
+3509	沖銷百分比	Write-off percentage		
+3510	下一個沖銷金額	Next write-off amount		
+3511	分類帳上的總沖銷額	Total write-off on ledger		
+3512	需要處理	Needs processing		
+3513	新交易	New transactions		
+3514	手動新增	Add manual		
+3515	已過帳交易	Posted transactions		
+3516	處理（選取）行	Process (selected) lines		
+3517	购买金额	Purchase amount		
+3518	Activa	Activa		
+3519	新增（選取）行	Add (selected) lines		
+3520	新增合併	Add consolidated		
+3521	為此使用者顯示	Show for this user		
+3522	選取	Selection		
+3523	調整選取項目的匯款日期為：	Adjust remittance date of selection to :		
+3524	無自動付款 	No auto payment		
+3525	匯款日期從	With a remittance date from		
+3526	付款日期自...的未結項目	Open Items with paydate from		
+3527	電子郵件篩選器 	E-mail filter		
+3528	電子郵件選取項目	E-mail selected		
+3529	編輯匯款 	Edit remittance		
+3530	列印全部	Print all		
+3531	編輯報告	Edit report		
+3532	顯示報告 	Show report		
+3533	預設天數內不匯款	Default days no remittance		
+3534	更新多媒體	Update Multimedia		
+3535	此操作將調整「選定」債務人的上次匯款日期。您是否要繼續？	"This action will adjust the last date remittance at the ""selected"" debtors! Do you wish to continue?"		
+3536	此操作將調整「所有可見」債務人的上次匯款日期。您是否要繼續？	"This action will adjust the last date remittance at the ""ALL VISIBLE"" debtors! Do you wish to continue?"		
+3537	如果有交易則彈出 	Popup if there are transactions		
+3538	最早交易日期	Date oldest transaction		
+3539	最後匯款日期	Date last remittance		
+3540	設計編輯欄位	Design edit fields		
+3541	設計搜尋欄位	Design search fields		
+3542	搜尋 SQL	Search SQL		
+3543	查詢語言	Lookup language		
+3544	控制類型 	Type of control		
+3545	高度	Height		
+3546	大小	Size		
+3547	翻譯	Translation		
+3548	欄位來源	Column origin		
+3549	儲存並重建	Save and rebuild		
+3550	複製為新	Copy as new		
+3551	在表格上產生	Generate on table		
+3552	SQL 和額外資料	SQL and extra data		
+3553	欄位類型	Field type		
+3554	預設值	Default value		
+3555	%s 的沖銷已結束，是否要清除啟用的帳戶？	Write off for %s ended do you want to clear the activa accounts?		
+3556	專案	Project		
+3557	建立項目	Create entries		
+3558	項目已建立！	Entries created!		
+3559	批次時間輸入	Bulk time entry		
+3560	出庫	Stock out		
+3561	入庫	Stock in		
+3562	限制記錄	Limit rows		
+3563	使用者標籤	User tab		
+3564	自動學習	Auto learn		
+3565	未關聯項目	Unlinked items		
+3567	顯示已停用	Show disabled		
+3568	每期報價	Quotes per period		
+3569	每期貸方票據	Credit notes per period		
+3570	每期發票	Invoices per period		
+3571	每個產品的銷售量	Sales per product		
+3572	每期訂單	Orders per period		
+3573	每期購買	Purchases per period		
+3574	供應商退貨每期	Supplier returns per period		
+3575	每個產品的採購量	Purchases per product		
+3576	新報告	New report		
+3577	新建資料夾	New folder		
+3578	建立參數並開啟	Create parameters and open		
+3579	儲存後不重新整理	No refresh after save		
+3580	選取測試文件 ID	Select test document id		
+3581	資源管理器資料夾	Explorer folder		
+3582	複製報表	Copy report		
+3583	儲存網格佈局	Save grid layout		
+3584	潛在客戶	Leads		
+3585	批次標籤	Mass tag		
+3586	標籤	Tags		
+3587	新增標籤	Add tag		
+3588	批次活動	Mass activity		
+3589	CRM	CRM		
+3590	活動	Activities		
+3591	將 %s 新增到記錄	Add %s to records		
+3592	啟動計時器	Start timer		
+3593	停止計時器	Stop timer		
+3594	所有帳戶	All accounts		
+3595	潛在客戶	Lead		
+3596	跟進	Follow-up		
+3597	方向	Direction		
+3598	入站	Incoming		
+3599	外發	Outgoing		
+3600	已處理	Handled		
+3601	執行運行於	Perform run on		
+3602	批次聯絡	Mass contact		
+3603	計費矩陣	Billing matrix		
+3604	最少計費分鐘	Minimum bill minutes		
+3605	計費分鐘增量	Increment bill minutes		
+3606	交叉連結	Cross link		
+3607	跳過行 	Skip lines		
+3608	分隔符	Delimiter		
+3609	日期格式	Date format		
+3610	日期分隔符	Date separator		
+3611	小數分隔符	Decimal separator		
+3612	重做	Redo		
+3613	潛在客戶資料集匯入器	Leads dataset importer		
+3614	檔案中的標題	Headers in file		
+3615	計費	Billing		
+3616	帳單可見	Bill visible		
+3617	轉換為	Convert to		
+3618	儀表板檢視	Dashbord view		
+3619	持續時間	Duration		
+3620	手動輸入（分鐘）	Manual input in minutes		
+3621	已計費	Is billed		
+3622	轉換	Convert		
+3623	訂單已下達！	Order is placed!		
+3624	選取或建立文件！	Select or create a document!		
+3625	請將商品新增到您的訂單中！	Please add items to your order!		
+3626	此清單顯示您已訂購的內容	This list shows what you already ordered		
+3627	此清單顯示您按下訂單按鈕時要訂購的內容	This list shows what you are going to order when you press the order button		
+3628	選取一個產品新增到您的訂單清單 	Select a product to add to your order list		
+3629	合併	Merge		
+3630	桌位概覽	Table overview		
+3631	所有訂單	All orders		
+3632	列印收據	Print ticket		
+3633	日期預訂	Date reservation		
+3634	每日備忘錄	Day memo		
+3635	客戶	Guest		
+3636	建立 POS 票據	Create POS ticket		
+3637	人	Person(s)		
+3638	停留分鐘	Stay in minutes		
+3639	預計時間	Expected time		
+3640	水平 POS 版面配置	Horizontal POS layout		
+3641	垂直 POS 版面配置 	Vertical POS layout		
+3642	清除表格移動	Clear table movement		
+3643	移動座位	Move seat		
+3644	連結座位	Link seat		
+3645	取消連結座位	Unlink seat		
+3646	隱藏 <@APPNAME@> 介面	Hide <@APPNAME@> interface		
+3647	電話訂單	Telephonic orders		
+3648	待送貨訂單清單	Orders to deliver list		
+3649	鎖定	Lock		
+3650	開始點擊此處	Start click here		
+3651	再次點擊這裡	Click here again		
+3652	點擊這裡	Click here		
+3653	預訂	Reservations		
+3654	關閉 POS	Close POS		
+3655	現金記帳	Cash entry		
+3656	已過帳單據的付款	Payment of posted documents		
+3657	顯示文件資訊	Show doc. info		
+3658	簡單操作按鈕	Simple action buttons		
+3659	無字幕	No captions		
+3660	每日供應	Daily provision		
+3661	無邊框文件	Document without border		
+3662	已過帳付款	Posted payments		
+3663	每桌銷售額	Sales per table		
+3664	新訂單	New order		
+3665	顯示固定的第一個群組清單	Show fixed first group list		
+3666	在清單中顯示目前總計	Show current totals in list		
+3667	分別收款	Receive separate payments		
+3668	根據文件資訊建立帳戶	Create account from document details		
+3669	傳送文件類型	Send document type		
+3670	列印文件並傳送電子郵件	Print document and send email		
+3671	使用者名稱	Username		
+3672	啟用自動設定未付款 x 天後成為不活躍債務人	Enable auto set inactive debtor after x days unpaid		
+3673	付款後變為無效的天數	Days after payment before inactive		
+3674	您想為 1 個債權人執行此流程嗎？	Do you want to run this process for 1 creditor?		
+3675	帶有稅號的債務人稅單	Tax list debtor with tax id		
+3676	找到未過帳的文件！請先處理所有文件，然後再進行手動編輯！	Unposted documents found ! Please process all documents before manual edit!		
+3677	起始數量	Start quantity		
+3678	預計數量	Expected quantity		
+3679	生產日期	Production date		
+3680	最大銷售日期	Max sales date		
+3681	位置	Location		
+3682	序號	Serial		
+3683	批次	Batch		
+3684	總銷量	Total sold		
+3685	用集中搜尋尋找 	Find with central search		
+3686	無法建立帳戶	No account creation		
+3687	根據未結金額匹配	Match on open amounts		
+3688	價格 2 的總銷售額 	Total Exp sales on price 2		
+3689	庫存總價值	Total Stock value		
+3690	輸入電子郵件地址，用分號 (;) 隔開	Enter email address separate with ;		
+3691	國家	Countries		
+3692	更正交易年齡	Correction transaction ageing		
+3693	請先儲存或取消您的文件！	Please save or cancel your document first!		
+3694	請先儲存或取消您的庫存！	Please save or cancel your stock first!		
+3695	請先儲存或取消您的債務人！	Please save or cancel your debtor first!		
+3696	請先儲存或取消您的債權人！	Please save or cancel your creditor first!		
+3697	電子試算表銷售	Spreadsheet sales		
+3698	電子試算表報告	Spreadsheet reports		
+3699	選取全部以停止詢問此問題。	Select All to stop asking this question.		
+3700	查看	View		
+3701	縮放	Zoom		
+3702	頁面配置	Page layout		
+3703	公式	Formulas		
+3704	匯入檢查	Import check		
+3705	個人檔案	Profile		
+3706	儲存個人檔案	Save profile		
+3707	新增個人檔案	Add profile		
+3708	匯入類型	Import type		
+3709	連結啟動	Link on 		
+3710	小規模備份（帳簿）	Small backup (books)		
+3711	此操作將關閉 <@APPNAME@> 並安裝版本 %s。我們建議您備份整個 <@APPNAME@> 資料夾。您是否願意繼續？	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?		
+3712	更新	Updates		
+3713	啟動時檢查更新	Check for update at start		
+3714	Beta 版本	Beta versions		
+3715	安裝	Install		
+3716	工作流程	Workflow		
+3717	區塊鏈	Blockchain		
+3718	啟用外掛程式	Activate plugins		
+3719	新增到群組	Add to group		
+3720	電子試算表匯入	Spreadsheet import		
+3721	啟用區塊鏈	Enable Blockchain		
+3722	文件顯示數量	Document show quantity		
+3723	盤點數量	Counted quantity		
+3724	目前數量	Current quantity		
+3725	計數日期	Date of count		
+3726	確定 -> 下一步	OK -> Next		
+3727	未盤點	Uncounted		
+3728	已盤點	Counted		
+3729	快速新增	Fast add		
+3730	過帳差異	Post difference		
+3731	已檢查並確認無誤	Checked and OK		
+3732	您目前的開放年結日期「%s」大於今天！您是否要停止開啟新的一年？	"Your current open year end date ""%s"" is greater than today! Do you want to stop opening a new year?"		
+3733	您確定要覆寫目前的帳簿嗎？	Are you sure you want to overwrite your current books?		
+3734	在週期 0 中發布 	Post in period 0		
+3735	您正在將損益放在帶稅的分類帳上！這將弄亂稅務報告！您還想繼續嗎？	You are putting profit/loss on ledger with tax! This will messup tax reports! Do you wish to continue?		
+3736	您正在將銀行/現金直接存入銀行/現金帳戶！是否繼續？	You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?		
+3737	您想取消列印此收據嗎？	Do you wish to cancel the print this receipt?		
+3738	LTR	LTR		
+9901	／／ 這些是主選單註解 	//  These are the main menu comments		
+20000	您不能建立遞迴層級！ 	You cannot create recursive levels!		
+20001	確認 	Confirm		
+20002	刪除記錄？ 	Delete record?		
+20003	刪除所有選取的記錄？ 	Delete all selected records?		
+20004	點擊這裡新增行 	Click here to add a new row		
+20005	篩選器為<空> 	Filter is empty>		
+20006	自訂 	Customisation		
+20007	欄 	Columns		
+20008	使用滑鼠將欄拖曳至此，以該欄進行分組 	Use your mouse to pull a column here to group on that column		
+20009	自訂...... 	Customise...		
+20010	帶區 	Bands		
+20011	缺少中間元件！請將 %s 元件新增到表單！ 	Missing an intermediary component! Please add a %s component to the form!		
+20012	cxGrid 不存在！ 	cxGrid does not exist!		
+20013	元件不存在！ 	Component does not exist!		
+20014	匯入錯誤！ 	Import error!		
+20015	格線檢視不存在！ 	Grid view does not exist!		
+20016	作用中格線層級不存在！ 	Active grid level does not exist!		
+20017	無法建立匯出輸出檔案！ 	Cannot create the export output file!		
+20018	組合方塊 - 採用量子網格作為下拉控制項的高階查閱控制項 	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!		
+20019	等於 	Equal to		
+20020	不等於 	Not equal to		
+20021	小於 	Less than		
+20022	小於或等於 	Less than or equal to		
+20023	大於 	Greater than		
+20024	大於或等於 	Greater than or equal to		
+20025	像 	Like		
+20026	不像 	Not like		
+20027	之間 	Between		
+20028	不在之間 	Not between		
+20029	在 	in		
+20030	不在 	Not in		
+20031	是昨天 	is yesterday		
+20032	是今天 	is today		
+20033	是明天 	is tomorrow		
+20034	指的是上週 	is last week		
+20035	指的是上個月 	is last month		
+20036	是不是去年 	is last year		
+20037	是本週 	is this week		
+20038	是這個月 	is this month		
+20039	是今年 	is this year		
+20040	是下週 	is next week		
+20041	是下個月 	is next month		
+20042	是明年 	is next year		
+20043	並且 	and		
+20044	或者 	or		
+20045	非 	Not		
+20046	空的 	Empty		
+20047	是空 	is nul		
+20048	不是空 	is not nul		
+20049	開頭是 	Begins with		
+20050	開頭不是 	Does not begin with		
+20051	以...結尾 	Ends with		
+20052	不以...結尾 	Does not end with		
+20053	包含 	Contains		
+20054	不包含 	Does not contain		
+20055	(全部) 	(All)		
+20056	(自訂...) 	(Custom...)		
+20057	(空的) 	(Empty)		
+20058	(不為空) 	(Not empty)		
+20059	交易號 	Transaction no.		
+20060	批次號 	Batch no.		
+20061	,0.00 	,0.00		
+20062	計數 : 0 	Count : 0		
+20063	匯出 	Export		
+20064	欄 	Columns		
+20065	總銷售額 	Total sales		
+20066	總數量 	Total Qty.		
+20067	每日總銷售額 	Total sales per day		
+20068	每天總數量 	Total qty. per day		
+20069	交易 	Transactions		
+20070	客戶發票 	Customer invoice		
+20071	開具庫存項目發票 	Invoice stock item		
+20072	庫存項目發票 	Stock item invoice		
+20073	圖表 	Charts		
+20074	唯一庫存號 	Unique stock no.		
+20075	唯一文件號 	Unique document no.		
+20076	唯一行號 	Unique line no.		
+20077	唯一的帳戶號碼 	Unique account no.		
+20078	該版本僅有效至 1-3-2005，更多資訊請造訪 <@APPURL@> 	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/		
+20079	請先開啟一套帳簿！ 	Open a Set of Books first!		
+20080	關於 	About		
+20081	結束 	Exit		
+20082	執行 SQL 	Run SQL		
+20083	載入 SQL... 	Load SQL...		
+20084	儲存 SQL... 	Save SQL...		
+20085	篩選器 	Filters		
+20086	分組 	Grouping		
+20087	編輯器字體... 	Editor font...		
+20088	本機樣式 	Native style		
+20089	開啟目錄 	Open directory		
+20090	可見欄 	Visible columns		
+20091	來自 	From		
+20092	直到 	Until		
+20093	和 	and		
+20094	或 	or		
+20095	且不 	and not		
+20096	或不 	or not		
+20097	篩選 	Filter		
+20098	新建&條件 	New &condition		
+20099	新建群組 (&G) 	New &group		
+20100	刪除行(&D) 	&Delete row		
+20101	全部刪除 	Delete &all		
+20102	按此按鈕新增條件 	Push this button to add a condition		
+20103	包含以下條件 	Containts the folowing conditions		
+20104	<標頭> 	<Head>		
+20105	<空的> 	<Empty>		
+20106	無法清空篩選器！ 	Cannot empty filter!		
+20107	調整後的篩選器 	Adjusted filter		
+20108	無效值 	Invalid value		
+20109	使用 	Use		
+20110	表示單一字元 	to present a single character		
+20111	表示多個字元 	to present multiple characters		
+20112	和 	and		
+20113	或 	or		
+20114	顯示行，其中： 	Show rows where :		
+20115	建立篩選器 	Make filter		
+20116	無名.flt 	noname.flt		
+20117	開啟已儲存的篩選器 	Open a saved filter		
+20118	儲存作用中篩選器 	Save active filter		
+20119	另存為(&S)... 	&Save as...		
+20120	開啟 (&O)... 	&Open...		
+20121	申請 (&A) 	&Apply		
+20122	flt 	flt		
+20123	*.flt 	*.flt	Filter (*.flt)	*.flt
+20124	<無資料可顯示> 	<No data to display>		
+20130	不兌現 	Do not cash		
+20131	建立未取走的已售商品 	Create goods sold not taken		
+20132	無法刪除！ 	Cannot delete!		
+20133	使用進階庫存 	Use advanced stock		
+21000	&檔案 	&File		
+21001	報表管理員設計器 	Report Manager Designer		
+21002	報表(&R) 	&Report		
+21003	編輯(&E) 	&Edit		
+21004	螢幕(&D) 	&Display		
+21005	偏好設定(&P) 	&Preferences		
+21006	&說明 	&Help		
+21007	格線 	Grid		
+21008	此報告的格線選項 	Grid options for this report		
+21009	剪下 	Cut		
+21010	複製 	Copy		
+21011	貼上 	Paste		
+21012	剪下選取的物件 	Cut selected object		
+21013	將選取的物件複製到剪貼簿 	Copy selected object to clipboard		
+21014	從剪貼簿貼上 	Paste from clipboard		
+21015	隱藏 	Hide		
+21016	隱藏選取的物件 	Hide selected objects		
+21017	顯示全部 	Show all		
+21018	顯示所有隱藏的元件 	Shows all the hidden components		
+21019	全部 	All		
+21020	選取報告的所有元件 	Selects all components of the report		
+21021	選取 	Select		
+21022	移動 	Move		
+21023	左 	Left		
+21024	將選取項目移動到左側 	Moves the selection to the left		
+21025	右 	Right		
+21026	將選取項目向右移動 	Moves the selection to the right		
+21027	上 	Up		
+21028	將選取項目向上移動 	Moves the selection up		
+21029	下 	Down		
+21030	將選取項目向下移動 	Moves the selection down		
+21031	對齊 	Align		
+21032	將選取項目對齊到左側 	Aligns selection to the left		
+21033	將選取項目向右對齊 	Aligns selection to the right		
+21034	將選取項目向上對齊 	Aligns selection up		
+21035	將選取項目向下對齊 	Aligns selection down		
+21036	水平間距 	Horizontal space		
+21037	對齊選取項目並分配水平空間 	Aligns selection distributing horizontal space		
+21038	垂直間距 	Vertical space		
+21039	對齊選取項目並分配垂直空間 	Aligns selection distributing vertical space		
+21040	全新 	New		
+21041	建立新報告 	Creates a new report		
+21042	開啟 	Open		
+21043	開啟現有報表 	Opens an existing report		
+21044	結束 	Exit		
+21045	關閉應用程式 	Closes the application		
+21046	儲存... 	Save...		
+21047	儲存目前報告 	Saves the current report		
+21048	另存為... 	Save as...		
+21049	將報告儲存到新檔案 	Saves the report to a new file		
+21050	頁面設定 	Page setup		
+21051	顯示報告頁面設定 	Show report page setup		
+21052	列印 	Print		
+21053	列印報告。可選取列印頁數。 	Print the report, you can select pages to print.		
+21054	列印預覽 	Print preview		
+21055	在螢幕上預覽報告 	Preview the report in the screen		
+21056	印表機設定...... 	Printer setup...		
+21057	顯示印表機設定對話方塊 	Displays printer setup dialog		
+21058	關於 Report Manager 	About Report Manager		
+21059	顯示有關報表管理員的資訊 	Shows information about Report Manger		
+21060	文件 	Documentation		
+21061	顯示報表管理員設計器文件 	Display Report Manager Designer Documentation		
+21062	測量 	Measurement		
+21063	&公分 	&Cms		
+21064	將測量單位變更為公分 	Change measurement units to cms		
+21065	英吋 	Inches		
+21066	將測量單位變更為英吋 	Changes measurement units to inches		
+21067	驅動程式 	Driver		
+21068	Qt 驅動程式 (CLX) 	Qt driver (CLX)		
+21069	啟用 Qt 跨平台圖形和列印驅動程式 	Activates the Qt cross platform graphics and printing driver		
+21070	GDI 驅動程式 (VCL) 	GDI Driver (VCL)		
+21071	啟用 GDI32 直接渲染驅動程式 (VCL)，僅限 Windows 	Activates the GDI32 direct rendering driver (VCL), Windows only		
+21072	Qt 系統列印對話方塊 	Qt System print dialog		
+21073	顯示系統列印對話方塊，或自訂列印對話方塊 	Shows the system print dialog, or a custom print dialog		
+21074	Kylix 列印錯誤修正 	Kylix Print Bugfix		
+21075	使用 Kylix 列印錯誤修正 (使用 metaprint 列印中繼檔) 	Uses kylix print bugfix (use metaprint to print metafiles)		
+21076	狀態列 	Status bar		
+21077	顯示或隱藏狀態列 	Shows or hides the status bar		
+21081	選取物件 	Select objects		
+21082	插入靜態文字 	Inserts a static text		
+21083	插入運算式 	Inserts a expression		
+21084	插入簡單繪圖 	Inserts a simple drawing		
+21085	插入影像 	Inserts a image		
+21086	插入條碼 	Inserts a barcode		
+21087	插入圖表 	Inserts a chart		
+21093	確定 	OK		
+21094	取消 	Cancel		
+21095	預設 	Default		
+21096	自訂 	Custom		
+21097	頁面大小 	Page size		
+21098	頁面方向 	Page orientation		
+21099	頁面邊界 	Page margins		
+21100	左 	Left		
+21101	右 	Right		
+21102	上 	Top		
+21103	下 	Bottom		
+21104	自訂尺寸 	Custom size		
+21105	自訂頁面方向 	Custom page orientation		
+21106	縱向 	Portrait		
+21107	橫向 	Landscape		
+21108	複本 	Copies		
+21109	分頁複本 	Collate copies		
+21110	對話方塊 	Dialog		
+21111	兩遍報告 	Two pass report		
+21112	報告語言 	Report language		
+21113	印表機字體 (僅限 Windows GDI) 	Printer fonts (Windows GDI Only)		
+21114	始終使用印表機字體 	Always use printer fonts		
+21115	從不使用印表機字體 	Never use printer fonts		
+21116	背景顏色 	Background color		
+21117	所有文字 	All Text		
+21118	選取報告的所有文字元件 	Selects all text components of the report		
+21119	頁面標頭 	Page header		
+21120	在選取的子報表中插入頁面標頭 	Inserts a page header in the selected subreport		
+21121	頁面頁腳 	Page footer		
+21122	在選取的子報表中插入頁面頁腳 	Inserts a page footer in the selected subreport		
+21123	群組標頭和頁腳 	Group header and footer		
+21124	插入群組標頭和頁腳 	Insert a group header an footer		
+21125	子報表 	Subreport		
+21126	插入新的子報表 	Insert a new subreport		
+21127	刪除區段/子報表 	Delete section/subreport		
+21128	刪除選取的子報表或區段 	Deletes the selected subreport or section		
+21129	詳細資料 	Detail		
+21130	在選取的子報表中插入詳細資料區段 	Inserts a detail section in the selected subreport		
+21131	資料存取組態 	Data access configuration		
+21132	修改資料存取資訊 	Modifies data access information		
+21133	參數定義 	Parameter definition		
+21134	顯示報告和資料組態的參數定義 	Shows parameter definition for the report and data configuration		
+21135	參數 	Parameters		
+21136	顯示報告參數 	Show report parameters		
+21137	刪除區段 	Delete section		
+21138	刪除選取的區段 	Delete the selected section		
+21139	將區段向上移動 	Moves the section up		
+21140	將區段向下移動 	Moves the section down		
+21142	連線 	Connections		
+21143	設定印表機 	Configure printers		
+21144	登入提示 	Login prompt		
+21145	載入參數 	Load parameters		
+21146	載入驅動程式參數 	Load driver parameters		
+21148	資料集 	Datasets		
+21149	新增 	Add		
+21150	刪除 	Delete		
+21152	參數 	Parameters		
+21154	連線 	Connection		
+21155	主資料集 	Master dataset		
+21156	顯示資料 	Show data		
+21157	BDE 類型 	BDE type		
+21158	桌子和訂單 	Table and order		
+21159	查詢 	Query		
+21160	表格 	Table		
+21161	BDE 篩選器 	BDE filter		
+21162	表格 	Table		
+21163	索引名稱 	Index name		
+21164	索引欄位 	Index fields		
+21165	主欄位 	Master fields		
+21166	注意：欄位之間用分號 (;) 字元分隔 	Note: Write fields separated by ; character		
+21167	MyBase 檔案名稱 	MyBase file name		
+21168	建置... 	Build...		
+21216	將中繼檔另存為 	Save metafile as		
+21217	將報告另存為中繼檔格式 	Save the report as a metafile report		
+21218	取消報告計算 	Cancels the report calculation		
+21219	關閉預覽視窗 	Closes the preview window		
+21220	首頁 	First page		
+21221	移至報告的第一頁 	Goes to the first page of the report		
+21222	上一頁 	Previous page		
+21223	顯示前一頁 	Shows the previous page		
+21224	下一頁 	Next page		
+21225	顯示下一頁 	Shows the next page		
+21226	最後一頁 	Last page		
+21227	跳轉到報告的最後一頁 	Goes to the last page of the report		
+21228	正常比例 	Normal scale		
+21229	以實際大小顯示報告 	Shows the report in real size		
+21230	縮放到視窗 	Scale to window		
+21231	調整紙張比例以適應視窗寬度 	Scale adjusting the paper to the window width		
+21232	縮放到整頁 	Scale to full page		
+21233	縮放以檢視整頁 	Scale to view full page		
+21234	縮放- 	Zoom-		
+21235	檢視縮小 	Zooms out the view		
+21236	縮放+ 	Zoom+		
+21237	檢視放大 	Zooms in the view		
+21354	Reportman 管理員設計器 	Reportman manager designer		
+21539	新建資料集 	New dataset		
+21540	重新命名資料集 	Rename dataset		
+21732	使用者自訂 	User defined		
+21733	自訂尺寸 	Custom size		
+21734	向選取的子報表新增區段 	Adds a section to the selected subreport		
+21741	選取印表機 	Select printer		
+21742	對話方塊 	Dialog		
+21743	組態檔案 	Configuration file		
+21744	使用者組態 	User configuration		
+21745	系統組態 	System configuration		
+21746	位置調整 	Position adjustment		
+21753	連線 	Connect		
+21763	列印後的操作 	Operations after print		
+21764	TM88 開錢箱 #27#112#48#160#160#4 	Example, TM200 Open Drawer: #27#112#48#160#160#4		
+21765	TM88 開錢箱 #27#112#48#40#200#4 	Example, TM88 Open Drawer: #27#112#48#40#200#4		
+21766	切紙 	Cut paper		
+21767	開啟錢箱 	Open drawer		
+21799	沒有可列印的資料！ 	No data available to print!		
+21800	僅在資料可用時列印 	Print only if data available		
+21831	第一範圍 	First range		
+21832	上次範圍 	Last range		
+21833	每行將被評估並分配給每個欄位作為篩選器的開始和結束 	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter		
+21835	載入區段 	Load section		
+21836	儲存區段 	Save section		
+21840	預覽視窗和縮放 	Preview window and scale		
+21841	正常 	Normal		
+21842	最大化 	Maxmized		
+21843	寬 	Wide		
+21844	正常 	Normal		
+21845	頁 	Page		
+21857	頁面設定 	Page setup		
+21858	列印設定 	Print setup		
+21936	本機驅動程式 	Native driver		
+21939	啟用本機驅動程式，無圖形依賴 	Activates the Native driver, no graphics dependent		
+21976	系統資訊 	System information		
+21977	顯示系統和印表機資訊 	Shows system and printer information		
+22058	僅文字驅動程式 	Text only driver		
+22059	對齊高度 1/6 	Align height 1/6		
+22060	將所有區段高度對齊到 1/6 英吋，以實現點陣相容性 	Aligns all sections height to 1/6 inches for dot matrix compatibility		
+22080	程式庫 	Libraries		
+22081	開啟報表程式庫對話方塊 	Open report libraries dialog		
+22082	資料集用戶端連線 	Dataset client side unions		
+22083	連線 	Unions		
+22084	連線分組 	Union grouping		
+22085	欄位定義檔案 	Field defs file		
+22086	修改... 	Modify...		
+22097	資料庫連線和資料集 	Database connections and datasets		
+22098	可用連線 	Available connections		
+22099	連線字串 	Connection string		
+22100	可用 	Available		
+22101	資料庫驅動程式 	Database driver		
+22102	新建連線 	New connection		
+22103	新增新連線 	Adds a new connection		
+22104	刪除連線 	Delete connection		
+22105	刪除選取的連線 	Deletes the selected connection		
+22106	刪除選取的物件 	Delete the selected object		
+22230	郵件到 	Mail to		
+22231	將報告傳送到電子郵件目的地 	Sends the reports to a e-mail destination		
+22347	應用程式字體 	Application font		
+22348	應用程式字體 	Application font		
+22377	每英吋行數 	Lines per inch		
+22433	重新計算報告 	Recalculte report		
+22434	尋找 	Find		
+22435	尋找文字 	Find text		
+22440	平行連線 	Parallel union		
+900000	Parcelware 程式碼	Parcelware code		
+900001	發送到Parcelware	Send to Parcelware		
+900002	門牌號	House no.		
+900003	*房屋號	House no. tv		
+900004	街道	Street		
+901000	訂閱	Subscriptions		
+901001	訂閱清單	Subscriptions list		
+901002	警告	Warnings		
+901003	要處理的訂閱	Subscriptions to process		
+901004	行值 (含稅)	Line value (Incl.)		
+901005	訂閱日期前幾天的發票	Invoice in days before subscription date		
+901006	訂閱日期前幾天的警告	Warning in days before subscription date		
+901007	間隔類型	Interval type		
+901008	間隔	Interval		
+901009	<選取庫存項目>	<Select stock item>		
+901010	您確定要刪除此訂閱嗎?	Are you sure you want to delete this subscription?		
+901011	上次執行	Last run		
+901012	下一次執行	Next run		
+901013	開始日期	Start date		
+901014	至	To		
+901015	已處理	Processed		
+901016	訂閱	Subscriptions		
+901017	天	Day		
+901018	週	Week		
+901019	月	Month		
+901020	3 個月	3 Months		
+901021	6 個月	6 Months		
+901022	年	Year		
+901023	下一個警告	Next warning		
+901500	拆分	Split		
+901501	座位	Seat		
+901502	餐具	Couvert		
+901503	服務員	Waiter		
+901504	商品 %s 庫存不足！請檢查您的輸入 !	The item %s is out of stock! Please review your entry!		
+901505	新增行項，請審核此付款	New lines added please review this payment!		
+901506	請先關閉所有未結發票	Please close all open invoices first!		
+901507	您確定要繼續關閉 POS 嗎?	Are you sure you want to continue to close the POS?		
+901508	關閉 POS	Close POS		
+901509	手持裝置	Handheld		
+902000	價格協議	Price agreement		
+902001	直到數量	Until quantity		
+902002	外部產品代碼	External product code		
+902003	平均成本價格的百分比	Percentage of avg. cost price		
+902004	<所有庫存>	<All stock>		
+902005	<所有債務人>	<All debtors>		
+902006	歷史	Historical		
+902007	價格類型	Price type		
+902008	價格表 - 大型零售 - 銷售	Price list - Large retail - Sales		
+902009	價格表 - 大型零售 - 採購	Price list - Large retail - Purchases		
+903000	多媒體	Multimedia		
+903001	檔案位置	File location		
+903002	原始檔案名稱	Original file name		
+903003	檔案日期	File date		
+903004	到資料庫	To database		
+903005	連結檔案	Link file		
+903006	複製檔案	Copy file		
+903007	URL	URL		
+903008	檢視／編輯	View/Edit		
+903009	編輯完檔案後，按確定將其儲存到資料庫!	Press OK when you are done editing the file to save it to the database!		
+903010	另存為......	Save as...		
+903011	清單	List		
+903100	圖表	Charter		
+903101	更正	Corrections		
+903102	系統變數	Sysvars		
+903103	不一致	Inconsistencies		
+903104	訊息	MSG		
+903105	執行 SQL	Run SQL		
+903106	清理批次	Cleanup batch		
+903107	顏色條件	Colour conditions		
+903108	總帳交易	Ledger transactions		
+903109	匯入	Import		
+903110	修補程式	Patches		
+903111	四捨五入分	Round-off cents		
+903112	為庫存新增額外描述	Add extra description to stock		
+903113	從庫存中移除多餘描述	Drop extra description from stock		
+903114	更改庫存代碼類型	Change stock code type		
+903115	計算庫存總量	Calculate total in stock		
+903116	測試增加	Test increase		
+903117	類型 ID	Type id		
+903118	終止庫存代碼	End stock code		
+903119	移除不在庫存中的群組	Remove groups not in stock		
+903120	刪除未在檔案中記錄的庫存	Remove stock not in documents		
+903121	按總帳產生庫存	Generate stock per ledger		
+903122	從 BOM 中移除非 BOM 項目	Remove from BOM which is not BOM		
+903123	更新選項項目的庫存數量	Update stock qty for option items		
+903124	移除債務人	Remove debtors		
+903125	移除債權人	Remove creditors		
+903126	移除庫存項目	Remove stock items		
+903127	移除聯絡人	Remove contacts		
+903128	清除訊息	Clear messages		
+903129	合併已關閉年份	Consolidate closed years		
+903130	轉移帳戶資料	Transfer account data		
+903131	轉移庫存資料	Transfer stock data		
+903132	將重複項轉移到最小 ID 並刪除	Transfer doubles to Min id and delete		
+903133	合併已結年度 - 檔案和庫存	Consolidate closed years - documents and stock		
+903134	用最大值 + 1 ID 填入全域變數	Fill globals with max + 1 id		
+903135	刪除不在帳簿中的債務人	Remove debtors not in account		
+903136	刪除不在帳簿中的債權人	Remove creditors not in account		
+903137	將所有債務人設定為未結項	Set all debtors to open item		
+903138	將所有應付款設定為未結清項	Set all creditors to open item		
+903139	更正帳號	Correct account numbers		
+903140	更正子帳戶	Correct sub-accounts		
+903141	修剪債務人地址並將第一個字元設定為大寫	Trim debtor address and set first character to the UPPERCASE		
+903142	產生所有總條目	Generate all total entries		
+903143	清除銀行帳戶中的無效符號	Remove invalid symbols from bank accounts		
+903144	將採購重設為最後一個檔案的基礎	Reset purchase to basis of last document		
+903145	修正錯誤餘額預訂描述	Correct errors balance booking descriptions		
+903146	設定過往年份交易	Set Transact previous years		
+903147	更新 Dochead FTaxAmt	Update Dochead FTaxAmt		
+903148	更正期間	Correct periods		
+903149	修正期間	Fix periods		
+903150	尋找不平衡條目	Find unbalanced entries		
+903151	自動連結所有零債務人	Auto-link all zero debtors		
+903152	刪除所有連結	Remove all links		
+903153	更正交易行 ID	Correct Transact line id		
+903154	更正含稅／不含稅金額 (反向錯誤)	Correct Incl. Excl. Tax amount (Reverse bug)		
+903155	清除總計	Clear totals		
+903156	清除系統變數參數	Clear Sysvars parameters		
+903157	刪除所有發票	Delete all invoices		
+903158	移除不在交易中的 BatCon	Remove BatCon not in Transact		
+903159	移除零發票	Remove zero invoices		
+903160	刪除逗號後方的姓氏	Remove last name from contacts after a comma		
+903161	尋找債務人	Find debtors		
+903162	尋找債權人	Find creditors		
+903163	產生聯絡人	Generate contacts		
+903164	選取顏色	Pick colour		
+903165	設定銷售價格 1 為採購價格的 1.5 倍，銷售價格 2 為採購價格的 1.3 倍	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price		
+903166	選取	Select		
+903167	重新執行修補程式 X	Rerun Patch X		
+903168	重設系統變數	Reset Sysvars		
+903169	目前版本	Current version		
+903170	執行	Execute		
+903171	指令碼	Script		
+903172	設定期限	Set term		
+903173	捨棄	Drop		
+903174	儲存到所有使用者	Save to all users		
+903175	表達式	Expression		
+903176	字體表達	Font expression		
+903177	背景表達	Background expression		
+903178	您確定嗎?	Are you sure?		
+903179	找不到任何項目!	Nothing found !		
+903180	輸入代碼	Enter code		
+903181	請先註冊 <@APPNAME@> ！	Please register <@APPNAME@> first!		
+903182	已註冊	Registered		
+906000	根據我們的記錄，您的帳戶仍有逾期款項。	Despite previous reminders, according to our records your account is still overdue. 		
+906001	下一次訂閱即將開始。新週期的發票將很快寄送。	The next subscription will start soon. The invoice for the new period will follow shortly.		
+906002	文件日期/時間	Document date/time		
+906003	別名	Alias		
+906004	供應商	Supplier		
+906005	下單日期	Order date		
+906006	報價日期	Quote date		
+906007	累計	Cum		
+906008	總支付金額	Total paid		
+906009	固定	Pin		
+906010	請儘快結清您的帳戶！	Please settle your account as soon as possible!		
+906011	獨佔	Exclusive		
+906012	包含	Inclusive		
+906013	記帳	On account		
+906014	POS 稅務發票	POS Tax Invoice		
+906015	IBAN	IBAN		
+906016	BIC	BIC		
+906017	SWIFT	SWIFT		
+906018	感謝您的惠顧。	Thank you for your patronage.		
+906019	祝您有美好的一天。	Have a nice day.		
+906020	稅	Tax		
+906021	分行代碼	Branch code		
+906022	帳戶持有人	Account holder		
+906023	採購單	- End of report -		
+906024	貸項通知單日期	Credit note date		
+906025	累計總計	Cum total		
+906026	採購單	Purchase document		
+906027	購買日期	Purchase date		
+906028	供應商退貨日期	Supplier return date		
+906029	供應商退貨單	Supplier return document		
+906030	供應商退貨已接受	Supplier return accepted		
+906031	歷史價值	Historical value		
+906032	訂單清單	Order list		
+906033	未完成訂單	Outstanding orders		
+906034	未結報價	Outstanding quotes		
+906035	債務人 - 價格協議	Debtor - Price agreement		
+906036	補貨數量	Reorder quantities		
+906037	銷售時間	Sales hours		
+906038	庫存異動	Stock movement		
+906039	交易詳細資料	Transaction details		
+906040	Yagoda 條碼	Yagoda barcode		
+906041	損益	P/L		
+906042	損益	Profit/Loss		
+906043	每個客戶群組的銷售額	Sales per customer group		
+906044	按庫存群組統計的銷售額	Sales per stock group		
+906045	債務人清單	Debtor list		
+906046	債權人清單	Creditor list		
+906047	聯絡人清單 - 債務人	Contact list - Debtors		
+906048	聯絡人清單 - 債權人	Contact list - Creditors		
+906049	聯絡人清單 - 全部	Contact list - All		
+906050	欠貨訂單	Backorder		
+906051	日誌報告	Log report		
+906052	登入	Log-on		
+906053	登出	Log-off		
+906054	作業系統使用者	OS user		
+906055	來自電腦	From PC		
+906056	酒吧訂單	Bar order		
+906057	廚房訂單	Kitchen order		
+906058	營業額	Turnover		
+906059	每位客戶的銷售額	Sales per customer		
+906060	聯絡人清單 - 主要	Contact list - Main		
+906061	交易清單 - 未結項	Transaction list - Open item		
+906062	選定的債務人標籤	Selected debtor label		
+906063	選取的債權人標籤	Selected creditor label		
+906064	送貨地址標籤	Delivery address labels		
+906065	已選債務人送貨標籤	Selected debtor delivery label		
+906066	已選供應商送貨標籤	Selected creditor delivery label		
+906067	付款	Payments		
+906068	頁碼	Page no.		
+906069	您的稅務參考	Your tax reference		
+906070	已重新列印	Reprinted		
+906071	成本中心1	Cost centre 1		
+906072	成本中心2	Cost centre 2		
+906073	POS 點數	POSPoints		
+906074	批次	Batch		
+906075	比較期間	Compare period		
+906076	比較期間 - 債務人	Compare period - Debtors		
+906077	比較期間 - 債權人	Compare period - Creditors		
+906078	比較期間 - 損益	Compare period - Profit / Loss		
+906079	多年	Multi-year		
+906080	選定科目／其他	On selected account / other		
+906081	交易 ID	Transaction id		
+906082	批次類型 ID	Batch type id		
+906083	文件金額	Document amount		
+906084	文件稅	Document tax		
+906085	稅金科目的稅額	Tax on tax account		
+906086	控制報告 - 每個對抵帳戶的已處理交易	Control report - Processed transactions per contra account		
+906087	POS 支付方式	POS Payment types		
+906088	債權人 - 價格協議	Creditor - Price agreement		
+906089	POS 銷售報告	POS Sales report		
+906090	POS 當前現金報告	POS Current cash report		
+906091	POS 歷史現金報告	POS Historical cash report		
+906092	總利潤 ／ 損失	Total Profit / Loss		
+906093	期初餘額	Opening balance		
+906094	總餘額	Total balance		
+906095	總行數	Total lines		
+906096	校驗和	Checksum		
+906097	自動收據報告	Automatic receipts report		
+906098	批次類型報表	Batch type report		
+906099	批次 ID	Batch id		
+906100	已過帳批次	Posted batch		
+906101	未過帳批次	Unposted batch		
+906102	對抵帳戶	Contra Accounts		
+906103	截至日期的未償債權人	Creditors outstanding at date		
+906104	截至日期的未償債務人	Debtors outstanding at date		
+906105	每期稅款	Tax per period		
+906106	應付款交易 - 標準	Debtor transactions - Standard		
+906107	債權人交易 - 額外詳情	Debtor transactions - Extra details		
+906108	應付款交易 - 標準	Creditor transactions - Standard		
+906109	債權人交易 - 額外詳情	Creditor transactions - Extra details		
+906110	標準交易	General ledger transactions - Standard		
+906111	總帳交易 - 額外詳情	General ledger transactions - Extra details		
+906112	入庫／出庫	Stock In / Out		
+906113	週期數量	Period quantity		
+906114	每週期購買量	Purchases per period		
+906115	每週期項目	Items per period		
+906116	債權人群組	Creditor group		
+906117	債務人群組	Debtor group		
+906118	庫存群組	Stock group		
+906119	文件群組	Document group		
+906120	供應商退貨 每週期	Supplier returns per period		
+906121	每週期貸方票據	Credit notes per period		
+906122	每週期銷售	Sales per period		
+906123	債務人交易	Debtor transactions		
+906124	債權人交易	Creditor transactions		
+906125	已過帳發票	Posted invoices		
+906126	未過帳發票	Unposted invoices		
+906127	已過帳貸項憑證	Posted credit notes		
+906128	未過帳貸項憑證	Unposted credit notes		
+906129	已過帳採購	Posted purchases		
+906130	未過帳採購	Unposted purchases		
+906131	已發布供應商退貨	Posted supplier returns		
+906132	未過帳供應商退貨	Unposted supplier returns		
+906133	已確認報價	Confirmed quotes		
+906134	未確認報價	Unconfirmed quotes		
+906135	已確認訂單	Confirmed orders		
+906136	未確認訂單	Unconfirmed orders		
+906137	郵寄地址標籤	Postal address labels		
+906138	列出送貨地址	List delivery address		
+906139	列出郵寄地址	List postal address		
+906140	列出詳細資訊	List details		
+906141	按期間統計的批次交易	Batch transactions per period		
+906142	餘額明細	Balances detail		
+906143	未結項目餘額明細歷史	Balances detail history (open item)		
+906144	未結項交易總額	Outstanding open item transaction totals		
+906145	未結清交易總額	Outstanding transaction totals		
+906146	債務人帳齡分析	Debtor age analysis		
+906147	餘額	Balances		
+906148	餘額明細 1	Balances detail 1		
+906149	報告群組	Reporting groups		
+906150	每週期購買量 - 數量	Purchases per period - Quantities		
+906151	每週期購買量 - 金額	Purchases per period - Amount		
+906152	每週期購買量 - 債權人群組 1	Purchases per period - Creditor group 1		
+906153	每週期購買量 - 債權人群組 2	Purchases per period - Creditor group 2		
+906154	各期採購額 - 文件群組 1	Purchases per period - Document group 1		
+906155	發票 每週期 - 數量	Invoices per period - Quantities		
+906156	發票 每週期 - 金額	Invoices per period - Amount		
+906157	發票 每週期 - 債務人群組 1	Invoices per period - Debtor group 1		
+906158	發票 每週期 - 債務人群組 2	Invoices per period - Debtor group 2		
+906159	發票按期間劃分的文件群組 1	Invoices per period - Document group 1		
+906160	現金單據印表機	Cash slip printer		
+906161	帳戶文件明細	Document listing per account		
+906162	未列印文件清單	Unprinted document listing		
+906163	各期採購額 - 文件群組 2	Purchases per period - Document group 2		
+906164	每週期採購 - 銷售員	Purchases per period - Salesperson		
+906165	發票 按期間劃分的文件群組 2	Invoices per period - Document group 2		
+906166	發票 每週期 - 銷售員	Invoices per period - Salesperson		
+906167	圖表 - 每週債權人	Graph - Creditors per week		
+906168	圖表 - 每週債務人	Graph - Debtors per week		
+906169	圖表 - 每週損益	Graph - Profit / Loss per week		
+906170	圖表 - 每週發票 - 數量	Graph - Invoices per week - Quantities		
+906171	圖表 - 每週發票 - 金額	Graph - Invoices per week - Amount		
+906172	產品群組 1 的採購量	Purchases per product - Stock group 1		
+906173	產品群組 2 的採購量	Purchases per product - Stock group 2		
+906174	產品群組 2 的採購量	Sales per product - Stock group 1		
+906175	產品群組 1 的銷售額	Sales per product - Stock group 2		
+906176	產品群組 2 的銷售額	System user		
+906177	系統使用者	<@APPNAME@> user		
+906178	<@APPNAME@> 使用者	Stock in		
+906179	入庫	Stock out		
+906180	出庫	Open drawer		
+906181	打開錢箱	Delivery note (no codes)		
+906182	出貨單 （無代碼）	Delivery note (15 code)		
+906183	出貨單 (15 碼)	POS - STARTSP100		
+906184	POS - STARTSP100	POS 1		
+906185	POS 1	POS 2		
+906186	POS 2	POS A4		
+906187	POS A4	Default A4		
+906188	預設 A4	Default A4 (10 code)		
+906189	預設 A4 (10 代碼)	Default A4 (15 code)		
+906190	預設 A4 (15 代碼)	Invoice test		
+906191	發票測試	Invoice English (15 code)		
+906192	發票 English (15 碼)	Invoice Bank details (no codes)		
+906193	發票 銀行詳細資訊 (無代碼)	Invoice Bank details (15 code)		
+906194	發票 銀行詳細資訊 (15 碼)	Invoice (no codes)		
+906195	發票 （無代碼）	Credit note (no codes)		
+906196	貸項通知單 （無代碼）	Quote (no codes)		
+906197	報價（無代碼）	Purchase (no codes)		
+906198	購買（無代碼）	Supplier return (no codes)		
+906199	供應商退貨（無代碼）	Order (no codes)		
+906200	訂單（無代碼）	Invoice (10 code)		
+906201	發票 (10 代碼)	Credit note (10 code)		
+906202	貸項通知單(10 代碼)	Quote (10 code)		
+906203	報價 (10 代碼)	Purchase (10 code)		
+906204	購買(10 代碼)	Supplier return (10 code)		
+906205	供應商退貨 (10 代碼)	Order (10 code)		
+906206	訂單（10 代碼）	Invoice (15 code)		
+906207	發票 (15 代碼)	Credit note (15 code)		
+906208	貸項通知單(15 代碼)	Quote (15 code)		
+906209	報價 (15 代碼)	Purchase (15 code)		
+906210	購買（15 代碼）	Supplier return (15 code)		
+906211	供應商退貨 （15 代碼）	Order (15 code)		
+906212	訂單（15 代碼）	Invoice A4 (no codes)		
+906213	發票 A4（無代碼）	Credit note A4 (no codes)		
+906214	貸項通知單 A4 (無代碼)	Quote A4 (no codes)		
+906215	報價 A4 （無代碼）	Purchase A4 (no codes)		
+906216	購買 A4（無代碼）	Supplier return A4 (no codes)		
+906217	供應商退貨 A4（無代碼）	Order A4 (no codes)		
+906218	訂單 A4（無代碼）	Invoice A4 (10 code)		
+906219	發票 A4 (10 代碼)	Credit note A4 (10 code)		
+906220	貸項通知單 A4(10 代碼)	Quote A4 (10 code)		
+906221	報價 A4 (10 代碼)	Purchase A4 (10 code)		
+906222	購買 A4 (10 代碼)	Supplier return A4 (10 code)		
+906223	供應商退貨 A4 (10 代碼)	Order A4 (10 code)		
+906224	訂單 A4（10 代碼）	Invoice A4 (15 code)		
+906225	發票 A4（15 代碼）	Credit note A4 (15 code)		
+906226	貸項通知單 A4 (15 代碼)	Quote A4 (15 code)		
+906227	報價 A4（15 代碼）	Purchase A4 (15 code)		
+906228	購買 A4 (15 代碼)	Supplier return A4 (15 code)		
+906229	供應商退貨 A4（15 代碼）	Order A4 (15 code)		
+906230	訂單 A4（15 代碼）	Invoice A4 Plain (no codes)		
+906231	發票 A4 普通紙（無代碼）	Credit note A4 Plain (no codes)		
+906232	貸項通知單 A4 普通紙 (無代碼)	Quote A4 Plain (no codes)		
+906233	報價 A4 普通紙 (無代碼)	Purchase A4 Plain (no codes)		
+906234	購買 A4 普通紙 (無代碼)	Supplier return A4 Plain (no codes)		
+906235	供應商退貨 A4 普通紙 （無代碼）	Order A4 Plain (no codes)		
+906236	訂單 A4 普通紙（無代碼）	Invoice A4 Plain (10 code)		
+906237	發票 A4 普通紙 (10 代碼)	Credit note A4 Plain (10 code)		
+906238	貸項通知單 A4 普通紙 (10 代碼)	Quote A4 Plain (10 code)		
+906239	報價 A4 普通紙 (10 代碼)	Purchase A4 Plain (10 code)		
+906240	購買 A4 普通紙 (10 代碼)	Supplier return A4 Plain (10 code)		
+906241	供應商退貨 A4 普通紙 (10 代碼)	Order A4 Plain (10 code)		
+906242	訂單 A4 普通紙（10 代碼）	Invoice A4 Plain (15 code)		
+906243	發票 A4 普通紙 (15 代碼)	Credit note A4 Plain (15 code)		
+906244	貸項通知單 A4 普通紙 （15 代碼）	Quote A4 Plain (15 code)		
+906245	報價 A4 普通紙（15 代碼）	Purchase A4 Plain (15 code)		
+906246	購買 A4 普通紙 (15 代碼)	Supplier return A4 Plain (15 code)		
+906247	供應商退貨 A4 普通紙 （15 代碼）	Order A4 Plain (15 code)		
+906248	訂單 A4 普通紙（15 代碼）	Invoice No Tax (no codes)		
+906249	無稅發票 （無代碼）	Credit note No Tax (no codes)		
+906250	貸項通知單 無稅 （無代碼）	Quote No Tax (no codes)		
+906251	無稅報價 （無代碼）	Purchase No Tax (no codes)		
+906252	購買無稅 (無代碼)	Supplier return No Tax (no codes)		
+906253	供應商退貨 無稅 （無代碼）	Order No Tax (no codes)		
+906254	訂單無稅（無代碼）	Invoice No Tax (15 code)		
+906255	無稅發票（15 代碼）	Credit note No Tax (15 code)		
+906256	貸項通知單 無稅（15 代碼）	Quote No Tax (15 code)		
+906257	無稅報價 （15 代碼）	Purchase No Tax (15 code)		
+906258	購買無稅 (15 代碼)	Supplier return No Tax (15 code)		
+906259	供應商退貨 無稅 （15 代碼）	Order No Tax (15 code)		
+906260	訂單無稅（15 代碼）	Invoice Bank details (10 code)		
+906261	發票銀行詳細資訊 (10 代碼)	Invoice English (10 code)		
+906262	英文發票 (10 碼)	Invoice English (no codes)		
+906263	英文發票 （無代碼）	New report		
+906264	新報告	DOCUMENTS		
+906265	文件	Tax report		
+906266	加值稅納稅申報表	Posted Items - Outstanding		
+906267	已過帳項目 - 未結清	Unposted Items - Outstanding		
+906268	未過帳項目 - 未結清	Current stock levels		
+906269	目前庫存水準	The sum of		
+906270	總和	Amount outstanding		
+906271	未償金額	Original transaction amount		
+906272	付款給	Paid to		
+906273	付款編號	Payment number		
+906274	分期付款（待支付）	LAY-BUYS (to pay)		
+906275	已接受	accepted		
+906276	文件佈局（10 行代碼）	Document layout (10 code)		
+906277	文件佈局（15 行代碼）	Document layout (15 code)		
+906278	文件佈局（無代碼）	Document layout (no codes)		
+906279	供應商 1	Supplier 1		
+906280	總帳 和稅	Ledger and tax		
+906281	虛擬價格	Dummy price		
+906282	額外轉換為語言	Extra convert to languages		
+906283	活躍庫存	Active stock		
+906284	標記副本	Mark copy		
+906285	多群組複製	Multi-group copy		
+906286	報告總計	Report total		
+906287	借記交易	Debit transactions		
+906288	貸記交易	Credit transactions		
+906289	圖表 - 每週購買量 - 數量	Graph - Purchases per week - Quantities		
+906290	圖表 - 每週購買量 - 金額	Graph - Purchases per week - Amount		
+906291	貸項通知單 每期 - 債務人群組 1	Credit notes per period - Debtor group 1		
+906292	貸項通知單 每期 - 債務人群組 2	Credit notes per period - Debtor group 2		
+906293	貸項通知單 按期間劃分的文件群組 1	Credit notes per period - Document group 1		
+906294	貸項通知單 按期間劃分的文件群組 2	Credit notes per period - Document group 2		
+906295	貸項通知單 每期 - 銷售員	Credit notes per period - Salesperson		
+906296	供應商退貨 每期 - 債權人群組 1	Supplier returns per period - Creditor group 1		
+906297	供應商退貨 每期 - 債權人群組 2	Supplier returns per period - Creditor group 2		
+906298	供應商退貨 按期間劃分的文件群組 1	Supplier returns per period - Document group 1		
+906299	供應商退貨 按期間劃分的文件群組 2	Supplier returns per period - Document group 2		
+906300	供應商退貨 每期 - 銷售員	Supplier returns per period - Salesperson		
+906301	每期報價 - 債務人群組 1	Quotes per period - Debtor group 1		
+906302	每期報價 - 債務人群組 2	Quotes per period - Debtor group 2		
+906303	各期報價單 - 文件群組 1	Quotes per period - Document group 1		
+906304	各期報價單 - 文件群組 2	Quotes per period - Document group 2		
+906305	每期報價 - 銷售員	Quotes per period - Salesperson		
+906306	每期訂單 - 債權人群組 1	Orders per period - Creditor group 1		
+906307	每期訂單 - 債權人群組 2	Orders per period - Creditor group 2		
+906308	各期訂單 - 文件群組 1	Orders per period - Document group 1		
+906309	各期訂單 - 文件群組 2	Orders per period - Document group 2		
+906310	每期訂單 - 銷售人員	Orders per period - Salesperson		
+906311	貸項通知單 每期 - 數量	Credit notes per period - Quantities		
+906312	貸項通知單 每期 - 數量	Credit notes per period - Amount		
+906313	供應商退貨 每期 - 數量	Supplier returns per period - Quantities		
+906314	供應商退貨 每期 - 金額	Supplier returns per period - Amount		
+906315	每期報價 - 數量	Quotes per period - Quantities		
+906316	每期報價 - 金額	Quotes per period - Amount		
+906317	每期訂單 - 數量	Orders per period - Quantities		
+906318	每期訂單 - 金額	Orders per period - Amount		
+906319	圖表 - 每週貸方票據 - 數量	Graph - Credit notes per week - Quantities		
+906320	圖表 - 每週貸方票據 - 金額	Graph - Credit notes per week - Amount		
+906321	圖表 - 每週供應商退貨 - 數量	Graph - Supplier returns per week - Quantities		
+906322	圖表 - 每週供應商退貨 - 金額	Graph - Supplier returns per week - Amount		
+906323	圖表 - 每週報價 - 數量	Graph - Quotes per week - Quantities		
+906324	圖表 - 每週報價 - 金額	Graph - Quotes per week - Amount		
+906325	圖表 - 每週訂單 - 數量	Graph - Orders per week - Quantities		
+906326	圖表 - 每週訂單 - 金額	Graph - Orders per week - Amount		
+906327	按期間劃分的採購單 - 債權人群組 1	Purchase documents per period - Creditor group 1		
+906328	按期間劃分的採購單 - 債權人群組 2	Purchase documents per period - Creditor group 2		
+906329	各期採購單據 - 文件群組 1	Purchase documents per period - Document group 1		
+906330	各期採購單據 - 文件群組 2	Purchase documents per period - Document group 2		
+906331	按期間劃分的銷售員採購單	Purchase documents per period - Salesperson		
+906332	每期銷售 - 債務人群組 1	Sales per period - Debtor group 1		
+906333	每期銷售 - 債務人群組 2	Sales per period - Debtor group 2		
+906334	各期銷售額 - 文件群組 1	Sales per period - Document group 1		
+906335	各期銷售額 - 文件群組 2	Sales per period - Document group 2		
+906336	每期銷售 - 銷售員	Sales per period - Salesperson		
+906337	每期採購和供應商退貨	Purchases and supplier returns per period		
+906338	信用控制清單（信用額度與目前餘額對比）截至	Credit control listing (Credit limit vs current balance) as at 		
+906339	稅號和公司註冊號	Tax and company registration numbers		
+906440	交易清單	Transaction list		
+906441	實際	Actual		
+906442	預算與實現對比（三期）	Budget v/s realisation 3 periods		
+906443	參考號	Ref. no.		
+906444	資料完整性檢查報告	Data integrity check report		
+906445	日期／時間	Date / Time		
+906446	ID	ID		
+906447	未過帳付款	Unposted payments		
+906448	未過帳收據	Unposted receipts		
+906449	自動付款報表	Automatic payments report		
+906550	稅務報告 - 參考編號/文件編號	Tax report - Reference / Document no.		
+906551	債權人匯款通知 - 未結清	Creditor remittance advise - Outstanding		
+906552	債務人對帳單 - 未結清	Debtor statement - Outstanding		
+906553	債權人納稅清單（含稅號）	Tax list creditor with tax id		
+906554	過期批次	Outdated batch		
+906555	從供應商處購買的批次	Batch bought from supplier		
+906556	已售出批次給客戶	Batch sold to customer		
+906557	圖表	Graphs		
+906558	每週圖表	Graphs per week		
+906559	每月圖表	Graphs per month		
+906560	圖表 - 每月損益	Graph - Profit / Loss per month		
+906561	圖表 - 每月債務人	Graph - Debtors per month		
+906562	圖表 - 每月債權人	Graph - Creditors per month		
+906563	圖表 - 每月報價 - 數量	Graph - Quotes per month - Quantities		
+906564	圖表 - 每月報價 - 金額	Graph - Quotes per month - Amount		
+906565	圖表 - 每月貸項憑證 - 數量	Graph - Credit notes per month - Quantities		
+906566	圖表 - 每月貸項憑證 - 金額	Graph - Credit notes per month - Amount		
+906567	圖表 - 每月發票 - 數量	Graph - Invoices per month - Quantities		
+906568	圖表 - 每月發票 - 金額	Graph - Invoices per month - Amount		
+906569	圖表 - 每月發票 - 貸項憑證 - 數量	Graph - Invoices - Credit notes per month - Quantities		
+906570	圖表 - 每月發票 - 貸項憑證 - 金額	Graph - Invoices - Credit notes per month - Amount		
+906571	圖表 - 每月採購 - 供應商退貨 - 數量	Graph - Purchases - Supplier returns - month - Quantities		
+906572	圖表 - 每月採購 - 供應商退貨 - 金額	Graph - Purchases - Supplier returns - month - Amount		
+906573	圖表 - 每月訂單 - 金額	Graph - Orders per month - Amount		
+906574	圖表 - 每月訂單 - 數量	Graph - Orders per month - Quantities		
+906575	圖表 - 每月供應商退貨 - 金額	Graph - Supplier returns per month - Amount		
+906576	圖表 - 每月供應商退貨 - 數量	Graph - Supplier returns per month - Quantities		
+906577	圖表 - 每月購買 - 金額	Graph - Purchases per month - Amount		
+906578	圖表 - 每月購買 - 數量	Graph - Purchases per month - Quantities		
+906579	圖表 - 每月購買 - 數量	Graph - Invoices - Credit notes per week - Quantities		
+906580	圖表 - 每週發票 - 貸項憑證 - 金額	Graph - Invoices - Credit notes per week - Amount		
+906581	圖表 - 每週採購 - 供應商退貨 - 數量	Graph - Purchases - Supplier returns per week - Quantities		
+906582	圖表 - 每週採購 - 供應商退貨 - 金額	Graph - Purchases - Supplier returns per week - Amount		
+906583	稅碼 - 稅率	Tax codes - Tax rates		
+906584	生產清單	Production list		
+906585	庫存項目清單 - 活動庫存	Stock item list - Active stock		
+906586	庫存 - 預期數量	Stock - Expected quantities		
+906587	文件引用	Document reference		
+906588	庫存價值帳戶	Value stock account		
+906589	無稅佈局文件	NO-TAX Layout file		
+906590	無稅文檔佈局	NO-TAX Document layout		
+906591	無稅文檔佈局(15位代碼)	NO-TAX Document layout (15-code)		
+1000000	英文主文件 - 請勿翻譯	English Master File - Do Not Translate		
+1000001	歡迎使用 <@APPNAME@>	Welcome to <@APPNAME@>		
+1000002	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000003	*您的貨幣	*Your Currency		
+1000004	<@APPNAME@>	<@APPNAME@>		
+1000005	應付金額	Age analysis - Due report		
+1000006	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000007	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000008	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000009	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000011	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000012	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000013	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000014	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000015	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000016	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000017	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000018	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000019	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000020	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000021	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000022	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000023	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000024	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000025	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000026	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000027	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000028	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000029	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000030	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000031	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000032	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000033	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000034	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000035	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000036	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000037	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000038	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000039	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000040	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000041	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000042	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000043	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000044	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000045	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000046	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000054	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000055	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000056	未使用 ／ 請勿翻譯	Not used / Do not translate		
+1000057	未使用 ／ 請勿翻譯	Not used / Do not translate		
