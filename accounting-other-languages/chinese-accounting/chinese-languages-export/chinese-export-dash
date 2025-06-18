@@ -1,0 +1,257 @@
+﻿177	子账户	Sub-account
+191	电子邮件	E-mail
+276	显示子账户	Show sub-accounts
+462	子账户，无法删除！	Sub-account(s) and cannot be deleted!
+468	此账户仍然活跃！所有交易将被移动到新的子账户！您确定要创建子账户吗？'
+	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?
+493	此账户包含子账户！	This account contains sub-accounts!
+524	您不能转移到此账户！它有子账户！	You cannot transfer to this account! It has sub-accounts!
+596	无法发布到包含子账户的主账户！	Cannot post to main account containing Sub-accounts!
+638	您不能选择此账户，因为它包含子账户！	You cannot select this account because it contains sub-accounts!
+668	不能为包含子账户的账户设置预算！	Cannot have budgets for an account which has sub-accounts!
+696	无效的下一个号码！在设置 -> 文档设置中更改它！	Invalid next number! Change it in Setup -> Documents setup!
+711	运行设置 -> 批次类型并选择此批次的对方账户！	Run Setup -> Batch types and select contra account for this batch!
+724	网络设置信息不正确！运行设置->设置->网络。	Internet setup information is incorrect! Run Setup -> Setup -> Internet.
+742	您不能将此账户用作对方账户！它包含子账户	You cannot use this account as a contra account! It contains sub-accounts!
+744	该账套已存在！请重新输入	That Set of Books already exists! Please re-enter!
+746	请重新输入！	Please re-enter!
+803	不能对现有库存量不为零的商品进行入库！	Cannot take stock on for an item with a non-zero quantity on hand!
+822	您正在运行基于付款的方法，但找不到到期账户！请运行"设置->公司信息"！	You are running payment based method and the due account cannot be found! Please run Setup -> Company info!
+837	数据重建索引(&T)		Da&ta Re-index
+890	要启用，请转到设置->报表日期	To turn it on, go to Setup -> Reporting dates
+904	多磁盘账簿备份的	of the multi-disk Set of Books backup.
+917	账簿 - 备份过程被用户取消！	Set of Books - Backup process cancelled by user!
+966	此单据无法过账！请正确设置 - 销售、库存控制账户（和销售成本账户），然后再过账	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!
+989	自动选择	Auto-select
+1005	您要取消年终处理吗？	Do you want to cancel the year-end process?
+1017	<@APPNAME@>-2025 - Load logo	<@APPNAME@> - Load logo
+1029	重新运行(&R)	&Re-run
+1053	选择"设置" -> 您要更改的公司信息！	Select Setup -> Company info you want to change!
+1060	您的账簿集已损坏！请运行数据重建索引以重建关键值。	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1175	销售点登录	Point-of-Sale login
+1243	POS 现金盘点	Point-of-Sale cash-up check
+1254	电子邮件地址	E-mail address
+1265	T字账户查看	T-Account viewer
+1266	销售点	Point-of-Sale
+1300	重新生成键	Re-building keys
+1407	点阵打印机纸张设置	Dot-matrix printer paper setup
+1414	在设置 -> 访问控制中启用访问	Enable access in Setup -> Access control
+1714	销售点发票录入	Point-of-Sale invoice entry
+1757	报告设计器	Reverse batch (D<-->C)
+1759	销售点	Point-of-Sale
+1771	库存盘点	Stock take-on
+1900	用户电子邮件	User e-mail
+1928	无法将交易过账到具有子账户的账户！	Cannot post transactions to an account which has sub-accounts!
+1941	邮箱账户：	E-mail account :
+1951	<@APPNAME@>-2025 报告邮件发送者 %s 邮箱账户 %s	<@APPNAME@> Report mail sender %s e-mail account %s
+1952	未找到电子邮件服务器......	E-mail server not found...
+1954	邮件测试正在进行中......	E-mail test in progress...
+1957	邮件发送一般失败！	General e-mail failure!
+2043	税额	TAX-AMT
+2051	标示非税项	*Indicates non-TAX item
+2102	打印时自动过账	Auto-post documents on print
+2112	电子邮件备份	E-mail backup
+2159	销售分析 - 每个客户的销售	Sales analysis - Sales per customer
+2163	销售分析 - 每个供应商的采购	Sales analysis - Purchases per supplier
+2200	销售点	Point-of-Sale
+2342	Task list -	Task list -
+2387	Email	E-mail
+2832	参数实体文本必须正确嵌套：	Parameter-entity text must be properly nested:
+2837	"无效（大端）UTF-16字符编码！	Invalid (big-endian) UTF-16 character encoding!
+2838	无效（小端）UTF-16字符编码！	Invalid (little-endian) UTF-16 character encoding!
+2839	Badly formed UTF-8 character in stream!	Badly formed UTF-8 character in stream!
+2841	无法转换 UCS-4 character to ISO-8859-1!	Cannot convert UCS-4 character to ISO-8859-1!
+2842	无法转换UCS-4 character to UTF-16!	Cannot convert UCS-4 character to UTF-16!
+2843	无法转换 UCS-4 character to UTF-8!	Cannot convert UCS-4 character to UTF-8!
+2914	+/-  用于信用	+/-  for Debit/Credit
+2927	自动复制信息	Auto-copy info
+2988	Cash-up report	Cash-up report
+3018	警告 - 此报表包含未过账批次！	Warning - This report contains unposted batches!
+3033	自动别名	Auto-alias
+3060	子账户	Sub-accounts
+3100	您正在尝试连接到远程数据库！此版本默认不支持该功能！请访问 https://www.turbocash.net  联系我们以支持该项目并获取多用户许可证！	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!
+3113	https://www.<@APPNAME@>.net	https://www.osfinancials.org/en/forum-en?view=category&catid=8
+3114	https://www.<@APPNAME@>.org/en/forum-en	https://www.osfinancials.org/en/forum-en
+3116	https://www.reddit.com/r/Turbocash/	https://www.osfinancials.org/en/forum-en?view=category&catid=8 
+3125	启动时自动打开 <@APPNAME@>	Auto-open when starting <@APPNAME@>
+3131	订货点 - 您的商品将补货至该数量！	Reorder level - your items will be reordered until this quantity!
+3136	多组	Multi-group
+3153	如果您安装了 OpenOffice，您可以双击此文本字段以将其编辑为 HTML！	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!
+3156	双击以进入选项列表	Double-click to enter the option list.
+3173	发送电子邮件	Send e-mail
+3177	已签名的电子邮件	E-mail signed document
+3182	在浏览器中打开电子商务订单 	Open e-Commerce order in browser
+3183	在浏览器中打开电子商务客户	Open e-Commerce customer in browser
+3197	期初余额 - 本年度 	Opening balance - This year
+3219	可以通过文档列表中的上下文菜单发送电子邮件。	E-mail can be sent via the context menu in the Document list.
+3226	Test e-mail	Test e-mail
+3227	发送电子邮件	Send e-mail(s)
+3228	Resume e-mail(s)	Resume e-mail(s)
+3229	停止电子邮件	Stop e-mail(s)
+3236	Return e-mail	Return e-mail
+3238	E-mail header text	E-mail header text
+3248	Test E-mail to Extra CC	Test E-mail to Extra CC
+3252	发送电子邮件	Send E-mail
+3253	未找到额外抄送！请在该按钮下方的文本框中输入电子邮件地址！	No extra CC found! Please enter an e-mail address in text box below this button!
+3258	Setup E-mail Pro	Setup E-mail Pro
+3259	E-mail Pro	E-mail Pro
+3310	-快速关闭	-Close fast add
+3325	<- Set selected to this price	<- Set selected to this price
+3383	E-commerce	E-commerce
+3394	文档电子邮件专业版	Document E-mail Pro
+3398	位置 - 序列号  批次	Location-Serials-Batches
+3414	多用户议程	Multi-user Agenda
+3442	重置密码（将新密码发送到您的电子邮件）	Reset password (E-mail new password to you)
+3478	Sync E-mail	Sync E-mail
+3479	邮件链接	E-mail link
+3505	Write-off type	Write-off type
+3506	Write-off period	Write-off period
+3508	剩余金额	Rest-amount
+3509	Write-off percentage	Write-off percentage
+3510	Next write-off amount	Next write-off amount
+3511	Total write-off on ledger	Total write-off on ledger
+3527	E-mail filter	E-mail filter
+3528	E-mail selected	E-mail selected
+3596	Follow-up	Follow-up
+3726	OK -> Next	OK -> Next
+20018	组合框 - 采用量子网格作为下拉控件的高级查找控件	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!
+20078	该版本仅有效至 1-3-2005，更多信息请访问 https://www.<@APPNAME@>.net	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/
+21234	缩放-	Zoom-
+22231	将报告发送到电子邮件目的地	Sends the reports to a e-mail destination
+902008	价格表 - 大型零售 - 销售	Price list - Large retail - Sales
+902009	价格表 - 大型零售 - 采购	Price list - Large retail - Purchases
+903111	舍入分	Round-off cents
+903133	合并已结年度 - 单据和库存	Consolidate closed years - documents and stock
+903140	更正子账户	Correct sub-accounts
+903151	自动链接所有零债务人	Auto-link all zero debtors
+906023	报告结束	- End of report -
+906035	债务人 - 价格协议	Debtor - Price agreement
+906047	"联系人列表 - 债务人	Contact list - Debtors
+906048	联系人列表 - 债权人	Contact list - Creditors
+906049	联系人列表 - 全部	Contact list - All
+906052	登录	Log-on
+906053	注销	Log-off
+906060	联系人列表 - 主要	Contact list - Main
+906061	交易列表 - 未结项	Transaction list - Open item
+906076	比较期间 - 债务人	Compare period - Debtors
+906077	比较期间 - 债权人	Compare period - Creditors
+906078	比较期间 - 损益	Compare period - Profit / Loss
+906079	多年	Multi-year
+906086	控制报告 - 每个对抵账户的已处理交易	Control report - Processed transactions per contra account
+906088	债权人 - 价格协议	Creditor - Price agreement
+906106	应收款交易 - 标准	Debtor transactions - Standard
+906107	债务人交易 - 额外详情	Debtor transactions - Extra details
+906108	应付款交易 - 标准	Creditor transactions - Standard
+906109	债权人交易 - 额外详情	Creditor transactions - Extra details
+906110	标准交易	General ledger transactions - Standard
+906111	总账交易 - 额外详情	General ledger transactions - Extra details
+906150	每周期购买量 - 数量	Purchases per period - Quantities
+906151	每周期购买量 - 金额	Purchases per period - Amount
+906152	每周期购买量 - 债权人组 1	Purchases per period - Creditor group 1
+906153	每周期购买量 - 债权人组 2	Purchases per period - Creditor group 2
+906154	各期采购额 - 单据组 1 	Purchases per period - Document group 1
+906155	发票 每周期 - 数量	Invoices per period - Quantities
+906156	发票 每周期 - 金额	Invoices per period - Amount
+906157	发票 p每周期 - 债务人组 1	Invoices per period - Debtor group 1
+906158	发票 p每周期 - 债务人组 2	Invoices per period - Debtor group 2
+906159	发票按期间划分的文档组 1	Invoices per period - Document group 1
+906163	各期采购额 - 单据组 2	Purchases per period - Document group 2
+906164	每周期采购 - 销售员	Purchases per period - Salesperson
+906165	发票 按期间划分的文档组 2	Invoices per period - Document group 2
+906166	发票 每周期 - 销售员	Invoices per period - Salesperson
+906167	图表 - 每周债权人	Graph - Creditors per week
+906168	图表 - 每周债务人	Graph - Debtors per week
+906169	图表 - 每周盈亏	Graph - Profit / Loss per week
+906170	图表 - 每周发票 - 数量	Graph - Invoices per week - Quantities
+906171	图表 - 每周发票 - 金额	Graph - Invoices per week - Amount
+906172	产品组 1 的采购量	Purchases per product - Stock group 1
+906173	产品组 2 的采购量	Purchases per product - Stock group 2
+906174	产品组 1 的销售额	Sales per product - Stock group 1
+906175	产品组 2 的销售额	Sales per product - Stock group 2
+906183	POS - STARTSP100	POS - STARTSP100
+906266	已过账项目 - 未结清	Posted Items - Outstanding
+906267	未过账项目 - 未结清 	Unposted Items - Outstanding
+906274	分期付款（待支付）	LAY-BUYS (to pay)
+906285	多组复制	Multi-group copy
+906289	图表 - 每周购买量 - 数量	Graph - Purchases per week - Quantities
+906290	图表 - 每周购买量 - 金额	Graph - Purchases per week - Amount
+906291	贷项通知单 每期 - 债务人组 1	Credit notes per period - Debtor group 1
+906292	贷项通知单每期 - 债务人组 2	Credit notes per period - Debtor group 2
+906293	贷项通知单 按期间划分的文档组1	Credit notes per period - Document group 1
+906294	贷项通知单按期间划分的文档组 2	Credit notes per period - Document group 2
+906295	贷项通知单每期 - 销售员	Credit notes per period - Salesperson
+906296	供应商退货每期 - 债权人组 1	Supplier returns per period - Creditor group 1
+906297	供应商退货每期 - 债权人组 2	Supplier returns per period - Creditor group 2
+906298	供应商退货 按期间划分的文档组 1	Supplier returns per period - Document group 1
+906299	供应商退货 按期间划分的文档组 2	Supplier returns per period - Document group 2
+906300	供应商退货 每期 - 销售员	Supplier returns per period - Salesperson
+906301	每期报价 - 债务人组 1	Quotes per period - Debtor group 1
+906302	每期报价 - 债务人组 2	Quotes per period - Debtor group 2
+906303	各期报价单 - 单据组 1	Quotes per period - Document group 1
+906304	各期报价单 - 单据组 2	Quotes per period - Document group 2
+906305	每期报价 - 销售员	Quotes per period - Salesperson
+906306	每期订单 - 贷方组1	Orders per period - Creditor group 1
+906307	每期订单 - 贷方组2	Orders per period - Creditor group 2
+906308	各期订单 - 单据组 1	Orders per period - Document group 1
+906309	各期订单 - 单据组 2	Orders per period - Document group 2
+906310	每期订单 - 销售人员	Orders per period - Salesperson
+906311	贷项通知单每期 - 数量	Credit notes per period - Quantities
+906312	贷项通知单 每期 - 金额	Credit notes per period - Amount
+906313	供应商退货 每期 - 数量	Supplier returns per period - Quantities
+906314	供应商退货每期 - 金额	Supplier returns per period - Amount
+906315	每期报价 - 数量	Quotes per period - Quantities
+906316	每期报价 - 金额	Quotes per period - Amount
+906317	每期订单 - 数量	Orders per period - Quantities
+906318	每期订单 - 金额	Orders per period - Amount
+906319	图表 - 每周贷方票据 - 数量	Graph - Credit notes per week - Quantities
+906320	图表 - 每周贷方票据 - 金额	Graph - Credit notes per week - Amount
+906321	图表 - 每周供应商退货 - 数量	Graph - Supplier returns per week - Quantities
+906322	图表 - 每周供应商退货 - 金额	Graph - Supplier returns per week - Amount
+906323	图表 - 每周报价 - 数量	Graph - Quotes per week - Quantities
+906324	图表 - 每周报价 - 金额	Graph - Quotes per week - Amount
+906325	图表 - 每周订单 - 数量	Graph - Orders per week - Quantities
+906326	图表 - 每周订单 - 金额	Graph - Orders per week - Amount
+906327	按期间划分的采购单 - 债权人组 1	Purchase documents per period - Creditor group 1
+906328	按期间划分的采购单 - 债权人组 2	Purchase documents per period - Creditor group 2
+906329	各期采购单据 - 单据组 1	Purchase documents per period - Document group 1
+906330	各期采购单据 - 单据组 2	Purchase documents per period - Document group 2
+906331	按期间划分的销售员采购单	Purchase documents per period - Salesperson
+906332	每期销售 - 债务人组 1	Sales per period - Debtor group 1
+906333	每期销售 - 债务人组 2	Sales per period - Debtor group 2
+906334	各期销售额 - 单据组 1	Sales per period - Document group 1
+906335	各期销售额 - 单据组 2	Sales per period - Document group 2
+906336	图表 - 每月收入 - 数量	Sales per period - Salesperson
+906550	税务报告 - 参考编号/文件编号	Tax report - Reference / Document no.
+906551	债权人汇款通知 - 未结清	Creditor remittance advise - Outstanding
+906552	未结项目交易总额	Debtor statement - Outstanding
+906560	图表 - 每月利润/亏损	Graph - Profit / Loss per month
+906561	 图表 - 每月债务人	Graph - Debtors per month
+906562	 图表 - 每月报价 - 数量	Graph - Creditors per month
+906563	图表 - 每月报价 - 数量	Graph - Quotes per month - Quantities
+906564	图表 - 每月报价 - 金额	Graph - Quotes per month - Amount
+906565	图表 - 每月信用票据 - 数量	Graph - Credit notes per month - Quantities
+906566	图表 - 每月信用票据 - 金额	Graph - Credit notes per month - Amount
+906567	图表 - 每月发票 - 数量	Graph - Invoices per month - Quantities
+906568	图表 - 每月发票 - 金额	Graph - Invoices per month - Amount
+906569	图表 - 每月发票 - 信用票据 - 数量	Graph - Invoices - Credit notes per month - Quantities
+906570	图表 - 每月发票 - 信用票据 - 金额	Graph - Invoices - Credit notes per month - Amount
+906571	图表 - 每月付款 - 数量	Graph - Purchases - Supplier returns - month - Quantities
+906572	图表 - 每月付款 - 金额	Graph - Purchases - Supplier returns - month - Amount
+906573	图表 - 每月收款 - 数量	Graph - Orders per month - Amount
+906574	图表 - 每月收款 - 金额	Graph - Orders per month - Quantities
+906575	图表 - 每月支出 - 数量	Graph - Supplier returns per month - Amount
+906576	图表 - 每月支出 - 金额	Graph - Supplier returns per month - Quantities
+906577	图表 - 每月收入 - 数量	Graph - Purchases per month - Amount
+906578	图表 - 每月收入 - 金额	Graph - Purchases per month - Quantities
+906579	图表 - 每月利润 - 数量	Graph - Invoices - Credit notes per week - Quantities
+906580	图表 - 每月利润 - 金额	Graph - Invoices - Credit notes per week - Amount
+906581	图表 - 每月支出 - 数量	Graph - Purchases - Supplier returns per week - Quantities
+906582	图表 - 每月支出 - 金额	Graph - Purchases - Supplier returns per week - Amount
+906583	税码 - 税率	Tax codes - Tax rates
+906585	库存项目列表 - 活动库存	Stock item list - Active stock
+906586	库存 - 预期数量	Stock - Expected quantities
+906589	无税布局文件	NO-TAX Layout file
+906590	无税文档布局	NO-TAX Document layout
+906591	无税文档布局(15位代码)	NO-TAX Document layout (15-code)
+1000000	英文主文件 - 请勿翻译	English Master File - Do Not Translate
+1000005	应付金额	Age analysis - Due report
