@@ -13888,7 +13888,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3441
-      Text = 'Skypenaam'
+      Text = 'Teams naam'
     end
     item
       IndexID = 3442
