@@ -4826,12 +4826,12 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1161
-      Text = 'Search stopped, limit reached!'
+      Text = 'Search stopped! Limit reached!'
     end
     item
       IndexID = 1162
       Text = 
-        'Today'#39's date is beyond your financial period, you should run you' +
+        'Today'#39's date is beyond your financial period. You should run you' +
         'r year end to process to this date!'
     end
     item
@@ -6939,7 +6939,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20123
-      Text = 'Filter (*.flt)|*.flt'
+      Text = 'Filter (*.flt)'
     end
     item
       IndexID = 20122
@@ -6991,7 +6991,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20005
-      Text = 'Filter is empty>'
+      Text = 'Filter is <empty>'
     end
     item
       IndexID = 20004
@@ -7423,7 +7423,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20103
-      Text = 'Containts the folowing conditions'
+      Text = 'Contains the following conditions'
     end
     item
       IndexID = 20102
@@ -8215,7 +8215,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2172
-      Text = 'Generate Balance BF options'
+      Text = 'Generate Balance B/F options'
     end
     item
       IndexID = 2171
@@ -9251,7 +9251,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2430
-      Text = ' Days overdue'
+      Text = 'Days overdue'
     end
     item
       IndexID = 2429
@@ -10403,7 +10403,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3002
-      Text = 'Creating directory'
+      Text = 'Creating directory...'
     end
     item
       IndexID = 3001
@@ -10631,7 +10631,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3073
-      Text = 'Group still has nested groups remove them first!'
+      Text = 'Group still has nesteled groups! Remove them first!'
     end
     item
       IndexID = 3074
@@ -12283,8 +12283,8 @@ object TTranslationSaveObject
       Text = 
         'Bank import extra link functions. Enter bank account for exact m' +
         'atch on account. Enter text with a # prefix to look inside an im' +
-        'ported'#13#10'bank line to see if the text is in that string. Text wil' +
-        'l be searched in the uppercase.'
+        'ported bank line to see if the text is in that string. Text will' +
+        ' be searched in the uppercase.'
     end
     item
       IndexID = 3277
@@ -14003,7 +14003,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3441
-      Text = 'Skype name'
+      Text = 'Teams name'
     end
     item
       IndexID = 3442
@@ -14813,7 +14813,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21053
-      Text = 'Print the report, you can select pages to print.'
+      Text = 'Print the report. You can select pages to print.'
     end
     item
       IndexID = 21046
@@ -15065,7 +15065,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21842
-      Text = 'Maxmized'
+      Text = 'Maximized'
     end
     item
       IndexID = 21843
@@ -15385,7 +15385,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21075
-      Text = 'Uses kylix print bugfix (use metaprint to print metafiles)'
+      Text = 'Uses Kylix print bugfix (use metaprint to print metafiles)'
     end
     item
       IndexID = 21076
@@ -15417,7 +15417,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21083
-      Text = 'Inserts a expression'
+      Text = 'Inserts an expression'
     end
     item
       IndexID = 21084
@@ -15425,7 +15425,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21085
-      Text = 'Inserts a image'
+      Text = 'Inserts an image'
     end
     item
       IndexID = 21086
@@ -15483,7 +15483,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21124
-      Text = 'Insert a group header an footer'
+      Text = 'Insert a group header and footer'
     end
     item
       IndexID = 21125
@@ -16403,8 +16403,8 @@ object TTranslationSaveObject
       IndexID = 3711
       Text = 
         'This action will close <@APPNAME@> and install version %s we rec' +
-        'ommend you make a backup of the whole folder of <@APPNAME@>.'#13#10'Do' +
-        ' you wish to continue?'
+        'ommend you make a backup of the whole folder of <@APPNAME@>. Do ' +
+        'you wish to continue?'
     end
     item
       IndexID = 3712

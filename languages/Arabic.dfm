@@ -12531,7 +12531,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3441
-      Text = #1575#1587#1605' Skype'
+      Text = #1575#1587#1605' Teams'
     end
     item
       IndexID = 3442
