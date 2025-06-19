@@ -6810,7 +6810,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20123
-      Text = '*.flt '
+      Text = #31721#36984'(*.flt)|*.flt'
     end
     item
       IndexID = 20122

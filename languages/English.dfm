@@ -6939,7 +6939,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20123
-      Text = 'Filter (*.flt)'
+      Text = 'Filter (*.flt)|*.flt'
     end
     item
       IndexID = 20122
