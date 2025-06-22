@@ -1,0 +1,78 @@
+﻿43	&Asiento Contable	&Journal entry
+55	&Tipo de Asiento	&Journal entry
+92	&Tipos de Asientos	&Journal types
+164	Asiento Contable	Journal entry
+241	Tipo de Asiento	Journal type
+261	Opciones de Informe - Tipo de Asiento	Journal type report options
+298	Asiento Contable	Journal entry
+322	Diario de Facturas	Invoice journal
+327	Diario de Notas de Crédito	Credit note journal
+331	Diario de Compras	Purchase journal
+335	Diario de Devoluciones de Proveedores	Supplier return journal
+349	Diario de Coste de Ventas	Cost of sales journal
+366	Asiento Contable	Journal entry
+427	¡Hay asientos sin registrar asociados a este usuario! ¡Regístrelos o elimínelos antes de borrar este usuario!	There are unposted journals associated with this user! Please post or delete them before deleting this user.
+428	¡Hay asientos asociados a este usuario! ¡Seleccione un nuevo usuario para asignar estos asientos!	There are journals associated with this user! Please select a new user to assign these journals to.
+439	¡El asiento no está balanceado!	Journal is not in balance!
+442	¡No puede eliminar este tipo de asiento porque tiene transacciones asociadas!	Cannot delete this journal type! It has journals associated with it!
+443	¡Editar tipos de asiento afectará gravemente su Empresa! ¿Está seguro de hacerlo?	Editing journal types will seriously affect your Set of Books! Are you sure you want to do this?
+531	asientos sin registrar y	Unposted journals and
+532	asientos sin registrar	Unposted journals
+590	¡Este diario no valida!	This journal does not validate!
+594	¡El diario contiene la fijación de transacciones para durar el año!	Journal contains transactions posting to last year!
+611	Balance Diario	Balance journal
+613	Borrar Diario	Erase journal
+615	Lista de Diario	List journal
+616	Postear Diario	Post journal
+620	Procesando el diario	Process the journal
+621	¿Esta seguro que desea borrar esta entrada de diario?	Are you sure you want to erase this entire journal?
+622	Opciones para este diario	Options for this journal
+665	¡Has cambiado los diarios del pago y del recibo! ¡Esto corromperá tu reconciliación! ¿Deseas continuar?	You have changed payment and receipt journal! This will corrupt your recon! Do you wish to continue?
+679	¡No puede tener el mismo tipo de Diario de Pagos que para otra Cuenta bancario!	Cannot have the same payments journal type as for another bank account!
+683	¡No puede tener el mismo Tipo de Diario de Recibo que para otra Cuenta bancario!	Cannot have the same receipt journal type as for another bank account!
+711	¡Ejecute Configuración y seleccione Contra Cuenta para este asiento!	Run Setup -> Journal types and select contra account for this journal!
+815	¡Sus asientos de pago y recibo no están correctamente enlazados a esta cuenta bancaria!	Your payment and receipt journals are not linked correctly to this bank account!
+827	Desde Asiento	From journal
+884	Asientos y Documentos Pendientes	Outstanding journals and documents
+1007	¡Esto afectará gravemente su Empresa! ¿Está seguro de eliminar este Tipo de Asiento?	This will seriously affect your Set of Books! Are you sure you want delete this journal type?
+1071	Asientos	Journals
+1074	&Actualizar Asientos	Update journals
+1194	Detalles de Entrada de Asiento	Journal entry details
+1199	Informe Detallado de Tipo de Asiento	Journal type details report
+1376	Entrada de Asiento de Ventas	Sales journal entry
+1377	Entrada de Asiento de Recibos	Receipts journal entry
+1413	¡El usuario no puede usar este diario!	User cannot use this journal!
+1756	Cambiar alias (nombre de lote)	Change alias (journal name)
+1757	Lote inverso (D<-->C)	Reverse journal (D<-->C)
+1758	Importación de lotes registrados	Posted journal import
+1823	¿Desea cambiar sus tipos de lote?	Journal types setup
+1854	Borrando información de lotes...	Clearing journal information...
+1867	Nombre del lote	Journal name
+1903	Acceso a lotes	Journals access
+1926	¡Los lotes de la cuenta bancaria no están configurados correctamente!	Bank account journals not setup correctly!
+1983	Lote sin elementos abiertos	Not open item journal
+1996	Comprobando entradas de lote...	Checking journal entries ...
+2003	Lotes registrados	Posted journal
+2084	Invertir lote/documento registrado	Reverse posted journal/document
+2085	Alias (nombre de lote)	Alias (journal name)
+2086	Invertir lote registrado	Reverse posted journal
+2190	Cada lote por separado	Each journal separately
+2925	No calcular lotes	Do not calculate journal
+2999	Lotes abiertos	Open journals
+3018	Advertencia - ¡Este informe contiene lotes no registrados!	Warning - This report contains unposted journals!
+3049	Importar lote registrado	Import a posted journal
+3336	Siguiente número de lote	Next journal no.
+3398	Ubicación-Series-Lotes	Location-Serials-Batches
+3683	Lote	Journal
+20060	Número de diario	Journal no.
+903106	Limpiar lote	Cleanup journal
+906074	Lote	Journal
+906082	ID de tipo de lote	Journal type id
+906098	Informe de tipos de lote	Journal type report
+906099	ID de lote	Journal id
+906100	Lote contabilizado	Posted journal
+906101	Lote no contabilizado	Unposted journal
+906141	Transacciones por lote y período	Journal transactions per period
+906554	Lote obsoleto	Outdated batch
+906555	Lote comprado a proveedor	Batch bought from supplier
+906556	Lote vendido a cliente	Batch sold to customer
