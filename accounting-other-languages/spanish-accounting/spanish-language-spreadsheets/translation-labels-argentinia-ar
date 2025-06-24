@@ -20,107 +20,107 @@
 21	&Salir de <@APPNAME@>	&Exit <@APPNAME@>		
 22	&Cuentas	&Accounts		
 23	&Presupuestos	&Budgets		
-24	&Suprimir	&Delete		
+24	&Eliminar	&Delete		
 25	&Entradas Recurrentes	&Repeating transactions		
 26	&Facturas Recurrentes	Repeating &invoices		
 27	&Artículos de Inventario	&Stock items		
-28	Reportes del Usuario	&User reports		
-29	Cuenta de Banco	Bank account		
-30	Acreedor / Proveedor	Creditors		
-31	Deudor / Cliente	Debtors		
+28	&Reportes del Usuario	&User reports		
+29	Cuenta Bancaria	Bank account		
+30	Proveedores	Creditors		
+31	Clientes	Debtors		
 32	Mayor General	General ledger		
-33	Cuenta de Impuesto	Tax account		
+33	Cuenta de Impuestos	Tax account		
 34	Cuenta	Account		
 35	Reporte del Usuario	User report		
-36	Order confirmation	Order confirmation		
+36	Confirmación de Pedido	Order confirmation		
 37	Artículos de Inventario	Stock item		
 38	Documentos	Documents		
-39	Suprimir Facturas	Delete invoices		
-40	Suprimir Compras	Delete purchases		
-41	Suprimir Proveedor Devoluciones	Delete supplier returns		
-42	&Ajuste Inventario	&Adjust stock		
-43	&Entrada de Diario	&Batch entry		
-44	&Reconciliar el Banco	&Reconcile bank		
+39	Eliminar Facturas	Delete invoices		
+40	Eliminar Compras	Delete purchases		
+41	Eliminar Devoluciones a Proveedores	Delete supplier returns		
+42	&Ajuste de Inventario	&Adjust stock		
+43	&Asiento de Diario	&Batch entry		
+44	&Conciliar Banco	&Reconcile bank		
 45	&Listados de Documentos	&Documents listing		
-46	Postear Entradas al Mayor	Input post to ledger		
+46	Contabilizar Asientos	Input post to ledger		
 47	&Notas de Crédito	&Credit notes		
 48	&Facturas	&Invoices		
 49	&Compras	&Purchases		
-50	Proveedor &Devuelve	Supplier &returns		
-51	&Entrar	&Enter		
+50	&Devoluciones a Proveedores	Supplier &returns		
+51	&Ingresar	&Enter		
 52	&Imprimir	&Print		
 53	&Actualizar Mayor	&Update ledger		
-54	Imprimir &Notas de Entrega	Print &delivery notes		
-55	&Tipo de Diario	&Batch type		
-56	&Acreedor / Proveedor	&Creditor		
-57	&Deudor / Cliente	&Debtor		
+54	Imprimir &Remitos	Print &delivery notes		
+55	&Tipo de Asiento	&Batch type		
+56	&Proveedor	&Creditor		
+57	&Cliente	&Debtor		
 58	&Mayor General	&General ledger		
-59	&Reconciliación	&Reconciliation		
+59	&Conciliación	&Reconciliation		
 60	&Facturas	&Invoices		
 61	&Compras	&Purchases		
 62	&Inventario	&Stock		
-63	&Impuesto	&Tax		
-64	Reportes del Usuario	&User reports		
-65	&Análisis de Vencimiento	&Age analysis		
+63	&Impuestos	&Tax		
+64	&Reportes del Usuario	&User reports		
+65	&Análisis de Vencimientos	&Age analysis		
 66	&Listado	&Listing		
 67	&Movimientos	&Movements		
 68	&Imprimir Etiquetas	&Print labels		
-69	&Consejos de Remesa	&Remittance advises		
+69	&Avisos de Remesa	&Remittance advises		
 70	&Transacciones	&Transactions		
-71	&Estados de Cuentas	&Statements		
+71	&Estados de Cuenta	&Statements		
 72	Ejecución de &Presupuesto	&Budget performance		
-73	&Plan Contable	&Chart of accounts		
+73	&Plan de Cuentas	&Chart of accounts		
 74	Transacciones	Transactions		
-75	&Balance de Comprobaci	&Trial balance		
-76	&Listado de Pedido Trasero	&Backorder listing		
-77	&Listado de Notas de Credito	&Credit note listing		
+75	&Balance de Sumas y Saldos	&Trial balance		
+76	&Listado de Pedidos Pendientes	&Backorder listing		
+77	&Listado de Notas de Crédito	&Credit note listing		
 78	&Listado de Facturas	&Invoice listing		
 79	Listado de &Compras	&Purchases listing		
 80	&Listado de &Devoluciones	&Returns listing		
 81	&Actividades	&Activity		
-82	Sumario de &Movimientos	&Movement summary		
-83	Reporte de Repedido	&Reorder report		
-84	&Listado de Artículo de Inventario	&Stock item listing		
+82	Resumen de &Movimientos	&Movement summary		
+83	Reporte de Reposición	&Reorder report		
+84	&Listado de Artículos de Inventario	&Stock item listing		
 85	Análisis de Ventas	Sales analysis		
 86	&Facturas Detalladas	&Invoiced details		
-87	Sumario de &Facturas	&Invoiced summary		
-88	&Recibos / Pagós Detallados	&Received / paid details		
-89	Sumario de Recibos / &Pagós	Received / &paid summary		
+87	Resumen de &Facturas	&Invoiced summary		
+88	&Recibos/Pagos Detallados	&Received / paid details		
+89	Resumen de Recibos/&Pagos	Received / &paid summary		
 90	Control de &Acceso	&Access control		
-91	Camino De &Respaldo	Backup &path		
-92	&Tipos de Diario	&Batch types		
-93	&Informe Compañia	Company &info		
+91	Ruta de &Respaldo	Backup &path		
+92	&Tipos de Asiento	&Batch types		
+93	&Informe de Empresa	Company &info		
 94	&Colores	&Colours		
-95	Defina &Etiquetas	Define &labels		
+95	Definir &Etiquetas	Define &labels		
 96	Proforma	Proforma		
 97	&Grupos	&Groups		
 98	&Documentos	&Documents		
 99	&Impresora	&Printer		
-100	&Fechas de Reportaje	&Reporting dates		
+100	&Fechas de Reporte	&Reporting dates		
 101	&Vendedores	Sales&person		
-102	&Estados de Cuentas	&Statements		
+102	&Estados de Cuenta	&Statements		
 103	Información de Inventario	Stock information		
-104	&Respaldo / Restaurar Compañias	&Backup / Restore Set of Books		
+104	&Respaldo/Restaurar Empresas	&Backup / Restore Set of Books		
 105	&Calculadora	&Calculator		
 106	Verificar Integridad de &Datos	Data integrity check		
 107	&Exportar	&Export		
 108	Procesos &Globales	&Global processes		
 109	&Importar	&Import		
-110	&Item Abierto Reenlazar	&Open item relink		
-111	&Restaurar del Respaldo	&Restore from backup		
-112	&Ver	&Viewer		
-113	&Apoyo	&Support		
-114	&Claro / Reinicializar	&Clear / Reset		
-115	&Fin de Año	&Do year end		
-116	&Reconciliar	&Reconcile		
-117	&Transferencia de Transacciones	&Transfer transactions		
-118	No Reconciliar	Unreconcile		
+110	&Reenlazar Ítems Abiertos	&Open item relink		
+111	&Restaurar desde Respaldo	&Restore from backup		
+112	&Visor	&Viewer		
+113	&Soporte	&Support		
+114	&Limpiar/Reiniciar	&Clear / Reset		
+115	&Cierre de Ejercicio	&Do year end		
+116	&Conciliar	&Reconcile		
+117	&Transferir Transacciones	&Transfer transactions		
+118	Desconciliar	Unreconcile		
 119	Acerca de <@APPNAME@>	About <@APPNAME@>		
 120	Archivo	File		
 121	Editar	Edit		
-122	E&ntrada	Input		
+122	&Entrada	Input		
 123	Reportes	Reports		
-124	Configurar	Setup		
+124	Configuración	Setup		
 125	&Herramientas	Tools		
 126	&Ayuda	Help		
 127	Uno	One		
@@ -132,13 +132,13 @@
 133	Siete	Seven		
 134	Ocho	Eight		
 135	Nueve	Nine		
-136	Dies	Ten		
+136	Diez	Ten		
 137	Once	Eleven		
 138	Doce	Twelve		
 139	Trece	Thirteen		
 140	Catorce	Fourteen		
 141	Quince	Fifteen		
-142	Dieciseis	Sixteen		
+142	Dieciséis	Sixteen		
 143	Diecisiete	Seventeen		
 144	Dieciocho	Eighteen		
 145	Diecinueve	Nineteen		
@@ -150,219 +150,219 @@
 151	Setenta	Seventy		
 152	Ochenta	Eighty		
 153	Noventa	Ninety		
-154	Ciento	Hundred		
+154	Cien	Hundred		
 155	Mil	Thousand		
 156	Millones	Million		
 157	Peso	Rands		
 158	Centavo	Cents		
-159	Piece price	Piece price		
-160	Deudores / Clientes	Debtors		
-161	Acreedores / Proveedores	Creditors		
-162	Facturas Historia	Invoice history		
+159	Precio unitario	Piece price		
+160	Clientes	Debtors		
+161	Proveedores	Creditors		
+162	Historial de Facturas	Invoice history		
 163	&Abrir	&Open		
-164	Entrada de Diario	Batch entry		
+164	Asiento de Diario	Batch entry		
 165	Factura	Invoice		
-166	Reconciliación	Cash/Bank entry		
-167	&OK	&OK		
+166	Diario de caja/banco	Cash/Bank entry		
+167	&Aceptar	&OK		
 168	&Cancelar	&Cancel		
 169	&Cerrar	&Close		
-170	Packaging unit	Packaging unit		
-171	Escojer Indioma	Choose a language		
-172	Compañias	Set of Books		
-173	Suprimir	Delete		
+170	Unidad de empaque	Packaging unit		
+171	Elegir Idioma	Choose a language		
+172	Empresas	Set of Books		
+173	Eliminar	Delete		
 174	Crear	Create		
-175	Nombre de la nueva Compañia	Name for a new Set of Books		
-176	Numero de Cuenta	Account no.		
+175	Nombre de la nueva Empresa	Name for a new Set of Books		
+176	Número de Cuenta	Account no.		
 177	Subcuenta	Sub-account		
-178	Descripcion	Description		
-179	Rep Grupo 1	Reporting group 1		
-180	Rep Grupo 2	Reporting group 2		
+178	Descripción	Description		
+179	Grupo de Reporte 1	Reporting group 1		
+180	Grupo de Reporte 2	Reporting group 2		
 181	Pagos	Payments		
 182	Recibos	Receipts		
-183	Cuentas de Bancos	Bank accounts		
-184	Cuentas de Items Abiertas	Open item account		
+183	Cuentas Bancarias	Bank accounts		
+184	Cuentas de Ítems Abiertos	Open item account		
 185	Nombre	Name		
 186	Dirección	Address		
 187	Teléfono 1	Phone 1		
 188	Teléfono 2	Phone 2		
 189	Fax	Fax		
 190	Código Postal	Postal code		
-191	E-mail	E-mail		
+191	Correo electrónico	E-mail		
 192	Límite de Crédito	Credit limit		
-193	Montos a Cargar	Charge amount		
-194	Saldo Corriente	Current balance		
+193	Montos a Cobrar	Charge amount		
+194	Saldo Actual	Current balance		
 195	Último Pago	Last paid		
 196	En	On		
-197	Persona a Contacto	Contactperson		
+197	Persona de Contacto	Contactperson		
 198	Vendedor	Salesperson		
 199	Dirección de Entrega	Delivery address		
-200	Mensaje Estado de Cuentas	Statement message		
-201	Cuenta Desabilitada	Account disabled		
-202	Ref. de Impuesto	Tax reference		
+200	Mensaje de Estado de Cuenta	Statement message		
+201	Cuenta Deshabilitada	Account disabled		
+202	Referencia Fiscal	Tax reference		
 203	Descuento a Clientes	Customer discount		
-204	Mensualmente Interés sobre Monto Atrasadas	Monthly interest on overdue amounts		
+204	Interés Mensual sobre Montos Atrasados	Monthly interest on overdue amounts		
 205	%	%		
-206	Ingresos / Gastos	Income statement		
-207	Válido de	Valid from		
+206	Ingresos/Gastos	Income statement		
+207	Válido desde	Valid from		
 208	A	To		
 209	Porcentaje	Percentage		
 210	Anual	Annual		
 211	Débito	Debit		
 212	Crédito	Credit		
 213	Código de Inventario	Stock code		
-214	Tamaño de Unidad	Units		
+214	Unidad de Medida	Units		
 215	Último Costo	Latest cost		
-216	Precio Venta 1	Selling price 1		
-217	Precio Venta 2	Selling price 2		
-218	Precio Venta 3	Selling price 3		
-219	Impuesto de Entrada	Input tax		
-220	Impuesto de Salida	Output tax		
-221	Nivel de Repedido	Reorder level		
+216	Precio de Venta 1	Selling price 1		
+217	Precio de Venta 2	Selling price 2		
+218	Precio de Venta 3	Selling price 3		
+219	IVA Soportado	Input tax		
+220	IVA Repercutido	Output tax		
+221	Nivel de Reposición	Reorder level		
 222	Aplicar Descuento en Facturas	Apply invoice discount		
 223	Cuenta de Ventas	Sales account		
-224	Costo por Ventas	Cost of sales		
+224	Costo de Ventas	Cost of sales		
 225	Control de Inventario	Stock control		
 226	Costo Promedio	Average cost		
 227	Cantidad Disponible	Quantity on hand		
 228	Costo Total	Total cost		
-229	Último Factura	Last invoice		
-230	De Factura	From invoice		
-231	A Factura	To invoice		
-232	Incluya Asuntos Hasta	Include items until		
+229	Última Factura	Last invoice		
+230	Desde Factura	From invoice		
+231	Hasta Factura	To invoice		
+232	Incluir Ítems hasta	Include items until		
 233	Saldo Bancario	Bank balance		
-234	Factura Nro.	Invoice no.		
+234	Número de Factura	Invoice no.		
 235	Dirección Postal	Postal address		
 236	Disponible	Available		
 237	Su Referencia	Your reference		
 238	Fecha	Date		
 239	Mensaje	Message		
-240	Enviar Reporte A	Send report to		
-241	Tipo de Diario	Batch type		
-242	Cual Año	Which year		
-243	De Fecha Reporte	From reporting date		
-244	Cada Periodo por Separado	Each period separately		
-245	Monstrar Balance Entradas	Show balancing entries		
-246	De Cuenta	From account		
+240	Enviar Reporte a	Send report to		
+241	Tipo de Asiento	Batch type		
+242	Qué Año	Which year		
+243	Desde Fecha de Reporte	From reporting date		
+244	Cada Período por Separado	Each period separately		
+245	Mostrar Asientos de Ajuste	Show balancing entries		
+246	Desde Cuenta	From account		
 247	Secuencia	Sequence		
-248	Incluya Saldos Cero	Include zero balances		
-249	Opciones de Reporte de Transacciones del Acreedores / Proveedores	Creditor transaction report options		
-250	Cuentas de Bancos	Bank accounts		
-251	Cuentas de  Acreedores / Proveedores	Creditor accounts		
-252	Cuentas de Deudor / Clientes	Debtor accounts		
+248	Incluir Saldos en Cero	Include zero balances		
+249	Opciones de Reporte de Transacciones de Proveedores	Creditor transaction report options		
+250	Cuentas Bancarias	Bank accounts		
+251	Cuentas de Proveedores	Creditor accounts		
+252	Cuentas de Clientes	Debtor accounts		
 253	Cuentas del Mayor General	General ledger accounts		
 254	Cuentas de Impuestos	Tax accounts		
-255	Cuentas de Presupuestos	Budget accounts		
-256	Cuentas de Bancos	Bank accounts		
+255	Cuentas de Presupuesto	Budget accounts		
+256	Cuentas Bancarias	Bank accounts		
 257	Artículos de Inventario	Stock item		
 258	Reportes del Usuario	User report		
-259	Reconciliar la Cuenta Bancaria	Reconcile bank account		
-260	Facturas	Invoicing		
-261	Opciones de Reporte de - Tipo de Diario	Batch type report options		
-262	Opciones de Lista de Cuentas	Account list options		
-263	Opciones de Análisis de Vencimiento de Deudor	Debtor age analysis options		
+259	Conciliar Cuenta Bancaria	Reconcile bank account		
+260	Facturación	Invoicing		
+261	Opciones de Reporte - Tipo de Asiento	Batch type report options		
+262	Opciones de Listado de Cuentas	Account list options		
+263	Opciones de Análisis de Vencimientos de Clientes	Debtor age analysis options		
 264	Monto Mínimo	Minimum amount		
-265	Utilizar Item Abierto	Use open item		
-266	Ignorar Saldos Cero	Ignore zero balances		
-267	Mostrar Detalle Cuenta	Show account detail		
+265	Usar Ítem Abierto	Use open item		
+266	Ignorar Saldos en Cero	Ignore zero balances		
+267	Mostrar Detalle de Cuenta	Show account detail		
 268	Ordenar por Nombre	Sort by name		
 269	Mostrar Transacciones	Show transactions		
-270	Fecha de Antiguedad	Date of ageing		
+270	Fecha de Antigüedad	Date of ageing		
 271	hasta	up to		
 272	Mes(es) hasta	Month(s) up to		
-273	Opciones de Lista de Cuentas	Account list options		
-274	Opciones de Moviento de Deudor / Cliente	Debtor movement options		
-275	Opciones de Reporte de Transacciones del Deudor / Cliente	Debtor transaction report options		
+273	Opciones de Listado de Cuentas	Account list options		
+274	Opciones de Movimiento de Clientes	Debtor movement options		
+275	Opciones de Reporte de Transacciones de Clientes	Debtor transaction report options		
 276	Mostrar Subcuentas	Show sub-accounts		
-277	Opciones Ejecución del Presupuesto	Budget performance options		
-278	Opciones Mayor General	General ledger options		
-279	Opcioens Movientos del Acreedores / Proveedores	Creditor movement options		
-280	Opciones Movimiento de Cuentas del Mayor General	General ledger account movement options		
-281	Opciones de Balance de Comprobaci	Trial balance options		
-282	De	From		
-283	Reconciliación de la Cuenta Bancaria	Bank reconciliation		
-284	De Número de Factura	From invoice no.		
-285	A Número de Factura	To invoice no.		
-286	De Fecha	From date		
-287	A Fecha	To date		
+277	Opciones de Ejecución de Presupuesto	Budget performance options		
+278	Opciones de Mayor General	General ledger options		
+279	Opciones de Movimiento de Proveedores	Creditor movement options		
+280	Opciones de Movimiento de Cuentas del Mayor General	General ledger account movement options		
+281	Opciones de Balance de Sumas y Saldos	Trial balance options		
+282	Desde	From		
+283	Conciliación Bancaria	Bank reconciliation		
+284	Desde Número de Factura	From invoice no.		
+285	Hasta Número de Factura	To invoice no.		
+286	Desde Fecha	From date		
+287	Hasta Fecha	To date		
 288	Opciones de Listado de Documentos	Documents listing options		
-289	De Código de Inventario	From stock code		
-290	Opciones de Actividades del Inventario	Stock activity options		
+289	Desde Código de Inventario	From stock code		
+290	Opciones de Actividad de Inventario	Stock activity options		
 291	Control de Acceso	Access control		
 292	Agregar	Add		
-293	Suprimir	Delete		
+293	Eliminar	Delete		
 294	Opciones de Seguridad	Security Options		
 295	Contraseña de Usuario	User password		
 296	Editar Cuentas	Edit accounts		
 297	Editar Inventario	Edit stock		
-298	Entrada de Diario	Batch entry		
-299	Nota de Crédito Nro.	Credit note no.		
+298	Asiento de Diario	Batch entry		
+299	Número de Nota de Crédito	Credit note no.		
 300	Facturas	Invoices		
-301	Configurar Sistema	System setup		
+301	Configuración del Sistema	System setup		
 302	Compras	Purchases		
-303	Proveedor Devuelve	Supplier returns		
-304	Desabilitar	Disabled		
-305	Reportes de  Acreedores / Proveedores	Creditor reports		
-306	Reportes de Deudor / Cliente	Debtor reports		
+303	Devoluciones a Proveedores	Supplier returns		
+304	Deshabilitado	Disabled		
+305	Reportes de Proveedores	Creditor reports		
+306	Reportes de Clientes	Debtor reports		
 307	Reportes del Mayor General	General ledger reports		
-308	Reportes del Inventario	Stock reports		
+308	Reportes de Inventario	Stock reports		
 309	Reportes del Usuario	User reports		
-310	Postear	Posting		
+310	Contabilizar	Posting		
 311	Procesos Globales	Global processes		
 312	Tel.	Tel		
-313	Nombre Compañia	Company name		
-314	Tipo de Impueso	Tax method		
+313	Nombre de Empresa	Company name		
+314	Tipo de Impuesto	Tax method		
 315	Cuenta Vencida	Due account		
-316	Reg. Compañia Nro.	Company reg. no.		
-317	Reg. Impuesto Nro.	Tax reg. no.		
-318	Reporte Monto con	Report amount with		
-319	Presione aqui para el formato de fecha de Windows	Set Windows date format/style		
-320	Información de la Compañia	Company info		
-321	Siguiente Factura Nro.	Next invoice no.		
-322	Diario de Factura	Invoice batch		
+316	N° Registro de Empresa	Company reg. no.		
+317	N° Registro Fiscal	Tax reg. no.		
+318	Reportar Monto con	Report amount with		
+319	Presione aquí para el formato de fecha de Windows	Set Windows date format/style		
+320	Información de la Empresa	Company info		
+321	Siguiente N° Factura	Next invoice no.		
+322	Asiento de Factura	Invoice batch		
 323	Tipo de Papel	Paper type		
-324	Encabezado de Invoice Heading	Invoice heading		
+324	Encabezado de Factura	Invoice heading		
 325	Mensaje en Facturas	Invoice message		
-326	Siguiente Nro. Nota de Crédito	Next credit note no.		
-327	Diario de Nota de Crédito	Credit note batch		
+326	Siguiente N° Nota de Crédito	Next credit note no.		
+327	Asiento de Nota de Crédito	Credit note batch		
 328	Encabezado de Nota de Crédito	Credit note heading		
 329	Mensaje en Nota de Crédito	Credit note message		
-330	Siguiente Compras Nro.	Next purchase no.		
-331	Diario en Compras	Purchase batch		
+330	Siguiente N° Compra	Next purchase no.		
+331	Asiento de Compras	Purchase batch		
 332	Encabezado de Compras	Purchase heading		
 333	Mensaje en Compras	Purchase message		
-334	Siguiente Devuelve Nro.	Next return no.		
-335	Proveedor Devuelve Diario	Supplier return batch		
-336	Encabezado de Proveedor Devuelve	Supplier return heading		
-337	Proveedor Devuelve Mensaje	Supplier return message		
-338	Siguiente Pedido Nro.	Next order no.		
+334	Siguiente N° Devolución	Next return no.		
+335	Asiento de Devoluciones a Proveedores	Supplier return batch		
+336	Encabezado de Devoluciones a Proveedores	Supplier return heading		
+337	Mensaje de Devoluciones a Proveedores	Supplier return message		
+338	Siguiente N° Pedido	Next order no.		
 339	Encabezado de Pedido	Order heading		
-340	Mensaje del Pedido	Order message		
-341	Siguiente Cotización Nro.	Next quote no.		
+340	Mensaje de Pedido	Order message		
+341	Siguiente N° Cotización	Next quote no.		
 342	Encabezado de Cotización	Quote heading		
 343	Mensaje de Cotización	Quote message		
-344	Configuar Documentos	Documents setup		
+344	Configurar Documentos	Documents setup		
 345	Grupos	Groups		
-346	Tipo de Pagos	Payment types		
-347	Configurar Estado de Cuentas	Statement setup		
-348	Mensaje Estado de Cuentas	Statement message		
-349	Diario Costo por Ventas	Cost of sales batch		
+346	Tipos de Pago	Payment types		
+347	Configurar Estados de Cuenta	Statement setup		
+348	Mensaje de Estado de Cuenta	Statement message		
+349	Asiento de Costo de Ventas	Cost of sales batch		
 350	Información de Inventario	Stock information		
-351	Crear Costo en Ventas	Create cost of sales		
+351	Crear Costo de Ventas	Create cost of sales		
 352	Información General	General information		
 353	Información Contable	Accounting information		
-354	Estado de Cuentas	Statements		
+354	Estados de Cuenta	Statements		
 355	Descripción	Description		
 356	Editar	Edit		
-357	Reinicializar	Reset		
+357	Reiniciar	Reset		
 358	Actualizar	Update		
-359	Item Abierto Reenlazar	Open item relink		
-360	Item Abierto Enlazar	Open item link		
+359	Reenlazar Ítem Abierto	Open item relink		
+360	Enlazar Ítem Abierto	Open item link		
 365	Acerca de <@APPNAME@>	About <@APPNAME@>		
-366	Entrada de Diario	Batch entry		
-367	^D: Suprimir	^D: Delete		
+366	Asiento de Diario	Batch entry		
+367	^D: Eliminar	^D: Delete		
 368	^N: Insertar	^N: Insert		
 369	F5: Balance	F5: Balance		
-370	F6: Postear	F6: Post		
+370	F6: Contabilizar	F6: Post		
 371	F7: Exclusivo	F7: Exclusive		
 372	F8: Lista	F8: List		
 373	F9: Procesar	F9: Process		
@@ -370,20 +370,20 @@
 375	Monto Inclusivo:	Inclusive amount:		
 376	Monto Exclusivo:	Exclusive amount:		
 377	Referencia Total:	Reference total:		
-378	Asigne:	Allocate to:		
+378	Asignar a:	Allocate to:		
 379	Contra Cuenta:	Contra account:		
-380	Vetas por Clientes	Sales per customer		
+380	Ventas por Clientes	Sales per customer		
 381	Ventas por Productos	Sales per product		
-382	Ventas por Productos	Sales per salesperson		
+382	Ventas por Vendedores	Sales per salesperson		
 383	Ventas por Grupos	Sales per group		
 384	Opciones de Ventas por Clientes	Sales per customer options		
-385	Opciones del Ventas por Producto	Sales per product options		
-386	Opciones del Ventas por Vendedor	Sales per salesperson options		
+385	Opciones de Ventas por Producto	Sales per product options		
+386	Opciones de Ventas por Vendedor	Sales per salesperson options		
 387	Opciones de Ventas por Grupos	Sales per group options		
-388	De Grupo	From group		
-389	De Producto	From product		
+388	Desde Grupo	From group		
+389	Desde Producto	From product		
 390	Opciones de Reporte de Impuestos	Tax report options		
-391	Código Impuesto	Tax code		
+391	Código de Impuesto	Tax code		
 392	Mostrar Detalles	Show details		
 393	Clásico	Classic		
 394	Brillante	Brilliant		
@@ -392,327 +392,327 @@
 397	Cristiano	Christian		
 398	Cómico	Comic		
 399	Egipto	Egypt		
-400	Judio	Jewish		
+400	Judío	Jewish		
 401	Escocés	Scottish		
 402	Espacio	Space		
-403	Vida Salvaje	Wildlife		
-404	Item Abierto Enlazar	Open item link		
-405	Actualizar de Facturas	Update invoices		
-406	Fecha de Estado de Cuentas	Date of statements		
+403	Vida Silvestre	Wildlife		
+404	Enlazar Ítem Abierto	Open item link		
+405	Actualizar Facturas	Update invoices		
+406	Fecha de Estados de Cuenta	Date of statements		
 407	Mostrar Transacciones de Impuestos	Show tax transactions		
-408	Reportes de Deudor / Cliente	Debtor reports		
-409	Mostrar Impuesto por Separado	Show tax separately		
-410	Opciones de Moviento del Inventario	Stock movement options		
-411	Opciones de Lista del Inventario	Stock list options		
+408	Reportes de Clientes	Debtor reports		
+409	Mostrar Impuestos por Separado	Show tax separately		
+410	Opciones de Movimiento de Inventario	Stock movement options		
+411	Opciones de Listado de Inventario	Stock list options		
 412	Información a Incluir	Information to include		
 413	Cantidad	Quantity		
-414	Precio Costo	Cost price		
+414	Precio de Costo	Cost price		
 415	Conteo de Inventario	Stock count		
-416	Precio Venta	Selling price		
+416	Precio de Venta	Selling price		
 417	Valor de Inventario	Stock value		
-418	Cotizar	Quotes		
-419	Proveedor Devuelve	Supplier returns		
+418	Cotizaciones	Quotes		
+419	Devoluciones a Proveedores	Supplier returns		
 420	Grupos de Cuentas	Account groups		
-421	Grupos de Deudor	Debtor groups		
-422	Grupos de Acreedor	Creditor groups		
+421	Grupos de Clientes	Debtor groups		
+422	Grupos de Proveedores	Creditor groups		
 423	Grupos de Inventario	Stock groups		
 424	Grupos de Documentos	Document groups		
-425	¿Aviso, esto le ocasionará serios problemas a sus compañias, todavía desea continuar?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?		
-426	¡Usted ha decidido suprimir a todos los usuarios, el control de acceso ahora será incapacitado!	You have chosen to delete all users! Access control will now be disabled!		
-427	¡Hay diarios inal corriente asociados con este usuario! ¡Por favor fíjelos o suprímalos antes de la supresión de este usuario!	There are unposted batches associated with this user! Please post or delete them before deleting this user.		
-428	¡Hay diarios asociados con este usuario, ¡Por favor seleccione un nuevo usuario para asignar estos diarios a!	There are batches associated with this user! Please select a new user to assign these batches to.		
-429	¡Hay transacciones asociadas con este usuario!  ¡Por favor seleccione un nuevo usuario para asignar estas transacciones a!	There are transactions associated with this user! Please select a new user to assign these transactions to.		
-430	¿Desea guardar estos cambios a este usuario?	Do you wish to save the changes to this user?		
-431	¡Por favor teclee una contraseña para este usuario!	Please type in a password for this user!		
+425	¿Advertencia! Esto afectará seriamente su empresa. ¿Desea continuar?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?		
+426	¡Ha eliminado todos los usuarios! El control de acceso se desactivará.	You have chosen to delete all users! Access control will now be disabled!		
+427	¡Hay asientos sin contabilizar asociados a este usuario! Contabilícelos o elimínelos antes de borrarlo.	There are unposted batches associated with this user! Please post or delete them before deleting this user.		
+428	¡Hay asientos asociados a este usuario! Asigne un nuevo usuario.	There are batches associated with this user! Please select a new user to assign these batches to.		
+429	¡Hay transacciones asociadas a este usuario! Asigne un nuevo usuario.	There are transactions associated with this user! Please select a new user to assign these transactions to.		
+430	¿Desea guardar los cambios de este usuario?	Do you wish to save the changes to this user?		
+431	¡Ingrese una contraseña para este usuario!	Please type in a password for this user!		
 432	¿Crear esta cuenta?	Create this account?		
-433	¡Número de Cuenta inválida, el primer caracter debe ser un número!	Invalid account number! The first character must be a number!		
-434	¡Esto no es una Cuenta bancario!	This is not a bank account!		
-435	¿Desea guardar los cambios?	Do you want to save the changes?		
-436	¡¡¡ERROR DE ARCHIVO FATAL 12 !!!	!!! FATAL FILE ERROR 12 !!!		
-437	¿Usted está seguro que usted desea suprimir esta transacción?	Are you sure you wish to delete this transaction?		
-438	¿Desea asignar esta transacción al año anterior?	Do you wish to allocate this transaction to last year?		
-439	¡Diario no está en balance!	Batch is not in balance!		
-440	¡La cuenta no existe! ¿Desea usted crearlo?	Account does not exist, do you wish to create it?		
-441	¿Desea continuar con el reporte?	Do you want to continue reporting?		
-442	¡No puede suprimir este tipo de diario, como esto tiene transacciones asociadas con ello!	Cannot delete this batch type! It has batches associated with it!		
-443	¡Editing tipos de diario seriamente afectará su Empresa! ¿Usted está seguro que usted quiere hacer esto?	Editing batch types will seriously affect your Set of Books! Are you sure you want to do this?		
-444	¿Esto le va a afectar seriamente el control de cuentas, desea cancelar ahora?	This will seriously affect your Set of Books! Do you wish to cancel now?		
-445	¿Desea guardar estos cambios?	Do you want to save these changes?		
-446	¿Usted está seguro que usted quiere crear el	Are you sure you want to create the		
-447	 Compañias?	 Set of Books?		
-448	 las compañias fueron creadas.	 Set of Books created!		
-449	¡Error al crear la compañia!	Error creating books!		
+433	¡Número de cuenta inválido! El primer carácter debe ser un número.	Invalid account number! The first character must be a number!		
+434	¡Esta no es una cuenta bancaria!	This is not a bank account!		
+435	¿Guardar cambios?	Do you want to save the changes?		
+436	¡¡¡ERROR FATAL DE ARCHIVO 12!!!	!!! FATAL FILE ERROR 12 !!!		
+437	¿Está seguro que desea eliminar esta transacción?	Are you sure you wish to delete this transaction?		
+438	¿Asignar esta transacción al año anterior?	Do you wish to allocate this transaction to last year?		
+439	¡El asiento no está balanceado!	Batch is not in balance!		
+440	¡La cuenta no existe! ¿Desea crearla?	Account does not exist, do you wish to create it?		
+441	¿Continuar con el reporte?	Do you want to continue reporting?		
+442	¡No puede eliminar este tipo de asiento! Tiene transacciones asociadas.	Cannot delete this batch type! It has batches associated with it!		
+443	¡Editar tipos de asiento afectará su empresa! ¿Está seguro?	Editing batch types will seriously affect your Set of Books! Are you sure you want to do this?		
+444	¡Esto afectará su control de cuentas! ¿Cancelar ahora?	This will seriously affect your Set of Books! Do you wish to cancel now?		
+445	¿Guardar estos cambios?	Do you want to save these changes?		
+446	¿Está seguro que desea crear la	Are you sure you want to create the		
+447	empresa?	Set of Books?		
+448	¡Empresa creada!	Set of Books created!		
+449	¡Error al crear la empresa!	Error creating books!		
 450	La	The		
-451	 Compañia ya existe!	 Set of Books already exist!		
-452	¡La cuenta no puede ser en blanco!	Account cannot be blank!		
-453	¡Número de Cuenta inválida, el primer caracter debe ser un número!	The first character of the account number must be a number!		
+451	empresa ya existe!	Set of Books already exist!		
+452	¡La cuenta no puede estar vacía!	Account cannot be blank!		
+453	¡Número de cuenta inválido! El primer carácter debe ser un número.	The first character of the account number must be a number!		
 454	¡Terminado!	Finished!		
-455	¡Este directorio no contiene compañias de TurboCASH 2.01, 2.02 o 2.03!	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!		
-456	¿Usted está seguro que usted desea cancelar?	Are you sure you wish to cancel?		
-457	¿Quiere usted crear esta cuenta?	Do you want to create this account?		
-458	Son usted seguro que usted quiere suprimir el	Are you sure you want to delete the		
-459	Compañias?	set of accounts?		
-460	¿Usted está seguro que usted quiere suprimir esta cuenta?	Are you sure you want to delete this account?		
+455	¡Este directorio no contiene empresas de TurboCASH 2.01-2.03!	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!		
+456	¿Está seguro que desea cancelar?	Are you sure you wish to cancel?		
+457	¿Desea crear esta cuenta?	Do you want to create this account?		
+458	¿Está seguro que desea eliminar la	Are you sure you want to delete the		
+459	empresa?	set of accounts?		
+460	¿Está seguro que desea eliminar esta cuenta?	Are you sure you want to delete this account?		
 461	Esta cuenta contiene	This account contains		
-462	¡La subcuenta (s) y no puede ser suprimida!	Sub-account(s) and cannot be deleted!		
-463	¡Usted no puede suprimir este Artículo de Inventario, como esto tiene transacciones!	You cannot delete this stock item! It has transactions!		
-464	¿Usted está seguro que usted quiere suprimir este Artículo de Inventario?	Are you sure you want to delete this stock item?		
-465	¡Artículo de Inventario suprimido!	Stock item deleted!		
-466	¡Este Artículo de Inventario no existe!	This stock item does not exist!		
+462	¡subcuenta(s) y no puede eliminarse!	Sub-account(s) and cannot be deleted!		
+463	¡No puede eliminar este artículo! Tiene transacciones.	You cannot delete this stock item! It has transactions!		
+464	¿Eliminar este artículo?	Are you sure you want to delete this stock item?		
+465	¡Artículo eliminado!	Stock item deleted!		
+466	¡Este artículo no existe!	This stock item does not exist!		
 467	¡Esta no es una cuenta del mayor general!	This is not a general ledger account!		
-468	¡Esta cuenta es todavía activa! ¡Todas las transacciones serán movidas a la nueva subcuenta! ¿Usted está seguro que usted desea crear la subcuenta?	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?		
+468	¡Esta cuenta está activa! ¿Crear subcuenta? (Las transacciones se moverán).	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?		
 469	¡Esta no es una cuenta de impuestos!	This is not a tax account!		
-470	¡La monto de eslabón tiene que ser menos que o igualar!	The link amount has to be less than or equal to		
-471	¡Ud no ha creado una compañia todavia!	You have not set up a Set of Books yet!		
+470	¡El monto a enlazar debe ser ≤ saldo!	The link amount has to be less than or equal to		
+471	¡No ha configurado una empresa!	You have not set up a Set of Books yet!		
 472	¡Esta entrada ya está enlazada!	This entry is already linked!		
-473	¡Nada para unir para este Deudor!	Nothing to link for this debtor!		
-474	¿Usted está seguro que usted quiere desatar esta entrada?	Are you sure you want to unlink this entry?		
-475	Contraseña Inválida	Invalid password!		
-476	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 1	Date conflict !!!! Check date 1		
-477	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 2	Date conflict !!!! Check date 2		
-478	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 3	Date conflict !!!! Check date 3		
-479	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 4	Date conflict !!!! Check date 4		
-480	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 5	Date conflict !!!! Check date 5		
-481	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 6	Date conflict !!!! Check date 6		
-482	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 7	Date conflict !!!! Check date 7		
-483	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 8	Date conflict !!!! Check date 8		
-484	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 9	Date conflict !!!! Check date 9		
-485	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 10	Date conflict !!!! Check date 10		
-486	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 11	Date conflict !!!! Check date 11		
-487	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 12	Date conflict !!!! Check date 12		
-488	¡¡¡¡Fecha en conflicto !!!! Verifique fecha 13	Date conflict !!!! Check date 13		
-489	¡Solamente periodos del 1 al 13 están permitido!	Only periods between 1 and 13 are allowed!		
-490	¿Usted está seguro que usted quiere cancelar los cambios?	Are you sure you want to cancel the changes?		
-491	¡Ningunos asuntos a reconciliar!	No items to reconcile!		
-492	¡Esta no es una cuenta de ingresos / gastos!	This is not an income / expense account!		
+473	¡Nada para enlazar para este cliente!	Nothing to link for this debtor!		
+474	¿Desenlazar esta entrada?	Are you sure you want to unlink this entry?		
+475	Contraseña inválida.	Invalid password!		
+476	¡Conflicto de fechas! Verifique fecha 1.	Date conflict !!!! Check date 1		
+477	¡Conflicto de fechas! Verifique fecha 2.	Date conflict !!!! Check date 2		
+478	¡Conflicto de fechas! Verifique fecha 3.	Date conflict !!!! Check date 3		
+479	¡Conflicto de fechas! Verifique fecha 4.	Date conflict !!!! Check date 4		
+480	¡Conflicto de fechas! Verifique fecha 5.	Date conflict !!!! Check date 5		
+481	¡Conflicto de fechas! Verifique fecha 6.	Date conflict !!!! Check date 6		
+482	¡Conflicto de fechas! Verifique fecha 7.	Date conflict !!!! Check date 7		
+483	¡Conflicto de fechas! Verifique fecha 8.	Date conflict !!!! Check date 8		
+484	¡Conflicto de fechas! Verifique fecha 9.	Date conflict !!!! Check date 9		
+485	¡Conflicto de fechas! Verifique fecha 10.	Date conflict !!!! Check date 10		
+486	¡Conflicto de fechas! Verifique fecha 11.	Date conflict !!!! Check date 11		
+487	¡Conflicto de fechas! Verifique fecha 12.	Date conflict !!!! Check date 12		
+488	¡Conflicto de fechas! Verifique fecha 13.	Date conflict !!!! Check date 13		
+489	¡Solo períodos 1-13 permitidos!	Only periods between 1 and 13 are allowed!		
+490	¿Cancelar cambios?	Are you sure you want to cancel the changes?		
+491	¡No hay ítems para conciliar!	No items to reconcile!		
+492	¡Esta no es una cuenta de ingresos/gastos!	This is not an income / expense account!		
 493	¡Esta cuenta contiene subcuentas!	This account contains sub-accounts!		
-494	¿Desea usted crear este Artículo de Inventario?	Do you wish to create this stock item?		
-495	¡Error de actualización de factura! ¡Por favor, restaurar copia de seguridad de!	Error posting invoice! Please restore backup!		
-496	Seleccione un Reporte del Usuario	Select a user report		
-497	Unidades en el Inventario	Units of stock		
-498	Descripción del Precio de Venta	Selling price descriptions		
-499	Costo por Ventas	Cost of sales		
-500	¿Desea ejecutar la verificación de la integridad de datos antes de hacer el respaldo?	Do you want to run the data integrity check before making the backup?		
-501	¿Desea continuar con el respaldo?	Do you wish to continue with the backup?		
-502	¡¡¡ERROR DE ARCHIVO FATAL 11 !!!	!!! FATAL FILE ERROR 11 !!!		
-503	¡Esta fecha no coincide con el año corriente!  Tiene que estar dentro del año	This date is out of the current year! It must be between		
+494	¿Crear este artículo?	Do you wish to create this stock item?		
+495	¡Error al contabilizar factura! Restaure copia de seguridad.	Error posting invoice! Please restore backup!		
+496	Seleccione un reporte del usuario.	Select a user report		
+497	Unidades en inventario.	Units of stock		
+498	Descripción de precios de venta.	Selling price descriptions		
+499	Costo de ventas.	Cost of sales		
+500	¿Verificar integridad de datos antes del respaldo?	Do you want to run the data integrity check before making the backup?		
+501	¿Continuar con el respaldo?	Do you wish to continue with the backup?		
+502	¡¡¡ERROR FATAL DE ARCHIVO 11!!!	!!! FATAL FILE ERROR 11 !!!		
+503	¡Esta fecha no corresponde al año actual! Debe estar entre	This date is out of the current year! It must be between		
 504	y	and		
-505	¿Desea usted imprimir esta Factura ahora?	Do you wish to print this Invoice now?		
-506	Aviso. hay	Warning there are		
+505	¿Imprimir esta factura ahora?	Do you wish to print this Invoice now?		
+506	Aviso: hay	Warning there are		
 507	artículos disponibles	items on hand.		
-508	¿Estás seguro de que deseas eliminar todas las entradas en esta factura?	Are you sure you want to clear all the entries in this Invoice?		
-509	¡Descuento inválido, el monto debe ser positivo!	Invalid discount! Amount must be positive!		
-510	¿Desea ejecutar la verificación de integridad de datos antes de hacer el respaldo?	Do you want to run the Data Integrity Check before making the backup?		
-511	¡Respaldo Completo!	Backup completed!		
-512	¿AVISO, esto va ha sobre escribir en la compañia actual! Está seguro que desea continuar?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?		
-513	¡Por favor inserte el disco de respaldo en la unidad y continue, o cancele la operación ahora mismo!	Please insert your backup disk in the drive and continue, or cancel the operation now.		
-514	¡Respaldo Completo!	Restore completed!		
-515	¿Esta copia de <@APPNAME@> no está registrada, desea registrarla ahora?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?		
-516	¡Esto va ha eliminar todo la información!  ¿Está seguro que desea hacer esto?	This will delete all your information! Are you sure you want to do this?		
+508	¿Eliminar todas las entradas de esta factura?	Are you sure you want to clear all the entries in this Invoice?		
+509	¡Descuento inválido! El monto debe ser positivo.	Invalid discount! Amount must be positive!		
+510	¿Verificar integridad de datos antes del respaldo?	Do you want to run the Data Integrity Check before making the backup?		
+511	¡Respaldo completado!	Backup completed!		
+512	¡ADVERTENCIA! Sobrescribirá su empresa actual. ¿Continuar?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?		
+513	¡Inserte el disco de respaldo y continúe, o cancele ahora!	Please insert your backup disk in the drive and continue, or cancel the operation now.		
+514	¡Restauración completada!	Restore completed!		
+515	Esta copia de <@APPNAME@> no está registrada. ¿Registrarla ahora?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?		
+516	¡Esto borrará toda su información! ¿Continuar?	This will delete all your information! Are you sure you want to do this?		
 517	¡Terminado!	Finished!		
-518	¡Este directorio no contiene una compañia!	This directory does not contain a Set of Books!		
-519	¿Esto le va a efectuar seriamente a la compañia, está seguro que desea borrar esta compañia?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?		
-520	¡Por favor complete la forma de registro!	Please complete the registration form!		
-521	¡Inválido Código de Apertura!	Invalid unlocking code!		
-522	¿Desea que su registro sea cancelado?	Do you wish to cancel registration?		
-523	¡Esta cuenta tiene transacciones! ¿Desea transferir las transacciones a otra cuenta?	This account has transactions! Do you wish to transfer the transactions to another account?		
-524	¡No se puede transferir a esta cuenta ya que esta tiene subcuentas!	You cannot transfer to this account! It has sub-accounts!		
-525	¡Cuenta suprimida!	Account deleted!		
-526	¡Este deudor / cliente tiene transacciones! ¿Desea usted transferir las transacciones a otro deudor / cliente?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?		
-527	¡Este acreedor / proveedor tiene transacciones! ¿Desea transferir las transacciones a otro acreedor / proveedor?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?		
-528	¡Esta cuenta de banco tiene transacciones! ¿Desea transferir las transacciones a otra cuenta de banco?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?		
-529	¡Esta cuenta de impuesto tiene transacciones! ¿Desea transferir las transacciones a otra cuenta de impuesto?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?		
-530	Aviso. hay	Warning, there are		
-531	Diarios no posteados y	Unposted batches and		
-532	Diarios no posteados	Unposted batches		
-533	Documentos no posteados	Unposted documents		
-534	Características	Properties		
-535	Cambios a las características de la compañia.	Change Set of Books properties		
-536	Escriba el nombre de la compañia.	Enter the name of the Set of Books		
-537	Escriba el path donde la compañia está guardado.	Enter the path where the books are stored		
+518	¡Este directorio no contiene una empresa!	This directory does not contain a Set of Books!		
+519	¡Esto afectará seriamente su empresa! ¿Borrar?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?		
+520	¡Complete el formulario de registro!	Please complete the registration form!		
+521	¡Código de desbloqueo inválido!	Invalid unlocking code!		
+522	¿Cancelar registro?	Do you wish to cancel registration?		
+523	¡Esta cuenta tiene transacciones! ¿Transferirlas?	This account has transactions! Do you wish to transfer the transactions to another account?		
+524	¡No puede transferir a esta cuenta! Tiene subcuentas.	You cannot transfer to this account! It has sub-accounts!		
+525	¡Cuenta eliminada!	Account deleted!		
+526	¡Este cliente tiene transacciones! ¿Transferirlas?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?		
+527	¡Este proveedor tiene transacciones! ¿Transferirlas?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?		
+528	¡Esta cuenta bancaria tiene transacciones! ¿Transferirlas?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?		
+529	¡Esta cuenta de impuestos tiene transacciones! ¿Transferirlas?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?		
+530	Aviso: hay	Warning, there are		
+531	asientos sin contabilizar y	Unposted batches and		
+532	asientos sin contabilizar	Unposted batches		
+533	documentos sin contabilizar	Unposted documents		
+534	Propiedades	Properties		
+535	Cambiar propiedades de la empresa	Change Set of Books properties		
+536	Ingrese el nombre de la empresa	Enter the name of the Set of Books		
+537	Ingrese la ruta donde se guarda la empresa	Enter the path where the books are stored		
 538	Cambios	Change		
-539	Una compañia abierta	A Set of Books called		
-540	Creación automática	Creation wizard		
-541	Por favor seleccione una compañia de la lista , o presione en ver para informar a osFinancials en que carpeta la compañia que desea copiar existe.	Please select a Set of Books from the list below, or click Browse button to select the Set of Books you wish to copy in a folder elsewhere on your system.		
-542	Ver	Browse		
-543	Terminar	Finish		
-544	Bienvenido a <@APPNAME@> a la creación automática de compañia. Por favor seleccione una opción y presione Siguiente, o presione Cancelar para cancelar la nueva compañia.	Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please select an option and click on the Next button, or click on the Cancel button to cancel the creation of a new Set of Books.		
-545	Desea hacer a:	Do you wish to:		
-546	¿Convertir de una versión anterior de TurboCASH (v 2.01, 2.02, 2.03)?	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?		
-547	¿Copiar una compañia existente?	Copy an existing Set of Books?		
-548	¿Deje que <@APPNAME@> le ayude a crear la compañia?	Let <@APPNAME@> help you to create a Set of Books?		
-549	¿Crear su Compañia (Avanzado)?	Customise your own Set of Books (Advanced)?		
+539	Una empresa llamada	A Set of Books called		
+540	Asistente de Creación	Creation wizard		
+541	Seleccione una empresa de la lista o haga clic en Examinar	Please select a Set of Books from the list below, or click Browse button to select the Set of Books you wish to copy in a folder elsewhere on your system.		
+542	Examinar	Browse		
+543	Finalizar	Finish		
+544	Bienvenido al Asistente de Creación de <@APPNAME@>. Seleccione una opción y haga clic en Siguiente, o en Cancelar para abandonar la creación de una nueva Empresa.	Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please select an option and click on the Next button, or click on the Cancel button to cancel the creation of a new Set of Books.		
+545	¿Qué desea hacer?	Do you wish to:		
+546	¿Convertir de TurboCASH (v 2.01-2.03)?	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?		
+547	¿Copiar una empresa existente?	Copy an existing Set of Books?		
+548	¿Asistencia para crear la empresa?	Let <@APPNAME@> help you to create a Set of Books?		
+549	¿Crear empresa (Avanzado)?	Customise your own Set of Books (Advanced)?		
 550	¿Convertir TurboCASH3 a <@APPNAME@>?	Convert TurboCASH3 to <@APPNAME@>?		
 551	Siguiente >>	Next >>		
-552	Control del Acreedor	Creditors control		
-553	Control del Deudor	Debtors control		
+552	Control de Proveedores	Creditors control		
+553	Control de Clientes	Debtors control		
 554	Resultados Acumulados	Retained earnings		
-555	Creación de juego de cuentas...	Creating set of accounts...		
-556	Ahora Ud necesita escribir el número de periodos que hay en su año financiero y la fecha de inicio del año.	You now need to type in the number of periods there are in your financial year and the date of the start of the year!		
-557	Presione para Terminar de especificar su:	Please click Finish to specify your:		
-558	¡Este directorio no contiene la compañia, o la compañia esta dañada!	This directory does not contain a Set of Books, or the Set of Books is damaged!		
-559	¡Ud tiene que escojer una compañia o directorio a copiar!	You have to choose a Set of Books or directory to copy		
-560	Creando la compañia...	Creating Set of Books...		
-561	Creación de cuentas requeridas...	Creating required accounts...		
-562	Creación de cuentas requeridas (Control del Acreedor)...	Creating required accounts (Creditors control)...		
-563	Creación de cuentas requeridas (Control del Deudor)...	Creating required accounts (Debtors control)...		
-564	Creación de cuentas requeridas (Resultados Acumulados)...	Creating required accounts (Retained earnings)...		
-565	Convertiendo compañias...	Converting Set of Books...		
-566	Leyendo datos de Peachtree, Pastel...	Reading data from Pastel...		
-567	Convertiendo variables del sistema de Peachtree. Pastel...	Converting Pastel system variables...		
-568	Convirtiendo cuentas de Peachtree, Pastel...	Converting Pastel accounts...		
-569	Convirtiendo inventario del Peachtree, Pastel...	Converting Pastel stock...		
-570	Convirtiendo diarios de Peachtree, Pastel...	Converting Pastel journals...		
-571	Por favor seleccione la carpeta de datos de Peachtree, Pastel	Please select a Pastel data folder		
-572	Por favor seleccione una compañia anterior para convertir de la siguiente lista.	Please select an old Set of Books to convert from the list below.		
-573	Por favor seleccione de la lista de Data de Peachtree, Pastel, otros para ser convertidos.	Please select Pastel Partner Data to convert from the list below.		
-574	Escoje un directorio	Pick a directory		
-575	Número	Number		
-576	Fechas de Reportaje	Reporting dates		
-577	Fecha Inicio	Start date		
-578	Postear al Año Anterior	Post to other years		
-579	Termina en	Ends on		
-580	Abrir para postear	Open for posting		
-581	La propia etiqueta de Philip	*Translate : Enter your details		
-582	&Cliente Servidor	&Client server		
+555	Creando juego de cuentas...	Creating set of accounts...		
+556	Ingrese número de períodos y fecha de inicio del ejercicio	You now need to type in the number of periods there are in your financial year and the date of the start of the year!		
+557	Haga clic en Finalizar para especificar	Please click Finish to specify your:		
+558	¡Este directorio no contiene la empresa, o la empresa está dañada!	This directory does not contain a Set of Books, or the Set of Books is damaged!		
+559	¡Debe seleccionar una empresa o directorio para copiar!	You have to choose a Set of Books or directory to copy		
+560	Creando la empresa...	Creating Set of Books...		
+561	Creando cuentas requeridas...	Creating required accounts...		
+562	Creando cuentas requeridas (Control de Proveedores)...	Creating required accounts (Creditors control)...		
+563	Creando cuentas requeridas (Control de Clientes)...	Creating required accounts (Debtors control)...		
+564	Creando cuentas requeridas (Resultados Acumulados)...	Creating required accounts (Retained earnings)...		
+565	Convirtiendo empresas...	Converting Set of Books...		
+566	Leyendo datos de Pastel...	Reading data from Pastel...		
+567	Convirtiendo variables del sistema de Pastel...	Converting Pastel system variables...		
+568	Convirtiendo cuentas de Pastel...	Converting Pastel accounts...		
+569	Convirtiendo inventario de Pastel...	Converting Pastel stock...		
+570	Convirtiendo asientos de Pastel...	Converting Pastel journals...		
+571	Seleccione la carpeta de datos de Pastel	Please select a Pastel data folder		
+572	Seleccione una empresa anterior para convertir	Please select an old Set of Books to convert from the list below.		
+573	Seleccione datos de Pastel para convertir	Please select Pastel Partner Data to convert from the list below.		
+574	Seleccionar directorio	Pick a directory		
+575	N°	Number		
+576	Fechas de reporte	Reporting dates		
+577	Fecha de inicio	Start date		
+578	Contabilizar en otro año	Post to other years		
+579	Finaliza el	Ends on		
+580	Abierto para contabilizar	Open for posting		
+581	Ingrese sus datos	*Translate : Enter your details		
+582	&Cliente-Servidor	&Client server		
 583	&Preferencias	&Preferences		
 584	&Parámetros del Sistema	&System parameters		
 585	&Control de Acceso	&Access control		
 586	&Ayuda	&Help		
-587	Entrada de Factura	Invoice entry		
+587	Ingreso de facturas	Invoice entry		
 588	Error	Error		
-589	Aviso : ¡Esta fecha no se cae en ningún de esto o dura las fechas de reportaje del año!	Warning, this date does not fall into any of this or last year's reporting dates!		
-590	¡Este diario no valida!	This batch does not validate!		
-591	es fuera del saldo por	is out of balance by		
-592	Linea	Line		
-593	Permitir Ambos	Allow both		
-594	¡El diario contiene la fijación de transacciones para durar el año!	Batch contains transactions posting to last year!		
-595	¿Desea continuar posteando?	Do you want to continue posting?		
-596	¡No se puede postear a la cuenta principal que contenga Sub-cuentas!	Cannot post to main account containing Sub-accounts!		
-597	¡La cuenta no existe! ¿Desea usted crearlo?	Account does not exist! Do you wish to create it?		
-598	¡No hay Data para importar!	No data to import!		
-599	Entre el Mes y Año para entradas recurrentes al	Enter month and year to repeat entries to		
-600	Periodo	Period		
+589	¡Aviso! Esta fecha no corresponde a ningún período de reporte actual o anterior	Warning, this date does not fall into any of this or last year's reporting dates!		
+590	¡Este asiento no es válido!	This batch does not validate!		
+591	está fuera de balance por	is out of balance by		
+592	Línea	Line		
+593	Permitir ambos	Allow both		
+594	¡El asiento contiene transacciones que se contabilizarán en el año anterior!	Batch contains transactions posting to last year!		
+595	¿Continuar con la contabilización?	Do you want to continue posting?		
+596	¡No se puede contabilizar en una cuenta principal que contiene subcuentas!	Cannot post to main account containing Sub-accounts!		
+597	¡La cuenta no existe! ¿Desea crearla?	Account does not exist! Do you wish to create it?		
+598	¡No hay datos para importar!	No data to import!		
+599	Ingrese mes y año para repetir asientos hasta	Enter month and year to repeat entries to		
+600	Período	Period		
 601	Año	Year		
-602	&Seleccione Contra Cuenta	&Select contra account		
-603	Este Año	This year		
-604	Último Año	Last year		
+602	&Seleccionar contra cuenta	&Select contra account		
+603	Este año	This year		
+604	Año anterior	Last year		
 605	Código	Code		
 606	Descripción	Description		
 607	Referencia	Reference		
 608	Cuenta	Account		
 609	Impuesto	Tax		
-610	Definición de Abreviatura	Abbreviation definition		
-611	Balance Diario	Balance batch		
-612	Importa Archivo Delimitado	Delimited file import		
-613	Borrar Diario	Erase batch		
-614	Generar Transacciones Múltiples	Generate multiple transactions		
-615	Lista de Diario	List batch		
-616	Postear Diario	Post batch		
-617	Transacciones Recurrentes	Repeating transactions		
-618	Totales para cada Periodo	Totals for each period		
-619	Escriba Archivo Delimitado	Write delimited file		
-620	Procesando el diario	Process the batch		
-621	¿Esta seguro que desea borrar esta entrada de diario?	Are you sure you want to erase this entire batch?		
-622	Opciones para este diario	Options for this batch		
-623	Aumentar Número de Referencia	Increment reference		
-624	Detalles Recurrentes	Repeat details		
-625	Contracuenta por linea	Contra account per line		
-626	Balance Consolidado	Consolidate balancing		
-627	Entrada de Monto	Amount entry		
+610	Definición de abreviaturas	Abbreviation definition		
+611	Balance del asiento	Balance batch		
+612	Importar archivo delimitado	Delimited file import		
+613	Borrar asiento	Erase batch		
+614	Generar transacciones múltiples	Generate multiple transactions		
+615	Listar asiento	List batch		
+616	Contabilizar asiento	Post batch		
+617	Transacciones recurrentes	Repeating transactions		
+618	Totales por período	Totals for each period		
+619	Exportar archivo delimitado	Write delimited file		
+620	Procesando el asiento	Process the batch		
+621	¿Eliminar este asiento completo?	Are you sure you want to erase this entire batch?		
+622	Opciones para este asiento	Options for this batch		
+623	Incrementar número de referencia	Increment reference		
+624	Detalles recurrentes	Repeat details		
+625	Contracuenta por línea	Contra account per line		
+626	Balance consolidado	Consolidate balancing		
+627	Ingreso de montos	Amount entry		
 628	Confirmación	Confirmation		
 629	Información	Information		
 630	Aviso	Warning		
-631	No puede listar desde	You cannot report from		
-632	ya existe!	already exists!		
-633	¡¡¡Seleccione la carpeta de Datos de Peachtree, Pastel !!!	Select Pastel data folder !!!		
-635	¡Debe tener una compañia abierta para usar esta opción!	You must have a Set of Books open to use this option!		
-636	¡No ha configurado una compañia todavia!	You have not set up a Set of Books yet!		
-637	¿Incluya saldos inicial?	Include opening balances		
-638	¡Ud no puede seleccionar esta cuenta ya que esta contiene sub-cuentas!	You cannot select this account because it contains sub-accounts!		
-639	¡Esta información en esta linea será perdida si es cambiada a un comentario!	The information on this line will be lost if it's changed to comment!		
-640	¿Esta seguro que desea tener un comentario en esta linea?	Are you sure you want a comment on this line?		
-641	¡Esto alterará radicalmente toda sus Datos! ¡L e recomendamos que Ud se detenga y hago un respaldo!	This will radically alter your data! We recommend that you stop and make a backup!		
-642	¿Desea continuar?	Do you wish to continue?		
-643	¡Esta cuenta tiene una apertura el año pasado equilibran, usted no puede suprimir la cuenta!	This account has an opening last year balance! You cannot delete the account!		
-644	¡Esta cuenta no es de ingreos / gastos!	This account is not an income / expense account!		
-645	Total Exclusivo	Exclusive total		
-646	Total Factura	Invoice total		
-647	Total Descuento	Total discount		
-648	Excl. Unidad	Unit excl.		
-649	Incl. Unidad	Unit incl.		
-650	Excl. Monto	Amount excl.		
-651	Incl. Monto	Amount incl.		
-652	Código Inventario	Item code		
+631	No se puede listar desde	You cannot report from		
+632	¡ya existe!	already exists!		
+633	¡Seleccione la carpeta de datos de Pastel!	Select Pastel data folder !!!		
+635	¡Debe tener una empresa abierta para usar esta opción!	You must have a Set of Books open to use this option!		
+636	¡No ha configurado una empresa todavía!	You have not set up a Set of Books yet!		
+637	¿Incluir saldos iniciales?	Include opening balances		
+638	¡No puede seleccionar esta cuenta porque contiene subcuentas!	You cannot select this account because it contains sub-accounts!		
+639	¡Esta información se perderá si la convierte en comentario!	The information on this line will be lost if it's changed to comment!		
+640	¿Convertir esta línea en comentario?	Are you sure you want a comment on this line?		
+641	¡Esto modificará radicalmente sus datos! ¡Recomendamos hacer un respaldo!	This will radically alter your data! We recommend that you stop and make a backup!		
+642	¿Continuar?	Do you wish to continue?		
+643	¡Esta cuenta tiene saldo de apertura del año anterior! ¡No puede eliminarla!	This account has an opening last year balance! You cannot delete the account!		
+644	¡Esta cuenta no es de ingresos/gastos!	This account is not an income / expense account!		
+645	Total excl. impuestos	Exclusive total		
+646	Total factura	Invoice total		
+647	Total descuento	Total discount		
+648	Unit. sin imp.	Unit excl.		
+649	Unit. con imp.	Unit incl.		
+650	Monto sin imp.	Amount excl.		
+651	Monto con imp.	Amount incl.		
+652	Código de artículo	Item code		
 653	Descripción	Description		
-655	Cant Pedida	Qty order		
-656	Cant Enviada	Qty ship		
-657	Desc.	Disc.		
+655	Cant. pedida	Qty order		
+656	Cant. enviada	Qty ship		
+657	Desc.%	Disc.		
 658	F8: Descuento	F8: Discount		
 659	F9: Comentario	F9: Comment		
-660	F10: Suprima Todo	F10: Delete all		
-662	&Linea de Comentario	&Comment line		
-663	&Entre descuento total	&Enter overall discount		
-664	F7: Inclusivo	F7: Inclusive		
-665	¡Has cambiado los diarios del pago y del recibo! ¡Esto corromperá tu reconciliación! ¿Deseas continuar?	You have changed payment and receipt batch! This will corrupt your recon! Do you wish to continue?		
-666	¡El Control de Cuentas no se puede usar!	Control account cannot be used!		
-667	¡Ud ha cambiado el porcentaje!	You have changed the percentage!		
-668	¡No puede tener presupuesto para esta cuenta que tiene subcuentas!	Cannot have budgets for an account which has sub-accounts!		
-669	¡La Cuenta del Mayor General no puede ser usada!	General ledger account cannot be used!		
-670	Entrada de Nota de Crédito	Credit note entry		
-671	F10: Suprima Nota de Crédito	F10: Delete credit note		
-673	¿Desea usted imprimir esta Nota de Crédito ahora?	Do you wish to print this credit note now?		
-674	Actualizar de Notas de Crédito	Update credit notes		
-675	De Nota de Crédito	From credit note		
-676	A Nota de Crédito	To credit note		
+660	F10: Eliminar todo	F10: Delete all		
+662	&Línea de comentario	&Comment line		
+663	&Ingresar descuento general	&Enter overall discount		
+664	F7: Incluido	F7: Inclusive		
+665	¡Ha modificado los asientos de pago y recibo! ¡Esto afectará su conciliación! ¿Continuar?	You have changed payment and receipt batch! This will corrupt your recon! Do you wish to continue?		
+666	¡No se puede usar la cuenta de control!	Control account cannot be used!		
+667	¡Ha modificado el porcentaje!	You have changed the percentage!		
+668	¡No puede presupuestar una cuenta que tiene subcuentas!	Cannot have budgets for an account which has sub-accounts!		
+669	¡No se puede usar una cuenta del mayor general!	General ledger account cannot be used!		
+670	Ingreso de notas de crédito	Credit note entry		
+671	F10: Eliminar nota de crédito	F10: Delete credit note		
+673	¿Imprimir esta nota de crédito ahora?	Do you wish to print this credit note now?		
+674	Actualizar notas de crédito	Update credit notes		
+675	Desde nota de crédito	From credit note		
+676	Hasta nota de crédito	To credit note		
 677	Continuar	Continue		
 678	¡No hay facturas para imprimir!	There is no invoice to print!		
-679	¡No puede tener el mismo tipo de Diario de Pagos que para otra Cuenta bancario!	Cannot have the same payments batch type as for another bank account!		
+679	¡No puede usar el mismo tipo de asiento de pagos para otra cuenta bancaria!	Cannot have the same payments batch type as for another bank account!		
 680	Remesa	Remittance		
-681	Mensaje del Remesa	Remittance message		
-682	Mercancias Recividas	Goods received		
-683	¡No puede tener el mismo Tipo de Diario de Recibo que para otra Cuenta bancario!	Cannot have the same receipt batch type as for another bank account!		
-684	Precio Unitario	Unit price		
-685	¿Estás seguro de que deseas eliminar todas las entradas en esta compra?	Are you sure you want to clear all the entries in this purchase?		
-686	¿Desea usted imprimir esta Compra ahora?	Print a purchase document now?		
-687	Impuesto Excluido	Tax excluded		
-688	Impuesto Incluido	Tax included		
-689	Notas de Crédito Historia	Credit note history		
-690	Proveedor Devuelve Historia	Supplier return history		
-691	Compras Historia	Purchases history		
-692	Cotizaciones Historia	Quote history		
-693	Pedidos Historia	Orders history		
-694	De Compras	From purchase		
-695	Suprima Notas de Crédito	Delete credit notes		
-696	¡El siguiente Número es inválido!  ¡Cambie el número en Configurar Documento!	Invalid next number! Change it in Setup -> Documents setup!		
-697	¿Desea continuar con el Respaldo?	Do you want to continue backup?		
-698	Desea continuar la Restauración de	Do you want to continue restore from?		
-699	¡No hay Seleccionado una Compañia!	No Set of Books selected!		
-700	Actualizar Compras	Update purchase		
-701	Actualizar Devoluciones de Proveedores	Update supplier returns		
-702	Desde Devolución de Proveedor	From supplier return		
-703	Nº Compra	Purchase no.		
-704	Nº Devolución Proveedor	Supplier ret. no.		
+681	Mensaje de remesa	Remittance message		
+682	Mercancías recibidas	Goods received		
+683	¡No puede usar el mismo tipo de asiento de recibos para otra cuenta bancaria!	Cannot have the same receipt batch type as for another bank account!		
+684	Precio unitario	Unit price		
+685	¿Eliminar todas las entradas de esta compra?	Are you sure you want to clear all the entries in this purchase?		
+686	¿Imprimir esta compra ahora?	Print a purchase document now?		
+687	Impuesto excluido	Tax excluded		
+688	Impuesto incluido	Tax included		
+689	Historial de notas de crédito	Credit note history		
+690	Historial de devoluciones a proveedores	Supplier return history		
+691	Historial de compras	Purchases history		
+692	Historial de cotizaciones	Quote history		
+693	Historial de pedidos	Orders history		
+694	Desde compra	From purchase		
+695	Eliminar notas de crédito	Delete credit notes		
+696	¡El siguiente número es inválido! Modifíquelo en Configuración de Documentos	Invalid next number! Change it in Setup -> Documents setup!		
+697	¿Continuar con el respaldo?	Do you want to continue backup?		
+698	¿Continuar con la restauración de?	Do you want to continue restore from?		
+699	¡No ha seleccionado una empresa!	No Set of Books selected!		
+700	Actualizar compras	Update purchase		
+701	Actualizar devoluciones a proveedores	Update supplier returns		
+702	Desde devolución a proveedor	From supplier return		
+703	N° de compra	Purchase no.		
+704	N° de devolución a proveedor	Supplier ret. no.		
 705	Devolución	Return		
-706	Notas de Crédito	Credit notes		
-707	¿Desea imprimir este Pedido?	Do you wish to print this order?		
-708	¿Desea imprimir esta Devolución de Proveedor?	Do you wish to print this supplier return?		
-709	¿Desea imprimir esta Compra?	Do you wish to print this purchase?		
-710	¿Desea imprimir este Presupuesto?	Do you wish to print this quote?		
-711	¡Ejecute Configuración y seleccione Contra Cuenta para este asiento!	Run Setup -> Batch types and select contra account for this batch!		
-712	¿Está seguro de que desea eliminar la información de esta fila?	Are you sure you wish to delete this row's information?		
-713	Actualizar desde Servidor Cliente	Client server update		
-714	Actualizar Internet	Internet update		
-715	¿Desea eliminar estas definiciones de etiqueta?	Do want to delete this label definitions?		
+706	Notas de crédito	Credit notes		
+707	¿Desea imprimir este pedido?	Do you wish to print this order?		
+708	¿Desea imprimir esta devolución a proveedor?	Do you wish to print this supplier return?		
+709	¿Desea imprimir esta compra?	Do you wish to print this purchase?		
+710	¿Desea imprimir este presupuesto?	Do you wish to print this quote?		
+711	¡Ejecute Configuración y seleccione la cuenta contrapartida para este diario!	Run Setup -> Batch types and select contra account for this batch!		
+712	¿Está seguro que desea eliminar los datos de esta fila?	Are you sure you wish to delete this row's information?		
+713	Actualizar desde servidor cliente	Client server update		
+714	Actualizar desde internet	Internet update		
+715	¿Desea eliminar estas definiciones de etiquetas?	Do want to delete this label definitions?		
 716	Ubicación:	Location :		
-717	La empresa no se encuentra, el directorio no existe:	Set of Books not found! Directory doesn't exist:		
+717	La empresa no existe, el directorio no se encuentra:	Set of Books not found! Directory doesn't exist:		
 718	O hay problemas en la unidad de red	Or trouble on a network mapped drive		
-719	¿Esto eliminará toda su información, está seguro de continuar?	This will delete all your information! Are you sure you want to continue?		
-720	Error en Btrv:	Btrv error:		
-721	¡Nada para enlazar para este Proveedor!	Nothing to link for this creditor!		
-722	¡Advertencia! Si presiona Sí perderá todos los enlaces actuales para esta cuenta	Warning, if you click yes you will lose all your current links for this account!		
+719	¿Esto eliminará toda su información? ¿Está seguro de continuar?	This will delete all your information! Are you sure you want to continue?		
+720	Error Btrv:	Btrv error:		
+721	¡No hay nada para vincular con este proveedor!	Nothing to link for this creditor!		
+722	¡Advertencia! Si presiona Sí perderá todos los vínculos actuales de esta cuenta	Warning, if you click yes you will lose all your current links for this account!		
 723	Inserte disco en	Insert disk in		
-724	¡La configuración de Internet es incorrecta! Ejecute Configuración de Internet	Internet setup information is incorrect! Run Setup -> Setup -> Internet.		
+724	¡La configuración de internet es incorrecta! Ejecute Configuración → Internet	Internet setup information is incorrect! Run Setup -> Setup -> Internet.		
 725	¿Desea eliminar?	Do you want to delete?		
 726	Guardar	Save		
 727	&Primero	&First		
@@ -721,63 +721,63 @@
 730	&Último	&Last		
 731	&Ampliar	&Zoom		
 732	Copias	Copies		
-733	Rango de Impresión	Print range		
+733	Rango de impresión	Print range		
 734	&Páginas	&Pages		
 735	&Desde	&From		
 736	&Hasta	&To		
-737	&Todas las Páginas	&All pages		
-738	Número de &Copias	Number of &copies		
-739	¡Error en Exportación de Informe!	Exporting report error!		
-740	¡Error al crear Tmp!	Error when creating Tmp!		
-741	Contraseña Inválida	Invalid password!		
-742	¡No puede usar esta cuenta como contra cuenta porque contiene subcuentas!	You cannot use this account as a contra account! It contains sub-accounts!		
-743	Crear Directorio	Create directory		
-744	¡Esa empresa ya existe! ¡Por favor ingrese nuevamente!	That Set of Books already exists! Please re-enter!		
+737	&Todas las páginas	&All pages		
+738	Número de &copias	Number of &copies		
+739	¡Error al exportar el informe!	Exporting report error!		
+740	¡Error al crear archivo temporal!	Error when creating Tmp!		
+741	Contraseña inválida	Invalid password!		
+742	¡No puede usar esta cuenta como contrapartida porque contiene subcuentas!	You cannot use this account as a contra account! It contains sub-accounts!		
+743	Crear directorio	Create directory		
+744	¡Esa empresa ya existe! ¡Ingrese nuevamente!	That Set of Books already exists! Please re-enter!		
 745	¡No se puede crear el directorio!	Couldn't create directory!		
 746	¡Por favor ingrese nuevamente!	Please re-enter!		
 747	¡No hay datos para imprimir!	No data to print!		
 748	¡Número de cuenta inválido!	Illegal account code!		
-750	Nº Factura Fiscal	Tax Invoice no.		
-751	Nº Presupuesto	Quote no.		
-752	Nº Devolución Proveedor	Supplier return no.		
-753	¡Tipo de medio no válido para copia!	Invalid media type for backup!		
-754	¡No puede eliminar la Cuenta de Control!	Cannot delete a control account!		
+750	N° de factura fiscal	Tax Invoice no.		
+751	N° de presupuesto	Quote no.		
+752	N° de devolución	Supplier return no.		
+753	¡Tipo de medio no válido para copia de seguridad!	Invalid media type for backup!		
+754	¡No puede eliminar la cuenta de control!	Cannot delete a control account!		
 755	Las empresas	The Set of Books		
 756	serán eliminadas permanentemente del disco	will permanently be removed from disk!		
 757	¿Desea cancelar la eliminación?	Do you want to cancel the deletion?		
-758	Nº Nota de Crédito	Credit note no.		
-759	Nº Compra	Purchase no.		
-761	Comprobante de Mercancías Devueltas	Goods received voucher		
-762	Nº Pedido	Order no.		
+758	N° de nota de crédito	Credit note no.		
+759	N° de compra	Purchase no.		
+761	Comprobante de mercadería devuelta	Goods received voucher		
+762	N° de pedido	Order no.		
 763	Saldo inicial al registrar	Balance brought forward when posting		
 764	Luego presione Cerrar para finalizar el asistente	Then click Close to finish the Creation wizard.		
 765	El saldo del cliente supera el límite de crédito con:	Debtor's balance is over credit limit with:		
 766	¡No puede transferir transacciones a la misma cuenta!	Cannot transfer transactions to the same account!		
 767	¡La última vez que trabajó con esta empresa no cerró el programa correctamente!	The last time that you worked with this Set of Books you did not exit the program properly!		
-768	Si encuentra problemas, restaure sus datos desde la copia	If you encounter any problems, restore your data from a backup.		
+768	Si encuentra problemas, restaure sus datos desde la copia de seguridad	If you encounter any problems, restore your data from a backup.		
 769	<@APPNAME@> le recuerda que:	<@APPNAME@> would like to remind you that:		
-770	Es buena práctica hacer copias regularmente y guardarlas para prevenir pérdida de datos	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.		
-771	Nº Presupuesto	Quote no.		
-772	Desde Presupuesto	From quote		
-773	Desde Pedido	From order		
+770	Es buena práctica hacer copias de seguridad regularmente para prevenir pérdida de datos	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.		
+771	N° de presupuesto	Quote no.		
+772	Desde presupuesto	From quote		
+773	Desde pedido	From order		
 774	¡Esta cuenta tiene saldos y no puede eliminarse!	This account has balances, cannot be deleted!		
-775	¿Desea crear esta persona de contacto?	Do you want to create this contactperson?		
-776	¿Desea eliminar esta persona de contacto?	Do you want to delete this contactperson?		
-777	¡Persona de contacto eliminada!	Contactperson deleted!		
+775	¿Desea crear este contacto?	Do you want to create this contactperson?		
+776	¿Desea eliminar este contacto?	Do you want to delete this contactperson?		
+777	¡Contacto eliminado!	Contactperson deleted!		
 778	¡Nombre de contacto inválido!	Illegal contact name!		
 779	¡Los números de cuenta deben ser únicos!	Account numbers should be unique!		
-780	¡Todas las transacciones serán eliminadas y los saldos se pondrán a cero!	All transactions will be removed and account balances will be set to zero!		
+780	¡Todas las transacciones serán eliminadas y los saldos se pondrán en cero!	All transactions will be removed and account balances will be set to zero!		
 781	¿Desea cancelar el proceso de limpieza?	Do you want to cancel the clearing process?		
 782	¡ya existe!	already exist!		
 783	¡Número de documento inválido!	Illegal document number!		
-784	Código de inventario inválido	Illegal stock code!		
+784	Código de stock inválido	Illegal stock code!		
 785	Saldos - Clientes con importe < x.xx	Balance debtors with amount < x.xx		
 786	Proveedores con importes a cargar	Creditors with charge amount		
 787	Clientes con importes a cargar	Debtors with charge amount		
 788	Importe fijo a todos los clientes	Fixed amount to all debtors		
 789	Interés sobre clientes morosos	Interest on overdue debtors		
 790	Saldos de proveedores a fecha	Creditor balances at date		
-791	Crear Recibos	Create receipts		
+791	Crear recibos	Create receipts		
 792	Efectivo	Cash		
 793	Cheque	Cheque		
 794	Otros	Other		
@@ -788,119 +788,119 @@
 799	¡La referencia no coincide con la de la transacción!	Reference is not the same as the transaction reference!		
 800	¿Desea cerrar <@APPNAME@>?	Do you wish to close <@APPNAME@>?		
 801	¿Desea cancelar la impresión de documentos?	Do you want to cancel documents printing?		
-802	¡No ha seleccionado un método! ¡Por favor seleccione uno!	No method selected! Please select one!		
-803	¡No puede tomar un artículo de inventario con cantidad disponible cero!	Cannot take stock on for an item with a non-zero quantity on hand!		
-804	¡No ha seleccionado un informe de usuario! ¡Por favor seleccione uno!	No user report selected! Please select one!		
-805	¿Desea ingresar detalles para este nuevo contacto?	Do you want to fill all details for this new contact?		
-806	¿Está seguro de cambiar el siguiente número de documento?	Are you sure you want to change the next document number?		
+802	¡No ha seleccionado un método! Por favor seleccione uno	No method selected! Please select one!		
+803	¡No puede tomar un artículo con cantidad disponible cero!	Cannot take stock on for an item with a non-zero quantity on hand!		
+804	¡No ha seleccionado un informe de usuario! Por favor seleccione uno	No user report selected! Please select one!		
+805	¿Desea completar los datos para este nuevo contacto?	Do you want to fill all details for this new contact?		
+806	¿Está seguro de cambiar el próximo número de documento?	Are you sure you want to change the next document number?		
 807	¡Error durante el proceso de copia!	Error occurred during copy process!		
-808	El descuento debe estar entre 0% y 99.99%	Discount must be in range 0 % to 99.99 %		
-809	¡El interés sobre importes vencidos debe estar entre 0% y 99.99%!	Interest on overdue amount must be in range 0 % to 99.99 %		
+808	El descuento debe estar entre 0% y 99,99%	Discount must be in range 0 % to 99.99 %		
+809	¡El interés sobre importes vencidos debe estar entre 0% y 99,99%!	Interest on overdue amount must be in range 0 % to 99.99 %		
 810	Este precio es menor que el precio unitario de	This price is lower than the unit price of		
-811	en el archivo de inventario	on the stock file		
+811	en el archivo de stock	on the stock file		
 812	Los datos antiguos T3 se han convertido correctamente	The old T3 data was successfully converted		
-813	¡Error al convertir sus datos T3 antiguos!	An error occurred while converting your old T3 data!		
+813	¡Error al convertir sus datos antiguos T3!	An error occurred while converting your old T3 data!		
 814	¡No se encontró el importe no pagado!	Could not find unpaid amount!		
-815	¡Sus asientos de pago y recibo no están correctamente enlazados a esta cuenta bancaria!	Your payment and receipt batch are not linked correctly to this bank account!		
+815	¡Sus diarios de pago y recibo no están correctamente vinculados a esta cuenta bancaria!	Your payment and receipt batch are not linked correctly to this bank account!		
 816	¡No puede tener un tipo de impuesto para clientes o proveedores en el sistema básico de pagos!	May not have a tax type for a debtor or creditor in the payments based system!		
-817	El archivo de copia no se encuentra en	Backup file not found in		
-818	Seleccione Modo Copia o Restaurar	Select Backup or Restore mode		
+817	El archivo de copia de seguridad no se encuentra en	Backup file not found in		
+818	Seleccione modo Copia de seguridad o Restaurar	Select Backup or Restore mode		
 820	Ejecutar el sistema básico de pagos requiere convertir todas las cuentas de clientes y proveedores a cuentas abiertas. ¿Desea continuar?	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?		
-821	El método básico de pagos de impuestos es puramente en efectivo. El impuesto se paga a la autoridad fiscal solo cuando se recibe de los clientes. ¿Desea continuar?	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?		
-822	¡Está ejecutando el método básico de pagos y no se encuentra la cuenta de vencimiento! Ejecute Configuración de Información de Empresa	You are running payment based method and the due account cannot be found! Please run Setup -> Company info!		
-823	Tarjeta de Crédito	Credit Card		
+821	El método básico de pagos de impuestos es puramente en efectivo. El impuesto se paga a la AFIP solo cuando se recibe de los clientes. ¿Desea continuar?	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?		
+822	¡Está ejecutando el método básico de pagos y no se encuentra la cuenta de vencimiento! Ejecute Configuración → Información de empresa	You are running payment based method and the due account cannot be found! Please run Setup -> Company info!		
+823	Tarjeta de crédito	Credit Card		
 824	Presione Finalizar para ejecutar	Click on Finish to execute.		
 825	¿Qué plan de cuentas desea usar?	Which Chart of Accounts do you want to use?		
 826	¡Por favor ingrese el nombre de la nueva empresa!	Please type in the name of the new Set of Books!		
-827	Desde Asiento	From batch		
+827	Desde diario	From batch		
 828	Cerrar	Close		
-829	¡No tiene permiso para este proceso! ¡Acceso denegado!	You have no right to process!  Access to this process denied!		
+829	¡No tiene permiso para este proceso! Acceso denegado	You have no right to process!  Access to this process denied!		
 830	¡Por favor contacte al administrador de <@APPNAME@>!	Please contact your <@APPNAME@> administrator!		
 831	¡Esta cuenta está deshabilitada y no puede usarse!	This account is disabled and cannot be used!		
-832	¡La cuenta no existe, no se puede realizar la operación!	Account does not exist! Process cannot be performed!		
+832	¡La cuenta no existe! No se puede realizar la operación	Account does not exist! Process cannot be performed!		
 833	No puede abrir el archivo de firma de fax en	Cannot open fax signature file in		
-834	Copia/Restaurar	Backup / Restore		
-835	C&errar Empresas	C&lose Set of Books		
-836	&Copia/Restaurar Empresas	&Backup / Restore Set of Books		
-837	Reindexar Da&tos	Da&ta Re-index		
+834	Copia de seguridad/Restaurar	Backup / Restore		
+835	C&errar empresas	C&lose Set of Books		
+836	&Copia de seguridad/Restaurar empresas	&Backup / Restore Set of Books		
+837	Reindexar da&tos	Da&ta Re-index		
 838	&Contactos	&Contacts		
 839	Presu&puestos	&Quotes		
 840	Co&nfirmar	Co&nfirm		
 841	Ped&idos	Or&ders		
-842	&Estado de Resultados	&Income statement		
-843	&Listado de Contactos	&Contact listing		
-844	&Pedidos Pendientes	&Backorders		
+842	&Estado de resultados	&Income statement		
+843	&Listado de contactos	&Contact listing		
+844	&Pedidos pendientes	&Backorders		
 845	&Internet	&Internet		
-846	&Categorías Financieras	&Financial categories		
+846	&Categorías financieras	&Financial categories		
 847	&Fuentes	&Fonts		
-848	&Parámetros del Sistema	System &parameters		
-849	Crear/Modificar Idiomas	Customise language		
+848	&Parámetros del sistema	System &parameters		
+849	Crear/modificar idiomas	Customise language		
 850	&Importar	&Import		
-851	Mostrar &Bienvenida	Show &welcome		
-852	&Registro en Línea	Online &registration		
-853	&Actualización en Línea	Online &update		
+851	Mostrar &bienvenida	Show &welcome		
+852	&Registro en línea	Online &registration		
+853	&Actualización en línea	Online &update		
 854	&Examinar	&Browse		
-855	Vendedor por Producto	Salesperson per product		
-856	Vendedor por Cliente	Salesperson per customer		
-857	Producto por Cliente	Product per customer		
-858	Producto por Vendedor	Product per salesperson		
-859	Clientes por Vendedores	Customer per salesperson		
-860	Clientes por Productos	Customer per product		
-861	Compras por Proveedor	Purchases per supplier		
-862	Compras por Productos	Purchases per product		
-863	Opciones de Impresión	Printing options		
-864	&Configurar Impresora	&Printer setup		
-865	Enviar Informe A:	Send report to:		
+855	Vendedor por producto	Salesperson per product		
+856	Vendedor por cliente	Salesperson per customer		
+857	Producto por cliente	Product per customer		
+858	Producto por vendedor	Product per salesperson		
+859	Clientes por vendedores	Customer per salesperson		
+860	Clientes por productos	Customer per product		
+861	Compras por proveedor	Purchases per supplier		
+862	Compras por productos	Purchases per product		
+863	Opciones de impresión	Printing options		
+864	&Configurar impresora	&Printer setup		
+865	Enviar informe a:	Send report to:		
 866	Copias:	Copies:		
 867	F11: Copiar	F11: Copy		
 868	&Tablas	&Tables		
-869	Inventario	Stock		
-870	&Campos Disponibles	&Available fields		
-871	&Campos Seleccionados	&Selected fields		
+869	Stock	Stock		
+870	&Campos disponibles	&Available fields		
+871	&Campos seleccionados	&Selected fields		
 872	Seleccionar de:	Select from:		
-873	&Limpiar Todo	&Clear All		
+873	&Limpiar todo	&Clear All		
 874	Tabla	Table		
-875	Períodos Financieros	Financial periods		
+875	Períodos financieros	Financial periods		
 876	Vendedor	Salesperson		
-877	Empresa a Copiar:	Set of Books to copy:		
+877	Empresa a copiar:	Set of Books to copy:		
 879	&Regresar	&Back		
-880	Archivo Dañado	Files corruption		
-881	Saldos por Período	Balances per period		
-882	Conteo de Cuentas y Artículos de Inventario	Count accounts and stock items		
-883	Clientes y Proveedores	Debtors and creditors		
-884	Asientos y Documentos Pendientes	Outstanding batches and documents		
+880	Archivo dañado	Files corruption		
+881	Saldos por período	Balances per period		
+882	Conteo de cuentas y artículos de stock	Count accounts and stock items		
+883	Clientes y proveedores	Debtors and creditors		
+884	Diarios y documentos pendientes	Outstanding batches and documents		
 885	Documentos no registrados	Unposted documents		
-886	Seleccionar Empresas	Select Set of Books		
+886	Seleccionar empresas	Select Set of Books		
 887	Verificación	Check		
 888	¡El año anterior está cerrado para registro!	Last year is closed for posting!		
 889	¡Este período está cerrado para registro!	This period is closed for posting!		
-890	Para abrirlo, vaya a Configuración de Fechas de Informes	To turn it on, go to Setup -> Reporting dates		
-891	Copia	Backup		
+890	Para abrirlo, vaya a Configuración → Fechas de informes	To turn it on, go to Setup -> Reporting dates		
+891	Copia de seguridad	Backup		
 892	Restaurar	Restore		
 893	Restaurar desde	Restore from		
 894	Restaurar a	Restore to		
-895	Copia desde	Backup from		
-896	Copia a	Backup to		
+895	Copia de seguridad desde	Backup from		
+896	Copia de seguridad a	Backup to		
 897	Detener	Stop		
-898	Restaurar Empresa	Restore Set of Books		
-899	Copia de Empresa	Backup Set of Books		
-900	Copia completada...	Backup completed...		
-901	¡El proceso de copia está completo!	The backup process is completed!		
+898	Restaurar empresa	Restore Set of Books		
+899	Copia de seguridad de empresa	Backup Set of Books		
+900	Copia de seguridad completada...	Backup completed...		
+901	¡El proceso de copia de seguridad está completo!	The backup process is completed!		
 902	Comprimiendo	Zipping		
 903	Por favor inserte un disco	Please insert disk!		
-904	de la copia multi-disco de la empresa	of the multi-disk Set of Books backup.		
-905	Seleccione destino de la copia	Select backup target		
+904	de la copia de seguridad multidisco de la empresa	of the multi-disk Set of Books backup.		
+905	Seleccione destino de la copia de seguridad	Select backup target		
 906	Descomprimiendo	UnZipping		
 908	¡El proceso de restauración está completo!	The restore process is completed!		
 909	Restaurado	Restored		
 910	Inserte el último disco del juego de discos, luego	Insert the last disk of disk set then		
 911	Presione Sí para continuar o No para cancelar	Click on Yes to continue or No to abort		
-912	La copia se ha iniciado...	Starting backup...		
+912	La copia de seguridad se ha iniciado...	Starting backup...		
 913	No se encontró una empresa válida en:	No valid Set of Books found in:		
 914	¡No se puede usar esta unidad! Conéctela e intente nuevamente	Cannot use this drive! Map it and try again...		
-915	No se puede ejecutar la copia...	Cannot run backup...		
-916	La copia está incompleta...	Backup incompleted...		
-917	¡El proceso de copia fue cancelado por el usuario!	Set of Books - Backup process cancelled by user!		
+915	No se puede ejecutar la copia de seguridad...	Cannot run backup...		
+916	La copia de seguridad está incompleta...	Backup incompleted...		
+917	¡El proceso de copia de seguridad fue cancelado por el usuario!	Set of Books - Backup process cancelled by user!		
 918	Archivos comprimidos	Files compressed		
 919	¡Operación cancelada por el usuario!	Process cancelled by the user!		
 920	Iniciando restauración...	Starting Restore...		
@@ -911,365 +911,365 @@
 925	¡Error al abrir archivo!	Error: Opening file!		
 926	Esperando para ejecutar...	Waiting to run...		
 927	¡Este usuario ha sido configurado como administrador por <@APPNAME@>!	This user setting is now turned to administrator user by <@APPNAME@>!		
-928	Entrada de Documento	Document entry		
+928	Entrada de documento	Document entry		
 929	Compras	Purchases		
 930	Detalles	Details		
 931	Encabezado	Header		
-932	Borrar Enlaces	Clear links		
+932	Borrar vínculos	Clear links		
 933	Gen BB/F	Gen BB/F		
-934	Desenlazar	Unlink		
-935	Importe Total	Total amount		
-936	Total Pendiente	Total outstanding		
-937	Total Mayor	Total ledger		
-938	Diferencia/Importe	Difference/Amount		
-939	Diferencia/Pendiente	Difference/Outstand.		
-940	Opciones de Borrar Enlaces	Clear link options		
-941	Borrar todos los Enlaces	Clear all links		
+934	Desvincular	Unlink		
+935	Importe total	Total amount		
+936	Total pendiente	Total outstanding		
+937	Total mayor	Total ledger		
+938	Diferencia/importe	Difference/Amount		
+939	Diferencia/pendiente	Difference/Outstand.		
+940	Opciones de borrar vínculos	Clear link options		
+941	Borrar todos los vínculos	Clear all links		
 942	Usar fecha de inicio	Use start date		
-943	Por Fechas de Crédito	By credit dates		
+943	Por fechas de crédito	By credit dates		
 944	Buscar por	Search by		
 945	Aplicar	Apply		
 946	Importe	Amount		
 947	Pendiente	Outstanding		
 948	Consolidado	Consolidate		
-949	Mostrar Estado de Cuenta	Show statement		
+949	Mostrar estado de cuenta	Show statement		
 950	Conciliar	Reconcile		
 951	Desconciliar	UnReconcile		
 952	&Buscar	&Search		
 953	Procesar	Process		
 954	Conciliado	Reconciled		
 955	Diferencia	Difference		
-956	Buscar por Referencia	Search by reference		
-957	Buscar por Importe	Search by amount		
-958	Buscar por Fecha	Search by date		
-959	Cuenta Corriente Bancaria	Current bank account		
+956	Buscar por referencia	Search by reference		
+957	Buscar por importe	Search by amount		
+958	Buscar por fecha	Search by date		
+959	Cuenta corriente bancaria	Current bank account		
 960	Total	Total		
 961	Registrado	Posted		
-962	No Registrado	Unposted		
-963	Asunto de Pago	Payment item		
-964	Asunto de Recibo	Receipt item		
-965	¡La cuenta de control de inventario y la cuenta de ventas no están configuradas correctamente para este artículo!	Stock control and / or Sales account not set up correctly for this stock item!		
-966	¡Este documento no puede registrarse! Configure correctamente la cuenta de ventas, control de inventario (y costo de ventas) antes de registrar	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!		
+962	No registrado	Unposted		
+963	Asunto de pago	Payment item		
+964	Asunto de recibo	Receipt item		
+965	¡La cuenta de control de stock y la cuenta de ventas no están configuradas correctamente para este artículo!	Stock control and / or Sales account not set up correctly for this stock item!		
+966	¡Este documento no puede registrarse! Configure correctamente la cuenta de ventas, control de stock (y costo de ventas) antes de registrar	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!		
 967	Copias no registradas de <@APPNAME@>	Unregistered copies of <@APPNAME@>		
 968	están limitadas a 500 transacciones o 500 documentos	are limited to 500 transactions or 500 documents		
-969	&Obtener en Línea	&Get it online		
-970	Código de Desbloqueo (de <@APPNAME@>):	Unlocking code (from <@APPNAME@> ):		
-971	Número de Serie:	Serial number:		
+969	&Obtener en línea	&Get it online		
+970	Código de desbloqueo (de <@APPNAME@>):	Unlocking code (from <@APPNAME@> ):		
+971	N° de serie:	Serial number:		
 972	Registre su <@APPNAME@>	Register your <@APPNAME@>		
-973	Para obtener el Código de Desbloqueo o	To get your unlocking code or		
+973	Para obtener el código de desbloqueo o	To get your unlocking code or		
 974	Teléfono:	Phone:		
 975	¡Esta copia de <@APPNAME@> no está registrada! ¿Desea registrarla ahora?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?		
-976	Nombre de la Empresa:	Company name:		
-977	Análisis de Compras	Purchase analysis		
-978	Opciones de Balance General	Balance sheet options		
-979	Mostrar Decimal	Show decimal		
-980	Opciones de Estado de Resultados	Income statement options		
-981	Mostrar Año Anterior	Show last year		
-982	Mostrar Variaciones	Show variance		
+976	Nombre de la empresa:	Company name:		
+977	Análisis de compras	Purchase analysis		
+978	Opciones de balance general	Balance sheet options		
+979	Mostrar decimal	Show decimal		
+980	Opciones de estado de resultados	Income statement options		
+981	Mostrar año anterior	Show last year		
+982	Mostrar variaciones	Show variance		
 983	Nuevo	New		
 984	Eliminar	Delete		
 985	Pantalla	Screen		
 986	Impresora	Printer		
 987	Iniciar	Start		
 988	Final	End		
-989	Selección Automática	Auto-select		
-990	Código de Barras	Barcode		
-991	Código de Barras	Barcode		
-992	Opciones de Producto por Clientes	Product per customer options		
-993	Opciones de Productos por Vendedores	Product per salesperson options		
-994	Opciones de Clientes por Vendedores	Customer per salesperson options		
-995	Opciones de Clientes por Productos	Customer per product options		
-996	Opciones de Vendedores por Clientes	Salesperson per customer options		
-997	Libro de Caja de Pagos	Payments cashbook		
-998	Libro de Caja de Recibos	Receipt cashbook		
-999	Modo Inclusivo	Inclusive mode		
-1000	Balance General	Balance sheet		
-1001	Predeterminado Windows	Windows default		
+989	Selección automática	Auto-select		
+990	Código de barras	Barcode		
+991	Código de barras	Barcode		
+992	Opciones de producto por clientes	Product per customer options		
+993	Opciones de productos por vendedores	Product per salesperson options		
+994	Opciones de clientes por vendedores	Customer per salesperson options		
+995	Opciones de clientes por productos	Customer per product options		
+996	Opciones de vendedores por clientes	Salesperson per customer options		
+997	Libro de caja de pagos	Payments cashbook		
+998	Libro de caja de recibos	Receipt cashbook		
+999	Modo inclusivo	Inclusive mode		
+1000	Balance general	Balance sheet		
+1001	Predeterminado de Windows	Windows default		
 1002	Cuentas	Accounts		
-1003	Seleccionar Contacto	Select contact		
-1004	Seleccionar Grupos	Select groups		
+1003	Seleccionar contacto	Select contact		
+1004	Seleccionar grupos	Select groups		
 1005	¿Desea cancelar el Proceso de Cierre del Ejercicio?	Do you want to cancel the year-end process?		
 1006	¿Está seguro de eliminar este informe del usuario?	Are you sure you want delete this user report?		
-1007	¡Esto afectará gravemente su Empresa! ¿Está seguro de eliminar este Tipo de Asiento?	This will seriously affect your Set of Books! Are you sure you want delete this batch type?		
+1007	¡Esto afectará gravemente su Empresa! ¿Está seguro de eliminar este tipo de diario?	This will seriously affect your Set of Books! Are you sure you want delete this batch type?		
 1008	Opciones de Ventas por Productos	Sales per product options		
-1009	Salida Predeterminada	Default output		
-1010	Logo de la Empresa	Company logo		
-1011	Usar Imagen de Logo en los Informes	Use logo on reports		
+1009	Salida predeterminada	Default output		
+1010	Logo de la empresa	Company logo		
+1011	Usar imagen de logo en los informes	Use logo on reports		
 1012	Opciones	Options		
 1013	Renombrar	Rename		
-1014	&Cargar desde Archivo	&Load from file		
+1014	&Cargar desde archivo	&Load from file		
 1015	&Pegar	&Paste		
 1016	&Limpiar	&Clear		
-1017	<@APPNAME@> - Cargar Logo	<@APPNAME@> - Load logo		
-1018	Eliminar Presupuestos	Delete quotes		
-1019	Eliminar Pedidos	Delete orders		
-1020	Imprimir Logo Estándar	Print standard logo		
-1021	Balance de Sumas y Saldos	Trial balance		
+1017	<@APPNAME@> - Cargar logo	<@APPNAME@> - Load logo		
+1018	Eliminar presupuestos	Delete quotes		
+1019	Eliminar pedidos	Delete orders		
+1020	Imprimir logo estándar	Print standard logo		
+1021	Balance de sumas y saldos	Trial balance		
 1022	al	to		
-1023	Ganancia Neta	Net profit		
+1023	Ganancia neta	Net profit		
 1024	Página	Page		
-1025	Pérdida Neta	Net loss		
+1025	Pérdida neta	Net loss		
 1026	Total para	Total for		
 1027	Presupuesto	Budget		
 1028	Al	As at		
-1029	&Ejecutar Nuevamente	&Re-run		
-1030	Flujo de E&fectivo	C&ash flow		
+1029	&Ejecutar nuevamente	&Re-run		
+1030	Flujo de e&fectivo	C&ash flow		
 1033	Opciones de Análisis de Antigüedad de Proveedores	Creditor age analysis options		
-1034	Opciones del Mayor	Ledger options		
+1034	Opciones del mayor	Ledger options		
 1035	Cada período por separado	Each period separately		
 1036	Nueva página por cuenta	New page per account		
-1037	Fecha del Informe	Date of report		
-1039	Seleccionar Informe	Select report		
-1040	Mostrar Líneas	Show lines		
-1041	Especificar Archivo	Spec file		
-1042	Opciones de Etiquetas	Labels report options		
+1037	Fecha del informe	Date of report		
+1039	Seleccionar informe	Select report		
+1040	Mostrar líneas	Show lines		
+1041	Especificar archivo	Spec file		
+1042	Opciones de etiquetas	Labels report options		
 1043	Opciones de Listado de Clientes	Debtor listing options		
 1044	Opciones de Listado de Proveedores	Creditor listing options		
 1045	Opciones de Flujo de Efectivo	Cash flow options		
 1046	Períodos	Periods		
-1047	Desde Cta. Bancaria	From bank account		
-1048	Incluir Caja Chica	Include petty cash		
-1049	¡El Nombre de la Empresa no puede estar vacío!	Set of Books name cannot be blank!		
-1050	Vista Previa Predeterminada	Default zoom preview		
+1047	Desde cta. bancaria	From bank account		
+1048	Incluir caja chica	Include petty cash		
+1049	¡El nombre de la empresa no puede estar vacío!	Set of Books name cannot be blank!		
+1050	Vista previa predeterminada	Default zoom preview		
 1051	Opciones de Vendedores por Productos	Salesperson per product options		
-1052	Limpiar Lista	Purge list		
+1052	Limpiar lista	Purge list		
 1053	Seleccione Configuración de Empresa para realizar cambios	Select Setup -> Company info you want to change!		
 1054	¿Desea cancelar este proceso?	Do you want to cancel the process?		
 1055	¿Desea eliminar este vendedor?	Do you want to delete the salesperson?		
-1056	Todos los Precios de Venta	All selling prices		
+1056	Todos los precios de venta	All selling prices		
 1057	Ninguno	None		
-1058	Descripción de Inventario	Stock description		
-1059	¡No puede ejecutar el mismo Informe dos veces, ya está en curso!	Cannot run a report twice! The first report is running!		
-1060	¡Los archivos de la Empresa están dañados! Ejecute Reindexar Datos para reconstruir los valores clave	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.		
-1063	Seleccionar archivo de Hoja de Cálculo de Inventario	Select spreadsheet stock file		
+1058	Descripción de stock	Stock description		
+1059	¡No puede ejecutar el mismo informe dos veces, ya está en curso!	Cannot run a report twice! The first report is running!		
+1060	¡Los archivos de la empresa están dañados! Ejecute Reindexar datos para reconstruir los valores clave	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.		
+1063	Seleccionar archivo de hoja de cálculo de stock	Select spreadsheet stock file		
 1064	Contraseña	Password		
-1065	Nombre del Contacto	Contact name		
-1066	Saldos Iniciales	Opening balances		
-1067	&Vista Previa	&Preview		
-1068	Seleccionar Tipo	Select type		
+1065	Nombre del contacto	Contact name		
+1066	Saldos iniciales	Opening balances		
+1067	&Vista previa	&Preview		
+1068	Seleccionar tipo	Select type		
 1069	Desde ... hasta	From ... to		
 1070	Seleccionado	Selected		
-1071	Asientos	Batches		
+1071	Diarios	Batches		
 1072	Usuario	User		
-1073	En Línea	Online		
-1074	&Actualizar Asientos	Update batches		
-1076	Mostrar Grupos de Inventario	Show stock groups		
+1073	En línea	Online		
+1074	&Actualizar diarios	Update batches		
+1076	Mostrar grupos de stock	Show stock groups		
 1077	Opciones de Compras por Producto	Purchases per product options		
 1078	Opciones de Compras por Proveedor	Purchases per supplier options		
 1079	Tipo	Type		
 1080	Utilizar	Use		
-1081	Cuenta de Costo de Ventas	Cost of sales account		
+1081	Cuenta de costo de ventas	Cost of sales account		
 1082	Opciones de Reabastecimiento	Reorder options		
 1083	Opciones de Pedidos Pendientes	Backorder options		
-1084	Mostrar Todos los Artículos	Show all items		
-1085	Nueva página por Artículo	New page per item		
-1086	Opciones de Albarán	Delivery note options		
-1087	Tipo de Documento	Document type		
-1088	Solo Año Anterior	Last year only		
-1089	Avisos de Remesa	Creditor remittance advise		
-1090	Estados de Cuenta de Clientes	Debtor statement		
+1084	Mostrar todos los artículos	Show all items		
+1085	Nueva página por artículo	New page per item		
+1086	Opciones de remito	Delivery note options		
+1087	Tipo de documento	Document type		
+1088	Solo año anterior	Last year only		
+1089	Avisos de remesa	Creditor remittance advise		
+1090	Estados de cuenta de clientes	Debtor statement		
 1091	Gráfico	Graph		
 1092	Calculadora	Calculator		
 1093	Retroceder	Backspace		
 1094	Transferir	Transfer		
-1095	Imprimir Documentos	Print documents		
-1096	Sin Imprimir	UnPrinted		
-1097	No Registrado	Unposted		
+1095	Imprimir documentos	Print documents		
+1096	Sin imprimir	UnPrinted		
+1097	No registrado	Unposted		
 1098	Todo	All		
 1099	Pagos	Payment		
 1100	Recibos	Receipt		
 1101	Opciones de Desconciliar	UnReconcile options		
-1102	Desconciliar por Fecha	UnReconcile by date		
-1103	Desconciliar por Referencia	UnReconcile by reference		
+1102	Desconciliar por fecha	UnReconcile by date		
+1103	Desconciliar por referencia	UnReconcile by reference		
 1104	Opciones de Conciliar	Reconcile options		
-1105	Conciliar por Fecha	Reconcile by date		
-1106	Conciliar por Referencia	Reconcile by reference		
+1105	Conciliar por fecha	Reconcile by date		
+1106	Conciliar por referencia	Reconcile by reference		
 1107	Directorio	Directory		
-1108	Descripción de Cuenta	Account description		
-1109	Tipo de Cuenta	Account type		
-1110	Basado en Factura	Invoice based		
-1111	Basado en Pagos	Payments based		
+1108	Descripción de cuenta	Account description		
+1109	Tipo de cuenta	Account type		
+1110	Basado en factura	Invoice based		
+1111	Basado en pagos	Payments based		
 1112	Preimpreso	Preprinted		
 1113	Plano A4	Plain A4		
 1114	Servicio	Service		
 1115	Plano Eyeline	Plain Eyeline		
 1116	Cuarenta	Forty		
 1117	Agregado	Added		
-1118	Mostrar Persona de Contacto	Show contactperson		
-1119	Desde Lista	From list		
-1120	Número de Documento	Document no.		
-1121	Fecha de Documento	Document date		
-1122	"""Nombre de Precio"", Valor"	"""Price Name"",Value"		
+1118	Mostrar contacto	Show contactperson		
+1119	Desde lista	From list		
+1120	N° de documento	Document no.		
+1121	Fecha de documento	Document date		
+1122	"""Nombre de precio"", Valor"	"""Price Name"",Value"		
 1123	Eliminado	deleted!		
-1124	¡Faltan o están corruptas las Cuentas de Control de Clientes/Proveedores! ¡Contacte al Soporte de <@APPNAME@>!	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!		
+1124	¡Faltan o están corruptas las cuentas de control de Clientes/Proveedores! ¡Contacte al Soporte de <@APPNAME@>!	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!		
 1125	Vencido	Due		
-1126	Saldo Anterior	Brought forward		
-1127	*Saldo a Nuevo	Carried forward		
+1126	Saldo anterior	Brought forward		
+1127	Saldo a nuevo	Carried forward		
 1128	Estado al	Statement to		
-1129	Avisos de Remesa al	Remittance advise to		
-1130	Ref. de Exención	Customer tax ref.		
+1129	Avisos de remesa al	Remittance advise to		
+1130	Ref. de exención	Customer tax ref.		
 1131	Unidad	Unit		
 1132	Precio	Price		
-1133	Factura Aceptada	Invoice accepted		
+1133	Factura aceptada	Invoice accepted		
 1134	Firma	Signature		
-1135	Registro de Impuestos	TAX registration		
-1136	Importe Excluido	Amount exclusive		
-1137	Importe Incluido	Amount inclusive		
-1138	Importe de Impuesto	Tax amount		
+1135	Registro de impuestos	TAX registration		
+1136	Importe excluido	Amount exclusive		
+1137	Importe incluido	Amount inclusive		
+1138	Importe de impuesto	Tax amount		
 1139	Fact.	Inv.		
 1140	Artículo	Item		
 1141	Descuento	Discount		
-1142	Descripción de Artículos de Inventario	Stock item description		
+1142	Descripción de artículos de stock	Stock item description		
 1143	Categoría	Category		
-1144	Dirección de Proveedor	Supplier address		
-1145	Dirección de Factura	Invoice address		
-1146	Nota de Crédito Aceptada	Credit note accepted		
-1147	Compra Aceptada	Purchase document accepted		
-1148	Presupuesto Aceptado	Quote accepted		
-1149	Pedido Aceptado	Order accepted		
-1150	Albarán Aceptado	Delivery note accepted		
+1144	Dirección de proveedor	Supplier address		
+1145	Dirección de factura	Invoice address		
+1146	Nota de crédito aceptada	Credit note accepted		
+1147	Compra aceptada	Purchase document accepted		
+1148	Presupuesto aceptado	Quote accepted		
+1149	Pedido aceptado	Order accepted		
+1150	Remito aceptado	Delivery note accepted		
 1151	Activos	Assets		
-1152	Total Activos	Total Assets		
-1153	Capital y Pasivos	Capital and Liabilities		
-1154	Total Capital y Pasivos	Total Capital and Liabilities		
-1155	Total Ganancias/Pérdidas Netas	Total Net Profit/Loss		
-1156	No Asignado	unllocated		
+1152	Total activos	Total Assets		
+1153	Capital y pasivos	Capital and Liabilities		
+1154	Total capital y pasivos	Total Capital and Liabilities		
+1155	Total ganancias/pérdidas netas	Total Net Profit/Loss		
+1156	No asignado	unllocated		
 1157	en	at		
-1158	Informe de Ingresos y Gastos	Income and expense report		
+1158	Informe de ingresos y gastos	Income and expense report		
 1159	Variación	Variance		
-1160	Ganancia/Pérdida Neta	Net Profit/Loss		
+1160	Ganancia/pérdida neta	Net Profit/Loss		
 1161	¡Búsqueda detenida! ¡Límite alcanzado!	Search stopped! Limit reached!		
 1162	La fecha actual está fuera de su período financiero. ¡Debería ejecutar el Cierre del Ejercicio para procesar esta fecha!	Today's date is beyond your financial period. You should run your year end to process to this date!		
-1163	&Consulta de Asientos	&Lookup		
+1163	&Consulta de asientos	&Lookup		
 1164	&Cliente	&Customer		
-1165	&Fondo de Caja	&Float		
+1165	&Fondo de caja	&Float		
 1166	&Pagos	&Payment		
-1167	&Eliminar Todo	&Delete all		
+1167	&Eliminar todo	&Delete all		
 1168	Por favor lea esto	Please read this		
-1169	Efectivo en Caja	Cash in drawer		
-1170	Tarjetas de Crédito	Credit Cards		
-1171	Entrada/Salida de Fondo	Float in/out		
+1169	Efectivo en caja	Cash in drawer		
+1170	Tarjetas de crédito	Credit Cards		
+1171	Entrada/salida de fondo	Float in/out		
 1172	Cheques	Cheques		
 1173	Comprobantes	Vouchers		
-1174	Control de Acceso PDV	POS Access control		
-1175	Conexión de Punto de Venta	Point-of-Sale login		
-1176	Nombre de Cajero	Cashier name		
-1177	(Nombre de Vendedor)	(Saleperson name)		
-1178	Recordar mi Conexión	Remember my login		
+1174	Control de acceso PDV	POS Access control		
+1175	Conexión de punto de venta	Point-of-Sale login		
+1176	Nombre de cajero	Cashier name		
+1177	(Nombre de vendedor)	(Saleperson name)		
+1178	Recordar mi conexión	Remember my login		
 1179	Clave	Key		
-1180	Lista de Abreviaturas	Abbreviation list		
-1181	Movimientos de Clientes	Debtor movement		
-1182	Movimientos de Proveedores	Creditor movement		
-1183	Movimientos de Cuentas	Account movement		
-1184	Ejecución de Presupuesto	Budget performance		
-1185	Importe de Variación	Variance amount		
-1186	Porcentaje de Variación	Variance percentage		
-1187	Resultados Acumulados	Retained income		
+1180	Lista de abreviaturas	Abbreviation list		
+1181	Movimientos de clientes	Debtor movement		
+1182	Movimientos de proveedores	Creditor movement		
+1183	Movimientos de cuentas	Account movement		
+1184	Ejecución de presupuesto	Budget performance		
+1185	Importe de variación	Variance amount		
+1186	Porcentaje de variación	Variance percentage		
+1187	Resultados acumulados	Retained income		
 1188	Ing./Gtos.	Inc / Exp		
-1189	Lista de Cuentas	List of accounts		
-1190	Artículos en Pedidos Pendientes	Items on backorder		
-1191	Pedidos Pendientes	Backorders		
-1192	Totales por Período	Totals for each period		
-1193	A Balance	To balance		
-1194	Detalles de Entrada de Asiento	Batch entry details		
+1189	Lista de cuentas	List of accounts		
+1190	Artículos en pedidos pendientes	Items on backorder		
+1191	Pedidos pendientes	Backorders		
+1192	Totales por período	Totals for each period		
+1193	A balance	To balance		
+1194	Detalles de entrada de diario	Batch entry details		
 1195	Inclusivo	Inclusive		
 1196	Contra	Contra		
 1197	Soporte <@APPNAME@>	<@APPNAME@> Support		
-1198	Página de Soporte <@APPNAME@>	<@APPNAME@> Support page		
-1199	Informe Detallado de Tipo de Asiento	Batch type details report		
-1200	Imp. Excl.	Excl. amt.		
-1201	Imp. Incl.	Incl. amt.		
+1198	Página de soporte <@APPNAME@>	<@APPNAME@> Support page		
+1199	Informe detallado de tipo de diario	Batch type details report		
+1200	Imp. excl.	Excl. amt.		
+1201	Imp. incl.	Incl. amt.		
 1202	Total:	Total:		
 1203	Investigador	Investigator		
 1204	Búsqueda	Search		
 1205	Buscar por	Seach for		
-1206	Buscar Ahora	Search now		
-1207	Opciones Avanzadas	Advanced options		
+1206	Buscar ahora	Search now		
+1207	Opciones avanzadas	Advanced options		
 1208	Regresar	Back		
-1209	Refinar Búsqueda	Refine search		
+1209	Refinar búsqueda	Refine search		
 1210	¡Límite de registros encontrados!	Record found limit		
 1211	Escriba lo que busca. Para buscar un tipo específico marque el botón correspondiente o haga clic aquí para refinar su búsqueda	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.		
-1212	Consejo de Búsqueda	Search tip		
-1213	Información de Cuentas	Account information		
-1214	Distingue Mayúsculas	Case sensitive		
+1212	Consejo de búsqueda	Search tip		
+1213	Información de cuentas	Account information		
+1214	Distingue mayúsculas	Case sensitive		
 1215	En cualquier parte	Where ever in		
-1216	Posición Inicial	Starting position		
+1216	Posición inicial	Starting position		
 1217	Finalizando	Ending		
 1218	Más	More		
-1219	Opciones de Búsqueda	Search options		
-1220	Nombres de Cuentas	Account names		
+1219	Opciones de búsqueda	Search options		
+1220	Nombres de cuentas	Account names		
 1221	Todo	Everything		
-1222	Movimiento de Clientes	Select debtor		
-1223	Presupuestos para Convertir a Factura	Quotes to convert to invoice		
-1224	Nº Pedido	Order no.		
-1225	Pedidos para Convertir a Compras	Order to convert to purchase		
-1226	Seleccionar Proveedores	Select creditor		
-1227	Búsqueda por Número	Search by number		
-1228	Búsqueda por Cuenta	Search by account		
-1229	Búsqueda por Descripción	Search by description		
-1230	Flujo de Fondos	CASH flow		
-1231	Saldo Inicial de Banco	Opening BANK balance		
-1232	Flujo de Fondos Neto	Net cash flow		
-1233	Saldo Bancario Total	Total bank balance		
-1234	Saldo Inicial de Caja Chica	Opening petty cash balance		
-1235	Ingresos a Caja Chica	Petty cash in		
-1236	Egresos de Caja Chica	Petty cash out		
-1237	Flujo Neto de Caja Chica	Net petty cash flow		
-1238	Total Caja Chica	Total petty cash		
-1239	Total Flujo de Efectivo	Total cash flow		
-1240	Fondos Disponibles	Funds available		
+1222	Movimiento de clientes	Select debtor		
+1223	Presupuestos para convertir a factura	Quotes to convert to invoice		
+1224	N° de pedido	Order no.		
+1225	Pedidos para convertir a compras	Order to convert to purchase		
+1226	Seleccionar proveedores	Select creditor		
+1227	Búsqueda por número	Search by number		
+1228	Búsqueda por cuenta	Search by account		
+1229	Búsqueda por descripción	Search by description		
+1230	Flujo de fondos	CASH flow		
+1231	Saldo inicial de banco	Opening BANK balance		
+1232	Flujo de fondos neto	Net cash flow		
+1233	Saldo bancario total	Total bank balance		
+1234	Saldo inicial de caja chica	Opening petty cash balance		
+1235	Ingresos a caja chica	Petty cash in		
+1236	Egresos de caja chica	Petty cash out		
+1237	Flujo neto de caja chica	Net petty cash flow		
+1238	Total caja chica	Total petty cash		
+1239	Total flujo de efectivo	Total cash flow		
+1240	Fondos disponibles	Funds available		
 1241	EFECTIVO RECIBIDO	CASH RECEIVED		
 1242	EFECTIVO PAGADO	CASH PAID OUT		
-1243	Verificación de Cierre PDV	Point-of-Sale cash-up check		
+1243	Verificación de cierre PDV	Point-of-Sale cash-up check		
 1244	Sistema	System		
 1245	Cantidad	Quantity		
-1246	Efectivo en Caja	Cashed up (in the drawer)		
+1246	Efectivo en caja	Cashed up (in the drawer)		
 1247	Resumen	Summary		
-1248	Verificando Items no Registrados	Checking unposted items		
-1249	Items	Items		
+1248	Verificando ítems no registrados	Checking unposted items		
+1249	Ítems	Items		
 1250	Conteo	Count		
-1251	Listado de Contactos	Contact listing		
+1251	Listado de contactos	Contact listing		
 1252	Teléfono 1	Telephone 1		
 1253	Teléfono 2	Telephone 2		
-1254	Dirección de Correo	E-mail address		
+1254	Dirección de correo	E-mail address		
 1255	Procesando	Processing		
 1256	Por favor espere...	Please wait...		
-1257	Números Reales	Real numbers		
-1258	Decimales Fijos	Fix decimals		
-1259	Cantidad de Documento	Document quantity		
-1260	Decimales en Informes	Reporting decimals		
-1261	Almacenamiento de Datos	Data storage		
-1262	Informe de Importe con	Report amounts with		
-1263	para Crédito	for Credit		
-1264	para Débito/Crédito	for Debit/Credit		
-1265	Visor de Cuentas-T	T-Account viewer		
-1266	Puntos de Venta	Point-of-Sale		
+1257	Números reales	Real numbers		
+1258	Decimales fijos	Fix decimals		
+1259	Cantidad de documento	Document quantity		
+1260	Decimales en informes	Reporting decimals		
+1261	Almacenamiento de datos	Data storage		
+1262	Informe de importe con	Report amounts with		
+1263	para crédito	for Credit		
+1264	para débito/crédito	for Debit/Credit		
+1265	Visor de cuentas-T	T-Account viewer		
+1266	Puntos de venta	Point-of-Sale		
 1267	&Script Pascal	&Script engine		
-1268	Documentos de Ventas	Sales documents		
-1269	Documentos de Compras	Purchase documents		
+1268	Documentos de ventas	Sales documents		
+1269	Documentos de compras	Purchase documents		
 1270	Facturas de PDV	POS Invoice		
-1271	Ingrese el importe a enlazar	Enter amount to link		
-1272	Ingrese el Importe	Enter amount		
-1273	Número de Recibo	Receipt number		
+1271	Ingrese el importe a vincular	Enter amount to link		
+1272	Ingrese el importe	Enter amount		
+1273	N° de recibo	Receipt number		
 1274	Emitido por	Issued by		
-1275	Método de Pago	Payment method		
+1275	Método de pago	Payment method		
 1276	Recibido para	Received for		
 1277	Recibido de	Received from		
-1278	Selección de Item Abierto	Open item selection		
-1279	Referencia de Pago	Payment reference		
+1278	Selección de ítem abierto	Open item selection		
+1279	Referencia de pago	Payment reference		
 1280	Pendiente	Outstanding		
-1281	Transacciones de Clientes	Debtor transactions		
-1282	Mayor Detallado	Detailed ledger		
-1283	Transacciones de Proveedores	Creditor transactions		
-1284	Rango del Informe	Report range		
+1281	Transacciones de clientes	Debtor transactions		
+1282	Mayor detallado	Detailed ledger		
+1283	Transacciones de proveedores	Creditor transactions		
+1284	Rango del informe	Report range		
 1285	Referencia	Reference		
-1286	Saldo Acumulado	Cumulative balance		
+1286	Saldo acumulado	Cumulative balance		
 1287	Saldo al	Balance at		
-1288	Saldos Iniciales al	Opening balance at		
-1289	Saldo Final al	Closing balance at		
-1290	Total Acumulado	Accumulative total		
-1291	Reconstruir Base de Datos	Database rebuild		
-1292	Seleccionar Empresa para Reconstruir	Select Set of Books to rebuild		
+1288	Saldos iniciales al	Opening balance at		
+1289	Saldo final al	Closing balance at		
+1290	Total acumulado	Accumulative total		
+1291	Reconstruir base de datos	Database rebuild		
+1292	Seleccionar empresa para reconstruir	Select Set of Books to rebuild		
 1293	Estado	Status		
 1294	Encabezado	Header		
 1295	Índices	Indexes		
@@ -1277,39 +1277,39 @@
 1297	Reconstruir	Rebuild		
 1298	¡Todos los usuarios deben cerrar sesión antes de ejecutar este proceso!	All users must logout before running this process!		
 1299	Esperando para ejecutar...	Waiting to run ...		
-1300	Claves Reconstruidas	Re-building keys		
+1300	Claves reconstruidas	Re-building keys		
 1301	Verificado	Checked		
-1302	Valores Clave	Key values		
-1303	Claves Corruptas	Key corruption		
-1304	Archivo(s) Verificados OK	Checked OK file(s)		
-1305	Archivo(s) Corruptos	Corrupted file(s)		
-1306	Fecha/Período de Transacciones Reconstruidas	Transaction date/period rebuilt		
-1307	¡Error en Fecha/Período de Transacción! ¡Intente nuevamente!	Transaction date/period failed! Try again!		
+1302	Valores clave	Key values		
+1303	Claves corruptas	Key corruption		
+1304	Archivo(s) verificados OK	Checked OK file(s)		
+1305	Archivo(s) corruptos	Corrupted file(s)		
+1306	Fecha/período de transacciones reconstruidas	Transaction date/period rebuilt		
+1307	¡Error en fecha/período de transacción! ¡Intente nuevamente!	Transaction date/period failed! Try again!		
 1308	Cargando registros Message.db	Loading Message.db records		
 1309	Comprimiendo Message.db	Compressing Message.db		
 1310	Error: ¡Estructura de tabla incorrecta!	Error: Filling table structure!		
 1311	Reconstruyendo	Rebuilding		
-1312	Obtener Valor de Fecha de Informe	Get date report value		
-1313	Albarán	Delivery note		
-1314	Editar Opciones de Recibos	Receipt options		
+1312	Obtener valor de fecha de informe	Get date report value		
+1313	Remito	Delivery note		
+1314	Editar opciones de recibos	Receipt options		
 1315	Imprimir	Print out		
-1316	Listado de Cuentas de Clientes	List of debtor accounts		
-1317	Listado de Cuentas de Proveedores	List of creditor accounts		
-1318	No Asignado	Unlocated		
+1316	Listado de cuentas de clientes	List of debtor accounts		
+1317	Listado de cuentas de proveedores	List of creditor accounts		
+1318	No asignado	Unlocated		
 1319	Teléfono	Telephone		
-1320	Item Abierto	Open Item		
+1320	Ítem abierto	Open Item		
 1321	Saldo B/F	Balance B/F		
 1322	Permitido	Enabled		
-1323	Grupo de Informe 1	Reporting group 1		
-1324	Tipo de Antigüedad	Age type		
-1325	Grupo de Informe 2	Reporting group 2		
+1323	Grupo de informe 1	Reporting group 1		
+1324	Tipo de antigüedad	Age type		
+1325	Grupo de informe 2	Reporting group 2		
 1326	Vendedor	Salesperson		
 1327	Contacto	Contact		
-1328	Interés Mensual	Monthly interest		
-1329	Tipo de Informe	Report type		
+1328	Interés mensual	Monthly interest		
+1329	Tipo de informe	Report type		
 1330	Márgenes	Margins		
-1331	Tamaño de Papel	Paper size		
-1332	Calidad de Papel	Paper quality		
+1331	Tamaño de papel	Paper size		
+1332	Calidad de papel	Paper quality		
 1333	Otros	Others		
 1334	Izquierda	Left		
 1335	Superior	Top		
@@ -1324,80 +1324,80 @@
 1344	Borrador	Draft		
 1345	Carta	Letter		
 1346	Cliente	Customer		
-1347	Seleccionar Cliente	Select customer		
+1347	Seleccionar cliente	Select customer		
 1348	Presione <ESC> para cerrar	Press <ESC> to close		
-1349	Pendiente de Pago	Still to pay		
-1350	Cargar a la Cuenta	Charge to account		
-1351	Código de Cuenta Bancaria	Bank account code		
-1352	Número de Cheque	Cheque number		
-1353	Número de Tarjeta	Card number		
-1354	Nombre del Titular	Holder's name		
-1355	Tipo de Tarjeta	Card type		
-1356	Fecha de Expiración	Expiry date		
-1357	Análisis de Ventas PDV	POS Sales analysis		
-1358	Descripción del Artículo	Item description		
-1359	Importe de Ventas	Sales amount		
+1349	Pendiente de pago	Still to pay		
+1350	Cargar a la cuenta	Charge to account		
+1351	Código de cuenta bancaria	Bank account code		
+1352	N° de cheque	Cheque number		
+1353	N° de tarjeta	Card number		
+1354	Nombre del titular	Holder's name		
+1355	Tipo de tarjeta	Card type		
+1356	Fecha de expiración	Expiry date		
+1357	Análisis de ventas PDV	POS Sales analysis		
+1358	Descripción del artículo	Item description		
+1359	Importe de ventas	Sales amount		
 1360	Totales	Totals		
 1361	Saldo	Balance		
-1362	Editar Precio	Edit price		
-1363	Usar Número de Serie para Seguimiento	Use serial number tracking		
-1364	Método de Pago Predeterminado	Default payment method		
-1365	Límite de Fondo	Float limit		
-1366	Permitir Fondo en Efectivo	Allow cash float		
+1362	Editar precio	Edit price		
+1363	Usar N° de serie para seguimiento	Use serial number tracking		
+1364	Método de pago predeterminado	Default payment method		
+1365	Límite de fondo	Float limit		
+1366	Permitir fondo en efectivo	Allow cash float		
 1367	General	General		
 1368	Configuración	Settings		
 1369	Entrada	Entry		
 1370	Periféricos	Peripherals		
-1371	Pantalla de Entrada	Entry screen		
+1371	Pantalla de entrada	Entry screen		
 1372	Mayor	Ledger		
-1373	Imprimir Detalles del Cliente	Print customer details		
-1374	Imprimir Dirección de Entrega	Print delivery address		
-1375	Imprimir Detalles de Pagos	Print payment details		
-1376	Entrada de Asiento de Ventas	Sales batch entry		
-1377	Entrada de Asiento de Recibos	Receipts batch entry		
-1378	Entrada de Descripción de Pago	Payment description entry		
-1379	Cuenta de Ventas en Efectivo	Cash sales account		
-1380	Cuenta de Transferencia de Efectivo	Cash transfer account		
-1381	Cuenta de Caja Registradora	Till account		
-1382	Máximo en Efectivo - Caja	Max cash in till		
-1383	Número Siguiente	Next number		
-1384	&Usar Mensajes PDV	&Use POS messages		
-1385	Cajón Conectado	Drawer connected		
-1386	Escáner de Código de Barras Conectado	Barcode scanner connected		
-1387	&Probar Cajón	&Test drawer		
-1388	Parámetros de Puerto Serial	Serial port parameters		
+1373	Imprimir detalles del cliente	Print customer details		
+1374	Imprimir dirección de entrega	Print delivery address		
+1375	Imprimir detalles de pagos	Print payment details		
+1376	Entrada de diario de ventas	Sales batch entry		
+1377	Entrada de diario de recibos	Receipts batch entry		
+1378	Entrada de descripción de pago	Payment description entry		
+1379	Cuenta de ventas en efectivo	Cash sales account		
+1380	Cuenta de transferencia de efectivo	Cash transfer account		
+1381	Cuenta de caja registradora	Till account		
+1382	Máximo en efectivo - caja	Max cash in till		
+1383	N° siguiente	Next number		
+1384	&Usar mensajes PDV	&Use POS messages		
+1385	Cajón conectado	Drawer connected		
+1386	Escáner de código de barras conectado	Barcode scanner connected		
+1387	&Probar cajón	&Test drawer		
+1388	Parámetros de puerto serial	Serial port parameters		
 1389	Puerto	Port		
 1390	Abrir cajón de efectivo	Open cash drawer for		
-1391	Puerto Paralelo	Parallel port		
-1392	Puerto Serial	Serial port		
-1393	Velocidad en Baudios	Baud rate		
-1394	Bits de Datos	Data bits		
-1395	Bits de Parada	Stop bits		
+1391	Puerto paralelo	Parallel port		
+1392	Puerto serial	Serial port		
+1393	Velocidad en baudios	Baud rate		
+1394	Bits de datos	Data bits		
+1395	Bits de parada	Stop bits		
 1396	Paridad	Parity		
-1397	Número de Puerto	Port number		
-1398	Confirmar Impresión	Confirm printing		
-1399	Usar Primera Impresora	Use first printer		
-1400	Usar Segunda Impresora	Use second printer		
-1401	Segunda Impresora	Second printer		
-1402	Primera Impresora	First printer		
-1403	&Probar Impresoras	&Test printers		
-1404	Código de Control de Impresora	Printer control code		
+1397	N° de puerto	Port number		
+1398	Confirmar impresión	Confirm printing		
+1399	Usar primera impresora	Use first printer		
+1400	Usar segunda impresora	Use second printer		
+1401	Segunda impresora	Second printer		
+1402	Primera impresora	First printer		
+1403	&Probar impresoras	&Test printers		
+1404	Código de control de impresora	Printer control code		
 1405	Conexión	Login		
-1406	Ingrese su Contraseña	Enter your password		
-1407	Configuración de Papel para Impresora de Matriz	Dot-matrix printer paper setup		
-1408	Parámetros del Sistema	System parameters		
+1406	Ingrese su contraseña	Enter your password		
+1407	Configuración de papel para impresora de matriz	Dot-matrix printer paper setup		
+1408	Parámetros del sistema	System parameters		
 1409	Configurar PDV	POS setup		
-1410	&Usar Mensajes de Factura	&Use invoice messages		
+1410	&Usar mensajes de factura	&Use invoice messages		
 1411	Impresoras	Printers		
 1412	¡Error al importar o formato de archivo inválido!	Error while importing or invalid file format!		
-1413	¡El usuario no puede usar este diario!	User cannot use this batch!		
+1413	¡El usuario no puede utilizar este diario!	User cannot use this batch!		
 1414	Habilitar acceso en Configuración → Parámetros del sistema → Control de acceso	Enable access in Setup -> Access control		
 1700	Análisis de vencimiento de acreedores	Creditor age analysis		
-1701	Número de referencia	Reference no.		
+1701	N° de referencia	Reference no.		
 1702	Total de transacciones	Transaction total		
 1703	Totales del informe:	Totals for report :		
 1704	Análisis de vencimiento de deudores al	Debtor age analysis as at		
-1706	N.º	No.		
+1706	N°	No.		
 1707	Código de stock	Stock code		
 1708	Descripción	Description		
 1709	Precio	Price		
@@ -1405,13 +1405,13 @@
 1711	Descuento	Discount		
 1712	Importe	Amount		
 1713	Movimiento de caja	Float movement		
-1714	Entrada de factura en TPV	Point-of-Sale invoice entry		
+1714	Entrada de factura en PDV	Point-of-Sale invoice entry		
 1715	&Fuera del cajón	&Out of the drawer		
 1716	&En el cajón	&Into the drawer		
 1717	Cliente	Customer		
 1718	Vendedor:	Salesperson:		
 1719	Referencia	Reference		
-1720	¡No hay cuenta de cliente predeterminada configurada! ¡Por favor, configúrela!	Default customer account not setup! Please setup!		
+1720	¡No hay cuenta de cliente predeterminada configurada! ¡Por favor configúrela!	Default customer account not setup! Please setup!		
 1721	Nueva factura	New invoice		
 1722	Fact. %s (Tarjeta de crédito)	Inv. %s (Credit Card)		
 1723	Fact. %s (Cuenta)	Inv. %s (Account)		
@@ -1423,18 +1423,18 @@
 1729	(Vale)	(Voucher)		
 1730	(Cheque)	(Cheque)		
 1731	(Efectivo)	(Cash)		
-1732	Número de tarjeta:	Card number:		
+1732	N° de tarjeta:	Card number:		
 1733	Nombre del titular:	Holder name:		
 1734	Tipo de tarjeta:	Card type:		
-1735	Fecha de caducidad:	Expiry date:		
+1735	Fecha de vencimiento:	Expiry date:		
 1736	¿Desea cerrar y cancelar esta factura ahora?	Do you want to close and cancel this invoice now?		
 1737	¡No se puede ejecutar sin valores predeterminados!	Cannot run without default!		
-1738	Esto cerrará la pantalla de entrada de facturas y registrará todas las facturas de TPV para...	This will close the invoice entry screen and post all POS invoices for ...		
+1738	Esto cerrará la pantalla de entrada de facturas y registrará todas las facturas de PDV para...	This will close the invoice entry screen and post all POS invoices for ...		
 1739	¡Cambio a devolver!	Change to give back.		
 1740	¡Gracias!	Thanks.		
 1741	¡Cierre de sesión y registro de todas las facturas!	Closing shift and posting all invoices		
 1742	Registro de documentos	Posting document		
-1743	*Prueba de impresión de ticket	Till slip PRINTER TEST		
+1743	Prueba de impresión de ticket	Till slip PRINTER TEST		
 1744	Alineación izquierda	Left alignment		
 1745	Alineación central	Centre alignment		
 1746	Alineación derecha	Right alignment		
@@ -1443,14 +1443,14 @@
 1749	<@APPNAME@> Prueba de caja	<@APPNAME@> till test		
 1750	&Cierre de caja	&Cash up		
 1751	&Reimprimir última factura	&Reprint last invoice		
-1752	Cerrar &sesión de TPV	Cl&ose shift		
+1752	Cerrar &sesión de PDV	Cl&ose shift		
 1753	Modo Incl./Excl.	Incl./Excl. mode		
 1754	&Informes	&Report		
 1755	&Abrir cajón	&Open drawer		
-1756	Cambiar alias (nombre de lote)	Change alias (batch name)		
-1757	Lote inverso (D<-->C)	Reverse batch (D<-->C)		
-1758	Importación de lotes registrados	Posted batches import		
-1759	Punto de venta (TPV)	Point-of-Sale		
+1756	Cambiar alias (nombre de diario)	Change alias (batch name)		
+1757	Diario inverso (D<-->C)	Reverse batch (D<-->C)		
+1758	Importación de diarios registrados	Posted batches import		
+1759	Punto de venta (PDV)	Point-of-Sale		
 1760	Buscar	Search		
 1761	&Diseñador de informes	&Report designer		
 1762	&Estándar	&Standard		
@@ -1495,7 +1495,7 @@
 1801	Código de barras	Barcode		
 1802	Fecha	Date		
 1803	¡Cambiar el código de artículo hará que todos los informes usen este código!	Changing the stock code will result in all reports to use this code!		
-1804	¿Está seguro de que desea cambiar el código?	 Are you sure you want to change the code?		
+1804	¿Está seguro de que desea cambiar el código?	Are you sure you want to change the code?		
 1805	Complementos	Plugins		
 1806	Creando la empresa...	Creating Set of Books...		
 1807	Creando cuentas requeridas...	Creating required accounts...		
@@ -1512,16 +1512,16 @@
 1818	Empresa antigua a convertir:	Old Set of Books to convert :		
 1820	&Ver	&Browse		
 1821	Creando conjunto de cuentas...	Creating set of accounts...		
-1822	¿Desea especificar el número de períodos contables en su ejercicio y establecer la fecha de inicio?	Accounting periods setup		
-1823	¿Desea cambiar sus tipos de lote?	Batch types setup		
-1824	¿Desea cambiar sus grupos?	Groups setup		
-1825	¿Vende artículos de stock?	Documents setup		
+1822	Configuración de períodos contables	Accounting periods setup		
+1823	Configuración de tipos de diario	Batch types setup		
+1824	Configuración de grupos	Groups setup		
+1825	Configuración de documentos	Documents setup		
 1826	Añadir vendedores	Add salespersons		
 1827	¡Empresa copiada!	Set of Books copied!		
 1828	Nombre:	Name :		
 1829	Ubicación:	Location :		
 1831	Convirtiendo empresas...	Converting Set of Books...		
-1832	N.º de artículo	Item no.		
+1832	N° de artículo	Item no.		
 1833	Grupos de cuentas	Account groups		
 1834	Grupos de deudores	Debtor groups		
 1835	Grupos de acreedores	Creditor groups		
@@ -1543,7 +1543,7 @@
 1851	Borrando transacciones de stock...	Clearing stock transactions...		
 1852	Borrando información de stock...	Clearing stock information...		
 1853	Borrando transacciones de documentos...	Clearing document transactions...		
-1854	Borrando información de lotes...	Clearing batch information...		
+1854	Limpiando información de diarios...	Clearing batch information...		
 1855	Nuevo grupo	New group		
 1856	Actual	Current		
 1857	30 Días	30 days		
@@ -1556,7 +1556,7 @@
 1864	Importe sin IVA	Excl. amt.		
 1865	% Desc.	Disc%		
 1866	Importe con IVA	Incl. amt.		
-1867	Nombre del lote	Batch name		
+1867	Nombre del diario	Batch name		
 1868	Cuenta contrapartida	Contra account		
 1869	Tipo de documento	Document type		
 1870	Presupuestos	Quotes		
@@ -1592,7 +1592,7 @@
 1900	Correo electrónico del usuario	User e-mail		
 1901	Acceso a informes	Reports access		
 1902	Informes del libro mayor	General ledger reports		
-1903	Acceso a lotes	Batches access		
+1903	Acceso a diarios	Batches access		
 1904	Seleccionar cuentas para bloquear	Select accounts to block		
 1905	Otros	Others		
 1906	Editar cuentas	Edit accounts		
@@ -1615,7 +1615,7 @@
 1923	Transfiriendo	Transfering		
 1924	Banco	Bank		
 1925	Impuesto	Tax		
-1926	¡Los lotes de la cuenta bancaria no están configurados correctamente!	Bank account batches not setup correctly!		
+1926	¡Los diarios de la cuenta bancaria no están configurados correctamente!	Bank account batches not setup correctly!		
 1927	Pagos -	Payment		
 1928	¡No se pueden registrar transacciones en una cuenta que tiene subcuentas!	Cannot post transactions to an account which has sub-accounts!		
 1929	Proceso	Process		
@@ -1656,9 +1656,9 @@
 1964	Conectando a %s	Connecting to %s		
 1965	Usuario probando en el servidor	User testing on server		
 1966	¡Conexión al servidor fallida!	Server connection failed!		
-1967	<@APPNAME@> ¡Se ha alcanzado el límite de 500 transacciones o 500 documentos! Por favor, regístrese y compre una licencia.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.		
-1968	¡Este software está limitado a 500 transacciones o 500 documentos! Por favor, regístrese y compre una licencia para <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.		
-1969	¡No puede tener más de %s para esta copia sin registrar de <@APPNAME@>! ¡Por favor, regístrese y obtenga su código de licencia!	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!		
+1967	<@APPNAME@> ¡Se ha alcanzado el límite de 500 transacciones o 500 documentos! Por favor regístrese y compre una licencia.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.		
+1968	¡Este software está limitado a 500 transacciones o 500 documentos! Por favor regístrese y compre una licencia para <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.		
+1969	¡No puede tener más de %s para esta copia sin registrar de <@APPNAME@>! ¡Por favor regístrese y obtenga su código de licencia!	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!		
 1970	¡Solo se permiten períodos entre 1 y 13!	Only periods between 1 and 13 are allowed!		
 1971	¿Desea guardar estos cambios?	Do you want to save these changes ?		
 1972	Contraseña de usuario	User password		
@@ -1672,7 +1672,7 @@
 1980	Contraseña de usuario	User password		
 1981	Siempre balance	Always balance		
 1982	Sin impuesto	No tax		
-1983	Lote sin elementos abiertos	Not open item batch		
+1983	Diario sin elementos abiertos	Not open item batch		
 1984	Contrapartida inversa	Reverse contra		
 1985	Recordar impuesto en cuenta contrapartida	Remember tax on contra account		
 1986	Recordar contrapartida en cuenta	Remember contra on account		
@@ -1685,14 +1685,14 @@
 1993	Registrando: %s de %s	Posting: %s of %s		
 1994	COSTE DE VENTAS	COST OF SALES		
 1995	CDV*DOC*	COS*DOC*		
-1996	Comprobando entradas de lote...	Checking batch entries ...		
+1996	Comprobando entradas de diario...	Checking batch entries ...		
 1997	Actualizando totales	Updating totals		
 1998	Documentos	Documents		
 1999	Stock	Stock		
 2000	Deudores/Clientes	Debtors		
 2001	Cuentas	Accounts		
 2002	Acreedores/Proveedores	Creditors		
-2003	Lotes registrados	Posted batches		
+2003	Diarios registrados	Posted batches		
 2004	Exportar a:	Export to:		
 2005	Tipo de archivo	File type		
 2006	Nombre de archivos de exportación	Export files name		
@@ -1743,10 +1743,10 @@
 2051	*Indica artículo sin IVA	*Indicates non-TAX item		
 2052	Artículos	Items		
 2053	Vencimiento	Due		
-2054	¡Registro bloqueado por otro usuario! ¡Por favor, inténtelo de nuevo!	Record locked by other user! Please try again!		
+2054	¡Registro bloqueado por otro usuario! ¡Por favor inténtelo de nuevo!	Record locked by other user! Please try again!		
 2056	Usar impresión de factura	Use invoice print		
 2057	Líneas de alimentación inferiores	Bottom feed lines		
-2058	Cierre de caja de TPV	POS Cash up		
+2058	Cierre de caja de PDV	POS Cash up		
 2059	¡No se puede obtener nuevo número! ¡Registro bloqueado! ¡Inténtelo más tarde!	Cannot get new number! Record is locked! Try again later!		
 2060	Generar transacciones bancarias	Generate bank bookings		
 2061	Transacciones de extracto bancario	Bank statement transactions		
@@ -1772,12 +1772,12 @@
 2081	Exportando a archivo de hoja de cálculo SYLK	Exporting to SYLK spreadsheet file		
 2082	Exportando a archivo de MS Excel	Exporting to MS Excel file		
 2083	Preparando lista	Preparing list		
-2084	Invertir lote/documento registrado	Reverse posted batch/document		
-2085	Alias (nombre de lote)	Alias (batch name)		
-2086	Invertir lote registrado	Reverse posted batch		
+2084	Revertir diario/documento registrado	Reverse posted batch/document		
+2085	Alias (nombre de diario)	Alias (batch name)		
+2086	Revertir diario registrado	Reverse posted batch		
 2087	Invertir documento registrado	Reverse posted document		
 2088	Recuento de líneas	Line count		
-2089	N.º doc.	Doc. no.		
+2089	N° doc.	Doc. no.		
 2090	Usar números	Use numbers		
 2091	Usar períodos	Use periods		
 2092	Mostrar contrapartida	Show contra		
@@ -1786,7 +1786,7 @@
 2095	¡No puede informar de %s a %s!	You cannot report from %s to %s !		
 2096	¡Un registro fue editado! ¿Desea registrar sus datos?	A record was edited! Do you wish to post you data?		
 2097	¡Transferencia de caja no permitida!	Float transfer not allowed!		
-2098	¡Aún tiene cantidad recibida. %s! ¡No puede dejar cantidad sin pagar para factura de TPV!	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!		
+2098	¡Aún tiene cantidad recibida. %s! ¡No puede dejar cantidad sin pagar para factura de PDV!	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!		
 2099	¡Archivo de diseño de informe no encontrado!	Report layout file not found!		
 2100	Haga clic en Aceptar para guardar el nuevo nombre.	Click on OK to save new name		
 2101	Números generales	General numbers		
@@ -1825,7 +1825,7 @@
 2134	De&scripción	De&scription		
 2135	A deudores para (importe)	To debtors for (amount)		
 2136	A deudores con saldo menor que (importe)	To debtors with a balance less than (amount)		
-2137	Número de días vencidos	Number of days overdue		
+2137	N° de días vencidos	Number of days overdue		
 2138	Generar transacciones múltiples	Generate multiple transactions		
 2139	De deudor:	From debtor		
 2140	A:	To:		
@@ -1839,548 +1839,548 @@
 2148	Según <@APPNAME@>:	According to <@APPNAME@>:		
 2149	SALDO AL	BALANCE AT		
 2150	artículos disponibles	items on hand		
-2151	Introduzca descuento total	Enter overall discount		
-2152	Nota de crédito	Credit note		
-2153	Compras	Purchases		
-2154	Devoluciones a proveedores	Supplier returns		
-2155	Factura	Invoice		
-2156	Totales de factura:	Invoice totals :		
-2157	Totales de nota de crédito:	Credit note totals :		
-2158	Totales de cliente:	Customer totals :		
-2159	Ventas por cliente	Sales analysis - Sales per customer		
-2160	Totales de compra:	Purchase totals :		
-2161	Totales de devoluciones a proveedores:	Supplier return totals :		
-2162	Totales de proveedor:	Supplier totals :		
-2163	Compras por proveedor	Sales analysis - Purchases per supplier		
-2167	Buscar por número de factura	Search by invoice no.		
-2168	Ubicación de empresa:	Set of Books location :		
-2169	Presupuesto	Quote		
-2170	Pedido	Order		
-2171	Usar referencia	Use reference		
-2172	*Opciones de generar saldo inicial	Generate Balance B/F options		
-2173	Opciones de borrar enlaces	Clear links options		
-2174	Por fechas de débito	By debit dates		
-2175	Incluir elementos desde	Include items since		
-2176	Fecha actual	Current date		
-2177	¡Importe de impuesto encontrado pero cuenta de impuesto eliminada!	Tax amount found but tax account is deleted!		
-2178	COSTE DE VENTAS	COST OF SALES		
-2179	Día	Day		
-2180	N	N		
-2181	De deudor	From debtor		
-2182	A deudor	To debtor		
-2183	Importando: %s de %s	Importing : %s  of %s		
-2184	Importando acreedores/proveedores	Importing debtors/creditors		
-2185	Mi descripción	My description		
-2186	Opciones de conciliación bancaria	Bank statement options		
-2187	(Doc.)	(Doc.)		
-2188	Verificando elementos no registrados	Checking unposted items		
-2189	Solo no registrados	Unposted only		
-2190	Cada lote por separado	Each batch separately		
-2191	Mostrar detalles	Show details		
-2192	Imprimiendo en	Printing on		
-2193	Numeración de texto holandesa	Dutch text numbering		
-2194	Usar símbolo monetario	Use currency sign		
-2195	Símbolo de dígito	Digit symbol		
-2196	Símbolo decimal	Decimal symbol		
-2197	Modo	Mode		
-2198	Factura/Contabilidad	Invoice/Accounting		
-2199	Contabilidad	Accounting		
-2200	Punto de venta (TPV)	Point-of-Sale		
-2201	Editar deudores/clientes	Edit debtors		
-2202	Editar acreedores/proveedores	Edit creditors		
-2203	Editar impuesto	Edit tax		
-2204	Editar banco	Edit bank		
-2205	Método de conciliación bancaria predeterminado	Default bank reconciliation		
-2206	Dirección 2	Address 2		
-2207	País	Country		
-2208	11 Prueba	11 Proof		
-2209	Arbitrario	Arbitrair		
-2210	Tipo de cuenta bancaria	Bank account type		
-2211	Número de cuenta bancaria	Bank account no.		
-2212	Pagos automáticos	Automatic payments		
-2213	Fecha de pago	Payment date		
-2214	Crear archivo Clieop	Create Clieop file		
-2215	Cuenta bancaria de pago	Payment bank account		
-2216	Transacción de pago	Pay transaction		
-2217	Guardar archivo	Save file		
-2218	Código de deudor	Debtor code		
-2219	Código de acreedor	Creditor code		
-2220	Dirección	Address		
-2221	Días de vencimiento	Due days		
-2222	Fecha de vencimiento	Due date		
-2223	Desmarcar todo	Uncheck all		
-2224	Desmarcar seleccionado	Uncheck selected		
-2225	Marcar seleccionado	Check selected		
-2226	Informe de pago a acreedores	Creditor payment report		
-2227	Total filas	Total rows		
-2228	Importe total	Total amount		
-2229	Cuentas bancarias de suma de comprobación	Checksum bank accounts		
-2230	Introduzca referencia de extracto	Enter statement reference		
-2231	Referencia de extracto	Statement reference		
-2232	Pagos	Payments		
-2233	Recibos	Receipts		
-2234	Último total	Last total		
-2235	Último extracto introducido	Last entered statement		
-2236	^D: Eliminar extracto	^D : Delete statement		
-2237	Eliminar línea	Delete line		
-2238	Importar extracto bancario	Import bank statement		
-2239	11 Prueba	11 Proof		
-2240	Sin comprobación	No check		
-2241	Días de vencimiento	Due days		
-2242	Ordenar	Sort		
-2243	S	Y		
-2244	N	N		
-2245	M.	T		
-2246	V.	F		
-2247	M.	Wy		
-2248	Eliminar	Delete		
-2249	¡Esta función no está implementada actualmente!	This feature is not implemented at this time!		
-2250	Error: ¡Fecha inválida!	Error: Invalid date!		
-2251	¡No hay temporizadores de Windows disponibles!	No Windows timers are available!		
-2252	¡Manejador de disparador inválido!	Invalid trigger handle!		
-2253	Editor de elementos de carpeta	Folder items editor.		
-2254	Editor de carpetas	Folder editor		
-2255	¡Conflicto con otro evento exclusivo!	Conflicts with another exclusive event!		
-2256	¡La hora final no puede preceder a la hora inicial!	The end time cannot precede the start time!		
-2257	¡Error al registrar datos en la base de datos!	Error: Posting data to the database!		
-2258	¡Error al convertir el número de mes!	Error converting the month number!		
-2259	Error: ¡Día inválido!	Error: Invalid day!		
-2260	Error: ¡Fallo al crear contacto!	Error: Failure while creating contact!		
-2261	Error: ¡Mes inválido!	Error: Invalid month!		
-2262	Error: ¡Nombre de mes inválido!	Error: Invalid month name!		
-2263	Error: ¡Año inválido!	Error: Invalid year!		
-2264	Error: ¡Se requiere día!	Error: Day is required!		
-2265	Error: ¡Se requiere mes!	Error: Month is required!		
-2266	Error: ¡Se requiere año!	Error: Year is required!		
-2267	Error: ¡El nombre no puede estar vacío!	Error: Name cannot be empty!		
-2268	Error: ¡Fallo al crear tarea!	Error: Failure while creating task!		
-2269	Error: ¡Fallo al crear evento!	Error: Failure while creating event!		
-2271	Error: ¡Fallo al crear recurso!	Error: Failure while creating resource!		
-2272	Error: ¡Recurso duplicado!	Error: Duplicate resource!		
-2273	Error: ¡Tabla inválida especificada!	Error: Invalid table specified!		
-2274	Error: ¡No se puede abrir!	Error: Unable to open!		
-2275	Error: ¡No se puede actualizar!	Error: Unable to update!		
-2276	Asistente	Assistant		
-2277	Retrollamada	Callback		
-2278	Coche	Car		
-2279	Empresa	Company		
-2280	Hogar	Home		
-2281	Fax de casa	Home fax		
-2282	ISDN	ISDN		
-2283	Móvil	Mobile		
-2284	Otro	Other		
-2285	Otro fax	Other fax		
-2286	Buscapersonas	Pager		
-2287	Principal	Primary		
-2288	Radio	Radio		
-2289	Télex	Telex		
-2290	TTY/TDD	TTY/TDD		
-2291	Trabajo	Work		
-2292	Fax del trabajo	Work fax		
-2293	Negocios	Business		
-2294	Clientes	Clients		
-2295	Familia	Family		
-2296	Personal	Personal		
-2297	Otro	Other		
-2298	Semana del	Week of		
-2299	Hasta	Through		
-2300	Domingo	Sunday		
-2301	Lunes	Monday		
-2302	Martes	Tuesday		
-2303	Miércoles	Wednesday		
-2304	Jueves	Thursday		
-2305	Viernes	Friday		
-2306	Sábado	Saturday		
-2307	Dom.	Sun		
-2308	Lun.	Mon		
-2309	Mar.	Tue		
-2310	Mié.	Wed		
-2311	Jue.	Thu		
-2312	Vie.	Fri		
-2313	Sáb.	Sat		
-2314	D.	S		
-2315	L.	M		
+2151	Nota de crédito	Enter overall discount		
+2152	Compras	Credit note		
+2153	Devoluciones	Purchases		
+2154	Factura	Supplier returns		
+2155	Totales de factura:	Invoice		
+2156	Totales de nota de crédito:	Invoice totals :		
+2157	Totales de cliente:	Credit note totals :		
+2158	Ventas por cliente	Customer totals :		
+2159	Totales de compra:	Sales analysis - Sales per customer		
+2160	Totales de devoluciones:	Purchase totals :		
+2161	Totales de proveedor:	Supplier return totals :		
+2162	Compras por proveedor	Supplier totals :		
+2163	Buscar por N° de factura	Sales analysis - Purchases per supplier		
+2167	Ubicación de empresa:	Search by invoice no.		
+2168	Presupuesto	Set of Books location :		
+2169	Pedido	Quote		
+2170	Usar referencia	Order		
+2171	Opciones de generar saldo inicial	Use reference		
+2172	Opciones de borrar enlaces	Generate Balance B/F options		
+2173	Por fechas de débito	Clear links options		
+2174	Incluir elementos desde	By debit dates		
+2175	Fecha actual	Include items since		
+2176	¡Importe de impuesto encontrado pero cuenta de impuesto eliminada!	Current date		
+2177	COSTE DE VENTAS	Tax amount found but tax account is deleted!		
+2178	Día	COST OF SALES		
+2179	N	Day		
+2180	De deudor	N		
+2181	A deudor	From debtor		
+2182	Importando: %s de %s	To debtor		
+2183	Importando acreedores/proveedores	Importing : %s  of %s		
+2184	Mi descripción	Importing debtors/creditors		
+2185	Opciones de conciliación bancaria	My description		
+2186	(Doc.)	Bank statement options		
+2187	Verificando elementos no registrados	(Doc.)		
+2188	Solo no registrados	Checking unposted items		
+2189	Cada diario por separado	Unposted only		
+2190	Mostrar detalles	Each batch separately		
+2191	Imprimiendo en	Show details		
+2192	Numeración de texto holandesa	Printing on		
+2193	Usar símbolo monetario	Dutch text numbering		
+2194	Símbolo de dígito	Use currency sign		
+2195	Símbolo decimal	Digit symbol		
+2196	Modo	Decimal symbol		
+2197	Factura/Contabilidad	Mode		
+2198	Contabilidad	Invoice/Accounting		
+2199	Punto de venta (PDV)	Accounting		
+2200	Editar deudores/clientes	Point-of-Sale		
+2201	Editar acreedores/proveedores	Edit debtors		
+2202	Editar impuesto	Edit creditors		
+2203	Editar banco	Edit tax		
+2204	Método de conciliación bancaria predeterminado	Edit bank		
+2205	Dirección 2	Default bank reconciliation		
+2206	País	Address 2		
+2207	11 Prueba	Country		
+2208	Arbitrario	11 Proof		
+2209	Tipo de cuenta bancaria	Arbitrair		
+2210	N° de cuenta bancaria	Bank account type		
+2211	Pagos automáticos	Bank account no.		
+2212	Fecha de pago	Automatic payments		
+2213	Crear archivo Clieop	Payment date		
+2214	Cuenta bancaria de pago	Create Clieop file		
+2215	Transacción de pago	Payment bank account		
+2216	Guardar archivo	Pay transaction		
+2217	Código de deudor	Save file		
+2218	Código de acreedor	Debtor code		
+2219	Dirección	Creditor code		
+2220	Días de vencimiento	Address		
+2221	Fecha de vencimiento	Due days		
+2222	Desmarcar todo	Due date		
+2223	Desmarcar seleccionado	Uncheck all		
+2224	Marcar seleccionado	Uncheck selected		
+2225	Informe de pago a acreedores	Check selected		
+2226	Total filas	Creditor payment report		
+2227	Importe total	Total rows		
+2228	Cuentas bancarias de suma de comprobación	Total amount		
+2229	Introduzca referencia de extracto	Checksum bank accounts		
+2230	Referencia de extracto	Enter statement reference		
+2231	Pagos	Statement reference		
+2232	Recibos	Payments		
+2233	Último total	Receipts		
+2234	Último extracto introducido	Last total		
+2235	^D: Eliminar extracto	Last entered statement		
+2236	Eliminar línea	^D : Delete statement		
+2237	Importar extracto bancario	Delete line		
+2238	11 Prueba	Import bank statement		
+2239	Sin comprobación	11 Proof		
+2240	Días de vencimiento	No check		
+2241	Ordenar	Due days		
+2242	S	Sort		
+2243	N	Y		
+2244	M.	N		
+2245	V.	T		
+2246	M.	F		
+2247	Eliminar	Wy		
+2248	¡Esta función no está implementada actualmente!	Delete		
+2249	Error: ¡Fecha inválida!	This feature is not implemented at this time!		
+2250	¡No hay temporizadores de Windows disponibles!	Error: Invalid date!		
+2251	¡Manejador de disparador inválido!	No Windows timers are available!		
+2252	Editor de elementos de carpeta	Invalid trigger handle!		
+2253	Editor de carpetas	Folder items editor.		
+2254	¡Conflicto con otro evento exclusivo!	Folder editor		
+2255	¡La hora final no puede preceder a la hora inicial!	Conflicts with another exclusive event!		
+2256	¡Error al registrar datos en la base de datos!	The end time cannot precede the start time!		
+2257	¡Error al convertir el número de mes!	Error: Posting data to the database!		
+2258	Error: ¡Día inválido!	Error converting the month number!		
+2259	Error: ¡Fallo al crear contacto!	Error: Invalid day!		
+2260	Error: ¡Mes inválido!	Error: Failure while creating contact!		
+2261	Error: ¡Nombre de mes inválido!	Error: Invalid month!		
+2262	Error: ¡Año inválido!	Error: Invalid month name!		
+2263	Error: ¡Se requiere día!	Error: Invalid year!		
+2264	Error: ¡Se requiere mes!	Error: Day is required!		
+2265	Error: ¡Se requiere año!	Error: Month is required!		
+2266	Error: ¡El nombre no puede estar vacío!	Error: Year is required!		
+2267	Error: ¡Fallo al crear tarea!	Error: Name cannot be empty!		
+2268	Error: ¡Fallo al crear evento!	Error: Failure while creating task!		
+2269	Error: ¡Fallo al crear recurso!	Error: Failure while creating event!		
+2271	Error: ¡Recurso duplicado!	Error: Failure while creating resource!		
+2272	Error: ¡Tabla inválida especificada!	Error: Duplicate resource!		
+2273	Error: ¡No se puede abrir!	Error: Invalid table specified!		
+2274	Error: ¡No se puede actualizar!	Error: Unable to open!		
+2275	Asistente	Error: Unable to update!		
+2276	Retrollamada	Assistant		
+2277	Coche	Callback		
+2278	Empresa	Car		
+2279	Hogar	Company		
+2280	Fax de casa	Home		
+2281	ISDN	Home fax		
+2282	Móvil	ISDN		
+2283	Otro	Mobile		
+2284	Otro fax	Other		
+2285	Buscapersonas	Other fax		
+2286	Principal	Pager		
+2287	Radio	Primary		
+2288	Télex	Radio		
+2289	TTY/TDD	Telex		
+2290	Trabajo	TTY/TDD		
+2291	Fax del trabajo	Work		
+2292	Negocios	Work fax		
+2293	Clientes	Business		
+2294	Familia	Clients		
+2295	Personal	Family		
+2296	Otro	Personal		
+2297	Semana del	Other		
+2298	Hasta	Week of		
+2299	Domingo	Through		
+2300	Lunes	Sunday		
+2301	Martes	Monday		
+2302	Miércoles	Tuesday		
+2303	Jueves	Wednesday		
+2304	Viernes	Thursday		
+2305	Sábado	Friday		
+2306	Dom.	Saturday		
+2307	Lun.	Sun		
+2308	Mar.	Mon		
+2309	Mié.	Tue		
+2310	Jue.	Wed		
+2311	Vie.	Thu		
+2312	Sáb.	Fri		
+2313	D.	Sat		
+2314	L.	S		
+2315	M.	M		
 2316	M.	T		
-2317	M.	W		
-2318	J.	T		
-2319	V.	F		
-2320	S.	S		
-2321	Ninguno	None		
-2322	Diario	Daily		
-2323	Semanal	Weekly		
-2324	Mensual por día	Monthly by day		
-2325	Mensual por fecha	Monthly by date		
-2326	Anual por día	Yearly by day		
-2327	Anual por fecha	Yearly by date		
-2328	Personalizado	Custom		
-2329	Minutos	Minutes		
-2330	Horas	Hours		
-2331	Días	Days		
-2332	¡Esta operación no se puede deshacer!	This operation cannot be undone!		
-2333	de su lista de contactos?	from your list of contacts?		
-2334	Añadir contacto...	Add contact...		
-2335	Editar contacto...	Edit contact...		
-2336	Eliminar contacto...	Delete contact...		
-2337	de su agenda?	from your schedule?		
-2338	de su lista de tareas?	from your task list?		
-2339	Añadir tarea...	Add task...		
-2340	Editar tarea...	Edit task...		
-2341	Eliminar tarea...	Delete task...		
-2342	Lista de tareas -	Task list -		
-2343	Lista de tareas	Task list		
-2344	Hoy	Today		
-2345	Próximo mes	Next month		
-2346	Mes anterior	Previous month		
-2347	Próximo año	Next year		
-2348	Año anterior	Previous year		
-2349	Añadir evento...	Add event...		
-2350	Editar evento...	Edit event...		
-2351	&Eliminar evento...	&Delete event...		
-2352	Cambiar fecha	Change date		
-2353	Hoy	Today		
-2354	Próxima semana	Next week		
-2355	Semana anterior	Previous week		
-2356	Próximo mes	Next month		
-2357	Mes anterior	Previous month		
-2358	Próximo año	Next year		
-2359	Año anterior	Previous year		
-2360	Página anterior	Previous page		
-2361	Página siguiente	Next page		
-2362	Primera página	First page		
-2363	Última página	Last page		
-2364	Añadir evento...	Add event...		
-2365	Editar evento...	Edit event...		
-2366	Eliminar evento...	Delete event...		
-2367	Cambiar fecha	Change date		
-2368	Hoy	Today		
-2369	Mañana	Tomorrow		
-2370	Ayer	Yesterday		
-2371	Día siguiente	Next day		
-2372	Día anterior	Previous day		
-2373	Próxima semana	Next week		
-2374	Semana anterior	Previous week		
-2375	Próximo mes	Next month		
-2376	Mes anterior	Previous month		
-2377	Próximo año	Next year		
-2378	Año anterior	Previous year		
-2379	Hoy	Today		
-2380	Mañana	Tomorrow		
-2381	Ayer	Yesterday		
-2382	Próxima semana	Next week		
-2383	Semana anterior	Previous week		
-2384	Posición	Position		
-2385	Empresa	Company		
-2386	Título	Title		
-2387	Correo electrónico	E-mail		
-2388	País	Country		
-2389	Categoría	Category		
-2390	Notas	Notes		
-2391	Personalizado1	Custom 1		
-2392	Personalizado 2	Custom 2		
-2393	Personalizado 3	Custom 3		
-2394	Personalizado 4	Custom 4		
-2395	Aceptar	OK		
-2396	Cancelar	Cancel		
-2397	&Cerrar	&Close		
-2398	&Imprimir	&Print		
-2399	Sin título	Untitled		
-2400	Seleccionar un sonido	Select a sound		
-2401	Buscador de sonidos	Sound finder		
-2402	Usar sonido predeterminado	Use default sound		
-2403	Evento	Event		
-2404	Cita	Appointment		
-2405	Asunto:	Subject		
-2406	Categoría:	Category		
-2407	Hora de inicio:	Start time		
-2408	Hora de fin:	End time		
-2409	&Recordatorio	&Reminder		
-2410	Repetición de cita:	Appointment recurrence		
-2411	Intervalo (días):	Interval (days)		
-2412	Repetir hasta:	Repeat until		
-2413	&Evento de día completo	&All day event		
-2414	Notas:	Notes		
-2415	Contacto	Contact		
-2416	Nombre:	Name		
-2417	Título:	Title		
-2418	Dirección:	Address		
-2419	Ciudad:	Address 2		
-2420	Provincia:	Address 3		
-2421	País:	Country		
-2422	Código postal:	Postal code		
-2423	Empresa:	Company		
-2424	Cargo:	Position		
-2425	Vista previa	Print preview		
-2426	Tarea	Task		
-2427	Fecha de vencimiento:	Due date		
-2428	Detalles:	Details		
-2429	Tarea completada	Task complete		
-2430	Días de retraso	Days overdue		
-2431	Creado el	Created on		
-2432	Completado el	Completed on		
-2433	Recordatorio	Reminder		
-2434	¡RETRASADO!	OVERDUE!		
-2435	Haga clic en &Posponer para recordar de nuevo en:	Click &Snooze to be reminded again in:		
-2436	Asunto:	Subject		
-2437	Notas:	Notes		
-2438	&Descartar	&Dismiss		
-2439	&Posponer	&Snooze		
-2440	&Abrir elemento	&Open item		
-2441	5 minutos	5 minutes		
-2442	10 minutos	10 minutes		
-2443	15 minutos	15 minutes		
-2444	30 minutos	30 minutes		
-2445	45 minutos	45 minutes		
-2446	1 hora	1 hour		
-2447	2 horas	2 hours		
-2448	3 horas	3 hours		
-2449	4 horas	4 hours		
-2450	5 horas	5 hours		
-2451	6 horas	6 hours		
-2452	7 horas	7 hours		
-2453	8 horas	8 hours		
-2454	1 día	1 day		
-2455	2 días	2 days		
-2456	3 días	3 days		
-2457	4 días	4 days		
-2458	5 días	5 days		
-2459	6 días	6 days		
-2460	1 semana	1 week		
-2461	Mes anterior	Previous month		
-2462	Mes siguiente	Next month		
-2463	Año anterior	Previous year		
-2464	Año siguiente	Next year		
-2465	Hoy	Today		
-2466	Revertir	Revert		
-2467	Hoy	Today		
-2468	Mes siguiente	Next month		
-2469	Mes anterior	Previous month		
-2470	Año siguiente	Next year		
-2471	Año anterior	Previous year		
-2472	Revertir	Revert		
-2773	¡No se puede abrir WININET! ¡Se requiere Microsoft IE!	Cannot open WININET! Microsoft IE required!		
-2774	¡No se puede abrir el archivo!	Unable to open file!		
-2775	¡Archivo %s no encontrado!	File %s could not be found!		
-2776	¡No se puede asignar memoria para fuente XML!	Unable to allocate memory for XML source!		
-2777	¡Error al leer petición HTTP!	HTTP read request failed!		
-2778	¡Datos HTTP no disponibles!	HTTP data not available!		
-2779	¡No se puede enviar petición HTTP!	Unable to send HTTP request!		
-2780	¡No se puede abrir petición HTTP!	Unable to open HTTP request!		
-2781	¡No se puede establecer conexión a Internet!	Unable to make Internet connection!		
-2782	¡No se puede abrir Internet!	Unable to open Internet!		
-2783	¡Ubicación FTP inválida!	Invalid FTP location!		
-2784	¡Directorio FTP inválido!	Invalid FTP directory!		
-2785	¡Error al leer petición FTP!	FTP read request failed!		
-2786	¡Datos FTP no disponibles!	FTP data not available!		
-2787	¡No se puede abrir archivo FTP!	Unable to open FTP file!		
-2788	¡No se pudo guardar el archivo vía FTP en %s!	Could not save file via FTP to %s		
-2789	¡No se puede cargar fuente!	Unable to load source!		
-2790	¡Puntero de memoria inválido!	Invalid memory pointer!		
-2791	Línea: %d Col: %d Error: %s	Line: %d Col: %d Error: %s !		
-2792	¡ÍNDICE DE ERROR FUERA DE LÍMITES!	ERROR INDEX OUT OF BOUNDS!		
-2793	Se esperaba declaración de marcado, pero se encontró:	Expected markup declaration, but found:		
-2794	Tipo de atributo ilegal:	Illegal attribute type:		
-2795	Palabra clave ilegal para valor prefijado de atributo:	Illegal keyword for attribute default value:		
-2796	¡Falta identificador de sistema!	System identifier missing!		
-2797	Falta modificador externo:	External modifier missing:		
-2798	La sección condicional debe comenzar con INCLUIR o IGNORAR	Conditional section must begin with INCLUDE or IGNORE		
-2799	Separador incorrecto en modelo de contenido:	Bad separator in content model:		
-2800	¡Se esperaba comentario o sección CDATA!	Expected comment or CDATA section!		
-2801	¡Fin de archivo inesperado!	Unexpected end of file!		
-2802	Etiqueta de cierre no coincidente:	Mismatched end tag:		
-2803	¡Carácter ilegal en referencia!	Illegal character in reference!		
-2804	Referencia a entidad no declarada:	Reference to undeclared entity:		
-2805	Cadena esperada:	Expected String:		
-2806	¡Se esperaba espacio en byte!	Whitespace expected at byte!		
-2807	Fin de entrada buscando delimitador:	End of input while looking for delimiter:		
-2808	"Se esperaba "" o '"	"Expected "" or '"		
-2809	XMLPartner no soporta especificación XML superior a %s	XMLPartner does not support XML specification greater than %s		
-2810	¡No se puede crear flujo para entrada!	Unable to create stream for input!		
-2811	Nombre XML inválido:	Invalid XML name:		
-2812	¡Texto de comentario inválido!	Invalid comment text!		
-2813	¡El documento no puede comenzar con comentario si también contiene declaración XML!	Document cannot start with a comment if it also contains an XML declaration!		
-2814	¡Caracteres inválidos en sección CDATA!	Invalid characters in CDATA section		
-2815	¡Los atributos no se pueden redefinir en etiqueta de apertura!	Attributes cannot be redefined in a start tag!		
-2816	Referencia circular a:	Circular reference to:		
-2817	Carácter inválido en valor de atributo:	Invalid character in attribute value:		
-2818	Caracteres inválidos en datos de carácter del elemento:	Invalid characters in element's character data:		
-2820	¡Secciones condicionales no permitidas en subconjunto interno de declaración de tipo de documento!	Conditional sections not allowed in internal subset of document type declaration!		
-2821	Notación no declarada:	Notation not declared:		
-2822	Carácter inválido en ID público:	Invalid public id character:		
-2823	¡NDATA no permitido en declaración de entidad de parámetro!	NDATA not allowed in parameter entity declaration		
-2824	¡El valor independiente debe ser 'sí' o 'no'!	Stand alone value must equal 'yes' or 'no'		
-2825	Declaración de codificación inválida:	Invalid encoding declaration:		
-2826	Número de versión XML inválido:	Invalid XML version number:		
-2827	Carácter inválido en valor de entidad:	Invalid character in entity value:		
-2828	¡Los comentarios no pueden colocarse dentro de otro marcado!	Comments cannot be placed within other markup!		
-2829	¡Hay datos inválidos después de documento XML válido!	There is invalid data after valid XML document!		
-2830	¡La declaración XML debe aparecer antes del primer elemento!	The XML declaration must appear before the first element!		
-2831	Nombre de elemento inválido:	Invalid element name:		
-2832	El texto de entidad de parámetro debe estar correctamente anidado:	Parameter-entity text must be properly nested:		
-2833	¡Codificación de caracteres inválida especificada!	Invalid character encoding specified!		
-2834	¡El atributo %s del elemento %s no tiene valor entero!	Attribute %s of element %s does not have an integer value!		
-2835	Especificador de eje desconocido: %s	Unknown axis specifier: %s		
-2836	¡Carácter XML inválido encontrado!	Invalid XML Character found!		
-2837	¡Codificación de caracteres UTF-16 (big-endian) inválida!	Invalid (big-endian) UTF-16 character encoding!		
-2838	¡Codificación de caracteres UTF-16 (little-endian) inválida!	Invalid (little-endian) UTF-16 character encoding!		
-2839	¡Carácter UTF-8 mal formado en flujo!	Badly formed UTF-8 character in stream!		
-2840	¡Fin inesperado de flujo de documento!	Unexpected end of document stream!		
-2841	¡No se puede convertir carácter UCS-4 a ISO-8859-1!	Cannot convert UCS-4 character to ISO-8859-1!		
-2842	¡No se puede convertir carácter UCS-4 a UTF-16!	Cannot convert UCS-4 character to UTF-16!		
-2843	¡No se puede convertir carácter UCS-4 a UTF-8!	Cannot convert UCS-4 character to UTF-8!		
-2844	¡Fuera de rango!	Out of range!		
-2845	¡No soportado!	not supported!		
-2846	¡Por favor proporcione un nombre de elemento!	Please supply an element name!		
-2847	¡El nombre de formato no puede estar en blanco!	Format name cannot be blank!		
-2848	¡El controlador de impresión no pertenece a un TVpControlLink!	Print controller is not owned by a TVpControlLink!		
-2849	¡Formato de impresión inválido!	Invalid Print format!		
-2850	¡Tipo de elemento inválido!	Invalid item type!		
-2851	¡Medida inválida!	Invalid measurement!		
-2852	¡El propietario debe ser descendiente de TWinControl!	Owner must be a TWinControl descendent!		
-2853	¡El componente debe estar vinculado a un TVpControlLink!	Component must be linked to a TVpControlLink!		
-2854	¡No se han definido formatos de impresión!	No print formats have been defined!		
-2855	¡TCanvas no asignado!	TCanvas not assigned!		
-2856	¡Archivo de localización no encontrado!	Localisation file not found!		
-2857	Cita	Appointment		
-2858	Facturas recurrentes	Repeating invoices		
-2859	Cita de cliente	Debtor appointment		
-2860	Cita de proveedor	Creditor appointment		
-2861	Categoría 4	Category 4		
-2862	Categoría 5	Category 5		
-2863	Categoría 6	Category 6		
-2864	Categoría 7	Category 7		
-2865	Categoría 8	Category 8		
-2866	Categoría 9	Category 9		
-2867	Editar formatos de impresión...	Edit print formats...		
-2868	¡No se han definido recursos! ¿Desea añadir uno ahora?	No resources have been defined! Would you like to add one now?		
-2869	¡No se ha seleccionado ningún recurso! ¿Desea seleccionar uno ahora?	No resource has been selected! Would you like to select one now?		
-2870	Filtrar columna	Filter column		
-2871	Valor	Value		
-2872	Mostrar	Display		
-2873	Reloj	Clock		
-2874	Agenda	Agenda		
-2875	Tareas	Tasks		
-2876	Contactos	Contacts		
-2877	Eventos cargados	Loaded events		
-2878	# Días a mostrar	# Display days		
-2879	Calendario	Calendar		
-2880	¡Guarde primero esta factura recurrente! Al reabrirla podrá añadir clientes.	Please save this repeating invoice first! After reopening you can add clients to the invoice.		
-2881	¿Desea eliminar este %s?	Do you wish to delete this %s?		
-2882	¿Desea eliminar todos los %s?	Do you wish to delete all %s?		
-2883	Factura recurrente	Repeating invoice		
-2884	Fecha de factura	Invoice date		
-2885	Procesar todo	Process all		
-2886	Lista de procesos	Process list		
-2887	Procesar seleccionado	Process selected		
-2888	&Nuevo	&New		
-2889	&Editar	&Edit		
-2890	&Principal	&Main		
-2891	&Teléfono	&Telephone		
-2892	&Notas	&Notes		
-2893	Importe pendiente	Due amount		
-2894	Documento(s) creado(s).	Document(s) created!		
-2895	¡La fecha de vencimiento es anterior a la fecha del documento!	Due date is lower then document date!		
-2896	Recibos automáticos	Automatic receipts		
-2897	Introduzca un nombre para la empresa	Please enter a name for the Set of Books!		
-2898	Actualizar cuenta bancaria	Update bank account		
-2899	Buscar documento	Lookup document		
-2900	Buscar documento con importe	Lookup document with amount		
-2901	Buscar cliente	Lookup debtor		
-2902	Buscar proveedor	Lookup creditor		
-2903	¡Ya existe una cuenta bancaria! ¿Desea actualizarla?	There was already a bank account found! Do you wish to update this?		
-2904	Informar importes con	Report amounts with		
-2905	Almacenamiento de datos	Data storage		
-2906	Velocidad	Speed		
-2907	Ajustes especiales	Special settings		
-2908	Decimales en informes	Reporting decimals		
-2909	Mayores de elementos abiertos	Open item ledgers		
-2910	No usar Reportman	Do not use Reportman		
-2911	Números reales	Real numbers		
-2912	Decimales fijos	Fixed decimals		
-2913	<> para Crédito	<>  for Credit		
-2914	+/- para Débito/Crédito	+/-  for Debit/Credit		
-2915	D/C para Débito/Crédito	D/C for Debit/Credit		
-2916	Mostrar calendario	Show calandar		
-2917	No advertir no registrados	No warning unposted		
-2918	Usar fecha actual para informes	Use current date for reports		
-2919	Descripción adicional	Extra description		
-2920	Lista de materiales	BOM		
-2921	Ventas (sin stock)	Sales (no stock)		
-2922	Compras (sin stock)	Purchase (no stock)		
-2923	Lista de materiales	BOM list		
-2924	Copiar de artículo	Copy from item		
-2925	No calcular lotes	Do not calculate batches		
-2926	Cantidad de documento	Document quantity		
-2927	Información de copia automática	Auto-copy info		
-2928	Usar cuenta predeterminada	Use default account		
-2929	Cuenta predeterminada	Default account		
-2930	Sin pedido pendiente	No backorder		
-2931	No se puede vender sin stock	Cannot sell out of stock		
-2932	Sin confirmación de impresión	No print confirmation		
-2933	Comprobar referencia usada	Check reference used		
-2934	¡No se pueden crear artículos!	Cannot create items		
-2935	Pantalla de consulta	Pole display		
-2936	Pantalla de consulta conectada	Pole display connected		
-2937	¿Puede ver esto?	Can you see this ??		
-2938	Pantalla TPV predeterminada	Default POS Pole		
-2939	Pantalla TPV 2x20 caracteres	2 X 20 chars POS Pole		
-2940	Plato de peso	Weight dish		
-2941	Plato de peso conectado	Weight dish connected		
-2942	Valor devuelto por plato de peso	Return value from weight dish		
-2943	Prueba	Test		
-2945	Cambio rápido de vendedor	Fast switch salesperson		
-2946	Redondear importe final TPV	Round POS end amount		
-2947	Mostrar cantidad disponible	Show qty on hand		
-2948	Contraseña de descuento	Discount password		
-2949	Usar contraseña para descuento	Use password for discount		
-2950	Usar precio de venta del cliente	Use debtor selling price		
-2951	Cajón	Drawer		
-2952	¡Esto eliminará su registro actual y abrirá el formulario de registro! ¿Desea cancelar?	This will remove your current registration and open the enter registration form! Do you want to cancel?		
-2953	Imprimir códigos de barras	Print bacodes		
-2954	Cambiar cuenta	Change account		
-2956	Informes de copia de seguridad	Backup reports		
-2957	Generar directorios Reportman	Generate Reportman directories		
-2958	Desvincular transacción	Unlink transaction		
-2959	Recibir pago	Receive payment		
-2960	Reimprimir transacciones	Reprint transactions		
-2961	Introduzca importe a vincular	Enter amount to link		
-2962	*Suprimir elemento abierto	Suppress open item		
-2963	Recordar incluido	Remember inclusive		
-2964	Impreso	Printed		
-2965	Seleccionar directorio de copia de seguridad	Select backup directory		
-2966	Ejemplo	Sample		
-2967	Usar filtro	Use filter		
-2968	Identificación del servidor de correo saliente (SMTP)	Outgoing mail server identification (SMTP)		
-2969	Texto predeterminado	Default text		
-2970	Introduzca su lista	Please enter your list		
-2971	Su lista separada por comas	Your list with comma separation		
-2972	Seleccionar de la lista delimitada	Select from delimited list		
-2973	Ocultar elementos de menú deshabilitados	Hide disabled menu items		
-2974	Registro de documento	Document posting		
-2975	Vincular a vendedor	Link to salesperson		
-2976	Editar cantidad	Edit quantity		
-2977	Seleccionar nuevo directorio de empresa	Select new Set of Books directory		
-2978	Corrección de error conocido	Known bug fix		
-2979	Solo saldos iniciales	Opening balances only		
-2980	Mostrar presupuesto	Show budget		
-2981	Mostrar todos los artículos de stock	Show all stock items		
-2982	Añadir no registrado	Add unposted		
-2983	Presupuestos/Pedidos	Quotes / Orders		
-2984	Precio incluido	Price inclusive		
-2985	Mostrar conteo de stock cero	Show zero stock count		
-2986	Mostrar todos los vendedores	Show all salespersons		
-2987	Mostrar número de factura	Show invoice no.		
-2988	*Informe de cierre de caja	Cash-up report		
-2989	Informes de ventas	Sales report		
-2990	Marcos de impresión	Print frames		
-2991	Imprimir logo	Print logo		
-2992	No registrar documento	No document posting		
-2993	Limitación personalizada	Custom limitation		
-2994	Ocultar	Hide		
-2995	Deshabilitar	Disable		
-2996	Mostrar	Show		
-2997	Habilitar	Enable		
-2998	Replicación	Replication		
-2999	Lotes abiertos	Open batches		
+2317	J.	W		
+2318	V.	T		
+2319	S.	F		
+2320	Ninguno	S		
+2321	Diario	None		
+2322	Semanal	Daily		
+2323	Mensual por día	Weekly		
+2324	Mensual por fecha	Monthly by day		
+2325	Anual por día	Monthly by date		
+2326	Anual por fecha	Yearly by day		
+2327	Personalizado	Yearly by date		
+2328	Minutos	Custom		
+2329	Horas	Minutes		
+2330	Días	Hours		
+2331	¡Esta operación no se puede deshacer!	Days		
+2332	de su lista de contactos?	This operation cannot be undone!		
+2333	Añadir contacto...	from your list of contacts?		
+2334	Editar contacto...	Add contact...		
+2335	Eliminar contacto...	Edit contact...		
+2336	de su agenda?	Delete contact...		
+2337	de su lista de tareas?	from your schedule?		
+2338	Añadir tarea...	from your task list?		
+2339	Editar tarea...	Add task...		
+2340	Eliminar tarea...	Edit task...		
+2341	Lista de tareas -	Delete task...		
+2342	Lista de tareas	Task list -		
+2343	Hoy	Task list		
+2344	Próximo mes	Today		
+2345	Mes anterior	Next month		
+2346	Próximo año	Previous month		
+2347	Año anterior	Next year		
+2348	Añadir evento...	Previous year		
+2349	Editar evento...	Add event...		
+2350	&Eliminar evento...	Edit event...		
+2351	Cambiar fecha	&Delete event...		
+2352	Hoy	Change date		
+2353	Próxima semana	Today		
+2354	Semana anterior	Next week		
+2355	Próximo mes	Previous week		
+2356	Mes anterior	Next month		
+2357	Próximo año	Previous month		
+2358	Año anterior	Next year		
+2359	Página anterior	Previous year		
+2360	Página siguiente	Previous page		
+2361	Primera página	Next page		
+2362	Última página	First page		
+2363	Añadir evento...	Last page		
+2364	Editar evento...	Add event...		
+2365	Eliminar evento...	Edit event...		
+2366	Cambiar fecha	Delete event...		
+2367	Hoy	Change date		
+2368	Mañana	Today		
+2369	Ayer	Tomorrow		
+2370	Día siguiente	Yesterday		
+2371	Día anterior	Next day		
+2372	Próxima semana	Previous day		
+2373	Semana anterior	Next week		
+2374	Próximo mes	Previous week		
+2375	Mes anterior	Next month		
+2376	Próximo año	Previous month		
+2377	Año anterior	Next year		
+2378	Hoy	Previous year		
+2379	Mañana	Today		
+2380	Ayer	Tomorrow		
+2381	Próxima semana	Yesterday		
+2382	Semana anterior	Next week		
+2383	Posición	Previous week		
+2384	Empresa	Position		
+2385	Título	Company		
+2386	Correo electrónico	Title		
+2387	País	E-mail		
+2388	Categoría	Country		
+2389	Notas	Category		
+2390	Personalizado1	Notes		
+2391	Personalizado 2	Custom 1		
+2392	Personalizado 3	Custom 2		
+2393	Personalizado 4	Custom 3		
+2394	Aceptar	Custom 4		
+2395	Cancelar	OK		
+2396	&Cerrar	Cancel		
+2397	&Imprimir	&Close		
+2398	Sin título	&Print		
+2399	Seleccionar un sonido	Untitled		
+2400	Buscador de sonidos	Select a sound		
+2401	Usar sonido predeterminado	Sound finder		
+2402	Evento	Use default sound		
+2403	Cita	Event		
+2404	Asunto:	Appointment		
+2405	Categoría:	Subject		
+2406	Hora de inicio:	Category		
+2407	Hora de fin:	Start time		
+2408	&Recordatorio	End time		
+2409	Repetición de cita:	&Reminder		
+2410	Intervalo (días):	Appointment recurrence		
+2411	Repetir hasta:	Interval (days)		
+2412	&Evento de día completo	Repeat until		
+2413	Notas:	&All day event		
+2414	Contacto	Notes		
+2415	Nombre:	Contact		
+2416	Título:	Name		
+2417	Dirección:	Title		
+2418	Ciudad:	Address		
+2419	Provincia:	Address 2		
+2420	País:	Address 3		
+2421	Código postal:	Country		
+2422	Empresa:	Postal code		
+2423	Cargo:	Company		
+2424	Vista previa	Position		
+2425	Tarea	Print preview		
+2426	Fecha de vencimiento:	Task		
+2427	Detalles:	Due date		
+2428	Tarea completada	Details		
+2429	Días de retraso	Task complete		
+2430	Creado el	Days overdue		
+2431	Completado el	Created on		
+2432	Recordatorio	Completed on		
+2433	¡RETRASADO!	Reminder		
+2434	Haga clic en &Posponer para recordar de nuevo en:	OVERDUE!		
+2435	Asunto:	Click &Snooze to be reminded again in:		
+2436	Notas:	Subject		
+2437	&Descartar	Notes		
+2438	&Posponer	&Dismiss		
+2439	&Abrir elemento	&Snooze		
+2440	5 minutos	&Open item		
+2441	10 minutos	5 minutes		
+2442	15 minutos	10 minutes		
+2443	30 minutos	15 minutes		
+2444	45 minutos	30 minutes		
+2445	1 hora	45 minutes		
+2446	2 horas	1 hour		
+2447	3 horas	2 hours		
+2448	4 horas	3 hours		
+2449	5 horas	4 hours		
+2450	6 horas	5 hours		
+2451	7 horas	6 hours		
+2452	8 horas	7 hours		
+2453	1 día	8 hours		
+2454	2 días	1 day		
+2455	3 días	2 days		
+2456	4 días	3 days		
+2457	5 días	4 days		
+2458	6 días	5 days		
+2459	1 semana	6 days		
+2460	Mes anterior	1 week		
+2461	Mes siguiente	Previous month		
+2462	Año anterior	Next month		
+2463	Año siguiente	Previous year		
+2464	Hoy	Next year		
+2465	Revertir	Today		
+2466	Hoy	Revert		
+2467	Mes siguiente	Today		
+2468	Mes anterior	Next month		
+2469	Año siguiente	Previous month		
+2470	Año anterior	Next year		
+2471	Revertir	Previous year		
+2472	¡No se puede abrir WININET! ¡Se requiere Microsoft IE!	Revert		
+2773	¡No se puede abrir el archivo!	Cannot open WININET! Microsoft IE required!		
+2774	¡Archivo %s no encontrado!	Unable to open file!		
+2775	¡No se puede asignar memoria para fuente XML!	File %s could not be found!		
+2776	¡Error al leer petición HTTP!	Unable to allocate memory for XML source!		
+2777	¡Datos HTTP no disponibles!	HTTP read request failed!		
+2778	¡No se puede enviar petición HTTP!	HTTP data not available!		
+2779	¡No se puede abrir petición HTTP!	Unable to send HTTP request!		
+2780	¡No se puede establecer conexión a Internet!	Unable to open HTTP request!		
+2781	¡No se puede abrir Internet!	Unable to make Internet connection!		
+2782	¡Ubicación FTP inválida!	Unable to open Internet!		
+2783	¡Directorio FTP inválido!	Invalid FTP location!		
+2784	¡Error al leer petición FTP!	Invalid FTP directory!		
+2785	¡Datos FTP no disponibles!	FTP read request failed!		
+2786	¡No se puede abrir archivo FTP!	FTP data not available!		
+2787	¡No se pudo guardar el archivo vía FTP en %s!	Unable to open FTP file!		
+2788	¡No se puede cargar fuente!	Could not save file via FTP to %s		
+2789	¡Puntero de memoria inválido!	Unable to load source!		
+2790	Línea: %d Col: %d Error: %s	Invalid memory pointer!		
+2791	¡ÍNDICE DE ERROR FUERA DE LÍMITES!	Line: %d Col: %d Error: %s !		
+2792	Se esperaba declaración de marcado, pero se encontró:	ERROR INDEX OUT OF BOUNDS!		
+2793	Tipo de atributo ilegal:	Expected markup declaration, but found:		
+2794	Palabra clave ilegal para valor prefijado de atributo:	Illegal attribute type:		
+2795	¡Falta identificador de sistema!	Illegal keyword for attribute default value:		
+2796	Falta modificador externo:	System identifier missing!		
+2797	La sección condicional debe comenzar con INCLUIR o IGNORAR	External modifier missing:		
+2798	Separador incorrecto en modelo de contenido:	Conditional section must begin with INCLUDE or IGNORE		
+2799	¡Se esperaba comentario o sección CDATA!	Bad separator in content model:		
+2800	¡Fin de archivo inesperado!	Expected comment or CDATA section!		
+2801	Etiqueta de cierre no coincidente:	Unexpected end of file!		
+2802	¡Carácter ilegal en referencia!	Mismatched end tag:		
+2803	Referencia a entidad no declarada:	Illegal character in reference!		
+2804	Cadena esperada:	Reference to undeclared entity:		
+2805	¡Se esperaba espacio en byte!	Expected String:		
+2806	Fin de entrada buscando delimitador:	Whitespace expected at byte!		
+2807	"Se esperaba "" o '"	End of input while looking for delimiter:		
+2808	XMLPartner no soporta especificación XML superior a %s	"Expected "" or '"		
+2809	¡No se puede crear flujo para entrada!	XMLPartner does not support XML specification greater than %s		
+2810	Nombre XML inválido:	Unable to create stream for input!		
+2811	¡Texto de comentario inválido!	Invalid XML name:		
+2812	¡El documento no puede comenzar con comentario si también contiene declaración XML!	Invalid comment text!		
+2813	¡Caracteres inválidos en sección CDATA!	Document cannot start with a comment if it also contains an XML declaration!		
+2814	¡Los atributos no se pueden redefinir en etiqueta de apertura!	Invalid characters in CDATA section		
+2815	Referencia circular a:	Attributes cannot be redefined in a start tag!		
+2816	Carácter inválido en valor de atributo:	Circular reference to:		
+2817	Caracteres inválidos en datos de carácter del elemento:	Invalid character in attribute value:		
+2818	¡Secciones condicionales no permitidas en subconjunto interno de declaración de tipo de documento!	Invalid characters in element's character data:		
+2820	Notación no declarada:	Conditional sections not allowed in internal subset of document type declaration!		
+2821	Carácter inválido en ID público:	Notation not declared:		
+2822	¡NDATA no permitido en declaración de entidad de parámetro!	Invalid public id character:		
+2823	¡El valor independiente debe ser 'sí' o 'no'!	NDATA not allowed in parameter entity declaration		
+2824	Declaración de codificación inválida:	Stand alone value must equal 'yes' or 'no'		
+2825	Número de versión XML inválido:	Invalid encoding declaration:		
+2826	Carácter inválido en valor de entidad:	Invalid XML version number:		
+2827	¡Los comentarios no pueden colocarse dentro de otro marcado!	Invalid character in entity value:		
+2828	¡Hay datos inválidos después de documento XML válido!	Comments cannot be placed within other markup!		
+2829	¡La declaración XML debe aparecer antes del primer elemento!	There is invalid data after valid XML document!		
+2830	Nombre de elemento inválido:	The XML declaration must appear before the first element!		
+2831	El texto de entidad de parámetro debe estar correctamente anidado:	Invalid element name:		
+2832	¡Codificación de caracteres inválida especificada!	Parameter-entity text must be properly nested:		
+2833	¡El atributo %s del elemento %s no tiene valor entero!	Invalid character encoding specified!		
+2834	Especificador de eje desconocido: %s	Attribute %s of element %s does not have an integer value!		
+2835	¡Carácter XML inválido encontrado!	Unknown axis specifier: %s		
+2836	¡Codificación de caracteres UTF-16 (big-endian) inválida!	Invalid XML Character found!		
+2837	¡Codificación de caracteres UTF-16 (little-endian) inválida!	Invalid (big-endian) UTF-16 character encoding!		
+2838	¡Carácter UTF-8 mal formado en flujo!	Invalid (little-endian) UTF-16 character encoding!		
+2839	¡Fin inesperado de flujo de documento!	Badly formed UTF-8 character in stream!		
+2840	¡No se puede convertir carácter UCS-4 a ISO-8859-1!	Unexpected end of document stream!		
+2841	¡No se puede convertir carácter UCS-4 a UTF-16!	Cannot convert UCS-4 character to ISO-8859-1!		
+2842	¡No se puede convertir carácter UCS-4 a UTF-8!	Cannot convert UCS-4 character to UTF-16!		
+2843	¡Fuera de rango!	Cannot convert UCS-4 character to UTF-8!		
+2844	¡No soportado!	Out of range!		
+2845	¡Por favor proporcione un nombre de elemento!	not supported!		
+2846	¡El nombre de formato no puede estar en blanco!	Please supply an element name!		
+2847	¡El controlador de impresión no pertenece a un TVpControlLink!	Format name cannot be blank!		
+2848	¡Formato de impresión inválido!	Print controller is not owned by a TVpControlLink!		
+2849	¡Tipo de elemento inválido!	Invalid Print format!		
+2850	¡Medida inválida!	Invalid item type!		
+2851	¡El propietario debe ser descendiente de TWinControl!	Invalid measurement!		
+2852	¡El componente debe estar vinculado a un TVpControlLink!	Owner must be a TWinControl descendent!		
+2853	¡No se han definido formatos de impresión!	Component must be linked to a TVpControlLink!		
+2854	¡TCanvas no asignado!	No print formats have been defined!		
+2855	¡Archivo de localización no encontrado!	TCanvas not assigned!		
+2856	Cita	Localisation file not found!		
+2857	Facturas recurrentes	Appointment		
+2858	Cita de cliente	Repeating invoices		
+2859	Cita de proveedor	Debtor appointment		
+2860	Categoría 4	Creditor appointment		
+2861	Categoría 5	Category 4		
+2862	Categoría 6	Category 5		
+2863	Categoría 7	Category 6		
+2864	Categoría 8	Category 7		
+2865	Categoría 9	Category 8		
+2866	Editar formatos de impresión...	Category 9		
+2867	¡No se han definido recursos! ¿Desea añadir uno ahora?	Edit print formats...		
+2868	¡No se ha seleccionado ningún recurso! ¿Desea seleccionar uno ahora?	No resources have been defined! Would you like to add one now?		
+2869	Filtrar columna	No resource has been selected! Would you like to select one now?		
+2870	Valor	Filter column		
+2871	Mostrar	Value		
+2872	Reloj	Display		
+2873	Agenda	Clock		
+2874	Tareas	Agenda		
+2875	Contactos	Tasks		
+2876	Eventos cargados	Contacts		
+2877	# Días a mostrar	Loaded events		
+2878	Calendario	# Display days		
+2879	¡Guarde primero esta factura recurrente! Al reabrirla podrá añadir clientes.	Calendar		
+2880	¿Desea eliminar este %s?	Please save this repeating invoice first! After reopening you can add clients to the invoice.		
+2881	¿Desea eliminar todos los %s?	Do you wish to delete this %s?		
+2882	Factura recurrente	Do you wish to delete all %s?		
+2883	Fecha de factura	Repeating invoice		
+2884	Procesar todo	Invoice date		
+2885	Lista de procesos	Process all		
+2886	Procesar seleccionado	Process list		
+2887	&Nuevo	Process selected		
+2888	&Editar	&New		
+2889	&Principal	&Edit		
+2890	&Teléfono	&Main		
+2891	&Notas	&Telephone		
+2892	Importe pendiente	&Notes		
+2893	Documento(s) creado(s).	Due amount		
+2894	¡La fecha de vencimiento es anterior a la fecha del documento!	Document(s) created!		
+2895	Recibos automáticos	Due date is lower then document date!		
+2896	Introduzca un nombre para la empresa	Automatic receipts		
+2897	Actualizar cuenta bancaria	Please enter a name for the Set of Books!		
+2898	Buscar documento	Update bank account		
+2899	Buscar documento con importe	Lookup document		
+2900	Buscar cliente	Lookup document with amount		
+2901	Buscar proveedor	Lookup debtor		
+2902	¡Ya existe una cuenta bancaria! ¿Desea actualizarla?	Lookup creditor		
+2903	Informar importes con	There was already a bank account found! Do you wish to update this?		
+2904	Almacenamiento de datos	Report amounts with		
+2905	Velocidad	Data storage		
+2906	Ajustes especiales	Speed		
+2907	Decimales en informes	Special settings		
+2908	Mayores de elementos abiertos	Reporting decimals		
+2909	No usar Reportman	Open item ledgers		
+2910	Números reales	Do not use Reportman		
+2911	Decimales fijos	Real numbers		
+2912	<> para Crédito	Fixed decimals		
+2913	+/- para Débito/Crédito	<>  for Credit		
+2914	D/C para Débito/Crédito	+/-  for Debit/Credit		
+2915	Mostrar calendario	D/C for Debit/Credit		
+2916	No advertir no registrados	Show calandar		
+2917	Usar fecha actual para informes	No warning unposted		
+2918	Descripción adicional	Use current date for reports		
+2919	Lista de materiales	Extra description		
+2920	Ventas (sin stock)	BOM		
+2921	Compras (sin stock)	Sales (no stock)		
+2922	Lista de materiales	Purchase (no stock)		
+2923	Copiar de artículo	BOM list		
+2924	No calcular diarios	Copy from item		
+2925	Cantidad de documento	Do not calculate batches		
+2926	Información de copia automática	Document quantity		
+2927	Usar cuenta predeterminada	Auto-copy info		
+2928	Cuenta predeterminada	Use default account		
+2929	Sin pedido pendiente	Default account		
+2930	No se puede vender sin stock	No backorder		
+2931	Sin confirmación de impresión	Cannot sell out of stock		
+2932	Comprobar referencia usada	No print confirmation		
+2933	¡No se pueden crear artículos!	Check reference used		
+2934	Pantalla de consulta	Cannot create items		
+2935	Pantalla de consulta conectada	Pole display		
+2936	¿Puede ver esto?	Pole display connected		
+2937	Pantalla PDV predeterminada	Can you see this ??		
+2938	Pantalla PDV 2x20 caracteres	Default POS Pole		
+2939	Plato de peso	2 X 20 chars POS Pole		
+2940	Plato de peso conectado	Weight dish		
+2941	Valor devuelto por plato de peso	Weight dish connected		
+2942	Prueba	Return value from weight dish		
+2943	Cambio rápido de vendedor	Test		
+2945	Redondear importe final PDV	Fast switch salesperson		
+2946	Mostrar cantidad disponible	Round POS end amount		
+2947	Contraseña de descuento	Show qty on hand		
+2948	Usar contraseña para descuento	Discount password		
+2949	Usar precio de venta del cliente	Use password for discount		
+2950	Cajón	Use debtor selling price		
+2951	¡Esto eliminará su registro actual y abrirá el formulario de registro! ¿Desea cancelar?	Drawer		
+2952	Imprimir códigos de barras	This will remove your current registration and open the enter registration form! Do you want to cancel?		
+2953	Cambiar cuenta	Print bacodes		
+2954	Informes de copia de seguridad	Change account		
+2956	Generar directorios Reportman	Backup reports		
+2957	Desvincular transacción	Generate Reportman directories		
+2958	Recibir pago	Unlink transaction		
+2959	Reimprimir transacciones	Receive payment		
+2960	Introduzca importe a vincular	Reprint transactions		
+2961	Suprimir elemento abierto	Enter amount to link		
+2962	Recordar incluido	Suppress open item		
+2963	Impreso	Remember inclusive		
+2964	Seleccionar directorio de copia de seguridad	Printed		
+2965	Ejemplo	Select backup directory		
+2966	Usar filtro	Sample		
+2967	Identificación del servidor de correo saliente (SMTP)	Use filter		
+2968	Texto predeterminado	Outgoing mail server identification (SMTP)		
+2969	Introduzca su lista	Default text		
+2970	Su lista separada por comas	Please enter your list		
+2971	Seleccionar de la lista delimitada	Your list with comma separation		
+2972	Ocultar elementos de menú deshabilitados	Select from delimited list		
+2973	Registro de documento	Hide disabled menu items		
+2974	Vincular a vendedor	Document posting		
+2975	Editar cantidad	Link to salesperson		
+2976	Seleccionar nuevo directorio de empresa	Edit quantity		
+2977	Corrección de error conocido	Select new Set of Books directory		
+2978	Solo saldos iniciales	Known bug fix		
+2979	Mostrar presupuesto	Opening balances only		
+2980	Mostrar todos los artículos de stock	Show budget		
+2981	Añadir no registrado	Show all stock items		
+2982	Presupuestos/Pedidos	Add unposted		
+2983	Precio incluido	Quotes / Orders		
+2984	Mostrar conteo de stock cero	Price inclusive		
+2985	Mostrar todos los vendedores	Show zero stock count		
+2986	Mostrar número de factura	Show all salespersons		
+2987	Informe de cierre de caja	Show invoice no.		
+2988	Informes de ventas	Cash-up report		
+2989	Marcos de impresión	Sales report		
+2990	Imprimir logo	Print frames		
+2991	No registrar documento	Print logo		
+2992	Limitación personalizada	No document posting		
+2993	Ocultar	Custom limitation		
+2994	Deshabilitar	Hide		
+2995	Mostrar	Disable		
+2996	Habilitar	Show		
+2997	Replicación	Enable		
+2998	Diarios abiertos	Replication		
+2999	Solo carga	Open batches		
 3000	Solo carga	Upload only		
 3001	Solo descarga	Download only		
 3002	Creando directorio...	Creating directory...		
@@ -2496,13 +2496,13 @@
 3113	Bienvenido a <@APPNAME@>	https://www.osfinancials.org/en/forum-en?view=category&catid=8		
 3114	Siguiente	https://www.osfinancials.org/en/forum-en		
 3115	Abrir automáticamente al iniciar <@APPNAME@>	https://www.osfinancials.org/en/webshop		
-3116	¿Convertir <@APPNAME@> a esta versión?	https://www.osfinancials.org/en/forum-en?view=category&catid=8 		
+3116	¿Convertir <@APPNAME@> a esta versión?	https://www.osfinancials.org/en/forum-en?view=category&catid=8		
 3117	Peso neto	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.		
 3118	Peso bruto	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop		
 3119	Punto de reorden	https://www.osfinancials.org/		
-3120	Mínimo	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 		
-3121	Nivel de reorden - ¡Sus artículos se repondrán hasta esta cantidad!	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 		
-3122	¡Si su stock baja de este nivel, el sistema repondrá hasta la cantidad de reorden!	Time license expired! Please visit https://www.osfinancials.org/en/webshop 		
+3120	Mínimo	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop		
+3121	Nivel de reorden - ¡Sus artículos se repondrán hasta esta cantidad!	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop		
+3122	¡Si su stock baja de este nivel, el sistema repondrá hasta la cantidad de reorden!	Time license expired! Please visit https://www.osfinancials.org/en/webshop		
 3123	¡Si desea reservar stock para ventas, este campo se deducirá de los niveles de stock actuales en un presupuesto!	Welcome to <@APPNAME@>		
 3124	Idiomas	Forward		
 3125	Idioma	Auto-open when starting <@APPNAME@>		
@@ -2590,7 +2590,7 @@
 3207	Corrección de errores	Bug fix		
 3208	Día de la comunidad	Community day		
 3209	Usuario existente	Existing user		
-3210	¡Te has registrado correctamente!	You have registered successfully ! 		
+3210	¡Te has registrado correctamente!	You have registered successfully !		
 3211	Uso	Usage		
 3212	Sitio web	Website		
 3213	Volver a registrar	Reregister		
@@ -2749,7 +2749,7 @@
 3366	Ajuste manual	Manual adjust		
 3367	¿Continuar acción %s?	Continue action %s ?		
 3368	Saldos de columna estándar	Standard column balances		
-3369	Los datos de este documento han cambiado por otro usuario o pantalla de entrada. %s ¿Desea sobrescribir los datos?	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 		
+3369	Los datos de este documento han cambiado por otro usuario o pantalla de entrada. %s ¿Desea sobrescribir los datos?	The data of this document has changed by a other user or input screen. %s Do you wish to override the data?		
 3370	¡Salida de usuario!	User exit!		
 3371	Si desea eliminar (quitar) todos los documentos, haga clic en Sí. Si desea conservar todos los documentos y establecerlos como no contabilizados, haga clic en No.	If you wish to clear (remove) all documents, click Yes. If you wish to retain all documents and set them to unposted, click No.		
 3372	Presupuesto vs real	Budget vs actual		
@@ -3078,7 +3078,7 @@
 3706	Guardar perfil	Save profile		
 3707	Añadir perfil	Add profile		
 3708	Tipo de importación	Import type		
-3709	Vincular en	Link on 		
+3709	Vincular en	Link on		
 3710	Copia pequeña (libros)	Small backup (books)		
 3711	Esta acción cerrará <@APPNAME@> e instalará la versión %s. Recomendamos hacer una copia de seguridad de toda la carpeta de <@APPNAME@>. ¿Desea continuar?	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?		
 3712	Actualizaciones	Updates		
@@ -3627,7 +3627,7 @@
 903180	Introduzca código	Enter code		
 903181	¡Por favor registre <@APPNAME@> primero!	Please register <@APPNAME@> first!		
 903182	Registrado	Registered		
-906000	A pesar de recordatorios previos, según nuestros registros su cuenta sigue pendiente de pago.	Despite previous reminders, according to our records your account is still overdue. 		
+906000	A pesar de recordatorios previos, según nuestros registros su cuenta sigue pendiente de pago.	Despite previous reminders, according to our records your account is still overdue.		
 906001	La siguiente suscripción comenzará pronto. La factura para el nuevo período se emitirá en breve.	The next subscription will start soon. The invoice for the new period will follow shortly.		
 906002	Fecha/Hora del documento	Document date/time		
 906003	Alias	Alias		
@@ -3965,7 +3965,7 @@
 906335	Ventas por período - Grupo documentos 2	Sales per period - Document group 2		
 906336	Ventas por período - Vendedor	Sales per period - Salesperson		
 906337	Compras y devoluciones a proveedor por período	Purchases and supplier returns per period		
-906338	Listado de control de crédito (Límite de crédito vs saldo actual) a fecha	Credit control listing (Credit limit vs current balance) as at 		
+906338	Listado de control de crédito (Límite de crédito vs saldo actual) a fecha	Credit control listing (Credit limit vs current balance) as at		
 906339	Números de IVA y registro mercantil	Tax and company registration numbers		
 906440	Listado de transacciones	Transaction list		
 906441	Real	Actual		

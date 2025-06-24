@@ -6172,11 +6172,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1825
-      Text = #191'Vende art'#237'culos?'
+      Text = 'Configuraci'#243'n de documentos'
     end
     item
       IndexID = 1824
-      Text = #191'Configurar grupos?'
+      Text = 'Configuraci'#243'n de grupos'
     end
     item
       IndexID = 1823
@@ -6184,7 +6184,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1822
-      Text = #191'Configurar per'#237'odos contables?'
+      Text = 'Configuraci'#243'n de periodos contables'
     end
     item
       IndexID = 1821
