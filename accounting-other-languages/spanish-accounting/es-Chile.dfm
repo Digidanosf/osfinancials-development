@@ -6221,11 +6221,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1825
-      Text = #191'Vende art'#237'culos de inventario?'
+      Text = 'Configuraci'#243'n de documentos'
     end
     item
       IndexID = 1824
-      Text = #191'Desea cambiar sus grupos?'
+      Text = 'Configuraci'#243'n de grupos'
     end
     item
       IndexID = 1823
@@ -6233,9 +6233,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1822
-      Text = 
-        #191'Desea especificar el n'#250'mero de per'#237'odos contables en su ejercic' +
-        'io y establecer la fecha de inicio?'
+      Text = 'Configuraci'#243'n de per'#237'odos contables'
     end
     item
       IndexID = 1821
