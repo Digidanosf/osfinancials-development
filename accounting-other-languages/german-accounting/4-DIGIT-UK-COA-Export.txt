@@ -1,0 +1,152 @@
+﻿Per period	2025/07/01 / 2025/07/31	Groups	None	Report type	Trial balance
+Per period	Month	Budget	False
+Ignore zero balances	False	Include opening balances	True
+Viewer  Debtors / Creditors	False	Opening balances only	False
+
+	REPORTING GROUP ROOT			        0.00
+	B1000000	Petty cash			        0.00	        0.00
+	B1010000	Current bank account			        0.00	        0.00
+	G1100000	Debtor's control			        0.00	        0.00
+	G1110000	Provision for doubtful debts			        0.00	        0.00
+	G1200000	Stock / Inventory			        0.00	        0.00
+	G1300000	Accrued revenue / Outstanding revenue			        0.00	        0.00
+	G1350000	Prepaid expenses / Expenses paid in advance			        0.00	        0.00
+	G1400000	Short-term - Deposits / Investments			        0.00	        0.00
+	G1510000	Furniture & Fittings		        0.00
+		G1510010	Furniture & Fittings at cost		        0.00	        0.00
+		G1510020	Accumulated depreciation - Furniture & Fittings		        0.00	        0.00
+	G1520000	Equipment		        0.00
+		G1520010	Equipment at cost		        0.00	        0.00
+		G1520020	Accumulated depreciation - Equipment		        0.00	        0.00
+	G1530000	Computer equipment		        0.00
+		G1530010	Computer equipment at cost		        0.00	        0.00
+		G1530020	Accumulated depreciation - Computer equipment 		        0.00	        0.00
+	G1540000	Vehicles		        0.00
+		G1540010	Vehicles at cost		        0.00	        0.00
+		G1540020	Accumulated depreciation - Vehicles		        0.00	        0.00
+	G1600000	Land and Buildings		        0.00
+		G1600010	Land and Buildings at cost		        0.00	        0.00
+		G1600020	Land and Buildings - Improvements		        0.00	        0.00
+		G1600030	Amortisation - Land and Buildings		        0.00	        0.00
+	G1700000	Long-term - Deposits			        0.00	        0.00
+	G1900000	Copyrights			        0.00	        0.00
+	G1910000	Goodwill			        0.00	        0.00
+	G1920000	Patents			        0.00	        0.00
+	G1930000	Trademarks & Brands			        0.00	        0.00
+	G2000000	Creditor's control			        0.00	        0.00
+	G2100000	Accrued expenses / Outstanding expenses			        0.00	        0.00
+	G2150000	Deferred revenue / Unearned revenue			        0.00	        0.00
+	G2200000	Accrued Salaries and Wages			        0.00	        0.00
+	G2250000	Short-term loans			        0.00	        0.00
+	G2300000	SALARIES AND WAGES CONTROL		        0.00
+		G2300010	Employee Salaries Payable		        0.00	        0.00
+		G2300020	PAYE Income Tax Payable		        0.00	        0.00
+		G2300030	Health Insurance Premiums		        0.00	        0.00
+		G2300040	National Insurance Contributions Payable		        0.00	        0.00
+		G2300050	Pension Contributions Payable		        0.00	        0.00
+		G2300060	Employee Loans and Advances		        0.00	        0.00
+		G2300070	Other Payroll Deductions Payable (Unions / garnishee orders)		        0.00	        0.00
+	G2400000	VAT-CONTROL ACCOUNT		        0.00
+		T2400010	Output VAT - Standard rate (Sales)  - 20%		        0.00	        0.00
+		T2400015	Output VAT - Reduced rate (Sales) - 5%		        0.00	        0.00
+		T2400020	Output VAT - Exempt Income (Sales) - 0%		        0.00	        0.00
+		T2400030	Output VAT - Zero-rated (Sales) - 0%		        0.00	        0.00
+		T2400040	Output VAT - Zero Rated EU Goods - 0%		        0.00	        0.00
+		T2400050	Output VAT - Zero Rated EU Services - 0%		        0.00	        0.00
+		T2400100	Input VAT - Standard rate (Purchases) - 20%		        0.00	        0.00
+		T2400115	Input VAT - Reduced rate (Purchases) - 5%		        0.00	        0.00
+		T2400120	Input VAT - EU Acquisitions - 20% - Reverse charged		        0.00	        0.00
+		T2400130	Input VAT - EU Acquisitions (Zero Rated) - 0%		        0.00	        0.00
+		T2400140	Input VAT - Exempt Expenses - 0%		        0.00	        0.00
+		T2400150	Input VAT - Reverse Charge Expenses - 20%		        0.00	        0.00
+		T2400160	Input VAT - VAT on Imports - 100%		        0.00	        0.00
+		T2400170	Input VAT - Zero Rated EU Expenses - 0%		        0.00	        0.00
+		T2400180	Input VAT - Zero Rated Expenses - 0%		        0.00	        0.00
+		G2400500	VAT PAYMENTS ACCOUNT		        0.00	        0.00
+	G2450000	Suspense account			        0.00	        0.00
+	G2500000	Long-term loans			        0.00	        0.00
+	G3000000	Capital			        0.00	        0.00
+	G3100000	Additional capital			        0.00	        0.00
+	G3200000	Drawings			        0.00	        0.00
+	G3900000	Retained earnings			        0.00	        0.00
+	G4000000	Sales revenue			        0.00	        0.00
+	G4300000	Recovery of Bad Debts			        0.00	        0.00
+	G4400000	Finance charge income			        0.00	        0.00
+	G4500000	Interest earned			        0.00	        0.00
+	G4600000	Sales discounts			        0.00	        0.00
+	G5000000	Cost of Sales			        0.00	        0.00
+	G5200000	Stock (Inventory) shortages / surplus			        0.00	        0.00
+	G5300000	Freight charges			        0.00	        0.00
+	G5400000	Packaging			        0.00	        0.00
+	G6000000	Accounting fees			        0.00	        0.00
+	G6050000	Amortization			        0.00	        0.00
+	G6100000	Audit fees			        0.00	        0.00
+	G6150000	Bad debts Expense			        0.00	        0.00
+	G6200000	Bank charges			        0.00	        0.00
+	G6250000	Cleaning services			        0.00	        0.00
+	G6300000	Commissions paid			        0.00	        0.00
+	G6350000	Contract Labour			        0.00	        0.00
+	G6400000	Depreciation Expense			        0.00	        0.00
+	G6450000	Employee Benefits			        0.00	        0.00
+	G6500000	Entertainment and Meals			        0.00	        0.00
+	G6550000	Finance charges			        0.00	        0.00
+	G6600000	Gifts and donations			        0.00	        0.00
+	G6650000	Insurance premiums			        0.00	        0.00
+	G6700000	Interest paid			        0.00	        0.00
+	G6750000	Legal fees			        0.00	        0.00
+	G6800000	License fees			        0.00	        0.00
+	G6850000	Marketing and Advertising Expenses			        0.00	        0.00
+	G6900000	Motor Vehicle Expenses		        0.00
+		G6900010	Fuel and oil		        0.00	        0.00
+		G6900020	Vehicle - Insurance		        0.00	        0.00
+		G6900030	Vehicle - Maintenance and repairs		        0.00	        0.00
+		G6900040	Vehicle - Registration and Licence fees		        0.00	        0.00
+		G6900050	Vehicle - Tolls and parking fees		        0.00	        0.00
+		G6900060	Vehicle - Traffic fines / Vehicle violation expenses		        0.00	        0.00
+	G6950000	Office Expenses			        0.00	        0.00
+	G7000000	Payroll fees		        0.00
+		G7000010	Payroll processing fees		        0.00	        0.00
+		G7000020	Payroll software costs		        0.00	        0.00
+		G7000030	Payroll training costs		        0.00	        0.00
+		G7000040	Other payroll expenses		        0.00	        0.00
+	G7050000	Postage and Shipping			        0.00	        0.00
+	G7100000	Printing			        0.00	        0.00
+	G7150000	Professional fees			        0.00	        0.00
+	G7200000	Repairs and Maintenance			        0.00	        0.00
+	G7250000	Research and Development			        0.00	        0.00
+	G7300000	Rent paid			        0.00	        0.00
+	G7350000	Salaries and wages expenses		        0.00
+		G7350010	Gross Salaries		        0.00	        0.00
+		G7350020	Employer National Insurance contributions		        0.00	        0.00
+		G7350030	Employer Pension contributions		        0.00	        0.00
+		G7350040	Bonuses and commissions		        0.00	        0.00
+		G7350050	Disability pay		        0.00	        0.00
+		G7350060	Health Insurance premiums		        0.00	        0.00
+		G7350070	Holiday pay		        0.00	        0.00
+		G7350080	Maternity / Paternity pay		        0.00	        0.00
+		G7350090	Overtime pay		        0.00	        0.00
+		G7350100	Severance pay		        0.00	        0.00
+		G7350110	Sick pay		        0.00	        0.00
+	G7400000	Software Subscriptions			        0.00	        0.00
+	G7450000	Stationery			        0.00	        0.00
+	G7500000	Subscriptions			        0.00	        0.00
+	G7550000	Telephone and Internet			        0.00	        0.00
+	G7600000	Training			        0.00	        0.00
+	G7650000	Utilities			        0.00	        0.00
+	G8000000	Gain on sale of assets			        0.00	        0.00
+	G8010000	Investment income			        0.00	        0.00
+	G8020000	Royalties received			        0.00	        0.00
+	G8030000	Rent income			        0.00	        0.00
+	G8040000	Foreign exchange gain			        0.00	        0.00
+	G8050000	Insurance proceeds			        0.00	        0.00
+	G8060000	Legal settlements			        0.00	        0.00
+	G8070000	Other non-operating revenue			        0.00	        0.00
+	G9000000	Loss on disposal of assets			        0.00	        0.00
+	G9010000	Donations & Contributions			        0.00	        0.00
+	G9020000	Foreign exchange loss			        0.00	        0.00
+	G9030000	Insurance expenses			        0.00	        0.00
+	G9040000	Interest expenses			        0.00	        0.00
+	G9050000	Litigation expenses			        0.00	        0.00
+		
+				Net Profit/Loss 	        0.00	        0.00
+				Balance 	        0.00	        0.00
