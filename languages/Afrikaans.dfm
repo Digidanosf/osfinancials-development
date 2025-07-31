@@ -2198,7 +2198,7 @@ object TTranslationSaveObject
       IndexID = 541
       Text = 
         'Kies '#39'n Stel Boeke van die lys hieronder, asseblief. Andersins, ' +
-        'klik op die Rondsoek knoppie om die Stel Boeke elders te kies.'
+        'klik op die [Rondsoek] knoppie om die Stel Boeke elders te kies.'
     end
     item
       IndexID = 540
@@ -2279,7 +2279,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 557
-      Text = 'Klik op Voltooi om jou joernaaltipes te spesifiseer'
+      Text = 'Klik op [Voltooi] om jou joernaaltipes te spesifiseer'
     end
     item
       IndexID = 556
@@ -2820,8 +2820,8 @@ object TTranslationSaveObject
     item
       IndexID = 696
       Text = 
-        'Ongeldige volgende nommer! Verander dit in die Opstel -> Dokumen' +
-        'te opsie.'
+        'Ongeldige volgende nommer! Verander dit in '#39'Opstel '#8594' Dokumente o' +
+        'pstel'#39
     end
     item
       IndexID = 697
@@ -2881,7 +2881,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 711
-      Text = 'Doen opstel en kies kontrarekening vir di'#233' joernaal!'
+      Text = 
+        'Doen '#39'Opstel '#8594' Joernaaltipes'#39' en kies kontrarekening vir di'#233' joe' +
+        'rnaal!'
     end
     item
       IndexID = 712
@@ -2935,9 +2937,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 724
-      Text = 
-        'Internet opstelling is foutief! Doen Opstel -> Opstel -> Interne' +
-        't.'
+      Text = 'Internet opstelling is foutief! Doen '#39'Opstel '#8594' Internet'#39'.'
     end
     item
       IndexID = 725
@@ -3091,7 +3091,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 764
-      Text = 'Klik op Toemaak om die Opstelassistent te voltooi.'
+      Text = 'Klik op [Toemaak] om die Opstelassistent te voltooi.'
     end
     item
       IndexID = 765
@@ -3338,8 +3338,8 @@ object TTranslationSaveObject
       IndexID = 822
       Text = 
         'Jy gebruik Betalingsgebasseerde metode en die Betalingsrekening ' +
-        'kan nie gevid word nie! Gebruik asseblief Opstel->Opstel onderne' +
-        'ming.'
+        'kan nie gevid word nie! Gebruik asseblief '#39'Opstel '#8594' Opstel onder' +
+        'neming'#39'.'
     end
     item
       IndexID = 823
@@ -3347,7 +3347,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 824
-      Text = 'Klik op Voltooi om uit te voer.'
+      Text = 'Klik op [Voltooi] om uit te voer.'
     end
     item
       IndexID = 825
@@ -3605,7 +3605,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 890
-      Text = 'Om dit oop te stel, gaan na Optel -> Verslagdatums'
+      Text = 'Om dit oop te stel, gaan na '#39'Optel '#8594' Verslagdatums'#39
     end
     item
       IndexID = 891
@@ -3685,7 +3685,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 911
-      Text = 'Druk Ja om voort te gaan of Nee om di'#233' proses te kanselleer.'
+      Text = 'Druk [Ja] om voort te gaan of [Nee] om di'#233' proses te kanselleer.'
     end
     item
       IndexID = 912
@@ -6832,7 +6832,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1414
-      Text = 'Om toegang te aktiveer, gaan na Opstel -> Toegangsbeheer'
+      Text = 'Om toegang te aktiveer, gaan na '#39'Opstel '#8594' Toegangsbeheer'#39
     end
     item
       IndexID = 20000
@@ -7527,7 +7527,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2028
-      Text = 'Klik op die Invoer knoppie om die invoerproses te inisieer.'
+      Text = 'Klik op [Invoer] om die invoerproses te inisieer.'
     end
     item
       IndexID = 2029
@@ -7815,7 +7815,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2100
-      Text = 'Klik op die Goed knoppie om die nuwe naam te stoor.'
+      Text = 'Klik op [Goed] om die nuwe naam te stoor.'
     end
     item
       IndexID = 2101
@@ -9141,7 +9141,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2435
-      Text = 'Klik op &Dut om later herinner te word in:'
+      Text = 'Klik op [&Dut] om later herinner te word in:'
     end
     item
       IndexID = 2436
@@ -10860,8 +10860,8 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Druk Goed sodra jy klaar is om te redigeer; om die l'#234'er in die d' +
-        'atabasis te stoor!'
+        'Druk [Goed] sodra jy klaar is om te redigeer; om die l'#234'er in die' +
+        ' databasis te stoor!'
     end
     item
       IndexID = 903010
@@ -11963,7 +11963,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3247
-      Text = 'Kyk->Webblaaier'
+      Text = 'Kyk'#8594'Webblaaier'
     end
     item
       IndexID = 3248
@@ -12602,8 +12602,9 @@ object TTranslationSaveObject
     item
       IndexID = 3371
       Text = 
-        'Indien jy alle dokumente wil skoonmaak verwyder, klik Ja. Indien' +
-        ' jy alle dokumente wil behou en as ongeposteer stel, klik Nee.'
+        'Indien jy alle dokumente wil skoonmaak (verwyder), klik [Ja]. In' +
+        'dien jy alle dokumente wil behou en as ongeposteer stel, klik [N' +
+        'ee].'
     end
     item
       IndexID = 3372
@@ -14165,8 +14166,8 @@ object TTranslationSaveObject
     item
       IndexID = 3499
       Text = 
-        'Die detailskerm is steeds oop! Kanselleer of stoor asseblief om ' +
-        'skerm toe te maak.'
+        'Die detailskerm is steeds oop! Klik asseblief op [Kanselleer] of' +
+        ' [Stoor] om skerm toe te maak.'
     end
     item
       IndexID = 3500
@@ -15911,8 +15912,8 @@ object TTranslationSaveObject
     item
       IndexID = 3627
       Text = 
-        'Di'#233' lys vertoon wat jy gaan bestel, wanneer jy op die Betstel kn' +
-        'oppie klik.'
+        'Di'#233' lys vertoon wat jy gaan bestel, wanneer jy op die [Betstel] ' +
+        'knoppie klik.'
     end
     item
       IndexID = 3628
@@ -16230,7 +16231,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3699
-      Text = 'Kies Alles om die vraag nie te herhaal nie.'
+      Text = 'Kies [Alles] om die vraag nie te herhaal nie.'
     end
     item
       IndexID = 3700
@@ -16353,7 +16354,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3726
-      Text = 'OK -> Volgende'
+      Text = 'OK '#8594' Volgende'
     end
     item
       IndexID = 3727
