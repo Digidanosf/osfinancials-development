@@ -314,7 +314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Returns listing'
+      Text = '&Supplier returns listing'
     end
     item
       IndexID = 81
@@ -2226,8 +2226,8 @@ object TTranslationSaveObject
       IndexID = 544
       Text = 
         'Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please ' +
-        'select an option and click on the Next button, or click on the C' +
-        'ancel button to cancel the creation of a new Set of Books.'
+        'select an option and click on the [Next] button, or click on the' +
+        ' [Cancel] button to cancel the creation of a new Set of Books.'
     end
     item
       IndexID = 543
@@ -2240,9 +2240,9 @@ object TTranslationSaveObject
     item
       IndexID = 541
       Text = 
-        'Please select a Set of Books from the list below, or click Brows' +
-        'e button to select the Set of Books you wish to copy in a folder' +
-        ' elsewhere on your system.'
+        'Please select a Set of Books from the list below, or click [Brow' +
+        'se] button to select the Set of Books you wish to copy in a fold' +
+        'er elsewhere on your system.'
     end
     item
       IndexID = 540
@@ -2274,7 +2274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 557
-      Text = 'Please click Finish to specify your:'
+      Text = 'Please click [Finish] to specify your:'
     end
     item
       IndexID = 556
@@ -2818,7 +2818,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 696
-      Text = 'Invalid next number! Change it in Setup -> Documents setup!'
+      Text = 'Invalid next number! Change it in '#39'Setup '#8594' Documents setup'#39'!'
     end
     item
       IndexID = 697
@@ -2879,8 +2879,8 @@ object TTranslationSaveObject
     item
       IndexID = 711
       Text = 
-        'Run Setup -> Batch types and select contra account for this batc' +
-        'h!'
+        'Run '#39'Setup '#8594' Batch types'#39' and select contra account for this bat' +
+        'ch!'
     end
     item
       IndexID = 712
@@ -2936,9 +2936,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 724
-      Text = 
-        'Internet setup information is incorrect! Run Setup -> Setup -> I' +
-        'nternet.'
+      Text = 'Internet setup information is incorrect! Run '#39'Setup '#8594' Internet'#39'.'
     end
     item
       IndexID = 725
@@ -3092,7 +3090,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 764
-      Text = 'Then click Close to finish the Creation wizard.'
+      Text = 'Then click [Close] to finish the Creation wizard.'
     end
     item
       IndexID = 765
@@ -3339,7 +3337,7 @@ object TTranslationSaveObject
       IndexID = 822
       Text = 
         'You are running payment based method and the due account cannot ' +
-        'be found! Please run Setup -> Company info!'
+        'be found! Please run '#39'Setup '#8594' Company info'#39'!'
     end
     item
       IndexID = 823
@@ -3347,7 +3345,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 824
-      Text = 'Click on Finish to execute.'
+      Text = 'Click on [Finish] to execute.'
     end
     item
       IndexID = 825
@@ -3607,7 +3605,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 890
-      Text = 'To turn it on, go to Setup -> Reporting dates'
+      Text = 'To turn it on, go to '#39'Setup '#8594' Reporting dates'#39
     end
     item
       IndexID = 891
@@ -3687,7 +3685,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 911
-      Text = 'Click on Yes to continue or No to abort'
+      Text = 'Click on [Yes] to continue or [No] to abort'
     end
     item
       IndexID = 912
@@ -3777,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Gen BB/F'
+      Text = 'Generate BB/F'
     end
     item
       IndexID = 934
@@ -4254,7 +4252,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1053
-      Text = 'Select Setup -> Company info you want to change!'
+      Text = 'Select '#39'Setup '#8594' Company info'#39' you want to change!'
     end
     item
       IndexID = 1054
@@ -5275,7 +5273,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1309
-      Text = 'Compressing Message.db'
+      Text = 'Compressing Message.db...'
     end
     item
       IndexID = 1310
@@ -5695,7 +5693,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1414
-      Text = 'Enable access in Setup -> Access control'
+      Text = 'Enable access in '#39'Setup '#8594' Access control'#39
     end
     item
       IndexID = 1700
@@ -7519,7 +7517,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2028
-      Text = 'You can now click on Import to start the process.'
+      Text = 'You can now click on [Import] to start the process.'
     end
     item
       IndexID = 2027
@@ -7663,7 +7661,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2065
-      Text = 'Creating Set of Books'
+      Text = 'Creating Set of Books...'
     end
     item
       IndexID = 2064
@@ -7811,7 +7809,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2100
-      Text = 'Click on OK to save new name'
+      Text = 'Click on [OK] to save new name'
     end
     item
       IndexID = 2099
@@ -8067,7 +8065,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2172
-      Text = 'Generate Balance B/F options'
+      Text = 'Generate BB/F options'
     end
     item
       IndexID = 2171
@@ -8115,7 +8113,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Importing debtors/creditors'
+      Text = 'Importing debtors/creditors...'
     end
     item
       IndexID = 2183
@@ -9131,7 +9129,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2435
-      Text = 'Click &Snooze to be reminded again in:'
+      Text = 'Click [&Snooze] to be reminded again in:'
     end
     item
       IndexID = 2434
@@ -10483,7 +10481,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3073
-      Text = 'Group still has nesteled groups! Remove them first!'
+      Text = 'Group still has nested groups! Remove them first!'
     end
     item
       IndexID = 3074
@@ -10722,7 +10720,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 900003
-      Text = 'House no. tv'
+      Text = 'House no. unit'
     end
     item
       IndexID = 900004
@@ -10927,8 +10925,8 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Press OK when you are done editing the file to save it to the da' +
-        'tabase!'
+        'Press [OK] when you are done editing the file to save it to the ' +
+        'database!'
     end
     item
       IndexID = 903010
@@ -12569,8 +12567,9 @@ object TTranslationSaveObject
     item
       IndexID = 3371
       Text = 
-        'If you wish to clear (remove) all documents, click Yes. If you w' +
-        'ish to retain all documents and set them to unposted, click No.'
+        'If you wish to clear (remove) all documents, click [Yes]. If you' +
+        ' wish to retain all documents and set them to unposted, click [N' +
+        'o].'
     end
     item
       IndexID = 3372
@@ -12805,7 +12804,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906102
-      Text = 'Contra Accounts'
+      Text = 'Contra accounts'
     end
     item
       IndexID = 906103
@@ -14108,8 +14107,8 @@ object TTranslationSaveObject
     item
       IndexID = 3499
       Text = 
-        'You still have a detail screen open! Click Cancel or Save to clo' +
-        'se!'
+        'You still have a detail screen open! Click [Cancel] or [Save] to' +
+        ' close!'
     end
     item
       IndexID = 3500
@@ -14681,7 +14680,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 22231
-      Text = 'Sends the reports to a e-mail destination'
+      Text = 'Sends the reports to an e-mail destination'
     end
     item
       IndexID = 21044
@@ -15874,8 +15873,8 @@ object TTranslationSaveObject
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the o' +
-        'rder button'
+        'This list shows what you are going to order when you press the [' +
+        'Order] button'
     end
     item
       IndexID = 3628
@@ -16193,7 +16192,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3699
-      Text = 'Select All to stop asking this question.'
+      Text = 'Select [All] to stop asking this question.'
     end
     item
       IndexID = 3700
@@ -16316,7 +16315,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3726
-      Text = 'OK -> Next'
+      Text = 'OK '#8594' Next'
     end
     item
       IndexID = 3727
