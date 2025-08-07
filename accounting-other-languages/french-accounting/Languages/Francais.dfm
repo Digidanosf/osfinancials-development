@@ -98,7 +98,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Inventaire'
+      Text = 'Inventaire'
     end
     item
       IndexID = 28
@@ -12285,7 +12285,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3329
-      Text = 'Devise'
+      Text = 'Act.'
     end
     item
       IndexID = 3330
@@ -12293,19 +12293,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3331
-      Text = 'P'
+      Text = 'Prix'
     end
     item
       IndexID = 3332
-      Text = 'LP'
+      Text = 'D.P.'
     end
     item
       IndexID = 3333
-      Text = 'Commande'
+      Text = 'Cde'
     end
     item
       IndexID = 3334
-      Text = 'Exp.'
+      Text = 'Pr'#233'vu'
     end
     item
       IndexID = 3335
