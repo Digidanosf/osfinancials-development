@@ -122,7 +122,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'Compte TVA'
+      Text = 'Compte TPS/TVQ'
     end
     item
       IndexID = 34
@@ -238,7 +238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 63
-      Text = '&TVA'
+      Text = '&TPS/TVQ'
     end
     item
       IndexID = 64
@@ -614,11 +614,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Euros'
+      Text = 'CAD $'
     end
     item
       IndexID = 158
-      Text = 'Centime'
+      Text = 'Cents ('#162')'
     end
     item
       IndexID = 159
@@ -802,7 +802,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'R'#233'f'#233'rence TVA'
+      Text = 'R'#233'f'#233'rence de TPS/TVQ'
     end
     item
       IndexID = 203
@@ -870,11 +870,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 219
-      Text = 'TVA D'#233'ductible'
+      Text = 'TPS/TVQ d'#233'ductible'
     end
     item
       IndexID = 220
-      Text = 'TVA Collect'#233'e'
+      Text = 'TPS/TVQ collect'#233'e'
     end
     item
       IndexID = 221
@@ -990,7 +990,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 249
-      Text = 'Options du rapport des transactions fournisseurs'
+      Text = 'Options rapport transactions fournisseurs'
     end
     item
       IndexID = 250
@@ -1006,7 +1006,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'Comptes TVA'
+      Text = 'Comptes TPS/TVQ'
     end
     item
       IndexID = 255
@@ -1246,7 +1246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'R'#233'gime TVA'
+      Text = 'R'#233'gime TPS/TVQ'
     end
     item
       IndexID = 315
@@ -1258,7 +1258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'N'#176' TVA intracom.'
+      Text = 'N'#176' TPS/TVQ (RQ)'
     end
     item
       IndexID = 318
@@ -1534,11 +1534,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 390
-      Text = 'Options rapport TVA'
+      Text = 'Options du rapport TPS/TVQ'
     end
     item
       IndexID = 391
-      Text = 'Code TVA'
+      Text = 'Code de TPS/TVQ'
     end
     item
       IndexID = 392
@@ -1602,7 +1602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 407
-      Text = 'Afficher '#233'critures TVA'
+      Text = 'Afficher les '#233'critures TPS/TVQ'
     end
     item
       IndexID = 408
@@ -1610,7 +1610,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 409
-      Text = 'Afficher la TVA s'#233'par'#233'ment'
+      Text = 'Afficher la TPS/TVQ s'#233'par'#233'ment'
     end
     item
       IndexID = 410
@@ -1879,7 +1879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 469
-      Text = 'Ce n'#39'est pas un compte de TVA.'
+      Text = 'Ce n'#39'est pas un compte de TPS/TVQ.'
     end
     item
       IndexID = 470
@@ -2144,8 +2144,8 @@ object TTranslationSaveObject
     item
       IndexID = 529
       Text = 
-        'Ce compte de TVA a des transactions. Souhaitez-vous les transf'#233'r' +
-        'er '#224' un autre compte de TVA ?'
+        'Ce compte de TPS/TVQ a des transactions. Souhaitez-vous les tran' +
+        'sf'#233'rer '#224' un autre compte?'
     end
     item
       IndexID = 530
@@ -2495,7 +2495,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'TVA'
+      Text = 'TPS/TVQ'
     end
     item
       IndexID = 610
@@ -2806,11 +2806,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 687
-      Text = 'HT'
+      Text = 'HT (Avant taxes)'
     end
     item
       IndexID = 688
-      Text = 'TTC'
+      Text = 'TPS/TVQ incluses'
     end
     item
       IndexID = 689
@@ -3072,7 +3072,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 750
-      Text = 'N'#176' facture TVA'
+      Text = 'N'#176' facture TPS/TVQ'
     end
     item
       IndexID = 751
@@ -3354,8 +3354,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        'Vous ne pouvez pas avoir un type de TVA pour un client ou un fou' +
-        'rnisseur dans le syst'#232'me bas'#233' sur les encaissements.'
+        'Interdit : type de TPS/TVQ pour un client/fournisseur en syst'#232'me' +
+        ' bas'#233' sur les encaissements.'
     end
     item
       IndexID = 817
@@ -3375,9 +3375,10 @@ object TTranslationSaveObject
     item
       IndexID = 821
       Text = 
-        'Dans cette m'#233'thode, la TVA est bas'#233'e purement sur les encaisseme' +
-        'nts. La taxe n'#39'est payable '#224' l'#39'administration fiscale qu'#39'apr'#232's e' +
-        'ncaissement du client. Voulez-vous continuer ?'
+        'Dans cette m'#233'thode, la TPS/TVQ est calcul'#233'e uniquement lors de l' +
+        #8217'encaissement. La taxe n'#39'est payable '#224' Revenu Qu'#233'bec (TVQ) et '#224' ' +
+        'l'#8217'ARC (TPS) qu'#8217'une fois le paiement re'#231'u du client. Voulez-vous ' +
+        'continuer ?'
     end
     item
       IndexID = 822
@@ -4615,7 +4616,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'N'#176' TVA ref. client'
+      Text = 'N'#176' r'#233'f. client TPS/TVQ'
     end
     item
       IndexID = 1131
@@ -4635,7 +4636,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'Immatriculation TVA'
+      Text = 'Enregistrement TPS/TVQ (RQ)'
     end
     item
       IndexID = 1136
@@ -4647,7 +4648,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1138
-      Text = 'Montant TVA'
+      Text = 'Montant TPS/TVQ'
     end
     item
       IndexID = 1139
@@ -5268,7 +5269,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = 'S'#233'lectionnez jeu livres comptables '#224' reconstruire'
+      Text = #8226' S'#233'lectionnez jeu livres comptables '#224' reconstruire'
     end
     item
       IndexID = 1293
@@ -6118,7 +6119,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1789
-      Text = 'Comptes TVA'
+      Text = 'Comptes TPS/TVQ'
     end
     item
       IndexID = 1790
@@ -6410,7 +6411,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1863
-      Text = 'TVA'
+      Text = 'TPS/TVQ'
     end
     item
       IndexID = 1864
@@ -6658,7 +6659,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1925
-      Text = 'TVA'
+      Text = 'TPS/TVQ'
     end
     item
       IndexID = 1926
@@ -6897,7 +6898,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'Pas de TVA'
+      Text = 'Aucune TPS/TVQ'
     end
     item
       IndexID = 1983
@@ -6909,11 +6910,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'M'#233'moriser TVA sur compte de contrepartie'
+      Text = 'M'#233'm. TPS/TVQ sur cpte contrepartie'
     end
     item
       IndexID = 1986
-      Text = 'Se souvenir contrepartie sur compte'
+      Text = #8226' Se souvenir contrepartie sur compte'
     end
     item
       IndexID = 1987
@@ -7623,7 +7624,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2037
-      Text = 'Facture TVA'
+      Text = 'FACTURE TPS/TVQ'
     end
     item
       IndexID = 2038
@@ -7647,7 +7648,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = 'Montant TVA'
+      Text = 'MT TPS/TVQ'
     end
     item
       IndexID = 2044
@@ -7679,7 +7680,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '* TVA non applicable'
+      Text = '*TPS/TVQ non applicable'
     end
     item
       IndexID = 2052
@@ -8179,7 +8180,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 'Montant de TVA trouv'#233', mais le compte de TVA a '#233't'#233' supprim'#233' !'
+      Text = 'Montant de TPS/TVQ trouv'#233', mais le compte a '#233't'#233' supprim'#233' !'
     end
     item
       IndexID = 2178
@@ -8283,7 +8284,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Modifier la TVA'
+      Text = 'Modifier TPS/TVQ'
     end
     item
       IndexID = 2204
@@ -10361,7 +10362,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser TPS/TVQ d'#233'faut'
     end
     item
       IndexID = 3051
@@ -10373,15 +10374,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser TPS/TVQ li'#233'e'
     end
     item
       IndexID = 3054
-      Text = 'TVA li'#233'e'
+      Text = 'TPS/TVQ li'#233'e'
     end
     item
       IndexID = 3055
-      Text = 'TVA de contrepartie'
+      Text = 'TPS/TVQ contrepartie'
     end
     item
       IndexID = 3056
@@ -10421,11 +10422,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser TPS/TVQ d'#233'faut'
     end
     item
       IndexID = 3028
-      Text = 'Compte TVA par d'#233'faut'
+      Text = 'Compte TPS/TVQ d'#233'faut'
     end
     item
       IndexID = 3029
@@ -10453,15 +10454,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser TPS/TVQ li'#233'e'
     end
     item
       IndexID = 3036
-      Text = 'TVA li'#233'e'
+      Text = 'TPS/TVQ li'#233'e'
     end
     item
       IndexID = 3037
-      Text = 'TVA contrepartie'
+      Text = 'TPS/TVQ contrepartie'
     end
     item
       IndexID = 3038
@@ -11028,7 +11029,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = 'Fr'
+      Text = 'CAD $'
     end
     item
       IndexID = 1000004
@@ -11260,7 +11261,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906014
-      Text = 'Facture TVA PdV'
+      Text = 'Facture TPS/TVQ PdV'
     end
     item
       IndexID = 906015
@@ -11284,7 +11285,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906020
-      Text = 'TVA'
+      Text = 'TPS/TVQ'
     end
     item
       IndexID = 906021
@@ -11596,7 +11597,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'Fusionner articles par TVA au grand livre'
+      Text = 'Fusionner articles par TPS/TVQ'
     end
     item
       IndexID = 3161
@@ -11632,7 +11633,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'TVA stricte sur le compte'
+      Text = 'TPS/TVQ stricte compte'
     end
     item
       IndexID = 3170
@@ -11668,7 +11669,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3178
-      Text = 'Liens de TVA'
+      Text = 'Liens TPS/TVQ'
     end
     item
       IndexID = 3179
@@ -12143,7 +12144,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher TVA dans les documents'
+      Text = 'Afficher TPS/TVQ documents'
     end
     item
       IndexID = 3295
@@ -12155,7 +12156,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3297
-      Text = 'Masquer cette TVA'
+      Text = 'Masquer cette TPS/TVQ'
     end
     item
       IndexID = 3298
@@ -12350,9 +12351,8 @@ object TTranslationSaveObject
     item
       IndexID = 3345
       Text = 
-        'Une consolidation avec TVA faussera votre relev'#233' de TVA ! Assure' +
-        'z-vous de ne pas utiliser la TVA ou de ne pas consolider les lig' +
-        'nes !'
+        'Une consolidation avec TPS/TVQ faussera votre d'#233'claration ! Assu' +
+        'rez-vous de ne pas consolider les lignes avec taxe.'
     end
     item
       IndexID = 3346
@@ -12386,7 +12386,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Comptes d'#39'Achats, de Ventes, de Co'#251'ts des Ventes et de TVA'
+      Text = 'Comptes achats, ventes, co'#251'ts & TPS/TVQ'
     end
     item
       IndexID = 3353
@@ -12524,7 +12524,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906069
-      Text = 'Votre num'#233'ro TVA'
+      Text = 'Votre r'#233'f.  TPS/TVQ'
     end
     item
       IndexID = 1000055
@@ -12588,11 +12588,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906084
-      Text = 'TVA document'
+      Text = 'TPS/TVQ document'
     end
     item
       IndexID = 906085
-      Text = 'TVA sur Compte TVA'
+      Text = 'TPS/TVQ sur Compte TPS/TVQ'
     end
     item
       IndexID = 906086
@@ -12850,7 +12850,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'Recherche de Code Postal / N'#176' TVA / N'#176' d'#39'Enregistrement'
+      Text = 'Recherche code postal / N'#176' TPS/TVQ / NEQ'
     end
     item
       IndexID = 3410
@@ -13050,11 +13050,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Classes TVA'
+      Text = 'Cat'#233'gories TPS/TVQ'
     end
     item
       IndexID = 3466
-      Text = 'Classe TVA'
+      Text = 'Cat'#233'gorie TPS/TVQ'
     end
     item
       IndexID = 3467
@@ -14728,7 +14728,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'TVA par p'#233'riode'
+      Text = 'TPS/TVQ par p'#233'riode'
     end
     item
       IndexID = 906106
@@ -15296,51 +15296,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906248
-      Text = 'Facture SANS TVA (sans codes)'
+      Text = 'Facture SANS TPS/TVQ (sans codes)'
     end
     item
       IndexID = 906249
-      Text = 'Avoir SANS TVA (sans codes)'
+      Text = 'Avoir SANS TPS/TVQ (sans codes)'
     end
     item
       IndexID = 906250
-      Text = 'Devis SANS TVA (sans codes)'
+      Text = 'Devis SANS TPS/TVQ (sans codes)'
     end
     item
       IndexID = 906251
-      Text = 'Achat SANS TVA (sans codes)'
+      Text = 'Achat SANS TTPS/TVQ (sans codes)'
     end
     item
       IndexID = 906252
-      Text = 'Retour fournisseur SANS TVA (sans codes)'
+      Text = 'Retour fournisseur SANS TPS/TVQ (sans codes)'
     end
     item
       IndexID = 906253
-      Text = 'Commande SANS TVA (sans codes)'
+      Text = 'Commande SANS TPS/TVQ (sans codes)'
     end
     item
       IndexID = 906254
-      Text = 'Facture SANS TVA (15 codes)'
+      Text = 'Facture SANS TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906255
-      Text = 'Avoir SANS TVA (15 codes)'
+      Text = 'Avoir SANS TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906256
-      Text = 'Devis SANS TVA (15 codes)'
+      Text = 'Devis SANS TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906257
-      Text = 'Achat SANS TVA (15 codes)'
+      Text = 'Achat SANS TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906258
-      Text = 'Retour fournisseur SANS TVA (15 codes)'
+      Text = 'Retour fournisseur TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906259
-      Text = 'Commande SANS TVA (15 Codes)'
+      Text = 'Commande SANS TPS/TVQ (15 Codes)'
     end
     item
       IndexID = 906217
@@ -15368,7 +15368,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906265
-      Text = 'Rapport TVA'
+      Text = 'Rapport TPS/TVQ'
     end
     item
       IndexID = 903101
@@ -15584,7 +15584,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Corriger montant TVA (incl./excl.) (bug invers'#233')'
+      Text = 'Corriger montant TPS/TVQ (incl./excl. ; bug invers'#233')'
     end
     item
       IndexID = 903155
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand livre et TVA'
+      Text = 'Grand livre et TPS/TVQ'
     end
     item
       IndexID = 906281
@@ -16002,9 +16002,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906339
-      Text = 
-        'Num'#233'ros d'#39'Identification Fiscale et d'#39'Enregistrement d'#39'Entrepris' +
-        'e'
+      Text = 'N'#176' fiscal et NEQ'
     end
     item
       IndexID = 906440
@@ -16228,7 +16226,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3675
-      Text = 'Liste TVA Clients (n'#176' TVA)'
+      Text = 'Liste clients (N'#176' TPS/TVQ)'
     end
     item
       IndexID = 3676
@@ -16405,7 +16403,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'Rapport TVA - N'#176' r'#233'f'#233'rence / document'
+      Text = 'Rapport TPS/TVQ - N'#176' r'#233'f./doc'
     end
     item
       IndexID = 906551
@@ -16417,7 +16415,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906553
-      Text = 'Liste TVA fournisseurs (n'#176' TVA)'
+      Text = 'Liste fournisseurs (N'#176' TPS/TVQ)'
     end
     item
       IndexID = 906554
@@ -16457,7 +16455,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3722
-      Text = 'Afficher document quantit'#233
+      Text = 'Quantit'#233' affich'#233'e dans le document'
     end
     item
       IndexID = 3723
@@ -16512,8 +16510,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'Vous imputez des profits/pertes au grand livre avec taxe. Cela p' +
-        'erturbera les rapports fiscaux. Souhaitez-vous continuer ?'
+        'Vous imputez profits/pertes avec TPS/TVQ. Cela faussera les rapp' +
+        'orts fiscaux. Continuer ?'
     end
     item
       IndexID = 3736
@@ -16531,15 +16529,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906589
-      Text = 'Fichier Mise en page SANS TVA'
+      Text = 'Fichier Mise en page SANS TPS/TVQ'
     end
     item
       IndexID = 906590
-      Text = 'Mise en page document SANS TVA'
+      Text = 'Mise en page document SANS TPS/TVQ'
     end
     item
       IndexID = 906591
-      Text = 'Mise en page document SANS TVA (15 codes)'
+      Text = 'Mise en page document SANS TPS/TVQ (15 codes)'
     end
     item
       IndexID = 906588
@@ -16679,6 +16677,6 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'Codes TVA - Taux d'#39'Imposition'
+      Text = 'Codes TPS/TVQ - Taux'
     end>
 end

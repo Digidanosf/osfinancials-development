@@ -7651,7 +7651,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2044
-      Text = '19,60 %'
+      Text = '18,90 %'
     end
     item
       IndexID = 2045
@@ -10361,7 +10361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par D'#233'faut'
     end
     item
       IndexID = 3051
@@ -10373,11 +10373,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser la TVA Li'#233'e'
     end
     item
       IndexID = 3054
-      Text = 'TVA li'#233'e'
+      Text = 'TVA Li'#233'e'
     end
     item
       IndexID = 3055
@@ -10421,7 +10421,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par D'#233'faut'
     end
     item
       IndexID = 3028
@@ -10453,15 +10453,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser la TVA Li'#233'e'
     end
     item
       IndexID = 3036
-      Text = 'TVA li'#233'e'
+      Text = 'TVA Li'#233'e'
     end
     item
       IndexID = 3037
-      Text = 'TVA contrepartie'
+      Text = 'TVA de contrepartie'
     end
     item
       IndexID = 3038
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand livre et TVA'
+      Text = 'Grand Livre et TVA'
     end
     item
       IndexID = 906281

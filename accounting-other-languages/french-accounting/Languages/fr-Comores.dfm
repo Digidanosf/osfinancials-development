@@ -614,11 +614,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Euros'
+      Text = 'KMF'
     end
     item
       IndexID = 158
-      Text = 'Centime'
+      Text = '-'
     end
     item
       IndexID = 159
@@ -802,7 +802,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'R'#233'f'#233'rence TVA'
+      Text = 'R'#233'f. fiscale'
     end
     item
       IndexID = 203
@@ -1258,7 +1258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'N'#176' TVA intracom.'
+      Text = 'N'#176' d'#39'identification fiscale'
     end
     item
       IndexID = 318
@@ -4615,7 +4615,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'N'#176' TVA ref. client'
+      Text = 'R'#233'f. fiscale client'
     end
     item
       IndexID = 1131
@@ -6897,7 +6897,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'Pas de TVA'
+      Text = 'Sans TVA'
     end
     item
       IndexID = 1983
@@ -7651,7 +7651,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2044
-      Text = '19,60 %'
+      Text = '10,00 %'
     end
     item
       IndexID = 2045
@@ -10361,7 +10361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par D'#233'faut'
     end
     item
       IndexID = 3051
@@ -10373,11 +10373,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser la TVA Li'#233'e'
     end
     item
       IndexID = 3054
-      Text = 'TVA li'#233'e'
+      Text = 'TVA Li'#233'e'
     end
     item
       IndexID = 3055
@@ -10421,7 +10421,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser la TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par D'#233'faut'
     end
     item
       IndexID = 3028
@@ -10453,15 +10453,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser la TVA li'#233'e'
+      Text = 'Utiliser la TVA Li'#233'e'
     end
     item
       IndexID = 3036
-      Text = 'TVA li'#233'e'
+      Text = 'TVA Li'#233'e'
     end
     item
       IndexID = 3037
-      Text = 'TVA contrepartie'
+      Text = 'TVA de contrepartie'
     end
     item
       IndexID = 3038
@@ -11028,7 +11028,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = 'Fr'
+      Text = 'KMF'
     end
     item
       IndexID = 1000004
@@ -12386,7 +12386,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Comptes d'#39'Achats, de Ventes, de Co'#251'ts des Ventes et de TVA'
+      Text = 'Comptes Achats, Ventes, Co'#251't des Ventes et TVA'
     end
     item
       IndexID = 3353
@@ -12524,7 +12524,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906069
-      Text = 'Votre num'#233'ro TVA'
+      Text = 'Votre num'#233'ro fiscal'
     end
     item
       IndexID = 1000055
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand livre et TVA'
+      Text = 'Grand Livre et TVA'
     end
     item
       IndexID = 906281
