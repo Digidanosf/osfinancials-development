@@ -1102,7 +1102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 278
-      Text = 'Options du Grand-Livre'
+      Text = 'Options du grand-livre'
     end
     item
       IndexID = 279
@@ -1554,7 +1554,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 395
-      Text = 'Nouvellle AS'
+      Text = 'Nouvellle ZA'
     end
     item
       IndexID = 396
@@ -1610,7 +1610,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 409
-      Text = 'Afficher la TVA S'#233'par'#233'ment'
+      Text = 'Afficher la TVA s'#233'par'#233'ment'
     end
     item
       IndexID = 410
@@ -2201,7 +2201,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 4
-      Text = 'F'#233'rvrier'
+      Text = 'F'#233'vrier'
     end
     item
       IndexID = 5
@@ -2711,7 +2711,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 664
-      Text = 'F7: Inclusif'
+      Text = 'F7: TTC'
     end
     item
       IndexID = 665
@@ -4061,7 +4061,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 989
-      Text = 'S'#233'lection automatique'
+      Text = 'S'#233'lection auto'
     end
     item
       IndexID = 990
@@ -5268,7 +5268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = #8226' S'#233'lectionnez jeu livres comptables '#224' reconstruire'
+      Text = 'S'#233'lectionnez jeu livres comptables '#224' reconstruire'
     end
     item
       IndexID = 1293
@@ -6602,7 +6602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1911
-      Text = 'Config. &Page'
+      Text = 'Config. &page'
     end
     item
       IndexID = 1912
@@ -6913,7 +6913,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1986
-      Text = #8226' Se souvenir contrepartie sur compte'
+      Text = 'Se souvenir contrepartie sur compte'
     end
     item
       IndexID = 1987
@@ -7449,7 +7449,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1994
-      Text = 'Co'#251't des ventes'
+      Text = 'CO'#219'T DES VENTES'
     end
     item
       IndexID = 1995
@@ -7811,7 +7811,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2084
-      Text = 'Contrepassation des journaux/documents comptabilis'#233's'
+      Text = 'Annuler journaux/documents'
     end
     item
       IndexID = 2085
@@ -7889,7 +7889,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2102
-      Text = 'Comptabilisation automatique des documents '#224' l'#39'impression'
+      Text = 'Comptabilisation auto '#224' l'#39'impression'
     end
     item
       IndexID = 2103
@@ -7925,7 +7925,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2111
-      Text = 'Fichier ex'#233'cutable auto-extractible'
+      Text = 'Fichier exe auto-extractible'
     end
     item
       IndexID = 2112
@@ -8319,7 +8319,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2212
-      Text = 'Paiements fournisseurs automatiques'
+      Text = 'Paiements fournisseurs auto'
     end
     item
       IndexID = 2213
@@ -9869,7 +9869,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2896
-      Text = 'Encaissements clients automatiques'
+      Text = 'Encaissements clients auto'
     end
     item
       IndexID = 2897
@@ -9995,7 +9995,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2927
-      Text = 'Copie automatique des informations'
+      Text = 'Copie auto infos'
     end
     item
       IndexID = 2928
@@ -10361,7 +10361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser la TVA par D'#233'faut'
+      Text = 'Utiliser la TVA par d'#233'faut'
     end
     item
       IndexID = 3051
@@ -10373,11 +10373,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser la TVA Li'#233'e'
+      Text = 'Utiliser la TVA li'#233'e'
     end
     item
       IndexID = 3054
-      Text = 'TVA Li'#233'e'
+      Text = 'TVA li'#233'e'
     end
     item
       IndexID = 3055
@@ -10421,7 +10421,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser la TVA par D'#233'faut'
+      Text = 'Utiliser la TVA par d'#233'faut'
     end
     item
       IndexID = 3028
@@ -10445,7 +10445,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3033
-      Text = 'Alias automatique'
+      Text = 'Alias auto'
     end
     item
       IndexID = 3034
@@ -10453,15 +10453,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser la TVA Li'#233'e'
+      Text = 'Utiliser la TVA li'#233'e'
     end
     item
       IndexID = 3036
-      Text = 'TVA Li'#233'e'
+      Text = 'TVA li'#233'e'
     end
     item
       IndexID = 3037
-      Text = 'TVA de contrepartie'
+      Text = 'TVA contrepartie'
     end
     item
       IndexID = 3038
@@ -10481,7 +10481,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3042
-      Text = 'Actualisation automatique'
+      Text = 'Actualisation auto'
     end
     item
       IndexID = 3043
@@ -10814,7 +10814,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3125
-      Text = 'Ouverture automatique au lancement de <@APPNAME@>'
+      Text = 'Ouverture auto au lancement <@APPNAME@>'
     end
     item
       IndexID = 3126
@@ -11596,7 +11596,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'Fusionner les Articles par TVA dans le grand livre'
+      Text = 'Fusionner articles par TVA au grand livre'
     end
     item
       IndexID = 3161
@@ -11632,7 +11632,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'TVA Stricte sur le Compte'
+      Text = 'TVA stricte sur le compte'
     end
     item
       IndexID = 3170
@@ -11720,7 +11720,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3192
-      Text = 'Rechercher uniquement dans les comptes'
+      Text = 'Rechercher dans les comptes seulement'
     end
     item
       IndexID = 3188
@@ -11948,7 +11948,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3247
-      Text = 'Aper'#231'u dans le navigateur'
+      Text = 'Aper'#231'u navigateur'
     end
     item
       IndexID = 3248
@@ -12143,7 +12143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher la TVA dans les Documents'
+      Text = 'Afficher TVA dans les documents'
     end
     item
       IndexID = 3295
@@ -12313,7 +12313,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'N'#176' journal suivant'
+      Text = 'N'#176' journ. suivant'
     end
     item
       IndexID = 3337
@@ -12410,7 +12410,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3358
-      Text = 'Paiement automatique'
+      Text = 'Paiement auto'
     end
     item
       IndexID = 3359
@@ -12644,7 +12644,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906097
-      Text = 'Rapport des re'#231'us automatiques'
+      Text = 'Rapport re'#231'us auto'
     end
     item
       IndexID = 906098
@@ -12798,11 +12798,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3395
-      Text = 'PDV HORECA'
+      Text = 'PdV HORECA'
     end
     item
       IndexID = 3396
-      Text = 'PDV D'#233'tail'
+      Text = 'PdV D'#233'tail'
     end
     item
       IndexID = 3397
@@ -13086,7 +13086,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3474
-      Text = 'Traitement automatique'
+      Text = 'Traitement auto'
     end
     item
       IndexID = 3475
@@ -13290,7 +13290,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3524
-      Text = 'Aucun paiement automatique'
+      Text = 'Aucun paiement auto'
     end
     item
       IndexID = 3525
@@ -13456,7 +13456,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3564
-      Text = 'Apprentissage automatique'
+      Text = 'Apprentissage auto'
     end
     item
       IndexID = 3565
@@ -13856,7 +13856,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21050
-      Text = 'Mise en page'
+      Text = 'Format de page'
     end
     item
       IndexID = 21051
@@ -14084,7 +14084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21013
-      Text = 'Copier l'#39'objet s'#233'lectionn'#233' dans le presse-papiers'
+      Text = 'Copier l'#39'objet s'#233'lectionn'#233
     end
     item
       IndexID = 21014
@@ -14728,7 +14728,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'TVA par P'#233'riode'
+      Text = 'TVA par p'#233'riode'
     end
     item
       IndexID = 906106
@@ -15572,7 +15572,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903151
-      Text = 'Lier auto. clients '#224' solde nul'
+      Text = 'Liaison auto clients solde nul'
     end
     item
       IndexID = 903152
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand Livre et TVA'
+      Text = 'Grand livre et TVA'
     end
     item
       IndexID = 906281
@@ -16044,7 +16044,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906449
-      Text = 'Rapport des paiements automatiques'
+      Text = 'Rapport paiements auto'
     end
     item
       IndexID = 3630
@@ -16144,7 +16144,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3654
-      Text = 'Fermer point de vente'
+      Text = 'Fermer PdV'
     end
     item
       IndexID = 3655
@@ -16192,7 +16192,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3666
-      Text = 'Afficher les totaux actuels dans la liste'
+      Text = 'Afficher les totaux'
     end
     item
       IndexID = 3667
@@ -16216,9 +16216,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3672
-      Text = 
-        'Activer la d'#233'sactivation automatique des clients apr'#232's X jours i' +
-        'mpay'#233's'
+      Text = 'D'#233'sactivation auto clients apr'#232's X jours impay'#233's'
     end
     item
       IndexID = 3673
@@ -16459,7 +16457,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3722
-      Text = 'Quantit'#233' affich'#233'e dans le document'
+      Text = 'Afficher document quantit'#233
     end
     item
       IndexID = 3723
