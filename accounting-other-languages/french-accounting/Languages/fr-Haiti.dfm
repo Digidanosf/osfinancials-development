@@ -1258,7 +1258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'N'#176' TVA intracom.'
+      Text = 'N'#176' d'#39'Identification fiscale'
     end
     item
       IndexID = 318
@@ -4635,7 +4635,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'Immatriculation TVA'
+      Text = 'Enregistrement TVA'
     end
     item
       IndexID = 1136
@@ -16003,7 +16003,7 @@ object TTranslationSaveObject
     item
       IndexID = 906339
       Text = 
-        'Num'#233'ros d'#39'Identification Fiscale et d'#39'Enregistrement d'#39'Entrepris' +
+        'Num'#233'ros d'#39'identification fiscale et d'#39'enregistrement d'#39'entrepris' +
         'e'
     end
     item
