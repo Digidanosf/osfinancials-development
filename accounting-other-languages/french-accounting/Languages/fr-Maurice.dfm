@@ -614,11 +614,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Euros'
+      Text = 'MUR'
     end
     item
       IndexID = 158
-      Text = 'Centime'
+      Text = 'Cents'
     end
     item
       IndexID = 159
@@ -1258,7 +1258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'N'#176' TVA intracom.'
+      Text = 'N'#176' d'#39'enregistrement TVA'
     end
     item
       IndexID = 318
@@ -11028,7 +11028,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = 'Fr'
+      Text = 'MUR'
     end
     item
       IndexID = 1000004

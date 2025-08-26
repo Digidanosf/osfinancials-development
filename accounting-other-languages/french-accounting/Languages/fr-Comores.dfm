@@ -4635,7 +4635,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'Immatriculation TVA'
+      Text = 'Enregistrement fiscal'
     end
     item
       IndexID = 1136
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand Livre et TVA'
+      Text = 'Grand livre et TVA'
     end
     item
       IndexID = 906281
