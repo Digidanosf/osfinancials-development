@@ -614,7 +614,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Francs CFA'
+      Text = 'CFA Franc'
     end
     item
       IndexID = 158
@@ -818,7 +818,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 206
-      Text = 'Compte r'#233'sultat'
+      Text = 'Compte de r'#233'sultat'
     end
     item
       IndexID = 207
@@ -1418,7 +1418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 357
-      Text = 'R'#233'initialiser'
+      Text = 'Initialiser'
     end
     item
       IndexID = 358
@@ -1610,7 +1610,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 409
-      Text = 'Afficher TVA s'#233'par'#233'ment'
+      Text = 'Afficher la TVA s'#233'par'#233'ment'
     end
     item
       IndexID = 410
@@ -1879,7 +1879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 469
-      Text = 'Ceci n'#39'est pas un compte de TVA'
+      Text = 'Ce n'#39'est pas un compte de TVA.'
     end
     item
       IndexID = 470
@@ -1971,7 +1971,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 492
-      Text = 'Ce n'#39'est pas un compte de produits / charges.'
+      Text = 'Ceci n'#39'est pas un compte produits / d'#233'penses.'
     end
     item
       IndexID = 493
@@ -4727,7 +4727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1158
-      Text = 'Rapport produits et charges'
+      Text = 'Compte de r'#233'sultat'
     end
     item
       IndexID = 1159
@@ -6662,7 +6662,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1926
-      Text = 'Journaux du compte bancaire mal configur'#233's !'
+      Text = 'Journal de banque mal configur'#233
     end
     item
       IndexID = 1927
@@ -6671,8 +6671,8 @@ object TTranslationSaveObject
     item
       IndexID = 1928
       Text = 
-        'Impossible de valider des transactions sur un compte qui a des s' +
-        'ous-comptes !'
+        'Ne peut pas mettre '#224' jour les op'#233'rations sur un compte qui a des' +
+        ' sous-comptes!'
     end
     item
       IndexID = 1929
@@ -6774,11 +6774,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1953
-      Text = 'Connect'#233'.'
+      Text = 'Connect'#233
     end
     item
       IndexID = 1954
-      Text = 'Test d'#39'envoi d'#39'e-mail en cours...'
+      Text = 'Envoi de mail en cours...'
     end
     item
       IndexID = 1955
@@ -6822,7 +6822,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1965
-      Text = 'Test utilisateur sur le serveur'
+      Text = 'Essai d'#39'utilisateur sur le serveur'
     end
     item
       IndexID = 1966
@@ -7679,7 +7679,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '*Article non soumis TVA'
+      Text = '* TVA non applicable'
     end
     item
       IndexID = 2052
@@ -8283,7 +8283,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Modifier TVA'
+      Text = 'Modifier la TVA'
     end
     item
       IndexID = 2204
@@ -10361,7 +10361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par d'#233'faut'
     end
     item
       IndexID = 3051
@@ -10373,7 +10373,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser TVA li'#233'e'
+      Text = 'Utiliser la TVA li'#233'e'
     end
     item
       IndexID = 3054
@@ -10381,7 +10381,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3055
-      Text = 'TVA contrepartie'
+      Text = 'TVA de contrepartie'
     end
     item
       IndexID = 3056
@@ -10421,7 +10421,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser TVA par d'#233'faut'
+      Text = 'Utiliser la TVA par d'#233'faut'
     end
     item
       IndexID = 3028
@@ -10453,7 +10453,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser TVA li'#233'e'
+      Text = 'Utiliser la TVA li'#233'e'
     end
     item
       IndexID = 3036
@@ -13452,7 +13452,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3563
-      Text = 'Onglet Utilisateur'
+      Text = 'Onglet utilisateur'
     end
     item
       IndexID = 3564
@@ -15638,11 +15638,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903167
-      Text = 'R'#233'ex'#233'cuter correctifX'
+      Text = 'Reprise Patch X'
     end
     item
       IndexID = 903168
-      Text = 'R'#233'initialiser Sysvars'
+      Text = 'Remettre Sysvars'
     end
     item
       IndexID = 903169
@@ -15766,7 +15766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Grand Livre et TVA'
+      Text = 'Grand livre et TVA'
     end
     item
       IndexID = 906281
@@ -16680,5 +16680,9 @@ object TTranslationSaveObject
     item
       IndexID = 906583
       Text = 'Codes TVA - Taux d'#39'Imposition'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convertir le devis en une facture non trait'#233'e par client.'
     end>
 end

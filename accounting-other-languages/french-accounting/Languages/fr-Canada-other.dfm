@@ -818,7 +818,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 206
-      Text = 'Compte r'#233'sultat'
+      Text = 'Compte de r'#233'sultat'
     end
     item
       IndexID = 207
@@ -990,7 +990,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 249
-      Text = 'Options rapport transactions fournisseurs'
+      Text = 'Options du rapport des transactions fournisseurs'
     end
     item
       IndexID = 250
@@ -1418,7 +1418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 357
-      Text = 'R'#233'initialiser'
+      Text = 'Initialiser'
     end
     item
       IndexID = 358
@@ -1971,7 +1971,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 492
-      Text = 'Ce n'#39'est pas un compte de produits / charges.'
+      Text = 'Ceci n'#39'est pas un compte produits / d'#233'penses.'
     end
     item
       IndexID = 493
@@ -2806,7 +2806,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 687
-      Text = 'HT (Avant taxes)'
+      Text = 'HT'
     end
     item
       IndexID = 688
@@ -4727,7 +4727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1158
-      Text = 'Rapport produits et charges'
+      Text = 'Compte de r'#233'sultat'
     end
     item
       IndexID = 1159
@@ -5268,7 +5268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = #8226' S'#233'lectionnez jeu livres comptables '#224' reconstruire'
+      Text = 'S'#233'lectionnez jeu livres comptables '#224' reconstruire'
     end
     item
       IndexID = 1293
@@ -6662,7 +6662,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1926
-      Text = 'Journaux du compte bancaire mal configur'#233's !'
+      Text = 'Journal de banque mal configur'#233
     end
     item
       IndexID = 1927
@@ -6671,8 +6671,8 @@ object TTranslationSaveObject
     item
       IndexID = 1928
       Text = 
-        'Impossible de valider des transactions sur un compte qui a des s' +
-        'ous-comptes !'
+        'Ne peut pas mettre '#224' jour les op'#233'rations sur un compte qui a des' +
+        ' sous-comptes!'
     end
     item
       IndexID = 1929
@@ -6774,11 +6774,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1953
-      Text = 'Connect'#233'.'
+      Text = 'Connect'#233
     end
     item
       IndexID = 1954
-      Text = 'Test d'#39'envoi d'#39'e-mail en cours...'
+      Text = 'Envoi de mail en cours...'
     end
     item
       IndexID = 1955
@@ -6822,7 +6822,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1965
-      Text = 'Test utilisateur sur le serveur'
+      Text = 'Essai d'#39'utilisateur sur le serveur'
     end
     item
       IndexID = 1966
@@ -6913,7 +6913,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1986
-      Text = #8226' Se souvenir contrepartie sur compte'
+      Text = 'Se souvenir contrepartie sur compte'
     end
     item
       IndexID = 1987
@@ -15637,11 +15637,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903167
-      Text = 'R'#233'ex'#233'cuter correctifX'
+      Text = 'Reprise Patch X'
     end
     item
       IndexID = 903168
-      Text = 'R'#233'initialiser Sysvars'
+      Text = 'Remettre Sysvars'
     end
     item
       IndexID = 903169
@@ -16676,6 +16676,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'Codes TPS/TVH - Taux'
+      Text = 'Codes TPS/TVH - Taux d'#39'Imposition'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convertir le devis en une facture non trait'#233'e par client.'
     end>
 end
