@@ -1,0 +1,14 @@
+{if InterBase}UPDATE RDB$RELATIONS set RDB$DESCRIPTION = 'ControlType 
+D = Date 
+S = string 
+IC = select with id,stringvalue as checkbox (in select) 
+F = float 
+IL = select with id,stringvalue as dropdown
+B = boolean checkfield makes 0 or 1 if checked grayed is allowed'
+where RDB$RELATION_NAME = 'OSF_SEARCH_FIELDS'{endif};
+insert into osf_search_fields values (1,'STOCKENTRY','STOCK.SSTOCKCODE',652,10,15,100,15,'S',15,'E',null);
+insert into osf_search_fields values (2,'STOCKENTRY','STOCK.SDESCRIPTION',178,115,15,150,15,'S',35,'B',null);
+insert into osf_search_fields values (3,'STOCKENTRY','STOCK.SEXTRADESC',2919,270,15,200,15,'S',35,'B',null);
+insert into osf_search_fields values (4,'STOCKENTRY','STOCK.WREPORTINGGROUP1ID',1323,10,60,200,200,'IC',15,null,'select WGroupId,SDescription from GROUPS where WGroupTypeid = 26 order by SDescription');
+insert into osf_search_fields values (5,'STOCKENTRY','STOCK.WREPORTINGGROUP2ID',1325,210,60,200,200,'IC',15,null,'select WGroupId,SDescription from GROUPS where WGroupTypeid = 27 order by SDescription');
+insert into osf_search_fields values (6,'STOCKENTRY','STOCK.WSUPPLIER1ID',30,10,275,150,15,'OC',35,'',null); 

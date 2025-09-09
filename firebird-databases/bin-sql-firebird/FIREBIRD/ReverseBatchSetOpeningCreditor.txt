@@ -1,0 +1,4 @@
+update totals set FAmount = 
+(select sum(FAmount) from transact join account on (transact.waccountid = account.Waccountid)
+where account.WAccountTypeid = 2 and TRANSACT.wperiodid < 0)
+where  totals.WPeriodid = -1 and totals.Bactual = 1 and Totals.WAccountid in (select WCreditorsControlid from SYSVARS);

@@ -1,0 +1,14 @@
+ALTER TABLE groups ADD 
+Wcolor Integer
+;
+ALTER TABLE groups ADD 
+WTextcolor Integer
+;
+update Sysvars set WVersion=546
+;
+
+
+
+
+
+

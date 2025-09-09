@@ -1,0 +1,5 @@
+SELECT WTransactionID, SReference, DDate, FAmount, FOutstandingAmount, 
+ Messages.SDescription , BUnused
+ FROM Transact,Messages  WHERE WAccountID = %s
+ And (Transact.WDescriptionID=Messages.WMessageID)
+ AND (FAmount  %s 0) order by DDate desc

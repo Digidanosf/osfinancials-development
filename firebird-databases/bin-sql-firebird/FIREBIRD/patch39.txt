@@ -1,0 +1,14 @@
+ALTER TABLE STOCKSETOPTIONS ADD 
+WLOOKUPTYPE Integer
+;
+alter table STOCK
+add FMINIMUMQTY Numeric(12,8)
+;
+update Sysvars set WVersion=543
+;
+
+
+
+
+
+

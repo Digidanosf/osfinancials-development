@@ -1,0 +1,1 @@
+select (FPRICE / (100 -coalesce(FDISCOUNT,0))) * 100 FPRICE from STOCK_CREDCODES a where a.WStockid = <@WSTOCKID@> and waccountid = <@WACCOUNTID@>

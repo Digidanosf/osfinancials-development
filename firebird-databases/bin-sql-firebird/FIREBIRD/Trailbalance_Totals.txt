@@ -1,0 +1,9 @@
+Select group1.WSortNo,group2.WSortNo,Account.WAccountId,Account.SACCOUNTCODE,Account.SSUBACCOUNTCODE,BSubAccounts,Account.SDescription,WAccountTypeID,BIncomeExpense, 
+  Account.WReportingGroup1Id,Account.WReportingGroup2Id,Sum(cast(FAmount as Numeric(18,8))) as total  
+  from account LEFT OUTER JOIN totals ON  (account.WAccountId = totals.WAccountId) LEFT OUTER JOIN groups group1  
+  ON  (account.WReportingGroup1Id = group1.WGroupID) LEFT OUTER JOIN groups group2  ON  (account.WReportingGroup2Id = group2.WGroupID)  
+  where WAccountTypeId not in (1,2) and (Totals.WPeriodId >=14 or Totals.WPeriodId =0 or Totals.WPeriodId is null) 
+  %s 
+  group by group1.WSortNo,group2.WSortNo,Account.WReportingGroup1Id,Account.WReportingGroup2Id,Account.WAccountId, 
+  Account.SACCOUNTCODE,Account.SSUBACCOUNTCODE,BSubAccounts,Account.SDescription,WAccountTypeID,BIncomeExpense
+  %s

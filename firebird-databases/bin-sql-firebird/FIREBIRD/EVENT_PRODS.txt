@@ -1,0 +1,9 @@
+{if SQL Server}
+select top 10 WStockid, cast(SSTOCKCODE + ' ' + Sdescription as varchar(255))
+ from stock order by sstockcode 
+{else}
+select {if interbase}first 10{endif} WStockid,
+{if mysql}cast({endif}
+SSTOCKCODE {concat} ' ' {concat} Sdescription
+{if mysql} as char(255)){endif}{if postgresql}::varchar(255){endif} from stock order by sstockcode {if interbase}{else} limit 10 {endif}
+{endif}

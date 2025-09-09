@@ -1,0 +1,13 @@
+SELECT tmpAgeAn.WAccountID, tmpAgeAn.SDescription, tmpAgeAn.SACCOUNTCODE,
+Transact.WTransactionID, Transact.FOutstandingAmount, Transact.DDate,
+BatTypes.SDescription, Transact.SReference, FAmount,
+A.WReportingGroup1ID,A.WReportingGroup2ID,Transact.SReference, FAmount
+FROM tmpAgeAn, Transact, BatTypes,Account A
+WHERE (Transact.WAccountID = tmpAgeAn.WAccountID)
+AND (a.WAccountID = tmpAgeAn.WAccountID)
+AND (BatTypes.WBatchTypeID = Transact.WBatchTypeID)
+AND (WTransactionID > 0) 
+AND a.WACCOUNTTYPEID  =:AccTypeID
+and (DDate <= :date1 OR (DDate > :date2 AND DDate <= :Date3 ))
+
+

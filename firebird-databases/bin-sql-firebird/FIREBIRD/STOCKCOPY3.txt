@@ -1,0 +1,1 @@
+Select FDUMMYQTY from STOCK_EXTRADATA where WStockid = <@WSTOCKID@>

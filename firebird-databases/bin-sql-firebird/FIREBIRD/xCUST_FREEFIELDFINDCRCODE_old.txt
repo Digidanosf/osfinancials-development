@@ -1,0 +1,1 @@
+Exists (select * from stock_credcodes a where a.Scode like '<@ID@>' and a.WStockid = Stock.WStockid)

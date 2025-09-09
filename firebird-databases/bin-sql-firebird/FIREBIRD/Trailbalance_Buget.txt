@@ -1,0 +1,4 @@
+Select Account.WAccountId,Sum(cast(FAmount as Numeric(18,8))) as total from account, totals
+where account.WAccountId = totals.WAccountId and WAccountTypeId not in (1,2)
+  %s 
+group by Account.WAccountId

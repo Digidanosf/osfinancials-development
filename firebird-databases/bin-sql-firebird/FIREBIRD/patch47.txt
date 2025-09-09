@@ -1,0 +1,11 @@
+ALTER TABLE BACKORD ADD 
+SSOURCE varchAr(40)
+;
+update Sysvars set WVersion=551
+;
+
+
+
+
+
+

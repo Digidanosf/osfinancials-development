@@ -1,0 +1,1 @@
+Select WSUPPLIER1ID from stock where WStockid = <@WSTOCKID@>

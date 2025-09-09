@@ -1,0 +1,16 @@
+FIELDNAME01=Gepubliceerd
+FIELDSQL01=Select count(*) from imp_link where wstockid = <@WSTOCKID@>
+FIELDTYPE01=TSmallintField
+-FIELDCONTROL10=CheckBox
+-FIELDNAME1=Foto
+-FIELDSQL1=Select 1 from multimedia where wrefid = '<@WSTOCKID@>'and STYPE = 'STOCK' and SGROUP = 'products_image'
+-FIELDTYPE1=TSmallintField
+-FIELDCONTROL1=CheckBox
+-FIELDNAME2=Foto namen
+-FIELDSQL2=Select SGROUP ,sorgfilename     from multimedia where wrefid = '<@WSTOCKID@>'and STYPE = 'STOCK'  
+-FIELDTYPE2=TStringfield
+-FIELDSIZE2=255
+FIELDNAME0=Inclusief
+FIELDSQL0=Select cast(cast(FsellingpRice1 * (1 + (coalesce(tax.frate,0) / 100)) as numeric (12,2)) as char(20)) PRIJS from stock left join tax on stock.wOutputtaxid= tax.WACCOUNTID where stock.WSTOCKID = '<@WSTOCKID@>'  
+FIELDTYPE0=TStringfield
+FIELDSIZE0=20

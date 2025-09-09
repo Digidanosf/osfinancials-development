@@ -1,0 +1,5 @@
+select sum(FOutstandingAmount) from 
+TRANSACT join batcon on (transact.WbatchId = batcon.WBatchId) 
+join account on (transact.WAccountID = Account.WaccountID) 
+where Account.waccountTypeId in (1,2) 
+and WDocID = <@DOCID@>

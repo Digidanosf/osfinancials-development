@@ -1,0 +1,1 @@
+Select Sreference from <@BATCH@> where WLINEID = <@WLINEID@>

@@ -1,0 +1,4 @@
+update STOCK  set 
+BDisabled = :data
+ where WStockid = <@WSTOCKID@>
+@@GO@@

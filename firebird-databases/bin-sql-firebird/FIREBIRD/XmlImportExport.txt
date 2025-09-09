@@ -1,0 +1,5 @@
+select * from account join debtor on 
+account.Waccountid = debtor.waccountid
+where
+account.Waccountid = <@KEY@>
+

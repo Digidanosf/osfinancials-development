@@ -1,0 +1,1 @@
+Update DocHead set BPosted=1,DSysDate=current_timestamp where WDocID=

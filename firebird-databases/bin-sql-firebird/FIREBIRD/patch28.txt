@@ -1,0 +1,9 @@
+ALTER TABLE DNLBANKS ALTER SACCOUNTCODE TYPE varchAr(40)
+;
+update Sysvars set WVersion=531
+;
+
+
+
+
+

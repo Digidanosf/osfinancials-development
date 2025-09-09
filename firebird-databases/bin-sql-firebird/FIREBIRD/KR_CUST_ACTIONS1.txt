@@ -1,0 +1,19 @@
+Document annuleren
+update docline set 
+FQTYORDERED =0,
+FQTYSHIPPED =0 , 
+FITEMDISCOUNT =0,
+FEXCLUSIVEAMT =0,
+FINCLUSIVEAMT =0 ,
+FTAXAMOUNT =0 
+where wdocid = <@KEY@> 
+and exists (select * from dochead where docline.wdocid = dochead.WDocid and dochead.WDocid =<@KEY@> 
+and dochead.BPosted <> 1 )
+@@GO@@
+update dochead set  
+FDOCAMOUNT = 0,
+FTAXAMOUNT = 0,
+WreportingGroup1id = 1120
+where wdocid = <@KEY@>
+and BPosted <> 1
+@@GO@@

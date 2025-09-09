@@ -1,0 +1,11 @@
+CREATE INDEX IDX_GROUPparent2id ON GROUPS
+  (WPARENTGROUP2ID)
+;
+update Sysvars set WVersion=563
+;
+
+
+
+
+
+

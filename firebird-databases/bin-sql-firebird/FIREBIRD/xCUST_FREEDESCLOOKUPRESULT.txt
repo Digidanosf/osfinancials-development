@@ -1,0 +1,4 @@
+ID:<@WARTID@>
+Merk:<@SMERK@> 
+Kw1: <@FKW1@>  Kw2: <@FKW2@> Kw: <@FKW3@> 
+Omw1: <@FOMW1@> Omw2: <@FOMW2@> Omw3: <@FOMW3@>

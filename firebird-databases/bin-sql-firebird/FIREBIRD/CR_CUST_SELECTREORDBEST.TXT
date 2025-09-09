@@ -1,0 +1,1 @@
+select FPRICE from STOCK_CREDCODES a where a.WStockid = <@WSTOCKID@> and a.WACCOUNTID =<@WACCOUNTID@>

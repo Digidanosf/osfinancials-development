@@ -1,0 +1,11 @@
+Document alleen leverancier artikelen
+delete from docline 
+where wdocid = <@KEY@> 
+and not exists(select * from dochead  join stock on
+ docline.wstockid = stock.Wstockid where  stock.WSUPPLIER1ID = dochead.waccountid and dochead.WDocid = <@KEY@> and docline.wdocid = dochead.WDocid )
+
+and exists (select * from dochead where docline.wdocid = dochead.WDocid and dochead.WDocid =<@KEY@> 
+and dochead.BPosted <> 1 and dochead.wtypeid in (12,13,15) )
+
+@@GO@@
+ 

@@ -1,0 +1,2 @@
+select * from OILinks where 
+WAccountID= :WaccountID  AND WBatchID= :WBatchID aND WLinkTransactionID = :WLinkTransactionID

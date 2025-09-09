@@ -1,0 +1,514 @@
+DROP VIEW V_TRANSACTTAXENTRIES;
+<@MSSQLGO@>
+CREATE VIEW V_TRANSACTTAXENTRIES (WDOCID, WTRANSACTIONID, WBATCHID, WLINEID, SREFERENCE, DDATE, SDESCRIPTION, WACCOUNTID, SACCOUNT, WCONTRAACCOUNTID, SCONTRAACCOUNT, WTAXID, STAX, FAMOUNT, FDEBIT, FCREDIT, FTAXAMOUNT, DALLOCATEDDATE, BEXCLUSIVE, WLINKEDID, WREPORTINGGROUP1ID, WREPORTINGGROUP2ID)
+AS 
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-TRANSACT.FAMOUNT as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount < 0 and BExclusive = 0 and battyp.BCashBook = 0
+and TRANSACT.WlineID <> TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT  - TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount < 0 and BExclusive = 1 and battyp.BCashBook = 0
+and TRANSACT.WlineID <> TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT -TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(0+(TRANSACT.FAMOUNT) as decimal (12,2)),
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount > 0 and BExclusive = 1 and battyp.BCashBook = 0
+and TRANSACT.WlineID <> TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+
+
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT ,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount > 0 and BExclusive = 0 and battyp.BCashBook = 0
+and TRANSACT.WlineID <> TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT + (TRANSACT.FTAXAMOUNT) as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-TRANSACT.FAMOUNT as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount < 0 and BExclusive = 0 and battyp.BCashBook = 1
+and TRANSACT.WlineID = TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount < 0 and BExclusive = 1 and battyp.BCashBook = 1
+and TRANSACT.WlineID = TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TRANSACT.FAMOUNT,
+cast(0+(TRANSACT.FAMOUNT) as decimal (12,2)),
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount > 0 and BExclusive = 1 and battyp.BCashBook = 1
+and TRANSACT.WlineID = TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+union
+SELECT
+TRANSACT.WDocId,
+TRANSACT.WTRANSACTIONID,
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif}
+SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT+TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT ,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT
+left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+where famount > 0 and BExclusive = 0 and battyp.BCashBook = 1
+and TRANSACT.WlineID = TRANSACT.WLINKEDID and Mainaccount.WAccountTypeID <> 4
+;
+<@MSSQLGO@>
+ 
+DROP VIEW TRANSACTASBATCH;
+<@MSSQLGO@>
+CREATE VIEW TRANSACTASBATCH (WBATCHID, WLINEID, SREFERENCE, DDATE, SDESCRIPTION, WACCOUNTID, SACCOUNT, WCONTRAACCOUNTID, SCONTRAACCOUNT, WTAXID, STAX, FAMOUNT, FDEBIT, FCREDIT, FTAXAMOUNT, DALLOCATEDDATE, BEXCLUSIVE, WLINKEDID, WREPORTINGGROUP1ID, WREPORTINGGROUP2ID)
+AS   
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-TRANSACT.FAMOUNT as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 0 and battyp.BCashBook = 0
+   
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT  - TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 1 and battyp.BCashBook = 0
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT -TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(0+(TRANSACT.FAMOUNT) as decimal (12,2)), 
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 1 and battyp.BCashBook = 0
+
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif} STaxAccount,
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(TRANSACT.FAMOUNT as decimal (12,2)), 
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 0 and battyp.BCashBook = 0
+union
+
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT + (TRANSACT.FTAXAMOUNT) as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-TRANSACT.FAMOUNT as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 0 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT as decimal (12,2)),
+cast(0 as decimal (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 1 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+TRANSACT.FAMOUNT,
+cast(0+(TRANSACT.FAMOUNT) as decimal (12,2)), 
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 1 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE{if postgresql}::varchar(255){endif},
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif} SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''){if postgresql}::varchar(255){endif},
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''){if postgresql}::varchar(255){endif},
+cast(TRANSACT.FAMOUNT+TRANSACT.FTAXAMOUNT as decimal (12,2)),
+cast(TRANSACT.FAMOUNT as decimal (12,2)), 
+cast(0 as decimal (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 0 and battyp.BCashBook = 1 
+;
+
+

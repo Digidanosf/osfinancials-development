@@ -1,0 +1,12 @@
+ALTER TABLE DEBTOR ALTER SREFERENCE TYPE varchAr(20) 
+;
+ALTER TABLE CREDITOR ALTER SREFERENCE TYPE varchAr(20) 
+;
+update Sysvars set WVersion=566
+;
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+select * from stock where
+ ((FQtyOnHand < FReorderQty ) or WStockID in 
+(Select Distinct(WStockId) from docline a,dochead b where a.WDocid = b.WDocid and b.bPosted = 0 and a.WStockid = stock.WStockid))
+and FReorderQty <> -1 and WSupplier1ID <> 0 

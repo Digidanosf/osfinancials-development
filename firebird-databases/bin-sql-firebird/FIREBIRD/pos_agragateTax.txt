@@ -1,0 +1,8 @@
+select 
+account.SDescription ,Tax.Frate 
+,sum(Docline.FTaxAmount)
+ from docline join Account on (docline.WTaxID = Account.Waccountid) 
+join Tax on (docline.WTaxID = Tax.Waccountid) 
+where  Docline.WDocid = :WDocid and Docline.WLinetypeid <> 91
+and Account.WaccountTypeid = 4
+group by account.SDescription,tax.Frate

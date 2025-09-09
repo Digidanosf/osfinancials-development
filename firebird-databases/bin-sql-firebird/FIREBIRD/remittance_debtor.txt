@@ -1,0 +1,13 @@
+SELECT tmpAgeAn.WAccountID, tmpAgeAn.SDescription, 
+ Transact.WTransactionID, Transact.FAmount, Transact.DDate,
+ Transact.FOutstandingAmount, BatTypes.SDescription, 
+ Transact.SReference, Debtor.SPostal1, Debtor.SPostal2, Debtor.SPostal3, 
+ Debtor.SPostalCode, tmpAgeAn.WAccountTypeID, 
+ Transact.WDescriptionID, 
+ tmpAgeAn.SACCOUNTCODE,Transact.FTaxRate , Transact.WTaxAccountID, 
+ Debtor.SMessage,Debtor.WContactID 
+ FROM Transact , BatTypes, Debtor , tmpAgeAn 
+ Where (Transact.WAccountID = tmpAgeAn.WAccountID) 
+ AND (Debtor.WAccountID = tmpAgeAn.WAccountID)
+ AND (BatTypes.WBatchTypeID = Transact.WBatchTypeID) 
+ AND (WTransactionID > 0) 

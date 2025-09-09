@@ -1,0 +1,3 @@
+Select Wunitid from STOCK_CREDCODES where 
+WStockid = <@WSTOCKID@> 
+and  WACCOUNTID = <@WACCOUNTID@> 

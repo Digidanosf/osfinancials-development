@@ -1,0 +1,4 @@
+select   battypes.SDescription,
+batcon.WBatchTypeId,batcon.WBatchId,
+batcon.WuserID,batcon.SFilename from battypes,batcon
+ where battypes.wbatchTypeId = batcon.wbatchTypeId and batcon.Bposted = 0

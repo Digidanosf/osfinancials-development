@@ -1,0 +1,20 @@
+SELECT 
+
+Account.WAccountID, 
+Account.SACCOUNTCODE, 
+Account.SDescription, 
+SUM( Totals.FAmount ) thisyear,Account.WAccountTypeID
+ FROM Account
+ JOIN Totals
+ON  (Account.WAccountID = Totals.WAccountID)
+   WHERE   (Account.WAccountID <> 0) 
+  AND  ((Totals.WPeriodID >= 14 AND  Totals.WPeriodID <= 26) or Totals.WPeriodID =0)
+  AND  (Totals.BActual = 1) 
+  AND  (Totals.FAmount <> 0) 
+  and (Account.BSubaccounts <> 1)  
+  and (Account.WAccountID <> :WAccountId1
+  and   Account.WAccountID <> :WAccountId2
+  and  Account.WAccountID <>:WAccountId3)   
+  and Account.BIncomeExpense <> 1 
+ GROUP BY Account.WAccountID, Account.SDescription, Account.SACCOUNTCODE, Account.WAccountTypeID 
+ ORDER BY Account.WAccountTypeID, 1

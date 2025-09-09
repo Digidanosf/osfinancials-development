@@ -1,0 +1,10 @@
+CREATE INDEX IDX_OILINKS1 ON OILINKS (WAMOUNTTRANSACTIONID)
+;
+update Sysvars set WVersion=571
+;
+
+
+
+
+
+

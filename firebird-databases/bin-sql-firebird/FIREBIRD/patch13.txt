@@ -1,0 +1,21 @@
+ALTER TABLE TRANSACT ADD DPAYMENTDATE {timestamptype} ;
+ALTER TABLE TRANSACT ADD WREMITTANCECOUNT integer ;
+ALTER TABLE TRANSACT ADD  WPaymentType integer;
+update TRANSACT set DPaymentdate = DDate ;
+update TRANSACT set DPaymentdate = (select TRANSACT.DDate + b.WDueDays from debtor b where b.Waccountid = TRANSACT.WAccountid and b.WDueDays > 0)
+where TRANSACT.WAccountid in (select c.WAccountid from Account c where c.WAccountTypeid = 1)
+;
+update TRANSACT set DPaymentdate = (select TRANSACT.DDate + b.WDueDays from creditor b where b.Waccountid = TRANSACT.WAccountid and b.WDueDays > 0)
+where TRANSACT.WAccountid in (select c.WAccountid from Account c where c.WAccountTypeid = 2)
+;
+ALTER TABLE ACCOUNT ADD 
+WTAXACCOUNT Integer
+;
+alter table ACCOUNT
+add constraint FK_ACCOUNT_TAX
+foreign key (WTAXACCOUNT) 
+references TAX (WACCOUNTID)
+on update NO ACTION 
+;
+update Sysvars set WVersion=516
+;

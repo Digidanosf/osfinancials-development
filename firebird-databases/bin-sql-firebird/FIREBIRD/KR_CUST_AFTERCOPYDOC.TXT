@@ -1,0 +1,7 @@
+delete from docline where (
+WLINETYPEID = 91 
+or 
+WSTOCKID in (0,0)
+)
+and wdocid = <@KEY@> 
+@@GO@@

@@ -1,0 +1,1 @@
+Select SAccountCode , SDescription From account where SAccountCode =:SAccountCode

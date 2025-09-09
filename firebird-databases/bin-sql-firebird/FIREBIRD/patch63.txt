@@ -1,0 +1,10 @@
+alter table dochead add FCURRENCYRATE numeric (10,8) default 1 
+;
+update Sysvars set WVersion=570
+;
+
+
+
+
+
+

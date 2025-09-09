@@ -1,0 +1,37 @@
+ALTER TABLE CURRENCY ADD 
+FRATE1_1 Numeric(12,8)
+;
+update  CURRENCY set FRATE1_1 = FRATE1 ;
+CREATE TABLE WORKFLOWTRANSITIONS
+(
+  WWORKFLOWTRANSID Integer NOT NULL,
+  STRANSNAME Varchar(64),
+  SCONDITION {blobtype},
+  WFROMWORKFLOWSTEPID Integer NOT NULL,
+  WTOWORKFLOWSTEPID Integer NOT NULL,
+  WLEFTMARK Integer,
+  WTOPMARK Integer,
+  WLEFTENDMARK Integer,
+  WTOPENDMARK Integer,
+  PRIMARY KEY (WWORKFLOWTRANSID)
+);
+
+
+ALTER TABLE WORKFLOWTRANSITIONS ADD 
+WLEFTMARK Integer, {alteradd}
+WTOPMARK Integer, {alteradd}
+WLEFTENDMARK Integer, {alteradd}
+WTOPENDMARK Integer
+;
+alter table CURRENCY drop FRATE1 
+;
+ALTER TABLE CURRENCY {if mysql}CHANGE{else}ALTER{endif} FRATE1_1 {if mysql}{else}TO{endif} FRATE1 Numeric(12,8)
+;
+update Sysvars set WVersion=583
+;
+
+
+
+
+
+

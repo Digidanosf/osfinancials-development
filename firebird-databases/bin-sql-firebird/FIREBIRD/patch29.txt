@@ -1,0 +1,16 @@
+ALTER TABLE ACCOUNT DROP CONSTRAINT FK_ACCOUNT_TAX
+;
+alter table TAX
+add constraint FK_TAX_ACCOUNT_ID
+foreign key (WACCOUNTID) 
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE 
+;
+update Sysvars set WVersion=533
+;
+
+
+
+
+

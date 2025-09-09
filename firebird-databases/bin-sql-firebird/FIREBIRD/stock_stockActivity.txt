@@ -1,0 +1,12 @@
+SELECT Stock.SSTOCKCODE,Stock.SDescription as LDescription, 
+     StockTrn.DDate, Types.SDescription, Groups.SDescription, DocHead.SDocNo, 
+    StockTrn.WStockID, StockTrn.FQty,StockTrn.WDocTypeID, StockTrn.FCostPrice, StockTrn.FSellingPrice, 
+   Stock.FOpeningQty ,StockTrn.WSalesmanID ,Stock.WReportingGroup1ID,Stock.WReportingGroup2ID 
+  FROM Stock, StockTrn, Types, Groups, DocHead  
+   WHERE (Stock.WStockID = StockTrn.WStockID)   
+   AND (Types.WTypeID = StockTrn.WDocTypeID)  
+  AND (Groups.WGroupID = StockTrn.WSalesmanID)  
+  AND (DocHead.WDocID = StockTrn.WDocID)  
+  AND (StockTrn.WStockTransactionID > 0)  
+  AND (StockTrn.DDate >= :FromDate)  
+   AND (StockTrn.DDate <= :ToDate) 

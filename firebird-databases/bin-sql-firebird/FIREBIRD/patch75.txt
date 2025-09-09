@@ -1,0 +1,11 @@
+ALTER TABLE BACKORD ADD 
+WUNITID Integer
+;
+update Sysvars set WVersion=586
+;
+
+
+
+
+
+

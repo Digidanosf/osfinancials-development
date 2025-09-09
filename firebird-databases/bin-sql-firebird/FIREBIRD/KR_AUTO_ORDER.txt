@@ -1,0 +1,6 @@
+Select cr.waccountid,se.FORDERWEIGHT,d.wdocid,dl.wstockid,dl.WDocLineID,dl.FQtyShipped , dl.SUNIT
+from dochead d join docline dl on dl.Wdocid = d.wdocid and dl.WLineTypeID <> 91 
+join STOCK_EXTRADATA se on se.WSTOCKID = dl.WStockID and se.bautoorder = 1
+join stock s on s.WStockID = dl.WStockID
+join CREDITOREMAIL cr on cr.WACCOUNTID = s.WSupplier1ID and cr.bautoorder = 1
+where d.wdocid in (

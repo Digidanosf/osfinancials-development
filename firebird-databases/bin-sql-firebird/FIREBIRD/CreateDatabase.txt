@@ -1,0 +1,1674 @@
+{if mysql}CREATE TABLE osfgennr (
+genname {chartype}(128) not null
+,nextid integer ,
+PRIMARY KEY  (genname)
+) ENGINE = MYISAM {endif};
+
+CREATE TABLE Abreviat(
+CKey {chartype}(10) not null
+,SAbreviation {chartype}(128),
+PRIMARY KEY  (CKey)
+);
+CREATE TABLE Account(
+WAccountID integer not null
+,SAccountCode {chartype}(<@ACCOUNTCODE@>)
+,SMainAccountCode {chartype}(<@MAINACCOUNTCODE@>)
+,SSubAccountCode {chartype}(3)
+,SDescription {chartype}(128)
+,WAccountTypeID integer DEFAULT 0 not null
+,WReportingGroup1ID integer DEFAULT 0 not null
+,WReportingGroup2ID integer DEFAULT 0 not null
+,BSubAccounts SmallInt DEFAULT 0 not null
+,BIncomeExpense SmallInt DEFAULT 0 not null
+,BOpenItem SmallInt DEFAULT 0
+,BInActive SmallInt DEFAULT 0
+,DSysDate {timestamptype}
+,WProfileID integer
+,WLinkAccount integer,
+PRIMARY KEY  (WAccountID));
+
+create
+INDEX ACCOUNT_IND_ACCOUNTCODES ON ACCOUNT (SMAINACCOUNTCODE, SSUBACCOUNTCODE);
+create
+INDEX ACCOUNT_IND_REPGROUP1 ON ACCOUNT (WReportingGroup1ID);
+create
+INDEX ACCOUNT_IND_REPGROUP2 ON ACCOUNT (WReportingGroup2ID);
+create
+INDEX ACCOUNT_IND_ACCOUNTCODE ON ACCOUNT (SAccountCode);
+create
+INDEX ACCOUNT_IND_DESCRIPTION ON ACCOUNT (SDescription);
+
+
+CREATE TABLE addressPerAccount(
+WAddressPerAccountId integer not null
+,WAccountId integer not null
+,WContactID integer not null,
+DSYSDATE {timestamptype},
+Primary Key (WAddressPerAccountId)
+);
+create
+INDEX ADDR_PER_ACC_IND_ACCID ON addressPerAccount (WAccountId);
+
+
+CREATE TABLE AssetMas(
+WAssetID integer not null
+,SDesription {chartype}(128)
+,WLocationID integer
+,WGroup1ID integer not null
+,WGroup2ID integer not null
+,SAssetCode {chartype}(15)
+,SSubAssetCode {chartype}(15)
+,SSerialNo {chartype}(128)
+,DDepStart {timestamptype}
+,DDepEnd {timestamptype}
+,DBuy {timestamptype}
+,DAssetOut {timestamptype}
+,WDepTypeID integer
+,FDepRate numeric (12,2)
+,FTaxRate numeric (12,2)
+,WTaxType integer
+,WTaxID integer
+,WSupplierID integer
+,BDisabled SmallInt
+,FCostPrice numeric (12,2)
+,FPurPrice numeric (12,2)
+,FCapTaxAmt numeric (12,2)
+,FMArketValue numeric (12,2)
+,FBookValue numeric (12,2)
+,FUnsed1 numeric (12,2)
+,FUnsed2 numeric (12,2)
+,DSysDate {timestamptype}
+,WAccountID integer not null,
+
+primary key (WAssetID)
+);
+
+CREATE TABLE BackOrd(
+WBackOrderID integer not null
+,WAccountID integer not null
+,WStockID integer not null
+,FQty numeric (18,8)
+,FSellingPrice numeric (18,8)
+,BSelected SmallInt
+,DSYSDATE {timestamptype},
+primary key (WBackOrderID)
+);
+
+CREATE TABLE Bank(
+WAccountID integer not null
+,WContactID integer
+,WReceiptsID integer
+,WPaymentsID integer
+,WCurrencyID integer
+,DSYSDATE {timestamptype},
+primary key (WAccountID)
+);
+create
+INDEX BANK_IND_ACCID ON Bank (WAccountId);
+
+CREATE TABLE BatCon(
+WBatchID integer not null
+,WUserID integer not null
+,WBatchTypeID integer not null
+,SBatchNumber {chartype}(8)
+,BPosted SmallInt
+,BImported SmallInt
+,BDocSource SmallInt
+,WLineCount integer
+,SFilename {chartype}(64)
+,WDocID integer
+,DSysDate {timestamptype}
+,WInitBatID integer
+,SAlias {chartype}(50)
+,SUniqueID {chartype}(8),
+primary key (WBatchID)
+
+);
+
+CREATE TABLE BatTypes(
+WBatchTypeID integer not null
+,SDescription {chartype}(128)
+,BCashBook SmallInt
+,WContraAccountID integer
+,BContraPerLine SmallInt
+,BIncrementRefNo SmallInt
+,BRepeatDetails SmallInt
+,BConsolidateBalancing SmallInt
+,WDebitCredit integer
+,WPaymentGroupID integer
+,WDefaultTaxID integer
+,BViewExclusive SmallInt
+,BLinkOI SmallInt
+,BInclusiveMode SmallInt
+,DSYSDATE {timestamptype},
+primary key (WBatchTypeID)
+);
+
+
+CREATE TABLE Contacts(
+RecordID integer not null
+,ResourceID integer not null
+,FirstName {chartype}(64)
+,LastName {chartype}(64)
+,Birthdate {timestamptype}
+,Anniversary {timestamptype}
+,Title {chartype}(64)
+,Company {chartype}(64)
+,Gender {chartype}(1)
+,Job_Position {chartype}(64)
+,Address {chartype}(100)
+,City {chartype}(64)
+,State {chartype}(64)
+,Zip {chartype}(15)
+,Country {chartype}(64)
+,Note {chartype}(255)
+,Phone1 {chartype}(25)
+,Phone2 {chartype}(25)
+,Phone3 {chartype}(25)
+,Phone4 {chartype}(25)
+,Phone5 {chartype}(25)
+,PhoneType1 integer
+,PhoneType2 integer
+,PhoneType3 integer
+,PhoneType4 integer
+,PhoneType5 integer
+,Category integer
+,EMail {chartype}(100)
+,Custom1 {chartype}(100)
+,Custom2 {chartype}(100)
+,Custom3 {chartype}(100)
+,Custom4 {chartype}(100)
+,UserField0 {chartype}(100)
+,UserField1 {chartype}(100)
+,UserField2 {chartype}(100)
+,UserField3 {chartype}(100)
+,UserField4 {chartype}(100)
+,UserField5 {chartype}(100)
+,UserField6 {chartype}(100)
+,UserField7 {chartype}(100)
+,UserField8 {chartype}(100)
+,UserField9 {chartype}(100),
+DSYSDATE {timestamptype},
+primary key (RecordID)
+);
+
+CREATE TABLE creditor(
+WAccountID integer not null
+,SCode {chartype}(6)
+,WContactID integer not null
+,SPassword {chartype}(50)
+,SPostal1 {chartype}(64)
+,SPostal2 {chartype}(64)
+,SPostal3 {chartype}(64)
+,SPostalCode {chartype}(15)
+,WPostCountries_id Integer
+,SDelivery1 {chartype}(64)
+,SDelivery2 {chartype}(64)
+,SDelivery3 {chartype}(64)
+,WDelCountries_id Integer
+,STelephone1 {chartype}(25)
+,STelephone2 {chartype}(25)
+,SFax {chartype}(25)
+,SEmail {chartype}(100)
+,WBankName {chartype}(100)
+,SBranchCode {chartype}(100)
+,SBankAccountNumber {chartype}(100)
+,SBankAccountName {chartype}(100)
+,FCreditLimit numeric (12,2)
+,FChargeAmount numeric (12,2)
+
+,BOpenItem SmallInt
+,BPostBBF SmallInt
+,DLastActivity {timestamptype}
+,WCurrencyID integer
+,WForexAccountID integer
+,SMessage {chartype}(128)
+,SReference {chartype}(64)
+,FDiscount numeric (12,2)
+,WDefaultPriceTypeID integer
+,DSysDate {timestamptype}
+,WDueDays integer
+,WDefaultAccount integer
+,WDefaultTax integer,
+SCompanyRegNo {chartype}(64),
+SFREEFIELD1 {chartype}(128),
+SFREEFIELD2 {chartype}(128),
+SFREEFIELD3 {chartype}(128),
+primary key (WAccountID)
+);
+create
+INDEX CREDITOR_IND_CONTACT ON creditor (WContactId);
+
+CREATE TABLE Currency(
+WCurrencyID integer not null
+,SDescription {chartype}(128)
+,SSymbol {chartype}(6)
+,FRate1 numeric (12,2)
+,FRate2 numeric (12,2)
+,FRete3 numeric (12,2)
+,FRate4 numeric (12,2)
+,FRate5 numeric (12,2)
+,FRate6 numeric (12,2)
+,FRate7 numeric (12,2)
+,FRate8 numeric (12,2)
+,FRate9 numeric (12,2)
+,FRate10 numeric (12,2)
+,FRate11 numeric (12,2)
+,FRate12 numeric (12,2)
+,FRate13 numeric (12,2)
+,FRate14 numeric (12,2)
+,FRate15 numeric (12,2)
+,FRate16 numeric (12,2)
+,FRate17 numeric (12,2)
+,FRate18 numeric (12,2)
+,FRate19 numeric (12,2)
+,FRate20 numeric (12,2)
+,FRate21 numeric (12,2)
+,FRate22 numeric (12,2)
+,FRate23 numeric (12,2)
+,FRate24 numeric (12,2)
+,FRate25 numeric (12,2)
+,FRate26 numeric (12,2)
+,WContryID integer
+,WVarianceAccountID integer
+,WNoofDecimals integer,
+DSYSDATE {timestamptype},
+primary key (WCurrencyID)
+);
+
+CREATE TABLE Debtor(
+WAccountID integer not null
+,SCode {chartype}(6)
+,WContactID integer
+,SPassword {chartype}(50)
+,SPostal1 {chartype}(64)
+,SPostal2 {chartype}(64)
+,SPostal3 {chartype}(64)
+,WPostCountries_id Integer
+,SPostalCode {chartype}(15)
+,SDelivery1 {chartype}(64)
+,SDelivery2 {chartype}(64)
+,SDelivery3 {chartype}(64)
+,WDelCountries_id Integer
+,SDeliveryCode {chartype}(15)
+,STelephone1 {chartype}(25)
+,STelephone2 {chartype}(25)
+,SFax {chartype}(25)
+,SEmail {chartype}(100)
+,SBankName {chartype}(100)
+,SBranchCode {chartype}(100)
+,SBankAccountNumber {chartype}(100)
+,SBankAccountName {chartype}(100)
+,SCreditCardNumber {chartype}(100)
+,DExpiryDate {timestamptype}
+,SCreditCardType {chartype}(100)
+,SCreditCardHolder {chartype}(100)
+,FCreditLimit numeric (12,2)
+,FChargeAmount numeric (12,2)
+,FDiscount numeric (12,2)
+,FInterest numeric (12,2)
+,WBankID integer
+,WSalesmanID integer
+,BOpenItem SmallInt
+,BPostBBF SmallInt
+,BDisabled SmallInt
+,SMessage {chartype}(128)
+,WDefaultPriceTypeID integer
+,DLastActivity {timestamptype}
+,WCurrencyID integer
+,WForexAccountID integer
+,SReference {chartype}(64)
+,DSysDate {timestamptype}
+,WDueDays integer
+,DREMITTANCE {timestamptype}
+,WDefaultAccount integer
+,WDefaultTax integer,
+SCompanyRegNo {chartype}(64),
+SFREEFIELD1 {chartype}(128),
+SFREEFIELD2 {chartype}(128),
+SFREEFIELD3 {chartype}(128),
+primary key (WAccountID)
+);
+create
+INDEX Debtor_IND_CONTACT ON Debtor (WContactId);
+
+CREATE TABLE DnlBanks(
+STransID {chartype}(32) not null
+,WLineTypeID integer
+,WSourceID integer
+,WBankID integer
+,WTransTypeID integer
+,SAccountCode {chartype}(128)
+,DTransDate {timestamptype}
+,DPostedDate {timestamptype}
+,FAmount numeric (12,2)
+,SMemo {chartype}(128)
+,SReference {chartype}(128)
+,BReconciled SmallInt
+,SDescription {chartype}(128)
+,WCurrencyID integer
+,WAccountID integer
+,WLineID integer
+,WTcTransID integer
+,WProfileID integer
+,WAutoMatchID integer
+,BUseForBatch integer
+,DSysDate {timestamptype}
+,WAmtSgn integer
+,SEXTRADESCRIPTION {chartype}(255)
+);
+
+CREATE TABLE DocHead(
+WDocID integer not null
+,SDocNo {chartype}(15)
+,WTypeID integer not null
+,DDate {timestamptype}
+,DAllocatedDate {timestamptype}
+,WAccountID integer not null
+,WPaymentTypeID integer
+,WPostal1ID integer
+,WPostal2ID integer
+,WPostal3ID integer
+,WPosCountries_id Integer
+,WPostalCodeID integer
+,WMessage1ID integer
+,WMessage2ID integer
+,WMessage3ID integer
+,FInvoiceDiscount numeric (12,2)
+,WSalesmanID integer
+,SReference {chartype}(<@DOCHEADREFERENCE@>)
+,WDelAddress1ID integer
+,WDelAddress2ID integer
+,WDelAddress3ID integer
+,WDelCountries_id Integer
+,WDelCodeID integer
+,BPrinted SmallInt
+,BPosted SmallInt
+,WReportingGroup1ID integer
+,WReportingGroup2ID integer
+,WPaymentGroupID integer
+,BExclusive SmallInt
+,WCurrencyID integer
+,FDocAmount numeric (12,2)
+,FTaxAmount numeric (12,2)
+,BRepeating SmallInt
+,DSysDate {timestamptype}
+,WSourceTypeID integer
+,WProfileID integer
+,WTerms integer
+,WJobCodeID integer
+,DDueDate {timestamptype}
+,WUserID integer,
+primary key (WDocID)
+);
+
+CREATE TABLE DocLine(
+WDocLineID integer not null
+,WDocID integer not null
+,WStockID integer
+,WLineTypeID integer
+,WDescriptionID integer
+,FQtyOrdered numeric(18,8)
+,FQtyShipped numeric(18,8)
+,FSellingPrice numeric(18,8)
+,FItemDiscount numeric(18,8)
+,WTaxID integer
+,FExclusiveAmt numeric(18,8)
+,FInclusiveAmt numeric(18,8)
+,FTaxAmount numeric(18,8)
+,DSysDate {timestamptype}
+,SUnit {chartype}(20)
+,SSTockCode {chartype}(15)
+,WProfileID integer
+,WSerialNoID integer,
+primary key (WDocID,WDocLineID)
+);
+
+CREATE TABLE EmpMas(
+WEmployeeID integer not null
+,SEmployeeNumber {chartype}(15)
+,SFirstName {chartype}(128)
+,SSurname {chartype}(128)
+,SAddress1 {chartype}(64)
+,SAddress2 {chartype}(64)
+,SAddress3 {chartype}(64)
+,SPostCode {chartype}(15)
+,SIDNumber {chartype}(35)
+,SPassportNumber {chartype}(64)
+,SIncomeTaxRefNumber {chartype}(64)
+,SDirectiveNumber {chartype}(64)
+,SBranch {chartype}(64)
+,DStartDate {timestamptype}
+,DTerminationDate {timestamptype}
+,BActive SmallInt
+,DBirthDate {timestamptype}
+,WIRPType integer
+,SReason {chartype}(64)
+,WReportingGroup1 integer
+,WReportingGroup2 integer
+,WAccountID integer
+,WPaymentMethodID integer
+,SBankName {chartype}(100)
+,SBankAccountNumber {chartype}(100)
+,SBankBranch {chartype}(100)
+,FLeaveAllocated numeric (12,2)
+,FLeaveTaken numeric (12,2)
+,SData1 {chartype}(128)
+,SData2 {chartype}(128)
+,SData3 {chartype}(128)
+,WProfileID integer
+,DSYSDATE {timestamptype},
+primary key (WEmployeeID)
+);
+
+CREATE TABLE EmpSource(
+WSourceID integer not null
+,WUnitID integer
+,SDescription {chartype}(128)
+,WAccountID integer
+,WSourceTypeID integer
+,BTaxable SmallInt
+,BActive SmallInt
+,WParentSourceID integer
+,SFormula {chartype}(128)
+,WProfileID integer
+,BForInfo integer
+,WDrAccountID integer
+,WCrAccountID integer
+,DSYSDATE {timestamptype},
+primary key (WSourceID)
+);
+
+CREATE TABLE Events(
+RecordID integer not null
+,StartTime {timestamptype}
+,EndTime {timestamptype}
+,ResourceID integer
+,WContactID integer
+,Description {chartype}(255)
+,Notes {chartype}(255)
+,Category integer
+,AllDayEvent SmallInt
+,DingPath {chartype}(255)
+,AlarmSet SmallInt
+,AlarmAdvance integer
+,AlarmAdvanceType integer
+,SnoozeTime {timestamptype}
+,RepeatCode integer
+,RepeatRangeEnd {timestamptype}
+,CustomInterval integer
+,UserField0 {chartype}(100)
+,UserField1 {chartype}(100)
+,UserField2 {chartype}(100)
+,UserField3 {chartype}(100)
+,UserField4 {chartype}(100)
+,UserField5 {chartype}(100)
+,UserField6 {chartype}(100)
+,UserField7 {chartype}(100)
+,UserField8 {chartype}(100)
+,UserField9 {chartype}(100)
+,WAccountID integer,
+primary key (RecordID)
+);
+
+CREATE TABLE FlowTmp(
+WAccountID integer not null
+,WBatchID integer
+,SDescription {chartype}(128)
+,WPeriodID integer
+,SCode {chartype}(20)
+,FAmount1 numeric (12,2)
+,FAmount2 numeric (12,2)
+,FAmount3 numeric (12,2)
+,FAmount4 numeric (12,2)
+,FAmount5 numeric (12,2)
+,FAmount6 numeric (12,2)
+);
+
+CREATE TABLE Groups(
+WGroupID integer not null
+,WGroupTypeID integer
+,SDescription {chartype}(128)
+,WParentGroup2ID integer
+,WParentGroup1ID integer
+,DSysDate {timestamptype}
+,WSortNo integer,
+primary key (WGroupID)
+);
+
+CREATE TABLE JobProject(
+WJobProjectID integer not null
+,SJobProjectCode {chartype}(20)
+,SDescription {chartype}(128)
+,DStartDate {timestamptype}
+,DEndDate {timestamptype}
+,WParentID integer
+,WNoteFileID integer
+,BEnabled SmallInt
+,WStatusID integer
+,WInBudgetAccID integer
+,WExBudgetAccID integer
+,WProfileID integer
+,WInfosID integer
+,WGroup1ID integer
+,DSysDate {timestamptype}
+,WUserID integer
+,WGroup2ID integer
+,WProfBudgetID integer,
+primary key (WJobProjectID)
+);
+
+CREATE TABLE KeysCont(
+WKeyValue integer not null
+,SKeyName {chartype}(20),
+primary key (WKeyValue)
+);
+
+CREATE TABLE LabSpecs(
+WLabSpecsID integer not null
+,SDescription {chartype}(128)
+,FTopMargin numeric (12,2)
+,FBottomMargin numeric (12,2)
+,FLeftMargin numeric (12,2)
+,FRightMargin numeric (12,2)
+,BPortrait SmallInt
+,FHeight numeric (12,2)
+,FWidth numeric (12,2)
+,WAccross integer
+,WDown integer
+,FHGap numeric (12,2)
+,FVGap numeric (12,2)
+,FUnprintableTop numeric (12,2)
+,FUnprintableLeft numeric (12,2)
+,FPageHeight numeric (12,2)
+,FPageWidth numeric (12,2)
+,DSysDate {timestamptype}
+,WFontSize integer,
+primary key (WLabSpecsID)
+);
+
+CREATE TABLE Locations(
+WLocationID integer not null
+,SDescription {chartype}(128)
+,SLocCode {chartype}(20)
+,WLocationTypeID integer
+,WParentID integer
+,DSysDate {timestamptype}
+,WSortNo integer,
+primary key (WLocationID)
+);
+
+CREATE TABLE ManufacD(
+WMfcDocID integer not null
+,WLineID integer not null
+,WLinetypeID integer
+,SStockCode {chartype}(50)
+,SDescription {chartype}(128)
+,WLocationID integer
+,FQty numeric (12,2)
+,FValue numeric (12,2)
+,WProfileID integer
+,DSYSDATE {timestamptype},
+primary key (WMfcDocID,WLineID)
+);
+
+CREATE TABLE ManufacH(
+WMfcDocID integer not null
+,WMfcTypeID integer
+,SMfcCode {chartype}(50)
+,WParentID integer
+,SPicture {chartype}(50)
+,BDisabled SmallInt
+,SDescription {chartype}(128)
+,WLocationID integer
+,WFinishedStockID integer
+,FPrice1 numeric (12,2)
+,FPrice2 numeric (12,2)
+,FPrice3 numeric (12,2)
+,FUnused numeric (12,2)
+,WProfileID integer
+,DSYSDATE {timestamptype},
+primary key (WMfcDocID)
+);
+
+CREATE TABLE messages(
+WMessageID integer not null
+,SDescription {chartype}(128)
+,SExtraDescription {chartype}(255),
+primary key (WMessageID)
+);
+CREATE  
+INDEX MESSAGES_IND_DESCRIPTION ON MESSAGES (SDESCRIPTION);
+
+
+CREATE TABLE OILinks(
+WOILINKSID Integer not null ,
+DDocDate {timestamptype}
+,SReference {chartype}(64)
+,SLinkedReference {chartype}(128)
+,WFullAmount numeric (12,2)
+,WOutStandingAmount numeric (12,2)
+,WLinkedAmount numeric (12,2)
+,DDate {timestamptype}
+,UnUsed1 integer
+,WAmountTransactionID integer
+,WLinkTransactionID integer
+,WUserID integer
+,UnUsed2 integer
+,WBatchID integer
+,WAccountID integer
+,WTaxID integer
+,DSYSDATE {timestamptype},
+primary key (WOILINKSID)
+);
+
+
+{generator_cr_start}GEN_OILINKS_ID{generator_cr_end};
+
+
+CREATE TABLE OpReport(
+WOptionID integer not null
+,StrOption {chartype}(25)
+,SOptionValue {chartype}(64)
+,WOptionTypeID integer,
+primary key (WOptionID)
+);
+CREATE  
+INDEX OPREPORT_IND_STR_OPTION ON OpReport (StrOption);
+
+
+CREATE TABLE PayCon(
+WPayRollID integer not null
+,DDate {timestamptype}
+,SDescription {chartype}(128)
+,BActive SmallInt
+,BCurrentYear SmallInt
+,WProfileID integer
+,DSYSDATE {timestamptype},
+primary key (WPayRollID)
+);
+
+CREATE TABLE PayTrans(
+WPayRollID integer not null
+,WEmployeeID integer
+,WSourceID integer
+,WPeriodID integer
+,FAmount numeric (12,2)
+,FUnits numeric (12,2)
+,WUserID integer
+,WProfileID integer
+,DSYSDATE {timestamptype},
+primary key (WPayRollID)
+);
+
+CREATE TABLE Years(
+WYearId Integer not null,
+SDescription {chartype}(50),
+primary key (WYearId));
+
+CREATE TABLE Periods(
+WYearId Integer default 0 not null
+,WPeriodID integer not null
+,DStartDate {timestamptype} not null
+,DEndDate {timestamptype} not null
+,SDescription {chartype}(50)
+,BShutDown SmallInt
+,BContainsTransactions SmallInt,
+primary key (WYearId,WPeriodID)
+);
+
+CREATE TABLE Printers(
+WPrinterID integer not null
+,SPrinterName {chartype}(20)
+,WLinesPerPage integer
+,WLinesPerInch integer
+,WCharsPerInch integer
+,WPageLength integer
+,WPageWidth integer
+,S6LinesPerInch {chartype}(20)
+,S8LinesPerInch {chartype}(20)
+,S10LinesPerInch {chartype}(20)
+,S5CharsPerInchOn {chartype}(20)
+,S5CharsPerInchOff {chartype}(20)
+,S10CharsPerInchOn {chartype}(20)
+,S12CharsPerInchOn {chartype}(20)
+,S16CharsPerInchOn {chartype}(20)
+,S16CharsPerInchOff {chartype}(20)
+,SBoldFaceOn {chartype}(20)
+,SBoldFaceOff {chartype}(20)
+,DSYSDATE {timestamptype},
+primary key (WPrinterID)
+);
+
+CREATE TABLE Profiles(
+WProfileID integer not null
+,WProfileTypeID integer
+,WParentID integer
+,WSourceID integer
+,WSourceTypeID integer
+,SDescription {chartype}(64)
+,BActive SmallInt
+,DSysDate {timestamptype}
+,WSortNo integer
+,WStatus integer,
+primary key (WProfileID)
+);
+
+CREATE TABLE ReconBank(
+SReference {chartype}(128)
+,DDate {timestamptype}
+,SAccount {chartype}(<@ACCOUNTCODE@>)
+,SDescription {chartype}(128)
+,FAmount numeric (12,2)
+,FTaxAmount numeric (12,2)
+,BReconciled SmallInt
+,FRecNo numeric (12,2)
+,FBatchType numeric (12,2)
+);
+
+CREATE TABLE RepCells(
+WReportID integer not null
+,WColumnID integer not null
+,WRowID integer not null
+,SValue {chartype}(64)
+,DSYSDATE {timestamptype},
+primary key (WReportID,WColumnID,WRowID)
+
+);
+
+CREATE TABLE RepCols(
+WReportID integer not null
+,WColumnID integer not null
+,SHeading1 {chartype}(64)
+,SHeading2 {chartype}(64)
+,WColumnTypeID integer
+,WPeriodStart integer
+,WPeriodEnd integer
+,SFormula {chartype}(64)
+,DSYSDATE {timestamptype},
+primary key (WReportID,WColumnID)
+);
+
+CREATE TABLE RepHead(
+WReportID integer not null
+,SReportName {chartype}(64)
+,STitle1 {chartype}(64)
+,STitle2 {chartype}(64)
+,BDisplayDecimal SmallInt
+,BCompressPrint SmallInt
+,WNoOfColumns integer
+,WReportTypeID integer
+,DSYSDATE {timestamptype},
+primary key (WReportID)
+);
+
+CREATE TABLE RepLine(
+WReportID integer not null
+,WRowID integer not null
+,WRowTypeID integer
+,WRowItemID integer
+,SItemName {chartype}(64)
+,SRowDescription {chartype}(128)
+,BMainAccount SmallInt
+,BSupressPrint SmallInt
+,SDescription {chartype}(128)
+,SColumn1 {chartype}(128)
+,SColumn2 {chartype}(128)
+,SColumn3 {chartype}(128)
+,SColumn4 {chartype}(128)
+,SColumn5 {chartype}(128)
+,SColumn6 {chartype}(128)
+,SColumn7 {chartype}(128)
+,SColumn8 {chartype}(128)
+,SColumn9 {chartype}(128)
+,SColumn10 {chartype}(128)
+,SColumn11 {chartype}(128)
+,SColumn12 {chartype}(128)
+,SColumn13 {chartype}(128)
+,SColumn14 {chartype}(128)
+,SColumn15 {chartype}(128)
+,DSYSDATE {timestamptype},
+primary key (WReportID,WRowID)
+);
+
+CREATE TABLE ReportOp(
+SAccountListingSequence {chartype}(64)
+,SAccountListingFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SAccountListingToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,BAccountListingShowSub SmallInt
+,WTrialBalFromDateID integer
+,WTrialBaloDateID integer
+,BTrialBalDisplaySubAcc SmallInt
+,BTrialBalNilBalances SmallInt
+,STrialBalSSequence {chartype}(64)
+,SBudgetPerfSequence {chartype}(64)
+,SBudgetPerfFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SBudgetPerfToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,BBudgetPerfShowSub SmallInt
+,BBudgetPerfNilBal SmallInt
+,WBatchTypeType integer
+,SBatchTypeWhichYear {chartype}(64)
+,WBatchTypeFromDateID integer
+,WBatchTypeToDateID integer
+,BBatchTypeShowPeriod SmallInt
+,BBatchTypeShowBal SmallInt
+,SCreditorListingSequence {chartype}(64)
+,SCredListingFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SCredListingToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SCredMovementsSequence {chartype}(64)
+,SCredMovementsFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SCredMovementsToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,BCredMovementsBNiBal SmallInt
+,SDebtorListingSequence {chartype}(64)
+,SDebtorListingFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SDebtorListingToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,BDebtorListingShowDetail SmallInt
+,SDebtorMovementSequence {chartype}(64)
+,SDebtorMovementFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SDebtorMovementToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,BDebtorMovementBNilBal SmallInt
+,WDocListTypeID integer
+,SDocListSequence {chartype}(64)
+,SDocListFromNumber {chartype}(8)
+,SDocListToNumber {chartype}(8)
+,DDocListFromDate {timestamptype}
+,DDocListToDate {timestamptype}
+,SDebtorAgeFrom {chartype}(<@ACCOUNTCODELONG@>)
+,SDebtorAgeTo {chartype}(<@ACCOUNTCODELONG@>)
+,DDebtorAgeCurrentDate {timestamptype}
+,DDebtorAgeDateLimit1 {timestamptype}
+,DDebtorAgeDateLimit2 {timestamptype}
+,DDebtorAgeDateLimit3 {timestamptype}
+,DDebtorAgeDateLimit4 {timestamptype}
+,SDebtorAgeRangeName0 {chartype}(15)
+,SDebtorAgeRangeName1 {chartype}(15)
+,SDebtorAgeRangeName2 {chartype}(15)
+,SDebtorAgeRangeName3 {chartype}(15)
+,FDebtorAgeMinimumAmount numeric (12,2)
+,WDebtorAgeMonth1 integer
+,WDebtorAgeMonth2 integer
+,WDebtorAgeMonth3 integer
+,BDebtorAgeSort SmallInt
+,BDebtorAgeAccountdetail SmallInt
+,BDebtorAgeShowTransac SmallInt
+,BDebtorAgeShowOpenItem SmallInt
+,BDebtorAgeIgnoreZeroBal SmallInt
+,SCreditorAgeFrom {chartype}(<@ACCOUNTCODELONG@>)
+,SCreditorAgeTo {chartype}(<@ACCOUNTCODELONG@>)
+,DCreditorAgeCurrentDate {timestamptype}
+,DCreditorAgeDateLimit1 {timestamptype}
+,DCreditorAgeDateLimit2 {timestamptype}
+,DCreditorAgeDateLimit3 {timestamptype}
+,DCreditorAgeDateLimit4 {timestamptype}
+,SCreditorAgeRangeName0 {chartype}(15)
+,SCreditorAgeRangeName1 {chartype}(15)
+,SCreditorAgeRangeName2 {chartype}(15)
+,SCreditorAgeRangeName3 {chartype}(15)
+,FCreditorAgeMinimumAmount numeric (12,2)
+,WCreditorAgeMonth1 integer
+,WCreditorAgeMonth2 integer
+,WCreditorAgeMonth3 integer
+,BCreditorAgeSort SmallInt
+,BCreditorAgeAccountDetail SmallInt
+,BCreditorAgeShowTransac SmallInt
+,BCreditorAgeShowOpenItem SmallInt
+,BCreditorAgeIgnoreZeroBal SmallInt
+,SReconBankAccount {chartype}(64)
+,DReconUntil {timestamptype}
+,FReconBankBalance numeric (12,2)
+,SReconReportBankAccount {chartype}(64)
+,DReconReportUntil {timestamptype}
+,FReconReportBalance numeric (12,2)
+,BCredTransIncNilBal SmallInt
+,SCredTransSequence {chartype}(64)
+,SCredTransWhichYear {chartype}(64)
+,SCredTransFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SCredTransToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,WCredTransFromDate integer
+,WCredTransToDate integer
+,BCredTransEachPeriod SmallInt
+,BCredTransNewPage SmallInt
+,BDebTransIncNilBal SmallInt
+,SDebTransSequence {chartype}(64)
+,SDebTransWhichYear {chartype}(64)
+,SDebTransFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SDebTransToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,WDebTransFromDate integer
+,WDebTransToDate integer
+,BDebTransEachPeriod SmallInt
+,BDebTransNewPage SmallInt
+,SStockActivityFromCode {chartype}(15)
+,SStockActivityToCode {chartype}(15)
+,SStockActivitySequence {chartype}(64)
+,SStockListSequence {chartype}(64)
+,SStockListFromCode {chartype}(15)
+,SStockListToCode {chartype}(15)
+,BStockListQtyOnHand SmallInt
+,BStockListCostPrice SmallInt
+,BStockListSellingPrice SmallInt
+,BStockListStockCount SmallInt
+,BStockListStockValue SmallInt
+,SStockMovementSequence {chartype}(64)
+,SStockMovementFromCode {chartype}(15)
+,SStockMovementToCode {chartype}(15)
+,DStockMovementFromDate {timestamptype}
+,DStockMovementToDate {timestamptype}
+,BStockMovementShowDetail SmallInt
+,BStockMovementNewPage SmallInt
+,SStockReorderSequence {chartype}(64)
+,SStockReorderFromCode {chartype}(15)
+,SStockReorderToCode {chartype}(15)
+,BGLLedgerNilBalances SmallInt
+,SGLLedgerSequence {chartype}(64)
+,SGLLedgerWhichYear {chartype}(64)
+,SGLLedgerFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SGLLedgerToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,WGLLedgerFromDate integer
+,WGLLedgerToDate integer
+,BGLLedgerEachPeriod SmallInt
+,BGLLedgerNewPage SmallInt
+,SGLMovementSequence {chartype}(64)
+,SGLMovementFromAccount {chartype}(<@ACCOUNTCODELONG@>)
+,SGLMovementToAccount {chartype}(<@ACCOUNTCODELONG@>)
+,BGLMovementBInclNilBal SmallInt
+,SSalesByCustSequence {chartype}(64)
+,SSalesByCustFromCust {chartype}(<@ACCOUNTCODELONG@>)
+,SSalesByCustToCust {chartype}(<@ACCOUNTCODELONG@>)
+,DSalesByCustFromDate {timestamptype}
+,DSalesByCustToDate {timestamptype}
+,SPurchBySuppSequence {chartype}(64)
+,SPurchBySuppFromSupp {chartype}(<@ACCOUNTCODELONG@>)
+,SPurchBySuppToSupp {chartype}(<@ACCOUNTCODELONG@>)
+,DPurchBySuppFromDate {timestamptype}
+,DPurchBySuppToDate {timestamptype}
+,SSalesByProdSequence {chartype}(64)
+,SSalesByProdFromProd {chartype}(15)
+,SSalesByProdToProd {chartype}(15)
+,DSalesByProdFromDate {timestamptype}
+,DSalesByProdToDate {timestamptype}
+,SPurchByProdSequence {chartype}(64)
+,SPurchByProdFromProd {chartype}(<@ACCOUNTCODELONG@>)
+,SPurchByProdToProd {chartype}(<@ACCOUNTCODELONG@>)
+,DPurchByProdFromDate {timestamptype}
+,DPurchByProdToDate {timestamptype}
+,SCustByProdSequence {chartype}(64)
+,SCustByProdFromProd {chartype}(15)
+,SCustByProdToProd {chartype}(15)
+,DCustByProdFromDate {timestamptype}
+,DCustByProdToDate {timestamptype}
+,SSalesPersByProdSequence {chartype}(64)
+,SSalesPersByProdFromProd {chartype}(15)
+,SSalesPersByProdToProd {chartype}(15)
+,DSalesPersByProdFromDate {timestamptype}
+,DSalesPersByProdToDate {timestamptype}
+,SProdByCustSequence {chartype}(64)
+,SProdByCustFromProd {chartype}(15)
+,SProdByCustToProd {chartype}(15)
+,DProdByCustFromDate {timestamptype}
+,DProdByCustToDate {timestamptype}
+,SCustBySPersonSPerson {chartype}(64)
+,DCustBySPersonFromDate {timestamptype}
+,DCustBySPersonToDate {timestamptype}
+,SSalesBySPSalesPerson {chartype}(64)
+,DSalesBySPFromDate {timestamptype}
+,DSalesBySPToDate {timestamptype}
+,SProdBySPSalesPerson {chartype}(64)
+,DProdBySPFromDate {timestamptype}
+,DProdBySPToDate {timestamptype}
+,SSalesByGroupFromGroup {chartype}(15)
+,SSalesByGroupToGroup {chartype}(15)
+,DSalesByGroupFromDate {timestamptype}
+,DSalesByGroupToDate {timestamptype}
+,SInvoiceDetailWhichYear {chartype}(64)
+,WInvoiceDetailFromDate integer
+,WInvoiceDetailtoDate integer
+,SInvoiceDetailSTaxAccount {chartype}(64)
+,BInvoiceDetailShowDetail SmallInt
+,SDebtStatementFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SDebtStatementToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,FDebtStatementMinAmount numeric (12,2)
+,DDebtStatementCurrentDate {timestamptype}
+,DDebtStatementDateLimit1 {timestamptype}
+,DDebtStatementDateLimit2 {timestamptype}
+,DDebtStatementDateLimit3 {timestamptype}
+,DDebtStatementDateLimit4 {timestamptype}
+,SDebtStatementAgeName0 {chartype}(15)
+,SDebtStatementAgeName1 {chartype}(15)
+,SDebtStatementAgeName2 {chartype}(15)
+,SDebtStatementAgeName3 {chartype}(15)
+,WDebtStatementMonth1 integer
+,WDebtStatementMonth2 integer
+,WDebtStatementMonth3 integer
+,BDebtStatementTaxSeperate SmallInt
+,BDebtStatementTaxTransact SmallInt
+,BDebtStatementOpenItem SmallInt
+,WIncomeStmntFromDateID integer
+,WIncomeStmntToDateID integer
+,BIncomeStmntDisplaySubAcc SmallInt
+,BIncomeStmntNilBalances SmallInt
+,SIncomeStmntSSequence {chartype}(64)
+,SRemittanceFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SRemittanceToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,FRemittanceMinAmount numeric (12,2)
+,DRemittanceDateLimit1 {timestamptype}
+,DRemittanceDateLimit2 {timestamptype}
+,DRemittanceDateLimit3 {timestamptype}
+,DRemittanceDateLimit4 {timestamptype}
+,SRemittanceAgeName0 {chartype}(15)
+,SRemittanceAgeName1 {chartype}(15)
+,SRemittanceAgeName2 {chartype}(15)
+,SRemittanceAgeName3 {chartype}(15)
+,WRemittanceMonth1 integer
+,WRemittanceMonth2 integer
+,WRemittanceMonth3 integer
+,BRemittanceTaxSeperate SmallInt
+,BRemittanceTaxTransact SmallInt
+,BRemittanceOpenItem SmallInt
+,WRemittanceFromDateID integer
+,WRemittanceToDateID integer
+,BRemittanceDisplaySubAcc SmallInt
+,BRemittanceNilBalances SmallInt
+,SRemittanceSSequence {chartype}(64)
+,WBalSheetFromDateID integer
+,WBalSheetToDateID integer
+,BBalSheetDisplaySubAccs SmallInt
+,BBalSheetNilBalances SmallInt
+,SBalSheetSSequence {chartype}(64)
+,SSalesPersByCustSequence {chartype}(64)
+,SSalesPersByCustFromCust {chartype}(<@ACCOUNTCODELONG@>)
+,SSalesPersByCustToCust {chartype}(<@ACCOUNTCODELONG@>)
+,DSalesPersByCustFromDate {timestamptype}
+,DSalesPersByCustToDate {timestamptype}
+,WDataEntryDrCrFormat integer
+,WDecimal integer
+,SLabelFromAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SlabelToAcc {chartype}(<@ACCOUNTCODELONG@>)
+,SlabelSSequence {chartype}(64)
+,SLabelSFile {chartype}(64)
+);
+
+CREATE TABLE ReptBat(
+WTransactionID integer not null
+,WUserID integer
+,WBatchTypeID integer
+,SReference {chartype}(64)
+,DDate {timestamptype}
+,SDescription {chartype}(128)
+,WTaxID integer
+,WAccountID integer
+,WContraID integer
+,FAmount numeric (12,2),
+primary key (WTransactionID)
+
+);
+
+CREATE TABLE ReptDocs(
+WDocID integer not null
+,WGroupID integer,
+primary key (WDocID)
+);
+
+CREATE TABLE Resources(
+ResourceID integer not null
+,Description {chartype}(255)
+,Notes {chartype}(255)
+,ImageIndex integer
+,ResourceActive SmallInt
+,UserField0 {chartype}(100)
+,UserField1 {chartype}(100)
+,UserField2 {chartype}(100)
+,UserField3 {chartype}(100)
+,UserField4 {chartype}(100)
+,UserField5 {chartype}(100)
+,UserField6 {chartype}(100)
+,UserField7 {chartype}(100)
+,UserField8 {chartype}(100)
+,UserField9 {chartype}(100),
+primary key (ResourceID)
+);
+
+CREATE TABLE Stock(
+WStockID integer not null
+,SStockCode {chartype}(15)
+,SBarCodeNumber {chartype}(50)
+,SDescription {chartype}(128)
+,WReportingGroup1ID integer
+,WReportingGroup2ID integer
+,WCostAccountID integer
+,WInputTaxID integer
+,WOutputTaxID integer
+,FOpeningAveCost numeric (18,8)
+,FQtyOnHand numeric (18,8)
+,FOpeningQty numeric (18,8)
+,FInvQtyOnHand numeric (18,8)
+,FReorderQty numeric (18,8)
+,WSalesAccountID integer
+,BApplyInvoiceDiscount SmallInt
+,WStockAccountID integer
+,FSellingPrice1 numeric (18,8)
+,FSellingPrice2 numeric (18,8)
+,FSellingPrice3 numeric (18,8)
+,FUnitAveCost numeric (18,8)
+,FUnitCost numeric (18,8)
+,WUnitID integer
+,DSysDate {timestamptype}
+,BApplyTax SmallInt
+,WInputTax2ID integer
+,BTaxable SmallInt
+,WSupplier1ID integer
+,WSupplier2ID integer
+,WStockTypeID integer
+,WOutputTax2ID integer
+,WProfileID integer
+,BDisabled SmallInt
+,WPerentID integer
+,WLocationID integer
+,WFileNameID integer
+,SExtraDesc {chartype}(255),
+primary key (WStockID),
+UNIQUE (SStockCode)
+);
+CREATE  
+INDEX STOCK_IND_SDESCRIPTION ON Stock (SDESCRIPTION);
+CREATE  
+INDEX STOCK_IND_SBARCODE ON Stock (SBarCodeNumber);
+CREATE  
+INDEX STOCK_IND_SSTOCKCODE ON Stock (SStockCode);
+
+CREATE  
+INDEX STOCK_IND_REPGROUP1 ON Stock (WReportingGroup1ID);
+CREATE  
+INDEX STOCK_IND_REPGROUP2 ON Stock (WReportingGroup2ID);
+
+
+CREATE TABLE StockPub(
+WStockID integer not null
+,WPriceID integer
+,BLOBPicture {blobtype}
+,DSYSDATE {timestamptype},
+primary key (WStockID)
+);
+
+CREATE TABLE StockTrn(
+WStockTransactionID integer not null
+,WStockID integer not null
+,DDate {timestamptype}
+,WSalesmanID integer
+,WDocID integer
+,WDocTypeID integer
+,FQty numeric (18,8)
+,FCostPrice numeric (18,8)
+,FSellingPrice numeric (18,8)
+,WAccountID integer
+,DSYSDATE {timestamptype},
+primary key (WStockTransactionID)
+);
+
+CREATE TABLE SysParams(
+WParamID integer not null
+,WUserID integer not null
+,SParamName {chartype}(25) not null
+,SParamValue {chartype}(128)
+,WTypeID integer
+,WSourceID integer
+,WSourceTypeID integer
+,DSysDate {timestamptype}
+,WParentID integer
+,WParentTypeID integer
+,BActive SmallInt
+,primary key (WParamID)
+);
+
+CREATE TABLE Sysvars(
+WSYSVARSID integer NOT NULL,
+SCompanyName {chartype}(128)
+,SCompanyRegNo {chartype}(64)
+,WEmailServerAddress {chartype}(64)
+,WFaxServerID integer
+,BlobLogo {blobtype}
+,SAddress1 {chartype}(64)
+,SAddress2 {chartype}(64)
+,SAddress3 {chartype}(64)
+,SPostCode {chartype}(15)
+,SPhoneNumber {chartype}(50)
+,SFaxNumber {chartype}(50)
+,WRetainedIncomeID integer
+,WDebtorsControlID integer
+,WCreditorsControlID integer
+,SBackupPath {chartype}(255)
+,WCostOfSalesTypeID integer
+,WCreditNoteBatchTypeID integer
+,SCreditNoteMessage1 {chartype}(128)
+,SCreditNoteMessage2 {chartype}(128)
+,SCreditNoteMessage3 {chartype}(128)
+,WPurchasesBatchID integer
+,SPurchasesMessage1 {chartype}(128)
+,SPurchasesMessage2 {chartype}(128)
+,SPurchasesMessage3 {chartype}(128)
+,WGoodsReturnedBatchID integer
+,SGoodsReturnedMessage1 {chartype}(128)
+,SGoodsReturnedMessage2 {chartype}(128)
+,SGoodsReturnedMessage3 {chartype}(128)
+,WInvoicesBatchID integer
+,SInvoicesMessage1 {chartype}(128)
+,SInvoicesMessage2 {chartype}(128)
+,SInvoicesMessage3 {chartype}(128)
+,WDisplayAmount integer
+,BAccountsOpen SmallInt
+,BBatchTypes SmallInt
+,BGroups SmallInt
+,BNotClosed SmallInt
+,BPeriodChange SmallInt
+,BSalesmanExist SmallInt
+,BUnitsExist SmallInt
+,FLastYearPL numeric (12,2)
+,WNoOfPeriods integer
+,WInvoicePaperID integer
+,WCreditNotePaperID integer
+,WPurchasePaperID integer
+,WGoodsReturnedPaperID integer
+,WQuotePaperID integer
+,WOrderPaperID integer
+,WStatementPaperID integer
+,WRemittancePaperID integer
+,FReconciledBankBalance numeric (12,2)
+,WReconciledBankID integer
+,DReconciledLastDate {timestamptype}
+,SStatementMessage1 {chartype}(128)
+,SStatementMessage2 {chartype}(128)
+,SStatementMessage3 {chartype}(128)
+,BCreateBalanceLink SmallInt
+,WTaxDueAccountID integer
+,BTaxInvoiceBased SmallInt
+,BCreateCostOfSales SmallInt
+,WCurrentUserID integer
+,SInvoiceHeading {chartype}(64)
+,SCreditNoteHeading {chartype}(64)
+,SPurchaseHeading {chartype}(64)
+,SGoodsReturnedHeading {chartype}(64)
+,SQuoteHeading {chartype}(64)
+,SQuoteMessage1 {chartype}(128)
+,SQuoteMessage2 {chartype}(128)
+,SQuoteMessage3 {chartype}(128)
+,SOrderHeading {chartype}(64)
+,SOrderMessage1 {chartype}(128)
+,SOrderMessage2 {chartype}(128)
+,SOrderMessage3 {chartype}(128)
+,BPostToLastYear SmallInt
+,WBaseCurrencyID integer
+,BMultiCurrency SmallInt
+,STaxRegNo {chartype}(64)
+,BPaymentsBased SmallInt
+,WDueAccountID integer
+,WLanguageID integer
+,BOnline SmallInt
+,BRemote SmallInt
+,WColourID integer
+,SAccountReportName1 {chartype}(128)
+,SAccountReportName2 {chartype}(128)
+,SDebtorReportName1 {chartype}(128)
+,SDebtorReportName2 {chartype}(128)
+,SCreditorReportName1 {chartype}(128)
+,SCreditorReportName2 {chartype}(128)
+,SStockReportName1 {chartype}(128)
+,SStockReportName2 {chartype}(128)
+,SDocumentReportName1 {chartype}(128)
+,SDocumentReportName2 {chartype}(128)
+,SSellingPriceName1 {chartype}(128)
+,SSellingPriceName2 {chartype}(128)
+,SSellingPriceName3 {chartype}(128)
+,WVersion integer
+,SReportFontsName {chartype}(64)
+,BUseAvgCost SmallInt
+,BPrnStatementLogo SmallInt
+,DTLastUseTime {timestamptype}
+,BShowTips SmallInt
+,WAutoSaveTime integer
+,BShowReminder SmallInt
+,BServicePreprinted SmallInt
+,WDefaultOutPutID integer
+,WDefaultZoom integer
+,BUseOutLookExp SmallInt
+,SEmailAddress {chartype}(100)
+,SBANKSWIFT1 {chartype}(100)
+,SBANKIBAN1 {chartype}(100)
+,SBANKSWIFT2 {chartype}(100)
+,SBANKIBAN2 {chartype}(100)
+,SBANKNAME1 {chartype}(100)
+,SBANKNAME2 {chartype}(100)
+,SBANKNUMBER1 {chartype}(100)
+,SBANKNUMBER2 {chartype}(100),
+
+  SBANKACCOUNTNAME1 {chartype}(100),
+  SBANKACCOUNTNAME2 {chartype}(100),
+  SBANKBIC1 {chartype}(100),
+  SBANKBIC2 {chartype}(100),
+ CONSTRAINT PK_SYSVARS PRIMARY KEY (WSYSVARSID)
+);
+
+CREATE TABLE TaskAction(
+TaskActionID integer not null
+,EventId integer not null
+,InvoiceID integer
+,AccountId integer
+,WGroupId integer
+,WTypeId integer,
+DSYSDATE {timestamptype},
+primary key (TaskActionID)
+);
+
+CREATE TABLE Tasks(
+RecordID integer not null
+,ResourceID integer not null
+,Complete SmallInt
+,Description {chartype}(128)
+,Details {blobtype}
+,CreatedOn {timestamptype}
+,CompletedOn {timestamptype}
+,Priority integer
+,Category integer
+,DueDate {timestamptype}
+,UserField0 {chartype}(100)
+,UserField1 {chartype}(100)
+,UserField2 {chartype}(100)
+,UserField3 {chartype}(100)
+,UserField4 {chartype}(100)
+,UserField5 {chartype}(100)
+,UserField6 {chartype}(100)
+,UserField7 {chartype}(100)
+,UserField8 {chartype}(100)
+,UserField9 {chartype}(100),
+DSYSDATE {timestamptype},
+primary key (RecordID)
+);
+
+CREATE TABLE Tax(
+WAccountID integer not null
+,SDescription {chartype}(128)
+,DStartDate {timestamptype}
+,DEndDate {timestamptype}
+,FRate numeric (12,2)
+,DSysDate {timestamptype}
+,WLINKTAXID Integer default 0
+,BLinkContra Smallint default 0
+,primary key (WAccountID)
+);
+
+CREATE TABLE Temp1(
+SMainAccountCode {chartype}(4) not null
+,SSubAccountCode {chartype}(3) not null
+,WDocTypeID integer
+,SDescription {chartype}(128)
+,WStockTransactionID integer
+,WGroupID integer
+,SDocNo {chartype}(15)
+,DDate {timestamptype}
+,WSalespersonID integer
+,SStockCode {chartype}(128)
+,FSellingPrice numeric (12,2)
+,FCostPrice numeric (12,2)
+,FQty numeric (12,2)
+);
+
+CREATE TABLE TmpAgeAn(
+WAccountID integer not null
+,WaccountTypeID integer
+,SAccountCode {chartype}(8)
+,Sdescription {chartype}(128)
+,FCurrent numeric (12,2)
+,F30Days numeric (12,2)
+,F60Days numeric (12,2)
+,F90Days numeric (12,2)
+,FBBF numeric (12,2)
+,FTotal numeric (12,2),
+primary key (WACCOUNTID)
+);
+
+CREATE TABLE Totals(
+WAccountID integer not null
+,WPeriodID integer not null
+,WYearID Integer default 2 not null
+,BActual SmallInt not null
+,FAmount numeric (12,2)
+,DSYSDATE {timestamptype},
+primary key (WAccountID,WPeriodID,BActual)
+);
+
+CREATE TABLE TransAct(
+WTransactionID integer not null
+,WBatchID integer not null
+,WBatchTypeID integer not null
+,WLineID integer not null
+,BCarriedForward SmallInt
+,BLastYear SmallInt
+,BLinksUsed SmallInt
+,BMultipleItems SmallInt
+,WAccountID integer not null
+,DDate {timestamptype}
+,WPeriodID integer not null
+,WYearID integer default 2 not null
+,SReference {chartype}(64)
+,FTaxRate numeric (12,2)
+,WTaxAccountID integer
+,FAmount numeric (12,2) not null
+,FTaxAmount numeric (12,2)
+,FOutstandingAmount numeric (12,2)
+,BReconciled SmallInt
+,WBalancingAccountID integer
+,WDescriptionID integer
+,WCurrencyID integer
+,FForexAmount numeric (12,2)
+,WUserID integer
+,Unused integer
+,DSysDate {timestamptype}
+,BUnused SmallInt
+,WTax2ID integer
+,FCurrencyRate2 numeric (12,2)
+,FTaxRate2 numeric (12,2)
+,FTax2Amount numeric (12,2)
+,WJobCodeID integer
+,WProfileID integer
+,BEXCLUSIVE Smallint
+,WLinkedId Integer
+,WReportinggroup1ID integer
+,WReportinggroup2ID integer
+,Wdocid integer
+,primary key (WTransactionID)
+
+);
+
+CREATE TABLE Types(
+WTypeID integer not null
+,SDescription {chartype}(128)
+,WTypeParent integer
+,primary key (WTypeID)
+);
+
+CREATE TABLE Unit(
+WUnitID integer not null
+,SDescription {chartype}(64)
+,DSysDate {timestamptype}
+,primary key (WUnitID)
+);
+
+CREATE TABLE Users(
+WUserID integer not null
+,SPassword {chartype}(50)
+,SUserName {chartype}(50)
+,SCreditNoteNextNumber {chartype}(8)
+,SInvoiceNextNumber {chartype}(8)
+,SPurchaseNextNumber {chartype}(8)
+,SGoodsReturnedNextNumber {chartype}(8)
+,SReceiptNextNumber {chartype}(8)
+,SQuoteNextNumber {chartype}(8)
+,SOrderNextNumber {chartype}(8)
+,SNextBatchNumber {chartype}(8)
+,BDisabled SmallInt
+,BAccounts SmallInt
+,BStock SmallInt
+,BBatchEntry SmallInt
+,BCreditNote SmallInt
+,BInvoices SmallInt
+,BPurchases SmallInt
+,BStockReturns SmallInt
+,BReconciliation SmallInt
+,BCreditorReports SmallInt
+,BDebtorReports SmallInt
+,BLedgerReports SmallInt
+,BStockReports SmallInt
+,BUserReports SmallInt
+,BPosting SmallInt
+,BGlobalProcesses SmallInt
+,BSystemSetup SmallInt
+,UserEmail {chartype}(64)
+,BOnLine SmallInt
+,SPcIPAddress {chartype}(20)
+,DSysDate {timestamptype}
+,BEditPrices SmallInt
+,BGlobalSeq SmallInt
+,BCashBook SmallInt
+,BOnlyPOS SmallInt
+,BPOSSuper SmallInt
+,BSearch SmallInt
+,BEmail SmallInt
+,BNotUsed1 SmallInt
+,primary key (WUserID)
+);
+
+CREATE TABLE BOM(
+WBomID integer not null
+,WStockId integer not null
+,WLinkedStockID integer not null
+,FQty numeric (12,2) not null,
+primary key (WBomID)
+);
+
+create
+INDEX BOM_IND_STOCKID ON BOM (WStockId);
+
+
+alter table DEBTOR
+add constraint FK_DEBTOR_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table CREDITOR
+add constraint FK_CREDITOR_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table DOCHEAD
+add constraint FK_DOCHEAD_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table DOCLINE
+add constraint FK_DOCLINE_DOCHEAD
+foreign key (WDOCID)
+references DOCHEAD (WDOCID)
+on update CASCADE
+on delete CASCADE ;
+alter table BANK
+add constraint FK_BANK_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE
+on delete CASCADE ;
+alter table TRANSACT
+add constraint FK_TRANSACT_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID);
+alter table TRANSACT
+add constraint FK_TRANSACT_BATCH
+foreign key (WBATCHTYPEID)
+references BATTYPES (WBATCHTYPEID);
+alter table TRANSACT
+add constraint FK_TRANSACT_BATCON
+foreign key (WBATCHID)
+references BATCON (WBATCHID);
+alter table DOCLINE
+add constraint FK_DOCLINE_STOCK
+foreign key (WSTOCKID)
+references STOCK (WSTOCKID);
+alter table TOTALS
+add constraint FK_TOTALS_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID);
+alter table ACCOUNT
+add constraint FK_ACCOUNT_GROUP1
+foreign key (WREPORTINGGROUP1ID) 
+references GROUPS (WGROUPID);
+alter table ACCOUNT
+add constraint FK_ACCOUNT_GROUP2
+foreign key (WREPORTINGGROUP2ID) 
+references GROUPS (WGROUPID);
+
+CREATE TABLE countries (
+countries_id integer NOT NULL ,
+countries_name {chartype}(64) default  '' NOT NULL ,
+countries_iso_code_2 {chartype}(2) default '' NOT NULL ,
+countries_iso_code_3 {chartype}(3) default '' NOT NULL ,
+address_format_id integer default 0 NOT NULL ,
+PRIMARY KEY  (countries_id));
+
+CREATE  
+INDEX IDX_TMPAGEANBATTYPE ON TMPAGEAN (WACCOUNTTYPEID);
+CREATE  
+INDEX IDX_OILINKSACCUSERLINK ON OILINKS (WLINKTRANSACTIONID, WUSERID, WACCOUNTID);
+
+{generator_cr_start}GEN_CONTACTS_ID{generator_cr_end};
+{generator_cr_start}GEN_Events_ID{generator_cr_end};
+{generator_cr_start}GEN_Tasks_ID{generator_cr_end};
+{generator_cr_start}GEN_TaskAction_ID{generator_cr_end};
+{generator_cr_start}GEN_ResourceID_ID{generator_cr_end};
+{generator_cr_start}GEN_SYSPARAMS_ID{generator_cr_end};
+{generator_cr_start}GEN_OPREP_ID{generator_cr_end};
+{generator_cr_start}GEN_ADDRESSPERACCOUNT_ID{generator_cr_end};
+CREATE  
+INDEX IND_BATCON_DOCID ON BATCON (WDOCID);
+CREATE  
+INDEX IDX_TRANSACTFOPENAMOUNT ON TRANSACT (FOUTSTANDINGAMOUNT);
+{if interbase}SET STATISTICS INDEX RDB$PRIMARY52{endif};
+{if interbase}SET STATISTICS INDEX FK_TRANSACT_ACCOUNT{endif};
+{if interbase}SET STATISTICS INDEX FK_TRANSACT_BATCH{endif};
+{if interbase}SET STATISTICS INDEX FK_TRANSACT_BATCON{endif};
+{if interbase}SET STATISTICS INDEX IDX_TRANSACTFOPENAMOUNT{endif};
+CREATE TABLE LOGGEDIN
+(
+  WLOGID Integer NOT NULL,
+  WCONNECTIONID Integer NOT NULL,
+  WUSERID Integer,
+  SPCNAME {chartype}(100),
+  SUSERNAME {chartype}(100),
+  DCONSTART {timestamptype},
+  DCONEND {timestamptype},
+  CONSTRAINT PK_LOGGEDIN PRIMARY KEY (WLOGID)
+);
+CREATE TABLE LOGENTRY
+(
+  WLOGENTRYID Integer NOT NULL,
+  WLOGID Integer,
+  SLOGTYPE {chartype}(20),
+  SLOGMESSAGE {chartype}(128),
+  WLOGLINKID Integer,
+  DSYSDATE {timestamptype},
+  CONSTRAINT PK_LOGENTRY PRIMARY KEY (WLOGENTRYID)
+);
+
+ALTER TABLE LOGENTRY ADD CONSTRAINT FK_LOGENTRY_LOG
+  FOREIGN KEY (WLOGID) REFERENCES LOGGEDIN (WLOGID) ON UPDATE CASCADE ON DELETE CASCADE;
+{generator_cr_start}GEN_LOGID{generator_cr_end} ;
+{generator_cr_start}GEN_LOGENTRYID{generator_cr_end} ;
+
+CREATE TABLE FREETRANSLATE
+(
+  WTRNID Integer NOT NULL,
+  SDESCRIPTION {blobtexttype},
+  PRIMARY KEY (WTRNID)
+);
+alter table groups add BDISABLE smallint ; 
+
+

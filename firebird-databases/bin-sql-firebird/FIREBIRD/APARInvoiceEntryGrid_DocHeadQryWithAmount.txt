@@ -1,0 +1,25 @@
+SELECT dochead.WDocID, 
+dochead.SDocNo, cast(dochead.DDate as Date) DDate,
+cast(dochead.DDUEDATE as Date) DDUEDATE,
+dochead.DAllocatedDate, dochead.WAccountID, 
+dochead.WPaymentTypeID, dochead.FInvoiceDiscount, dochead.BPrinted,
+ dochead.BExclusive,  dochead.FDocAmount  FDocAmount
+  ,  dochead.FTaxAmount  FTaxAmount, 
+dochead.SReference, dochead.WSourceTypeID,
+Group1.SDescription SGroup1Desc, Group2.SDescription SGroup2Desc
+, Group1.WColor WGroup1Color,
+Group1.WTextColor WGroup1TextColor, 
+
+Account.SAccountCode, Account.SDescription SAccountDescription, 
+Salesman.SDescription SSalesManDescription 
+,  (dochead.FDocAmount - dochead.FTaxAmount) ExcAmount
+, transact.FOutstandingAmount openamount 
+
+ FROM dochead 
+ 
+%s JOIN transact ON  (dochead.WDocId = transact.Wdocid and transact.WAccountId = dochead.WaccountID and WBalancingAccountID is null )
+LEFT OUTER JOIN Account Account ON  (dochead.WAccountID = Account.WAccountID ) 
+LEFT OUTER JOIN Groups Group1 ON  (dochead.WReportingGroup1ID = Group1.WGroupID)
+LEFT OUTER JOIN Groups Group2 ON  (dochead.WReportingGroup2ID = Group2.WGroupID) 
+LEFT OUTER JOIN Groups Salesman ON  (dochead.WSalesmanID = Salesman.WGroupID)
+WHERE  dochead.SDocNo <> '' 

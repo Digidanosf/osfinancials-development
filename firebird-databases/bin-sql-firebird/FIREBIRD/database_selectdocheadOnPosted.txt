@@ -1,0 +1,1 @@
+select * from dochead where BPosted <> 1 AND WTypeID>=10 and WTypeID<=13

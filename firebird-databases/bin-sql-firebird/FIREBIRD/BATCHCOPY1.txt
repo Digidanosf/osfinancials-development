@@ -1,0 +1,1 @@
+Select WLINEID from <@BATCH@> where WLINEID = <@WLINEID@>

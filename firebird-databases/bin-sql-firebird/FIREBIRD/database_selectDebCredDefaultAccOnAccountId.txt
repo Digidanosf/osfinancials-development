@@ -1,0 +1,3 @@
+select WDefaultAccount,WDefaultTax from CREDITOR where WAccountID =:WAccountId1
+union
+select WDefaultAccount,WDefaultTax from Debtor where WAccountID =:WAccountId2

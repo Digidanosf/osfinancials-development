@@ -1,0 +1,13 @@
+ALTER TABLE DEBTOR ADD 
+WTRANSMISSIONTYPE Integer ;
+ALTER TABLE CREDITOR ADD 
+WTRANSMISSIONTYPE Integer
+;
+update Sysvars set WVersion=587
+;
+
+
+
+
+
+

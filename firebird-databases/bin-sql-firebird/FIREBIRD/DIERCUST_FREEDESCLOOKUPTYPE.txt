@@ -1,0 +1,2 @@
+lookup=WIKKEL
+select=select * from wikkeldata   join DEBTOR_WIKKEL b on wikkeldata.Wartid = b.Wartid and b.WAccountid =<@ID@>

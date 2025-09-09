@@ -1,0 +1,24 @@
+ALTER TABLE GROUPS ADD 
+BDisable Smallint
+;
+ALTER TABLE DOCLINE ADD 
+  WREPORTINGGROUP1ID Integer
+;
+ALTER TABLE DOCLINE ADD 
+  WREPORTINGGROUP2ID Integer
+;
+Insert into TYPES(WTYPEID,SDESCRIPTION,WTYPEPARENT) Values( 
+1003
+,
+'Costgroup2'
+,
+2
+)
+;
+update Sysvars set WVersion=523
+;
+
+
+
+
+

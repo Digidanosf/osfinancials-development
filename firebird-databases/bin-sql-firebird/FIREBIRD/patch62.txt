@@ -1,0 +1,14 @@
+delete from CURRENCY where  WCURRENCYID = 0 ;
+insert into CURRENCY (WCURRENCYID,SDESCRIPTION,FRATE1) values
+(0,'Default',1);
+alter table ACCOUNT add WCURRENCYID integer default 0;
+update ACCOUNT set WCURRENCYID =0
+;
+update Sysvars set WVersion=569
+;
+
+
+
+
+
+

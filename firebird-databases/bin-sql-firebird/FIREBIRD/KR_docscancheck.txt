@@ -1,0 +1,4 @@
+Select distinct(s.SMESSAGEMAG) SMESSAGE from STOCK_EXTRADATA s
+join docline dl on dl.wstockid = s.wstockid
+where dl.wdocid = <@DOCID@>
+and s.SMESSAGEMAG <> ''

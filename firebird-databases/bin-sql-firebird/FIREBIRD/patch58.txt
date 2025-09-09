@@ -1,0 +1,9 @@
+alter table  stock add WdefaultCostgroup1id integer 
+;
+update Sysvars set WVersion=565
+;
+
+
+
+
+

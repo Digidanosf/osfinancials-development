@@ -1,0 +1,3 @@
+select * from stock where FReorderQty <> -1 and Bdisabled = 0 
+and WStockTypeID not in (1,2,4,6,8)
+and exists (select * from STOCK_CREDCODES a where a.WStockid = Stock.WStockid and a.WACCOUNTID =<@ACC@>)

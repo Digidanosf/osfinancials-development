@@ -1,0 +1,1 @@
+Select max(WOptionID) +1 from OpReport

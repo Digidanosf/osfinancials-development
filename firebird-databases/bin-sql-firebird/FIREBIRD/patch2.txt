@@ -1,0 +1,195 @@
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Table for short keys in batches and documents'
+WHERE (RDB$RELATION_NAME = 'ABREVIAT'){endif};
+{if InterBase} UPDATE RDB$RELATION_FIELDS
+SET RDB$DESCRIPTION = 'Key field the key that gets pressed before enter'
+WHERE (RDB$RELATION_NAME = 'ABREVIAT') AND (RDB$FIELD_NAME = 'CKEY'){endif};
+{if InterBase} UPDATE RDB$RELATION_FIELDS
+SET RDB$DESCRIPTION = 'Replace text for the key'
+WHERE (RDB$RELATION_NAME = 'ABREVIAT') AND (RDB$FIELD_NAME = 'SABREVIATION'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Debtros,crediters,bank accounts and general ledegrs are all accounts'
+WHERE (RDB$RELATION_NAME = 'ACCOUNT') {endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Documents invoice,creditnote,Quote,Purchase,returnnote and order'
+WHERE (RDB$RELATION_NAME = 'DOCHEAD'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Stockitems for use in documents'
+WHERE (RDB$RELATION_NAME = 'STOCK'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Batch types used to process data to the ledger'
+WHERE (RDB$RELATION_NAME = 'BATTYPES' ){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Batch unique process id. with unposted batches still in there batch table and posted batches in Transact'
+WHERE (RDB$RELATION_NAME = 'BATCON'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Posted transactions to the ledger'
+WHERE (RDB$RELATION_NAME = 'TRANSACT'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Totals should be in sync with transact table the TC program does this whan posting data. This table gets used in reports to speed up consolidation. its design is totals per period per account also buget is stored in here'
+WHERE (RDB$RELATION_NAME = 'TOTALS'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Linked to account holds the detailed info for the debtor'
+WHERE (RDB$RELATION_NAME = 'DEBTOR') {endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Linked to account holds the detailed info for the creditor'
+WHERE (RDB$RELATION_NAME = 'CREDITOR'){endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'Linked to account holds the detailed info for the tax account'
+WHERE (RDB$RELATION_NAME = 'TAX') {endif};
+{if InterBase} UPDATE RDB$RELATIONS
+SET RDB$DESCRIPTION = 'This table gets used to store references to strings used in turbocash that minimizes the amount of space used by the database as manny of them are the same. this table gets used in DOCHEAD and TRANSACT'
+WHERE (RDB$RELATION_NAME = 'MESSAGES') {endif};
+
+{if InterBase}SET STATISTICS INDEX ACCOUNT_IND_ACCOUNTCODE{endif};
+{if InterBase}SET STATISTICS INDEX ACCOUNT_IND_ACCOUNTCODES{endif};
+{if InterBase}SET STATISTICS INDEX ACCOUNT_IND_DESCRIPTION{endif};
+{if InterBase}SET STATISTICS INDEX ACCOUNT_IND_REPGROUP1{endif};
+{if InterBase}SET STATISTICS INDEX ACCOUNT_IND_REPGROUP2{endif};
+{if InterBase}SET STATISTICS INDEX ADDR_PER_ACC_IND_ACCID{endif};
+{if InterBase}SET STATISTICS INDEX BANK_IND_ACCID{endif};
+{if InterBase}SET STATISTICS INDEX BOM_IND_STOCKID{endif};
+{if InterBase}SET STATISTICS INDEX CREDITOR_IND_CONTACT{endif};
+{if InterBase}SET STATISTICS INDEX DEBTOR_IND_CONTACT{endif};
+{if InterBase}SET STATISTICS INDEX FK_ACCOUNT_GROUP1{endif};
+{if InterBase}SET STATISTICS INDEX FK_ACCOUNT_GROUP2{endif};
+{if InterBase}SET STATISTICS INDEX FK_BANK_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_CREDITOR_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_DEBTOR_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_DOCHEAD_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_DOCLINE_DOCHEAD{endif};
+{if InterBase}SET STATISTICS INDEX FK_DOCLINE_STOCK{endif};
+{if InterBase}SET STATISTICS INDEX FK_TOTALS_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_TRANSACT_ACCOUNT{endif};
+{if InterBase}SET STATISTICS INDEX FK_TRANSACT_BATCH{endif};
+{if InterBase}SET STATISTICS INDEX FK_TRANSACT_BATCON{endif};
+{if InterBase}SET STATISTICS INDEX IDX_OILINKSACCUSERLINK{endif};
+{if InterBase}SET STATISTICS INDEX IDX_TMPAGEANBATTYPE{endif};
+{if InterBase}SET STATISTICS INDEX IDX_TRANSACTFOPENAMOUNT{endif};
+{if InterBase}SET STATISTICS INDEX IND_BATCON_DOCID{endif};
+{if InterBase}SET STATISTICS INDEX MESSAGES_IND_DESCRIPTION{endif};
+{if InterBase}SET STATISTICS INDEX OPREPORT_IND_STR_OPTION{endif};
+{if InterBase}SET STATISTICS INDEX RDB$43{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_0{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_1{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_10{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_11{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_12{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_13{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_14{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_15{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_16{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_17{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_18{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_19{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_2{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_20{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_21{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_22{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_23{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_24{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_25{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_26{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_27{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_28{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_29{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_3{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_30{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_31{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_32{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_33{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_34{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_35{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_36{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_37{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_38{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_39{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_4{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_40{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_41{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_42{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_43{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_5{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_6{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_7{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_8{endif};
+{if InterBase}SET STATISTICS INDEX RDB$INDEX_9{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY10{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY11{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY12{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY13{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY14{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY15{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY16{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY17{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY18{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY19{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY2{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY20{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY21{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY22{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY23{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY24{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY25{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY26{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY27{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY28{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY29{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY3{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY30{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY31{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY32{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY33{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY34{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY35{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY36{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY37{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY38{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY39{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY4{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY40{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY41{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY42{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY44{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY45{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY46{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY47{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY48{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY49{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY5{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY50{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY51{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY52{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY53{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY54{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY55{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY56{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY57{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY6{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY7{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY8{endif};
+{if InterBase}SET STATISTICS INDEX RDB$PRIMARY9{endif};
+{if InterBase}SET STATISTICS INDEX STOCK_IND_REPGROUP1{endif};
+{if InterBase}SET STATISTICS INDEX STOCK_IND_REPGROUP2{endif};
+{if InterBase}SET STATISTICS INDEX STOCK_IND_SBARCODE{endif};
+{if InterBase}SET STATISTICS INDEX STOCK_IND_SDESCRIPTION{endif};
+{if InterBase}SET STATISTICS INDEX STOCK_IND_SSTOCKCODE{endif};
+ALTER TABLE TRANSACT ADD 
+WDOCID Integer;
+<@MSSQLGO@>
+CREATE VIEW V_OPENDOCAMOUNT (OPENAMOUNT, DOCID)
+AS 
+select sum(FOutstandingAmount),TRANSACT.WDocID  from 
+TRANSACT join account on (transact.WAccountID = Account.WaccountID) 
+where TRANSACT.FOutstandingAmount <> 0
+and Account.waccountTypeId in (1,2) 
+and TRANSACT.WDocID <> 0 group by TRANSACT.WDocID ;
+<@MSSQLGO@>
+update transact set WDocid = (Select batcon.WDocid from batcon 
+where transact.WbatchId = batcon.WBatchId);
+<@MSSQLGO@>
+CREATE  
+INDEX IDX_TRANSACT_DOCID ON TRANSACT (WDOCID);
+
+update Sysvars set WVersion=501;
+

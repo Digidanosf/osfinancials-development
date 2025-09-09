@@ -1,0 +1,4 @@
+update STOCK_EXTRADATA set 
+FDUMMYQTY = :data
+ where WStockid = <@WSTOCKID@>
+@@GO@@

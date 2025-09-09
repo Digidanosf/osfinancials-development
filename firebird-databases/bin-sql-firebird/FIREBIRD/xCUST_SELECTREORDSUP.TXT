@@ -1,0 +1,4 @@
+select  distinct stock.* from STOCK_CREDCODES a   join  stock on a.WStockid = Stock.WStockid  and WStockTypeID not in (1,2,4,6,8)
+and FReorderQty <> -1 and Bdisabled = 0 
+where  a.WACCOUNTID = <@ACC@>
+ 

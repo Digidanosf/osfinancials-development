@@ -1,0 +1,13 @@
+ SELECT tmpAgeAn.WAccountID, tmpAgeAn.SDescription, 
+ Transact.WTransactionID, Transact.FAmount, Transact.DDate, 
+ Transact.FOutstandingAmount, BatTypes.SDescription, 
+ Transact.SReference, Creditor.SPostal1, Creditor.SPostal2, Creditor.SPostal3, 
+ Creditor.SPostalCode, tmpAgeAn.WAccountTypeID, 
+ Transact.WDescriptionID,
+ tmpAgeAn.SACCOUNTCODE, Transact.FTaxRate , Transact.WTaxAccountID,   
+  Creditor.SMessage,Creditor.WContactID  
+  FROM tmpAgeAn, Transact , BatTypes, Creditor 
+  WHERE (Transact.WAccountID = tmpAgeAn.WAccountID)  
+  AND (Creditor.WAccountID = tmpAgeAn.WAccountID)  
+  AND (BatTypes.WBatchTypeID = Transact.WBatchTypeID)  
+  AND (WTransactionID > 0) 

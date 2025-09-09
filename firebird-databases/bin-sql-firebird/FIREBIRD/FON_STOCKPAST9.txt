@@ -1,0 +1,3 @@
+update DEPARTMENT_STOCK set wdepartmentid = (select wdepartmentid  from DEPARTMENT_STOCK where wStockid = <@DATA@> )
+where wStockid = <@WSTOCKID@> 
+@@GO@@

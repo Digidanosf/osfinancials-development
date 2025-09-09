@@ -1,0 +1,23 @@
+CREATE TABLE MULTIMEDIA
+(
+  WMMID Integer NOT NULL,
+  STYPE Varchar(5),
+  SGROUP Varchar(35),
+  WREFID Numeric(12,0),
+  SDESCRIPTION Varchar(50),
+  SPATH Varchar(500),
+  SORGFILENAME Varchar(100),
+  DFILEDATE {timestamptype},
+  DSYSDATE {timestamptype},
+  CONSTRAINT PK_MULTIMEDIA PRIMARY KEY (WMMID)
+)
+;
+CREATE TABLE MULTIMEDIABLOB
+(
+  WMMID integer NOT NULL,
+  BDATA {blobtype},
+  CONSTRAINT PK_MULTIMEDIABLOB PRIMARY KEY (WMMID)
+)
+;
+{generator_cr_start}GEN_MULTIM_ID{generator_cr_end} ; 
+update Sysvars set WVersion=519;

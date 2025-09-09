@@ -1,0 +1,4 @@
+select * from docline
+left join account on (docline.WTaxId = Account.WaccountId)
+where docline.wdocid =:WdocId
+order by WSortno, WDocLineid

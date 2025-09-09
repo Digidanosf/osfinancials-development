@@ -1,0 +1,1 @@
+Select count(*) from %s where DDate < :DDate

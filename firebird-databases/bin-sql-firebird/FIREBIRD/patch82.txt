@@ -1,0 +1,2 @@
+alter table BACKORD add wdescriptionid integer;
+update Sysvars set WVersion=596;

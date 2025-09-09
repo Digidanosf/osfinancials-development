@@ -1,0 +1,16 @@
+{generator_cr_start}GEN_ACCOUNTID{generator_cr_end} ; 
+{generator_cr_start}GEN_BACKORDERID{generator_cr_end} ;
+{generator_cr_start}GEN_BATCHTYPEID{generator_cr_end} ;
+{generator_cr_start}GEN_BATCHID{generator_cr_end} ;
+{generator_cr_start}GEN_GROUPID{generator_cr_end} ;
+{generator_cr_start}GEN_CURRENCYID{generator_cr_end} ;
+{generator_cr_start}GEN_DOCID{generator_cr_end} ;
+{generator_cr_start}GEN_LABSPECSID{generator_cr_end} ;
+{generator_cr_start}GEN_REPORTID{generator_cr_end} ;
+{generator_cr_start}GEN_TRANSACTIONID{generator_cr_end} ;
+{generator_cr_start}GEN_STOCKID{generator_cr_end} ;
+{generator_cr_start}GEN_UNITID{generator_cr_end} ;
+{generator_cr_start}GEN_USERID{generator_cr_end} ;
+{generator_cr_start}GEN_MESSAGEID{generator_cr_end} ;
+{generator_cr_start}GEN_STOCKTRANSID{generator_cr_end} ;
+update Sysvars set WVersion=504;

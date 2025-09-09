@@ -1,0 +1,1 @@
+select * from transact where WAccountId = :WAccountId and FoutStandingAmount <> 0 and FAmount>0

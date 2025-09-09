@@ -1,0 +1,16 @@
+ALTER TABLE DOCHEAD ADD 
+WPOSTALNAME Integer default 0, {alteradd}
+WPOSTALCONTACT Integer default 0, {alteradd}
+WDELNAME Integer default 0, {alteradd}
+WDELCONTACT  Integer default 0, {alteradd}
+WTAXNUMBER Integer default 0, {alteradd}
+WCONTRAACCOUNT Integer default 0
+;
+update Sysvars set WVersion=536
+;
+
+
+
+
+
+

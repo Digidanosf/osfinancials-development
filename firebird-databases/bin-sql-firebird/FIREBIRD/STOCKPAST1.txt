@@ -1,0 +1,1 @@
+update stock set  WSUPPLIER1ID =:Data where WStockid = <@WSTOCKID@>

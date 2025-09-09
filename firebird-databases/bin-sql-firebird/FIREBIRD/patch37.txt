@@ -1,0 +1,13 @@
+CREATE TABLE FREETRANSLATE
+(
+  WTRNID Integer NOT NULL,
+  SDESCRIPTION {blobtexttype},
+  PRIMARY KEY (WTRNID)
+)
+
+
+
+
+
+
+

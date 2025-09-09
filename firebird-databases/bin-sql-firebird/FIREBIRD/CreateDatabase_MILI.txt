@@ -1,0 +1,1646 @@
+CREATE TABLE Abreviat(
+CKey varchAr(10) not null
+,SAbreviation varchAr(128),
+PRIMARY KEY  (CKey)
+);
+CREATE TABLE Account(
+WAccountID integer not null
+,SAccountCode varchAr(<@ACCOUNTCODE@>)
+,SMainAccountCode varchAr(<@MAINACCOUNTCODE@>)
+,SSubAccountCode varchAr(3)
+,SDescription varchAr(128)
+,WAccountTypeID integer DEFAULT 0 not null
+,WReportingGroup1ID integer DEFAULT 0 not null
+,WReportingGroup2ID integer DEFAULT 0 not null
+,BSubAccounts SmallInt DEFAULT 0 not null
+,BIncomeExpense SmallInt DEFAULT 0 not null
+,BOpenItem SmallInt DEFAULT 0
+,BInActive SmallInt DEFAULT 0
+,DSysDate {timestamptype}
+,WProfileID integer
+,WLinkAccount integer,
+PRIMARY KEY  (WAccountID));
+
+create
+INDEX ACCOUNT_IND_ACCOUNTCODES ON ACCOUNT (SMAINACCOUNTCODE, SSUBACCOUNTCODE);
+create
+INDEX ACCOUNT_IND_REPGROUP1 ON ACCOUNT (WReportingGroup1ID);
+create
+INDEX ACCOUNT_IND_REPGROUP2 ON ACCOUNT (WReportingGroup2ID);
+create
+INDEX ACCOUNT_IND_ACCOUNTCODE ON ACCOUNT (SAccountCode);
+create
+INDEX ACCOUNT_IND_DESCRIPTION ON ACCOUNT (SDescription);
+
+
+CREATE TABLE addressPerAccount(
+WAddressPerAccountId integer not null
+,WAccountId integer not null
+,WContactID integer not null,
+DSysDate {timestamptype},
+Primary Key (WAddressPerAccountId)
+);
+create
+INDEX ADDR_PER_ACC_IND_ACCID ON addressPerAccount (WAccountId);
+
+
+CREATE TABLE AssetMas(
+WAssetID integer not null
+,SDesription varchAr(128)
+,WLocationID integer
+,WGroup1ID integer not null
+,WGroup2ID integer not null
+,SAssetCode varchAr(15)
+,SSubAssetCode varchAr(15)
+,SSerialNo varchAr(128)
+,DDepStart {timestamptype}
+,DDepEnd {timestamptype}
+,DBuy {timestamptype}
+,DAssetOut {timestamptype}
+,WDepTypeID integer
+,FDepRate numeric (12,3)
+,FTaxRate numeric (12,3)
+,WTaxType integer
+,WTaxID integer
+,WSupplierID integer
+,BDisabled SmallInt
+,FCostPrice numeric (12,3)
+,FPurPrice numeric (12,3)
+,FCapTaxAmt numeric (12,3)
+,FMArketValue numeric (12,3)
+,FBookValue numeric (12,3)
+,FUnsed1 numeric (12,3)
+,FUnsed2 numeric (12,3)
+,DSysDate {timestamptype}
+,WAccountID integer not null,
+
+primary key (WAssetID)
+);
+
+CREATE TABLE BackOrd(
+WBackOrderID integer not null
+,WAccountID integer not null
+,WStockID integer not null
+,FQty numeric (12,3)
+,FSellingPrice numeric (12,3)
+,BSelected SmallInt
+,DSysDate{timestamptype},
+primary key (WBackOrderID)
+);
+
+CREATE TABLE Bank(
+WAccountID integer not null
+,WContactID integer
+,WReceiptsID integer
+,WPaymentsID integer
+,WCurrencyID integer
+,DSysDate{timestamptype},
+primary key (WAccountID)
+);
+create
+INDEX BANK_IND_ACCID ON Bank (WAccountId);
+
+CREATE TABLE BatCon(
+WBatchID integer not null
+,WUserID integer not null
+,WBatchTypeID integer not null
+,SBatchNumber varchAr(8)
+,BPosted SmallInt
+,BImported SmallInt
+,BDocSource SmallInt
+,WLineCount integer
+,SFilename varchAr(64)
+,WDocID integer
+,DSysDate timestamp
+,WInitBatID integer
+,SAlias varchAr(20)
+,SUniqueID varchAr(8),
+primary key (WBatchID)
+
+);
+
+CREATE TABLE BatTypes(
+WBatchTypeID integer not null
+,SDescription varchAr(128)
+,BCashBook SmallInt
+,WContraAccountID integer
+,BContraPerLine SmallInt
+,BIncrementRefNo SmallInt
+,BRepeatDetails SmallInt
+,BConsolidateBalancing SmallInt
+,WDebitCredit integer
+,WPaymentGroupID integer
+,WDefaultTaxID integer
+,BViewExclusive SmallInt
+,BLinkOI SmallInt
+,BInclusiveMode SmallInt
+,DSysDate{timestamptype},
+primary key (WBatchTypeID)
+);
+
+
+CREATE TABLE Contacts(
+RecordID integer not null
+,ResourceID integer not null
+,FirstName varchAr(64)
+,LastName varchAr(64)
+,Birthdate timestamp
+,Anniversary timestamp
+,Title varchAr(64)
+,Company varchAr(64)
+,Gender varchAr(1)
+,Job_Position varchAr(64)
+,Address varchAr(100)
+,City varchAr(64)
+,State varchAr(64)
+,Zip varchAr(15)
+,Country varchAr(64)
+,Note varchAr(255)
+,Phone1 varchAr(25)
+,Phone2 varchAr(25)
+,Phone3 varchAr(25)
+,Phone4 varchAr(25)
+,Phone5 varchAr(25)
+,PhoneType1 integer
+,PhoneType2 integer
+,PhoneType3 integer
+,PhoneType4 integer
+,PhoneType5 integer
+,Category integer
+,EMail varchAr(100)
+,Custom1 varchAr(100)
+,Custom2 varchAr(100)
+,Custom3 varchAr(100)
+,Custom4 varchAr(100)
+,UserField0 varchAr(100)
+,UserField1 varchAr(100)
+,UserField2 varchAr(100)
+,UserField3 varchAr(100)
+,UserField4 varchAr(100)
+,UserField5 varchAr(100)
+,UserField6 varchAr(100)
+,UserField7 varchAr(100)
+,UserField8 varchAr(100)
+,UserField9 varchAr(100),
+DSysDate{timestamptype},
+primary key (RecordID)
+);
+
+CREATE TABLE creditor(
+WAccountID integer not null
+,SCode varchAr(6)
+,WContactID integer not null
+,SPassword varchAr(50)
+,SPostal1 varchAr(64)
+,SPostal2 varchAr(64)
+,SPostal3 varchAr(64)
+,SPostalCode varchAr(15)
+,WPostCountries_id Integer
+,SDelivery1 varchAr(64)
+,SDelivery2 varchAr(64)
+,SDelivery3 varchAr(64)
+,WDelCountries_id Integer
+,STelephone1 varchAr(25)
+,STelephone2 varchAr(25)
+,SFax varchAr(25)
+,SEmail varchAr(100)
+,WBankName varchAr(100)
+,SBranchCode varchAr(100)
+,SBankAccountNumber varchAr(100)
+,SBankAccountName varchAr(100)
+,FCreditLimit numeric (12,3)
+,FChargeAmount numeric (12,3)
+
+,BOpenItem SmallInt
+,BPostBBF SmallInt
+,DLastActivity timestamp
+,WCurrencyID integer
+,WForexAccountID integer
+,SMessage varchAr(128)
+,SReference varchAr(64)
+,FDiscount numeric (12,3)
+,WDefaultPriceTypeID integer
+,DSysDate timestamp
+,WDueDays integer
+,WDefaultAccount integer
+,WDefaultTax integer,
+SCompanyRegNo varchAr(64),
+SFREEFIELD1 varchAr(100),
+SFREEFIELD2 varchAr(100),
+SFREEFIELD3 varchAr(100),
+primary key (WAccountID)
+);
+create
+INDEX CREDITOR_IND_CONTACT ON creditor (WContactId);
+
+CREATE TABLE Currency(
+WCurrencyID integer not null
+,SDescription varchAr(30)
+,SSymbol varchAr(6)
+,FRate1 numeric (12,3)
+,FRate2 numeric (12,3)
+,FRete3 numeric (12,3)
+,FRate4 numeric (12,3)
+,FRate5 numeric (12,3)
+,FRate6 numeric (12,3)
+,FRate7 numeric (12,3)
+,FRate8 numeric (12,3)
+,FRate9 numeric (12,3)
+,FRate10 numeric (12,3)
+,FRate11 numeric (12,3)
+,FRate12 numeric (12,3)
+,FRate13 numeric (12,3)
+,FRate14 numeric (12,3)
+,FRate15 numeric (12,3)
+,FRate16 numeric (12,3)
+,FRate17 numeric (12,3)
+,FRate18 numeric (12,3)
+,FRate19 numeric (12,3)
+,FRate20 numeric (12,3)
+,FRate21 numeric (12,3)
+,FRate22 numeric (12,3)
+,FRate23 numeric (12,3)
+,FRate24 numeric (12,3)
+,FRate25 numeric (12,3)
+,FRate26 numeric (12,3)
+,WContryID integer
+,WVarianceAccountID integer
+,WNoofDecimals integer,
+DSysDate{timestamptype},
+primary key (WCurrencyID)
+);
+
+CREATE TABLE Debtor(
+WAccountID integer not null
+,SCode varchAr(6)
+,WContactID integer
+,SPassword varchAr(50)
+,SPostal1 varchAr(64)
+,SPostal2 varchAr(64)
+,SPostal3 varchAr(64)
+,WPostCountries_id Integer
+,SPostalCode varchAr(15)
+,SDelivery1 varchAr(64)
+,SDelivery2 varchAr(64)
+,SDelivery3 varchAr(64)
+,WDelCountries_id Integer
+,SDeliveryCode varchAr(15)
+,STelephone1 varchAr(25)
+,STelephone2 varchAr(25)
+,SFax varchAr(25)
+,SEmail varchAr(100)
+,SBankName varchAr(100)
+,SBranchCode varchAr(100)
+,SBankAccountNumber varchAr(100)
+,SBankAccountName varchAr(100)
+,SCreditCardNumber varchAr(100)
+,DExpiryDate timestamp
+,SCreditCardType varchAr(100)
+,SCreditCardHolder varchAr(100)
+,FCreditLimit numeric (12,3)
+,FChargeAmount numeric (12,3)
+,FDiscount numeric (12,3)
+,FInterest numeric (12,3)
+,WBankID integer
+,WSalesmanID integer
+,BOpenItem SmallInt
+,BPostBBF SmallInt
+,BDisabled SmallInt
+,SMessage varchAr(128)
+,WDefaultPriceTypeID integer
+,DLastActivity timestamp
+,WCurrencyID integer
+,WForexAccountID integer
+,SReference varchAr(128)
+,DSysDate timestamp
+,WDueDays integer
+,DREMITTANCE timestamp
+,WDefaultAccount integer
+,WDefaultTax integer,
+SCompanyRegNo varchAr(64),
+SFREEFIELD1 varchAr(100),
+SFREEFIELD2 varchAr(100),
+SFREEFIELD3 varchAr(100),
+primary key (WAccountID)
+);
+create
+INDEX Debtor_IND_CONTACT ON Debtor (WContactId);
+
+CREATE TABLE DnlBanks(
+STransID varchAr(32) not null
+,WLineTypeID integer
+,WSourceID integer
+,WBankID integer
+,WTransTypeID integer
+,SAccountCode varchAr(128)
+,DTransDate timestamp
+,DPostedDate timestamp
+,FAmount numeric (12,3)
+,SMemo varchAr(128)
+,SReference varchAr(128)
+,BReconciled SmallInt
+,SDescription varchAr(128)
+,WCurrencyID integer
+,WAccountID integer
+,WLineID integer
+,WTcTransID integer
+,WProfileID integer
+,WAutoMatchID integer
+,BUseForBatch integer
+,DSysDate timestamp
+,WAmtSgn integer
+,SEXTRADESCRIPTION varchAr(255)
+);
+
+CREATE TABLE DocHead(
+WDocID integer not null
+,SDocNo varchAr(15)
+,WTypeID integer not null
+,DDate timestamp
+,DAllocatedDate timestamp
+,WAccountID integer not null
+,WPaymentTypeID integer
+,WPostal1ID integer
+,WPostal2ID integer
+,WPostal3ID integer
+,WPosCountries_id Integer
+,WPostalCodeID integer
+,WMessage1ID integer
+,WMessage2ID integer
+,WMessage3ID integer
+,FInvoiceDiscount numeric (12,3)
+,WSalesmanID integer
+,SReference varchAr(<@DOCHEADREFERENCE@>)
+,WDelAddress1ID integer
+,WDelAddress2ID integer
+,WDelAddress3ID integer
+,WDelCountries_id Integer
+,WDelCodeID integer
+,BPrinted SmallInt
+,BPosted SmallInt
+,WReportingGroup1ID integer
+,WReportingGroup2ID integer
+,WPaymentGroupID integer
+,BExclusive SmallInt
+,WCurrencyID integer
+,FDocAmount numeric (12,3)
+,FTaxAmount numeric (12,3)
+,BRepeating SmallInt
+,DSysDate timestamp
+,WSourceTypeID integer
+,WProfileID integer
+,WTerms integer
+,WJobCodeID integer
+,DDueDate timestamp
+,WUserID integer,
+primary key (WDocID)
+);
+
+CREATE TABLE DocLine(
+WDocLineID integer not null
+,WDocID integer not null
+,WStockID integer
+,WLineTypeID integer
+,WDescriptionID integer
+,FQtyOrdered numeric(12,8)
+,FQtyShipped numeric(12,8)
+,FSellingPrice numeric(12,8)
+,FItemDiscount numeric(12,8)
+,WTaxID integer
+,FExclusiveAmt numeric(12,8)
+,FInclusiveAmt numeric(12,8)
+,FTaxAmount numeric(12,8)
+,DSysDate timestamp
+,SUnit varchAr(20)
+,SSTockCode varchAr(15)
+,WProfileID integer
+,WSerialNoID integer,
+primary key (WDocID,WDocLineID)
+);
+
+CREATE TABLE EmpMas(
+WEmployeeID integer not null
+,SEmployeeNumber varchAr(15)
+,SFirstName varchAr(128)
+,SSurname varchAr(128)
+,SAddress1 varchAr(64)
+,SAddress2 varchAr(64)
+,SAddress3 varchAr(64)
+,SPostCode varchAr(15)
+,SIDNumber varchAr(35)
+,SPassportNumber varchAr(64)
+,SIncomeTaxRefNumber varchAr(64)
+,SDirectiveNumber varchAr(64)
+,SBranch varchAr(64)
+,DStartDate timestamp
+,DTerminationDate timestamp
+,BActive SmallInt
+,DBirthDate timestamp
+,WIRPType integer
+,SReason varchAr(64)
+,WReportingGroup1 integer
+,WReportingGroup2 integer
+,WAccountID integer
+,WPaymentMethodID integer
+,SBankName varchAr(100)
+,SBankAccountNumber varchAr(100)
+,SBankBranch varchAr(100)
+,FLeaveAllocated numeric (12,3)
+,FLeaveTaken numeric (12,3)
+,SData1 varchAr(128)
+,SData2 varchAr(128)
+,SData3 varchAr(128)
+,WProfileID integer
+,DSysDate{timestamptype},
+primary key (WEmployeeID)
+);
+
+CREATE TABLE EmpSource(
+WSourceID integer not null
+,WUnitID integer
+,SDescription varchAr(128)
+,WAccountID integer
+,WSourceTypeID integer
+,BTaxable SmallInt
+,BActive SmallInt
+,WParentSourceID integer
+,SFormula varchAr(128)
+,WProfileID integer
+,BForInfo integer
+,WDrAccountID integer
+,WCrAccountID integer
+,DSysDate{timestamptype},
+primary key (WSourceID)
+);
+
+CREATE TABLE Events(
+RecordID integer not null
+,StartTime timestamp
+,EndTime timestamp
+,ResourceID integer
+,WContactID integer
+,Description varchAr(255)
+,Notes varchAr(255)
+,Category integer
+,AllDayEvent SmallInt
+,DingPath varchAr(255)
+,AlarmSet SmallInt
+,AlarmAdvance integer
+,AlarmAdvanceType integer
+,SnoozeTime timestamp
+,RepeatCode integer
+,RepeatRangeEnd timestamp
+,CustomInterval integer
+,UserField0 varchAr(100)
+,UserField1 varchAr(100)
+,UserField2 varchAr(100)
+,UserField3 varchAr(100)
+,UserField4 varchAr(100)
+,UserField5 varchAr(100)
+,UserField6 varchAr(100)
+,UserField7 varchAr(100)
+,UserField8 varchAr(100)
+,UserField9 varchAr(100)
+,WAccountID integer,
+primary key (RecordID)
+);
+
+CREATE TABLE FlowTmp(
+WAccountID integer not null
+,WBatchID integer
+,SDescription varchAr(128)
+,WPeriodID integer
+,SCode varchAr(20)
+,FAmount1 numeric (12,3)
+,FAmount2 numeric (12,3)
+,FAmount3 numeric (12,3)
+,FAmount4 numeric (12,3)
+,FAmount5 numeric (12,3)
+,FAmount6 numeric (12,3)
+);
+
+CREATE TABLE Global(
+WNewAccountID integer 
+,WNewBackOrderID integer
+,WNewContactID integer
+,WNewBatchTypeID integer
+,WNewBatchID integer
+,WNewGroupID integer
+,WNewCurrencyID integer
+,WNewDocID integer
+,WNewLabSpecsID integer
+,WNewReportID integer
+,WNewTransactionID integer
+,WNewStockID integer
+,WNewUnitID integer
+,WNewUserID integer
+,WNewMessageID integer
+,WNewStockTransID integer
+);
+
+CREATE TABLE Groups(
+WGroupID integer not null
+,WGroupTypeID integer
+,SDescription varchAr(128)
+,WParentGroup2ID integer
+,WParentGroup1ID integer
+,DSysDate timestamp
+,WSortNo integer,
+primary key (WGroupID)
+);
+
+CREATE TABLE JobProject(
+WJobProjectID integer not null
+,SJobProjectCode varchAr(20)
+,SDescription varchAr(128)
+,DStartDate timestamp
+,DEndDate timestamp
+,WParentID integer
+,WNoteFileID integer
+,BEnabled SmallInt
+,WStatusID integer
+,WInBudgetAccID integer
+,WExBudgetAccID integer
+,WProfileID integer
+,WInfosID integer
+,WGroup1ID integer
+,DSysDate timestamp
+,WUserID integer
+,WGroup2ID integer
+,WProfBudgetID integer,
+primary key (WJobProjectID)
+);
+
+CREATE TABLE KeysCont(
+WKeyValue integer not null
+,SKeyName varchAr(20),
+primary key (WKeyValue)
+);
+
+CREATE TABLE LabSpecs(
+WLabSpecsID integer not null
+,SDescription varchAr(128)
+,FTopMargin numeric (12,3)
+,FBottomMargin numeric (12,3)
+,FLeftMargin numeric (12,3)
+,FRightMargin numeric (12,3)
+,BPortrait SmallInt
+,FHeight numeric (12,3)
+,FWidth numeric (12,3)
+,WAccross integer
+,WDown integer
+,FHGap numeric (12,3)
+,FVGap numeric (12,3)
+,FUnprintableTop numeric (12,3)
+,FUnprintableLeft numeric (12,3)
+,FPageHeight numeric (12,3)
+,FPageWidth numeric (12,3)
+,DSysDate timestamp
+,WFontSize integer,
+primary key (WLabSpecsID)
+);
+
+CREATE TABLE Locations(
+WLocationID integer not null
+,SDescription varchAr(128)
+,SLocCode varchAr(20)
+,WLocationTypeID integer
+,WParentID integer
+,DSysDate timestamp
+,WSortNo integer,
+primary key (WLocationID)
+);
+
+CREATE TABLE ManufacD(
+WMfcDocID integer not null
+,WLineID integer not null
+,WLinetypeID integer
+,SStockCode varchAr(50)
+,SDescription varchAr(128)
+,WLocationID integer
+,FQty numeric (12,3)
+,FValue numeric (12,3)
+,WProfileID integer
+,DSysDate{timestamptype},
+primary key (WMfcDocID,WLineID)
+);
+
+CREATE TABLE ManufacH(
+WMfcDocID integer not null
+,WMfcTypeID integer
+,SMfcCode varchAr(50)
+,WParentID integer
+,SPicture varchAr(50)
+,BDisabled SmallInt
+,SDescription varchAr(128)
+,WLocationID integer
+,WFinishedStockID integer
+,FPrice1 numeric (12,3)
+,FPrice2 numeric (12,3)
+,FPrice3 numeric (12,3)
+,FUnused numeric (12,3)
+,WProfileID integer
+,DSysDate{timestamptype},
+primary key (WMfcDocID)
+);
+
+CREATE TABLE messages(
+WMessageID integer not null
+,SDescription varchAr(128)
+,SExtraDescription varchAr(255),
+primary key (WMessageID)
+);
+CREATE  
+INDEX MESSAGES_IND_DESCRIPTION ON MESSAGES (SDESCRIPTION);
+
+
+CREATE TABLE OILinks(
+WOILINKSID Integer not null ,
+DDocDate timestamp
+,SReference varchAr(64)
+,SLinkedReference varchAr(128)
+,WFullAmount numeric (12,3)
+,WOutStandingAmount numeric (12,3)
+,WLinkedAmount numeric (12,3)
+,DDate timestamp
+,UnUsed1 integer
+,WAmountTransactionID integer
+,WLinkTransactionID integer
+,WUserID integer
+,UnUsed2 integer
+,WBatchID integer
+,WAccountID integer
+,WTaxID integer
+,DSysDate{timestamptype},
+primary key (WOILINKSID)
+);
+
+
+CREATE GENERATOR GEN_OILINKS_ID;
+
+
+CREATE TABLE OpReport(
+WOptionID integer not null
+,StrOption varchAr(25)
+,SOptionValue varchAr(64)
+,WOptionTypeID integer,
+primary key (WOptionID)
+);
+CREATE  
+INDEX OPREPORT_IND_STR_OPTION ON OpReport (StrOption);
+
+
+CREATE TABLE PayCon(
+WPayRollID integer not null
+,DDate timestamp
+,SDescription varchAr(128)
+,BActive SmallInt
+,BCurrentYear SmallInt
+,WProfileID integer
+,DSysDate{timestamptype},
+primary key (WPayRollID)
+);
+
+CREATE TABLE PayTrans(
+WPayRollID integer not null
+,WEmployeeID integer
+,WSourceID integer
+,WPeriodID integer
+,FAmount numeric (12,3)
+,FUnits numeric (12,3)
+,WUserID integer
+,WProfileID integer
+,DSysDate{timestamptype},
+primary key (WPayRollID)
+);
+
+CREATE TABLE Years(
+WYearId Integer not null,
+SDescription varchAr(50),
+primary key (WYearId));
+
+CREATE TABLE Periods(
+WYearId Integer default 0 not null
+,WPeriodID integer not null
+,DStartDate timestamp not null
+,DEndDate timestamp not null
+,SDescription varchAr(50)
+,BShutDown SmallInt
+,BContainsTransactions SmallInt,
+primary key (WYearId,WPeriodID)
+);
+
+CREATE TABLE Printers(
+WPrinterID integer not null
+,SPrinterName varchAr(20)
+,WLinesPerPage integer
+,WLinesPerInch integer
+,WCharsPerInch integer
+,WPageLength integer
+,WPageWidth integer
+,S6LinesPerInch varchAr(20)
+,S8LinesPerInch varchAr(20)
+,S10LinesPerInch varchAr(20)
+,S5CharsPerInchOn varchAr(20)
+,S5CharsPerInchOff varchAr(20)
+,S10CharsPerInchOn varchAr(20)
+,S12CharsPerInchOn varchAr(20)
+,S16CharsPerInchOn varchAr(20)
+,S16CharsPerInchOff varchAr(20)
+,SBoldFaceOn varchAr(20)
+,SBoldFaceOff varchAr(20)
+,DSysDate{timestamptype},
+primary key (WPrinterID)
+);
+
+CREATE TABLE Profiles(
+WProfileID integer not null
+,WProfileTypeID integer
+,WParentID integer
+,WSourceID integer
+,WSourceTypeID integer
+,SDescription varchAr(64)
+,BActive SmallInt
+,DSysDate timestamp
+,WSortNo integer
+,WStatus integer,
+primary key (WProfileID)
+);
+
+CREATE TABLE ReconBank(
+SReference varchAr(128)
+,DDate timestamp
+,SAccount varchAr(<@ACCOUNTCODE@>)
+,SDescription varchAr(128)
+,FAmount numeric (12,3)
+,FTaxAmount numeric (12,3)
+,BReconciled SmallInt
+,FRecNo numeric (12,3)
+,FBatchType numeric (12,3)
+);
+
+CREATE TABLE RepCells(
+WReportID integer not null
+,WColumnID integer not null
+,WRowID integer not null
+,SValue varchAr(64)
+,DSysDate{timestamptype},
+primary key (WReportID,WColumnID,WRowID)
+
+);
+
+CREATE TABLE RepCols(
+WReportID integer not null
+,WColumnID integer not null
+,SHeading1 varchAr(64)
+,SHeading2 varchAr(64)
+,WColumnTypeID integer
+,WPeriodStart integer
+,WPeriodEnd integer
+,SFormula varchAr(64)
+,DSysDate{timestamptype},
+primary key (WReportID,WColumnID)
+);
+
+CREATE TABLE RepHead(
+WReportID integer not null
+,SReportName varchAr(64)
+,STitle1 varchAr(64)
+,STitle2 varchAr(64)
+,BDisplayDecimal SmallInt
+,BCompressPrint SmallInt
+,WNoOfColumns integer
+,WReportTypeID integer
+,DSysDate{timestamptype},
+primary key (WReportID)
+);
+
+CREATE TABLE RepLine(
+WReportID integer not null
+,WRowID integer not null
+,WRowTypeID integer
+,WRowItemID integer
+,SItemName varchAr(64)
+,SRowDescription varchAr(128)
+,BMainAccount SmallInt
+,BSupressPrint SmallInt
+,SDescription varchAr(128)
+,SColumn1 varchAr(128)
+,SColumn2 varchAr(128)
+,SColumn3 varchAr(128)
+,SColumn4 varchAr(128)
+,SColumn5 varchAr(128)
+,SColumn6 varchAr(128)
+,SColumn7 varchAr(128)
+,SColumn8 varchAr(128)
+,SColumn9 varchAr(128)
+,SColumn10 varchAr(128)
+,SColumn11 varchAr(128)
+,SColumn12 varchAr(128)
+,SColumn13 varchAr(128)
+,SColumn14 varchAr(128)
+,SColumn15 varchAr(128)
+,DSysDate{timestamptype},
+primary key (WReportID,WRowID)
+);
+
+CREATE TABLE ReportOp(
+SAccountListingSequence varchAr(64)
+,SAccountListingFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SAccountListingToAcc varchAr(<@ACCOUNTCODELONG@>)
+,BAccountListingShowSub SmallInt
+,WTrialBalFromDateID integer
+,WTrialBaloDateID integer
+,BTrialBalDisplaySubAcc SmallInt
+,BTrialBalNilBalances SmallInt
+,STrialBalSSequence varchAr(64)
+,SBudgetPerfSequence varchAr(64)
+,SBudgetPerfFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SBudgetPerfToAcc varchAr(<@ACCOUNTCODELONG@>)
+,BBudgetPerfShowSub SmallInt
+,BBudgetPerfNilBal SmallInt
+,WBatchTypeType integer
+,SBatchTypeWhichYear varchAr(64)
+,WBatchTypeFromDateID integer
+,WBatchTypeToDateID integer
+,BBatchTypeShowPeriod SmallInt
+,BBatchTypeShowBal SmallInt
+,SCreditorListingSequence varchAr(64)
+,SCredListingFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SCredListingToAccount varchAr(<@ACCOUNTCODELONG@>)
+,SCredMovementsSequence varchAr(64)
+,SCredMovementsFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SCredMovementsToAccount varchAr(<@ACCOUNTCODELONG@>)
+,BCredMovementsBNiBal SmallInt
+,SDebtorListingSequence varchAr(64)
+,SDebtorListingFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SDebtorListingToAccount varchAr(<@ACCOUNTCODELONG@>)
+,BDebtorListingShowDetail SmallInt
+,SDebtorMovementSequence varchAr(64)
+,SDebtorMovementFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SDebtorMovementToAcc varchAr(<@ACCOUNTCODELONG@>)
+,BDebtorMovementBNilBal SmallInt
+,WDocListTypeID integer
+,SDocListSequence varchAr(64)
+,SDocListFromNumber varchAr(8)
+,SDocListToNumber varchAr(8)
+,DDocListFromDate timestamp
+,DDocListToDate timestamp
+,SDebtorAgeFrom varchAr(<@ACCOUNTCODELONG@>)
+,SDebtorAgeTo varchAr(<@ACCOUNTCODELONG@>)
+,DDebtorAgeCurrentDate timestamp
+,DDebtorAgeDateLimit1 timestamp
+,DDebtorAgeDateLimit2 timestamp
+,DDebtorAgeDateLimit3 timestamp
+,DDebtorAgeDateLimit4 timestamp
+,SDebtorAgeRangeName0 varchAr(15)
+,SDebtorAgeRangeName1 varchAr(15)
+,SDebtorAgeRangeName2 varchAr(15)
+,SDebtorAgeRangeName3 varchAr(15)
+,FDebtorAgeMinimumAmount numeric (12,3)
+,WDebtorAgeMonth1 integer
+,WDebtorAgeMonth2 integer
+,WDebtorAgeMonth3 integer
+,BDebtorAgeSort SmallInt
+,BDebtorAgeAccountdetail SmallInt
+,BDebtorAgeShowTransac SmallInt
+,BDebtorAgeShowOpenItem SmallInt
+,BDebtorAgeIgnoreZeroBal SmallInt
+,SCreditorAgeFrom varchAr(<@ACCOUNTCODELONG@>)
+,SCreditorAgeTo varchAr(<@ACCOUNTCODELONG@>)
+,DCreditorAgeCurrentDate timestamp
+,DCreditorAgeDateLimit1 timestamp
+,DCreditorAgeDateLimit2 timestamp
+,DCreditorAgeDateLimit3 timestamp
+,DCreditorAgeDateLimit4 timestamp
+,SCreditorAgeRangeName0 varchAr(15)
+,SCreditorAgeRangeName1 varchAr(15)
+,SCreditorAgeRangeName2 varchAr(15)
+,SCreditorAgeRangeName3 varchAr(15)
+,FCreditorAgeMinimumAmount numeric (12,3)
+,WCreditorAgeMonth1 integer
+,WCreditorAgeMonth2 integer
+,WCreditorAgeMonth3 integer
+,BCreditorAgeSort SmallInt
+,BCreditorAgeAccountDetail SmallInt
+,BCreditorAgeShowTransac SmallInt
+,BCreditorAgeShowOpenItem SmallInt
+,BCreditorAgeIgnoreZeroBal SmallInt
+,SReconBankAccount varchAr(64)
+,DReconUntil timestamp
+,FReconBankBalance numeric (12,3)
+,SReconReportBankAccount varchAr(64)
+,DReconReportUntil timestamp
+,FReconReportBalance numeric (12,3)
+,BCredTransIncNilBal SmallInt
+,SCredTransSequence varchAr(64)
+,SCredTransWhichYear varchAr(64)
+,SCredTransFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SCredTransToAccount varchAr(<@ACCOUNTCODELONG@>)
+,WCredTransFromDate integer
+,WCredTransToDate integer
+,BCredTransEachPeriod SmallInt
+,BCredTransNewPage SmallInt
+,BDebTransIncNilBal SmallInt
+,SDebTransSequence varchAr(64)
+,SDebTransWhichYear varchAr(64)
+,SDebTransFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SDebTransToAccount varchAr(<@ACCOUNTCODELONG@>)
+,WDebTransFromDate integer
+,WDebTransToDate integer
+,BDebTransEachPeriod SmallInt
+,BDebTransNewPage SmallInt
+,SStockActivityFromCode varchAr(15)
+,SStockActivityToCode varchAr(15)
+,SStockActivitySequence varchAr(64)
+,SStockListSequence varchAr(64)
+,SStockListFromCode varchAr(15)
+,SStockListToCode varchAr(15)
+,BStockListQtyOnHand SmallInt
+,BStockListCostPrice SmallInt
+,BStockListSellingPrice SmallInt
+,BStockListStockCount SmallInt
+,BStockListStockValue SmallInt
+,SStockMovementSequence varchAr(64)
+,SStockMovementFromCode varchAr(15)
+,SStockMovementToCode varchAr(15)
+,DStockMovementFromDate timestamp
+,DStockMovementToDate timestamp
+,BStockMovementShowDetail SmallInt
+,BStockMovementNewPage SmallInt
+,SStockReorderSequence varchAr(64)
+,SStockReorderFromCode varchAr(15)
+,SStockReorderToCode varchAr(15)
+,BGLLedgerNilBalances SmallInt
+,SGLLedgerSequence varchAr(64)
+,SGLLedgerWhichYear varchAr(64)
+,SGLLedgerFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SGLLedgerToAccount varchAr(<@ACCOUNTCODELONG@>)
+,WGLLedgerFromDate integer
+,WGLLedgerToDate integer
+,BGLLedgerEachPeriod SmallInt
+,BGLLedgerNewPage SmallInt
+,SGLMovementSequence varchAr(64)
+,SGLMovementFromAccount varchAr(<@ACCOUNTCODELONG@>)
+,SGLMovementToAccount varchAr(<@ACCOUNTCODELONG@>)
+,BGLMovementBInclNilBal SmallInt
+,SSalesByCustSequence varchAr(64)
+,SSalesByCustFromCust varchAr(<@ACCOUNTCODELONG@>)
+,SSalesByCustToCust varchAr(<@ACCOUNTCODELONG@>)
+,DSalesByCustFromDate timestamp
+,DSalesByCustToDate timestamp
+,SPurchBySuppSequence varchAr(64)
+,SPurchBySuppFromSupp varchAr(<@ACCOUNTCODELONG@>)
+,SPurchBySuppToSupp varchAr(<@ACCOUNTCODELONG@>)
+,DPurchBySuppFromDate timestamp
+,DPurchBySuppToDate timestamp
+,SSalesByProdSequence varchAr(64)
+,SSalesByProdFromProd varchAr(15)
+,SSalesByProdToProd varchAr(15)
+,DSalesByProdFromDate timestamp
+,DSalesByProdToDate timestamp
+,SPurchByProdSequence varchAr(64)
+,SPurchByProdFromProd varchAr(<@ACCOUNTCODELONG@>)
+,SPurchByProdToProd varchAr(<@ACCOUNTCODELONG@>)
+,DPurchByProdFromDate timestamp
+,DPurchByProdToDate timestamp
+,SCustByProdSequence varchAr(64)
+,SCustByProdFromProd varchAr(15)
+,SCustByProdToProd varchAr(15)
+,DCustByProdFromDate timestamp
+,DCustByProdToDate timestamp
+,SSalesPersByProdSequence varchAr(64)
+,SSalesPersByProdFromProd varchAr(15)
+,SSalesPersByProdToProd varchAr(15)
+,DSalesPersByProdFromDate timestamp
+,DSalesPersByProdToDate timestamp
+,SProdByCustSequence varchAr(64)
+,SProdByCustFromProd varchAr(15)
+,SProdByCustToProd varchAr(15)
+,DProdByCustFromDate timestamp
+,DProdByCustToDate timestamp
+,SCustBySPersonSPerson varchAr(64)
+,DCustBySPersonFromDate timestamp
+,DCustBySPersonToDate timestamp
+,SSalesBySPSalesPerson varchAr(64)
+,DSalesBySPFromDate timestamp
+,DSalesBySPToDate timestamp
+,SProdBySPSalesPerson varchAr(64)
+,DProdBySPFromDate timestamp
+,DProdBySPToDate timestamp
+,SSalesByGroupFromGroup varchAr(30)
+,SSalesByGroupToGroup varchAr(30)
+,DSalesByGroupFromDate timestamp
+,DSalesByGroupToDate timestamp
+,SInvoiceDetailWhichYear varchAr(64)
+,WInvoiceDetailFromDate integer
+,WInvoiceDetailtoDate integer
+,SInvoiceDetailSTaxAccount varchAr(64)
+,BInvoiceDetailShowDetail SmallInt
+,SDebtStatementFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SDebtStatementToAcc varchAr(<@ACCOUNTCODELONG@>)
+,FDebtStatementMinAmount numeric (12,3)
+,DDebtStatementCurrentDate timestamp
+,DDebtStatementDateLimit1 timestamp
+,DDebtStatementDateLimit2 timestamp
+,DDebtStatementDateLimit3 timestamp
+,DDebtStatementDateLimit4 timestamp
+,SDebtStatementAgeName0 varchAr(15)
+,SDebtStatementAgeName1 varchAr(15)
+,SDebtStatementAgeName2 varchAr(15)
+,SDebtStatementAgeName3 varchAr(15)
+,WDebtStatementMonth1 integer
+,WDebtStatementMonth2 integer
+,WDebtStatementMonth3 integer
+,BDebtStatementTaxSeperate SmallInt
+,BDebtStatementTaxTransact SmallInt
+,BDebtStatementOpenItem SmallInt
+,WIncomeStmntFromDateID integer
+,WIncomeStmntToDateID integer
+,BIncomeStmntDisplaySubAcc SmallInt
+,BIncomeStmntNilBalances SmallInt
+,SIncomeStmntSSequence varchAr(64)
+,SRemittanceFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SRemittanceToAcc varchAr(<@ACCOUNTCODELONG@>)
+,FRemittanceMinAmount numeric (12,3)
+,DRemittanceDateLimit1 timestamp
+,DRemittanceDateLimit2 timestamp
+,DRemittanceDateLimit3 timestamp
+,DRemittanceDateLimit4 timestamp
+,SRemittanceAgeName0 varchAr(15)
+,SRemittanceAgeName1 varchAr(15)
+,SRemittanceAgeName2 varchAr(15)
+,SRemittanceAgeName3 varchAr(15)
+,WRemittanceMonth1 integer
+,WRemittanceMonth2 integer
+,WRemittanceMonth3 integer
+,BRemittanceTaxSeperate SmallInt
+,BRemittanceTaxTransact SmallInt
+,BRemittanceOpenItem SmallInt
+,WRemittanceFromDateID integer
+,WRemittanceToDateID integer
+,BRemittanceDisplaySubAcc SmallInt
+,BRemittanceNilBalances SmallInt
+,SRemittanceSSequence varchAr(64)
+,WBalSheetFromDateID integer
+,WBalSheetToDateID integer
+,BBalSheetDisplaySubAccs SmallInt
+,BBalSheetNilBalances SmallInt
+,SBalSheetSSequence varchAr(64)
+,SSalesPersByCustSequence varchAr(64)
+,SSalesPersByCustFromCust varchAr(<@ACCOUNTCODELONG@>)
+,SSalesPersByCustToCust varchAr(<@ACCOUNTCODELONG@>)
+,DSalesPersByCustFromDate timestamp
+,DSalesPersByCustToDate timestamp
+,WDataEntryDrCrFormat integer
+,WDecimal integer
+,SLabelFromAcc varchAr(<@ACCOUNTCODELONG@>)
+,SlabelToAcc varchAr(<@ACCOUNTCODELONG@>)
+,SlabelSSequence varchAr(64)
+,SLabelSFile varchAr(64)
+);
+
+CREATE TABLE ReptBat(
+WTransactionID integer not null
+,WUserID integer
+,WBatchTypeID integer
+,SReference varchAr(64)
+,DDate timestamp
+,SDescription varchAr(128)
+,WTaxID integer
+,WAccountID integer
+,WContraID integer
+,FAmount numeric (12,3),
+primary key (WTransactionID)
+
+);
+
+CREATE TABLE ReptDocs(
+WDocID integer not null
+,WGroupID integer,
+primary key (WDocID)
+);
+
+CREATE TABLE Resources(
+ResourceID integer not null
+,Description varchAr(255)
+,Notes varchAr(255)
+,ImageIndex integer
+,ResourceActive SmallInt
+,UserField0 varchAr(100)
+,UserField1 varchAr(100)
+,UserField2 varchAr(100)
+,UserField3 varchAr(100)
+,UserField4 varchAr(100)
+,UserField5 varchAr(100)
+,UserField6 varchAr(100)
+,UserField7 varchAr(100)
+,UserField8 varchAr(100)
+,UserField9 varchAr(100),
+primary key (ResourceID)
+);
+
+CREATE TABLE Stock(
+WStockID integer not null
+,SStockCode varchAr(15)
+,SBarCodeNumber varchAr(50)
+,SDescription varchAr(128)
+,WReportingGroup1ID integer
+,WReportingGroup2ID integer
+,WCostAccountID integer
+,WInputTaxID integer
+,WOutputTaxID integer
+,FOpeningAveCost numeric (12,8)
+,FQtyOnHand numeric (12,8)
+,FOpeningQty numeric (12,8)
+,FInvQtyOnHand numeric (12,8)
+,FReorderQty numeric (12,8)
+,WSalesAccountID integer
+,BApplyInvoiceDiscount SmallInt
+,WStockAccountID integer
+,FSellingPrice1 numeric (12,8)
+,FSellingPrice2 numeric (12,8)
+,FSellingPrice3 numeric (12,8)
+,FUnitAveCost numeric (12,8)
+,FUnitCost numeric (12,8)
+,WUnitID integer
+,DSysDate timestamp
+,BApplyTax SmallInt
+,WInputTax2ID integer
+,BTaxable SmallInt
+,WSupplier1ID integer
+,WSupplier2ID integer
+,WStockTypeID integer
+,WOutputTax2ID integer
+,WProfileID integer
+,BDisabled SmallInt
+,WPerentID integer
+,WLocationID integer
+,WFileNameID integer
+,SExtraDesc varchAr(255),
+primary key (WStockID),
+UNIQUE (SStockCode)
+);
+CREATE  
+INDEX STOCK_IND_SDESCRIPTION ON Stock (SDESCRIPTION);
+CREATE  
+INDEX STOCK_IND_SBARCODE ON Stock (SBarCodeNumber);
+CREATE  
+INDEX STOCK_IND_SSTOCKCODE ON Stock (SStockCode);
+
+CREATE  
+INDEX STOCK_IND_REPGROUP1 ON Stock (WReportingGroup1ID);
+CREATE  
+INDEX STOCK_IND_REPGROUP2 ON Stock (WReportingGroup2ID);
+
+
+CREATE TABLE StockPub(
+WStockID integer not null
+,WPriceID integer
+,BLOBPicture {blobtype}
+,DSysDate{timestamptype},
+primary key (WStockID)
+);
+
+CREATE TABLE StockTrn(
+WStockTransactionID integer not null
+,WStockID integer not null
+,DDate timestamp
+,WSalesmanID integer
+,WDocID integer
+,WDocTypeID integer
+,FQty numeric (12,8)
+,FCostPrice numeric (12,8)
+,FSellingPrice numeric (12,8)
+,WAccountID integer
+,DSysDate{timestamptype},
+primary key (WStockTransactionID)
+);
+
+CREATE TABLE SysParams(
+WParamID integer not null
+,WUserID integer not null
+,SParamName varchAr(25) not null
+,SParamValue varchAr(128)
+,WTypeID integer
+,WSourceID integer
+,WSourceTypeID integer
+,DSysDate timestamp
+,WParentID integer
+,WParentTypeID integer
+,BActive SmallInt
+,primary key (WParamID)
+);
+
+CREATE TABLE Sysvars(
+WSYSVARSID integer NOT NULL,
+SCompanyName varchAr(128)
+,SCompanyRegNo varchAr(64)
+,WEmailServerAddress varchAr(100)
+,WFaxServerID integer
+,BlobLogo {blobtype}
+,SAddress1 varchAr(64)
+,SAddress2 varchAr(64)
+,SAddress3 varchAr(64)
+,SPostCode varchAr(15)
+,SPhoneNumber varchAr(50)
+,SFaxNumber varchAr(50)
+,WRetainedIncomeID integer
+,WDebtorsControlID integer
+,WCreditorsControlID integer
+,SBackupPath varchAr(255)
+,WCostOfSalesTypeID integer
+,WCreditNoteBatchTypeID integer
+,SCreditNoteMessage1 varchAr(128)
+,SCreditNoteMessage2 varchAr(128)
+,SCreditNoteMessage3 varchAr(128)
+,WPurchasesBatchID integer
+,SPurchasesMessage1 varchAr(128)
+,SPurchasesMessage2 varchAr(128)
+,SPurchasesMessage3 varchAr(128)
+,WGoodsReturnedBatchID integer
+,SGoodsReturnedMessage1 varchAr(128)
+,SGoodsReturnedMessage2 varchAr(128)
+,SGoodsReturnedMessage3 varchAr(128)
+,WInvoicesBatchID integer
+,SInvoicesMessage1 varchAr(128)
+,SInvoicesMessage2 varchAr(128)
+,SInvoicesMessage3 varchAr(128)
+,WDisplayAmount integer
+,BAccountsOpen SmallInt
+,BBatchTypes SmallInt
+,BGroups SmallInt
+,BNotClosed SmallInt
+,BPeriodChange SmallInt
+,BSalesmanExist SmallInt
+,BUnitsExist SmallInt
+,FLastYearPL numeric (12,3)
+,WNoOfPeriods integer
+,WInvoicePaperID integer
+,WCreditNotePaperID integer
+,WPurchasePaperID integer
+,WGoodsReturnedPaperID integer
+,WQuotePaperID integer
+,WOrderPaperID integer
+,WStatementPaperID integer
+,WRemittancePaperID integer
+,FReconciledBankBalance numeric (12,3)
+,WReconciledBankID integer
+,DReconciledLastDate timestamp
+,SStatementMessage1 varchAr(128)
+,SStatementMessage2 varchAr(128)
+,SStatementMessage3 varchAr(128)
+,BCreateBalanceLink SmallInt
+,WTaxDueAccountID integer
+,BTaxInvoiceBased SmallInt
+,BCreateCostOfSales SmallInt
+,WCurrentUserID integer
+,SInvoiceHeading varchAr(64)
+,SCreditNoteHeading varchAr(64)
+,SPurchaseHeading varchAr(64)
+,SGoodsReturnedHeading varchAr(64)
+,SQuoteHeading varchAr(64)
+,SQuoteMessage1 varchAr(128)
+,SQuoteMessage2 varchAr(128)
+,SQuoteMessage3 varchAr(128)
+,SOrderHeading varchAr(128)
+,SOrderMessage1 varchAr(128)
+,SOrderMessage2 varchAr(128)
+,SOrderMessage3 varchAr(128)
+,BPostToLastYear SmallInt
+,WBaseCurrencyID integer
+,BMultiCurrency SmallInt
+,STaxRegNo varchAr(64)
+,BPaymentsBased SmallInt
+,WDueAccountID integer
+,WLanguageID integer
+,BOnline SmallInt
+,BRemote SmallInt
+,WColourID integer
+,SAccountReportName1 varchAr(128)
+,SAccountReportName2 varchAr(128)
+,SDebtorReportName1 varchAr(128)
+,SDebtorReportName2 varchAr(128)
+,SCreditorReportName1 varchAr(128)
+,SCreditorReportName2 varchAr(128)
+,SStockReportName1 varchAr(128)
+,SStockReportName2 varchAr(128)
+,SDocumentReportName1 varchAr(128)
+,SDocumentReportName2 varchAr(128)
+,SSellingPriceName1 varchAr(128)
+,SSellingPriceName2 varchAr(128)
+,SSellingPriceName3 varchAr(128)
+,WVersion integer
+,SReportFontsName varchAr(64)
+,BUseAvgCost SmallInt
+,BPrnStatementLogo SmallInt
+,DTLastUseTime timestamp
+,BShowTips SmallInt
+,WAutoSaveTime integer
+,BShowReminder SmallInt
+,BServicePreprinted SmallInt
+,WDefaultOutPutID integer
+,WDefaultZoom integer
+,BUseOutLookExp SmallInt
+,SEmailAddress varchAr(100)
+,SBANKSWIFT1 varchAr(100)
+,SBANKIBAN1 varchAr(100)
+,SBANKSWIFT2 varchAr(100)
+,SBANKIBAN2 varchAr(100)
+,SBANKNAME1 varchAr(100)
+,SBANKNAME2 varchAr(100)
+,SBANKNUMBER1 varchAr(100)
+,SBANKNUMBER2 varchAr(100),
+ CONSTRAINT PK_SYSVARS PRIMARY KEY (WSYSVARSID)
+);
+
+CREATE TABLE TaskAction(
+TaskActionID integer not null
+,EventId integer not null
+,InvoiceID integer
+,AccountId integer
+,WGroupId integer
+,WTypeId integer,
+DSysDate{timestamptype},
+primary key (TaskActionID)
+);
+
+CREATE TABLE Tasks(
+RecordID integer not null
+,ResourceID integer not null
+,Complete SmallInt
+,Description varchAr(128)
+,Details {blobtype}
+,CreatedOn timestamp
+,CompletedOn timestamp
+,Priority integer
+,Category integer
+,DueDate timestamp
+,UserField0 varchAr(100)
+,UserField1 varchAr(100)
+,UserField2 varchAr(100)
+,UserField3 varchAr(100)
+,UserField4 varchAr(100)
+,UserField5 varchAr(100)
+,UserField6 varchAr(100)
+,UserField7 varchAr(100)
+,UserField8 varchAr(100)
+,UserField9 varchAr(100),
+DSysDate{timestamptype},
+primary key (RecordID)
+);
+
+CREATE TABLE Tax(
+WAccountID integer not null
+,SDescription varchAr(128)
+,DStartDate timestamp
+,DEndDate timestamp
+,FRate numeric (12,3)
+,DSysDate timestamp
+,WLINKTAXID Integer default 0
+,BLinkContra Smallint default 0
+,primary key (WAccountID)
+);
+
+CREATE TABLE Temp1(
+SMainAccountCode varchAr(4) not null
+,SSubAccountCode varchAr(3) not null
+,WDocTypeID integer
+,SDescription varchAr(128)
+,WStockTransactionID integer
+,WGroupID integer
+,SDocNo varchAr(15)
+,DDate timestamp
+,WSalespersonID integer
+,SStockCode varchAr(35)
+,FSellingPrice numeric (12,3)
+,FCostPrice numeric (12,3)
+,FQty numeric (12,3)
+);
+
+CREATE TABLE TmpAgeAn(
+WAccountID integer not null
+,WaccountTypeID integer
+,SAccountCode varchAr(8)
+,Sdescription varchAr(128)
+,FCurrent numeric (12,3)
+,F30Days numeric (12,3)
+,F60Days numeric (12,3)
+,F90Days numeric (12,3)
+,FBBF numeric (12,3)
+,FTotal numeric (12,3),
+primary key (WACCOUNTID)
+);
+
+CREATE TABLE Totals(
+WAccountID integer not null
+,WPeriodID integer not null
+,WYearID Integer default 2 not null
+,BActual SmallInt not null
+,FAmount numeric (12,3)
+,DSysDate{timestamptype},
+primary key (WAccountID,WPeriodID,BActual)
+);
+
+CREATE TABLE TransAct(
+WTransactionID integer not null
+,WBatchID integer not null
+,WBatchTypeID integer not null
+,WLineID integer not null
+,BCarriedForward SmallInt
+,BLastYear SmallInt
+,BLinksUsed SmallInt
+,BMultipleItems SmallInt
+,WAccountID integer not null
+,DDate timestamp
+,WPeriodID integer not null
+,WYearID integer default 2 not null
+,SReference varchAr(64)
+,FTaxRate numeric (12,3)
+,WTaxAccountID integer
+,FAmount numeric (12,3) not null
+,FTaxAmount numeric (12,3)
+,FOutstandingAmount numeric (12,3)
+,BReconciled SmallInt
+,WBalancingAccountID integer
+,WDescriptionID integer
+,WCurrencyID integer
+,FForexAmount numeric (12,3)
+,WUserID integer
+,Unused integer
+,DSysDate timestamp
+,BUnused SmallInt
+,WTax2ID integer
+,FCurrencyRate2 numeric (12,3)
+,FTaxRate2 numeric (12,3)
+,FTax2Amount numeric (12,3)
+,WJobCodeID integer
+,WProfileID integer
+,BEXCLUSIVE Smallint
+,WLinkedId Integer
+,WReportinggroup1ID integer
+,WReportinggroup2ID integer
+,Wdocid integer
+,primary key (WTransactionID)
+
+);
+
+CREATE TABLE Types(
+WTypeID integer not null
+,SDescription varchAr(128)
+,WTypeParent integer
+,primary key (WTypeID)
+);
+
+CREATE TABLE Unit(
+WUnitID integer not null
+,SDescription varchAr(64)
+,DSysDate timestamp
+,primary key (WUnitID)
+);
+
+CREATE TABLE Users(
+WUserID integer not null
+,SPassword varchAr(50)
+,SUserName varchAr(50)
+,SCreditNoteNextNumber varchAr(8)
+,SInvoiceNextNumber varchAr(8)
+,SPurchaseNextNumber varchAr(8)
+,SGoodsReturnedNextNumber varchAr(8)
+,SReceiptNextNumber varchAr(8)
+,SQuoteNextNumber varchAr(8)
+,SOrderNextNumber varchAr(8)
+,SNextBatchNumber varchAr(8)
+,BDisabled SmallInt
+,BAccounts SmallInt
+,BStock SmallInt
+,BBatchEntry SmallInt
+,BCreditNote SmallInt
+,BInvoices SmallInt
+,BPurchases SmallInt
+,BStockReturns SmallInt
+,BReconciliation SmallInt
+,BCreditorReports SmallInt
+,BDebtorReports SmallInt
+,BLedgerReports SmallInt
+,BStockReports SmallInt
+,BUserReports SmallInt
+,BPosting SmallInt
+,BGlobalProcesses SmallInt
+,BSystemSetup SmallInt
+,UserEmail varchAr(100)
+,BOnLine SmallInt
+,SPcIPAddress varchAr(20)
+,DSysDate timestamp
+,BEditPrices SmallInt
+,BGlobalSeq SmallInt
+,BCashBook SmallInt
+,BOnlyPOS SmallInt
+,BPOSSuper SmallInt
+,BSearch SmallInt
+,BEmail SmallInt
+,BNotUsed1 SmallInt
+,primary key (WUserID)
+);
+
+CREATE TABLE BOM(
+WBomID integer not null
+,WStockId integer not null
+,WLinkedStockID integer not null
+,FQty numeric (12,3) not null,
+primary key (WBomID)
+);
+
+create
+INDEX BOM_IND_STOCKID ON BOM (WStockId);
+
+
+alter table DEBTOR
+add constraint FK_DEBTOR_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table CREDITOR
+add constraint FK_CREDITOR_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table DOCHEAD
+add constraint FK_DOCHEAD_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE 
+on delete CASCADE ;
+alter table DOCLINE
+add constraint FK_DOCLINE_DOCHEAD
+foreign key (WDOCID)
+references DOCHEAD (WDOCID)
+on update CASCADE
+on delete CASCADE ;
+alter table BANK
+add constraint FK_BANK_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID)
+on update CASCADE
+on delete CASCADE ;
+alter table TRANSACT
+add constraint FK_TRANSACT_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID);
+alter table TRANSACT
+add constraint FK_TRANSACT_BATCH
+foreign key (WBATCHTYPEID)
+references BATTYPES (WBATCHTYPEID);
+alter table TRANSACT
+add constraint FK_TRANSACT_BATCON
+foreign key (WBATCHID)
+references BATCON (WBATCHID);
+alter table DOCLINE
+add constraint FK_DOCLINE_STOCK
+foreign key (WSTOCKID)
+references STOCK (WSTOCKID);
+alter table TOTALS
+add constraint FK_TOTALS_ACCOUNT
+foreign key (WACCOUNTID)
+references ACCOUNT (WACCOUNTID);
+alter table ACCOUNT
+add constraint FK_ACCOUNT_GROUP1
+foreign key (WREPORTINGGROUP1ID) 
+references GROUPS (WGROUPID);
+alter table ACCOUNT
+add constraint FK_ACCOUNT_GROUP2
+foreign key (WREPORTINGGROUP2ID) 
+references GROUPS (WGROUPID);
+
+CREATE TABLE countries (
+countries_id integer NOT NULL ,
+countries_name varchAr(64) default  '' NOT NULL ,
+countries_iso_code_2 varchAr(2) default '' NOT NULL ,
+countries_iso_code_3 varchAr(3) default '' NOT NULL ,
+address_format_id integer default 0 NOT NULL ,
+PRIMARY KEY  (countries_id));
+
+CREATE  
+INDEX IDX_TMPAGEANBATTYPE ON TMPAGEAN (WACCOUNTTYPEID);
+CREATE  
+INDEX IDX_OILINKSACCUSERLINK ON OILINKS (WLINKTRANSACTIONID, WUSERID, WACCOUNTID);
+
+
+CREATE GENERATOR GEN_CONTACTS_ID;
+CREATE GENERATOR GEN_Events_ID;
+CREATE GENERATOR GEN_Tasks_ID;
+CREATE GENERATOR GEN_TaskAction_ID;
+CREATE GENERATOR GEN_ResourceID_ID;
+CREATE GENERATOR GEN_SYSPARAMS_ID;
+CREATE GENERATOR GEN_ADDRESSPERACCOUNT_ID;
+CREATE  
+INDEX IND_BATCON_DOCID ON BATCON (WDOCID);
+CREATE  
+INDEX IDX_TRANSACTFOPENAMOUNT ON TRANSACT (FOUTSTANDINGAMOUNT);
+SET STATISTICS INDEX RDB$PRIMARY52;
+SET STATISTICS INDEX FK_TRANSACT_ACCOUNT;
+SET STATISTICS INDEX FK_TRANSACT_BATCH;
+SET STATISTICS INDEX FK_TRANSACT_BATCON;
+SET STATISTICS INDEX IDX_TRANSACTFOPENAMOUNT;
