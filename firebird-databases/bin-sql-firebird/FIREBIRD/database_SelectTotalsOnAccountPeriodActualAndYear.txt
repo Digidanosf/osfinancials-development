@@ -1,0 +1,5 @@
+Select * from totals where 
+WAccountId = :WAccountId and 
+WPeriodId = :WPeriodId and 
+BActual =:BActual and 
+WYearId = :WyearId

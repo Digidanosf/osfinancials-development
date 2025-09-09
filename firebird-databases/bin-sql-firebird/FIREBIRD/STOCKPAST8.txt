@@ -1,0 +1,5 @@
+Delete from STOCK_MULTIGROUP where WStockid = <@WSTOCKID@> and WGROUPID in (select WGroupid from stock_multigroup where wStockid = <@DATA@>)
+@@GO@@
+insert into STOCK_MULTIGROUP select 
+<@WSTOCKID@> , WGroupid , imp_sourceid from  stock_multigroup where wStockid = <@DATA@>
+@@GO@@

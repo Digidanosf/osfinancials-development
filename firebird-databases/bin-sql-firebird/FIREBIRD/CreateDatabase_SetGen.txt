@@ -1,0 +1,527 @@
+{generatorsetval_start}GEN_CONTACTS_ID{generatorsetval_mid}<@GEN_CONTACTS_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_Events_ID{generatorsetval_mid}<@GEN_Events_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_Tasks_ID{generatorsetval_mid}<@GEN_Tasks_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_TaskAction_ID{generatorsetval_mid}<@GEN_TaskAction_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_ResourceID_ID{generatorsetval_mid}<@GEN_ResourceID_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_SYSPARAMS_ID{generatorsetval_mid}<@GEN_SYSPARAMS_ID@>{generatorsetval_end};
+{generatorsetval_start}GEN_ADDRESSPERACCOUNT_ID{generatorsetval_mid}<@GEN_ADDRESSPERACCOUNT_ID@>{generatorsetval_end};
+delete from SYSPARAMS where sparamname='BUseBatch';
+Update Account Set SDescription ='Empty' where WAccountId = 0;
+update transact x set BEXCLUSIVE = 0 where 
+x.WTaxAccountId = 0 ;
+update transact x set BEXCLUSIVE = 0 where 
+x.WTaxAccountId is null ;
+update transact x set BEXCLUSIVE = 1 where 
+x.wTransactionID  = (select a.wTransactionID
+  from TRANSACT a,Tax b where a.wTransactionID = x.wTransactionID and a.wtaxaccountid = b.wAccountid
+and cast(a.FTaxAmount * 100 as integer) = cast((a.FAmount * (b.FRate/100)) * 100 as integer));
+update transact x set BEXCLUSIVE = 0 where 
+x.wTransactionID  = (select a.wTransactionID
+  from TRANSACT a,Tax b where a.wTransactionID = x.wTransactionID and a.wtaxaccountid = b.wAccountid
+and cast(a.FTaxAmount * 100 as integer) = cast(( a.FAmount - (a.FAmount /(1+(b.FRate/100)))) * 100 as integer));
+update transact set BEXCLUSIVE = 0 where BEXCLUSIVE is null; 
+Update Account x set x.BOpenItem = 1 where x.WAccountId = (
+select a.WAccountId from DEBTOR a,Account b where x.WAccountId = a.WAccountId and a.WAccountId = B.WaccountId and a.BOpenItem = 1);
+Update Account x set x.BOpenItem = 1 where x.WAccountId = (
+select a.WAccountId from Creditor a,Account b where x.WAccountId = a.WAccountId and a.WAccountId = B.WaccountId and a.BOpenItem = 1);
+Update Account x set x.BInactive = 1 
+where x.WAccountId = (
+select a.WAccountId from DEBTOR a,Account b 
+where x.WAccountId = a.WAccountId 
+and a.WAccountId = B.WaccountId 
+and a.BDisabled = 1);
+update ACCOUNT v set v.WLinKAccount = (select a.WAccountId from Account a where v.SMainAccountCode = a.SmainAccountCode and
+a.WAccountTypeid in (0,3,4) and a.SSubaccountCode = '000' ) where V.WAccountTypeid in (0,3,4);
+ALTER TABLE DEBTOR DROP SCODE;
+insert into Years values (2,'This year');
+insert into Years values(1,'Last year');
+insert into Years values(0,'Opening balans this year');
+insert into Years values(-1,'Closed years');
+update PERIODS set WYearID = 1 where WPeriodId between 1 and 13 ;
+update PERIODS set WYearID = 2 where WPeriodId between 14 and 26 ;
+INSERT INTO PERIODS VALUES (-1,0,current_timestamp,current_timestamp,'Last year', 0 ,0);
+INSERT INTO PERIODS VALUES (0,0,current_timestamp,current_timestamp,'Opening', 0 ,0);
+update transact set WYearID = (Select distinct(periods.WYearId) from periods where periods.WPeriodId = transact.wperiodId and periods.WyearId <> 0);
+update totals Set WYearid = 1 where WPeriodID between 1 and 13;
+<@MSSQLGO@>
+CREATE VIEW TRANSACTASBATCH (WBATCHID, WLINEID, SREFERENCE, DDATE, SDESCRIPTION, WACCOUNTID, SACCOUNT, WCONTRAACCOUNTID, SCONTRAACCOUNT, WTAXID, STAX, FAMOUNT, FDEBIT, FCREDIT, FTAXAMOUNT, DALLOCATEDDATE, BEXCLUSIVE, WLINKEDID, WREPORTINGGROUP1ID, WREPORTINGGROUP2ID)
+AS  
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,'') SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,'') STaxAccount,
+cast(TRANSACT.FAMOUNT as numeric (12,2)),
+cast(0 as numeric (12,2)),
+cast(0-TRANSACT.FAMOUNT as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 0 and battyp.BCashBook = 0
+   
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,'') SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,'') STaxAccount,
+cast(TRANSACT.FAMOUNT  - TRANSACT.FTAXAMOUNT as numeric (12,2)),
+cast(0 as numeric (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 1 and battyp.BCashBook = 0
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,'') SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,'') STaxAccount,
+cast(TRANSACT.FAMOUNT -TRANSACT.FTAXAMOUNT as numeric (12,2)),
+cast(0+(TRANSACT.FAMOUNT) as numeric (12,2)), 
+cast(0 as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 1 and battyp.BCashBook = 0
+
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,'') SContraAccount,
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,'') STaxAccount,
+cast(TRANSACT.FAMOUNT as numeric (12,2)),
+cast(TRANSACT.FAMOUNT as numeric (12,2)), 
+cast(0 as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 0 and battyp.BCashBook = 0
+union
+
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''),
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''),
+cast(TRANSACT.FAMOUNT + (TRANSACT.FTAXAMOUNT) as numeric (12,2)),
+cast(0 as numeric (12,2)),
+cast(0-TRANSACT.FAMOUNT as numeric (12,2)),
+-TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 0 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''),
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''),
+cast(TRANSACT.FAMOUNT as numeric (12,2)),
+cast(0 as numeric (12,2)),
+cast(0-(TRANSACT.FAMOUNT) as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount < 0 and BExclusive = 1 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE ,''),
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''),
+TRANSACT.FAMOUNT,
+cast(0+(TRANSACT.FAMOUNT) as numeric (12,2)), 
+cast(0 as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 1 and battyp.BCashBook = 1
+union
+SELECT 
+TRANSACT.WBatchId,
+TRANSACT.WLINEID,
+TRANSACT.SREFERENCE,
+TRANSACT.DDATE,
+MESSAGES.SDESCRIPTION,
+Mainaccount.WACCOUNTID,
+coalesce(Mainaccount.SMAINACCOUNTCODE,''){concat}'-' {concat} coalesce(Mainaccount.SSUBACCOUNTCODE,'') SAccount,
+Contra.WACCOUNTID,
+coalesce(Contra.SMAINACCOUNTCODE,'') {concat}'-' {concat}coalesce(Contra.SSUBACCOUNTCODE,''),
+TAX.WACCOUNTID,
+coalesce(Tax.SMAINACCOUNTCODE,'') {concat}'-' {concat} coalesce(Tax.SSUBACCOUNTCODE ,''),
+cast(TRANSACT.FAMOUNT+TRANSACT.FTAXAMOUNT as numeric (12,2)),
+cast(TRANSACT.FAMOUNT as numeric (12,2)), 
+cast(0 as numeric (12,2)),
+TRANSACT.FTAXAMOUNT,
+TRANSACT.DDATE,
+TRANSACT.BEXCLUSIVE,
+TRANSACT.WLINKEDID,
+0,
+0
+FROM TRANSACT 
+   left JOIN ACCOUNT Mainaccount ON (TRANSACT.WACCOUNTID = Mainaccount.WACCOUNTID)
+   left JOIN MESSAGES ON (TRANSACT.WDESCRIPTIONID = MESSAGES.WMESSAGEID)
+   left JOIN ACCOUNT Tax ON (TRANSACT.WTAXACCOUNTID = Tax.WACCOUNTID)
+   left JOIN ACCOUNT Contra ON (TRANSACT.WBALANCINGACCOUNTID = Contra.WACCOUNTID)
+   JOIN BATTYPES battyp ON (TRANSACT.WBatchTypeID = battyp.WbatchTypeID)
+   where famount > 0 and BExclusive = 0 and battyp.BCashBook = 1 ;
+<@MSSQLGO@>
+insert into countries values(	1,'Afghanistan','','',0	);
+insert into countries values(	2,'Åland Islands','','',0	);
+insert into countries values(	3,'Albania','','',0	);
+insert into countries values(	4,'Algeria','','',0	);
+insert into countries values(	5,'American Samoa','','',0	);
+insert into countries values(	6,'Andorra','','',0	);
+insert into countries values(	7,'Angola','','',0	);
+insert into countries values(	8,'Anguilla','','',0	);
+insert into countries values(	9,'Antarctica','','',0	);
+insert into countries values(	10,'Antigua and Barbuda','','',0	);
+insert into countries values(	11,'Argentina','','',0	);
+insert into countries values(	12,'Armenia','','',0	);
+insert into countries values(	13,'Aruba','','',0	);
+insert into countries values(	14,'Australia','','',0	);
+insert into countries values(	15,'Austria','','',0	);
+insert into countries values(	16,'Azerbaijan','','',0	);
+insert into countries values(	17,'Bahamas','','',0	);
+insert into countries values(	18,'Bahrain','','',0	);
+insert into countries values(	19,'Bangladesh','','',0	);
+insert into countries values(	20,'Barbados','','',0	);
+insert into countries values(	21,'Belarus','','',0	);
+insert into countries values(	22,'Belgium','','',0	);
+insert into countries values(	23,'Belize','','',0	);
+insert into countries values(	24,'Benin','','',0	);
+insert into countries values(	25,'Bermuda','','',0	);
+insert into countries values(	26,'Bhutan','','',0	);
+insert into countries values(	27,'Bolivia','','',0	);
+insert into countries values(	28,'Bosnia and Herzegovina','','',0	);
+insert into countries values(	29,'Botswana','','',0	);
+insert into countries values(	30,'Bouvet Island','','',0	);
+insert into countries values(	31,'Brazil','','',0	);
+insert into countries values(	32,'British Indian Ocean Territory','','',0	);
+insert into countries values(	33,'Brunei Darussalam','','',0	);
+insert into countries values(	34,'Bulgaria','','',0	);
+insert into countries values(	35,'Burkina Faso','','',0	);
+insert into countries values(	36,'Burundi','','',0	);
+insert into countries values(	37,'Cambodia','','',0	);
+insert into countries values(	38,'Cameroon','','',0	);
+insert into countries values(	39,'Canada','','',0	);
+insert into countries values(	40,'Canary Islands','','',0	);
+insert into countries values(	41,'Cape Verde','','',0	);
+insert into countries values(	42,'Cayman Islands','','',0	);
+insert into countries values(	43,'Central African Republic','','',0	);
+insert into countries values(	44,'Ceuta','','',0	);
+insert into countries values(	45,'Chad','','',0	);
+insert into countries values(	46,'Channel Islands (UK)','','',0	);
+insert into countries values(	47,'Chile','','',0	);
+insert into countries values(	48,'China','','',0	);
+insert into countries values(	49,'Christmas Island','','',0	);
+insert into countries values(	50,'Cocos (Keeling) Islands','','',0	);
+insert into countries values(	51,'Colombia','','',0	);
+insert into countries values(	52,'Comoros','','',0	);
+insert into countries values(	53,'Congo, Dem. Republic','','',0	);
+insert into countries values(	54,'Congo, Republic','','',0	);
+insert into countries values(	55,'Cook Islands','','',0	);
+insert into countries values(	56,'Costa Rica','','',0	);
+insert into countries values(	57,'Cote d`Ivoire','','',0	);
+insert into countries values(	58,'Croatia','','',0	);
+insert into countries values(	59,'Cyprus','','',0	);
+insert into countries values(	60,'Cyprus (unregulated area)','','',0	);
+insert into countries values(	61,'Czech Republic','','',0	);
+insert into countries values(	62,'Denmark','','',0	);
+insert into countries values(	63,'Djibouti','','',0	);
+insert into countries values(	64,'Dominica','','',0	);
+insert into countries values(	65,'Dominican Republic','','',0	);
+insert into countries values(	66,'East-Timor','','',0	);
+insert into countries values(	67,'Ecuador','','',0	);
+insert into countries values(	68,'Egypt','','',0	);
+insert into countries values(	69,'El Salvador','','',0	);
+insert into countries values(	70,'Equatorial Guinea','','',0	);
+insert into countries values(	71,'Eritrea','','',0	);
+insert into countries values(	72,'Estonia','','',0	);
+insert into countries values(	73,'Ethiopia','','',0	);
+insert into countries values(	74,'Falkland Islands','','',0	);
+insert into countries values(	75,'Faroe Islands','','',0	);
+insert into countries values(	76,'Fiji','','',0	);
+insert into countries values(	77,'Finland','','',0	);
+insert into countries values(	78,'France','','',0	);
+insert into countries values(	79,'French Guiana','','',0	);
+insert into countries values(	80,'French Polynesia','','',0	);
+insert into countries values(	81,'French Southern Territories','','',0	);
+insert into countries values(	82,'Gabon','','',0	);
+insert into countries values(	83,'Gambia','','',0	);
+insert into countries values(	84,'Georgia','','',0	);
+insert into countries values(	85,'Germany','','',0	);
+insert into countries values(	86,'Ghana','','',0	);
+insert into countries values(	87,'Gibraltar','','',0	);
+insert into countries values(	88,'Greece','','',0	);
+insert into countries values(	89,'Greenland','','',0	);
+insert into countries values(	90,'Grenada','','',0	);
+insert into countries values(	91,'Guadeloupe','','',0	);
+insert into countries values(	92,'Guam','','',0	);
+insert into countries values(	93,'Guatemala','','',0	);
+insert into countries values(	94,'Guinea','','',0	);
+insert into countries values(	95,'Guinea-Bissau','','',0	);
+insert into countries values(	96,'Guyana','','',0	);
+insert into countries values(	97,'Haiti','','',0	);
+insert into countries values(	98,'Heard Island and McDonald Islands','','',0	);
+insert into countries values(	99,'Honduras','','',0	);
+insert into countries values(	100,'Hong Kong','','',0	);
+insert into countries values(	101,'Hungary','','',0	);
+insert into countries values(	102,'Iceland','','',0	);
+insert into countries values(	103,'India','','',0	);
+insert into countries values(	104,'Indonesia','','',0	);
+insert into countries values(	105,'Ireland','','',0	);
+insert into countries values(	106,'Isle Of Man','','',0	);
+insert into countries values(	107,'Israel','','',0	);
+insert into countries values(	108,'Italy','','',0	);
+insert into countries values(	109,'Jamaica','','',0	);
+insert into countries values(	110,'Japan','','',0	);
+insert into countries values(	111,'Jordan','','',0	);
+insert into countries values(	112,'Kazakhstan','','',0	);
+insert into countries values(	113,'Kenya','','',0	);
+insert into countries values(	114,'Kiribati','','',0	);
+insert into countries values(	115,'Korea, South','','',0	);
+insert into countries values(	116,'Kuwait','','',0	);
+insert into countries values(	117,'Kyrgyzstan','','',0	);
+insert into countries values(	118,'Laos','','',0	);
+insert into countries values(	119,'Latvia','','',0	);
+insert into countries values(	120,'Lebanon','','',0	);
+insert into countries values(	121,'Lesotho','','',0	);
+insert into countries values(	122,'Liberia','','',0	);
+insert into countries values(	123,'Liechtenstein','','',0	);
+insert into countries values(	124,'Lithuania','','',0	);
+insert into countries values(	125,'Luxembourg','','',0	);
+insert into countries values(	126,'Macau','','',0	);
+insert into countries values(	127,'Macedonia (Former Yugoslav','','',0	);
+insert into countries values(	128,'Republic)','','',0	);
+insert into countries values(	129,'Madagascar','','',0	);
+insert into countries values(	130,'Malawi','','',0	);
+insert into countries values(	131,'Malaysia','','',0	);
+insert into countries values(	132,'Maldives','','',0	);
+insert into countries values(	133,'Mali','','',0	);
+insert into countries values(	134,'Malta','','',0	);
+insert into countries values(	135,'Marshall Islands','','',0	);
+insert into countries values(	136,'Martinique','','',0	);
+insert into countries values(	137,'Mauritania','','',0	);
+insert into countries values(	138,'Mauritius','','',0	);
+insert into countries values(	139,'Mayotte','','',0	);
+insert into countries values(	140,'Melilla','','',0	);
+insert into countries values(	141,'Mexico','','',0	);
+insert into countries values(	142,'Micronesia','','',0	);
+insert into countries values(	143,'Moldova','','',0	);
+insert into countries values(	144,'Monaco','','',0	);
+insert into countries values(	145,'Mongolia','','',0	);
+insert into countries values(	146,'Montserrat','','',0	);
+insert into countries values(	147,'Morocco','','',0	);
+insert into countries values(	148,'Mozambique','','',0	);
+insert into countries values(	149,'Namibia','','',0	);
+insert into countries values(	150,'Nauru','','',0	);
+insert into countries values(	151,'Nepal','','',0	);
+insert into countries values(	152,'Netherlands','','',0	);
+insert into countries values(	153,'Netherlands Antilles','','',0	);
+insert into countries values(	154,'New Caledonia','','',0	);
+insert into countries values(	155,'New Zealand','','',0	);
+insert into countries values(	156,'Nicaragua','','',0	);
+insert into countries values(	157,'Niger','','',0	);
+insert into countries values(	158,'Nigeria','','',0	);
+insert into countries values(	159,'Niue','','',0	);
+insert into countries values(	160,'Norfolk Island','','',0	);
+insert into countries values(	161,'Northern Mariana Islands','','',0	);
+insert into countries values(	162,'Norway','','',0	);
+insert into countries values(	163,'Oman','','',0	);
+insert into countries values(	164,'Pakistan','','',0	);
+insert into countries values(	165,'Palau','','',0	);
+insert into countries values(	166,'Palestinian Territory','','',0	);
+insert into countries values(	167,'Panama','','',0	);
+insert into countries values(	168,'Papua New Guinea','','',0	);
+insert into countries values(	169,'Paraguay','','',0	);
+insert into countries values(	170,'Peru','','',0	);
+insert into countries values(	171,'Philippines','','',0	);
+insert into countries values(	172,'Pitcairn Islands','','',0	);
+insert into countries values(	173,'Poland','','',0	);
+insert into countries values(	174,'Portugal','','',0	);
+insert into countries values(	175,'Puerto Rico','','',0	);
+insert into countries values(	176,'Qatar','','',0	);
+insert into countries values(	177,'Reunion','','',0	);
+insert into countries values(	178,'Romania','','',0	);
+insert into countries values(	179,'Russia','','',0	);
+insert into countries values(	180,'Rwanda','','',0	);
+insert into countries values(	181,'Samoa','','',0	);
+insert into countries values(	182,'San Marino','','',0	);
+insert into countries values(	183,'Sao Tome and Principe','','',0	);
+insert into countries values(	184,'Saudi Arabia','','',0	);
+insert into countries values(	185,'Senegal','','',0	);
+insert into countries values(	186,'Serbia and Montenegro','','',0	);
+insert into countries values(	187,'Seychelles','','',0	);
+insert into countries values(	188,'Sierra Leone','','',0	);
+insert into countries values(	189,'Singapore','','',0	);
+insert into countries values(	190,'Slovakia','','',0	);
+insert into countries values(	191,'Slovenia','','',0	);
+insert into countries values(	192,'Solomon Islands','','',0	);
+insert into countries values(	193,'Somalia','','',0	);
+insert into countries values(	194,'South Africa','','',0	);
+insert into countries values(	195,'South Georgia and Sandwich Islands','','',0	);
+insert into countries values(	196,'Spain','','',0	);
+insert into countries values(	197,'Sri Lanka','','',0	);
+insert into countries values(	198,'St. Helena','','',0	);
+insert into countries values(	199,'St. Kitts and Nevis','','',0	);
+insert into countries values(	200,'St. Lucia','','',0	);
+insert into countries values(	201,'St. Pierre and Miquelon','','',0	);
+insert into countries values(	202,'St. Vincent and the Grenadines','','',0	);
+insert into countries values(	203,'Suriname','','',0	);
+insert into countries values(	204,'Svalbard','','',0	);
+insert into countries values(	205,'Swaziland','','',0	);
+insert into countries values(	206,'Sweden','','',0	);
+insert into countries values(	207,'Switzerland','','',0	);
+insert into countries values(	208,'Taiwan','','',0	);
+insert into countries values(	209,'Tajikistan','','',0	);
+insert into countries values(	210,'Tanzania','','',0	);
+insert into countries values(	211,'Thailand','','',0	);
+insert into countries values(	212,'Togo','','',0	);
+insert into countries values(	213,'Tokelau','','',0	);
+insert into countries values(	214,'Tonga','','',0	);
+insert into countries values(	215,'Trinidad and Tobago','','',0	);
+insert into countries values(	216,'Tunisia','','',0	);
+insert into countries values(	217,'Turkey','','',0	);
+insert into countries values(	218,'Turkmenistan','','',0	);
+insert into countries values(	219,'Turks and Caicos Islands','','',0	);
+insert into countries values(	220,'Tuvalu','','',0	);
+insert into countries values(	221,'Uganda','','',0	);
+insert into countries values(	222,'Ukraine','','',0	);
+insert into countries values(	223,'United Arab Emirates','','',0	);
+insert into countries values(	224,'United Kingdom','','',0	);
+insert into countries values(	225,'Uruguay','','',0	);
+insert into countries values(	226,'USA','','',0	);
+insert into countries values(	227,'US Minor Outlying Islands','','',0	);
+insert into countries values(	228,'Uzbekistan','','',0	);
+insert into countries values(	229,'Vanuatu','','',0	);
+insert into countries values(	230,'Vatican City State','','',0	);
+insert into countries values(	231,'Venezuela','','',0	);
+insert into countries values(	232,'Viet Nam','','',0	);
+insert into countries values(	233,'Virgin Islands (British)','','',0	);
+insert into countries values(	234,'Virgin Islands (U.S.)','','',0	);
+insert into countries values(	235,'Wallis and Futuna','','',0	);
+insert into countries values(	236,'Western Sahara','','',0	);
+insert into countries values(	237,'Yemen','','',0	);
+insert into countries values(	238,'Zambia','','',0	);
+insert into countries values(	239,'Scotland','','',0	);
+insert into countries values(	240,'Zimbabwe','','',0	);
+insert into countries values(	241,'Unkown','','',0	);
+
+
+

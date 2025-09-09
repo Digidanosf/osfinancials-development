@@ -1,0 +1,3 @@
+Merk:<@SMERK@>
+Kw: <@FKW1@> 
+Omw1: <@FOMW1@>

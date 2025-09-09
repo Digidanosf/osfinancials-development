@@ -1,0 +1,3 @@
+ALTER TABLE STOCK ADD 
+WDELIVERDAYS Integer;
+update Sysvars set WVersion=597 ;

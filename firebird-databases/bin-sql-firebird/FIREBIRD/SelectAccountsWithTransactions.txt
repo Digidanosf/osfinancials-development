@@ -1,0 +1,2 @@
+select distinct(ACCOUNT.*) from ACCOUNT,transact where ACCOUNT.WAccountId = transact.WAccountId
+and transact.FoutstandingAmount <> 0

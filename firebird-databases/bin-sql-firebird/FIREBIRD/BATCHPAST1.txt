@@ -1,0 +1,4 @@
+update <@BATCH@> set 
+WCONTRAACCOUNTID = (Select a.WCONTRAACCOUNTID from <@BATCH@> a where a.Wlineid = <@DATA@>),
+SCONTRAACCOUNT= (Select a.SCONTRAACCOUNT from <@BATCH@> a where a.Wlineid = <@DATA@>)
+where Wlineid = <@WLINEID@>

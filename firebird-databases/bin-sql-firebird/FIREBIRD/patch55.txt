@@ -1,0 +1,13 @@
+ALTER TABLE UNIT ADD 
+FUNITQTY Numeric(12,8)
+;
+CREATE INDEX IDX_MULTIMEDIA1 ON MULTIMEDIA (STYPE,WREFID)
+;
+update Sysvars set WVersion=561
+;
+
+
+
+
+
+

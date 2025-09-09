@@ -1,0 +1,11 @@
+ALTER TABLE DOCLINE ADD 
+WACCOUNTID Integer
+;
+update Sysvars set WVersion=539
+;
+
+
+
+
+
+

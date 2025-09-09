@@ -1,0 +1,7 @@
+ALTER TABLE DOCLINE ADD 
+WSORTNO Integer
+;
+update docline set Wsortno = wDoclineid
+;
+update Sysvars set WVersion=518
+;

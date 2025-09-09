@@ -1,0 +1,20 @@
+merge into STOCK_CREDCODES c
+  using (select <@WSTOCKID@> WSTOCKID ,<@WACCOUNTID@> WACCOUNTID from rdb$database 
+  
+  ) cd
+
+  on (c.WSTOCKid = cd.WSTOCKid and c.WACCOUNTID = cd.WACCOUNTID)
+  when matched then update set 
+  FPRICE = <@FPRICE@>, 
+  WUNITID = <@WUNITID@> 
+   when not matched then  
+INSERT  (WCREDCODES_ID, WSTOCKID, WACCOUNTID, FPRICE, SCODE, SBARCODE, WUNITID)
+ VALUES (
+GEN_ID(GEN_CREDCODES,1), 
+<@WSTOCKID@>, 
+<@WACCOUNTID@> , 
+<@FPRICE@>, 
+null, 
+null,
+<@WUNITID@>
+);

@@ -1,0 +1,1 @@
+Select distinct( WStockid) from STOCK_CREDCODES where (SCODE ='<@ID@>' or SBARCODE ='<@ID@>' ) 

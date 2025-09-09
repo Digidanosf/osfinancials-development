@@ -1,0 +1,5 @@
+update STOCK_DESCRIPTIONS set 
+Sdescription = (select SExtraDesc  from stock where WStockid =<@WSTOCKID@>) ,
+SEXTRADESCRIPTION= (select SExtraDesc  from stock where WStockid =<@WSTOCKID@>) 
+ where WStockid = <@WSTOCKID@>
+@@GO@@

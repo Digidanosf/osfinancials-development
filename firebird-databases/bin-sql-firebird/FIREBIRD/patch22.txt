@@ -1,0 +1,13 @@
+ALTER TABLE STOCK ADD 
+FREORDERQTYTRIG Numeric(12,8)
+;
+ALTER TABLE STOCK ADD 
+Smanufacturer varchAr(35)
+;
+update Sysvars set WVersion=525
+;
+
+
+
+
+

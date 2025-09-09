@@ -1,0 +1,16 @@
+SELECT debtor.SDELIVERY1 ,debtor.SDELIVERY2,debtor.SDELIVERY3, debtor.SDELIVERYCODE,dc.COUNTRIES_NAME delcountry,pc.COUNTRIES_NAME poscountry, account.SDescription, account.SAccountCode, SPostal1, 
+  SPostal2,SPostal3, SPostalCode, STelephone1, STelephone2, 
+  SFax, SEmail, SBranchCode, SBankAccountNumber, 
+  DLastActivity, SReference, WDueDays,account.WAccountID,Firstname , LastName, Groups1.SDescription GroupDesc1,Groups1.WSortNo GroupSort1, Groups2.SDescription GroupDesc2, Groups2.WSortNo GroupSort2
+,Groups1.WColor,Groups1.WTextColor,
+account.WReportingGroup2ID
+
+
+
+  FROM debtor JOIN account ON  (debtor.WAccountID = account.WAccountID) left OUTER JOIN Contacts Contacts 
+    ON  (debtor.WContactID = Contacts.RecordID) 
+    left JOIN v_Groups Groups2 ON  (account.WReportingGroup2ID = Groups2.WGroupID) 
+    left JOIN v_Groups Groups1 ON  (account.WReportingGroup1ID = Groups1.WGroupID) 
+    left JOIN COUNTRIES pc on pc.COUNTRIES_ID = debtor.WPOSTCOUNTRIES_ID
+    left JOIN COUNTRIES dc on dc.COUNTRIES_ID = debtor.WDELCOUNTRIES_ID
+    where WAccountTypeId = 1   

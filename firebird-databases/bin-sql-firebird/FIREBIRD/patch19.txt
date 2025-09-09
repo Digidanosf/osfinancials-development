@@ -1,0 +1,46 @@
+CREATE TABLE LOGGEDIN
+(
+  WLOGID Integer NOT NULL,
+  WCONNECTIONID Integer NOT NULL,
+  WUSERID Integer,
+  SPCName varchar(100),
+  SUSername varchar(100),
+  DConStart {timestamptype},
+  DConEnd {timestamptype},
+  CONSTRAINT PK_LOGGEDIN PRIMARY KEY (WLOGID)
+)
+;
+CREATE TABLE LOGENTRY
+(
+  WLOGENTRYID Integer NOT NULL,
+  WLOGID Integer,
+  SLOGTYPE varchar(10),
+  SLOGMESSAGE varchar(100),
+  WLOGLINKID integer,
+  DSYSDATE {timestamptype},
+  CONSTRAINT PK_LOGENTRY PRIMARY KEY (WLOGENTRYID)
+)
+;
+ALTER TABLE LOGENTRY ADD CONSTRAINT FK_LOGENTRY_LOG  FOREIGN KEY (WLOGID) 
+REFERENCES LOGGEDIN (WLOGID) ON UPDATE CASCADE ON DELETE CASCADE
+;
+{generator_cr_start}GEN_LOGID{generator_cr_end}
+;
+{generator_cr_start}GEN_LOGENTRYID{generator_cr_end}
+;{if InterBase}
+BEFORE INSERT OR UPDATE POSITION 0
+AS   
+  DECLARE VARIABLE logid integer{scriptstddelim}
+BEGIN 
+   select Wlogid from loggedin where dconend is null and WCONNECTIONID = CURRENT_CONNECTION into :logid{scriptstddelim}
+   INSERT INTO LOGENTRY (WLOGENTRYID, WLOGID, SLOGTYPE, SLOGMESSAGE, WLOGLINKID, DSYSDATE) 
+   VALUES ( GEN_ID(GEN_LOGENTRYID,1), :logid,'USEREDIT','User edit or insert', new.WUSERID,CURRENT_TIMESTAMP)
+END
+{endif};
+
+update Sysvars set WVersion=522;
+
+
+
+
+

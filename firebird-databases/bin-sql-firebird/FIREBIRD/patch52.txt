@@ -1,0 +1,11 @@
+ALTER TABLE TAX ADD 
+SHOWTYPE Integer
+;
+update Sysvars set WVersion=557
+;
+
+
+
+
+
+

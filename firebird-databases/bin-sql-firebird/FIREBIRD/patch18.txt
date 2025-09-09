@@ -1,0 +1,67 @@
+CREATE TABLE GROUPSSTATUS (
+ WGROUPSTATUSID Integer,
+ WGroupTypeID Integer,
+ WGroupID Integer,
+ WLinkID integer,
+ DDate {timestamptype},
+        PRIMARY KEY (WGROUPSTATUSID)       
+)
+;
+{generator_cr_start}GEN_GROUPSTATUSID{generator_cr_end} ;
+{generator_cr_start}GEN_JOBPROJECTID{generator_cr_end} ;
+insert into GROUPSSTATUS select {genstart}GEN_GROUPSTATUSID{genend},22,d.WREPORTINGGROUP1ID,d.WDOCID,
+CURRENT_TIMESTAMP from dochead  d where d.WTypeId in (10,11,12,13,14,15) and d.WREPORTINGGROUP1ID is not null
+; 
+insert into GROUPSSTATUS 
+select {genstart}GEN_GROUPSTATUSID{genend},22,d.WREPORTINGGROUP2ID,d.WDOCID,
+ CURRENT_TIMESTAMP from dochead  d where d.WTypeId in (10,11,12,13,14,15) and d.WREPORTINGGROUP2ID is not null
+; 
+{if InterBase}
+CREATE TRIGGER DOCHEAD_GROUPSTATUS FOR DOCHEAD ACTIVE
+BEFORE INSERT or update POSITION 0
+AS  
+BEGIN
+  if (inserting) then
+   begin 
+    if (new.WREPORTINGGROUP1ID is not null) then
+     insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),22,new.WREPORTINGGROUP1ID,new.WDOCID, CURRENT_TIMESTAMP){scriptstddelim}
+    if (new.WREPORTINGGROUP2ID is not null) then
+     insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),23,new.WREPORTINGGROUP2ID,new.WDOCID, CURRENT_TIMESTAMP){scriptstddelim}
+   end ELSE
+   begin
+     if (COALESCE(old.WREPORTINGGROUP1ID,0) <> COALESCE(new.WREPORTINGGROUP1ID,0))   THEN  
+     BEGIN
+      insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),22,new.WREPORTINGGROUP1ID,new.WDOCID, CURRENT_TIMESTAMP){scriptstddelim}
+     END
+     if (COALESCE(old.WREPORTINGGROUP2ID,0) <> COALESCE(new.WREPORTINGGROUP2ID,0)) THEN 
+     BEGIN
+      insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),23,new.WREPORTINGGROUP2ID,new.WDOCID, CURRENT_TIMESTAMP){scriptstddelim}
+     END
+  end
+END
+{endif};
+{if InterBase}
+CREATE TRIGGER JOBPROJECT_GROUPSTATUS FOR JOBPROJECT ACTIVE
+BEFORE INSERT or update POSITION 0
+AS  
+BEGIN
+  if (inserting) then
+   begin 
+     if (new.WSTATUSID is not null) then
+     insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),1000,new.WSTATUSID ,new.WJOBPROJECTID, CURRENT_TIMESTAMP){scriptstddelim}
+   end ELSE
+   begin
+     if (COALESCE(old.WSTATUSID,0)  <> COALESCE(new.WSTATUSID,0)) THEN  
+     BEGIN
+      insert into GROUPSSTATUS values(GEN_ID(GEN_GROUPSTATUSID ,1),1000,new.WSTATUSID,new.WJOBPROJECTID,CURRENT_TIMESTAMP){scriptstddelim}
+     END
+  end
+END
+{endif};
+
+update Sysvars set WVersion=521
+;
+
+
+
+

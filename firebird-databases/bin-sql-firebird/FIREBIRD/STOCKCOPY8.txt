@@ -1,0 +1,1 @@
+Select cg.Wstockid from STOCK cg where cg.WStockid = <@WSTOCKID@>

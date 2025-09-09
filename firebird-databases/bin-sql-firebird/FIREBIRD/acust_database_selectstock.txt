@@ -1,0 +1,23 @@
+select stx.SBARCODE SBARCODEnumber,  stock.*,
+Accintax.SAccountCode IntaxCode,
+Accintax.Sdescription IntaxDesc,
+intax.FRate IntaxRate,
+AccOutTax.SAccountCode outTaxCode,
+AccOutTax.Sdescription outTaxDesc,
+OutTax.FRate outTaxRate,
+COSAcc.SAccountCode COSAccCode,
+COSAcc.SDescription COSAccDesc,
+SalesAcc.SAccountCode SalesAccCode,
+SalesAcc.SDescription SalesAccDesc,
+StockAcc.SAccountCode StockAccCode,
+StockAcc.SDescription StockAccDesc
+ from 
+stock 
+left join Tax intax on(stock.WInputtaxid =intax.WaccountId) 
+left join Tax OutTax on(stock.WOutputtaxid = OutTax.WaccountId) 
+left join Account Accintax on(stock.WInputtaxid = Accintax.WaccountId) 
+left join Account AccOutTax on(stock.WOutputtaxid = AccOutTax.WaccountId ) 
+left join Account COSAcc on(stock.WCOSTACCOUNTID = COSAcc.WaccountId ) 
+left join Account SalesAcc on(stock.WSalesAccountId = SalesAcc.WaccountId ) 
+left join Account StockAcc on(stock.WStockAccountId = stockAcc.WaccountId  )
+left join  STOCK_EXTRACODE  stx on(stock.WStockId = stx.WStockId  )

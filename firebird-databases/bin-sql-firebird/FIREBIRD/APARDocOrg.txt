@@ -1,0 +1,13 @@
+TRN_239_A=Mess1.SDescription
+TRN_239_B=Mess2.SDescription
+TRN_239_C=Mess3.SDescription
+TRN_2049_2220=DelPostid1.SDescription
+TRN_2049_2206=DelPostid2.SDescription
+TRN_2049_2420=DelPostid3.SDescription
+TRN_2049_190=DelPostCode.SDescription
+TRN_2049_2388=DelCountry.COUNTRIES_NAME
+TRN_2220=Postid1.SDescription
+TRN_2206=Postid2.SDescription
+TRN_2420=Postid3.SDescription
+TRN_190=PostCode.SDescription
+TRN_238=PostCountry.COUNTRIES_NAME

@@ -1,0 +1,7 @@
+ALTER TABLE STOCK ADD 
+FNETTOWEIGHT Numeric(16,8),
+{alteradd}
+FGROSSWEIGHT Numeric(16,8)
+;
+update Sysvars set WVersion=517
+;

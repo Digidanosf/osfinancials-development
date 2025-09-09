@@ -1,0 +1,38 @@
+ALTER TABLE COUNTRIES ADD 
+WTaxAccountID Integer,
+{alteradd} WSalesAccountId Integer,
+{alteradd} WStockAccountID Integer
+;
+ CREATE TABLE PRICE_AGREEMENT(
+ WPriceid Integer,
+ WAccountID Integer,
+ WStockID Integer,
+ FPrice1 numeric(12,8),
+ FUntilQty1 numeric(12,8),
+ FPrice2 numeric(12,8),
+ FUntilQty2 numeric(12,8),
+ FPrice3 numeric(12,8),
+ FUntilQty3 numeric(12,8),
+ FPRICE4 Numeric(12,8),
+ SEXTSTOCKCODE varchAr(100),
+ DDATE Date,
+ WGROUPID integer,
+ PRIMARY KEY (WPriceid),
+ FOREIGN KEY (WAccountID) REFERENCES ACCOUNT(WAccountID),
+ FOREIGN KEY (WStockID) REFERENCES STOCK(WStockID)
+)
+;
+{generator_cr_start}GEN_PRICEAGREEID{generator_cr_end} ; 
+ 
+ALTER TABLE PRICE_AGREEMENT 
+ADD FUNTILQTY4 Numeric(12,8),
+{alteradd} FPRICE5 Numeric(12,8) 
+;
+update Sysvars set WVersion=538
+;
+
+
+
+
+
+

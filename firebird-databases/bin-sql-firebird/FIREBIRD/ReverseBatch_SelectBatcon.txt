@@ -1,0 +1,6 @@
+select batcon.WBatchId,coalesce(batcon.SAlias,battypes.SDescription){if postgresql}::varchar(255){endif} SAlias,batcon.dsysdate,
+count(transact.WBatchId) as linecount, min(transact.ddate) MinDate,max(transact.ddate) MaxDate ,batcon.wdocid 
+from batcon join transact on (batcon.WBatchId =transact.WBatchId) join battypes on battypes.WBatchTypeID = batcon.WBatchTypeID
+where BPosted = 1 %S
+group by batcon.WBatchTypeID,batcon.WBatchId,coalesce(batcon.SAlias,battypes.SDescription),batcon.dsysdate,batcon.wdocid
+ORDER BY %s

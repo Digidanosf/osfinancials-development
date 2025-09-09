@@ -1,0 +1,9 @@
+update stock set 
+WCOSTACCOUNTID = (select WCOSTACCOUNTID from stock where WStockid =:data) ,
+WINPUTTAXID = (select WINPUTTAXID from stock where WStockid =:data) ,
+WOUTPUTTAXID = (select WOUTPUTTAXID from stock where WStockid =:data) , 
+WSALESACCOUNTID = (select WSALESACCOUNTID from stock where WStockid =:data) , 
+WINPUTTAX2ID = (select WINPUTTAX2ID  from stock where WStockid =:data) , 
+
+WSTOCKACCOUNTID = (select WSTOCKACCOUNTID from stock where WStockid =:data)  
+ where WStockid = <@WSTOCKID@>

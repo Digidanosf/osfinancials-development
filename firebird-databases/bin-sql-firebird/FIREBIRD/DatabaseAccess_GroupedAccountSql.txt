@@ -1,0 +1,4 @@
+Select Account.WAccountID, Account.SMainAccountCode, Account.SSubAccountCode, Account.WAccountTypeID, 
+ Account.SDescription, Account.WReportingGroup1ID, Account.WReportingGroup2ID, Account.BSubAccounts, Account.BIncomeExpense, 
+ Account.SAccountCode, Groups.WParentGroup1ID, Groups.WParentGroup2ID, Groups.WSortNo
+ From Account, Groups Where Account.WReportingGroup1ID=Groups.WGroupID

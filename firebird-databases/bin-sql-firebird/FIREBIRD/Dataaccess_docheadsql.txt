@@ -1,0 +1,79 @@
+SELECT dochead.WDocID, Account.SMAINACCOUNTCODE, Account.SSUBACCOUNTCODE, 
+dochead.SDocNo, cast(dochead.DDate as Date) DDate,
+cast(dochead.DDUEDATE as Date) DDUEDATE,
+dochead.DAllocatedDate, dochead.WAccountID, 
+dochead.WPaymentTypeID, dochead.FInvoiceDiscount, dochead.BPrinted,dochead.brepeating,
+ dochead.BExclusive,  dochead.FDocAmount  
+  ,  dochead.FTaxAmount  , 
+dochead.BPOSTED,
+dochead.SReference, dochead.WSourceTypeID,
+Group1.SDescription SGroup1Desc, Group2.SDescription SGroup2Desc
+, Group1.WColor WGroup1Color,
+Group1.WTextColor WGroup1TextColor,
+Account.SAccountCode, Account.SDescription SDescription, Account.WaccountTypeid,
+COALESCE(DocHead.WSourceTYpeID,0) WSourceTYpeID,
+ DocHead.WDelCodeID, DocHead.WAccountID, Account.WAccountID, 
+     DocHead.WSalesmanID,DocHead.WCurrencyID,DocHead.WPaymentTypeID, 
+  DocHead.BRepeating ,COALESCE(DocHead.WSourceTYpeID,0) WSourceTYpeID, 
+     DocHead.BPosted,DocHead.BPrinted,DocHead.WUserID, 
+      DocHead.SReference,DocHead.DDueDate,DocHead.WReportingGroup1ID,DocHead.WReportingGroup2ID,DocHead.WTerms,
+
+
+Salesman.SDescription SSalesManDescription ,
+DocHead.WMessage1ID, DocHead.WMessage2ID, DocHead.FInvoiceDiscount,DocHead.WMessage3ID, 
+       DocHead.WDelAddress1ID, DocHead.WDelAddress2ID, DocHead.WDelAddress3ID, 
+       DocHead.WPostal1ID, DocHead.WPostal2ID, DocHead.WPostal3ID, DocHead.WPostalCodeID, 
+DocHead.WPOSTALNAME ,
+DocHead.WPOSTALCONTACT ,
+DocHead.WDELNAME ,
+DocHead.WDELCONTACT ,
+DocHead.WTAXNUMBER  
+
+
+,  (dochead.FDocAmount - dochead.FTaxAmount) ExcAmount
+, transact.FOutstandingAmount openamount 
+, Mess1.SDescription as TRN_239_A,
+Mess2.SDescription as TRN_239_B,
+Mess3.SDescription as TRN_239_C,
+DelPostid1.SDescription as TRN_2049_2220,
+DelPostid2.SDescription as TRN_2049_2206,
+DelPostid3.SDescription as TRN_2049_2420,
+DelPostCode.SDescription as TRN_2049_190,
+DelCountry.COUNTRIES_NAME as TRN_2049_2388,
+Postid1.SDescription as TRN_2220,
+Postid2.SDescription as TRN_2206,
+Postid3.SDescription as TRN_2420,
+PostCode.SDescription as TRN_190,
+PostCountry.COUNTRIES_NAME as TRN_2388,
+postcomp.SDescription as TRN_1145_2279,
+postcontact.SDescription as TRN_1145_2415,
+DelComp.SDescription as TRN_2049_2279,
+DelContact.SDescription as TRN_2049_2415
+,DocHead.WReportingGroup1ID,dochead.WREPORTINGGROUP2ID
+ FROM dochead 
+ 
+left JOIN transact ON  (dochead.WOPENITEMTRANSACTID  = transact.WTransactionid )
+LEFT OUTER JOIN Account Account ON  (dochead.WAccountID = Account.WAccountID ) 
+LEFT OUTER JOIN Groups Group1 ON  (dochead.WReportingGroup1ID = Group1.WGroupID)
+LEFT OUTER JOIN Groups Group2 ON  (dochead.WReportingGroup2ID = Group2.WGroupID) 
+LEFT OUTER JOIN Groups Salesman ON  (dochead.WSalesmanID = Salesman.WGroupID)
+left join Messages Postid1 on (dochead.WPostal1ID = Postid1.WMessageID)
+left join Messages Postid2 on (dochead.WPostal2ID = Postid2.WMessageID)
+left join Messages Postid3 on (dochead.WPostal3ID = Postid3.WMessageID)
+left join Messages Postcode on (dochead.WPostalCodeID = Postcode.WMessageID)
+left join Messages DelPostid1 on (dochead.WDelAddress1ID = DelPostid1.WMessageID)
+left join Messages DelPostid2 on (dochead.WDelAddress2ID = DelPostid2.WMessageID)
+left join Messages DelPostid3 on (dochead.WDelAddress3ID = DelPostid3.WMessageID)
+left join Messages DelPostcode on (dochead.WDelCodeID = DelPostcode.WMessageID)
+left join Messages Mess1 on (dochead.WMessage1ID = Mess1.WMessageID)
+left join Messages Mess2 on (dochead.WMessage2ID = Mess2.WMessageID)
+left join Messages Mess3 on (dochead.WMessage3ID = Mess3.WMessageID)
+
+left join Messages postcomp on (dochead.WPOSTALNAME = postcomp.WMessageID)
+left join Messages postcontact on (dochead.WPOSTALCONTACT = postcontact.WMessageID)
+left join Messages DelComp on (dochead.WDELNAME = DelComp.WMessageID)
+left join Messages DelContact on (dochead.WDELCONTACT = DelContact.WMessageID)
+
+left OUTER join COUNTRIES DelCountry on (dochead.WDELCOUNTRIES_ID = DelCountry.COUNTRIES_ID)
+left OUTER join COUNTRIES PostCountry on (dochead.WPOSCOUNTRIES_ID = postCountry.COUNTRIES_ID)
+WHERE  1=1

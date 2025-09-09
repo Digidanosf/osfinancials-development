@@ -1,0 +1,13 @@
+ALTER TABLE DOCHEAD ADD 
+WOPENITEMTRANSACTID Integer
+;
+Update Dochead set WOPENITEMTRANSACTID = (select Min(WTRansactionId) from transact where transact.WDocid = Dochead.WDocid and transact.Waccountid = Dochead.Waccountid)
+;
+update Sysvars set WVersion=545
+;
+
+
+
+
+
+

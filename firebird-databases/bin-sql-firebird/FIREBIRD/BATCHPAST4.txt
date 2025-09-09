@@ -1,0 +1,3 @@
+update <@BATCH@> set 
+SDescription= :data
+where Wlineid = <@WLINEID@>

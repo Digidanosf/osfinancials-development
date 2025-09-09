@@ -1,0 +1,20 @@
+CREATE TABLE STOCKTAXCLASS
+(
+  WSTOCKCLASSTAXID Integer NOT NULL,
+  SNAME Varchar(30),
+  WINPUTTAX Integer,
+  WOUTPUTTAX Integer,
+  WSALESACCOUNTID Integer,
+  WSTOCKACCOUNTID Integer,
+  WCOSTACCOUNTID Integer,
+  PRIMARY KEY (WSTOCKCLASSTAXID)
+)
+;
+update Sysvars set WVersion=567
+;
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+IIF(POS('BETALING',m.DATA) > 0,27,0)

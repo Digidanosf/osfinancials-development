@@ -1,0 +1,3 @@
+ALTER TABLE USERS ALTER  {altercolumn} SPASSWORD {altertype} varChar(50);
+update USERS set SPASSWORD = Trim(SPASSWORD);
+update Sysvars set WVersion=599 ;

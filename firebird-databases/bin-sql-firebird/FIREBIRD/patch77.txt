@@ -1,0 +1,16 @@
+ALTER TABLE STOCKOPTIONS ADD 
+BENABLED Smallint 
+;
+ALTER TABLE STOCKOPTIONS ADD 
+WBOXSIZE Integer
+;
+update STOCKOPTIONS set BENABLED =1 
+;
+update Sysvars set WVersion=589
+;
+
+
+
+
+
+

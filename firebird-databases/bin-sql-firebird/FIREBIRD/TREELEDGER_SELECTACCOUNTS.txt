@@ -1,0 +1,31 @@
+select  
+Account.SAccountCode,
+Account.SDescription,
+Account.WAccountid,
+Account.WAccountTypeId,
+Account.WREPORTINGGROUP1ID,
+Account.WREPORTINGGROUP2ID, 
+Account.BSUBACCOUNTS, 
+Account.BINCOMEEXPENSE, 
+Account.BOPENITEM, 
+Account.BINACTIVE, 
+Account.DSYSDATE,
+Account.WLINKACCOUNT,
+Account.WTAXACCOUNT,
+Sum(Totals.FAmount) Totaal
+  from v_account account left join Totals on (account.Waccountid = totals.Waccountid) 
+<^THISSELECT^>
+group by Account.SAccountCode,
+Account.SDescription,
+Account.WAccountid,
+Account.WAccountTypeId,
+Account.WREPORTINGGROUP1ID,
+Account.WREPORTINGGROUP2ID, 
+Account.BSUBACCOUNTS, 
+Account.BINCOMEEXPENSE, 
+Account.BOPENITEM, 
+Account.BINACTIVE, 
+Account.DSYSDATE,
+Account.WLINKACCOUNT,
+Account.WTAXACCOUNT
+

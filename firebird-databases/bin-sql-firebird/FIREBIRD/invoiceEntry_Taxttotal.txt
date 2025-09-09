@@ -1,0 +1,8 @@
+select FDebit , FCredit
+,FTAXAMOUNT,SCONTRAACCOUNT,SAccount
+,Stock.FNETTOWEIGHT,stock.FGROSSWEIGHT
+,stock.FUNITAVECOST,<@BATCHNAME@>.Wunitid  
+,WTaxId,FRate from <@BATCHNAME@>  
+left join tax on (<@BATCHNAME@>.WTaxId = Tax.WAccountID)
+join stock on (<@BATCHNAME@>.SReference = Stock.SStockCode)
+where (BReconciled is null or BReconciled = 0) and coalesce(Stock.WStockTypeid,0) <> 10

@@ -1,0 +1,20 @@
+ALTER TABLE BACKORD ADD 
+FDISCOUNT Numeric(12,4)
+;
+ALTER TABLE BACKORD ADD 
+FPRICE Numeric(12,4)
+;
+alter table DEBTOR 
+ADD swebsite VARCHAR(120)
+;
+alter table creditor 
+ADD swebsite VARCHAR(120)
+;
+update Sysvars set WVersion=556
+;
+
+
+
+
+
+

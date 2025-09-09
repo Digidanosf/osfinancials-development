@@ -1,0 +1,1 @@
+Select WMERKID from STOCK_EXTRADATA where WStockid = <@WSTOCKID@>

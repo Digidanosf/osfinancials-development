@@ -1,0 +1,2 @@
+Select * from batcon where  BPosted = 0 and
+ WBatchTypeID = :WBatchTypeID AND WUserID = :WUserID and WDocId =:WDocId 

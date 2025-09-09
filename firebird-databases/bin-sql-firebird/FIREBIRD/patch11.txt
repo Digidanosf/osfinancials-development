@@ -1,0 +1,14 @@
+CREATE TABLE osf_search_fields
+(   Wosf_search_fields_id integer not null,
+    SFormName varchar(100) not null,
+    SColumnOrigen varchar(40) not null, 
+    WColumnTranslation integer not null, 
+    WControlX integer not null, 
+    WControly integer not null, 
+    WControlWidth integer not null, 
+    WControlHeigth integer not null, 
+    SControlType varchar(2) not null,
+    WLength integer,
+    SUseStringLike varchar(1),
+    LLOOKUPSQL {blobtexttype},  
+    CONSTRAINT PK_OSF_SEARCH_FIELDS PRIMARY KEY (WOSF_SEARCH_FIELDS_ID) );

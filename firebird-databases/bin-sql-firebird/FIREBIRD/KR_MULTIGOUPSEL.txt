@@ -1,0 +1,1 @@
+Exists(Select  a.* from V_STOCK_MULTIGROUP a where a.WSTOCKID = stock.WSTOCKID and a.WGROUPID  <@ID@> )

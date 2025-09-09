@@ -1,0 +1,10 @@
+ALTER TABLE DOCHEAD ADD 
+SEXTERNALID Varchar(50)
+;
+update Sysvars set WVersion=524
+;
+
+
+
+
+

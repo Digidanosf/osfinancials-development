@@ -1,0 +1,5 @@
+Select OILinks.*,Messages.* from OILinks  join transact on OILinks.WAmountTransactionID = 
+transact.WtransactionID left join messages on (transact.WDescriptionId = Messages.WMessageId)
+where OILinks.WAccountID = :WAccountID and 
+OILinks.WLinkTransactionID = :WLinkTransactionID and 
+OILinks.WAmountTransactionID = :WAmountTransactionID

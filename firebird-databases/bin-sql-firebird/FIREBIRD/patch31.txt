@@ -1,0 +1,10 @@
+ALTER TABLE COUNTRIES ADD 
+SNUMERIC Varchar(3)
+;
+update Sysvars set WVersion=535
+;
+
+
+
+
+

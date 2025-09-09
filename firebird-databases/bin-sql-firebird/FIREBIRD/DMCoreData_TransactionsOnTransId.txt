@@ -1,0 +1,1 @@
+SELECT * from transact where WTRansactionId = :WTRansactionId 

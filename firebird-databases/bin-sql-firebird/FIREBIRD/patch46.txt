@@ -1,0 +1,14 @@
+ALTER TABLE STOCK ADD 
+SSTOCKCODESUP1 Varchar(30)
+;
+ALTER TABLE STOCK ADD 
+SSTOCKCODESUP2 Varchar(30)
+;
+update Sysvars set WVersion=550
+;
+
+
+
+
+
+

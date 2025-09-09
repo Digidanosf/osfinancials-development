@@ -1,0 +1,3 @@
+Select WBatchTypeID,BCashBook,BatTypes.SDescription, 
+   WContraAccountID, BContraPerLine,Battypes.DSysDate,(Account.SAccountCode{concat}' '{concat}Account.SDescription) AS SContraName,  
+   WAccountID From v_BatTypes BatTypes left Join v_Account Account ON WContraAccountID=WAccountID

@@ -1,0 +1,10 @@
+ALTER TABLE MULTIMEDIA ADD 
+WSUBREF Integer
+;
+update Sysvars set WVersion=568
+;
+
+
+
+
+

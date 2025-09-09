@@ -1,0 +1,6 @@
+Select SSTOCKCODE, SBarCodeNumber,Stock.SDescription,cast((FSellingPrice%s * (1 + (Tax.Frate  / 100))) as numeric(12,2)) as FSellingPrice1 
+  From Stock left join Tax on WOutputTaxId = WAccountId  
+   where frate is not null %s 
+     union  
+    Select SSTOCKCODE, SBarCodeNumber,Stock.SDescription,FSellingPrice%s as FSellingPrice1  
+   From Stock left join Tax on WOutputTaxId = WAccountId where frate is null %s 

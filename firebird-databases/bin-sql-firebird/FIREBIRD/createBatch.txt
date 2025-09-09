@@ -1,0 +1,37 @@
+CREATE TABLE <@BATCHNAME@>(
+WLINEID integer not null
+,SREFERENCE {chartype}(64)
+,SACCOUNT {chartype}(<@ACCOUNTCODELONG@>)
+,SDESCRIPTION {chartype}(<@MESSAGELENGTH@>)
+,FDEBIT numeric(18,8)
+,FCREDIT numeric(18,8)
+,FAMOUNT numeric(18,8)
+,STAX {chartype}(<@ACCOUNTCODELONG@>)
+,WTAXId Integer 
+,DDATE {timestamptype}
+,SCONTRAACCOUNT {chartype}(<@ACCOUNTCODELONG@>)
+,WCONTRAACCOUNTID Integer
+,FTAXAMOUNT numeric(18,8)
+,DALLOCATEDDATE {timestamptype}
+,BRECONCILED integer
+,BEXCLUSIVE integer
+,WACCOUNTID integer
+,FQTY numeric(18,8)
+,WPROFILEID integer
+,WTAX2ID integer
+,NOTUSED numeric(18,8)
+,SPROFILE {chartype}(64)
+,SJOBCODE {chartype}(<@ACCOUNTCODELONG@>)
+,STAX2 {chartype}(<@ACCOUNTCODELONG@>)
+,BLINKED integer
+,DSYSDATE {timestamptype}
+,FTAX2AMOUNT numeric(18,8)
+,WLinkedID Integer
+,WReportingGroup1ID Integer
+,WReportingGroup2ID Integer
+,DPaymentDate {timestamptype}
+,WDOCID Integer,
+FUNITQTY numeric(18,8),
+
+WUNITID Integer, Primary key (WLINEID)
+);

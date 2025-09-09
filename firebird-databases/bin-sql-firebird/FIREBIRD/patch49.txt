@@ -1,0 +1,16 @@
+update GROUPS_DESCRIPTIONS set 
+WGROUPDESCID = {genstart}GEN_GROUPSDESC_ID{genend}
+where WGROUPDESCID is null
+;
+update STOCK_DESCRIPTIONS set 
+WSTOCKDESCID = {genstart}GEN_STOCKDESC_ID{genend}
+where WSTOCKDESCID is null
+;
+update Sysvars set WVersion=553
+;
+
+
+
+
+
+

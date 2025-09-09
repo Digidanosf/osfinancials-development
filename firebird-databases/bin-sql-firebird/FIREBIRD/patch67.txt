@@ -1,0 +1,12 @@
+ALTER TABLE JOBPROJECT ADD 
+WDEFAULTACCOUNT Integer , {alteradd}
+FTOTALBUDGET numeric (12,2)
+;
+update Sysvars set WVersion=574
+;
+
+
+
+
+
+

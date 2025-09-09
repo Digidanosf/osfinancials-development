@@ -1,0 +1,11 @@
+ALTER TABLE BOM ADD 
+FPERCENTAGEOFSALE Numeric(12,8)
+;
+update Sysvars set WVersion=537
+;
+
+
+
+
+
+

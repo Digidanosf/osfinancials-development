@@ -1,0 +1,3 @@
+update <@BATCH@> set 
+DDate = :data
+where Wlineid = <@WLINEID@>

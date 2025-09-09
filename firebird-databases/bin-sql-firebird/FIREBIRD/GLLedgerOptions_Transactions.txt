@@ -1,0 +1,10 @@
+SELECT Account.WAccountID, SMainAccountCode, SSubAccountCode, SDescription, 
+    WAccountTypeID, DDate, WPeriodID,WBatchTypeID, SReference, 
+     WDescriptionID, FAmount , SAccountCode,WTransactionID , FTaxRate,WJobCodeID,WDocid
+   FROM  Account,Transact 
+    Where ((  Account.WAccountID = Transact.WAccountID) 
+    AND ( Transact.WPeriodID >= :FromDate)  
+    AND (Transact.WPeriodID <= :ToDate) )  
+    AND ( Account.SAccountCode  >= :FromAcc) 
+    AND ( Account.SAccountCode  <= :ToAcc) 
+    AND ( Transact.WAccountID  <= :WAccountID) 

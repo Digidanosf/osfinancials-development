@@ -1,0 +1,14 @@
+ALTER TABLE ITEMOPTIONS ADD 
+SEXTERNALID Varchar(50)
+;
+ALTER TABLE ITEMOPTIONSVALUES ADD 
+SEXTERNALID Varchar(50)
+;
+update Sysvars set WVersion=544
+;
+
+
+
+
+
+

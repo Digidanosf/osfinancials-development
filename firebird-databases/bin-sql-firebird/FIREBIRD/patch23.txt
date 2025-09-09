@@ -1,0 +1,16 @@
+ALTER TABLE DEBTOR ADD 
+SLANGUAGE varchAr(35)
+;
+ALTER TABLE CREDITOR ADD 
+SLANGUAGE varchAr(35)
+;
+ALTER TABLE CREDITOR ADD 
+SDELIVERYCODE varchAr(8)
+;
+update Sysvars set WVersion=526
+;
+
+
+
+
+
