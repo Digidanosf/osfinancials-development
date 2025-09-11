@@ -12143,7 +12143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher TVA dans les documents'
+      Text = 'TVA sur documents'
     end
     item
       IndexID = 3295
@@ -13452,7 +13452,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3563
-      Text = 'Onglet Utilisateur'
+      Text = 'Onglet utilisateur'
     end
     item
       IndexID = 3564

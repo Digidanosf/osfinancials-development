@@ -12143,7 +12143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher TVA dans les documents'
+      Text = 'TVA sur documents'
     end
     item
       IndexID = 3295

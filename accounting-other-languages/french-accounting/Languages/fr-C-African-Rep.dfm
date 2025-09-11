@@ -6774,7 +6774,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1953
-      Text = 'Connect'#233'.'
+      Text = 'Connect'#233
     end
     item
       IndexID = 1954
@@ -12143,7 +12143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher TVA dans les documents'
+      Text = 'TVA sur documents'
     end
     item
       IndexID = 3295
