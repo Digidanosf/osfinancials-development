@@ -12143,7 +12143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Afficher TPS/TVH documents'
+      Text = 'TPS/TVH sur documents'
     end
     item
       IndexID = 3295
