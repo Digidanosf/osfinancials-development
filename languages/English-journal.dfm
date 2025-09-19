@@ -2373,7 +2373,7 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        'Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please ' +
+        'Welcome to the <@APPNAME@> Set of Books Creation wizard. Please ' +
         'select an option and click on the [Next] button, or click on the' +
         ' [Cancel] button to cancel the creation of a new Set of Books.'
     end
