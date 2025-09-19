@@ -2231,19 +2231,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 548
-      Text = 
-        'Laisser <@APPNAME@> vous aider '#224' cr'#233'er un jeu de livres comptabl' +
-        'es ?'
+      Text = 'Cr'#233'ez un jeu de livres comptables avec <@APPNAME@>'
     end
     item
       IndexID = 547
-      Text = 'Copier un jeu de livres comptables existant ?'
+      Text = 'Copier un jeu de livres comptables existant'
     end
     item
       IndexID = 546
       Text = 
         'Convertir depuis une ancienne version de TurboCASH (v 2.01, 2.02' +
-        ', 2.03) ?'
+        ', 2.03) '
     end
     item
       IndexID = 545
@@ -2279,11 +2277,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convertir TurboCASH 3 vers <@APPNAME@> ?'
+      Text = 'Convertir TurboCASH 3 vers <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Personnaliser votre jeu de livres comptables (Avanc'#233') ?'
+      Text = 'Personnaliser votre jeu de livres comptables (Avanc'#233')'
     end
     item
       IndexID = 560
@@ -10818,7 +10816,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convertir <@APPNAME@> vers cette version ?'
+      Text = 'Convertir <@APPNAME@> vers cette version'
     end
     item
       IndexID = 1000000
@@ -16683,6 +16681,6 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Convertir le devis en une facture non trait'#233'e par client.'
+      Text = 'Convertir le devis en une facture non trait'#233'e par client'
     end>
 end
