@@ -2402,19 +2402,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convert TurboCASH3 to <@APPNAME@>?'
+      Text = 'Convert TurboCASH3 to <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Customise your own Set of Books (Advanced)?'
+      Text = 'Customise your own Set of Books (Advanced)'
     end
     item
       IndexID = 548
-      Text = 'Let <@APPNAME@> help you to create a Set of Books?'
+      Text = 'Let <@APPNAME@> help you to create a Set of Books'
     end
     item
       IndexID = 547
-      Text = 'Copy an existing Set of Books?'
+      Text = 'Copy an existing Set of Books'
     end
     item
       IndexID = 546
@@ -8261,7 +8261,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Importing debtors/creditors'
+      Text = 'Importing debtors/creditors...'
     end
     item
       IndexID = 2183
@@ -10629,7 +10629,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3073
-      Text = 'Group still has nesteled groups! Remove them first!'
+      Text = 'Group still has nested groups! Remove them first!'
     end
     item
       IndexID = 3074
@@ -11566,7 +11566,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Convert <@APPNAME@> to this version'
     end
     item
       IndexID = 1000055
@@ -12618,14 +12618,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input associated with this project! Do you wis' +
-        'h to continue ? All project data will be lost!'
+        'There is document(s) associated with this project! Do you wish t' +
+        'o continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input associated with this project! Do you ' +
-        'wish to continue ? All project data will be lost!'
+        'There is transaction(s) associated with this project! Do you wis' +
+        'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3351
@@ -16020,8 +16020,8 @@ object TTranslationSaveObject
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the o' +
-        'rder button'
+        'This list shows what you are going to order when you press the [' +
+        '[Order] button'
     end
     item
       IndexID = 3628
@@ -16517,5 +16517,9 @@ object TTranslationSaveObject
     item
       IndexID = 3738
       Text = 'LTR'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convert quote to one unprocessed invoice per client'
     end>
 end

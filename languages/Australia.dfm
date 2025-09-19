@@ -314,7 +314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Supplier returns listing'
+      Text = '&Supplier return listing'
     end
     item
       IndexID = 81
@@ -2254,15 +2254,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convert TurboCASH3 to <@APPNAME@>?'
+      Text = 'Convert TurboCASH3 to <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Customise your own Set of Books (Advanced)?'
+      Text = 'Customise your own Set of Books (Advanced)'
     end
     item
       IndexID = 548
-      Text = 'Let <@APPNAME@> help you to create a Set of Books?'
+      Text = 'Let <@APPNAME@> help you to create a Set of Books'
     end
     item
       IndexID = 547
@@ -2270,7 +2270,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 546
-      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?'
+      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 557
@@ -2927,8 +2927,8 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click yes you will lose all your current links f' +
-        'or this account!'
+        'Warning, if you click [Yes] you will lose all your current links' +
+        ' for this account!'
     end
     item
       IndexID = 723
@@ -11418,7 +11418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Convert <@APPNAME@> to this version'
     end
     item
       IndexID = 1000055
@@ -12471,14 +12471,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input associated with this project! Do you wis' +
-        'h to continue ? All project data will be lost!'
+        'There is document(s) associated with this project! Do you wish t' +
+        'o continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input associated with this project! Do you ' +
-        'wish to continue ? All project data will be lost!'
+        'There is transaction(s) associated with this project! Do you wis' +
+        'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3351
@@ -15874,7 +15874,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        'Order] button'
+        '[Order] button'
     end
     item
       IndexID = 3628
@@ -16340,8 +16340,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733
@@ -16372,151 +16372,7 @@ object TTranslationSaveObject
       Text = 'LTR'
     end
     item
-      IndexID = 906557
-      Text = 'Graphs'
-    end
-    item
-      IndexID = 906558
-      Text = 'Graphs per week'
-    end
-    item
-      IndexID = 906559
-      Text = 'Graphs per month'
-    end
-    item
-      IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
-    end
-    item
-      IndexID = 906561
-      Text = 'Graph - Debtors per month'
-    end
-    item
-      IndexID = 906562
-      Text = 'Graph - Creditors per month'
-    end
-    item
-      IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
-    end
-    item
-      IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
-    end
-    item
-      IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
-    end
-    item
-      IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
-    end
-    item
-      IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
-    end
-    item
-      IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
-    end
-    item
-      IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
-    end
-    item
-      IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
-    end
-    item
-      IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
-    end
-    item
-      IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
-    end
-    item
-      IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
-    end
-    item
-      IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
-    end
-    item
-      IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
-    end
-    item
-      IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
-    end
-    item
-      IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
-    end
-    item
-      IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
-    end
-    item
-      IndexID = 906583
-      Text = 'Tax codes - Tax rates'
-    end
-    item
-      IndexID = 906589
-      Text = 'NO-GST Layout file'
-    end
-    item
-      IndexID = 906590
-      Text = 'NO-GST Document layout'
-    end
-    item
-      IndexID = 906591
-      Text = 'NO-GST Document layout (15-code)'
-    end
-    item
-      IndexID = 906588
-      Text = 'Value stock account'
-    end
-    item
-      IndexID = 906587
-      Text = 'Document reference'
-    end
-    item
-      IndexID = 906586
-      Text = 'Stock - Expected quantities'
-    end
-    item
-      IndexID = 906585
-      Text = 'Stock item list - Active stock'
-    end
-    item
-      IndexID = 906584
-      Text = 'Production list'
-    end
-    item
-      IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
-    end
-    item
-      IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
+      IndexID = 3739
+      Text = 'Convert quote to one unprocessed invoice per client'
     end>
 end
