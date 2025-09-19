@@ -158,7 +158,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 42
-      Text = '&Bestandsanpassung'
+      Text = '&Lagerbestandsanpassung'
     end
     item
       IndexID = 43
@@ -634,7 +634,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 161
-      Text = 'Kreditor'
+      Text = 'Kreditoren'
     end
     item
       IndexID = 163
@@ -842,7 +842,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 213
-      Text = 'Artikelkennzeichen'
+      Text = 'Artikelcode'
     end
     item
       IndexID = 214
@@ -1764,9 +1764,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 444
-      Text = 
-        'Dies hat schwerwiegende Folgen f'#252'r den Mandanten! Vorgang abbrec' +
-        'hen?'
+      Text = 'Dies hat schwerwiegende Folgen - Vorgang abbrechen?'
     end
     item
       IndexID = 445
@@ -1810,9 +1808,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 455
-      Text = 
-        'Dieses Verzeichnis enth'#228'lt keinen TurboCASH 2.01, 2.02 oder 2.03' +
-        ' Mandanten!'
+      Text = 'Verzeichnis enth'#228'lt keine TurboCASH 2.01-2.03 Mandanten!'
     end
     item
       IndexID = 456
@@ -1958,7 +1954,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 491
-      Text = 'Keine Buchungen zum Abgleich!'
+      Text = 'Keine Bankbuchungen zum Abgleich!'
     end
     item
       IndexID = 492
@@ -2042,9 +2038,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 512
-      Text = 
-        'Achtung: Der aktuelle Mandant wird '#252'berschrieben! Wirklich fortf' +
-        'ahren?'
+      Text = 'Achtung: Mandanten werden '#252'berschrieben! Wirklich fortfahren?'
     end
     item
       IndexID = 513
@@ -2056,9 +2050,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 515
-      Text = 
-        'Diese Kopie von <@APPNAME@> ist nicht registriert! M'#246'chten Sie s' +
-        'ie jetzt registrieren?'
+      Text = '<@APPNAME@> ist nicht registriert! Jetzt registrieren?'
     end
     item
       IndexID = 516
@@ -2070,13 +2062,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 518
-      Text = 'Dieses Verzeichnis enth'#228'lt keinen Mandanten!'
+      Text = 'Verzeichnis enth'#228'lt keine Mandanten!'
     end
     item
       IndexID = 519
-      Text = 
-        'Dies hat schwerwiegende Folgen f'#252'r den Mandanten! Mandanten wirk' +
-        'lich l'#246'schen?'
+      Text = 'Dies hat schwerwiegende Folgen! Mandant wirklich l'#246'schen?'
     end
     item
       IndexID = 520
@@ -2107,7 +2097,7 @@ object TTranslationSaveObject
     item
       IndexID = 526
       Text = 
-        'Dieser Debitor hat offene Posten! Auf einen anderen Debitor '#252'ber' +
+        'Dieser Debitor hat offene Posten. Auf einen anderen Debitor '#252'ber' +
         'tragen?'
     end
     item
@@ -2244,23 +2234,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Daten von TurboCASH3 nach <@APPNAME@> '#252'bernehmen?'
+      Text = 'Daten von TurboCASH3 nach <@APPNAME@> '#252'bernehmen'
     end
     item
       IndexID = 549
-      Text = 'Mandant individuell gestalten (Experte)?'
+      Text = 'Mandant individuell gestalten (Experte)'
     end
     item
       IndexID = 548
-      Text = '<@APPNAME@> hilft beim Mandanten anlegen?'
+      Text = '<@APPNAME@> hilft beim Mandanten anlegen'
     end
     item
       IndexID = 547
-      Text = 'Existierenden Mandanten kopieren?'
+      Text = 'Existierenden Mandanten kopieren'
     end
     item
       IndexID = 546
-      Text = 'Daten aus TurboCASH 2.01-2.03 konvertieren?'
+      Text = 'Daten aus TurboCASH 2.01-2.03 konvertieren'
     end
     item
       IndexID = 557
@@ -4253,9 +4243,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1060
-      Text = 
-        'Mandant ist besch'#228'digt! F'#252'hren Sie eine Neuindizierung '#252'ber '#39'Ein' +
-        'stellungen '#8594' Datenintegrit'#228'tspr'#252'fung'#39' durch.'
+      Text = 'Mandantenindex besch'#228'digt! Neuindexierung erforderlich.'
     end
     item
       IndexID = 1063
@@ -5667,8 +5655,8 @@ object TTranslationSaveObject
     item
       IndexID = 1414
       Text = 
-        'Aktivieren Sie den Zugriff unter '#39'Einstellungen '#8594' Benutzerverwal' +
-        'tung'#39'.'
+        'Aktivieren Sie den Zugriff unter Einstellungen '#8594' Benutzerverwalt' +
+        'ung.'
     end
     item
       IndexID = 1700
@@ -6174,7 +6162,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1827
-      Text = 'Mandant wurde kopiert!'
+      Text = 'Mandant kopiert nach:'
     end
     item
       IndexID = 1828
@@ -6910,7 +6898,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20017
-      Text = 'Exportdatei kann nicht erstellt werden.'
+      Text = 'Exportdatei kann nicht erstellt werden!'
     end
     item
       IndexID = 20018
@@ -8004,7 +7992,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2158
-      Text = 'Kunden-Gesamtsummen:'
+      Text = 'Kundensalden:'
     end
     item
       IndexID = 2159
@@ -10681,7 +10669,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = '<@APPNAME@> auf diese Version konvertieren?'
+      Text = '<@APPNAME@> auf diese Version konvertieren'
     end
     item
       IndexID = 3325
@@ -16489,5 +16477,9 @@ object TTranslationSaveObject
     item
       IndexID = 906583
       Text = 'USt-Codes - Steuers'#228'tze'
+    end
+    item
+      IndexID = 3739
+      Text = 'Angebot in eine unverarbeitete Rechnung pro Kunde umwandeln'
     end>
 end

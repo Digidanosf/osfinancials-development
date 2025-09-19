@@ -2233,23 +2233,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Von TurboCASH3 '#252'bernehmen?'
+      Text = 'Daten von TurboCASH3 nach <@APPNAME@> '#252'bernehmen'
     end
     item
       IndexID = 549
-      Text = 'Mandant individuell gestalten (Experte)?'
+      Text = 'Mandant individuell gestalten (Experte)'
     end
     item
       IndexID = 548
-      Text = 'Soll <@APPNAME@> Ihnen beim Erstellen eines Mandanten helfen?'
+      Text = '<@APPNAME@> hilft beim Mandanten anlegen'
     end
     item
       IndexID = 547
-      Text = 'Bestehenden Mandanten kopieren?'
+      Text = 'Existierenden Mandanten kopieren'
     end
     item
       IndexID = 546
-      Text = 'Daten aus TurboCASH 2.01-2.03 konvertieren?'
+      Text = 'Daten aus TurboCASH 2.01-2.03 konvertieren'
     end
     item
       IndexID = 557
@@ -10653,7 +10653,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = '<@APPNAME@> auf diese Version konvertieren?'
+      Text = '<@APPNAME@> auf diese Version konvertieren'
     end
     item
       IndexID = 3325
@@ -16451,6 +16451,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'MWST-Codes - MWST-S'#228'tze'
+      Text = 'MwSt.-Codes - Steuers'#228'tze'
+    end
+    item
+      IndexID = 3739
+      Text = 'Angebot in eine unverarbeitete Rechnung pro Kunde umwandeln'
     end>
 end
