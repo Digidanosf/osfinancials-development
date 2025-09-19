@@ -2037,7 +2037,7 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Do you want to run the Data Integrity Check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -2225,7 +2225,7 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        'Welcome to the <@APPNAME@> Set of Books Creation Wizard. Please ' +
+        'Welcome to the <@APPNAME@> Set of Books Creation wizard. Please ' +
         'select an option and click on the [Next] button, or click on the' +
         ' [Cancel] button to cancel the creation of a new Set of Books.'
     end
@@ -2254,23 +2254,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convert TurboCASH3 to <@APPNAME@>?'
+      Text = 'Convert TurboCASH3 to <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Customize your own Set of Books (Advanced)?'
+      Text = 'Customize your own Set of Books (Advanced)'
     end
     item
       IndexID = 548
-      Text = 'Let <@APPNAME@> help you to create a Set of Books?'
+      Text = 'Let <@APPNAME@> help you to create a Set of Books'
     end
     item
       IndexID = 547
-      Text = 'Copy an existing Set of Books?'
+      Text = 'Copy an existing Set of Books'
     end
     item
       IndexID = 546
-      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?'
+      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 557
@@ -11420,7 +11420,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Convert <@APPNAME@> to this version'
     end
     item
       IndexID = 1000055
@@ -15876,7 +15876,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        'Order] button'
+        '[Order] button'
     end
     item
       IndexID = 3628
@@ -16342,7 +16342,7 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today! Do y' +
+        'Your current open year end date %s is greater than today! Do y' +
         'ou want to stop opening a new year?'
     end
     item
@@ -16520,5 +16520,9 @@ object TTranslationSaveObject
     item
       IndexID = 902008
       Text = 'Price list - Large retail - Sales'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convert estimate to one unprocessed invoice per client'
     end>
 end
