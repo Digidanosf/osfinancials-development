@@ -1306,7 +1306,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 330
-      Text = 'Volgende Aankoopnr.'
+      Text = 'Volgende aankoopnr.'
     end
     item
       IndexID = 331
@@ -1322,7 +1322,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Volgende Retoerenr.'
+      Text = 'Volgende verskafferetoernr.'
     end
     item
       IndexID = 335
@@ -1338,7 +1338,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 338
-      Text = 'Volgende Bestelnr.'
+      Text = 'Volgende bestelnr.'
     end
     item
       IndexID = 339
@@ -1350,7 +1350,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 341
-      Text = 'Volg. Kwotasienr.'
+      Text = 'Volg. kwotasienr.'
     end
     item
       IndexID = 342
@@ -2218,11 +2218,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 547
-      Text = 'Kopieer '#39'n bestaande Stel Boeke?'
+      Text = 'Kopieer '#39'n bestaande Stel Boeke'
     end
     item
       IndexID = 546
-      Text = 'Omskep vanaf '#39'n ouer TurboCASH (v 2.01, 2.02, 2.03)?'
+      Text = 'Omskep vanaf '#39'n ouer TurboCASH (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 545
@@ -2232,8 +2232,8 @@ object TTranslationSaveObject
       IndexID = 544
       Text = 
         'Welkom by die <@APPNAME@> Stel Boeke Skeppingsassistent. Kies as' +
-        'seblief '#39'n opsie en klik op Volgende, of klik op Kanselleer om d' +
-        'ie skep van '#39'n nuwe Stel Boeke te kanselleer.'
+        'seblief '#39'n opsie en klik op [Volgende], of klik op [Kanselleer] ' +
+        'om die skep van '#39'n nuwe Stel Boeke te kanselleer.'
     end
     item
       IndexID = 543
@@ -2257,15 +2257,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Skakel om van TurboCASH3 na <@APPNAME@>?'
+      Text = 'Skakel om van TurboCASH3 na <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Pasmaak jou eie Stel Boeke (Gevorderd)?'
+      Text = 'Pasmaak jou eie Stel Boeke (Gevorderd)'
     end
     item
       IndexID = 548
-      Text = 'Laat <@APPNAME@> jou help om '#39'n Stel Boeke te skep?'
+      Text = 'Laat <@APPNAME@> jou help om '#39'n Stel Boeke te skep'
     end
     item
       IndexID = 559
@@ -2821,7 +2821,7 @@ object TTranslationSaveObject
       IndexID = 696
       Text = 
         'Ongeldige volgende nommer! Verander dit in '#39'Opstel '#8594' Dokumente o' +
-        'pstel'#39
+        'pstel'#39'!'
     end
     item
       IndexID = 697
@@ -11069,7 +11069,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Omskep <@APPNAME@> na di'#233' weergawe?'
+      Text = 'Omskep <@APPNAME@> na di'#233' weergawe'
     end
     item
       IndexID = 3113
@@ -16557,5 +16557,9 @@ object TTranslationSaveObject
     item
       IndexID = 906591
       Text = 'GEEN-BTW Dokumentuitleg (15-kode)'
+    end
+    item
+      IndexID = 3739
+      Text = 'Omskep kwotasie in een onverwerkte faktuur per kli'#235'nt'
     end>
 end

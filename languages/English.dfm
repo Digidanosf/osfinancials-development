@@ -462,7 +462,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Supplier returns listing'
+      Text = '&Supplier return listing'
     end
     item
       IndexID = 81
@@ -2402,19 +2402,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convert TurboCASH3 to <@APPNAME@>?'
+      Text = 'Convert TurboCASH3 to <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Customise your own Set of Books (Advanced)?'
+      Text = 'Customise your own Set of Books (Advanced)'
     end
     item
       IndexID = 548
-      Text = 'Let <@APPNAME@> help you to create a Set of Books?'
+      Text = 'Let <@APPNAME@> help you to create a Set of Books'
     end
     item
       IndexID = 547
-      Text = 'Copy an existing Set of Books?'
+      Text = 'Copy an existing Set of Books'
     end
     item
       IndexID = 546
@@ -3075,8 +3075,8 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click yes you will lose all your current links f' +
-        'or this account!'
+        'Warning, if you click [Yes] you will lose all your current links' +
+        ' for this account!'
     end
     item
       IndexID = 723
@@ -11566,7 +11566,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Convert <@APPNAME@> to this version'
     end
     item
       IndexID = 1000055
@@ -16022,7 +16022,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        'Order] button'
+        '[Order] button'
     end
     item
       IndexID = 3628
@@ -16488,8 +16488,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733
@@ -16518,5 +16518,9 @@ object TTranslationSaveObject
     item
       IndexID = 3738
       Text = 'LTR'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convert quote to one unprocessed invoice per client'
     end>
 end
