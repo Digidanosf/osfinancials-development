@@ -2218,7 +2218,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 547
-      Text = 'Kopieer '#39'n bestaande Stel Boeke'
+      Text = 'Kopieer '#39'n bestaande Stel Boeke '
     end
     item
       IndexID = 546
