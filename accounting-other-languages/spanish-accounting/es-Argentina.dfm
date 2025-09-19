@@ -2237,23 +2237,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = #191'Convertir TurboCASH3 a <@APPNAME@>?'
+      Text = 'Convertir TurboCASH3 a <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = #191'Personalizar libro contable (Avanzado)?'
+      Text = 'Personalizar libro contable (Avanzado)'
     end
     item
       IndexID = 548
-      Text = #191'<@APPNAME@> te ayuda a crear un nuevo libro contable?'
+      Text = '<@APPNAME@> te ayuda a crear un nuevo libro contable'
     end
     item
       IndexID = 547
-      Text = #191'Copiar un libro contable existente?'
+      Text = 'Copiar un libro contable existente'
     end
     item
       IndexID = 546
-      Text = #191'Convertir de TurboCASH (v 2.01-2.03)?'
+      Text = 'Convertir de TurboCASH (v 2.01-2.03)'
     end
     item
       IndexID = 557
@@ -11019,7 +11019,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = #191'Convertir <@APPNAME@> a esta versi'#243'n?'
+      Text = 'Convertir <@APPNAME@> a esta versi'#243'n'
     end
     item
       IndexID = 1000026
@@ -16373,8 +16373,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        '"'#161'Su fecha de fin de a'#241'o actual ""%s"" es posterior a hoy! '#191'Dese' +
-        'a dejar de abrir un nuevo a'#241'o?"'
+        '"'#161'Su fecha de fin de a'#241'o actual %s es posterior a hoy! '#191'Desea de' +
+        'jar de abrir un nuevo a'#241'o?"'
     end
     item
       IndexID = 3733
@@ -16551,5 +16551,9 @@ object TTranslationSaveObject
     item
       IndexID = 902008
       Text = 'Lista de precios - Mayorista - Ventas'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convertir presupuesto a una factura sin procesar por cliente'
     end>
 end

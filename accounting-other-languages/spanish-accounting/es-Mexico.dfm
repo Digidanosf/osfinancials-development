@@ -2255,25 +2255,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = #191'Convertir TurboCASH3 a <@APPNAME@>?'
+      Text = 'Convertir TurboCASH3 a <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = #191'Crear empresa (avanzado)?'
+      Text = 'Crear empresa (avanzado)'
     end
     item
       IndexID = 548
-      Text = #191'Desea que <@APPNAME@> le gu'#237'e en la creaci'#243'n de la empresa?'
+      Text = 'Desea que <@APPNAME@> le gu'#237'e en la creaci'#243'n de la empresa'
     end
     item
       IndexID = 547
-      Text = #191'Copiar empresa existente?'
+      Text = 'Copiar empresa existente'
     end
     item
       IndexID = 546
       Text = 
-        #191'Convertir de una versi'#243'n anterior de TurboCASH (v 2.01, 2.02, 2' +
-        '.03)?'
+        'Convertir de una versi'#243'n anterior de TurboCASH (v 2.01, 2.02, 2.' +
+        '03)'
     end
     item
       IndexID = 557
@@ -10983,7 +10983,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = #191'Convertir <@APPNAME@> a esta versi'#243'n?'
+      Text = 'Convertir <@APPNAME@> a esta versi'#243'n'
     end
     item
       IndexID = 1000026
@@ -16518,5 +16518,9 @@ object TTranslationSaveObject
     item
       IndexID = 906583
       Text = 'C'#243'digos de IVA - Tasas de IVA'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convertir presupuesto a una factura sin procesar por cliente'
     end>
 end
