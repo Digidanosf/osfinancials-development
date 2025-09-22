@@ -2927,8 +2927,8 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click yes you will lose all your current links f' +
-        'or this account!'
+        'Warning, if you click [Yes] you will lose all your current links' +
+        ' for this account!'
     end
     item
       IndexID = 723
@@ -3775,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Generate BB/F'
+      Text = 'Generate Balance B/F'
     end
     item
       IndexID = 934
@@ -5317,7 +5317,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1320
-      Text = 'Open Item'
+      Text = 'Open item'
     end
     item
       IndexID = 1321
@@ -12471,14 +12471,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input associated with this project! Do you wis' +
-        'h to continue ? All project data will be lost!'
+        'There is document(s) associated with this project! Do you wish t' +
+        'o continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input associated with this project! Do you ' +
-        'wish to continue ? All project data will be lost!'
+        'There is transaction(s) associated with this project! Do you wis' +
+        'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3351
@@ -16340,8 +16340,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date %s is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733
