@@ -3775,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Gen BO/D'
+      Text = 'Genereer Balans O/D'
     end
     item
       IndexID = 934
@@ -16379,7 +16379,7 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Jou huidige oop jaar se einddatum "%s" is groter as vandag! Wil ' +
+        'Jou huidige oop jaar se einddatum %s is groter as vandag! Wil ' +
         'jy ophou om '#39'n nuwe jaar te open?'
     end
     item

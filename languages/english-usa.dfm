@@ -3775,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Generate BB/F'
+      Text = 'Generate Balance B/F'
     end
     item
       IndexID = 934
@@ -5317,7 +5317,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1320
-      Text = 'Open Item'
+      Text = 'Open item'
     end
     item
       IndexID = 1321
@@ -8065,7 +8065,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2172
-      Text = 'Generate BB/F options'
+      Text = 'Generate Balance B/F options'
     end
     item
       IndexID = 2171
@@ -16342,8 +16342,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date %s is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733

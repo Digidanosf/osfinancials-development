@@ -3775,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Generate BB/F'
+      Text = 'Generate Balance B/F'
     end
     item
       IndexID = 934
@@ -5317,7 +5317,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1320
-      Text = 'Open Item'
+      Text = 'Open item'
     end
     item
       IndexID = 1321
