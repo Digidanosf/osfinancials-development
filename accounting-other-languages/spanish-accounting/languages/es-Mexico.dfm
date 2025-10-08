@@ -2382,7 +2382,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 580
-      Text = 'Abierto para contabilizaci'#243'n'
+      Text = 'Permitir contab.'
     end
     item
       IndexID = 579
