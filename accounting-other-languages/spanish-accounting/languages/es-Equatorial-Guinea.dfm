@@ -126,7 +126,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'Cuenta de impuestos'
+      Text = 'Cuenta IGE'
     end
     item
       IndexID = 34
@@ -242,7 +242,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 63
-      Text = '&Impuestos'
+      Text = '&IGE'
     end
     item
       IndexID = 64
@@ -690,7 +690,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 176
-      Text = 'N'#176' de cuenta'
+      Text = 'N'#186' cuenta'
     end
     item
       IndexID = 177
@@ -798,7 +798,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'Referencia fiscal'
+      Text = 'Referencia NIF'
     end
     item
       IndexID = 203
@@ -926,7 +926,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 234
-      Text = 'N'#176' de factura'
+      Text = 'N'#186' factura'
     end
     item
       IndexID = 235
@@ -1006,7 +1006,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'Cuentas de impuestos'
+      Text = 'Cuentas IGE'
     end
     item
       IndexID = 255
@@ -1126,11 +1126,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 284
-      Text = 'Desde N'#176' factura'
+      Text = 'Desde n'#186' factura'
     end
     item
       IndexID = 285
-      Text = 'Hasta N'#176' factura'
+      Text = 'Hasta n'#186' factura'
     end
     item
       IndexID = 286
@@ -1186,7 +1186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 299
-      Text = 'N'#176' nota de cr'#233'dito'
+      Text = 'N'#186' nota de cr'#233'dito'
     end
     item
       IndexID = 300
@@ -1246,7 +1246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'Tipo de impuesto'
+      Text = 'M'#233'todo de IGE'
     end
     item
       IndexID = 315
@@ -1254,11 +1254,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 316
-      Text = 'N'#176' registro de empresa'
+      Text = 'N'#186' registro empresa'
     end
     item
       IndexID = 317
-      Text = 'RUT (Rol '#218'nico Tributario)'
+      Text = 'N'#186' NIF'
     end
     item
       IndexID = 318
@@ -1274,7 +1274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 321
-      Text = 'Siguiente N'#176' factura'
+      Text = 'Siguiente n'#186' factura'
     end
     item
       IndexID = 322
@@ -1294,7 +1294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 326
-      Text = 'Siguiente N'#176' nota de cr'#233'dito'
+      Text = 'Siguiente n'#186' nota de cr'#233'dito'
     end
     item
       IndexID = 327
@@ -1310,7 +1310,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 330
-      Text = 'Siguiente N'#176' compra'
+      Text = 'Siguiente n'#186' compra'
     end
     item
       IndexID = 331
@@ -1326,11 +1326,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Siguiente N'#186' (Dev. Prov.)'
+      Text = 'Siguiente n'#186' (dev. prov.)'
     end
     item
       IndexID = 335
-      Text = 'Diario (Dev. Prov.)'
+      Text = 'Diario (dev. prov.)'
     end
     item
       IndexID = 336
@@ -1342,7 +1342,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 338
-      Text = 'Siguiente N'#176' pedido'
+      Text = 'Siguiente n'#186' pedido'
     end
     item
       IndexID = 339
@@ -1354,7 +1354,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 341
-      Text = 'Siguiente N'#176' cotizaci'#243'n'
+      Text = 'Siguiente n'#186' cotizaci'#243'n'
     end
     item
       IndexID = 342
@@ -1534,11 +1534,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 390
-      Text = 'Opciones de informe de impuestos'
+      Text = 'Opciones de informe IGE'
     end
     item
       IndexID = 391
-      Text = 'C'#243'digo de impuesto'
+      Text = 'C'#243'digo IGE'
     end
     item
       IndexID = 392
@@ -1602,7 +1602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 407
-      Text = 'Ver transacciones de impuestos'
+      Text = 'Ver transacciones IGE'
     end
     item
       IndexID = 408
@@ -1610,7 +1610,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 409
-      Text = 'Ver impuestos por separado'
+      Text = 'Ver IGE por separado'
     end
     item
       IndexID = 410
@@ -1874,7 +1874,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 469
-      Text = #161'Esta no es una cuenta de impuestos!'
+      Text = #161'Esta no es una cuenta de IGE!'
     end
     item
       IndexID = 470
@@ -2131,8 +2131,8 @@ object TTranslationSaveObject
     item
       IndexID = 529
       Text = 
-        #161'Esta cuenta de impuestos tiene transacciones! '#191'Desea transferir' +
-        'las a otra cuenta de impuestos?'
+        #161'Esta cuenta de IGE tiene transacciones! '#191'Desea transferirlas a ' +
+        'otra cuenta de IGE?'
     end
     item
       IndexID = 530
@@ -2470,7 +2470,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'Impuesto'
+      Text = 'IGE'
     end
     item
       IndexID = 610
@@ -2578,7 +2578,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 637
-      Text = #191'Incluir saldos iniciales?'
+      Text = 'Incluir saldos iniciales'
     end
     item
       IndexID = 638
@@ -2776,11 +2776,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 687
-      Text = 'IVA excluido'
+      Text = 'IGE excluido'
     end
     item
       IndexID = 688
-      Text = 'IVA incluido'
+      Text = 'IGE incluido'
     end
     item
       IndexID = 689
@@ -2842,11 +2842,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 703
-      Text = 'N'#176' de compra'
+      Text = 'N'#186' compra'
     end
     item
       IndexID = 704
-      Text = 'N'#176' de devoluci'#243'n a proveedor'
+      Text = 'N'#186' devoluci'#243'n a proveedor'
     end
     item
       IndexID = 705
@@ -3034,15 +3034,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 750
-      Text = 'N'#176' de factura fiscal'
+      Text = 'N'#186' factura fiscal'
     end
     item
       IndexID = 751
-      Text = 'N'#176' de cotizaci'#243'n'
+      Text = 'N'#186' cotizaci'#243'n'
     end
     item
       IndexID = 752
-      Text = 'N'#176' de devoluci'#243'n a proveedor'
+      Text = 'N'#186' devoluci'#243'n a proveedor'
     end
     item
       IndexID = 753
@@ -3066,11 +3066,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 758
-      Text = 'N'#176' de nota de cr'#233'dito'
+      Text = 'N'#186' nota de cr'#233'dito'
     end
     item
       IndexID = 759
-      Text = 'N'#176' de compra'
+      Text = 'N'#186' compra'
     end
     item
       IndexID = 761
@@ -3078,7 +3078,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 762
-      Text = 'N'#176' de pedido'
+      Text = 'N'#186' pedido'
     end
     item
       IndexID = 763
@@ -3120,7 +3120,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 771
-      Text = 'N'#176' de cotizaci'#243'n'
+      Text = 'N'#186' cotizaci'#243'n'
     end
     item
       IndexID = 772
@@ -3311,8 +3311,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        #161'No puede tener un tipo de impuesto para clientes o proveedores ' +
-        'en el sistema b'#225'sico de pagos!'
+        #161'No puede tener un tipo de IGE para clientes o proveedores en el' +
+        ' sistema b'#225'sico de pagos!'
     end
     item
       IndexID = 817
@@ -3331,9 +3331,9 @@ object TTranslationSaveObject
     item
       IndexID = 821
       Text = 
-        'El m'#233'todo b'#225'sico de pagos de impuestos es puramente en efectivo.' +
-        ' El impuesto se paga a la autoridad fiscal solo cuando se recibe' +
-        ' de los clientes. '#191'Desea continuar?'
+        'El m'#233'todo b'#225'sico de pagos de IGE es puramente en efectivo. El IG' +
+        'E se paga a la autoridad fiscal solo cuando se recibe de los cli' +
+        'entes. '#191'Desea continuar?'
     end
     item
       IndexID = 822
@@ -4516,7 +4516,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1120
-      Text = 'N'#176' de documento'
+      Text = 'N'#186' documento'
     end
     item
       IndexID = 1121
@@ -4558,7 +4558,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'Ref. de exenci'#243'n fiscal'
+      Text = 'Ref. exenci'#243'n del cliente'
     end
     item
       IndexID = 1131
@@ -4590,7 +4590,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1138
-      Text = 'Importe de impuesto'
+      Text = 'Monto IGE'
     end
     item
       IndexID = 1139
@@ -4938,7 +4938,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1224
-      Text = 'N'#176' de pedido'
+      Text = 'N'#186' pedido'
     end
     item
       IndexID = 1225
@@ -5732,7 +5732,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1706
-      Text = 'N'#176
+      Text = 'N'#186
     end
     item
       IndexID = 1704
@@ -5748,7 +5748,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1701
-      Text = 'N'#176' de referencia'
+      Text = 'N'#186' referencia'
     end
     item
       IndexID = 1713
@@ -6048,7 +6048,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1789
-      Text = 'Cuentas de impuestos'
+      Text = 'Cuentas IGE'
     end
     item
       IndexID = 1788
@@ -6224,7 +6224,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1832
-      Text = 'N'#176' de art'#237'culo'
+      Text = 'N'#186' art'#237'culo'
     end
     item
       IndexID = 1831
@@ -6340,7 +6340,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1863
-      Text = 'Impuesto'
+      Text = 'IGE'
     end
     item
       IndexID = 1862
@@ -6600,7 +6600,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1925
-      Text = 'Impuesto'
+      Text = 'IGE'
     end
     item
       IndexID = 1924
@@ -7076,11 +7076,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20060
-      Text = 'N'#186' de diario'
+      Text = 'N'#186' diario'
     end
     item
       IndexID = 20059
-      Text = 'N'#186' de transacci'#243'n'
+      Text = 'N'#186' transacci'#243'n'
     end
     item
       IndexID = 20058
@@ -7154,19 +7154,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20077
-      Text = 'N'#186' '#250'nico de cuenta'
+      Text = 'N'#186' '#250'nico cuenta'
     end
     item
       IndexID = 20076
-      Text = 'N'#186' '#250'nico de l'#237'nea'
+      Text = 'N'#186' '#250'nico l'#237'nea'
     end
     item
       IndexID = 20075
-      Text = 'N'#186' '#250'nico de documento'
+      Text = 'N'#186' '#250'nico documento'
     end
     item
       IndexID = 20074
-      Text = 'N'#186' '#250'nico de art'#237'culo'
+      Text = 'N'#186' '#250'nico art'#237'culo'
     end
     item
       IndexID = 20085
@@ -7194,7 +7194,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'Sin impuesto'
+      Text = 'Sin IGE'
     end
     item
       IndexID = 1981
@@ -7232,7 +7232,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'Recordar impuesto en cuenta contrapartida'
+      Text = 'Recordar IGE en cuenta contrapartida'
     end
     item
       IndexID = 1984
@@ -7620,7 +7620,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = 'IGE-Importe'
+      Text = 'IGE-monto'
     end
     item
       IndexID = 2054
@@ -7780,7 +7780,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2089
-      Text = 'N'#176' doc.'
+      Text = 'N'#186' doc.'
     end
     item
       IndexID = 2088
@@ -8108,7 +8108,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2167
-      Text = 'Buscar por N'#176' de factura'
+      Text = 'Buscar por n'#186' de factura'
     end
     item
       IndexID = 2178
@@ -8116,9 +8116,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 
-        #161'Importe de impuesto encontrado pero cuenta de impuesto eliminad' +
-        'a!'
+      Text = #161'Monto de IGE encontrado pero cuenta de IGE eliminada!'
     end
     item
       IndexID = 2176
@@ -8254,7 +8252,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Editar impuesto'
+      Text = 'Editar IGE'
     end
     item
       IndexID = 2214
@@ -8270,7 +8268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2211
-      Text = 'N'#176' de cuenta bancaria'
+      Text = 'N'#186' cuenta bancaria'
     end
     item
       IndexID = 2210
@@ -9498,7 +9496,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Usar impuesto predeterminado'
+      Text = 'Usar IGE predeterminado'
     end
     item
       IndexID = 3018
@@ -10224,7 +10222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2987
-      Text = 'Ver n'#250'mero de factura'
+      Text = 'Ver n'#186' factura'
     end
     item
       IndexID = 2998
@@ -10292,15 +10290,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Usar impuesto vinculado'
+      Text = 'Usar IGE vinculado'
     end
     item
       IndexID = 3054
-      Text = 'Impuesto vinculado'
+      Text = 'IGE vinculado'
     end
     item
       IndexID = 3055
-      Text = 'Contra impuesto'
+      Text = 'Contra IGE'
     end
     item
       IndexID = 3056
@@ -10340,11 +10338,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Usar impuesto predeterminado'
+      Text = 'Usar IGE predeterminado'
     end
     item
       IndexID = 3028
-      Text = 'Cuenta de impuesto predeterminado'
+      Text = 'Cuenta de IGE predeterminada'
     end
     item
       IndexID = 3029
@@ -10372,15 +10370,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Usar impuesto vinculado'
+      Text = 'Usar IGE vinculado'
     end
     item
       IndexID = 3036
-      Text = 'Impuesto vinculado'
+      Text = 'IGE vinculado'
     end
     item
       IndexID = 3037
-      Text = 'Contra impuesto'
+      Text = 'Contra IGE'
     end
     item
       IndexID = 3038
@@ -10730,7 +10728,8 @@ object TTranslationSaveObject
       IndexID = 1000000
       Text = 
         'Archivo maestro de idioma personalizado - Equatorial Guinea (es-' +
-        'GQ) - NO TRADUCIR'
+        'GQ) - NO TRADUCIR. Para personalizar este archivo de idioma, cre' +
+        'ar una copia.'
     end
     item
       IndexID = 1000001
@@ -10746,11 +10745,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 900002
-      Text = 'N'#186' de casa'
+      Text = 'N'#186' casa'
     end
     item
       IndexID = 900003
-      Text = 'N'#186' de casa TV'
+      Text = 'N'#186' casa TV'
     end
     item
       IndexID = 900004
@@ -11448,11 +11447,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906068
-      Text = 'P'#225'g. N'#186
+      Text = 'P'#225'g. n'#186
     end
     item
       IndexID = 906069
-      Text = 'Su referencia fiscal'
+      Text = 'Su referencia NIF'
     end
     item
       IndexID = 1000055
@@ -11612,7 +11611,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'Fusionar '#237'tems por IVA en mayor'
+      Text = 'Fusionar '#237'tems por IGE en mayor'
     end
     item
       IndexID = 3161
@@ -11648,7 +11647,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'Impuesto estricto en cuenta'
+      Text = 'IGE estricto en cuenta'
     end
     item
       IndexID = 3170
@@ -11684,7 +11683,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3178
-      Text = 'Impuesto vinculado'
+      Text = 'IGE vinculado'
     end
     item
       IndexID = 3179
@@ -12095,7 +12094,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3278
-      Text = 'N'#250'mero de cuenta bancaria est'#225'ndar'
+      Text = 'N'#186' cuenta bancaria est'#225'ndar'
     end
     item
       IndexID = 3279
@@ -12159,7 +12158,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Ver impuesto en documentos'
+      Text = 'Ver IGE en documentos'
     end
     item
       IndexID = 3295
@@ -12171,7 +12170,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3297
-      Text = 'Ocultar este impuesto'
+      Text = 'Ocultar este IGE'
     end
     item
       IndexID = 3298
@@ -12329,7 +12328,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'Siguiente N'#186' diario'
+      Text = 'Siguiente n'#186' diario'
     end
     item
       IndexID = 3337
@@ -12366,8 +12365,8 @@ object TTranslationSaveObject
     item
       IndexID = 3345
       Text = 
-        #161'Consolidar l'#237'neas y usar impuestos afectar'#225' su informe de impue' +
-        'stos! Aseg'#250'rese de no usar impuestos o no consolidar l'#237'neas.'
+        #161'Consolidar l'#237'neas y usar IGE afectar'#225' su informe de IGE! Aseg'#250'r' +
+        'ese de no usar IGE o no consolidar l'#237'neas.'
     end
     item
       IndexID = 3346
@@ -12401,7 +12400,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Cuentas de ventas, compras, costo de ventas e impuestos'
+      Text = 'Cuentas de ventas, compras, costo de ventas e IGE'
     end
     item
       IndexID = 3353
@@ -12473,11 +12472,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906084
-      Text = 'Impuesto del documento'
+      Text = 'IGE del documento'
     end
     item
       IndexID = 906085
-      Text = 'Impuesto sobre cuenta de impuestos'
+      Text = 'IGE sobre cuenta de IGE'
     end
     item
       IndexID = 906086
@@ -12754,7 +12753,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'B'#250'squeda de c'#243'digo postal / NIF / registro'
+      Text = 'B'#250'squeda c'#243'digo postal / NIF / registro'
     end
     item
       IndexID = 3410
@@ -12877,7 +12876,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3438
-      Text = 'Declaraci'#243'n de IGE belga'
+      Text = 'Declaraci'#243'n de impuestos belga'
     end
     item
       IndexID = 3439
@@ -12955,11 +12954,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Clases de impuestos'
+      Text = 'Clases de IGE'
     end
     item
       IndexID = 3466
-      Text = 'Clase de impuesto'
+      Text = 'Clase de IGE'
     end
     item
       IndexID = 3467
@@ -13383,7 +13382,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'Impuestos por per'#237'odo'
+      Text = 'IGE por per'#237'odo'
     end
     item
       IndexID = 906106
@@ -13951,51 +13950,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906248
-      Text = 'Factura Sin IGE (sin c'#243'digos)'
+      Text = 'Factura sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906249
-      Text = 'Nota de cr'#233'dito Sin IGE (sin c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906250
-      Text = 'Cotizaci'#243'n Sin IGE (sin c'#243'digos)'
+      Text = 'Cotizaci'#243'n sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906251
-      Text = 'Compra Sin IGE (sin c'#243'digos)'
+      Text = 'Compra sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906252
-      Text = 'Devoluci'#243'n a proveedor Sin IGE (sin c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906253
-      Text = 'Pedido Sin IGE (sin c'#243'digos)'
+      Text = 'Pedido sin IGE (sin c'#243'digos)'
     end
     item
       IndexID = 906254
-      Text = 'Factura Sin IGE (15 c'#243'digos)'
+      Text = 'Factura sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906255
-      Text = 'Nota de cr'#233'dito Sin IGE (15 c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906256
-      Text = 'Cotizaci'#243'n Sin IGE (15 c'#243'digos)'
+      Text = 'Cotizaci'#243'n sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906257
-      Text = 'Compra Sin IGE (15 c'#243'digos)'
+      Text = 'Compra sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906258
-      Text = 'Devoluci'#243'n a proveedor Sin IGE (15 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906259
-      Text = 'Pedido Sin IGE (15 c'#243'digos)'
+      Text = 'Pedido sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906217
@@ -14023,7 +14022,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906265
-      Text = 'Informe de impuestos'
+      Text = 'Informe de IGE'
     end
     item
       IndexID = 903101
@@ -14239,7 +14238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Corregir importes con/sin impuestos (error inverso)'
+      Text = 'Corregir importes con/sin IGE (error inverso)'
     end
     item
       IndexID = 903155
@@ -14421,7 +14420,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Libro mayor e impuestos'
+      Text = 'Libro mayor e IGE'
     end
     item
       IndexID = 906281
@@ -15899,7 +15898,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906339
-      Text = 'N'#250'mero de IGE y registro mercantil'
+      Text = 'N'#186' de NIF y registro mercantil'
     end
     item
       IndexID = 906440
@@ -15915,7 +15914,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906443
-      Text = 'N'#250'mero de referencia'
+      Text = 'N'#186' ref.'
     end
     item
       IndexID = 906444
@@ -16123,7 +16122,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3675
-      Text = 'Lista de impuestos deudor con NIF'
+      Text = 'Lista de IGE deudor con NIF'
     end
     item
       IndexID = 3676
@@ -16173,7 +16172,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'Informe impositivo - Ref./Doc. N'#176
+      Text = 'Informe IGE - ref./doc. n'#186
     end
     item
       IndexID = 906551
@@ -16311,7 +16310,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906553
-      Text = 'Lista de impuestos de acreedores con NIF'
+      Text = 'Lista de IGE de acreedores con NIF'
     end
     item
       IndexID = 906554
@@ -16535,19 +16534,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'C'#243'digos de impuestos - Tasas de impuestos'
+      Text = 'C'#243'digos de IGE - Tasas de IGE'
     end
     item
       IndexID = 906589
-      Text = 'Archivo de dise'#241'o SIN IGE'
+      Text = 'Archivo dise'#241'o sin IGE'
     end
     item
       IndexID = 906590
-      Text = 'Dise'#241'o de documento SIN IGE'
+      Text = 'Dise'#241'o documento sin IGE'
     end
     item
       IndexID = 906591
-      Text = 'Dise'#241'o de documento SIN IGE (15 c'#243'digos)'
+      Text = 'Dise'#241'o documento sin IGE (15 c'#243'digos)'
     end
     item
       IndexID = 906588

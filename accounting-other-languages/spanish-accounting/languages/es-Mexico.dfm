@@ -126,7 +126,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'Cuenta fiscal'
+      Text = 'Cuenta IVA'
     end
     item
       IndexID = 34
@@ -242,7 +242,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 63
-      Text = '&Impuestos'
+      Text = '&IVA'
     end
     item
       IndexID = 64
@@ -618,7 +618,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Peso mexicano'
+      Text = 'Peso'
     end
     item
       IndexID = 158
@@ -690,7 +690,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 176
-      Text = 'N'#186' de cuenta'
+      Text = 'N'#186' cuenta'
     end
     item
       IndexID = 177
@@ -798,7 +798,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'Ref. fiscal'
+      Text = 'Ref. RFC'
     end
     item
       IndexID = 203
@@ -1006,7 +1006,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'Cuentas fiscales'
+      Text = 'Cuentas IVA'
     end
     item
       IndexID = 255
@@ -1126,11 +1126,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 284
-      Text = 'Desde N'#186' factura'
+      Text = 'Desde n'#186' factura'
     end
     item
       IndexID = 285
-      Text = 'Hasta N'#186' factura'
+      Text = 'Hasta n'#186' factura'
     end
     item
       IndexID = 286
@@ -1246,7 +1246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'M'#233'todo de impuestos'
+      Text = 'M'#233'todo de IVA'
     end
     item
       IndexID = 315
@@ -1274,7 +1274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 321
-      Text = 'Siguiente N'#186' factura'
+      Text = 'Siguiente n'#186' factura'
     end
     item
       IndexID = 322
@@ -1294,7 +1294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 326
-      Text = 'Siguiente N'#186' nota de cr'#233'dito'
+      Text = 'Siguiente n'#186' nota de cr'#233'dito'
     end
     item
       IndexID = 327
@@ -1310,7 +1310,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 330
-      Text = 'Siguiente N'#186' compra'
+      Text = 'Siguiente n'#186' compra'
     end
     item
       IndexID = 331
@@ -1326,11 +1326,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Siguiente N.'#186' Devol. Prov.'
+      Text = 'Siguiente n'#186' devol. prov.'
     end
     item
       IndexID = 335
-      Text = 'Diario Devol. Prov.'
+      Text = 'Diario devol. prov.'
     end
     item
       IndexID = 336
@@ -1342,7 +1342,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 338
-      Text = 'Siguiente N'#186' pedido'
+      Text = 'Siguiente n'#186' pedido'
     end
     item
       IndexID = 339
@@ -1354,15 +1354,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 341
-      Text = 'Siguiente N'#186' presupuesto'
+      Text = 'Siguiente n'#186' cotizaci'#243'n'
     end
     item
       IndexID = 342
-      Text = 'Encabezado de presupuesto'
+      Text = 'Encabezado de cotizaci'#243'n'
     end
     item
       IndexID = 343
-      Text = 'Mensaje de presupuesto'
+      Text = 'Mensaje de cotizaci'#243'n'
     end
     item
       IndexID = 344
@@ -1534,11 +1534,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 390
-      Text = 'Opciones de reporte de impuestos'
+      Text = 'Opciones reporte de IVA'
     end
     item
       IndexID = 391
-      Text = 'C'#243'digo de impuesto'
+      Text = 'C'#243'digo IVA'
     end
     item
       IndexID = 392
@@ -1602,7 +1602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 407
-      Text = 'Ver transacciones de IVA'
+      Text = 'Ver transacciones IVA'
     end
     item
       IndexID = 408
@@ -2135,8 +2135,8 @@ object TTranslationSaveObject
     item
       IndexID = 529
       Text = 
-        #161'Esta cuenta fiscal tiene transacciones! '#191'Desea transferirlas a ' +
-        'otra cuenta?'
+        #161'Esta cuenta de IVA tiene transacciones! '#191'Desea transferirlas a ' +
+        'otra cuenta de IVA?'
     end
     item
       IndexID = 530
@@ -2478,7 +2478,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'Impuesto'
+      Text = 'IVA'
     end
     item
       IndexID = 610
@@ -2586,7 +2586,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 637
-      Text = #191'Incluir saldos iniciales?'
+      Text = 'Incluir saldos iniciales'
     end
     item
       IndexID = 638
@@ -2850,11 +2850,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 703
-      Text = 'N'#250'm. de compra'
+      Text = 'N'#186' compra'
     end
     item
       IndexID = 704
-      Text = 'N'#250'm. de devoluci'#243'n'
+      Text = 'N'#186' devoluci'#243'n a proveedor'
     end
     item
       IndexID = 705
@@ -3040,15 +3040,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 750
-      Text = 'N'#250'm. de factura fiscal'
+      Text = 'N'#186' factura fiscal'
     end
     item
       IndexID = 751
-      Text = 'N'#186' Presupuesto'
+      Text = 'N'#186' cotizaci'#243'n'
     end
     item
       IndexID = 752
-      Text = 'N'#186' Devoluci'#243'n a proveedor'
+      Text = 'N'#186' devoluci'#243'n a proveedor'
     end
     item
       IndexID = 753
@@ -3072,11 +3072,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 758
-      Text = 'N'#186' Nota de cr'#233'dito'
+      Text = 'N'#186' nota de cr'#233'dito'
     end
     item
       IndexID = 759
-      Text = 'N'#186' Compra'
+      Text = 'N'#186' compra'
     end
     item
       IndexID = 761
@@ -3084,7 +3084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 762
-      Text = 'N'#186' Pedido'
+      Text = 'N'#186' pedido'
     end
     item
       IndexID = 763
@@ -3127,11 +3127,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 771
-      Text = 'N'#186' Presupuesto'
+      Text = 'N'#186' cotizaci'#243'n'
     end
     item
       IndexID = 772
-      Text = 'Desde presupuesto'
+      Text = 'Desde cotizaci'#243'n'
     end
     item
       IndexID = 773
@@ -3310,8 +3310,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        #161'No puede usar un tipo de impuesto para clientes/proveedores en ' +
-        'el sistema b'#225'sico!'
+        #161'No puede usar un tipo de IVA para clientes/proveedores en el si' +
+        'stema de pagos!'
     end
     item
       IndexID = 817
@@ -3331,9 +3331,9 @@ object TTranslationSaveObject
     item
       IndexID = 821
       Text = 
-        #191'Usar m'#233'todo de impuestos en efectivo? Este m'#233'todo registra el I' +
-        'VA solo cuando se recibe el pago del cliente. El impuesto se pag' +
-        'a a las autoridades hasta ese momento. '#191'Desea continuar?'
+        #191'Usar m'#233'todo de IVA en efectivo? Este m'#233'todo registra el IVA sol' +
+        'o cuando se recibe el pago del cliente. El IVA se paga al SAT ha' +
+        'sta ese momento. '#191'Desea continuar?'
     end
     item
       IndexID = 822
@@ -3408,7 +3408,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 839
-      Text = 'Presupuestos'
+      Text = '&Cotizaciones'
     end
     item
       IndexID = 840
@@ -3608,7 +3608,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 890
-      Text = 'Para abrirlo, vaya a '#39'Configuraci'#243'n '#8594' Fechas de informe'#39'.'
+      Text = 'Para abrirlo, vaya a '#39'Configuraci'#243'n '#8594' Fechas de reporte'#39'.'
     end
     item
       IndexID = 891
@@ -4121,7 +4121,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1018
-      Text = 'Eliminar presupuestos'
+      Text = 'Eliminar cotizaciones'
     end
     item
       IndexID = 1019
@@ -4250,8 +4250,8 @@ object TTranslationSaveObject
     item
       IndexID = 1053
       Text = 
-        #161'Seleccione '#39'Configuraci'#243'n '#8594' Informe de empresa'#39' para realizar c' +
-        'ambios!'
+        #161'Seleccione '#39'Configuraci'#243'n '#8594' Informaci'#243'n de la empresa'#39' para rea' +
+        'lizar cambios!'
     end
     item
       IndexID = 1054
@@ -4509,7 +4509,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1120
-      Text = 'N'#186' de documento'
+      Text = 'N'#186' documento'
     end
     item
       IndexID = 1121
@@ -4551,7 +4551,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'Ref. de exenci'#243'n'
+      Text = 'Ref. exenci'#243'n cliente'
     end
     item
       IndexID = 1131
@@ -4571,7 +4571,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'Registro de impuestos'
+      Text = 'Registro fiscal'
     end
     item
       IndexID = 1136
@@ -4583,7 +4583,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1138
-      Text = 'Monto de impuesto'
+      Text = 'Monto IVA'
     end
     item
       IndexID = 1139
@@ -4623,7 +4623,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1148
-      Text = 'Presupuesto aceptado'
+      Text = 'Cotizaci'#243'n aceptado'
     end
     item
       IndexID = 1149
@@ -4927,7 +4927,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1223
-      Text = 'Presupuestos para convertir a factura'
+      Text = 'Cotizaci'#243'n para convertir a factura'
     end
     item
       IndexID = 1224
@@ -6037,7 +6037,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1789
-      Text = 'Cuentas de impuestos'
+      Text = 'Cuentas IVA'
     end
     item
       IndexID = 1788
@@ -6325,7 +6325,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1863
-      Text = 'Impuesto'
+      Text = 'IVA'
     end
     item
       IndexID = 1862
@@ -6377,7 +6377,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1874
-      Text = 'Confirmar presupuestos y pedidos'
+      Text = 'Confirmar cotizaciones y pedidos'
     end
     item
       IndexID = 1873
@@ -6393,7 +6393,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1870
-      Text = 'Presupuestos'
+      Text = 'Cotizaciones'
     end
     item
       IndexID = 1881
@@ -6581,7 +6581,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1925
-      Text = 'Impuesto'
+      Text = 'IVA'
     end
     item
       IndexID = 1924
@@ -7135,11 +7135,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20077
-      Text = 'N'#186' '#250'nico cuenta'
+      Text = 'N'#186' '#250'nica cuenta'
     end
     item
       IndexID = 20076
-      Text = 'N'#186' '#250'nico l'#237'nea'
+      Text = 'N'#186' '#250'nica l'#237'nea'
     end
     item
       IndexID = 20075
@@ -7175,7 +7175,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'Sin impuesto'
+      Text = 'Sin IVA'
     end
     item
       IndexID = 1981
@@ -7214,7 +7214,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'Recordar impuesto en contrapartida'
+      Text = 'Recordar IVA en contrapartida'
     end
     item
       IndexID = 1984
@@ -7602,7 +7602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = 'IVA-Monto'
+      Text = 'IVA-monto'
     end
     item
       IndexID = 2054
@@ -7618,7 +7618,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '*Art'#237'culo sin IVA'
+      Text = '*Indica art'#237'culo sin IVA'
     end
     item
       IndexID = 2050
@@ -8076,7 +8076,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2169
-      Text = 'Presupuesto'
+      Text = 'Cotizaci'#243'n'
     end
     item
       IndexID = 2168
@@ -8084,7 +8084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2167
-      Text = 'Buscar por N'#186' factura'
+      Text = 'Buscar por n'#186' factura'
     end
     item
       IndexID = 2178
@@ -8092,9 +8092,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 
-        #161'Monto de impuesto encontrado pero la cuenta de impuesto est'#225' el' +
-        'iminada!'
+      Text = #161'Monto de IVA encontrado pero la cuenta de IVA est'#225' eliminada!'
     end
     item
       IndexID = 2176
@@ -8230,7 +8228,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Editar impuesto'
+      Text = 'Editar IVA'
     end
     item
       IndexID = 2214
@@ -9470,7 +9468,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Usar impuesto predeterminado'
+      Text = 'Usar IVA predeterminado'
     end
     item
       IndexID = 3018
@@ -10156,7 +10154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2983
-      Text = 'Presupuestos/Pedidos'
+      Text = 'Cotizaciones/Pedidos'
     end
     item
       IndexID = 2982
@@ -10188,7 +10186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2987
-      Text = 'Ver N'#186' factura'
+      Text = 'Ver n'#186' factura'
     end
     item
       IndexID = 2998
@@ -10256,15 +10254,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Usar impuesto vinculado'
+      Text = 'Usar IVA vinculado'
     end
     item
       IndexID = 3054
-      Text = 'Impuesto vinculado'
+      Text = 'IVA vinculado'
     end
     item
       IndexID = 3055
-      Text = 'Contra impuesto'
+      Text = 'Contra IVA'
     end
     item
       IndexID = 3056
@@ -10304,11 +10302,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Usar impuesto predeterminado'
+      Text = 'Usar IVA predeterminado'
     end
     item
       IndexID = 3028
-      Text = 'Cuenta de impuesto predeterminada'
+      Text = 'Cuenta de IVA predeterminada'
     end
     item
       IndexID = 3029
@@ -10336,15 +10334,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Usar impuesto vinculado'
+      Text = 'Usar IVA vinculado'
     end
     item
       IndexID = 3036
-      Text = 'Impuesto vinculado'
+      Text = 'IVA vinculado'
     end
     item
       IndexID = 3037
-      Text = 'Contra impuesto'
+      Text = 'Contra IVA'
     end
     item
       IndexID = 3038
@@ -10498,7 +10496,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3079
-      Text = #161'Presupuesto(s) generado(s)!'
+      Text = #161'Cotizaci'#243'n(es) generada(s)!'
     end
     item
       IndexID = 3080
@@ -10692,7 +10690,8 @@ object TTranslationSaveObject
       IndexID = 1000000
       Text = 
         'Archivo maestro de idioma personalizado - Mexico (es-MX) - NO TR' +
-        'ADUCIR'
+        'ADUCIR. Para personalizar este archivo de idioma, crear una copi' +
+        'a.'
     end
     item
       IndexID = 1000001
@@ -10712,7 +10711,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 900003
-      Text = 'N'#186' casa TV'
+      Text = 'N'#186' casa - unidad'
     end
     item
       IndexID = 900004
@@ -11410,11 +11409,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906068
-      Text = 'P'#225'g. N'#186
+      Text = 'P'#225'g. n'#186
     end
     item
       IndexID = 906069
-      Text = 'Su referencia fiscal'
+      Text = 'Su referencia RFC'
     end
     item
       IndexID = 1000055
@@ -11464,7 +11463,7 @@ object TTranslationSaveObject
       IndexID = 3133
       Text = 
         #161'Si desea reservar inventario para ventas, este campo se deducir' +
-        #225' de los niveles de inventario actuales en un presupuesto!'
+        #225' de los niveles de inventario actuales en una cotizaci'#243'n!'
     end
     item
       IndexID = 3134
@@ -11488,7 +11487,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3139
-      Text = 'Act: %s Pres: %s Ped: %s Esp: %s'
+      Text = 'Act: %s Cot: %s Ped: %s Esp: %s'
     end
     item
       IndexID = 3140
@@ -11574,7 +11573,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'Fusionar art'#237'culos por impuesto en libro mayor'
+      Text = 'Fusionar art'#237'culos por IVA en libro mayor'
     end
     item
       IndexID = 3161
@@ -11610,7 +11609,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'Impuesto estricto en cuenta'
+      Text = 'IVA estricto en cuenta'
     end
     item
       IndexID = 3170
@@ -11646,7 +11645,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3178
-      Text = 'Impuesto vinculado'
+      Text = 'IVA vinculado'
     end
     item
       IndexID = 3179
@@ -12119,7 +12118,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Ver impuesto en documentos'
+      Text = 'Ver IVA en documentos'
     end
     item
       IndexID = 3295
@@ -12131,7 +12130,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3297
-      Text = 'Ocultar este impuesto'
+      Text = 'Ocultar este IVA'
     end
     item
       IndexID = 3298
@@ -12267,7 +12266,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3330
-      Text = 'Presupuesto'
+      Text = 'Cotizaci'#243'n'
     end
     item
       IndexID = 3331
@@ -12291,7 +12290,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'Siguiente N'#186' de diario'
+      Text = 'Siguiente n'#186' de diario'
     end
     item
       IndexID = 3337
@@ -12328,8 +12327,8 @@ object TTranslationSaveObject
     item
       IndexID = 3345
       Text = 
-        #161'Consolidar l'#237'neas y usar impuestos afectar'#225' su reporte de impue' +
-        'stos! Aseg'#250'rese de no usar impuestos o no consolidar l'#237'neas.'
+        #161'Consolidar l'#237'neas y usar IVA afectar'#225' su reporte de IVA! Aseg'#250'r' +
+        'ese de no usar IVA o no consolidar l'#237'neas.'
     end
     item
       IndexID = 3346
@@ -12363,7 +12362,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Cuentas de ventas, compras, costo de ventas e impuestos'
+      Text = 'Cuentas de ventas, compras, costo de ventas e IVA'
     end
     item
       IndexID = 3353
@@ -12439,7 +12438,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906085
-      Text = 'IVA sobre cuenta de impuestos'
+      Text = 'IVA sobre cuenta de IVA'
     end
     item
       IndexID = 906086
@@ -12716,7 +12715,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'B'#250'squeda: c'#243'digo postal / RFC / N'#186' registro'
+      Text = 'B'#250'squeda: c'#243'digo postal / RFC / n'#186' registro'
     end
     item
       IndexID = 3410
@@ -12917,11 +12916,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Clases de impuestos'
+      Text = 'Clases de IVA'
     end
     item
       IndexID = 3466
-      Text = 'Clase de impuesto'
+      Text = 'Clase de IVA'
     end
     item
       IndexID = 3467
@@ -13333,7 +13332,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3568
-      Text = 'Presupuestos por periodo'
+      Text = 'Cotizaciones por periodo'
     end
     item
       IndexID = 3569
@@ -14585,7 +14584,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'Impuestos por per'#237'odo'
+      Text = 'IVA por per'#237'odo'
     end
     item
       IndexID = 906106
@@ -15153,51 +15152,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906248
-      Text = 'Factura Sin IVA (sin c'#243'digos)'
+      Text = 'Factura sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906249
-      Text = 'Nota de cr'#233'dito Sin IVA (sin c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906250
-      Text = 'Cotizaci'#243'n Sin IVA (sin c'#243'digos)'
+      Text = 'Cotizaci'#243'n sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906251
-      Text = 'Compra Sin IVA (sin c'#243'digos)'
+      Text = 'Compra sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906252
-      Text = 'Devoluci'#243'n a proveedor Sin IVA (sin c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906253
-      Text = 'Pedido Sin IVA (sin c'#243'digos)'
+      Text = 'Pedido sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906254
-      Text = 'Factura Sin IVA (15 c'#243'digos)'
+      Text = 'Factura sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906255
-      Text = 'Nota de cr'#233'dito Sin IVA (15 c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906256
-      Text = 'Cotizaci'#243'n Sin IVA (15 c'#243'digos)'
+      Text = 'Cotizaci'#243'n sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906257
-      Text = 'Compra Sin IVA (15 c'#243'digos)'
+      Text = 'Compra sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906258
-      Text = 'Devoluci'#243'n a proveedor Sin IVA (15 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906259
-      Text = 'Pedido Sin IVA (15 c'#243'digos)'
+      Text = 'Pedido sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906217
@@ -15225,7 +15224,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906265
-      Text = 'Reporte de impuestos'
+      Text = 'Reporte de IVA'
     end
     item
       IndexID = 903101
@@ -15441,7 +15440,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Corregir monto con/sin impuestos (error inverso)'
+      Text = 'Corregir monto con/sin IVA (error inverso)'
     end
     item
       IndexID = 903155
@@ -15623,7 +15622,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Libro mayor e impuestos'
+      Text = 'Libro mayor e IVA'
     end
     item
       IndexID = 906281
@@ -16085,7 +16084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3675
-      Text = 'Lista de impuestos deudor con ID fiscal'
+      Text = 'Lista de IVA deudor con ID fiscal'
     end
     item
       IndexID = 3676
@@ -16135,7 +16134,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'Reporte de impuestos - Referencia/N'#186' documento'
+      Text = 'Reporte de IVA - referencia/n'#186' documento'
     end
     item
       IndexID = 906551
@@ -16274,7 +16273,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906553
-      Text = 'Lista de impuestos de proveedores con RFC'
+      Text = 'Lista de IVA de proveedores con RFC'
     end
     item
       IndexID = 906554
@@ -16369,8 +16368,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        #161'Est'#225' poniendo beneficio/p'#233'rdida en libro mayor con impuestos! '#161 +
-        'Esto afectar'#225' a los reportes fiscales! '#191'Desea continuar?'
+        #161'Est'#225' poniendo beneficio/p'#233'rdida en libro mayor con IVA! '#161'Esto a' +
+        'fectar'#225' a los reportes de IVA! '#191'Desea continuar?'
     end
     item
       IndexID = 3736
@@ -16388,15 +16387,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906589
-      Text = 'Archivo de dise'#241'o SIN IVA'
+      Text = 'Archivo dise'#241'o sin IVA'
     end
     item
       IndexID = 906590
-      Text = 'Dise'#241'o de documento SIN IVA'
+      Text = 'Dise'#241'o documento sin IVA'
     end
     item
       IndexID = 906591
-      Text = 'Dise'#241'o de documento SIN IVA (15 c'#243'digos)'
+      Text = 'Dise'#241'o documento sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906588
@@ -16538,10 +16537,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'C'#243'digos de IVA - Tasas de IVA'
+      Text = 'C'#243'digos IVA - Tasas de IVA'
     end
     item
       IndexID = 3739
-      Text = 'Convertir presupuesto a una factura sin procesar por cliente'
+      Text = 'Convertir cotizaci'#243'n a una factura sin procesar por cliente'
     end>
 end
