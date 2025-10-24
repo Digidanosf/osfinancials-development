@@ -102,7 +102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Inventory items'
+      Text = 'Inventory'
     end
     item
       IndexID = 28
@@ -314,7 +314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Vendor returns listing'
+      Text = '&Vendor return listing'
     end
     item
       IndexID = 81
@@ -2037,7 +2037,7 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Do you want to run the Data Integrity Check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -2927,8 +2927,8 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click yes you will lose all your current links f' +
-        'or this account!'
+        'Warning, if you click [Yes] you will lose all your current links' +
+        ' for this account!'
     end
     item
       IndexID = 723
@@ -3928,7 +3928,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 970
-      Text = 'Unlocking code (from <@APPNAME@> ):'
+      Text = 'Unlocking code (from <@APPNAME@>):'
     end
     item
       IndexID = 971
@@ -10498,8 +10498,8 @@ object TTranslationSaveObject
     item
       IndexID = 3076
       Text = 
-        'Theres still inventory items using this group! Please remove the' +
-        'm first!'
+        'There'#39's still inventory items using this group! Please remove th' +
+        'em first!'
     end
     item
       IndexID = 3077
@@ -10663,7 +10663,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3116
-      Text = 'https://www.osfinancials.org/en/forum-en?view=category&catid=8'
+      Text = 'https://www.osfinancials.org/en/forum-en?view=category&catid=8 '
     end
     item
       IndexID = 3117
@@ -10702,7 +10702,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'United States of America (English)'
+      Text = 
+        'English Master File for English Canada (en-CA) - Do Not Translat' +
+        'e. To customize this language file, create a copy.'
     end
     item
       IndexID = 1000001
@@ -11160,7 +11162,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
@@ -12473,14 +12475,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document input associated with this project! Do you wis' +
-        'h to continue ? All project data will be lost!'
+        'There is document(s) associated with this project! Do you wish t' +
+        'o continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input associated with this project! Do you ' +
-        'wish to continue ? All project data will be lost!'
+        'There is transaction(s) associated with this project! Do you wis' +
+        'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3351
@@ -12727,7 +12729,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
@@ -12782,7 +12784,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this PC can not find)'
+      Text = 'Delete not local (Books this PC cannot find)'
     end
     item
       IndexID = 3425
@@ -13836,11 +13838,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Posted items - Outstanding'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Unposted items - Outstanding'
     end
     item
       IndexID = 906268
@@ -14218,7 +14220,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3526
-      Text = 'Open Items with paydate from'
+      Text = 'Open items with pay date from'
     end
     item
       IndexID = 3527
@@ -15876,7 +15878,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        '[Order] button'
+        'Order] button'
     end
     item
       IndexID = 3628
@@ -16090,7 +16092,7 @@ object TTranslationSaveObject
       IndexID = 3676
       Text = 
         'Unposted documents found ! Please process all documents before m' +
-        'anual edit'
+        'anual edit!'
     end
     item
       IndexID = 3677
@@ -16269,7 +16271,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906555
-      Text = 'Batch bought from supplier'
+      Text = 'Batch bought from vendor'
     end
     item
       IndexID = 906556
@@ -16342,8 +16344,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date %s is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733
@@ -16356,8 +16358,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'You are putting profit/loss on ledger with tax! This will messup' +
-        ' tax reports! Do you wish to continue?'
+        'You are putting profit/loss on ledger with tax! This will mess u' +
+        'p tax reports! Do you wish to continue?'
     end
     item
       IndexID = 3736
@@ -16431,11 +16433,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
+      Text = 'Graph - Purchases - Vendor returns per month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
+      Text = 'Graph - Purchases - Vendor returns per month - Amount'
     end
     item
       IndexID = 906573
@@ -16447,11 +16449,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
+      Text = 'Graph - Vendor returns per month - Amount'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
+      Text = 'Graph - Vendor returns per month - Quantities'
     end
     item
       IndexID = 906577
@@ -16471,15 +16473,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
+      Text = 'Graph - Purchases - Vendor returns per week - Quantities'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
+      Text = 'Graph - Purchases - Vendor returns per week - Amount'
     end
     item
       IndexID = 906583
-      Text = 'Tax codes - Tax rates'
+      Text = 'Sales tax codes - Tax rates'
     end
     item
       IndexID = 906589
@@ -16523,6 +16525,6 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Convert quote to one unprocessed invoice per client'
+      Text = 'Convert estimate to one unprocessed invoice per client'
     end>
 end
