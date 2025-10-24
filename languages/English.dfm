@@ -98,11 +98,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
+      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
+      Text = 'Graph - Purchases - Supplier returns per month - Amount'
     end
     item
       IndexID = 906573
@@ -250,7 +250,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Stock items'
+      Text = 'Stock'
     end
     item
       IndexID = 28
@@ -1474,7 +1474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Next return no.'
+      Text = 'Next supplier return no.'
     end
     item
       IndexID = 335
@@ -3002,7 +3002,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 705
-      Text = 'Return'
+      Text = 'Supplier return'
     end
     item
       IndexID = 706
@@ -3923,7 +3923,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Generate Balance B/F options'
+      Text = 'Generate Balance B/F'
     end
     item
       IndexID = 934
@@ -4076,7 +4076,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 970
-      Text = 'Unlocking code (from <@APPNAME@> ):'
+      Text = 'Unlocking code (from <@APPNAME@>):'
     end
     item
       IndexID = 971
@@ -11306,7 +11306,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
@@ -12873,7 +12873,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
@@ -13982,11 +13982,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Posted items - Outstanding'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Unposted items - Outstanding'
     end
     item
       IndexID = 906268
@@ -14364,7 +14364,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3526
-      Text = 'Open Items with paydate from'
+      Text = 'Open items with pay date from'
     end
     item
       IndexID = 3527
@@ -16022,7 +16022,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        '[Order] button'
+        'Order] button'
     end
     item
       IndexID = 3628
@@ -16502,8 +16502,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'You are putting profit/loss on ledger with tax! This will messup' +
-        ' tax reports! Do you wish to continue?'
+        'You are putting profit/loss on ledger with tax! This will mess u' +
+        'p tax reports! Do you wish to continue?'
     end
     item
       IndexID = 3736
@@ -16518,154 +16518,6 @@ object TTranslationSaveObject
     item
       IndexID = 3738
       Text = 'LTR'
-    end
-    item
-      IndexID = 906557
-      Text = 'Graphs'
-    end
-    item
-      IndexID = 906558
-      Text = 'Graphs per week'
-    end
-    item
-      IndexID = 906559
-      Text = 'Graphs per month'
-    end
-    item
-      IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
-    end
-    item
-      IndexID = 906561
-      Text = 'Graph - Debtors per month'
-    end
-    item
-      IndexID = 906562
-      Text = 'Graph - Creditors per month'
-    end
-    item
-      IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
-    end
-    item
-      IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
-    end
-    item
-      IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
-    end
-    item
-      IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
-    end
-    item
-      IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
-    end
-    item
-      IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
-    end
-    item
-      IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
-    end
-    item
-      IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
-    end
-    item
-      IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
-    end
-    item
-      IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
-    end
-    item
-      IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
-    end
-    item
-      IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
-    end
-    item
-      IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
-    end
-    item
-      IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
-    end
-    item
-      IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
-    end
-    item
-      IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
-    end
-    item
-      IndexID = 906583
-      Text = 'Tax codes - VAT rates'
-    end
-    item
-      IndexID = 906588
-      Text = 'Value stock account'
-    end
-    item
-      IndexID = 906587
-      Text = 'Document reference'
-    end
-    item
-      IndexID = 906586
-      Text = 'Stock - Expected quantities'
-    end
-    item
-      IndexID = 906585
-      Text = 'Stock item list - Active stock'
-    end
-    item
-      IndexID = 906584
-      Text = 'Production list'
-    end
-    item
-      IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
-    end
-    item
-      IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
-    end
-    item
-      IndexID = 906589
-      Text = 'NO-VAT Layout file'
-    end
-    item
-      IndexID = 906590
-      Text = 'NO-VAT Document layout'
-    end
-    item
-      IndexID = 906591
-      Text = 'NO-VAT Document layout (15-code)'
     end
     item
       IndexID = 3739

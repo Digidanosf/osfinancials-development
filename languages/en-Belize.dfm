@@ -102,7 +102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Stock items'
+      Text = 'Stock'
     end
     item
       IndexID = 28
@@ -314,7 +314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Supplier returns listing'
+      Text = '&Supplier return listing'
     end
     item
       IndexID = 81
@@ -1006,7 +1006,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'GST Accounts'
+      Text = 'GST accounts'
     end
     item
       IndexID = 255
@@ -2927,8 +2927,8 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click yes you will lose all your current links f' +
-        'or this account!'
+        'Warning, if you click [Yes] you will lose all your current links' +
+        ' for this account!'
     end
     item
       IndexID = 723
@@ -3775,7 +3775,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 933
-      Text = 'Generate BB/F'
+      Text = 'Generate Balance B/F'
     end
     item
       IndexID = 934
@@ -3928,7 +3928,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 970
-      Text = 'Unlocking code (from <@APPNAME@> ):'
+      Text = 'Unlocking code (from <@APPNAME@>):'
     end
     item
       IndexID = 971
@@ -7809,7 +7809,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2100
-      Text = 'Click on OK to save new name'
+      Text = 'Click on [OK] to save new name'
     end
     item
       IndexID = 2099
@@ -10700,7 +10700,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Belize (English)'
+      Text = 
+        'English Master File for English Belize (en-BZ) - Do Not Translat' +
+        'e. To customise this language file, create a copy.'
     end
     item
       IndexID = 1000001
@@ -11158,7 +11160,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
@@ -12725,7 +12727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
@@ -15874,7 +15876,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        '[Order] button'
+        'Order] button'
     end
     item
       IndexID = 3628
@@ -16340,8 +16342,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date %s is greater than today! Do y' +
-        'ou want to stop opening a new year?'
+        'Your current open year end date %s is greater than today! Do you' +
+        ' want to stop opening a new year?'
     end
     item
       IndexID = 3733
@@ -16354,8 +16356,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'You are putting profit/loss on ledger with tax! This will messup' +
-        ' tax reports! Do you wish to continue?'
+        'You are putting profit/loss on ledger with tax! This will mess u' +
+        'p tax reports! Do you wish to continue?'
     end
     item
       IndexID = 3736

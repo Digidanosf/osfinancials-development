@@ -98,11 +98,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
+      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
+      Text = 'Graph - Purchases - Supplier returns per month - Amount'
     end
     item
       IndexID = 906573
@@ -250,7 +250,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Stock items'
+      Text = 'Stock'
     end
     item
       IndexID = 28
@@ -1474,7 +1474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Next return no.'
+      Text = 'Next supplier return no.'
     end
     item
       IndexID = 335
@@ -3002,7 +3002,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 705
-      Text = 'Return'
+      Text = 'Supplier return'
     end
     item
       IndexID = 706
@@ -4076,7 +4076,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 970
-      Text = 'Unlocking code (from <@APPNAME@> ):'
+      Text = 'Unlocking code (from <@APPNAME@>):'
     end
     item
       IndexID = 971
@@ -10848,7 +10848,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'English Master File - Do Not Translate'
+      Text = 
+        'English Master File - Do Not Translate. This English Master file' +
+        ' contains Journal in stead of Batch related translations.'
     end
     item
       IndexID = 1000001
@@ -11306,7 +11308,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
@@ -12548,6 +12550,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3332
+      Text = 'LP'
     end
     item
       IndexID = 3333
@@ -12872,7 +12875,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
@@ -13981,11 +13984,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Posted items - Outstanding'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Unposted items - Outstanding'
     end
     item
       IndexID = 906268
@@ -14363,7 +14366,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3526
-      Text = 'Open Items with paydate from'
+      Text = 'Open items with pay date from'
     end
     item
       IndexID = 3527
@@ -16021,7 +16024,7 @@ object TTranslationSaveObject
       IndexID = 3627
       Text = 
         'This list shows what you are going to order when you press the [' +
-        '[Order] button'
+        'Order] button'
     end
     item
       IndexID = 3628
@@ -16501,8 +16504,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'You are putting profit/loss on ledger with tax! This will messup' +
-        ' tax reports! Do you wish to continue?'
+        'You are putting profit/loss on ledger with tax! This will mess u' +
+        'p tax reports! Do you wish to continue?'
     end
     item
       IndexID = 3736
