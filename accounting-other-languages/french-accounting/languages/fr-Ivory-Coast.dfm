@@ -10820,7 +10820,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Fran'#231'ais (autres langues disponibles)'
+      Text = 
+        'Fichier Ma'#238'tre Fran'#231'ais pour le Fran'#231'ais C'#244'te d'#39'Ivoire (fr-CI) -' +
+        ' Ne Pas Traduire. Pour personnaliser ce fichier de langue, cr'#233'ez' +
+        ' une copie.'
     end
     item
       IndexID = 1000001
