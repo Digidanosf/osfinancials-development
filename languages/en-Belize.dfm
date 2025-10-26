@@ -13682,7 +13682,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Correct Incl. Excl. GST amount (Reverse bug)'
+      Text = 'Correct Incl./Excl. GST amount (Reverse bug)'
     end
     item
       IndexID = 903155
