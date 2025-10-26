@@ -10820,7 +10820,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Fran'#231'ais (autres langues disponibles)'
+      Text = 
+        'Fichier Ma'#238'tre Fran'#231'ais pour le Fran'#231'ais R'#233'publique D'#233'mocratique' +
+        ' du Congo (fr-CD) - Ne Pas Traduire. Pour personnaliser ce fichi' +
+        'er de langue, cr'#233'ez une copie.'
     end
     item
       IndexID = 1000001
