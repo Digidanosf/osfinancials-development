@@ -6289,7 +6289,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1812
-      Text = 'Creating required accounts(Retained earnings)...'
+      Text = 'Creating required accounts (Retained earnings)...'
     end
     item
       IndexID = 1811
@@ -6297,15 +6297,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1810
-      Text = 'Creating required accounts(Debtors control)...'
+      Text = 'Creating required accounts (Debtors control)...'
     end
     item
       IndexID = 1809
-      Text = 'Creditors Control'
+      Text = 'Creditors control'
     end
     item
       IndexID = 1808
-      Text = 'Creating required accounts(Creditors control)...'
+      Text = 'Creating required accounts (Creditors control)...'
     end
     item
       IndexID = 1820
