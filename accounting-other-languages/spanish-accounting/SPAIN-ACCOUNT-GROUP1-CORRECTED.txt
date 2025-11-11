@@ -1,0 +1,140 @@
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+
+                                         N.º registro empresa: 
+                                         N.º Identificación Fiscal (NIF): 
+
+
+
+     Teléfono:                      Correo electrónico: 
+     Fax:                           Sitio web: 
+    Nombre grupo informes:  Grupo de cuentas 1 
+
+
+     Descripción 
+      ACTIVO NO CORRIENTE@20. Inmovilizado Intangible 
+      ACTIVO NO CORRIENTE@21. Inmovilizado Material 
+      ACTIVO NO CORRIENTE@23. Inmovilizado en Curso 
+      ACTIVO NO CORRIENTE@25. Inversiones a Largo Plazo 
+      ACTIVO NO CORRIENTE@28. Amortización Acumulada 
+      ACTIVO NO CORRIENTE@29. Deterioro 
+      ACTIVO CORRIENTE 
+      ACTIVO CORRIENTE@30. Mercaderías 
+      ACTIVO CORRIENTE@31. Materias Primas 
+      ACTIVO CORRIENTE@33. Productos en Cursoientos 
+      ACTIVO CORRIENTE@35. Productos Terminados 
+      ACTIVO CORRIENTE@39. Deterioro de Existencias 
+      ACTIVO CORRIENTE@43. Clientes 
+      ACTIVO CORRIENTE@46. Personal (Deudor)itos Comerciales 
+      ACTIVO CORRIENTE@47. Hacienda Pública, Deudora 
+      ACTIVO CORRIENTE@48. Ajustes por Periodificación 
+      ACTIVO CORRIENTE@54. Inversiones Financieras a Corto Plazo 
+      ACTIVO CORRIENTE@56. Fianzas Constituidas a Corto Plazo 
+      ACTIVO CORRIENTE@57. Tesorería 
+      PATRIMONIO NETO 
+      PATRIMONIO NETO@10. Capital 
+      PATRIMONIO NETO@12. Resultados 
+      PATRIMONIO NETO@13. Subvenciones 
+      PASIVO NO CORRIENTE 
+      PASIVO NO CORRIENTE@14. Provisiones a Largo Plazo 
+      PASIVO NO CORRIENTE@17. Deudas a Largo Plazo 
+      PASIVO CORRIENTENTE@18. Depósitos a Largo Plazo 
+      PASIVO CORRIENTE@40. Proveedores 
+      PASIVO CORRIENTE@43. Clientes 
+      PASIVO CORRIENTE@47. Hacienda Pública, Acreedora 
+      PASIVO CORRIENTE@55. Otras Cuentaseriodificación 
+      OPERACIONES CONTINUADAS 
+      OPERACIONES CONTINUADAS@70. Ventas 
+      OPERACIONES CONTINUADAS@61. Variación Existencias 
+      OPERACIONES CONTINUADAS@60. Comprass Realizados para la Empresa 
+      OPERACIONES CONTINUADAS@75. Otros Ingresos de Gestión 
+      OPERACIONES CONTINUADAS@76. Ingresos Financieros 
+      OPERACIONES CONTINUADAS@77. Otros Ingresos 
+      OPERACIONES CONTINUADAS@64. Gastos de Personal 
+      OPERACIONES CONTINUADAS@66. Gastos Financieroses 
+      OPERACIONES CONTINUADAS@63. Tributos 
+      OPERACIONES CONTINUADAS@68. Amortizaciones 
+      RESULTADO DE EXPLOTACIÓN 
+      RESULTADO FINANCIERO@76. Ingresos Financieros 
+      RESULTADO FINANCIERO@66. Gastos Financieros 
+      RESULTADO EXCEPCIONAL 
+      RESULTADO EXCEPCIONAL@77. Beneficios Extraordinarios 
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+     Datos: C:\TCASH5-3\books\4-DIGIT-ES-ES-SPAIN-PGC\books.fdb 
+     Usuario del sistema: danva  Usuario de TurboCASH5-3: 
+       Impreso : 2025/09/28 05:01:55                    Página: 1  /  2 
+
+
+
+
+
+    Nombre grupo informes:  Grupo de cuentas 1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+     Datos: C:\TCASH5-3\books\4-DIGIT-ES-ES-SPAIN-PGC\books.fdb 
+     Usuario del sistema: danva  Usuario de TurboCASH5-3: 
+       Impreso : 2025/09/28 05:01:55                    Página: 2  /  2 
+
+
+

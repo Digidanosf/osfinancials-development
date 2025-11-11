@@ -1,0 +1,70 @@
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+
+                                         N.º registro empresa: 
+                                         N.º Identificación Fiscal (NIF): 
+
+
+
+     Teléfono:                      Correo electrónico: 
+     Fax:                           Sitio web: 
+    Nombre grupo informes:  Grupo de cuentas 2 
+
+
+     Descripción 
+      INMOVILIZADO OPERATIVO NETO@29. Deterioro de Valor 
+      INMOVILIZADO OPERATIVO NETO@28. Amortización Acumulada 
+      INMOVILIZADO OPERATIVO NETO@21.Inmovilizado Material 
+      INMOVILIZADO OPERATIVO NETO@21.Inmovilizado Material@Terrenos y bienes 
+      INMOVILIZADO OPERATIVO NETO@20. Inmovilizado Intangiblenstrucciones, 
+      INMOVILIZADO OPERATIVO NETO@23. Inmov. en Curso 
+      ACTIVOS FINANCIEROS Y GARANTÍAS 
+      ACTIVOS FINANCIEROS Y GARANTÍAS@25. Inversiones L/P 
+      ACTIVOS FINANCIEROS Y GARANTÍAS@26. Fianzas L/P 
+      ACTIVO CORRIENTEROS Y GARANTÍAS@29. Deterioro de Valor 
+      ACTIVO CORRIENTE@30. Mercaderías 
+      ACTIVO CORRIENTE@31. Materias Primas 
+      ACTIVO CORRIENTE@32. Otros Aprovision. 
+      ACTIVO CORRIENTE@35. Productos Term.rso 
+      ACTIVO CORRIENTE@39. Deterioro de Existencias 
+      ACTIVO CORRIENTE@43. Clientes 
+      ACTIVO CORRIENTE@46. Personal (Deudor) 
+      ACTIVO CORRIENTE@54. Inversiones financieras a corto plazo 
+      ACTIVO CORRIENTE@56. Fianzas constituidas a corto plazo 
+      ACTIVO CORRIENTE@57. Tesorería 
+      PATRIMONIO NETO 
+      PATRIMONIO NETO@11. Reservas 
+      PATRIMONIO NETO@12. Resultados 
+      PATRIMONIO NETO@13. Subvenciones 
+      PASIVO NO CORRIENTE 
+      PASIVO NO CORRIENTE@14. Provisiones a largo plazo 
+      PASIVO NO CORRIENTE@18. Depósitos a largo plazo 
+      PASIVO CORRIENTE 
+      PASIVO CORRIENTE@40. Proveedores 
+      PASIVO CORRIENTE@55. Otras Cuentas 
+      PASIVO CORRIENTE@56. Fianzas C/Pcreedor) 
+      OPERACIONES CONTINUADAS 
+      OPERACIONES CONTINUADAS@70. Ventas 
+      OPERACIONES CONTINUADAS@73. Trabajos realizados para la empresa 
+      OPERACIONES CONTINUADAS@60. Comprasón Existencias 
+      OPERACIONES CONTINUADAS@75. Otros Ingresos 
+      OPERACIONES CONTINUADAS@64. Gastos de Personal 
+      OPERACIONES CONTINUADAS@62. Servicios Exteriores 
+      OPERACIONES CONTINUADAS@63. Tributos 
+      RESULTADO FINANCIERODAS@68. Amortizaciones 
+      RESULTADO FINANCIERO@76. Ingresos Financieros 
+      RESULTADO FINANCIERO@66. Gastos Financieros 
+      RESULTADO EXCEPCIONAL 
+      RESULTADO EXCEPCIONAL@77. Beneficios Extraordinarios 
+
+
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+     Datos: C:\TCASH5-3\books\4-DIGIT-ES-ES-SPAIN-PGC\books.fdb 
+     Usuario del sistema: danva  Usuario de TurboCASH5-3: 
+       Impreso : 2025/09/27 06:51:41                    Página: 1  /  1 
+
+
+
