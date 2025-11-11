@@ -1,0 +1,37 @@
+﻿Όνομα Εταιρείας:	Handyman Hardware Store
+Διεύθυνση:	27 Olifants Road
+	Emmarentia
+	Johannesburg
+	2195
+Τηλέφωνο:	(011) 310-1390
+Ημερομηνία Αναφοράς	2025/11/09 16:19:13
+Αντίθετοι Λογαριασμοί	Αρ. Εγγραφής	Κέντρο Κόστους 2	Κέντρο Κόστους 1	Λογαριασμός	Επώνυμο	Ψευδώνυμο	Περιγραφή	Αναφορά	Ημερομηνία	Χρέωση /	Πίστωση /
+G010000 Sales,T860010 Output VAT - 15%	10028	Empty	Empty	D1ABGRE	Mr. AB Green	Sales2103	Paint - Exterior	INV001	2021/03/07	1150	
+G010000 Sales,T860010 Output VAT - 15%	10028	Empty	Empty	D1MACDS	MAC Shop Decor Specialists	Sales2103	Install - Built-in cupboard	INV002	2021/03/09	1725	
+G010000 Sales,T860010 Output VAT - 15%	10028	Empty	Empty	D1ABGRE	Mr. AB Green	Sales2103	Paint - Exterior	INV003	2021/03/10	1150	
+G010000 Sales,T860010 Output VAT - 15%	10028	Empty	Empty	D1MDAVI	Mr. Mike Davies	Sales2103	Install - Built-in cupboard	INV004	2021/03/11	1725	
+G010000 Sales,T860010 Output VAT - 15%	10039	Empty	Empty	D1ABGRE	Mr. AB Green	IN000001	Invoice /AB-IN110	IN000001	2021/03/13	1150	
+G010000 Sales,T860010 Output VAT - 15%	10040	Empty	Empty	D1MACDS	MAC Shop Decor Specialists	IN000002	Invoice /IB-101	IN000002	2021/03/14	1725	
+G010000 Sales,T860010 Output VAT - 15%	10041	Empty	Empty	D1ABGRE	Mr. AB Green	IN000003	Invoice /PH-101	IN000003	2021/03/15	1150	
+B810000 ABC - Bank	10032	Empty	Empty	D1ABGRE	Mr. AB Green	ABCReceipts2103	Payment received - Thank you	D5001	2021/03/16		2000
+B810000 ABC - Bank	10032	Empty	Empty	D1MACDS	MAC Shop Decor Specialists	ABCReceipts2103	Payment received - Thank you	D5001	2021/03/16		1000
+G010000 Sales,T860010 Output VAT - 15%	10042	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000004	Invoice /IB-102	IN000004	2021/03/16	1725	
+G010000 Sales,T860010 Output VAT - 15%	10045	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000005	Invoice /D-101	IN000005	2021/04/07	1150	
+G010000 Sales,T860010 Output VAT - 15%	10047	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000006	Invoice /C-102	IN000006	2021/04/09	3450	
+G010000 Sales,T860010 Output VAT - 15%	10049	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000007	Invoice /C-103	IN000007	2021/04/10	1725	
+G010000 Sales,T860010 Output VAT - 15%	10051	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000008	Invoice /D-102	IN000008	2021/04/11	2300	
+G010000 Sales,T860010 Output VAT - 15%	10056	Empty	Empty	D1ABGRE	Mr. AB Green	IN000009	Invoice /PH-101	IN000009	2021/05/07	1150	
+G010000 Sales,T860010 Output VAT - 15%	10057	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000010	Invoice /IN000010	IN000010	2021/05/08	1150	
+G010000 Sales,T860010 Output VAT - 15%	10059	Empty	Empty	D1ABGRE	Mr. AB Green	IN000011	Invoice /D-101	IN000011	2021/06/05	1150	
+G010000 Sales,T860010 Output VAT - 15%	10061	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000012	Invoice /C-102	IN000012	2021/06/07	3450	
+G010000 Sales,T860010 Output VAT - 15%	10063	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000013	Invoice /C-103	IN000013	2021/06/10	1725	
+G010000 Sales,T860010 Output VAT - 15%	10065	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000014	Invoice /D-102	IN000014	2021/06/12	2300	
+G010000 Sales,T860010 Output VAT - 15%	10067	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000015	Invoice /D-101	IN000015	2021/06/15	1150	
+G010000 Sales,T860010 Output VAT - 15%	10069	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000016	Invoice /C-102	IN000016	2021/06/17	3450	
+G010000 Sales,T860010 Output VAT - 15%	10071	Empty	Empty	D1MDAVI	Mr. Mike Davies	IN000017	Invoice /C-103	IN000017	2021/06/20	2875	
+G010000 Sales,T860010 Output VAT - 15%	10088	Empty	Empty	D1ROGSM	Mr. Roger Smith	CR000002	Credit note /D-102	CR000002	2021/06/22		2300
+G010000 Sales,T860010 Output VAT - 15%	10073	Empty	Empty	D1ROGSM	Mr. Roger Smith	IN000018	Invoice /D-102	IN000018	2021/06/24	2300	
+G010000 Sales,T860010 Output VAT - 15%	10086	Empty	Empty	D1ABGRE	Mr. AB Green	CR000001	Credit note /D-101	CR000001	2021/06/30		5750
+G010000 Sales,T860010 Output VAT - 15%	10090	Empty	Empty	D1ABGRE	Mr. AB Green	CR000003	Credit note /C-103	CR000003	2021/06/30		2875
+G010000 Sales,T860010 Output VAT - 15%	10075	Empty	Empty	D1ABGRE	Mr. AB Green	IN000019	Invoice /D-101	IN000019	2021/06/30	5750	
+G010000 Sales,T860010 Output VAT - 15%	10077	Empty	Empty	D1ABGRE	Mr. AB Green	IN000020	Invoice /C-103	IN000020	2021/06/30	5750	

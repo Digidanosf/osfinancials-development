@@ -1,0 +1,140 @@
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+
+                                         N.º registro empresa: 
+                                         N.º Identificación Fiscal (NIF): 
+
+
+
+     Teléfono:                      Correo electrónico: 
+     Fax:                           Sitio web: 
+    Nombre grupo informes:  Grupo de cuentas 2 
+
+
+     Descripción 
+      INMOVILIZADO OPERATIVO NETO@20. Inmovilizado Intangible 
+      INMOVILIZADO OPERATIVO NETO@21.Inmovilizado Material 
+      INMOVILIZADO OPERATIVO NETO@21.Inmovilizado Material@Terrenos y Bienes 
+      INMOVILIZADO OPERATIVO NETO@21.Inmovilizado Material@Construcciones, 
+      INMOVILIZADO OPERATIVO NETO@28. Amortización Acumulada 
+      INMOVILIZADO OPERATIVO NETO@29. Deterioro de Valor 
+      ACTIVOS FINANCIEROS Y GARANTÍAS 
+      ACTIVOS FINANCIEROS Y GARANTÍAS@25. Inversiones a Largo Plazo 
+      ACTIVOS FINANCIEROS Y GARANTÍAS@26. Fianzas a Largo Plazo 
+      ACTIVO CORRIENTEROS Y GARANTÍAS@29. Deterioro de Valor (Financiero) 
+      ACTIVO CORRIENTE@30. Mercaderías 
+      ACTIVO CORRIENTE@31. Materias Primas 
+      ACTIVO CORRIENTE@32. Otros Aprovisionamientos 
+      ACTIVO CORRIENTE@35. Productos Terminados 
+      ACTIVO CORRIENTE@39. Deterioro de Existencias 
+      ACTIVO CORRIENTE@43. Clientes 
+      ACTIVO CORRIENTE@49. Deterioro de Créditos Comerciales 
+      ACTIVO CORRIENTE@47. Hacienda Pública, Deudora 
+      ACTIVO CORRIENTE@48. Ajustes por Periodificación 
+      ACTIVO CORRIENTE@54. Inversiones Financieras a Corto Plazo 
+      ACTIVO CORRIENTE@55. Otras Cuentas No Bancarias 
+      ACTIVO CORRIENTE@57. Tesoreríaonstituidas a Corto Plazo 
+      PATRIMONIO NETO 
+      PATRIMONIO NETO@10. Capital 
+      PATRIMONIO NETO@11. Reservas 
+      PATRIMONIO NETO@12. Resultados 
+      PASIVO CORRIENTE13. Subvenciones 
+      PASIVO CORRIENTE@40. Proveedores 
+      PASIVO CORRIENTE@43. Clientes 
+      PASIVO CORRIENTE@47. Hacienda Pública, Acreedora 
+      PASIVO CORRIENTE@55. Otras Cuentas riodificación 
+      PASIVO CORRIENTE@46. Personal (Acreedor) 
+      PASIVO CORRIENTE@56. Fianzas a Corto Plazo (Pasivo) 
+      PASIVO NO CORRIENTE 
+      PASIVO NO CORRIENTE@17. Deudas a Largo PlazoPlazo 
+      PASIVO NO CORRIENTE@18. Depósitos a Largo Plazo 
+      OPERACIONES CONTINUADAS 
+      OPERACIONES CONTINUADAS@70. Ventas 
+      OPERACIONES CONTINUADAS@73. Trabajos Realizados para la Empresa 
+      OPERACIONES CONTINUADAS@60. Comprasón Existencias 
+      OPERACIONES CONTINUADAS@75. Otros Ingresos de Gestión 
+      OPERACIONES CONTINUADAS@76. Ingresos Financieros 
+      OPERACIONES CONTINUADAS@77. Otros Ingresos 
+      OPERACIONES CONTINUADAS@62. Servicios Exteriores 
+      OPERACIONES CONTINUADAS@66. Gastos Financieros 
+      OPERACIONES CONTINUADAS@63. Tributos 
+      OPERACIONES CONTINUADAS@68. Amortizaciones 
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+     Datos: C:\TCASH5-3\books\4-DIGIT-ES-ES-SPAIN-PGC\books.fdb 
+     Usuario del sistema: danva  Usuario de TurboCASH5-3: 
+       Impreso : 2025/09/27 23:54:58                    Página: 1  /  2 
+
+
+
+
+
+    Nombre grupo informes:  Grupo de cuentas 2 
+
+
+     Descripción 
+      RESULTADO FINANCIERO@76. Ingresos Financieros 
+      RESULTADO FINANCIERO@66. Gastos Financieros 
+      RESULTADO EXCEPCIONAL 
+      RESULTADO EXCEPCIONAL@77. Beneficios Extraordinarios 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    4-DÍGITOS - ESPAÑA (ES-ES) - PGC para PYMES 
+     Datos: C:\TCASH5-3\books\4-DIGIT-ES-ES-SPAIN-PGC\books.fdb 
+     Usuario del sistema: danva  Usuario de TurboCASH5-3: 
+       Impreso : 2025/09/27 23:54:58                    Página: 2  /  2 
+
+
+
