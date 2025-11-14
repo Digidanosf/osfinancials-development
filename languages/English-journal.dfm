@@ -2418,7 +2418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 546
-      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?'
+      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 557
@@ -6877,7 +6877,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1961
-      Text = '! Connection test started'
+      Text = 'Connection test started!'
     end
     item
       IndexID = 1960
