@@ -6740,7 +6740,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1961
-      Text = '! Konneksietoets het begin'
+      Text = 'Konneksietoets het begin!'
     end
     item
       IndexID = 1962
@@ -16379,8 +16379,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Jou huidige oop jaar se einddatum %s is groter as vandag! Wil ' +
-        'jy ophou om '#39'n nuwe jaar te open?'
+        'Jou huidige oop jaar se einddatum %s is groter as vandag! Wil jy' +
+        ' ophou om '#39'n nuwe jaar te open?'
     end
     item
       IndexID = 3733

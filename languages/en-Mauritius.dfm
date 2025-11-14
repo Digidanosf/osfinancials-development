@@ -6729,7 +6729,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1961
-      Text = '! Connection test started'
+      Text = 'Connection test started!'
     end
     item
       IndexID = 1960
