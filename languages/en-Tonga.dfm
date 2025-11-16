@@ -8041,7 +8041,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2163
-      Text = 'Sales analysis - Purchases per supplier'
+      Text = 'Purchase analysis - Purchases per supplier'
     end
     item
       IndexID = 2162
