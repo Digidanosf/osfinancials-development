@@ -74,11 +74,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906565
-      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi n'#7907' theo th'#225'ng - SL'
+      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi c'#243' theo th'#225'ng - SL'
     end
     item
       IndexID = 906566
-      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi n'#7907' theo th'#225'ng - S'#7889' ti'#7873'n'
+      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi c'#243' theo th'#225'ng - S'#7889' ti'#7873'n'
     end
     item
       IndexID = 906567
@@ -90,11 +90,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906569
-      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi n'#7907' theo th'#225'ng - SL'
+      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi c'#243' theo th'#225'ng - SL'
     end
     item
       IndexID = 906570
-      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi n'#7907' theo th'#225'ng - S'#7889' ti'#7873'n'
+      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi c'#243' theo th'#225'ng - S'#7889' ti'#7873'n'
     end
     item
       IndexID = 906571
@@ -130,11 +130,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906579
-      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi n'#7907' theo tu'#7847'n - SL'
+      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi c'#243' theo tu'#7847'n - SL'
     end
     item
       IndexID = 906580
-      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u Ghi N'#7907' theo tu'#7847'n - S'#7889' ti'#7873'n'
+      Text = 'Bi'#7875'u '#273#7891' - H'#272' - Phi'#7871'u ghi c'#243' theo tu'#7847'n - S'#7889' ti'#7873'n'
     end
     item
       IndexID = 906581
@@ -210,15 +210,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 16
-      Text = '&M'#7903' S'#7893' K'#7871' To'#225'n'
+      Text = '&M'#7903' s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 17
-      Text = '&T'#7841'o S'#7893' K'#7871' To'#225'n'
+      Text = '&T'#7841'o s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 18
-      Text = '&X'#243'a S'#7893' K'#7871' To'#225'n'
+      Text = '&X'#243'a s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 20
@@ -246,7 +246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 26
-      Text = '&H'#243'a '#273#417'n '#273#7883'nh k'#7923
+      Text = '&C'#225'c h'#243'a '#273#417'n '#273#7883'nh k'#7923
     end
     item
       IndexID = 27
@@ -274,7 +274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'TK Thu'#7871
+      Text = 'T'#224'i kho'#7843'n thu'#7871
     end
     item
       IndexID = 34
@@ -298,15 +298,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 40
-      Text = 'X'#243'a giao d'#7883'ch mua'
+      Text = 'X'#243'a c'#225'c giao d'#7883'ch mua'
     end
     item
       IndexID = 41
-      Text = 'X'#243'a h'#224'ng tr'#7843' NCC'
+      Text = 'X'#243'a c'#225'c h'#224'ng tr'#7843' NCC'
     end
     item
       IndexID = 42
-      Text = '&'#272'i'#7873'u ch'#7881'nh kho'
+      Text = '&'#272'i'#7873'u ch'#7881'nh t'#7891'n kho'
     end
     item
       IndexID = 43
@@ -326,7 +326,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 47
-      Text = '&Phi'#7871'u ghi n'#7907'/Ho'#224'n tr'#7843
+      Text = '&C'#225'c phi'#7871'u ghi c'#243
     end
     item
       IndexID = 48
@@ -334,7 +334,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 49
-      Text = '&Mua h'#224'ng'
+      Text = '&C'#225'c giao d'#7883'ch mua'
     end
     item
       IndexID = 50
@@ -354,11 +354,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 54
-      Text = '&In phi'#7871'u giao h'#224'ng'
+      Text = 'In &c'#225'c phi'#7871'u giao h'#224'ng'
     end
     item
       IndexID = 55
-      Text = '&Lo'#7841'i Nh'#7853't k'#253
+      Text = '&Lo'#7841'i nh'#7853't k'#253
     end
     item
       IndexID = 56
@@ -442,11 +442,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 76
-      Text = '&DS '#272#417'n h'#224'ng t'#7891'n '#273#7885'ng'
+      Text = '&DS '#273#417'n h'#224'ng t'#7891'n '#273#7885'ng'
     end
     item
       IndexID = 77
-      Text = '&DS Phi'#7871'u ghi n'#7907
+      Text = '&DS phi'#7871'u ghi c'#243
     end
     item
       IndexID = 78
@@ -458,7 +458,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 79
-      Text = '&DS Mua h'#224'ng'
+      Text = '&DS mua h'#224'ng'
     end
     item
       IndexID = 80
@@ -474,11 +474,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 83
-      Text = '&BC '#272#7863't h'#224'ng l'#7841'i'
+      Text = '&B'#225'o c'#225'o '#273#7863't h'#224'ng l'#7841'i'
     end
     item
       IndexID = 84
-      Text = '&DS M'#7863't h'#224'ng kho'
+      Text = '&DS m'#7863't h'#224'ng kho'
     end
     item
       IndexID = 85
@@ -510,7 +510,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 92
-      Text = '&Lo'#7841'i Nh'#7853't k'#253
+      Text = '&C'#225'c lo'#7841'i nh'#7853't k'#253
     end
     item
       IndexID = 93
@@ -554,7 +554,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 104
-      Text = '&Sao l'#432'u / Ph'#7909'c h'#7891'i S'#7893' K'#7871' To'#225'n'
+      Text = '&Sao l'#432'u / Ph'#7909'c h'#7891'i s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 105
@@ -822,7 +822,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 172
-      Text = 'S'#7893' K'#7871' To'#225'n'
+      Text = 'S'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 173
@@ -834,7 +834,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 175
-      Text = 'T'#234'n S'#7893' K'#7871' To'#225'n m'#7899'i'
+      Text = 'T'#234'n s'#7893' k'#7871' to'#225'n m'#7899'i'
     end
     item
       IndexID = 176
@@ -1014,11 +1014,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 219
-      Text = 'Thu'#7871' '#273#7847'u v'#224'o'
+      Text = 'Thu'#7871' GTGT '#273#7847'u v'#224'o'
     end
     item
       IndexID = 220
-      Text = 'Thu'#7871' '#273#7847'u ra'
+      Text = 'Thu'#7871' GTGT '#273#7847'u ra'
     end
     item
       IndexID = 221
@@ -1038,7 +1038,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 225
-      Text = 'Ki'#7875'm so'#225't kho'
+      Text = 'Ki'#7875'm so'#225't t'#7891'n kho'
     end
     item
       IndexID = 226
@@ -1102,7 +1102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 241
-      Text = 'Lo'#7841'i Nh'#7853't k'#253
+      Text = 'Lo'#7841'i nh'#7853't k'#253
     end
     item
       IndexID = 242
@@ -1134,7 +1134,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 249
-      Text = 'T'#249'y ch'#7885'n BC giao d'#7883'ch ph'#7843'i tr'#7843
+      Text = 'T'#249'y ch'#7885'n b'#225'o c'#225'o giao d'#7883'ch ph'#7843'i tr'#7843
     end
     item
       IndexID = 250
@@ -1154,7 +1154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'T'#224'i kho'#7843'n thu'#7871
+      Text = 'C'#225'c t'#224'i kho'#7843'n thu'#7871
     end
     item
       IndexID = 255
@@ -1182,7 +1182,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 261
-      Text = 'T'#249'y ch'#7885'n BC lo'#7841'i nh'#7853't k'#253
+      Text = 'T'#249'y ch'#7885'n b'#225'o c'#225'o lo'#7841'i nh'#7853't k'#253
     end
     item
       IndexID = 262
@@ -1238,7 +1238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 275
-      Text = 'T'#249'y ch'#7885'n BC giao d'#7883'ch ph'#7843'i thu'
+      Text = 'T'#249'y ch'#7885'n b'#225'o c'#225'o giao d'#7883'ch ph'#7843'i thu'
     end
     item
       IndexID = 276
@@ -1334,11 +1334,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 299
-      Text = 'S'#7889' phi'#7871'u ghi n'#7907
+      Text = 'S'#7889' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 300
-      Text = 'H'#243'a '#273#417'n'
+      Text = 'C'#225'c h'#243'a '#273#417'n'
     end
     item
       IndexID = 301
@@ -1402,7 +1402,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 316
-      Text = 'S'#7889' '#272'KKD ('#272#259'ng k'#253' kinh doanh)'
+      Text = 'S'#7889' '#272'KKD'
     end
     item
       IndexID = 317
@@ -1442,19 +1442,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 326
-      Text = 'S'#7889' phi'#7871'u ghi n'#7907' ti'#7871'p theo'
+      Text = 'S'#7889' phi'#7871'u ghi c'#243' ti'#7871'p theo'
     end
     item
       IndexID = 327
-      Text = 'Nh'#7853't k'#253' phi'#7871'u ghi n'#7907
+      Text = 'Nh'#7853't k'#253' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 328
-      Text = 'Ti'#234'u '#273#7873' phi'#7871'u ghi n'#7907
+      Text = 'Ti'#234'u '#273#7873' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 329
-      Text = 'Th'#244'ng b'#225'o phi'#7871'u ghi n'#7907
+      Text = 'Th'#244'ng b'#225'o phi'#7871'u ghi c'#243
     end
     item
       IndexID = 330
@@ -1758,11 +1758,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 409
-      Text = 'Hi'#7875'n th'#7883' thu'#7871' ri'#234'ng'
+      Text = 'Hi'#7875'n th'#7883' thu'#7871' ri'#234'ng bi'#7879't'
     end
     item
       IndexID = 410
-      Text = 'T'#249'y ch'#7885'n bi'#7871'n '#273#7897'ng kho'
+      Text = 'T'#249'y ch'#7885'n bi'#7871'n '#273#7897'ng t'#7891'n kho'
     end
     item
       IndexID = 411
@@ -1782,7 +1782,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 415
-      Text = 'Ki'#7875'm k'#234' kho'
+      Text = 'Ki'#7875'm k'#234' t'#7891'n kho'
     end
     item
       IndexID = 416
@@ -1823,7 +1823,7 @@ object TTranslationSaveObject
     item
       IndexID = 425
       Text = 
-        'C'#7843'nh b'#225'o, '#273'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n S'#7893' K'#7871' To'#225'n! B'#7841'n' +
+        'C'#7843'nh b'#225'o, '#273'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n s'#7893' k'#7871' to'#225'n! B'#7841'n' +
         ' c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
     end
     item
@@ -1905,14 +1905,14 @@ object TTranslationSaveObject
     item
       IndexID = 443
       Text = 
-        'Ch'#7881'nh s'#7917'a lo'#7841'i nh'#7853't k'#253' s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n S'#7893' K'#7871' To'#225'n!' +
+        'Ch'#7881'nh s'#7917'a lo'#7841'i nh'#7853't k'#253' s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n s'#7893' k'#7871' to'#225'n!' +
         ' B'#7841'n c'#243' ch'#7855'c ch'#7855'n mu'#7889'n l'#224'm '#273'i'#7873'u n'#224'y kh'#244'ng?'
     end
     item
       IndexID = 444
       Text = 
-        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n S'#7893' K'#7871' To'#225'n! B'#7841'n c'#243' mu'#7889'n h' +
-        #7911'y b'#226'y gi'#7901' kh'#244'ng?'
+        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n s'#7893' k'#7871' to'#225'n!  B'#7841'n c'#243' mu'#7889'n ' +
+        'h'#7911'y b'#226'y gi'#7901' kh'#244'ng?'
     end
     item
       IndexID = 445
@@ -1924,11 +1924,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 447
-      Text = 'S'#7893' K'#7871' To'#225'n n'#224'y?'
+      Text = 'S'#7893' k'#7871' to'#225'n n'#224'y?'
     end
     item
       IndexID = 448
-      Text = #272#227' t'#7841'o S'#7893' K'#7871' To'#225'n!'
+      Text = #272#227' t'#7841'o s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 449
@@ -1940,7 +1940,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 451
-      Text = 'K'#7871' To'#225'n '#273#227' t'#7891'n t'#7841'i!'
+      Text = 'S'#7893' k'#7871' to'#225'n '#273#227' t'#7891'n t'#7841'i!'
     end
     item
       IndexID = 452
@@ -1957,7 +1957,7 @@ object TTranslationSaveObject
     item
       IndexID = 455
       Text = 
-        'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a S'#7893' K'#7871' To'#225'n TurboCASH 2.01, 2.02 ho'#7863'c 2.03' +
+        'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a s'#7893' k'#7871' to'#225'n TurboCASH 2.01, 2.02 ho'#7863'c 2.03' +
         '!'
     end
     item
@@ -2024,7 +2024,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 471
-      Text = 'B'#7841'n ch'#432'a thi'#7871't l'#7853'p S'#7893' K'#7871' To'#225'n!'
+      Text = 'B'#7841'n ch'#432'a thi'#7871't l'#7853'p s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 472
@@ -2128,7 +2128,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 497
-      Text = #272#417'n v'#7883' kho'
+      Text = #272#417'n v'#7883' t'#7891'n kho'
     end
     item
       IndexID = 498
@@ -2162,7 +2162,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 505
-      Text = 'B'#7841'n c'#243' mu'#7889'n in H'#243'a '#273#417'n n'#224'y ngay b'#226'y gi'#7901' kh'#244'ng?'
+      Text = 'B'#7841'n c'#243' mu'#7889'n in h'#243'a '#273#417'n n'#224'y ngay b'#226'y gi'#7901' kh'#244'ng?'
     end
     item
       IndexID = 506
@@ -2175,7 +2175,7 @@ object TTranslationSaveObject
     item
       IndexID = 508
       Text = 
-        'B'#7841'n c'#243' ch'#7855'c ch'#7855'n mu'#7889'n x'#243'a t'#7845't c'#7843' c'#225'c m'#7909'c trong H'#243'a '#273#417'n n'#224'y kh'#244'ng' +
+        'B'#7841'n c'#243' ch'#7855'c ch'#7855'n mu'#7889'n x'#243'a t'#7845't c'#7843' c'#225'c m'#7909'c trong h'#243'a '#273#417'n n'#224'y kh'#244'ng' +
         '?'
     end
     item
@@ -2195,7 +2195,7 @@ object TTranslationSaveObject
     item
       IndexID = 512
       Text = 
-        'C'#7842'NH B'#193'O '#273'i'#7873'u n'#224'y s'#7869' ghi '#273#232' S'#7893' K'#7871' To'#225'n hi'#7879'n t'#7841'i! B'#7841'n c'#243' ch'#7855'c ch'#7855 +
+        'C'#7842'NH B'#193'O '#273'i'#7873'u n'#224'y s'#7869' ghi '#273#232' s'#7893' k'#7871' to'#225'n hi'#7879'n t'#7841'i! B'#7841'n c'#243' ch'#7855'c ch'#7855 +
         'n mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
     end
     item
@@ -2226,13 +2226,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 518
-      Text = 'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a S'#7893' K'#7871' To'#225'n!'
+      Text = 'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 519
       Text = 
-        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n S'#7893' K'#7871' To'#225'n! B'#7841'n c'#243' ch'#7855'c c' +
-        'h'#7855'n mu'#7889'n x'#243'a S'#7893' K'#7871' To'#225'n n'#224'y kh'#244'ng?'
+        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n s'#7893' k'#7871' to'#225'n!  B'#7841'n c'#243' ch'#7855'c ' +
+        'ch'#7855'n mu'#7889'n x'#243'a S'#7893' K'#7871' To'#225'n n'#224'y kh'#244'ng?'
     end
     item
       IndexID = 520
@@ -2281,8 +2281,8 @@ object TTranslationSaveObject
     item
       IndexID = 529
       Text = 
-        'TK thu'#7871' n'#224'y c'#243' giao d'#7883'ch! B'#7841'n c'#243' mu'#7889'n chuy'#7875'n giao d'#7883'ch sang TK t' +
-        'hu'#7871' kh'#225'c kh'#244'ng?'
+        'T'#224'i kho'#7843'n thu'#7871' n'#224'y c'#243' giao d'#7883'ch! B'#7841'n c'#243' mu'#7889'n chuy'#7875'n giao d'#7883'ch sa' +
+        'ng t'#224'i kho'#7843'n thu'#7871' kh'#225'c kh'#244'ng?'
     end
     item
       IndexID = 530
@@ -2302,11 +2302,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 535
-      Text = 'Thay '#273#7893'i thu'#7897'c t'#237'nh S'#7893' K'#7871' To'#225'n'
+      Text = 'Thay '#273#7893'i thu'#7897'c t'#237'nh s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 536
-      Text = 'Nh'#7853'p t'#234'n S'#7893' K'#7871' To'#225'n'
+      Text = 'Nh'#7853'p t'#234'n s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 537
@@ -2318,7 +2318,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 539
-      Text = 'S'#7893' K'#7871' To'#225'n c'#243' t'#234'n'
+      Text = 'S'#7893' k'#7871' to'#225'n c'#243' t'#234'n'
     end
     item
       IndexID = 533
@@ -2373,7 +2373,7 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        'Ch'#224'o m'#7915'ng '#273#7871'n v'#7899'i Tr'#236'nh h'#432#7899'ng d'#7851'n t'#7841'o S'#7893' K'#7871' To'#225'n <@APPNAME@>. Vu' +
+        'Ch'#224'o m'#7915'ng '#273#7871'n v'#7899'i Tr'#236'nh h'#432#7899'ng d'#7851'n t'#7841'o s'#7893' k'#7871' to'#225'n <@APPNAME@>. Vu' +
         'i l'#242'ng ch'#7885'n m'#7897't t'#249'y ch'#7885'n v'#224' nh'#7845'p [Ti'#7871'p], ho'#7863'c nh'#7845'p [H'#7911'y] '#273#7875' h'#7911'y ' +
         't'#7841'o S'#7893' K'#7871' To'#225'n m'#7899'i.'
     end
@@ -2388,8 +2388,8 @@ object TTranslationSaveObject
     item
       IndexID = 541
       Text = 
-        'Vui l'#242'ng ch'#7885'n S'#7893' K'#7871' To'#225'n t'#7915' danh s'#225'ch, ho'#7863'c nh'#7845'p [Duy'#7879't] '#273#7875' ch'#7885'n' +
-        ' S'#7893' K'#7871' To'#225'n b'#7841'n mu'#7889'n sao ch'#233'p trong th'#432' m'#7909'c kh'#225'c.'
+        'Vui l'#242'ng ch'#7885'n s'#7893' k'#7871' to'#225'n t'#7915' danh s'#225'ch, ho'#7863'c nh'#7845'p [Duy'#7879't] '#273#7875' ch'#7885'n' +
+        ' s'#7893' k'#7871' to'#225'n b'#7841'n mu'#7889'n sao ch'#233'p trong th'#432' m'#7909'c kh'#225'c.'
     end
     item
       IndexID = 540
@@ -2405,15 +2405,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 549
-      Text = 'T'#249'y ch'#7881'nh S'#7893' K'#7871' To'#225'n ri'#234'ng (N'#226'ng cao)'
+      Text = 'T'#249'y ch'#7881'nh s'#7893' k'#7871' to'#225'n ri'#234'ng (N'#226'ng cao)'
     end
     item
       IndexID = 548
-      Text = #272#7875' <@APPNAME@> gi'#250'p b'#7841'n t'#7841'o S'#7893' K'#7871' To'#225'n'
+      Text = #272#7875' <@APPNAME@> gi'#250'p b'#7841'n t'#7841'o s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 547
-      Text = 'Sao ch'#233'p S'#7893' K'#7871' To'#225'n hi'#7879'n c'#243
+      Text = 'Sao ch'#233'p s'#7893' k'#7871' to'#225'n hi'#7879'n c'#243
     end
     item
       IndexID = 546
@@ -2457,15 +2457,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 560
-      Text = #272'ang t'#7841'o S'#7893' K'#7871' To'#225'n...'
+      Text = #272'ang t'#7841'o s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 559
-      Text = 'B'#7841'n ph'#7843'i ch'#7885'n S'#7893' K'#7871' To'#225'n ho'#7863'c th'#432' m'#7909'c '#273#7875' sao ch'#233'p'
+      Text = 'B'#7841'n ph'#7843'i ch'#7885'n s'#7893' k'#7871' to'#225'n ho'#7863'c th'#432' m'#7909'c '#273#7875' sao ch'#233'p'
     end
     item
       IndexID = 558
-      Text = 'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a S'#7893' K'#7871' To'#225'n, ho'#7863'c S'#7893' K'#7871' To'#225'n '#273#227' b'#7883' h'#7887'ng!'
+      Text = 'Th'#432' m'#7909'c n'#224'y kh'#244'ng ch'#7913'a s'#7893' k'#7871' to'#225'n, ho'#7863'c s'#7893' k'#7871' to'#225'n '#273#227' b'#7883' h'#7887'ng!'
     end
     item
       IndexID = 569
@@ -2485,7 +2485,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 565
-      Text = #272'ang chuy'#7875'n '#273#7893'i S'#7893' K'#7871' To'#225'n...'
+      Text = #272'ang chuy'#7875'n '#273#7893'i s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 564
@@ -2507,7 +2507,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 572
-      Text = 'Vui l'#242'ng ch'#7885'n S'#7893' K'#7871' To'#225'n c'#361' '#273#7875' chuy'#7875'n '#273#7893'i t'#7915' danh s'#225'ch d'#432#7899'i '#273#226'y.'
+      Text = 'Vui l'#242'ng ch'#7885'n s'#7893' k'#7871' to'#225'n c'#361' '#273#7875' chuy'#7875'n '#273#7893'i t'#7915' danh s'#225'ch d'#432#7899'i '#273#226'y.'
     end
     item
       IndexID = 571
@@ -2715,11 +2715,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 635
-      Text = 'B'#7841'n ph'#7843'i m'#7903' S'#7893' K'#7871' To'#225'n '#273#7875' s'#7917' d'#7909'ng t'#249'y ch'#7885'n n'#224'y!'
+      Text = 'B'#7841'n ph'#7843'i m'#7903' s'#7893' k'#7871' to'#225'n '#273#7875' s'#7917' d'#7909'ng t'#249'y ch'#7885'n n'#224'y!'
     end
     item
       IndexID = 636
-      Text = 'B'#7841'n ch'#432'a thi'#7871't l'#7853'p S'#7893' K'#7871' To'#225'n!'
+      Text = 'B'#7841'n ch'#432'a thi'#7871't l'#7853'p s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 637
@@ -2843,7 +2843,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 668
-      Text = 'Kh'#244'ng th'#7875' l'#7853'p ng'#226'n s'#225'ch cho TK c'#243' ti'#7875'u kho'#7843'n!'
+      Text = 'Kh'#244'ng th'#7875' l'#7853'p ng'#226'n s'#225'ch cho t'#224'i kho'#7843'n c'#243' ti'#7875'u kho'#7843'n!'
     end
     item
       IndexID = 669
@@ -2851,27 +2851,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 670
-      Text = 'Nh'#7853'p phi'#7871'u ghi n'#7907
+      Text = 'Nh'#7853'p phi'#7871'u ghi c'#243
     end
     item
       IndexID = 671
-      Text = 'F10: X'#243'a phi'#7871'u ghi n'#7907
+      Text = 'F10: X'#243'a phi'#7871'u ghi c'#243
     end
     item
       IndexID = 673
-      Text = 'B'#7841'n c'#243' mu'#7889'n in phi'#7871'u ghi n'#7907' n'#224'y ngay b'#226'y gi'#7901' kh'#244'ng?'
+      Text = 'B'#7841'n c'#243' mu'#7889'n in phi'#7871'u ghi c'#243' n'#224'y ngay b'#226'y gi'#7901' kh'#244'ng?'
     end
     item
       IndexID = 674
-      Text = 'C'#7853'p nh'#7853't phi'#7871'u ghi n'#7907
+      Text = 'C'#7853'p nh'#7853't c'#225'c phi'#7871'u ghi c'#243
     end
     item
       IndexID = 675
-      Text = 'T'#7915' phi'#7871'u ghi n'#7907
+      Text = 'T'#7915' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 676
-      Text = #272#7871'n phi'#7871'u ghi n'#7907
+      Text = #272#7871'n phi'#7871'u ghi c'#243
     end
     item
       IndexID = 677
@@ -2925,7 +2925,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 689
-      Text = 'L'#7883'ch s'#7917' phi'#7871'u ghi n'#7907
+      Text = 'L'#7883'ch s'#7917' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 690
@@ -2949,7 +2949,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 695
-      Text = 'X'#243'a phi'#7871'u ghi n'#7907
+      Text = 'X'#243'a c'#225'c phi'#7871'u ghi c'#243
     end
     item
       IndexID = 696
@@ -2967,7 +2967,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 699
-      Text = 'Ch'#432'a ch'#7885'n S'#7893' K'#7871' To'#225'n!'
+      Text = 'Ch'#432'a ch'#7885'n s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 700
@@ -2995,7 +2995,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 706
-      Text = 'Phi'#7871'u ghi n'#7907
+      Text = 'C'#225'c phi'#7871'u ghi c'#243
     end
     item
       IndexID = 707
@@ -3041,7 +3041,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 717
-      Text = 'Kh'#244'ng t'#236'm th'#7845'y S'#7893' K'#7871' To'#225'n! Th'#432' m'#7909'c kh'#244'ng t'#7891'n t'#7841'i:'
+      Text = 'Kh'#244'ng t'#236'm th'#7845'y s'#7893' k'#7871' to'#225'n! Th'#432' m'#7909'c kh'#244'ng t'#7891'n t'#7841'i:'
     end
     item
       IndexID = 718
@@ -3155,7 +3155,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 744
-      Text = 'S'#7893' K'#7871' To'#225'n '#273#243' '#273#227' t'#7891'n t'#7841'i! Vui l'#242'ng nh'#7853'p l'#7841'i!'
+      Text = 'S'#7893' k'#7871' to'#225'n '#273#243' '#273#227' t'#7891'n t'#7841'i! Vui l'#242'ng nh'#7853'p l'#7841'i!'
     end
     item
       IndexID = 745
@@ -3195,7 +3195,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 755
-      Text = 'S'#7893' K'#7871' To'#225'n'
+      Text = 'S'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 756
@@ -3207,7 +3207,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 758
-      Text = 'S'#7889' phi'#7871'u ghi n'#7907
+      Text = 'S'#7889' phi'#7871'u ghi c'#243
     end
     item
       IndexID = 759
@@ -3240,7 +3240,7 @@ object TTranslationSaveObject
     item
       IndexID = 767
       Text = 
-        'L'#7847'n cu'#7889'i c'#249'ng b'#7841'n l'#224'm vi'#7879'c v'#7899'i S'#7893' K'#7871' To'#225'n n'#224'y, b'#7841'n '#273#227' kh'#244'ng tho'#225 +
+        'L'#7847'n cu'#7889'i c'#249'ng b'#7841'n l'#224'm vi'#7879'c v'#7899'i s'#7893' k'#7871' to'#225'n n'#224'y, b'#7841'n '#273#227' kh'#244'ng tho'#225 +
         't ch'#432#417'ng tr'#236'nh '#273#250'ng c'#225'ch!'
     end
     item
@@ -3369,7 +3369,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 798
-      Text = #272#417'n h'#224'ng'
+      Text = 'C'#225'c '#273#417'n h'#224'ng'
     end
     item
       IndexID = 799
@@ -3389,7 +3389,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 803
-      Text = 'Kh'#244'ng th'#7875' nh'#7853'p kho cho m'#7863't h'#224'ng c'#243' s'#7889' l'#432#7907'ng t'#7891'n kho kh'#225'c kh'#244'ng!'
+      Text = 
+        'Kh'#244'ng th'#7875' ghi nh'#7853'n t'#7891'n kho cho m'#7863't h'#224'ng c'#243' s'#7889' l'#432#7907'ng t'#7891'n kho kh'#225'c' +
+        ' kh'#244'ng!'
     end
     item
       IndexID = 804
@@ -3444,8 +3446,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        'Kh'#244'ng '#273#432#7907'c c'#243' lo'#7841'i thu'#7871' cho kh'#225'ch n'#7907' ho'#7863'c ch'#7911' n'#7907' trong h'#7879' th'#7889'ng ' +
-        'd'#7921'a tr'#234'n thanh to'#225'n!'
+        'Kh'#244'ng '#273#432#7907'c c'#243' lo'#7841'i thu'#7871' cho kh'#225'ch h'#224'ng ho'#7863'c nh'#224' cung c'#7845'p trong h' +
+        #7879' th'#7889'ng d'#7921'a tr'#234'n thanh to'#225'n!'
     end
     item
       IndexID = 817
@@ -3467,7 +3469,7 @@ object TTranslationSaveObject
       Text = 
         'Ph'#432#417'ng ph'#225'p thu'#7871' d'#7921'a tr'#234'n thanh to'#225'n xem x'#233't thu'#7871' ho'#224'n to'#224'n theo' +
         ' c'#417' s'#7903' ti'#7873'n m'#7863't. Thu'#7871' ch'#7881' ph'#7843'i n'#7897'p cho c'#417' quan thu'#7871' khi nh'#7853'n '#273#432#7907 +
-        'c t'#7915' KH. B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
+        'c t'#7915' kh'#225'ch h'#224'ng. B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
     end
     item
       IndexID = 822
@@ -3489,7 +3491,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 826
-      Text = 'Vui l'#242'ng nh'#7853'p t'#234'n S'#7893' K'#7871' To'#225'n m'#7899'i!'
+      Text = 'Vui l'#242'ng nh'#7853'p t'#234'n s'#7893' k'#7871' to'#225'n m'#7899'i!'
     end
     item
       IndexID = 827
@@ -3525,11 +3527,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 835
-      Text = #272'&'#243'ng S'#7893' K'#7871' To'#225'n'
+      Text = #272'&'#243'ng s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 836
-      Text = '&Sao l'#432'u / Ph'#7909'c h'#7891'i S'#7893' K'#7871' To'#225'n'
+      Text = '&Sao l'#432'u / Ph'#7909'c h'#7891'i s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 837
@@ -3541,7 +3543,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 839
-      Text = '&B'#225'o gi'#225
+      Text = '&C'#225'c b'#225'o gi'#225
     end
     item
       IndexID = 840
@@ -3629,7 +3631,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 861
-      Text = 'Mua h'#224'ng theo NCC'
+      Text = 'Mua h'#224'ng theo nh'#224' cung c'#7845'p'
     end
     item
       IndexID = 862
@@ -3661,7 +3663,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 869
-      Text = 'Kho'
+      Text = 'T'#7891'n kho'
     end
     item
       IndexID = 870
@@ -3693,7 +3695,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 877
-      Text = 'S'#7893' K'#7871' To'#225'n '#273#7875' sao ch'#233'p:'
+      Text = 'S'#7893' k'#7871' to'#225'n '#273#7875' sao ch'#233'p:'
     end
     item
       IndexID = 879
@@ -3725,7 +3727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 886
-      Text = 'Ch'#7885'n S'#7893' K'#7871' To'#225'n'
+      Text = 'Ch'#7885'n s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 887
@@ -3773,11 +3775,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 898
-      Text = 'Ph'#7909'c h'#7891'i S'#7893' K'#7871' To'#225'n'
+      Text = 'Ph'#7909'c h'#7891'i s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 899
-      Text = 'Sao l'#432'u S'#7893' K'#7871' To'#225'n'
+      Text = 'Sao l'#432'u s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 900
@@ -3797,7 +3799,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 904
-      Text = 'c'#7911'a b'#7843'n sao l'#432'u S'#7893' K'#7871' To'#225'n '#273'a '#273#297'a.'
+      Text = 'c'#7911'a b'#7843'n sao l'#432'u s'#7893' k'#7871' to'#225'n '#273'a '#273#297'a.'
     end
     item
       IndexID = 905
@@ -3829,7 +3831,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 913
-      Text = 'Kh'#244'ng t'#236'm th'#7845'y S'#7893' K'#7871' To'#225'n h'#7907'p l'#7879' trong:'
+      Text = 'Kh'#244'ng t'#236'm th'#7845'y s'#7893' k'#7871' to'#225'n h'#7907'p l'#7879' trong:'
     end
     item
       IndexID = 914
@@ -3845,7 +3847,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 917
-      Text = 'S'#7893' K'#7871' To'#225'n - Qu'#225' tr'#236'nh sao l'#432'u '#273#227' b'#7883' ng'#432#7901'i d'#249'ng h'#7911'y!'
+      Text = 'S'#7893' k'#7871' to'#225'n - Qu'#225' tr'#236'nh sao l'#432'u '#273#227' b'#7883' ng'#432#7901'i d'#249'ng h'#7911'y!'
     end
     item
       IndexID = 918
@@ -3861,7 +3863,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 921
-      Text = 'S'#7893' K'#7871' To'#225'n c'#7911'a b'#7841'n s'#7869' '#273#432#7907'c ph'#7909'c h'#7891'i trong:'
+      Text = 'S'#7893' k'#7871' to'#225'n c'#7911'a b'#7841'n s'#7869' '#273#432#7907'c ph'#7909'c h'#7891'i trong:'
     end
     item
       IndexID = 922
@@ -4040,14 +4042,14 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        'TK ki'#7875'm so'#225't kho v'#224'/ho'#7863'c Doanh thu ch'#432'a '#273#432#7907'c thi'#7871't l'#7853'p '#273#250'ng cho ' +
-        'm'#7863't h'#224'ng n'#224'y!'
+        'TK ki'#7875'm so'#225't t'#7891'n kho v'#224'/ho'#7863'c doanh thu ch'#432'a '#273#432#7907'c thi'#7871't l'#7853'p '#273#250'ng ' +
+        'cho m'#7863't h'#224'ng kho n'#224'y!'
     end
     item
       IndexID = 966
       Text = 
-        'CT n'#224'y kh'#244'ng th'#7875' ghi s'#7893'! Vui l'#242'ng thi'#7871't l'#7853'p l'#7841'i - TK Doanh thu, ' +
-        'Ki'#7875'm so'#225't kho (v'#224' TK Gi'#225' v'#7889'n h'#224'ng b'#225'n) r'#7891'i ghi s'#7893'!'
+        'Ch'#7913'ng t'#7915' n'#224'y kh'#244'ng th'#7875' ghi s'#7893'! Vui l'#242'ng thi'#7871't l'#7853'p l'#7841'i - TK doanh' +
+        ' thu, ki'#7875'm so'#225't t'#7891'n kho (v'#224' TK gi'#225' v'#7889'n h'#224'ng b'#225'n) r'#7891'i ghi s'#7893'!'
     end
     item
       IndexID = 967
@@ -4214,7 +4216,7 @@ object TTranslationSaveObject
     item
       IndexID = 1007
       Text = 
-        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n S'#7893' K'#7871' To'#225'n! B'#7841'n c'#243' ch'#7855'c m' +
+        #272'i'#7873'u n'#224'y s'#7869' '#7843'nh h'#432#7903'ng nghi'#234'm tr'#7885'ng '#273#7871'n s'#7893' k'#7871' to'#225'n! B'#7841'n c'#243' ch'#7855'c m' +
         'u'#7889'n x'#243'a lo'#7841'i ch'#7913'ng t'#7915' n'#224'y kh'#244'ng?'
     end
     item
@@ -4259,11 +4261,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1018
-      Text = 'X'#243'a b'#225'o gi'#225
+      Text = 'X'#243'a c'#225'c b'#225'o gi'#225
     end
     item
       IndexID = 1019
-      Text = 'X'#243'a '#273#417'n h'#224'ng'
+      Text = 'X'#243'a c'#225'c '#273#417'n h'#224'ng'
     end
     item
       IndexID = 1020
@@ -4343,7 +4345,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1042
-      Text = 'T'#249'y ch'#7885'n BC nh'#227'n'
+      Text = 'T'#249'y ch'#7885'n b'#225'o c'#225'o nh'#227'n'
     end
     item
       IndexID = 1043
@@ -4371,7 +4373,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1049
-      Text = 'T'#234'n S'#7893' K'#7871' To'#225'n kh'#244'ng '#273#432#7907'c '#273#7875' tr'#7889'ng!'
+      Text = 'T'#234'n s'#7893' k'#7871' to'#225'n kh'#244'ng '#273#432#7907'c '#273#7875' tr'#7889'ng!'
     end
     item
       IndexID = 1050
@@ -4416,7 +4418,7 @@ object TTranslationSaveObject
     item
       IndexID = 1060
       Text = 
-        'S'#7893' K'#7871' To'#225'n c'#7911'a b'#7841'n b'#7883' h'#7887'ng! Ch'#7841'y T'#225'i l'#7853'p ch'#7881' m'#7909'c D'#7919' li'#7879'u '#273#7875' x'#226'y ' +
+        'S'#7893' k'#7871' to'#225'n c'#7911'a b'#7841'n b'#7883' h'#7887'ng! Ch'#7841'y T'#225'i l'#7853'p ch'#7881' m'#7909'c D'#7919' li'#7879'u '#273#7875' x'#226'y ' +
         'd'#7921'ng l'#7841'i gi'#225' tr'#7883' kh'#243'a.'
     end
     item
@@ -4477,7 +4479,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1078
-      Text = 'T'#249'y ch'#7885'n Mua h'#224'ng theo NCC'
+      Text = 'T'#249'y ch'#7885'n Mua h'#224'ng theo nh'#224' cung c'#7845'p'
     end
     item
       IndexID = 1079
@@ -4653,7 +4655,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1122
-      Text = '"""T'#234'n gi'#225'"",Gi'#225' tr'#7883'"'
+      Text = '"T'#234'n gi'#225'", Gi'#225' tr'#7883
     end
     item
       IndexID = 1123
@@ -4707,7 +4709,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = #272#259'ng k'#253' THU'#7870
+      Text = #272#259'ng k'#253' thu'#7871
     end
     item
       IndexID = 1136
@@ -4751,7 +4753,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1146
-      Text = #272#227' ch'#7845'p nh'#7853'n phi'#7871'u ghi n'#7907
+      Text = #272#227' ch'#7845'p nh'#7853'n phi'#7871'u ghi c'#243
     end
     item
       IndexID = 1147
@@ -4799,7 +4801,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1158
-      Text = 'BC Thu nh'#7853'p v'#224' Chi ph'#237
+      Text = 'B'#225'o c'#225'o thu nh'#7853'p v'#224' chi ph'#237
     end
     item
       IndexID = 1159
@@ -5339,7 +5341,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = 'Ch'#7885'n S'#7893' K'#7871' To'#225'n '#273#7875' x'#226'y d'#7921'ng l'#7841'i'
+      Text = 'Ch'#7885'n s'#7893' k'#7871' to'#225'n '#273#7875' x'#226'y d'#7921'ng l'#7841'i'
     end
     item
       IndexID = 1293
@@ -5867,7 +5869,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1703
-      Text = 'T'#7893'ng c'#7897'ng cho BC :'
+      Text = 'T'#7893'ng c'#7897'ng cho b'#225'o c'#225'o:'
     end
     item
       IndexID = 1702
@@ -6081,7 +6083,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1761
-      Text = '&Thi'#7871't k'#7871' BC'
+      Text = '&Thi'#7871't k'#7871' b'#225'o c'#225'o'
     end
     item
       IndexID = 1760
@@ -6197,15 +6199,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1795
-      Text = 'Nh'#243'm BC 2'
+      Text = 'Nh'#243'm b'#225'o c'#225'o 2'
     end
     item
       IndexID = 1794
-      Text = 'Nh'#243'm BC'
+      Text = 'Nh'#243'm b'#225'o c'#225'o'
     end
     item
       IndexID = 1793
-      Text = 'H'#224'ng t'#7891'n kho'
+      Text = 'T'#7891'n kho'
     end
     item
       IndexID = 1792
@@ -6241,7 +6243,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1796
-      Text = 'Nh'#243'm BC'
+      Text = 'Nh'#243'm b'#225'o c'#225'o'
     end
     item
       IndexID = 1807
@@ -6249,7 +6251,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1806
-      Text = #272'ang t'#7841'o S'#7893' K'#7871' To'#225'n...'
+      Text = #272'ang t'#7841'o s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 1805
@@ -6261,7 +6263,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1803
-      Text = 'Thay '#273#7893'i m'#227' kho s'#7869' khi'#7871'n t'#7845't c'#7843' BC d'#249'ng m'#227' n'#224'y!'
+      Text = 'Thay '#273#7893'i m'#227' m'#7863't h'#224'ng s'#7869' khi'#7871'n t'#7845't c'#7843' b'#225'o c'#225'o d'#249'ng m'#227' n'#224'y!'
     end
     item
       IndexID = 1802
@@ -6297,15 +6299,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1818
-      Text = 'S'#7893' K'#7871' To'#225'n c'#361' '#273#7875' chuy'#7875'n '#273#7893'i:'
+      Text = 'S'#7893' k'#7871' to'#225'n c'#361' '#273#7875' chuy'#7875'n '#273#7893'i:'
     end
     item
       IndexID = 1817
-      Text = 'S'#7893' K'#7871' To'#225'n '#273#7875' sao ch'#233'p:'
+      Text = 'S'#7893' k'#7871' to'#225'n '#273#7875' sao ch'#233'p:'
     end
     item
       IndexID = 1816
-      Text = 'Nh'#7853'p t'#234'n S'#7893' K'#7871' To'#225'n m'#7899'i'
+      Text = 'Nh'#7853'p t'#234'n s'#7893' k'#7871' to'#225'n m'#7899'i'
     end
     item
       IndexID = 1815
@@ -6349,7 +6351,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1831
-      Text = #272'ang chuy'#7875'n '#273#7893'i S'#7893' K'#7871' To'#225'n...'
+      Text = #272'ang chuy'#7875'n '#273#7893'i s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 1829
@@ -6361,7 +6363,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1827
-      Text = #272#227' sao ch'#233'p S'#7893' K'#7871' To'#225'n!'
+      Text = #272#227' sao ch'#233'p s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 1839
@@ -6389,7 +6391,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1845
-      Text = 'T'#234'n nh'#243'm BC:'
+      Text = 'T'#234'n nh'#243'm b'#225'o c'#225'o:'
     end
     item
       IndexID = 1844
@@ -6429,7 +6431,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1847
-      Text = 'G'#7888'C NH'#211'M BC'
+      Text = 'G'#7888'C NH'#211'M B'#193'O C'#193'O'
     end
     item
       IndexID = 1846
@@ -6617,11 +6619,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1902
-      Text = 'BC s'#7893' c'#225'i chung'
+      Text = 'B'#225'o c'#225'o s'#7893' c'#225'i chung'
     end
     item
       IndexID = 1901
-      Text = 'Quy'#7873'n truy c'#7853'p BC'
+      Text = 'Quy'#7873'n truy c'#7853'p b'#225'o c'#225'o'
     end
     item
       IndexID = 1900
@@ -6641,7 +6643,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1908
-      Text = 'Ch'#7881'nh s'#7917'a BC ng'#432#7901'i d'#249'ng'
+      Text = 'Ch'#7881'nh s'#7917'a b'#225'o c'#225'o ng'#432#7901'i d'#249'ng'
     end
     item
       IndexID = 1907
@@ -6661,7 +6663,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1903
-      Text = 'Quy'#7873'n truy c'#7853'p CT'
+      Text = 'Quy'#7873'n truy c'#7853'p ch'#7913'ng t'#7915
     end
     item
       IndexID = 1914
@@ -6853,7 +6855,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1951
-      Text = '<@APPNAME@> Ng'#432#7901'i g'#7917'i BC mail %s TK E-mail %s'
+      Text = '<@APPNAME@> Ng'#432#7901'i g'#7917'i b'#225'o c'#225'o mail %s TK E-mail %s'
     end
     item
       IndexID = 1962
@@ -6921,7 +6923,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20123
-      Text = '*.flt'
+      Text = 'B'#7897' l'#7885'c (*.flt)|*.flt '
     end
     item
       IndexID = 20122
@@ -7257,7 +7259,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20079
-      Text = 'M'#7903' m'#7897't B'#7897' S'#7893' s'#225'ch tr'#432#7899'c!'
+      Text = 'M'#7903' m'#7897't s'#7893' k'#7871' to'#225'n tr'#432#7899'c!'
     end
     item
       IndexID = 20078
@@ -7345,7 +7347,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'Ghi nh'#7899' thu'#7871' tr'#234'n TK '#273#7889'i '#7913'ng'
+      Text = 'Ghi nh'#7899' Thu'#7871' tr'#234'n T'#224'i kho'#7843'n '#273#7889'i '#7913'ng'
     end
     item
       IndexID = 1984
@@ -7793,7 +7795,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2065
-      Text = #272'ang t'#7841'o S'#7893' K'#7871' To'#225'n...'
+      Text = #272'ang t'#7841'o s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 2064
@@ -7945,17 +7947,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2099
-      Text = 'Kh'#244'ng t'#236'm th'#7845'y t'#7879'p b'#7889' c'#7909'c BC!'
+      Text = 'Kh'#244'ng t'#236'm th'#7845'y t'#7879'p b'#7889' c'#7909'c b'#225'o c'#225'o!'
     end
     item
       IndexID = 2098
       Text = 
         'B'#7841'n v'#7851'n c'#242'n s'#7889' ti'#7873'n ph'#7843'i thu. %s Kh'#244'ng th'#7875' '#273#7875' l'#7841'i s'#7889' ti'#7873'n ch'#432'a t' +
-        'hanh to'#225'n cho H'#272' POS!'
+        'hanh to'#225'n cho h'#243'a '#273#417'n POS!'
     end
     item
       IndexID = 2109
-      Text = 'Ch'#7885'n th'#432' m'#7909'c S'#7893' K'#7871' To'#225'n'
+      Text = 'Ch'#7885'n th'#432' m'#7909'c s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 2108
@@ -8007,7 +8009,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2120
-      Text = 'Thay '#273#7893'i m'#227' kho s'#7869' khi'#7871'n t'#7845't c'#7843' BC d'#249'ng m'#227' n'#224'y!'
+      Text = 'Thay '#273#7893'i m'#227' m'#7863't h'#224'ng s'#7869' khi'#7871'n t'#7845't c'#7843' b'#225'o c'#225'o d'#249'ng m'#227' n'#224'y!'
     end
     item
       IndexID = 2119
@@ -8023,7 +8025,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2116
-      Text = 'T'#234'n S'#7893' K'#7871' To'#225'n'
+      Text = 'T'#234'n s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 2127
@@ -8047,7 +8049,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2122
-      Text = 'M'#227' kho m'#7899'i'
+      Text = 'M'#227' m'#7863't h'#224'ng m'#7899'i'
     end
     item
       IndexID = 2133
@@ -8147,7 +8149,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2157
-      Text = 'T'#7893'ng gi'#7845'y b'#225'o c'#243':'
+      Text = 'T'#7893'ng phi'#7871'u ghi c'#243':'
     end
     item
       IndexID = 2156
@@ -8167,11 +8169,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2152
-      Text = 'Gi'#7845'y b'#225'o c'#243' (Phi'#7871'u chi'#7871't kh'#7845'u)'
+      Text = 'Phi'#7871'u ghi c'#243
     end
     item
       IndexID = 2163
-      Text = 'Ph'#226'n t'#237'ch mua h'#224'ng - Mua h'#224'ng theo NCC'
+      Text = 'Ph'#226'n t'#237'ch mua h'#224'ng - Mua h'#224'ng theo nh'#224' cung c'#7845'p'
     end
     item
       IndexID = 2162
@@ -8211,7 +8213,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2168
-      Text = 'V'#7883' tr'#237' S'#7893' K'#7871' To'#225'n:'
+      Text = 'V'#7883' tr'#237' s'#7893' k'#7871' to'#225'n:'
     end
     item
       IndexID = 2167
@@ -8223,7 +8225,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = #272#227' t'#236'm th'#7845'y s'#7889' ti'#7873'n thu'#7871' nh'#432'ng TK thu'#7871' '#273#227' b'#7883' x'#243'a!'
+      Text = #272#227' t'#236'm th'#7845'y s'#7889' ti'#7873'n thu'#7871' nh'#432'ng t'#224'i kho'#7843'n thu'#7871' '#273#227' b'#7883' x'#243'a!'
     end
     item
       IndexID = 2176
@@ -8411,7 +8413,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2226
-      Text = 'BC thanh to'#225'n ch'#7911' n'#7907
+      Text = 'B'#225'o c'#225'o thanh to'#225'n ch'#7911' n'#7907
     end
     item
       IndexID = 2225
@@ -9543,7 +9545,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2808
-      Text = '"D'#7921' ki'#7871'n "" ho'#7863'c '#39'"'
+      Text = 'D'#7921' ki'#7871'n " ho'#7863'c '#39
     end
     item
       IndexID = 2807
@@ -9625,7 +9627,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3018
-      Text = 'C'#7843'nh b'#225'o - BC n'#224'y ch'#7913'a s'#7893' nh'#7853't k'#253' ch'#432'a ghi s'#7893'!'
+      Text = 'C'#7843'nh b'#225'o - B'#225'o c'#225'o n'#224'y ch'#7913'a ch'#7913'ng t'#7915' ch'#432'a ghi s'#7893'!'
     end
     item
       IndexID = 3017
@@ -9641,7 +9643,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3014
-      Text = 'BC '#273#7889'i chi'#7871'u NH t'#237'nh '#273#7871'n'
+      Text = 'B'#225'o c'#225'o '#273#7889'i chi'#7871'u Ng'#226'n h'#224'ng t'#237'nh '#273#7871'n'
     end
     item
       IndexID = 3013
@@ -9920,8 +9922,8 @@ object TTranslationSaveObject
     item
       IndexID = 2880
       Text = 
-        'Vui l'#242'ng l'#432'u H'#272' l'#7863'p l'#7841'i n'#224'y tr'#432#7899'c! Sau khi m'#7903' l'#7841'i, b'#7841'n c'#243' th'#7875' th' +
-        #234'm KH v'#224'o H'#272'.'
+        'Vui l'#242'ng l'#432'u h'#243'a '#273#417'n l'#7863'p l'#7841'i n'#224'y tr'#432#7899'c! Sau khi m'#7903' l'#7841'i, b'#7841'n c'#243' t' +
+        'h'#7875' th'#234'm kh'#225'ch h'#224'ng v'#224'o h'#243'a '#273#417'n.'
     end
     item
       IndexID = 2891
@@ -9949,7 +9951,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2897
-      Text = 'Vui l'#242'ng nh'#7853'p t'#234'n cho B'#7897' S'#7893' S'#225'ch!'
+      Text = 'Vui l'#242'ng nh'#7853'p t'#234'n cho s'#7893' k'#7871' to'#225'n!'
     end
     item
       IndexID = 2896
@@ -10049,7 +10051,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2920
-      Text = 'BOM ('#272#7883'nh m'#7913'c nguy'#234'n li'#7879'u)'
+      Text = #272'MNL ('#272#7883'nh m'#7913'c nguy'#234'n li'#7879'u)'
     end
     item
       IndexID = 2919
@@ -10057,7 +10059,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2918
-      Text = 'D'#249'ng ng'#224'y hi'#7879'n t'#7841'i cho BC'
+      Text = 'D'#249'ng ng'#224'y hi'#7879'n t'#7841'i cho b'#225'o c'#225'o'
     end
     item
       IndexID = 2917
@@ -10085,7 +10087,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2923
-      Text = 'Danh s'#225'ch BOM'
+      Text = 'Danh s'#225'ch '#272'MNL'
     end
     item
       IndexID = 2922
@@ -10195,7 +10197,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2956
-      Text = 'Sao l'#432'u BC'
+      Text = 'Sao l'#432'u b'#225'o c'#225'o'
     end
     item
       IndexID = 2954
@@ -10291,7 +10293,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2977
-      Text = 'Ch'#7885'n th'#432' m'#7909'c B'#7897' S'#7893' S'#225'ch m'#7899'i'
+      Text = 'Ch'#7885'n th'#432' m'#7909'c s'#7893' k'#7871' to'#225'n m'#7899'i'
     end
     item
       IndexID = 2976
@@ -10339,11 +10341,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2989
-      Text = 'BC b'#225'n h'#224'ng'
+      Text = 'B'#225'o c'#225'o b'#225'n h'#224'ng'
     end
     item
       IndexID = 2988
-      Text = 'BC quy'#7871't to'#225'n ti'#7873'n m'#7863't'
+      Text = 'B'#225'o c'#225'o quy'#7871't to'#225'n ti'#7873'n m'#7863't'
     end
     item
       IndexID = 2987
@@ -10375,11 +10377,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3004
-      Text = 'Sao ch'#233'p t'#7915' B'#7897' S'#7893' S'#225'ch'
+      Text = 'Sao ch'#233'p t'#7915' s'#7893' k'#7871' to'#225'n'
     end
     item
       IndexID = 3003
-      Text = #272'ang sao ch'#233'p B'#7897' S'#7893' S'#225'ch...'
+      Text = #272'ang sao ch'#233'p s'#7893' k'#7871' to'#225'n...'
     end
     item
       IndexID = 3002
@@ -10491,7 +10493,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3039
-      Text = 'T'#249'y ch'#7885'n BC POS'
+      Text = 'T'#249'y ch'#7885'n b'#225'o c'#225'o POS'
     end
     item
       IndexID = 3040
@@ -10970,7 +10972,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901504
-      Text = 'M'#7863't h'#224'ng %s h'#7871't h'#224'ng! Vui l'#242'ng xem l'#7841'i!'
+      Text = 'M'#7863't h'#224'ng %s h'#7871't h'#224'ng! Vui l'#242'ng xem l'#7841'i m'#7909'c nh'#7853'p c'#7911'a b'#7841'n!'
     end
     item
       IndexID = 901505
@@ -11054,7 +11056,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903009
-      Text = 'Nh'#7845'n [OK] sau khi s'#7917'a '#273#7875' l'#432'u v'#224'o CSDL!'
+      Text = 
+        'Nh'#7845'n [OK] sau khi b'#7841'n ho'#224'n t'#7845't vi'#7879'c ch'#7881'nh s'#7917'a t'#7879'p '#273#7875' l'#432'u v'#224'o c'#417' ' +
+        's'#7903' d'#7919' li'#7879'u!'
     end
     item
       IndexID = 903010
@@ -11344,7 +11348,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906024
-      Text = 'Ng'#224'y phi'#7871'u ghi n'#7907
+      Text = 'Ng'#224'y phi'#7871'u ghi c'#243
     end
     item
       IndexID = 906025
@@ -11412,7 +11416,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906041
-      Text = 'L'#227'i/L'#7895' (P/L)'
+      Text = 'P/L'
     end
     item
       IndexID = 906042
@@ -11585,8 +11589,8 @@ object TTranslationSaveObject
     item
       IndexID = 3131
       Text = 
-        'M'#7913'c '#273#7863't h'#224'ng l'#7841'i - m'#7863't h'#224'ng s'#7869' '#273#432#7907'c '#273#7863't h'#224'ng l'#7841'i cho '#273#7871'n s'#7889' l'#432#7907'n' +
-        'g n'#224'y!'
+        'M'#7913'c '#273#7863't h'#224'ng l'#7841'i - m'#7863't h'#224'ng c'#7911'a b'#7841'n s'#7869' '#273#432#7907'c '#273#7863't h'#224'ng l'#7841'i cho '#273#7871'n' +
+        ' s'#7889' l'#432#7907'ng n'#224'y!'
     end
     item
       IndexID = 3132
@@ -11708,7 +11712,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'G'#7897'p m'#7863't h'#224'ng theo thu'#7871' tr'#234'n s'#7893' c'#225'i'
+      Text = 'G'#7897'p m'#7863't h'#224'ng theo thu'#7871' tr'#234'n S'#7893' C'#225'i'
     end
     item
       IndexID = 3161
@@ -11744,7 +11748,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'Thu'#7871' nghi'#234'm ng'#7863't tr'#234'n TK'
+      Text = 'Thu'#7871' nghi'#234'm ng'#7863't tr'#234'n T'#224'i kho'#7843'n'
     end
     item
       IndexID = 3170
@@ -11792,11 +11796,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3181
-      Text = 'Chuy'#7875'n th'#224'nh ghi n'#7907' / tr'#7843' h'#224'ng NCC'
+      Text = 'Chuy'#7875'n th'#224'nh ghi c'#243' / tr'#7843' h'#224'ng NCC'
     end
     item
       IndexID = 3182
-      Text = 'M'#7903' '#273#417'n h'#224'ng Th'#432#417'ng m'#7841'i '#273'i'#7879'n t'#7917' trong tr'#236'nh duy'#7879't'
+      Text = 'M'#7903' '#273#417'n h'#224'ng th'#432#417'ng m'#7841'i '#273'i'#7879'n t'#7917' trong tr'#236'nh duy'#7879't'
     end
     item
       IndexID = 3183
@@ -11808,7 +11812,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3185
-      Text = 'T'#7841'o mua h'#224'ng tr'#234'n NCC m'#7863'c '#273#7883'nh 1'
+      Text = 'T'#7841'o giao d'#7883'ch mua tr'#234'n nh'#224' cung c'#7845'p m'#7863'c '#273#7883'nh 1'
     end
     item
       IndexID = 3186
@@ -12190,7 +12194,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903100
-      Text = #272'i'#7873'u l'#7879'/Quy t'#7855'c'
+      Text = 'Charter'
     end
     item
       IndexID = 906087
@@ -12218,7 +12222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3266
-      Text = 'BOM (S'#7843'n xu'#7845't)'
+      Text = #272'MNL (S'#7843'n xu'#7845't)'
     end
     item
       IndexID = 3267
@@ -12442,13 +12446,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3311
-      Text = 'T'#7841'o '#273#417'n mua h'#224'ng tr'#234'n NCC m'#7863'c '#273#7883'nh 1'
+      Text = 'T'#7841'o giao d'#7883'ch mua tr'#234'n nh'#224' cung c'#7845'p m'#7863'c '#273#7883'nh 1'
     end
     item
       IndexID = 3312
       Text = 
-        'Kh'#244'ng c'#243' NCC m'#7863'c '#273#7883'nh 1 cho c'#225'c m'#7863't h'#224'ng t'#7891'n kho n'#224'y! Vui l'#242'ng s' +
-        #7917'a tr'#432#7899'c!'
+        'Kh'#244'ng c'#243' nh'#224' cung c'#7845'p m'#7863'c '#273#7883'nh 1 cho c'#225'c m'#7863't h'#224'ng kho n'#224'y! Vui l' +
+        #242'ng s'#7917'a tr'#432#7899'c!'
     end
     item
       IndexID = 3313
@@ -12492,7 +12496,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3323
-      Text = 'T'#7841'o '#273#417'n h'#224'ng t'#7891'n '#273#7875' giao'
+      Text = 'T'#7841'o '#273#417'n h'#224'ng t'#7891'n '#273#7885'ng '#273#7875' giao'
     end
     item
       IndexID = 3324
@@ -12544,7 +12548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'S'#7889' s'#7893' nh'#7853't k'#253' ti'#7871'p theo'
+      Text = 'S'#7889' nh'#7853't k'#253' ti'#7871'p theo'
     end
     item
       IndexID = 3337
@@ -12667,8 +12671,8 @@ object TTranslationSaveObject
     item
       IndexID = 3365
       Text = 
-        'SL t'#7891'n kho '#273#227' b'#7883' thay '#273#7893'i! B'#7841'n c'#243' mu'#7889'n gi'#7919' l'#7841'i d'#7919' li'#7879'u CSDL hi'#7879'n' +
-        ' t'#7841'i kh'#244'ng?'
+        'S'#7889' l'#432#7907'ng t'#7891'n kho '#273#227' b'#7883' thay '#273#7893'i! B'#7841'n c'#243' mu'#7889'n gi'#7919' l'#7841'i d'#7919' li'#7879'u CSD' +
+        'L hi'#7879'n t'#7841'i kh'#244'ng?'
     end
     item
       IndexID = 3366
@@ -12829,7 +12833,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3405
-      Text = 'Plugin T'#7891'n kho'
+      Text = 'Plugin t'#7891'n kho'
     end
     item
       IndexID = 3406
@@ -12845,7 +12849,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'Tra c'#7913'u M'#227' b'#432'u ch'#237'nh / M'#227' s'#7889' thu'#7871' / S'#7889' '#272'KKD'
+      Text = 'Tra c'#7913'u m'#227' b'#432'u ch'#237'nh / m'#227' s'#7889' thu'#7871' / s'#7889' '#272'KKD'
     end
     item
       IndexID = 3410
@@ -12893,7 +12897,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'S'#7917' d'#7909'ng tab trong kho'
+      Text = 'S'#7917' d'#7909'ng tab trong t'#7891'n kho'
     end
     item
       IndexID = 3422
@@ -13008,7 +13012,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906121
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923
     end
     item
       IndexID = 906122
@@ -13032,11 +13036,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906127
-      Text = 'Phi'#7871'u ghi n'#7907' '#273#227' ghi s'#7893
+      Text = 'Phi'#7871'u ghi c'#243' '#273#227' ghi s'#7893
     end
     item
       IndexID = 906128
-      Text = 'Phi'#7871'u ghi n'#7907' ch'#432'a ghi s'#7893
+      Text = 'Phi'#7871'u ghi c'#243' ch'#432'a ghi s'#7893
     end
     item
       IndexID = 906129
@@ -13088,7 +13092,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906141
-      Text = 'GD nh'#7853't k'#253' theo k'#7923
+      Text = 'Giao d'#7883'ch nh'#7853't k'#253' theo k'#7923
     end
     item
       IndexID = 906142
@@ -13304,7 +13308,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906195
-      Text = 'Phi'#7871'u ghi n'#7907' (kh'#244'ng m'#227')'
+      Text = 'Phi'#7871'u ghi c'#243' (kh'#244'ng m'#227')'
     end
     item
       IndexID = 906196
@@ -13328,7 +13332,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906201
-      Text = 'Phi'#7871'u ghi n'#7907' (m'#227' 10)'
+      Text = 'Phi'#7871'u ghi c'#243' (m'#227' 10)'
     end
     item
       IndexID = 906202
@@ -13352,7 +13356,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906207
-      Text = 'Phi'#7871'u ghi n'#7907' (m'#227' 15)'
+      Text = 'Phi'#7871'u ghi c'#243' (m'#227' 15)'
     end
     item
       IndexID = 906208
@@ -13376,7 +13380,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906213
-      Text = 'Phi'#7871'u ghi n'#7907' A4 (kh'#244'ng m'#227')'
+      Text = 'Phi'#7871'u ghi c'#243' A4 (kh'#244'ng m'#227')'
     end
     item
       IndexID = 906214
@@ -13396,7 +13400,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906219
-      Text = 'Phi'#7871'u ghi n'#7907' A4 (m'#227' 10)'
+      Text = 'Phi'#7871'u ghi c'#243' A4 (m'#227' 10)'
     end
     item
       IndexID = 906220
@@ -13420,7 +13424,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906225
-      Text = 'Phi'#7871'u ghi n'#7907' A4 (m'#227' 15)'
+      Text = 'Phi'#7871'u ghi c'#243' A4 (m'#227' 15)'
     end
     item
       IndexID = 906226
@@ -13444,7 +13448,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906231
-      Text = 'Phi'#7871'u ghi n'#7907' A4 tr'#417'n (kh'#244'ng m'#227')'
+      Text = 'Phi'#7871'u ghi c'#243' A4 tr'#417'n (kh'#244'ng m'#227')'
     end
     item
       IndexID = 906232
@@ -13468,7 +13472,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906237
-      Text = 'Phi'#7871'u ghi n'#7907' A4 tr'#417'n (m'#227' 10)'
+      Text = 'Phi'#7871'u ghi c'#243' A4 tr'#417'n (m'#227' 10)'
     end
     item
       IndexID = 906238
@@ -13492,7 +13496,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906243
-      Text = 'Phi'#7871'u ghi n'#7907' A4 tr'#417'n (m'#227' 15)'
+      Text = 'Phi'#7871'u ghi c'#243' A4 tr'#417'n (m'#227' 15)'
     end
     item
       IndexID = 906244
@@ -13516,7 +13520,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906249
-      Text = 'Phi'#7871'u ghi n'#7907' kh'#244'ng thu'#7871' (kh'#244'ng m'#227')'
+      Text = 'Phi'#7871'u ghi c'#243' kh'#244'ng thu'#7871' (kh'#244'ng m'#227')'
     end
     item
       IndexID = 906250
@@ -13540,7 +13544,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906255
-      Text = 'Phi'#7871'u ghi n'#7907' kh'#244'ng thu'#7871' (m'#227' 15)'
+      Text = 'Phi'#7871'u ghi c'#243' kh'#244'ng thu'#7871' (m'#227' 15)'
     end
     item
       IndexID = 906256
@@ -13600,7 +13604,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903102
-      Text = 'Bi'#7871'n h'#7879' th'#7889'ng'
+      Text = #39'Sysvars'#39
     end
     item
       IndexID = 903103
@@ -13648,7 +13652,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903114
-      Text = #272#7893'i lo'#7841'i m'#227' t'#7891'n kho'
+      Text = #272#7893'i lo'#7841'i m'#227' m'#7863't h'#224'ng'
     end
     item
       IndexID = 903115
@@ -13680,7 +13684,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903122
-      Text = 'X'#243'a kh'#7887'i '#272'MC nh'#7919'ng c'#225'i kh'#244'ng ph'#7843'i '#272'MC'
+      Text = 'X'#243'a kh'#7887'i '#272'MNL nh'#7919'ng c'#225'i kh'#244'ng ph'#7843'i '#272'MNL'
     end
     item
       IndexID = 903123
@@ -13724,7 +13728,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903133
-      Text = 'T'#7893'ng h'#7907'p n'#259'm '#273#227' '#273#243'ng - CT v'#224' t'#7891'n kho'
+      Text = 'T'#7893'ng h'#7907'p n'#259'm '#273#227' '#273#243'ng - ch'#7913'ng t'#7915' v'#224' t'#7891'n kho'
     end
     item
       IndexID = 903134
@@ -13780,7 +13784,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903147
-      Text = 'C'#7853'p nh'#7853't s'#7889' thu'#7871' cu'#7889'i Dochead'
+      Text = 'C'#7853'p nh'#7853't s'#7889' ti'#7873'n thu'#7871' cu'#7889'i '#39'Dochead FTaxAmt'#39
     end
     item
       IndexID = 903148
@@ -13808,7 +13812,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'S'#7917'a SL '#273#227'/ch'#432'a g'#7891'm Thu'#7871' (l'#7895'i '#273#7843'o ng'#432#7907'c)'
+      Text = 'S'#7917'a SL '#273#227'/ch'#432'a g'#7891'm thu'#7871' (l'#7895'i '#273#7843'o ng'#432#7907'c)'
     end
     item
       IndexID = 903155
@@ -13824,7 +13828,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903158
-      Text = 'X'#243'a BatCon kh'#244'ng c'#243' trong GD'
+      Text = 'X'#243'a '#39'BatCon'#39' kh'#244'ng c'#243' trong '#39'Transact'#39
     end
     item
       IndexID = 903159
@@ -13852,7 +13856,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903165
-      Text = #272#7863't Gi'#225' B'#225'n 1 b'#7857'ng 1.5 X Gi'#225' Mua v'#224' Gi'#225' B'#225'n 2 b'#7857'ng 1.3 X Gi'#225' Mua'
+      Text = #272#7863't gi'#225' b'#225'n 1 b'#7857'ng 1.5 X gi'#225' mua v'#224' gi'#225' b'#225'n 2 b'#7857'ng 1.3 X gi'#225' mua'
     end
     item
       IndexID = 903166
@@ -13860,11 +13864,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903167
-      Text = 'Ch'#7841'y l'#7841'i B'#7843'n v'#225' X'
+      Text = 'Rerun Patch X'
     end
     item
       IndexID = 903168
-      Text = #272#7863't l'#7841'i Bi'#7871'n h'#7879' th'#7889'ng'
+      Text = #272#7863't l'#7841'i '#39'Sysvars'#39
     end
     item
       IndexID = 903169
@@ -14362,11 +14366,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3531
-      Text = 'Ch'#7881'nh s'#7917'a B'#225'o c'#225'o'
+      Text = 'Ch'#7881'nh s'#7917'a b'#225'o c'#225'o'
     end
     item
       IndexID = 3532
-      Text = 'Hi'#7875'n th'#7883' B'#225'o c'#225'o'
+      Text = 'Hi'#7875'n th'#7883' b'#225'o c'#225'o'
     end
     item
       IndexID = 3533
@@ -14379,14 +14383,14 @@ object TTranslationSaveObject
     item
       IndexID = 3535
       Text = 
-        '"H'#224'nh '#273#7897'ng n'#224'y s'#7869' '#273'i'#7873'u ch'#7881'nh ng'#224'y chuy'#7875'n ti'#7873'n cu'#7889'i c'#249'ng t'#7841'i c'#225'c ' +
-        'Kho'#7843'n ph'#7843'i thu ""'#273#227' ch'#7885'n""! B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?"'
+        'H'#224'nh '#273#7897'ng n'#224'y s'#7869' '#273'i'#7873'u ch'#7881'nh ng'#224'y chuy'#7875'n ti'#7873'n cu'#7889'i c'#249'ng t'#7841'i c'#225'c K' +
+        'ho'#7843'n ph'#7843'i thu "'#273#227' ch'#7885'n"! B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
     end
     item
       IndexID = 3536
       Text = 
-        '"H'#224'nh '#273#7897'ng n'#224'y s'#7869' '#273'i'#7873'u ch'#7881'nh ng'#224'y chuy'#7875'n ti'#7873'n cu'#7889'i c'#249'ng t'#7841'i T'#7844'T ' +
-        'C'#7842' c'#225'c Kho'#7843'n ph'#7843'i thu ""HI'#7874'N TH'#7882'""! B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?"'
+        'H'#224'nh '#273#7897'ng n'#224'y s'#7869' '#273'i'#7873'u ch'#7881'nh ng'#224'y chuy'#7875'n ti'#7873'n cu'#7889'i c'#249'ng t'#7841'i T'#7844'T C' +
+        #7842' c'#225'c Kho'#7843'n ph'#7843'i thu "HI'#7874'N TH'#7882'"! B'#7841'n c'#243' mu'#7889'n ti'#7871'p t'#7909'c kh'#244'ng?'
     end
     item
       IndexID = 3537
@@ -14532,23 +14536,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906291
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - Nh'#243'm KH 1'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - Nh'#243'm KH 1'
     end
     item
       IndexID = 906292
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - Nh'#243'm KH 2'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - Nh'#243'm KH 2'
     end
     item
       IndexID = 906293
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - Nh'#243'm CT 1'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - Nh'#243'm CT 1'
     end
     item
       IndexID = 906294
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - Nh'#243'm CT 2'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - Nh'#243'm CT 2'
     end
     item
       IndexID = 906295
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - Nv B'#225'n h'#224'ng'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - Nv b'#225'n h'#224'ng'
     end
     item
       IndexID = 906296
@@ -14612,11 +14616,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906311
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - SL'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - SL'
     end
     item
       IndexID = 906312
-      Text = 'Phi'#7871'u ghi n'#7907' theo k'#7923' - S'#7889' ti'#7873'n'
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923' - S'#7889' ti'#7873'n'
     end
     item
       IndexID = 906313
@@ -14644,11 +14648,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906319
-      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi n'#7907' theo tu'#7847'n - SL'
+      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi c'#243' theo tu'#7847'n - SL'
     end
     item
       IndexID = 906320
-      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi n'#7907' theo tu'#7847'n - S'#7889' ti'#7873'n'
+      Text = 'Bi'#7875'u '#273#7891' - Phi'#7871'u ghi c'#243' theo tu'#7847'n - S'#7889' ti'#7873'n'
     end
     item
       IndexID = 906321
@@ -14748,7 +14752,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3569
-      Text = 'Ghi n'#7907' theo k'#7923
+      Text = 'Phi'#7871'u ghi c'#243' theo k'#7923
     end
     item
       IndexID = 3570
@@ -15308,7 +15312,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21061
-      Text = 'Hi'#7875'n th'#7883' T'#224'i li'#7879'u Report Manager Designer'
+      Text = 'Hi'#7875'n th'#7883' t'#224'i li'#7879'u Report Manager Designer'
     end
     item
       IndexID = 21062
@@ -15624,7 +15628,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21158
-      Text = 'B'#7843'ng v'#224' Th'#7913' t'#7921
+      Text = 'B'#7843'ng v'#224' th'#7913' t'#7921
     end
     item
       IndexID = 21159
@@ -15778,7 +15782,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3582
-      Text = 'Sao ch'#233'p B'#225'o c'#225'o'
+      Text = 'Sao ch'#233'p b'#225'o c'#225'o'
     end
     item
       IndexID = 36
@@ -15958,7 +15962,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906442
-      Text = 'Ng'#226'n s'#225'ch so v'#7899'i Th'#7921'c hi'#7879'n 3 k'#7923
+      Text = 'Ng'#226'n s'#225'ch so v'#7899'i th'#7921'c hi'#7879'n 3 k'#7923
     end
     item
       IndexID = 906443
@@ -16024,7 +16028,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3631
-      Text = 'T'#7845't c'#7843' '#272#417'n h'#224'ng'
+      Text = 'T'#7845't c'#7843' c'#225'c '#273#417'n h'#224'ng'
     end
     item
       IndexID = 3632
@@ -16188,7 +16192,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21354
-      Text = 'Tr'#236'nh thi'#7871't k'#7871' Reportman manager'
+      Text = 'Tr'#236'nh thi'#7871't k'#7871' Reportman Manager'
     end
     item
       IndexID = 3671
@@ -16204,7 +16208,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'BC Thu'#7871' - S'#7889' tham chi'#7871'u / S'#7889' CT'
+      Text = 'BC thu'#7871' - S'#7889' tham chi'#7871'u / S'#7889' ch'#7913'ng t'#7915
     end
     item
       IndexID = 3674
@@ -16212,7 +16216,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3675
-      Text = 'Danh s'#225'ch thu'#7871' Kho'#7843'n ph'#7843'i thu v'#7899'i m'#227' s'#7889' thu'#7871
+      Text = 'DS thu'#7871' kh'#225'ch h'#224'ng k'#232'm MST'
     end
     item
       IndexID = 3676
@@ -16318,7 +16322,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3698
-      Text = 'B'#7843'ng t'#237'nh B'#225'o c'#225'o'
+      Text = 'B'#7843'ng t'#237'nh b'#225'o c'#225'o'
     end
     item
       IndexID = 3699
@@ -16370,11 +16374,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906555
-      Text = 'L'#244' h'#224'ng mua t'#7915' NCC'
+      Text = 'L'#244' h'#224'ng mua t'#7915' nh'#224' cung c'#7845'p'
     end
     item
       IndexID = 906556
-      Text = 'L'#244' h'#224'ng b'#225'n cho KH'
+      Text = 'L'#244' h'#224'ng b'#225'n cho kh'#225'ch h'#224'ng'
     end
     item
       IndexID = 3710
@@ -16505,6 +16509,6 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Chuy'#7875'n b'#225'o gi'#225' th'#224'nh m'#7897't h'#243'a '#273#417'n ch'#432'a x'#7917' l'#253' m'#7895'i KH'
+      Text = 'Chuy'#7875'n b'#225'o gi'#225' th'#224'nh m'#7897't h'#243'a '#273#417'n ch'#432'a x'#7917' l'#253' m'#7895'i kh'#225'ch h'#224'ng'
     end>
 end
