@@ -790,7 +790,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Statement message'
+      Text = 'Message'
     end
     item
       IndexID = 201
@@ -1995,7 +1995,7 @@ object TTranslationSaveObject
     item
       IndexID = 500
       Text = 
-        'Do you want to run the data integrity check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -2037,7 +2037,7 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Do you want to run the Data Integrity Check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -7545,7 +7545,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2033
-      Text = 'Change company info.'
+      Text = 'Change company info'
     end
     item
       IndexID = 2032

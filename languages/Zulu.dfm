@@ -690,7 +690,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 176
-      Text = 'Inombolo Ye-Akhawunti.'
+      Text = 'I-Akhawunti No.'
     end
     item
       IndexID = 177
@@ -926,7 +926,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 234
-      Text = 'Inombolo Ye-Invoyisi.'
+      Text = 'I-Invoyisi No.'
     end
     item
       IndexID = 235
@@ -1126,11 +1126,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 284
-      Text = 'Kusukela ku-Invoyisi no.'
+      Text = 'Kusuka ku-Invoyisi No'
     end
     item
       IndexID = 285
-      Text = 'Ku-Invoyisi no.'
+      Text = 'Ku-Invoyisi No.'
     end
     item
       IndexID = 286
@@ -1186,7 +1186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 299
-      Text = 'Inombolo Ye-Credit Note.'
+      Text = 'I-Credit Note No.'
     end
     item
       IndexID = 300
@@ -1254,11 +1254,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 316
-      Text = 'Inombolo Yokubhalisa Yenkapani.'
+      Text = 'I-Reg. No. yenkampani'
     end
     item
       IndexID = 317
-      Text = 'Inombolo Yokubhalisa YeRhafu.'
+      Text = 'I-Reg. No. yentela'
     end
     item
       IndexID = 318
@@ -1274,7 +1274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 321
-      Text = 'Inombolo Ye-Invoyisi Elandelayo.'
+      Text = 'I-Next Invoyisi No.'
     end
     item
       IndexID = 322
