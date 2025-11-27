@@ -102,7 +102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = '&Voorraaditems'
+      Text = 'Voorraad'
     end
     item
       IndexID = 28
@@ -786,7 +786,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Staatboodskap'
+      Text = 'Boodskap'
     end
     item
       IndexID = 201
@@ -1995,7 +1995,7 @@ object TTranslationSaveObject
     item
       IndexID = 500
       Text = 
-        'Wil jy die data integriteitstoets doen voordat jy die rugsteun d' +
+        'Wil jy die Data integriteitstoets doen voordat jy die rugsteun d' +
         'oen?'
     end
     item
@@ -2037,7 +2037,7 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Wil jy '#39'n data integriteitstoets uitvoer voordat jy die rugsteun' +
+        'Wil jy '#39'n Data integriteitstoets uitvoer voordat jy die rugsteun' +
         ' maak?'
     end
     item

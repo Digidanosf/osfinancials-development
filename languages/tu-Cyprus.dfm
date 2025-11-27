@@ -5070,7 +5070,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Hesap '#246'zeti mesaj'#305
+      Text = 'Mesaj'
     end
     item
       IndexID = 201
@@ -5086,7 +5086,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 204
-      Text = 'Vadesi ge'#231'mi'#351' alacaklarda ayl'#305'k faiz oran'#305
+      Text = 'Gecikmi'#351' alacak ayl'#305'k faiz oran'#305
     end
     item
       IndexID = 205
@@ -5574,7 +5574,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 326
-      Text = 'Sonraki alacak dekontu no'
+      Text = 'Snr. A. Dekontu no.'
     end
     item
       IndexID = 327
@@ -5590,7 +5590,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 330
-      Text = 'Sonraki sat'#305'n alma no.'
+      Text = 'Snr. Sat'#305'n Alma no.'
     end
     item
       IndexID = 331
@@ -5606,7 +5606,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'Sonraki tedarik'#231'i iade no.'
+      Text = 'Snr. T. '#304'adesi no.'
     end
     item
       IndexID = 335
@@ -5666,7 +5666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 349
-      Text = 'Sat'#305'lan mal'#305'n maliyeti yevmiyesi'
+      Text = 'SMM yevmiyesi'
     end
     item
       IndexID = 350
@@ -10713,7 +10713,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Varsay'#305'lan '#252'lkeler ('#304'ngilizce)'
+      Text = 
+        'K'#305'br'#305's (tu-Cyprus) i'#231'in T'#252'rk'#231'e ana dil dosyas'#305'. NOT: Bu dil dosy' +
+        'as'#305'n'#305' kendi gereksinimleriniz i'#231'in d'#252'zenlemek isterseniz, l'#252'tfen' +
+        ' tu-Cyprus dil dosyas'#305'n'#305'n bir kopyas'#305'n'#305' olu'#351'turun.'
     end
     item
       IndexID = 1000001
@@ -11391,7 +11394,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'Sonraki yevmiye no.'
+      Text = 'Snr. Yevmiye no.'
     end
     item
       IndexID = 3337
@@ -11438,7 +11441,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3347
-      Text = 'Zaman aral'#305#287#305
+      Text = 'Dilim'
     end
     item
       IndexID = 3348
@@ -13201,7 +13204,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3475
-      Text = 'Outlook senkronizasyonu'
+      Text = 'Outlook e'#351'itleme'
     end
     item
       IndexID = 3476
@@ -13221,7 +13224,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3480
-      Text = 'Outlook senkronizasyon arac'#305
+      Text = 'Outlook e'#351'itleme arac'#305
     end
     item
       IndexID = 3481
@@ -13545,7 +13548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3559
-      Text = 'Toplu zaman giri'#351'i'
+      Text = 'Toplu s'#252're atama'
     end
     item
       IndexID = 3560

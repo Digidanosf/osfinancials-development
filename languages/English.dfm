@@ -938,7 +938,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Statement message'
+      Text = 'Message'
     end
     item
       IndexID = 201
@@ -7693,7 +7693,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2033
-      Text = 'Change company info.'
+      Text = 'Change company info'
     end
     item
       IndexID = 2032
