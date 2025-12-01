@@ -1,0 +1,4072 @@
+﻿1	&Không	&No
+2	&Có	&Yes
+3	Tháng Một	January
+4	Tháng Hai	February
+5	Tháng Ba	March
+6	Tháng Tư	April
+7	Tháng Năm	May
+8	Tháng Sáu	June
+9	Tháng Bảy	July
+10	Tháng Tám	August
+11	Tháng Chín	September
+13	Tháng Mười	October
+14	Tháng Mười Một	November
+15	Tháng Mười Hai	December
+16	&Mở Sổ Kế Toán	&Open Set of Books
+17	&Tạo Sổ Kế Toán	&Create Set of Books
+18	&Xóa Sổ Kế Toán	&Delete Set of Books
+19	Lưu thành	Save as
+20	&Đổi ngôn ngữ	&Switch language
+21	&Thoát <@APPNAME@>	&Exit <@APPNAME@>
+22	&Tài khoản	&Accounts
+23	&Ngân sách	&Budgets
+24	&Xóa	&Delete
+25	&Giao dịch định kỳ	&Repeating transactions
+26	&Hóa đơn định kỳ	Repeating &invoices
+27	Kho hàng	Stock
+28	&Báo cáo người dùng	&User reports
+29	TK Ngân hàng	Bank account
+30	Phải trả	Creditors
+31	Phải thu	Debtors
+32	Sổ cái	General ledger
+33	TK Thuế	Tax account
+34	Tài khoản (TK)	Account
+35	Báo cáo người dùng	User report
+36	Xác nhận đơn hàng	Order confirmation
+37	Mặt hàng kho	Stock item
+38	Chứng từ	Documents
+39	Xóa hóa đơn	Delete invoices
+40	Xóa giao dịch mua	Delete purchases
+41	Xóa hàng trả NCC	Delete supplier returns
+42	&Điều chỉnh kho	&Adjust stock
+43	&Ghi sổ nhật ký	&Journal entry
+44	&Đối chiếu ngân hàng	&Reconcile bank
+45	&Danh sách chứng từ	&Documents listing
+46	Ghi sổ đầu vào	Input post to ledger
+47	&Phiếu ghi nợ/Hoàn trả	&Credit notes
+48	&Hóa đơn	&Invoices
+49	&Mua hàng	&Purchases
+50	&Hàng trả nhà cung cấp	Supplier &returns
+51	&Nhập liệu	&Enter
+52	&In	&Print
+53	&Cập nhật sổ cái	&Update ledger
+54	&In phiếu giao hàng	Print &delivery notes
+55	&Loại Nhật ký	&Journal type
+56	&Chủ nợ (NCC)	&Creditor
+57	&Khách nợ (KH)	&Debtor
+58	&Sổ cái	&General ledger
+59	&Đối chiếu	&Reconciliation
+60	&Hóa đơn	&Invoices
+61	&Mua hàng	&Purchases
+62	&Kho hàng	&Stock
+63	&Thuế	&Tax
+64	&Báo cáo người dùng	&User reports
+65	&Phân tích tuổi nợ	&Age analysis
+66	&Danh sách	&Listing
+67	&Biến động	&Movements
+68	&In nhãn	&Print labels
+69	&Phiếu báo chuyển tiền	&Remittance advises
+70	&Giao dịch	&Transactions
+71	&Sao kê	&Statements
+72	&Thực hiện ngân sách	&Budget performance
+73	&Hệ thống tài khoản	&Chart of accounts
+74	Giao dịch	Transactions
+75	&Bảng cân đối phát sinh	&Trial balance
+76	&DS Đơn hàng tồn đọng	&Backorder listing
+77	&DS Phiếu ghi nợ	&Credit note listing
+78	&DS Hóa đơn	&Invoice listing
+79	&DS Mua hàng	&Purchases listing
+80	&DS Hàng trả NCC	&Supplier return listing
+81	&Hoạt động	&Activity
+82	&Tổng quan biến động	&Movement summary
+83	&BC Đặt hàng lại	&Reorder report
+84	&DS Mặt hàng kho	&Stock item listing
+85	Phân tích bán hàng	Sales analysis
+86	&Chi tiết đã lập HĐ	&Invoiced details
+87	&Tổng hợp đã lập HĐ	&Invoiced summary
+88	&Chi tiết đã thu/chi	&Received / paid details
+89	Tổng hợp đã thu/&chi	Received / &paid summary
+90	&Kiểm soát truy cập	&Access control
+91	&Đường dẫn sao lưu	Backup &path
+92	&Loại Nhật ký	&Journal types
+93	&Thông tin Công ty	Company &info
+94	&Màu sắc	&Colours
+95	&Định nghĩa nhãn	Define &labels
+96	Hóa đơn chiếu lệ	Proforma
+97	&Nhóm	&Groups
+98	&Chứng từ	&Documents
+99	&Máy in	&Printer
+100	&Ngày Báo cáo	&Reporting dates
+101	Nhân viên &bán hàng	Sales&person
+102	&Sao kê	&Statements
+103	Thông tin Kho	Stock information
+104	&Sao lưu / Phục hồi Sổ Kế Toán	&Backup / Restore Set of Books
+105	&Máy tính	&Calculator
+106	Kiểm tra toàn vẹn dữ liệu	Data integrity check
+107	&Xuất dữ liệu	&Export
+108	&Quy trình chung	&Global processes
+109	&Nhập dữ liệu	&Import
+110	&Liên kết lại khoản mục mở	&Open item relink
+111	&Phục hồi từ bản sao lưu	&Restore from backup
+112	&Trình xem	&Viewer
+113	&Hỗ trợ	&Support
+114	&Xóa / Đặt lại	&Clear / Reset
+115	&Kết chuyển cuối năm	&Do year end
+116	&Đối chiếu	&Reconcile
+117	&Chuyển giao dịch	&Transfer transactions
+118	Hủy đối chiếu	Unreconcile
+119	Về <@APPNAME@>	About <@APPNAME@>
+120	Tệp	File
+121	Chỉnh sửa	Edit
+122	Nhập liệu	Input
+123	Báo cáo	Reports
+124	Thiết lập	Setup
+125	Công cụ	Tools
+126	Trợ giúp	Help
+127	Một	One
+128	Hai	Two
+129	Ba	Three
+130	Bốn	Four
+131	Năm	Five
+132	Sáu	Six
+133	Bảy	Seven
+134	Tám	Eight
+135	Chín	Nine
+136	Mười	Ten
+137	Mười Một	Eleven
+138	Mười Hai	Twelve
+139	Mười Ba	Thirteen
+140	Mười Bốn	Fourteen
+141	Mười Lăm	Fifteen
+142	Mười Sáu	Sixteen
+143	Mười Bảy	Seventeen
+144	Mười Tám	Eighteen
+145	Mười Chín	Nineteen
+146	Hai Mươi	Twenty
+147	Ba Mươi	Thirty
+148	Bốn Mươi	Forty
+149	Năm Mươi	Fifty
+150	Sáu Mươi	Sixty
+151	Bảy Mươi	Seventy
+152	Tám Mươi	Eighty
+153	Chín Mươi	Ninety
+154	Trăm	Hundred
+155	Nghìn	Thousand
+156	Triệu	Million
+157	Đồng	Rands
+158	Xu	Cents
+159	Giá từng phần	Piece price
+160	Phải thu (Khách hàng)	Debtors
+161	Phải trả (NCC)	Creditors
+162	Lịch sử hóa đơn	Invoice history
+163	&Mở	&Open
+164	Chứng từ ghi sổ	Journal entry
+165	Hóa đơn	Invoice
+166	Phiếu thu/chi tiền	Cash/Bank entry
+167	&Đồng ý	&OK
+168	&Hủy bỏ	&Cancel
+169	&Đóng	&Close
+170	Đơn vị đóng gói	Packaging unit
+171	Chọn ngôn ngữ	Choose a language
+172	Sổ Kế Toán	Set of Books
+173	Xóa	Delete
+174	Tạo	Create
+175	Tên Sổ Kế Toán mới	Name for a new Set of Books
+176	Số tài khoản	Account no.
+177	Tiểu khoản	Sub-account
+178	Diễn giải	Description
+179	Nhóm báo cáo 1	Reporting group 1
+180	Nhóm báo cáo 2	Reporting group 2
+181	Thanh toán	Payments
+182	Thu tiền	Receipts
+183	Tài khoản ngân hàng	Bank accounts
+184	TK Khoản mục mở	Open item account
+185	Tên	Name
+186	Địa chỉ	Address
+187	ĐT 1	Phone 1
+188	ĐT 2	Phone 2
+189	Fax	Fax
+190	Mã bưu chính	Postal code
+191	Thư điện tử (Email)	E-mail
+192	Hạn mức tín dụng	Credit limit
+193	Số tiền phí	Charge amount
+194	Số dư hiện tại	Current balance
+195	Lần thanh toán cuối	Last paid
+196	Vào ngày	On
+197	Người liên hệ	Contactperson
+198	Nhân viên bán hàng	Salesperson
+199	Địa chỉ giao hàng	Delivery address
+200	Thông báo sao kê	Statement message
+201	TK bị vô hiệu hóa	Account disabled
+202	Mã số thuế	Tax reference
+203	Chiết khấu khách hàng	Customer discount
+204	Lãi suất hàng tháng trên số tiền quá hạn	Monthly interest on overdue amounts
+205	%	%
+206	Báo cáo kết quả HĐKD	Income statement
+207	Có hiệu lực từ	Valid from
+208	Đến	To
+209	Tỷ lệ phần trăm	Percentage
+210	Hàng năm	Annual
+211	Nợ	Debit
+212	Có	Credit
+213	Mã mặt hàng	Stock code
+214	Đơn vị	Units
+215	Giá gần nhất	Latest cost
+216	Giá bán 1	Selling price 1
+217	Giá bán 2	Selling price 2
+218	Giá bán 3	Selling price 3
+219	Thuế đầu vào	Input tax
+220	Thuế đầu ra	Output tax
+221	Mức đặt hàng lại	Reorder level
+222	Áp dụng chiết khấu HĐ	Apply invoice discount
+223	TK Doanh thu	Sales account
+224	Giá vốn hàng bán	Cost of sales
+225	Kiểm soát kho	Stock control
+226	Giá vốn bình quân	Average cost
+227	Số lượng tồn kho	Quantity on hand
+228	Tổng giá vốn	Total cost
+229	Hóa đơn cuối	Last invoice
+230	Từ hóa đơn	From invoice
+231	Đến hóa đơn	To invoice
+232	Bao gồm các mục cho đến	Include items until
+233	Số dư ngân hàng	Bank balance
+234	Số hóa đơn	Invoice no.
+235	Địa chỉ bưu chính	Postal address
+236	Khả dụng	Available
+237	Tham chiếu của bạn	Your reference
+238	Ngày	Date
+239	Thông báo	Message
+240	Gửi báo cáo đến	Send report to
+241	Loại Nhật ký	Journal type
+242	Năm nào	Which year
+243	Từ ngày báo cáo	From reporting date
+244	Từng kỳ riêng biệt	Each period separately
+245	Hiển thị bút toán cân bằng	Show balancing entries
+246	Từ tài khoản	From account
+247	Trình tự	Sequence
+248	Bao gồm số dư bằng không	Include zero balances
+249	Tùy chọn BC giao dịch phải trả	Creditor transaction report options
+250	Tài khoản ngân hàng	Bank accounts
+251	Tài khoản phải trả	Creditor accounts
+252	Tài khoản phải thu	Debtor accounts
+253	Tài khoản sổ cái	General ledger accounts
+254	Tài khoản thuế	Tax accounts
+255	Tài khoản ngân sách	Budget accounts
+256	Tài khoản ngân hàng	Bank accounts
+257	Mặt hàng kho	Stock item
+258	Báo cáo người dùng	User report
+259	Đối chiếu TK ngân hàng	Reconcile bank account
+260	Lập hóa đơn	Invoicing
+261	Tùy chọn BC loại nhật ký	Journal type report options
+262	Tùy chọn DS tài khoản	Account list options
+263	Tùy chọn phân tích tuổi nợ phải thu	Debtor age analysis options
+264	Số tiền tối thiểu	Minimum amount
+265	Sử dụng khoản mục mở	Use open item
+266	Bỏ qua số dư bằng không	Ignore zero balances
+267	Hiển thị chi tiết TK	Show account detail
+268	Sắp xếp theo tên	Sort by name
+269	Hiển thị giao dịch	Show transactions
+270	Ngày xác định tuổi nợ	Date of ageing
+271	đến	up to
+272	Tháng (các) đến	Month(s) up to
+273	Tùy chọn DS tài khoản	Account list options
+274	Tùy chọn biến động phải thu	Debtor movement options
+275	Tùy chọn BC giao dịch phải thu	Debtor transaction report options
+276	Hiển thị tiểu khoản	Show sub-accounts
+277	Tùy chọn thực hiện ngân sách	Budget performance options
+278	Tùy chọn sổ cái	General ledger options
+279	Tùy chọn biến động phải trả	Creditor movement options
+280	Tùy chọn biến động TK sổ cái	General ledger account movement options
+281	Tùy chọn bảng cân đối PS	Trial balance options
+282	Từ	From
+283	Đối chiếu ngân hàng	Bank reconciliation
+284	Từ số hóa đơn	From invoice no.
+285	Đến số hóa đơn	To invoice no.
+286	Từ ngày	From date
+287	Đến ngày	To date
+288	Tùy chọn DS chứng từ	Documents listing options
+289	Từ mã mặt hàng	From stock code
+290	Tùy chọn hoạt động kho	Stock activity options
+291	Kiểm soát truy cập	Access control
+292	Thêm	Add
+293	Xóa	Delete
+294	Tùy chọn bảo mật	Security Options
+295	Mật khẩu người dùng	User password
+296	Chỉnh sửa TK	Edit accounts
+297	Chỉnh sửa kho	Edit stock
+298	Ghi sổ nhật ký	Journal entry
+299	Số phiếu ghi nợ	Credit note no.
+300	Hóa đơn	Invoices
+301	Thiết lập hệ thống	System setup
+302	Mua hàng	Purchases
+303	Hàng trả NCC	Supplier returns
+304	Đã vô hiệu hóa	Disabled
+305	Báo cáo phải trả	Creditor reports
+306	Báo cáo phải thu	Debtor reports
+307	Báo cáo sổ cái	General ledger reports
+308	Báo cáo kho	Stock reports
+309	Báo cáo người dùng	User reports
+310	Ghi sổ	Posting
+311	Quy trình chung	Global processes
+312	ĐT (Điện thoại)	Tel
+313	Tên công ty	Company name
+314	Phương pháp tính thuế	Tax method
+315	Tài khoản đến hạn	Due account
+316	Số ĐKKD (Đăng ký kinh doanh)	Company reg. no.
+317	Mã số thuế (MST)	Tax reg. no.
+318	Báo cáo số tiền với	Report amount with
+319	Đặt định dạng/kiểu ngày Windows	Set Windows date format/style
+320	Thông tin công ty	Company info
+321	Số hóa đơn tiếp theo	Next invoice no.
+322	Nhật ký hóa đơn	Invoice journal
+323	Loại giấy	Paper type
+324	Tiêu đề hóa đơn	Invoice heading
+325	Thông báo hóa đơn	Invoice message
+326	Số phiếu ghi nợ tiếp theo	Next credit note no.
+327	Nhật ký phiếu ghi nợ	Credit note journal
+328	Tiêu đề phiếu ghi nợ	Credit note heading
+329	Thông báo phiếu ghi nợ	Credit note message
+330	Số mua hàng tiếp theo	Next purchase no.
+331	Nhật ký mua hàng	Purchase journal
+332	Tiêu đề mua hàng	Purchase heading
+333	Thông báo mua hàng	Purchase message
+334	Số hàng trả NCC tiếp theo	Next supplier return no.
+335	Nhật ký hàng trả NCC	Supplier return journal
+336	Tiêu đề hàng trả NCC	Supplier return heading
+337	Thông báo hàng trả NCC	Supplier return message
+338	Số đơn hàng tiếp theo	Next order no.
+339	Tiêu đề đơn hàng	Order heading
+340	Thông báo đơn hàng	Order message
+341	Số báo giá tiếp theo	Next quote no.
+342	Tiêu đề báo giá	Quote heading
+343	Thông báo báo giá	Quote message
+344	Thiết lập chứng từ	Documents setup
+345	Nhóm	Groups
+346	Loại thanh toán	Payment types
+347	Thiết lập sao kê	Statement setup
+348	Thông báo sao kê	Statement message
+349	Nhật ký giá vốn	Cost of sales journal
+350	Thông tin kho	Stock information
+351	Tạo giá vốn hàng bán	Create cost of sales
+352	Thông tin chung	General information
+353	Thông tin kế toán	Accounting information
+354	Sao kê	Statements
+355	Diễn giải	Description
+356	Chỉnh sửa	Edit
+357	Đặt lại	Reset
+358	Cập nhật	Update
+359	Liên kết lại khoản mục mở	Open item relink
+360	Liên kết khoản mục mở	Open item link
+365	Về <@APPNAME@>	About <@APPNAME@>
+366	Chứng từ ghi sổ	Journal entry
+367	^D: Xóa	^D: Delete
+368	^N: Chèn	^N: Insert
+369	F5: Cân bằng	F5: Balance
+370	F6: Ghi sổ	F6: Post
+371	F7: Chưa bao gồm	F7: Exclusive
+372	F8: Danh sách	F8: List
+373	F9: Xử lý	F9: Process
+374	F10: Thiết lập	F10: Setup
+375	Số tiền bao gồm:	Inclusive amount:
+376	Số tiền chưa bao gồm:	Exclusive amount:
+377	Tổng tham chiếu:	Reference total:
+378	Phân bổ cho:	Allocate to:
+379	Tài khoản đối ứng:	Contra account:
+380	Bán hàng theo khách hàng	Sales per customer
+381	Bán hàng theo sản phẩm	Sales per product
+382	Bán hàng theo NV bán hàng	Sales per salesperson
+383	Bán hàng theo nhóm	Sales per group
+384	Tùy chọn bán hàng theo KH	Sales per customer options
+385	Tùy chọn bán hàng theo SP	Sales per product options
+386	Tùy chọn bán hàng theo NVBH	Sales per salesperson options
+387	Tùy chọn bán hàng theo nhóm	Sales per group options
+388	Từ nhóm	From group
+389	Từ sản phẩm	From product
+390	Tùy chọn báo cáo thuế	Tax report options
+391	Mã thuế	Tax code
+392	Hiển thị chi tiết	Show details
+393	Cổ điển	Classic
+394	Rực rỡ	Brilliant
+395	SA Mới (Viết tắt)	New SA
+396	Giao diện (Chủ đề)	Theme
+397	Cơ đốc	Christian
+398	Hoạt hình	Comic
+399	Ai Cập	Egypt
+400	Do Thái	Jewish
+401	Scotland	Scottish
+402	Không gian	Space
+403	Động vật hoang dã	Wildlife
+404	Liên kết khoản mục mở	Open item link
+405	Cập nhật hóa đơn	Update invoices
+406	Ngày sao kê	Date of statements
+407	Hiển thị giao dịch thuế	Show tax transactions
+408	Báo cáo phải thu	Debtor reports
+409	Hiển thị thuế riêng	Show tax separately
+410	Tùy chọn biến động kho	Stock movement options
+411	Tùy chọn DS kho	Stock list options
+412	Thông tin cần bao gồm	Information to include
+413	Số lượng	Quantity
+414	Giá vốn	Cost price
+415	Kiểm kê kho	Stock count
+416	Giá bán	Selling price
+417	Giá trị kho	Stock value
+418	Báo giá	Quotes
+419	Hàng trả NCC	Supplier returns
+420	Nhóm tài khoản	Account groups
+421	Nhóm khách nợ (KH)	Debtor groups
+422	Nhóm chủ nợ (NCC)	Creditor groups
+423	Nhóm kho hàng	Stock groups
+424	Nhóm chứng từ	Document groups
+425	Cảnh báo, điều này sẽ ảnh hưởng nghiêm trọng đến Sổ Kế Toán! Bạn có muốn tiếp tục không?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?
+426	Bạn đã chọn xóa tất cả người dùng! Kiểm soát truy cập sẽ bị vô hiệu hóa!	You have chosen to delete all users! Access control will now be disabled!
+427	Có chứng từ chưa ghi sổ liên quan đến người dùng này! Vui lòng ghi sổ hoặc xóa trước khi xóa người dùng.	There are unposted journals associated with this user! Please post or delete them before deleting this user.
+428	Có chứng từ liên quan đến người dùng này! Vui lòng chọn người dùng mới để gán các chứng từ này.	There are journals associated with this user! Please select a new user to assign these journals to.
+429	Có giao dịch liên quan đến người dùng này! Vui lòng chọn người dùng mới để gán các giao dịch này.	There are transactions associated with this user! Please select a new user to assign these transactions to.
+430	Bạn có muốn lưu các thay đổi cho người dùng này không?	Do you wish to save the changes to this user?
+431	Vui lòng nhập mật khẩu cho người dùng này!	Please type in a password for this user!
+432	Tạo tài khoản này?	Create this account?
+433	Số tài khoản không hợp lệ! Ký tự đầu tiên phải là số!	Invalid account number! The first character must be a number!
+434	Đây không phải là tài khoản ngân hàng!	This is not a bank account!
+435	Bạn có muốn lưu các thay đổi không?	Do you want to save the changes?
+436	!!! LỖI TỆP NGHIÊM TRỌNG 12 !!!	!!! FATAL FILE ERROR 12 !!!
+437	Bạn có chắc chắn muốn xóa giao dịch này không?	Are you sure you wish to delete this transaction?
+438	Bạn có muốn phân bổ giao dịch này cho năm trước không?	Do you wish to allocate this transaction to last year?
+439	Chứng từ chưa cân bằng!	Journal is not in balance!
+440	Tài khoản không tồn tại, bạn có muốn tạo không?	Account does not exist, do you wish to create it?
+441	Bạn có muốn tiếp tục báo cáo không?	Do you want to continue reporting?
+442	Không thể xóa loại nhật ký này! Nó có chứng từ liên quan!	Cannot delete this journal type! It has journals associated with it!
+443	Chỉnh sửa loại nhật ký sẽ ảnh hưởng nghiêm trọng đến Sổ Kế Toán! Bạn có chắc chắn muốn làm điều này không?	Editing journal types will seriously affect your Set of Books! Are you sure you want to do this?
+444	Điều này sẽ ảnh hưởng nghiêm trọng đến Sổ Kế Toán! Bạn có muốn hủy bây giờ không?	This will seriously affect your Set of Books! Do you wish to cancel now?
+445	Bạn có muốn lưu các thay đổi này không?	Do you want to save these changes?
+446	Bạn có chắc chắn muốn tạo	Are you sure you want to create the
+447	Sổ Kế Toán này?	 Set of Books?
+448	Đã tạo Sổ Kế Toán!	 Set of Books created!
+449	Lỗi khi tạo sổ!	Error creating books!
+450	Sổ	The
+451	Kế Toán đã tồn tại!	 Set of Books already exist!
+452	Tài khoản không được để trống!	Account cannot be blank!
+453	Ký tự đầu tiên của số tài khoản phải là số!	The first character of the account number must be a number!
+454	Đã hoàn tất!	Finished!
+455	Thư mục này không chứa Sổ Kế Toán TurboCASH 2.01, 2.02 hoặc 2.03!	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!
+456	Bạn có chắc chắn muốn hủy bỏ không?	Are you sure you wish to cancel?
+457	Bạn có muốn tạo tài khoản này không?	Do you want to create this account?
+458	Bạn có chắc chắn muốn xóa	Are you sure you want to delete the
+459	hệ thống tài khoản này không?	set of accounts?
+460	Bạn có chắc chắn muốn xóa tài khoản này không?	Are you sure you want to delete this account?
+461	Tài khoản này chứa	This account contains
+462	Tiểu khoản và không thể xóa!	Sub-account(s) and cannot be deleted!
+463	Bạn không thể xóa mặt hàng kho này! Nó có giao dịch!	You cannot delete this stock item! It has transactions!
+464	Bạn có chắc chắn muốn xóa mặt hàng kho này không?	Are you sure you want to delete this stock item?
+465	Đã xóa mặt hàng kho!	Stock item deleted!
+466	Mặt hàng kho này không tồn tại!	This stock item does not exist!
+467	Đây không phải là tài khoản sổ cái!	This is not a general ledger account!
+468	Tài khoản này vẫn hoạt động! Tất cả giao dịch sẽ được chuyển sang tiểu khoản mới! Bạn có chắc chắn muốn tạo tiểu khoản không?	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?
+469	Đây không phải là tài khoản thuế!	This is not a tax account!
+470	Số tiền liên kết phải nhỏ hơn hoặc bằng	The link amount has to be less than or equal to
+471	Bạn chưa thiết lập Sổ Kế Toán!	You have not set up a Set of Books yet!
+472	Khoản mục này đã được liên kết!	This entry is already linked!
+473	Không có gì để liên kết cho khách nợ này!	Nothing to link for this debtor!
+474	Bạn có chắc chắn muốn hủy liên kết khoản mục này không?	Are you sure you want to unlink this entry?
+475	Mật khẩu không hợp lệ!	Invalid password!
+476	Xung đột ngày !!!! Kiểm tra ngày 1	Date conflict !!!! Check date 1
+477	Xung đột ngày !!!! Kiểm tra ngày 2	Date conflict !!!! Check date 2
+478	Xung đột ngày !!!! Kiểm tra ngày 3	Date conflict !!!! Check date 3
+479	Xung đột ngày !!!! Kiểm tra ngày 4	Date conflict !!!! Check date 4
+480	Xung đột ngày !!!! Kiểm tra ngày 5	Date conflict !!!! Check date 5
+481	Xung đột ngày !!!! Kiểm tra ngày 6	Date conflict !!!! Check date 6
+482	Xung đột ngày !!!! Kiểm tra ngày 7	Date conflict !!!! Check date 7
+483	Xung đột ngày !!!! Kiểm tra ngày 8	Date conflict !!!! Check date 8
+484	Xung đột ngày !!!! Kiểm tra ngày 9	Date conflict !!!! Check date 9
+485	Xung đột ngày !!!! Kiểm tra ngày 10	Date conflict !!!! Check date 10
+486	Xung đột ngày !!!! Kiểm tra ngày 11	Date conflict !!!! Check date 11
+487	Xung đột ngày !!!! Kiểm tra ngày 12	Date conflict !!!! Check date 12
+488	Xung đột ngày !!!! Kiểm tra ngày 13	Date conflict !!!! Check date 13
+489	Chỉ cho phép các kỳ từ 1 đến 13!	Only periods between 1 and 13 are allowed!
+490	Bạn có chắc chắn muốn hủy bỏ các thay đổi không?	Are you sure you want to cancel the changes?
+491	Không có khoản mục nào để đối chiếu!	No items to reconcile!
+492	Đây không phải là tài khoản doanh thu / chi phí!	This is not an income / expense account!
+493	Tài khoản này chứa tiểu khoản!	This account contains sub-accounts!
+494	Bạn có muốn tạo mặt hàng kho này không?	Do you wish to create this stock item?
+495	Lỗi ghi sổ hóa đơn! Vui lòng phục hồi bản sao lưu!	Error posting invoice! Please restore backup!
+496	Chọn báo cáo người dùng	Select a user report
+497	Đơn vị kho	Units of stock
+498	Mô tả giá bán	Selling price descriptions
+499	Giá vốn hàng bán	Cost of sales
+500	Bạn có muốn chạy kiểm tra toàn vẹn dữ liệu trước khi sao lưu không?	Do you want to run the data integrity check before making the backup?
+501	Bạn có muốn tiếp tục sao lưu không?	Do you wish to continue with the backup?
+502	!!! LỖI TỆP NGHIÊM TRỌNG 11 !!!	!!! FATAL FILE ERROR 11 !!!
+503	Ngày này nằm ngoài năm hiện tại! Nó phải nằm giữa	This date is out of the current year! It must be between
+504	và	and
+505	Bạn có muốn in Hóa đơn này ngay bây giờ không?	Do you wish to print this Invoice now?
+506	Cảnh báo có	Warning there are
+507	mặt hàng tồn kho.	items on hand.
+508	Bạn có chắc chắn muốn xóa tất cả các mục trong Hóa đơn này không?	Are you sure you want to clear all the entries in this Invoice?
+509	Chiết khấu không hợp lệ! Số tiền phải dương!	Invalid discount! Amount must be positive!
+510	Bạn có muốn chạy Kiểm tra Toàn vẹn Dữ liệu trước khi sao lưu không?	Do you want to run the Data Integrity Check before making the backup?
+511	Đã hoàn tất sao lưu!	Backup completed!
+512	CẢNH BÁO điều này sẽ ghi đè Sổ Kế Toán hiện tại! Bạn có chắc chắn muốn tiếp tục không?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?
+513	Vui lòng lắp đĩa sao lưu vào ổ đĩa và tiếp tục, hoặc hủy thao tác ngay bây giờ.	Please insert your backup disk in the drive and continue, or cancel the operation now.
+514	Đã hoàn tất phục hồi!	Restore completed!
+515	Bản sao <@APPNAME@> này chưa được đăng ký! Bạn có muốn đăng ký ngay bây giờ không?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+516	Điều này sẽ xóa tất cả thông tin của bạn! Bạn có chắc chắn muốn làm điều này không?	This will delete all your information! Are you sure you want to do this?
+517	Đã hoàn tất!	Finished!
+518	Thư mục này không chứa Sổ Kế Toán!	This directory does not contain a Set of Books!
+519	Điều này sẽ ảnh hưởng nghiêm trọng đến Sổ Kế Toán! Bạn có chắc chắn muốn xóa Sổ Kế Toán này không?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?
+520	Vui lòng hoàn thành mẫu đăng ký!	Please complete the registration form!
+521	Mã mở khóa không hợp lệ!	Invalid unlocking code!
+522	Bạn có muốn hủy đăng ký không?	Do you wish to cancel registration?
+523	Tài khoản này có giao dịch! Bạn có muốn chuyển giao dịch sang tài khoản khác không?	This account has transactions! Do you wish to transfer the transactions to another account?
+524	Bạn không thể chuyển sang tài khoản này! Nó có tiểu khoản!	You cannot transfer to this account! It has sub-accounts!
+525	Đã xóa tài khoản!	Account deleted!
+526	Khách nợ này có giao dịch! Bạn có muốn chuyển giao dịch sang khách nợ khác không?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
+527	Chủ nợ này có giao dịch! Bạn có muốn chuyển giao dịch sang chủ nợ khác không?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
+528	TK ngân hàng này có giao dịch! Bạn có muốn chuyển giao dịch sang TK ngân hàng khác không?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?
+529	TK thuế này có giao dịch! Bạn có muốn chuyển giao dịch sang TK thuế khác không?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?
+530	Cảnh báo, có	Warning, there are
+531	Chứng từ chưa ghi sổ và	Unposted journals and
+532	Chứng từ chưa ghi sổ	Unposted journals
+533	Chứng từ chưa ghi sổ	Unposted documents
+534	Thuộc tính	Properties
+535	Thay đổi thuộc tính Sổ Kế Toán	Change Set of Books properties
+536	Nhập tên Sổ Kế Toán	Enter the name of the Set of Books
+537	Nhập đường dẫn lưu trữ sổ	Enter the path where the books are stored
+538	Thay đổi	Change
+539	Sổ Kế Toán có tên	A Set of Books called
+540	Trình hướng dẫn tạo	Creation wizard
+541	Vui lòng chọn Sổ Kế Toán từ danh sách, hoặc nhấp [Duyệt] để chọn Sổ Kế Toán bạn muốn sao chép trong thư mục khác.	Please select a Set of Books from the list below, or click [Browse] button to select the Set of Books you wish to copy in a folder elsewhere on your system.
+542	Duyệt	Browse
+543	Hoàn thành	Finish
+544	Chào mừng đến với Trình hướng dẫn tạo Sổ Kế Toán <@APPNAME@>. Vui lòng chọn một tùy chọn và nhấp [Tiếp], hoặc nhấp [Hủy] để hủy tạo Sổ Kế Toán mới.	Welcome to the <@APPNAME@> Set of Books Creation wizard. Please select an option and click on the [Next] button, or click on the [Cancel] button to cancel the creation of a new Set of Books.
+545	Bạn có muốn:	Do you wish to:
+546	Chuyển đổi từ TurboCASH cũ (v 2.01, 2.02, 2.03)	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)
+547	Sao chép Sổ Kế Toán hiện có	Copy an existing Set of Books
+548	Để <@APPNAME@> giúp bạn tạo Sổ Kế Toán	Let <@APPNAME@> help you to create a Set of Books
+549	Tùy chỉnh Sổ Kế Toán riêng (Nâng cao)	Customise your own Set of Books (Advanced)
+550	Chuyển đổi TurboCASH3 sang <@APPNAME@>	Convert TurboCASH3 to <@APPNAME@>
+551	Tiếp >>	Next >>
+552	Kiểm soát phải trả	Creditors control
+553	Kiểm soát phải thu	Debtors control
+554	Lợi nhuận giữ lại	Retained earnings
+555	Đang tạo hệ thống tài khoản...	Creating set of accounts...
+556	Bạn cần nhập số kỳ trong năm tài chính và ngày bắt đầu năm!	You now need to type in the number of periods there are in your financial year and the date of the start of the year!
+557	Vui lòng nhấp [Hoàn thành] để chỉ định:	Please click [Finish] to specify your:
+558	Thư mục này không chứa Sổ Kế Toán, hoặc Sổ Kế Toán đã bị hỏng!	This directory does not contain a Set of Books, or the Set of Books is damaged!
+559	Bạn phải chọn Sổ Kế Toán hoặc thư mục để sao chép	You have to choose a Set of Books or directory to copy
+560	Đang tạo Sổ Kế Toán...	Creating Set of Books...
+561	Đang tạo các tài khoản bắt buộc...	Creating required accounts...
+562	Đang tạo các TK bắt buộc (Kiểm soát phải trả)...	Creating required accounts (Creditors control)...
+563	Đang tạo các TK bắt buộc (Kiểm soát phải thu)...	Creating required accounts (Debtors control)...
+564	Đang tạo các TK bắt buộc (Lợi nhuận giữ lại)...	Creating required accounts (Retained earnings)...
+565	Đang chuyển đổi Sổ Kế Toán...	Converting Set of Books...
+566	Đang đọc dữ liệu từ Pastel...	Reading data from Pastel...
+567	Đang chuyển đổi biến hệ thống Pastel...	Converting Pastel system variables...
+568	Đang chuyển đổi tài khoản Pastel...	Converting Pastel accounts...
+569	Đang chuyển đổi kho Pastel...	Converting Pastel stock...
+570	Đang chuyển đổi chứng từ Pastel...	Converting Pastel journals...
+571	Vui lòng chọn thư mục dữ liệu Pastel	Please select a Pastel data folder
+572	Vui lòng chọn Sổ Kế Toán cũ để chuyển đổi từ danh sách dưới đây.	Please select an old Set of Books to convert from the list below.
+573	Vui lòng chọn Dữ liệu Đối tác Pastel để chuyển đổi từ danh sách dưới đây.	Please select Pastel Partner Data to convert from the list below.
+574	Chọn một thư mục	Pick a directory
+575	Số	Number
+576	Ngày báo cáo	Reporting dates
+577	Ngày bắt đầu	Start date
+578	Ghi sổ vào các năm khác	Post to other years
+579	Kết thúc vào	Ends on
+580	Mở để ghi sổ	Open for posting
+581	*Dịch: Nhập chi tiết của bạn	*Translate : Enter your details
+582	&Máy khách - Máy chủ	&Client server
+583	&Tùy chọn	&Preferences
+584	&Thông số hệ thống	&System parameters
+585	&Kiểm soát truy cập	&Access control
+586	&Trợ giúp	&Help
+587	Nhập hóa đơn	Invoice entry
+588	Lỗi	Error
+589	Cảnh báo, ngày này không thuộc bất kỳ ngày báo cáo nào của năm nay hoặc năm trước!	Warning, this date does not fall into any of this or last year's reporting dates!
+590	Chứng từ này không hợp lệ!	This journal does not validate!
+591	bị mất cân bằng bởi	is out of balance by
+592	Dòng	Line
+593	Cho phép cả hai	Allow both
+594	Chứng từ có giao dịch ghi sổ vào năm trước!	Journal contains transactions posting to last year!
+595	Bạn có muốn tiếp tục ghi sổ không?	Do you want to continue posting?
+596	Không thể ghi sổ vào tài khoản chính chứa Tiểu khoản!	Cannot post to main account containing Sub-accounts!
+597	Tài khoản không tồn tại! Bạn có muốn tạo không?	Account does not exist! Do you wish to create it?
+598	Không có dữ liệu để nhập!	No data to import!
+599	Nhập tháng và năm để lặp lại mục nhập đến	Enter month and year to repeat entries to
+600	Kỳ	Period
+601	Năm	Year
+602	&Chọn tài khoản đối ứng	&Select contra account
+603	Năm nay	This year
+604	Năm trước	Last year
+605	Mã	Code
+606	Diễn giải	Description
+607	Tham chiếu	Reference
+608	Tài khoản	Account
+609	Thuế	Tax
+610	Định nghĩa viết tắt	Abbreviation definition
+611	Cân bằng chứng từ	Balance journal
+612	Nhập tệp phân cách	Delimited file import
+613	Xóa chứng từ	Erase journal
+614	Tạo nhiều giao dịch	Generate multiple transactions
+615	Liệt kê chứng từ	List journal
+616	Ghi sổ chứng từ	Post journal
+617	Giao dịch định kỳ	Repeating transactions
+618	Tổng cộng cho mỗi kỳ	Totals for each period
+619	Ghi tệp phân cách	Write delimited file
+620	Xử lý chứng từ	Process the journal
+621	Bạn có chắc chắn muốn xóa toàn bộ chứng từ này không?	Are you sure you want to erase this entire journal?
+622	Tùy chọn cho chứng từ này	Options for this journal
+623	Tăng tham chiếu	Increment reference
+624	Lặp lại chi tiết	Repeat details
+625	TK đối ứng trên mỗi dòng	Contra account per line
+626	Hợp nhất cân bằng	Consolidate balancing
+627	Nhập số tiền	Amount entry
+628	Xác nhận	Confirmation
+629	Thông tin	Information
+630	Cảnh báo	Warning
+631	Bạn không thể báo cáo từ	You cannot report from
+632	đã tồn tại!	already exists!
+633	Chọn thư mục dữ liệu Pastel !!!	Select Pastel data folder !!!
+635	Bạn phải mở Sổ Kế Toán để sử dụng tùy chọn này!	You must have a Set of Books open to use this option!
+636	Bạn chưa thiết lập Sổ Kế Toán!	You have not set up a Set of Books yet!
+637	Bao gồm số dư đầu kỳ	Include opening balances
+638	Bạn không thể chọn TK này vì nó có tiểu khoản!	You cannot select this account because it contains sub-accounts!
+639	Thông tin trên dòng này sẽ bị mất nếu chuyển thành ghi chú!	The information on this line will be lost if it's changed to comment!
+640	Bạn có chắc muốn ghi chú trên dòng này không?	Are you sure you want a comment on this line?
+641	Điều này sẽ thay đổi triệt để dữ liệu! Chúng tôi khuyên bạn nên dừng lại và sao lưu!	This will radically alter your data! We recommend that you stop and make a backup!
+642	Bạn có muốn tiếp tục không?	Do you wish to continue?
+643	TK này có số dư đầu năm trước! Bạn không thể xóa TK!	This account has an opening last year balance! You cannot delete the account!
+644	TK này không phải là TK doanh thu / chi phí!	This account is not an income / expense account!
+645	Tổng chưa bao gồm	Exclusive total
+646	Tổng hóa đơn	Invoice total
+647	Tổng chiết khấu	Total discount
+648	Đơn vị (chưa bao gồm)	Unit excl.
+649	Đơn vị (đã bao gồm)	Unit incl.
+650	Số tiền (chưa bao gồm)	Amount excl.
+651	Số tiền (đã bao gồm)	Amount incl.
+652	Mã mặt hàng	Item code
+653	Diễn giải	Description
+655	SL đặt hàng	Qty order
+656	SL giao hàng	Qty ship
+657	Chiết khấu	Disc.
+658	F8: Chiết khấu	F8: Discount
+659	F9: Ghi chú	F9: Comment
+660	F10: Xóa tất cả	F10: Delete all
+662	&Dòng ghi chú	&Comment line
+663	&Nhập chiết khấu chung	&Enter overall discount
+664	F7: Đã bao gồm	F7: Inclusive
+665	Bạn đã thay đổi chứng từ thu/chi! Điều này sẽ làm hỏng đối chiếu! Bạn có muốn tiếp tục không?	You have changed payment and receipt journal! This will corrupt your recon! Do you wish to continue?
+666	Không thể sử dụng tài khoản kiểm soát!	Control account cannot be used!
+667	Bạn đã thay đổi tỷ lệ phần trăm!	You have changed the percentage!
+668	Không thể lập ngân sách cho TK có tiểu khoản!	Cannot have budgets for an account which has sub-accounts!
+669	Không thể sử dụng tài khoản sổ cái!	General ledger account cannot be used!
+670	Nhập phiếu ghi nợ	Credit note entry
+671	F10: Xóa phiếu ghi nợ	F10: Delete credit note
+673	Bạn có muốn in phiếu ghi nợ này ngay bây giờ không?	Do you wish to print this credit note now?
+674	Cập nhật phiếu ghi nợ	Update credit notes
+675	Từ phiếu ghi nợ	From credit note
+676	Đến phiếu ghi nợ	To credit note
+677	Tiếp tục	Continue
+678	Không có hóa đơn nào để in!	There is no invoice to print!
+679	Không thể có cùng loại nhật ký chi tiền với TK ngân hàng khác!	Cannot have the same payments journal type as for another bank account!
+680	Chuyển tiền	Remittance
+681	Thông báo chuyển tiền	Remittance message
+682	Hàng đã nhận	Goods received
+683	Không thể có cùng loại nhật ký thu tiền với TK ngân hàng khác!	Cannot have the same receipt journal type as for another bank account!
+684	Đơn giá	Unit price
+685	Bạn có chắc chắn muốn xóa tất cả các mục trong giao dịch mua này không?	Are you sure you want to clear all the entries in this purchase?
+686	In chứng từ mua hàng ngay bây giờ?	Print a purchase document now?
+687	Chưa bao gồm thuế	Tax excluded
+688	Đã bao gồm thuế	Tax included
+689	Lịch sử phiếu ghi nợ	Credit note history
+690	Lịch sử hàng trả NCC	Supplier return history
+691	Lịch sử mua hàng	Purchases history
+692	Lịch sử báo giá	Quote history
+693	Lịch sử đơn hàng	Orders history
+694	Từ mua hàng	From purchase
+695	Xóa phiếu ghi nợ	Delete credit notes
+696	Số tiếp theo không hợp lệ! Thay đổi trong 'Thiết lập → Thiết lập chứng từ'!	Invalid next number! Change it in 'Setup → Documents setup'!
+697	Bạn có muốn tiếp tục sao lưu không?	Do you want to continue backup?
+698	Bạn có muốn tiếp tục phục hồi từ?	Do you want to continue restore from?
+699	Chưa chọn Sổ Kế Toán!	No Set of Books selected!
+700	Cập nhật mua hàng	Update purchase
+701	Cập nhật hàng trả NCC	Update supplier returns
+702	Từ hàng trả NCC	From supplier return
+703	Số mua hàng	Purchase no.
+704	Số hàng trả NCC	Supplier ret. no.
+705	Hàng trả NCC	Supplier return
+706	Phiếu ghi nợ	Credit notes
+707	Bạn có muốn in đơn hàng này không?	Do you wish to print this order?
+708	Bạn có muốn in hàng trả NCC này không?	Do you wish to print this supplier return?
+709	Bạn có muốn in giao dịch mua này không?	Do you wish to print this purchase?
+710	Bạn có muốn in báo giá này không?	Do you wish to print this quote?
+711	Chạy 'Thiết lập → Loại nhật ký' và chọn TK đối ứng cho chứng từ này!	Run 'Setup → Journal types' and select contra account for this journal!
+712	Bạn có chắc chắn muốn xóa thông tin của dòng này không?	Are you sure you wish to delete this row's information?
+713	Cập nhật máy khách - máy chủ	Client server update
+714	Cập nhật Internet	Internet update
+715	Bạn có muốn xóa định nghĩa nhãn này không?	Do want to delete this label definitions?
+716	Vị trí :	Location :
+717	Không tìm thấy Sổ Kế Toán! Thư mục không tồn tại:	Set of Books not found! Directory doesn't exist:
+718	Hoặc sự cố trên ổ đĩa mạng đã ánh xạ	Or trouble on a network mapped drive
+719	Điều này sẽ xóa tất cả thông tin của bạn! Bạn có chắc chắn muốn tiếp tục không?	This will delete all your information! Are you sure you want to continue?
+720	Lỗi Btrv:	Btrv error:
+721	Không có gì để liên kết cho chủ nợ này!	Nothing to link for this creditor!
+722	Cảnh báo, nếu bạn nhấp [Có] bạn sẽ mất tất cả các liên kết hiện tại cho TK này!	Warning, if you click [Yes] you will lose all your current links for this account!
+723	Lắp đĩa vào	Insert disk in
+724	Thông tin thiết lập Internet không chính xác! Chạy 'Thiết lập → Internet'.	Internet setup information is incorrect! Run 'Setup → Internet'.
+725	Bạn có muốn xóa không?	Do you want to delete?
+726	Lưu	Save
+727	&Đầu tiên	&First
+728	&Trước	&Previous
+729	&Tiếp theo	&Next
+730	&Cuối cùng	&Last
+731	&Phóng to	&Zoom
+732	Bản sao	Copies
+733	Phạm vi in	Print range
+734	&Trang	&Pages
+735	&Từ	&From
+736	&Đến	&To
+737	&Tất cả các trang	&All pages
+738	Số &bản sao	Number of &copies
+739	Lỗi xuất báo cáo!	Exporting report error!
+740	Lỗi khi tạo Tmp!	Error when creating Tmp!
+741	Mật khẩu không hợp lệ!	Invalid password!
+742	Bạn không thể sử dụng TK này làm TK đối ứng! Nó có tiểu khoản!	You cannot use this account as a contra account! It contains sub-accounts!
+743	Tạo thư mục	Create directory
+744	Sổ Kế Toán đó đã tồn tại! Vui lòng nhập lại!	That Set of Books already exists! Please re-enter!
+745	Không thể tạo thư mục!	Couldn't create directory!
+746	Vui lòng nhập lại!	Please re-enter!
+747	Không có dữ liệu để in!	No data to print!
+748	Mã tài khoản không hợp lệ!	Illegal account code!
+750	Số hóa đơn thuế	Tax Invoice no.
+751	Số báo giá	Quote no.
+752	Số hàng trả NCC	Supplier return no.
+753	Loại phương tiện không hợp lệ để sao lưu!	Invalid media type for backup!
+754	Không thể xóa tài khoản kiểm soát!	Cannot delete a control account!
+755	Sổ Kế Toán	The Set of Books
+756	sẽ bị xóa vĩnh viễn khỏi đĩa!	will permanently be removed from disk!
+757	Bạn có muốn hủy xóa không?	Do you want to cancel the deletion?
+758	Số phiếu ghi nợ	Credit note no.
+759	Số mua hàng	Purchase no.
+761	Phiếu nhập kho	Goods received voucher
+762	Số đơn hàng	Order no.
+763	Số dư đầu kỳ khi ghi sổ	Balance brought forward when posting
+764	Sau đó nhấp [Đóng] để hoàn thành Trình hướng dẫn tạo.	Then click [Close] to finish the Creation wizard.
+765	Số dư của khách nợ vượt quá hạn mức tín dụng với:	Debtor's balance is over credit limit with:
+766	Không thể chuyển giao dịch sang cùng tài khoản!	Cannot transfer transactions to the same account!
+767	Lần cuối cùng bạn làm việc với Sổ Kế Toán này, bạn đã không thoát chương trình đúng cách!	The last time that you worked with this Set of Books you did not exit the program properly!
+768	Nếu bạn gặp bất kỳ sự cố nào, hãy phục hồi dữ liệu từ bản sao lưu.	If you encounter any problems, restore your data from a backup.
+769	<@APPNAME@> muốn nhắc nhở bạn rằng:	<@APPNAME@> would like to remind you that:
+770	Thực hành tốt là thường xuyên sao lưu và lưu trữ bản sao Sổ Kế Toán để ngăn ngừa mất dữ liệu.	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.
+771	Số báo giá	Quote no.
+772	Từ báo giá	From quote
+773	Từ đơn hàng	From order
+774	Tài khoản này có số dư, không thể xóa!	This account has balances, cannot be deleted!
+775	Bạn có muốn tạo người liên hệ này không?	Do you want to create this contactperson?
+776	Bạn có muốn xóa người liên hệ này không?	Do you want to delete this contactperson?
+777	Đã xóa người liên hệ!	Contactperson deleted!
+778	Tên liên hệ không hợp lệ!	Illegal contact name!
+779	Số tài khoản phải là duy nhất!	Account numbers should be unique!
+780	Tất cả giao dịch sẽ bị xóa và số dư TK sẽ được đặt về 0!	All transactions will be removed and account balances will be set to zero!
+781	Bạn có muốn hủy quá trình xóa không?	Do you want to cancel the clearing process?
+782	đã tồn tại!	already exist!
+783	Số chứng từ không hợp lệ!	Illegal document number!
+784	Mã mặt hàng không hợp lệ!	Illegal stock code!
+785	Khách nợ cân bằng với số tiền < x.xx	Balance debtors with amount < x.xx
+786	Chủ nợ với số tiền phí	Creditors with charge amount
+787	Khách nợ với số tiền phí	Debtors with charge amount
+788	Số tiền cố định cho tất cả khách nợ	Fixed amount to all debtors
+789	Lãi suất trên khách nợ quá hạn	Interest on overdue debtors
+790	Số dư chủ nợ tại ngày	Creditor balances at date
+791	Tạo phiếu thu	Create receipts
+792	Tiền mặt	Cash
+793	Séc	Cheque
+794	Khác	Other
+795	Tỷ	Billion
+796	Nghìn tỷ	Trillion
+797	Số tiền không giống với số tiền giao dịch!	Amount is not the same as the transaction amount!
+798	Đơn hàng	Orders
+799	Tham chiếu không giống với tham chiếu giao dịch!	Reference is not the same as the transaction reference!
+800	Bạn có muốn đóng <@APPNAME@> không?	Do you wish to close <@APPNAME@>?
+801	Bạn có muốn hủy in chứng từ không?	Do you want to cancel documents printing?
+802	Chưa chọn phương pháp! Vui lòng chọn một!	No method selected! Please select one!
+803	Không thể nhập kho cho mặt hàng có số lượng tồn kho khác không!	Cannot take stock on for an item with a non-zero quantity on hand!
+804	Chưa chọn báo cáo người dùng! Vui lòng chọn một!	No user report selected! Please select one!
+805	Bạn có muốn điền đầy đủ chi tiết cho liên hệ mới này không?	Do you want to fill all details for this new contact?
+806	Bạn có chắc muốn thay đổi số chứng từ kế tiếp không?	Are you sure you want to change the next document number?
+807	Đã xảy ra lỗi trong quá trình sao chép!	Error occurred during copy process!
+808	Chiết khấu phải trong phạm vi 0 % đến 99.99 %	Discount must be in range 0 % to 99.99 %
+809	Lãi suất quá hạn phải trong phạm vi 0 % đến 99.99 %	Interest on overdue amount must be in range 0 % to 99.99 %
+810	Giá này thấp hơn đơn giá của	This price is lower than the unit price of
+811	trên tệp kho	on the stock file
+812	Dữ liệu T3 cũ đã được chuyển đổi thành công	The old T3 data was successfully converted
+813	Đã xảy ra lỗi khi chuyển đổi dữ liệu T3 cũ của bạn!	An error occurred while converting your old T3 data!
+814	Không tìm thấy số tiền chưa thanh toán!	Could not find unpaid amount!
+815	Chứng từ thu và chi của bạn không được liên kết đúng với TK ngân hàng này!	Your payment and receipt journal are not linked correctly to this bank account!
+816	Không được có loại thuế cho khách nợ hoặc chủ nợ trong hệ thống dựa trên thanh toán!	May not have a tax type for a debtor or creditor in the payments based system!
+817	Không tìm thấy tệp sao lưu trong	Backup file not found in
+818	Chọn chế độ Sao lưu hoặc Phục hồi	Select Backup or Restore mode
+820	Chạy theo cơ sở thanh toán yêu cầu tất cả khách nợ và chủ nợ phải được chuyển đổi sang TK khoản mục mở. Bạn có muốn tiếp tục không?	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?
+821	Phương pháp thuế dựa trên thanh toán xem xét thuế hoàn toàn theo cơ sở tiền mặt. Thuế chỉ phải nộp cho cơ quan thuế khi nhận được từ KH. Bạn có muốn tiếp tục không?	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?
+822	Bạn đang chạy phương pháp dựa trên thanh toán và không tìm thấy TK phải trả! Vui lòng chạy 'Thiết lập → Thông tin công ty'!	You are running payment based method and the due account cannot be found! Please run 'Setup → Company info'!
+823	Thẻ Tín dụng	Credit Card
+824	Nhấp vào [Hoàn thành] để thực thi.	Click on [Finish] to execute.
+825	Bạn muốn sử dụng Hệ thống TK nào?	Which Chart of Accounts do you want to use?
+826	Vui lòng nhập tên Sổ Kế Toán mới!	Please type in the name of the new Set of Books!
+827	Từ chứng từ	From journal
+828	Đóng	Close
+829	Bạn không có quyền xử lý! Truy cập bị từ chối!	You have no right to process!  Access to this process denied!
+830	Vui lòng liên hệ quản trị viên <@APPNAME@> của bạn!	Please contact your <@APPNAME@> administrator!
+831	TK này đã bị vô hiệu hóa và không thể sử dụng!	This account is disabled and cannot be used!
+832	TK không tồn tại! Không thể thực hiện quy trình!	Account does not exist! Process cannot be performed!
+833	Không thể mở tệp chữ ký fax trong	Cannot open fax signature file in
+834	Sao lưu / Phục hồi	Backup / Restore
+835	Đ&óng Sổ Kế Toán	C&lose Set of Books
+836	&Sao lưu / Phục hồi Sổ Kế Toán	&Backup / Restore Set of Books
+837	Tái lập ch&ỉ mục dữ liệu	Da&ta Re-index
+838	&Liên hệ	&Contacts
+839	&Báo giá	&Quotes
+840	Xá&c nhận	Co&nfirm
+841	Đơn &hàng	Or&ders
+842	&Báo cáo kết quả HĐKD	&Income statement
+843	&Danh sách liên hệ	&Contact listing
+844	&Đơn hàng tồn đọng	&Backorders
+845	&Internet	&Internet
+846	&Danh mục tài chính	&Financial categories
+847	&Phông chữ	&Fonts
+848	&Tham số hệ thống	System &parameters
+849	Tùy chỉnh ngôn ngữ	Customise language
+850	&Nhập khẩu	&Import
+851	Hiển thị &chào mừng	Show &welcome
+852	&Đăng ký trực tuyến	Online &registration
+853	&Cập nhật trực tuyến	Online &update
+854	&Duyệt	&Browse
+855	Nhân viên bán hàng theo sản phẩm	Salesperson per product
+856	Nhân viên bán hàng theo khách hàng	Salesperson per customer
+857	Sản phẩm theo khách hàng	Product per customer
+858	Sản phẩm theo nhân viên bán hàng	Product per salesperson
+859	Khách hàng theo nhân viên bán hàng	Customer per salesperson
+860	Khách hàng theo sản phẩm	Customer per product
+861	Mua hàng theo NCC	Purchases per supplier
+862	Mua hàng theo sản phẩm	Purchases per product
+863	Tùy chọn in	Printing options
+864	&Thiết lập máy in	&Printer setup
+865	Gửi báo cáo đến:	Send report to:
+866	Bản sao:	Copies:
+867	F11: Sao chép	F11: Copy
+868	&Bảng	&Tables
+869	Kho	Stock
+870	&Trường có sẵn	&Available fields
+871	&Trường đã chọn	&Selected fields
+872	Chọn từ:	Select from:
+873	&Xóa tất cả	&Clear All
+874	Bảng	Table
+875	Kỳ tài chính	Financial periods
+876	Nhân viên bán hàng	Salesperson
+877	Sổ Kế Toán để sao chép:	Set of Books to copy:
+879	&Quay lại	&Back
+880	Tệp bị hỏng	Files corruption
+881	Số dư theo kỳ	Balances per period
+882	Đếm TK và mặt hàng kho	Count accounts and stock items
+883	Phải thu và Phải trả	Debtors and creditors
+884	CT và chứng từ chưa quyết toán	Outstanding journals and documents
+885	Chứng từ chưa ghi sổ	Unposted documents
+886	Chọn Sổ Kế Toán	Select Set of Books
+887	Kiểm tra	Check
+888	Năm trước đã đóng để ghi sổ!	Last year is closed for posting!
+889	Kỳ này đã đóng để ghi sổ!	This period is closed for posting!
+890	Để bật, hãy vào 'Thiết lập → Ngày báo cáo'	To turn it on, go to 'Setup → Reporting dates'
+891	Sao lưu	Backup
+892	Phục hồi	Restore
+893	Phục hồi từ	Restore from
+894	Phục hồi đến	Restore to
+895	Sao lưu từ	Backup from
+896	Sao lưu đến	Backup to
+897	Dừng	Stop
+898	Phục hồi Sổ Kế Toán	Restore Set of Books
+899	Sao lưu Sổ Kế Toán	Backup Set of Books
+900	Đã hoàn tất sao lưu...	Backup completed...
+901	Quá trình sao lưu đã hoàn tất!	The backup process is completed!
+902	Đang nén	Zipping
+903	Vui lòng lắp đĩa!	Please insert disk!
+904	của bản sao lưu Sổ Kế Toán đa đĩa.	of the multi-disk Set of Books backup.
+905	Chọn đích sao lưu	Select backup target
+906	Đang giải nén	UnZipping
+908	Quá trình phục hồi đã hoàn tất!	The restore process is completed!
+909	Đã phục hồi	Restored
+910	Lắp đĩa cuối cùng của bộ đĩa sau đó	Insert the last disk of disk set then
+911	Nhấp vào [Có] để tiếp tục hoặc [Không] để hủy	Click on [Yes] to continue or [No] to abort
+912	Bắt đầu sao lưu...	Starting backup...
+913	Không tìm thấy Sổ Kế Toán hợp lệ trong:	No valid Set of Books found in:
+914	Không thể sử dụng ổ đĩa này! Hãy ánh xạ và thử lại...	Cannot use this drive! Map it and try again...
+915	Không thể chạy sao lưu...	Cannot run backup...
+916	Sao lưu chưa hoàn tất...	Backup incompleted...
+917	Sổ Kế Toán - Quá trình sao lưu đã bị người dùng hủy!	Set of Books - Backup process cancelled by user!
+918	Các tệp đã được nén	Files compressed
+919	Quá trình đã bị người dùng hủy!	Process cancelled by the user!
+920	Bắt đầu Phục hồi...	Starting Restore...
+921	Sổ Kế Toán của bạn sẽ được phục hồi trong:	Your Set of Books will be restored in:
+922	Các tệp đã được phục hồi	Files restored
+923	Mật khẩu không chính xác!	Incorrect password!
+924	Bỏ qua tệp:	Skipping file:
+925	Lỗi: Mở tệp!	Error: Opening file!
+926	Đang chờ chạy...	Waiting to run...
+927	Cài đặt người dùng này hiện được <@APPNAME@> chuyển thành người dùng quản trị!	This user setting is now turned to administrator user by <@APPNAME@>!
+928	Nhập chứng từ	Document entry
+929	Mua hàng	Purchases
+930	Chi tiết	Details
+931	Tiêu đề	Header
+932	Xóa liên kết	Clear links
+933	Tạo Số dư chuyển sang (B/F)	Generate Balance B/F
+934	Hủy liên kết	Unlink
+935	Tổng số tiền	Total amount
+936	Tổng còn lại	Total outstanding
+937	Tổng sổ cái	Total ledger
+938	Chênh lệch/Số tiền	Difference/Amount
+939	Chênh lệch/Còn lại	Difference/Outstand.
+940	Tùy chọn xóa liên kết	Clear link options
+941	Xóa tất cả liên kết	Clear all links
+942	Sử dụng ngày bắt đầu	Use start date
+943	Theo ngày tín dụng	By credit dates
+944	Tìm kiếm theo	Search by
+945	Áp dụng	Apply
+946	Số tiền	Amount
+947	Còn lại	Outstanding
+948	Hợp nhất	Consolidate
+949	Hiển thị sao kê	Show statement
+950	Đối chiếu	Reconcile
+951	Hủy đối chiếu	UnReconcile
+952	&Tìm kiếm	&Search
+953	Xử lý	Process
+954	Đã đối chiếu	Reconciled
+955	Chênh lệch	Difference
+956	Tìm kiếm theo tham chiếu	Search by reference
+957	Tìm kiếm theo số tiền	Search by amount
+958	Tìm kiếm theo ngày	Search by date
+959	TK ngân hàng hiện tại	Current bank account
+960	Tổng cộng	Total
+961	Đã ghi sổ	Posted
+962	Chưa ghi sổ	Unposted
+963	Khoản mục chi	Payment item
+964	Khoản mục thu	Receipt item
+965	TK kiểm soát kho và/hoặc Doanh thu chưa được thiết lập đúng cho mặt hàng này!	Stock control and / or Sales account not set up correctly for this stock item!
+966	CT này không thể ghi sổ! Vui lòng thiết lập lại - TK Doanh thu, Kiểm soát kho (và TK Giá vốn hàng bán) rồi ghi sổ!	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!
+967	Các bản sao <@APPNAME@> chưa đăng ký	Unregistered copies of <@APPNAME@>
+968	bị giới hạn 500 giao dịch hoặc 500 chứng từ	are limited to 500 transactions or 500 documents
+969	&Lấy trực tuyến	&Get it online
+970	Mã mở khóa (từ <@APPNAME@>):	Unlocking code (from <@APPNAME@>):
+971	Số sê-ri:	Serial number:
+972	Đăng ký <@APPNAME@> của bạn	Register your <@APPNAME@>
+973	Để nhận mã mở khóa của bạn hoặc	To get your unlocking code or
+974	Điện thoại:	Phone:
+975	Bản sao <@APPNAME@> này chưa được đăng ký! Bạn có muốn đăng ký ngay bây giờ không?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+976	Tên công ty:	Company name:
+977	Phân tích mua hàng	Purchase analysis
+978	Tùy chọn BC Tình hình tài chính	Balance sheet options
+979	Hiển thị số thập phân	Show decimal
+980	Tùy chọn BC Kết quả HĐKD	Income statement options
+981	Hiển thị năm trước	Show last year
+982	Hiển thị chênh lệch	Show variance
+983	Mới	New
+984	Xóa	Delete
+985	Màn hình	Screen
+986	Máy in	Printer
+987	Bắt đầu	Start
+988	Kết thúc	End
+989	Tự động chọn	Auto-select
+990	Mã vạch	Barcode
+991	Mã vạch	Barcode
+992	Tùy chọn SP theo KH	Product per customer options
+993	Tùy chọn SP theo NV bán hàng	Product per salesperson options
+994	Tùy chọn KH theo NV bán hàng	Customer per salesperson options
+995	Tùy chọn KH theo SP	Customer per product options
+996	Tùy chọn NV bán hàng theo KH	Salesperson per customer options
+997	Sổ quỹ chi	Payments cashbook
+998	Sổ quỹ thu	Receipt cashbook
+999	Chế độ đã bao gồm	Inclusive mode
+1000	Bảng cân đối kế toán	Balance sheet
+1001	Mặc định Windows	Windows default
+1002	Các tài khoản	Accounts
+1003	Chọn liên hệ	Select contact
+1004	Chọn nhóm	Select groups
+1005	Bạn có muốn hủy quá trình khóa sổ cuối năm không?	Do you want to cancel the year-end process?
+1006	Bạn có chắc muốn xóa báo cáo người dùng này không?	Are you sure you want delete this user report?
+1007	Điều này sẽ ảnh hưởng nghiêm trọng đến Sổ Kế Toán! Bạn có chắc muốn xóa loại chứng từ này không?	This will seriously affect your Set of Books! Are you sure you want delete this journal type?
+1008	Tùy chọn Doanh số theo sản phẩm	Sales per product options
+1009	Đầu ra mặc định	Default output
+1010	Biểu trưng công ty	Company logo
+1011	Sử dụng biểu trưng trên báo cáo	Use logo on reports
+1012	Tùy chọn	Options
+1013	Đổi tên	Rename
+1014	&Tải từ tệp	&Load from file
+1015	&Dán	&Paste
+1016	&Xóa	&Clear
+1017	<@APPNAME@> - Tải biểu trưng	<@APPNAME@> - Load logo
+1018	Xóa báo giá	Delete quotes
+1019	Xóa đơn hàng	Delete orders
+1020	In biểu trưng tiêu chuẩn	Print standard logo
+1021	Bảng cân đối thử	Trial balance
+1022	đến	to
+1023	Lợi nhuận ròng	Net profit
+1024	Trang	Page
+1025	Lỗ ròng	Net loss
+1026	Tổng cộng cho	Total for
+1027	Ngân sách	Budget
+1028	Tính đến	As at
+1029	&Chạy lại	&Re-run
+1030	Lưu &chuyển tiền tệ	C&ash flow
+1033	Tùy chọn phân tích tuổi nợ NCC	Creditor age analysis options
+1034	Tùy chọn Sổ cái	Ledger options
+1035	Mỗi kỳ riêng biệt	Each period separately
+1036	Trang mới cho mỗi TK	New page per account
+1037	Ngày báo cáo	Date of report
+1039	Chọn báo cáo	Select report
+1040	Hiển thị dòng	Show lines
+1041	Tệp đặc tả	Spec file
+1042	Tùy chọn BC nhãn	Labels report options
+1043	Tùy chọn DS khách nợ	Debtor listing options
+1044	Tùy chọn DS chủ nợ	Creditor listing options
+1045	Tùy chọn Lưu chuyển tiền tệ	Cash flow options
+1046	Các kỳ	Periods
+1047	Từ TK ngân hàng	From bank account
+1048	Bao gồm tiền mặt quỹ	Include petty cash
+1049	Tên Sổ Kế Toán không được để trống!	Set of Books name cannot be blank!
+1050	Xem trước thu phóng mặc định	Default zoom preview
+1051	Tùy chọn NV bán hàng theo SP	Salesperson per product options
+1052	Danh sách xóa	Purge list
+1053	Chọn 'Thiết lập → Thông tin công ty' bạn muốn thay đổi!	Select 'Setup → Company info' you want to change!
+1054	Bạn có muốn hủy quá trình không?	Do you want to cancel the process?
+1055	Bạn có muốn xóa nhân viên bán hàng không?	Do you want to delete the salesperson?
+1056	Tất cả giá bán	All selling prices
+1057	Không có	None
+1058	Mô tả kho	Stock description
+1059	Không thể chạy một báo cáo hai lần! Báo cáo đầu tiên đang chạy!	Cannot run a report twice! The first report is running!
+1060	Sổ Kế Toán của bạn bị hỏng! Chạy Tái lập chỉ mục Dữ liệu để xây dựng lại giá trị khóa.	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1063	Chọn tệp kho bảng tính	Select spreadsheet stock file
+1064	Mật khẩu	Password
+1065	Tên liên hệ	Contact name
+1066	Số dư đầu kỳ	Opening balances
+1067	&Xem trước	&Preview
+1068	Chọn loại	Select type
+1069	Từ ... đến	From ... to
+1070	Đã chọn	Selected
+1071	Chứng từ	Journal
+1072	Người dùng	User
+1073	Trực tuyến	Online
+1074	Cập nhật chứng từ	Update journal
+1076	Hiển thị nhóm kho	Show stock groups
+1077	Tùy chọn Mua hàng theo SP	Purchases per product options
+1078	Tùy chọn Mua hàng theo NCC	Purchases per supplier options
+1079	Loại	Type
+1080	Sử dụng	Use
+1081	TK Giá vốn hàng bán	Cost of sales account
+1082	Tùy chọn đặt hàng lại	Reorder options
+1083	Tùy chọn đơn hàng tồn đọng	Backorder options
+1084	Hiển thị tất cả mặt hàng	Show all items
+1085	Trang mới cho mỗi mặt hàng	New page per item
+1086	Tùy chọn phiếu giao hàng	Delivery note options
+1087	Loại chứng từ	Document type
+1088	Chỉ năm trước	Last year only
+1089	Giấy báo chuyển tiền NCC	Creditor remittance advise
+1090	Sao kê khách nợ	Debtor statement
+1091	Biểu đồ	Graph
+1092	Máy tính	Calculator
+1093	Xóa lùi	Backspace
+1094	Chuyển khoản	Transfer
+1095	In chứng từ	Print documents
+1096	Chưa in	UnPrinted
+1097	Chưa ghi sổ	Unposted
+1098	Tất cả	All
+1099	Chi tiền	Payment
+1100	Thu tiền	Receipt
+1101	Tùy chọn hủy đối chiếu	UnReconcile options
+1102	Hủy đối chiếu theo ngày	UnReconcile by date
+1103	Hủy đối chiếu theo tham chiếu	UnReconcile by reference
+1104	Tùy chọn đối chiếu	Reconcile options
+1105	Đối chiếu theo ngày	Reconcile by date
+1106	Đối chiếu theo tham chiếu	Reconcile by reference
+1107	Thư mục	Directory
+1108	Diễn giải TK	Account description
+1109	Loại TK	Account type
+1110	Dựa trên hóa đơn	Invoice based
+1111	Dựa trên thanh toán	Payments based
+1112	In sẵn	Preprinted
+1113	A4 trơn	Plain A4
+1114	Dịch vụ	Service
+1115	Đường kẻ ngang trơn	Plain Eyeline
+1116	Bốn mươi	Forty
+1117	Đã thêm	Added
+1118	Hiển thị người liên hệ	Show contactperson
+1119	Từ danh sách	From list
+1120	Số chứng từ	Document no.
+1121	Ngày chứng từ	Document date
+1122	"""Tên giá"",Giá trị"	"""Price Name"",Value"
+1123	đã bị xóa!	deleted!
+1124	TK kiểm soát phải thu và phải trả bị thiếu hoặc hỏng! Vui lòng liên hệ hỗ trợ <@APPNAME@>!	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!
+1125	Đến hạn	Due
+1126	Chuyển sang	Brought forward
+1127	Chuyển đi	Carried forward
+1128	Sao kê gửi đến	Statement to
+1129	Giấy báo chuyển tiền gửi đến	Remittance advise to
+1130	Mã số thuế KH	Customer tax ref.
+1131	Đơn vị	Unit
+1132	Giá	Price
+1133	Đã chấp nhận hóa đơn	Invoice accepted
+1134	Chữ ký	Signature
+1135	Đăng ký THUẾ	TAX registration
+1136	Số tiền chưa bao gồm	Amount exclusive
+1137	Số tiền đã bao gồm	Amount inclusive
+1138	Số tiền thuế	Tax amount
+1139	Hóa đơn	Inv.
+1140	Mặt hàng	Item
+1141	Chiết khấu	Discount
+1142	Diễn giải mặt hàng kho	Stock item description
+1143	Danh mục	Category
+1144	Địa chỉ NCC	Supplier address
+1145	Địa chỉ hóa đơn	Invoice address
+1146	Đã chấp nhận phiếu ghi nợ	Credit note accepted
+1147	Đã chấp nhận chứng từ mua hàng	Purchase document accepted
+1148	Đã chấp nhận báo giá	Quote accepted
+1149	Đã chấp nhận đơn hàng	Order accepted
+1150	Đã chấp nhận phiếu giao hàng	Delivery note accepted
+1151	Tài sản	Assets
+1152	Tổng Tài sản	Total Assets
+1153	Vốn và Nợ phải trả	Capital and Liabilities
+1154	Tổng Vốn và Nợ phải trả	Total Capital and Liabilities
+1155	Tổng Lãi/Lỗ ròng	Total Net Profit/Loss
+1156	chưa phân bổ	unllocated
+1157	tại	at
+1158	BC Thu nhập và Chi phí	Income and expense report
+1159	Chênh lệch	Variance
+1160	Lãi/Lỗ ròng	Net Profit/Loss
+1161	Đã dừng tìm kiếm! Đã đạt giới hạn!	Search stopped! Limit reached!
+1162	Ngày hôm nay vượt quá kỳ tài chính của bạn. Bạn nên chạy quy trình khóa sổ cuối năm để xử lý đến ngày này!	Today's date is beyond your financial period. You should run your year end to process to this date!
+1163	&Tra cứu	&Lookup
+1164	&Khách hàng	&Customer
+1165	&Tiền lẻ ban đầu	&Float
+1166	&Thanh toán	&Payment
+1167	&Xóa tất cả	&Delete all
+1168	Vui lòng đọc điều này	Please read this
+1169	Tiền mặt trong ngăn kéo	Cash in drawer
+1170	Thẻ Tín dụng	Credit Cards
+1171	Tiền lẻ vào/ra	Float in/out
+1172	Séc	Cheques
+1173	Phiếu/Chứng từ	Vouchers
+1174	Kiểm soát truy cập POS	POS Access control
+1175	Đăng nhập Điểm bán hàng	Point-of-Sale login
+1176	Tên thu ngân	Cashier name
+1177	(Tên nhân viên bán hàng)	(Saleperson name)
+1178	Nhớ thông tin đăng nhập của tôi	Remember my login
+1179	Khóa/Mã	Key
+1180	Danh sách viết tắt	Abbreviation list
+1181	Biến động khách nợ	Debtor movement
+1182	Biến động chủ nợ	Creditor movement
+1183	Biến động tài khoản	Account movement
+1184	Hiệu suất ngân sách	Budget performance
+1185	Số tiền chênh lệch	Variance amount
+1186	Tỷ lệ chênh lệch	Variance percentage
+1187	Thu nhập giữ lại	Retained income
+1188	DT / CP	Inc / Exp
+1189	Danh sách TK	List of accounts
+1190	Mặt hàng tồn đọng	Items on backorder
+1191	Đơn hàng tồn đọng	Backorders
+1192	Tổng cộng cho mỗi kỳ	Totals for each period
+1193	Để cân bằng	To balance
+1194	Chi tiết nhập chứng từ	Journal entry details
+1195	Đã bao gồm	Inclusive
+1196	Đối ứng	Contra
+1197	Hỗ trợ <@APPNAME@>	<@APPNAME@> Support
+1198	Trang hỗ trợ <@APPNAME@>	<@APPNAME@> Support page
+1199	BC chi tiết loại chứng từ	Journal type details report
+1200	Số tiền chưa bao gồm	Excl. amt.
+1201	Số tiền đã bao gồm	Incl. amt.
+1202	Tổng cộng:	Total:
+1203	Người điều tra	Investigator
+1204	Tìm kiếm	Search
+1205	Tìm kiếm cho	Seach for
+1206	Tìm kiếm ngay	Search now
+1207	Tùy chọn nâng cao	Advanced options
+1208	Quay lại	Back
+1209	Lọc tìm kiếm	Refine search
+1210	Giới hạn bản ghi tìm thấy	Record found limit
+1211	Nhập nội dung bạn đang tìm kiếm, nếu muốn tìm kiếm một loại cụ thể, hãy chọn nút tương ứng hoặc nhấp vào đây để lọc tìm kiếm.	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.
+1212	Mẹo tìm kiếm	Search tip
+1213	Thông tin tài khoản	Account information
+1214	Phân biệt chữ hoa/thường	Case sensitive
+1215	Bất cứ đâu trong	Where ever in
+1216	Vị trí bắt đầu	Starting position
+1217	Kết thúc	Ending
+1218	Thêm	More
+1219	Tùy chọn tìm kiếm	Search options
+1220	Tên TK	Account names
+1221	Mọi thứ	Everything
+1222	Chọn khách nợ	Select debtor
+1223	Báo giá chuyển thành hóa đơn	Quotes to convert to invoice
+1224	Số đơn hàng	Order no.
+1225	Đơn hàng chuyển thành mua hàng	Order to convert to purchase
+1226	Chọn chủ nợ	Select creditor
+1227	Tìm kiếm theo số	Search by number
+1228	Tìm kiếm theo TK	Search by account
+1229	Tìm kiếm theo mô tả	Search by description
+1230	Lưu chuyển TIỀN MẶT	CASH flow
+1231	Số dư đầu kỳ NGÂN HÀNG	Opening BANK balance
+1232	Lưu chuyển tiền tệ ròng	Net cash flow
+1233	Tổng số dư ngân hàng	Total bank balance
+1234	Số dư đầu kỳ quỹ tiền mặt nhỏ	Opening petty cash balance
+1235	Thu tiền mặt nhỏ	Petty cash in
+1236	Chi tiền mặt nhỏ	Petty cash out
+1237	Lưu chuyển tiền mặt nhỏ ròng	Net petty cash flow
+1238	Tổng tiền mặt nhỏ	Total petty cash
+1239	Tổng lưu chuyển tiền tệ	Total cash flow
+1240	Quỹ có sẵn	Funds available
+1241	TIỀN MẶT ĐÃ THU	CASH RECEIVED
+1242	TIỀN MẶT ĐÃ CHI	CASH PAID OUT
+1243	Kiểm tra quỹ đóng ca POS	Point-of-Sale cash-up check
+1244	Hệ thống	System
+1245	Số lượng	Quantity
+1246	Quỹ đóng (trong ngăn kéo)	Cashed up (in the drawer)
+1247	Tóm tắt	Summary
+1248	Kiểm tra các mục chưa ghi sổ	Checking unposted items
+1249	Mặt hàng	Items
+1250	Số lượng đếm	Count
+1251	Danh sách liên hệ	Contact listing
+1252	Điện thoại 1	Telephone 1
+1253	Điện thoại 2	Telephone 2
+1254	Địa chỉ E-mail	E-mail address
+1255	Đang xử lý	Processing
+1256	Vui lòng chờ...	Please wait...
+1257	Số thực	Real numbers
+1258	Số thập phân cố định	Fix decimals
+1259	Số lượng chứng từ	Document quantity
+1260	Số thập phân báo cáo	Reporting decimals
+1261	Lưu trữ dữ liệu	Data storage
+1262	Báo cáo số tiền với	Report amounts with
+1263	cho Có	for Credit
+1264	cho Nợ/Có	for Debit/Credit
+1265	Trình xem TK chữ T	T-Account viewer
+1266	Điểm bán hàng (POS)	Point-of-Sale
+1267	Bộ máy &kịch bản	&Script engine
+1268	Chứng từ bán hàng	Sales documents
+1269	Chứng từ mua hàng	Purchase documents
+1270	Hóa đơn POS	POS Invoice
+1271	Nhập số tiền để liên kết	Enter amount to link
+1272	Nhập số tiền	Enter amount
+1273	Số phiếu thu	Receipt number
+1274	Phát hành bởi	Issued by
+1275	Phương thức thanh toán	Payment method
+1276	Đã nhận cho	Received for
+1277	Đã nhận từ	Received from
+1278	Chọn khoản mục mở	Open item selection
+1279	Tham chiếu thanh toán	Payment reference
+1280	Còn lại	Outstanding
+1281	Giao dịch khách nợ	Debtor transactions
+1282	Sổ cái chi tiết	Detailed ledger
+1283	Giao dịch chủ nợ	Creditor transactions
+1284	Phạm vi báo cáo	Report range
+1285	Tham chiếu	Reference
+1286	Số dư lũy kế	Cumulative balance
+1287	Số dư tại	Balance at
+1288	Số dư đầu kỳ tại	Opening balance at
+1289	Số dư cuối kỳ tại	Closing balance at
+1290	Tổng lũy kế	Accumulative total
+1291	Xây dựng lại cơ sở dữ liệu	Database rebuild
+1292	Chọn Sổ Kế Toán để xây dựng lại	Select Set of Books to rebuild
+1293	Trạng thái	Status
+1294	Tiêu đề	Header
+1295	Chỉ mục	Indexes
+1296	Dữ liệu	Data
+1297	Xây dựng lại	Rebuild
+1298	Tất cả người dùng phải đăng xuất trước khi chạy quy trình này!	All users must logout before running this process!
+1299	Đang chờ chạy ...	Waiting to run ...
+1300	Đang xây dựng lại khóa	Re-building keys
+1301	Đã kiểm tra	Checked
+1302	Giá trị khóa	Key values
+1303	Khóa bị hỏng	Key corruption
+1304	Tệp đã kiểm tra OK	Checked OK file(s)
+1305	Tệp bị hỏng	Corrupted file(s)
+1306	Ngày/kỳ giao dịch đã được xây dựng lại	Transaction date/period rebuilt
+1307	Ngày/kỳ giao dịch thất bại! Hãy thử lại!	Transaction date/period failed! Try again!
+1308	Đang tải bản ghi Message.db	Loading Message.db records
+1309	Đang nén Message.db...	Compressing Message.db...
+1310	Lỗi: Điền cấu trúc bảng!	Error: Filling table structure!
+1311	Đang xây dựng lại	Rebuilding
+1312	Lấy giá trị báo cáo ngày	Get date report value
+1313	Phiếu giao hàng	Delivery note
+1314	Tùy chọn phiếu thu	Receipt options
+1315	In ra	Print out
+1316	Danh sách TK khách nợ	List of debtor accounts
+1317	Danh sách TK chủ nợ	List of creditor accounts
+1318	Chưa định vị	Unlocated
+1319	Điện thoại	Telephone
+1320	Khoản mục mở	Open item
+1321	Số dư Chuyển sang	Balance B/F
+1322	Đã bật	Enabled
+1323	Nhóm báo cáo 1	Reporting group 1
+1324	Loại tuổi nợ	Age type
+1325	Nhóm báo cáo 2	Reporting group 2
+1326	Nhân viên bán hàng (NVBH)	Salesperson
+1327	Liên hệ	Contact
+1328	Lãi suất hàng tháng	Monthly interest
+1329	Loại báo cáo	Report type
+1330	Lề	Margins
+1331	Cỡ giấy	Paper size
+1332	Chất lượng giấy	Paper quality
+1333	Khác	Others
+1334	Trái	Left
+1335	Trên	Top
+1336	Phải	Right
+1337	Dưới	Bottom
+1338	mm	mm
+1339	Chiều dài	Length
+1340	Chiều rộng	Width
+1341	Mặc định	Default
+1342	Tùy chỉnh	Custom
+1343	Giấy	Paper
+1344	Bản nháp	Draft
+1345	Thư	Letter
+1346	Khách hàng	Customer
+1347	Chọn khách hàng	Select customer
+1348	Nhấn <ESC> để đóng	Press <ESC> to close
+1349	Vẫn còn phải trả	Still to pay
+1350	Ghi nợ vào TK	Charge to account
+1351	Mã TK ngân hàng	Bank account code
+1352	Số séc	Cheque number
+1353	Số thẻ	Card number
+1354	Tên chủ thẻ	Holder's name
+1355	Loại thẻ	Card type
+1356	Ngày hết hạn	Expiry date
+1357	Phân tích doanh số POS	POS Sales analysis
+1358	Mô tả mặt hàng	Item description
+1359	Số tiền bán hàng	Sales amount
+1360	Tổng cộng	Totals
+1361	Số dư	Balance
+1362	Chỉnh sửa giá	Edit price
+1363	Sử dụng theo dõi số sê-ri	Use serial number tracking
+1364	Phương thức thanh toán mặc định	Default payment method
+1365	Giới hạn tiền lẻ ban đầu	Float limit
+1366	Cho phép tiền lẻ ban đầu	Allow cash float
+1367	Chung	General
+1368	Cài đặt	Settings
+1369	Nhập liệu	Entry
+1370	Thiết bị ngoại vi	Peripherals
+1371	Màn hình nhập liệu	Entry screen
+1372	Sổ cái	Ledger
+1373	In chi tiết khách hàng	Print customer details
+1374	In địa chỉ giao hàng	Print delivery address
+1375	In chi tiết thanh toán	Print payment details
+1376	Nhập chứng từ bán hàng	Sales journal entry
+1377	Nhập chứng từ thu tiền	Receipts journal entry
+1378	Nhập diễn giải thanh toán	Payment description entry
+1379	TK bán hàng thu tiền mặt	Cash sales account
+1380	TK chuyển tiền mặt	Cash transfer account
+1381	TK két tiền	Till account
+1382	Tiền mặt tối đa trong két	Max cash in till
+1383	Số kế tiếp	Next number
+1384	&Sử dụng thông báo POS	&Use POS messages
+1385	Ngăn kéo đã kết nối	Drawer connected
+1386	Máy quét mã vạch đã kết nối	Barcode scanner connected
+1387	&Kiểm tra ngăn kéo	&Test drawer
+1388	Tham số cổng nối tiếp	Serial port parameters
+1389	Cổng	Port
+1390	Mở ngăn kéo tiền mặt cho	Open cash drawer for
+1391	Cổng song song	Parallel port
+1392	Cổng nối tiếp	Serial port
+1393	Tốc độ Baud	Baud rate
+1394	Bit dữ liệu	Data bits
+1395	Bit dừng	Stop bits
+1396	Chẵn lẻ	Parity
+1397	Số cổng	Port number
+1398	Xác nhận in	Confirm printing
+1399	Sử dụng máy in thứ nhất	Use first printer
+1400	Sử dụng máy in thứ hai	Use second printer
+1401	Máy in thứ hai	Second printer
+1402	Máy in thứ nhất	First printer
+1403	&Kiểm tra máy in	&Test printers
+1404	Mã điều khiển máy in	Printer control code
+1405	Đăng nhập	Login
+1406	Nhập mật khẩu của bạn	Enter your password
+1407	Thiết lập giấy máy in kim	Dot-matrix printer paper setup
+1408	Tham số hệ thống	System parameters
+1409	Thiết lập POS	POS setup
+1410	&Sử dụng thông báo hóa đơn	&Use invoice messages
+1411	Máy in	Printers
+1412	Lỗi khi nhập khẩu hoặc định dạng tệp không hợp lệ!	Error while importing or invalid file format!
+1413	Người dùng không thể sử dụng chứng từ này!	User cannot use this journal!
+1414	Bật quyền truy cập trong 'Thiết lập → Kiểm soát truy cập'	Enable access in 'Setup → Access control'
+1700	Phân tích tuổi nợ phải trả	Creditor age analysis
+1701	Số tham chiếu	Reference no.
+1702	Tổng giao dịch	Transaction total
+1703	Tổng cộng cho BC :	Totals for report :
+1704	Phân tích tuổi nợ phải thu tính đến	Debtor age analysis as at
+1706	Số	No.
+1707	Mã kho	Stock code
+1708	Mô tả	Description
+1709	Giá	Price
+1710	SL (Số lượng)	Qty
+1711	Chiết khấu	Discount
+1712	Số tiền	Amount
+1713	Biến động tiền mặt ban đầu	Float movement
+1714	Nhập hóa đơn POS	Point-of-Sale invoice entry
+1715	&Rút khỏi ngăn kéo	&Out of the drawer
+1716	&Cho vào ngăn kéo	&Into the drawer
+1717	Khách hàng	Customer
+1718	NVBH:	Salesperson:
+1719	Tham chiếu	Reference
+1720	TK khách hàng mặc định chưa thiết lập! Vui lòng thiết lập!	Default customer account not setup! Please setup!
+1721	Hóa đơn mới	New invoice
+1722	HĐ %s (Thẻ tín dụng)	Inv. %s (Credit Card)
+1723	HĐ %s (TK công nợ)	Inv. %s (Account)
+1724	HĐ %s (Phiếu mua hàng)	Inv. %s (Voucher)
+1725	HĐ %s (Séc)	Inv. %s (Cheque)
+1726	HĐ %s (Tiền mặt)	Inv. %s (Cash)
+1727	(Thẻ tín dụng)	(Credit Card)
+1728	(TK công nợ)	(Account)
+1729	(Phiếu mua hàng)	(Voucher)
+1730	(Séc)	(Cheque)
+1731	(Tiền mặt)	(Cash)
+1732	Số thẻ:	Card number:
+1733	Tên chủ thẻ:	Holder name:
+1734	Loại thẻ:	Card type:
+1735	Ngày hết hạn:	Expiry date:
+1736	Bạn muốn đóng và hủy hóa đơn này ngay bây giờ không?	Do you want to close and cancel this invoice now?
+1737	Không thể chạy nếu không có mặc định!	Cannot run without default!
+1738	Thao tác này sẽ đóng màn hình nhập hóa đơn và ghi sổ tất cả HĐ POS cho ...	This will close the invoice entry screen and post all POS invoices for ...
+1739	Tiền thừa cần trả lại.	Change to give back.
+1740	Cảm ơn.	Thanks.
+1741	Đóng ca và ghi sổ tất cả hóa đơn	Closing shift and posting all invoices
+1742	Đang ghi sổ chứng từ	Posting document
+1743	KIỂM TRA MÁY IN hóa đơn POS	Till slip PRINTER TEST
+1744	Căn trái	Left alignment
+1745	Căn giữa	Centre alignment
+1746	Căn phải	Right alignment
+1747	3 dòng trống	3 Blank lines
+1748	Lên 3 dòng trống ?	Up 3 blank lines ?
+1749	Kiểm tra két <@APPNAME@>	<@APPNAME@> till test
+1750	&Đóng quỹ	&Cash up
+1751	&In lại hóa đơn cuối	&Reprint last invoice
+1752	Đó&ng ca	Cl&ose shift
+1753	Chế độ Đã/Chưa bao gồm	Incl./Excl. mode
+1754	&Báo cáo	&Report
+1755	&Mở ngăn kéo	&Open drawer
+1756	Đổi bí danh (tên chứng từ)	Change alias (journal name)
+1757	Đảo ngược chứng từ (N<-->C)	Reverse journal (D<-->C)
+1758	Nhập chứng từ đã ghi sổ	Posted journals import
+1759	Điểm bán hàng (POS)	Point-of-Sale
+1760	Tìm kiếm	Search
+1761	&Thiết kế BC	&Report designer
+1762	&Tiêu chuẩn	&Standard
+1763	Tìm kiếm	Search
+1764	Mặt hàng mới	New item
+1765	Xóa mặt hàng	Delete item
+1766	&Nâng cao	&Advanced
+1767	Điều chỉnh	Adjustment
+1768	Giá TB && giá gần nhất	Ave && latest cost
+1769	SL && giá TB	Qty && ave cost
+1770	Giá bán	Selling prices
+1771	Ghi nhận tồn kho	Stock take-on
+1772	Mã kho	Stock code
+1773	Mô tả	Description
+1774	Mã vạch	Barcode
+1775	Đơn vị	Unit
+1776	Số lượng	Quantities
+1777	Tồn kho	On hand
+1778	Đặt hàng lại	Reorder
+1779	SL && giá gần nhất	Qty && latest cost
+1780	Giá bán 1	Selling price1
+1781	Giá bán 2	Selling price2
+1782	Giá bán 3	Selling price3
+1783	Giá vốn	Cost
+1784	Giá vốn TB	Avg. cost
+1785	Đơn giá vốn	Unit cost
+1786	Chiết khấu	Discount
+1787	Đầu vào	Input
+1788	Đầu ra	Output
+1789	TK thuế	Tax accounts
+1790	TK sổ cái chung	General ledger accounts
+1791	Giá vốn	Cost
+1792	Doanh thu	Sales
+1793	Hàng tồn kho	Stock
+1794	Nhóm BC	Reporting group
+1795	Nhóm BC 2	Reporting group2
+1796	Nhóm BC	Reporting group
+1797	Dùng tệp bảng tính	Use spreadsheet file
+1798	Tạo giao dịch	Generate transactions
+1799	Dùng tỷ lệ %	Use percentage
+1800	Cho tất cả mặt hàng	To all items
+1801	Mã vạch	Barcode
+1802	Ngày	Date
+1803	Thay đổi mã kho sẽ khiến tất cả BC dùng mã này!	Changing the stock code will result in all reports to use this code!
+1804	Bạn có chắc muốn thay đổi mã không?	 Are you sure you want to change the code?
+1805	Tiện ích (Plugins)	Plugins
+1806	Đang tạo Sổ Kế Toán...	Creating Set of Books...
+1807	Đang tạo TK bắt buộc...	Creating required accounts...
+1808	Đang tạo TK bắt buộc (TK tổng hợp phải trả)...	Creating required accounts (Creditors control)...
+1809	TK tổng hợp phải trả	Creditors control
+1810	Đang tạo TK bắt buộc (TK tổng hợp phải thu)...	Creating required accounts (Debtors control)...
+1811	TK tổng hợp phải thu	Debtors control
+1812	Đang tạo TK bắt buộc (Lợi nhuận giữ lại)...	Creating required accounts (Retained earnings)...
+1813	Lợi nhuận giữ lại	Retained earnings
+1814	Hoàn thành!	Finished!
+1815	Đặt số TK tổng hợp và cài đặt, tham số công ty	Set control accounts number and company setting and parameters
+1816	Nhập tên Sổ Kế Toán mới	Enter the name of new Set of Books
+1817	Sổ Kế Toán để sao chép:	Set of Books to copy :
+1818	Sổ Kế Toán cũ để chuyển đổi:	Old Set of Books to convert :
+1820	&Duyệt	&Browse
+1821	Đang tạo hệ thống TK...	Creating set of accounts...
+1822	Thiết lập kỳ kế toán	Accounting periods setup
+1823	Thiết lập loại chứng từ	Journal types setup
+1824	Thiết lập nhóm	Groups setup
+1825	Thiết lập chứng từ	Documents setup
+1826	Thêm NVBH	Add salespersons
+1827	Đã sao chép Sổ Kế Toán!	Set of Books copied!
+1828	Tên:	Name :
+1829	Vị trí:	Location :
+1831	Đang chuyển đổi Sổ Kế Toán...	Converting Set of Books...
+1832	Số mục	Item no.
+1833	Nhóm TK	Account groups
+1834	Nhóm khách nợ	Debtor groups
+1835	Nhóm chủ nợ	Creditor groups
+1836	Tồn kho	Stock
+1837	Nhóm chứng từ	Document groups
+1838	Nhóm 1	Group1
+1839	Nhóm 2	Group2
+1840	Mới	New
+1841	Chỉnh sửa	Edit
+1842	Xóa	Delete
+1843	Di chuyển lên	Move up
+1844	Di chuyển xuống	Move down
+1845	Tên nhóm BC:	Reporting group name:
+1846	Các nhóm	Groups
+1847	GỐC NHÓM BC	REPORTING GROUP ROOT
+1848	Có các nút con, hãy xóa nút con trước!	There are subnodes delete subnodes first!
+1849	Đang xóa số tổng...	Clearing totals...
+1850	Đang xóa giao dịch...	Clearing transactions...
+1851	Đang xóa giao dịch kho...	Clearing stock transactions...
+1852	Đang xóa thông tin kho...	Clearing stock information...
+1853	Đang xóa giao dịch CT...	Clearing document transactions...
+1854	Đang xóa thông tin CT...	Clearing journal information...
+1855	Nhóm mới	New group
+1856	Hiện tại	Current
+1857	30 ngày	30 days
+1858	60 ngày	60 days
+1859	90+ ngày	90+ days
+1860	Diễn giải	Description
+1861	Đặt hàng	Order
+1862	Giao hàng	Ship
+1863	Thuế	Tax
+1864	Số tiền chưa thuế	Excl. amt.
+1865	% CK (Chiết khấu)	Disc%
+1866	Số tiền bao gồm thuế	Incl. amt.
+1867	Tên chứng từ	Journal name
+1868	TK đối ứng	Contra account
+1869	Loại chứng từ	Document type
+1870	Báo giá	Quotes
+1871	Đơn đặt hàng	Orders
+1872	&Thêm đã chọn	&Add selected
+1873	&Xóa	&Remove
+1874	Xác nhận báo giá và đơn hàng	Confirm quotes and orders
+1875	Ngày	Date
+1876	Tài khoản	Account
+1877	Đã xác nhận	Confirmed
+1878	Chuyể&n đổi	C&onvert
+1879	Chọn ngày	Select date
+1880	&Tìm kiếm...	&Search...
+1881	Liên kết	Link
+1882	Xử lý	Process
+1883	Sao kê/Bản kê	Statement
+1884	Quá 90 ngày	Over 90 days
+1885	Đến hạn	Due
+1886	Lịch sử hóa đơn	Invoice history
+1887	Hóa đơn lặp lại	Invoices to repeat
+1888	Tạo	Generate
+1889	Tìm theo số hóa đơn	Search by invoice number
+1890	Thêm tất cả	Add all
+1891	Lặp lại	Repeating
+1892	Áp dụng cho mục đã chọn	Apply to selection
+1893	Áp dụng cho tất cả	Apply to all
+1894	Thay thông báo bằng	Replace message with
+1895	Đặt hóa đơn mới là lặp lại	Set new invoice as repeating
+1896	Thêm dòng ghi chú này	Add this comment line
+1897	Kiểm soát truy cập	Access control
+1898	Bảo mật tiêu chuẩn	Standard security
+1899	Tên người dùng	Username
+1900	E-mail người dùng	User e-mail
+1901	Quyền truy cập BC	Reports access
+1902	BC sổ cái chung	General ledger reports
+1903	Quyền truy cập CT	Journals access
+1904	Chọn TK cần khóa	Select accounts to block
+1905	Khác	Others
+1906	Chỉnh sửa TK	Edit accounts
+1907	Chỉnh sửa kho	Edit stock
+1908	Chỉnh sửa BC người dùng	Edit user report
+1909	Người dùng mới	New user
+1910	Tệp bố cục	Layout file
+1911	Thiết lập &trang	&Page setup
+1912	Danh mục TCDN	Financial categories
+1913	Chọn danh mục và gán nhóm thích hợp	Select categories and allocate appropriate groups
+1914	Vốn	Capital
+1915	Chi phí	Expenses
+1916	Thu nhập	Income
+1917	Nợ phải trả	Liabilities
+1918	In Vốn trước Nợ phải trả	Print Capital before Liabilities
+1919	In Nợ phải trả trước Vốn	Print Liabilities before Capital
+1920	In Thu nhập trước Chi phí	Print Income before Expenses
+1921	In Chi phí trước Thu nhập	Print Expenses before Income
+1922	Các nhóm	Groups
+1923	Chuyển khoản	Transfering
+1924	Ngân hàng	Bank
+1925	Thuế	Tax
+1926	Chứng từ TK ngân hàng chưa thiết lập đúng!	Bank account journals not setup correctly!
+1927	Thanh toán	Payment
+1928	Không thể ghi sổ giao dịch vào TK có TK con!	Cannot post transactions to an account which has sub-accounts!
+1929	Xử lý	Process
+1930	Nhận từ	Receiving from
+1931	In phiếu thu	Print receipt
+1932	Đến	To
+1933	Từ TK	From account
+1934	Đến TK	To account
+1935	Loại TK	Account type
+1936	Đặt một chữ viết tắt	Set an abbreviation
+1937	Nhấn phím bạn muốn gán chữ viết tắt	Push the key you want to assign an abbreviation to
+1938	&In danh sách	&Print list
+1939	Nhập chữ viết tắt:	Type in the abbreviation :
+1940	Thiết lập Internet	Internet setup
+1941	TK E-mail:	E-mail account :
+1942	Tên máy chủ	Server name
+1943	ID người dùng	User id
+1944	Máy chủ mạng (nhân bản dữ liệu)	Network server (data replication)
+1945	Tên máy chủ	Server name
+1946	hoặc địa chỉ IP	or IP address
+1947	&Kiểm tra máy chủ mạng	&Test net server
+1948	Đang xác minh %s trên máy chủ %s	Verifying %s on server %s
+1949	đã xác minh	verified
+1950	chưa xác minh! Kiểm tra thất bại!	not verified! Test failed!
+1951	<@APPNAME@> Người gửi BC mail %s TK E-mail %s	<@APPNAME@> Report mail sender %s e-mail account %s
+1952	Không tìm thấy máy chủ E-mail...	E-mail server not found...
+1953	Đã kết nối.	Connected.
+1954	Đang kiểm tra E-mail...	E-mail test in progress...
+1955	Kiểm tra hoàn tất! Thành công!	Test finished! Success!
+1956	Kết nối thất bại!	Connection failed!
+1957	Lỗi E-mail chung!	General e-mail failure!
+1958	Đã ngắt kết nối...	Disconnected...
+1959	Xác thực thất bại!	Authentication failed!
+1960	Đang kiểm tra: %s byte trong số %s	Test in progress :%s bytes out of %s
+1961	Đã bắt đầu kiểm tra kết nối!	Connection test started!
+1962	Máy chủ không hợp lệ!	Invalid server!
+1963	Đã phân giải máy chủ mạng!	Net server resolved!
+1964	Đang kết nối đến %s	Connecting to %s
+1965	Người dùng đang kiểm tra trên máy chủ	User testing on server
+1966	Kết nối máy chủ thất bại!	Server connection failed!
+1967	<@APPNAME@> đã đạt giới hạn 500 giao dịch hoặc 500 chứng từ! Vui lòng đăng ký và mua giấy phép.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.
+1968	Phần mềm này giới hạn 500 giao dịch hoặc 500 chứng từ! Vui lòng đăng ký và mua giấy phép cho <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.
+1969	Không thể có nhiều hơn %s cho bản <@APPNAME@> chưa đăng ký này %s! Vui lòng đăng ký và lấy mã giấy phép của bạn!	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!
+1970	Chỉ cho phép các kỳ từ 1 đến 13!	Only periods between 1 and 13 are allowed!
+1971	Bạn có muốn lưu các thay đổi này không?	Do you want to save these changes ?
+1972	Mật khẩu người dùng	User password
+1973	Ngày	Date
+1974	Tham chiếu	Reference
+1975	Tham chiếu thanh toán	Payment reference
+1976	Số	Number
+1977	Còn lại	Outstanding
+1978	Nhập số tiền	Enter amount
+1979	Chọn khoản mục mở	Open item selection
+1980	Mật khẩu người dùng	User password
+1981	Luôn cân bằng	Always balance
+1982	Không thuế	No tax
+1983	Không phải chứng từ khoản mục mở	Not open item journal
+1984	Đảo ngược đối ứng	Reverse contra
+1985	Ghi nhớ thuế trên TK đối ứng	Remember tax on contra account
+1986	Ghi nhớ đối ứng trên TK	Remember contra on account
+1987	Sổ cái đặc biệt	Special ledgers
+1988	Loại tra cứu TK	Account lookup type
+1989	Loại tra cứu TK đối ứng	Contra account lookup type
+1990	Tiêu chuẩn	Standard
+1991	Nâng cao	Advanced
+1992	SL && giá vốn gần nhất	Qty && latest cost
+1993	Đang ghi sổ: %s trên %s	Posting: %s of %s
+1994	GIÁ VỐN HÀNG BÁN (GVHB)	COST OF SALES
+1995	GVHBCT	COS*DOC*
+1996	Đang kiểm tra bút toán chứng từ...	Checking journal entries ...
+1997	Đang cập nhật số tổng	Updating totals
+1998	Chứng từ	Documents
+1999	Hàng tồn kho	Stock
+2000	Khách nợ	Debtors
+2001	Tài khoản	Accounts
+2002	Chủ nợ	Creditors
+2003	Chứng từ đã ghi sổ	Posted journal
+2004	Xuất sang:	Export to:
+2005	Loại tệp	File type
+2006	Tên tệp xuất	Export files name
+2007	Tên tệp	File name
+2008	Tệp nhật ký	Log file
+2009	Phạm vi	Range
+2010	Từ	From
+2011	Đến	To
+2012	Ngày / Kỳ	Date / Period
+2013	&Xuất	&Export
+2014	&Nhập	&Import
+2015	Tệp để nhập	File to import
+2016	Tiêu đề	Headers
+2017	Dòng	Lines
+2018	Nhập từ:	Import from:
+2019	Xem tệp	View file
+2020	Trình hướng dẫn nhập dữ liệu	Import data wizard
+2021	Nhập dữ liệu vào <@APPNAME@>	Import data into <@APPNAME@>
+2022	Nhập tệp dữ liệu hoàn tất!	Data file import completed!
+2023	Định dạng tệp nhập chưa được triển khai!	Import file format not implemented!
+2024	Sắp xếp theo ngày	Sort by date
+2025	Vui lòng chọn loại dữ liệu bạn muốn nhập	Please select the type of data you want to import
+2026	Loại dữ liệu để nhập	Data type to import
+2027	Định dạng tệp	File format
+2028	Bây giờ bạn có thể nhấp vào [Nhập] để bắt đầu quá trình.	You can now click on [Import] to start the process.
+2029	&Đổi bí danh	&Change alias
+2030	Vui lòng chờ...	Please wait...
+2031	Đang xử lý	Processing
+2032	trên	of
+2033	Thay đổi thông tin công ty.	Change company info.
+2034	Chọn khoản mục mở	Open item selection
+2035	Đang mở ngăn kéo	Opening drawer
+2036	Hóa đơn <@APPNAME@>	<@APPNAME@> Invoice
+2037	HÓA ĐƠN THUẾ	TAX INVOICE
+2038	ĐT.	Tel.
+2039	Fax.	Fax.
+2040	DĐ. (Di động)	Cel.
+2041	TIỀN MẶT	CASH
+2042	Tiền thừa	Change
+2043	SỐ TIỀN THUẾ	TAX-AMT
+2044	15.00%	15.00%
+2045	Tên thu ngân:	Cashier name :
+2046	Số	Number
+2047	Họ	Last name
+2048	Liên hệ	Contact
+2049	Địa chỉ giao hàng	Delivery address
+2050	Ghi chú	Comments
+2051	*Chỉ mục không chịu thuế	*Indicates non-TAX item
+2052	Mặt hàng	Items
+2053	Đến hạn	Due
+2054	Bản ghi đang bị khóa bởi người dùng khác! Vui lòng thử lại!	Record locked by other user! Please try again!
+2056	Dùng in hóa đơn	Use invoice print
+2057	Dòng nạp đáy	Bottom feed lines
+2058	Đóng quỹ POS	POS Cash up
+2059	Không thể lấy số mới! Bản ghi bị khóa! Thử lại sau!	Cannot get new number! Record is locked! Try again later!
+2060	Tạo bút toán ngân hàng	Generate bank bookings
+2061	Giao dịch sao kê ngân hàng	Bank statement transactions
+2062	Đang tạo số dư...	Generating balances ...
+2063	Phân bổ số dư còn lại	Allocating outstanding balances
+2064	Đang xác định tuổi nợ...	Ageing ...
+2065	Đang tạo Sổ Kế Toán...	Creating Set of Books...
+2066	Hợp nhất	Consolidating
+2067	Cân đối	Balancing
+2068	Đang nhập mặt hàng kho	Importing stock items
+2069	Đang đọc tệp bảng tính	Reading spreadsheet file
+2070	Đang nhập tài khoản	Importing accounts
+2071	Đang xuất giao dịch	Exporting transactions
+2072	Đang xuất khách nợ	Exporting debtors
+2073	Đang nhập mặt hàng kho	Importing stock items
+2074	Đang xuất sơ đồ TK	Exporting chart of accounts
+2075	Đang xuất tài khoản	Exporting accounts
+2076	Đang nhập chứng từ	Importing documents
+2077	Đang xuất chứng từ	Exporting documents
+2078	Xuất sang tệp CSV	Exporting to CSV file
+2079	Xuất sang tệp bảng tính	Exporting to spreadsheet file
+2080	Xuất sang tệp bảng tính OpenOffice	Exporting to OpenOffice spreadsheet file
+2081	Xuất sang tệp bảng tính SYLK	Exporting to SYLK spreadsheet file
+2082	Xuất sang tệp MS Excel	Exporting to MS Excel file
+2083	Đang chuẩn bị danh sách	Preparing list
+2084	Đảo ngược chứng từ/ghi sổ đã ghi	Reverse posted journal/document
+2085	Bí danh (tên chứng từ)	Alias (journal name)
+2086	Đảo ngược chứng từ đã ghi	Reverse posted journal
+2087	Đảo ngược tài liệu đã ghi	Reverse posted document
+2088	Số lượng dòng	Line count
+2089	Số CT	Doc. no.
+2090	Dùng số	Use numbers
+2091	Dùng kỳ	Use periods
+2092	Hiện đối ứng	Show contra
+2093	Bao gồm mục chưa ghi sổ	Including unposted items
+2094	Bạn có muốn dùng số dư hiện tại làm số dư đầu kỳ không?	Do you wish to use the current balance as opening balance?
+2095	Bạn không thể báo cáo từ %s đến %s !	You cannot report from %s to %s !
+2096	Một bản ghi đã được chỉnh sửa! Bạn có muốn ghi sổ dữ liệu không?	A record was edited! Do you wish to post you data?
+2097	Không cho phép chuyển tiền lẻ ban đầu!	Float transfer not allowed!
+2098	Bạn vẫn còn số tiền phải thu. %s Không thể để lại số tiền chưa thanh toán cho HĐ POS!	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!
+2099	Không tìm thấy tệp bố cục BC!	Report layout file not found!
+2100	Nhấp vào [OK] để lưu tên mới	Click on [OK] to save new name
+2101	Số chung	General numbers
+2102	Tự động ghi sổ CT khi in	Auto-post documents on print
+2103	&Tùy chỉnh	&Customise
+2104	&Cập nhật máy chủ	&Update server
+2105	Phiên bản:	Version :
+2106	Số	Number
+2107	Hiện chi tiết liên hệ	Show contact details
+2108	Từ ngày	From date
+2109	Chọn thư mục Sổ Kế Toán	Select Set of Books directory
+2110	Duyệt tìm thư mục	Browse for folder
+2111	Tệp thực thi exe	Executable exe file
+2112	Sao lưu E-mail	E-mail backup
+2113	Khôi phục từ máy chủ	Restore from server
+2114	<@APPNAME@> chọn tệp sao lưu	<@APPNAME@> select backup file
+2115	Chữ số TK	Account digits
+2116	Tên Sổ Kế Toán	Name of Set of Books
+2117	Đường dẫn	Path
+2118	Nén tệp thông báo	Compress message file
+2119	Thay đổi mã	Change code
+2120	Thay đổi mã kho sẽ khiến tất cả BC dùng mã này!	Changing the stock code will result in all reports to use this code!
+2121	Bạn có chắc muốn thay đổi mã không?	Are you sure you want to change the code?
+2122	Mã kho mới	New stock code
+2123	Mã	Code
+2124	Thông tin kho	Stock information
+2125	Cập nhật tất cả	Update all
+2126	BÚT TOÁN CÂN ĐỐI	BALANCING ENTRY
+2127	Sửa Nợ/Có	Correct Debit/Credit
+2128	Tổng cộng cho từng kỳ	Totals for each period
+2129	Thêm mục này vào diễn giải	Add this to descriptions
+2130	Tham chiếu mới	New reference
+2131	Xử lý	Process
+2132	&Ngày cho giao dịch	&Date for transactions
+2133	&TK đối ứng	&Contra account
+2134	Diễn &giải	De&scription
+2135	Cho khách nợ với (số tiền)	To debtors for (amount)
+2136	Cho khách nợ với số dư dưới (số tiền)	To debtors with a balance less than (amount)
+2137	Số ngày quá hạn	Number of days overdue
+2138	Tạo nhiều giao dịch	Generate multiple transactions
+2139	Từ khách nợ	From debtor
+2140	Đến:	To:
+2141	%s %s của %s quá hạn vào %s	%s %s of %s overdue on %s
+2142	Sư dư	Bal
+2143	Số lượng:	Count :
+2144	Dùng cỡ A5	Use A5 size
+2145	và	and
+2146	Bằng không	Zero
+2147	Số dư ngân hàng tại	Bank balance at
+2148	Theo <@APPNAME@>:	According to <@APPNAME@>:
+2149	SỐ DƯ TẠI	BALANCE AT
+2150	mặt hàng tồn kho	items on hand
+2151	Nhập chiết khấu tổng thể	Enter overall discount
+2152	Giấy báo có (Phiếu chiết khấu)	Credit note
+2153	Mua hàng	Purchases
+2154	Hàng trả nhà cung cấp	Supplier returns
+2155	Hóa đơn	Invoice
+2156	Tổng hóa đơn:	Invoice totals :
+2157	Tổng giấy báo có:	Credit note totals :
+2158	Tổng khách hàng:	Customer totals :
+2159	Phân tích bán hàng - Doanh số theo khách hàng	Sales analysis - Sales per customer
+2160	Tổng mua hàng:	Purchase totals :
+2161	Tổng hàng trả NCC:	Supplier return totals :
+2162	Tổng nhà cung cấp:	Supplier totals :
+2163	Phân tích mua hàng - Mua hàng theo NCC	Purchase analysis - Purchases per supplier
+2167	Tìm kiếm theo số HĐ	Search by invoice no.
+2168	Vị trí Sổ Kế Toán:	Set of Books location :
+2169	Báo giá	Quote
+2170	Đơn hàng	Order
+2171	Dùng tham chiếu	Use reference
+2172	Tùy chọn tạo Số dư Chuyển sang	Generate Balance B/F options
+2173	Tùy chọn xóa liên kết	Clear links options
+2174	Theo ngày ghi nợ	By debit dates
+2175	Bao gồm mục kể từ	Include items since
+2176	Ngày hiện tại	Current date
+2177	Đã tìm thấy số tiền thuế nhưng TK thuế đã bị xóa!	Tax amount found but tax account is deleted!
+2178	GIÁ VỐN HÀNG BÁN	COST OF SALES
+2179	Ngày	Day
+2180	N (Số)	N
+2181	Từ khách nợ	From debtor
+2182	Đến khách nợ	To debtor
+2183	Đang nhập: %s trên %s	Importing : %s  of %s
+2184	Đang nhập khách nợ/chủ nợ...	Importing debtors/creditors...
+2185	Diễn giải của tôi	My description
+2186	Tùy chọn sao kê ngân hàng	Bank statement options
+2187	(CT)	(Doc.)
+2188	Kiểm tra mục chưa ghi sổ	Checking unposted items
+2189	Chỉ mục chưa ghi sổ	Unposted only
+2190	Từng chứng từ riêng biệt	Each journal separately
+2191	Hiện chi tiết	Show details
+2192	Đang in trên	Printing on
+2193	Đánh số văn bản Hà Lan	Dutch text numbering
+2194	Dùng ký hiệu tiền tệ	Use currency sign
+2195	Ký hiệu chữ số	Digit symbol
+2196	Ký hiệu thập phân	Decimal symbol
+2197	Chế độ	Mode
+2198	Hóa đơn/Kế toán	Invoice/Accounting
+2199	Kế toán	Accounting
+2200	Điểm bán hàng (POS)	Point-of-Sale
+2201	Chỉnh sửa khách nợ	Edit debtors
+2202	Chỉnh sửa chủ nợ	Edit creditors
+2203	Chỉnh sửa thuế	Edit tax
+2204	Chỉnh sửa ngân hàng	Edit bank
+2205	Đối chiếu NH mặc định	Default bank reconciliation
+2206	ĐC 2	Address 2
+2207	Quốc gia	Country
+2208	Chứng từ 11	11 Proof
+2209	Tùy ý	Arbitrair
+2210	Loại TK ngân hàng	Bank account type
+2211	Số TK ngân hàng	Bank account no.
+2212	Thanh toán tự động	Automatic payments
+2213	Ngày thanh toán	Payment date
+2214	Tạo tệp Clieop	Create Clieop file
+2215	TK ngân hàng thanh toán	Payment bank account
+2216	Giao dịch thanh toán	Pay transaction
+2217	Lưu tệp	Save file
+2218	Mã khách nợ	Debtor code
+2219	Mã chủ nợ (NCC)	Creditor code
+2220	Địa chỉ	Address
+2221	Số ngày đến hạn	Due days
+2222	Ngày đến hạn	Due date
+2223	Bỏ chọn tất cả	Uncheck all
+2224	Bỏ chọn đã chọn	Uncheck selected
+2225	Chọn đã chọn	Check selected
+2226	BC thanh toán chủ nợ	Creditor payment report
+2227	Tổng số dòng	Total rows
+2228	Tổng số tiền	Total amount
+2229	Tổng kiểm tra TK ngân hàng	Checksum bank accounts
+2230	Nhập tham chiếu sao kê	Enter statement reference
+2231	Tham chiếu sao kê	Statement reference
+2232	Thanh toán	Payments
+2233	Khoản thu	Receipts
+2234	Tổng cuối cùng	Last total
+2235	Sao kê đã nhập cuối	Last entered statement
+2236	^D: Xóa sao kê	^D : Delete statement
+2237	Xóa dòng	Delete line
+2238	Nhập sao kê NH	Import bank statement
+2239	Chứng từ 11	11 Proof
+2240	Không kiểm tra	No check
+2241	Số ngày đến hạn	Due days
+2242	Sắp xếp	Sort
+2243	C (Có)	Y
+2244	K (Không)	N
+2245	Đ (Đúng)	T
+2246	S (Sai)	F
+2247	T (Tuần)	Wy
+2248	Xóa	Delete
+2249	Tính năng này chưa được triển khai!	This feature is not implemented at this time!
+2250	Lỗi: Ngày không hợp lệ!	Error: Invalid date!
+2251	Không có bộ hẹn giờ Windows khả dụng!	No Windows timers are available!
+2252	Mã kích hoạt không hợp lệ!	Invalid trigger handle!
+2253	Trình chỉnh sửa mục thư mục.	Folder items editor.
+2254	Trình chỉnh sửa thư mục	Folder editor
+2255	Xung đột với sự kiện độc quyền khác!	Conflicts with another exclusive event!
+2256	Thời gian kết thúc không thể trước thời gian bắt đầu!	The end time cannot precede the start time!
+2257	Lỗi: Ghi dữ liệu vào CSDL!	Error: Posting data to the database!
+2258	Lỗi chuyển đổi số tháng!	Error converting the month number!
+2259	Lỗi: Ngày không hợp lệ!	Error: Invalid day!
+2260	Lỗi: Tạo liên hệ thất bại!	Error: Failure while creating contact!
+2261	Lỗi: Tháng không hợp lệ!	Error: Invalid month!
+2262	Lỗi: Tên tháng không hợp lệ!	Error: Invalid month name!
+2263	Lỗi: Năm không hợp lệ!	Error: Invalid year!
+2264	Lỗi: Phải có Ngày!	Error: Day is required!
+2265	Lỗi: Phải có Tháng!	Error: Month is required!
+2266	Lỗi: Phải có Năm!	Error: Year is required!
+2267	Lỗi: Tên không được để trống!	Error: Name cannot be empty!
+2268	Lỗi: Tạo nhiệm vụ thất bại!	Error: Failure while creating task!
+2269	Lỗi: Tạo sự kiện thất bại!	Error: Failure while creating event!
+2271	Lỗi: Tạo tài nguyên thất bại!	Error: Failure while creating resource!
+2272	Lỗi: Tài nguyên trùng lặp!	Error: Duplicate resource!
+2273	Lỗi: Bảng được chỉ định không hợp lệ!	Error: Invalid table specified!
+2274	Lỗi: Không thể mở!	Error: Unable to open!
+2275	Lỗi: Không thể cập nhật!	Error: Unable to update!
+2276	Trợ lý	Assistant
+2277	Gọi lại	Callback
+2278	Xe ô tô	Car
+2279	Công ty	Company
+2280	Nhà riêng	Home
+2281	Fax nhà riêng	Home fax
+2282	ISDN	ISDN
+2283	Di động	Mobile
+2284	Khác	Other
+2285	Fax khác	Other fax
+2286	Máy nhắn tin	Pager
+2287	Chính	Primary
+2288	Radio	Radio
+2289	Telex	Telex
+2290	TTY/TDD	TTY/TDD
+2291	Cơ quan	Work
+2292	Fax cơ quan	Work fax
+2293	Kinh doanh	Business
+2294	Khách hàng	Clients
+2295	Gia đình	Family
+2296	Cá nhân	Personal
+2297	Khác	Other
+2298	Tuần của	Week of
+2299	Đến	Through
+2300	Chủ nhật	Sunday
+2301	Thứ Hai	Monday
+2302	Thứ Ba	Tuesday
+2303	Thứ Tư	Wednesday
+2304	Thứ Năm	Thursday
+2305	Thứ Sáu	Friday
+2306	Thứ Bảy	Saturday
+2307	CN	Sun
+2308	T2	Mon
+2309	T3	Tue
+2310	T4	Wed
+2311	T5	Thu
+2312	T6	Fri
+2313	T7	Sat
+2314	CN	S
+2315	H	M
+2316	B	T
+2317	T	W
+2318	N	T
+2319	S	F
+2320	B	S
+2321	Không	None
+2322	Hàng ngày	Daily
+2323	Hàng tuần	Weekly
+2324	Hàng tháng theo ngày	Monthly by day
+2325	Hàng tháng theo ngày cố định	Monthly by date
+2326	Hàng năm theo ngày	Yearly by day
+2327	Hàng năm theo ngày cố định	Yearly by date
+2328	Tùy chỉnh	Custom
+2329	Phút	Minutes
+2330	Giờ	Hours
+2331	Ngày	Days
+2332	Thao tác này không thể hoàn tác!	This operation cannot be undone!
+2333	khỏi danh sách liên hệ của bạn?	from your list of contacts?
+2334	Thêm liên hệ...	Add contact...
+2335	Chỉnh sửa liên hệ...	Edit contact...
+2336	Xóa liên hệ...	Delete contact...
+2337	khỏi lịch biểu của bạn?	from your schedule?
+2338	khỏi danh sách nhiệm vụ của bạn?	from your task list?
+2339	Thêm nhiệm vụ...	Add task...
+2340	Chỉnh sửa nhiệm vụ...	Edit task...
+2341	Xóa nhiệm vụ...	Delete task...
+2342	Danh sách nhiệm vụ -	Task list -
+2343	Danh sách nhiệm vụ	Task list
+2344	Hôm nay	Today
+2345	Tháng sau	Next month
+2346	Tháng trước	Previous month
+2347	Năm sau	Next year
+2348	Năm trước	Previous year
+2349	Thêm sự kiện...	Add event...
+2350	Chỉnh sửa sự kiện...	Edit event...
+2351	&Xóa sự kiện...	&Delete event...
+2352	Đổi ngày	Change date
+2353	Hôm nay	Today
+2354	Tuần sau	Next week
+2355	Tuần trước	Previous week
+2356	Tháng sau	Next month
+2357	Tháng trước	Previous month
+2358	Năm sau	Next year
+2359	Năm trước	Previous year
+2360	Trang trước	Previous page
+2361	Trang sau	Next page
+2362	Trang đầu	First page
+2363	Trang cuối	Last page
+2364	Thêm sự kiện...	Add event...
+2365	Chỉnh sửa sự kiện...	Edit event...
+2366	Xóa sự kiện...	Delete event...
+2367	Đổi ngày	Change date
+2368	Hôm nay	Today
+2369	Ngày mai	Tomorrow
+2370	Hôm qua	Yesterday
+2371	Ngày sau	Next day
+2372	Ngày trước	Previous day
+2373	Tuần sau	Next week
+2374	Tuần trước	Previous week
+2375	Tháng sau	Next month
+2376	Tháng trước	Previous month
+2377	Năm sau	Next year
+2378	Năm trước	Previous year
+2379	Hôm nay	Today
+2380	Ngày mai	Tomorrow
+2381	Hôm qua	Yesterday
+2382	Tuần sau	Next week
+2383	Tuần trước	Previous week
+2384	Chức vụ	Position
+2385	Công ty	Company
+2386	Danh xưng	Title
+2387	E-mail	E-mail
+2388	Quốc gia	Country
+2389	Danh mục	Category
+2390	Ghi chú	Notes
+2391	Tùy chỉnh 1	Custom 1
+2392	Tùy chỉnh 2	Custom 2
+2393	Tùy chỉnh 3	Custom 3
+2394	Tùy chỉnh 4	Custom 4
+2395	OK	OK
+2396	Hủy	Cancel
+2397	&Đóng	&Close
+2398	&In	&Print
+2399	Không tiêu đề	Untitled
+2400	Chọn âm thanh	Select a sound
+2401	Trình tìm âm thanh	Sound finder
+2402	Dùng âm thanh mặc định	Use default sound
+2403	Sự kiện	Event
+2404	Cuộc hẹn	Appointment
+2405	Chủ đề	Subject
+2406	Danh mục	Category
+2407	Giờ bắt đầu	Start time
+2408	Giờ kết thúc	End time
+2409	&Nhắc nhở	&Reminder
+2410	Lặp lại cuộc hẹn	Appointment recurrence
+2411	Khoảng thời gian (ngày)	Interval (days)
+2412	Lặp lại đến	Repeat until
+2413	&Sự kiện cả ngày	&All day event
+2414	Ghi chú	Notes
+2415	Liên hệ	Contact
+2416	Tên	Name
+2417	Danh xưng	Title
+2418	Địa chỉ	Address
+2419	ĐC 2	Address 2
+2420	ĐC 3	Address 3
+2421	Quốc gia	Country
+2422	Mã bưu chính	Postal code
+2423	Công ty	Company
+2424	Chức vụ	Position
+2425	Xem trước khi in	Print preview
+2426	Nhiệm vụ	Task
+2427	Ngày đến hạn	Due date
+2428	Chi tiết	Details
+2429	Nhiệm vụ hoàn thành	Task complete
+2430	Số ngày quá hạn	Days overdue
+2431	Ngày tạo	Created on
+2432	Ngày hoàn thành	Completed on
+2433	Nhắc nhở	Reminder
+2434	QUÁ HẠN!	OVERDUE!
+2435	Nhấp [&Hoãn] để được nhắc lại sau:	Click [&Snooze] to be reminded again in:
+2436	Chủ đề	Subject
+2437	Ghi chú	Notes
+2438	&Bỏ qua	&Dismiss
+2439	&Hoãn	&Snooze
+2440	&Mở mục	&Open item
+2441	5 phút	5 minutes
+2442	10 phút	10 minutes
+2443	15 phút	15 minutes
+2444	30 phút	30 minutes
+2445	45 phút	45 minutes
+2446	1 giờ	1 hour
+2447	2 giờ	2 hours
+2448	3 giờ	3 hours
+2449	4 giờ	4 hours
+2450	5 giờ	5 hours
+2451	6 giờ	6 hours
+2452	7 giờ	7 hours
+2453	8 giờ	8 hours
+2454	1 ngày	1 day
+2455	2 ngày	2 days
+2456	3 ngày	3 days
+2457	4 ngày	4 days
+2458	5 ngày	5 days
+2459	6 ngày	6 days
+2460	1 tuần	1 week
+2461	Tháng trước	Previous month
+2462	Tháng sau	Next month
+2463	Năm trước	Previous year
+2464	Năm sau	Next year
+2465	Hôm nay	Today
+2466	Hoàn nguyên	Revert
+2467	Hôm nay	Today
+2468	Tháng sau	Next month
+2469	Tháng trước	Previous month
+2470	Năm sau	Next year
+2471	Năm trước	Previous year
+2472	Hoàn nguyên	Revert
+2773	Không thể mở WININET! Yêu cầu có Microsoft IE!	Cannot open WININET! Microsoft IE required!
+2774	Không thể mở tệp!	Unable to open file!
+2775	Không tìm thấy tệp %s!	File %s could not be found!
+2776	Không thể cấp phát bộ nhớ cho nguồn XML!	Unable to allocate memory for XML source!
+2777	Yêu cầu đọc HTTP thất bại!	HTTP read request failed!
+2778	Không có dữ liệu HTTP!	HTTP data not available!
+2779	Không thể gửi yêu cầu HTTP!	Unable to send HTTP request!
+2780	Không thể mở yêu cầu HTTP!	Unable to open HTTP request!
+2781	Không thể kết nối Internet!	Unable to make Internet connection!
+2782	Không thể mở Internet!	Unable to open Internet!
+2783	Vị trí FTP không hợp lệ!	Invalid FTP location!
+2784	Thư mục FTP không hợp lệ!	Invalid FTP directory!
+2785	Yêu cầu đọc FTP thất bại!	FTP read request failed!
+2786	Không có dữ liệu FTP!	FTP data not available!
+2787	Không thể mở tệp FTP!	Unable to open FTP file!
+2788	Không thể lưu tệp qua FTP tới %s	Could not save file via FTP to %s
+2789	Không thể tải nguồn!	Unable to load source!
+2790	Con trỏ bộ nhớ không hợp lệ!	Invalid memory pointer!
+2791	Dòng: %d Cột: %d Lỗi: %s !	Line: %d Col: %d Error: %s !
+2792	LỖI CHỈ SỐ VƯỢT GIỚI HẠN!	ERROR INDEX OUT OF BOUNDS!
+2793	Dự kiến khai báo đánh dấu, nhưng tìm thấy:	Expected markup declaration, but found:
+2794	Loại thuộc tính bất hợp pháp:	Illegal attribute type:
+2795	Từ khóa bất hợp pháp cho giá trị mặc định thuộc tính:	Illegal keyword for attribute default value:
+2796	Thiếu mã định danh hệ thống!	System identifier missing!
+2797	Thiếu bộ điều chỉnh bên ngoài:	External modifier missing:
+2798	Phần có điều kiện phải bắt đầu bằng INCLUDE hoặc IGNORE	Conditional section must begin with INCLUDE or IGNORE
+2799	Dấu phân cách xấu trong mô hình nội dung:	Bad separator in content model:
+2800	Dự kiến mục bình luận hoặc CDATA!	Expected comment or CDATA section!
+2801	Kết thúc tệp bất ngờ!	Unexpected end of file!
+2802	Thẻ kết thúc không khớp:	Mismatched end tag:
+2803	Ký tự bất hợp pháp trong tham chiếu!	Illegal character in reference!
+2804	Tham chiếu đến thực thể chưa khai báo:	Reference to undeclared entity:
+2805	Dự kiến Chuỗi:	Expected String:
+2806	Dự kiến khoảng trắng tại byte!	Whitespace expected at byte!
+2807	Kết thúc đầu vào khi tìm dấu phân cách:	End of input while looking for delimiter:
+2808	"Dự kiến "" hoặc '"	"Expected "" or '"
+2809	XMLPartner không hỗ trợ đặc tả XML lớn hơn %s	XMLPartner does not support XML specification greater than %s
+2810	Không thể tạo luồng cho đầu vào!	Unable to create stream for input!
+2811	Tên XML không hợp lệ:	Invalid XML name:
+2812	Văn bản bình luận không hợp lệ!	Invalid comment text!
+2813	Tài liệu không thể bắt đầu bằng bình luận nếu có khai báo XML!	Document cannot start with a comment if it also contains an XML declaration!
+2814	Ký tự không hợp lệ trong mục CDATA	Invalid characters in CDATA section
+2815	Thuộc tính không thể được định nghĩa lại trong thẻ mở!	Attributes cannot be redefined in a start tag!
+2816	Tham chiếu vòng lặp tới:	Circular reference to:
+2817	Ký tự không hợp lệ trong giá trị thuộc tính:	Invalid character in attribute value:
+2818	Ký tự không hợp lệ trong dữ liệu ký tự của phần tử:	Invalid characters in element's character data:
+2820	Mục có điều kiện không được phép trong tập hợp con nội bộ của khai báo loại tài liệu!	Conditional sections not allowed in internal subset of document type declaration!
+2821	Ký hiệu chưa được khai báo:	Notation not declared:
+2822	Ký tự ID công khai không hợp lệ:	Invalid public id character:
+2823	NDATA không được phép trong khai báo thực thể tham số	NDATA not allowed in parameter entity declaration
+2824	Giá trị độc lập phải bằng 'yes' hoặc 'no'	Stand alone value must equal 'yes' or 'no'
+2825	Khai báo mã hóa không hợp lệ:	Invalid encoding declaration:
+2826	Số phiên bản XML không hợp lệ:	Invalid XML version number:
+2827	Ký tự không hợp lệ trong giá trị thực thể:	Invalid character in entity value:
+2828	Bình luận không thể đặt trong đánh dấu khác!	Comments cannot be placed within other markup!
+2829	Có dữ liệu không hợp lệ sau tài liệu XML hợp lệ!	There is invalid data after valid XML document!
+2830	Khai báo XML phải xuất hiện trước phần tử đầu tiên!	The XML declaration must appear before the first element!
+2831	Tên phần tử không hợp lệ:	Invalid element name:
+2832	Văn bản thực thể tham số phải được lồng nhau đúng cách:	Parameter-entity text must be properly nested:
+2833	Mã hóa ký tự được chỉ định không hợp lệ!	Invalid character encoding specified!
+2834	Thuộc tính %s của phần tử %s không có giá trị số nguyên!	Attribute %s of element %s does not have an integer value!
+2835	Bộ chỉ định trục không xác định: %s	Unknown axis specifier: %s
+2836	Phát hiện Ký tự XML không hợp lệ!	Invalid XML Character found!
+2837	Mã hóa ký tự UTF-16 (big-endian) không hợp lệ!	Invalid (big-endian) UTF-16 character encoding!
+2838	Mã hóa ký tự UTF-16 (little-endian) không hợp lệ!	Invalid (little-endian) UTF-16 character encoding!
+2839	Ký tự UTF-8 bị định dạng sai trong luồng!	Badly formed UTF-8 character in stream!
+2840	Kết thúc luồng tài liệu bất ngờ!	Unexpected end of document stream!
+2841	Không thể chuyển đổi ký tự UCS-4 sang ISO-8859-1!	Cannot convert UCS-4 character to ISO-8859-1!
+2842	Không thể chuyển đổi ký tự UCS-4 sang UTF-16!	Cannot convert UCS-4 character to UTF-16!
+2843	Không thể chuyển đổi ký tự UCS-4 sang UTF-8!	Cannot convert UCS-4 character to UTF-8!
+2844	Ngoài phạm vi!	Out of range!
+2845	không được hỗ trợ!	not supported!
+2846	Vui lòng cung cấp tên phần tử!	Please supply an element name!
+2847	Tên định dạng không được để trống!	Format name cannot be blank!
+2848	Bộ điều khiển In không thuộc sở hữu của TVpControlLink!	Print controller is not owned by a TVpControlLink!
+2849	Định dạng In không hợp lệ!	Invalid Print format!
+2850	Loại mục không hợp lệ!	Invalid item type!
+2851	Phép đo không hợp lệ!	Invalid measurement!
+2852	Chủ sở hữu phải là hậu duệ của TWinControl!	Owner must be a TWinControl descendent!
+2853	Thành phần phải được liên kết với TVpControlLink!	Component must be linked to a TVpControlLink!
+2854	Chưa có định dạng in nào được xác định!	No print formats have been defined!
+2855	TCanvas chưa được gán!	TCanvas not assigned!
+2856	Không tìm thấy tệp bản địa hóa!	Localisation file not found!
+2857	Cuộc hẹn	Appointment
+2858	Hóa đơn lặp lại	Repeating invoices
+2859	Cuộc hẹn khách nợ	Debtor appointment
+2860	Cuộc hẹn chủ nợ (NCC)	Creditor appointment
+2861	Danh mục 4	Category 4
+2862	Danh mục 5	Category 5
+2863	Danh mục 6	Category 6
+2864	Danh mục 7	Category 7
+2865	Danh mục 8	Category 8
+2866	Danh mục 9	Category 9
+2867	Chỉnh sửa định dạng in...	Edit print formats...
+2868	Chưa có tài nguyên nào được định nghĩa! Bạn có muốn thêm bây giờ không?	No resources have been defined! Would you like to add one now?
+2869	Chưa có tài nguyên nào được chọn! Bạn có muốn chọn bây giờ không?	No resource has been selected! Would you like to select one now?
+2870	Cột bộ lọc	Filter column
+2871	Giá trị	Value
+2872	Hiển thị	Display
+2873	Đồng hồ	Clock
+2874	Lịch trình	Agenda
+2875	Nhiệm vụ	Tasks
+2876	Liên hệ	Contacts
+2877	Sự kiện đã tải	Loaded events
+2878	# Ngày hiển thị	# Display days
+2879	Lịch	Calendar
+2880	Vui lòng lưu HĐ lặp lại này trước! Sau khi mở lại, bạn có thể thêm KH vào HĐ.	Please save this repeating invoice first! After reopening you can add clients to the invoice.
+2881	Bạn có muốn xóa %s này không?	Do you wish to delete this %s?
+2882	Bạn có muốn xóa tất cả %s này không?	Do you wish to delete all %s?
+2883	Hóa đơn lặp lại	Repeating invoice
+2884	Ngày Hóa đơn	Invoice date
+2885	Xử lý tất cả	Process all
+2886	Xử lý danh sách	Process list
+2887	Xử lý đã chọn	Process selected
+2888	&Mới	&New
+2889	&Chỉnh sửa	&Edit
+2890	&Chính	&Main
+2891	&Điện thoại	&Telephone
+2892	&Ghi chú	&Notes
+2893	Số tiền đến hạn	Due amount
+2894	Đã tạo Tài liệu!	Document(s) created!
+2895	Ngày đến hạn nhỏ hơn ngày tài liệu!	Due date is lower then document date!
+2896	Thu tiền tự động	Automatic receipts
+2897	Vui lòng nhập tên cho Bộ Sổ Sách!	Please enter a name for the Set of Books!
+2898	Cập nhật TK ngân hàng	Update bank account
+2899	Tra cứu tài liệu	Lookup document
+2900	Tra cứu tài liệu kèm số tiền	Lookup document with amount
+2901	Tra cứu khách nợ	Lookup debtor
+2902	Tra cứu chủ nợ	Lookup creditor
+2903	Đã tìm thấy TK ngân hàng! Bạn có muốn cập nhật không?	There was already a bank account found! Do you wish to update this?
+2904	Báo cáo số tiền với	Report amounts with
+2905	Lưu trữ dữ liệu	Data storage
+2906	Tốc độ	Speed
+2907	Cài đặt đặc biệt	Special settings
+2908	Số thập phân báo cáo	Reporting decimals
+2909	Sổ cái mục mở	Open item ledgers
+2910	Không dùng Reportman	Do not use Reportman
+2911	Số thực	Real numbers
+2912	Số thập phân cố định	Fixed decimals
+2913	<> cho Có	<>  for Credit
+2914	+/- cho Nợ/Có	+/-  for Debit/Credit
+2915	N/C cho Nợ/Có	D/C for Debit/Credit
+2916	Hiển thị lịch	Show calandar
+2917	Không cảnh báo chưa ghi sổ	No warning unposted
+2918	Dùng ngày hiện tại cho BC	Use current date for reports
+2919	Mô tả bổ sung	Extra description
+2920	BOM (Định mức nguyên liệu)	BOM
+2921	Bán hàng (không tồn kho)	Sales (no stock)
+2922	Mua hàng (không tồn kho)	Purchase (no stock)
+2923	Danh sách BOM	BOM list
+2924	Sao chép từ mặt hàng	Copy from item
+2925	Không tính toán sổ nhật ký	Do not calculate journals
+2926	Số lượng tài liệu	Document quantity
+2927	Tự động sao chép thông tin	Auto-copy info
+2928	Dùng TK mặc định	Use default account
+2929	TK mặc định	Default account
+2930	Không đặt hàng bổ sung	No backorder
+2931	Không thể bán khi hết hàng	Cannot sell out of stock
+2932	Không in xác nhận	No print confirmation
+2933	Kiểm tra tham chiếu đã dùng	Check reference used
+2934	Không thể tạo mặt hàng	Cannot create items
+2935	Màn hình cột	Pole display
+2936	Màn hình cột đã kết nối	Pole display connected
+2937	Bạn có thấy cái này không ??	Can you see this ??
+2938	Màn hình cột POS mặc định	Default POS Pole
+2939	Màn hình cột POS 2 X 20 ký tự	2 X 20 chars POS Pole
+2940	Cân điện tử	Weight dish
+2941	Cân điện tử đã kết nối	Weight dish connected
+2942	Giá trị trả về từ cân điện tử	Return value from weight dish
+2943	Kiểm tra	Test
+2945	Chuyển đổi nhanh nhân viên bán hàng	Fast switch salesperson
+2946	Làm tròn tổng tiền POS	Round POS end amount
+2947	Hiện SL tồn kho	Show qty on hand
+2948	Mật khẩu chiết khấu	Discount password
+2949	Dùng mật khẩu cho chiết khấu	Use password for discount
+2950	Dùng giá bán khách nợ	Use debtor selling price
+2951	Ngăn kéo	Drawer
+2952	Thao tác này sẽ xóa đăng ký hiện tại và mở biểu mẫu đăng ký! Bạn có muốn hủy không?	This will remove your current registration and open the enter registration form! Do you want to cancel?
+2953	In mã vạch	Print bacodes
+2954	Đổi TK	Change account
+2956	Sao lưu BC	Backup reports
+2957	Tạo thư mục Reportman	Generate Reportman directories
+2958	Hủy liên kết giao dịch	Unlink transaction
+2959	Nhận thanh toán	Receive payment
+2960	In lại giao dịch	Reprint transactions
+2961	Nhập số tiền liên kết	Enter amount to link
+2962	Triệt tiêu mục mở	Suppress open item
+2963	Nhớ bao gồm thuế	Remember inclusive
+2964	Đã in	Printed
+2965	Chọn thư mục sao lưu	Select backup directory
+2966	Mẫu	Sample
+2967	Dùng bộ lọc	Use filter
+2968	Nhận dạng máy chủ thư đi (SMTP)	Outgoing mail server identification (SMTP)
+2969	Văn bản mặc định	Default text
+2970	Vui lòng nhập danh sách của bạn	Please enter your list
+2971	Danh sách của bạn có dấu phẩy phân cách	Your list with comma separation
+2972	Chọn từ danh sách phân cách	Select from delimited list
+2973	Ẩn mục menu đã tắt	Hide disabled menu items
+2974	Ghi sổ tài liệu	Document posting
+2975	Liên kết với nhân viên bán hàng	Link to salesperson
+2976	Chỉnh sửa số lượng	Edit quantity
+2977	Chọn thư mục Bộ Sổ Sách mới	Select new Set of Books directory
+2978	Sửa lỗi đã biết	Known bug fix
+2979	Chỉ số dư đầu kỳ	Opening balances only
+2980	Hiển thị ngân sách	Show budget
+2981	Hiện tất cả mặt hàng tồn kho	Show all stock items
+2982	Thêm chưa ghi sổ	Add unposted
+2983	Báo giá / Đơn hàng	Quotes / Orders
+2984	Giá đã bao gồm thuế	Price inclusive
+2985	Hiện số lượng tồn kho bằng không	Show zero stock count
+2986	Hiện tất cả nhân viên bán hàng	Show all salespersons
+2987	Hiện số HĐ	Show invoice no.
+2988	BC quyết toán tiền mặt	Cash-up report
+2989	BC bán hàng	Sales report
+2990	In khung	Print frames
+2991	In logo	Print logo
+2992	Không ghi sổ tài liệu	No document posting
+2993	Giới hạn tùy chỉnh	Custom limitation
+2994	Ẩn	Hide
+2995	Tắt	Disable
+2996	Hiện	Show
+2997	Bật	Enable
+2998	Sao chép	Replication
+2999	Sổ nhật ký mở	Open journals
+3000	Chỉ tải lên	Upload only
+3001	Chỉ tải xuống	Download only
+3002	Đang tạo thư mục...	Creating directory...
+3003	Đang sao chép Bộ Sổ Sách...	Copying Set of Books...
+3004	Sao chép từ Bộ Sổ Sách	Copy from a Set of Books
+3005	của	of
+3006	Đã bắt đầu chuyển tới	Transfer started to
+3007	Chỉ TK này	Only this account
+3008	Đã mở năm mới thành công!	A new year has been opened succesfully!
+3009	Đang chuyển tổng cộng...	Moving totals...
+3010	Tham chiếu đã được dùng trong tài liệu khác! Vui lòng kiểm tra trùng lặp đầu vào!	The reference has been used in a other document! Please check your input for duplicates!
+3011	Tất cả tài liệu	All documents
+3012	Tất cả các năm	All years
+3013	Số dư NH theo sao kê NH	Bank balance as per bank statement
+3014	BC đối chiếu NH tính đến	Bank reconciliation report as at
+3015	Số dư NH đã đối chiếu	Reconciled bank balance
+3016	Số dư NH theo <@APPNAME@> tại	Bank balance according to <@APPNAME@> at
+3017	Chênh lệch	Difference
+3018	Cảnh báo - BC này chứa sổ nhật ký chưa ghi sổ!	Warning - This report contains unposted journals!
+3019	Hiện số lượng tồn kho bằng không	Show zero stock count
+3020	Chuyển HĐ thành đơn hàng	Convert invoice to order
+3021	Sao chép tài liệu	Copy document
+3022	Đặt nhóm báo cáo 1	Set reporting group 1
+3023	Đặt nhóm báo cáo 2	Set reporting group 2
+3024	Mở đơn hàng osCommerce trong trình duyệt	Open osCommerce order in browser
+3025	Mở KH osCommerce trong trình duyệt	Open osCommerce customer in browser
+3026	Tên ngân hàng	Bank name
+3027	Dùng thuế mặc định	Use default tax
+3028	TK thuế mặc định	Default tax account
+3029	Tên	First name
+3030	Kết nối CSDL từ xa	Connect to remote database
+3031	Chế độ bao gồm thuế	Inclusive mode
+3032	Chế độ một dòng	Single line mode
+3033	Tự động tạo bí danh	Auto-alias
+3034	Nhớ bao gồm thuế	Remember inclusive
+3035	Dùng thuế liên kết	Use link tax
+3036	Thuế liên kết	Link tax
+3037	Thuế đối ứng	Contra tax
+3038	TK mục mở	Open item account
+3039	Tùy chọn BC POS	POS report options
+3040	Dùng ngày tài liệu	Use document date
+3041	Tham chiếu đối ứng làm tham chiếu TK	Contra ref. as account ref.
+3042	Tự động làm mới	Auto refresh
+3043	Khoảng (giây)	Interval (sec.)
+3044	Giới hạn tài liệu SQL	Limit documents SQL
+3045	Tìm kiếm chuỗi	Search for strings
+3046	Tổng phụ	Subtotal
+3047	Nhập số tiền	Amount entry
+3048	Dòng tài liệu	Document row
+3049	Nhập sổ nhật ký đã ghi sổ	Import a posted journal
+3050	Dùng thuế mặc định	Use default tax
+3051	TK bắt đầu bằng	Account starts with
+3052	Mở rộng sau khi làm mới	Expand after refresh
+3053	Dùng thuế liên kết	Use link tax
+3054	Thuế liên kết	Link tax
+3055	Thuế đối ứng	Contra tax
+3056	Làm mới	Refresh
+3057	Mở rộng	Expand
+3058	Thu gọn	Collapse
+3059	Di chuyển sang trái	Move left
+3060	TK con	Sub-accounts
+3061	Tổng ngân sách kỳ	Total period budget
+3062	Đặt ngân sách kỳ	Set period budget
+3063	Danh mục tài chính	Financial categories
+3064	Không phải TK hợp lệ!	Not a valid account!
+3065	Không có quyền người dùng!	No user rights!
+3066	Thiếu trường! Vui lòng kiểm tra tệp nhập!	Field missing! Please check import file!
+3067	Lỗi khi kết ca! Vui lòng thử lại!	Error in closing shift! Please try again!
+3068	Lỗi: Không tìm thấy TK!	Error : No account found!
+3070	Các dòng bình luận Clieop phải được điền!	Clieop comment lines must be filled!
+3071	Bạn cần nhập số TK ngân hàng!	You need to enter a bank account number!
+3072	Hủy nhập!	Abort import!
+3073	Nhóm vẫn còn nhóm con! Vui lòng xóa chúng trước!	Group still has nested groups! Remove them first!
+3074	Vẫn còn TK đang dùng nhóm này! Vui lòng xóa chúng trước! (TK đầu tiên =	There's still accounts using this group! Please remove them first! (First account =
+3075	Vẫn còn tài liệu đang dùng nhóm này! Vui lòng xóa chúng trước!	There's still documents using this group! Please remove them first!
+3076	Vẫn còn hàng tồn kho đang dùng nhóm này! Vui lòng xóa chúng trước!	There's still stock using this group! Please remove them first!
+3077	Chưa gán kết nối!	No connection assigned!
+3078	Mã TK đã tồn tại!	Account code already exists!
+3079	Đã tạo Báo giá!	Quote(s) generated!
+3080	Bạn có muốn ghi sổ vào TK lợi nhuận giữ lại không?	Do you wish to post on the retained earnings account?
+3081	Đặt lại tồn kho?	Reset stock?
+3082	Định dạng tệp nhập chưa được triển khai!	Import file format not implemented!
+3083	Mặt hàng này đã hết hàng! Tự động điều chỉnh số lượng!	This item is out of stock! Auto adjusting quantity!
+3084	Hoàn thành!	Finished!
+3085	Mã trống!	Empty code!
+3086	Mã đã tồn tại!	Code exists!
+3087	Số %s không phải là số chứng từ 11 hợp lệ!	Number %s is not a valid 11 proof number!
+3088	Dùng máy in mã vạch	Use barcode printer
+3089	Chế độ nâng cao	Advanced mode
+3090	Loại cập nhật	Update type
+3091	Cài đặt tồn kho	Setup stock
+3092	Cài đặt nhóm	Setup group
+3093	Ngày giao dịch	Transaction date
+3094	NCC ưu tiên 1	Preferred supplier1
+3095	NCC ưu tiên 2	Preferred supplier2
+3096	Tạo HĐ theo giờ	Create invoices for hours
+3097	Giới hạn tồn kho SQL	Limit stock SQL
+3098	Bao gồm HĐ chưa ghi sổ	Include unposted invoices
+3099	Dự án	Projects
+3100	Bạn đang cố gắng kết nối CSDL từ xa! Phiên bản này không hỗ trợ mặc định! Vui lòng liên hệ https://www.osfinancials.org/ để hỗ trợ dự án và nhận giấy phép đa người dùng!	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!
+3101	Chưa đăng ký	Unregistered
+3102	Đã đăng ký cho	Registered to
+3103	Người dùng đơn	Single user
+3104	Trình phân tích sổ cái	Ledger analyser
+3105	Số sê-ri	Serial number
+3106	Số dư cột	Column balances
+3107	Số dư cột khách nợ	Column balances debtors
+3108	Số dư cột chủ nợ	Column balances creditors
+3109	Tệp bố cục 1	Layout file 1
+3110	Tệp bố cục 2	Layout file 2
+3111	Tệp bố cục 3	Layout file 3
+3112	Ngôn ngữ	Language
+3113	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8
+3114	https://www.osfinancials.org/en/forum-en	https://www.osfinancials.org/en/forum-en
+3115	https://www.osfinancials.org/en/webshop	https://www.osfinancials.org/en/webshop
+3116	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8 
+3117	Phiên bản chưa đăng ký! Vui lòng mua plugin này tại https://www.osfinancials.org/en/webshop và hỗ trợ phát triển <@APPNAME@>.	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.
+3118	Plugin demo này cho phép nhập %s bản ghi. Nếu cần thêm, vui lòng mua sản phẩm tại https://www.osfinancials.org/en/webshop	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop
+3119	https://www.osfinancials.org/	https://www.osfinancials.org/
+3120	Giấy phép thời gian hết hạn trong 1 ngày! Vui lòng truy cập https://www.osfinancials.org/en/webshop	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 
+3121	Giấy phép thời gian hết hạn trong %s ngày! Vui lòng truy cập https://www.osfinancials.org/en/webshop	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 
+3122	Giấy phép thời gian đã hết hạn! Vui lòng truy cập https://www.osfinancials.org/en/webshop	Time license expired! Please visit https://www.osfinancials.org/en/webshop 
+3123	Chào mừng đến với <@APPNAME@>	Welcome to <@APPNAME@>
+3124	Chuyển tiếp	Forward
+3125	Tự động mở khi khởi động <@APPNAME@>	Auto-open when starting <@APPNAME@>
+3126	Chuyển đổi <@APPNAME@> sang phiên bản này	Convert <@APPNAME@> to this version
+3127	Khối lượng tịnh	Net weight
+3128	Tổng khối lượng	Gross weight
+3129	Đặt hàng lại ở mức	Reorder at
+3130	Tối thiểu	Minimum
+3131	Mức đặt hàng lại - mặt hàng sẽ được đặt hàng lại cho đến số lượng này!	Reorder level - your items will be reordered until this quantity!
+3132	Nếu tồn kho dưới mức này, hệ thống sẽ đặt hàng lại cho đến số lượng đặt hàng lại!	If your stock goes below this, then the system will reorder until the reorder quantity!
+3133	Nếu bạn muốn giữ lại một số hàng cho bán hàng, trường này sẽ được khấu trừ khỏi mức tồn kho hiện tại trong báo giá!	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!
+3134	Ngôn ngữ	Languages
+3135	Ngôn ngữ	Language
+3136	Đa nhóm	Multi-group
+3137	Chọn hình ảnh	Select image
+3138	Xóa hình ảnh	Delete image
+3139	Hiện tại: %s Báo giá: %s Đơn hàng: %s Dự kiến: %s	Cur : %s Quote : %s Order : %s Exp : %s
+3140	Số lượng dự kiến	Expected quantity
+3141	Nhà sản xuất	Manufacturer
+3142	Mặt hàng tùy chọn	Option item
+3143	Mặt hàng tùy chọn (không tồn kho)	Option item (no stock)
+3144	Tùy chọn	Options
+3145	Tạo	Generate
+3146	Tùy chọn đã liên kết	Linked options
+3147	Xem dưới dạng cây	View as tree
+3148	Tên kết hợp	Combination name
+3149	Xóa	Remove
+3150	Giá phụ thêm	Extra price
+3151	Mục nhập tài chính	Financial entry
+3152	Khối lượng	Weight
+3153	Nếu có OpenOffice, bạn có thể chỉnh sửa dưới dạng HTML bằng cách nhấp đúp vào trường văn bản này!	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!
+3154	Tùy chọn	Options
+3155	Cài đặt tùy chọn	Setup options
+3156	Nhấp đúp để vào danh sách tùy chọn.	Double-click to enter the option list.
+3157	Mặc định bao gồm thuế cho tài liệu	Default inclusive for documents
+3158	Chỉ SQL cho tra cứu tồn kho	SQL only for stock lookup
+3159	Gộp HĐ vào đơn hàng	Merge invoice to orders
+3160	Gộp mặt hàng theo thuế trên sổ cái	Merge items per tax on ledger
+3161	Tra cứu bằng nút	Button lookup
+3162	Không thể sửa giá	Cannot edit price
+3163	Không thể sửa mô tả	Cannot edit description
+3164	Chuyển đến số lượng	Go to quantity
+3165	TK ngân hàng	Bank accounts
+3166	Số dư cột N/C	Column balances D/C
+3167	Số dư cột khách nợ N/C	Column balances debtors D/C
+3168	Số dư cột chủ nợ N/C	Column balances creditors D/C
+3169	Thuế nghiêm ngặt trên TK	Strict tax on account
+3170	Cảnh báo ghi sổ trên mỗi HĐ	Post warning per invoice
+3171	Xử lý cảnh báo	Process warnings
+3172	Xử lý đăng ký	Process subscriptions
+3173	Gửi e-mail	Send e-mail
+3174	Bố cục tài liệu	Document layout
+3175	Điều khoản hợp đồng không giống nhau!	Contract term not the same!
+3176	Gửi cảnh báo	Send warning
+3177	E-mail tài liệu đã ký	E-mail signed document
+3178	Thuế liên kết	Link tax
+3179	Liên kết ngân hàng	Bank links
+3180	Chỉnh sửa TK	Edit account
+3181	Chuyển thành ghi nợ / trả hàng NCC	Convert to credit note / supplier return
+3182	Mở đơn hàng Thương mại điện tử trong trình duyệt	Open e-Commerce order in browser
+3183	Mở khách hàng Thương mại điện tử trong trình duyệt	Open e-Commerce customer in browser
+3184	Chuyển tài liệu thành một tài liệu duy nhất	Convert documents to single document
+3185	Tạo mua hàng trên NCC mặc định 1	Create purchase on default supplier 1
+3186	Hình ảnh	Image
+3187	Báo cáo lỗi	Bug report
+3188	Trung tâm chi phí	Cost centres
+3189	Đóng các biểu mẫu đang mở	Close active forms
+3190	Hiện / ẩn thanh bên	Show / hide sidebar
+3191	Hiện / ẩn thanh trên cùng	Show / hide topbar
+3192	Chỉ tìm kiếm trong TK	Only look in account for search
+3193	Báo cáo lỗi	Bug report
+3194	Cửa hàng web	Webshop
+3195	Trợ giúp	Help
+3196	Diễn đàn	Forum
+3197	Số dư đầu kỳ - Năm nay	Opening balance - This year
+3198	Giới tính	Gender
+3199	Nam	Male
+3200	Nữ	Female
+3201	Bản tin và mật khẩu	Newsletters and password
+3202	Nguồn giới thiệu	Referral source
+3203	Bản tin	Newsletters
+3204	Xác nhận mật khẩu	Password confirmation
+3205	Chung	General
+3206	Phát hành	Release
+3207	Sửa lỗi	Bug fix
+3208	Ngày cộng đồng	Community day
+3209	Người dùng hiện tại	Existing user
+3210	Bạn đã đăng ký thành công!	You have registered successfully ! 
+3211	Sử dụng	Usage
+3212	Trang web	Website
+3213	Đăng ký lại	Reregister
+3214	Tư vấn viên	Consultant
+3215	Gửi	Send
+3216	Người dùng mới	New user
+3217	Hành động	Action
+3218	Tên người dùng và mật khẩu được dùng để đăng nhập vào diễn đàn và cửa hàng của chúng tôi, không phải cho <@APPNAME@>	Username and password are used to log in to our forum and shop not for <@APPNAME@> self
+3219	E-mail có thể được gửi qua menu ngữ cảnh trong danh sách Tài liệu.	E-mail can be sent via the context menu in the Document list.
+3220	Mẫu thư	Mail template
+3221	Chọn bố cục	Select layout
+3222	Chọn mẫu	Select template
+3223	Tên BC	Report name
+3224	Thư mục gốc khách nợ/chủ nợ	Base folder debtor/creditor
+3225	Thư mục gốc	Base folder
+3226	E-mail kiểm tra	Test e-mail
+3227	Gửi e-mail	Send e-mail(s)
+3228	Tiếp tục gửi e-mail	Resume e-mail(s)
+3229	Dừng gửi e-mail	Stop e-mail(s)
+3230	Đường dẫn đến tệp HTML	Path to the HTML files
+3231	Tên người dùng POP	POP username
+3232	Mật khẩu POP	POP password
+3233	Máy chủ POP	POP server
+3234	Cổng SMTP	SMTP port
+3235	Máy chủ SMTP	SMTP server
+3236	E-mail phản hồi	Return e-mail
+3237	Tên phản hồi	Return name
+3238	Văn bản tiêu đề e-mail	E-mail header text
+3239	Gửi e-mail tối đa	Send max mail
+3240	Ngưỡng hẹn giờ (giây)	Timer threshold in sec.
+3241	Tên người dùng SMTP	SMTP username
+3242	Mật khẩu SMTP	SMTP password
+3243	Ký chứng chỉ	Sign certificate
+3244	Mật khẩu chứng chỉ	Certificate password
+3245	Ký bất kỳ PDF nào	Sign any PDF
+3246	Văn bản tự do	Free text
+3247	Xem trước trong trình duyệt	Preview in browser
+3248	E-mail kiểm tra tới CC bổ sung	Test E-mail to Extra CC
+3249	CC bổ sung	Extra CC
+3250	CC (nhiều địa chỉ, phân cách bằng ;)	CC (multiple separate with ;)
+3251	BCC (nhiều địa chỉ, phân cách bằng ;)	BCC (multiple separate with ;)
+3252	Gửi E-mail	Send E-mail
+3253	Không tìm thấy CC bổ sung! Vui lòng nhập địa chỉ e-mail vào ô bên dưới nút này!	No extra CC found! Please enter an e-mail address in text box below this button!
+3254	Chưa nhập mật khẩu POP!	No POP password entered!
+3255	Đã dừng bởi người dùng!	Stopped by user!
+3256	Bật	On
+3257	Tắt	Off
+3258	Cài đặt E-mail Pro	Setup E-mail Pro
+3259	E-mail Pro	E-mail Pro
+3260	Không có danh mục	No category
+3261	Trường tự do	Freefields
+3262	Đăng ký	Register
+3263	Xóa không hợp lệ	Purge invalid
+3264	Làm lại chiết khấu trên tài liệu	Redo discount on document
+3265	Phần trăm doanh số	Percentage of sale
+3266	BOM (Sản xuất)	BOM (Production)
+3267	Mã tồn kho NCC	Supplier stock code
+3268	NCC ưu tiên	Preferred supplier
+3269	Giá vốn tiếp theo	Next cost price
+3270	Lắp ráp	Assemble
+3271	Tháo rời	Disassemble
+3272	Liên kết TK ngân hàng từ nhập khẩu đến các TK	Link bank account from import to accounts
+3273	Liên kết tất cả bản ghi với TK ngân hàng hiện tại	Link all records with current account bank accounts
+3274	Chọn từ danh sách mục mở TK	Select from account open item list
+3275	Hiện tham chiếu cho TK	Show references for account
+3276	Chức năng liên kết bổ sung nhập khẩu NH. Nhập TK ngân hàng để khớp chính xác trên TK. Nhập văn bản có tiền tố # để tìm kiếm bên trong một dòng ngân hàng đã nhập xem liệu văn bản có nằm trong chuỗi đó không. Văn bản sẽ được tìm kiếm ở dạng chữ hoa.	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside an imported bank line to see if the text is in that string. Text will be searched in the uppercase.
+3277	Tham chiếu ngân hàng TK	Account bank references
+3278	Số TK Ngân hàng Chuẩn	Std Bank account no.
+3279	Ngày giao hàng	Delivery date
+3280	Kiểm tra	Check
+3281	Hành động hàng loạt plugin	Plugin mass action
+3282	Hành động plugin	Plugin action
+3283	Thêm nhanh mặt hàng (mã/mã vạch/sê-ri)	Fast add item (code/barcode/serial)
+3284	Nhập tổng	Enter total
+3285	Tính toán lại cơ sở	Recalculate base
+3286	Giá vốn	Cost price
+3287	Giá bán	Selling price
+3288	Tính toán lại % bán hàng	Recalculate sales %
+3289	Sao chép từ plugin	Copy from plugin
+3290	Dán vào plugin	Paste to plugin
+3291	Sao chép từ / khởi tạo	Copy from / init
+3292	Dán vào / thực hiện	Paste to / perform
+3293	Sao chép	Copy
+3294	Hiện thuế trong tài liệu	Show tax in documents
+3295	Bán hàng/Ghi nợ	Sales/Debit
+3296	Mua hàng/Ghi có	Purchase/Credit
+3297	Ẩn thuế này	Hide this tax
+3298	Tất cả	All
+3299	Không có thông báo hết hàng	No out of stock message
+3300	Dùng màu cho hàng hết kho	Use colours for out of stock
+3301	Tính tồn kho ĐMNL	Calculate BOM stock
+3302	Giới hạn mua hàng chỉ cho NCC mặc định hoặc không	Limit stock purchase only for default supplier or non
+3303	Chào mừng	Welcome
+3304	Hóa đơn mới	New invoice
+3305	Đã lưu dữ liệu	Data saved
+3306	Tách hóa đơn	Split bill
+3307	Đã lưu dữ liệu	Data saved
+3308	Mở lại hóa đơn	Reopen invoice
+3309	+Mở thêm nhanh	+Open fast add
+3310	-Đóng thêm nhanh	-Close fast add
+3311	Tạo đơn mua hàng trên NCC mặc định 1	Create purchase on default supplier 1
+3312	Không có NCC mặc định 1 cho các mặt hàng tồn kho này! Vui lòng sửa trước!	No default supplier 1 for these stock items! Please correct first!
+3313	Tháng	Months
+3314	Theo kỳ	Per period
+3315	Lựa chọn tự do	Free selection
+3316	Số giờ giữa các ngày	Hours between date
+3317	Tính lại giá bán	Recalculate selling price
+3318	TTCP mặc định	Default cost centre
+3319	TTCP	Cost centre
+3320	Lưu chứng từ chưa lưu này?	Save this unsaved document?
+3321	Mã, mô tả và mô tả bổ sung	Code, description and extra description
+3322	Nhập tổng cộng gộp thuế mới	Enter new inclusive total
+3323	Tạo đơn hàng tồn để giao	Create backorders to deliver
+3324	Chỉ các mặt hàng mới (không điều chỉnh)	Only new items (no adjust)
+3325	<- Đặt mục đã chọn thành giá này	<- Set selected to this price
+3326	Mục mở	Open item
+3327	Ghi chú Clieop	Clieop comment
+3328	Thành phố	City
+3329	Tiền tệ	Cur
+3330	Báo giá	Quote
+3331	P	P
+3332	LP	LP
+3333	Đơn hàng	Order
+3334	Exp	Exp
+3335	Cấp độ nhật ký	Log level
+3336	Số sổ nhật ký tiếp theo	Next journal no.
+3337	Màu nền	Back colour
+3338	Màu chữ	Font colour
+3339	Liên kết hình ảnh	Link image
+3340	Xóa hình ảnh	Clear image
+3341	Khởi tạo tất cả bản dịch và plugin	Init all translations and plugins
+3342	Hiển thị màu sắc	Show colours
+3343	Tìm mục không hợp lệ	Find invalid
+3344	Điều chỉnh ngày thanh toán	Adjust payment date
+3345	Gộp dòng và sử dụng thuế sẽ làm sai báo cáo thuế của bạn! Vui lòng đảm bảo bạn không sử dụng thuế hoặc không gộp dòng!	Consolidating lines and using tax will mess up your tax report! Please make sure you do not use tax or do not consolidate lines!
+3346	Dưới dạng tệp PDF	As PDF file
+3347	Khung thời gian	Timeslot
+3348	Hiển thị khi khởi động	Show at startup
+3349	Có chứng từ liên quan đến dự án này! Bạn có muốn tiếp tục không? Tất cả dữ liệu dự án sẽ bị mất!	There is document(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3350	Có giao dịch liên quan đến dự án này! Bạn có muốn tiếp tục không? Tất cả dữ liệu dự án sẽ bị mất!	There is transaction(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3351	Có chứng từ chưa ghi sổ! Bạn không thể đóng dự án này!	There are unposted documents! You cannot close this project!
+3352	TK Doanh thu, Mua hàng, Giá vốn và Thuế	Sales, Purchase, Cost of sales and Tax accounts
+3353	Chỉ giao dịch mở	Open transactions only
+3354	Xóa liên kết lỗi	Remove fault links
+3355	Chuyển giao dịch	Transfer transactions
+3356	Nhập dữ liệu lương	Payroll import
+3357	Lựa chọn tự do	Free selection
+3358	Thanh toán tự động	AutoPayment
+3359	Máy in mã vạch	Barcode printer
+3360	Máy in nhãn	Label printer
+3361	Sử dụng nhiều máy in	Use multi printers
+3362	Thay đổi ghi chú	Change remark
+3363	Vui lòng nhập ghi chú thay đổi	Please enter change remark
+3364	Chưa nhập ghi chú, quá trình bị hủy bỏ!	No remark entered, process aborted!
+3365	SL tồn kho đã bị thay đổi! Bạn có muốn giữ lại dữ liệu CSDL hiện tại không?	Stock quantity has been changed! Do you want to retain the current database data?
+3366	Điều chỉnh thủ công	Manual adjust
+3367	Tiếp tục hành động %s ?	Continue action %s ?
+3368	Số dư cột tiêu chuẩn	Standard column balances
+3369	Dữ liệu của chứng từ này đã được thay đổi bởi người dùng khác hoặc màn hình nhập. %s Bạn có muốn ghi đè dữ liệu không?	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 
+3370	Người dùng thoát!	User exit!
+3371	Nếu bạn muốn xóa (gỡ bỏ) tất cả chứng từ, nhấp [Có]. Nếu bạn muốn giữ lại tất cả chứng từ và đặt chúng thành chưa ghi sổ, nhấp [Không].	If you wish to clear (remove) all documents, click [Yes]. If you wish to retain all documents and set them to unposted, click [No].
+3372	Ngân sách so với thực tế	Budget vs actual
+3373	Năm nay so với năm trước	This year vs last year
+3374	Công cụ	Tools
+3375	Liên kết hệ thống bên ngoài	External system links
+3376	Công cụ tài chính	Financial tools
+3377	Plugin chung	Generic plugins
+3378	Trường tự do	Freefields
+3379	Đa phương tiện	Multimedia
+3380	Thỏa thuận giá	Price agreement
+3381	Kiểm tra tồn kho	StockCheck
+3382	Đặt hàng nhanh	QuickOrder
+3383	Thương mại điện tử	E-commerce
+3384	Tài sản cố định	Activa
+3385	Văn phòng	Office
+3386	Trình duyệt SQL	Sql Browser
+3387	Truy sâu dữ liệu	DrillDown
+3388	Tệp kiểm toán XML	Xml Audit File
+3389	Màn hình POS	POS Display
+3390	Gửi gói hàng	Send Package
+3391	Đăng ký	Subscriptions
+3392	Xuất Web	Web Export
+3393	KH bị giữ lại	Customer on hold
+3394	E-mail Ch. từ Chuyên nghiệp	Document E-mail Pro
+3395	POS HORECA	HORECA POS
+3396	POS BÁN LẺ	RETAIL POS
+3397	Điều lệ	Charter
+3398	Vị trí-Serials-Lô hàng	Location-Serials-Batches
+3400	Chuyển tiền	Remittance
+3401	Reportman	Reportman
+3402	Công cụ tiện ích (Chỉ dành cho người dùng nâng cao)	HandyTools (Advanced users only)
+3403	Đăng ký Plugin	Register plugins
+3404	Xuất / Nhập	Export / Import
+3405	Plugin Tồn kho	Stock plugins
+3406	Plugin Chứng từ	Document plugins
+3407	Riêng biệt cho Chi nhánh	Branch Specific
+3408	Plugin trường dạy lái xe	Driving school plugin
+3409	Tra cứu Mã bưu chính / Mã số thuế / Số ĐKKD	Postal code / tax id / reg. no. lookup
+3410	Plugin Thuế Hà Lan	Dutch Tax plugin
+3411	Mã PIN CCV	CCV PIN
+3412	Điểm POS	POS Points
+3413	Đăng nhập Kiểm soát viên	Controller Login
+3414	Lịch đa người dùng	Multi-user Agenda
+3415	Bán gỗ	Woodsales
+3416	Xuất nhập Chứng từ	Document Export Import
+3417	Promeetec	Promeetec
+3418	Danh sách tải Plugin	Plugin load list
+3419	Kích hoạt Plugin	Activate plugin
+3420	Hủy kích hoạt Plugin	Deactivate plugin
+3421	Sử dụng tab trong kho	Use tabs in stock
+3422	Bạn chưa đăng ký để đăng bài trên diễn đàn của chúng tôi! Bạn cần đăng ký <@APPNAME@> để sử dụng tên người dùng và mật khẩu đó để đăng nhập vào diễn đàn hoặc cửa hàng của chúng tôi.	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.
+3423	Sao chép đến	Copy to
+3424	Xóa không cục bộ (Sổ sách PC này không tìm thấy)	Delete not local (Books this PC cannot find)
+3425	In lại phiếu	Reprint ticket
+3426	Thuê / Đặt chỗ	Rental / Reservations
+3427	Tính phút	Calculate minutes
+3428	Phút không hoạt động	Minutes inactive
+3429	% CK Tiêu chuẩn	Std disc%
+3430	ID Chứng từ	Document id
+3431	Đăng nhập Cửa hàng Web/Diễn đàn và Thư tin	Webshop/Forum Login and Newsletters
+3432	Trạng thái bước	Step status
+3433	Xử lý	Process
+3434	Ngày hành động cuối	Date last action
+3435	Tên bước	Step name
+3436	Thời gian đã sử dụng	Used time
+3437	Xem đã đóng	View closed
+3438	Tờ khai thuế Bỉ	Belgium Tax Returns
+3439	Nhập lại mật khẩu	Retype password
+3440	Chi nhánh	Branches
+3441	Tên Đội	Teams name
+3442	Đặt lại mật khẩu (Gửi E-mail mật khẩu mới cho bạn)	Reset password (E-mail new password to you)
+3443	Mở Cửa hàng Web	Open webshop
+3444	Thay đổi mật khẩu	Change password
+3445	Vui lòng đăng ký <@APPNAME@> trước!	Please register <@APPNAME@> first!
+3446	Để đăng ký plugin, bạn cần đăng ký <@APPNAME@> trước!	To register plugins, you need to register <@APPNAME@> first!
+3447	Giấy phép thời gian	Time license
+3448	Tổng hiện tại	Current total
+3449	Chưa sử dụng điểm nào! Vui lòng sử dụng điểm hoặc đóng cửa sổ!	No points used! Please use points or close window!
+3450	Sử dụng điểm	Use points
+3451	Điểm hiện tại	Current points
+3452	Điểm sẽ sử dụng	Points to use
+3453	Chênh lệch Sổ cái chung	General ledger differences
+3454	Ký hiệu	Symbol
+3455	Tỷ giá	Rate
+3465	Lớp thuế	Tax classes
+3466	Lớp thuế	Tax class
+3467	Buộc kiểm tra loại tồn kho	Force stock type check
+3468	Nhóm chi phí mặc định	Default cost group
+3469	Cài đặt Workflow	Workflow setup
+3470	Tiền tệ	Currencies
+3471	Tôi đã đọc hướng dẫn này, và tôi hiểu hành động này!	I have read this instruction, and I understand the action!
+3472	Chiết khấu thanh toán	Payment discount
+3473	Chênh lệch thanh toán	Payment difference
+3474	Tự động xử lý	Auto process
+3475	Đồng bộ hóa Outlook	Outlook sync
+3476	Đồng bộ hóa với <@APPNAME@>	Sync to <@APPNAME@>
+3477	Từ <@APPNAME@> đến Outlook	From <@APPNAME@> to Outlook
+3478	Đồng bộ hóa E-mail	Sync E-mail
+3479	Liên kết E-mail	E-mail link
+3480	Bộ đồng bộ hóa Outlook	Outlook syncroniser
+3481	Liên kết Chứng từ	Document links
+3482	Liên kết từ	Links from
+3483	Liên kết đến	Links to
+3484	Liên kết	Link
+3485	Tôi đang ở đâu?	Where am I?
+3486	Gợi ý bước	Step hint
+3487	Quyền	Rights
+3488	Thêm bước	Add step
+3489	Sửa bước	Edit step
+3490	Xóa bước	Delete step
+3491	Chuyển đổi	Transition
+3492	Tạo chuyển đổi	Create transition
+3493	Thời lượng	Duration
+3494	Năm	Years
+3495	Văn bản trạng thái	Status text
+3496	Loại màn hình	Screen type
+3497	Tên bước	Step name
+3498	Dữ liệu bước	Step data
+3499	Bạn vẫn còn màn hình chi tiết đang mở! Nhấp [Hủy] hoặc [Lưu] để đóng!	You still have a detail screen open! Click [Cancel] or [Save] to close!
+3500	Thêm chuyển đổi	Add transition
+3501	Điều kiện	Condition
+3502	Ngày xử lý tiếp theo	Next process date
+3503	Giá trị hiện tại	Current value
+3504	Ngày mua	Purchase date
+3505	Loại khấu hao/ghi giảm	Write-off type
+3506	Kỳ khấu hao/ghi giảm	Write-off period
+3507	Giao dịch được liên kết	Linked transaction
+3508	Số dư còn lại	Rest-amount
+3509	Tỷ lệ khấu hao/ghi giảm	Write-off percentage
+3510	Số tiền khấu hao/ghi giảm tiếp theo	Next write-off amount
+3511	Tổng khấu hao/ghi giảm trên sổ cái	Total write-off on ledger
+3512	Cần xử lý	Needs processing
+3513	Giao dịch mới	New transactions
+3514	Thêm thủ công	Add manual
+3515	Giao dịch đã ghi sổ	Posted transactions
+3516	Xử lý các dòng (đã chọn)	Process (selected) lines
+3517	Số tiền mua	Purchase amount
+3518	Tài sản cố định	Activa
+3519	Thêm các dòng (đã chọn)	Add (selected) lines
+3520	Thêm gộp	Add consolidated
+3521	Hiển thị cho người dùng này	Show for this user
+3522	Lựa chọn	Selection
+3523	Điều chỉnh ngày chuyển tiền của mục đã chọn thành :	Adjust remittance date of selection to :
+3524	Không thanh toán tự động	No auto payment
+3525	Với ngày chuyển tiền từ	With a remittance date from
+3526	Các mục mở với ngày thanh toán từ	Open items with pay date from
+3527	Bộ lọc E-mail	E-mail filter
+3528	E-mail mục đã chọn	E-mail selected
+3529	Chỉnh sửa chuyển tiền	Edit remittance
+3530	In tất cả	Print all
+3531	Chỉnh sửa Báo cáo	Edit report
+3532	Hiển thị Báo cáo	Show report
+3533	Số ngày mặc định không chuyển tiền	Default days no remittance
+3534	Cập nhật Đa phương tiện	Update Multimedia
+3535	"Hành động này sẽ điều chỉnh ngày chuyển tiền cuối cùng tại các Khoản phải thu ""đã chọn""! Bạn có muốn tiếp tục không?"	"This action will adjust the last date remittance at the ""selected"" debtors! Do you wish to continue?"
+3536	"Hành động này sẽ điều chỉnh ngày chuyển tiền cuối cùng tại TẤT CẢ các Khoản phải thu ""HIỂN THỊ""! Bạn có muốn tiếp tục không?"	"This action will adjust the last date remittance at the ""ALL VISIBLE"" debtors! Do you wish to continue?"
+3537	Popup nếu có giao dịch	Popup if there are transactions
+3538	Ngày giao dịch cũ nhất	Date oldest transaction
+3539	Ngày chuyển tiền cuối	Date last remittance
+3540	Thiết kế Trường chỉnh sửa	Design edit fields
+3541	Thiết kế Trường tìm kiếm	Design search fields
+3542	SQL tìm kiếm	Search SQL
+3543	Ngôn ngữ tra cứu	Lookup language
+3544	Loại điều khiển	Type of control
+3545	Chiều cao	Height
+3546	Kích thước	Size
+3547	Bản dịch	Translation
+3548	Nguồn cột	Column origin
+3549	Lưu và Xây dựng lại	Save and rebuild
+3550	Sao chép thành mới	Copy as new
+3551	Tạo trên Bảng	Generate on table
+3552	SQL và Dữ liệu bổ sung	SQL and extra data
+3553	Loại trường	Field type
+3554	Giá trị mặc định	Default value
+3555	Khấu hao/Ghi giảm cho %s đã kết thúc, bạn có muốn xóa các TK tài sản cố định không?	Write off for %s ended do you want to clear the activa accounts?
+3556	Dự án	Project
+3557	Tạo bút toán	Create entries
+3558	Đã tạo bút toán!	Entries created!
+3559	Nhập thời gian hàng loạt	Bulk time entry
+3560	Xuất kho	Stock out
+3561	Nhập kho	Stock in
+3562	Giới hạn hàng	Limit rows
+3563	Tab người dùng	User tab
+3564	Tự động học	Auto learn
+3565	Mục chưa liên kết	Unlinked items
+3567	Hiển thị bị vô hiệu hóa	Show disabled
+3568	Báo giá theo kỳ	Quotes per period
+3569	Ghi nợ theo kỳ	Credit notes per period
+3570	Hóa đơn theo kỳ	Invoices per period
+3571	Doanh số theo sản phẩm	Sales per product
+3572	Đơn hàng theo kỳ	Orders per period
+3573	Mua hàng theo kỳ	Purchases per period
+3574	Hàng trả NCC theo kỳ	Supplier returns per period
+3575	Mua hàng theo sản phẩm	Purchases per product
+3576	Báo cáo mới	New report
+3577	Thư mục mới	New folder
+3578	Tạo tham số và mở	Create parameters and open
+3579	Không làm mới sau khi lưu	No refresh after save
+3580	Chọn ID chứng từ kiểm thử	Select test document id
+3581	Thư mục Explorer	Explorer folder
+3582	Sao chép Báo cáo	Copy report
+3583	Lưu bố cục lưới	Save grid layout
+3584	Khách hàng tiềm năng	Leads
+3585	Gắn thẻ hàng loạt	Mass tag
+3586	Thẻ	Tags
+3587	Thêm thẻ	Add tag
+3588	Hoạt động hàng loạt	Mass activity
+3589	CRM	CRM
+3590	Hoạt động	Activities
+3591	Thêm %s vào hồ sơ	Add %s to records
+3592	Bắt đầu đếm giờ	Start timer
+3593	Dừng đếm giờ	Stop timer
+3594	Tất cả TK	All accounts
+3595	Khách hàng tiềm năng	Lead
+3596	Theo dõi	Follow-up
+3597	Hướng	Direction
+3598	Đến	Incoming
+3599	Đi	Outgoing
+3600	Đã xử lý	Handled
+3601	Thực hiện chạy trên	Perform run on
+3602	Liên hệ hàng loạt	Mass contact
+3603	Ma trận thanh toán	Billing matrix
+3604	Số phút thanh toán tối thiểu	Minimum bill minutes
+3605	Tăng số phút thanh toán	Increment bill minutes
+3606	Liên kết chéo	Cross link
+3607	Bỏ qua dòng	Skip lines
+3608	Dấu phân cách	Delimiter
+3609	Định dạng ngày	Date format
+3610	Ký hiệu phân cách ngày	Date separator
+3611	Ký hiệu phân cách thập phân	Decimal separator
+3612	Làm lại	Redo
+3613	Bộ nhập dataset KH tiềm năng	Leads dataset importer
+3614	Tiêu đề trong tệp	Headers in file
+3615	Thanh toán	Billing
+3616	Thanh toán có thể thấy	Bill visible
+3617	Chuyển đổi sang	Convert to
+3618	Xem Dashbord	Dashbord view
+3619	Thời lượng	Duration
+3620	Nhập thủ công bằng phút	Manual input in minutes
+3621	Đã thanh toán	Is billed
+3622	Chuyển đổi	Convert
+3623	Đơn hàng đã được đặt!	Order is placed!
+3624	Chọn hoặc tạo một chứng từ!	Select or create a document!
+3625	Vui lòng thêm mặt hàng vào đơn hàng của bạn!	Please add items to your order!
+3626	Danh sách này hiển thị những gì bạn đã đặt hàng	This list shows what you already ordered
+3627	Danh sách này hiển thị những gì bạn sẽ đặt hàng khi nhấp nút [Đặt hàng]	This list shows what you are going to order when you press the [Order] button
+3628	Chọn một sản phẩm để thêm vào danh sách đặt hàng của bạn	Select a product to add to your order list
+3629	Gộp	Merge
+3630	Tổng quan Bảng	Table overview
+3631	Tất cả Đơn hàng	All orders
+3632	In phiếu	Print ticket
+3633	Ngày đặt chỗ	Date reservation
+3634	Ghi nhớ ngày	Day memo
+3635	Khách	Guest
+3636	Tạo phiếu POS	Create POS ticket
+3637	Người	Person(s)
+3638	Thời gian lưu trú (phút)	Stay in minutes
+3639	Thời gian dự kiến	Expected time
+3640	Bố cục POS ngang	Horizontal POS layout
+3641	Bố cục POS dọc	Vertical POS layout
+3642	Xóa di chuyển bàn	Clear table movement
+3643	Di chuyển ghế	Move seat
+3644	Liên kết ghế	Link seat
+3645	Hủy liên kết ghế	Unlink seat
+3646	Ẩn giao diện <@APPNAME@>	Hide <@APPNAME@> interface
+3647	Đơn hàng qua điện thoại	Telephonic orders
+3648	Danh sách đơn hàng cần giao	Orders to deliver list
+3649	Khóa	Lock
+3650	Bắt đầu nhấp vào đây	Start click here
+3651	Nhấp vào đây lần nữa	Click here again
+3652	Nhấp vào đây	Click here
+3653	Đặt chỗ	Reservations
+3654	Đóng POS	Close POS
+3655	Nhập tiền mặt	Cash entry
+3656	Thanh toán chứng từ đã ghi sổ	Payment of posted documents
+3657	Hiển thị Thông tin Ch. từ	Show doc. info
+3658	Nút hành động đơn giản	Simple action buttons
+3659	Không có chú thích	No captions
+3660	Dự phòng hàng ngày	Daily provision
+3661	Chứng từ không có viền	Document without border
+3662	Thanh toán đã ghi sổ	Posted payments
+3663	Doanh số theo bàn	Sales per table
+3664	Đơn hàng mới	New order
+3665	Hiển thị danh sách nhóm đầu tiên cố định	Show fixed first group list
+3666	Hiển thị tổng hiện tại trong danh sách	Show current totals in list
+3667	Nhận thanh toán riêng	Receive separate payments
+3668	Tạo TK từ chi tiết chứng từ	Create account from document details
+3669	Gửi Loại chứng từ	Send document type
+3670	In chứng từ và gửi E-mail	Print document and send email
+3671	Tên người dùng	Username
+3672	Bật tự động đặt KH không hoạt động sau x ngày chưa thanh toán	Enable auto set inactive debtor after x days unpaid
+3673	Số ngày sau thanh toán trước khi không hoạt động	Days after payment before inactive
+3674	Bạn có muốn chạy quy trình này cho 1 NCC không?	Do you want to run this process for 1 creditor?
+3675	Danh sách thuế Khoản phải thu với mã số thuế	Tax list debtor with tax id
+3676	Tìm thấy chứng từ chưa ghi sổ! Vui lòng xử lý tất cả chứng từ trước khi chỉnh sửa thủ công!	Unposted documents found ! Please process all documents before manual edit!
+3677	SL bắt đầu	Start quantity
+3678	SL dự kiến	Expected quantity
+3679	Ngày sản xuất	Production date
+3680	Ngày bán hàng tối đa	Max sales date
+3681	Vị trí	Location
+3682	Serial	Serial
+3683	Lô	Batch
+3684	Tổng đã bán	Total sold
+3685	Tìm kiếm với tìm kiếm trung tâm	Find with central search
+3686	Không tạo TK	No account creation
+3687	Khớp trên số tiền mở	Match on open amounts
+3688	Tổng Doanh số Exp. theo giá 2	Total Exp sales on price 2
+3689	Tổng Giá trị Tồn kho	Total Stock value
+3690	Nhập địa chỉ E-mail cách nhau bằng ;	Enter email address separate with ;
+3691	Quốc gia	Countries
+3692	Sửa lỗi phân tích tuổi giao dịch	Correction transaction ageing
+3693	Vui lòng lưu hoặc hủy chứng từ của bạn trước!	Please save or cancel your document first!
+3694	Vui lòng lưu hoặc hủy tồn kho của bạn trước!	Please save or cancel your stock first!
+3695	Vui lòng lưu hoặc hủy Khoản phải thu của bạn trước!	Please save or cancel your debtor first!
+3696	Vui lòng lưu hoặc hủy Khoản phải trả của bạn trước!	Please save or cancel your creditor first!
+3697	Bảng tính Doanh số	Spreadsheet sales
+3698	Bảng tính Báo cáo	Spreadsheet reports
+3699	Chọn [Tất cả] để ngừng hỏi câu hỏi này.	Select [All] to stop asking this question.
+3700	Xem	View
+3701	Phóng to	Zoom
+3702	Bố cục trang	Page layout
+3703	Công thức	Formulas
+3704	Kiểm tra nhập	Import check
+3705	Hồ sơ	Profile
+3706	Lưu Hồ sơ	Save profile
+3707	Thêm Hồ sơ	Add profile
+3708	Loại nhập	Import type
+3709	Liên kết trên	Link on 
+3710	Sao lưu nhỏ (sổ sách)	Small backup (books)
+3711	Hành động này sẽ đóng <@APPNAME@> và cài đặt phiên bản %s. Chúng tôi khuyến nghị bạn sao lưu toàn bộ thư mục của <@APPNAME@>. Bạn có muốn tiếp tục không?	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?
+3712	Cập nhật	Updates
+3713	Kiểm tra cập nhật khi khởi động	Check for update at start
+3714	Phiên bản Beta	Beta versions
+3715	Cài đặt	Install
+3716	Workflow	Workflow
+3717	Blockchain	Blockchain
+3718	Kích hoạt Plugin	Activate plugins
+3719	Thêm vào Nhóm	Add to group
+3720	Nhập Bảng tính	Spreadsheet import
+3721	Bật Blockchain	Enable Blockchain
+3722	Ch. từ Hiển thị SL	Document show quantity
+3723	SL đã đếm	Counted quantity
+3724	SL hiện tại	Current quantity
+3725	Ngày đếm	Date of count
+3726	OK → Tiếp theo	OK → Next
+3727	Chưa đếm	Uncounted
+3728	Đã đếm	Counted
+3729	Thêm nhanh	Fast add
+3730	Ghi sổ chênh lệch	Post difference
+3731	Đã kiểm tra và OK	Checked and OK
+3732	Ngày kết thúc năm mở hiện tại %s của bạn lớn hơn ngày hôm nay! Bạn có muốn dừng mở năm mới không?	Your current open year end date %s is greater than today! Do you want to stop opening a new year?
+3733	Bạn có chắc chắn muốn ghi đè lên sổ sách hiện tại của mình không?	Are you sure you want to overwrite your current books?
+3734	Ghi sổ trong kỳ 0	Post in period 0
+3735	Bạn đang ghi lãi/lỗ vào sổ cái có thuế! Điều này sẽ làm sai báo cáo thuế! Bạn có muốn tiếp tục không?	You are putting profit/loss on ledger with tax! This will mess up tax reports! Do you wish to continue?
+3736	Bạn đang ghi tiền mặt từ TK ngân hàng/tiền mặt trực tiếp vào TK ngân hàng/tiền mặt! Bạn có muốn tiếp tục không?	You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?
+3737	Bạn có muốn hủy in biên lai này không?	Do you wish to cancel the print this receipt?
+3738	LTR	LTR
+3739	Chuyển báo giá thành một hóa đơn chưa xử lý mỗi KH	Convert quote to one unprocessed invoice per client
+9901	// Đây là các ghi chú menu chính	//  These are the main menu comments
+20000	Bạn không thể tạo cấp độ đệ quy!	You cannot create recursive levels!
+20001	Xác nhận	Confirm
+20002	Xóa bản ghi?	Delete record?
+20003	Xóa tất cả bản ghi đã chọn?	Delete all selected records?
+20004	Nhấp vào đây để thêm dòng mới	Click here to add a new row
+20005	Bộ lọc <trống>	Filter is <empty>
+20006	Tùy chỉnh	Customisation
+20007	Cột	Columns
+20008	Sử dụng chuột để kéo một cột vào đây để nhóm theo cột đó	Use your mouse to pull a column here to group on that column
+20009	Tùy chỉnh...	Customise...
+20010	Dải	Bands
+20011	Thiếu một thành phần trung gian! Vui lòng thêm thành phần %s vào biểu mẫu!	Missing an intermediary component! Please add a %s component to the form!
+20012	cxGrid không tồn tại!	cxGrid does not exist!
+20013	Thành phần không tồn tại!	Component does not exist!
+20014	Lỗi nhập liệu!	Import error!
+20015	Chế độ xem Grid không tồn tại!	Grid view does not exist!
+20016	Cấp độ Grid hoạt động không tồn tại!	Active grid level does not exist!
+20017	Không thể tạo tệp đầu ra xuất!	Cannot create the export output file!
+20018	Ext Lookup Combo Box - Đại diện cho tra cứu cực kỳ nâng cao sử dụng quantum grid làm điều khiển thả xuống!	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!
+20019	Bằng	Equal to
+20020	Không bằng	Not equal to
+20021	Nhỏ hơn	Less than
+20022	Nhỏ hơn hoặc bằng	Less than or equal to
+20023	Lớn hơn	Greater than
+20024	Lớn hơn hoặc bằng	Greater than or equal to
+20025	Giống	Like
+20026	Không giống	Not like
+20027	Giữa	Between
+20028	Không giữa	Not between
+20029	nằm trong	in
+20030	không nằm trong	Not in
+20031	là hôm qua	is yesterday
+20032	là hôm nay	is today
+20033	là ngày mai	is tomorrow
+20034	là tuần trước	is last week
+20035	là tháng trước	is last month
+20036	là năm trước	is last year
+20037	là tuần này	is this week
+20038	là tháng này	is this month
+20039	là năm nay	is this year
+20040	là tuần tới	is next week
+20041	là tháng tới	is next month
+20042	là năm tới	is next year
+20043	và	and
+20044	hoặc	or
+20045	Không	Not
+20046	Trống	Empty
+20047	là rỗng	is nul
+20048	là không rỗng	is not nul
+20049	Bắt đầu bằng	Begins with
+20050	Không bắt đầu bằng	Does not begin with
+20051	Kết thúc bằng	Ends with
+20052	Không kết thúc bằng	Does not end with
+20053	Chứa	Contains
+20054	Không chứa	Does not contain
+20055	(Tất cả)	(All)
+20056	(Tùy chỉnh...)	(Custom...)
+20057	(Trống)	(Empty)
+20058	(Không trống)	(Not empty)
+20059	Số giao dịch	Transaction no.
+20060	Số sổ nhật ký	Journal no.
+20061	,0.00	,0.00
+20062	Số lượng : 0	Count : 0
+20063	Xuất	Export
+20064	Cột	Columns
+20065	Tổng doanh số	Total sales
+20066	Tổng SL	Total Qty.
+20067	Tổng doanh số mỗi ngày	Total sales per day
+20068	Tổng SL mỗi ngày	Total qty. per day
+20069	Giao dịch	Transactions
+20070	Hóa đơn KH	Customer invoice
+20071	Mục tồn kho hóa đơn	Invoice stock item
+20072	Hóa đơn mục tồn kho	Stock item invoice
+20073	Biểu đồ	Charts
+20074	Số tồn kho duy nhất	Unique stock no.
+20075	Số chứng từ duy nhất	Unique document no.
+20076	Số dòng duy nhất	Unique line no.
+20077	Số TK duy nhất	Unique account no.
+20078	Phiên bản này chỉ hoạt động đến 1-3-2005. Để biết thêm thông tin, truy cập https://www.osfinancials.org/	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/
+20079	Mở một Bộ Sổ sách trước!	Open a Set of Books first!
+20080	Về	About
+20081	Thoát	Exit
+20082	Chạy SQL	Run SQL
+20083	Tải SQL...	Load SQL...
+20084	Lưu SQL...	Save SQL...
+20085	Bộ lọc	Filters
+20086	Nhóm	Grouping
+20087	Phông chữ Editor...	Editor font...
+20088	Kiểu gốc	Native style
+20089	Mở thư mục	Open directory
+20090	Cột hiển thị	Visible columns
+20091	Từ	From
+20092	Đến	Until
+20093	và	and
+20094	hoặc	or
+20095	và không	and not
+20096	hoặc không	or not
+20097	Bộ lọc	Filter
+20098	&Điều kiện mới	New &condition
+20099	&Nhóm mới	New &group
+20100	&Xóa dòng	&Delete row
+20101	Xóa &tất cả	Delete &all
+20102	Nhấn nút này để thêm điều kiện	Push this button to add a condition
+20103	Chứa các điều kiện sau	Contains the following conditions
+20104	<Đầu>	<Head>
+20105	<Trống>	<Empty>
+20106	Không thể làm trống bộ lọc!	Cannot empty filter!
+20107	Bộ lọc đã điều chỉnh	Adjusted filter
+20108	Giá trị không hợp lệ	Invalid value
+20109	Sử dụng	Use
+20110	để trình bày một ký tự đơn	to present a single character
+20111	để trình bày nhiều ký tự	to present multiple characters
+20112	và	and
+20113	hoặc	or
+20114	Hiển thị các dòng có điều kiện:	Show rows where :
+20115	Tạo Bộ lọc	Make filter
+20116	noname.flt	noname.flt
+20117	Mở một bộ lọc đã lưu	Open a saved filter
+20118	Lưu bộ lọc hoạt động	Save active filter
+20119	&Lưu dưới dạng...	&Save as...
+20120	&Mở...	&Open...
+20121	&Áp dụng	&Apply
+20122	flt	flt
+20123	*.flt	Filter (*.flt)|*.flt
+20124	<Không có dữ liệu để hiển thị>	<No data to display>
+20130	Không thu tiền mặt	Do not cash
+20131	Tạo hàng hóa đã bán nhưng chưa nhận	Create goods sold not taken
+20132	Không thể xóa!	Cannot delete!
+20133	Sử dụng tồn kho nâng cao	Use advanced stock
+21000	&Tệp	&File
+21001	Trình thiết kế Report Manager	Report Manager Designer
+21002	&Báo cáo	&Report
+21003	&Chỉnh sửa	&Edit
+21004	&Hiển thị	&Display
+21005	&Tùy chọn	&Preferences
+21006	&Trợ giúp	&Help
+21007	Lưới	Grid
+21008	Tùy chọn Grid cho báo cáo này	Grid options for this report
+21009	Cắt	Cut
+21010	Sao chép	Copy
+21011	Dán	Paste
+21012	Cắt đối tượng đã chọn	Cut selected object
+21013	Sao chép đối tượng đã chọn vào bộ nhớ đệm	Copy selected object to clipboard
+21014	Dán từ bộ nhớ đệm	Paste from clipboard
+21015	Ẩn	Hide
+21016	Ẩn đối tượng đã chọn	Hide selected objects
+21017	Hiển thị tất cả	Show all
+21018	Hiển thị tất cả các thành phần bị ẩn	Shows all the hidden components
+21019	Tất cả	All
+21020	Chọn tất cả các thành phần của báo cáo	Selects all components of the report
+21021	Chọn	Select
+21022	Di chuyển	Move
+21023	Trái	Left
+21024	Di chuyển vùng chọn sang trái	Moves the selection to the left
+21025	Phải	Right
+21026	Di chuyển vùng chọn sang phải	Moves the selection to the right
+21027	Lên	Up
+21028	Di chuyển vùng chọn lên	Moves the selection up
+21029	Xuống	Down
+21030	Di chuyển vùng chọn xuống	Moves the selection down
+21031	Căn chỉnh	Align
+21032	Căn chỉnh vùng chọn sang trái	Aligns selection to the left
+21033	Căn chỉnh vùng chọn sang phải	Aligns selection to the right
+21034	Căn chỉnh vùng chọn lên	Aligns selection up
+21035	Căn chỉnh vùng chọn xuống	Aligns selection down
+21036	Khoảng cách ngang	Horizontal space
+21037	Căn chỉnh vùng chọn phân phối khoảng cách ngang	Aligns selection distributing horizontal space
+21038	Khoảng cách dọc	Vertical space
+21039	Căn chỉnh vùng chọn phân phối khoảng cách dọc	Aligns selection distributing vertical space
+21040	Mới	New
+21041	Tạo một báo cáo mới	Creates a new report
+21042	Mở	Open
+21043	Mở một báo cáo hiện có	Opens an existing report
+21044	Thoát	Exit
+21045	Đóng ứng dụng	Closes the application
+21046	Lưu...	Save...
+21047	Lưu báo cáo hiện tại	Saves the current report
+21048	Lưu dưới dạng...	Save as...
+21049	Lưu báo cáo vào một tệp mới	Saves the report to a new file
+21050	Thiết lập trang	Page setup
+21051	Hiển thị thiết lập trang báo cáo	Show report page setup
+21052	In	Print
+21053	In báo cáo. Bạn có thể chọn các trang để in.	Print the report. You can select pages to print.
+21054	Xem trước khi in	Print preview
+21055	Xem trước báo cáo trên màn hình	Preview the report in the screen
+21056	Thiết lập máy in...	Printer setup...
+21057	Hiển thị hộp thoại thiết lập máy in	Displays printer setup dialog
+21058	Về Report Manager	About Report Manager
+21059	Hiển thị thông tin về Report Manager	Shows information about Report Manger
+21060	Tài liệu	Documentation
+21061	Hiển thị Tài liệu Report Manager Designer	Display Report Manager Designer Documentation
+21062	Đo lường	Measurement
+21063	&Cm	&Cms
+21064	Thay đổi đơn vị đo lường thành cm	Change measurement units to cms
+21065	Inch	Inches
+21066	Thay đổi đơn vị đo lường thành inch	Changes measurement units to inches
+21067	Trình điều khiển	Driver
+21068	Trình điều khiển Qt (CLX)	Qt driver (CLX)
+21069	Kích hoạt trình điều khiển đồ họa và in đa nền tảng Qt	Activates the Qt cross platform graphics and printing driver
+21070	Trình điều khiển GDI (VCL)	GDI Driver (VCL)
+21071	Kích hoạt trình điều khiển kết xuất trực tiếp GDI32 (VCL), chỉ dành cho Windows	Activates the GDI32 direct rendering driver (VCL), Windows only
+21072	Hộp thoại in Hệ thống Qt	Qt System print dialog
+21073	Hiển thị hộp thoại in hệ thống, hoặc hộp thoại in tùy chỉnh	Shows the system print dialog, or a custom print dialog
+21074	Sửa lỗi in Kylix	Kylix Print Bugfix
+21075	Sử dụng sửa lỗi in Kylix (sử dụng metaprint để in metafiles)	Uses Kylix print bugfix (use metaprint to print metafiles)
+21076	Thanh trạng thái	Status bar
+21077	Hiển thị hoặc ẩn thanh trạng thái	Shows or hides the status bar
+21081	Chọn đối tượng	Select objects
+21082	Chèn văn bản tĩnh	Inserts a static text
+21083	Chèn một biểu thức	Inserts an expression
+21084	Chèn một hình vẽ đơn giản	Inserts a simple drawing
+21085	Chèn một hình ảnh	Inserts an image
+21086	Chèn một mã vạch	Inserts a barcode
+21087	Chèn một biểu đồ	Inserts a chart
+21093	OK	OK
+21094	Hủy	Cancel
+21095	Mặc định	Default
+21096	Tùy chỉnh	Custom
+21097	Kích thước trang	Page size
+21098	Hướng trang	Page orientation
+21099	Lề trang	Page margins
+21100	Trái	Left
+21101	Phải	Right
+21102	Trên	Top
+21103	Dưới	Bottom
+21104	Kích thước tùy chỉnh	Custom size
+21105	Hướng trang tùy chỉnh	Custom page orientation
+21106	Dọc	Portrait
+21107	Ngang	Landscape
+21108	Bản sao	Copies
+21109	Sắp xếp bản sao	Collate copies
+21110	Hộp thoại	Dialog
+21111	Báo cáo hai lần chạy	Two pass report
+21112	Ngôn ngữ báo cáo	Report language
+21113	Phông chữ máy in (Chỉ Windows GDI)	Printer fonts (Windows GDI Only)
+21114	Luôn sử dụng phông chữ máy in	Always use printer fonts
+21115	Không bao giờ sử dụng phông chữ máy in	Never use printer fonts
+21116	Màu nền	Background color
+21117	Tất cả Văn bản	All Text
+21118	Chọn tất cả các thành phần văn bản của báo cáo	Selects all text components of the report
+21119	Tiêu đề trang	Page header
+21120	Chèn tiêu đề trang vào báo cáo con đã chọn	Inserts a page header in the selected subreport
+21121	Chân trang	Page footer
+21122	Chèn chân trang vào báo cáo con đã chọn	Inserts a page footer in the selected subreport
+21123	Tiêu đề và chân nhóm	Group header and footer
+21124	Chèn tiêu đề và chân nhóm	Insert a group header and footer
+21125	Báo cáo con	Subreport
+21126	Chèn một báo cáo con mới	Insert a new subreport
+21127	Xóa phần/báo cáo con	Delete section/subreport
+21128	Xóa báo cáo con hoặc phần đã chọn	Deletes the selected subreport or section
+21129	Chi tiết	Detail
+21130	Chèn một phần chi tiết vào báo cáo con đã chọn	Inserts a detail section in the selected subreport
+21131	Cấu hình truy cập dữ liệu	Data access configuration
+21132	Sửa đổi thông tin truy cập dữ liệu	Modifies data access information
+21133	Định nghĩa tham số	Parameter definition
+21134	Hiển thị định nghĩa tham số cho báo cáo và cấu hình dữ liệu	Shows parameter definition for the report and data configuration
+21135	Tham số	Parameters
+21136	Hiển thị tham số báo cáo	Show report parameters
+21137	Xóa phần	Delete section
+21138	Xóa phần đã chọn	Delete the selected section
+21139	Di chuyển phần lên	Moves the section up
+21140	Di chuyển phần xuống	Moves the section down
+21142	Kết nối	Connections
+21143	Cấu hình máy in	Configure printers
+21144	Lời nhắc đăng nhập	Login prompt
+21145	Tải tham số	Load parameters
+21146	Tải tham số trình điều khiển	Load driver parameters
+21148	Dataset	Datasets
+21149	Thêm	Add
+21150	Xóa	Delete
+21152	Tham số	Parameters
+21154	Kết nối	Connection
+21155	Dataset chính	Master dataset
+21156	Hiển thị dữ liệu	Show data
+21157	Loại BDE	BDE type
+21158	Bảng và Thứ tự	Table and order
+21159	Truy vấn	Query
+21160	Bảng	Table
+21161	Bộ lọc BDE	BDE filter
+21162	Bảng	Table
+21163	Tên chỉ mục	Index name
+21164	Trường chỉ mục	Index fields
+21165	Trường chính	Master fields
+21166	Lưu ý: Viết các trường cách nhau bằng ký tự ;	Note: Write fields separated by ; character
+21167	Tên tệp MyBase	MyBase file name
+21168	Xây dựng...	Build...
+21216	Lưu metafile dưới dạng	Save metafile as
+21217	Lưu báo cáo dưới dạng metafile	Save the report as a metafile report
+21218	Hủy tính toán báo cáo	Cancels the report calculation
+21219	Đóng cửa sổ xem trước	Closes the preview window
+21220	Trang đầu tiên	First page
+21221	Đi tới trang đầu tiên của báo cáo	Goes to the first page of the report
+21222	Trang trước	Previous page
+21223	Hiển thị trang trước	Shows the previous page
+21224	Trang tiếp theo	Next page
+21225	Hiển thị trang tiếp theo	Shows the next page
+21226	Trang cuối	Last page
+21227	Đi tới trang cuối của báo cáo	Goes to the last page of the report
+21228	Tỷ lệ bình thường	Normal scale
+21229	Hiển thị báo cáo ở kích thước thực	Shows the report in real size
+21230	Điều chỉnh theo cửa sổ	Scale to window
+21231	Điều chỉnh tỷ lệ giấy theo chiều rộng cửa sổ	Scale adjusting the paper to the window width
+21232	Điều chỉnh để xem toàn trang	Scale to full page
+21233	Điều chỉnh tỷ lệ để xem toàn bộ trang	Scale to view full page
+21234	Thu nhỏ-	Zoom-
+21235	Thu nhỏ chế độ xem	Zooms out the view
+21236	Phóng to+	Zoom+
+21237	Phóng to chế độ xem	Zooms in the view
+21354	Trình thiết kế Reportman manager	Reportman manager designer
+21539	Dataset mới	New dataset
+21540	Đổi tên Dataset	Rename dataset
+21732	Người dùng định nghĩa	User defined
+21733	Kích thước tùy chỉnh	Custom size
+21734	Thêm một phần vào báo cáo con đã chọn	Adds a section to the selected subreport
+21741	Chọn máy in	Select printer
+21742	Hộp thoại	Dialog
+21743	Tệp cấu hình	Configuration file
+21744	Cấu hình người dùng	User configuration
+21745	Cấu hình hệ thống	System configuration
+21746	Điều chỉnh vị trí	Position adjustment
+21753	Kết nối	Connect
+21763	Thao tác sau khi in	Operations after print
+21764	Ví dụ, TM200 Mở ngăn kéo: #27#112#48#160#160#4	Example, TM200 Open Drawer: #27#112#48#160#160#4
+21765	Ví dụ, TM88 Mở ngăn kéo: #27#112#48#40#200#4	Example, TM88 Open Drawer: #27#112#48#40#200#4
+21766	Cắt giấy	Cut paper
+21767	Mở ngăn kéo	Open drawer
+21799	Không có dữ liệu để in!	No data available to print!
+21800	Chỉ in nếu có dữ liệu	Print only if data available
+21831	Phạm vi đầu tiên	First range
+21832	Phạm vi cuối	Last range
+21833	Mỗi dòng sẽ được đánh giá và gán cho mỗi trường là điểm bắt đầu và kết thúc của bộ lọc	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter
+21835	Tải phần	Load section
+21836	Lưu phần	Save section
+21840	Cửa sổ xem trước và tỷ lệ	Preview window and scale
+21841	Bình thường	Normal
+21842	Phóng to tối đa	Maximized
+21843	Rộng	Wide
+21844	Bình thường	Normal
+21845	Trang	Page
+21857	Thiết lập trang	Page setup
+21858	Thiết lập in	Print setup
+21936	Trình điều khiển gốc	Native driver
+21939	Kích hoạt trình điều khiển Gốc, không phụ thuộc vào đồ họa	Activates the Native driver, no graphics dependent
+21976	Thông tin hệ thống	System information
+21977	Hiển thị thông tin hệ thống và máy in	Shows system and printer information
+22058	Trình điều khiển chỉ văn bản	Text only driver
+22059	Căn chỉnh chiều cao 1/6	Align height 1/6
+22060	Căn chỉnh chiều cao tất cả các phần thành 1/6 inch để tương thích với máy in kim	Aligns all sections height to 1/6 inches for dot matrix compatibility
+22080	Thư viện	Libraries
+22081	Mở hộp thoại thư viện báo cáo	Open report libraries dialog
+22082	Union phía client của Dataset	Dataset client side unions
+22083	Union	Unions
+22084	Nhóm Union	Union grouping
+22085	Tệp định nghĩa trường	Field defs file
+22086	Sửa đổi...	Modify...
+22097	Kết nối CSDL và Dataset	Database connections and datasets
+22098	Kết nối khả dụng	Available connections
+22099	Chuỗi kết nối	Connection string
+22100	Khả dụng	Available
+22101	Trình điều khiển CSDL	Database driver
+22102	Kết nối mới	New connection
+22103	Thêm một kết nối mới	Adds a new connection
+22104	Xóa kết nối	Delete connection
+22105	Xóa kết nối đã chọn	Deletes the selected connection
+22106	Xóa đối tượng đã chọn	Delete the selected object
+22230	Gửi E-mail đến	Mail to
+22231	Gửi báo cáo đến một đích e-mail	Sends the reports to an e-mail destination
+22347	Phông chữ Ứng dụng	Application font
+22348	Phông chữ Ứng dụng	Application font
+22377	Số dòng mỗi inch	Lines per inch
+22433	Tính toán lại báo cáo	Recalculte report
+22434	Tìm	Find
+22435	Tìm văn bản	Find text
+22440	Union song song	Parallel union
+900000	Mã Parcelware	Parcelware code
+900001	Gửi đi Parcelware	Send to Parcelware
+900002	Số nhà	House no.
+900003	Đơn vị/căn hộ	House no. unit
+900004	Tên đường	Street
+901000	Đăng ký định kỳ	Subscriptions
+901001	Danh sách ĐKĐK	Subscriptions list
+901002	Cảnh báo	Warnings
+901003	ĐKĐK cần xử lý	Subscriptions to process
+901004	GT dòng (Đã gồm thuế)	Line value (Incl.)
+901005	Hóa đơn...trước ngày ĐKĐK	Invoice in days before subscription date
+901006	Cảnh báo...trước ngày ĐKĐK	Warning in days before subscription date
+901007	Loại chu kỳ	Interval type
+901008	Chu kỳ	Interval
+901009	<Chọn mặt hàng>	<Select stock item>
+901010	Chắc chắn xóa ĐKĐK này?	Are you sure you want to delete this subscription?
+901011	Lần chạy cuối	Last run
+901012	Lần chạy kế tiếp	Next run
+901013	Ngày bắt đầu	Start date
+901014	Đến	To
+901015	Đã xử lý	Processed
+901016	Đăng ký định kỳ	Subscriptions
+901017	Ngày	Day
+901018	Tuần	Week
+901019	Tháng	Month
+901020	3 tháng	3 Months
+901021	6 tháng	6 Months
+901022	Năm	Year
+901023	Cảnh báo tiếp theo	Next warning
+901500	Tách	Split
+901501	Bàn/Vị trí	Seat
+901502	Tiền bàn/Phí phục vụ	Couvert
+901503	Nhân viên phục vụ	Waiter
+901504	Mặt hàng %s hết hàng! Vui lòng xem lại!	The item %s is out of stock! Please review your entry!
+901505	Đã thêm dòng mới, vui lòng xem lại thanh toán!	New lines added please review this payment!
+901506	Vui lòng đóng hết HĐ mở trước!	Please close all open invoices first!
+901507	Chắc chắn muốn đóng POS?	Are you sure you want to continue to close the POS?
+901508	Đóng POS	Close POS
+901509	Thiết bị cầm tay	Handheld
+902000	Thỏa thuận giá	Price agreement
+902001	Đến số lượng	Until quantity
+902002	Mã SP bên ngoài	External product code
+902003	Tỷ lệ % giá vốn TB	Percentage of avg. cost price
+902004	<Tất cả hàng tồn kho>	<All stock>
+902005	<Tất cả khách hàng>	<All debtors>
+902006	Lịch sử	Historical
+902007	Loại giá	Price type
+902008	Bảng giá - Bán lẻ lớn - Bán hàng	Price list - Large retail - Sales
+902009	Bảng giá - Bán lẻ lớn - Mua hàng	Price list - Large retail - Purchases
+903000	Đa phương tiện	Multimedia
+903001	Vị trí tập tin	File location
+903002	Tên tập tin gốc	Original file name
+903003	Ngày tập tin	File date
+903004	Đến CSDL	To database
+903005	Liên kết tập tin	Link file
+903006	Sao chép tập tin	Copy file
+903007	Đường dẫn (URL)	URL
+903008	Xem/Chỉnh sửa	View/Edit
+903009	Nhấn [OK] sau khi sửa để lưu vào CSDL!	Press [OK] when you are done editing the file to save it to the database!
+903010	Lưu thành...	Save as...
+903011	Danh sách	List
+903100	Điều lệ/Quy tắc	Charter
+903101	Hiệu chỉnh	Corrections
+903102	Biến hệ thống	Sysvars
+903103	Không nhất quán	Inconsistencies
+903104	Thông báo (MSG)	MSG
+903105	Chạy SQL	Run SQL
+903106	Dọn dẹp sổ nhật ký	Cleanup journal
+903107	Điều kiện màu	Colour conditions
+903108	Giao dịch Sổ Cái	Ledger transactions
+903109	Nhập khẩu	Import
+903110	Bản vá	Patches
+903111	Làm tròn xu	Round-off cents
+903112	Thêm mô tả phụ vào tồn kho	Add extra description to stock
+903113	Xóa mô tả phụ khỏi tồn kho	Drop extra description from stock
+903114	Đổi loại mã tồn kho	Change stock code type
+903115	Tính tổng tồn kho	Calculate total in stock
+903116	Tăng thử nghiệm	Test increase
+903117	Mã loại	Type id
+903118	Mã tồn kho cuối	End stock code
+903119	Xóa nhóm không trong tồn kho	Remove groups not in stock
+903120	Xóa tồn kho không trong chứng từ	Remove stock not in documents
+903121	Tạo tồn kho theo Sổ Cái	Generate stock per ledger
+903122	Xóa khỏi ĐMC những cái không phải ĐMC	Remove from BOM which is not BOM
+903123	Cập nhật SL tồn kho cho mặt hàng tùy chọn	Update stock qty for option items
+903124	Xóa khách hàng	Remove debtors
+903125	Xóa nhà cung cấp	Remove creditors
+903126	Xóa mặt hàng tồn kho	Remove stock items
+903127	Xóa liên hệ	Remove contacts
+903128	Xóa tin nhắn	Clear messages
+903129	Tổng hợp năm đã đóng	Consolidate closed years
+903130	Chuyển dữ liệu tài khoản	Transfer account data
+903131	Chuyển dữ liệu tồn kho	Transfer stock data
+903132	Chuyển trùng về mã Min & xóa	Transfer doubles to Min id and delete
+903133	Tổng hợp năm đã đóng - CT và tồn kho	Consolidate closed years - documents and stock
+903134	Điền Globals bằng mã tối đa + 1	Fill globals with max + 1 id
+903135	Xóa KH không có trong TK	Remove debtors not in account
+903136	Xóa NCC không có trong TK	Remove creditors not in account
+903137	Đặt tất cả KH thành mục mở	Set all debtors to open item
+903138	Đặt tất cả NCC thành mục mở	Set all creditors to open item
+903139	Sửa số tài khoản	Correct account numbers
+903140	Sửa tiểu khoản	Correct sub-accounts
+903141	Cắt địa chỉ KH và viết hoa ký tự đầu	Trim debtor address and set first character to the UPPERCASE
+903142	Tạo tất cả bút toán tổng	Generate all total entries
+903143	Xóa ký hiệu không hợp lệ khỏi TK ngân hàng	Remove invalid symbols from bank accounts
+903144	Đặt lại mua hàng theo CT cuối	Reset purchase to basis of last document
+903145	Sửa lỗi mô tả bút toán số dư	Correct errors balance booking descriptions
+903146	Thiết lập GD năm trước	Set Transact previous years
+903147	Cập nhật số thuế cuối Dochead	Update Dochead FTaxAmt
+903148	Sửa kỳ	Correct periods
+903149	Khắc phục kỳ	Fix periods
+903150	Tìm bút toán không cân	Find unbalanced entries
+903151	Tự động liên kết KH số dư 0	Auto-link all zero debtors
+903152	Xóa tất cả liên kết	Remove all links
+903153	Sửa mã dòng giao dịch	Correct Transact line id
+903154	Sửa SL đã/chưa gồm Thuế (lỗi đảo ngược)	Correct Incl./Excl. Tax amount (Reverse bug)
+903155	Xóa tổng cộng	Clear totals
+903156	Xóa tham số Biến hệ thống	Clear Sysvars parameters
+903157	Xóa tất cả hóa đơn	Delete all invoices
+903158	Xóa BatCon không có trong GD	Remove BatCon not in Transact
+903159	Xóa hóa đơn 0	Remove zero invoices
+903160	Xóa họ khỏi liên hệ sau dấu phẩy	Remove last name from contacts after a comma
+903161	Tìm khách hàng	Find debtors
+903162	Tìm nhà cung cấp	Find creditors
+903163	Tạo liên hệ	Generate contacts
+903164	Chọn màu	Pick colour
+903165	Đặt Giá Bán 1 bằng 1.5 X Giá Mua và Giá Bán 2 bằng 1.3 X Giá Mua	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price
+903166	Chọn	Select
+903167	Chạy lại Bản vá X	Rerun Patch X
+903168	Đặt lại Biến hệ thống	Reset Sysvars
+903169	Phiên bản hiện tại	Current version
+903170	Thực thi	Execute
+903171	Mã lệnh	Script
+903172	Đặt kỳ hạn	Set term
+903173	Xóa/Hủy	Drop
+903174	Lưu cho tất cả người dùng	Save to all users
+903175	Biểu thức	Expression
+903176	Biểu thức phông chữ	Font expression
+903177	Biểu thức nền	Background expression
+903178	Bạn có chắc không?	Are you sure?
+903179	Không tìm thấy gì!	Nothing found !
+903180	Nhập mã	Enter code
+903181	Vui lòng đăng ký <@APPNAME@> trước!	Please register <@APPNAME@> first!
+903182	Đã đăng ký	Registered
+906000	Mặc dù đã nhắc nhở, TK của bạn vẫn quá hạn theo hồ sơ của chúng tôi.	Despite previous reminders, according to our records your account is still overdue. 
+906001	ĐKĐK tiếp theo sẽ sớm bắt đầu. Hóa đơn cho kỳ mới sẽ được gửi.	The next subscription will start soon. The invoice for the new period will follow shortly.
+906002	Ngày/giờ chứng từ	Document date/time
+906003	Tên thay thế	Alias
+906004	Nhà cung cấp (NCC)	Supplier
+906005	Ngày đặt hàng	Order date
+906006	Ngày báo giá	Quote date
+906007	Lũy kế	Cum
+906008	Tổng đã thanh toán	Total paid
+906009	Mã PIN	PIN
+906010	Vui lòng thanh toán TK của bạn sớm nhất có thể!	Please settle your account as soon as possible!
+906011	Chưa gồm thuế	Exclusive
+906012	Đã gồm thuế	Inclusive
+906013	Ghi nợ TK	On account
+906014	Hóa đơn GTGT POS	POS Tax Invoice
+906015	IBAN	IBAN
+906016	BIC	BIC
+906017	SWIFT	SWIFT
+906018	Cảm ơn sự bảo trợ của quý khách.	Thank you for your patronage.
+906019	Chúc một ngày tốt lành.	Have a nice day.
+906020	Thuế	Tax
+906021	Mã chi nhánh	Branch code
+906022	Chủ tài khoản	Account holder
+906023	- Hết báo cáo -	- End of report -
+906024	Ngày phiếu ghi nợ	Credit note date
+906025	Tổng lũy kế	Cum total
+906026	Chứng từ mua hàng	Purchase document
+906027	Ngày mua hàng	Purchase date
+906028	Ngày trả NCC	Supplier return date
+906029	Chứng từ trả NCC	Supplier return document
+906030	Đã chấp nhận trả NCC	Supplier return accepted
+906031	Giá trị lịch sử	Historical value
+906032	Danh sách đơn hàng	Order list
+906033	Đơn hàng còn tồn	Outstanding orders
+906034	Báo giá còn tồn	Outstanding quotes
+906035	KH - Thỏa thuận giá	Debtor - Price agreement
+906036	Số lượng đặt lại	Reorder quantities
+906037	Giờ bán hàng	Sales hours
+906038	Biến động tồn kho	Stock movement
+906039	Chi tiết giao dịch	Transaction details
+906040	Mã vạch Yagoda	Yagoda barcode
+906041	Lãi/Lỗ (P/L)	P/L
+906042	Lãi/Lỗ	Profit/Loss
+906043	Doanh số theo nhóm KH	Sales per customer group
+906044	Doanh số theo nhóm tồn kho	Sales per stock group
+906045	Danh sách Khách hàng	Debtor list
+906046	Danh sách Nhà cung cấp	Creditor list
+906047	DS liên hệ - KH	Contact list - Debtors
+906048	DS liên hệ - NCC	Contact list - Creditors
+906049	DS liên hệ - Tất cả	Contact list - All
+906050	Đơn hàng chờ	Backorder
+906051	Báo cáo nhật ký	Log report
+906052	Đăng nhập	Log-on
+906053	Đăng xuất	Log-off
+906054	Người dùng HĐH	OS user
+906055	Từ máy tính	From PC
+906056	Đơn hàng quầy bar	Bar order
+906057	Đơn hàng bếp	Kitchen order
+906058	Doanh thu	Turnover
+906059	Doanh số theo khách hàng	Sales per customer
+906060	DS liên hệ - Chính	Contact list - Main
+906061	DS GD - Mục mở	Transaction list - Open item
+906062	Nhãn KH đã chọn	Selected debtor label
+906063	Nhãn NCC đã chọn	Selected creditor label
+906064	Nhãn địa chỉ giao hàng	Delivery address labels
+906065	Nhãn giao hàng KH đã chọn	Selected debtor delivery label
+906066	Nhãn giao hàng NCC đã chọn	Selected creditor delivery label
+906067	Thanh toán	Payments
+906068	Số trang	Page no.
+906069	Mã số thuế của bạn	Your tax reference
+906070	Đã in lại	Reprinted
+906071	Trung tâm chi phí 1	Cost centre 1
+906072	Trung tâm chi phí 2	Cost centre 2
+906073	Điểm POS	POSPoints
+906074	Sổ nhật ký	Journal
+906075	So sánh kỳ	Compare period
+906076	So sánh kỳ - KH	Compare period - Debtors
+906077	So sánh kỳ - NCC	Compare period - Creditors
+906078	So sánh kỳ - Lãi/Lỗ	Compare period - Profit / Loss
+906079	Nhiều năm	Multi-year
+906080	Trên TK đã chọn / khác	On selected account / other
+906081	Mã giao dịch	Transaction id
+906082	Mã loại sổ nhật ký	Journal type id
+906083	Số tiền chứng từ	Document amount
+906084	Thuế chứng từ	Document tax
+906085	Thuế trên tài khoản thuế	Tax on tax account
+906086	BC kiểm soát - GD đã XL theo TK đối ứng	Control report - Processed transactions per contra account
+906087	Loại thanh toán POS	POS Payment types
+906088	NCC - Thỏa thuận giá	Creditor - Price agreement
+906089	Báo cáo bán hàng POS	POS Sales report
+906090	BC tiền mặt hiện tại POS	POS Current cash report
+906091	BC tiền mặt lịch sử POS	POS Historical cash report
+906092	Tổng Lãi/Lỗ	Total Profit / Loss
+906093	Số dư đầu kỳ	Opening balance
+906094	Tổng số dư	Total balance
+906095	Tổng số dòng	Total lines
+906096	Tổng kiểm tra	Checksum
+906097	BC thu tự động	Automatic receipts report
+906098	BC loại sổ nhật ký	Journal type report
+906099	Mã sổ nhật ký	Journal id
+906100	Sổ nhật ký đã ghi sổ	Posted journal
+906101	Sổ nhật ký chưa ghi sổ	Unposted journal
+906102	Tài khoản đối ứng	Contra accounts
+906103	NCC còn nợ tại ngày	Creditors outstanding at date
+906104	KH còn nợ tại ngày	Debtors outstanding at date
+906105	Thuế theo kỳ	Tax per period
+906106	GD KH - Tiêu chuẩn	Debtor transactions - Standard
+906107	GD KH - Chi tiết thêm	Debtor transactions - Extra details
+906108	GD NCC - Tiêu chuẩn	Creditor transactions - Standard
+906109	GD NCC - Chi tiết thêm	Creditor transactions - Extra details
+906110	GD Sổ Cái - Tiêu chuẩn	General ledger transactions - Standard
+906111	GD Sổ Cái - Chi tiết thêm	General ledger transactions - Extra details
+906112	Nhập/Xuất kho	Stock In / Out
+906113	Số lượng kỳ	Period quantity
+906114	Mua hàng theo kỳ	Purchases per period
+906115	Mặt hàng theo kỳ	Items per period
+906116	Nhóm Nhà cung cấp	Creditor group
+906117	Nhóm Khách hàng	Debtor group
+906118	Nhóm tồn kho	Stock group
+906119	Nhóm chứng từ	Document group
+906120	Trả NCC theo kỳ	Supplier returns per period
+906121	Phiếu ghi nợ theo kỳ	Credit notes per period
+906122	Bán hàng theo kỳ	Sales per period
+906123	Giao dịch Khách hàng	Debtor transactions
+906124	Giao dịch Nhà cung cấp	Creditor transactions
+906125	Hóa đơn đã ghi sổ	Posted invoices
+906126	Hóa đơn chưa ghi sổ	Unposted invoices
+906127	Phiếu ghi nợ đã ghi sổ	Posted credit notes
+906128	Phiếu ghi nợ chưa ghi sổ	Unposted credit notes
+906129	Mua hàng đã ghi sổ	Posted purchases
+906130	Mua hàng chưa ghi sổ	Unposted purchases
+906131	Trả NCC đã ghi sổ	Posted supplier returns
+906132	Trả NCC chưa ghi sổ	Unposted supplier returns
+906133	Báo giá đã xác nhận	Confirmed quotes
+906134	Báo giá chưa xác nhận	Unconfirmed quotes
+906135	Đơn hàng đã xác nhận	Confirmed orders
+906136	Đơn hàng chưa xác nhận	Unconfirmed orders
+906137	Nhãn địa chỉ bưu điện	Postal address labels
+906138	DS địa chỉ giao hàng	List delivery address
+906139	DS địa chỉ bưu điện	List postal address
+906140	Chi tiết danh sách	List details
+906141	GD nhật ký theo kỳ	Journal transactions per period
+906142	Chi tiết số dư	Balances detail
+906143	Chi tiết SD lịch sử (mục mở)	Balances detail history (open item)
+906144	Tổng GD mục mở còn nợ	Outstanding open item transaction totals
+906145	Tổng GD còn nợ	Outstanding transaction totals
+906146	Phân tích tuổi nợ KH	Debtor age analysis
+906147	Số dư	Balances
+906148	Chi tiết số dư 1	Balances detail 1
+906149	Nhóm báo cáo	Reporting groups
+906150	Mua hàng theo kỳ - SL	Purchases per period - Quantities
+906151	Mua hàng theo kỳ - Số tiền	Purchases per period - Amount
+906152	Mua hàng theo kỳ - Nhóm NCC 1	Purchases per period - Creditor group 1
+906153	Mua hàng theo kỳ - Nhóm NCC 2	Purchases per period - Creditor group 2
+906154	Mua hàng theo kỳ - Nhóm CT 1	Purchases per period - Document group 1
+906155	Hóa đơn theo kỳ - SL	Invoices per period - Quantities
+906156	Hóa đơn theo kỳ - Số tiền	Invoices per period - Amount
+906157	Hóa đơn theo kỳ - Nhóm KH 1	Invoices per period - Debtor group 1
+906158	Hóa đơn theo kỳ - Nhóm KH 2	Invoices per period - Debtor group 2
+906159	Hóa đơn theo kỳ - Nhóm CT 1	Invoices per period - Document group 1
+906160	Máy in hóa đơn tiền mặt	Cash slip printer
+906161	DS chứng từ theo TK	Document listing per account
+906162	DS chứng từ chưa in	Unprinted document listing
+906163	Mua hàng theo kỳ - Nhóm CT 2	Purchases per period - Document group 2
+906164	Mua hàng theo kỳ - Nhân viên bán hàng	Purchases per period - Salesperson
+906165	Hóa đơn theo kỳ - Nhóm CT 2	Invoices per period - Document group 2
+906166	Hóa đơn theo kỳ - Nhân viên bán hàng	Invoices per period - Salesperson
+906167	Biểu đồ - NCC theo tuần	Graph - Creditors per week
+906168	Biểu đồ - KH theo tuần	Graph - Debtors per week
+906169	Biểu đồ - Lãi/Lỗ theo tuần	Graph - Profit / Loss per week
+906170	Biểu đồ - HĐ theo tuần - SL	Graph - Invoices per week - Quantities
+906171	Biểu đồ - HĐ theo tuần - Số tiền	Graph - Invoices per week - Amount
+906172	Mua hàng theo SP - Nhóm tồn kho 1	Purchases per product - Stock group 1
+906173	Mua hàng theo SP - Nhóm tồn kho 2	Purchases per product - Stock group 2
+906174	Bán hàng theo SP - Nhóm tồn kho 1	Sales per product - Stock group 1
+906175	Bán hàng theo SP - Nhóm tồn kho 2	Sales per product - Stock group 2
+906176	Người dùng hệ thống	System user
+906177	Người dùng <@APPNAME@>	<@APPNAME@> user
+906178	Nhập kho	Stock in
+906179	Xuất kho	Stock out
+906180	Mở ngăn kéo	Open drawer
+906181	Phiếu giao hàng (không mã)	Delivery note (no codes)
+906182	Phiếu giao hàng (mã 15)	Delivery note (15 code)
+906183	POS - STARTSP100	POS - STARTSP100
+906184	POS 1	POS 1
+906185	POS 2	POS 2
+906186	POS A4	POS A4
+906187	Mặc định A4	Default A4
+906188	Mặc định A4 (mã 10)	Default A4 (10 code)
+906189	Mặc định A4 (mã 15)	Default A4 (15 code)
+906190	Hóa đơn thử	Invoice test
+906191	Hóa đơn Tiếng Anh (mã 15)	Invoice English (15 code)
+906192	HĐ chi tiết Ngân hàng (không mã)	Invoice Bank details (no codes)
+906193	HĐ chi tiết Ngân hàng (mã 15)	Invoice Bank details (15 code)
+906194	Hóa đơn (không mã)	Invoice (no codes)
+906195	Phiếu ghi nợ (không mã)	Credit note (no codes)
+906196	Báo giá (không mã)	Quote (no codes)
+906197	Mua hàng (không mã)	Purchase (no codes)
+906198	Trả NCC (không mã)	Supplier return (no codes)
+906199	Đơn hàng (không mã)	Order (no codes)
+906200	Hóa đơn (mã 10)	Invoice (10 code)
+906201	Phiếu ghi nợ (mã 10)	Credit note (10 code)
+906202	Báo giá (mã 10)	Quote (10 code)
+906203	Mua hàng (mã 10)	Purchase (10 code)
+906204	Trả NCC (mã 10)	Supplier return (10 code)
+906205	Đơn hàng (mã 10)	Order (10 code)
+906206	Hóa đơn (mã 15)	Invoice (15 code)
+906207	Phiếu ghi nợ (mã 15)	Credit note (15 code)
+906208	Báo giá (mã 15)	Quote (15 code)
+906209	Mua hàng (mã 15)	Purchase (15 code)
+906210	Trả NCC (mã 15)	Supplier return (15 code)
+906211	Đơn hàng (mã 15)	Order (15 code)
+906212	Hóa đơn A4 (không mã)	Invoice A4 (no codes)
+906213	Phiếu ghi nợ A4 (không mã)	Credit note A4 (no codes)
+906214	Báo giá A4 (không mã)	Quote A4 (no codes)
+906215	Mua hàng A4 (không mã)	Purchase A4 (no codes)
+906216	Trả NCC A4 (không mã)	Supplier return A4 (no codes)
+906217	Đơn hàng A4 (không mã)	Order A4 (no codes)
+906218	Hóa đơn A4 (mã 10)	Invoice A4 (10 code)
+906219	Phiếu ghi nợ A4 (mã 10)	Credit note A4 (10 code)
+906220	Báo giá A4 (mã 10)	Quote A4 (10 code)
+906221	Mua hàng A4 (mã 10)	Purchase A4 (10 code)
+906222	Trả NCC A4 (mã 10)	Supplier return A4 (10 code)
+906223	Đơn hàng A4 (mã 10)	Order A4 (10 code)
+906224	Hóa đơn A4 (mã 15)	Invoice A4 (15 code)
+906225	Phiếu ghi nợ A4 (mã 15)	Credit note A4 (15 code)
+906226	Báo giá A4 (mã 15)	Quote A4 (15 code)
+906227	Mua hàng A4 (mã 15)	Purchase A4 (15 code)
+906228	Trả NCC A4 (mã 15)	Supplier return A4 (15 code)
+906229	Đơn hàng A4 (mã 15)	Order A4 (15 code)
+906230	HĐ A4 trơn (không mã)	Invoice A4 Plain (no codes)
+906231	Phiếu ghi nợ A4 trơn (không mã)	Credit note A4 Plain (no codes)
+906232	Báo giá A4 trơn (không mã)	Quote A4 Plain (no codes)
+906233	Mua hàng A4 trơn (không mã)	Purchase A4 Plain (no codes)
+906234	Trả NCC A4 trơn (không mã)	Supplier return A4 Plain (no codes)
+906235	Đơn hàng A4 trơn (không mã)	Order A4 Plain (no codes)
+906236	HĐ A4 trơn (mã 10)	Invoice A4 Plain (10 code)
+906237	Phiếu ghi nợ A4 trơn (mã 10)	Credit note A4 Plain (10 code)
+906238	Báo giá A4 trơn (mã 10)	Quote A4 Plain (10 code)
+906239	Mua hàng A4 trơn (mã 10)	Purchase A4 Plain (10 code)
+906240	Trả NCC A4 trơn (mã 10)	Supplier return A4 Plain (10 code)
+906241	Đơn hàng A4 trơn (mã 10)	Order A4 Plain (10 code)
+906242	HĐ A4 trơn (mã 15)	Invoice A4 Plain (15 code)
+906243	Phiếu ghi nợ A4 trơn (mã 15)	Credit note A4 Plain (15 code)
+906244	Báo giá A4 trơn (mã 15)	Quote A4 Plain (15 code)
+906245	Mua hàng A4 trơn (mã 15)	Purchase A4 Plain (15 code)
+906246	Trả NCC A4 trơn (mã 15)	Supplier return A4 Plain (15 code)
+906247	Đơn hàng A4 trơn (mã 15)	Order A4 Plain (15 code)
+906248	HĐ không thuế (không mã)	Invoice No Tax (no codes)
+906249	Phiếu ghi nợ không thuế (không mã)	Credit note No Tax (no codes)
+906250	Báo giá không thuế (không mã)	Quote No Tax (no codes)
+906251	Mua hàng không thuế (không mã)	Purchase No Tax (no codes)
+906252	Trả NCC không thuế (không mã)	Supplier return No Tax (no codes)
+906253	Đơn hàng không thuế (không mã)	Order No Tax (no codes)
+906254	HĐ không thuế (mã 15)	Invoice No Tax (15 code)
+906255	Phiếu ghi nợ không thuế (mã 15)	Credit note No Tax (15 code)
+906256	Báo giá không thuế (mã 15)	Quote No Tax (15 code)
+906257	Mua hàng không thuế (mã 15)	Purchase No Tax (15 code)
+906258	Trả NCC không thuế (mã 15)	Supplier return No Tax (15 code)
+906259	Đơn hàng không thuế (mã 15)	Order No Tax (15 code)
+906260	HĐ chi tiết Ngân hàng (mã 10)	Invoice Bank details (10 code)
+906261	Hóa đơn Tiếng Anh (mã 10)	Invoice English (10 code)
+906262	Hóa đơn Tiếng Anh (không mã)	Invoice English (no codes)
+906263	Báo cáo mới	New report
+906264	CHỨNG TỪ	DOCUMENTS
+906265	Báo cáo thuế	Tax report
+906266	Mục đã ghi sổ - Còn nợ	Posted items - Outstanding
+906267	Mục chưa ghi sổ - Còn nợ	Unposted items - Outstanding
+906268	Mức tồn kho hiện tại	Current stock levels
+906269	Tổng của	The sum of
+906270	Số tiền còn nợ	Amount outstanding
+906271	Số tiền GD gốc	Original transaction amount
+906272	Đã thanh toán cho	Paid to
+906273	Số thanh toán	Payment number
+906274	MUA TRẢ GÓP (cần trả)	LAY-BUYS (to pay)
+906275	Đã chấp nhận	accepted
+906276	Bố cục CT (mã 10)	Document layout (10 code)
+906277	Bố cục CT (mã 15)	Document layout (15 code)
+906278	Bố cục CT (không mã)	Document layout (no codes)
+906279	Nhà cung cấp 1	Supplier 1
+906280	Sổ Cái và thuế	Ledger and tax
+906281	Giá giả	Dummy price
+906282	Chuyển đổi thêm sang ngôn ngữ	Extra convert to languages
+906283	Tồn kho hoạt động	Active stock
+906284	Đánh dấu bản sao	Mark copy
+906285	Sao chép đa nhóm	Multi-group copy
+906286	Tổng báo cáo	Report total
+906287	Giao dịch Ghi Nợ	Debit transactions
+906288	Giao dịch Ghi Có	Credit transactions
+906289	Biểu đồ - Mua hàng theo tuần - SL	Graph - Purchases per week - Quantities
+906290	Biểu đồ - Mua hàng theo tuần - Số tiền	Graph - Purchases per week - Amount
+906291	Phiếu ghi nợ theo kỳ - Nhóm KH 1	Credit notes per period - Debtor group 1
+906292	Phiếu ghi nợ theo kỳ - Nhóm KH 2	Credit notes per period - Debtor group 2
+906293	Phiếu ghi nợ theo kỳ - Nhóm CT 1	Credit notes per period - Document group 1
+906294	Phiếu ghi nợ theo kỳ - Nhóm CT 2	Credit notes per period - Document group 2
+906295	Phiếu ghi nợ theo kỳ - Nv Bán hàng	Credit notes per period - Salesperson
+906296	Trả NCC theo kỳ - Nhóm NCC 1	Supplier returns per period - Creditor group 1
+906297	Trả NCC theo kỳ - Nhóm NCC 2	Supplier returns per period - Creditor group 2
+906298	Trả NCC theo kỳ - Nhóm CT 1	Supplier returns per period - Document group 1
+906299	Trả NCC theo kỳ - Nhóm CT 2	Supplier returns per period - Document group 2
+906300	Trả NCC theo kỳ - Nv Bán hàng	Supplier returns per period - Salesperson
+906301	Báo giá theo kỳ - Nhóm KH 1	Quotes per period - Debtor group 1
+906302	Báo giá theo kỳ - Nhóm KH 2	Quotes per period - Debtor group 2
+906303	Báo giá theo kỳ - Nhóm CT 1	Quotes per period - Document group 1
+906304	Báo giá theo kỳ - Nhóm CT 2	Quotes per period - Document group 2
+906305	Báo giá theo kỳ - Nv Bán hàng	Quotes per period - Salesperson
+906306	Đơn hàng theo kỳ - Nhóm NCC 1	Orders per period - Creditor group 1
+906307	Đơn hàng theo kỳ - Nhóm NCC 2	Orders per period - Creditor group 2
+906308	Đơn hàng theo kỳ - Nhóm CT 1	Orders per period - Document group 1
+906309	Đơn hàng theo kỳ - Nhóm CT 2	Orders per period - Document group 2
+906310	Đơn hàng theo kỳ - Nv Bán hàng	Orders per period - Salesperson
+906311	Phiếu ghi nợ theo kỳ - SL	Credit notes per period - Quantities
+906312	Phiếu ghi nợ theo kỳ - Số tiền	Credit notes per period - Amount
+906313	Trả NCC theo kỳ - SL	Supplier returns per period - Quantities
+906314	Trả NCC theo kỳ - Số tiền	Supplier returns per period - Amount
+906315	Báo giá theo kỳ - SL	Quotes per period - Quantities
+906316	Báo giá theo kỳ - Số tiền	Quotes per period - Amount
+906317	Đơn hàng theo kỳ - SL	Orders per period - Quantities
+906318	Đơn hàng theo kỳ - Số tiền	Orders per period - Amount
+906319	Biểu đồ - Phiếu ghi nợ theo tuần - SL	Graph - Credit notes per week - Quantities
+906320	Biểu đồ - Phiếu ghi nợ theo tuần - Số tiền	Graph - Credit notes per week - Amount
+906321	Biểu đồ - Trả NCC theo tuần - SL	Graph - Supplier returns per week - Quantities
+906322	Biểu đồ - Trả NCC theo tuần - Số tiền	Graph - Supplier returns per week - Amount
+906323	Biểu đồ - Báo giá theo tuần - SL	Graph - Quotes per week - Quantities
+906324	Biểu đồ - Báo giá theo tuần - Số tiền	Graph - Quotes per week - Amount
+906325	Biểu đồ - Đơn hàng theo tuần - SL	Graph - Orders per week - Quantities
+906326	Biểu đồ - Đơn hàng theo tuần - Số tiền	Graph - Orders per week - Amount
+906327	CT Mua hàng theo kỳ - Nhóm NCC 1	Purchase documents per period - Creditor group 1
+906328	CT Mua hàng theo kỳ - Nhóm NCC 2	Purchase documents per period - Creditor group 2
+906329	CT Mua hàng theo kỳ - Nhóm CT 1	Purchase documents per period - Document group 1
+906330	CT Mua hàng theo kỳ - Nhóm CT 2	Purchase documents per period - Document group 2
+906331	CT Mua hàng theo kỳ - Nv Bán hàng	Purchase documents per period - Salesperson
+906332	Bán hàng theo kỳ - Nhóm KH 1	Sales per period - Debtor group 1
+906333	Bán hàng theo kỳ - Nhóm KH 2	Sales per period - Debtor group 2
+906334	Bán hàng theo kỳ - Nhóm CT 1	Sales per period - Document group 1
+906335	Bán hàng theo kỳ - Nhóm CT 2	Sales per period - Document group 2
+906336	Bán hàng theo kỳ - Nv Bán hàng	Sales per period - Salesperson
+906337	Mua hàng & Trả NCC theo kỳ	Purchases and supplier returns per period
+906338	DS kiểm soát tín dụng (Hạn mức vs SD hiện tại) tính đến	Credit control listing (Credit limit vs current balance) as at 
+906339	MST & Mã ĐKKD	Tax and company registration numbers
+906440	Danh sách Giao dịch	Transaction list
+906441	Thực tế	Actual
+906442	Ngân sách so với Thực hiện 3 kỳ	Budget v/s realisation 3 periods
+906443	Số tham chiếu	Ref. no.
+906444	BC kiểm tra tính toàn vẹn dữ liệu	Data integrity check report
+906445	Ngày / Giờ	Date / Time
+906446	Mã (ID)	ID
+906447	Thanh toán chưa ghi sổ	Unposted payments
+906448	Phiếu thu chưa ghi sổ	Unposted receipts
+906449	BC thanh toán tự động	Automatic payments report
+906550	BC Thuế - Số tham chiếu / Số CT	Tax report - Reference / Document no.
+906551	Thông báo chuyển tiền NCC - Còn nợ	Creditor remittance advise - Outstanding
+906552	Sao kê KH - Còn nợ	Debtor statement - Outstanding
+906553	DS thuế NCC có MST	Tax list creditor with tax id
+906554	Lô hàng đã lỗi thời	Outdated batch
+906555	Lô hàng mua từ NCC	Batch bought from supplier
+906556	Lô hàng bán cho KH	Batch sold to customer
+906557	Biểu đồ	Graphs
+906558	Biểu đồ theo tuần	Graphs per week
+906559	Biểu đồ theo tháng	Graphs per month
+906560	Biểu đồ - Lãi/Lỗ theo tháng	Graph - Profit / Loss per month
+906561	Biểu đồ - KH theo tháng	Graph - Debtors per month
+906562	Biểu đồ - NCC theo tháng	Graph - Creditors per month
+906563	Biểu đồ - Báo giá theo tháng - SL	Graph - Quotes per month - Quantities
+906564	Biểu đồ - Báo giá theo tháng - Số tiền	Graph - Quotes per month - Amount
+906565	Biểu đồ - Phiếu ghi nợ theo tháng - SL	Graph - Credit notes per month - Quantities
+906566	Biểu đồ - Phiếu ghi nợ theo tháng - Số tiền	Graph - Credit notes per month - Amount
+906567	Biểu đồ - HĐ theo tháng - SL	Graph - Invoices per month - Quantities
+906568	Biểu đồ - HĐ theo tháng - Số tiền	Graph - Invoices per month - Amount
+906569	Biểu đồ - HĐ - Phiếu ghi nợ theo tháng - SL	Graph - Invoices - Credit notes per month - Quantities
+906570	Biểu đồ - HĐ - Phiếu ghi nợ theo tháng - Số tiền	Graph - Invoices - Credit notes per month - Amount
+906571	Biểu đồ - Mua hàng - Trả NCC theo tháng - SL	Graph - Purchases - Supplier returns per month - Quantities
+906572	Biểu đồ - Mua hàng - Trả NCC theo tháng - Số tiền	Graph - Purchases - Supplier returns per month - Amount
+906573	Biểu đồ - Đơn hàng theo tháng - Số tiền	Graph - Orders per month - Amount
+906574	Biểu đồ - Đơn hàng theo tháng - SL	Graph - Orders per month - Quantities
+906575	Biểu đồ - Trả NCC theo tháng - Số tiền	Graph - Supplier returns per month - Amount
+906576	Biểu đồ - Trả NCC theo tháng - SL	Graph - Supplier returns per month - Quantities
+906577	Biểu đồ - Mua hàng theo tháng - Số tiền	Graph - Purchases per month - Amount
+906578	Biểu đồ - Mua hàng theo tháng - SL	Graph - Purchases per month - Quantities
+906579	Biểu đồ - HĐ - Phiếu ghi nợ theo tuần - SL	Graph - Invoices - Credit notes per week - Quantities
+906580	Biểu đồ - HĐ - Phiếu Ghi Nợ theo tuần - Số tiền	Graph - Invoices - Credit notes per week - Amount
+906581	Biểu đồ - Mua Hàng - Trả NCC theo tuần - SL	Graph - Purchases - Supplier returns per week - Quantities
+906582	Biểu đồ - Mua Hàng - Trả NCC theo tuần - Số tiền	Graph - Purchases - Supplier returns per week - Amount
+906583	Mã Thuế - Thuế suất	Tax codes - Tax rates
+906584	Danh sách Sản xuất	Production list
+906585	DS Mặt hàng TK - Tồn kho HĐ	Stock item list - Active stock
+906586	Tồn kho - Số lượng dự kiến	Stock - Expected quantities
+906587	Số tham chiếu chứng từ	Document reference
+906588	Tài khoản giá trị tồn kho	Value stock account
+906589	Tệp Bố cục KHÔNG THUẾ	NO-TAX Layout file
+906590	Bố cục Chứng từ KHÔNG THUẾ	NO-TAX Document layout
+906591	Bố cục CT KHÔNG THUẾ (mã 15)	NO-TAX Document layout (15-code)
+1000000	Tệp Master Tiếng Anh - Không dịch. Tệp này chứa bản dịch liên quan đến Sổ Nhật ký thay vì Lô.	English Master File - Do Not Translate. This English Master file contains Journal in stead of Batch related translations.
+1000001	Chào mừng đến với <@APPNAME@>	Welcome to <@APPNAME@>
+1000002	Không dùng / Không dịch	Not used / Do not translate
+1000003	₫	*Your Currency
+1000004	<@APPNAME@>	<@APPNAME@>
+1000005	Phân tích tuổi nợ - Báo cáo đến hạn	Age analysis - Due report
+1000006	Không dùng / Không dịch	Not used / Do not translate
+1000007	Không dùng / Không dịch	Not used / Do not translate
+1000008	Không dùng / Không dịch	Not used / Do not translate
+1000009	Không dùng / Không dịch	Not used / Do not translate
+1000011	Không dùng / Không dịch	Not used / Do not translate
+1000012	Không dùng / Không dịch	Not used / Do not translate
+1000013	Không dùng / Không dịch	Not used / Do not translate
+1000014	Không dùng / Không dịch	Not used / Do not translate
+1000015	Không dùng / Không dịch	Not used / Do not translate
+1000016	Không dùng / Không dịch	Not used / Do not translate
+1000017	Không dùng / Không dịch	Not used / Do not translate
+1000018	Không dùng / Không dịch	Not used / Do not translate
+1000019	Không dùng / Không dịch	Not used / Do not translate
+1000020	Không dùng / Không dịch	Not used / Do not translate
+1000021	Không dùng / Không dịch	Not used / Do not translate
+1000022	Không dùng / Không dịch	Not used / Do not translate
+1000023	Không dùng / Không dịch	Not used / Do not translate
+1000024	Không dùng / Không dịch	Not used / Do not translate
+1000025	Không dùng / Không dịch	Not used / Do not translate
+1000026	Không dùng / Không dịch	Not used / Do not translate
+1000027	Không dùng / Không dịch	Not used / Do not translate
+1000028	Không dùng / Không dịch	Not used / Do not translate
+1000029	Không dùng / Không dịch	Not used / Do not translate
+1000030	Không dùng / Không dịch	Not used / Do not translate
+1000031	Không dùng / Không dịch	Not used / Do not translate
+1000032	Không dùng / Không dịch	Not used / Do not translate
+1000033	Không dùng / Không dịch	Not used / Do not translate
+1000034	Không dùng / Không dịch	Not used / Do not translate
+1000035	Không dùng / Không dịch	Not used / Do not translate
+1000036	Không dùng / Không dịch	Not used / Do not translate
+1000037	Không dùng / Không dịch	Not used / Do not translate
+1000038	Không dùng / Không dịch	Not used / Do not translate
+1000039	Không dùng / Không dịch	Not used / Do not translate
+1000040	Không dùng / Không dịch	Not used / Do not translate
+1000041	Không dùng / Không dịch	Not used / Do not translate
+1000042	Không dùng / Không dịch	Not used / Do not translate
+1000043	Không dùng / Không dịch	Not used / Do not translate
+1000044	Không dùng / Không dịch	Not used / Do not translate
+1000045	Không dùng / Không dịch	Not used / Do not translate
+1000046	Không dùng / Không dịch	Not used / Do not translate
+1000054	Không dùng / Không dịch	Not used / Do not translate
+1000055	Không dùng / Không dịch	Not used / Do not translate
+1000056	Không dùng / Không dịch	Not used / Do not translate
+1000057	Không dùng / Không dịch	Not used / Do not translate

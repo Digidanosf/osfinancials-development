@@ -1,0 +1,4072 @@
+﻿1	&Nej	&No
+2	&Ja	&Yes
+3	Januari	January
+4	Februari	February
+5	Mars	March
+6	April	April
+7	Maj	May
+8	Juni	June
+9	Juli	July
+10	Augusti	August
+11	September	September
+13	Oktober	October
+14	November	November
+15	December	December
+16	&Öppna ett bokföringsmaterial	&Open Set of Books
+17	&Skapa ett bokföringsmaterial	&Create Set of Books
+18	&Radera bokföringsmaterial	&Delete Set of Books
+19	Spara som	Save as
+20	&Byt språk	&Switch language
+21	&Avsluta <@APPNAME@>	&Exit <@APPNAME@>
+22	&Konton	&Accounts
+23	&Budgeter	&Budgets
+24	&Radera	&Delete
+25	&Återkommande transaktioner	&Repeating transactions
+26	Återkommande &fakturor	Repeating &invoices
+27	&Lager	Stock
+28	&Användarrapporter	&User reports
+29	Bankkonto	Bank account
+30	Leverantör	Creditors
+31	Kund	Debtors
+32	Huvudbok	General ledger
+33	Skattekonto	Tax account
+34	Konto	Account
+35	Användarrapport	User report
+36	Orderbekräftelse	Order confirmation
+37	Lagerartikel	Stock item
+38	Dokument	Documents
+39	Radera fakturor	Delete invoices
+40	Radera inköp	Delete purchases
+41	Radera leverantörsreturer	Delete supplier returns
+42	&Lagerjustering	&Adjust stock
+43	&Verifikatregistrering	&Journal entry
+44	&Avstäm banken	&Reconcile bank
+45	&Dokumentförteckning	&Documents listing
+46	Registrera post till reskontra	Input post to ledger
+47	&Kreditnotor	&Credit notes
+48	&Fakturor	&Invoices
+49	&Inköp	&Purchases
+50	Leverantörs&returer	Supplier &returns
+51	&Ange	&Enter
+52	&Skriv ut	&Print
+53	&Uppdatera reskontra	&Update ledger
+54	Skriv ut &följesedlar	Print &delivery notes
+55	&Verifikattyp	&Journal type
+56	&Leverantör	&Creditor
+57	&Kund	&Debtor
+58	&Huvudbok	&General ledger
+59	&Avstämning	&Reconciliation
+60	&Fakturor	&Invoices
+61	&Inköp	&Purchases
+62	&Lager	&Stock
+63	&Moms och skatt	&Tax
+64	&Användarrapporter	&User reports
+65	&Åldersanalys	&Age analysis
+66	&Förteckning	&Listing
+67	&Rörelser	&Movements
+68	&Skriv ut etiketter	&Print labels
+69	&Betalningsråd	&Remittance advises
+70	&Transaktioner	&Transactions
+71	&Kontoutdrag	&Statements
+72	&Budgetuppföljning	&Budget performance
+73	&Kontoplan	&Chart of accounts
+74	Transaktioner	Transactions
+75	&Huvudboken	&Trial balance
+76	&Restorderförteckning	&Backorder listing
+77	&Kreditnoteförteckning	&Credit note listing
+78	&Fakturaförteckning	&Invoice listing
+79	&Inköpsförteckning	&Purchases listing
+80	&Leverantörsreturförteckning	&Supplier return listing
+81	&Aktivitet	&Activity
+82	&Rörelsesammanfattning	&Movement summary
+83	&Återbeställningsrapport	&Reorder report
+84	&Lagerartikelförteckning	&Stock item listing
+85	Försäljningsanalys	Sales analysis
+86	&Fakturerade detaljer	&Invoiced details
+87	&Fakturerad sammanfattning	&Invoiced summary
+88	&Mottagna/betalda detaljer	&Received / paid details
+89	Mottagna/&betalda sammanfattning	Received / &paid summary
+90	&Åtkomstkontroll	&Access control
+91	Säkerhetskopierings&sökväg	Backup &path
+92	&Verifikattyper	&Journal types
+93	Företags&info	Company &info
+94	&Färger	&Colours
+95	Definiera &etiketter	Define &labels
+96	Proforma	Proforma
+97	&Grupper	&Groups
+98	&Dokument	&Documents
+99	&Skrivare	&Printer
+100	&Rapporteringsdatum	&Reporting dates
+101	Sälj&are	Sales&person
+102	&Kontoutdrag	&Statements
+103	Lagerinformation	Stock information
+104	&Säkerhetskopiera/återställ bokföringsmaterial	&Backup / Restore Set of Books
+105	&Kalkylator	&Calculator
+106	Kontroll av dataintegritet	Data integrity check
+107	&Exportera	&Export
+108	&Globala processer	&Global processes
+109	&Importera	&Import
+110	&Relänka öppna poster	&Open item relink
+111	&Återställ från säkerhetskopia	&Restore from backup
+112	&Granskare	&Viewer
+113	&Support	&Support
+114	&Rensa/återställ	&Clear / Reset
+115	&Utför bokslut	&Do year end
+116	&Avstäm	&Reconcile
+117	&Överför transaktioner	&Transfer transactions
+118	Återta avstämning	Unreconcile
+119	Om <@APPNAME@>	About <@APPNAME@>
+120	Arkiv	File
+121	Redigera	Edit
+122	Registrering	Input
+123	Rapporter	Reports
+124	Inställningar	Setup
+125	Verktyg	Tools
+126	Hjälp	Help
+127	Ett	One
+128	Två	Two
+129	Tre	Three
+130	Fyra	Four
+131	Fem	Five
+132	Sex	Six
+133	Sju	Seven
+134	Åtta	Eight
+135	Nio	Nine
+136	Tio	Ten
+137	Elva	Eleven
+138	Tolv	Twelve
+139	Tretton	Thirteen
+140	Fjorton	Fourteen
+141	Femton	Fifteen
+142	Sexton	Sixteen
+143	Sjutton	Seventeen
+144	Arton	Eighteen
+145	Nitton	Nineteen
+146	Tjugo	Twenty
+147	Trettio	Thirty
+148	Fyrtio	Forty
+149	Femtio	Fifty
+150	Sextio	Sixty
+151	Sjuttio	Seventy
+152	Åttio	Eighty
+153	Nittio	Ninety
+154	Hundra	Hundred
+155	Tusen	Thousand
+156	Miljon	Million
+157	Rands	Rands
+158	Cent	Cents
+159	Styckpris	Piece price
+160	Kunder	Debtors
+161	Leverantörer	Creditors
+162	Fakturahistorik	Invoice history
+163	&Öppna	&Open
+164	Verifikatregistrering	Journal entry
+165	Faktura	Invoice
+166	Kassa-/bankregistrering	Cash/Bank entry
+167	&OK	&OK
+168	&Avbryt	&Cancel
+169	&Stäng	&Close
+170	Förpackningsenhet	Packaging unit
+171	Välj språk	Choose a language
+172	Bokföringsmaterial	Set of Books
+173	Radera	Delete
+174	Skapa	Create
+175	Namn på nytt bokföringsmaterial	Name for a new Set of Books
+176	Kontonr	Account no.
+177	Underkonto	Sub-account
+178	Beskrivning	Description
+179	Rapporteringsgrupp 1	Reporting group 1
+180	Rapporteringsgrupp 2	Reporting group 2
+181	Utbetalningar	Payments
+182	Inbetalningar	Receipts
+183	Bankkonton	Bank accounts
+184	Konto för öppna poster	Open item account
+185	Namn	Name
+186	Adress	Address
+187	Telefon 1	Phone 1
+188	Telefon 2	Phone 2
+189	Fax	Fax
+190	Postnummer	Postal code
+191	E-post	E-mail
+192	Kreditgräns	Credit limit
+193	Debiterat belopp	Charge amount
+194	Nuvarande saldo	Current balance
+195	Senast betalt	Last paid
+196	Den	On
+197	Kontaktperson	Contactperson
+198	Säljare	Salesperson
+199	Leveransadress	Delivery address
+200	Meddelande	Message
+201	Konto inaktiverat	Account disabled
+202	Skatteregistreringsnummer	Tax reference
+203	Kundrabatt	Customer discount
+204	Månatlig ränta på förfallna belopp	Monthly interest on overdue amounts
+205	%	%
+206	Resultaträkning	Income statement
+207	Giltig från	Valid from
+208	Till	To
+209	Procent	Percentage
+210	Årlig	Annual
+211	Debet	Debit
+212	Kredit	Credit
+213	Lagerkod	Stock code
+214	Enheter	Units
+215	Senaste kostnad	Latest cost
+216	Försäljningspris 1	Selling price 1
+217	Försäljningspris 2	Selling price 2
+218	Försäljningspris 3	Selling price 3
+219	Ingående moms	Input tax
+220	Utgående moms	Output tax
+221	Återbeställningsnivå	Reorder level
+222	Tillämpa fakturarabatt	Apply invoice discount
+223	Försäljningskonto	Sales account
+224	Kostnad för sålda varor	Cost of sales
+225	Lagerkontroll	Stock control
+226	Genomsnittlig kostnad	Average cost
+227	Lagerkvantitet	Quantity on hand
+228	Total kostnad	Total cost
+229	Senaste faktura	Last invoice
+230	Från faktura	From invoice
+231	Till faktura	To invoice
+232	Inkludera artiklar till	Include items until
+233	Banksaldo	Bank balance
+234	Fakturanr	Invoice no.
+235	Postadress	Postal address
+236	Tillgänglig	Available
+237	Er referens	Your reference
+238	Datum	Date
+239	Meddelande	Message
+240	Skicka rapport till	Send report to
+241	Verifikattyp	Journal type
+242	Vilket år	Which year
+243	Från rapporteringsdatum	From reporting date
+244	Varje period separat	Each period separately
+245	Visa balanserande poster	Show balancing entries
+246	Från konto	From account
+247	Sekvens	Sequence
+248	Inkludera nollsaldo	Include zero balances
+249	Alternativ för leverantörstransaktionsrapport	Creditor transaction report options
+250	Bankkonton	Bank accounts
+251	Leverantörskonton	Creditor accounts
+252	Kundkonton	Debtor accounts
+253	Huvudbokskonton	General ledger accounts
+254	Momskonton	Tax accounts
+255	Budgetkonton	Budget accounts
+256	Bankkonton	Bank accounts
+257	Lagerartikel	Stock item
+258	Användarrapport	User report
+259	Avstäm bankkonto	Reconcile bank account
+260	Fakturering	Invoicing
+261	Alternativ för verifikattypsrapport	Journal type report options
+262	Alternativ för kontoförteckning	Account list options
+263	Alternativ för kundåldersanalys	Debtor age analysis options
+264	Minimibelopp	Minimum amount
+265	Använd öppna poster	Use open item
+266	Ignorera nollsaldo	Ignore zero balances
+267	Visa kontodetalj	Show account detail
+268	Sortera efter namn	Sort by name
+269	Visa transaktioner	Show transactions
+270	Datum för åldring	Date of ageing
+271	upp till	up to
+272	Månad(er) fram till	Month(s) up to
+273	Alternativ för kontoförteckning	Account list options
+274	Alternativ för kundrörelser	Debtor movement options
+275	Alternativ för kundtransaktionsrapport	Debtor transaction report options
+276	Visa underkonton	Show sub-accounts
+277	Alternativ för budgetuppföljning	Budget performance options
+278	Huvudboksalternativ	General ledger options
+279	Alternativ för leverantörsrörelser	Creditor movement options
+280	Alternativ för huvudbokskontorörelser	General ledger account movement options
+281	Huvudboksalternativ	Trial balance options
+282	Från	From
+283	Bankavstämning	Bank reconciliation
+284	Från fakturanummer	From invoice no.
+285	Till fakturanummer	To invoice no.
+286	Från datum	From date
+287	Till datum	To date
+288	Alternativ för dokumentförteckning	Documents listing options
+289	Från lagerkod	From stock code
+290	Alternativ för lageraktivitet	Stock activity options
+291	Åtkomstkontroll	Access control
+292	Lägg till	Add
+293	Radera	Delete
+294	Säkerhetsalternativ	Security Options
+295	Användarlösenord	User password
+296	Redigera konton	Edit accounts
+297	Redigera lager	Edit stock
+298	Verifikatregistrering	Journal entry
+299	Kreditnotanr	Credit note no.
+300	Fakturor	Invoices
+301	Systeminställningar	System setup
+302	Inköp	Purchases
+303	Leverantörsreturer	Supplier returns
+304	Inaktiverad	Disabled
+305	Leverantörsrapporter	Creditor reports
+306	Kundrapporter	Debtor reports
+307	Huvudboksrapporter	General ledger reports
+308	Lagerrapporter	Stock reports
+309	Användarrapporter	User reports
+310	Bokföring	Posting
+311	Globala processer	Global processes
+312	Tel	Tel
+313	Företagsnamn	Company name
+314	Skattemetod	Tax method
+315	Förfallokonto	Due account
+316	Org.nr	Company reg. no.
+317	Skatteregn.nr	Tax reg. no.
+318	Rapportera belopp med	Report amount with
+319	Ställ in Windows datumformat/stil	Set Windows date format/style
+320	Företagsinformation	Company info
+321	Nästa fakturanr	Next invoice no.
+322	Fakturaverifikat	Invoice journal
+323	Papperstyp	Paper type
+324	Fakturarubrik	Invoice heading
+325	Fakturameddelande	Invoice message
+326	Nästa kreditnotanr	Next credit note no.
+327	Kreditnotaverifikat	Credit note journal
+328	Kreditnoterubrik	Credit note heading
+329	Kreditnotameddelande	Credit note message
+330	Nästa inköpsnr	Next purchase no.
+331	Inköpsverifikat	Purchase journal
+332	Inköpsrubrik	Purchase heading
+333	Inköpsmeddelande	Purchase message
+334	Nästa leverantörsretur nr	Next supplier return no.
+335	Leverantörsreturverifikat	Supplier return journal
+336	Leverantörsreturrubrik	Supplier return heading
+337	Leverantörsreturmeddelande	Supplier return message
+338	Nästa ordernummer	Next order no.
+339	Orderrubrik	Order heading
+340	Ordermeddelande	Order message
+341	Nästa offertnr	Next quote no.
+342	Offertrubrik	Quote heading
+343	Offertmeddelande	Quote message
+344	Dokumentinställningar	Documents setup
+345	Grupper	Groups
+346	Betalningssätt	Payment types
+347	Kontoutdragsinställningar	Statement setup
+348	Kontoutdragsmeddelande	Statement message
+349	Verifikat för kostnad för sålda varor	Cost of sales journal
+350	Lagerinformation	Stock information
+351	Skapa kostnad för sålda varor	Create cost of sales
+352	Allmän information	General information
+353	Redovisningsinformation	Accounting information
+354	Kontoutdrag	Statements
+355	Beskrivning	Description
+356	Redigera	Edit
+357	Återställ	Reset
+358	Uppdatera	Update
+359	Relänka öppna poster	Open item relink
+360	Länka öppen post	Open item link
+365	Om <@APPNAME@>	About <@APPNAME@>
+366	Verifikatregistrering	Journal entry
+367	^D: Radera	^D: Delete
+368	^N: Infoga	^N: Insert
+369	F5: Saldo	F5: Balance
+370	F6: Bokför	F6: Post
+371	F7: Exklusiv	F7: Exclusive
+372	F8: Förteckning	F8: List
+373	F9: Process	F9: Process
+374	F10: Inställningar	F10: Setup
+375	Inklusive belopp:	Inclusive amount:
+376	Exklusive belopp:	Exclusive amount:
+377	Referenssumma:	Reference total:
+378	Fördela till:	Allocate to:
+379	Motkonto:	Contra account:
+380	Försäljning per kund	Sales per customer
+381	Försäljning per produkt	Sales per product
+382	Försäljning per säljare	Sales per salesperson
+383	Försäljning per grupp	Sales per group
+384	Alternativ för försäljning per kund	Sales per customer options
+385	Alternativ för försäljning per produkt	Sales per product options
+386	Alternativ för försäljning per säljare	Sales per salesperson options
+387	Alternativ för försäljning per grupp	Sales per group options
+388	Från grupp	From group
+389	Från produkt	From product
+390	Alternativ för skatterapport	Tax report options
+391	Skattekod	Tax code
+392	Visa detaljer	Show details
+393	Klassisk	Classic
+394	Brilliant	Brilliant
+395	Ny SA	New SA
+396	Tema	Theme
+397	Kristen	Christian
+398	Komisk	Comic
+399	Egypten	Egypt
+400	Judisk	Jewish
+401	Skotsk	Scottish
+402	Rymd	Space
+403	Vildliv	Wildlife
+404	Länka öppen post	Open item link
+405	Uppdatera fakturor	Update invoices
+406	Datum för kontoutdrag	Date of statements
+407	Visa momstransaktioner	Show tax transactions
+408	Kundrapporter	Debtor reports
+409	Visa moms separat	Show tax separately
+410	Alternativ för lagerrörelse	Stock movement options
+411	Alternativ för lagerförteckning	Stock list options
+412	Information som ska inkluderas	Information to include
+413	Kvantitet	Quantity
+414	Inköpspris	Cost price
+415	Lagerantal	Stock count
+416	Försäljningspris	Selling price
+417	Lagervärde	Stock value
+418	Offerter	Quotes
+419	Leverantörsreturer	Supplier returns
+420	Kontogrupper	Account groups
+421	Kundgrupper	Debtor groups
+422	Leverantörsgrupper	Creditor groups
+423	Lagergrupper	Stock groups
+424	Dokumentgrupper	Document groups
+425	Varning! Detta kommer att allvarligt påverka bokföringsmaterialet. Vill du fortsätta?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?
+426	Du har valt att radera alla användare! Åtkomstkontroll inaktiveras nu.	You have chosen to delete all users! Access control will now be disabled!
+427	Det finns obokförda verifikat kopplade till denna användare! Bokför eller radera dem innan du raderar användaren.	There are unposted journals associated with this user! Please post or delete them before deleting this user.
+428	Det finns verifikat kopplade till denna användare! Välj en ny användare att tilldela dem till.	There are journals associated with this user! Please select a new user to assign these journals to.
+429	Det finns transaktioner kopplade till denna användare! Välj en ny användare att tilldela dem till.	There are transactions associated with this user! Please select a new user to assign these transactions to.
+430	Vill du spara ändringarna för denna användare?	Do you wish to save the changes to this user?
+431	Ange ett lösenord för denna användare!	Please type in a password for this user!
+432	Skapa detta konto?	Create this account?
+433	Ogiltigt kontonummer! Det första tecknet måste vara en siffra.	Invalid account number! The first character must be a number!
+434	Detta är inte ett bankkonto!	This is not a bank account!
+435	Vill du spara ändringarna?	Do you want to save the changes?
+436	!!! FATALT FILFEL 12 !!!	!!! FATAL FILE ERROR 12 !!!
+437	Är du säker på att du vill radera denna transaktion?	Are you sure you wish to delete this transaction?
+438	Vill du allokera denna transaktion till förra året?	Do you wish to allocate this transaction to last year?
+439	Verifikatet är inte i balans!	Journal is not in balance!
+440	Kontot existerar inte. Vill du skapa det?	Account does not exist, do you wish to create it?
+441	Vill du fortsätta rapporteringen?	Do you want to continue reporting?
+442	Kan inte radera denna verifikattyp! Den har verifikat kopplade till sig.	Cannot delete this journal type! It has journals associated with it!
+443	Att redigera verifikattyper kommer att allvarligt påverka bokföringsmaterialet! Är du säker på att du vill göra detta?	Editing journal types will seriously affect your Set of Books! Are you sure you want to do this?
+444	Detta kommer att allvarligt påverka bokföringsmaterialet! Vill du avbryta nu?	This will seriously affect your Set of Books! Do you wish to cancel now?
+445	Vill du spara ändringarna?	Do you want to save these changes?
+446	Är du säker på att du vill skapa	Are you sure you want to create the
+447	bokföringsmaterialet?	 Set of Books?
+448	Bokföringsmaterial skapat!	 Set of Books created!
+449	Fel vid skapande av bokföringsmaterial!	Error creating books!
+450	Detta	The
+451	Bokföringsmaterialet existerar redan!	 Set of Books already exist!
+452	Konto får inte vara tomt!	Account cannot be blank!
+453	Det första tecknet i kontonumret måste vara en siffra!	The first character of the account number must be a number!
+454	Klart!	Finished!
+455	Denna mapp innehåller inte ett TurboCASH 2.01, 2.02 eller 2.03 bokföringsmaterial!	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!
+456	Är du säker på att du vill avbryta?	Are you sure you wish to cancel?
+457	Vill du skapa detta konto?	Do you want to create this account?
+458	Är du säker på att du vill radera	Are you sure you want to delete the
+459	kontouppsättningen?	set of accounts?
+460	Är du säker på att du vill radera detta konto?	Are you sure you want to delete this account?
+461	Detta konto innehåller	This account contains
+462	underkonto(n) och kan inte raderas!	Sub-account(s) and cannot be deleted!
+463	Du kan inte radera denna lagerartikel! Den har transaktioner.	You cannot delete this stock item! It has transactions!
+464	Är du säker på att du vill radera denna lagerartikel?	Are you sure you want to delete this stock item?
+465	Lagerartikel raderad!	Stock item deleted!
+466	Denna lagerartikel existerar inte!	This stock item does not exist!
+467	Detta är inte ett huvudbokskonto!	This is not a general ledger account!
+468	Detta konto är fortfarande aktivt! Alla transaktioner flyttas till ett nytt underkonto. Vill du skapa underkontot?	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?
+469	Detta är inte ett momskonto!	This is not a tax account!
+470	Länkbeloppet måste vara mindre än eller lika med	The link amount has to be less than or equal to
+471	Du har inte skapat ett bokföringsmaterial ännu!	You have not set up a Set of Books yet!
+472	Denna post är redan länkad!	This entry is already linked!
+473	Ingenting att länka för denna kund!	Nothing to link for this debtor!
+474	Är du säker på att du vill avlänka denna post?	Are you sure you want to unlink this entry?
+475	Ogiltigt lösenord!	Invalid password!
+476	Datumkonflikt! Kontrollera datum 1	Date conflict !!!! Check date 1
+477	Datumkonflikt! Kontrollera datum 2	Date conflict !!!! Check date 2
+478	Datumkonflikt! Kontrollera datum 3	Date conflict !!!! Check date 3
+479	Datumkonflikt! Kontrollera datum 4	Date conflict !!!! Check date 4
+480	Datumkonflikt! Kontrollera datum 5	Date conflict !!!! Check date 5
+481	Datumkonflikt! Kontrollera datum 6	Date conflict !!!! Check date 6
+482	Datumkonflikt! Kontrollera datum 7	Date conflict !!!! Check date 7
+483	Datumkonflikt! Kontrollera datum 8	Date conflict !!!! Check date 8
+484	Datumkonflikt! Kontrollera datum 9	Date conflict !!!! Check date 9
+485	Datumkonflikt! Kontrollera datum 10	Date conflict !!!! Check date 10
+486	Datumkonflikt! Kontrollera datum 11	Date conflict !!!! Check date 11
+487	Datumkonflikt! Kontrollera datum 12	Date conflict !!!! Check date 12
+488	Datumkonflikt! Kontrollera datum 13	Date conflict !!!! Check date 13
+489	Endast perioder mellan 1 och 13 är tillåtna!	Only periods between 1 and 13 are allowed!
+490	Är du säker på att du vill avbryta ändringarna?	Are you sure you want to cancel the changes?
+491	Inga poster att avstämma!	No items to reconcile!
+492	Detta är inte ett intäkts-/kostnadskonto!	This is not an income / expense account!
+493	Detta konto innehåller underkonton!	This account contains sub-accounts!
+494	Vill du skapa denna lagerartikel?	Do you wish to create this stock item?
+495	Fel vid bokföring av faktura! Återställ säkerhetskopian.	Error posting invoice! Please restore backup!
+496	Välj en användarrapport	Select a user report
+497	Lagerenheter	Units of stock
+498	Försäljningsprisbeskrivningar	Selling price descriptions
+499	Kostnad för sålda varor	Cost of sales
+500	Vill du köra kontroll av dataintegritet innan säkerhetskopieringen?	Do you want to run the Data integrity check before making the backup?
+501	Vill du fortsätta med säkerhetskopieringen?	Do you wish to continue with the backup?
+502	!!! Allvarligt filfel 11 !!!	!!! FATAL FILE ERROR 11 !!!
+503	Datumet är utanför det aktuella året! Det måste vara mellan	This date is out of the current year! It must be between
+504	och	and
+505	Vill du skriva ut fakturan nu?	Do you wish to print this Invoice now?
+506	Varning, det finns	Warning there are
+507	artiklar i lager.	items on hand.
+508	Är du säker på att du vill rensa alla poster i denna faktura?	Are you sure you want to clear all the entries in this Invoice?
+509	Ogiltig rabatt! Beloppet måste vara positivt!	Invalid discount! Amount must be positive!
+510	Vill du köra kontroll av dataintegritet före säkerhetskopiering?	Do you want to run the Data integrity check before making the backup?
+511	Säkerhetskopiering slutförd.	Backup completed!
+512	Varning, detta kommer att skriva över din nuvarande uppsättning böcker! Är du säker på att du vill fortsätta?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?
+513	Sätt i din säkerhetskopieringsdisk i enheten och fortsätt, eller avbryt åtgärden nu.	Please insert your backup disk in the drive and continue, or cancel the operation now.
+514	Återställning slutförd!	Restore completed!
+515	Detta exemplar av <@APPNAME@> är inte registrerat. Vill du registrera det nu?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+516	Detta raderar all din information. Är du säker på att du vill göra detta?	This will delete all your information! Are you sure you want to do this?
+517	Slutfört!	Finished!
+518	Denna katalog innehåller ingen uppsättning böcker!	This directory does not contain a Set of Books!
+519	Detta kommer allvarligt att påverka din uppsättning böcker! Är du säker på att du vill rensa denna uppsättning böcker?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?
+520	Vänligen fyll i registreringsformuläret.	Please complete the registration form!
+521	Ogiltig upplåsningskod!	Invalid unlocking code!
+522	Vill du avbryta registreringen?	Do you wish to cancel registration?
+523	Detta konto har transaktioner. Vill du överföra transaktionerna till ett annat konto?	This account has transactions! Do you wish to transfer the transactions to another account?
+524	Du kan inte överföra till detta konto! Det har underkonton!	You cannot transfer to this account! It has sub-accounts!
+525	Konto raderat!	Account deleted!
+526	Denna kund har transaktioner. Vill du överföra transaktionerna till en annan kund?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
+527	Denna leverantör har transaktioner. Vill du överföra transaktionerna till en annan leverantör?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
+528	Detta bankkonto har transaktioner. Vill du överföra transaktionerna till ett annat bankkonto?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?
+529	Detta skattekonto har transaktioner. Vill du överföra transaktionerna till ett annat skattekonto?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?
+530	Varning, det finns	Warning, there are
+531	Obokförda verifikationsuppsättningar och	Unposted journals and
+532	Obokförda verifikationsuppsättningar	Unposted journals
+533	Obokförda dokument	Unposted documents
+534	Egenskaper	Properties
+535	Ändra egenskaper för uppsättningen böcker	Change Set of Books properties
+536	Ange namnet på uppsättningen böcker.	Enter the name of the Set of Books
+537	Ange sökvägen där böckerna är lagrade.	Enter the path where the books are stored
+538	Ändra	Change
+539	En uppsättning böcker som kallas	A Set of Books called
+540	Skapandeguide	Creation wizard
+541	Vänligen välj en uppsättning böcker i listan nedan, eller klicka på knappen [Bläddra] för att välja den uppsättning böcker du vill kopiera till en mapp någon annanstans i ditt system.	Please select a Set of Books from the list below, or click [Browse] button to select the Set of Books you wish to copy in a folder elsewhere on your system.
+542	Bläddra	Browse
+543	Slutför	Finish
+544	Välkommen till <@APPNAME@> Skapandeguide för uppsättning böcker. Välj ett alternativ och klicka på knappen [Nästa], eller klicka på knappen [Avbryt] för att avbryta skapandet av en ny uppsättning böcker.	Welcome to the <@APPNAME@> Set of Books Creation wizard. Please select an option and click on the [Next] button, or click on the [Cancel] button to cancel the creation of a new Set of Books.
+545	Vill du:	Do you wish to:
+546	Konvertera från en äldre version av TurboCASH (v 2.01, 2.02, 2.03)?	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)
+547	Kopiera en befintlig uppsättning böcker?	Copy an existing Set of Books
+548	Låt <@APPNAME@> hjälpa dig att skapa en uppsättning böcker?	Let <@APPNAME@> help you to create a Set of Books
+549	Anpassa din egen uppsättning böcker (Avancerat)?	Customise your own Set of Books (Advanced)
+550	Konvertera TurboCASH3 till <@APPNAME@>?	Convert TurboCASH3 to <@APPNAME@>
+551	Nästa >>	Next >>
+552	Kontrollkonto för leverantörsskulder	Creditors control
+553	Kontrollkonto för kundfordringar	Debtors control
+554	Balanserade vinstmedel	Retained earnings
+555	Skapar kontouppsättning...	Creating set of accounts...
+556	Du måste nu ange antalet perioder i ditt räkenskapsår och datumet för årets början!	You now need to type in the number of periods there are in your financial year and the date of the start of the year!
+557	Klicka på [Slutför] för att ange dina:	Please click [Finish] to specify your:
+558	Denna katalog innehåller inte en uppsättning böcker, eller så är uppsättningen böcker skadad!	This directory does not contain a Set of Books, or the Set of Books is damaged!
+559	Du måste välja en uppsättning böcker eller katalog att kopiera.	You have to choose a Set of Books or directory to copy
+560	Skapar uppsättning böcker...	Creating Set of Books...
+561	Skapar nödvändiga konton...	Creating required accounts...
+562	Skapar nödvändiga konton (Kontrollkonto för leverantörsskulder)...	Creating required accounts (Creditors control)...
+563	Skapar nödvändiga konton (Kontrollkonto för kundfordringar)...	Creating required accounts (Debtors control)...
+564	Skapar nödvändiga konton (Balanserade vinstmedel)...	Creating required accounts (Retained earnings)...
+565	Konverterar uppsättning böcker...	Converting Set of Books...
+566	Läser data från Pastel...	Reading data from Pastel...
+567	Konverterar systemvariabler från Pastel...	Converting Pastel system variables...
+568	Konverterar konton från Pastel...	Converting Pastel accounts...
+569	Konverterar lager från Pastel...	Converting Pastel stock...
+570	Konverterar verifikationsuppsättningar från Pastel...	Converting Pastel journals...
+571	Välj en Pastel datamapp	Please select a Pastel data folder
+572	Välj en gammal uppsättning böcker att konvertera från i listan nedan.	Please select an old Set of Books to convert from the list below.
+573	Välj Pastel Partner-data att konvertera från i listan nedan.	Please select Pastel Partner Data to convert from the list below.
+574	Välj en katalog	Pick a directory
+575	Nummer	Number
+576	Rapporteringsdatum	Reporting dates
+577	Startdatum	Start date
+578	Bokför till andra år	Post to other years
+579	Slutar den	Ends on
+580	Öppen för bokföring	Open for posting
+581	*Översätt: Ange dina uppgifter	*Translate : Enter your details
+582	&Klient-server	&Client server
+583	&Inställningar	&Preferences
+584	&Systemparametrar	&System parameters
+585	&Åtkomstkontroll	&Access control
+586	&Hjälp	&Help
+587	Fakturainmatning	Invoice entry
+588	Fel	Error
+589	Varning, detta datum infaller inte under något av detta eller förra årets rapporteringsdatum!	Warning, this date does not fall into any of this or last year's reporting dates!
+590	Denna verifikationsuppsättning validerar inte!	This journal does not validate!
+591	är i obalans med	is out of balance by
+592	Rad	Line
+593	Tillåt båda	Allow both
+594	Verifikationsuppsättningen innehåller transaktioner som bokförs till förra året!	Journal contains transactions posting to last year!
+595	Vill du fortsätta bokföringen?	Do you want to continue posting?
+596	Kan inte bokföra till huvudkonto som innehåller underkonton!	Cannot post to main account containing Sub-accounts!
+597	Kontot finns inte! Vill du skapa det?	Account does not exist! Do you wish to create it?
+598	Ingen data att importera!	No data to import!
+599	Ange månad och år att upprepa poster till	Enter month and year to repeat entries to
+600	Period	Period
+601	År	Year
+602	&Välj motkonto	&Select contra account
+603	Detta år	This year
+604	Förra året	Last year
+605	Kod	Code
+606	Beskrivning	Description
+607	Referens	Reference
+608	Konto	Account
+609	Skatt	Tax
+610	Förkortningsdefinition	Abbreviation definition
+611	Saldoverifikation	Balance journal
+612	Import av avgränsad fil	Delimited file import
+613	Radera verifikationsuppsättning	Erase journal
+614	Generera flera transaktioner	Generate multiple transactions
+615	Lista verifikationsuppsättning	List journal
+616	Bokför verifikationsuppsättning	Post journal
+617	Återkommande transaktioner	Repeating transactions
+618	Summor för varje period	Totals for each period
+619	Skriv avgränsad fil	Write delimited file
+620	Bearbeta verifikationsuppsättningen	Process the journal
+621	Är du säker på att du vill radera hela denna verifikationsuppsättning?	Are you sure you want to erase this entire journal?
+622	Alternativ för denna verifikationsuppsättning	Options for this journal
+623	Öka referensnummer	Increment reference
+624	Upprepa detaljer	Repeat details
+625	Motkonto per rad	Contra account per line
+626	Konsolidera balansering	Consolidate balancing
+627	Beloppsinmatning	Amount entry
+628	Bekräftelse	Confirmation
+629	Information	Information
+630	Varning	Warning
+631	Du kan inte rapportera från	You cannot report from
+632	existerar redan!	already exists!
+633	Välj Pastel datamapp!!!	Select Pastel data folder !!!
+635	Du måste ha en uppsättning böcker öppen för att använda det här alternativet!	You must have a Set of Books open to use this option!
+636	Du har inte ställt in en uppsättning böcker ännu!	You have not set up a Set of Books yet!
+637	Inkludera ingående balanser	Include opening balances
+638	Du kan inte välja detta konto eftersom det innehåller underkonton!	You cannot select this account because it contains sub-accounts!
+639	Informationen på denna rad kommer att förloras om den ändras till en kommentar!	The information on this line will be lost if it's changed to comment!
+640	Är du säker på att du vill ha en kommentar på denna rad?	Are you sure you want a comment on this line?
+641	Detta kommer radikalt att ändra dina data! Vi rekommenderar att du avbryter och gör en säkerhetskopiering!	This will radically alter your data! We recommend that you stop and make a backup!
+642	Vill du fortsätta?	Do you wish to continue?
+643	Detta konto har en ingående balans från förra året! Du kan inte radera kontot!	This account has an opening last year balance! You cannot delete the account!
+644	Detta konto är inte ett intäkts-/kostnadskonto!	This account is not an income / expense account!
+645	Totalt exklusive	Exclusive total
+646	Totalt fakturabelopp	Invoice total
+647	Total rabatt	Total discount
+648	Enhet exkl.	Unit excl.
+649	Enhet inkl.	Unit incl.
+650	Belopp exkl.	Amount excl.
+651	Belopp inkl.	Amount incl.
+652	Artikelkod	Item code
+653	Beskrivning	Description
+655	Antal beställt	Qty order
+656	Antal levererat	Qty ship
+657	Rabatt	Disc.
+658	F8: Rabatt	F8: Discount
+659	F9: Kommentar	F9: Comment
+660	F10: Radera alla	F10: Delete all
+662	&Kommentarrad	&Comment line
+663	&Ange total rabatt	&Enter overall discount
+664	F7: Inklusive	F7: Inclusive
+665	Du har ändrat betalnings- och kvittoverifikationen! Detta kommer att skada din avstämning. Vill du fortsätta?	You have changed payment and receipt journal! This will corrupt your recon! Do you wish to continue?
+666	Kontrollkonto kan inte användas!	Control account cannot be used!
+667	Du har ändrat procentandelen!	You have changed the percentage!
+668	Kan inte ha budgetar för ett konto med underkonton!	Cannot have budgets for an account which has sub-accounts!
+669	Huvudbokskonto kan inte användas!	General ledger account cannot be used!
+670	Kreditnotainmatning	Credit note entry
+671	F10: Radera kreditnota	F10: Delete credit note
+673	Vill du skriva ut denna kreditnota nu?	Do you wish to print this credit note now?
+674	Uppdatera kreditnotor	Update credit notes
+675	Från kreditnota	From credit note
+676	Till kreditnota	To credit note
+677	Fortsätt	Continue
+678	Det finns ingen faktura att skriva ut!	There is no invoice to print!
+679	Kan inte ha samma typ av betalningsverifikation som för ett annat bankkonto!	Cannot have the same payments journal type as for another bank account!
+680	Remittering	Remittance
+681	Remitteringsmeddelande	Remittance message
+682	Mottagna varor	Goods received
+683	Kan inte ha samma typ av kvittoverifikation som för ett annat bankkonto!	Cannot have the same receipt journal type as for another bank account!
+684	Enhetspris	Unit price
+685	Är du säker på att du vill rensa alla poster i detta inköp?	Are you sure you want to clear all the entries in this purchase?
+686	Skriv ut ett inköpsdokument nu?	Print a purchase document now?
+687	Skatt exkluderad	Tax excluded
+688	Skatt inkluderad	Tax included
+689	Kreditnotahistorik	Credit note history
+690	Historik över leverantörsreturer	Supplier return history
+691	Inköpshistorik	Purchases history
+692	Offerthistorik	Quote history
+693	Orderhistorik	Orders history
+694	Från inköp	From purchase
+695	Radera kreditnotor	Delete credit notes
+696	Ogiltigt nästa nummer! Ändra det i Inställningar → Dokumentinställning!	Invalid next number! Change it in 'Setup → Documents setup'!
+697	Vill du fortsätta säkerhetskopieringen?	Do you want to continue backup?
+698	Vill du fortsätta återställningen från?	Do you want to continue restore from?
+699	Ingen uppsättning böcker vald!	No Set of Books selected!
+700	Uppdatera inköp	Update purchase
+701	Uppdatera leverantörsreturer	Update supplier returns
+702	Från leverantörsretur	From supplier return
+703	Inköpsnr	Purchase no.
+704	Leverantörsretur nr	Supplier ret. no.
+705	Leverantörsretur	Supplier return
+706	Kreditnotor	Credit notes
+707	Vill du skriva ut denna order?	Do you wish to print this order?
+708	Vill du skriva ut denna leverantörsretur?	Do you wish to print this supplier return?
+709	Vill du skriva ut detta inköp?	Do you wish to print this purchase?
+710	Vill du skriva ut denna offert?	Do you wish to print this quote?
+711	Kör 'Inställningar → Verifikationstyper' och välj motkonto för denna verifikationsuppsättning!	Run 'Setup → Journal types' and select contra account for this journal!
+712	Är du säker på att du vill radera informationen på denna rad?	Are you sure you wish to delete this row's information?
+713	Uppdatering av klient-server	Client server update
+714	Internetuppdatering	Internet update
+715	Vill du radera denna etikettdefinition?	Do want to delete this label definitions?
+716	Plats:	Location :
+717	Uppsättning böcker hittades inte! Katalogen existerar inte:	Set of Books not found! Directory doesn't exist:
+718	Eller problem med en nätverksmappad enhet	Or trouble on a network mapped drive
+719	Detta raderar all din information! Är du säker på att du vill fortsätta?	This will delete all your information! Are you sure you want to continue?
+720	Btrv-fel:	Btrv error:
+721	Inget att länka till för denna leverantör!	Nothing to link for this creditor!
+722	Varning, om du klickar [Ja] förlorar du alla dina nuvarande länkar för detta konto!	Warning, if you click [Yes] you will lose all your current links for this account!
+723	Sätt i disk i	Insert disk in
+724	Internetinställningsinformationen är felaktig! Kör 'Inställningar → Internet'.	Internet setup information is incorrect! Run 'Setup → Internet'.
+725	Vill du radera?	Do you want to delete?
+726	Spara	Save
+727	&Första	&First
+728	&Föregående	&Previous
+729	&Nästa	&Next
+730	&Sista	&Last
+731	&Zooma	&Zoom
+732	Kopior	Copies
+733	Utskriftsintervall	Print range
+734	&Sidor	&Pages
+735	&Från	&From
+736	&Till	&To
+737	&Alla sidor	&All pages
+738	Antal &kopior	Number of &copies
+739	Fel vid export av rapport!	Exporting report error!
+740	Fel vid skapande av Tmp!	Error when creating Tmp!
+741	Ogiltigt lösenord!	Invalid password!
+742	Du kan inte använda detta som ett motkonto! Det innehåller underkonton!	You cannot use this account as a contra account! It contains sub-accounts!
+743	Skapa katalog	Create directory
+744	Den uppsättningen böcker existerar redan! Vänligen skriv in igen!	That Set of Books already exists! Please re-enter!
+745	Kunde inte skapa katalog!	Couldn't create directory!
+746	Vänligen skriv in igen!	Please re-enter!
+747	Ingen data att skriva ut!	No data to print!
+748	Ogiltig kontokod!	Illegal account code!
+750	Skattefaktura nr	Tax Invoice no.
+751	Offert nr	Quote no.
+752	Leverantörsretur nr	Supplier return no.
+753	Ogiltig mediatyp för säkerhetskopiering!	Invalid media type for backup!
+754	Kan inte radera ett kontrollkonto!	Cannot delete a control account!
+755	Uppsättningen böcker	The Set of Books
+756	kommer permanent att tas bort från disken!	will permanently be removed from disk!
+757	Vill du avbryta raderingen?	Do you want to cancel the deletion?
+758	Kreditnota nr	Credit note no.
+759	Inköpsnr	Purchase no.
+761	Kvitto för mottagna varor	Goods received voucher
+762	Order nr	Order no.
+763	Ingående balans vid bokföring	Balance brought forward when posting
+764	Klicka sedan på [Stäng] för att avsluta skapandeguiden.	Then click [Close] to finish the Creation wizard.
+765	Kundens saldo överskrider kreditgränsen med:	Debtor's balance is over credit limit with:
+766	Kan inte överföra transaktioner till samma konto!	Cannot transfer transactions to the same account!
+767	Senaste gången du arbetade med denna uppsättning böcker stängde du inte programmet korrekt!	The last time that you worked with this Set of Books you did not exit the program properly!
+768	Om du stöter på några problem, återställ dina data från en säkerhetskopia.	If you encounter any problems, restore your data from a backup.
+769	<@APPNAME@> vill påminna dig om att:	<@APPNAME@> would like to remind you that:
+770	Det är god praxis att göra regelbundna säkerhetskopieringar och arkivera kopior av dina uppsättningar böcker för att förhindra dataförlust.	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.
+771	Offert nr	Quote no.
+772	Från offert	From quote
+773	Från order	From order
+774	Detta konto har saldon, kan inte raderas!	This account has balances, cannot be deleted!
+775	Vill du skapa denna kontaktperson?	Do you want to create this contactperson?
+776	Vill du radera denna kontaktperson?	Do you want to delete this contactperson?
+777	Kontaktperson raderad!	Contactperson deleted!
+778	Ogiltigt kontaktnamn!	Illegal contact name!
+779	Kontonummer bör vara unika!	Account numbers should be unique!
+780	Alla transaktioner kommer att tas bort och kontosaldona kommer att nollställas!	All transactions will be removed and account balances will be set to zero!
+781	Vill du avbryta nollställningsprocessen?	Do you want to cancel the clearing process?
+782	existerar redan!	already exist!
+783	Ogiltigt dokumentnummer!	Illegal document number!
+784	Ogiltig artikelkod!	Illegal stock code!
+785	Saldo kunder med belopp < x.xx	Balance debtors with amount < x.xx
+786	Leverantörer med debiteringsbelopp	Creditors with charge amount
+787	Kunder med debiteringsbelopp	Debtors with charge amount
+788	Fast belopp till alla kunder	Fixed amount to all debtors
+789	Ränta på förfallna kundfordringar	Interest on overdue debtors
+790	Leverantörssaldon per datum	Creditor balances at date
+791	Skapa kvitton	Create receipts
+792	Kontanter	Cash
+793	Check	Cheque
+794	Annat	Other
+795	Miljard	Billion
+796	Biljon	Trillion
+797	Beloppet är inte detsamma som transaktionsbeloppet!	Amount is not the same as the transaction amount!
+798	Ordrar	Orders
+799	Referensen är inte densamma som transaktionsreferensen!	Reference is not the same as the transaction reference!
+800	Vill du stänga <@APPNAME@>?	Do you wish to close <@APPNAME@>?
+801	Vill du avbryta dokumentutskrift?	Do you want to cancel documents printing?
+802	Ingen metod vald! Vänligen välj en!	No method selected! Please select one!
+803	Kan inte lägga till lager för en artikel med en lagermängd som inte är noll!	Cannot take stock on for an item with a non-zero quantity on hand!
+804	Ingen användarrapport vald! Vänligen välj en!	No user report selected! Please select one!
+805	Vill du fylla i alla uppgifter för denna nya kontakt?	Do you want to fill all details for this new contact?
+806	Är du säker på att du vill ändra nästa dokumentnummer?	Are you sure you want to change the next document number?
+807	Ett fel uppstod under kopieringen!	Error occurred during copy process!
+808	Rabatten måste vara mellan 0 % och 99,99 %	Discount must be in range 0 % to 99.99 %
+809	Ränta på förfallet belopp måste vara mellan 0 % och 99,99 %	Interest on overdue amount must be in range 0 % to 99.99 %
+810	Detta pris är lägre än enhetspriset för	This price is lower than the unit price of
+811	i lagerfilen	on the stock file
+812	De gamla T3-data konverterades framgångsrikt.	The old T3 data was successfully converted
+813	Ett fel uppstod vid konvertering av dina gamla T3-data!	An error occurred while converting your old T3 data!
+814	Kunde inte hitta obetalt belopp!	Could not find unpaid amount!
+815	Dina betalnings- och kvittoverifikationer är inte korrekt länkade till detta bankkonto!	Your payment and receipt journal are not linked correctly to this bank account!
+816	Får inte ha en skattetyp för en kund eller leverantör i det betalningsbaserade systemet!	May not have a tax type for a debtor or creditor in the payments based system!
+817	Säkerhetskopieringsfilen hittades inte i	Backup file not found in
+818	Välj läge för säkerhetskopiering eller återställning	Select Backup or Restore mode
+820	Att köra på betalningsbasis kräver att alla kundfordringar och leverantörsskulder konverteras till öppna poster. Vill du fortsätta?	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?
+821	Den betalningsbaserade skattemetoden behandlar skatt enbart på kontantbasis. Skatt betalas till skattemyndigheten först när den mottagits från kunden. Vill du fortsätta?	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?
+822	Du använder den betalningsbaserade metoden och förfallokontot kan inte hittas! Vänligen kör 'Inställningar → Företagsinfo'!	You are running payment based method and the due account cannot be found! Please run 'Setup → Company info'!
+823	Kreditkort	Credit Card
+824	Klicka på [Slutför] för att utföra.	Click on [Finish] to execute.
+825	Vilken kontoplan vill du använda?	Which Chart of Accounts do you want to use?
+826	Vänligen skriv in namnet på den nya uppsättningen böcker!	Please type in the name of the new Set of Books!
+827	Från verifikationsuppsättning	From journal
+828	Stäng	Close
+829	Du har inte rätt att bearbeta! Åtkomst till denna process nekas!	You have no right to process!  Access to this process denied!
+830	Vänligen kontakta din <@APPNAME@>-administratör!	Please contact your <@APPNAME@> administrator!
+831	Detta konto är inaktiverat och kan inte användas!	This account is disabled and cannot be used!
+832	Kontot existerar inte! Processen kan inte utföras!	Account does not exist! Process cannot be performed!
+833	Kan inte öppna faxsignaturfilen i	Cannot open fax signature file in
+834	Säkerhetskopiering / Återställning	Backup / Restore
+835	S&täng uppsättning böcker	C&lose Set of Books
+836	&Säkerhetskopiera / Återställ uppsättning böcker	&Backup / Restore Set of Books
+837	Da&taomindexering	Da&ta Re-index
+838	&Kontakter	&Contacts
+839	&Offert	&Quotes
+840	&Bekräfta	Co&nfirm
+841	Or&drar	Or&ders
+842	&Resultaträkning	&Income statement
+843	&Kontaktlista	&Contact listing
+844	&Restordrar	&Backorders
+845	&Internet	&Internet
+846	&Finansiella kategorier	&Financial categories
+847	&Teckensnitt	&Fonts
+848	System&parametrar	System &parameters
+849	Anpassa språk	Customise language
+850	&Import	&Import
+851	Visa &Välkommen	Show &welcome
+852	Online&registrering	Online &registration
+853	Online&uppdatering	Online &update
+854	&Bläddra	&Browse
+855	Säljare per artikel	Salesperson per product
+856	Säljare per kund	Salesperson per customer
+857	Artikel per kund	Product per customer
+858	Artikel per säljare	Product per salesperson
+859	Kund per säljare	Customer per salesperson
+860	Kund per artikel	Customer per product
+861	Inköp per leverantör	Purchases per supplier
+862	Inköp per artikel	Purchases per product
+863	Utskriftsalternativ	Printing options
+864	&Skrivarinställningar	&Printer setup
+865	Skicka rapport till:	Send report to:
+866	Kopior:	Copies:
+867	F11: Kopiera	F11: Copy
+868	&Tabeller	&Tables
+869	Lager	Stock
+870	&Tillgängliga fält	&Available fields
+871	&Valda fält	&Selected fields
+872	Välj från:	Select from:
+873	&Rensa alla	&Clear All
+874	Tabell	Table
+875	Räkenskapsperioder	Financial periods
+876	Säljare	Salesperson
+877	Uppsättning böcker att kopiera:	Set of Books to copy:
+879	&Tillbaka	&Back
+880	Filkorruption	Files corruption
+881	Saldon per period	Balances per period
+882	Räkna konton och artiklar i lager	Count accounts and stock items
+883	Kunder och leverantörer	Debtors and creditors
+884	Obearbetade verifikationsuppsättningar och dokument	Outstanding journals and documents
+885	Obokförda dokument	Unposted documents
+886	Välj uppsättning böcker	Select Set of Books
+887	Kontrollera	Check
+888	Förra året är stängt för bokföring!	Last year is closed for posting!
+889	Denna period är stängd för bokföring!	This period is closed for posting!
+890	För att aktivera det, gå till 'Inställningar → Rapporteringsdatum'	To turn it on, go to 'Setup → Reporting dates'
+891	Säkerhetskopiering	Backup
+892	Återställning	Restore
+893	Återställ från	Restore from
+894	Återställ till	Restore to
+895	Säkerhetskopiera från	Backup from
+896	Säkerhetskopiera till	Backup to
+897	Stopp	Stop
+898	Återställ uppsättning böcker	Restore Set of Books
+899	Säkerhetskopiera uppsättning böcker	Backup Set of Books
+900	Säkerhetskopiering slutförd...	Backup completed...
+901	Säkerhetskopieringen är klar!	The backup process is completed!
+902	Zippar	Zipping
+903	Vänligen sätt in skivan!	Please insert disk!
+904	av flerskivors bokföringsbackup.	of the multi-disk Set of Books backup.
+905	Välj säkerhetskopieringsmål	Select backup target
+906	Zippar upp	UnZipping
+908	Återställningen är klar!	The restore process is completed!
+909	Återställd	Restored
+910	Sätt i den sista skivan i skivuppsättningen	Insert the last disk of disk set then
+911	Klicka på [Ja] för att fortsätta eller [Nej] för att avbryta	Click on [Yes] to continue or [No] to abort
+912	Startar säkerhetskopiering...	Starting backup...
+913	Ingen giltig bokföring hittades i:	No valid Set of Books found in:
+914	Det går inte att använda enheten! Mappa den och försök igen...	Cannot use this drive! Map it and try again...
+915	Det går inte att köra säkerhetskopieringen...	Cannot run backup...
+916	Säkerhetskopieringen är ofullständig...	Backup incompleted...
+917	Bokförings- och säkerhetskopieringsprocessen avbruten av användaren!	Set of Books - Backup process cancelled by user!
+918	Filer komprimerade	Files compressed
+919	Processen avbröts av användaren!	Process cancelled by the user!
+920	Startar återställning...	Starting Restore...
+921	Din bokföring kommer att återställas i:	Your Set of Books will be restored in:
+922	Filer återställda	Files restored
+923	Felaktigt lösenord!	Incorrect password!
+924	Hoppar över fil:	Skipping file:
+925	Fel: Kan inte öppna filen!	Error: Opening file!
+926	Väntar på att köras...	Waiting to run...
+927	Denna användarinställning har nu överförts till administratörsanvändaren av <@APPNAME@>!	This user setting is now turned to administrator user by <@APPNAME@>!
+928	Dokumentinmatning	Document entry
+929	Inköp	Purchases
+930	Detaljer	Details
+931	Rubrik	Header
+932	Rensa kopplingar	Clear links
+933	Generera SB/ÖF	Generate Balance B/F
+934	Koppla ifrån	Unlink
+935	Totalbelopp	Total amount
+936	Totalt utestående belopp	Total outstanding
+937	Total reskontra	Total ledger
+938	Skillnad/belopp	Difference/Amount
+939	Skillnad/utest.	Difference/Outstand.
+940	Alternativ för att rensa koppling	Clear link options
+941	Rensa alla kopplingar	Clear all links
+942	Använd startdatum	Use start date
+943	Efter kreditdatum	By credit dates
+944	Sök efter	Search by
+945	Verkställ	Apply
+946	Belopp	Amount
+947	Utestående	Outstanding
+948	Konsolidera	Consolidate
+949	Visa utdrag	Show statement
+950	Avstäm	Reconcile
+951	Ångra avstämning	UnReconcile
+952	&Sök	&Search
+953	Behandla	Process
+954	Avstämd	Reconciled
+955	Skillnad	Difference
+956	Sök efter referens	Search by reference
+957	Sök efter belopp	Search by amount
+958	Sök efter datum	Search by date
+959	Aktuellt bankkonto	Current bank account
+960	Totalt	Total
+961	Bokförd	Posted
+962	Ej bokförd	Unposted
+963	Betalningspost	Payment item
+964	Kvittopost	Receipt item
+965	Lagerkontrollkonto och/eller försäljningskonto är inte korrekt inställt för denna lagervara!	Stock control and / or Sales account not set up correctly for this stock item!
+966	Detta dokument kan inte bokföras! Vänligen ställ in försäljnings- och lagerkontrollkontot (och kostnaden för sålda varor-kontot) korrekt och bokför sedan!	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!
+967	Oregistrerade kopior av <@APPNAME@>	Unregistered copies of <@APPNAME@>
+968	är begränsade till 500 transaktioner eller 500 dokument	are limited to 500 transactions or 500 documents
+969	&Skaffa det online	&Get it online
+970	Upplåsningskod (från <@APPNAME@>):	Unlocking code (from <@APPNAME@>):
+971	Serienummer:	Serial number:
+972	Registrera din <@APPNAME@>	Register your <@APPNAME@>
+973	För att få din upplåsningskod eller	To get your unlocking code or
+974	Telefon:	Phone:
+975	Detta exemplar av <@APPNAME@> är inte registrerat! Vill du registrera det nu?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+976	Företagsnamn:	Company name:
+977	Inköpsanalys	Purchase analysis
+978	Balansräkningsalternativ	Balance sheet options
+979	Visa decimaler	Show decimal
+980	Resultaträkningsalternativ	Income statement options
+981	Visa föregående år	Show last year
+982	Visa varians	Show variance
+983	Ny	New
+984	Ta bort	Delete
+985	Skärm	Screen
+986	Skrivare	Printer
+987	Start	Start
+988	Slut	End
+989	Välj automatiskt	Auto-select
+990	Streckkod	Barcode
+991	Streckkod	Barcode
+992	Alternativ för produkt per kund	Product per customer options
+993	Alternativ för produkt per säljare	Product per salesperson options
+994	Alternativ för kund per säljare	Customer per salesperson options
+995	Alternativ för kund per produkt	Customer per product options
+996	Alternativ för säljare per kund	Salesperson per customer options
+997	Betalningskassabok	Payments cashbook
+998	Kvittokassabok	Receipt cashbook
+999	Inkluderande läge	Inclusive mode
+1000	Balansräkning	Balance sheet
+1001	Windows standard	Windows default
+1002	Konton	Accounts
+1003	Välj kontakt	Select contact
+1004	Välj grupper	Select groups
+1005	Vill du avbryta bokslutsprocessen?	Do you want to cancel the year-end process?
+1006	Är du säker på att du vill ta bort den här användarrapporten?	Are you sure you want delete this user report?
+1007	Detta kommer att allvarligt påverka din bokföring! Är du säker på att du vill ta bort denna journaltyp?	This will seriously affect your Set of Books! Are you sure you want delete this journal type?
+1008	Alternativ för försäljning per produkt	Sales per product options
+1009	Standardutdata	Default output
+1010	Företagslogotyp	Company logo
+1011	Använd logotyp på rapporter	Use logo on reports
+1012	Alternativ	Options
+1013	Byt namn	Rename
+1014	&Ladda från fil	&Load from file
+1015	&Klistra in	&Paste
+1016	&Rensa	&Clear
+1017	<@APPNAME@> - Ladda logotyp	<@APPNAME@> - Load logo
+1018	Radera offerter	Delete quotes
+1019	Radera beställningar	Delete orders
+1020	Skriv ut standardlogotyp	Print standard logo
+1021	Saldobalans	Trial balance
+1022	till	to
+1023	Nettoresultat	Net profit
+1024	Sida	Page
+1025	Nettoförlust	Net loss
+1026	Totalt för	Total for
+1027	Budget	Budget
+1028	Per	As at
+1029	&Kör igen	&Re-run
+1030	K &assaflöde	C&ash flow
+1033	Alternativ för leverantörsåldersanalys	Creditor age analysis options
+1034	Reskontraalternativ	Ledger options
+1035	Varje period separat	Each period separately
+1036	Ny sida per konto?	New page per account
+1037	Rapportdatum	Date of report
+1039	Välj rapport	Select report
+1040	Visa rader	Show lines
+1041	Specifikationsfil	Spec file
+1042	Alternativ för etikettrapport	Labels report options
+1043	Alternativ för kundförteckning	Debtor listing options
+1044	Alternativ för leverantörsförteckning	Creditor listing options
+1045	Kassaflödesalternativ	Cash flow options
+1046	Perioder	Periods
+1047	Från bankkonto	From bank account
+1048	Inkludera handkassa	Include petty cash
+1049	Bokföringsnamnet får inte lämnas tomt!	Set of Books name cannot be blank!
+1050	Standardzoom för förhandsgranskning	Default zoom preview
+1051	Alternativ för säljare per produkt	Salesperson per product options
+1052	Rensa listan	Purge list
+1053	Välj 'Inställningar → Företagsinfo' som du vill ändra!	Select 'Setup → Company info' you want to change!
+1054	Vill du avbryta processen?	Do you want to cancel the process?
+1055	Vill du ta bort säljaren?	Do you want to delete the salesperson?
+1056	Alla försäljningspriser	All selling prices
+1057	Ingen	None
+1058	Lagerbeskrivning	Stock description
+1059	Det går inte att köra en rapport två gånger! Den första rapporten körs just nu!	Cannot run a report twice! The first report is running!
+1060	Din bokföring är korrupt! Kör dataomindexering för att bygga om nyckelvärden.	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1063	Välj lagerfil för kalkylprogram	Select spreadsheet stock file
+1064	Lösenord	Password
+1065	Kontaktpersonens namn	Contact name
+1066	Ingående saldon	Opening balances
+1067	&Förhandsgranska	&Preview
+1068	Välj typ	Select type
+1069	Från ... till	From ... to
+1070	Valda	Selected
+1071	Journal	Journal
+1072	Användare	User
+1073	Online	Online
+1074	Uppdatera journal	Update journal
+1076	Visa lagergrupper	Show stock groups
+1077	Alternativ för inköp per produkt	Purchases per product options
+1078	Alternativ för inköp per leverantör	Purchases per supplier options
+1079	Typ	Type
+1080	Använd	Use
+1081	Kostnad för sålda varor-konto	Cost of sales account
+1082	Återbeställningsalternativ	Reorder options
+1083	Restorderalternativ	Backorder options
+1084	Visa alla artiklar	Show all items
+1085	Ny sida per artikel?	New page per item
+1086	Leveranssedelsalternativ	Delivery note options
+1087	Dokumenttyp	Document type
+1088	Endast föregående år	Last year only
+1089	Leverantörsbetalningsrådgivning	Creditor remittance advise
+1090	Kundutdrag	Debtor statement
+1091	Graf	Graph
+1092	Kalkylator	Calculator
+1093	Backsteg	Backspace
+1094	Överför	Transfer
+1095	Skriv ut dokument	Print documents
+1096	Oskrivna	UnPrinted
+1097	Ej bokförda	Unposted
+1098	Alla	All
+1099	Betalning	Payment
+1100	Kvitto	Receipt
+1101	Alternativ för ångra avstämning	UnReconcile options
+1102	Ångra avstämning efter datum	UnReconcile by date
+1103	Ångra avstämning efter referens	UnReconcile by reference
+1104	Avstämningsalternativ	Reconcile options
+1105	Stäm av efter datum	Reconcile by date
+1106	Stäm av efter referens	Reconcile by reference
+1107	Katalog	Directory
+1108	Kontobeskrivning	Account description
+1109	Kontotyp	Account type
+1110	Fakturabaserad	Invoice based
+1111	Betalningsbaserad	Payments based
+1112	Förtryckt	Preprinted
+1113	Vanligt A4	Plain A4
+1114	Service	Service
+1115	Vanligt Eyeline	Plain Eyeline
+1116	Fyrtio	Forty
+1117	Tillagd	Added
+1118	Visa kontaktperson	Show contactperson
+1119	Från lista	From list
+1120	Dokumentnr	Document no.
+1121	Dokumentdatum	Document date
+1122	"""Prisnamn"", värde"	"""Price Name"",Value"
+1123	Borttagen!	deleted!
+1124	Saknade eller korrupta kund- och leverantörsreskontrakonton! Vänligen kontakta <@APPNAME@> för support!	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!
+1125	Förfaller	Due
+1126	Ingående saldo	Brought forward
+1127	Utgående saldo	Carried forward
+1128	Utdrag till	Statement to
+1129	Betalningsrådgivning till	Remittance advise to
+1130	Kundens skattereferens	Customer tax ref.
+1131	Enhet	Unit
+1132	Pris	Price
+1133	Faktura godkänd	Invoice accepted
+1134	Underskrift	Signature
+1135	Momsregistrering	TAX registration
+1136	Belopp exkl.	Amount exclusive
+1137	Belopp inkl.	Amount inclusive
+1138	Skattebelopp	Tax amount
+1139	Fakt.	Inv.
+1140	Artikel	Item
+1141	Rabatt	Discount
+1142	Lagervarabeskrivning	Stock item description
+1143	Kategori	Category
+1144	Leverantörsadress	Supplier address
+1145	Fakturaadress	Invoice address
+1146	Kreditnota godkänd	Credit note accepted
+1147	Inköpsdokument godkänt	Purchase document accepted
+1148	Offert godkänd	Quote accepted
+1149	Beställning godkänd	Order accepted
+1150	Leveranssedel godkänd	Delivery note accepted
+1151	Tillgångar	Assets
+1152	Summa tillgångar	Total Assets
+1153	Eget kapital och skulder	Capital and Liabilities
+1154	Summa eget kapital och skulder	Total Capital and Liabilities
+1155	Totalt nettoresultat/nettoförlust	Total Net Profit/Loss
+1156	Oallokerad	unllocated
+1157	vid	at
+1158	Rapport över intäkter och kostnader	Income and expense report
+1159	Varians	Variance
+1160	Nettoresultat/nettoförlust	Net Profit/Loss
+1161	Sökningen stoppades! Gräns nådd!	Search stopped! Limit reached!
+1162	Dagens datum ligger utanför räkenskapsperioden. Du måste köra ditt bokslut för att behandla detta datum!	Today's date is beyond your financial period. You should run your year end to process to this date!
+1163	&Slå upp	&Lookup
+1164	&Kund	&Customer
+1165	&Handkassa	&Float
+1166	&Betalning	&Payment
+1167	&Ta bort alla	&Delete all
+1168	Vänligen läs detta	Please read this
+1169	Kontanter i lådan	Cash in drawer
+1170	Kreditkort	Credit Cards
+1171	Handkassa in/ut	Float in/out
+1172	Checkar	Cheques
+1173	Värdekuponger	Vouchers
+1174	Kassaåtkomstkontroll	POS Access control
+1175	Kassainloggning	Point-of-Sale login
+1176	Kassörsnamn	Cashier name
+1177	(Säljares namn)	(Saleperson name)
+1178	Kom ihåg min inloggning	Remember my login
+1179	Nyckel	Key
+1180	Förkortningslista	Abbreviation list
+1181	Kundrörelse	Debtor movement
+1182	Leverantörsrörelse	Creditor movement
+1183	Kontorörelse	Account movement
+1184	Budgetprestanda	Budget performance
+1185	Variansbelopp	Variance amount
+1186	Variansprocent	Variance percentage
+1187	Balanserade vinstmedel	Retained income
+1188	Intäkt/Kostnad	Inc / Exp
+1189	Kontoförteckning	List of accounts
+1190	Artiklar i restorder	Items on backorder
+1191	Restordrar	Backorders
+1192	Summa för varje period	Totals for each period
+1193	För att balansera	To balance
+1194	Detaljer för journalinmatning	Journal entry details
+1195	Inklusive	Inclusive
+1196	Kontra	Contra
+1197	<@APPNAME@> Support	<@APPNAME@> Support
+1198	<@APPNAME@> supportsida	<@APPNAME@> Support page
+1199	Rapport över journaltypdetaljer	Journal type details report
+1200	Exkl. belopp	Excl. amt.
+1201	Inkl. belopp	Incl. amt.
+1202	Summa:	Total:
+1203	Utredare	Investigator
+1204	Sök	Search
+1205	Sök efter	Seach for
+1206	Sök nu	Search now
+1207	Avancerade alternativ	Advanced options
+1208	Tillbaka	Back
+1209	Förfina sökning	Refine search
+1210	Begränsning för antal hittade poster	Record found limit
+1211	Skriv in vad du letar efter. Om du vill söka efter en viss typ, markera motsvarande kryssruta eller klicka här för att förfina din sökning.	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.
+1212	Söktips	Search tip
+1213	Kontoinformation	Account information
+1214	Skiftlägeskänslig	Case sensitive
+1215	Var som helst i	Where ever in
+1216	Startposition	Starting position
+1217	Slut	Ending
+1218	Mer	More
+1219	Sökalternativ	Search options
+1220	Kontonamn	Account names
+1221	Allt	Everything
+1222	Välj kund	Select debtor
+1223	Offert att konvertera till faktura	Quotes to convert to invoice
+1224	Beställningsnr.	Order no.
+1225	Beställning att konvertera till inköp	Order to convert to purchase
+1226	Välj leverantör	Select creditor
+1227	Sök efter nummer	Search by number
+1228	Sök efter konto	Search by account
+1229	Sök efter beskrivning	Search by description
+1230	Kassaflöde	CASH flow
+1231	Ingående banksaldo	Opening BANK balance
+1232	Nettokassaflöde	Net cash flow
+1233	Totalt banksaldo	Total bank balance
+1234	Ingående handkassasaldo	Opening petty cash balance
+1235	Handkassa in	Petty cash in
+1236	Handkassa ut	Petty cash out
+1237	Netto handkassaflöde	Net petty cash flow
+1238	Total handkassa	Total petty cash
+1239	Totalt kassaflöde	Total cash flow
+1240	Tillgängliga medel	Funds available
+1241	Erhållen kontanter	CASH RECEIVED
+1242	Utbetald kontanter	CASH PAID OUT
+1243	Kassauppräkning (check)	Point-of-Sale cash-up check
+1244	System	System
+1245	Kvantitet	Quantity
+1246	Uppräknad kassa (i lådan)	Cashed up (in the drawer)
+1247	Sammanfattning	Summary
+1248	Kontrollerar ej bokförda poster	Checking unposted items
+1249	Poster	Items
+1250	Antal	Count
+1251	Kontaktlista	Contact listing
+1252	Telefon 1	Telephone 1
+1253	Telefon 2	Telephone 2
+1254	E-postadress	E-mail address
+1255	Behandlar	Processing
+1256	Vänligen vänta...	Please wait...
+1257	Reella tal	Real numbers
+1258	Fasta decimaler	Fix decimals
+1259	Dokumentkvantitet	Document quantity
+1260	Rapporteringsdecimaler	Reporting decimals
+1261	Datalagring	Data storage
+1262	Rapportera belopp med	Report amounts with
+1263	för kredit	for Credit
+1264	för debet/kredit	for Debit/Credit
+1265	T-kontovy	T-Account viewer
+1266	Kassa	Point-of-Sale
+1267	&Skriptmotor	&Script engine
+1268	Försäljningsdokument	Sales documents
+1269	Inköpsdokument	Purchase documents
+1270	Kassafaktura	POS Invoice
+1271	Ange belopp att koppla	Enter amount to link
+1272	Ange belopp	Enter amount
+1273	Kvittonummer	Receipt number
+1274	Utfärdad av	Issued by
+1275	Betalningsmetod	Payment method
+1276	Erhållen för	Received for
+1277	Erhållen från	Received from
+1278	Urval av öppna poster	Open item selection
+1279	Betalningsreferens	Payment reference
+1280	Utestående	Outstanding
+1281	Kundtransaktioner	Debtor transactions
+1282	Detaljerad reskontra	Detailed ledger
+1283	Leverantörstransaktioner	Creditor transactions
+1284	Rapportområde	Report range
+1285	Referens	Reference
+1286	Ackumulerat saldo	Cumulative balance
+1287	Saldo per	Balance at
+1288	Ingående saldo per	Opening balance at
+1289	Utgående saldo per	Closing balance at
+1290	Ackumulerat totalbelopp	Accumulative total
+1291	Databasombyggnad	Database rebuild
+1292	Välj bokföring att bygga om	Select Set of Books to rebuild
+1293	Status	Status
+1294	Rubrik	Header
+1295	Index	Indexes
+1296	Data	Data
+1297	Bygg om	Rebuild
+1298	Alla användare måste logga ut innan denna process körs!	All users must logout before running this process!
+1299	Väntar på att köras ...	Waiting to run ...
+1300	Bygger om nycklar	Re-building keys
+1301	Kontrollerad	Checked
+1302	Nyckelvärden	Key values
+1303	Nyckelkorruption	Key corruption
+1304	Kontrollerade OK-filer	Checked OK file(s)
+1305	Korrupta filer	Corrupted file(s)
+1306	Transaktionsdatum/period ombyggd	Transaction date/period rebuilt
+1307	Transaktionsdatum/period misslyckades! Försök igen!	Transaction date/period failed! Try again!
+1308	Laddar poster från Message.db	Loading Message.db records
+1309	Komprimerar Message.db...	Compressing Message.db...
+1310	Fel: Fyller tabellstruktur!	Error: Filling table structure!
+1311	Bygger om	Rebuilding
+1312	Hämta datumrapportsvärde	Get date report value
+1313	Leveranssedel	Delivery note
+1314	Kvittensalternativ	Receipt options
+1315	Skriv ut	Print out
+1316	Förteckning över kundkonton	List of debtor accounts
+1317	Förteckning över leverantörskonton	List of creditor accounts
+1318	Oplacerad	Unlocated
+1319	Telefon	Telephone
+1320	Öppen post	Open item
+1321	Ingående saldo	Balance B/F
+1322	Aktiverad	Enabled
+1323	Rapporteringsgrupp 1	Reporting group 1
+1324	Ålderstyp	Age type
+1325	Rapporteringsgrupp 2	Reporting group 2
+1326	Säljare	Salesperson
+1327	Kontakt	Contact
+1328	Månadsränta	Monthly interest
+1329	Rapporttyp	Report type
+1330	Marginaler	Margins
+1331	Pappersstorlek	Paper size
+1332	Papperskvalitet	Paper quality
+1333	Övrigt	Others
+1334	Vänster	Left
+1335	Topp	Top
+1336	Höger	Right
+1337	Botten	Bottom
+1338	mm	mm
+1339	Längd	Length
+1340	Bredd	Width
+1341	Standard	Default
+1342	Anpassad	Custom
+1343	Papper	Paper
+1344	Utkast	Draft
+1345	Brev	Letter
+1346	Kund	Customer
+1347	Välj kund	Select customer
+1348	Tryck på <ESC> för att stänga	Press <ESC> to close
+1349	Återstår att betala	Still to pay
+1350	Debitera konto	Charge to account
+1351	Bankkontokod	Bank account code
+1352	Checknummer	Cheque number
+1353	Kortnummer	Card number
+1354	Innehavarens namn	Holder's name
+1355	Korttyp	Card type
+1356	Förfallodatum	Expiry date
+1357	Kassa försäljningsanalys	POS Sales analysis
+1358	Artikelbeskrivning	Item description
+1359	Försäljningsbelopp	Sales amount
+1360	Summor	Totals
+1361	Saldo	Balance
+1362	Redigera pris	Edit price
+1363	Använd spårning av serienummer	Use serial number tracking
+1364	Standardbetalningsmetod	Default payment method
+1365	Handkassagräns	Float limit
+1366	Tillåt handkassa	Allow cash float
+1367	Allmänt	General
+1368	Inställningar	Settings
+1369	Inmatning	Entry
+1370	Kringutrustning	Peripherals
+1371	Inmatningsskärm	Entry screen
+1372	Reskontra	Ledger
+1373	Skriv ut kunduppgifter	Print customer details
+1374	Skriv ut leveransadress	Print delivery address
+1375	Skriv ut betalningsinformation	Print payment details
+1376	Inmatning i försäljningsjournal	Sales journal entry
+1377	Inmatning i kvittensjournal	Receipts journal entry
+1378	Inmatning av betalningsbeskrivning	Payment description entry
+1379	Kontantförsäljningskonto	Cash sales account
+1380	Kontantöverföringskonto	Cash transfer account
+1381	Kassakonto	Till account
+1382	Max kontanter i kassan	Max cash in till
+1383	Nästa nummer	Next number
+1384	&Använd kassameddelanden	&Use POS messages
+1385	Kassalåda ansluten	Drawer connected
+1386	Streckkodsläsare ansluten	Barcode scanner connected
+1387	&Testa kassalådan	&Test drawer
+1388	Seriell portparametrar	Serial port parameters
+1389	Port	Port
+1390	Öppna kassalådan för	Open cash drawer for
+1391	Parallellport	Parallel port
+1392	Seriell port	Serial port
+1393	Baudrate	Baud rate
+1394	Databitar	Data bits
+1395	Stoppbitar	Stop bits
+1396	Paritet	Parity
+1397	Portnummer	Port number
+1398	Bekräfta utskrift	Confirm printing
+1399	Använd första skrivaren	Use first printer
+1400	Använd andra skrivaren	Use second printer
+1401	Andra skrivaren	Second printer
+1402	Första skrivaren	First printer
+1403	&Testa skrivare	&Test printers
+1404	Skrivarkontrollkod	Printer control code
+1405	Logga in	Login
+1406	Ange ditt lösenord	Enter your password
+1407	Pappersinställningar för matrisskrivare	Dot-matrix printer paper setup
+1408	Systemparametrar	System parameters
+1409	Kassainställningar	POS setup
+1410	&Använd fakturameddelanden	&Use invoice messages
+1411	Skrivare	Printers
+1412	Fel vid import eller ogiltigt filformat!	Error while importing or invalid file format!
+1413	Användaren kan inte använda denna journal!	User cannot use this journal!
+1414	Aktivera åtkomst i 'Inställningar → Åtkomstkontroll'	Enable access in 'Setup → Access control'
+1700	Leverantörsåldersanalys	Creditor age analysis
+1701	Referensnummer	Reference no.
+1702	Transaktionssumma	Transaction total
+1703	Totaler för rapport:	Totals for report :
+1704	Kundåldersanalys per	Debtor age analysis as at
+1706	Nr	No.
+1707	Lagerkod	Stock code
+1708	Beskrivning	Description
+1709	Pris	Price
+1710	Antal	Qty
+1711	Rabatter	Discount
+1712	Belopp	Amount
+1713	Kassaväxlingsrörelse	Float movement
+1714	Kassaapparat fakturainmatning	Point-of-Sale invoice entry
+1715	&Ut ur lådan	&Out of the drawer
+1716	&I lådan	&Into the drawer
+1717	Kund	Customer
+1718	Försäljare:	Salesperson:
+1719	Referens	Reference
+1720	Standardkundkonto ej inställt! Vänligen ställ in!	Default customer account not setup! Please setup!
+1721	Ny faktura	New invoice
+1722	Fakt. %s (kreditkort)	Inv. %s (Credit Card)
+1723	Fakt. %s (konto)	Inv. %s (Account)
+1724	Fakt. %s (kupong)	Inv. %s (Voucher)
+1725	Fakt. %s (check)	Inv. %s (Cheque)
+1726	Fakt. %s (kontant)	Inv. %s (Cash)
+1727	(Kreditkort)	(Credit Card)
+1728	(Konto)	(Account)
+1729	(Kupong)	(Voucher)
+1730	(Check)	(Cheque)
+1731	(Kontant)	(Cash)
+1732	Kortnummer:	Card number:
+1733	Innehavarens namn:	Holder name:
+1734	Korttyp:	Card type:
+1735	Utgångsdatum:	Expiry date:
+1736	Vill du stänga och annullera denna faktura nu?	Do you want to close and cancel this invoice now?
+1737	Kan inte köras utan standardinställning!	Cannot run without default!
+1738	Detta kommer att stänga fakturainmatningsskärmen och bokföra alla POS-fakturor för ...	This will close the invoice entry screen and post all POS invoices for ...
+1739	Växel att återlämna.	Change to give back.
+1740	Tack.	Thanks.
+1741	Stänger skiftet och bokför alla fakturor	Closing shift and posting all invoices
+1742	Bokför dokument	Posting document
+1743	Kvittoskrivartest	Till slip PRINTER TEST
+1744	Vänsterjustering	Left alignment
+1745	Centrerad justering	Centre alignment
+1746	Högerjustering	Right alignment
+1747	3 tomma rader	3 Blank lines
+1748	3 tomma rader uppåt?	Up 3 blank lines ?
+1749	<@APPNAME@> till test	<@APPNAME@> till test
+1750	&Kassaavräkning	&Cash up
+1751	&Skriv ut senaste faktura på nytt	&Reprint last invoice
+1752	St&äng skift	Cl&ose shift
+1753	Inkl./exkl. moms-läge	Incl./Excl. mode
+1754	&Rapport	&Report
+1755	&Öppna låda	&Open drawer
+1756	Ändra alias (verifikationsnamn)	Change alias (journal name)
+1757	Återför verifikation (D<-->C)	Reverse journal (D<-->C)
+1758	Import av bokförda verifikationer	Posted journals import
+1759	Kassaapparat	Point-of-Sale
+1760	Sök	Search
+1761	&Rapportdesigner	&Report designer
+1762	&Standard	&Standard
+1763	Sök	Search
+1764	Ny artikel	New item
+1765	Ta bort artikel	Delete item
+1766	&Avancerat	&Advanced
+1767	Justering	Adjustment
+1768	Gen. & & senaste kostnad	Ave && latest cost
+1769	Antal & & gen. kostnad	Qty && ave cost
+1770	Försäljningspriser	Selling prices
+1771	Lagerinventering	Stock take-on
+1772	Lagerkod	Stock code
+1773	Beskrivning	Description
+1774	Streckkod	Barcode
+1775	Enhet	Unit
+1776	Kvantiteter	Quantities
+1777	I lager	On hand
+1778	Återbeställ	Reorder
+1779	Antal & & senaste kostnad	Qty && latest cost
+1780	Försäljningspris 1	Selling price1
+1781	Försäljningspris 2	Selling price2
+1782	Försäljningspris 3	Selling price3
+1783	Kostnad	Cost
+1784	Genomsnittlig kostnad	Avg. cost
+1785	Enhetskostnad	Unit cost
+1786	Rabatter	Discount
+1787	Inmatning	Input
+1788	Utmatning	Output
+1789	Skattekonton	Tax accounts
+1790	Huvudbokskonton	General ledger accounts
+1791	Kostnad	Cost
+1792	Försäljning	Sales
+1793	Lager	Stock
+1794	Rapporteringsgrupp	Reporting group
+1795	Rapporteringsgrupp 2	Reporting group2
+1796	Rapporteringsgrupp	Reporting group
+1797	Använd kalkylbladsfil	Use spreadsheet file
+1798	Skapa transaktioner	Generate transactions
+1799	Använd procent	Use percentage
+1800	Till alla artiklar	To all items
+1801	Streckkod	Barcode
+1802	Datum	Date
+1803	Ändring av lagerkoden kommer att medföra att alla rapporter använder denna kod!	Changing the stock code will result in all reports to use this code!
+1804	Är du säker på att du vill ändra koden?	 Are you sure you want to change the code?
+1805	Insticksmoduler	Plugins
+1806	Skapar uppsättning böcker...	Creating Set of Books...
+1807	Skapar nödvändiga konton...	Creating required accounts...
+1808	Skapar nödvändiga konton (Leverantörsskulder)...	Creating required accounts (Creditors control)...
+1809	Leverantörsskulder	Creditors control
+1810	Skapar nödvändiga konton (Kundfordringar)...	Creating required accounts (Debtors control)...
+1811	Kundfordringar	Debtors control
+1812	Skapar nödvändiga konton (Balanserade vinstmedel)...	Creating required accounts (Retained earnings)...
+1813	Balanserade vinstmedel	Retained earnings
+1814	Klart!	Finished!
+1815	Ställ in kontrollkontonummer samt företagsinställningar och parametrar	Set control accounts number and company setting and parameters
+1816	Ange namnet på den nya uppsättningen böcker	Enter the name of new Set of Books
+1817	Uppsättning böcker att kopiera:	Set of Books to copy :
+1818	Gammal uppsättning böcker att konvertera:	Old Set of Books to convert :
+1820	&Bläddra	&Browse
+1821	Skapar uppsättning konton...	Creating set of accounts...
+1822	Inställningar för redovisningsperioder	Accounting periods setup
+1823	Inställningar för verifikationstyper	Journal types setup
+1824	Inställningar för grupper	Groups setup
+1825	Inställningar för dokument	Documents setup
+1826	Lägg till försäljare	Add salespersons
+1827	Uppsättning böcker kopierad!	Set of Books copied!
+1828	Namn:	Name :
+1829	Plats:	Location :
+1831	Konverterar uppsättning böcker...	Converting Set of Books...
+1832	Artikel nr	Item no.
+1833	Kontogrupper	Account groups
+1834	Kundgrupper	Debtor groups
+1835	Leverantörsgrupper	Creditor groups
+1836	Lager	Stock
+1837	Dokumentgrupper	Document groups
+1838	Grupp 1	Group1
+1839	Grupp 2	Group2
+1840	Ny	New
+1841	Redigera	Edit
+1842	Ta bort	Delete
+1843	Flytta upp	Move up
+1844	Flytta ner	Move down
+1845	Rapporteringsgruppens namn:	Reporting group name:
+1846	Grupper	Groups
+1847	RAPPORTERINGSGRUPP ROT	REPORTING GROUP ROOT
+1848	Det finns undernoder, radera undernoderna först!	There are subnodes delete subnodes first!
+1849	Rensar totaler...	Clearing totals...
+1850	Rensar transaktioner...	Clearing transactions...
+1851	Rensar lagertransaktioner...	Clearing stock transactions...
+1852	Rensar lagerinformation...	Clearing stock information...
+1853	Rensar dokumenttransaktioner...	Clearing document transactions...
+1854	Rensar verifikationsinformation...	Clearing journal information...
+1855	Ny grupp	New group
+1856	Aktuellt	Current
+1857	30 dagar	30 days
+1858	60 dagar	60 days
+1859	90+ dagar	90+ days
+1860	Beskrivning	Description
+1861	Beställning	Order
+1862	Leverera	Ship
+1863	Moms	Tax
+1864	Exkl. belopp	Excl. amt.
+1865	Rabatt %	Disc%
+1866	Inkl. belopp	Incl. amt.
+1867	Verifikationsnamn	Journal name
+1868	Motkonto	Contra account
+1869	Dokumenttyp	Document type
+1870	Offerter	Quotes
+1871	Beställningar	Orders
+1872	&Lägg till markerad	&Add selected
+1873	&Ta bort	&Remove
+1874	Bekräfta offerter och beställningar	Confirm quotes and orders
+1875	Datum	Date
+1876	Konto	Account
+1877	Bekräftad	Confirmed
+1878	K&onvertera	C&onvert
+1879	Välj datum	Select date
+1880	&Sök...	&Search...
+1881	Länk	Link
+1882	Bearbeta	Process
+1883	Kontoutdrag	Statement
+1884	Över 90 dagar	Over 90 days
+1885	Förfallen	Due
+1886	Fakturahistorik	Invoice history
+1887	Fakturor att upprepa	Invoices to repeat
+1888	Skapa	Generate
+1889	Sök efter fakturanummer	Search by invoice number
+1890	Lägg till alla	Add all
+1891	Upprepande	Repeating
+1892	Tillämpa på urval	Apply to selection
+1893	Tillämpa på alla	Apply to all
+1894	Ersätt meddelande med	Replace message with
+1895	Ange ny faktura som upprepande	Set new invoice as repeating
+1896	Lägg till denna kommentarsrad	Add this comment line
+1897	Åtkomstkontroll	Access control
+1898	Standardsäkerhet	Standard security
+1899	Användarnamn	Username
+1900	Användarens e-post	User e-mail
+1901	Rapporter åtkomst	Reports access
+1902	Huvudboksrapporter	General ledger reports
+1903	Verifikationsåtkomst	Journals access
+1904	Välj konton att blockera	Select accounts to block
+1905	Övrigt	Others
+1906	Redigera konton	Edit accounts
+1907	Redigera lager	Edit stock
+1908	Redigera användarrapport	Edit user report
+1909	Ny användare	New user
+1910	Layoutfil	Layout file
+1911	&Sidinställning	&Page setup
+1912	Finansiella kategorier	Financial categories
+1913	Välj kategorier och tilldela lämpliga grupper	Select categories and allocate appropriate groups
+1914	&Kapital	Capital
+1915	&Kostnader	Expenses
+1916	&Intäkter	Income
+1917	&Skulder	Liabilities
+1918	Skriv ut kapital före skulder	Print Capital before Liabilities
+1919	Skriv ut skulder före kapital	Print Liabilities before Capital
+1920	Skriv ut intäkter före kostnader	Print Income before Expenses
+1921	Skriv ut kostnader före intäkter	Print Expenses before Income
+1922	Grupper	Groups
+1923	Överför	Transfering
+1924	Bank	Bank
+1925	Moms	Tax
+1926	Bankkontoverifikationer ej korrekt inställda!	Bank account journals not setup correctly!
+1927	Betalning	Payment
+1928	Kan inte bokföra transaktioner på ett konto som har underkonton!	Cannot post transactions to an account which has sub-accounts!
+1929	Bearbeta	Process
+1930	Mottar från	Receiving from
+1931	Skriv ut kvitto	Print receipt
+1932	Till	To
+1933	Från konto	From account
+1934	Till konto	To account
+1935	Kontotyp	Account type
+1936	Ställ in en förkortning	Set an abbreviation
+1937	Tryck på knappen du vill tilldela en förkortning till	Push the key you want to assign an abbreviation to
+1938	&Skriv ut lista	&Print list
+1939	Ange förkortningen:	Type in the abbreviation :
+1940	Internetinställningar	Internet setup
+1941	E-postkonto:	E-mail account :
+1942	Servernamn	Server name
+1943	Användar-ID	User id
+1944	Nätverksserver (datareplikering)	Network server (data replication)
+1945	Servernamn	Server name
+1946	eller IP-adress	or IP address
+1947	&Testa nätverksserver	&Test net server
+1948	Verifierar %s på server %s	Verifying %s on server %s
+1949	Verifierad	verified
+1950	Ej verifierad! Test misslyckades!	not verified! Test failed!
+1951	<@APPNAME@> Rapport e-postsändare %s e-postkonto %s	<@APPNAME@> Report mail sender %s e-mail account %s
+1952	E-postservern hittades inte...	E-mail server not found...
+1953	Ansluten.	Connected.
+1954	E-posttest pågår...	E-mail test in progress...
+1955	Test avslutat! Lyckades!	Test finished! Success!
+1956	Anslutning misslyckades!	Connection failed!
+1957	Allmänt e-postfel!	General e-mail failure!
+1958	Frånkopplad...	Disconnected...
+1959	Autentisering misslyckades!	Authentication failed!
+1960	Test pågår: %s byte av %s	Test in progress :%s bytes out of %s
+1961	Anslutningstest startat!	Connection test started!
+1962	Ogiltig server!	Invalid server!
+1963	Nätverksserver löst!	Net server resolved!
+1964	Ansluter till %s	Connecting to %s
+1965	Användartest på server	User testing on server
+1966	Serveranslutning misslyckades!	Server connection failed!
+1967	<@APPNAME@> gränsen på 500 transaktioner eller 500 dokument har uppnåtts! Vänligen registrera dig och köp en licens.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.
+1968	Denna programvara är begränsad till 500 transaktioner eller 500 dokument! Vänligen registrera dig och köp en licens för <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.
+1969	Kan inte ha mer än %s för denna oregistrerade <@APPNAME@>-kopia %s! Vänligen registrera dig och få din licenskod!	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!
+1970	Endast perioder mellan 1 och 13 är tillåtna!	Only periods between 1 and 13 are allowed!
+1971	Vill du spara dessa ändringar?	Do you want to save these changes ?
+1972	Användarlösenord	User password
+1973	Datum	Date
+1974	Referens	Reference
+1975	Betalningsreferens	Payment reference
+1976	Antal	Number
+1977	Utestående	Outstanding
+1978	Ange belopp	Enter amount
+1979	Urval av öppna poster	Open item selection
+1980	Användarlösenord	User password
+1981	Balansera alltid	Always balance
+1982	Ingen moms	No tax
+1983	Inte verifikation med öppna poster	Not open item journal
+1984	Återför motkonto	Reverse contra
+1985	Kom ihåg moms på motkonto	Remember tax on contra account
+1986	Kom ihåg motkonto på konto	Remember contra on account
+1987	Speciella huvudböcker	Special ledgers
+1988	Kontouppslagstyp	Account lookup type
+1989	Motkontouppslagstyp	Contra account lookup type
+1990	Standard	Standard
+1991	Avancerat	Advanced
+1992	Antal & & senaste kostnad	Qty && latest cost
+1993	Bokför: %s av %s	Posting: %s of %s
+1994	FÖRSÄLJNINGSKOSTNAD	COST OF SALES
+1995	FÖRSÄLJNINGSKOSTNADDOK	COS*DOC*
+1996	Kontrollerar verifikationsposter...	Checking journal entries ...
+1997	Uppdaterar totaler	Updating totals
+1998	Dokument	Documents
+1999	Lager	Stock
+2000	Kundfordringar	Debtors
+2001	Konton	Accounts
+2002	Leverantörsskulder	Creditors
+2003	Bokförd verifikation	Posted journal
+2004	Exportera till:	Export to:
+2005	Filtyp	File type
+2006	Namn på exportfiler	Export files name
+2007	Filnamn	File name
+2008	Loggfil	Log file
+2009	Intervall	Range
+2010	Från	From
+2011	Till	To
+2012	Datum/period	Date / Period
+2013	&Exportera	&Export
+2014	&Importera	&Import
+2015	Fil att importera	File to import
+2016	Rubriker	Headers
+2017	Rader	Lines
+2018	Importera från:	Import from:
+2019	Visa fil	View file
+2020	Guide för dataimport	Import data wizard
+2021	Importera data till <@APPNAME@>	Import data into <@APPNAME@>
+2022	Import av datafil slutförd!	Data file import completed!
+2023	Importfilformat ej implementerat!	Import file format not implemented!
+2024	Sortera efter datum	Sort by date
+2025	Välj vilken typ av data du vill importera	Please select the type of data you want to import
+2026	Datatyp att importera	Data type to import
+2027	Filformat	File format
+2028	Du kan nu klicka på [Importera] för att starta processen.	You can now click on [Import] to start the process.
+2029	&Ändra alias	&Change alias
+2030	Vänligen vänta...	Please wait...
+2031	Bearbetar	Processing
+2032	av	of
+2033	Ändra företagsinformation	Change company info
+2034	Urval av öppna poster	Open item selection
+2035	Öppnar låda	Opening drawer
+2036	<@APPNAME@> Faktura	<@APPNAME@> Invoice
+2037	MOMSFAKTURA	TAX INVOICE
+2038	Tel.	Tel.
+2039	Fax.	Fax.
+2040	Mobil.	Cel.
+2041	KONTANT	CASH
+2042	Växel	Change
+2043	MOMSBELOPP	TAX-AMT
+2044	15,00%	15.00%
+2045	Kassörens namn:	Cashier name :
+2046	Antal	Number
+2047	Efternamn	Last name
+2048	Kontakt	Contact
+2049	Leveransadress	Delivery address
+2050	Kommentarer	Comments
+2051	*Anger icke momspliktig artikel	*Indicates non-TAX item
+2052	Artiklar	Items
+2053	Förfallen	Due
+2054	Posten låst av annan användare! Vänligen försök igen!	Record locked by other user! Please try again!
+2056	Använd fakturautskrift	Use invoice print
+2057	Matningsrader längst ned	Bottom feed lines
+2058	POS-kassaavstämning	POS Cash up
+2059	Kan inte få nytt nummer! Posten är låst! Försök igen senare!	Cannot get new number! Record is locked! Try again later!
+2060	Skapa bankbokningar	Generate bank bookings
+2061	Kontoutdragstransaktioner	Bank statement transactions
+2062	Skapar saldon...	Generating balances ...
+2063	Allokerar utestående saldon	Allocating outstanding balances
+2064	Åldersindelning pågår...	Ageing ...
+2065	Skapar uppsättning böcker...	Creating Set of Books...
+2066	Konsoliderar	Consolidating
+2067	Balanserar	Balancing
+2068	Importerar artiklar i lager	Importing stock items
+2069	Läser kalkylbladsfil	Reading spreadsheet file
+2070	Importerar konton	Importing accounts
+2071	Exporterar transaktioner	Exporting transactions
+2072	Exporterar kundfordringar	Exporting debtors
+2073	Importerar artiklar i lager	Importing stock items
+2074	Exporterar kontoplan	Exporting chart of accounts
+2075	Exporterar konton	Exporting accounts
+2076	Importerar dokument	Importing documents
+2077	Exporterar dokument	Exporting documents
+2078	Exporterar till CSV-fil	Exporting to CSV file
+2079	Exporterar till kalkylbladsfil	Exporting to spreadsheet file
+2080	Exporterar till OpenOffice kalkylbladsfil	Exporting to OpenOffice spreadsheet file
+2081	Exporterar till SYLK kalkylbladsfil	Exporting to SYLK spreadsheet file
+2082	Exporterar till MS Excel-fil	Exporting to MS Excel file
+2083	Förbereder lista	Preparing list
+2084	Återför bokförd verifikation/dokument	Reverse posted journal/document
+2085	Alias (verifikationsnamn)	Alias (journal name)
+2086	Återför bokförd verifikation	Reverse posted journal
+2087	Återför bokfört dokument	Reverse posted document
+2088	Antal rader	Line count
+2089	Dok. nr	Doc. no.
+2090	Använd nummer	Use numbers
+2091	Använd perioder	Use periods
+2092	Visa motkonto	Show contra
+2093	Inkludera ej bokförda artiklar	Including unposted items
+2094	Vill du använda det aktuella saldot som ingående balans?	Do you wish to use the current balance as opening balance?
+2095	Du kan inte rapportera från %s till %s!	You cannot report from %s to %s !
+2096	En post har redigerats! Vill du bokföra dina uppgifter?	A record was edited! Do you wish to post you data?
+2097	Kassaväxelöverföring ej tillåten!	Float transfer not allowed!
+2098	Du har fortfarande belopp att ta emot. %s Kan inte lämna obetalt belopp för POS-faktura!	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!
+2099	Rapporthistorikfilen hittades inte!	Report layout file not found!
+2100	Klicka på [OK] för att spara nytt namn	Click on [OK] to save new name
+2101	Allmänna nummer	General numbers
+2102	Bokför dokument automatiskt vid utskrift	Auto-post documents on print
+2103	&Anpassa	&Customise
+2104	&Uppdatera server	&Update server
+2105	Version:	Version :
+2106	Antal	Number
+2107	Visa kontaktuppgifter	Show contact details
+2108	Från datum	From date
+2109	Välj katalog för uppsättning böcker	Select Set of Books directory
+2110	Bläddra efter mapp	Browse for folder
+2111	Körbar exe-fil	Executable exe file
+2112	E-postsäkerhetskopia	E-mail backup
+2113	Återställ från server	Restore from server
+2114	<@APPNAME@> välj säkerhetskopia	<@APPNAME@> select backup file
+2115	Kontosiffror	Account digits
+2116	Namn på uppsättning böcker	Name of Set of Books
+2117	Sökväg	Path
+2118	Komprimera meddelandefil	Compress message file
+2119	Ändra kod	Change code
+2120	Ändring av lagerkoden kommer att medföra att alla rapporter använder denna kod!	Changing the stock code will result in all reports to use this code!
+2121	Är du säker på att du vill ändra koden?	Are you sure you want to change the code?
+2122	Ny lagerkod	New stock code
+2123	Kod	Code
+2124	Lagerinformation	Stock information
+2125	Uppdatera alla	Update all
+2126	BALANSERINGSPOST	BALANCING ENTRY
+2127	Korrigera debet/kredit	Correct Debit/Credit
+2128	Totaler för varje period	Totals for each period
+2129	Lägg till detta i beskrivningar	Add this to descriptions
+2130	Ny referens	New reference
+2131	Bearbeta	Process
+2132	&Datum för transaktioner	&Date for transactions
+2133	&Motkonto	&Contra account
+2134	Be&skrivning	De&scription
+2135	Till kundfordringar för (belopp)	To debtors for (amount)
+2136	Till kundfordringar med ett saldo mindre än (belopp)	To debtors with a balance less than (amount)
+2137	Antal dagar försenade	Number of days overdue
+2138	Skapa flera transaktioner	Generate multiple transactions
+2139	Från kundfordran:	From debtor
+2140	Till:	To:
+2141	%s %s av %s försenad den %s	%s %s of %s overdue on %s
+2142	Saldo	Bal
+2143	Antal:	Count :
+2144	Använd A5-storlek	Use A5 size
+2145	och	and
+2146	Noll	Zero
+2147	Banksaldo per	Bank balance at
+2148	Enligt <@APPNAME@>:	According to <@APPNAME@>:
+2149	SALDO PER	BALANCE AT
+2150	artiklar i lager	items on hand
+2151	Ange totalrabatt	Enter overall discount
+2152	Kreditnota	Credit note
+2153	Inköp	Purchases
+2154	Leverantörsreturer	Supplier returns
+2155	Faktura	Invoice
+2156	Fakturatotaler:	Invoice totals :
+2157	Kreditnotatotaler:	Credit note totals :
+2158	Kundtotaler:	Customer totals :
+2159	Försäljningsanalys - Försäljning per kund	Sales analysis - Sales per customer
+2160	Inköpstotaler:	Purchase totals :
+2161	Leverantörsreturtotaler:	Supplier return totals :
+2162	Leverantörstotaler:	Supplier totals :
+2163	Inköpsanalys - Inköp per leverantör	Purchase analysis - Purchases per supplier
+2167	Sök efter fakturanr.	Search by invoice no.
+2168	Uppsättning böckers plats:	Set of Books location :
+2169	Offert	Quote
+2170	Beställning	Order
+2171	Använd referens	Use reference
+2172	Skapa B/F-saldoalternativ	Generate Balance B/F options
+2173	Alternativ för att rensa länkar	Clear links options
+2174	Efter debetdatum	By debit dates
+2175	Inkludera artiklar sedan	Include items since
+2176	Aktuellt datum	Current date
+2177	Momsbelopp hittades men momskontot är raderat!	Tax amount found but tax account is deleted!
+2178	FÖRSÄLJNINGSKOSTNAD	COST OF SALES
+2179	Dag	Day
+2180	N	N
+2181	Från kundfordran	From debtor
+2182	Till kundfordran	To debtor
+2183	Importerar: %s av %s	Importing : %s  of %s
+2184	Importerar kundfordringar/leverantörsskulder...	Importing debtors/creditors...
+2185	Min beskrivning	My description
+2186	Alternativ för kontoutdrag	Bank statement options
+2187	(Dok.)	(Doc.)
+2188	Kontrollerar ej bokförda poster	Checking unposted items
+2189	Endast ej bokförda	Unposted only
+2190	Varje verifikation separat	Each journal separately
+2191	Visa detaljer	Show details
+2192	Skriver ut på	Printing on
+2193	Nederländsk textnumrering	Dutch text numbering
+2194	Använd valutasymbol	Use currency sign
+2195	Siffersymbol	Digit symbol
+2196	Decimaltecken	Decimal symbol
+2197	Läge	Mode
+2198	Faktura/redovisning	Invoice/Accounting
+2199	Redovisning	Accounting
+2200	Kassaapparat	Point-of-Sale
+2201	Redigera gäldenärer	Edit debtors
+2202	Redigera borgenärer	Edit creditors
+2203	Redigera skatt	Edit tax
+2204	Redigera bank	Edit bank
+2205	Standardavstämning bank	Default bank reconciliation
+2206	Adress 2	Address 2
+2207	Land	Country
+2208	11 bevis	11 Proof
+2209	Arbiträr	Arbitrair
+2210	Bankkontotyp	Bank account type
+2211	Bankkontonummer	Bank account no.
+2212	Automatiska betalningar	Automatic payments
+2213	Betalningsdatum	Payment date
+2214	Skapa Clieop-fil	Create Clieop file
+2215	Betalningsbankkonto	Payment bank account
+2216	Betala transaktion	Pay transaction
+2217	Spara fil	Save file
+2218	Gäldenärskod	Debtor code
+2219	Borgenärskod	Creditor code
+2220	Adress	Address
+2221	Förfallodagar	Due days
+2222	Förfallodatum	Due date
+2223	Avmarkera alla	Uncheck all
+2224	Avmarkera valda	Uncheck selected
+2225	Markera valda	Check selected
+2226	Borgenärsbetalningsrapport	Creditor payment report
+2227	Totalt antal rader	Total rows
+2228	Totalbelopp	Total amount
+2229	Kontrollsumma bankkonton	Checksum bank accounts
+2230	Ange kontoutdragsreferens	Enter statement reference
+2231	Kontoutdragsreferens	Statement reference
+2232	Betalningar	Payments
+2233	Inbetalningar	Receipts
+2234	Senaste total	Last total
+2235	Senaste angivna kontoutdrag	Last entered statement
+2236	^D: Radera kontoutdrag	^D : Delete statement
+2237	Radera rad	Delete line
+2238	Importera kontoutdrag	Import bank statement
+2239	11 bevis	11 Proof
+2240	Ingen kontroll	No check
+2241	Förfallodagar	Due days
+2242	Sortera	Sort
+2243	J	Y
+2244	N	N
+2245	S	T
+2246	F	F
+2247	Vy	Wy
+2248	Radera	Delete
+2249	Funktionen är inte implementerad för närvarande.	This feature is not implemented at this time!
+2250	Fel: Ogiltigt datum!	Error: Invalid date!
+2251	Inga Windows-timers är tillgängliga!	No Windows timers are available!
+2252	Ogiltig utlösarreferens!	Invalid trigger handle!
+2253	Redigerare för mappobjekt	Folder items editor.
+2254	Mappredigerare	Folder editor
+2255	Konflikt med en annan exklusiv händelse!	Conflicts with another exclusive event!
+2256	Sluttiden kan inte föregå starttiden!	The end time cannot precede the start time!
+2257	Fel: Kunde inte spara data till databasen!	Error: Posting data to the database!
+2258	Fel vid konvertering av månadens nummer!	Error converting the month number!
+2259	Fel: Ogiltig dag!	Error: Invalid day!
+2260	Fel: Det gick inte att skapa kontakt!	Error: Failure while creating contact!
+2261	Fel: Ogiltig månad!	Error: Invalid month!
+2262	Fel: Ogiltigt månadsnamn!	Error: Invalid month name!
+2263	Fel: Ogiltigt år!	Error: Invalid year!
+2264	Fel: Dag krävs!	Error: Day is required!
+2265	Fel: Månad krävs!	Error: Month is required!
+2266	Fel: År krävs!	Error: Year is required!
+2267	Fel: Namn får inte vara tomt!	Error: Name cannot be empty!
+2268	Fel: Det gick inte att skapa uppgift!	Error: Failure while creating task!
+2269	Fel: Det gick inte att skapa händelse!	Error: Failure while creating event!
+2271	Fel: Det gick inte att skapa resurs!	Error: Failure while creating resource!
+2272	Fel: Dublett resurs!	Error: Duplicate resource!
+2273	Fel: Ogiltig tabell angiven!	Error: Invalid table specified!
+2274	Fel: Det går inte att öppna!	Error: Unable to open!
+2275	Fel: Det gick inte att uppdatera!	Error: Unable to update!
+2276	Assistent	Assistant
+2277	Ring mig	Callback
+2278	Bil	Car
+2279	Företag	Company
+2280	Hem	Home
+2281	Hemfax	Home fax
+2282	ISDN	ISDN
+2283	Mobil	Mobile
+2284	Annan	Other
+2285	Annan fax	Other fax
+2286	Personsökare	Pager
+2287	Primär	Primary
+2288	Radio	Radio
+2289	Telex	Telex
+2290	TTY/TDD	TTY/TDD
+2291	Arbete	Work
+2292	Arbetsfax	Work fax
+2293	Affärsverksamhet	Business
+2294	Kunder	Clients
+2295	Familj	Family
+2296	Privat	Personal
+2297	Annan	Other
+2298	Vecka	Week of
+2299	Till och med	Through
+2300	Söndag	Sunday
+2301	Måndag	Monday
+2302	Tisdag	Tuesday
+2303	Onsdag	Wednesday
+2304	Torsdag	Thursday
+2305	Fredag	Friday
+2306	Lördag	Saturday
+2307	Sön	Sun
+2308	Mån	Mon
+2309	Tis	Tue
+2310	Ons	Wed
+2311	Tor	Thu
+2312	Fre	Fri
+2313	Lör	Sat
+2314	S	S
+2315	M	M
+2316	T	T
+2317	O	W
+2318	T	T
+2319	F	F
+2320	L	S
+2321	Ingen	None
+2322	Dagligen	Daily
+2323	Veckovis	Weekly
+2324	Månadsvis efter dag	Monthly by day
+2325	Månadsvis efter datum	Monthly by date
+2326	Årligen efter dag	Yearly by day
+2327	Årligen efter datum	Yearly by date
+2328	Anpassad	Custom
+2329	Minuter	Minutes
+2330	Timmar	Hours
+2331	Dagar	Days
+2332	Den här åtgärden kan inte ångras!	This operation cannot be undone!
+2333	från din kontaktlista?	from your list of contacts?
+2334	Lägg till kontakt...	Add contact...
+2335	Redigera kontakt...	Edit contact...
+2336	Radera kontakt...	Delete contact...
+2337	från ditt schema?	from your schedule?
+2338	från din uppgiftslista?	from your task list?
+2339	Lägg till uppgift...	Add task...
+2340	Redigera uppgift...	Edit task...
+2341	Radera uppgift...	Delete task...
+2342	Uppgiftslista -	Task list -
+2343	Uppgiftslista	Task list
+2344	I dag	Today
+2345	Nästa månad	Next month
+2346	Föregående månad	Previous month
+2347	Nästa år	Next year
+2348	Föregående år	Previous year
+2349	Lägg till händelse...	Add event...
+2350	Redigera händelse...	Edit event...
+2351	&Radera händelse...	&Delete event...
+2352	Ändra datum	Change date
+2353	I dag	Today
+2354	Nästa vecka	Next week
+2355	Föregående vecka	Previous week
+2356	Nästa månad	Next month
+2357	Föregående månad	Previous month
+2358	Nästa år	Next year
+2359	Föregående år	Previous year
+2360	Föregående sida	Previous page
+2361	Nästa sida	Next page
+2362	Första sidan	First page
+2363	Sista sidan	Last page
+2364	Lägg till händelse...	Add event...
+2365	Redigera händelse...	Edit event...
+2366	Radera händelse...	Delete event...
+2367	Ändra datum	Change date
+2368	I dag	Today
+2369	I morgon	Tomorrow
+2370	I går	Yesterday
+2371	Nästa dag	Next day
+2372	Föregående dag	Previous day
+2373	Nästa vecka	Next week
+2374	Föregående vecka	Previous week
+2375	Nästa månad	Next month
+2376	Föregående månad	Previous month
+2377	Nästa år	Next year
+2378	Föregående år	Previous year
+2379	I dag	Today
+2380	I morgon	Tomorrow
+2381	I går	Yesterday
+2382	Nästa vecka	Next week
+2383	Föregående vecka	Previous week
+2384	Befattning	Position
+2385	Företag	Company
+2386	Titel	Title
+2387	E-post	E-mail
+2388	Land	Country
+2389	Kategori	Category
+2390	Anteckningar	Notes
+2391	Anpassad 1	Custom 1
+2392	Anpassad 2	Custom 2
+2393	Anpassad 3	Custom 3
+2394	Anpassad 4	Custom 4
+2395	OK	OK
+2396	Avbryt	Cancel
+2397	&Stäng	&Close
+2398	&Skriv ut	&Print
+2399	Namnlös	Untitled
+2400	Välj ett ljud	Select a sound
+2401	Ljudsökare	Sound finder
+2402	Använd standardljud	Use default sound
+2403	Händelse	Event
+2404	Möte	Appointment
+2405	Ämne:	Subject
+2406	Kategori:	Category
+2407	Starttid:	Start time
+2408	Sluttid:	End time
+2409	&Påminnelse	&Reminder
+2410	Mötesåterkommande:	Appointment recurrence
+2411	Intervall (dagar):	Interval (days)
+2412	Upprepa till och med:	Repeat until
+2413	&Heldagshändelse	&All day event
+2414	Anteckningar	Notes
+2415	Kontakt	Contact
+2416	Namn	Name
+2417	Titel	Title
+2418	Adress	Address
+2419	Adress 2	Address 2
+2420	Adress 3	Address 3
+2421	Land	Country
+2422	Postnummer	Postal code
+2423	Företag	Company
+2424	Befattning	Position
+2425	Förhandsgranskning	Print preview
+2426	Uppgift	Task
+2427	Förfallodatum	Due date
+2428	Detaljer	Details
+2429	Uppgift slutförd	Task complete
+2430	Dagar försenad	Days overdue
+2431	Skapad den	Created on
+2432	Slutförd den	Completed on
+2433	Påminnelse	Reminder
+2434	FÖRFALLEN!	OVERDUE!
+2435	Klicka på [&Snooze] för att bli påmind igen om:	Click [&Snooze] to be reminded again in:
+2436	Ämne:	Subject
+2437	Anteckningar	Notes
+2438	&Avfärda	&Dismiss
+2439	&Snooza	&Snooze
+2440	&Öppna objekt	&Open item
+2441	5 minuter	5 minutes
+2442	10 minuter	10 minutes
+2443	15 minuter	15 minutes
+2444	30 minuter	30 minutes
+2445	45 minuter	45 minutes
+2446	1 timme	1 hour
+2447	2 timmar	2 hours
+2448	3 timmar	3 hours
+2449	4 timmar	4 hours
+2450	5 timmar	5 hours
+2451	6 timmar	6 hours
+2452	7 timmar	7 hours
+2453	8 timmar	8 hours
+2454	1 dag	1 day
+2455	2 dagar	2 days
+2456	3 dagar	3 days
+2457	4 dagar	4 days
+2458	5 dagar	5 days
+2459	6 dagar	6 days
+2460	1 vecka	1 week
+2461	Föregående månad	Previous month
+2462	Nästa månad	Next month
+2463	Föregående år	Previous year
+2464	Nästa år	Next year
+2465	I dag	Today
+2466	Återställ	Revert
+2467	I dag	Today
+2468	Nästa månad	Next month
+2469	Föregående månad	Previous month
+2470	Nästa år	Next year
+2471	Föregående år	Previous year
+2472	Återställ	Revert
+2773	Kan inte öppna WININET! Microsoft IE krävs!	Cannot open WININET! Microsoft IE required!
+2774	Kunde inte öppna filen!	Unable to open file!
+2775	Filen %s kunde inte hittas!	File %s could not be found!
+2776	Kunde inte allokera minne för XML-källan!	Unable to allocate memory for XML source!
+2777	HTTP-läsförfrågan misslyckades!	HTTP read request failed!
+2778	HTTP-data är inte tillgänglig!	HTTP data not available!
+2779	Kunde inte skicka HTTP-förfrågan!	Unable to send HTTP request!
+2780	Kunde inte öppna HTTP-förfrågan!	Unable to open HTTP request!
+2781	Kunde inte upprätta internetanslutning!	Unable to make Internet connection!
+2782	Kunde inte öppna Internet!	Unable to open Internet!
+2783	Ogiltig FTP-plats!	Invalid FTP location!
+2784	Ogiltig FTP-katalog!	Invalid FTP directory!
+2785	FTP-läsförfrågan misslyckades!	FTP read request failed!
+2786	FTP-data är inte tillgänglig!	FTP data not available!
+2787	Kunde inte öppna FTP-filen!	Unable to open FTP file!
+2788	Kunde inte spara filen via FTP till %s	Could not save file via FTP to %s
+2789	Kunde inte ladda källan!	Unable to load source!
+2790	Ogiltig minnespekare!	Invalid memory pointer!
+2791	Rad: %d Kol: %d Fel: %s!	Line: %d Col: %d Error: %s !
+2792	FEL: INDEX UTANFÖR GRÄNSERNA!	ERROR INDEX OUT OF BOUNDS!
+2793	Förväntad markering, men hittade:	Expected markup declaration, but found:
+2794	Otillåten attributtyp:	Illegal attribute type:
+2795	Otillåtet nyckelord för attributets standardvärde:	Illegal keyword for attribute default value:
+2796	Systemidentifierare saknas!	System identifier missing!
+2797	Extern modifierare saknas:	External modifier missing:
+2798	Villkorligt avsnitt måste börja med INCLUDE eller IGNORE	Conditional section must begin with INCLUDE or IGNORE
+2799	Ogiltig avgränsare i innehållsmodellen:	Bad separator in content model:
+2800	Förväntad kommentar eller CDATA-sektion!	Expected comment or CDATA section!
+2801	Oväntat slut på fil!	Unexpected end of file!
+2802	Slut-taggen matchar inte:	Mismatched end tag:
+2803	Ogiltigt tecken i referensen!	Illegal character in reference!
+2804	Hänvisning till odeklarerad entitet:	Reference to undeclared entity:
+2805	Förväntad sträng:	Expected String:
+2806	Mellanrum förväntas vid byte!	Whitespace expected at byte!
+2807	Slut på inmatning vid sökning efter avgränsare:	End of input while looking for delimiter:
+2808	"Förväntad "" eller """	"Expected "" or '"
+2809	XMLPartner stöder inte XML-specifikationen högre än %s	XMLPartner does not support XML specification greater than %s
+2810	Kunde inte skapa ström för inmatning!	Unable to create stream for input!
+2811	Ogiltigt XML-namn:	Invalid XML name:
+2812	Ogiltig kommentars text!	Invalid comment text!
+2813	Dokumentet kan inte börja med en kommentar om det även innehåller en XML-deklaration!	Document cannot start with a comment if it also contains an XML declaration!
+2814	Ogiltiga tecken i CDATA-sektionen	Invalid characters in CDATA section
+2815	Attribut kan inte omdefinieras i en start-tagg!	Attributes cannot be redefined in a start tag!
+2816	Cirkulär hänvisning till:	Circular reference to:
+2817	Ogiltigt tecken i attributvärdet:	Invalid character in attribute value:
+2818	Ogiltiga tecken i elementets teckendata:	Invalid characters in element's character data:
+2820	Villkorliga avsnitt är inte tillåtna i den interna delmängden av dokumenttypsdeklarationen!	Conditional sections not allowed in internal subset of document type declaration!
+2821	Notation har inte deklarerats:	Notation not declared:
+2822	Ogiltigt tecken i offentligt ID:	Invalid public id character:
+2823	NDATA är inte tillåtet i parameterentitetsdeklaration	NDATA not allowed in parameter entity declaration
+2824	"Fristående värde måste vara ""ja"" eller ""nej"""	Stand alone value must equal 'yes' or 'no'
+2825	Ogiltig kodningsdeklaration:	Invalid encoding declaration:
+2826	Ogiltigt XML-versionsnummer:	Invalid XML version number:
+2827	Ogiltigt tecken i entitetsvärdet:	Invalid character in entity value:
+2828	Kommentarer kan inte placeras i annan markering!	Comments cannot be placed within other markup!
+2829	Ogiltig data finns efter ett giltigt XML-dokument!	There is invalid data after valid XML document!
+2830	XML-deklarationen måste visas före det första elementet!	The XML declaration must appear before the first element!
+2831	Ogiltigt elementnamn:	Invalid element name:
+2832	Parameter-entitetstext måste vara korrekt nästlad:	Parameter-entity text must be properly nested:
+2833	Ogiltig teckenkodning angavs!	Invalid character encoding specified!
+2834	Attributet %s i element %s har inte ett heltal!	Attribute %s of element %s does not have an integer value!
+2835	Okänd axelspecifikation: %s	Unknown axis specifier: %s
+2836	Ogiltigt XML-tecken hittades!	Invalid XML Character found!
+2837	Ogiltig (big-endian) UTF-16 teckenkodning!	Invalid (big-endian) UTF-16 character encoding!
+2838	Ogiltig (little-endian) UTF-16 teckenkodning!	Invalid (little-endian) UTF-16 character encoding!
+2839	Felaktigt utformat UTF-8-tecken i strömmen!	Badly formed UTF-8 character in stream!
+2840	Oväntat slut på dokumentströmmen!	Unexpected end of document stream!
+2841	Kan inte konvertera UCS-4-tecken till ISO-8859-1!	Cannot convert UCS-4 character to ISO-8859-1!
+2842	Kan inte konvertera UCS-4-tecken till UTF-16!	Cannot convert UCS-4 character to UTF-16!
+2843	Kan inte konvertera UCS-4-tecken till UTF-8!	Cannot convert UCS-4 character to UTF-8!
+2844	Utanför intervall!	Out of range!
+2845	Stöds inte!	not supported!
+2846	Ange ett elementnamn!	Please supply an element name!
+2847	Formatnamnet får inte vara tomt!	Format name cannot be blank!
+2848	Utskriftsstyrenheten ägs inte av en TVpControlLink!	Print controller is not owned by a TVpControlLink!
+2849	Ogiltigt utskriftsformat!	Invalid Print format!
+2850	Ogiltig objekttyp!	Invalid item type!
+2851	Ogiltig mätning!	Invalid measurement!
+2852	Ägaren måste vara en ättling till TWinControl!	Owner must be a TWinControl descendent!
+2853	Komponenten måste vara länkad till en TVpControlLink!	Component must be linked to a TVpControlLink!
+2854	Inga utskriftsformat har definierats!	No print formats have been defined!
+2855	TCanvas är inte tilldelad!	TCanvas not assigned!
+2856	Lokaliseringsfilen hittades inte!	Localisation file not found!
+2857	Möte	Appointment
+2858	Återkommande fakturor	Repeating invoices
+2859	Möte gäldenär	Debtor appointment
+2860	Möte borgenär	Creditor appointment
+2861	Kategori 4	Category 4
+2862	Kategori 5	Category 5
+2863	Kategori 6	Category 6
+2864	Kategori 7	Category 7
+2865	Kategori 8	Category 8
+2866	Kategori 9	Category 9
+2867	Redigera utskriftsformat...	Edit print formats...
+2868	Inga resurser har definierats! Vill du lägga till en nu?	No resources have been defined! Would you like to add one now?
+2869	Ingen resurs har valts! Vill du välja en nu?	No resource has been selected! Would you like to select one now?
+2870	Filtrera kolumn	Filter column
+2871	Värde	Value
+2872	Visa	Display
+2873	Klocka	Clock
+2874	Agenda	Agenda
+2875	Uppgifter	Tasks
+2876	Kontakter	Contacts
+2877	Inlästa händelser	Loaded events
+2878	# Visningsdagar	# Display days
+2879	Kalender	Calendar
+2880	Vänligen spara denna återkommande faktura först! Efter att ha öppnat den igen kan du lägga till kunder till fakturan.	Please save this repeating invoice first! After reopening you can add clients to the invoice.
+2881	Vill du radera denna %s?	Do you wish to delete this %s?
+2882	Vill du radera alla %s?	Do you wish to delete all %s?
+2883	Återkommande faktura	Repeating invoice
+2884	Fakturadatum	Invoice date
+2885	Bearbeta alla	Process all
+2886	Bearbeta lista	Process list
+2887	Bearbeta valda	Process selected
+2888	&Ny	&New
+2889	&Redigera	&Edit
+2890	&Huvud	&Main
+2891	&Telefon	&Telephone
+2892	&Anteckningar	&Notes
+2893	Förfallobelopp	Due amount
+2894	Dokument har skapats!	Document(s) created!
+2895	Förfallodatumet är före dokumentdatumet!	Due date is lower then document date!
+2896	Automatiska inbetalningar	Automatic receipts
+2897	Ange ett namn för bokföringsuppsättningen!	Please enter a name for the Set of Books!
+2898	Uppdatera bankkonto	Update bank account
+2899	Sök dokument	Lookup document
+2900	Sök dokument med belopp	Lookup document with amount
+2901	Sök gäldenär	Lookup debtor
+2902	Sök borgenär	Lookup creditor
+2903	Ett bankkonto hittades redan! Vill du uppdatera det här?	There was already a bank account found! Do you wish to update this?
+2904	Rapportera belopp med	Report amounts with
+2905	Datalagring	Data storage
+2906	Hastighet	Speed
+2907	Särskilda inställningar	Special settings
+2908	Antal decimaler i rapporter	Reporting decimals
+2909	Reskontra	Open item ledgers
+2910	Använd inte Reportman	Do not use Reportman
+2911	Reala tal	Real numbers
+2912	Fasta decimaler	Fixed decimals
+2913	<> för kredit	<>  for Credit
+2914	+/- för debet/kredit	+/-  for Debit/Credit
+2915	D/K för debet/kredit	D/C for Debit/Credit
+2916	Visa kalender	Show calandar
+2917	Ingen varning för obokfört	No warning unposted
+2918	Använd aktuellt datum för rapporter	Use current date for reports
+2919	Extra beskrivning	Extra description
+2920	Stycklista	BOM
+2921	Försäljning (inget lager)	Sales (no stock)
+2922	Inköp (inget lager)	Purchase (no stock)
+2923	Stycklistor	BOM list
+2924	Kopiera från artikel	Copy from item
+2925	Beräkna inte verifikationer	Do not calculate journals
+2926	Dokumentkvantitet	Document quantity
+2927	Automatisk kopiering info	Auto-copy info
+2928	Använd standardkonto	Use default account
+2929	Standardkonto	Default account
+2930	Ingen restorder	No backorder
+2931	Kan inte sälja slut i lager	Cannot sell out of stock
+2932	Ingen utskriftsbekräftelse	No print confirmation
+2933	Kontrollera referensanvändning	Check reference used
+2934	Kan inte skapa artiklar	Cannot create items
+2935	Kunddisplay	Pole display
+2936	Kunddisplay ansluten	Pole display connected
+2937	Kan du se detta?	Can you see this ??
+2938	Standard POS-kunddisplay	Default POS Pole
+2939	2 x 20 tecken POS-kunddisplay	2 X 20 chars POS Pole
+2940	Vågskål	Weight dish
+2941	Vågskål ansluten	Weight dish connected
+2942	Returvärde från vågskål	Return value from weight dish
+2943	Test	Test
+2945	Snabbt byte säljare	Fast switch salesperson
+2946	Avrunda POS-slutbelopp	Round POS end amount
+2947	Visa antal i lager	Show qty on hand
+2948	Lösenord för rabatt	Discount password
+2949	Använd lösenord för rabatt	Use password for discount
+2950	Använd gäldenärens försäljningspris	Use debtor selling price
+2951	Låda	Drawer
+2952	Detta tar bort din nuvarande registrering och öppnar formuläret för att ange registrering! Vill du avbryta?	This will remove your current registration and open the enter registration form! Do you want to cancel?
+2953	Skriv ut streckkoder	Print bacodes
+2954	Ändra konto	Change account
+2956	Säkerhetskopiera rapporter	Backup reports
+2957	Generera Reportman-kataloger	Generate Reportman directories
+2958	Avlänka transaktion	Unlink transaction
+2959	Ta emot betalning	Receive payment
+2960	Skriv ut transaktioner igen	Reprint transactions
+2961	Ange belopp att länka	Enter amount to link
+2962	Dölj reskontra	Suppress open item
+2963	Kom ihåg inkluderande	Remember inclusive
+2964	Utskriven	Printed
+2965	Välj säkerhetskopieringskatalog	Select backup directory
+2966	Exempel	Sample
+2967	Använd filter	Use filter
+2968	Identifiering av utgående e-postserver (SMTP)	Outgoing mail server identification (SMTP)
+2969	Standardtext	Default text
+2970	Vänligen ange din lista	Please enter your list
+2971	Din lista med kommatecken som avgränsare	Your list with comma separation
+2972	Välj från avgränsad lista	Select from delimited list
+2973	Dölj inaktiverade menyalternativ	Hide disabled menu items
+2974	Dokumentbokföring	Document posting
+2975	Länk till säljare	Link to salesperson
+2976	Redigera kvantitet	Edit quantity
+2977	Välj ny katalog för bokföringsuppsättning	Select new Set of Books directory
+2978	Känd buggfix	Known bug fix
+2979	Endast ingående balans	Opening balances only
+2980	Visa budget	Show budget
+2981	Visa alla lagerartiklar	Show all stock items
+2982	Lägg till obokfört	Add unposted
+2983	Offert / Beställningar	Quotes / Orders
+2984	Pris inklusive	Price inclusive
+2985	Visa noll lagersaldo	Show zero stock count
+2986	Visa alla säljare	Show all salespersons
+2987	Visa fakturanummer	Show invoice no.
+2988	Kassarapport	Cash-up report
+2989	Försäljningsrapport	Sales report
+2990	Skriv ut ramar	Print frames
+2991	Skriv ut logotyp	Print logo
+2992	Ingen dokumentbokföring	No document posting
+2993	Anpassad begränsning	Custom limitation
+2994	Dölj	Hide
+2995	Inaktivera	Disable
+2996	Visa	Show
+2997	Aktivera	Enable
+2998	Replikering	Replication
+2999	Öppna verifikationer	Open journals
+3000	Endast uppladdning	Upload only
+3001	Endast nedladdning	Download only
+3002	Skapar katalog...	Creating directory...
+3003	Kopierar bokföringsuppsättning...	Copying Set of Books...
+3004	Kopiera från en bokföringsuppsättning	Copy from a Set of Books
+3005	av	of
+3006	Överföring påbörjad till	Transfer started to
+3007	Endast detta konto	Only this account
+3008	Ett nytt år har öppnats framgångsrikt!	A new year has been opened succesfully!
+3009	Flyttar totalsummor...	Moving totals...
+3010	Referensen har använts i ett annat dokument! Kontrollera din inmatning efter dubbletter!	The reference has been used in a other document! Please check your input for duplicates!
+3011	Alla dokument	All documents
+3012	Alla år	All years
+3013	Banksaldo enligt kontoutdrag	Bank balance as per bank statement
+3014	Bankavstämningsrapport per	Bank reconciliation report as at
+3015	Avstämt banksaldo	Reconciled bank balance
+3016	Banksaldo enligt <@APPNAME@> per	Bank balance according to <@APPNAME@> at
+3017	Skillnad	Difference
+3018	Varning - Denna rapport innehåller obokförda verifikationer!	Warning - This report contains unposted journals!
+3019	Visa noll lagersaldo	Show zero stock count
+3020	Konvertera faktura till beställning	Convert invoice to order
+3021	Kopiera dokument	Copy document
+3022	Ange rapporteringsgrupp 1	Set reporting group 1
+3023	Ange rapporteringsgrupp 2	Set reporting group 2
+3024	Öppna osCommerce-beställning i webbläsaren	Open osCommerce order in browser
+3025	Öppna osCommerce-kund i webbläsaren	Open osCommerce customer in browser
+3026	Banknamn	Bank name
+3027	Använd standardmoms	Use default tax
+3028	Standard momskonto	Default tax account
+3029	Förnamn	First name
+3030	Anslut till fjärrdatabas	Connect to remote database
+3031	Inkluderande läge	Inclusive mode
+3032	Enradsläge	Single line mode
+3033	Automatisk alias	Auto-alias
+3034	Kom ihåg inklusive	Remember inclusive
+3035	Använd länkmoms	Use link tax
+3036	Länkmoms	Link tax
+3037	Motmoms	Contra tax
+3038	Reskontrakonto	Open item account
+3039	Alternativ för POS-rapport	POS report options
+3040	Använd dokumentdatum	Use document date
+3041	Motref. som kontoref.	Contra ref. as account ref.
+3042	Automatisk uppdatering	Auto refresh
+3043	Intervall (sek.)	Interval (sec.)
+3044	Begränsa dokument SQL	Limit documents SQL
+3045	Sök efter strängar	Search for strings
+3046	Delsumma	Subtotal
+3047	Beloppsinmatning	Amount entry
+3048	Dokumentrad	Document row
+3049	Importera bokförd verifikation	Import a posted journal
+3050	Använd standardmoms	Use default tax
+3051	Konto börjar med	Account starts with
+3052	Expandera efter uppdatering	Expand after refresh
+3053	Använd länkmoms	Use link tax
+3054	Länkmoms	Link tax
+3055	Motmoms	Contra tax
+3056	Uppdatera	Refresh
+3057	Expandera	Expand
+3058	Dölj	Collapse
+3059	Flytta åt vänster	Move left
+3060	Underkonton	Sub-accounts
+3061	Total periodbudget	Total period budget
+3062	Ange periodbudget	Set period budget
+3063	Finansiella kategorier	Financial categories
+3064	Inte ett giltigt konto!	Not a valid account!
+3065	Inga användarrättigheter!	No user rights!
+3066	Fält saknas! Kontrollera importfilen!	Field missing! Please check import file!
+3067	Fel vid stängning av skiftet! Försök igen!	Error in closing shift! Please try again!
+3068	Fel: Inget konto hittades!	Error : No account found!
+3070	Clieop-kommentarsrader måste fyllas i!	Clieop comment lines must be filled!
+3071	Du måste ange ett bankkontonummer!	You need to enter a bank account number!
+3072	Avbryt import!	Abort import!
+3073	Gruppen har fortfarande nästlade grupper! Ta bort dem först!	Group still has nested groups! Remove them first!
+3074	Det finns fortfarande konton som använder den här gruppen! Ta bort dem först! (Första konto =	There's still accounts using this group! Please remove them first! (First account =
+3075	Det finns fortfarande dokument som använder den här gruppen! Ta bort dem först!	There's still documents using this group! Please remove them first!
+3076	Det finns fortfarande lager som använder den här gruppen! Ta bort det först!	There's still stock using this group! Please remove them first!
+3077	Ingen anslutning tilldelad!	No connection assigned!
+3078	Kontokod finns redan!	Account code already exists!
+3079	Offert(er) har genererats!	Quote(s) generated!
+3080	Vill du bokföra på kontot för balanserad vinst?	Do you wish to post on the retained earnings account?
+3081	Återställ lagret?	Reset stock?
+3082	Importfilformatet är inte implementerat!	Import file format not implemented!
+3083	Denna artikel är slut i lager! Kvantiteten justeras automatiskt!	This item is out of stock! Auto adjusting quantity!
+3084	Klart!	Finished!
+3085	Tom kod!	Empty code!
+3086	Koden finns!	Code exists!
+3087	Nummer %s är inte ett giltigt 11-bevisnummer!	Number %s is not a valid 11 proof number!
+3088	Använd streckkodsskrivare	Use barcode printer
+3089	Avancerat läge	Advanced mode
+3090	Uppdateringstyp	Update type
+3091	Konfigurera lager	Setup stock
+3092	Konfigurera grupp	Setup group
+3093	Transaktionsdatum	Transaction date
+3094	Föredragen leverantör 1	Preferred supplier1
+3095	Föredragen leverantör 2	Preferred supplier2
+3096	Skapa fakturor för timmar	Create invoices for hours
+3097	Begränsa lager SQL	Limit stock SQL
+3098	Inkludera obokförda fakturor	Include unposted invoices
+3099	Projekt	Projects
+3100	Du försöker ansluta till en fjärrdatabas! Denna version stöder inte det som standard! Kontakta oss på https://www.osfinancials.org/ för att stödja projektet och få din fleranvändarlicens!	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!
+3101	Oregistrerad	Unregistered
+3102	Registrerad till	Registered to
+3103	Enda användare	Single user
+3104	Reskontraanalysator	Ledger analyser
+3105	Serienummer	Serial number
+3106	Kolumnbalanser	Column balances
+3107	Kolumnbalanser gäldenärer	Column balances debtors
+3108	Kolumnbalanser borgenärer	Column balances creditors
+3109	Layoutfil 1	Layout file 1
+3110	Layoutfil 2	Layout file 2
+3111	Layoutfil 3	Layout file 3
+3112	Språk	Language
+3113	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8
+3114	https://www.osfinancials.org/en/forum-en	https://www.osfinancials.org/en/forum-en
+3115	https://www.osfinancials.org/en/webshop	https://www.osfinancials.org/en/webshop
+3116	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8 
+3117	Oregistrerad version! Vänligen köp denna plugin på https://www.osfinancials.org/en/webshop och stöd <@APPNAME@>:s utveckling.	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.
+3118	Denna demo-plugin tillåter %s poster att anges. Om du behöver mer, vänligen köp produkten på https://www.osfinancials.org/en/webshop	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop
+3119	https://www.osfinancials.org/	https://www.osfinancials.org/
+3120	Tidslicensen löper ut om 1 dag! Besök https://www.osfinancials.org/en/webshop	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 
+3121	Tidslicensen löper ut om %s dagar! Besök https://www.osfinancials.org/en/webshop	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 
+3122	Tidslicensen har löpt ut! Besök https://www.osfinancials.org/en/webshop	Time license expired! Please visit https://www.osfinancials.org/en/webshop 
+3123	Välkommen till <@APPNAME@>	Welcome to <@APPNAME@>
+3124	Framåt	Forward
+3125	Öppna automatiskt vid start av <@APPNAME@>	Auto-open when starting <@APPNAME@>
+3126	Konvertera <@APPNAME@> till denna version	Convert <@APPNAME@> to this version
+3127	Nettovikt	Net weight
+3128	Bruttovikt	Gross weight
+3129	Beställ vid	Reorder at
+3130	Minimum	Minimum
+3131	Beställningsnivå - dina artiklar kommer att beställas tills denna kvantitet!	Reorder level - your items will be reordered until this quantity!
+3132	Om ditt lager faller under detta, kommer systemet att beställa tills beställningskvantiteten nås!	If your stock goes below this, then the system will reorder until the reorder quantity!
+3133	Om du vill reservera lager för försäljning, kommer detta fält att dras av från nuvarande lagernivåer i en offert!	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!
+3134	Språk	Languages
+3135	Språk	Language
+3136	Flera grupper	Multi-group
+3137	Välj bild	Select image
+3138	Radera bild	Delete image
+3139	Nu: %s Offert: %s Order: %s Förv: %s	Cur : %s Quote : %s Order : %s Exp : %s
+3140	Förväntad kvantitet	Expected quantity
+3141	Tillverkare	Manufacturer
+3142	Alternativ artikel	Option item
+3143	Alternativ artikel (inget lager)	Option item (no stock)
+3144	Alternativ	Options
+3145	Generera	Generate
+3146	Länkade alternativ	Linked options
+3147	Visa som träd	View as tree
+3148	Kombinationsnamn	Combination name
+3149	Ta bort	Remove
+3150	Extra pris	Extra price
+3151	Finansiell post	Financial entry
+3152	Vikt	Weight
+3153	Om du har OpenOffice installerat kan du redigera detta som HTML genom att dubbelklicka i textfältet!	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!
+3154	Alternativ	Options
+3155	Konfigurera alternativ	Setup options
+3156	Dubbelklicka för att ange alternativlistan.	Double-click to enter the option list.
+3157	Standard inklusive för dokument	Default inclusive for documents
+3158	Endast SQL för lagersökning	SQL only for stock lookup
+3159	Slå samman faktura till beställningar	Merge invoice to orders
+3160	Slå samman artiklar per moms på reskontra	Merge items per tax on ledger
+3161	Knappsökning	Button lookup
+3162	Kan inte redigera pris	Cannot edit price
+3163	Kan inte redigera beskrivning	Cannot edit description
+3164	Gå till kvantitet	Go to quantity
+3165	Bankkonton	Bank accounts
+3166	Kolumnbalanser D/K	Column balances D/C
+3167	Kolumnbalanser gäldenärer D/K	Column balances debtors D/C
+3168	Kolumnbalanser borgenärer D/K	Column balances creditors D/C
+3169	Strikt moms på konto	Strict tax on account
+3170	Bokföringsvarning per faktura	Post warning per invoice
+3171	Bearbeta varningar	Process warnings
+3172	Bearbeta prenumerationer	Process subscriptions
+3173	Skicka e-post	Send e-mail
+3174	Dokumentlayout	Document layout
+3175	Avtalsvillkoret är inte detsamma!	Contract term not the same!
+3176	Skicka varning	Send warning
+3177	E-posta signerat dokument	E-mail signed document
+3178	Länkmoms	Link tax
+3179	Banklänkar	Bank links
+3180	Redigera konto	Edit account
+3181	Konvertera till kreditnota / leverantörsåterföring	Convert to credit note / supplier return
+3182	Öppna e-handelsbeställning i webbläsaren	Open e-Commerce order in browser
+3183	Öppna e-handelskund i webbläsaren	Open e-Commerce customer in browser
+3184	Konvertera dokument till enstaka dokument	Convert documents to single document
+3185	Skapa inköp på standardleverantör 1	Create purchase on default supplier 1
+3186	Bild	Image
+3187	Felrapport	Bug report
+3188	Kostnadsställen	Cost centres
+3189	Stäng aktiva formulär	Close active forms
+3190	Visa / dölj sidofält	Show / hide sidebar
+3191	Visa / dölj toppfält	Show / hide topbar
+3192	Sök endast i konto	Only look in account for search
+3193	Felrapport	Bug report
+3194	Webbutik	Webshop
+3195	Hjälp	Help
+3196	Forum	Forum
+3197	Ingående balans - Detta år	Opening balance - This year
+3198	Kön	Gender
+3199	Man	Male
+3200	Kvinna	Female
+3201	Nyhetsbrev och lösenord	Newsletters and password
+3202	Hänvisningskälla	Referral source
+3203	Nyhetsbrev	Newsletters
+3204	Lösenordsbekräftelse	Password confirmation
+3205	Allmänt	General
+3206	Version	Release
+3207	Felrättning	Bug fix
+3208	Gemeinschaftsdag	Community day
+3209	Befintlig användare	Existing user
+3210	Registreringen lyckades !	You have registered successfully ! 
+3211	Användning	Usage
+3212	Webbplats	Website
+3213	Registrera om	Reregister
+3214	Konsult	Consultant
+3215	Skicka	Send
+3216	Ny användare	New user
+3217	Åtgärd	Action
+3218	Användarnamn och lösenord används för forum och webbhandel, inte för <@APPNAME@>	Username and password are used to log in to our forum and shop not for <@APPNAME@> self
+3219	E-post kan skickas via snabbmenyn i dokumentlistan	E-mail can be sent via the context menu in the Document list.
+3220	E-postmall	Mail template
+3221	Välj layout	Select layout
+3222	Välj mall	Select template
+3223	Rapportnamn	Report name
+3224	Basmapp Kund/Leverantör	Base folder debtor/creditor
+3225	Basmapp	Base folder
+3226	Test-e-post	Test e-mail
+3227	Skicka e-post	Send e-mail(s)
+3228	Återuppta e-post	Resume e-mail(s)
+3229	Stoppa e-post	Stop e-mail(s)
+3230	Sökväg till HTML-filer	Path to the HTML files
+3231	POP-användarnamn	POP username
+3232	POP-lösenord	POP password
+3233	POP-server	POP server
+3234	SMTP-port	SMTP port
+3235	SMTP-server	SMTP server
+3236	Returadress	Return e-mail
+3237	Avsändarnamn	Return name
+3238	E-posthuvudtext	E-mail header text
+3239	Max antal e-post	Send max mail
+3240	Tidsgräns i sek.	Timer threshold in sec.
+3241	SMTP-användarnamn	SMTP username
+3242	SMTP-lösenord	SMTP password
+3243	Signeringscertifikat	Sign certificate
+3244	Certifikatlösenord	Certificate password
+3245	Signera PDF	Sign any PDF
+3246	Fri text	Free text
+3247	Förhandsgranska i webbläsare	Preview in browser
+3248	Test-e-post till extra CC	Test E-mail to Extra CC
+3249	Extra CC	Extra CC
+3250	CC (flera separera med ;)	CC (multiple separate with ;)
+3251	BCC (flera separera med ;)	BCC (multiple separate with ;)
+3252	Skicka e-post	Send E-mail
+3253	Ingen extra CC hittades! Ange e-postadress i rutan nedanför!	No extra CC found! Please enter an e-mail address in text box below this button!
+3254	Inget POP-lösenord angivet!	No POP password entered!
+3255	Stoppad av användare!	Stopped by user!
+3256	På	On
+3257	Av	Off
+3258	Inställningar E-post Pro	Setup E-mail Pro
+3259	E-post Pro	E-mail Pro
+3260	Ingen kategori	No category
+3261	Fria fält	Freefields
+3262	Registrera	Register
+3263	Rensa ogiltiga	Purge invalid
+3264	Gör om rabatt på dokument	Redo discount on document
+3265	Procent av försäljning	Percentage of sale
+3266	Strukturlista (Produktion)	BOM (Production)
+3267	Leverantörs artikelkod	Supplier stock code
+3268	Prioriterad leverantör	Preferred supplier
+3269	Nästa kostnadspris	Next cost price
+3270	Montera	Assemble
+3271	Demontera	Disassemble
+3272	Länka bankkonto från import till konton	Link bank account from import to accounts
+3273	Länka alla poster med nuvarande bankkonton	Link all records with current account bank accounts
+3274	Välj från konto öppna poster	Select from account open item list
+3275	Visa referenser för konto	Show references for account
+3276	Bankimport extra länkfunktioner. Ange bankkonto för exakt match. Text med # söker i bankrad. Text söks i versaler.	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside a imported bank line to see if the text is in that string. Text will be searched in the uppercase.
+3277	Kontobankreferenser	Account bank references
+3278	Standard bankkontonr	Std Bank account no.
+3279	Leveransdatum	Delivery date
+3280	Kontroll	Check
+3281	Plugin massaåtgärd	Plugin mass action
+3282	Pluginåtgärd	Plugin action
+3283	Snabblägg till (artikelkod / streckkod / serienummer)	Fast add item (code/barcode/serial)
+3284	Ange total	Enter total
+3285	Beräkna om bas	Recalculate base
+3286	Kostnadspris	Cost price
+3287	Försäljningspris	Selling price
+3288	Beräkna om försäljning %	Recalculate sales %
+3289	Kopiera från plugin	Copy from plugin
+3290	Klistra in till plugin	Paste to plugin
+3291	Kopiera från / initiera	Copy from / init
+3292	Klistra in / utför	Paste to / perform
+3293	Kopiera	Copy
+3294	Visa moms i dokument	Show tax in documents
+3295	Försäljning/Debet	Sales/Debit
+3296	Inköp/Kredit	Purchase/Credit
+3297	Dölj denna moms	Hide this tax
+3298	Alla	All
+3299	Ingen slutmeddelande	No out of stock message
+3300	Använd färger för slut	Use colours for out of stock
+3301	Beräkna strukturlistelager	Calculate BOM stock
+3302	Begränsa inköp till standardleverantör	Limit stock purchase only for default supplier or non
+3303	Välkommen	Welcome
+3304	Ny faktura	New invoice
+3305	Data sparad	Data saved
+3306	Dela nota	Split bill
+3307	Data sparad	Data saved
+3308	Öppna faktura igen	Reopen invoice
+3309	+Öppna snabblägg	+Open fast add
+3310	-Stäng snabblägg	-Close fast add
+3311	Skapa inköp på standardleverantör 1	Create purchase on default supplier 1
+3312	Ingen standardleverantör 1 för dessa artiklar! Rätta först!	No default supplier 1 for these stock items! Please correct first!
+3313	Månader	Months
+3314	Per period	Per period
+3315	Fritt urval	Free selection
+3316	Timmar mellan datum	Hours between date
+3317	Beräkna om försäljningspris	Recalculate selling price
+3318	Standard kostnadsställe	Default cost centre
+3319	Kostnadsställe	Cost centre
+3320	Spara detta osparade dokument?	Save this unsaved document?
+3321	Kod, beskrivning och extra beskrivning	Code, description and extra description
+3322	Ange nytt inklusive total	Enter new inclusive total
+3323	Skapa restorder att leverera	Create backorders to deliver
+3324	Endast nya poster (ingen justering)	Only new items (no adjust)
+3325	<- Sätt valda till detta pris	<- Set selected to this price
+3326	Öppen post	Open item
+3327	Clieop kommentar	Clieop comment
+3328	Ort	City
+3329	Val	Cur
+3330	Offert	Quote
+3331	P	P
+3332	LP	LP
+3333	Order	Order
+3334	Exp	Exp
+3335	Lognivå	Log level
+3336	Nästa journalnr	Next journal no.
+3337	Bakgrundsfärg	Back colour
+3338	Textfärg	Font colour
+3339	Länka bild	Link image
+3340	Rensa bild	Clear image
+3341	Initiera alla översättningar och plugins	Init all translations and plugins
+3342	Visa färger	Show colours
+3343	Hitta ogiltiga	Find invalid
+3344	Justera betalningsdatum	Adjust payment date
+3345	Sammanfogning med moms förstör momsuppgifter! Använd inte moms eller sammanfogning!	Consolidating lines and using tax will mess up your tax report! Please make sure you do not use tax or do not consolidate lines!
+3346	Som PDF-fil	As PDF file
+3347	Tidslucka	Timeslot
+3348	Visa vid start	Show at startup
+3349	Det finns dokument kopplade till detta projekt! Fortsätt? All projektdata försvinner!	There is document(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3350	Det finns transaktioner kopplade till detta projekt! Fortsätt? All projektdata försvinner!	There is transaction(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3351	Det finns obokförda dokument! Kan inte stänga projekt!	There are unposted documents! You cannot close this project!
+3352	Försäljning, Inköp, Kostnad och momskonton	Sales, Purchase, Cost of sales and Tax accounts
+3353	Endast öppna transaktioner	Open transactions only
+3354	Ta bort felaktiga länkar	Remove fault links
+3355	Överför transaktioner	Transfer transactions
+3356	Lön import	Payroll import
+3357	Fritt urval	Free selection
+3358	AutoBetalning	AutoPayment
+3359	Streckkodsskrivare	Barcode printer
+3360	Etikettskrivare	Label printer
+3361	Använd flera skrivare	Use multi printers
+3362	Ändra anmärkning	Change remark
+3363	Ange ändringsanmärkning	Please enter change remark
+3364	Ingen anmärkning, avbruten!	No remark entered, process aborted!
+3365	Lagerantal ändrat! Behåll nuvarande data?	Stock quantity has been changed! Do you want to retain the current database data?
+3366	Manuell justering	Manual adjust
+3367	Fortsätt åtgärd %s ?	Continue action %s ?
+3368	Standard kolumnsaldo	Standard column balances
+3369	Dokumentet ändrat av annan användare. %s Skriva över?	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 
+3370	Användaravbrott!	User exit!
+3371	Radera alla dokument eller sätt som obokförda?	If you wish to clear (remove) all documents, click [Yes]. If you wish to retain all documents and set them to unposted, click [No].
+3372	Budget vs verkligt	Budget vs actual
+3373	I år vs förra året	This year vs last year
+3374	Verktyg	Tools
+3375	Externa systemlänkar	External system links
+3376	Finansiella verktyg	Financial tools
+3377	Generiska plugins	Generic plugins
+3378	Fria fält	Freefields
+3379	Multimedia	Multimedia
+3380	Prisavtal	Price agreement
+3381	Lagerkontroll	StockCheck
+3382	Snabborder	QuickOrder
+3383	E-handel	E-commerce
+3384	Anläggningstillgångar	Activa
+3385	Kontor	Office
+3386	SQL-webbläsare	Sql Browser
+3387	Djupdykning	DrillDown
+3388	XML revisionsfil	Xml Audit File
+3389	Kassa display	POS Display
+3390	Skicka paket	Send Package
+3391	Prenumerationer	Subscriptions
+3392	Webbexport	Web Export
+3393	Kund spärrad	Customer on hold
+3394	Dokument e-post Pro	Document E-mail Pro
+3395	HORECA Kassa	HORECA POS
+3396	DETAILJ Kassa	RETAIL POS
+3397	Charter	Charter
+3398	Plats-Serienummer-Partier	Location-Serials-Batches
+3400	Remittering	Remittance
+3401	Rapportverktyg	Reportman
+3402	Avancerade verktyg	HandyTools (Advanced users only)
+3403	Registrera plugins	Register plugins
+3404	Export / Import	Export / Import
+3405	Lager plugins	Stock plugins
+3406	Dokument plugins	Document plugins
+3407	Filialspecifikt	Branch Specific
+3408	Trafikskoleplugin	Driving school plugin
+3409	Postnummer / skatteid / regnr sökning	Postal code / tax id / reg. no. lookup
+3410	Holländsk momsplugin	Dutch Tax plugin
+3411	CCV PIN	CCV PIN
+3412	Kassa poäng	POS Points
+3413	Kontrollant inloggning	Controller Login
+3414	Multi-användar agenda	Multi-user Agenda
+3415	Träförsäljning	Woodsales
+3416	Dokument export import	Document Export Import
+3417	Promeetec	Promeetec
+3418	Plugin laddningslista	Plugin load list
+3419	Aktivera plugin	Activate plugin
+3420	Inaktivera plugin	Deactivate plugin
+3421	Använd flikar i lager	Use tabs in stock
+3422	Ej registrerad för forum! Registrera <@APPNAME@> för att logga in.	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.
+3423	Kopiera till	Copy to
+3424	Radera ej lokala (Böcker denna PC ej hittar)	Delete not local (Books this PC cannot find)
+3425	Skriv ut kvitto igen	Reprint ticket
+3426	Uthyrning / reservationer	Rental / Reservations
+3427	Beräkna minuter	Calculate minutes
+3428	Minuter inaktiv	Minutes inactive
+3429	Standard rabatt%	Std disc%
+3430	Dokument-id	Document id
+3431	Webbbutik/forum inloggning och Nyhetsbrev	Webshop/Forum Login and Newsletters
+3432	Stegstatus	Step status
+3433	Process	Process
+3434	Datum senaste åtgärd	Date last action
+3435	Stegnamn	Step name
+3436	Använd tid	Used time
+3437	Visa stängda	View closed
+3438	Belgisk momsdeklaration	Belgium Tax Returns
+3439	Skriv lösenord igen	Retype password
+3440	Filialer	Branches
+3441	Teams-namn	Teams name
+3442	Återställ lösenord (skickar nytt via e-post)	Reset password (E-mail new password to you)
+3443	Öppna webbutik	Open webshop
+3444	Ändra lösenord	Change password
+3445	Registrera <@APPNAME@> först!	Please register <@APPNAME@> first!
+3446	För att registrera plugins, registrera <@APPNAME@> först!	To register plugins, you need to register <@APPNAME@> first!
+3447	Tidslicens	Time license
+3448	Nuvarande total	Current total
+3449	Inga poäng använda! Använd poäng eller stäng!	No points used! Please use points or close window!
+3450	Använd poäng	Use points
+3451	Nuvarande poäng	Current points
+3452	Poäng att använda	Points to use
+3453	Huvudbok differenser	General ledger differences
+3454	Symbol	Symbol
+3455	Kurs	Rate
+3465	Momsklasser	Tax classes
+3466	Momsklass	Tax class
+3467	Tvinga lagertypkontroll	Force stock type check
+3468	Standard kostnadsgrupp	Default cost group
+3469	Arbetsflödesinställningar	Workflow setup
+3470	Valutor	Currencies
+3471	Jag har läst och förstår åtgärden!	I have read this instruction, and I understand the action!
+3472	Betalningsrabatt	Payment discount
+3473	Betalningsdifferens	Payment difference
+3474	Automatisk process	Auto process
+3475	Outlook-synk	Outlook sync
+3476	Synka till <@APPNAME@>	Sync to <@APPNAME@>
+3477	Från <@APPNAME@> till Outlook	From <@APPNAME@> to Outlook
+3478	Synka e-post	Sync E-mail
+3479	E-postlänk	E-mail link
+3480	Outlook-synkronisering	Outlook syncroniser
+3481	Dokumentlänkar	Document links
+3482	Länkar från	Links from
+3483	Länkar till	Links to
+3484	Länk	Link
+3485	Var är jag?	Where am I?
+3486	Stegtips	Step hint
+3487	Rättigheter	Rights
+3488	Lägg till steg	Add step
+3489	Redigera steg	Edit step
+3490	Ta bort steg	Delete step
+3491	Övergång	Transition
+3492	Skapa övergång	Create transition
+3493	Varaktighet	Duration
+3494	År	Years
+3495	Statustext	Status text
+3496	Skärmtyp	Screen type
+3497	Stegnamn	Step name
+3498	Stegdata	Step data
+3499	Detaljskärm öppen! Klicka [Avbryt] eller [Spara]!	You still have a detail screen open! Click [Cancel] or [Save] to close!
+3500	Lägg till övergång	Add transition
+3501	Villkor	Condition
+3502	Nästa processdatum	Next process date
+3503	Nuvarande värde	Current value
+3504	Inköpsdatum	Purchase date
+3505	Avskrivningstyp	Write-off type
+3506	Avskrivningsperiod	Write-off period
+3507	Länkad transaktion	Linked transaction
+3508	Restbelopp	Rest-amount
+3509	Avskrivningsprocent	Write-off percentage
+3510	Nästa avskrivningsbelopp	Next write-off amount
+3511	Total avskrivning huvudbok	Total write-off on ledger
+3512	Behöver bearbetas	Needs processing
+3513	Nya transaktioner	New transactions
+3514	Lägg till manuell	Add manual
+3515	Bokförda transaktioner	Posted transactions
+3516	Bearbeta (valda) rader	Process (selected) lines
+3517	Inköpsbelopp	Purchase amount
+3518	Anläggningstillgångar	Activa
+3519	Lägg till (valda) rader	Add (selected) lines
+3520	Lägg till sammanfogad	Add consolidated
+3521	Visa för denna användare	Show for this user
+3522	Urval	Selection
+3523	Justera remitteringsdatum för urval till:	Adjust remittance date of selection to :
+3524	Ingen autogiro	No auto payment
+3525	Med remitteringsdatum från	With a remittance date from
+3526	Öppna poster med betaldatum från	Open items with pay date from
+3527	E-postfilter	E-mail filter
+3528	E-post valda	E-mail selected
+3529	Redigera remittering	Edit remittance
+3530	Skriv ut alla	Print all
+3531	Redigera rapport	Edit report
+3532	Visa rapport	Show report
+3533	Standarddagar ingen remittering	Default days no remittance
+3534	Uppdatera multimedia	Update Multimedia
+3535	"Justerar senaste remitteringsdatum för ""valda"" kunder! Fortsätt?"	"This action will adjust the last date remittance at the ""selected"" debtors! Do you wish to continue?"
+3536	"Justerar senaste remitteringsdatum för ""ALLA SYNLIGA"" kunder! Fortsätt?"	"This action will adjust the last date remittance at the ""ALL VISIBLE"" debtors! Do you wish to continue?"
+3537	Popup vid transaktioner	Popup if there are transactions
+3538	Datum äldsta transaktion	Date oldest transaction
+3539	Datum senaste remittering	Date last remittance
+3540	Designa redigeringsfält	Design edit fields
+3541	Designa sökfält	Design search fields
+3542	Sök SQL	Search SQL
+3543	Uppslagspråk	Lookup language
+3544	Kontrolltyp	Type of control
+3545	Höjd	Height
+3546	Storlek	Size
+3547	Översättning	Translation
+3548	Kolumnursprung	Column origin
+3549	Spara och bygg om	Save and rebuild
+3550	Kopiera som ny	Copy as new
+3551	Generera på tabell	Generate on table
+3552	SQL och extra data	SQL and extra data
+3553	Fälttyp	Field type
+3554	Standardvärde	Default value
+3555	Avskrivning för %s avslutad. Rensa anläggningskonton?	Write off for %s ended do you want to clear the activa accounts?
+3556	Projekt	Project
+3557	Skra poster	Create entries
+3558	Poster skapade!	Entries created!
+3559	Mass tidsregistrering	Bulk time entry
+3560	Lagerutgång	Stock out
+3561	Lagerinkomst	Stock in
+3562	Begränsa rader	Limit rows
+3563	Användarflik	User tab
+3564	Auto inlärning	Auto learn
+3565	Olänkade poster	Unlinked items
+3567	Visa inaktiva	Show disabled
+3568	Offerter per period	Quotes per period
+3569	Kreditnotor per period	Credit notes per period
+3570	Fakturor per period	Invoices per period
+3571	Försäljning per produkt	Sales per product
+3572	Order per period	Orders per period
+3573	Inköp per period	Purchases per period
+3574	Returer per period	Supplier returns per period
+3575	Inköp per produkt	Purchases per product
+3576	Ny rapport	New report
+3577	Ny mapp	New folder
+3578	Skapa parametrar och öppna	Create parameters and open
+3579	Ingen uppdatering efter spar	No refresh after save
+3580	Välj test dokument-id	Select test document id
+3581	Utforskarmapp	Explorer folder
+3582	Kopiera rapport	Copy report
+3583	Spara rutnätslayout	Save grid layout
+3584	Leads	Leads
+3585	Mass tagga	Mass tag
+3586	Taggar	Tags
+3587	Lägg till tagg	Add tag
+3588	Mass aktivitet	Mass activity
+3589	CRM	CRM
+3590	Aktiviteter	Activities
+3591	Lägg till %s till poster	Add %s to records
+3592	Starta timer	Start timer
+3593	Stoppa timer	Stop timer
+3594	Alla konton	All accounts
+3595	Lead	Lead
+3596	Uppföljning	Follow-up
+3597	Riktning	Direction
+3598	Inkommande	Incoming
+3599	Utgående	Outgoing
+3600	Hanterad	Handled
+3601	Utför körning på	Perform run on
+3602	Mass kontakt	Mass contact
+3603	Faktureringsmatris	Billing matrix
+3604	Minsta fakturerade minuter	Minimum bill minutes
+3605	Ökningsminuter fakturering	Increment bill minutes
+3606	Korslänk	Cross link
+3607	Hoppa över rader	Skip lines
+3608	Avgränsare	Delimiter
+3609	Datumformat	Date format
+3610	Datumavgränsare	Date separator
+3611	Decimalavgränsare	Decimal separator
+3612	Gör om	Redo
+3613	Leads dataset import	Leads dataset importer
+3614	Rubriker i fil	Headers in file
+3615	Fakturering	Billing
+3616	Faktura synlig	Bill visible
+3617	Konvertera till	Convert to
+3618	Dashboard vy	Dashbord view
+3619	Varaktighet	Duration
+3620	Manuell inmatning i minuter	Manual input in minutes
+3621	Är fakturerad	Is billed
+3622	Konvertera	Convert
+3623	Order är placerad!	Order is placed!
+3624	Välj eller skapa dokument!	Select or create a document!
+3625	Lägg till artiklar i order!	Please add items to your order!
+3626	Denna lista visar redan beställt	This list shows what you already ordered
+3627	Denna lista visar kommande beställning	This list shows what you are going to order when you press the [Order] button
+3628	Välj produkt för orderlista	Select a product to add to your order list
+3629	Sammanfoga	Merge
+3630	Tabellöversikt	Table overview
+3631	Alla order	All orders
+3632	Skriv ut kvitto	Print ticket
+3633	Reservationsdatum	Date reservation
+3634	Dagmemo	Day memo
+3635	Gäst	Guest
+3636	Skapa kassakvitto	Create POS ticket
+3637	Person(er)	Person(s)
+3638	Vistelse i minuter	Stay in minutes
+3639	Förväntad tid	Expected time
+3640	Horisontell kassalayout	Horizontal POS layout
+3641	Vertikal kassalayout	Vertical POS layout
+3642	Rensa tabellrörelse	Clear table movement
+3643	Flytta plats	Move seat
+3644	Länka plats	Link seat
+3645	Avlänka plats	Unlink seat
+3646	Dölj <@APPNAME@> gränssnitt	Hide <@APPNAME@> interface
+3647	Telefonorder	Telephonic orders
+3648	Order till leveranslista	Orders to deliver list
+3649	Lås	Lock
+3650	Start klicka här	Start click here
+3651	Klicka här igen	Click here again
+3652	Klicka här	Click here
+3653	Reservationer	Reservations
+3654	Stäng kassa	Close POS
+3655	Kassa inmatning	Cash entry
+3656	Betalning bokförda dokument	Payment of posted documents
+3657	Visa dok. info	Show doc. info
+3658	Enkla åtgärdsknappar	Simple action buttons
+3659	Inga bildtexter	No captions
+3660	Daglig provision	Daily provision
+3661	Dokument utan kant	Document without border
+3662	Bokförda betalningar	Posted payments
+3663	Försäljning per bord	Sales per table
+3664	Ny order	New order
+3665	Visa fast förstagrupplista	Show fixed first group list
+3666	Visa nuvarande totaler i lista	Show current totals in list
+3667	Ta emot separata betalningar	Receive separate payments
+3668	Skapa konto från dokumentdetaljer	Create account from document details
+3669	Skicka dokumenttyp	Send document type
+3670	Skriv ut dokument och skicka e-post	Print document and send email
+3671	Användarnamn	Username
+3672	Aktivera auto inaktiv kund efter x dagar obetalt	Enable auto set inactive debtor after x days unpaid
+3673	Dagar efter betalning före inaktiv	Days after payment before inactive
+3674	Köra denna process för 1 leverantör?	Do you want to run this process for 1 creditor?
+3675	Momslista kund med skatteid	Tax list debtor with tax id
+3676	Obokförda dokument hittades! Bearbeta alla först!	Unposted documents found ! Please process all documents before manual edit!
+3677	Startkvantitet	Start quantity
+3678	Förväntad kvantitet	Expected quantity
+3679	Produktionsdatum	Production date
+3680	Max försäljningsdatum	Max sales date
+3681	Plats	Location
+3682	Serienummer	Serial
+3683	Parti	Batch
+3684	Totalt såld	Total sold
+3685	Hitta med central sökning	Find with central search
+3686	Ingen kontoskapande	No account creation
+3687	Matcha på öppna belopp	Match on open amounts
+3688	Total Exp försäljning pris 2	Total Exp sales on price 2
+3689	Total lager värde	Total Stock value
+3690	Ange e-postadress separera med ;	Enter email address separate with ;
+3691	Länder	Countries
+3692	Korrigering transaktionsåldring	Correction transaction ageing
+3693	Spara eller avbryt dokument först!	Please save or cancel your document first!
+3694	Spara eller avbryt lager först!	Please save or cancel your stock first!
+3695	Spara eller avbryt kund först!	Please save or cancel your debtor first!
+3696	Spara eller avbryt leverantör först!	Please save or cancel your creditor first!
+3697	Kalkylblad försäljning	Spreadsheet sales
+3698	Kalkylblad rapporter	Spreadsheet reports
+3699	Använd alla för att sluta fråga	Select [All] to stop asking this question.
+3700	Visa	View
+3701	Zoom	Zoom
+3702	Sidlayout	Page layout
+3703	Formler	Formulas
+3704	Importkontroll	Import check
+3705	Profil	Profile
+3706	Spara profil	Save profile
+3707	Lägg till profil	Add profile
+3708	Importtyp	Import type
+3709	Länka på	Link on 
+3710	Liten säkerhetskopia (böcker)	Small backup (books)
+3711	Denna åtgärd stänger <@APPNAME@> och installerar version %s. Säkerhetskopiera hela mappen. Fortsätt?	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?
+3712	Uppdateringar	Updates
+3713	Sök uppdatering vid start	Check for update at start
+3714	Betaversioner	Beta versions
+3715	Installera	Install
+3716	Arbetsflöde	Workflow
+3717	Blockchain	Blockchain
+3718	Aktivera plugins	Activate plugins
+3719	Lägg till i grupp	Add to group
+3720	Kalkylblad import	Spreadsheet import
+3721	Aktivera Blockchain	Enable Blockchain
+3722	Dokument visa kvantitet	Document show quantity
+3723	Räknad kvantitet	Counted quantity
+3724	Nuvarande kvantitet	Current quantity
+3725	Räkningsdatum	Date of count
+3726	OK → Nästa	OK → Next
+3727	Oräknad	Uncounted
+3728	Räknad	Counted
+3729	Snabblägg till	Fast add
+3730	Bokför differens	Post difference
+3731	Kontrollerad och OK	Checked and OK
+3732	Nuvarande öppet års slutdatum %s är efter idag! Stoppa nytt år?	Your current open year end date %s is greater than today! Do you want to stop opening a new year?
+3733	Är du säker på att skriva över nuvarande böcker?	Are you sure you want to overwrite your current books?
+3734	Bokför i period 0	Post in period 0
+3735	Vinst/förlust på huvudbok med moms! Förstör momsuppgifter! Fortsätt?	You are putting profit/loss on ledger with tax! This will mess up tax reports! Do you wish to continue?
+3736	Kontanter från bank/kassa direkt till bank/kassakonto! Fortsätt?	You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?
+3737	Avbryta utskrift av kvitto?	Do you wish to cancel the print this receipt?
+3738	LTR	LTR
+3739	Konvertera offert till ofakturerad faktura per kund	Convert quote to one unprocessed invoice per client
+9901	// Huvudmeny kommentarer	//  These are the main menu comments
+20000	Kan inte skapa rekursiva nivåer!	You cannot create recursive levels!
+20001	Bekräfta	Confirm
+20002	Radera post?	Delete record?
+20003	Radera alla valda poster?	Delete all selected records?
+20004	Klicka här för ny rad	Click here to add a new row
+20005	Filter är <tomt>	Filter is <empty>
+20006	Anpassning	Customisation
+20007	Kolumner	Columns
+20008	Dra kolumn hit för gruppering	Use your mouse to pull a column here to group on that column
+20009	Anpassa...	Customise...
+20010	Band	Bands
+20011	Mellankomponent saknas! Lägg till %s i formuläret!	Missing an intermediary component! Please add a %s component to the form!
+20012	cxGrid finns inte!	cxGrid does not exist!
+20013	Komponent finns inte!	Component does not exist!
+20014	Importfel!	Import error!
+20015	Rutnätsvy finns inte!	Grid view does not exist!
+20016	Aktiv rutnätsnivå finns inte!	Active grid level does not exist!
+20017	Kan inte skapa exportfil!	Cannot create the export output file!
+20018	Avancerad sökruta - Använder kvantrutnät som rullista	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!
+20019	Lika med	Equal to
+20020	Inte lika med	Not equal to
+20021	Mindre än	Less than
+20022	Mindre än eller lika med	Less than or equal to
+20023	Större än	Greater than
+20024	Större än eller lika med	Greater than or equal to
+20025	Innehåller	Like
+20026	Innehåller inte	Not like
+20027	Mellan	Between
+20028	Inte mellan	Not between
+20029	i	in
+20030	Inte i	Not in
+20031	är igår	is yesterday
+20032	är idag	is today
+20033	är imorgon	is tomorrow
+20034	är förra veckan	is last week
+20035	är förra månaden	is last month
+20036	är förra året	is last year
+20037	är denna vecka	is this week
+20038	är denna månad	is this month
+20039	är detta år	is this year
+20040	är nästa vecka	is next week
+20041	är nästa månad	is next month
+20042	är nästa år	is next year
+20043	och	and
+20044	eller	or
+20045	Ej	Not
+20046	Tom	Empty
+20047	är null	is nul
+20048	är inte null	is not nul
+20049	Börjar med	Begins with
+20050	Börjar inte med	Does not begin with
+20051	Slutar med	Ends with
+20052	Slutar inte med	Does not end with
+20053	Innehåller	Contains
+20054	Innehåller inte	Does not contain
+20055	(Alla)	(All)
+20056	(Anpassad...)	(Custom...)
+20057	(Tom)	(Empty)
+20058	(Ej tom)	(Not empty)
+20059	Transaktionsnummer	Transaction no.
+20060	Journalnummer	Journal no.
+20061	,0.00	,0.00
+20062	Antal: 0	Count : 0
+20063	Export	Export
+20064	Kolumner	Columns
+20065	Total försäljning	Total sales
+20066	Total antal	Total Qty.
+20067	Total försäljning per dag	Total sales per day
+20068	Total antal per dag	Total qty. per day
+20069	Transaktioner	Transactions
+20070	Kundfaktura	Customer invoice
+20071	Fakturalagerartikel	Invoice stock item
+20072	Lagerartikelfaktura	Stock item invoice
+20073	Diagram	Charts
+20074	Unikt lager nr	Unique stock no.
+20075	Unikt dokument nr	Unique document no.
+20076	Unikt radnummer	Unique line no.
+20077	Unikt kontonummer	Unique account no.
+20078	Versionen fungerar bara till 1-3-2005. Mer info: https://www.osfinancials.org/	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/
+20079	Öppna en bokföring först!	Open a Set of Books first!
+20080	Om	About
+20081	Avsluta	Exit
+20082	Kör SQL	Run SQL
+20083	Ladda SQL...	Load SQL...
+20084	Spara SQL...	Save SQL...
+20085	Filter	Filters
+20086	Gruppering	Grouping
+20087	Editor teckensnitt...	Editor font...
+20088	Inbyggd stil	Native style
+20089	Öppna mapp	Open directory
+20090	Synliga kolumner	Visible columns
+20091	Från	From
+20092	Till	Until
+20093	och	and
+20094	eller	or
+20095	och ej	and not
+20096	eller ej	or not
+20097	Filter	Filter
+20098	Nytt &villkor	New &condition
+20099	Ny &grupp	New &group
+20100	&Ta bort rad	&Delete row
+20101	Ta bort &alla	Delete &all
+20102	Klicka för att lägga till villkor	Push this button to add a condition
+20103	Innehåller följande villkor	Contains the following conditions
+20104	<Huvud>	<Head>
+20105	<Tom>	<Empty>
+20106	Kan inte tömma filter!	Cannot empty filter!
+20107	Justerat filter	Adjusted filter
+20108	Ogiltigt värde	Invalid value
+20109	Använd	Use
+20110	för enskilt tecken	to present a single character
+20111	för flera tecken	to present multiple characters
+20112	och	and
+20113	eller	or
+20114	Visa rader där:	Show rows where :
+20115	Skapa filter	Make filter
+20116	noname.flt	noname.flt
+20117	Öppna sparat filter	Open a saved filter
+20118	Spara aktivt filter	Save active filter
+20119	&Spara som...	&Save as...
+20120	&Öppna...	&Open...
+20121	&Tillämpa	&Apply
+20122	flt	flt
+20123	Filter (*. FLT)	Filter (*.flt)|*.flt
+20124	<Ingen data att visa>	<No data to display>
+20130	Inget kontanthantering	Do not cash
+20131	Skapa sålda varor ej tagna	Create goods sold not taken
+20132	Kan inte radera!	Cannot delete!
+20133	Använd avancerat lager	Use advanced stock
+21000	&Arkiv	&File
+21001	Rapportdesigner	Report Manager Designer
+21002	&Rapport	&Report
+21003	&Redigera	&Edit
+21004	&Visa	&Display
+21005	&Inställningar	&Preferences
+21006	&Hjälp	&Help
+21007	Rutnät	Grid
+21008	Rutnätsalternativ för rapport	Grid options for this report
+21009	Klipp ut	Cut
+21010	Kopiera	Copy
+21011	Klistra in	Paste
+21012	Klipp ut valt objekt	Cut selected object
+21013	Kopiera valt objekt	Copy selected object to clipboard
+21014	Klistra in från urklipp	Paste from clipboard
+21015	Dölj	Hide
+21016	Dölj valda objekt	Hide selected objects
+21017	Visa alla	Show all
+21018	Visar alla dolda komponenter	Shows all the hidden components
+21019	Alla	All
+21020	Väljer alla rapportkomponenter	Selects all components of the report
+21021	Välj	Select
+21022	Flytta	Move
+21023	Vänster	Left
+21024	Flyttar val åt vänster	Moves the selection to the left
+21025	Höger	Right
+21026	Flyttar val åt höger	Moves the selection to the right
+21027	Upp	Up
+21028	Flyttar val uppåt	Moves the selection up
+21029	Ned	Down
+21030	Flyttar val nedåt	Moves the selection down
+21031	Justera	Align
+21032	Justerar val till vänster	Aligns selection to the left
+21033	Justerar val till höger	Aligns selection to the right
+21034	Justerar val uppåt	Aligns selection up
+21035	Justerar val nedåt	Aligns selection down
+21036	Horisontellt utrymme	Horizontal space
+21037	Justerar horisontellt utrymme	Aligns selection distributing horizontal space
+21038	Vertikalt utrymme	Vertical space
+21039	Justerar vertikalt utrymme	Aligns selection distributing vertical space
+21040	Ny	New
+21041	Skapar ny rapport	Creates a new report
+21042	Öppna	Open
+21043	Öppnar befintlig rapport	Opens an existing report
+21044	Avsluta	Exit
+21045	Stänger programmet	Closes the application
+21046	Spara...	Save...
+21047	Sparar aktuell rapport	Saves the current report
+21048	Spara som...	Save as...
+21049	Sparar rapport till ny fil	Saves the report to a new file
+21050	Sidinställning	Page setup
+21051	Visa sidinställning	Show report page setup
+21052	Skriv ut	Print
+21053	Skriver ut rapport. Välj sidor.	Print the report. You can select pages to print.
+21054	Förhandsgranska	Print preview
+21055	Förhandsvisar rapport på skärm	Preview the report in the screen
+21056	Skrivarinställning...	Printer setup...
+21057	Visar skrivardialog	Displays printer setup dialog
+21058	Om Rapportverktyg	About Report Manager
+21059	Visar information om Rapportverktyg	Shows information about Report Manger
+21060	Dokumentation	Documentation
+21061	Visa rapportdesignerdokumentation	Display Report Manager Designer Documentation
+21062	Måttenhet	Measurement
+21063	&Cm	&Cms
+21064	Ändra måttenhet till cm	Change measurement units to cms
+21065	Tum	Inches
+21066	Ändra måttenhet till tum	Changes measurement units to inches
+21067	Drivrutin	Driver
+21068	Qt drivrutin (CLX)	Qt driver (CLX)
+21069	Aktiverar Qt plattformsoberoende drivrutin	Activates the Qt cross platform graphics and printing driver
+21070	GDI Drivrutin (VCL)	GDI Driver (VCL)
+21071	Aktiverar GDI32 direkt rendering (VCL), endast Windows	Activates the GDI32 direct rendering driver (VCL), Windows only
+21072	Qt systemutskriftsdialog	Qt System print dialog
+21073	Visar systemutskriftsdialog	Shows the system print dialog, or a custom print dialog
+21074	Kylix utskriftsfix	Kylix Print Bugfix
+21075	Använder Kylix utskriftsfix (metautskrift)	Uses Kylix print bugfix (use metaprint to print metafiles)
+21076	Statusfält	Status bar
+21077	Visar eller döljer statusfält	Shows or hides the status bar
+21081	Välj objekt	Select objects
+21082	Infoga statisk text	Inserts a static text
+21083	Infoga uttryck	Inserts an expression
+21084	Infoga enkel ritning	Inserts a simple drawing
+21085	Infoga bild	Inserts an image
+21086	Infoga streckkod	Inserts a barcode
+21087	Infoga diagram	Inserts a chart
+21093	OK	OK
+21094	Avbryt	Cancel
+21095	Standard	Default
+21096	Anpassad	Custom
+21097	Sidstorlek	Page size
+21098	Sidorientering	Page orientation
+21099	Sidmarginaler	Page margins
+21100	Vänster	Left
+21101	Höger	Right
+21102	Överkant	Top
+21103	Underkant	Bottom
+21104	Anpassad storlek	Custom size
+21105	Anpassad orientering	Custom page orientation
+21106	Porträtt	Portrait
+21107	Landskap	Landscape
+21108	Kopior	Copies
+21109	Sortera kopior	Collate copies
+21110	Dialog	Dialog
+21111	Tvåpassrapport	Two pass report
+21112	Rapport språk	Report language
+21113	Skrivarteckensnitt (endast Windows GDI)	Printer fonts (Windows GDI Only)
+21114	Använd alltid skrivarteckensnitt	Always use printer fonts
+21115	Använd aldrig skrivarteckensnitt	Never use printer fonts
+21116	Bakgrundsfärg	Background color
+21117	All text	All Text
+21118	Väljer alla textkomponenter	Selects all text components of the report
+21119	Sidhuvud	Page header
+21120	Infoga sidhuvud i vald underrapport	Inserts a page header in the selected subreport
+21121	Sidfot	Page footer
+21122	Infoga sidfot i vald underrapport	Inserts a page footer in the selected subreport
+21123	Grupphuvud och -fot	Group header and footer
+21124	Infoga grupphuvud och -fot	Insert a group header and footer
+21125	Underrapport	Subreport
+21126	Infoga ny underrapport	Insert a new subreport
+21127	Radera avsnitt/underrapport	Delete section/subreport
+21128	Raderar vald underrapport eller avsnitt	Deletes the selected subreport or section
+21129	Detalj	Detail
+21130	Infoga detaljavsnitt i underrapport	Inserts a detail section in the selected subreport
+21131	Dataåtkomstkonfiguration	Data access configuration
+21132	Ändrar dataåtkomstinformation	Modifies data access information
+21133	Parameterdefinition	Parameter definition
+21134	Visar parameterdefinition för rapport	Shows parameter definition for the report and data configuration
+21135	Parametrar	Parameters
+21136	Visa rapportparametrar	Show report parameters
+21137	Radera avsnitt	Delete section
+21138	Raderar valt avsnitt	Delete the selected section
+21139	Flyttar avsnitt uppåt	Moves the section up
+21140	Flyttar avsnitt nedåt	Moves the section down
+21142	Anslutningar	Connections
+21143	Konfigurera skrivare	Configure printers
+21144	Inloggningsprompt	Login prompt
+21145	Ladda parametrar	Load parameters
+21146	Ladda drivrutinsparametrar	Load driver parameters
+21148	Dataset	Datasets
+21149	Lägg till	Add
+21150	Radera	Delete
+21152	Parametrar	Parameters
+21154	Anslutning	Connection
+21155	Huvuddataset	Master dataset
+21156	Visa data	Show data
+21157	BDE-typ	BDE type
+21158	Tabell och ordning	Table and order
+21159	Fråga	Query
+21160	Tabell	Table
+21161	BDE-filter	BDE filter
+21162	Tabell	Table
+21163	Indexnamn	Index name
+21164	Indexfält	Index fields
+21165	Huvudfält	Master fields
+21166	OBS: Separera fält med ;	Note: Write fields separated by ; character
+21167	MyBase filnamn	MyBase file name
+21168	Bygg...	Build...
+21216	Spara som metafil	Save metafile as
+21217	Sparar rapport som metafil	Save the report as a metafile report
+21218	Avbryter rapportberäkning	Cancels the report calculation
+21219	Stänger förhandsvisning	Closes the preview window
+21220	Första sidan	First page
+21221	Går till första sidan	Goes to the first page of the report
+21222	Föregående sida	Previous page
+21223	Visar föregående sida	Shows the previous page
+21224	Nästa sida	Next page
+21225	Visar nästa sida	Shows the next page
+21226	Sista sidan	Last page
+21227	Går till sista sidan	Goes to the last page of the report
+21228	Normal skala	Normal scale
+21229	Visar rapport i verklig storlek	Shows the report in real size
+21230	Skala till fönster	Scale to window
+21231	Skalar papper till fönsterbredd	Scale adjusting the paper to the window width
+21232	Skala till hel sida	Scale to full page
+21233	Skala för helsidesvy	Scale to view full page
+21234	Zoom-	Zoom-
+21235	Zoomar ut	Zooms out the view
+21236	Zoom+	Zoom+
+21237	Zoomar in	Zooms in the view
+21354	Rapportdesigner	Reportman manager designer
+21539	Nytt dataset	New dataset
+21540	Byt namn på dataset	Rename dataset
+21732	Användardefinierad	User defined
+21733	Anpassad storlek	Custom size
+21734	Lägger till avsnitt i underrapport	Adds a section to the selected subreport
+21741	Välj skrivare	Select printer
+21742	Dialog	Dialog
+21743	Konfigurationsfil	Configuration file
+21744	Användarkonfiguration	User configuration
+21745	Systemkonfiguration	System configuration
+21746	Positionsjustering	Position adjustment
+21753	Anslut	Connect
+21763	Operationer efter utskrift	Operations after print
+21764	Exempel, TM200 Öppna låda: #27#112#48#160#160#4	Example, TM200 Open Drawer: #27#112#48#160#160#4
+21765	Exempel, TM88 Öppna låda: #27#112#48#40#200#4	Example, TM88 Open Drawer: #27#112#48#40#200#4
+21766	Skär papper	Cut paper
+21767	Öppna låda	Open drawer
+21799	Ingen data tillgänglig för utskrift!	No data available to print!
+21800	Skriv ut endast vid data	Print only if data available
+21831	Första intervall	First range
+21832	Sista intervall	Last range
+21833	Varje rad utvärderas för filterstart och -slut	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter
+21835	Ladda avsnitt	Load section
+21836	Spara avsnitt	Save section
+21840	Förhandsvisning fönster och skala	Preview window and scale
+21841	Normal	Normal
+21842	Maximerad	Maximized
+21843	Bred	Wide
+21844	Normal	Normal
+21845	Sida	Page
+21857	Sidinställning	Page setup
+21858	Utskriftsinställning	Print setup
+21936	Inbyggd drivrutin	Native driver
+21939	Aktiverar inbyggd drivrutin, grafikoberoende	Activates the Native driver, no graphics dependent
+21976	Systeminformation	System information
+21977	Visar system- och skrivarinformation	Shows system and printer information
+22058	Endast text drivrutin	Text only driver
+22059	Justera höjd 1/6	Align height 1/6
+22060	Justerar avsnittshöjd för matrisskrivare	Aligns all sections height to 1/6 inches for dot matrix compatibility
+22080	Bibliotek	Libraries
+22081	Öppna rapportbibliotek	Open report libraries dialog
+22082	Dataset klientsidans unioner	Dataset client side unions
+22083	Unioner	Unions
+22084	Union gruppering	Union grouping
+22085	Fältdefinitionsfil	Field defs file
+22086	Ändra...	Modify...
+22097	Databasanslutningar och dataset	Database connections and datasets
+22098	Tillgängliga anslutningar	Available connections
+22099	Anslutningssträng	Connection string
+22100	Tillgänglig	Available
+22101	Databasdrivrutin	Database driver
+22102	Ny anslutning	New connection
+22103	Lägger till ny anslutning	Adds a new connection
+22104	Radera anslutning	Delete connection
+22105	Raderar vald anslutning	Deletes the selected connection
+22106	Raderar valt objekt	Delete the selected object
+22230	E-post till	Mail to
+22231	Skickar rapporterna till e-postadress	Sends the reports to an e-mail destination
+22347	Programteckensnitt	Application font
+22348	Programteckensnitt	Application font
+22377	Rader per tum	Lines per inch
+22433	Beräkna om rapport	Recalculte report
+22434	Sök	Find
+22435	Sök text	Find text
+22440	Parallell union	Parallel union
+900000	Parcelware-kod	Parcelware code
+900001	Skicka till Parcelware	Send to Parcelware
+900002	Husnummer	House no.
+900003	Husnummer enhet	House no. unit
+900004	Gata	Street
+901000	Prenumerationer	Subscriptions
+901001	Prenumerationslista	Subscriptions list
+901002	Varningar	Warnings
+901003	Prenumerationer att bearbeta	Subscriptions to process
+901004	Radvärde (ink.)	Line value (Incl.)
+901005	Fakturera dagar före prenumerationsdatum	Invoice in days before subscription date
+901006	Varning dagar före prenumerationsdatum	Warning in days before subscription date
+901007	Intervalltyp	Interval type
+901008	Intervall	Interval
+901009	<Välj lagerartikel>	<Select stock item>
+901010	Är du säker på att radera denna prenumeration?	Are you sure you want to delete this subscription?
+901011	Senaste körning	Last run
+901012	Nästa körning	Next run
+901013	Startdatum	Start date
+901014	Till	To
+901015	Bearbetad	Processed
+901016	Prenumerationer	Subscriptions
+901017	Dag	Day
+901018	Vecka	Week
+901019	Månad	Month
+901020	3 Månader	3 Months
+901021	6 Månader	6 Months
+901022	År	Year
+901023	Nästa varning	Next warning
+901500	Dela	Split
+901501	Plats	Seat
+901502	Kuvertavgift	Couvert
+901503	Servitör	Waiter
+901504	Artikeln %s är slut i lager! Kontrollera inmatning!	The item %s is out of stock! Please review your entry!
+901505	Nya rader tillagda! Granska betalning!	New lines added please review this payment!
+901506	Stäng alla öppna fakturor först!	Please close all open invoices first!
+901507	Är du säker på att stänga kassan?	Are you sure you want to continue to close the POS?
+901508	Stäng kassa	Close POS
+901509	Handdator	Handheld
+902000	Prisavtal	Price agreement
+902001	Till antal	Until quantity
+902002	Extern produktkod	External product code
+902003	Procent av genomsnittligt inköpspris	Percentage of avg. cost price
+902004	<Allt lager>	<All stock>
+902005	<Alla kunder>	<All debtors>
+902006	Historisk	Historical
+902007	Pristyp	Price type
+902008	Prislista - Stor detaljhandel - Försäljning	Price list - Large retail - Sales
+902009	Prislista - Stor detaljhandel - Inköp	Price list - Large retail - Purchases
+903000	Multimedia	Multimedia
+903001	Filläge	File location
+903002	Originalfilnamn	Original file name
+903003	Fildatum	File date
+903004	Till databas	To database
+903005	Länka fil	Link file
+903006	Kopiera fil	Copy file
+903007	URL	URL
+903008	Visa/Redigera	View/Edit
+903009	Tryck [OK] när redigering klar för att spara till databasen!	Press [OK] when you are done editing the file to save it to the database!
+903010	Spara som...	Save as...
+903011	Lista	List
+903100	Charter	Charter
+903101	Korrigeringar	Corrections
+903102	Systemvariabler	Sysvars
+903103	Inkonsekvenser	Inconsistencies
+903104	Meddelande	MSG
+903105	Kör SQL	Run SQL
+903106	Rensa journal	Cleanup journal
+903107	Färgvillkor	Colour conditions
+903108	Huvudbok transaktioner	Ledger transactions
+903109	Import	Import
+903110	Uppdateringar	Patches
+903111	Avrunda ören	Round-off cents
+903112	Lägg till extra beskrivning till lager	Add extra description to stock
+903113	Ta bort extra beskrivning från lager	Drop extra description from stock
+903114	Ändra lagerkodtyp	Change stock code type
+903115	Beräkna totalt i lager	Calculate total in stock
+903116	Testökning	Test increase
+903117	Typ-id	Type id
+903118	Slut lagerkod	End stock code
+903119	Ta bort grupper ej i lager	Remove groups not in stock
+903120	Ta bort lager ej i dokument	Remove stock not in documents
+903121	Generera lager per huvudbok	Generate stock per ledger
+903122	Ta bort från strukturlista som ej är det	Remove from BOM which is not BOM
+903123	Uppdatera lagerantal för alternativartiklar	Update stock qty for option items
+903124	Ta bort kunder	Remove debtors
+903125	Ta bort leverantörer	Remove creditors
+903126	Ta bort lagerartiklar	Remove stock items
+903127	Ta bort kontakter	Remove contacts
+903128	Rensa meddelanden	Clear messages
+903129	Konsolidera stängda år	Consolidate closed years
+903130	Överför kontodata	Transfer account data
+903131	Överför lagerdata	Transfer stock data
+903132	Överför dubletter till lägsta id och radera	Transfer doubles to Min id and delete
+903133	Konsolidera stängda år - dokument och lager	Consolidate closed years - documents and stock
+903134	Fyll globala med max + 1 id	Fill globals with max + 1 id
+903135	Ta bort kunder ej i konto	Remove debtors not in account
+903136	Ta bort leverantörer ej i konto	Remove creditors not in account
+903137	Sätt alla kunder till öppen post	Set all debtors to open item
+903138	Sätt alla leverantörer till öppen post	Set all creditors to open item
+903139	Rätta kontonummer	Correct account numbers
+903140	Rätta underkonton	Correct sub-accounts
+903141	Trimma kundadress och sätt första tecken till VERSALER	Trim debtor address and set first character to the UPPERCASE
+903142	Generera alla totalposter	Generate all total entries
+903143	Ta bort ogiltiga tecken från bankkonton	Remove invalid symbols from bank accounts
+903144	Återställ inköp till bas för sista dokument	Reset purchase to basis of last document
+903145	Rätta fel saldobokföringsbeskrivningar	Correct errors balance booking descriptions
+903146	Sätt Transact tidigare år	Set Transact previous years
+903147	Uppdatera dokumenthuvud FTaxAmt	Update Dochead FTaxAmt
+903148	Rätta perioder	Correct periods
+903149	Åtgärda perioder	Fix periods
+903150	Hitta obalanserade poster	Find unbalanced entries
+903151	Auto-länka alla nollkunder	Auto-link all zero debtors
+903152	Ta bort alla länkar	Remove all links
+903153	Rätta Transact rad-id	Correct Transact line id
+903154	Rätta inkl./exkl. momsbelopp (Omvänt fel)	Correct Incl./Excl. Tax amount (Reverse bug)
+903155	Rensa totaler	Clear totals
+903156	Rensa systemvariabelparametrar	Clear Sysvars parameters
+903157	Radera alla fakturor	Delete all invoices
+903158	Ta bort BatCon ej i Transact	Remove BatCon not in Transact
+903159	Ta bort nollfakturor	Remove zero invoices
+903160	Ta bort efternamn från kontakter efter komma	Remove last name from contacts after a comma
+903161	Hitta kunder	Find debtors
+903162	Hitta leverantörer	Find creditors
+903163	Generera kontakter	Generate contacts
+903164	Välj färg	Pick colour
+903165	Sätt försäljningspris 1 till 1,5 x inköpspris och försäljningspris 2 till 1,3 x inköpspris	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price
+903166	Välj	Select
+903167	Kör om uppdatering X	Rerun Patch X
+903168	Återställ systemvariabler	Reset Sysvars
+903169	Nuvarande version	Current version
+903170	Utför	Execute
+903171	Skript	Script
+903172	Sätt villkor	Set term
+903173	Släpp	Drop
+903174	Spara till alla användare	Save to all users
+903175	Uttryck	Expression
+903176	Teckensnittsuttryck	Font expression
+903177	Bakgrundsuttryck	Background expression
+903178	Är du säker?	Are you sure?
+903179	Inget hittades!	Nothing found !
+903180	Ange kod	Enter code
+903181	Registrera <@APPNAME@> först!	Please register <@APPNAME@> first!
+903182	Registrerad	Registered
+906000	Trots tidigare påminnelser är ditt konto fortfarande försenat.	Despite previous reminders, according to our records your account is still overdue. 
+906001	Nästa prenumeration startar snart. Faktura för ny period följer.	The next subscription will start soon. The invoice for the new period will follow shortly.
+906002	Dokument datum/tid	Document date/time
+906003	Alias	Alias
+906004	Leverantör	Supplier
+906005	Orderdatum	Order date
+906006	Offertdatum	Quote date
+906007	Ackumulerad	Cum
+906008	Totalt betalat	Total paid
+906009	PIN-kod	PIN
+906010	Reglera ditt konto snarast!	Please settle your account as soon as possible!
+906011	Exklusive	Exclusive
+906012	Inklusive	Inclusive
+906013	På konto	On account
+906014	Kassa momsfaktura	POS Tax Invoice
+906015	IBAN	IBAN
+906016	BIC	BIC
+906017	SWIFT	SWIFT
+906018	Tack för ditt förtroende.	Thank you for your patronage.
+906019	Ha en trevlig dag.	Have a nice day.
+906020	Moms	Tax
+906021	Filialkod	Branch code
+906022	Kontoinnehavare	Account holder
+906023	- Slut på rapport -	- End of report -
+906024	Kreditnota datum	Credit note date
+906025	Ackumulerad total	Cum total
+906026	Inköpsdokument	Purchase document
+906027	Inköpsdatum	Purchase date
+906028	Leverantörsreturdatum	Supplier return date
+906029	Leverantörsreturdokument	Supplier return document
+906030	Leverantörsretur accepterad	Supplier return accepted
+906031	Historiskt värde	Historical value
+906032	Orderlista	Order list
+906033	Utstående order	Outstanding orders
+906034	Utstående offerter	Outstanding quotes
+906035	Kund - Prisavtal	Debtor - Price agreement
+906036	Beställningskvantiteter	Reorder quantities
+906037	Försäljningstider	Sales hours
+906038	Lagerrörelse	Stock movement
+906039	Transaktionsdetaljer	Transaction details
+906040	Yagoda streckkod	Yagoda barcode
+906041	V/F	P/L
+906042	Vinst/Förlust	Profit/Loss
+906043	Försäljning per kundgrupp	Sales per customer group
+906044	Försäljning per lager grupp	Sales per stock group
+906045	Kundlista	Debtor list
+906046	Leverantörslista	Creditor list
+906047	Kontaktlista - Kunder	Contact list - Debtors
+906048	Kontaktlista - Leverantörer	Contact list - Creditors
+906049	Kontaktlista - Alla	Contact list - All
+906050	Restorder	Backorder
+906051	Loggrapport	Log report
+906052	Inloggning	Log-on
+906053	Utloggning	Log-off
+906054	OS-användare	OS user
+906055	Från PC	From PC
+906056	Barorder	Bar order
+906057	Köksorder	Kitchen order
+906058	Omsättning	Turnover
+906059	Försäljning per kund	Sales per customer
+906060	Kontaktlista - Huvud	Contact list - Main
+906061	Transaktionslista - Öppna poster	Transaction list - Open item
+906062	Vald kundetikett	Selected debtor label
+906063	Vald leverantörsetikett	Selected creditor label
+906064	Leveransadressetiketter	Delivery address labels
+906065	Vald kundleveransetikett	Selected debtor delivery label
+906066	Vald leverantörsleveransetikett	Selected creditor delivery label
+906067	Betalningar	Payments
+906068	Sidnummer	Page no.
+906069	Erat skattereferens	Your tax reference
+906070	Omtryckt	Reprinted
+906071	Kostnadsställe 1	Cost centre 1
+906072	Kostnadsställe 2	Cost centre 2
+906073	Kassapoäng	POSPoints
+906074	Journal	Journal
+906075	Jämför period	Compare period
+906076	Jämför period - Kunder	Compare period - Debtors
+906077	Jämför period - Leverantörer	Compare period - Creditors
+906078	Jämför period - Vinst/Förlust	Compare period - Profit / Loss
+906079	Flerårig	Multi-year
+906080	På valt konto / annat	On selected account / other
+906081	Transaktions-id	Transaction id
+906082	Journaltyp-id	Journal type id
+906083	Dokumentbelopp	Document amount
+906084	Dokumentmoms	Document tax
+906085	Moms på momskonto	Tax on tax account
+906086	Kontrollrapport - Bearbetade transaktioner per motkonto	Control report - Processed transactions per contra account
+906087	Kassabetalningstyper	POS Payment types
+906088	Leverantör - Prisavtal	Creditor - Price agreement
+906089	Kassaförsäljningsrapport	POS Sales report
+906090	Kassa nuvarande kassarapport	POS Current cash report
+906091	Kassa historisk kassarapport	POS Historical cash report
+906092	Total vinst/förlust	Total Profit / Loss
+906093	Ingående saldo	Opening balance
+906094	Totalt saldo	Total balance
+906095	Totala rader	Total lines
+906096	Kontrollsumma	Checksum
+906097	Automatiska kvittorapport	Automatic receipts report
+906098	Journaltyprapport	Journal type report
+906099	Journal-id	Journal id
+906100	Bokförd journal	Posted journal
+906101	Obokförd journal	Unposted journal
+906102	Motkonton	Contra accounts
+906103	Leverantörsskulder per datum	Creditors outstanding at date
+906104	Kundfordringar per datum	Debtors outstanding at date
+906105	Moms per period	Tax per period
+906106	Kundtransaktioner - Standard	Debtor transactions - Standard
+906107	Kundtransaktioner - Extradetaljer	Debtor transactions - Extra details
+906108	Leverantörstransaktioner - Standard	Creditor transactions - Standard
+906109	Leverantörstransaktioner - Extradetaljer	Creditor transactions - Extra details
+906110	Huvudbok transaktioner - Standard	General ledger transactions - Standard
+906111	Huvudbok transaktioner - Extradetaljer	General ledger transactions - Extra details
+906112	Lager In/Ut	Stock In / Out
+906113	Periodantal	Period quantity
+906114	Inköp per period	Purchases per period
+906115	Artiklar per period	Items per period
+906116	Leverantörsgrupp	Creditor group
+906117	Kundgrupp	Debtor group
+906118	Lagergrupp	Stock group
+906119	Dokumentgrupp	Document group
+906120	Leverantörsreturer per period	Supplier returns per period
+906121	Kreditnotor per period	Credit notes per period
+906122	Försäljning per period	Sales per period
+906123	Kundtransaktioner	Debtor transactions
+906124	Leverantörstransaktioner	Creditor transactions
+906125	Bokförda fakturor	Posted invoices
+906126	Obokförda fakturor	Unposted invoices
+906127	Bokförda kreditnotor	Posted credit notes
+906128	Obokförda kreditnotor	Unposted credit notes
+906129	Bokförda inköp	Posted purchases
+906130	Obokförda inköp	Unposted purchases
+906131	Bokförda leverantörsreturer	Posted supplier returns
+906132	Obokförda leverantörsreturer	Unposted supplier returns
+906133	Bekräftade offerter	Confirmed quotes
+906134	Obekräftade offerter	Unconfirmed quotes
+906135	Bekräftade order	Confirmed orders
+906136	Obekräftade order	Unconfirmed orders
+906137	Postadressetiketter	Postal address labels
+906138	Lista leveransadress	List delivery address
+906139	Lista postadress	List postal address
+906140	Lista detaljer	List details
+906141	Journaltransaktioner per period	Journal transactions per period
+906142	Saldodetaljer	Balances detail
+906143	Saldodetaljer historik (öppna poster)	Balances detail history (open item)
+906144	Utstående öppna posttransaktioner	Outstanding open item transaction totals
+906145	Utstående transaktioner totalt	Outstanding transaction totals
+906146	Kundfordringsåldersanalys	Debtor age analysis
+906147	Saldon	Balances
+906148	Saldodetaljer 1	Balances detail 1
+906149	Rapporteringsgrupper	Reporting groups
+906150	Inköp per period - Antal	Purchases per period - Quantities
+906151	Inköp per period - Belopp	Purchases per period - Amount
+906152	Inköp per period - Leverantörsgrupp 1	Purchases per period - Creditor group 1
+906153	Inköp per period - Leverantörsgrupp 2	Purchases per period - Creditor group 2
+906154	Inköp per period - Dokumentgrupp 1	Purchases per period - Document group 1
+906155	Fakturor per period - Antal	Invoices per period - Quantities
+906156	Fakturor per period - Belopp	Invoices per period - Amount
+906157	Fakturor per period - Kundgrupp 1	Invoices per period - Debtor group 1
+906158	Fakturor per period - Kundgrupp 2	Invoices per period - Debtor group 2
+906159	Fakturor per period - Dokumentgrupp 1	Invoices per period - Document group 1
+906160	Kassakvittoskrivare	Cash slip printer
+906161	Dokumentlista per konto	Document listing per account
+906162	Outskriven dokumentlista	Unprinted document listing
+906163	Inköp per period - Dokumentgrupp 2	Purchases per period - Document group 2
+906164	Inköp per period - Säljare	Purchases per period - Salesperson
+906165	Fakturor per period - Dokumentgrupp 2	Invoices per period - Document group 2
+906166	Fakturor per period - Säljare	Invoices per period - Salesperson
+906167	Diagram - Leverantörer per vecka	Graph - Creditors per week
+906168	Diagram - Kunder per vecka	Graph - Debtors per week
+906169	Diagram - Vinst/Förlust per vecka	Graph - Profit / Loss per week
+906170	Diagram - Fakturor per vecka - Antal	Graph - Invoices per week - Quantities
+906171	Diagram - Fakturor per vecka - Belopp	Graph - Invoices per week - Amount
+906172	Inköp per produkt - Lagergrupp 1	Purchases per product - Stock group 1
+906173	Inköp per produkt - Lagergrupp 2	Purchases per product - Stock group 2
+906174	Försäljning per produkt - Lagergrupp 1	Sales per product - Stock group 1
+906175	Försäljning per produkt - Lagergrupp 2	Sales per product - Stock group 2
+906176	Systemanvändare	System user
+906177	<@APPNAME@>-användare	<@APPNAME@> user
+906178	Lagerinkomst	Stock in
+906179	Lagerutgång	Stock out
+906180	Öppna låda	Open drawer
+906181	Följesedel (inga koder)	Delivery note (no codes)
+906182	Följesedel (15 kod)	Delivery note (15 code)
+906183	Kassa - STARTSP100	POS - STARTSP100
+906184	Kassa 1	POS 1
+906185	Kassa 2	POS 2
+906186	Kassa A4	POS A4
+906187	Standard A4	Default A4
+906188	Standard A4 (10 kod)	Default A4 (10 code)
+906189	Standard A4 (15 kod)	Default A4 (15 code)
+906190	Fakturatest	Invoice test
+906191	Faktura Engelska (15 kod)	Invoice English (15 code)
+906192	Faktura Bankuppgifter (inga koder)	Invoice Bank details (no codes)
+906193	Faktura Bankuppgifter (15 kod)	Invoice Bank details (15 code)
+906194	Faktura (inga koder)	Invoice (no codes)
+906195	Kreditnota (inga koder)	Credit note (no codes)
+906196	Offert (inga koder)	Quote (no codes)
+906197	Inköp (inga koder)	Purchase (no codes)
+906198	Leverantörsretur (inga koder)	Supplier return (no codes)
+906199	Order (inga koder)	Order (no codes)
+906200	Faktura (10 kod)	Invoice (10 code)
+906201	Kreditnota (10 kod)	Credit note (10 code)
+906202	Offert (10 kod)	Quote (10 code)
+906203	Inköp (10 kod)	Purchase (10 code)
+906204	Leverantörsretur (10 kod)	Supplier return (10 code)
+906205	Order (10 kod)	Order (10 code)
+906206	Faktura (15 kod)	Invoice (15 code)
+906207	Kreditnota (15 kod)	Credit note (15 code)
+906208	Offert (15 kod)	Quote (15 code)
+906209	Inköp (15 kod)	Purchase (15 code)
+906210	Leverantörsretur (15 kod)	Supplier return (15 code)
+906211	Order (15 kod)	Order (15 code)
+906212	Faktura A4 (inga koder)	Invoice A4 (no codes)
+906213	Kreditnota A4 (inga koder)	Credit note A4 (no codes)
+906214	Offert A4 (inga koder)	Quote A4 (no codes)
+906215	Inköp A4 (inga koder)	Purchase A4 (no codes)
+906216	Leverantörsretur A4 (inga koder)	Supplier return A4 (no codes)
+906217	Order A4 (inga koder)	Order A4 (no codes)
+906218	Faktura A4 (10 kod)	Invoice A4 (10 code)
+906219	Kreditnota A4 (10 kod)	Credit note A4 (10 code)
+906220	Offert A4 (10 kod)	Quote A4 (10 code)
+906221	Inköp A4 (10 kod)	Purchase A4 (10 code)
+906222	Leverantörsretur A4 (10 kod)	Supplier return A4 (10 code)
+906223	Order A4 (10 kod)	Order A4 (10 code)
+906224	Faktura A4 (15 kod)	Invoice A4 (15 code)
+906225	Kreditnota A4 (15 kod)	Credit note A4 (15 code)
+906226	Offert A4 (15 kod)	Quote A4 (15 code)
+906227	Inköp A4 (15 kod)	Purchase A4 (15 code)
+906228	Leverantörsretur A4 (15 kod)	Supplier return A4 (15 code)
+906229	Order A4 (15 kod)	Order A4 (15 code)
+906230	Faktura A4 Enkel (inga koder)	Invoice A4 Plain (no codes)
+906231	Kreditnota A4 Enkel (inga koder)	Credit note A4 Plain (no codes)
+906232	Offert A4 Enkel (inga koder)	Quote A4 Plain (no codes)
+906233	Inköp A4 Enkel (inga koder)	Purchase A4 Plain (no codes)
+906234	Leverantörsretur A4 Enkel (inga koder)	Supplier return A4 Plain (no codes)
+906235	Order A4 Enkel (inga koder)	Order A4 Plain (no codes)
+906236	Faktura A4 Enkel (10 kod)	Invoice A4 Plain (10 code)
+906237	Kreditnota A4 Enkel (10 kod)	Credit note A4 Plain (10 code)
+906238	Offert A4 Enkel (10 kod)	Quote A4 Plain (10 code)
+906239	Inköp A4 Enkel (10 kod)	Purchase A4 Plain (10 code)
+906240	Leverantörsretur A4 Enkel (10 kod)	Supplier return A4 Plain (10 code)
+906241	Order A4 Enkel (10 kod)	Order A4 Plain (10 code)
+906242	Faktura A4 Enkel (15 kod)	Invoice A4 Plain (15 code)
+906243	Kreditnota A4 Enkel (15 kod)	Credit note A4 Plain (15 code)
+906244	Offert A4 Enkel (15 kod)	Quote A4 Plain (15 code)
+906245	Inköp A4 Enkel (15 kod)	Purchase A4 Plain (15 code)
+906246	Leverantörsretur A4 Enkel (15 kod)	Supplier return A4 Plain (15 code)
+906247	Order A4 Enkel (15 kod)	Order A4 Plain (15 code)
+906248	Faktura Ingen moms (inga koder)	Invoice No Tax (no codes)
+906249	Kreditnota Ingen moms (inga koder)	Credit note No Tax (no codes)
+906250	Offert Ingen moms (inga koder)	Quote No Tax (no codes)
+906251	Inköp Ingen moms (inga koder)	Purchase No Tax (no codes)
+906252	Leverantörsretur Ingen moms (inga koder)	Supplier return No Tax (no codes)
+906253	Order Ingen moms (inga koder)	Order No Tax (no codes)
+906254	Faktura Ingen moms (15 kod)	Invoice No Tax (15 code)
+906255	Kreditnota Ingen moms (15 kod)	Credit note No Tax (15 code)
+906256	Offert Ingen moms (15 kod)	Quote No Tax (15 code)
+906257	Inköp Ingen moms (15 kod)	Purchase No Tax (15 code)
+906258	Leverantörsretur Ingen moms (15 kod)	Supplier return No Tax (15 code)
+906259	Order Ingen moms (15 kod)	Order No Tax (15 code)
+906260	Faktura Bankuppgifter (10 kod)	Invoice Bank details (10 code)
+906261	Faktura Engelska (10 kod)	Invoice English (10 code)
+906262	Faktura Engelska (inga koder)	Invoice English (no codes)
+906263	Ny rapport	New report
+906264	DOKUMENT	DOCUMENTS
+906265	Momsrapport	Tax report
+906266	Bokförda poster - Utstående	Posted items - Outstanding
+906267	Obokförda poster - Utstående	Unposted items - Outstanding
+906268	Nuvarande lagerstatus	Current stock levels
+906269	Summan av	The sum of
+906270	Utstående belopp	Amount outstanding
+906271	Ursprungligt transaktionsbelopp	Original transaction amount
+906272	Betalat till	Paid to
+906273	Betalningsnummer	Payment number
+906274	LÅGKÖP (att betala)	LAY-BUYS (to pay)
+906275	accepterad	accepted
+906276	Dokumentlayout (10 kod)	Document layout (10 code)
+906277	Dokumentlayout (15 kod)	Document layout (15 code)
+906278	Dokumentlayout (inga koder)	Document layout (no codes)
+906279	Leverantör 1	Supplier 1
+906280	Huvudbok och moms	Ledger and tax
+906281	Testpris	Dummy price
+906282	Extra konvertera till språk	Extra convert to languages
+906283	Aktivt lager	Active stock
+906284	Markera kopia	Mark copy
+906285	Multigrupp kopia	Multi-group copy
+906286	Rapports total	Report total
+906287	Debettransaktioner	Debit transactions
+906288	Kredittransaktioner	Credit transactions
+906289	Diagram - Inköp per vecka - Antal	Graph - Purchases per week - Quantities
+906290	Diagram - Inköp per vecka - Belopp	Graph - Purchases per week - Amount
+906291	Kreditnotor per period - Kundgrupp 1	Credit notes per period - Debtor group 1
+906292	Kreditnotor per period - Kundgrupp 2	Credit notes per period - Debtor group 2
+906293	Kreditnotor per period - Dokumentgrupp 1	Credit notes per period - Document group 1
+906294	Kreditnotor per period - Dokumentgrupp 2	Credit notes per period - Document group 2
+906295	Kreditnotor per period - Säljare	Credit notes per period - Salesperson
+906296	Leverantörsreturer per period - Leverantörsgrupp 1	Supplier returns per period - Creditor group 1
+906297	Leverantörsreturer per period - Leverantörsgrupp 2	Supplier returns per period - Creditor group 2
+906298	Leverantörsreturer per period - Dokumentgrupp 1	Supplier returns per period - Document group 1
+906299	Leverantörsreturer per period - Dokumentgrupp 2	Supplier returns per period - Document group 2
+906300	Leverantörsreturer per period - Säljare	Supplier returns per period - Salesperson
+906301	Offerter per period - Kundgrupp 1	Quotes per period - Debtor group 1
+906302	Offerter per period - Kundgrupp 2	Quotes per period - Debtor group 2
+906303	Offerter per period - Dokumentgrupp 1	Quotes per period - Document group 1
+906304	Offerter per period - Dokumentgrupp 2	Quotes per period - Document group 2
+906305	Offerter per period - Säljare	Quotes per period - Salesperson
+906306	Order per period - Leverantörsgrupp 1	Orders per period - Creditor group 1
+906307	Order per period - Leverantörsgrupp 2	Orders per period - Creditor group 2
+906308	Order per period - Dokumentgrupp 1	Orders per period - Document group 1
+906309	Order per period - Dokumentgrupp 2	Orders per period - Document group 2
+906310	Order per period - Säljare	Orders per period - Salesperson
+906311	Kreditnotor per period - Antal	Credit notes per period - Quantities
+906312	Kreditnotor per period - Belopp	Credit notes per period - Amount
+906313	Leverantörsreturer per period - Antal	Supplier returns per period - Quantities
+906314	Leverantörsreturer per period - Belopp	Supplier returns per period - Amount
+906315	Offerter per period - Antal	Quotes per period - Quantities
+906316	Offerter per period - Belopp	Quotes per period - Amount
+906317	Order per period - Antal	Orders per period - Quantities
+906318	Order per period - Belopp	Orders per period - Amount
+906319	Diagram - Kreditnotor per vecka - Antal	Graph - Credit notes per week - Quantities
+906320	Diagram - Kreditnotor per vecka - Belopp	Graph - Credit notes per week - Amount
+906321	Diagram - Leverantörsreturer per vecka - Antal	Graph - Supplier returns per week - Quantities
+906322	Diagram - Leverantörsreturer per vecka - Belopp	Graph - Supplier returns per week - Amount
+906323	Diagram - Offerter per vecka - Antal	Graph - Quotes per week - Quantities
+906324	Diagram - Offerter per vecka - Belopp	Graph - Quotes per week - Amount
+906325	Diagram - Order per vecka - Antal	Graph - Orders per week - Quantities
+906326	Diagram - Order per vecka - Belopp	Graph - Orders per week - Amount
+906327	Inköpsdokument per period - Leverantörsgrupp 1	Purchase documents per period - Creditor group 1
+906328	Inköpsdokument per period - Leverantörsgrupp 2	Purchase documents per period - Creditor group 2
+906329	Inköpsdokument per period - Dokumentgrupp 1	Purchase documents per period - Document group 1
+906330	Inköpsdokument per period - Dokumentgrupp 2	Purchase documents per period - Document group 2
+906331	Inköpsdokument per period - Säljare	Purchase documents per period - Salesperson
+906332	Försäljning per period - Kundgrupp 1	Sales per period - Debtor group 1
+906333	Försäljning per period - Kundgrupp 2	Sales per period - Debtor group 2
+906334	Försäljning per period - Dokumentgrupp 1	Sales per period - Document group 1
+906335	Försäljning per period - Dokumentgrupp 2	Sales per period - Document group 2
+906336	Försäljning per period - Säljare	Sales per period - Salesperson
+906337	Inköp och leverantörsreturer per period	Purchases and supplier returns per period
+906338	Kreditkontrollista (Kreditgräns vs nuvarande saldo) per	Credit control listing (Credit limit vs current balance) as at 
+906339	Moms- och företagsregistreringsnummer	Tax and company registration numbers
+906440	Transaktionslista	Transaction list
+906441	Verkligt	Actual
+906442	Budget vs realisering 3 perioder	Budget v/s realisation 3 periods
+906443	Ref.nr	Ref. no.
+906444	Dataintegritetskontrollrapport	Data integrity check report
+906445	Datum/Tid	Date / Time
+906446	ID	ID
+906447	Obokförda betalningar	Unposted payments
+906448	Obokförda kvitton	Unposted receipts
+906449	Automatiska betalningsrapport	Automatic payments report
+906550	Momsrapport - Referens/Dokumentnr	Tax report - Reference / Document no.
+906551	Leverantörsremitteringsunderlag - Utstående	Creditor remittance advise - Outstanding
+906552	Kundsaldoutdrag - Utstående	Debtor statement - Outstanding
+906553	Momslista leverantör med skatteid	Tax list creditor with tax id
+906554	Föråldrat parti	Outdated batch
+906555	Parti köpt från leverantör	Batch bought from supplier
+906556	Parti sålt till kund	Batch sold to customer
+906557	Diagram	Graphs
+906558	Diagram per vecka	Graphs per week
+906559	Diagram per månad	Graphs per month
+906560	Diagram - Vinst/Förlust per månad	Graph - Profit / Loss per month
+906561	Diagram - Kunder per månad	Graph - Debtors per month
+906562	Diagram - Leverantörer per månad	Graph - Creditors per month
+906563	Diagram - Offerter per månad - Antal	Graph - Quotes per month - Quantities
+906564	Diagram - Offerter per månad - Belopp	Graph - Quotes per month - Amount
+906565	Diagram - Kreditnotor per månad - Antal	Graph - Credit notes per month - Quantities
+906566	Diagram - Kreditnotor per månad - Belopp	Graph - Credit notes per month - Amount
+906567	Diagram - Fakturor per månad - Antal	Graph - Invoices per month - Quantities
+906568	Diagram - Fakturor per månad - Belopp	Graph - Invoices per month - Amount
+906569	Diagram - Fakturor - Kreditnotor per månad - Antal	Graph - Invoices - Credit notes per month - Quantities
+906570	Diagram - Fakturor - Kreditnotor per månad - Belopp	Graph - Invoices - Credit notes per month - Amount
+906571	Diagram - Inköp - Leverantörsreturer per månad - Antal	Graph - Purchases - Supplier returns per month - Quantities
+906572	Diagram - Inköp - Leverantörsreturer per månad - Belopp	Graph - Purchases - Supplier returns per month - Amount
+906573	Diagram - Order per månad - Belopp	Graph - Orders per month - Amount
+906574	Diagram - Order per månad - Antal	Graph - Orders per month - Quantities
+906575	Diagram - Leverantörsreturer per månad - Belopp	Graph - Supplier returns per month - Amount
+906576	Diagram - Leverantörsreturer per månad - Antal	Graph - Supplier returns per month - Quantities
+906577	Diagram - Inköp per månad - Belopp	Graph - Purchases per month - Amount
+906578	Diagram - Inköp per månad - Antal	Graph - Purchases per month - Quantities
+906579	Diagram - Fakturor - Kreditnotor per vecka - Antal	Graph - Invoices - Credit notes per week - Quantities
+906580	Diagram - Fakturor - Kreditnotor per vecka - Belopp	Graph - Invoices - Credit notes per week - Amount
+906581	Diagram - Inköp - Leverantörsreturer per vecka - Antal	Graph - Purchases - Supplier returns per week - Quantities
+906582	Diagram - Inköp - Leverantörsreturer per vecka - Belopp	Graph - Purchases - Supplier returns per week - Amount
+906583	Momskoder - Momssatser	Tax codes - Tax rates
+906584	Produktionslista	Production list
+906585	Lagerartikellista - Aktivt lager	Stock item list - Active stock
+906586	Lager - Förväntade kvantiteter	Stock - Expected quantities
+906587	Dokumentreferens	Document reference
+906588	Värderingslagerkonto	Value stock account
+906589	MOMSFRI Layoutfil	NO-TAX Layout file
+906590	MOMSFRI Dokumentlayout	NO-TAX Document layout
+906591	MOMSFRI Dokumentlayout (15-kod)	NO-TAX Document layout (15-code)
+1000000	Engelskt huvudfil - Översätt ej. Denna fil innehåller Journal istället för Batch-relaterade översättningar.	English Master File - Do Not Translate. This English Master file contains Journal in stead of Batch related translations.
+1000001	Välkommen till <@APPNAME@>	Welcome to <@APPNAME@>
+1000002	Används ej / Översätt ej	Not used / Do not translate
+1000003	*Din valuta	*Your Currency
+1000004	<@APPNAME@>	<@APPNAME@>
+1000005	Fordringsåldersanalys - Förfallorapport	Age analysis - Due report
+1000006	Används ej / Översätt ej	Not used / Do not translate
+1000007	Används ej / Översätt ej	Not used / Do not translate
+1000008	Används ej / Översätt ej	Not used / Do not translate
+1000009	Används ej / Översätt ej	Not used / Do not translate
+1000011	Används ej / Översätt ej	Not used / Do not translate
+1000012	Används ej / Översätt ej	Not used / Do not translate
+1000013	Används ej / Översätt ej	Not used / Do not translate
+1000014	Används ej / Översätt ej	Not used / Do not translate
+1000015	Används ej / Översätt ej	Not used / Do not translate
+1000016	Används ej / Översätt ej	Not used / Do not translate
+1000017	Används ej / Översätt ej	Not used / Do not translate
+1000018	Används ej / Översätt ej	Not used / Do not translate
+1000019	Används ej / Översätt ej	Not used / Do not translate
+1000020	Används ej / Översätt ej	Not used / Do not translate
+1000021	Används ej / Översätt ej	Not used / Do not translate
+1000022	Används ej / Översätt ej	Not used / Do not translate
+1000023	Används ej / Översätt ej	Not used / Do not translate
+1000024	Används ej / Översätt ej	Not used / Do not translate
+1000025	Används ej / Översätt ej	Not used / Do not translate
+1000026	Används ej / Översätt ej	Not used / Do not translate
+1000027	Används ej / Översätt ej	Not used / Do not translate
+1000028	Används ej / Översätt ej	Not used / Do not translate
+1000029	Används ej / Översätt ej	Not used / Do not translate
+1000030	Används ej / Översätt ej	Not used / Do not translate
+1000031	Används ej / Översätt ej	Not used / Do not translate
+1000032	Används ej / Översätt ej	Not used / Do not translate
+1000033	Används ej / Översätt ej	Not used / Do not translate
+1000034	Används ej / Översätt ej	Not used / Do not translate
+1000035	Används ej / Översätt ej	Not used / Do not translate
+1000036	Används ej / Översätt ej	Not used / Do not translate
+1000037	Används ej / Översätt ej	Not used / Do not translate
+1000038	Används ej / Översätt ej	Not used / Do not translate
+1000039	Används ej / Översätt ej	Not used / Do not translate
+1000040	Används ej / Översätt ej	Not used / Do not translate
+1000041	Används ej / Översätt ej	Not used / Do not translate
+1000042	Används ej / Översätt ej	Not used / Do not translate
+1000043	Används ej / Översätt ej	Not used / Do not translate
+1000044	Används ej / Översätt ej	Not used / Do not translate
+1000045	Används ej / Översätt ej	Not used / Do not translate
+1000046	Används ej / Översätt ej	Not used / Do not translate
+1000054	Används ej / Översätt ej	Not used / Do not translate
+1000055	Används ej / Översätt ej	Not used / Do not translate
+1000056	Används ej / Översätt ej	Not used / Do not translate
+1000057	Används ej / Översätt ej	Not used / Do not translate
