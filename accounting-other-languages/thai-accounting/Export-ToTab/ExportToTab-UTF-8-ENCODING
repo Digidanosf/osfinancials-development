@@ -1,5 +1,5 @@
-1	ไม่	&No
-2	ใช่	&Yes
+﻿1	&ไม่	&No
+2	&ใช่	&Yes
 3	มกราคม	January
 4	กุมภาพันธ์	February
 5	มีนาคม	March
@@ -12,19 +12,19 @@
 13	ตุลาคม	October
 14	พฤศจิกายน	November
 15	ธันวาคม	December
-16	เปิดชุดบัญชี	&Open Set of Books
-17	สร้างชุดบัญชี	&Create Set of Books
-18	ลบชุดบัญชี	&Delete Set of Books
+16	เ&ปิดชุดบัญชี	&Open Set of Books
+17	&สร้างชุดบัญชี	&Create Set of Books
+18	&ลบชุดบัญชี	&Delete Set of Books
 19	บันทึกเป็น	Save as
-20	เปลี่ยนภาษา	&Switch language
+20	&เปลี่ยนภาษา	&Switch language
 21	&ออกจาก <@APPNAME@>	&Exit <@APPNAME@>
-22	บัญชี	&Accounts
-23	งบประมาณ	&Budgets
-24	ลบ	&Delete
-25	รายการซ้ำ	&Repeating transactions
-26	ใบแจ้งหนี้ซ้ำ	Repeating &invoices
-27	สต็อก	Stock
-28	รายงานผู้ใช้	&User reports
+22	&บัญชี	&Accounts
+23	&งบประมาณ	&Budgets
+24	&ลบ	&Delete
+25	&รายการซ้ำ	&Repeating transactions
+26	ใบแจ้งหนี้&ซ้ำ	Repeating &invoices
+27	สินค้าคงคลัง	Stock
+28	&รายงานผู้ใช้	&User reports
 29	บัญชีธนาคาร	Bank account
 30	เจ้าหนี้	Creditors
 31	ลูกหนี้	Debtors
@@ -37,83 +37,83 @@
 38	เอกสาร	Documents
 39	ลบใบแจ้งหนี้	Delete invoices
 40	ลบใบซื้อ	Delete purchases
-41	ลบรายการคืนสินค้าจากซัพพลายเออร์	Delete supplier returns
+41	ลบรายการคืนสินค้าจากผู้จำหน่าย	Delete supplier returns
 42	&ปรับปรุงสินค้าคงคลัง	&Adjust stock
-43	&การบันทึกรายการรายวัน	&Batch entry
-44	กระทบยอดธนาคาร	&Reconcile bank
-45	รายการเอกสาร	&Documents listing
+43	&การบันทึกรายการรายวัน	&Journal entry
+44	&กระทบยอดธนาคาร	&Reconcile bank
+45	&รายการเอกสาร	&Documents listing
 46	บันทึกรายการไปยังบัญชีแยกประเภท	Input post to ledger
-47	ใบลดหนี้	&Credit notes
-48	ใบแจ้งหนี้	&Invoices
-49	ใบซื้อ	&Purchases
-50	การคืนสินค้าให้ซัพพลายเออร์	Supplier &returns
-51	ตกลง	&Enter
-52	พิมพ์	&Print
-53	ปรับปรุงบัญชีแยกประเภท	&Update ledger
-54	พิมพ์ใบส่งของ	Print &delivery notes
-55	&ชนิดสมุดรายวัน	&Batch type
-56	เจ้าหนี้	&Creditor
-57	ลูกหนี้	&Debtor
-58	บัญชีแยกประเภท	&General ledger
-59	การกระทบยอด	&Reconciliation
-60	ใบแจ้งหนี้	&Invoices
-61	ซื้อ	&Purchases
+47	&ใบลดหนี้	&Credit notes
+48	&ใบแจ้งหนี้	&Invoices
+49	&ใบซื้อ	&Purchases
+50	การคืนสินค้า&ผู้จำหน่าย	Supplier &returns
+51	&ตกลง	&Enter
+52	&พิมพ์	&Print
+53	&ปรับปรุงบัญชีแยกประเภท	&Update ledger
+54	พิมพ์ใ&บส่งของ	Print &delivery notes
+55	&ชนิดสมุดรายวัน	&Journal type
+56	&เจ้าหนี้	&Creditor
+57	&ลูกหนี้	&Debtor
+58	&บัญชีแยกประเภท	&General ledger
+59	&การกระทบยอด	&Reconciliation
+60	&ใบแจ้งหนี้	&Invoices
+61	&ซื้อ	&Purchases
 62	&สินค้าคงคลัง	&Stock
-63	ภาษี	&Tax
-64	รายงานผู้ใช้	&User reports
-65	วิเคราะห์อายุ	&Age analysis
-66	รายการ	&Listing
-67	การเคลื่อนไหว	&Movements
-68	พิมพ์ป้าย	&Print labels
-69	ใบแจ้งการโอนเงิน	&Remittance advises
-70	รายการ	&Transactions
-71	ใบแจ้งยอด	&Statements
-72	ผลการดำเนินงานตามงบประมาณ	&Budget performance
-73	ผังบัญชี	&Chart of accounts
+63	&ภาษี	&Tax
+64	&รายงานผู้ใช้	&User reports
+65	&วิเคราะห์อายุ	&Age analysis
+66	&รายการ	&Listing
+67	&ความเคลื่อนไหว	&Movements
+68	&พิมพ์ป้าย	&Print labels
+69	&ใบแจ้งการโอนเงิน	&Remittance advises
+70	&รายการ	&Transactions
+71	&ใบแจ้งยอด	&Statements
+72	&ผลการดำเนินงานตามงบประมาณ	&Budget performance
+73	&ผังบัญชี	&Chart of accounts
 74	รายการ	Transactions
-75	งบทดลอง	&Trial balance
-76	รายการค้างส่ง	&Backorder listing
-77	รายการใบลดหนี้	&Credit note listing
-78	รายการใบแจ้งหนี้	&Invoice listing
-79	รายการใบซื้อ	&Purchases listing
-80	รายการคืนสินค้าจากซัพพลายเออร์	&Supplier return listing
-81	กิจกรรม	&Activity
-82	สรุปการเคลื่อนไหว	&Movement summary
-83	รายงานสั่งซื้อซ้ำ	&Reorder report
+75	&งบทดลอง	&Trial balance
+76	&รายการค้างส่ง	&Backorder listing
+77	&รายการใบลดหนี้	&Credit note listing
+78	&รายการใบแจ้งหนี้	&Invoice listing
+79	&รายการใบซื้อ	&Purchases listing
+80	&รายการคืนสินค้าจากผู้จำหน่าย	&Supplier return listing
+81	&กิจกรรม	&Activity
+82	&สรุปความเคลื่อนไหว	&Movement summary
+83	&รายงานสั่งซื้อซ้ำ	&Reorder report
 84	&รายการสินค้าคงคลัง	&Stock item listing
 85	วิเคราะห์การขาย	Sales analysis
-86	รายละเอียดใบแจ้งหนี้	&Invoiced details
-87	สรุปใบแจ้งหนี้	&Invoiced summary
-88	รายละเอียดรับ/จ่าย	&Received / paid details
-89	สรุปรับ/จ่าย	Received / &paid summary
-90	การควบคุมการเข้าถึง	&Access control
-91	เส้นทางสำรองข้อมูล	Backup &path
-92	&ชนิดสมุดรายวัน	&Batch types
-93	ข้อมูลบริษัท	Company &info
-94	สี	&Colours
-95	กำหนดป้าย	Define &labels
+86	&รายละเอียดใบแจ้งหนี้	&Invoiced details
+87	&สรุปใบแจ้งหนี้	&Invoiced summary
+88	&รายละเอียดรับ/จ่าย	&Received / paid details
+89	สรุปรับ/&จ่าย	Received / &paid summary
+90	&การควบคุมการเข้าถึง	&Access control
+91	เส้นทางสำรอง&ข้อมูล	Backup &path
+92	&ชนิดสมุดรายวัน	&Journal types
+93	ข้อมูล&บริษัท	Company &info
+94	&สี	&Colours
+95	กำหนด&ป้าย	Define &labels
 96	ใบแจ้งหนี้ Proforma	Proforma
-97	กลุ่ม	&Groups
-98	เอกสาร	&Documents
-99	เครื่องพิมพ์	&Printer
-100	วันที่รายงาน	&Reporting dates
-101	พนักงานขาย	Sales&person
-102	ใบแจ้งยอด	&Statements
+97	&กลุ่ม	&Groups
+98	&เอกสาร	&Documents
+99	&เครื่องพิมพ์	&Printer
+100	&วันที่รายงาน	&Reporting dates
+101	พนักงาน&ขาย	Sales&person
+102	&ใบแจ้งยอด	&Statements
 103	ข้อมูลสินค้าคงคลัง	Stock information
-104	สำรอง/กู้คืนชุดบัญชี	&Backup / Restore Set of Books
-105	เครื่องคำนวณ	&Calculator
+104	&สำรอง/กู้คืนชุดบัญชี	&Backup / Restore Set of Books
+105	&เครื่องคำนวณ	&Calculator
 106	ตรวจสอบความสมบูรณ์ของข้อมูล	Data integrity check
-107	ส่งออก	&Export
-108	กระบวนการทั่วโลก	&Global processes
-109	นำเข้า	&Import
-110	เชื่อมโยงรายการเปิดใหม่	&Open item relink
-111	กู้คืนจากข้อมูลสำรอง	&Restore from backup
-112	โปรแกรมดู	&Viewer
-113	ความช่วยเหลือ	&Support
-114	ล้าง/ตั้งค่าใหม่	&Clear / Reset
-115	ปิดบัญชีสิ้นปี	&Do year end
-116	กระทบยอด	&Reconcile
-117	โอนรายการ	&Transfer transactions
+107	&ส่งออก	&Export
+108	&กระบวนการทั่วโลก	&Global processes
+109	&นำเข้า	&Import
+110	เ&ชื่อมโยงรายการเปิดใหม่	&Open item relink
+111	&กู้คืนจากข้อมูลสำรอง	&Restore from backup
+112	&โปรแกรมดู	&Viewer
+113	&ความช่วยเหลือ	&Support
+114	&ล้าง/ตั้งค่าใหม่	&Clear / Reset
+115	&ปิดบัญชีสิ้นปี	&Do year end
+116	&กระทบยอด	&Reconcile
+117	&โอนรายการ	&Transfer transactions
 118	ยกเลิกการกระทบยอด	Unreconcile
 119	เกี่ยวกับ <@APPNAME@>	About <@APPNAME@>
 120	ไฟล์	File
@@ -159,13 +159,13 @@
 160	ลูกหนี้	Debtors
 161	เจ้าหนี้	Creditors
 162	ประวัติใบแจ้งหนี้	Invoice history
-163	เปิด	&Open
-164	การบันทึกรายการรายวัน	Batch entry
+163	เ&ปิด	&Open
+164	การบันทึกรายการรายวัน	Journal entry
 165	ใบแจ้งหนี้	Invoice
 166	รายการเงินสด/ธนาคาร	Cash/Bank entry
-167	ตกลง	&OK
-168	ยกเลิก	&Cancel
-169	ปิด	&Close
+167	&ตกลง	&OK
+168	&ยกเลิก	&Cancel
+169	&ปิด	&Close
 170	หน่วยบรรจุภัณฑ์	Packaging unit
 171	เลือกภาษา	Choose a language
 172	ชุดบัญชี	Set of Books
@@ -237,7 +237,7 @@
 238	วันที่	Date
 239	ข้อความ	Message
 240	ส่งรายงานถึง	Send report to
-241	ชนิดสมุดรายวัน	Batch type
+241	ชนิดสมุดรายวัน	Journal type
 242	ปีใด	Which year
 243	จากวันที่รายงาน	From reporting date
 244	แยกแต่ละงวด	Each period separately
@@ -257,7 +257,7 @@
 258	รายงานผู้ใช้	User report
 259	กระทบยอดบัญชีธนาคาร	Reconcile bank account
 260	การออกใบแจ้งหนี้	Invoicing
-261	ตัวเลือกรายงานชนิดสมุดรายวัน	Batch type report options
+261	ตัวเลือกรายงานชนิดสมุดรายวัน	Journal type report options
 262	ตัวเลือกรายการบัญชี	Account list options
 263	ตัวเลือกการวิเคราะห์อายุลูกหนี้	Debtor age analysis options
 264	จำนวนเงินขั้นต่ำ	Minimum amount
@@ -270,12 +270,12 @@
 271	จนถึง	up to
 272	เดือน จนถึง	Month(s) up to
 273	ตัวเลือกรายการบัญชี	Account list options
-274	ตัวเลือกการเคลื่อนไหวลูกหนี้	Debtor movement options
+274	ตัวเลือกความเคลื่อนไหวลูกหนี้	Debtor movement options
 275	ตัวเลือกรายงานรายการลูกหนี้	Debtor transaction report options
 276	แสดงบัญชีย่อย	Show sub-accounts
 277	ตัวเลือกผลการดำเนินงานตามงบประมาณ	Budget performance options
 278	ตัวเลือกบัญชีแยกประเภท	General ledger options
-279	ตัวเลือกการเคลื่อนไหวเจ้าหนี้	Creditor movement options
+279	ตัวเลือกความเคลื่อนไหวเจ้าหนี้	Creditor movement options
 280	ตัวเลือกการเคลื่อนไหวบัญชีแยกประเภท	General ledger account movement options
 281	ตัวเลือกงบทดลอง	Trial balance options
 282	จาก	From
@@ -294,12 +294,12 @@
 295	รหัสผ่านผู้ใช้	User password
 296	แก้ไขบัญชี	Edit accounts
 297	แก้ไขสินค้าคงคลัง	Edit stock
-298	การบันทึกรายการรายวัน	Batch entry
+298	การบันทึกรายการรายวัน	Journal entry
 299	เลขที่ใบลดหนี้	Credit note no.
 300	ใบแจ้งหนี้	Invoices
 301	ตั้งค่าระบบ	System setup
 302	ใบซื้อ	Purchases
-303	คืนสินค้าซัพพลายเออร์	Supplier returns
+303	คืนสินค้าผู้จำหน่าย	Supplier returns
 304	ถูกระงับ	Disabled
 305	รายงานเจ้าหนี้	Creditor reports
 306	รายงานลูกหนี้	Debtor reports
@@ -318,22 +318,22 @@
 319	ตั้งค่ารูปแบบวันที่ของ Windows	Set Windows date format/style
 320	ข้อมูลบริษัท	Company info
 321	เลขที่ใบแจ้งหนี้ถัดไป	Next invoice no.
-322	สมุดรายวันใบแจ้งหนี้	Invoice batch
+322	สมุดรายวันใบแจ้งหนี้	Invoice journal
 323	ชนิดกระดาษ	Paper type
 324	หัวข้อใบแจ้งหนี้	Invoice heading
 325	ข้อความใบแจ้งหนี้	Invoice message
 326	เลขที่ใบลดหนี้ถัดไป	Next credit note no.
-327	สมุดรายวันใบลดหนี้	Credit note batch
+327	สมุดรายวันใบลดหนี้	Credit note journal
 328	หัวข้อใบลดหนี้	Credit note heading
 329	ข้อความใบลดหนี้	Credit note message
 330	เลขที่ใบซื้อถัดไป	Next purchase no.
-331	สมุดรายวันใบซื้อ	Purchase batch
+331	สมุดรายวันใบซื้อ	Purchase journal
 332	หัวข้อใบซื้อ	Purchase heading
 333	ข้อความใบซื้อ	Purchase message
-334	เลขที่ใบคืนสินค้าซัพพลายเออร์ถัดไป	Next supplier return no.
-335	สมุดรายวันใบคืนสินค้าผู้จำหน่าย	Supplier return batch
-336	หัวข้อใบคืนสินค้าซัพพลายเออร์	Supplier return heading
-337	ข้อความใบคืนสินค้าซัพพลายเออร์	Supplier return message
+334	เลขที่ใบคืนสินค้าผู้จำหน่ายถัดไป	Next supplier return no.
+335	สมุดรายวันใบคืนสินค้าผู้จำหน่าย	Supplier return journal
+336	หัวข้อใบคืนสินค้าผู้จำหน่าย	Supplier return heading
+337	ข้อความใบคืนสินค้าผู้จำหน่าย	Supplier return message
 338	เลขที่ใบสั่งซื้อถัดไป	Next order no.
 339	หัวข้อใบสั่งซื้อ	Order heading
 340	ข้อความใบสั่งซื้อ	Order message
@@ -345,7 +345,7 @@
 346	ชนิดการชำระเงิน	Payment types
 347	ตั้งค่าใบแจ้งยอด	Statement setup
 348	ข้อความใบแจ้งยอด	Statement message
-349	สมุดรายวันต้นทุนขาย	Cost of sales batch
+349	สมุดรายวันต้นทุนขาย	Cost of sales journal
 350	ข้อมูลสินค้าคงคลัง	Stock information
 351	สร้างต้นทุนขาย	Create cost of sales
 352	ข้อมูลทั่วไป	General information
@@ -358,7 +358,7 @@
 359	เชื่อมโยงรายการเปิดใหม่	Open item relink
 360	เชื่อมโยงรายการเปิด	Open item link
 365	เกี่ยวกับ <@APPNAME@>	About <@APPNAME@>
-366	การบันทึกรายการรายวัน	Batch entry
+366	การบันทึกรายการรายวัน	Journal entry
 367	^D: ลบ	^D: Delete
 368	^N: แทรก	^N: Insert
 369	F5: ยอดคงเหลือ	F5: Balance
@@ -372,11 +372,11 @@
 377	ยอดรวมอ้างอิง:	Reference total:
 378	จัดสรรไปยัง:	Allocate to:
 379	บัญชีตรงข้าม:	Contra account:
-380	ยอดขายต่อลูกหนี้	Sales per customer
+380	ยอดขายต่อลูกค้า	Sales per customer
 381	ยอดขายต่อสินค้า	Sales per product
 382	ยอดขายต่อพนักงานขาย	Sales per salesperson
 383	ยอดขายตามกลุ่ม	Sales per group
-384	ตัวเลือกยอดขายต่อลูกหนี้	Sales per customer options
+384	ตัวเลือกยอดขายต่อลูกค้า	Sales per customer options
 385	ตัวเลือกยอดขายต่อสินค้า	Sales per product options
 386	ตัวเลือกยอดขายต่อพนักงานขาย	Sales per salesperson options
 387	ตัวเลือกยอดขายตามกลุ่ม	Sales per group options
@@ -411,7 +411,7 @@
 416	ราคาขาย	Selling price
 417	มูลค่าสินค้าคงคลัง	Stock value
 418	ใบเสนอราคา	Quotes
-419	คืนสินค้าซัพพลายเออร์	Supplier returns
+419	คืนสินค้าผู้จำหน่าย	Supplier returns
 420	กลุ่มบัญชี	Account groups
 421	กลุ่มลูกหนี้	Debtor groups
 422	กลุ่มเจ้าหนี้	Creditor groups
@@ -419,8 +419,8 @@
 424	กลุ่มเอกสาร	Document groups
 425	คำเตือน การดำเนินการนี้จะส่งผลกระทบร้ายแรงต่อชุดบัญชีของคุณ คุณต้องการดำเนินการต่อหรือไม่?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?
 426	คุณเลือกที่จะลบผู้ใช้ทั้งหมด การควบคุมการเข้าถึงจะถูกปิดใช้งานแล้ว	You have chosen to delete all users! Access control will now be disabled!
-427	มีสมุดรายวันที่ยังไม่ได้บันทึกรายการผูกกับผู้ใช้นี้! โปรดบันทึกรายการหรือลบก่อนที่จะลบผู้ใช้นี้	There are unposted batches associated with this user! Please post or delete them before deleting this user.
-428	มีสมุดรายวันผูกกับผู้ใช้นี้! โปรดเลือกผู้ใช้ใหม่เพื่อมอบหมายสมุดรายวันเหล่านี้	There are batches associated with this user! Please select a new user to assign these batches to.
+427	มีสมุดรายวันที่ยังไม่ได้บันทึกรายการผูกกับผู้ใช้นี้! โปรดบันทึกรายการหรือลบก่อนที่จะลบผู้ใช้นี้	There are unposted journals associated with this user! Please post or delete them before deleting this user.
+428	มีสมุดรายวันผูกกับผู้ใช้นี้! โปรดเลือกผู้ใช้ใหม่เพื่อมอบหมายสมุดรายวันเหล่านี้	There are journals associated with this user! Please select a new user to assign these journals to.
 429	มีรายการผูกกับผู้ใช้นี้ โปรดเลือกผู้ใช้ใหม่เพื่อมอบหมายรายการเหล่านี้	There are transactions associated with this user! Please select a new user to assign these transactions to.
 430	คุณต้องการบันทึกการเปลี่ยนแปลงของผู้ใช้นี้หรือไม่?	Do you wish to save the changes to this user?
 431	โปรดกรอกรหัสผ่านสำหรับผู้ใช้นี้	Please type in a password for this user!
@@ -431,16 +431,16 @@
 436	!!! ข้อผิดพลาดร้ายแรงของไฟล์ 12 !!!	!!! FATAL FILE ERROR 12 !!!
 437	คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้?	Are you sure you wish to delete this transaction?
 438	คุณต้องการจัดสรรรายการนี้ไปยังปีที่แล้วหรือไม่?	Do you wish to allocate this transaction to last year?
-439	สมุดรายวันไม่สมดุล!	Batch is not in balance!
+439	สมุดรายวันไม่สมดุล!	Journal is not in balance!
 440	บัญชีไม่มีอยู่ คุณต้องการสร้างหรือไม่?	Account does not exist, do you wish to create it?
 441	คุณต้องการดำเนินการรายงานต่อไปหรือไม่?	Do you want to continue reporting?
-442	ไม่สามารถลบชนิดสมุดรายวันนี้ได้! เนื่องจากมีสมุดรายวันอื่นที่ผูกอยู่!	Cannot delete this batch type! It has batches associated with it!
-443	การแก้ไขชนิดสมุดรายวันจะส่งผลกระทบร้ายแรงต่อชุดบัญชีของคุณ! คุณแน่ใจหรือไม่ว่าต้องการทำเช่นนี้?	Editing batch types will seriously affect your Set of Books! Are you sure you want to do this?
+442	ไม่สามารถลบชนิดสมุดรายวันนี้ได้! เนื่องจากมีสมุดรายวันอื่นที่ผูกอยู่!	Cannot delete this journal type! It has journals associated with it!
+443	การแก้ไขชนิดสมุดรายวันจะส่งผลกระทบร้ายแรงต่อชุดบัญชีของคุณ! คุณแน่ใจหรือไม่ว่าต้องการทำเช่นนี้?	Editing journal types will seriously affect your Set of Books! Are you sure you want to do this?
 444	สิ่งนี้จะส่งผลกระทบร้ายแรงต่อชุดบัญชีของคุณ คุณต้องการยกเลิกตอนนี้หรือไม่?	This will seriously affect your Set of Books! Do you wish to cancel now?
 445	คุณต้องการบันทึกการเปลี่ยนแปลงเหล่านี้หรือไม่?	Do you want to save these changes?
 446	คุณแน่ใจหรือไม่ว่าต้องการสร้าง	Are you sure you want to create the
 447	ชุดบัญชี?	 Set of Books?
-448	สร้างชุดบัญชีแล้ว	 Set of Books created!
+448	สร้างชุดบัญชีแล้ว!	 Set of Books created!
 449	เกิดข้อผิดพลาดในการสร้างบัญชี	Error creating books!
 450	ชุดบัญชี	The
 451	มีชุดบัญชีอยู่แล้ว	 Set of Books already exist!
@@ -465,7 +465,7 @@
 470	จำนวนเงินที่เชื่อมโยงต้องน้อยกว่าหรือเท่ากับ	The link amount has to be less than or equal to
 471	คุณยังไม่ได้ตั้งค่าชุดบัญชี	You have not set up a Set of Books yet!
 472	รายการนี้เชื่อมโยงแล้ว	This entry is already linked!
-473	ไม่มีรายการให้เชื่อมโยงสำหรับลูกหนี้รายนี้	Nothing to link for this debtor!
+473	ไม่มีรายการให้เชื่อมโยงสำหรับลูกหนี้รายนี้!	Nothing to link for this debtor!
 474	คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเชื่อมโยงรายการนี้?	Are you sure you want to unlink this entry?
 475	รหัสผ่านไม่ถูกต้อง	Invalid password!
 476	วันที่ขัดแย้ง !!!! ตรวจสอบวันที่ 1	Date conflict !!!! Check date 1
@@ -492,7 +492,7 @@
 497	หน่วยสินค้าคงคลัง	Units of stock
 498	คำอธิบายราคาขาย	Selling price descriptions
 499	ต้นทุนขาย	Cost of sales
-500	คุณต้องการเรียกใช้การตรวจสอบความสมบูรณ์ของข้อมูลก่อนการสำรองข้อมูลหรือไม่?	Do you want to run the data integrity check before making the backup?
+500	คุณต้องการเรียกใช้การตรวจสอบความสมบูรณ์ของข้อมูลก่อนการสำรองข้อมูลหรือไม่?	Do you want to run the Data integrity check before making the backup?
 501	คุณต้องการดำเนินการสำรองข้อมูลต่อไปหรือไม่?	Do you wish to continue with the backup?
 502	!!! ข้อผิดพลาดร้ายแรงของไฟล์ 11 !!!	!!! FATAL FILE ERROR 11 !!!
 503	วันที่นี้อยู่นอกปีปัจจุบัน ต้องอยู่ระหว่าง	This date is out of the current year! It must be between
@@ -502,7 +502,7 @@
 507	รายการคงเหลือ	items on hand.
 508	คุณแน่ใจหรือไม่ว่าต้องการล้างรายการทั้งหมดในใบแจ้งหนี้นี้?	Are you sure you want to clear all the entries in this Invoice?
 509	ส่วนลดไม่ถูกต้อง จำนวนเงินต้องเป็นบวก	Invalid discount! Amount must be positive!
-510	คุณต้องการเรียกใช้การตรวจสอบความสมบูรณ์ของข้อมูลก่อนการสำรองข้อมูลหรือไม่?	Do you want to run the Data Integrity Check before making the backup?
+510	คุณต้องการเรียกใช้การตรวจสอบความสมบูรณ์ของข้อมูลก่อนการสำรองข้อมูลหรือไม่?	Do you want to run the Data integrity check before making the backup?
 511	สำรองข้อมูลเสร็จสมบูรณ์	Backup completed!
 512	คำเตือน การดำเนินการนี้จะเขียนทับชุดบัญชีปัจจุบันของคุณ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?
 513	โปรดใส่แผ่นดิสก์สำรองในไดรฟ์และดำเนินการต่อ หรือยกเลิกการทำงานตอนนี้	Please insert your backup disk in the drive and continue, or cancel the operation now.
@@ -518,13 +518,13 @@
 523	บัญชีนี้มีรายการ คุณต้องการโอนรายการไปยังบัญชีอื่นหรือไม่?	This account has transactions! Do you wish to transfer the transactions to another account?
 524	คุณไม่สามารถโอนไปยังบัญชีนี้ได้ เนื่องจากมีบัญชีย่อยอยู่	You cannot transfer to this account! It has sub-accounts!
 525	ลบบัญชีแล้ว	Account deleted!
-526	ลูกหนี้รายนี้มีรายการ คุณต้องการโอนรายการไปยังลูกหนี้รายอื่นหรือไม่?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
-527	เจ้าหนี้รายนี้มีรายการ คุณต้องการโอนรายการไปยังเจ้าหนี้รายอื่นหรือไม่?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
+526	ลูกหนี้รายนี้มีรายการ! คุณต้องการโอนรายการไปยังลูกหนี้รายอื่นหรือไม่?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
+527	เจ้าหนี้รายนี้มีรายการ! คุณต้องการโอนรายการไปยังเจ้าหนี้รายอื่นหรือไม่?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
 528	บัญชีธนาคารนี้มีรายการ คุณต้องการโอนรายการไปยังบัญชีธนาคารอื่นหรือไม่?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?
 529	บัญชีภาษีนี้มีรายการ คุณต้องการโอนรายการไปยังบัญชีภาษีอื่นหรือไม่?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?
 530	คำเตือน มี	Warning, there are
-531	สมุดรายวันที่ยังไม่ได้บันทึกรายการและ	Unposted batches and
-532	สมุดรายวันที่ยังไม่ได้บันทึกรายการ	Unposted batches
+531	สมุดรายวันที่ยังไม่ได้บันทึกรายการและ	Unposted journals and
+532	สมุดรายวันที่ยังไม่ได้บันทึกรายการ	Unposted journals
 533	เอกสารที่ยังไม่ได้บันทึกรายการ	Unposted documents
 534	คุณสมบัติ	Properties
 535	เปลี่ยนคุณสมบัติชุดบัญชี	Change Set of Books properties
@@ -574,19 +574,19 @@
 579	สิ้นสุดวันที่	Ends on
 580	เปิดสำหรับบันทึกรายการ	Open for posting
 581	*แปล : กรอกรายละเอียดของคุณ	*Translate : Enter your details
-582	ไคลเอนต์เซิร์ฟเวอร์	&Client server
-583	การตั้งค่า	&Preferences
-584	พารามิเตอร์ระบบ	&System parameters
-585	การควบคุมการเข้าถึง	&Access control
-586	วิธีใช้	&Help
+582	&ไคลเอนต์เซิร์ฟเวอร์	&Client server
+583	&การตั้งค่า	&Preferences
+584	&พารามิเตอร์ระบบ	&System parameters
+585	&การควบคุมการเข้าถึง	&Access control
+586	&วิธีใช้	&Help
 587	การบันทึกใบแจ้งหนี้	Invoice entry
 588	ข้อผิดพลาด	Error
 589	คำเตือน วันที่นี้ไม่อยู่ในวันที่รายงานของปีนี้หรือปีที่แล้ว	Warning, this date does not fall into any of this or last year's reporting dates!
-590	สมุดรายวันไม่ผ่านการตรวจสอบความถูกต้อง!	This batch does not validate!
+590	สมุดรายวันไม่ผ่านการตรวจสอบความถูกต้อง!	This journal does not validate!
 591	ไม่สมดุลโดย	is out of balance by
 592	บรรทัด	Line
 593	อนุญาตทั้งคู่	Allow both
-594	สมุดรายวันมีรายการที่บันทึกในปีที่แล้ว!	Batch contains transactions posting to last year!
+594	สมุดรายวันมีรายการที่บันทึกในปีที่แล้ว!	Journal contains transactions posting to last year!
 595	คุณต้องการบันทึกรายการต่อไปหรือไม่?	Do you want to continue posting?
 596	ไม่สามารถบันทึกรายการไปยังบัญชีหลักที่มีบัญชีย่อยได้	Cannot post to main account containing Sub-accounts!
 597	บัญชีไม่มีอยู่ คุณต้องการสร้างหรือไม่?	Account does not exist! Do you wish to create it?
@@ -594,7 +594,7 @@
 599	กรอกเดือนและปีเพื่อทำรายการซ้ำไปยัง	Enter month and year to repeat entries to
 600	งวด	Period
 601	ปี	Year
-602	เลือกบัญชีตรงข้าม	&Select contra account
+602	เ&ลือกบัญชีตรงข้าม	&Select contra account
 603	ปีนี้	This year
 604	ปีที่แล้ว	Last year
 605	รหัส	Code
@@ -603,18 +603,18 @@
 608	บัญชี	Account
 609	ภาษี	Tax
 610	คำจำกัดความของคำย่อ	Abbreviation definition
-611	จัดทำยอดสมดุลสมุดรายวัน	Balance batch
+611	จัดทำยอดสมดุลสมุดรายวัน	Balance journal
 612	นำเข้าไฟล์แบบมีตัวคั่น	Delimited file import
-613	ล้างสมุดรายวัน	Erase batch
+613	ล้างสมุดรายวัน	Erase journal
 614	สร้างหลายรายการ	Generate multiple transactions
-615	รายการสมุดรายวัน	List batch
-616	บันทึกรายการสมุดรายวัน	Post batch
+615	รายการสมุดรายวัน	List journal
+616	บันทึกรายการสมุดรายวัน	Post journal
 617	รายการซ้ำ	Repeating transactions
 618	ยอดรวมสำหรับแต่ละงวด	Totals for each period
 619	เขียนไฟล์แบบมีตัวคั่น	Write delimited file
-620	ประมวลผลสมุดรายวัน	Process the batch
-621	คุณแน่ใจหรือไม่ว่าต้องการล้างสมุดรายวันทั้งหมดนี้?	Are you sure you want to erase this entire batch?
-622	ตัวเลือกสำหรับสมุดรายวันนี้	Options for this batch
+620	ประมวลผลสมุดรายวัน	Process the journal
+621	คุณแน่ใจหรือไม่ว่าต้องการล้างสมุดรายวันทั้งหมดนี้?	Are you sure you want to erase this entire journal?
+622	ตัวเลือกสำหรับสมุดรายวันนี้	Options for this journal
 623	เพิ่มเลขที่อ้างอิง	Increment reference
 624	ทำซ้ำรายละเอียด	Repeat details
 625	บัญชีตรงข้ามต่อบรรทัด	Contra account per line
@@ -651,10 +651,10 @@
 658	F8: ส่วนลด	F8: Discount
 659	F9: ข้อคิดเห็น	F9: Comment
 660	F10: ลบทั้งหมด	F10: Delete all
-662	บรรทัดข้อคิดเห็น	&Comment line
-663	กรอกส่วนลดรวม	&Enter overall discount
+662	&บรรทัดข้อคิดเห็น	&Comment line
+663	&กรอกส่วนลดรวม	&Enter overall discount
 664	F7: รวมภาษี	F7: Inclusive
-665	คุณได้เปลี่ยนสมุดรายวันการชำระเงินและการรับชำระเงิน! ซึ่งจะทำให้การกระทบยอดเสียหาย! คุณต้องการดำเนินการต่อหรือไม่?	You have changed payment and receipt batch! This will corrupt your recon! Do you wish to continue?
+665	คุณได้เปลี่ยนสมุดรายวันการชำระเงินและการรับชำระเงิน! ซึ่งจะทำให้การกระทบยอดเสียหาย! คุณต้องการดำเนินการต่อหรือไม่?	You have changed payment and receipt journal! This will corrupt your recon! Do you wish to continue?
 666	ไม่สามารถใช้บัญชีคุมได้	Control account cannot be used!
 667	คุณได้เปลี่ยนอัตราร้อยละ	You have changed the percentage!
 668	ไม่สามารถตั้งงบประมาณสำหรับบัญชีที่มีบัญชีย่อยได้	Cannot have budgets for an account which has sub-accounts!
@@ -667,18 +667,18 @@
 676	ถึงใบลดหนี้	To credit note
 677	ดำเนินการต่อ	Continue
 678	ไม่มีใบแจ้งหนี้ให้พิมพ์	There is no invoice to print!
-679	ไม่สามารถใช้ชนิดสมุดรายวันการชำระเงินเดียวกันกับบัญชีธนาคารอื่นได้!	Cannot have the same payments batch type as for another bank account!
+679	ไม่สามารถใช้ชนิดสมุดรายวันการชำระเงินเดียวกันกับบัญชีธนาคารอื่นได้!	Cannot have the same payments journal type as for another bank account!
 680	การโอนเงิน	Remittance
 681	ข้อความการโอนเงิน	Remittance message
 682	สินค้าที่ได้รับ	Goods received
-683	ไม่สามารถใช้ชนิดสมุดรายวันการรับชำระเงินเดียวกันกับบัญชีธนาคารอื่นได้!	Cannot have the same receipt batch type as for another bank account!
+683	ไม่สามารถใช้ชนิดสมุดรายวันการรับชำระเงินเดียวกันกับบัญชีธนาคารอื่นได้!	Cannot have the same receipt journal type as for another bank account!
 684	ราคาต่อหน่วย	Unit price
 685	คุณแน่ใจหรือไม่ว่าต้องการล้างรายการทั้งหมดในการซื้อนี้?	Are you sure you want to clear all the entries in this purchase?
 686	พิมพ์เอกสารการซื้อตอนนี้หรือไม่?	Print a purchase document now?
 687	ไม่รวมภาษี	Tax excluded
 688	รวมภาษี	Tax included
 689	ประวัติใบลดหนี้	Credit note history
-690	ประวัติคืนสินค้าซัพพลายเออร์	Supplier return history
+690	ประวัติคืนสินค้าผู้จำหน่าย	Supplier return history
 691	ประวัติใบซื้อ	Purchases history
 692	ประวัติใบเสนอราคา	Quote history
 693	ประวัติใบสั่งซื้อ	Orders history
@@ -689,17 +689,17 @@
 698	คุณต้องการกู้คืนจากต่อไปหรือไม่	Do you want to continue restore from?
 699	ไม่ได้เลือกชุดบัญชี	No Set of Books selected!
 700	ปรับปรุงใบซื้อ	Update purchase
-701	ปรับปรุงคืนสินค้าซัพพลายเออร์	Update supplier returns
-702	จากการคืนสินค้าซัพพลายเออร์	From supplier return
+701	ปรับปรุงคืนสินค้าผู้จำหน่าย	Update supplier returns
+702	จากการคืนสินค้าผู้จำหน่าย	From supplier return
 703	เลขที่ใบซื้อ	Purchase no.
-704	เลขที่คืนสินค้าซัพพลายเออร์	Supplier ret. no.
-705	คืนสินค้าซัพพลายเออร์	Supplier return
+704	เลขที่คืนสินค้าผู้จำหน่าย	Supplier ret. no.
+705	คืนสินค้าผู้จำหน่าย	Supplier return
 706	ใบลดหนี้	Credit notes
 707	คุณต้องการพิมพ์ใบสั่งซื้อนี้หรือไม่?	Do you wish to print this order?
-708	คุณต้องการพิมพ์ใบคืนสินค้าซัพพลายเออร์นี้หรือไม่?	Do you wish to print this supplier return?
+708	คุณต้องการพิมพ์ใบคืนสินค้าผู้จำหน่ายนี้หรือไม่?	Do you wish to print this supplier return?
 709	คุณต้องการพิมพ์ใบซื้อนี้หรือไม่?	Do you wish to print this purchase?
 710	คุณต้องการพิมพ์ใบเสนอราคานี้หรือไม่?	Do you wish to print this quote?
-711	เรียกใช้ 'ตั้งค่า → ชนิดสมุดรายวัน' และเลือกบัญชีตรงข้ามสำหรับสมุดรายวันนี้!	Run 'Setup → Batch types' and select contra account for this batch!
+711	เรียกใช้ 'ตั้งค่า → ชนิดสมุดรายวัน' และเลือกบัญชีตรงข้ามสำหรับสมุดรายวันนี้!	Run 'Setup → Journal types' and select contra account for this journal!
 712	คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลบรรทัดนี้?	Are you sure you wish to delete this row's information?
 713	อัปเดตไคลเอนต์เซิร์ฟเวอร์	Client server update
 714	อัปเดตอินเทอร์เน็ต	Internet update
@@ -709,24 +709,24 @@
 718	หรือมีปัญหาบนไดรฟ์ที่แมปเครือข่าย	Or trouble on a network mapped drive
 719	สิ่งนี้จะลบข้อมูลทั้งหมดของคุณ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?	This will delete all your information! Are you sure you want to continue?
 720	ข้อผิดพลาด Btrv:	Btrv error:
-721	ไม่มีรายการให้เชื่อมโยงสำหรับเจ้าหนี้รายนี้	Nothing to link for this creditor!
+721	ไม่มีรายการให้เชื่อมโยงสำหรับเจ้าหนี้รายนี้!	Nothing to link for this creditor!
 722	คำเตือน หากคุณคลิก [ใช่] คุณจะสูญเสียการเชื่อมโยงปัจจุบันทั้งหมดสำหรับบัญชีนี้!	Warning, if you click [Yes] you will lose all your current links for this account!
 723	ใส่ดิสก์ใน	Insert disk in
 724	ข้อมูลการตั้งค่าอินเทอร์เน็ตไม่ถูกต้อง! โปรดเรียกใช้ 'ตั้งค่า → อินเทอร์เน็ต'	Internet setup information is incorrect! Run 'Setup → Internet'.
 725	คุณต้องการลบหรือไม่?	Do you want to delete?
 726	บันทึก	Save
-727	แรก	&First
-728	ก่อนหน้า	&Previous
-729	ถัดไป	&Next
-730	สุดท้าย	&Last
-731	ซูม	&Zoom
+727	&แรก	&First
+728	&ก่อนหน้า	&Previous
+729	&ถัดไป	&Next
+730	&สุดท้าย	&Last
+731	&ซูม	&Zoom
 732	สำเนา	Copies
 733	ช่วงที่พิมพ์	Print range
-734	หน้า	&Pages
-735	จาก	&From
-736	ถึง	&To
-737	ทุกหน้า	&All pages
-738	จำนวนสำเนา	Number of &copies
+734	&หน้า	&Pages
+735	&จาก	&From
+736	&ถึง	&To
+737	&ทุกหน้า	&All pages
+738	จำนวนสำเ&นา	Number of &copies
 739	ข้อผิดพลาดในการส่งออกรายงาน	Exporting report error!
 740	ข้อผิดพลาดในการสร้างไฟล์ชั่วคราว	Error when creating Tmp!
 741	รหัสผ่านไม่ถูกต้อง	Invalid password!
@@ -734,12 +734,12 @@
 743	สร้างไดเรกทอรี	Create directory
 744	มีชุดบัญชีนั้นอยู่แล้ว โปรดกรอกใหม่	That Set of Books already exists! Please re-enter!
 745	ไม่สามารถสร้างไดเรกทอรีได้	Couldn't create directory!
-746	โปรดกรอกใหม่	Please re-enter!
-747	ไม่มีข้อมูลให้พิมพ์	No data to print!
+746	โปรดกรอกใหม่!	Please re-enter!
+747	ไม่มีข้อมูลให้พิมพ์!	No data to print!
 748	รหัสบัญชีไม่ถูกต้อง	Illegal account code!
 750	เลขที่ใบกำกับภาษี	Tax Invoice no.
 751	เลขที่ใบเสนอราคา	Quote no.
-752	เลขที่คืนสินค้าซัพพลายเออร์	Supplier return no.
+752	เลขที่คืนสินค้าผู้จำหน่าย	Supplier return no.
 753	ชนิดสื่อสำหรับสำรองข้อมูลไม่ถูกต้อง	Invalid media type for backup!
 754	ไม่สามารถลบบัญชีคุมได้	Cannot delete a control account!
 755	ชุดบัญชี	The Set of Books
@@ -752,7 +752,7 @@
 763	ยอดยกมาเมื่อบันทึกรายการ	Balance brought forward when posting
 764	จากนั้นคลิก [ปิด] เพื่อเสร็จสิ้นตัวช่วยสร้าง	Then click [Close] to finish the Creation wizard.
 765	ยอดคงเหลือลูกหนี้เกินวงเงินเครดิตด้วยจำนวน:	Debtor's balance is over credit limit with:
-766	ไม่สามารถโอนรายการไปยังบัญชีเดียวกันได้	Cannot transfer transactions to the same account!
+766	ไม่สามารถโอนรายการไปยังบัญชีเดียวกันได้!	Cannot transfer transactions to the same account!
 767	ครั้งล่าสุดที่คุณทำงานกับชุดบัญชีนี้ คุณไม่ได้ออกจากโปรแกรมอย่างถูกต้อง	The last time that you worked with this Set of Books you did not exit the program properly!
 768	หากคุณพบปัญหาใด ๆ โปรดกู้คืนข้อมูลของคุณจากการสำรองข้อมูล	If you encounter any problems, restore your data from a backup.
 769	<@APPNAME@> ขอเตือนคุณว่า:	<@APPNAME@> would like to remind you that:
@@ -766,12 +766,12 @@
 777	ลบผู้ติดต่อแล้ว	Contactperson deleted!
 778	ชื่อผู้ติดต่อไม่ถูกต้อง	Illegal contact name!
 779	เลขที่บัญชีควรเป็นเอกลักษณ์	Account numbers should be unique!
-780	รายการทั้งหมดจะถูกลบ และยอดคงเหลือบัญชีจะถูกกำหนดเป็นศูนย์	All transactions will be removed and account balances will be set to zero!
+780	รายการทั้งหมดจะถูกลบ และยอดคงเหลือบัญชีจะถูกกำหนดเป็นศูนย์!	All transactions will be removed and account balances will be set to zero!
 781	คุณต้องการยกเลิกกระบวนการล้างข้อมูลหรือไม่?	Do you want to cancel the clearing process?
 782	มีอยู่แล้ว!	already exist!
 783	เลขที่เอกสารไม่ถูกต้อง	Illegal document number!
 784	รหัสสินค้าคงคลังไม่ถูกต้อง!	Illegal stock code!
-785	ปรับสมดุลลูกหนี้ด้วยจำนวนเงิน < x.xx	Balance debtors with amount < x.xx
+785	ปรับยอดลูกหนี้ด้วยจำนวนเงิน < x.xx	Balance debtors with amount < x.xx
 786	เจ้าหนี้ที่มีจำนวนเงินเรียกเก็บ	Creditors with charge amount
 787	ลูกหนี้ที่มีจำนวนเงินเรียกเก็บ	Debtors with charge amount
 788	จำนวนเงินคงที่สำหรับลูกหนี้ทั้งหมด	Fixed amount to all debtors
@@ -801,8 +801,8 @@
 812	ข้อมูล T3 เก่าได้รับการแปลงสำเร็จแล้ว	The old T3 data was successfully converted
 813	เกิดข้อผิดพลาดขณะแปลงข้อมูล T3 เก่าของคุณ	An error occurred while converting your old T3 data!
 814	ไม่พบยอดเงินที่ยังไม่ได้ชำระ	Could not find unpaid amount!
-815	สมุดรายวันการชำระเงินและการรับชำระเงินของคุณไม่ได้ผูกกับบัญชีธนาคารนี้อย่างถูกต้อง!	Your payment and receipt batch are not linked correctly to this bank account!
-816	อาจไม่มีประเภทภาษีสำหรับลูกหนี้หรือเจ้าหนี้ในระบบที่อ้างอิงใบเสร็จรับเงิน	May not have a tax type for a debtor or creditor in the payments based system!
+815	สมุดรายวันการชำระเงินและการรับชำระเงินของคุณไม่ได้ผูกกับบัญชีธนาคารนี้อย่างถูกต้อง!	Your payment and receipt journal are not linked correctly to this bank account!
+816	อาจไม่มีประเภทภาษีสำหรับลูกหนี้หรือเจ้าหนี้ในระบบการชำระเงิน!	May not have a tax type for a debtor or creditor in the payments based system!
 817	ไม่พบไฟล์สำรองข้อมูลใน	Backup file not found in
 818	เลือกระบบสำรองข้อมูลหรือกู้คืนข้อมูล	Select Backup or Restore mode
 820	การทำงานบนพื้นฐานการชำระเงินจำเป็นต้องแปลงลูกหนี้และเจ้าหนี้ทั้งหมดเป็นบัญชีรายการเปิด คุณต้องการดำเนินการต่อหรือไม่?	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?
@@ -811,8 +811,8 @@
 823	บัตรเครดิต	Credit Card
 824	คลิกที่ [เสร็จสิ้น] เพื่อดำเนินการ	Click on [Finish] to execute.
 825	คุณต้องการใช้ผังบัญชีใด	Which Chart of Accounts do you want to use?
-826	โปรดพิมพ์ชื่อของชุดบัญชีใหม่	Please type in the name of the new Set of Books!
-827	จากสมุดรายวัน	From batch
+826	โปรดพิมพ์ชื่อของชุดบัญชีใหม่!	Please type in the name of the new Set of Books!
+827	จากสมุดรายวัน	From journal
 828	ปิด	Close
 829	คุณไม่มีสิทธิ์ในการประมวลผล การเข้าถึงกระบวนการนี้ถูกปฏิเสธ	You have no right to process!  Access to this process denied!
 830	โปรดติดต่อผู้ดูแลระบบ <@APPNAME@> ของคุณ!	Please contact your <@APPNAME@> administrator!
@@ -821,24 +821,24 @@
 833	ไม่สามารถเปิดไฟล์ลายเซ็นแฟกซ์ใน	Cannot open fax signature file in
 834	สำรองข้อมูล / กู้คืนข้อมูล	Backup / Restore
 835	ปิ&ดชุดบัญชี	C&lose Set of Books
-836	&สำรอง / กู้คืนชุดบัญชี	&Backup / Restore Set of Books
+836	&ส&ำรอง / กู้คืนชุดบัญชี	&Backup / Restore Set of Books
 837	จัดเรียงดัชนีข้อ&มูลใหม่	Da&ta Re-index
-838	ผู้อำนวยก&าร	&Contacts
-839	ใบเส&นอราคา	&Quotes
+838	ผู้&ติดต่อ	&Contacts
+839	&ใบเ&สนอราคา	&Quotes
 840	ยื&นยัน	Co&nfirm
-841	คำสั&่งซื้อ	Or&ders
-842	งบกำ&ไรขาดทุน	&Income statement
-843	รายการผ&ู้ติดต่อ	&Contact listing
-844	ใบสั่งซื้อ&ค้างส่ง	&Backorders
+841	คำสั่ง&ซื้อ	Or&ders
+842	&งบกำ&ไรขาดทุน	&Income statement
+843	&รายการผู้ติดต่อ	&Contact listing
+844	&ใบสั่งซื้อค้างส่ง	&Backorders
 845	&อินเทอร์เน็ต	&Internet
-846	หมวดห&มู่ทางการเงิน	&Financial categories
+846	&หมวดหมู่ทางการเงิน	&Financial categories
 847	&แบบอักษร	&Fonts
-848	&พารามิเตอร์ข้อมูล	System &parameters
+848	&พารามิเตอร์ระบบ	System &parameters
 849	กำหนดภาษาเอง	Customise language
 850	&นำเข้า	&Import
 851	แสดงหน้า&ต้อนรับ	Show &welcome
 852	ลงทะเบี&ยนออนไลน์	Online &registration
-853	อัปเดตอ&อนไลน์	Online &update
+853	อัปเดต&ออนไลน์	Online &update
 854	&เรียกดู	&Browse
 855	พนักงานขายตามผลิตภัณฑ์	Salesperson per product
 856	พนักงานขายตามลูกค้า	Salesperson per customer
@@ -856,7 +856,7 @@
 868	&ตาราง	&Tables
 869	สินค้าคงคลัง	Stock
 870	&ฟิลด์ที่ใช้ได้	&Available fields
-871	ฟิลด์ที่ถู&กเลือก	&Selected fields
+871	&ฟิลด์ที่ถูกเลือก	&Selected fields
 872	เลือกจาก:	Select from:
 873	&ล้างทั้งหมด	&Clear All
 874	ตาราง	Table
@@ -868,7 +868,7 @@
 881	ยอดยกมาต่อรอบระยะเวลา	Balances per period
 882	นับบัญชีและรายการสินค้าคงคลัง	Count accounts and stock items
 883	ลูกหนี้และเจ้าหนี้	Debtors and creditors
-884	สมุดรายวันและเอกสารที่ค้างอยู่	Outstanding batches and documents
+884	สมุดรายวันและเอกสารที่ค้างอยู่	Outstanding journals and documents
 885	เอกสารที่ยังไม่ได้ลงบัญชี	Unposted documents
 886	เลือกชุดบัญชี	Select Set of Books
 887	ตรวจสอบ	Check
@@ -990,7 +990,7 @@
 1004	เลือกกลุ่ม	Select groups
 1005	คุณต้องการยกเลิกกระบวนการปิดบัญชีสิ้นปีหรือไม่?	Do you want to cancel the year-end process?
 1006	คุณแน่ใจหรือไม่ว่าต้องการลบรายงานผู้ใช้นี้?	Are you sure you want delete this user report?
-1007	นี่จะส่งผลกระทบอย่างร้ายแรงต่อชุดบัญชีของคุณ! คุณแน่ใจหรือไม่ว่าต้องการลบชนิดสมุดรายวันนี้?	This will seriously affect your Set of Books! Are you sure you want delete this batch type?
+1007	นี่จะส่งผลกระทบอย่างร้ายแรงต่อชุดบัญชีของคุณ! คุณแน่ใจหรือไม่ว่าต้องการลบชนิดสมุดรายวันนี้?	This will seriously affect your Set of Books! Are you sure you want delete this journal type?
 1008	ตัวเลือกยอดขายตามผลิตภัณฑ์	Sales per product options
 1009	ผลลัพธ์เริ่มต้น	Default output
 1010	โลโก้บริษัท	Company logo
@@ -1013,7 +1013,7 @@
 1027	งบประมาณ	Budget
 1028	ณ วันที่	As at
 1029	&รันใหม่	&Re-run
-1030	กระแสเ&งินสด	C&ash flow
+1030	กระแส&เงินสด	C&ash flow
 1033	ตัวเลือกการวิเคราะห์อายุเจ้าหนี้	Creditor age analysis options
 1034	ตัวเลือกบัญชีแยกประเภท	Ledger options
 1035	แต่ละรอบระยะเวลาแยกกัน	Each period separately
@@ -1040,8 +1040,8 @@
 1057	ไม่มี	None
 1058	คำอธิบายสินค้าคงคลัง	Stock description
 1059	ไม่สามารถรันรายงานซ้ำได้ รายงานแรกกำลังทำงานอยู่	Cannot run a report twice! The first report is running!
-1060	ชุดบัญชีของคุณเสียหาย โปรดรันการจัดเรียงดัชนีข้อมูลใหม่เพื่อสร้างค่าคีย์ใหม่	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
-1063	เลือกไฟล์สินค้าคงคลังสเปรดชีต Lotus	Select spreadsheet stock file
+1060	ชุดบัญชีของคุณเสียหาย! โปรดรันการจัดเรียงดัชนีข้อมูลใหม่เพื่อสร้างค่าคีย์ใหม่!	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1063	เลือกไฟล์สินค้าคงคลังสเปรดชีต	Select spreadsheet stock file
 1064	รหัสผ่าน	Password
 1065	ชื่อผู้ติดต่อ	Contact name
 1066	ยอดยกมา	Opening balances
@@ -1049,10 +1049,10 @@
 1068	เลือกประเภท	Select type
 1069	จาก ... ถึง	From ... to
 1070	ที่ถูกเลือก	Selected
-1071	สมุดรายวัน	Batches
+1071	สมุดรายวัน	Journal
 1072	ผู้ใช้	User
 1073	ออนไลน์	Online
-1074	อัปเดตสมุดรายวัน	Update batches
+1074	อัปเดตสมุดรายวัน	Update journal
 1076	แสดงกลุ่มสินค้าคงคลัง	Show stock groups
 1077	ตัวเลือกยอดซื้อตามผลิตภัณฑ์	Purchases per product options
 1078	ตัวเลือกยอดซื้อตามผู้จำหน่าย	Purchases per supplier options
@@ -1066,7 +1066,7 @@
 1086	ตัวเลือกใบส่งของ	Delivery note options
 1087	ประเภทเอกสาร	Document type
 1088	เฉพาะปีที่แล้วเท่านั้น	Last year only
-1089	ใบแจ้งการโอนเงิน	Creditor remittance advise
+1089	ใบแจ้งการโอนเงินให้เจ้าหนี้	Creditor remittance advise
 1090	ใบแจ้งยอดลูกหนี้	Debtor statement
 1091	กราฟ	Graph
 1092	เครื่องคิดเลข	Calculator
@@ -1107,7 +1107,7 @@
 1127	ยอดยกไป	Carried forward
 1128	ใบแจ้งยอดถึง	Statement to
 1129	ใบแจ้งการโอนเงินถึง	Remittance advise to
-1130	เลขอ้างอิงภาษีลูกค้า	Customer tax ref.
+1130	เลขที่อ้างอิงภาษีลูกค้า	Customer tax ref.
 1131	หน่วย	Unit
 1132	ราคา	Price
 1133	ยอมรับใบแจ้งหนี้	Invoice accepted
@@ -1158,7 +1158,7 @@
 1178	จำการเข้าสู่ระบบของฉัน	Remember my login
 1179	คีย์	Key
 1180	รายการคำย่อ	Abbreviation list
-1181	ความเคลื่อนไหวลูกหนี้	Debtor movement
+1181	รายการลูกหนี้	Debtor movement
 1182	ความเคลื่อนไหวเจ้าหนี้	Creditor movement
 1183	ความเคลื่อนไหวบัญชี	Account movement
 1184	ผลการดำเนินงานตามงบประมาณ	Budget performance
@@ -1171,12 +1171,12 @@
 1191	ใบสั่งซื้อค้างส่งคงเหลือ	Backorders
 1192	ยอดรวมสำหรับแต่ละรอบระยะเวลา	Totals for each period
 1193	เพื่อให้ดุล	To balance
-1194	รายละเอียดการบันทึกรายการรายวัน	Batch entry details
+1194	รายละเอียดการบันทึกรายการรายวัน	Journal entry details
 1195	รวม	Inclusive
 1196	บัญชีคู่	Contra
 1197	ฝ่ายสนับสนุน <@APPNAME@>	<@APPNAME@> Support
 1198	หน้าสนับสนุน <@APPNAME@>	<@APPNAME@> Support page
-1199	รายงานรายละเอียดชนิดสมุดรายวัน	Batch type details report
+1199	รายงานรายละเอียดชนิดสมุดรายวัน	Journal type details report
 1200	จำนวนเงินไม่รวม	Excl. amt.
 1201	จำนวนเงินรวม	Incl. amt.
 1202	รวม:	Total:
@@ -1199,11 +1199,11 @@
 1219	ตัวเลือกการค้นหา	Search options
 1220	ชื่อบัญชี	Account names
 1221	ทุกอย่าง	Everything
-1222	เลือก ลูกหนี้	Select debtor
+1222	เลือกลูกหนี้	Select debtor
 1223	ใบเสนอราคาที่จะแปลงเป็นใบแจ้งหนี้	Quotes to convert to invoice
 1224	เลขที่สั่งซื้อ	Order no.
 1225	คำสั่งซื้อที่จะแปลงเป็นการซื้อ	Order to convert to purchase
-1226	เลือก เจ้าหนี้	Select creditor
+1226	เลือกเจ้าหนี้	Select creditor
 1227	ค้นหาตามหมายเลข	Search by number
 1228	ค้นหาตามบัญชี	Search by account
 1229	ค้นหาตามคำอธิบาย	Search by description
@@ -1260,7 +1260,7 @@
 1280	คงค้าง	Outstanding
 1281	รายการเคลื่อนไหวลูกหนี้	Debtor transactions
 1282	บัญชีแยกประเภทโดยละเอียด	Detailed ledger
-1283	รายการเคลื่อนไหวเจ้าหนี้	Creditor transactions
+1283	รายการเจ้าหนี้	Creditor transactions
 1284	ช่วงรายงาน	Report range
 1285	เอกสารอ้างอิง	Reference
 1286	ยอดดุลสะสม	Cumulative balance
@@ -1353,8 +1353,8 @@
 1373	พิมพ์รายละเอียดลูกค้า	Print customer details
 1374	พิมพ์ที่อยู่จัดส่ง	Print delivery address
 1375	พิมพ์รายละเอียดการชำระเงิน	Print payment details
-1376	การบันทึกรายการขายในสมุดรายวัน	Sales batch entry
-1377	การบันทึกรายการรับเงินในสมุดรายวัน	Receipts batch entry
+1376	การบันทึกรายการขายในสมุดรายวัน	Sales journal entry
+1377	การบันทึกรายการรับเงินในสมุดรายวัน	Receipts journal entry
 1378	การบันทึกคำอธิบายการชำระเงิน	Payment description entry
 1379	บัญชีเงินสดจากการขาย	Cash sales account
 1380	บัญชีโอนเงินสด	Cash transfer account
@@ -1390,13 +1390,13 @@
 1410	&ใช้ข้อความใบแจ้งหนี้	&Use invoice messages
 1411	เครื่องพิมพ์	Printers
 1412	ข้อผิดพลาดขณะนำเข้าหรือรูปแบบไฟล์ไม่ถูกต้อง	Error while importing or invalid file format!
-1413	ผู้ใช้ไม่สามารถใช้สมุดรายวันนี้ได้!	User cannot use this batch!
+1413	ผู้ใช้ไม่สามารถใช้สมุดรายวันนี้ได้!	User cannot use this journal!
 1414	เปิดใช้งานการเข้าถึงใน 'ตั้งค่า → การควบคุมการเข้าถึง'	Enable access in 'Setup → Access control'
 1700	การวิเคราะห์อายุเจ้าหนี้	Creditor age analysis
 1701	เลขที่อ้างอิง	Reference no.
 1702	ยอดรวมรายการเคลื่อนไหว	Transaction total
 1703	ยอดรวมสำหรับรายงาน :	Totals for report :
-1704	การวิเคราะห์อายุลูกหนี้ ณ	Debtor age analysis as at
+1704	การวิเคราะห์อายุลูกหนี้ ณ วันที่	Debtor age analysis as at
 1706	เลขที่	No.
 1707	รหัสสินค้าคงคลัง	Stock code
 1708	คำอธิบาย	Description
@@ -1411,7 +1411,7 @@
 1717	ลูกค้า	Customer
 1718	พนักงานขาย:	Salesperson:
 1719	เอกสารอ้างอิง	Reference
-1720	บัญชีลูกค้าเริ่มต้นไม่ได้ถูกตั้งค่า โปรดตั้งค่า	Default customer account not setup! Please setup!
+1720	บัญชีลูกค้าเริ่มต้นไม่ได้ถูกตั้งค่า! โปรดตั้งค่า!	Default customer account not setup! Please setup!
 1721	ใบแจ้งหนี้ใหม่	New invoice
 1722	ใบแจ้งหนี้ %s (บัตรเครดิต)	Inv. %s (Credit Card)
 1723	ใบแจ้งหนี้ %s (บัญชี)	Inv. %s (Account)
@@ -1446,10 +1446,10 @@
 1752	ปิ&ดกะ	Cl&ose shift
 1753	โหมดรวม/ไม่รวมภาษี	Incl./Excl. mode
 1754	&รายงาน	&Report
-1755	&เปิดลิ้นชัก	&Open drawer
-1756	เปลี่ยนชื่อเรียก (ชื่อสมุดรายวัน)	Change alias (batch name)
-1757	กลับรายการสมุดรายวัน D↔C	Reverse batch (D<-->C)
-1758	นำเข้าสมุดรายวันที่ผ่านรายการแล้ว	Posted batches import
+1755	เ&ปิดลิ้นชัก	&Open drawer
+1756	เปลี่ยนชื่อเรียก (ชื่อสมุดรายวัน)	Change alias (journal name)
+1757	กลับรายการสมุดรายวัน ด↔ค	Reverse journal (D<-->C)
+1758	นำเข้าสมุดรายวันที่ผ่านรายการแล้ว	Posted journals import
 1759	ณ จุดขาย	Point-of-Sale
 1760	ค้นหา	Search
 1761	&นักออกแบบรายงาน	&Report designer
@@ -1499,10 +1499,10 @@
 1805	ปลั๊กอิน	Plugins
 1806	กำลังสร้างชุดบัญชี...	Creating Set of Books...
 1807	กำลังสร้างบัญชีที่จำเป็น...	Creating required accounts...
-1808	กำลังสร้างบัญชีที่จำเป็น (ควบคุมเจ้าหนี้)...	Creating required accounts (Creditors control)...
-1809	ควบคุมเจ้าหนี้	Creditors control
-1810	กำลังสร้างบัญชีที่จำเป็น (ควบคุมลูกหนี้)...	Creating required accounts (Debtors control)...
-1811	ควบคุมลูกหนี้	Debtors control
+1808	กำลังสร้างบัญชีที่จำเป็น (บัญชีคุมเจ้าหนี้)...	Creating required accounts (Creditors control)...
+1809	บัญชีคุมเจ้าหนี้	Creditors control
+1810	กำลังสร้างบัญชีที่จำเป็น (บัญชีคุมลูกหนี้)...	Creating required accounts (Debtors control)...
+1811	บัญชีคุมลูกหนี้	Debtors control
 1812	กำลังสร้างบัญชีที่จำเป็น (กำไรสะสม)...	Creating required accounts (Retained earnings)...
 1813	กำไรสะสม	Retained earnings
 1814	เสร็จสิ้น !	Finished!
@@ -1513,7 +1513,7 @@
 1820	&เรียกดู	&Browse
 1821	กำลังสร้างชุดบัญชี...	Creating set of accounts...
 1822	คุณต้องการระบุจำนวนงวดบัญชีในปีงบประมาณของคุณและตั้งค่าวันที่เริ่มต้นปีงบประมาณหรือไม่?	Accounting periods setup
-1823	ตั้งค่าชนิดสมุดรายวัน	Batch types setup
+1823	ตั้งค่าชนิดสมุดรายวัน	Journal types setup
 1824	คุณต้องการเปลี่ยนกลุ่มของคุณหรือไม่?	Groups setup
 1825	คุณขายสินค้าคงคลังหรือไม่?	Documents setup
 1826	เพิ่มพนักงานขาย	Add salespersons
@@ -1543,7 +1543,7 @@
 1851	กำลังล้างรายการเคลื่อนไหวสินค้าคงคลัง...	Clearing stock transactions...
 1852	กำลังล้างข้อมูลสินค้าคงคลัง...	Clearing stock information...
 1853	กำลังล้างรายการเคลื่อนไหวเอกสาร...	Clearing document transactions...
-1854	กำลังล้างข้อมูลสมุดรายวัน...	Clearing batch information...
+1854	กำลังล้างข้อมูลสมุดรายวัน...	Clearing journal information...
 1855	กลุ่มใหม่	New group
 1856	ปัจจุบัน	Current
 1857	30 วัน	30 days
@@ -1556,7 +1556,7 @@
 1864	จำนวนเงินไม่รวม	Excl. amt.
 1865	ส่วนลด %	Disc%
 1866	จำนวนเงินรวม	Incl. amt.
-1867	ชื่อสมุดรายวัน	Batch name
+1867	ชื่อสมุดรายวัน	Journal name
 1868	บัญชีตรงข้าม	Contra account
 1869	ประเภทเอกสาร	Document type
 1870	ใบเสนอราคา	Quotes
@@ -1567,7 +1567,7 @@
 1875	วันที่	Date
 1876	บัญชี	Account
 1877	ยืนยันแล้ว	Confirmed
-1878	แ&ปลง	C&onvert
+1878	&แ&ปลง	C&onvert
 1879	เลือกวันที่	Select date
 1880	&ค้นหา...	&Search...
 1881	ลิงก์	Link
@@ -1592,7 +1592,7 @@
 1900	อีเมลผู้ใช้	User e-mail
 1901	การเข้าถึงรายงาน	Reports access
 1902	รายงานบัญชีแยกประเภททั่วไป	General ledger reports
-1903	การเข้าถึงสมุดรายวัน	Batches access
+1903	การเข้าถึงสมุดรายวัน	Journals access
 1904	เลือกบัญชีที่จะบล็อก	Select accounts to block
 1905	อื่น ๆ	Others
 1906	แก้ไขบัญชี	Edit accounts
@@ -1615,7 +1615,7 @@
 1923	กำลังโอน	Transfering
 1924	ธนาคาร	Bank
 1925	ภาษี	Tax
-1926	สมุดรายวันบัญชีธนาคารไม่ได้ตั้งค่าอย่างถูกต้อง!	Bank account batches not setup correctly!
+1926	สมุดรายวันบัญชีธนาคารไม่ได้ตั้งค่าอย่างถูกต้อง!	Bank account journals not setup correctly!
 1927	การชำระเงิน	Payment
 1928	ไม่สามารถผ่านรายการไปบัญชีที่มีบัญชีย่อย!	Cannot post transactions to an account which has sub-accounts!
 1929	ประมวลผล	Process
@@ -1672,7 +1672,7 @@
 1980	รหัสผ่านผู้ใช้	User password
 1981	ปรับดุลเสมอ	Always balance
 1982	ไม่มีภาษี	No tax
-1983	ไม่ใช่สมุดรายวันรายการเปิด	Not open item batch
+1983	ไม่ใช่สมุดรายวันรายการเปิด	Not open item journal
 1984	กลับรายการบัญชีตรงข้าม	Reverse contra
 1985	จดจำภาษีในบัญชีตรงข้าม	Remember tax on contra account
 1986	จดจำบัญชีตรงข้ามในบัญชี	Remember contra on account
@@ -1685,14 +1685,14 @@
 1993	กำลังผ่านรายการ: %s จาก %s	Posting: %s of %s
 1994	ต้นทุนขาย	COST OF SALES
 1995	ต้นทุนขาย*เอกสาร*	COS*DOC*
-1996	กำลังตรวจสอบรายการสมุดรายวัน...	Checking batch entries ...
+1996	กำลังตรวจสอบรายการสมุดรายวัน...	Checking journal entries ...
 1997	กำลังอัปเดตยอดรวม	Updating totals
 1998	เอกสาร	Documents
 1999	สินค้าคงคลัง	Stock
 2000	ลูกหนี้	Debtors
 2001	บัญชี	Accounts
 2002	เจ้าหนี้	Creditors
-2003	สมุดรายวันที่ผ่านรายการแล้ว	Posted batches
+2003	สมุดรายวันที่ผ่านรายการแล้ว	Posted journal
 2004	ส่งออกไปที่:	Export to:
 2005	ประเภทไฟล์	File type
 2006	ชื่อไฟล์ส่งออก	Export files name
@@ -1772,9 +1772,9 @@
 2081	กำลังส่งออกไปยังไฟล์สเปรดชีต SYLK	Exporting to SYLK spreadsheet file
 2082	กำลังส่งออกไปยังไฟล์ MS Excel	Exporting to MS Excel file
 2083	กำลังเตรียมรายการ	Preparing list
-2084	กลับรายการสมุดรายวัน/เอกสารที่ผ่านรายการแล้ว	Reverse posted batch/document
-2085	ชื่อเรียก (ชื่อสมุดรายวัน)	Alias (batch name)
-2086	กลับรายการสมุดรายวันที่ผ่านรายการแล้ว	Reverse posted batch
+2084	กลับรายการสมุดรายวัน/เอกสารที่ผ่านรายการแล้ว	Reverse posted journal/document
+2085	ชื่อเรียก (ชื่อสมุดรายวัน)	Alias (journal name)
+2086	กลับรายการสมุดรายวันที่ผ่านรายการแล้ว	Reverse posted journal
 2087	กลับรายการเอกสารที่ผ่านรายการแล้ว	Reverse posted document
 2088	จำนวนบรรทัด	Line count
 2089	เลขที่เอกสาร	Doc. no.
@@ -1822,9 +1822,9 @@
 2131	ดำเนินการ	Process
 2132	&วันที่สำหรับรายการเคลื่อนไหว	&Date for transactions
 2133	&บัญชีตรงข้าม	&Contra account
-2134	คำ&อธิบาย	De&scription
+2134	คำอ&ธิบาย	De&scription
 2135	ถึงลูกหนี้เป็นจำนวน (จำนวนเงิน)	To debtors for (amount)
-2136	ถึงลูกหนี้ที่มียอดดุลน้อยกว่า (จำนวนเงิน)	To debtors with a balance less than (amount)
+2136	ถึงลูกหนี้ที่มียอดคงเหลือน้อยกว่า (จำนวนเงิน)	To debtors with a balance less than (amount)
 2137	จำนวนวันที่ค้างชำระ	Number of days overdue
 2138	สร้างรายการเคลื่อนไหวหลายรายการ	Generate multiple transactions
 2139	จากลูกหนี้:	From debtor
@@ -1842,14 +1842,14 @@
 2151	ป้อนส่วนลดโดยรวม	Enter overall discount
 2152	ใบลดหนี้	Credit note
 2153	การซื้อ	Purchases
-2154	การคืนสินค้าของผู้จัดจำหน่าย	Supplier returns
+2154	การคืนสินค้าของผู้จำหน่าย	Supplier returns
 2155	ใบแจ้งหนี้	Invoice
 2156	ยอดรวมใบแจ้งหนี้ :	Invoice totals :
 2157	ยอดรวมใบลดหนี้ :	Credit note totals :
 2158	ยอดรวมลูกค้า :	Customer totals :
-2159	การวิเคราะห์การขาย - การขายตามลูกค้า	Sales analysis - Sales per customer
+2159	การวิเคราะห์การขาย - ยอดขายต่อลูกค้า	Sales analysis - Sales per customer
 2160	ยอดรวมการซื้อ :	Purchase totals :
-2161	ยอดรวมการคืนสินค้าของผู้จัดจำหน่าย :	Supplier return totals :
+2161	ยอดรวมการคืนสินค้าผู้จำหน่าย :	Supplier return totals :
 2162	ยอดรวมผู้จัดจำหน่าย :	Supplier totals :
 2163	การวิเคราะห์การซื้อ - การซื้อตามผู้จัดจำหน่าย	Purchase analysis - Purchases per supplier
 2167	ค้นหาตามหมายเลขใบแจ้งหนี้	Search by invoice no.
@@ -1875,7 +1875,7 @@
 2187	(เอกสาร)	(Doc.)
 2188	กำลังตรวจสอบรายการที่ยังไม่ได้ลงบัญชี	Checking unposted items
 2189	ยังไม่ได้ลงบัญชีเท่านั้น	Unposted only
-2190	สมุดรายวันแต่ละรายการแยกกัน	Each batch separately
+2190	สมุดรายวันแต่ละรายการแยกกัน	Each journal separately
 2191	แสดงรายละเอียด	Show details
 2192	กำลังพิมพ์บน	Printing on
 2193	การกำหนดหมายเลขข้อความแบบดัตช์	Dutch text numbering
@@ -1890,7 +1890,7 @@
 2202	แก้ไขเจ้าหนี้	Edit creditors
 2203	แก้ไขภาษี	Edit tax
 2204	แก้ไขธนาคาร	Edit bank
-2205	การกระทบยอดเงินฝากธนาคารเริ่มต้น	Default bank reconciliation
+2205	การกระทบยอดธนาคารเริ่มต้น	Default bank reconciliation
 2206	ที่อยู่ 2	Address 2
 2207	ประเทศ	Country
 2208	การตรวจสอบ 11 หลัก	11 Proof
@@ -1911,7 +1911,7 @@
 2223	ยกเลิกการเลือกทั้งหมด	Uncheck all
 2224	ยกเลิกการเลือกที่เลือก	Uncheck selected
 2225	ตรวจสอบรายการที่เลือก	Check selected
-2226	รายงานการชำระเงินเจ้าหนี้	Creditor payment report
+2226	รายงานการชำระเงินให้เจ้าหนี้	Creditor payment report
 2227	แถวรวม	Total rows
 2228	จำนวนเงินรวม	Total amount
 2229	ผลรวมตรวจสอบบัญชีธนาคาร	Checksum bank accounts
@@ -2124,7 +2124,7 @@
 2437	หมายเหตุ	Notes
 2438	&ยกเลิกการเตือน	&Dismiss
 2439	&เลื่อน	&Snooze
-2440	&เปิดรายการ	&Open item
+2440	&รายการเปิด	&Open item
 2441	5 นาที	5 minutes
 2442	10 นาที	10 minutes
 2443	15 นาที	15 minutes
@@ -2277,7 +2277,7 @@
 2891	&โทรศัพท์	&Telephone
 2892	&หมายเหตุ	&Notes
 2893	จำนวนที่ต้องชำระ	Due amount
-2894	สร้างเอกสารแล้ว	Document(s) created!
+2894	สร้างเอกสารแล้ว!	Document(s) created!
 2895	วันครบกำหนดต่ำกว่าวันที่ในเอกสาร!	Due date is lower then document date!
 2896	ใบเสร็จรับเงินอัตโนมัติ	Automatic receipts
 2897	โปรดป้อนชื่อสำหรับชุดบัญชี	Please enter a name for the Set of Books!
@@ -2292,13 +2292,13 @@
 2906	ความเร็ว	Speed
 2907	การตั้งค่าพิเศษ	Special settings
 2908	ทศนิยมในการรายงาน	Reporting decimals
-2909	บัญชีแยกประเภทรายการที่เปิดอยู่	Open item ledgers
+2909	บัญชีแยกประเภทรายการเปิด	Open item ledgers
 2910	ไม่ใช้ Reportman	Do not use Reportman
 2911	จำนวนจริง	Real numbers
 2912	ทศนิยมคงที่	Fixed decimals
 2913	<> สำหรับเครดิต	<>  for Credit
 2914	+/- สำหรับเดบิต/เครดิต	+/-  for Debit/Credit
-2915	D/C สำหรับเดบิต/เครดิต	D/C for Debit/Credit
+2915	ด/ค สำหรับเดบิต/เครดิต	D/C for Debit/Credit
 2916	แสดงปฏิทิน	Show calandar
 2917	ไม่มีคำเตือนที่ยังไม่โพสต์	No warning unposted
 2918	ใช้ข้อมูลปัจจุบันสำหรับรายงาน	Use current date for reports
@@ -2308,7 +2308,7 @@
 2922	ซื้อ (ไม่มีสินค้าคงคลัง)	Purchase (no stock)
 2923	รายการ BOM	BOM list
 2924	คัดลอกจากรายการ	Copy from item
-2925	ไม่คำนวณสมุดรายวัน	Do not calculate batches
+2925	ไม่คำนวณสมุดรายวัน	Do not calculate journals
 2926	ปริมาณเอกสาร	Document quantity
 2927	คัดลอกข้อมูลอัตโนมัติ	Auto-copy info
 2928	ใช้บัญชีเริ่มต้น	Use default account
@@ -2343,7 +2343,7 @@
 2959	รับการชำระเงิน	Receive payment
 2960	พิมพ์รายการซ้ำ	Reprint transactions
 2961	ป้อนจำนวนเงินที่จะเชื่อมโยง	Enter amount to link
-2962	ระงับรายการที่เปิดอยู่	Suppress open item
+2962	ระงับรายการเปิด	Suppress open item
 2963	จดจำราคารวม	Remember inclusive
 2964	พิมพ์แล้ว	Printed
 2965	เลือกไดเรกทอรีสำรอง	Select backup directory
@@ -2380,7 +2380,7 @@
 2996	แสดง	Show
 2997	เปิดใช้งาน	Enable
 2998	การจำลองข้อมูล	Replication
-2999	สมุดรายวันที่เปิดอยู่	Open batches
+2999	สมุดรายวันที่เปิดอยู่	Open journals
 3000	อัปโหลดเท่านั้น	Upload only
 3001	ดาวน์โหลดเท่านั้น	Download only
 3002	กำลังสร้างไดเรกทอรี...	Creating directory...
@@ -2395,11 +2395,11 @@
 3011	เอกสารทั้งหมด	All documents
 3012	ทุกปี	All years
 3013	ยอดเงินธนาคารตามใบแจ้งยอดจากธนาคาร	Bank balance as per bank statement
-3014	รายงานกระทบยอดเงินฝากธนาคาร ณ วันที่	Bank reconciliation report as at
-3015	ยอดเงินธนาคารที่กระทบยอดแล้ว	Reconciled bank balance
+3014	รายงานกระทบยอดธนาคาร ณ วันที่	Bank reconciliation report as at
+3015	ยอดคงเหลือธนาคารที่กระทบยอดแล้ว	Reconciled bank balance
 3016	ยอดเงินธนาคารตาม <@APPNAME@> ณ	Bank balance according to <@APPNAME@> at
 3017	ความแตกต่าง	Difference
-3018	คำเตือน - รายงานนี้มีสมุดรายวันที่ยังไม่ได้บันทึกรายการ!	Warning - This report contains unposted batches!
+3018	คำเตือน - รายงานนี้มีสมุดรายวันที่ยังไม่ได้บันทึกรายการ!	Warning - This report contains unposted journals!
 3019	แสดงจำนวนสินค้าคงคลังเป็นศูนย์	Show zero stock count
 3020	แปลงใบแจ้งหนี้เป็นคำสั่งซื้อ	Convert invoice to order
 3021	คัดลอกเอกสาร	Copy document
@@ -2419,7 +2419,7 @@
 3035	ใช้ภาษีเชื่อมโยง	Use link tax
 3036	ภาษีเชื่อมโยง	Link tax
 3037	ภาษีตรงกันข้าม	Contra tax
-3038	บัญชีรายการที่เปิดอยู่	Open item account
+3038	บัญชีรายการเปิด	Open item account
 3039	ตัวเลือกรายงาน POS	POS report options
 3040	ใช้ข้อมูลเอกสาร	Use document date
 3041	การอ้างอิงตรงกันข้ามเป็นข้อมูลอ้างอิงบัญชี	Contra ref. as account ref.
@@ -2430,7 +2430,7 @@
 3046	ยอดรวมย่อย	Subtotal
 3047	ป้อนจำนวนเงิน	Amount entry
 3048	แถวเอกสาร	Document row
-3049	นำเข้าสมุดรายวันที่ผ่านรายการแล้ว	Import a posted batch
+3049	นำเข้าสมุดรายวันที่ผ่านรายการแล้ว	Import a posted journal
 3050	ใช้ภาษีเริ่มต้น	Use default tax
 3051	บัญชีเริ่มต้นด้วย	Account starts with
 3052	ขยายหลังจากรีเฟรช	Expand after refresh
@@ -2546,9 +2546,9 @@
 3163	ไม่สามารถแก้ไขคำอธิบายได้	Cannot edit description
 3164	ไปที่ปริมาณ	Go to quantity
 3165	บัญชีธนาคาร	Bank accounts
-3166	ยอดคงเหลือในคอลัมน์ D/C	Column balances D/C
-3167	ยอดคงเหลือในคอลัมน์ลูกหนี้ D/C	Column balances debtors D/C
-3168	ยอดคงเหลือในคอลัมน์เจ้าหนี้ D/C	Column balances creditors D/C
+3166	ยอดคงเหลือในคอลัมน์ ด/ค	Column balances D/C
+3167	ยอดคงเหลือในคอลัมน์ลูกหนี้ ด/ค	Column balances debtors D/C
+3168	ยอดคงเหลือในคอลัมน์เจ้าหนี้ ด/ค	Column balances creditors D/C
 3169	ภาษีที่เข้มงวดในบัญชี	Strict tax on account
 3170	โพสต์คำเตือนต่อใบแจ้งหนี้	Post warning per invoice
 3171	ประมวลผลคำเตือน	Process warnings
@@ -2561,7 +2561,7 @@
 3178	ภาษีเชื่อมโยง	Link tax
 3179	ลิงก์ธนาคาร	Bank links
 3180	แก้ไขบัญชี	Edit account
-3181	แปลงเป็นใบลดหนี้ / ส่งคืนซัพพลายเออร์	Convert to credit note / supplier return
+3181	แปลงเป็นใบลดหนี้ / คืนสินค้าผู้จำหน่าย	Convert to credit note / supplier return
 3182	เปิดคำสั่งซื้ออีคอมเมิร์ซในเบราว์เซอร์	Open e-Commerce order in browser
 3183	เปิดลูกค้าอีคอมเมิร์ซในเบราว์เซอร์	Open e-Commerce customer in browser
 3184	แปลงเอกสารเป็นเอกสารเดียว	Convert documents to single document
@@ -2706,7 +2706,7 @@
 3323	สร้างใบสั่งซื้อค้างส่งเพื่อจัดส่ง	Create backorders to deliver
 3324	เฉพาะรายการใหม่ (ไม่ปรับปรุง)	Only new items (no adjust)
 3325	<- กำหนดรายการที่เลือกเป็นราคานี้	<- Set selected to this price
-3326	รายการเปิด	Open item
+3326	&รายการเปิด	Open item
 3327	ข้อคิดเห็น Clieop	Clieop comment
 3328	เมือง	City
 3329	สกุลเงิน	Cur
@@ -2716,7 +2716,7 @@
 3333	ใบสั่งซื้อ	Order
 3334	Exp	Exp
 3335	ระดับบันทึก	Log level
-3336	เลขที่สมุดรายวันถัดไป	Next batch no.
+3336	เลขที่สมุดรายวันถัดไป	Next journal no.
 3337	สีพื้นหลัง	Back colour
 3338	สีแบบอักษร	Font colour
 3339	เชื่อมโยงรูปภาพ	Link image
@@ -2773,7 +2773,7 @@
 3390	ส่งแพ็คเกจ	Send Package
 3391	การสมัครสมาชิก	Subscriptions
 3392	ส่งออกเว็บ	Web Export
-3393	ลูกค้าถูกระงับ	Customer on hold
+3393	ลูกค้าระงับการใช้งาน	Customer on hold
 3394	เอกสารอีเมลโปร	Document E-mail Pro
 3395	POS ธุรกิจบริการ (HORECA)	HORECA POS
 3396	POS ค้าปลีก (RETAIL)	RETAIL POS
@@ -3041,7 +3041,7 @@
 3669	ประเภทเอกสารที่ส่ง	Send document type
 3670	พิมพ์เอกสารและส่งอีเมล	Print document and send email
 3671	ชื่อผู้ใช้	Username
-3672	เปิดใช้งานการตั้งค่าลูกหนี้ไม่ใช้งานอัตโนมัติหลังจาก X วันที่ยังไม่ชำระ	Enable auto set inactive debtor after x days unpaid
+3672	เปิดใช้งานการกำหนดลูกหนี้ไม่ใช้งานอัตโนมัติหลังจาก X วันที่ยังไม่ชำระ	Enable auto set inactive debtor after x days unpaid
 3673	วันหลังจากชำระเงินก่อนที่จะไม่ใช้งาน	Days after payment before inactive
 3674	คุณต้องการเรียกใช้กระบวนการนี้สำหรับเจ้าหนี้ 1 รายหรือไม่?	Do you want to run this process for 1 creditor?
 3675	รายการภาษีลูกหนี้ที่มีเลขประจำตัวผู้เสียภาษี	Tax list debtor with tax id
@@ -3170,7 +3170,7 @@
 20057	(ว่างเปล่า)	(Empty)
 20058	(ไม่ว่างเปล่า)	(Not empty)
 20059	เลขที่รายการ	Transaction no.
-20060	เลขที่สมุดรายวัน	Batch no.
+20060	เลขที่สมุดรายวัน	Journal no.
 20061	,0.00	,0.00
 20062	นับ: 0	Count : 0
 20063	ส่งออก	Export
@@ -3208,10 +3208,10 @@
 20095	และไม่	and not
 20096	หรือไม่	or not
 20097	ตัวกรอง	Filter
-20098	เงื่อนไขใหม่	New &condition
-20099	กลุ่มใหม่	New &group
-20100	ลบแถว	&Delete row
-20101	ลบทั้งหมด	Delete &all
+20098	เงื่อน&ไขใหม่	New &condition
+20099	&กลุ่มใหม่	New &group
+20100	&ลบแถว	&Delete row
+20101	ลบ&ทั้งหมด	Delete &all
 20102	กดปุ่มนี้เพื่อเพิ่มเงื่อนไข	Push this button to add a condition
 20103	มีเงื่อนไขดังต่อไปนี้	Contains the following conditions
 20104	<หัว>	<Head>
@@ -3229,9 +3229,9 @@
 20116	noname.flt	noname.flt
 20117	เปิดตัวกรองที่บันทึกไว้	Open a saved filter
 20118	บันทึกตัวกรองที่กำลังใช้งาน	Save active filter
-20119	บันทึกเป็น...	&Save as...
-20120	เปิด...	&Open...
-20121	นำไปใช้	&Apply
+20119	&บันทึกเป็น...	&Save as...
+20120	เ&ปิด...	&Open...
+20121	&นำไปใช้	&Apply
 20122	flt	flt
 20123	ตัวกรอง (*.flt)|*.flt	Filter (*.flt)|*.flt
 20124	<ไม่มีข้อมูลที่จะแสดง>	<No data to display>
@@ -3239,13 +3239,13 @@
 20131	สร้างรายการสินค้าที่ขายแล้วแต่ยังไม่ได้รับ	Create goods sold not taken
 20132	ไม่สามารถลบได้!	Cannot delete!
 20133	ใช้สินค้าคงคลังขั้นสูง	Use advanced stock
-21000	ไฟล์	&File
+21000	&ไฟล์	&File
 21001	ตัวออกแบบตัวจัดการรายงาน	Report Manager Designer
-21002	รายงาน	&Report
-21003	แก้ไข	&Edit
-21004	แสดง	&Display
-21005	การตั้งค่า	&Preferences
-21006	ความช่วยเหลือ	&Help
+21002	&รายงาน	&Report
+21003	&แก้ไข	&Edit
+21004	&แสดง	&Display
+21005	&การตั้งค่า	&Preferences
+21006	&ความช่วยเหลือ	&Help
 21007	กริด	Grid
 21008	ตัวเลือกกริดสำหรับรายงานนี้	Grid options for this report
 21009	ตัด	Cut
@@ -3302,7 +3302,7 @@
 21060	เอกสารประกอบ	Documentation
 21061	แสดงเอกสารประกอบของตัวออกแบบตัวจัดการรายงาน	Display Report Manager Designer Documentation
 21062	หน่วยวัด	Measurement
-21063	ซม.	&Cms
+21063	&ซม.	&Cms
 21064	เปลี่ยนหน่วยวัดเป็นเซนติเมตร	Change measurement units to cms
 21065	นิ้ว	Inches
 21066	เปลี่ยนหน่วยวัดเป็นนิ้ว	Changes measurement units to inches
@@ -3551,7 +3551,7 @@
 903103	ความไม่สอดคล้องกัน	Inconsistencies
 903104	ข้อความ	MSG
 903105	รัน SQL	Run SQL
-903106	ล้างสมุดรายวัน	Cleanup batch
+903106	ล้างสมุดรายวัน	Cleanup journal
 903107	เงื่อนไขสี	Colour conditions
 903108	รายการในบัญชีแยกประเภท	Ledger transactions
 903109	นำเข้า	Import
@@ -3599,7 +3599,7 @@
 903151	เชื่อมโยงลูกหนี้ที่เป็นศูนย์ทั้งหมดโดยอัตโนมัติ	Auto-link all zero debtors
 903152	ลบลิงก์ทั้งหมด	Remove all links
 903153	แก้ไขรหัสรายการของ Transact	Correct Transact line id
-903154	แก้ไขยอดรวมภาษี (รวม/ไม่รวม) (แก้ไขข้อผิดพลาดย้อนกลับ)	Correct Incl. Excl. Tax amount (Reverse bug)
+903154	แก้ไขยอดรวมภาษี (รวม/ไม่รวม) (แก้ไขข้อผิดพลาดย้อนกลับ)	Correct Incl./Excl. Tax amount (Reverse bug)
 903155	ล้างยอดรวม	Clear totals
 903156	ล้างพารามิเตอร์ตัวแปรระบบ	Clear Sysvars parameters
 903157	ลบใบแจ้งหนี้ทั้งหมด	Delete all invoices
@@ -3702,7 +3702,7 @@
 906071	ศูนย์ต้นทุน 1	Cost centre 1
 906072	ศูนย์ต้นทุน 2	Cost centre 2
 906073	คะแนน POS	POSPoints
-906074	สมุดรายวัน	Batch
+906074	สมุดรายวัน	Journal
 906075	เปรียบเทียบงวดบัญชี	Compare period
 906076	เปรียบเทียบงวดบัญชี - ลูกหนี้	Compare period - Debtors
 906077	เปรียบเทียบงวดบัญชี - เจ้าหนี้	Compare period - Creditors
@@ -3710,7 +3710,7 @@
 906079	หลายปี	Multi-year
 906080	ในบัญชีที่เลือก / อื่นๆ	On selected account / other
 906081	รหัสรายการ	Transaction id
-906082	รหัสชนิดสมุดรายวัน	Batch type id
+906082	รหัสชนิดสมุดรายวัน	Journal type id
 906083	ยอดรวมเอกสาร	Document amount
 906084	ภาษีเอกสาร	Document tax
 906085	ภาษีบนบัญชีภาษี	Tax on tax account
@@ -3726,10 +3726,10 @@
 906095	รายการรวมทั้งหมด	Total lines
 906096	ผลรวมตรวจสอบ	Checksum
 906097	รายงานใบเสร็จรับเงินอัตโนมัติ	Automatic receipts report
-906098	รายงานชนิดสมุดรายวัน	Batch type report
-906099	รหัสชุดรหัสสมุดรายวัน	Batch id
-906100	สมุดรายวันที่ผ่านรายการแล้ว	Posted batch
-906101	สมุดรายวันที่ยังไม่ได้บันทึกรายการ	Unposted batch
+906098	รายงานชนิดสมุดรายวัน	Journal type report
+906099	รหัสชุดรหัสสมุดรายวัน	Journal id
+906100	สมุดรายวันที่ผ่านรายการแล้ว	Posted journal
+906101	สมุดรายวันที่ยังไม่ได้บันทึกรายการ	Unposted journal
 906102	บัญชีตรงข้าม	Contra accounts
 906103	เจ้าหนี้ค้างชำระ ณ วันที่	Creditors outstanding at date
 906104	ลูกหนี้ค้างชำระ ณ วันที่	Debtors outstanding at date
@@ -3769,7 +3769,7 @@
 906138	รายการที่อยู่สำหรับจัดส่ง	List delivery address
 906139	รายการที่อยู่ทางไปรษณีย์	List postal address
 906140	รายละเอียดรายการ	List details
-906141	รายการสมุดรายวันต่องวดบัญชี	Batch transactions per period
+906141	รายการสมุดรายวันต่องวดบัญชี	Journal transactions per period
 906142	รายละเอียดยอดคงเหลือ	Balances detail
 906143	ประวัติรายละเอียดยอดคงเหลือ (รายการเปิด)	Balances detail history (open item)
 906144	ยอดรวมรายการเปิดที่ค้างชำระ	Outstanding open item transaction totals
@@ -4020,7 +4020,7 @@
 906589	ไฟล์เค้าโครงไม่มีภาษี	NO-TAX Layout file
 906590	เค้าโครงเอกสารไม่มีภาษี	NO-TAX Document layout
 906591	เค้าโครงเอกสารไม่มีภาษี (รหัส 15)	NO-TAX Document layout (15-code)
-1000000	ไฟล์หลักภาษาไทยสำหรับประเทศไทย (th-TH) - ห้ามแปล หากต้องการปรับแต่งไฟล์ภาษานี้ โปรดสร้างสำเนา	English Master File - Do Not Translate
+1000000	ไฟล์หลักภาษาไทยสำหรับประเทศไทย (th-TH) - ห้ามแปล หากต้องการปรับแต่งไฟล์ภาษานี้ โปรดสร้างสำเนา	English Master File - Do Not Translate. This English Master file contains Journal in stead of Batch related translations.
 1000001	ยินดีต้อนรับสู่ <@APPNAME@>	Welcome to <@APPNAME@>
 1000002	ไม่ได้ใช้งาน / ไม่ต้องแปล	Not used / Do not translate
 1000003	฿	*Your Currency
