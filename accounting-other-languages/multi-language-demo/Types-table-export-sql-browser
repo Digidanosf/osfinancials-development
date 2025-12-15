@@ -1,0 +1,335 @@
+﻿{
+  "header": [
+    {
+      "FIELD": {
+        "DATATYPE": 3,
+        "SIZE": 0,
+        "FIELDNAME": "WTYPEID",
+        "LABEL": "WTYPEID"
+      }
+    },
+    {
+      "FIELD": {
+        "DATATYPE": 24,
+        "SIZE": 128,
+        "FIELDNAME": "SDESCRIPTION",
+        "LABEL": "SDESCRIPTION"
+      }
+    },
+    {
+      "FIELD": {
+        "DATATYPE": 3,
+        "SIZE": 0,
+        "FIELDNAME": "WTYPEPARENT",
+        "LABEL": "WTYPEPARENT"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "WTYPEID": 0,
+      "SDESCRIPTION": "General ledger",
+      "WTYPEPARENT": 0
+    },
+    {
+      "WTYPEID": 1,
+      "SDESCRIPTION": "Debtor",
+      "WTYPEPARENT": 0
+    },
+    {
+      "WTYPEID": 2,
+      "SDESCRIPTION": "Creditor",
+      "WTYPEPARENT": 0
+    },
+    {
+      "WTYPEID": 3,
+      "SDESCRIPTION": "Bank account",
+      "WTYPEPARENT": 0
+    },
+    {
+      "WTYPEID": 4,
+      "SDESCRIPTION": "Tax account",
+      "WTYPEPARENT": 0
+    },
+    {
+      "WTYPEID": 10,
+      "SDESCRIPTION": "Invoice",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 11,
+      "SDESCRIPTION": "Credit note",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 12,
+      "SDESCRIPTION": "Purchase",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 13,
+      "SDESCRIPTION": "Supplier return",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 14,
+      "SDESCRIPTION": "Quote",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 15,
+      "SDESCRIPTION": "Order",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 16,
+      "SDESCRIPTION": "Adjustment",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 17,
+      "SDESCRIPTION": "Statement",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 18,
+      "SDESCRIPTION": "Remittance",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 19,
+      "SDESCRIPTION": "Delivery note",
+      "WTYPEPARENT": 1
+    },
+    {
+      "WTYPEID": 20,
+      "SDESCRIPTION": "Account group 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 21,
+      "SDESCRIPTION": "Account group 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 22,
+      "SDESCRIPTION": "Debtor group 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 23,
+      "SDESCRIPTION": "Debtor group 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 24,
+      "SDESCRIPTION": "Creditor group 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 25,
+      "SDESCRIPTION": "Creditor group 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 26,
+      "SDESCRIPTION": "Stock group 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 27,
+      "SDESCRIPTION": "Stock group 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 28,
+      "SDESCRIPTION": "Document group 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 29,
+      "SDESCRIPTION": "Document group 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 30,
+      "SDESCRIPTION": "Payment types",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 31,
+      "SDESCRIPTION": "Salesperson",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 40,
+      "SDESCRIPTION": "Classic",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 41,
+      "SDESCRIPTION": "Brilliant",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 42,
+      "SDESCRIPTION": "Pastel",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 43,
+      "SDESCRIPTION": "Keywest",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 44,
+      "SDESCRIPTION": "NewSA",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 45,
+      "SDESCRIPTION": "Windows Default",
+      "WTYPEPARENT": 4
+    },
+    {
+      "WTYPEID": 50,
+      "SDESCRIPTION": "Preprinted",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 51,
+      "SDESCRIPTION": "Plain A4",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 52,
+      "SDESCRIPTION": "Service",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 53,
+      "SDESCRIPTION": "Forty",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 54,
+      "SDESCRIPTION": "ABS1",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 70,
+      "SDESCRIPTION": "Account",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 71,
+      "SDESCRIPTION": "Blank",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 72,
+      "SDESCRIPTION": "Column Line",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 73,
+      "SDESCRIPTION": "Group1",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 74,
+      "SDESCRIPTION": "Group1 Detail",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 75,
+      "SDESCRIPTION": "Group2",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 76,
+      "SDESCRIPTION": "Group2 Detail",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 77,
+      "SDESCRIPTION": "Single Line",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 78,
+      "SDESCRIPTION": "Text",
+      "WTYPEPARENT": 7
+    },
+    {
+      "WTYPEID": 79,
+      "SDESCRIPTION": "Budget",
+      "WTYPEPARENT": 8
+    },
+    {
+      "WTYPEID": 80,
+      "SDESCRIPTION": "Formula",
+      "WTYPEPARENT": 8
+    },
+    {
+      "WTYPEID": 81,
+      "SDESCRIPTION": "Last Year",
+      "WTYPEPARENT": 8
+    },
+    {
+      "WTYPEID": 82,
+      "SDESCRIPTION": "This Year",
+      "WTYPEPARENT": 8
+    },
+    {
+      "WTYPEID": 90,
+      "SDESCRIPTION": "Stock item",
+      "WTYPEPARENT": 9
+    },
+    {
+      "WTYPEID": 91,
+      "SDESCRIPTION": "Comment",
+      "WTYPEPARENT": 9
+    },
+    {
+      "WTYPEID": 92,
+      "SDESCRIPTION": "Serial number",
+      "WTYPEPARENT": 9
+    },
+    {
+      "WTYPEID": 93,
+      "SDESCRIPTION": "Financial entry",
+      "WTYPEPARENT": 9
+    },
+    {
+      "WTYPEID": 1000,
+      "SDESCRIPTION": "Projects",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 1002,
+      "SDESCRIPTION": "Cost centre 1",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 1003,
+      "SDESCRIPTION": "Cost centre 2",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 1004,
+      "SDESCRIPTION": "Languages",
+      "WTYPEPARENT": 2
+    },
+    {
+      "WTYPEID": 55,
+      "SDESCRIPTION": "Till slip",
+      "WTYPEPARENT": 5
+    },
+    {
+      "WTYPEID": 56,
+      "SDESCRIPTION": "New plain",
+      "WTYPEPARENT": 5
+    }
+  ]
+}
