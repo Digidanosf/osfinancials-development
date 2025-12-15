@@ -1,0 +1,57 @@
+﻿SACCOUNTCODE	SDESCRIPTION	SGROUP1	SGROUP2
+T	Empty account	No group	No group
+B110000	Current bank account	ASSETS@Current assets	ASSETS
+B120000	Savings bank account	ASSETS@Current assets	ASSETS
+G130000	Debtors control	ASSETS@Current assets	ASSETS
+G140000	Investments (Stocks/Retirement)	ASSETS@Non-Current assets	ASSETS
+G150000	Home/Real Estate (Fair Value)	ASSETS@Non-Current assets	ASSETS
+G160000	Vehicles (Fair value)	ASSETS@Non-Current assets	ASSETS
+G210000	Creditors control	LIABILITIES@Current liabilites	LIABILITIES
+G220000	Income tax payable	LIABILITIES@Current liabilites	LIABILITIES
+G230000	Credit card	LIABILITIES@Current liabilites	LIABILITIES
+G240000	Personal loans	LIABILITIES@Non-Current llabilities	LIABILITIES
+G250000	Car loans	LIABILITIES@Non-Current llabilities	LIABILITIES
+G260000	Mortgage payable	LIABILITIES@Non-Current llabilities	LIABILITIES
+G310000	Capital	CAPITAL	CAPITAL
+G320000	Drawings / Personal Use	CAPITAL	CAPITAL
+G390000	Retained earnings	CAPITAL	CAPITAL
+G410000	Salary / Wages (Net pay)	INCOME@Operating income	INCOME
+G420000	Freelance / Side job income	INCOME@Other income	INCOME
+G430000	Dividends / Interest income	INCOME@Other income	INCOME
+G510000	HOUSING COSTS	EXPENSES@Living expenses	EXPENSES
+G510010	Rent / Mortgage interest	EXPENSES@Living expenses	EXPENSES
+G510020	Property taxes	EXPENSES@Living expenses	EXPENSES
+G510030	Home insurance	EXPENSES@Living expenses	EXPENSES
+G510040	Repairs and maintenance	EXPENSES@Living expenses	EXPENSES
+G520000	UTILITIES	EXPENSES@Living expenses	EXPENSES
+G520010	Electricity and gas	EXPENSES@Living expenses	EXPENSES
+G520020	Water and sewage	EXPENSES@Living expenses	EXPENSES
+G530000	COMMUNICATION	EXPENSES@Consumption expenses	EXPENSES
+G530010	Telephone expenses	EXPENSES@Consumption expenses	EXPENSES
+G530020	Internet	EXPENSES@Consumption expenses	EXPENSES
+G530030	Subscriptions	EXPENSES@Consumption expenses	EXPENSES
+G540000	GROCERIES & FOOD	EXPENSES@Living expenses	EXPENSES
+G540010	Groceries (Supermarket)	EXPENSES@Living expenses	EXPENSES
+G540020	Dining out and takeaway	EXPENSES@Living expenses	EXPENSES
+G550000	VEHICLE EXPENSES	EXPENSES@Living expenses	EXPENSES
+G550010	Vehicle fuel / charging	EXPENSES@Living expenses	EXPENSES
+G550020	Vehicle maintenance / repairs	EXPENSES@Living expenses	EXPENSES
+G550030	Vehicle registration / license fees	EXPENSES@Living expenses	EXPENSES
+G560000	Public transport (Bus/Train)	EXPENSES@Living expenses	EXPENSES
+G570000	HEALTHCARE & INSURANCE	EXPENSES@Personal expenses	EXPENSES
+G570010	Health insurance premiums	EXPENSES@Personal expenses	EXPENSES
+G570020	Medical expenses (co-pays, meds)	EXPENSES@Personal expenses	EXPENSES
+G590000	PERSONAL CARE & CLOTHING	EXPENSES@Personal expenses	EXPENSES
+G590010	Personal care (haircuts, toiletries)	EXPENSES@Personal expenses	EXPENSES
+G590020	Clothing and apparel	EXPENSES@Personal expenses	EXPENSES
+G600000	ENTERTAINMENT & HOBBIES	EXPENSES@Other expenses	EXPENSES
+G600010	Streaming / subscription services	EXPENSES@Other expenses	EXPENSES
+G600020	Movies, concerts, events	EXPENSES@Other expenses	EXPENSES
+G610000	EDUCATION & DEVELOPMENT	EXPENSES@Development expenses	EXPENSES
+G610010	Tuition fees and course costs	EXPENSES@Development expenses	EXPENSES
+G610020	Supplies and uniforms	EXPENSES@Development expenses	EXPENSES
+G610030	Books, software, and subscriptions	EXPENSES@Development expenses	EXPENSES
+G610040	Student loans interest paid	EXPENSES@Development expenses	EXPENSES
+G620000	DONATIONS & GIFTS	EXPENSES@Other expenses	EXPENSES
+G620010	Donations	EXPENSES@Other expenses	EXPENSES
+G620020	Gifts	EXPENSES@Other expenses	EXPENSES

@@ -1,0 +1,55 @@
+﻿Company name:	PERSONAL ACCOUNTS MULTI-LANGUAGE DEMO
+Address	
+	
+	
+	
+Phone:	
+Date of report	2025/12/15 09:08:49
+Contra accounts	Batch no.	Cost centre 2	Cost centre 1	Account	Last name	Alias	Description	Reference	Date	Debit	Credit
+	7	No group	No group	B110000	Current bank account	OpenBalances	Take-on Opening balances	#> JNL1	2025/12/31	25000	
+	2	No group	No group	B110000	Current bank account	110000BS-5	Salary Deposit - J. Smith 12345202601311	********	2026/01/01	30000	
+	2	No group	No group	B110000	Current bank account	110000BS-5	Energy Bill 12345202601316	********	2026/01/02		1350
+	2	No group	No group	B110000	Current bank account	110000BS-5	Mortgage Payment 12345202601315	********	2026/01/02		10000
+	2	No group	No group	B110000	Current bank account	110000BS-5	Internet Fee 12345202601317	********	2026/01/05		600
+	2	No group	No group	B110000	Current bank account	110000BS-5	Investment Contribution 12345202601314	********	2026/01/05		2000
+	2	No group	No group	B110000	Current bank account	110000BS-5	Groceries - Retailer A 12345202601318	********	2026/01/06		4200
+	2	No group	No group	B110000	Current bank account	110000BS-5	Fuel/Charging Station 12345202601319	********	2026/01/10		350
+	2	No group	No group	B110000	Current bank account	110000BS-5	Freelance Payout 12345202601312	********	2026/01/16	6500	
+	2	No group	No group	B110000	Current bank account	110000BS-5	Auto Repair Shop 1234520260131A	********	2026/01/20		3800
+	2	No group	No group	B110000	Current bank account	110000BS-5	Health Insurer Premium 1234520260131B	********	2026/01/25		2000
+	2	No group	No group	B110000	Current bank account	110000BS-5	Uniform & Supplies 1234520260131C	********	2026/01/28		2900
+	2	No group	No group	B110000	Current bank account	110000BS-5	Credit Card Settlement 1234520260131E	********	2026/01/30		1000
+	2	No group	No group	B110000	Current bank account	110000BS-5	Savings Transfer 1234520260131D	********	2026/01/30		1000
+	2	No group	No group	B110000	Current bank account	110000BS-5	Bank Charges 1234520260131F	********	2026/01/31		50
+	2	No group	No group	B110000	Current bank account	110000BS-5	Bank Interest Received 12345202601313	********	2026/01/31	10	
+	8	No group	No group	B110000	Current bank account	110000BS-6	Salary Deposit - J. Smith 12345202602281	********	2026/02/01	30000	
+	8	No group	No group	B110000	Current bank account	110000BS-6	Mortgage Payment 12345202602285	********	2026/02/02		10000
+	8	No group	No group	B110000	Current bank account	110000BS-6	Investment Contribution 12345202602284	********	2026/02/03		2000
+	8	No group	No group	B110000	Current bank account	110000BS-6	Energy Bill 12345202602286	********	2026/02/04		1100
+	8	No group	No group	B110000	Current bank account	110000BS-6	Groceries - Retailer B 12345202602287	********	2026/02/07		3900
+	8	No group	No group	B110000	Current bank account	110000BS-6	Fuel 12345202602288	********	2026/02/12		260
+	8	No group	No group	B110000	Current bank account	110000BS-6	Freelance Work Payment 12345202602282	********	2026/02/15	5000	
+	8	No group	No group	B110000	Current bank account	110000BS-6	Vehicle Licence Fee 12345202602289	********	2026/02/18		700
+	8	No group	No group	B110000	Current bank account	110000BS-6	Health Insurer Premium 1234520260228A	********	2026/02/20		2000
+	8	No group	No group	B110000	Current bank account	110000BS-6	Clothing Store Purchase 1234520260228B	********	2026/02/22		500
+	8	No group	No group	B110000	Current bank account	110000BS-6	Course Tuition Payment 1234520260228C	********	2026/02/25		1500
+	8	No group	No group	B110000	Current bank account	110000BS-6	Gift Purchase - Online 1234520260228D	********	2026/02/27		450
+	8	No group	No group	B110000	Current bank account	110000BS-6	Bank Charges 1234520260228E	********	2026/02/28		55
+	8	No group	No group	B110000	Current bank account	110000BS-6	Bank Interest Received 12345202602283	********	2026/02/28	12	
+	9	No group	No group	B110000	Current bank account	110000BS-7	Public Transport Pass 1234520260331B	********	2026/03/01		450
+	9	No group	No group	B110000	Current bank account	110000BS-7	Salary Deposit - J. Smith 12345202603311	********	2026/03/01	30000	
+	9	No group	No group	B110000	Current bank account	110000BS-7	Mortgage Payment 12345202603316	********	2026/03/02		10000
+	9	No group	No group	B110000	Current bank account	110000BS-7	Energy Bill 1234520260331A	********	2026/03/04		1400
+	9	No group	No group	B110000	Current bank account	110000BS-7	Streaming Service Fee 1234520260331C	********	2026/03/05		150
+	9	No group	No group	B110000	Current bank account	110000BS-7	Investment Contribution 12345202603315	********	2026/03/05		2000
+	9	No group	No group	B110000	Current bank account	110000BS-7	Property Tax 12345202603318	********	2026/03/06		500
+	9	No group	No group	B110000	Current bank account	110000BS-7	Home Maintenance/Repair 12345202603319	********	2026/03/10		750
+	9	No group	No group	B110000	Current bank account	110000BS-7	Software Subscription 1234520260331D	********	2026/03/12		200
+	9	No group	No group	B110000	Current bank account	110000BS-7	Tax Authority Payment (Q1) 12345202603317	********	2026/03/15		3000
+	9	No group	No group	B110000	Current bank account	110000BS-7	Freelance Work Payment 12345202603312	********	2026/03/17	7000	
+	9	No group	No group	B110000	Current bank account	110000BS-7	Quarterly Dividends 12345202603313	********	2026/03/20	550	
+	9	No group	No group	B110000	Current bank account	110000BS-7	Charity Donation 1234520260331E	********	2026/03/25		300
+	9	No group	No group	B110000	Current bank account	110000BS-7	Fuel/Charging Station 1234520260331F	********	2026/03/28		325
+	9	No group	No group	B110000	Current bank account	110000BS-7	Credit Card Settlement 1234520260331G	********	2026/03/30		1500
+	9	No group	No group	B110000	Current bank account	110000BS-7	Bank Charges 1234520260331H	********	2026/03/31		60
+	9	No group	No group	B110000	Current bank account	110000BS-7	Bank Interest Received 12345202603314	********	2026/03/31	15	
