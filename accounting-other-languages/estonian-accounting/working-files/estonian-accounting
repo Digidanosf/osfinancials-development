@@ -1,0 +1,4073 @@
+﻿1	Ei	&No
+2	Jah	&Yes
+3	Jaanuar	January
+4	Veebruar	February
+5	Märts	March
+6	Aprill	April
+7	Mai	May
+8	Juuni	June
+9	Juuli	July
+10	August	August
+11	September	September
+13	Oktoober	October
+14	November	November
+15	Detsember	December
+16	Ava ettevõte	&Open Set of Books
+17	Loo uus ettevõte	&Create Set of Books
+18	Kustuta ettevõte	&Delete Set of Books
+19	Salvesta nimega	Save as
+20	Vali keel	&Switch language
+21	Lõp&eta töö <@APPNAME@>	&Exit <@APPNAME@>
+22	Kontopl&aan	&Accounts
+23	Eelarved	&Budgets
+24	Kustuta	&Delete
+25	Ko&rduvad sissekanded	&Repeating transactions
+26	Korduvad arved	Repeating &invoices
+27	Laokaubad	Stock
+28	Kasutaja aruanded	&User reports
+29	Pangakontod	Bank account
+30	Hankijad	Creditors
+31	Kliendid	Debtors
+32	Pearaamatu kontod	General ledger
+33	Maksude kontod	Tax account
+34	Konto	Account
+35	Kasutaja aruanne	User report
+36	Order confirmation	Order confirmation
+37	Laokaup	Stock item
+38	Dokumendid	Documents
+39	Kustuta arved	Delete invoices
+40	Kustuta ostuarved	Delete purchases
+41	Kustuta tagastatud kaubad	Delete supplier returns
+42	Muud&a laokandeid	&Adjust stock
+43	Kontokanne	&Journal entry
+44	Kontoväljavõtte &registreerimine	&Reconcile bank
+45	&Dokumentide nimekiri	&Documents listing
+46	Kanna tulp pearaamatusse	Input post to ledger
+47	Krediitarved	&Credit notes
+48	Arved	&Invoices
+49	Ostudokumendid	&Purchases
+50	Kaupade tagastused	Supplier &returns
+51	Sis&esta	&Enter
+52	&Prindi	&Print
+53	Kinnita kanded	&Update ledger
+54	Prin&di saatelehed	Print &delivery notes
+55	Konteeringu tüüp	&Journal type
+56	Hankija	&Creditor
+57	Klient	&Debtor
+58	Pearaamat	&General ledger
+59	Sünk&roniseerimine	&Reconciliation
+60	Arved	&Invoices
+61	Ostuarved	&Purchases
+62	Ladu	&Stock
+63	Käibemaks	&Tax
+64	Kas&utaja aruanded	&User reports
+65	&Aegumiste analüüs	&Age analysis
+66	&Loetelu	&Listing
+67	Liiku&mised	&Movements
+68	Trüki etiketid	&Print labels
+69	Makseko&rraldused	&Remittance advises
+70	&Tehingud	&Transactions
+71	Aruandlu&s	&Statements
+72	Eelarve täitmine	&Budget performance
+73	Kontoplaani väljatrükk	&Chart of accounts
+74	Tehingud	Transactions
+75	Käibeandmik	&Trial balance
+76	Täitmata tellimused	&Backorder listing
+77	Väljastatud krediitarved	&Credit note listing
+78	Väljastatud arved	&Invoice listing
+79	Saadud ostuarved	&Purchases listing
+80	Tagastuste nimeki&ri	&Supplier return listing
+81	&Aktiivsus	&Activity
+82	Liiku&miste kokkuvõte	&Movement summary
+83	K&ordustellimuste aruanne	&Reorder report
+84	Laotoodete nimekiri	&Stock item listing
+85	Müügianalüüs	Sales analysis
+86	Arvele kantud üksikasjad	&Invoiced details
+87	Arvete kokkuvõte	&Invoiced summary
+88	Saadud / tehtud maksete üksikasjad	&Received / paid details
+89	Saadud / tehtud maksete kokkuvõte	Received / &paid summary
+90	K&asutajaõigused	&Access control
+91	Varukoo&pia rada	Backup &path
+92	Konteeringute liigid	&Journal types
+93	F&irma andmed	Company &info
+94	Värvid	&Colours
+95	Kirje&lda etiketid	Define &labels
+96	Proforma	Proforma
+97	&Grupid	&Groups
+98	&Dokumendid	&Documents
+99	&Printer	&Printer
+100	A&ruandluse kuupäevad	&Reporting dates
+101	Müüja	Sales&person
+102	Aruandlu&s	&Statements
+103	Laoraamat	Stock information
+104	Varunda / Taasta andmestik	&Backup / Restore Set of Books
+105	Kalkulaator	&Calculator
+106	An&dmete terviklikkuse kontroll	Data integrity check
+107	&Eksport	&Export
+108	Põhitoimin&gud	&Global processes
+109	&Impordi	&Import
+110	Avatud &objektide seosed	&Open item relink
+111	Taasta va&rukoopiast	&Restore from backup
+112	&Vaatleja	&Viewer
+113	Tugi	&Support
+114	Puhasta / Taasta algseaded	&Clear / Reset
+115	Aastalõpu käivitamine	&Do year end
+116	Sünk&roniseeri	&Reconcile
+117	&Tehingute üle kandmine	&Transfer transactions
+118	Seo lahti	Unreconcile
+119	<@APPNAME@> kohta	About <@APPNAME@>
+120	Fail	File
+121	Püsiandmed	Edit
+122	Sissekanded	Input
+123	Aruanded	Reports
+124	Seaded	Setup
+125	Tööriistad	Tools
+126	Abi	Help
+127	Üks	One
+128	Kaks	Two
+129	Kolm	Three
+130	Neli	Four
+131	Viis	Five
+132	Kuus	Six
+133	Seitse	Seven
+134	Kaheksa	Eight
+135	Üheksa	Nine
+136	Kümme	Ten
+137	Üksteist	Eleven
+138	Kaksteist	Twelve
+139	Kolmteist	Thirteen
+140	Neliteist	Fourteen
+141	Viisteist	Fifteen
+142	Kuusteist	Sixteen
+143	Seitseteist	Seventeen
+144	Kaheksateist	Eighteen
+145	Üheksateist	Nineteen
+146	Kakskümmend	Twenty
+147	Kolmkümmend	Thirty
+148	Nelikümmend	Forty
+149	Viiskümmend	Fifty
+150	Kuuskümmend	Sixty
+151	Seitsekümmend	Seventy
+152	Kaheksakümmend	Eighty
+153	Üheksakümmmend	Ninety
+154	Sada	Hundred
+155	Tuhat	Thousand
+156	Miljon	Million
+157	Krooni	Rands
+158	Senti	Cents
+159	Piece price	Piece price
+160	Kliendid	Debtors
+161	Hankijad	Creditors
+162	Arve ajalugu	Invoice history
+163	Ava	&Open
+164	Tehingute sisestamine	Journal entry
+165	Dokumendid	Invoice
+166	Kontoväljavõte	Cash/Bank entry
+167	&Olgu nii	&OK
+168	&Tühista	&Cancel
+169	&Sulge	&Close
+170	Packaging unit	Packaging unit
+171	Vali keel	Choose a language
+172	Ettevõte	Set of Books
+173	Kustuta	Delete
+174	Loo	Create
+175	Uue ettevõtte nimi	Name for a new Set of Books
+176	Kontonumber	Account no.
+177	Alam-konto	Sub-account
+178	Kirjeldus	Description
+179	Aruande grupp 1	Reporting group 1
+180	Aruande grupp 2	Reporting group 2
+181	Sissetulekud	Payments
+182	Tasumine	Receipts
+183	Pangaarved	Bank accounts
+184	Ava vara arvestus	Open item account
+185	Nimi	Name
+186	Aadress	Address
+187	Telefon 1	Phone 1
+188	Telefon 2	Phone 2
+189	Faks	Fax
+190	Postiindeks	Postal code
+191	E-post	E-mail
+192	Krediidilimiit	Credit limit
+193	Maksekaardi summa	Charge amount
+194	Hetke saldo	Current balance
+195	Viimati makstud	Last paid
+196	Sees	On
+197	Kontaktisik	Contactperson
+198	Müüja	Salesperson
+199	Toimetamisaadress	Delivery address
+200	Aruande märkmed	Message
+201	Konto suletud	Account disabled
+202	Maksuviide	Tax reference
+203	Allahindlus kliendile	Customer discount
+204	Viivisesumma kuus	Monthly interest on overdue amounts
+205	%	%
+206	Tulud / Kulud	Income statement
+207	Kehtiv alates	Valid from
+208	kuni	To
+209	Määr	Percentage
+210	Annaal	Annual
+211	Deebit	Debit
+212	Kreedit	Credit
+213	Toote kood	Stock code
+214	Ühiku suurus	Units
+215	Viimane kulu	Latest cost
+216	Müügihind 1	Selling price 1
+217	Müügihind 2	Selling price 2
+218	Müügihind 3	Selling price 3
+219	Sisenev maks	Input tax
+220	Väljuv maks	Output tax
+221	Tellimispunkt	Reorder level
+222	Rakenda arve allahindlus	Apply invoice discount
+223	Müügikonto	Sales account
+224	Müügikulu	Cost of sales
+225	Laokonto	Stock control
+226	Kekmine maksumus	Average cost
+227	Laojääk	Quantity on hand
+228	Kogumaksumus	Total cost
+229	Viimane arve	Last invoice
+230	Alates arvest	From invoice
+231	kuni arveni	To invoice
+232	Kanded kuupäevani (sh)	Include items until
+233	Panga saldo	Bank balance
+234	Arve nr	Invoice no.
+235	Postiaadress	Postal address
+236	Saadaval	Available
+237	Sinu viide	Your reference
+238	Kuupäev	Date
+239	Teade	Message
+240	Aruande saab	Send report to
+241	Kande liik	Journal type
+242	Milline aasta	Which year
+243	Alates aruandluse päevast	From reporting date
+244	Iga periood eraldi	Each period separately
+245	Näita tasakaalustatavaid kandeid	Show balancing entries
+246	Alates kontost	From account
+247	Sagedus	Sequence
+248	Näita ka nullsaldosid	Include zero balances
+249	Hankijate tehingute aruande valikud	Creditor transaction report options
+250	Pangakontod	Bank accounts
+251	Hankijakontod	Creditor accounts
+252	Kliendikontod	Debtor accounts
+253	Pearaamatu kontod	General ledger accounts
+254	Maksukontod	Tax accounts
+255	Eelarve kontod	Budget accounts
+256	Pangakontod	Bank accounts
+257	Laokaup	Stock item
+258	Kasutaja aruanne	User report
+259	Kontoväljavõtte sissekandmine	Reconcile bank account
+260	Arvete koostamine	Invoicing
+261	Konteeringu liigi aruande valikud	Journal type report options
+262	Kontoplaani valikud	Account list options
+263	Kliendinõuete aegumise analüüsi valikud	Debtor age analysis options
+264	Vähim summa	Minimum amount
+265	Kasuta avatud eset	Use open item
+266	Ignoreeri nullsaldosid	Ignore zero balances
+267	Näita konto üksikasju	Show account detail
+268	Valik nime alusel	Sort by name
+269	Näita tehinguid	Show transactions
+270	Aegumiskuupäev	Date of ageing
+271	kuni	up to
+272	Kuu(d) kuni	Month(s) up to
+273	Kontoplaani valikud	Account list options
+274	Klientide liikumiste valikud	Debtor movement options
+275	Klientide tehinguaruande valikud	Debtor transaction report options
+276	Näita alamkontosid	Show sub-accounts
+277	Eelarve täitmisanalüüsi valikud	Budget performance options
+278	Pearaamatu valikud	General ledger options
+279	Hankijate liikumiste valikud	Creditor movement options
+280	Pearaamatukontode liikumiste aruande valikud	General ledger account movement options
+281	Valikbilansi valikud	Trial balance options
+282	Alates	From
+283	Kontoväljavõtte alusel tehtud kanded	Bank reconciliation
+284	alates arvest number	From invoice no.
+285	kuni arveni number	To invoice no.
+286	alates kuupäevast	From date
+287	kuni kuupäevani	To date
+288	Dokumentide loetelu valikud	Documents listing options
+289	alates tootekoodist	From stock code
+290	Lao liikumiste aruande valikud	Stock activity options
+291	Kasutajaõigused	Access control
+292	Lisa	Add
+293	Kustuta	Delete
+294	Turvaseaded	Security Options
+295	Kasutaja salasõna	User password
+296	Muuda kontosid	Edit accounts
+297	Muuda ladu	Edit stock
+298	Konteering / Konto kanne	Journal entry
+299	Kreeditarve nr	Credit note no.
+300	Arved	Invoices
+301	Süsteemi seaded	System setup
+302	Ostuarve	Purchases
+303	Kauba tagastamine	Supplier returns
+304	Keelatud	Disabled
+305	Hankijate aruanded	Creditor reports
+306	Klientide aruanded	Debtor reports
+307	Pearaamatu aruanded	General ledger reports
+308	Laoaruanded	Stock reports
+309	Kasutaja aruanded	User reports
+310	Sisse kandmine	Posting
+311	Põhitoimingud	Global processes
+312	Tel	Tel
+313	Ärinimi	Company name
+314	Arevestusmeetod	Tax method
+315	Võlakonto	Due account
+316	Registrikood	Company reg. no.
+317	K.M.K.R. reg. nr	Tax reg. no.
+318	Araunde summa koos	Report amount with
+319	Windowsi kuupäeva sätete muutmiseks klõpsa siin.	Set Windows date format/style
+320	Ettevõtte andmed	Company info
+321	Järgmine arve number	Next invoice no.
+322	Arvete konteeringud	Invoice journal
+323	Paberi liik	Paper type
+324	Arve päis	Invoice heading
+325	Arve märkmed	Invoice message
+326	Järgmine kreeditarve nr	Next credit note no.
+327	Krediitarvete konteeringud	Credit note journal
+328	Kreeditarve päis	Credit note heading
+329	Kreeditarve märkmed	Credit note message
+330	Järgmine ostuarve nr	Next purchase no.
+331	Ostuarvete konteeringud	Purchase journal
+332	Ostuarve päis	Purchase heading
+333	Ostuarve märkmed	Purchase message
+334	Järgmine tagastuse number	Next supplier return no.
+335	Tagastuse konteeringud	Supplier return journal
+336	Tagastuse päis	Supplier return heading
+337	Tagastuse märkmed	Supplier return message
+338	Järgmine tellimuse number	Next order no.
+339	Tellimuse päis	Order heading
+340	Tellimuse märkmed	Order message
+341	Järgmine pakkumise nr	Next quote no.
+342	Pakkumise päis	Quote heading
+343	Pakkumise märkmed	Quote message
+344	Dokumendi seaded	Documents setup
+345	Grupid	Groups
+346	Makseviisid	Payment types
+347	Aruannete seaded	Statement setup
+348	Aruannete märkmed	Statement message
+349	Müügikulude konteeringud	Cost of sales journal
+350	Laoinfo	Stock information
+351	Arvuta müügikulud	Create cost of sales
+352	Üldinfo	General information
+353	Raamatupidamisinfo	Accounting information
+354	Aruandlus	Statements
+355	Kirjeldus	Description
+356	Muuda	Edit
+357	Taasta vaikeseaded	Reset
+358	Uuenda	Update
+359	Ava esemete kordussidumine	Open item relink
+360	Ava esemete seosesed	Open item link
+365	<@APPNAME@> kohta	About <@APPNAME@>
+366	Konteeringud / Kontokanded	Journal entry
+367	^D: Kustuta	^D: Delete
+368	^N: Lisa	^N: Insert
+369	F5: Tasakaalusta	F5: Balance
+370	F6: Kinnita	F6: Post
+371	F7: Ilma KM	F7: Exclusive
+372	F8: Loetelu	F8: List
+373	F9: Tegevused	F9: Process
+374	F10: Seaded	F10: Setup
+375	Brutosumma:	Inclusive amount:
+376	Netosumma:	Exclusive amount:
+377	Kanne kokku:	Reference total:
+378	Kuulub perioodi:	Allocate to:
+379	Korrepondeeriv konto:	Contra account:
+380	Müük klientide lõikes	Sales per customer
+381	Müük toodete lõikes	Sales per product
+382	Müük teenindajate lõikes	Sales per salesperson
+383	Müük gruppide lõikes	Sales per group
+384	Klientide ostuaruande valikud	Sales per customer options
+385	Toodete müügiaruande valikud	Sales per product options
+386	Müüjate aruande valikud	Sales per salesperson options
+387	Tooterühmade müügiaruande valikud	Sales per group options
+388	Alates grupist	From group
+389	Alates tootest	From product
+390	Käibemaksuaruande valikud	Tax report options
+391	Maksu kood	Tax code
+392	Näita üksikasju	Show details
+393	Klassikaline	Classic
+394	Briljantne	Brilliant
+395	Uus SA	New SA
+396	Teema	Theme
+397	Kristlik	Christian
+398	Koomiline	Comic
+399	Egiptuse	Egypt
+400	Juudimaa	Jewish
+401	Shoti	Scottish
+402	Kosmos	Space
+403	Loodus	Wildlife
+404	Ava objekti seosed	Open item link
+405	Kinnita arved	Update invoices
+406	Aruannete kuupäevad	Date of statements
+407	Näita käibemaksuga tehinguid	Show tax transactions
+408	Klientide aruanded	Debtor reports
+409	Näita KM eraldi	Show tax separately
+410	Laoliikumise aruande valikud	Stock movement options
+411	Toodete nimekirja valikud	Stock list options
+412	Informatsioon aruandesse	Information to include
+413	Kogus	Quantity
+414	Ostuhind	Cost price
+415	Kogus laos	Stock count
+416	Müügihind	Selling price
+417	Lao väärtus	Stock value
+418	Pakkumine	Quotes
+419	Tagastatud kaubad	Supplier returns
+420	Kontode grupid	Account groups
+421	Klientide grupid	Debtor groups
+422	Hankijate grupid	Creditor groups
+423	Laokannete grupid	Stock groups
+424	Dokumentide grupid	Document groups
+425	HOIATUS! Plaanitav tegevus mõjutab kandeid kõigis aktiivsetes raamatutes. Oled Sa kindel, et soovid jätkata?	Warning, this will seriously affect your Set of Books! Do you still wish to continue?
+426	Sa tahad kustutada kõiki kasutajakontosid. Selle tagajärjel tühistatakse kasutajaõigustepõhine liigipääsukontroll!	You have chosen to delete all users! Access control will now be disabled!
+427	Kustutatava kasutajaga on seotud sisse kandmata andmeid. Palun kanna need andmed raamatusse enne kasutaja kustutamist.	There are unposted journals associated with this user! Please post or delete them before deleting this user.
+428	Kustutatava kasutajaga on seotud erinevaid andmeid. Palun vali uus kasutaja, kellega need andmed siduda.	There are journals associated with this user! Please select a new user to assign these journals to.
+429	Kustutatava kasutajaga on seotud tehinguid. Palun seo need tehingud uue kasutajaga enne jooksva kasutaja kustutamist.	There are transactions associated with this user! Please select a new user to assign these transactions to.
+430	Kas soovid salvestada kasutaja andmetes tehtud muudatused?	Do you wish to save the changes to this user?
+431	Palun sisesta kasutaja salasõna!	Please type in a password for this user!
+432	Kas luua see konto?	Create this account?
+433	Kontonumber vigane, esimene sümbol peab olema number!	Invalid account number! The first character must be a number!
+434	See ei ole pangaarve.	This is not a bank account!
+435	Kas soovid muudatused salvestada?	Do you want to save the changes?
+436	!!! FATAALNE FAILI VIGA 12 !!!	!!! FATAL FILE ERROR 12 !!!
+437	Tahad Sa selle tehingu kindlasti kustutada?	Are you sure you wish to delete this transaction?
+438	Kas soovid selle tehingu kanda eelmisse majandusaastasse?	Do you wish to allocate this transaction to last year?
+439	Konteering ei ole tasakaalus!	Journal is not in balance!
+440	Kontot pole olemas! Soovid selle koheselt sisestada?	Account does not exist, do you wish to create it?
+441	Kas jätkad aruande koostamist?	Do you want to continue reporting?
+442	Seda konteeringu liiki pole võimalik kustutada, sest sellega on seotud kanded.	Cannot delete this journal type! It has journals associated with it!
+443	Kontoplaani muutmine mõjutab tõsiselt kõiki Sinu aktiivseid raamatuid! Oled kindel, et soovid jätkata?	Editing journal types will seriously affect your Set of Books! Are you sure you want to do this?
+444	TÄHELEPANU! Algatatud toiming muudab oluliselt kõiki aktiivseid raamatuid! KAS LOOBUD TOIMINGUST?	This will seriously affect your Set of Books! Do you wish to cancel now?
+445	Kas soovid muudatused salvestada?	Do you want to save these changes?
+446	Oled kindel, et soovid luua	Are you sure you want to create the
+447	ettevõtte aktiivne andmestik?	 Set of Books?
+448	Ettevõte loodud!	 Set of Books created!
+449	Viga raamatute loomisel.	Error creating books!
+450	See	The
+451	andmestik juba eksisteerib.	 Set of Books already exist!
+452	Konto ei saa olla tühi!	Account cannot be blank!
+453	Esimene märk kontotähises peab olema number!	The first character of the account number must be a number!
+454	Valmis!	Finished!
+455	Selles kaustas pole  osFinants 2.01, 2.02 or 2.03 raamatukomplekte.	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!
+456	Soovid Sa kindlasti katkestada?	Are you sure you wish to cancel?
+457	Soovid luua selle konto?	Do you want to create this account?
+458	Oled sa kindel, et soovid kustutada	Are you sure you want to delete the
+459	seotud andmestiku?	set of accounts?
+460	Oled konto kustutamises kindel?	Are you sure you want to delete this account?
+461	Sellel kontol on	This account contains
+462	alam-kontod ning seda ei saa kustutada!	Sub-account(s) and cannot be deleted!
+463	Toodet pole võimalik kustutada, sest see on kantud tehingutesse!	You cannot delete this stock item! It has transactions!
+464	Kas tahad kindlasti selle toote kustutada?	Are you sure you want to delete this stock item?
+465	Toode kustutatud!	Stock item deleted!
+466	Sellist toodet pole olemas!	This stock item does not exist!
+467	See ei ole pearaamatu konto!	This is not a general ledger account!
+468	See konto jääb endiselt aktiivseks ja kõik selle kanded kantakse uuele alamkontole. Kas soovid luua uue alamkonto?	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?
+469	See ei ole maksukonto!	This is not a tax account!
+470	Seose summa peab olema väiksem või võrdne	The link amount has to be less than or equal to
+471	Ettevõtte andmestik on loomata!	You have not set up a Set of Books yet!
+472	Kanne on juba seotud!	This entry is already linked!
+473	Selle kliendiga pole midagi siduda!	Nothing to link for this debtor!
+474	Oled kindel, et tahad selle kande lahti siduda?	Are you sure you want to unlink this entry?
+475	Vale salasõna	Invalid password!
+476	Kuupäeva konflikt! Vaata kuupäev 1	Date conflict !!!! Check date 1
+477	Kuupäeva konflikt! Vaata kuupäev 2	Date conflict !!!! Check date 2
+478	Kuupäeva konflikt! Vaata kuupäev 3	Date conflict !!!! Check date 3
+479	Kuupäeva konflikt! Vaata kuupäev 4	Date conflict !!!! Check date 4
+480	Kuupäeva konflikt! Vaata kuupäev 5	Date conflict !!!! Check date 5
+481	Kuupäeva konflikt! Vaata kuupäev 6	Date conflict !!!! Check date 6
+482	Kuupäeva konflikt! Vaata kuupäev 7	Date conflict !!!! Check date 7
+483	Kuupäeva konflikt! Vaata kuupäev 8	Date conflict !!!! Check date 8
+484	Kuupäeva konflikt! Vaata kuupäev 9	Date conflict !!!! Check date 9
+485	Kuupäeva konflikt! Vaata kuupäev 10	Date conflict !!!! Check date 10
+486	Kuupäeva konflikt! Vaata kuupäev 11	Date conflict !!!! Check date 11
+487	Kuupäeva konflikt! Vaata kuupäev 12	Date conflict !!!! Check date 12
+488	Kuupäeva konflikt! Vaata kuupäev 13	Date conflict !!!! Check date 13
+489	Ainult perioodid vahemikus 1 kuni 13 on lubatud!	Only periods between 1 and 13 are allowed!
+490	Oled Sa muudatuste tühistamises kindel?	Are you sure you want to cancel the changes?
+491	Väljavõttel pole ridu!	No items to reconcile!
+492	See pole tulu / kulu konto	This is not an income / expense account!
+493	Sellel kontol on all-kontosid!	This account contains sub-accounts!
+494	Soovid sisestada lattu selle toote?	Do you wish to create this stock item?
+495	Viga arve sisse kandmisel, palun taasta varukoopiast!	Error posting invoice! Please restore backup!
+496	Vali kasutaja aruanne	Select a user report
+497	Laoühikud	Units of stock
+498	Müügihinna kirjeldus	Selling price descriptions
+499	Müügikulud	Cost of sales
+500	Kas soovid kontrollida andmete õigsust enne varukoopia salvestamist?	Do you want to run the Data integrity check before making the backup?
+501	Kas soovid jätkata varukoopia salvestamist?	Do you wish to continue with the backup?
+502	!!! FATAALNE FAILI VIGA 11 !!!	!!! FATAL FILE ERROR 11 !!!
+503	See kuupäev on jooksvast majandusaastast väljaspool. Palun muuda!	This date is out of the current year! It must be between
+504	ja	and
+505	Kas trükime arve kohe välja?	Do you wish to print this Invoice now?
+506	Ettevaatust! Veel on	Warning there are
+507	toodet laos.	items on hand.
+508	Oled sa kindel, et soovid kustuda kõik read jooksvalt arvelt?	Are you sure you want to clear all the entries in this Invoice?
+509	Viga allahindlusel! Summa peab olema positiivne!	Invalid discount! Amount must be positive!
+510	Kas soovid kontrollida andmete õigsust enne varukoopia salvestamist?	Do you want to run the Data integrity check before making the backup?
+511	Varukoopia valmis!	Backup completed!
+512	HOIATUS! Sa kirjutad kohe üle ettevõtte aktiivsete andmestiku! Kas oled kindel, et soovid jätkata?	WARNING this will overwrite your current Set of Books! Are you sure you want to continue?
+513	Palun sisesta ketas varukoopiaga seadmesse ja jätka või katkesta taastamine!	Please insert your backup disk in the drive and continue, or cancel the operation now.
+514	Taastamine valmis!	Restore completed!
+515	See koopia programmist <@APPNAME@> on registreerimata. Kas soovid seda registreerida nüüd?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+516	Oled kustutamas kogu oma informatsiooni! Kas Sa ikka tahad seda teha???	This will delete all your information! Are you sure you want to do this?
+517	Valmis!	Finished!
+518	Siin kaustas pole andmestikke!	This directory does not contain a Set of Books!
+519	Alustatud tegevus mõjutab tõsiselt kõiki aktiivseid andmestikke! Soovid sa aktiivsete andmestike puhastamist jätkata?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?
+520	Palun täida registreerimisvorm!	Please complete the registration form!
+521	Vigane lukustamiskood!	Invalid unlocking code!
+522	Kas soovid katkestada registreerimise?	Do you wish to cancel registration?
+523	Sellele kontole on kantud tehinguid! Kas soovid need üle kanda teisele kontole?	This account has transactions! Do you wish to transfer the transactions to another account?
+524	Sellele kontole ei saa andmeid üle kanda, sest sellel on alamkontod!	You cannot transfer to this account! It has sub-accounts!
+525	Konto kustutatud!	Account deleted!
+526	Selle kliendiga on seotud tehingud. Kas soovid need tehingud üle kanda mõnele teisele kliendile?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
+527	Selle hankijaga on seotud tehingud. Kas soovid need tehingud üle kanda mõnele teisele hankijale?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
+528	Selle pangakontoga on seotud tehingud. Kas soovid need üle kanda mõnele teisele pangakontole	This bank account has transactions! Do you wish to transfer the transactions to another bank account?
+529	Selle maksukontoga on seotud tehinguid. Kas soovid need üle kanda teisele maksukontole?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?
+530	ETTEVAATUST! Siin on	Warning, there are
+531	kinnitamata kanded ja	Unposted journals and
+532	kinnitamata kanded	Unposted journals
+533	sisse kandmata dokumendid	Unposted documents
+534	Omadused	Properties
+535	Muuda ettevõte andmestiku omadusi	Change Set of Books properties
+536	Trüki ettevõtte raamatute komplekti nimi	Enter the name of the Set of Books
+537	Sisesta andmestiku salvestamise asukoht	Enter the path where the books are stored
+538	Muuda	Change
+539	andmestikku nimega	A Set of Books called
+540	Andmestiku tekitamise nõustaja	Creation wizard
+541	Palun vali järgnevast nimekirjast ettevõtte nimi või klõpsa nupul "Sirvi" otsimaks andmestikku mõnest teisest kataloogist Sinu arvutis!	Please select a Set of Books from the list below, or click [Browse] button to select the Set of Books you wish to copy in a folder elsewhere on your system.
+542	Sirvi	Browse
+543	Lõpeta	Finish
+544	Tere tulemast <@APPNAME@> ettevõtte loomise nõustaja juurde! Palun tee oma valik ning klõpsa "Edasi" jätkamiseks. Kui leiad, et oled sattunud väga valesse kohta siis väljumiseks ilma uut raamatupakki loomata klõpsa "Tühista".	Welcome to the <@APPNAME@> Set of Books Creation wizard. Please select an option and click on the [Next] button, or click on the [Cancel] button to cancel the creation of a new Set of Books.
+545	Kas Sa soovid:	Do you wish to:
+546	Konverteerida varasema osFinantsi (v 2.01, 2.02, 2.03) versiooni raamatute komplekt?	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)
+547	Kopeerida olemasoleva ettevõtte andmestik?	Copy an existing Set of Books
+548	<@APPNAME@> aitab sind ettevõtte andmestiku loomisel!	Let <@APPNAME@> help you to create a Set of Books
+549	Loo puhas andmestik (edasijõudnutele!)?	Customise your own Set of Books (Advanced)
+550	Convert TurboCASH3 to <@APPNAME@>?	Convert TurboCASH3 to <@APPNAME@>
+551	Edasi>>	Next >>
+552	Hankijate koondkonto	Creditors control
+553	Klientide koondkonto	Debtors control
+554	Jagamata tulu	Retained earnings
+555	Loon andmestikku...	Creating set of accounts...
+556	Nüüd sisesta palun, mitmeks aruandeperioodiks jaotub Sinu majandusaasta ning majandusaasta alguskuupäev.	You now need to type in the number of periods there are in your financial year and the date of the start of the year!
+557	Klõpsa "Valmis" ja täpsusta:	Please click [Finish] to specify your:
+558	Siin kaustas pole sobivat andmestikku või on see tõsiselt viga saanud!	This directory does not contain a Set of Books, or the Set of Books is damaged!
+559	Kopeerida saad kas andmestikku või siis seda sisaldavat kausta!	You have to choose a Set of Books or directory to copy
+560	Loon andmestikku...	Creating Set of Books...
+561	Loon vajalikke kontosid...	Creating required accounts...
+562	Loon vajalikke kontosid (hankijate koondkonto)...	Creating required accounts (Creditors control)...
+563	Loon vajalikke kontosid Klientide koondkonto)...	Creating required accounts (Debtors control)...
+564	Loon vajalikke kontosid (Jaotamata tulud)...	Creating required accounts (Retained earnings)...
+565	Konverteerin raamatute komplekti...	Converting Set of Books...
+566	Loen andmeid Pastelist...	Reading data from Pastel...
+567	Konverteerin Pasteli süsteemimuutujaid...	Converting Pastel system variables...
+568	Konverteerin Pasteli kontosid...	Converting Pastel accounts...
+569	Konverteerin Pasteli ladu...	Converting Pastel stock...
+570	Konverteerin Pasteli päevikukandeid...	Converting Pastel journals...
+571	Palun vali Pasteli infot sisaldav kaust.	Please select a Pastel data folder
+572	Palun vali allolevast loetelust, millist andmestikku peaks konverteerima.	Please select an old Set of Books to convert from the list below.
+573	Palun vali järgnevast nimekirjast konventeeritav Pastel Partneri informatsioon	Please select Pastel Partner Data to convert from the list below.
+574	Vali kaust.	Pick a directory
+575	Arv	Number
+576	Aruandluse kuupäevad	Reporting dates
+577	Alguspäev	Start date
+578	Eelmisse aastasse	Post to other years
+579	Lõpeb:	Ends on
+580	Kanded lubatud	Open for posting
+581	Philip'i enda lipakas	*Translate : Enter your details
+582	Klientserver	&Client server
+583	Eelistused	&Preferences
+584	&Süsteemi parameetrid	&System parameters
+585	Juurdepääsukontroll	&Access control
+586	&Abi	&Help
+587	Arve sisestamine	Invoice entry
+588	Viga	Error
+589	TÄHELEPANU! Kuupäev on väljaspool jooksvat ning eelmist majandusaastat	Warning, this date does not fall into any of this or last year's reporting dates!
+590	Kanne ei läbi kontrolltestimist!	This journal does not validate!
+591	Ei ole tasakaalus! Vahe	is out of balance by
+592	Rida	Line
+593	Mõlemad	Allow both
+594	Lausendis sisalduvate kannete kuupäevad on eelmises majandusaastas!	Journal contains transactions posting to last year!
+595	Jätkata kinnitamist?	Do you want to continue posting?
+596	Ei saa kanda otse peakontole, kui sellel on alamkontosid!	Cannot post to main account containing Sub-accounts!
+597	Kontot pole olemas! Kas soovid selle avada kohe?	Account does not exist! Do you wish to create it?
+598	Pole midagi importida	No data to import!
+599	Sisestuse kordamiseks sisesta kuu ja aasta	Enter month and year to repeat entries to
+600	Periood	Period
+601	Aasta	Year
+602	&Vali korrespondentkonto	&Select contra account
+603	See aasta	This year
+604	Eelmine aasta	Last year
+605	Kood	Code
+606	Kirjeldus	Description
+607	Kande nr	Reference
+608	Konto	Account
+609	Käibemaks	Tax
+610	Kiirklahvide selgitused	Abbreviation definition
+611	Tasakaalusta kanded	Balance journal
+612	Limiteerimatu failiimport	Delimited file import
+613	Kustuta lausend / konteering	Erase journal
+614	Loo liitlausend	Generate multiple transactions
+615	Konteeringute loetelu	List journal
+616	Kinnita konteering	Post journal
+617	Korduvad tehingud	Repeating transactions
+618	Iga aruandeperioodi käibed	Totals for each period
+619	Koosta limiteerimata fail	Write delimited file
+620	Töötle konteeringud / lausendid	Process the journal
+621	Kas oled nende kannete kustutamises kindel?	Are you sure you want to erase this entire journal?
+622	Konteeringu valikud	Options for this journal
+623	Viitenumbri suurenemine	Increment reference
+624	Korda üksikasju	Repeat details
+625	Kontrakonto iga rea kohta	Contra account per line
+626	Konsolideeri saldod	Consolidate balancing
+627	Summa sisestamine	Amount entry
+628	Kinnitus	Confirmation
+629	Info	Information
+630	Hoiatus	Warning
+631	Aruannet ei saa koostada	You cannot report from
+632	on juba olemas.	already exists!
+633	Vali Pasteli andmekaust!!!	Select Pastel data folder !!!
+635	Selle toimingu jaoks peab olema andmestik avatud!	You must have a Set of Books open to use this option!
+636	Sa pole veel avanud vajalikku andmestikku!	You have not set up a Set of Books yet!
+637	Algsaldod kaasaarvatud.	Include opening balances
+638	Seda kontot pole võimalik märkida, sest kontol on alam-kontosid.	You cannot select this account because it contains sub-accounts!
+639	Sellel real olev info läheb kaotsi kui salvestate selle kommentaarina!	The information on this line will be lost if it's changed to comment!
+640	Oled kindel, et soovid sellele reale lisada kommentaari?	Are you sure you want a comment on this line?
+641	Toiming muudab Sinu andmeid äärmuslikul moel. Soovitame enne jätkamist salvestada varukoopia!	This will radically alter your data! We recommend that you stop and make a backup!
+642	Kas soovid jätkata?	Do you wish to continue?
+643	Selle konto algsaldo on üle tulnud eelmisest majandusaastast. Kustutamine pole võimalik!	This account has an opening last year balance! You cannot delete the account!
+644	See ei ole tulu / kulukonto!	This account is not an income / expense account!
+645	Kogusumma (neto)	Exclusive total
+646	Arvete kokkuvõte	Invoice total
+647	Allahindlused kokku	Total discount
+648	Ühik (neto)	Unit excl.
+649	Ühik (bruto)	Unit incl.
+650	Netosumma	Amount excl.
+651	Brutosumma	Amount incl.
+652	Tootekood	Item code
+653	Kirjeldus	Description
+655	Tellitud kogus	Qty order
+656	Saadetud kogus	Qty ship
+657	Allah.	Disc.
+658	F8: Allahindlus	F8: Discount
+659	F9: Kommentaar	F9: Comment
+660	F10: Kustuta kõik	F10: Delete all
+662	Kommentaari rida	&Comment line
+663	Sis&esta dokumendi allahindlus	&Enter overall discount
+664	F7: Koos KM	F7: Inclusive
+665	Oled muutnud makseviisi ja kviitungite konteeringuid. Selline olukord rikub andmete sünkronisatsiooni. Kas soovid sellegipoolest jätkata?	You have changed payment and receipt journal! This will corrupt your recon! Do you wish to continue?
+666	Koondkontot ei saa kasutada!	Control account cannot be used!
+667	Sa muutsid määra!	You have changed the percentage!
+668	Eelarvet ei saa teha alamkontodega konto kohta!	Cannot have budgets for an account which has sub-accounts!
+669	Pearaamatu kontot ei saa kasutada.	General ledger account cannot be used!
+670	Kreeditarve sisestamine	Credit note entry
+671	F10: Kustuta kreeditarve	F10: Delete credit note
+673	Kas trükime krediitarve kohe välja?	Do you wish to print this credit note now?
+674	Uuendame kreeditarve?	Update credit notes
+675	alates krediitarvest	From credit note
+676	kuni krediitarveni	To credit note
+677	Jätka	Continue
+678	Trükkimiseks pole arvet.	There is no invoice to print!
+679	Ei tohi kasutada sama maksete konteeringut!	Cannot have the same payments journal type as for another bank account!
+680	Maksekorraldus	Remittance
+681	Maksekorralduse märkused	Remittance message
+682	Kaupade vastuvõtuakt.	Goods received
+683	Ei tohi kasutada laekumiste konteeringut!	Cannot have the same receipt journal type as for another bank account!
+684	Ühiku hind	Unit price
+685	Oled kindel, et soovid kustutada kõik ostuarve read?	Are you sure you want to clear all the entries in this purchase?
+686	Kas trükime ostuarve kohe välja	Print a purchase document now?
+687	Ilma käibemaksuta	Tax excluded
+688	Käibemaksuga	Tax included
+689	Krediitarve ajalugu	Credit note history
+690	Tagastuste ajalugu	Supplier return history
+691	Ostuarvete ajalugu	Purchases history
+692	Pakkumiste ajalugu	Quote history
+693	Tellimuste ajalugu	Orders history
+694	alates ostuarvest	From purchase
+695	Kututa krediitarved	Delete credit notes
+696	Järgmise dokumendi number vale! Palun vii parandus sisse dokumendi seadete alt!	Invalid next number! Change it in 'Setup → Documents setup'!
+697	Kas jätkame varukoopia salvestamisega?	Do you want to continue backup?
+698	Kas jätkame andmete taastamist	Do you want to continue restore from?
+699	Andmsetik valimata!	No Set of Books selected!
+700	Kinnita ostuarved	Update purchase
+701	Kinnita tagastused	Update supplier returns
+702	alates tagastusest	From supplier return
+703	Ostuarve nr	Purchase no.
+704	Tagastus nr	Supplier ret. no.
+705	Tagastus	Supplier return
+706	Krediitarved	Credit notes
+707	Kas trükid tellimuse kohe välja?	Do you wish to print this order?
+708	Kas trükid tagastusakti kohe välja?	Do you wish to print this supplier return?
+709	Kas trükid ostuarve kohe välja?	Do you wish to print this purchase?
+710	Kas trükid pakkumise kohe välja?	Do you wish to print this quote?
+711	Käivita seadistamine ning vali lausendisse korrespondeeruv konto!	Run 'Setup → Journal types' and select contra account for this journal!
+712	Kas oled rea ja selles sisalduva info kustutamises kindel?	Are you sure you wish to delete this row's information?
+713	Uuenduste laadimine klientserverist	Client server update
+714	Uuenduste laadimine internetist	Internet update
+715	Kas kustutame etikettide kirjeldused?	Do want to delete this label definitions?
+716	Asukoht:	Location :
+717	Ei leidnud vajalikke raamatuid! Kausta pole olemas:	Set of Books not found! Directory doesn't exist:
+718	Või on kadunud võrguühendus	Or trouble on a network mapped drive
+719	Alustatav toiming kustutab kogu olemasoleva informatsiooni! Kas soovid kindlasti jätkata?	This will delete all your information! Are you sure you want to continue?
+720	BTRV viga:	Btrv error:
+721	Selle hankijaga pole midagi siduda!	Nothing to link for this creditor!
+722	TÄHELEPANU! Klõpsates "Jah" tühistad kõik olemasolevad seosed sellel kontol!	Warning, if you click [Yes] you will lose all your current links for this account!
+723	Sisesta ketas	Insert disk in
+724	Interneti seaded ebatäpsed! Käivita Interneti häälestamine!	Internet setup information is incorrect! Run 'Setup → Internet'.
+725	Kas Sa soovid kustutada	Do you want to delete?
+726	Salvestada	Save
+727	Esimene	&First
+728	Eelmine	&Previous
+729	Järgmine	&Next
+730	Viimane	&Last
+731	Suurendus...	&Zoom
+732	Koopiaid	Copies
+733	Trüki vahemik	Print range
+734	Leheküljed	&Pages
+735	Alates	&From
+736	Kuni	&To
+737	Kõik leheküljed	&All pages
+738	Koopiate arv	Number of &copies
+739	Viga aruande eksportimisel	Exporting report error!
+740	Viga ajutise faili loomisel	Error when creating Tmp!
+741	Vale salasõna	Invalid password!
+742	Seda kontot pole võimalik kontrakontona kasutada, sest kontol on alam-kontod.	You cannot use this account as a contra account! It contains sub-accounts!
+743	Loo kaust	Create directory
+744	Sellise nimega andmestik on juba olemas. Palun vali uus nimi!	That Set of Books already exists! Please re-enter!
+745	Kausta loomine ebaõnnestus.	Couldn't create directory!
+746	Palun korda sisestust.	Please re-enter!
+747	Trükkimiseks puuduvad andmed.	No data to print!
+748	Kehtetu kontonumber	Illegal account code!
+750	Arve-Saateleht Nr	Tax Invoice no.
+751	Pakkumine number	Quote no.
+752	Tagastusakt Nr	Supplier return no.
+753	See infokandja ei sobi varukoopia salvestamiseks!	Invalid media type for backup!
+754	Koondlkontot ei saa kustutada!	Cannot delete a control account!
+755	See raamatute komplekt	The Set of Books
+756	kustutatakse jäädavalt.	will permanently be removed from disk!
+757	Kas soovid kustutamise tühistada?	Do you want to cancel the deletion?
+758	Krediitarve Nr	Credit note no.
+759	Ostuarve Nr	Purchase no.
+761	Kaupade vastuvõtu akt	Goods received voucher
+762	Tellimus Nr	Order no.
+763	Saldo on kinnitamise käigus välja toodud	Balance brought forward when posting
+764	Nõustajaks väljumiseks klõpsa "Sulge".	Then click [Close] to finish the Creation wizard.
+765	Kliendi saldo ületab krediidilimiidi:	Debtor's balance is over credit limit with:
+766	Tehinguid ei saa üle viia samale kontole.	Cannot transfer transactions to the same account!
+767	Viimati selle ettevõtte andmestikuga töötades ei pannud sa neid lahkumisel korralikult kinni!	The last time that you worked with this Set of Books you did not exit the program properly!
+768	Kui tekivad probleemid, siis taasta varukoopial olevad andmed!	If you encounter any problems, restore your data from a backup.
+769	<@APPNAME@> soovitab Sul meeles pidada, et	<@APPNAME@> would like to remind you that:
+770	korrapärane varukoopiate ja arhiivikoopiate salvestamine on lihtsaim ja tõhusaim kindlustus võimaliku andmete kaotamise vastu!	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.
+771	Pakkumine nr	Quote no.
+772	Pakkumisest	From quote
+773	Alates tellimusest	From order
+774	Sellel kontol on saldod, ei saa kustutada!	This account has balances, cannot be deleted!
+775	Soovid lisada uue kontaktisiku?	Do you want to create this contactperson?
+776	Soovid kustutada kontaktisiku andmed?	Do you want to delete this contactperson?
+777	Kontaktisiku andmed kustutatud!	Contactperson deleted!
+778	Selline kontakti nimi keelatud	Illegal contact name!
+779	Kontonubrid peavad olema kordumatud!	Account numbers should be unique!
+780	Kõik kontol olevad tehingud kustutatakse ja saldod määratakse nulliks!	All transactions will be removed and account balances will be set to zero!
+781	Kas soovid tühistada kustutamisprotsessi?	Do you want to cancel the clearing process?
+782	juba olemas!	already exist!
+783	Ei ole sobiv dokumendi number	Illegal document number!
+784	Ei ole sobiv tootekood	Illegal stock code!
+785	Klientide saldod, mis on väiksemad kui <Rx.xx	Balance debtors with amount < x.xx
+786	Nõuetega hankijad	Creditors with charge amount
+787	Nõuetega kliendid	Debtors with charge amount
+788	Fikseeritud summa kõigile klientidele	Fixed amount to all debtors
+789	Viivis klientidele	Interest on overdue debtors
+790	Kreeditoride saldod kuupäevaks	Creditor balances at date
+791	Trüki kviitung	Create receipts
+792	Sularaha	Cash
+793	Tshekk	Cheque
+794	Muu	Other
+795	Miljard	Billion
+796	Triljon	Trillion
+797	Summa ei ole võrdne tehingu summaga	Amount is not the same as the transaction amount!
+798	Tellimused	Orders
+799	Kande nr ei lange kokku tehingu numbriga.	Reference is not the same as the transaction reference!
+800	Kas soovite VÄLJUDA programmist <@APPNAME@>?	Do you wish to close <@APPNAME@>?
+801	Katkestame printimise?	Do you want to cancel documents printing?
+802	Meetodit pole valitud. Palun vali üks!	No method selected! Please select one!
+803	Laojääki ei saa näidata kaubale, mis on registreerimata tehingus	Cannot take stock on for an item with a non-zero quantity on hand!
+804	Kasutaja aruannet pole valitud. Palun vali!	No user report selected! Please select one!
+805	Kas Sa tahad täita kõik üksikasjad uue kontakti kohta?	Do you want to fill all details for this new contact?
+806	Kas järgmise dokumendi numbri muutmine on ikka vajalik?	Are you sure you want to change the next document number?
+807	Kopeerimise käigus tekkis viga!	Error occurred during copy process!
+808	Allahindluse määr peab jääma vahemikku 0% kuni 99,99%	Discount must be in range 0 % to 99.99 %
+809	Viivise määr peab jääma vahemikku 0% kuni 99,99%	Interest on overdue amount must be in range 0 % to 99.99 %
+810	Hind on madalam ühikuhinnast	This price is lower than the unit price of
+811	laokaardil	on the stock file
+812	Vana T3 andmestiku konverteerimine õnnestus	The old T3 data was successfully converted
+813	Vana T3 andmestiku konverteerimisel tekkis viga	An error occurred while converting your old T3 data!
+814	Ei leia maksmata summat!	Could not find unpaid amount!
+815	Makseviiside ja kviitungite konteeringud pole korrektselt pangarvega seotud!	Your payment and receipt journal are not linked correctly to this bank account!
+816	Tundub, et klientide ja hankijate maksu liik on määramata!	May not have a tax type for a debtor or creditor in the payments based system!
+817	Ei leia varukoopiat!	Backup file not found in
+818	Vali varundamise või taastamise reziim!	Select Backup or Restore mode
+820	Kassapõhise arvestusmetoodika kasutamine eeldab, et kõik hankijad ja kliendid muudetakse avatud esemetega kontodeks. Kas soovid jätkata?	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?
+821	Kassapõhine meetod käsitleb tehinguid rangelt kliendilaekumiste alusel. Jätkame?	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?
+822	Kasutad kassapõhist meetodit ent võlakontot pole võimalik leida. Palun käivita ettevõtte andmete seadistamise reziim ning paranda viga!	You are running payment based method and the due account cannot be found! Please run 'Setup → Company info'!
+823	Maksekaart	Credit Card
+824	Lõpetamiseks klõpsa nupule Valmis!	Click on [Finish] to execute.
+825	Millise ettevõtte andmestiku võtad aluseks?	Which Chart of Accounts do you want to use?
+826	Palun anna uuele ettevõtte andmestikule nimi.	Please type in the name of the new Set of Books!
+827	Konteeringust	From journal
+828	Sulge	Close
+829	Sul pole õigust andmeid töödelda! Juurdepääs andmetele on keelatud!	You have no right to process!  Access to this process denied!
+830	Võta ühendust oma <@APPNAME@> administraatoriga!	Please contact your <@APPNAME@> administrator!
+831	See konto on keelatud, ning seda ei saa kasutada!	This account is disabled and cannot be used!
+832	Kontot pole olemas, toimingut pole võimalik lõpule viia!	Account does not exist! Process cannot be performed!
+833	Faksi allkirjafaili pole võimalik avada	Cannot open fax signature file in
+834	Varunda / Taasta	Backup / Restore
+835	Su&lge aktiivne ettevõte	C&lose Set of Books
+836	Varunda / Taasta ettevõtte andmestik	&Backup / Restore Set of Books
+837	Andme&te ümberindekseerimine	Da&ta Re-index
+838	Kontakt	&Contacts
+839	Pakkumised	&Quotes
+840	Ki&nnita	Co&nfirm
+841	Tellimuse&d	Or&ders
+842	Kasumiaruanne	&Income statement
+843	Kontaktide nimekiri	&Contact listing
+844	Järeltellimus	&Backorders
+845	&Internet	&Internet
+846	&Finantskategooriad:	&Financial categories
+847	&Fondid	&Fonts
+848	Andmete &parameetrid	System &parameters
+849	Tõlgi	Customise language
+850	&Impordi	&Import
+851	Näita Tervitusi	Show &welcome
+852	&Registreerimine internetis	Online &registration
+853	&Uuendused internetist	Online &update
+854	Sirvi	&Browse
+855	Müüjad toodete kaudu	Salesperson per product
+856	Müüjad ja kliendid	Salesperson per customer
+857	Toodete ostjad	Product per customer
+858	Toodete müüjad	Product per salesperson
+859	Klient müüja kaudu	Customer per salesperson
+860	Tarbija toote kaudu	Customer per product
+861	Ostud hankijalt	Purchases per supplier
+862	Toodete ostud	Purchases per product
+863	Trükkimise seaded	Printing options
+864	&Printeri seaded	&Printer setup
+865	Saada aruanne:	Send report to:
+866	Koopiad:	Copies:
+867	F11: Koopia	F11: Copy
+868	&Tabelid	&Tables
+869	Ladu	Stock
+870	&Avatud väljad	&Available fields
+871	&Märgitud väljad	&Selected fields
+872	Vali vorm:	Select from:
+873	Puhasta kõik	&Clear All
+874	Tabel	Table
+875	Aruandeperioodid	Financial periods
+876	Müüja	Salesperson
+877	Kopeeritav andmestik:	Set of Books to copy:
+879	Tagasi	&Back
+880	Fail on rikutud	Files corruption
+881	Saldod perioodide lõikes	Balances per period
+882	Loenda kontod ja laokaubad	Count accounts and stock items
+883	Kliendid ja hankijad	Debtors and creditors
+884	Kinnitamata kanded ja dokumendid	Outstanding journals and documents
+885	Sisse kandmata dokumendid	Unposted documents
+886	Vali ettevõte	Select Set of Books
+887	Kontrolli	Check
+888	Eelmine aasta on sissekanneteks suletud.	Last year is closed for posting!
+889	See periood on sissekanneteks suletud	This period is closed for posting!
+890	Perioodi avamiseks leia "Aruandlusperioodide seaded"	To turn it on, go to 'Setup → Reporting dates'
+891	Varukoopia	Backup
+892	Taasta	Restore
+893	Taasta asukohast	Restore from
+894	Taasta asukohta	Restore to
+895	Varukoopia rada	Backup from
+896	Salvesta kettale	Backup to
+897	Stopp	Stop
+898	Taasta raamatupakk	Restore Set of Books
+899	Varunda raamatupakk	Backup Set of Books
+900	Taastamine valmis...	Backup completed...
+901	Varukoopia salvestamine valmis	The backup process is completed!
+902	Pakin kokku	Zipping
+903	Palun sisesta ketas	Please insert disk!
+904	mitmekettalisest varukoopia komplektist!	of the multi-disk Set of Books backup.
+905	Vali asukoht	Select backup target
+906	Pakin lahti	UnZipping
+908	Taastamine õnnestus!	The restore process is completed!
+909	Taastatud	Restored
+910	Palun sisesta viimane ketas ja	Insert the last disk of disk set then
+911	klõpsa "Jah" jätkamiseks ning "Ei" katkestamiseks	Click on [Yes] to continue or [No] to abort
+912	Alustan varukoopia salvestamist	Starting backup...
+913	Siin pole õiget andmestikku:	No valid Set of Books found in:
+914	Ketas pole kasutatav. Mapi see uuesti!	Cannot use this drive! Map it and try again...
+915	Ei saa käivita varukoopiat...	Cannot run backup...
+916	Varukoopiat ei õnnestunud salvestada...	Backup incompleted...
+917	Raamatupaki varundamise katkestas kasutaja	Set of Books - Backup process cancelled by user!
+918	Faili pakitud	Files compressed
+919	Toiming on kasutaja soovil katkestatud!	Process cancelled by the user!
+920	Alustan taastamist...	Starting Restore...
+921	Raamatupakk taastatakse asukohas:	Your Set of Books will be restored in:
+922	Faili taastatud	Files restored
+923	Vale salasõna	Incorrect password!
+924	Jätan vahele faili:	Skipping file:
+925	Viga faili avamisel	Error: Opening file!
+926	Ootan käivitamist...	Waiting to run...
+927	Kasutajale on antud administraatori õigused programmis <@APPNAME@>.	This user setting is now turned to administrator user by <@APPNAME@>!
+928	Dokumendi sisestamine	Document entry
+929	Ostudokumendid	Purchases
+930	Üksikasjad	Details
+931	Päis	Header
+932	Kustuta seosed	Clear links
+933	Loo koond	Generate Balance B/F
+934	Seo lahti	Unlink
+935	Kogusumma	Total amount
+936	Kokku tasumata	Total outstanding
+937	Raamat kokku	Total ledger
+938	Erinevus / Summa	Difference/Amount
+939	Erinevus / Tasumata	Difference/Outstand.
+940	Seoste kustutamise valikud	Clear link options
+941	Kustuta kõik seosed	Clear all links
+942	Määra alguskuupäev	Use start date
+943	Hankija kuupäevade alusel	By credit dates
+944	Otsi	Search by
+945	Kehtesta	Apply
+946	Summa	Amount
+947	Tasumata	Outstanding
+948	Konsolideeri	Consolidate
+949	Näita aruannet	Show statement
+950	Pangaväljavõte	Reconcile
+951	Tühista kontoväljavõtte kanne	UnReconcile
+952	Ot&si	&Search
+953	Töötle	Process
+954	Sisse kantud	Reconciled
+955	Erinevus	Difference
+956	Otsi kande numbri järgi	Search by reference
+957	Otsi summade järgi	Search by amount
+958	Otsi kuupäeva järgi	Search by date
+959	Jooksev pangakonto	Current bank account
+960	Kokku	Total
+961	Sisse kantud	Posted
+962	Sisse kandmata	Unposted
+963	Maksed	Payment item
+964	Kviitung	Receipt item
+965	Laokäibe konto või müügikonto pole selle toote jaoks korralikult määratud!	Stock control and / or Sales account not set up correctly for this stock item!
+966	Dokumenti ei saa kinnitada / sisse kanda! Palun määra ära õige müügikonto, laokonto (müügikulude konto) ning seejärel vii kinnitamine läbi.	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!
+967	<@APPNAME@> registreerimata koopiad	Unregistered copies of <@APPNAME@>
+968	are limited to 500 transactions or 500 documents	are limited to 500 transactions or 500 documents
+969	Han&gi internetist!	&Get it online
+970	Lukustuskood (Said <@APPNAME@>'ilt):	Unlocking code (from <@APPNAME@>):
+971	Seerianumber:	Serial number:
+972	Registreeri oma <@APPNAME@>!	Register your <@APPNAME@>
+973	Saad oma lukustamiskoodi või	To get your unlocking code or
+974	Telefon:	Phone:
+975	See <@APPNAME@> koopia on registreerimata! Kas soovid seda praegu registreerida?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+976	Ettevõtte nimi:	Company name:
+977	Ostuarvete analüüs.	Purchase analysis
+978	Bilansi seaded	Balance sheet options
+979	Näita komakohti	Show decimal
+980	Kasumiaruande seaded	Income statement options
+981	Näita eelmist aastat	Show last year
+982	Näita muutusi	Show variance
+983	Uus	New
+984	Kustuta	Delete
+985	Ekraan	Screen
+986	Printer	Printer
+987	Algus	Start
+988	Lõpp	End
+989	Automaatvalik	Auto-select
+990	Vöötkood	Barcode
+991	Vöötkood	Barcode
+992	Toode klientide valikute alusel	Product per customer options
+993	Toode müüjate valikute alusel	Product per salesperson options
+994	Kliendid müüjate valikute alusel	Customer per salesperson options
+995	Kliendid toodete valikute alusel	Customer per product options
+996	Müüja kliendi valikute alusel	Salesperson per customer options
+997	Makstud: Kassaraamat	Payments cashbook
+998	Vastu võetud: Kassaraamat	Receipt cashbook
+999	Bruto	Inclusive mode
+1000	Bilanss	Balance sheet
+1001	Windowsi vaikeseaded	Windows default
+1002	Kontod	Accounts
+1003	Vali kontaktisik	Select contact
+1004	Vali grupid	Select groups
+1005	Kas soovid peatada aasta lõpu toimingud?	Do you want to cancel the year-end process?
+1006	Oled kindel, et soovid kustutada selle kasutaja aruande?	Are you sure you want delete this user report?
+1007	Alustatav toiming mõjutab tõsiselt aktiivset raamatupakki! Kas soovid jätkata konteeringu kustutamist?	This will seriously affect your Set of Books! Are you sure you want delete this journal type?
+1008	Müük toote valikute alusel	Sales per product options
+1009	Vaikeväljund	Default output
+1010	Ettevõtte logo	Company logo
+1011	Kasuta piltlogo aruannetel	Use logo on reports
+1012	Valikud	Options
+1013	Nimeta ümber	Rename
+1014	&Lae failist	&Load from file
+1015	Kleebi	&Paste
+1016	Puhasta	&Clear
+1017	<@APPNAME@> - Load logo	<@APPNAME@> - Load logo
+1018	Kustuta pakkumised	Delete quotes
+1019	Kustuta tellimused	Delete orders
+1020	Trüki standardlogo	Print standard logo
+1021	Käibeandmik	Trial balance
+1022	kuni	to
+1023	Netokasum	Net profit
+1024	Lehekülg	Page
+1025	Netokahjum	Net loss
+1026	Summa reale	Total for
+1027	Eelarve	Budget
+1028	kui	As at
+1029	Ko&rda	&Re-run
+1030	R&ahavoog	C&ash flow
+1033	Hankijavõlgnevuste aegumise analüüs	Creditor age analysis options
+1034	Pearaamatu seaded	Ledger options
+1035	Iga periood eraldi	Each period separately
+1036	Iga konto uuelt leheküljelt?	New page per account
+1037	Aruande kuupäev	Date of report
+1039	Vali aruanne	Select report
+1040	Näita ridu	Show lines
+1041	Täpsusta fail	Spec file
+1042	Etikettide aruande valikud	Labels report options
+1043	Klientide nimekirja valikud	Debtor listing options
+1044	Hankijate nimekirja valikud	Creditor listing options
+1045	Rahavoo valikud	Cash flow options
+1046	Perioodid	Periods
+1047	Alates arveldusarvest	From bank account
+1048	Jootraha kaasaarvatud	Include petty cash
+1049	Andmestikku ei saa jätta nimetuks	Set of Books name cannot be blank!
+1050	Vaikesuurendusega eelvaade	Default zoom preview
+1051	Müüjate aruanne toodete omaduste kaudu	Salesperson per product options
+1052	Kustuta nimekirjast	Purge list
+1053	Vali, milliseid ettevõtte andmeid tahad muuta!	Select 'Setup → Company info' you want to change!
+1054	Kas tahad tegevuse tühistada?	Do you want to cancel the process?
+1055	Kas tahad selle müüja andmed kustutada?	Do you want to delete the salesperson?
+1056	Kõik müügihinnad	All selling prices
+1057	Mitte miski	None
+1058	Laoinfo	Stock description
+1059	Sama aruannet ei saa teha üheaegselt! Üks on juba koostamisel. Palun oota!	Cannot run a report twice! The first report is running!
+1060	Andmestik on viga saanud! Käivita "Andmete ümberinekseerimine" põhiandmete taastamiseks!	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1063	Vali Lotuse SpreadSheet laoandmete fail	Select spreadsheet stock file
+1064	Salasõna	Password
+1065	Kontakti nimi	Contact name
+1066	Algsaldo	Opening balances
+1067	Eelvaade	&Preview
+1068	Vali tüüp	Select type
+1069	Alates... kuni	From ... to
+1070	Märgitud	Selected
+1071	Konteeringud	Journal
+1072	Kasutaja	User
+1073	Reaalajas	Online
+1074	Kinnita tehingud	Update journal
+1076	Näita tooterühmi	Show stock groups
+1077	Ostud toodete omaduste alusel	Purchases per product options
+1078	Ostud hankijate alusel	Purchases per supplier options
+1079	Tüüp	Type
+1080	Kasuta	Use
+1081	Müügikulude kontogrupp	Cost of sales account
+1082	Kordustellimuse valikud	Reorder options
+1083	Asendustellimuste valikud	Backorder options
+1084	Näita kõiki tooteid	Show all items
+1085	Iga toode uuelt leheküljelt?	New page per item
+1086	Saatelehe valikud	Delivery note options
+1087	Dokumendi tüüp	Document type
+1088	Ainult eelmine aasta	Last year only
+1089	Maksekorraldus	Creditor remittance advise
+1090	Klientide aruanded	Debtor statement
+1091	Graafik	Graph
+1092	Kalkulaator	Calculator
+1093	Tagasilüke	Backspace
+1094	Kanna üle	Transfer
+1095	Prindi dokumendid	Print documents
+1096	Printimata dokumendid	UnPrinted
+1097	Sisse kandmata	Unposted
+1098	Kõik	All
+1099	Maksed	Payment
+1100	Laekumised	Receipt
+1101	Desünkroniseerimise valikud	UnReconcile options
+1102	Desünkroniseeri kuupäeva järgi	UnReconcile by date
+1103	Desünkroniseeri viitenumbri järgi	UnReconcile by reference
+1104	Kontoväljavõtte kande valikud	Reconcile options
+1105	Kanna läbi kuupäeva alusel	Reconcile by date
+1106	Kanna läbi viitenumbri alusel	Reconcile by reference
+1107	Kaust	Directory
+1108	Konto kirjeldus	Account description
+1109	Konto liik	Account type
+1110	Tekkepõhine	Invoice based
+1111	Kassapõhine	Payments based
+1112	Eeltrükitud blankett	Preprinted
+1113	Puhas A4	Plain A4
+1114	Teenus	Service
+1115	Valge paber	Plain Eyeline
+1116	nelikümmend	Forty
+1117	Lisatud	Added
+1118	Näita kontaktisikut	Show contactperson
+1119	Nimekirjast	From list
+1120	Dokumendi number	Document no.
+1121	Dokumendi kuupäev	Document date
+1122	"HinnaNimetus", Väärtus	"Price Name",Value
+1123	Kustutatud	deleted!
+1124	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!
+1125	Tasuda	Due
+1126	Tõin ettepoole	Brought forward
+1127	Tõstsin ettepoole	Carried forward
+1128	Aruande saaja	Statement to
+1129	Maksekorralduse saaja	Remittance advise to
+1130	Kliendi KMRK nr	Customer tax ref.
+1131	Ühik	Unit
+1132	Hind	Price
+1133	Arve aktsepteeritud	Invoice accepted
+1134	Allkiri	Signature
+1135	K.M.K.R. number	TAX registration
+1136	Maksustatav summa	Amount exclusive
+1137	Summa käibemaksuga	Amount inclusive
+1138	Käibemaks	Tax amount
+1139	Arve	Inv.
+1140	Ese	Item
+1141	Allahindlus	Discount
+1142	Laokoauba kirjeldus	Stock item description
+1143	Kategooria	Category
+1144	Tarnija aadress	Supplier address
+1145	Arve saaja aadress	Invoice address
+1146	Krediitarve vastu võetud	Credit note accepted
+1147	Tagastuse kinnitanud:	Purchase document accepted
+1148	Pakkumise aktsepteeris	Quote accepted
+1149	Tellimus vastu võetud	Order accepted
+1150	Saateleht vastu võetud	Delivery note accepted
+1151	Varad	Assets
+1152	Aktiva	Total Assets
+1153	Omakapital ja kohustused	Capital and Liabilities
+1154	Passiva	Total Capital and Liabilities
+1155	Kokku puhaskasum/kahjum	Total Net Profit/Loss
+1156	paigutamata	unllocated
+1157		at
+1158	Sissetulekute ja kulude aruanne	Income and expense report
+1159	Muutus	Variance
+1160	Puhaskasum / kahjum	Net Profit/Loss
+1161	Otsing peatatud, arv täis	Search stopped! Limit reached!
+1162	Tänane kuupäev jääb aktiivsest rahandusaastast välja! Jätkamiseks tuleb käivitada aasta lõpetamise protsess.	Today's date is beyond your financial period. You should run your year end to process to this date!
+1163	Otsi	&Lookup
+1164	Klient	&Customer
+1165	Sisse/väljamaks	&Float
+1166	Tasumine	&Payment
+1167	Kustuta kõik	&Delete all
+1168	Palun loe seda	Please read this
+1169	Sularaha laekas	Cash in drawer
+1170	Maksekaardid	Credit Cards
+1171	Sisse / Väljamaks	Float in/out
+1172	Tshekid	Cheques
+1173	Kinkekaardid	Vouchers
+1174	Kassa kasutamisõigused	POS Access control
+1175	Kassa logimine	Point-of-Sale login
+1176	Müüja nimi	Cashier name
+1177	(Müüja nimi)	(Saleperson name)
+1178	Pea mind meeles	Remember my login
+1179	Võti	Key
+1180	Lühendite nimekiri	Abbreviation list
+1181	Klientide käive	Debtor movement
+1182	Kreeditkäive	Creditor movement
+1183	Konto käive	Account movement
+1184	Eelarve täitmine	Budget performance
+1185	Muutuse summa	Variance amount
+1186	Muutus %-na	Variance percentage
+1187	Jagamata kasum	Retained income
+1188	tulu / kulu	Inc / Exp
+1189	Kontode nimekiri	List of accounts
+1190	Järeltellimuses olevad tooted	Items on backorder
+1191	Täitmata järeltellimused	Backorders
+1192	Summad iga perioodi kohta	Totals for each period
+1193	Tasakaalustada	To balance
+1194	Konteeringu üksikasjad	Journal entry details
+1195	Kaasa arvatud	Inclusive
+1196	Kontra	Contra
+1197	<@APPNAME@> tugi	<@APPNAME@> Support
+1198	<@APPNAME@> toe lehekülg	<@APPNAME@> Support page
+1199	Konteeringu liikide üksikasjalik aruanne	Journal type details report
+1200	Netosumma	Excl. amt.
+1201	Brutosumma	Incl. amt.
+1202	Kokku:	Total:
+1203	Uurija	Investigator
+1204	Otsi	Search
+1205	Otsi ainult	Seach for
+1206	Otsi kohe	Search now
+1207	Täpsustavad valikud	Advanced options
+1208	Tagasi	Back
+1209	Täpsusta otsingut	Refine search
+1210	Näidatavate ridade arv	Record found limit
+1211	Sisesta otsitav sõna. Kui soovid otsingut täpsustada, märgi linnuke soovitud teema ees olevasse kasti	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.
+1212	Otsinguvihje	Search tip
+1213	Kontode informatsioon	Account information
+1214	Tõusutundlik	Case sensitive
+1215	Kus iganes	Where ever in
+1216	Alustamise koht	Starting position
+1217	Lõpetamine	Ending
+1218	Veel	More
+1219	Otsingu tingimused	Search options
+1220	Kontode nimed	Account names
+1221	Kõike	Everything
+1222	Vali klient	Select debtor
+1223	Muuda pakkumine arveks	Quotes to convert to invoice
+1224	Tellimus nr	Order no.
+1225	Muuda tellimus ostudokumendiks	Order to convert to purchase
+1226	Vali hankija	Select creditor
+1227	Otsi numbri järgi	Search by number
+1228	Otsi konto järgi	Search by account
+1229	Otsi kirjelduse järgi	Search by description
+1230	SULARAHA voog	CASH flow
+1231	Pangakonto algsaldo	Opening BANK balance
+1232	Netto rahavoog	Net cash flow
+1233	Panga saldo kokku	Total bank balance
+1234	Sularaha algsaldo	Opening petty cash balance
+1235	Sularaha sisse	Petty cash in
+1236	Sulraha välja	Petty cash out
+1237	Neto sularahavoog	Net petty cash flow
+1238	Kokku sularaha	Total petty cash
+1239	Kogu rahavoog	Total cash flow
+1240	Vabad vahendid	Funds available
+1241	SULARAHA SAADUD	CASH RECEIVED
+1242	SULARAHA VÄLJA MAKSTUD	CASH PAID OUT
+1243	Kassaaruande kontroll	Point-of-Sale cash-up check
+1244	Süsteem	System
+1245	Kogus	Quantity
+1246	Loetud raha (kassasahtlis)	Cashed up (in the drawer)
+1247	Kokkuvõte	Summary
+1248	Otsin läbikandmata kirjeid	Checking unposted items
+1249	Read	Items
+1250	Loendur	Count
+1251	Kontaktide nimekiri	Contact listing
+1252	Telefon 1	Telephone 1
+1253	Telefon 2	Telephone 2
+1254	E-posti aadress	E-mail address
+1255	Töötlen	Processing
+1256	Palun oota...	Please wait...
+1257	Reaalarvud	Real numbers
+1258	Paranda komakohti	Fix decimals
+1259	Dokumendi kvaliteet	Document quantity
+1260	Komakohad aruannetel	Reporting decimals
+1261	Andmete säilitamine	Data storage
+1262	Aruande summad koos	Report amounts with
+1263	Kreediti jaoks	for Credit
+1264	Deebeti / Kreediti jaoks	for Debit/Credit
+1265	T-konto näitaja	T-Account viewer
+1266	Arvutikassa (POS)	Point-of-Sale
+1267	&Skriptimootor	&Script engine
+1268	Müügidokumendid	Sales documents
+1269	Ostudokumendid	Purchase documents
+1270	Letimüük	POS Invoice
+1271	Sisesta lingitav summa	Enter amount to link
+1272	Sisesta summa	Enter amount
+1273	Kviitungi number	Receipt number
+1274	Väljaandja	Issued by
+1275	Makseviis	Payment method
+1276	Mille eest	Received for
+1277	Kellelt	Received from
+1278	Ava objektide valik	Open item selection
+1279	Kande number	Payment reference
+1280	Tasumata	Outstanding
+1281	Klientide tehingud	Debtor transactions
+1282	Üksikasjalik pearaamat	Detailed ledger
+1283	Hankija tehingud	Creditor transactions
+1284	Aruande vahemik	Report range
+1285	Kande nr	Reference
+1286	Kumulatiivne bilanss	Cumulative balance
+1287	Bilanss seisuga	Balance at
+1288	Algsaldo seisuga	Opening balance at
+1289	Lõppsaldo seisuga	Closing balance at
+1290	Koondsumma	Accumulative total
+1291	Andmebaasi taastamine	Database rebuild
+1292	Vali taastatav andmestik	Select Set of Books to rebuild
+1293	Staatus	Status
+1294	Päis	Header
+1295	Indeksid	Indexes
+1296	Andmed	Data
+1297	Taasta	Rebuild
+1298	Kõik kasutajad peavad ennast välja logima!	All users must logout before running this process!
+1299	Ootan käivitamist!	Waiting to run ...
+1300	Taastan võtmeid	Re-building keys
+1301	Kontrollitud	Checked
+1302	Võtmeväärtused	Key values
+1303	Võtmed rikutud	Key corruption
+1304	Fail(id) on korras	Checked OK file(s)
+1305	Fail(id) on vigased	Corrupted file(s)
+1306	Tehingu kuupäev / periood muudetud	Transaction date/period rebuilt
+1307	Tehingu Kuupäev / Periood ebaünnestunud. Proovi uuesti	Transaction date/period failed! Try again!
+1308	Laen Message.db kirjeid	Loading Message.db records
+1309	Pakin kokku message.db	Compressing Message.db...
+1310	Viga tabeli struktuuri täitmisel	Error: Filling table structure!
+1311	Taastan	Rebuilding
+1312	Määra aruande kuupäeva väärtus	Get date report value
+1313	Saateleht	Delivery note
+1314	Muuda tasumiste valikuid	Receipt options
+1315	Trüki välja	Print out
+1316	Kõikide kliendikontode nimekiri	List of debtor accounts
+1317	Hankijakontode nimekiri	List of creditor accounts
+1318	Määramata	Unlocated
+1319	Telefon	Telephone
+1320	Avatud ese	Open item
+1321	Koondsaldo	Balance B/F
+1322	Lubatud	Enabled
+1323	Aruande grupp 1	Reporting group 1
+1324	Aegumise liik	Age type
+1325	Aruande grupp 2	Reporting group 2
+1326	Müüja	Salesperson
+1327	Kontakt	Contact
+1328	Kuu intress	Monthly interest
+1329	Aruande tüüp	Report type
+1330	Veerised	Margins
+1331	Paberi suurus	Paper size
+1332	Paberi kvaliteet	Paper quality
+1333	Muud	Others
+1334	Vasakul	Left
+1335	Üleval	Top
+1336	Paremal	Right
+1337	All	Bottom
+1338	mm	mm
+1339	Pikkus	Length
+1340	Laius	Width
+1341	Vaikesätted	Default
+1342	Kohandatud	Custom
+1343	Paber	Paper
+1344	Mustand	Draft
+1345	Kiri	Letter
+1346	Klient	Customer
+1347	Vali klient	Select customer
+1348	Vajutage <Esc> akna sulgemiseks	Press <ESC> to close
+1349	Veel maksta	Still to pay
+1350	Kanda võlaraamatusse	Charge to account
+1351	Pangaarve kood	Bank account code
+1352	Tseki number	Cheque number
+1353	Kaardi number	Card number
+1354	Kaardikasutaja nimi	Holder's name
+1355	Kaardi tüüp	Card type
+1356	Aegumise kuupäev	Expiry date
+1357	Kassade müügiaruanded	POS Sales analysis
+1358	Toote kirjeldus	Item description
+1359	Müügikäive	Sales amount
+1360	Summaarne	Totals
+1361	Saldo	Balance
+1362	Muuda hinda	Edit price
+1363	Kasuta seerianumbri otsingut	Use serial number tracking
+1364	Makseviis vaikimisi	Default payment method
+1365	Raha liikumise limiit	Float limit
+1366	Luba raha liikumine	Allow cash float
+1367	Üldine	General
+1368	Seaded	Settings
+1369	Sissekanne	Entry
+1370	Lisaseadmed	Peripherals
+1371	Sissekannete ekraan	Entry screen
+1372	Pearaamat	Ledger
+1373	Trüki kliendi üksikasjad	Print customer details
+1374	Trüki kohaletoimetamise aadress	Print delivery address
+1375	Trüki maksmise üksikasjad	Print payment details
+1376	Müügikonteeringu lausendid	Sales journal entry
+1377	Laekumiste konteeringu lausendid	Receipts journal entry
+1378	Maksete kirjelduste sisestamine	Payment description entry
+1379	Sularahas müügi konto	Cash sales account
+1380	Sularaha ülekande konto	Cash transfer account
+1381	Kontole	Till account
+1382	Lubatud sularaha summa laekas	Max cash in till
+1383	Järgmine number	Next number
+1384	Kasuta POS kirjeid	&Use POS messages
+1385	Kassalaegas ühendatud	Drawer connected
+1386	Vöötkoodilugeja ühendatud	Barcode scanner connected
+1387	Testi kassalaegast	&Test drawer
+1388	Jadapordi seaded	Serial port parameters
+1389	Port	Port
+1390	Ava laegas, et vastu võtta:	Open cash drawer for
+1391	Paralleelport	Parallel port
+1392	Jadaport	Serial port
+1393	Ühenduskiirus	Baud rate
+1394	Andmebitid	Data bits
+1395	Stop bitid	Stop bits
+1396	Paarsus	Parity
+1397	Pordi number	Port number
+1398	Kinnita trükkimine	Confirm printing
+1399	Kasuta esimest printerit	Use first printer
+1400	Kasuta teist printerit	Use second printer
+1401	Teine printer	Second printer
+1402	Esimene printer	First printer
+1403	Testi printereid	&Test printers
+1404	Printeri kontrollimise kood	Printer control code
+1405	Logi sisse	Login
+1406	Sisesta oma salasõna	Enter your password
+1407	Maatriksprinteri paberi seadistamine	Dot-matrix printer paper setup
+1408	Andmete parameetrid	System parameters
+1409	Kassa seaded	POS setup
+1410	Kas&uta arve märkmeid	&Use invoice messages
+1411	Printerid	Printers
+1412	Importimise viga või vale failivorming	Error while importing or invalid file format!
+1413	Kasutaja ei tohi seda vihikut kasutada	User cannot use this journal!
+1414	Kasutamise võimaldamiseks kasuta: Seaded -> Süsteemi parameetrid -> kasutajaõigused	Enable access in 'Setup → Access control'
+1700	Hankijanõuete aegumise analüüs	Creditor age analysis
+1701	Viitenumber	Reference no.
+1702	Tehingute käive kokku	Transaction total
+1703	Summad aruannetele:	Totals for report :
+1704	Kliendinõuete analüüs seisuga	Debtor age analysis as at
+1706	Nr	No.
+1707	Toote kood	Stock code
+1708	Kirjeldus	Description
+1709	Hind	Price
+1710	Kogus	Qty
+1711	Allahindlus	Discount
+1712	Summa	Amount
+1713	Sisse/Väljamaks	Float movement
+1714	Sularahaarve kanne	Point-of-Sale invoice entry
+1715	Laekast välja	&Out of the drawer
+1716	Laekasse	&Into the drawer
+1717	Klient	Customer
+1718	Müüja:	Salesperson:
+1719	Kande nr	Reference
+1720	Kliendi vaikekonto on häälestamata, palun tee seda nüüd.	Default customer account not setup! Please setup!
+1721	Uus arve	New invoice
+1722	Arve %s (maksekaart)	Inv. %s (Credit Card)
+1723	Arve %s (ülekandega)	Inv. %s (Account)
+1724	Arve %s (kinkekaardiga)	Inv. %s (Voucher)
+1725	Arve %s (tshekiga)	Inv. %s (Cheque)
+1726	Arve %s (sularahas)	Inv. %s (Cash)
+1727	(Maksekaart)	(Credit Card)
+1728	(Ülekandega)	(Account)
+1729	(Kinkekaart)	(Voucher)
+1730	(Tsekk)	(Cheque)
+1731	(Sularaha)	(Cash)
+1732	Kaardi number:	Card number:
+1733	Kaardivaldaja nimi:	Holder name:
+1734	Kaardi tüüp:	Card type:
+1735	Kehtiv kuni:	Expiry date:
+1736	Kas tahad sulgeda ja tühistada jooksva arve?	Do you want to close and cancel this invoice now?
+1737	Ilma vaikeseadeta ei saa töötada	Cannot run without default!
+1738	Sulgen arvete koostamise akna ja kannan läbi kõik arved, mille on koostanud...	This will close the invoice entry screen and post all POS invoices for ...
+1739	Tagasiantav raha	Change to give back.
+1740	Täname!	Thanks.
+1741	Lõpetan vahetuse ja kannan kõik arved sisse!	Closing shift and posting all invoices
+1742	Kannan dokumendi läbi	Posting document
+1743	Kassaprinteri TEST	Till slip PRINTER TEST
+1744	Vasakjoondus	Left alignment
+1745	Keskjoondus	Centre alignment
+1746	Paremjoondus	Right alignment
+1747	3 tühja rida	3 Blank lines
+1748	Üles 3 tühja rida?	Up 3 blank lines ?
+1749	<@APPNAME@> till test	<@APPNAME@> till test
+1750	Kassaaruanne	&Cash up
+1751	Viimase arve ko&rdustrükk	&Reprint last invoice
+1752	Vahetuse &lõpetamine	Cl&ose shift
+1753	Neto/Brutohinna valik	Incl./Excl. mode
+1754	Aruanne	&Report
+1755	Laeka avamine	&Open drawer
+1756	Muuda varjunime	Change alias (journal name)
+1757	Vastandkanne	Reverse journal (D<-->C)
+1758	Kinnitatud andmete import	Posted journals import
+1759	Kassa (POS)	Point-of-Sale
+1760	Otsi	Search
+1761	A&ruannete kujundaja	&Report designer
+1762	&Standartne	&Standard
+1763	Otsi	Search
+1764	Uus toode	New item
+1765	Kustuta toode	Delete item
+1766	Täpsem	&Advanced
+1767	Kohandamine	Adjustment
+1768	Keskmine ja Viimane hind	Ave && latest cost
+1769	Kogus ja Keskmine hind	Qty && ave cost
+1770	Müügihinnad	Selling prices
+1771	Lao algsaldo	Stock take-on
+1772	Kood	Stock code
+1773	Kirjeldus	Description
+1774	Vöötkood	Barcode
+1775	Ühik	Unit
+1776	Kogused	Quantities
+1777	Laos	On hand
+1778	Kordustellimus	Reorder
+1779	Kogus ja viimane hind	Qty && latest cost
+1780	Müügihind 1	Selling price1
+1781	Müügihind 2	Selling price2
+1782	Müügihind 3	Selling price3
+1783	Kulud	Cost
+1784	Keskmine kulu	Avg. cost
+1785	Ühiku kulu	Unit cost
+1786	Allahindlus	Discount
+1787	Sisend	Input
+1788	Väljund	Output
+1789	Käibemaksu kontod	Tax accounts
+1790	Pearaamatu kontod	General ledger accounts
+1791	Kulud	Cost
+1792	Müük	Sales
+1793	Ladu	Stock
+1794	Aruande grupp	Reporting group
+1795	Aruande grupp 2	Reporting group2
+1796	Aruande grupp	Reporting group
+1797	Kasuta tabelarvutuse faili	Use spreadsheet file
+1798	Loo tehingud	Generate transactions
+1799	Kasuta protsendimäära	Use percentage
+1800	Kõigile esemetele	To all items
+1801	Vöötkood	Barcode
+1802	Kuupäev	Date
+1803	Tootekoodi muutmine mõjutab kõiki selle tootega seotud aruandeid	Changing the stock code will result in all reports to use this code!
+1804	Oled Sa kindel, et soovid koodi muuta?	 Are you sure you want to change the code?
+1805	Pluginad	Plugins
+1806	Loon uut andmestikku...	Creating Set of Books...
+1807	Loon vajalikke kontosid	Creating required accounts...
+1808	Loon vajalikke kontosid (hankijate koondkonto)...	Creating required accounts (Creditors control)...
+1809	Hankijate koondkonto	Creditors control
+1810	Loon vajalikke kontosid (klientide koondkonto)...	Creating required accounts (Debtors control)...
+1811	Klientide koondkonto	Debtors control
+1812	Loon vajalikke kontosid (jaotamata kasum)...	Creating required accounts (Retained earnings)...
+1813	Jaotamata kasum	Retained earnings
+1814	Valmis!	Finished!
+1815	Määra kontrollkontod ja ettevõtte seaded ning parameetrid	Set control accounts number and company setting and parameters
+1816	Anna uuele raamatupakile nimi!	Enter the name of new Set of Books
+1817	Vali kopeeritav andmestik:	Set of Books to copy :
+1818	Vana andmestik konverteerimiseks:	Old Set of Books to convert :
+1820	&Sirvi	&Browse
+1821	Kirjutan kontoplaani...	Creating set of accounts...
+1822	Kas soovid määrata aruandeperioodide arvu majandusaastas ning majandusaasta alguse?	Accounting periods setup
+1823	Kas soovid muuta konteeringute liike?	Journal types setup
+1824	Kas soovid muuta gruppide seadistust?	Groups setup
+1825	Kas müüd kaupu laost?	Documents setup
+1826	Lisa müüja	Add salespersons
+1827	Millist andmestikku kopeerida:	Set of Books copied!
+1828	Nimi:	Name :
+1829	Asukoht:	Location :
+1831	Konverteerin andmestikku...	Converting Set of Books...
+1832	Rea nr	Item no.
+1833	Kontode grupid	Account groups
+1834	Klientide grupid	Debtor groups
+1835	Hankijate grupid	Creditor groups
+1836	Tootegrupid	Stock
+1837	Dokumentide jaotus	Document groups
+1838	Grupp1	Group1
+1839	Grupp2	Group2
+1840	Uus	New
+1841	Muuda	Edit
+1842	Kustuta	Delete
+1843	Nihuta üles	Move up
+1844	Nihuta alla	Move down
+1845	Aruandegrupi nimi:	Reporting group name:
+1846	Grupid	Groups
+1847	ARUANNETE GRUPI TÜVI	REPORTING GROUP ROOT
+1848	Kategooria puul on oksad, mis tuleb kustutada esimestena!	There are subnodes delete subnodes first!
+1849	Kustutan summasid...	Clearing totals...
+1850	Kustutan tehinguid...	Clearing transactions...
+1851	Kustutan laotehinguid...	Clearing stock transactions...
+1852	Kustutan laoinfot...	Clearing stock information...
+1853	Kustutan dokumendikäivet...	Clearing document transactions...
+1854	Kustutan konteeringute infot...	Clearing journal information...
+1855	Uus grupp	New group
+1856	Praegune	Current
+1857	30 päeva	30 days
+1858	60 päeva	60 days
+1859	90+ päeva	90+ days
+1860	Kirjeldus	Description
+1861	Tellimus	Order
+1862	Toimetamine	Ship
+1863	Maks	Tax
+1864	Netosumma	Excl. amt.
+1865	Allah %	Disc%
+1866	Brutosumma	Incl. amt.
+1867	Konteeringu nimi	Journal name
+1868	Korrespodeeriv konto	Contra account
+1869	Dokumendi liik	Document type
+1870	Pakkumised	Quotes
+1871	Tellimused	Orders
+1872	&Lisa valitud	&Add selected
+1873	&Eemalda	&Remove
+1874	Kinnita pakkumised ja tellimused	Confirm quotes and orders
+1875	Kuupäev	Date
+1876	Konto	Account
+1877	Kinnitatud	Confirmed
+1878	K&onverteeri	C&onvert
+1879	Vali kuupäev	Select date
+1880	Ot&si	&Search...
+1881	Seos	Link
+1882	Töötle	Process
+1883	Aruanne	Statement
+1884	Üle 90 päeva	Over 90 days
+1885	Tasumata	Due
+1886	Arve ajalugu	Invoice history
+1887	Arved kordamiseks	Invoices to repeat
+1888	Genereeri	Generate
+1889	Otsi arve numbri järgi	Search by invoice number
+1890	Lisa kõik	Add all
+1891	Kordame	Repeating
+1892	Määrga märgitutele	Apply to selection
+1893	Määra kõigile	Apply to all
+1894	Asenda teade	Replace message with
+1895	Määra uus arve kordusarvena	Set new invoice as repeating
+1896	Lisa kommentaaririda	Add this comment line
+1897	Juurdepääsukontroll	Access control
+1898	Tavaline turvalisus	Standard security
+1899	Kasutaja nimi	Username
+1900	Kasutaja e-post	User e-mail
+1901	Juurdepääs aruandlusele	Reports access
+1902	GL aruanded	General ledger reports
+1903	Juurdepääs konteeringutele	Journals access
+1904	Vali blokeeritav konto	Select accounts to block
+1905	Teised	Others
+1906	Muuda kontosid	Edit accounts
+1907	Muuda ladu	Edit stock
+1908	Muuda kasutaja aruannet	Edit user report
+1909	Uus kasutaja	New user
+1910	Kujundusfail	Layout file
+1911	Lehekülje seaded	&Page setup
+1912	Finantskategooriad	Financial categories
+1913	Vali kategooriad ning paiguta need sobivate gruppide alla!	Select categories and allocate appropriate groups
+1914	Kapital	Capital
+1915	Kulud	Expenses
+1916	Tulud	Income
+1917	Kohustused	Liabilities
+1918	Trüki kapital enne kohustusi	Print Capital before Liabilities
+1919	Trüki kohustused enne kapitali	Print Liabilities before Capital
+1920	Trüki tulud enne kulusid	Print Income before Expenses
+1921	Trüki kulud enne tulusid	Print Expenses before Income
+1922	Grupid	Groups
+1923	Kannan üle	Transfering
+1924	Pank	Bank
+1925	Käibemaks	Tax
+1926	Pangakonto lausend pole korralikult seadistatud.	Bank account journals not setup correctly!
+1927	Maksed -	Payment
+1928	Ei saa kanda tehinguid kontole, millel on alamkontod	Cannot post transactions to an account which has sub-accounts!
+1929	Töötle	Process
+1930	Maksja:	Receiving from
+1931	Trüki kviitung	Print receipt
+1932	Kellele	To
+1933	Kontolt	From account
+1934	Kontole	To account
+1935	Konto liik	Account type
+1936	Määra kiirkäsud	Set an abbreviation
+1937	Vajuta klahvi, millele soovid kiirkäsu määrata	Push the key you want to assign an abbreviation to
+1938	T&rüki nimekiri	&Print list
+1939	Sisesta lühend:	Type in the abbreviation :
+1940	Interneti seaded:	Internet setup
+1941	E-posti aadress:	E-mail account :
+1942	Mailiserver:	Server name
+1943	Kasutaja ID:	User id
+1944	Võrguserver (andmete ülekanne):	Network server (data replication)
+1945	Serveri nimi	Server name
+1946	või IP-aadress	or IP address
+1947	&Testi võrguserverit	&Test net server
+1948	Kontrollin %s serveris %s	Verifying %s on server %s
+1949	kontrollitud	verified
+1950	ei kinnitanud. Test ebaõnnestus.	not verified! Test failed!
+1951	<@APPNAME@> Aruandekirja saatja %s e-posti konto %s	<@APPNAME@> Report mail sender %s e-mail account %s
+1952	Ei leidnud mailiserverit...	E-mail server not found...
+1953	Ühendatud	Connected.
+1954	e-kirja test toimub...	E-mail test in progress...
+1955	Test õnnestus! Side toimib	Test finished! Success!
+1956	Side ei toimi.	Connection failed!
+1957	Üldine e-posti viga	General e-mail failure!
+1958	Ühendus katkestatud...	Disconnected...
+1959	Autentimine ebaõnnestus.	Authentication failed!
+1960	Testin: %s baiti %s st.	Test in progress :%s bytes out of %s
+1961	! Ühenduse test alustatud	Connection test started!
+1962	Vale server	Invalid server!
+1963	Võrguserver leitud	Net server resolved!
+1964	Ühendan %s	Connecting to %s
+1965	Kasutaja testimine serveril	User testing on server
+1966	Serveriga ei ünnestunud ühendust luua	Server connection failed!
+1967	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.
+1968	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.
+1969	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!
+1970	Ainult 1 ja 13 vahele jäävad perioodid on lubatud!	Only periods between 1 and 13 are allowed!
+1971	Kas soovid salvestada need muudatused?	Do you want to save these changes ?
+1972	Salasõna	User password
+1973	Kuupäev	Date
+1974	Kande nr	Reference
+1975	Kande nr	Payment reference
+1976	Summa	Number
+1977	Maksmata	Outstanding
+1978	Sisesta summa	Enter amount
+1979	Avatud objektide valik	Open item selection
+1980	Kasutaja salasõna	User password
+1981	Tasakaalusta alati	Always balance
+1982	Käibemaksuvaba	No tax
+1983	Ei ole avatud eseme konteering	Not open item journal
+1984	Pööratud kontrakonto	Reverse contra
+1985	Pea meeles kontrakonto KM	Remember tax on contra account
+1986	Jäta kontrakonto meelde	Remember contra on account
+1987	Erikontod	Special ledgers
+1988	Otsitava konto liik	Account lookup type
+1989	Otsitava kontrakonto liik	Contra account lookup type
+1990	Standartne	Standard
+1991	Täpsem	Advanced
+1992	Kogus ja Viimane hind	Qty && latest cost
+1993	Kannan läbi: %s %s st	Posting: %s of %s
+1994	MÜÜGIKULUD	COST OF SALES
+1995	COS*DOC*	COS*DOC*
+1996	Kontrollin konteeringuid...	Checking journal entries ...
+1997	Uuendan summasid...	Updating totals
+1998	Dokumendid	Documents
+1999	Ladu	Stock
+2000	Kliendid	Debtors
+2001	Kontod	Accounts
+2002	Hankijad	Creditors
+2003	Kinnitatud kanded	Posted journal
+2004	Ekspordi	Export to:
+2005	Faili tüüp	File type
+2006	Eksporditava faili nimi	Export files name
+2007	Faili nimi	File name
+2008	Logifail	Log file
+2009	Vahemik	Range
+2010	Alates	From
+2011	Kuni	To
+2012	Kuupäevade vahemik	Date / Period
+2013	&Ekspordi	&Export
+2014	&Impordi	&Import
+2015	Fail importimiseks	File to import
+2016	Päised	Headers
+2017	Read	Lines
+2018	Impordi:	Import from:
+2019	Vaata faili	View file
+2020	Andmete importimise nõustaja:	Import data wizard
+2021	Impordi andmeid <@APPNAME@>	Import data into <@APPNAME@>
+2022	Andmefaili import lõpetatud	Data file import completed!
+2023	Faili vormingut polnud võimalik impordiks kasutada	Import file format not implemented!
+2024	Valik kuupäeva alusel	Sort by date
+2025	Palun vali mis tüüpi andmeid on vaja importida	Please select the type of data you want to import
+2026	Imporditavate andmete tüüp	Data type to import
+2027	Failivorming	File format
+2028	Klõpsates nupul "Import" alustad toimingu	You can now click on [Import] to start the process.
+2029	Muuda aliast	&Change alias
+2030	Palun oota...	Please wait...
+2031	Töötlen	Processing
+2032	st	of
+2033	Muuda ettevõtte andmeid	Change company info
+2034	Avatud objekti valik	Open item selection
+2035	Avan laeka	Opening drawer
+2036	<@APPNAME@> Arve	<@APPNAME@> Invoice
+2037	Arve-Saateleht	TAX INVOICE
+2038	Tel.	Tel.
+2039	Faks	Fax.
+2040	GSM	Cel.
+2041	SULARAHA	CASH
+2042	Tagasi	Change
+2043	Käibemaks	TAX-AMT
+2044	18.00%	15.00%
+2045	Kassiiri nimi:	Cashier name :
+2046	Kliendikood	Number
+2047	Nimi	Last name
+2048	Kontakt	Contact
+2049	Toimetamise aadress	Delivery address
+2050	Kommentaarid	Comments
+2051	* tähistab käibemaksuvaba toodet	*Indicates non-TAX item
+2052	Esemeid	Items
+2053	Tasuda	Due
+2054	Kanne on lukustatud teise kasutaja poolt! Palun proovi uuesti!	Record locked by other user! Please try again!
+2056	Trüki arve	Use invoice print
+2057	Vabu ridu väljatrüki lõpus	Bottom feed lines
+2058	Kassamüügi aruanne	POS Cash up
+2059	Ei saa uut numbrit! Toiming on lukustatud, proovi hiljem!	Cannot get new number! Record is locked! Try again later!
+2060	Loon pangabroneeringuid	Generate bank bookings
+2061	Kontoväljavõtte tehingud	Bank statement transactions
+2062	Arvutan saldosid...	Generating balances ...
+2063	Otsin tasumata saldosid	Allocating outstanding balances
+2064	Arvutan aega...	Ageing ...
+2065	Loon andmestikku...	Creating Set of Books...
+2066	Konsolideerin	Consolidating
+2067	Tasakaalustan	Balancing
+2068	Impordi laokaupa	Importing stock items
+2069	Loe Lotuse faili	Reading spreadsheet file
+2070	Impordi kontod	Importing accounts
+2071	Ekspordi tehingud	Exporting transactions
+2072	Ekspordikliendid	Exporting debtors
+2073	Impordi lattu tooteid	Importing stock items
+2074	Ekspordi kontoplaan	Exporting chart of accounts
+2075	Ekspordi kontod	Exporting accounts
+2076	Impordi dokumente	Importing documents
+2077	Ekspordi dokumente	Exporting documents
+2078	Ekspordi CSV failiks	Exporting to CSV file
+2079	Ekspordi Lotus failiks	Exporting to spreadsheet file
+2080	Ekspordi OpenOffice Arvutustabeli failiks	Exporting to OpenOffice spreadsheet file
+2081	Ekspordi SYLK SpreadSheet failiks	Exporting to SYLK spreadsheet file
+2082	Ekspordi MS Excel failiks	Exporting to MS Excel file
+2083	Valmistan nimekirja	Preparing list
+2084	Tühista läbikantud vihik / dokument	Reverse posted journal/document
+2085	Alias	Alias (journal name)
+2086	Tühista läbikantud vihik	Reverse posted journal
+2087	Tühista läbikantud dokument	Reverse posted document
+2088	Ridade arv	Line count
+2089	Dok. nr.	Doc. no.
+2090	Kasuta numbreid	Use numbers
+2091	Kasuta ajavahemikke	Use periods
+2092	Näita kontrakontot	Show contra
+2093	Kaasa arvatud läbikandmata tehingud	Including unposted items
+2094	Soovid määrata selle saldo algsaldoks?	Do you wish to use the current balance as opening balance?
+2095	Sa ei saa koostada aruannet alates %s kuni %s	You cannot report from %s to %s !
+2096	Kannet muudeti. Kas soovid selle uuesti läbi kanda ja kinnitada?	A record was edited! Do you wish to post you data?
+2097	Vaba raha liikumine on keelatud!	Float transfer not allowed!
+2098	Sul on kliendilt saada veel %s. Letimüügil ei saa klient võlgu jääda!	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!
+2099	Aruande kujundus puudub!	Report layout file not found!
+2100	Uue nime salvestamiseks klõpsa "OK"!	Click on [OK] to save new name
+2101	Üldnumbrid	General numbers
+2102	Kinnita dokumendid trükkimisel automaatselt.	Auto-post documents on print
+2103	Kohanda	&Customise
+2104	Andmete replikatsioon	&Update server
+2105	Versioon:	Version :
+2106	kogus	Number
+2107	Näita füüsilist aadressi	Show contact details
+2108	Alates kuupäevast	From date
+2109	Vali raamatupaki asukohakaust	Select Set of Books directory
+2110	Otsi kausta	Browse for folder
+2111	Iseavanev exe-fail	Executable exe file
+2112	Saada varundatud andmed e-postiga	E-mail backup
+2113	Taasta serverist	Restore from server
+2114	<@APPNAME@> vali varukoopia fail	<@APPNAME@> select backup file
+2115	Kontonumbrid	Account digits
+2116	Ettevõtte andmestiku nimi	Name of Set of Books
+2117	Rada	Path
+2118	Paki sõnumifail kokku	Compress message file
+2119	Muuda kood	Change code
+2120	Koodi muutmine muudab kõiki aruandeid, kus seda koodi on kasutatud.	Changing the stock code will result in all reports to use this code!
+2121	Oled kindel, et tahad seda koodi muuta?	Are you sure you want to change the code?
+2122	Uus tootekood.	New stock code
+2123	Kood	Code
+2124	Laoinfo	Stock information
+2125	Kinnita kõik	Update all
+2126	TASAKAALUSTUSKANNE	BALANCING ENTRY
+2127	Paranda deebetit / kreeditit	Correct Debit/Credit
+2128	Summad perioodide lõikes	Totals for each period
+2129	Lisa kirjeldusele	Add this to descriptions
+2130	Uus kande nr	New reference
+2131	Töötle	Process
+2132	&Tehingu kuupäev	&Date for transactions
+2133	&Kontrakonto	&Contra account
+2134	Kirjeldu&s	De&scription
+2135	Kuni kliendini (summa alusel)	To debtors for (amount)
+2136	Klientideni, kelle saldo on väiksem kui	To debtors with a balance less than (amount)
+2137	Maksega viivitatud päevade arv	Number of days overdue
+2138	Loo liitlausend	Generate multiple transactions
+2139	Alates kliendist:	From debtor
+2140	:	To:
+2141	%s %s st %s viivis %s	%s %s of %s overdue on %s
+2142	Saldo	Bal
+2143	Loenda	Count :
+2144	Kasuta A5 paberit	Use A5 size
+2145	ja	and
+2146	Null	Zero
+2147	Panga saldo	Bank balance at
+2148	<@APPNAME@> andmetel:	According to <@APPNAME@>:
+2149	SALDO SEISUGA	BALANCE AT
+2150	laojääk	items on hand
+2151	Sisesta üldine allahindlus	Enter overall discount
+2152	Kreeditarve	Credit note
+2153	Ostuarve	Purchases
+2154	Tagastatud kaubad	Supplier returns
+2155	Arve	Invoice
+2156	Arve summad:	Invoice totals :
+2157	Kr arve summad:	Credit note totals :
+2158	Klientide käibed:	Customer totals :
+2159	Müügi analüüs: Müük klientide lõikes	Sales analysis - Sales per customer
+2160	Ostuarvete summad:	Purchase totals :
+2161	Tagastuste summad:	Supplier return totals :
+2162	Hankijate käibed:	Supplier totals :
+2163	Müügianalüüs - soetused hankijate lõikes	Purchase analysis - Purchases per supplier
+2167	Otsi arve numbri järgi:	Search by invoice no.
+2168	Määra andmestiku asukoht	Set of Books location :
+2169	Pakkumine	Quote
+2170	Tellimus	Order
+2171	Kasuta kande nr	Use reference
+2172	Sisesta saldo arvutamise valikud	Generate Balance B/F options
+2173	Seoste kustutamise valikud	Clear links options
+2174	Kliendiarvete kuupäevade alusel	By debit dates
+2175	Kaasa info alates	Include items since
+2176	tänane kuupäev	Current date
+2177	Käibemaksusumma leitud, kuid maksukonto puudub	Tax amount found but tax account is deleted!
+2178	MÜÜGIKULUD	COST OF SALES
+2179	Päev	Day
+2180	N	N
+2181	Kliendist:	From debtor
+2182	Kliendini:	To debtor
+2183	Impordin: %s %s st	Importing : %s  of %s
+2184	Impordi kliendid / hankijad	Importing debtors/creditors...
+2185	Minu kirjeldus	My description
+2186	Kontoväljavõtte sissekandmise valikud	Bank statement options
+2187	(Dok.)	(Doc.)
+2188	Otsin läbikandmata kirjeid	Checking unposted items
+2189	Ainult läbikandmata	Unposted only
+2190	Iga vihik eraldi	Each journal separately
+2191	Näita üksikasju	Show details
+2192	Prindin	Printing on
+2193	Teksti nummerdamine Hollandi moel	Dutch text numbering
+2194	Kasuta valuuta sümbolit	Use currency sign
+2195	Märk	Digit symbol
+2196	Koma tähis	Decimal symbol
+2197	Rezhiim	Mode
+2198	Arved / Raamatupidamine	Invoice/Accounting
+2199	Raamatupidamine	Accounting
+2200	Letimüük (POS)	Point-of-Sale
+2201	Muuda kliendi andmeid	Edit debtors
+2202	Muuda hankijate andmeid	Edit creditors
+2203	Muuda käibemaksuseadeid	Edit tax
+2204	Muuda pangaseadeid	Edit bank
+2205	Vaata kõiki väljavõtteid	Manual bank reconciliation
+2206	Aadress2	Address 2
+2207	Aadress3	Country
+2208		11 Proof
+2209	Kohustuslik / Vaikimisi	Arbitrair
+2210	Pangaarve liik	Bank account type
+2211	Arveldusarve nr	Bank account no.
+2212	Maksa hankijatele	Automatic payments
+2213	Maksepäev	Payment date
+2214	Clieop (Hollandis)	Create Clieop file
+2215	Makse pangakontolt	Payment bank account
+2216	Maksa tehing	Pay transaction
+2217	Salvesta fail	Save file
+2218	Kliendikood	Debtor code
+2219	Hankija kood	Creditor code
+2220	Aadress	Address
+2221	Makseaeg päevades	Due days
+2222	Maksmise kuupäev	Due date
+2223	Kustuta märgistus kõigil	Uncheck all
+2224	Kustuta märgistus valitutelt	Uncheck selected
+2225	Märgista valitud	Check selected
+2226	Hankijate maksete aruanne	Creditor payment report
+2227	Kokku ridu	Total rows
+2228	Kogusumma	Total amount
+2229	Arveldusarve kontrollsumma	Checksum bank accounts
+2230	Sisesta aruande viide	Enter statement reference
+2231	Aruande viide	Statement reference
+2232	Maksed	Payments
+2233	Laekumised	Receipts
+2234	Viimane summa	Last total
+2235	Viimasena sisestatud aruanne	Last entered statement
+2236	^D : Kustuta aruanne	^D : Delete statement
+2237	Kustuta rida	Delete line
+2238	Impordi pangaväljavõte	Import bank statement
+2239	11 Tõend	11 Proof
+2240	Tshekk ei sobi	No check
+2241	Maksepäevad	Due days
+2242	Valiku alus	Sort
+2243	J	Y
+2244	E	N
+2245	N	T
+2246	V	F
+2247	K	Wy
+2248	Kustuta	Delete
+2249	Seda pole praegu võimalik rakendada	This feature is not implemented at this time!
+2250	Viga: Vale kuupäev	Error: Invalid date!
+2251	Windows'i taimer pole kättesaadav	No Windows timers are available!
+2252	Vigane käivituskäsk	Invalid trigger handle!
+2253	Kausta info muutmine	Folder items editor.
+2254	Kaustade muutmine	Folder editor
+2255	Kattub teise olulise sündmusega!	Conflicts with another exclusive event!
+2256	Lõpuaeg ei saa olla enne algusaega	The end time cannot precede the start time!
+2257	Andmete kirjutamine baasi ebaõnnestus	Error: Posting data to the database!
+2258	Kuu numbri konverteerimne ebaõnnestus	Error converting the month number!
+2259	Viga: vale päev	Error: Invalid day!
+2260	Viga: kontaktkirje loomine ebaõnnestus	Error: Failure while creating contact!
+2261	Viga: vale kuu	Error: Invalid month!
+2262	Viga: vale kuu nimi	Error: Invalid month name!
+2263	Viga: vale aasta	Error: Invalid year!
+2264	Viga: päev on kohustuslik	Error: Day is required!
+2265	Viga: kuu on kohustuslik	Error: Month is required!
+2266	Viga: aasta on kohustuslik	Error: Year is required!
+2267	Viga: nimi ei saa tühjaks jääda	Error: Name cannot be empty!
+2268	Viga: viga ülesande loomisel	Error: Failure while creating task!
+2269	Viga: viga sündmuse loomisel	Error: Failure while creating event!
+2271	Viga: viga ressursi loomisel	Error: Failure while creating resource!
+2272	Viga: dubleeriv kanne	Error: Duplicate resource!
+2273	Viga: pöördub vale tabeli poole	Error: Invalid table specified!
+2274	Viga: ei saa avada	Error: Unable to open!
+2275	Viga: ei saa uuendada	Error: Unable to update!
+2276	Sekretär	Assistant
+2277	Helista tagasi	Callback
+2278	Auto	Car
+2279	Firma	Company
+2280	Kodu	Home
+2281	Kodune faks	Home fax
+2282	ISDN	ISDN
+2283	Mobiil	Mobile
+2284	Muu	Other
+2285	Muu faks	Other fax
+2286	Piipar	Pager
+2287	Esmane	Primary
+2288	Raadio	Radio
+2289	Teleks	Telex
+2290	TTY/TDD	TTY/TDD
+2291	Töö	Work
+2292	Töö faks	Work fax
+2293	Äri	Business
+2294	Kliendid	Clients
+2295	Perekond	Family
+2296	Isiklik	Personal
+2297	Muu	Other
+2298	Nädal	Week of
+2299	Läbi	Through
+2300	pühapäev	Sunday
+2301	esmaspäev	Monday
+2302	teisipäev	Tuesday
+2303	kolmapäev	Wednesday
+2304	neljapäev	Thursday
+2305	reede	Friday
+2306	laupäev	Saturday
+2307	pühap	Sun
+2308	esmasp	Mon
+2309	teisip	Tue
+2310	kolmap	Wed
+2311	neljap	Thu
+2312	reede	Fri
+2313	laup	Sat
+2314	P	S
+2315	E	M
+2316	T	T
+2317	K	W
+2318	N	T
+2319	R	F
+2320	L	S
+2321	Mitte ükski	None
+2322	Iga päev	Daily
+2323	Iga nädal	Weekly
+2324	Iga kuu kindlal päeval	Monthly by day
+2325	Iga kuu kindlal kuupäeval	Monthly by date
+2326	Iga aasta kindlal päeval	Yearly by day
+2327	Iga aasta kindlal kuupäeval	Yearly by date
+2328	Kohandatud	Custom
+2329	Minutid	Minutes
+2330	Tunnid	Hours
+2331	Päevad	Days
+2332	Seda toimingut ei saa tühistada!	This operation cannot be undone!
+2333	sinu kontaktide nimistust?	from your list of contacts?
+2334	Lisa kontakt...	Add contact...
+2335	Muuda kontakti andmeid...	Edit contact...
+2336	Kustuta kontakt...	Delete contact...
+2337	sinu päevaplaanist?	from your schedule?
+2338	sinu ülesannete nimekirjast?	from your task list?
+2339	Lisa ülesanne...	Add task...
+2340	Muuda ülesannet...	Edit task...
+2341	Kustuta ülesanne...	Delete task...
+2342	Ülesannete loetelu -	Task list -
+2343	Ülesannete loetelu	Task list
+2344	Täna	Today
+2345	Järgmisel kuul	Next month
+2346	Eelmisel kuul	Previous month
+2347	Järgmisel aastal	Next year
+2348	Eelmisel aastal	Previous year
+2349	Lisa sündmus...	Add event...
+2350	Muuda sündmust...	Edit event...
+2351	&Kustuta sündmus...	&Delete event...
+2352	Muuda kuupäeva	Change date
+2353	Täna	Today
+2354	Järgmine nädal	Next week
+2355	Eelmine nädal	Previous week
+2356	Järgmine kuu	Next month
+2357	Eelmine kuu	Previous month
+2358	Järgmine aasta	Next year
+2359	Eelmine aasta	Previous year
+2360	Eelmine lehekülg	Previous page
+2361	Järgmine lehekülg	Next page
+2362	Esimene leheülg	First page
+2363	Viimane lehekülg	Last page
+2364	Lisa sündmus...	Add event...
+2365	Muuda sündmust...	Edit event...
+2366	Kustuta sündmus...	Delete event...
+2367	Muuda kuupäeva	Change date
+2368	Täna	Today
+2369	Homme	Tomorrow
+2370	Eile	Yesterday
+2371	Järgmine päev	Next day
+2372	Eelmine päev	Previous day
+2373	Järgmine nädal	Next week
+2374	Eeelmine nädal	Previous week
+2375	Järgmine kuu	Next month
+2376	Eelmine kuu	Previous month
+2377	Järgmine aasta	Next year
+2378	Eelmine aasta	Previous year
+2379	Täna	Today
+2380	Homme	Tomorrow
+2381	Eile	Yesterday
+2382	Järgmine nädal	Next week
+2383	Eelmine nädal	Previous week
+2384	Ametikoht	Position
+2385	Firma	Company
+2386	Tiitel	Title
+2387	E-post	E-mail
+2388	Riik	Country
+2389	Kategooria	Category
+2390	Märkused	Notes
+2391	Kohandatud 1	Custom 1
+2392	Kohandatud 2	Custom 2
+2393	Kohandatud 3	Custom 3
+2394	Kohandatud 4	Custom 4
+2395	Kinnita	OK
+2396	Tühista	Cancel
+2397	&Sulge	&Close
+2398	&Trüki	&Print
+2399	Pealkirjata	Untitled
+2400	Vali heli	Select a sound
+2401	Helileidja	Sound finder
+2402	Kasuta eelvalitud heli	Use default sound
+2403	Üritus	Event
+2404	Kohtumine	Appointment
+2405	Teema:	Subject
+2406	Kategooria:	Category
+2407	Algab kell:	Start time
+2408	Lõpeb kell:	End time
+2409	&Meeldetuletaja	&Reminder
+2410	Kohtumise kordumine:	Appointment recurrence
+2411	Intervall (päevades):	Interval (days)
+2412	Kordub kuni:	Repeat until
+2413	&Kogu päeva kestev sündmus	&All day event
+2414	Märkused:	Notes
+2415	Kontakt	Contact
+2416	Nimi:	Name
+2417	Tiitel:	Title
+2418	Aadress:	Address
+2419	Linn:	Address 2
+2420	Maakond:	Address 3
+2421	Riik:	Country
+2422	Postiindeks:	Postal code
+2423	Firma	Company
+2424	Amet:	Position
+2425	Trüki eelvaade	Print preview
+2426	Ülesanne	Task
+2427	Tähtaeg:	Due date
+2428	Üksikasjad:	Details
+2429	Ülesanne täidetud	Task complete
+2430	Hilinenud päevi	Days overdue
+2431	Ülesande andmise päev	Created on
+2432	Ülesande lõpetamise päev	Completed on
+2433	Meeldetuletus	Reminder
+2434	HILINEB!	OVERDUE!
+2435	Klõpsa &Tukasta ning saad uue meeldetuletuse:	Click [&Snooze] to be reminded again in:
+2436	Teema:	Subject
+2437	Märkused:	Notes
+2438	&Lõpeta	&Dismiss
+2439	&Tukasta	&Snooze
+2440	&Ava	&Open item
+2441	5 minutit	5 minutes
+2442	10 minutit	10 minutes
+2443	15 minutit	15 minutes
+2444	30 minutit	30 minutes
+2445	45 minutit	45 minutes
+2446	1 tund	1 hour
+2447	2 tundi	2 hours
+2448	3 tundi	3 hours
+2449	4 tundi	4 hours
+2450	5 tundi	5 hours
+2451	6 tundi	6 hours
+2452	7 tundi	7 hours
+2453	8 tundi	8 hours
+2454	1 päev	1 day
+2455	2 päeva	2 days
+2456	3 päeva	3 days
+2457	4 päeva	4 days
+2458	5 päeva	5 days
+2459	6 päeva	6 days
+2460	1 nädal	1 week
+2461	eelmine kuu	Previous month
+2462	järgmine kuu	Next month
+2463	eelmine aasta	Previous year
+2464	järgmine aasta	Next year
+2465	Täna	Today
+2466	Pööra ümber	Revert
+2467	Täna	Today
+2468	Järgmine kuu	Next month
+2469	Eeelmine kuu	Previous month
+2470	Järgmine aasta	Next year
+2471	Eelmine aasta	Previous year
+2472	Pööra ümber	Revert
+2773	Ei saa avada WININET, Microsoft IE nõutav	Cannot open WININET! Microsoft IE required!
+2774	Faili ei saa avada	Unable to open file!
+2775	Ei leidnud faili %s	File %s could not be found!
+2776	Ei saa jagada mälu XML-allikale.	Unable to allocate memory for XML source!
+2777	Http - päring ebaõnnestus	HTTP read request failed!
+2778	Http andmed pole kättesaadavad	HTTP data not available!
+2779	Ei saa saata http-päringut	Unable to send HTTP request!
+2780	Ei saa avada http-päringut	Unable to open HTTP request!
+2781	Internetiühenduse loomine ebaõnnestus	Unable to make Internet connection!
+2782	Internetiühenduse avamine ebaõnnestus	Unable to open Internet!
+2783	See ei ole õige ftp aadress	Invalid FTP location!
+2784	See ei ole õige ftp kaust	Invalid FTP directory!
+2785	Ftp päring nurjus	FTP read request failed!
+2786	Ftp andmed pole kättesaadavad	FTP data not available!
+2787	Ei saa avada ftp failil	Unable to open FTP file!
+2788	Faili salvestamine FTP abil asukohta %s luhtus!	Could not save file via FTP to %s
+2789	Allikat pole võimalik avada	Unable to load source!
+2790	Vigane mälu osutaja	Invalid memory pointer!
+2791	Rida: %d Veerg: %d Viga: %s	Line: %d Col: %d Error: %s !
+2792	VIGA. INDEKS ON VÄLJASPOOL LUBATUD PIIRE	ERROR INDEX OUT OF BOUNDS!
+2793	Peaks olema märgendikeele deklaratsioon, aga leidsin:	Expected markup declaration, but found:
+2794	Kehtetut liiki atribuut:	Illegal attribute type:
+2795	Kõlbmatu võtmesõna atribuudi vaikeväärtuse jaoks:	Illegal keyword for attribute default value:
+2796	Süsteemi identifitseerija puudub:	System identifier missing!
+2797	Väline modifikaator puudub:	External modifier missing:
+2798	Tingimuslik sektsikoon peab algama kas INCLUDE või IGNORE	Conditional section must begin with INCLUDE or IGNORE
+2799	Kõlbmatu eristaja sisumudelis:	Bad separator in content model:
+2800	Peaks olema kommentaar või CDATA sektsioon	Expected comment or CDATA section!
+2801	Ootamatu faili lõpp	Unexpected end of file!
+2802	Mittekokkulangev lõpumärgend:	Mismatched end tag:
+2803	Sobimatu märk viites.	Illegal character in reference!
+2804	Viide deklareerimata kandele:	Reference to undeclared entity:
+2805	Oodatud string:	Expected String:
+2806	Peaks olema tühik	Whitespace expected at byte!
+2807	Sisendirea lõpp, otsin lõpumärget:	End of input while looking for delimiter:
+2808	Oodatud "or"	Expected " or '
+2809	XMLPartner ei toeta kõrgemat XMLspetsifikatsiooni kui %s	XMLPartner does not support XML specification greater than %s
+2810	Ei saa luua sisendivoogu	Unable to create stream for input!
+2811	Vigane XML nimi:	Invalid XML name:
+2812	Vigane kommentaar	Invalid comment text!
+2813	XML deklaratsiooni sisaldav dokument ei saa alata kommentaariga!	Document cannot start with a comment if it also contains an XML declaration!
+2814	Kehtetud märgid CDATA sektsioonis	Invalid characters in CDATA section
+2815	Atribuutide muutmine start tag'is keelatud	Attributes cannot be redefined in a start tag!
+2816	Ringviide:	Circular reference to:
+2817	Kehtetu märk atribuudi väärtuses:	Invalid character in attribute value:
+2818	Kehtetud märgid elemendi märgendiandmestikus:	Invalid characters in element's character data:
+2820	Tingimuslikud sektsioonid pole lubatud	Conditional sections not allowed in internal subset of document type declaration!
+2821	Märkus pole deklareeritud:	Notation not declared:
+2822	Kehtetu PublicID märk	Invalid public id character:
+2823	NDATA keelatud parameeter	NDATA not allowed in parameter entity declaration
+2824	Üksikmuutuja peab olema kas 'yes' või 'no'	Stand alone value must equal 'yes' or 'no'
+2825	Kehtetu kodeerimise deklaratsioon:	Invalid encoding declaration:
+2826	Vale XML versiooni number:	Invalid XML version number:
+2827	Kehtetu märk väärtuses:	Invalid character in entity value:
+2828	Kommentaare ei saa panna muu märgendi sisse	Comments cannot be placed within other markup!
+2829	Kehtivale XML-dokumendile järgneb kogus kehtetuid andmeid	There is invalid data after valid XML document!
+2830	XML-deklaratsioon peab olema enne esimest elementi	The XML declaration must appear before the first element!
+2831	Vigane elemendi nimi:	Invalid element name:
+2832	Parameetri tekst peab olema korralikult pesastatud:	Parameter-entity text must be properly nested:
+2833	Vigane märgistiku kodeerimine.	Invalid character encoding specified!
+2834	Atribuudil %s elemendis %s pole numbrilist väärtust	Attribute %s of element %s does not have an integer value!
+2835	Tundmatu telje nimi: %s	Unknown axis specifier: %s
+2836	Programm leidis vigase XML märgi	Invalid XML Character found!
+2837	Vigame (big-endian) UTF-16 sümboli kodeerimine	Invalid (big-endian) UTF-16 character encoding!
+2838	Vigane (little-endian) UTF-16 sümboli kodeerimine	Invalid (little-endian) UTF-16 character encoding!
+2839	Halva vorminguga UTF-8 märk voos	Badly formed UTF-8 character in stream!
+2840	Dokumendivoo ootamatu lõpp	Unexpected end of document stream!
+2841	UCS-4 märgisüsteemi märki ei saa konverteerida ISO-8859-1 märgistikku	Cannot convert UCS-4 character to ISO-8859-1!
+2842	UCS-4 märgisüsteemi märki ei saa konverteerida UTF-16 märgistikku	Cannot convert UCS-4 character to UTF-16!
+2843	UCS-4 märgisüsteemi märki ei saa konverteerida UTF-8 märgistikku	Cannot convert UCS-4 character to UTF-8!
+2844	Mõõtudest väljas	Out of range!
+2845	ei toeta	not supported!
+2846	Palun lisa elemendi nimi	Please supply an element name!
+2847	VorminguNimi ei tohi olla tühi	Format name cannot be blank!
+2848	TVpControlLink ei saa printeri kasutamist üle võtta!	Print controller is not owned by a TVpControlLink!
+2849	Vigane trükivorming	Invalid Print format!
+2850	Valet tüüpi ese	Invalid item type!
+2851	Vale mõõt	Invalid measurement!
+2852	Omanik peab olema TWinControli kõlblik	Owner must be a TWinControl descendent!
+2853	Seade peab olema ühendatud TVpControlLinki	Component must be linked to a TVpControlLink!
+2854	Trükiformaadid määramata	No print formats have been defined!
+2855	TCanvas on määramata	TCanvas not assigned!
+2856	Lokaliseerimise andmefaili pole!	Localisation file not found!
+2857	Kohtumine	Appointment
+2858	Perioodilised arved	Repeating invoices
+2859	Kohtumine kliendiga	Debtor appointment
+2860	Kohtumine võlausaldajaga/hankijaga.	Creditor appointment
+2861	Kategooria 4	Category 4
+2862	Kategooria 5	Category 5
+2863	Kategooria 6	Category 6
+2864	Kategooria 7	Category 7
+2865	Kategooria 8	Category 8
+2866	Kategooria 9	Category 9
+2867	Muuda väljatrüki vormingut...	Edit print formats...
+2868	Ühtegi väärtust pole kirjeldatud! Kas soovid kirjeldada?	No resources have been defined! Would you like to add one now?
+2869	Ühtegi väärtust pole valitud! Kas valida nüüd?	No resource has been selected! Would you like to select one now?
+2870	Filtreeri veerg	Filter column
+2871	Väärtus	Value
+2872	Ekraan	Display
+2873	Kell	Clock
+2874	Planeerimiskalender	Agenda
+2875	Ülesanded	Tasks
+2876	Kontaktid	Contacts
+2877	Loetud sündmusi	Loaded events
+2878	# näita päevi	# Display days
+2879	Kalender	Calendar
+2880	Salvesta esmalt kordusarve. Avamise järel saad lisada kliendi ning muuta teisi andmeid.	Please save this repeating invoice first! After reopening you can add clients to the invoice.
+2881	Kas Sa soovid kustutada selle%s?	Do you wish to delete this %s?
+2882	Kas Sa soovid kustutada kõik%s?	Do you wish to delete all %s?
+2883	Kordusarve	Repeating invoice
+2884	Arve kuupäev	Invoice date
+2885	Töötle kõik	Process all
+2886	Töötle nimekiri	Process list
+2887	Töötle märgitud	Process selected
+2888	&Uus	&New
+2889	Muuda	&Edit
+2890	&Peamine	&Main
+2891	&Telefon	&Telephone
+2892	Märkmed	&Notes
+2893	Summa tasumiseks	Due amount
+2894	Dokumendi loomine õnnestus	Document(s) created!
+2895	Maksetähtaeg on varasem dokumendi koostamise kuupäevast!	Due date is lower then document date!
+2896	Maksete vastuvõtmine	Automatic receipts
+2897	Palun sisesta ettevõtte nimi	Please enter a name for the Set of Books!
+2898	Kinnita pangakonto	Update bank account
+2899	Otsi dokumenti	Lookup document
+2900	Otsi dokumenti, mille summa on	Lookup document with amount
+2901	Otsi klienti	Lookup debtor
+2902	Otsi hankijat	Lookup creditor
+2903	Pangakonto on juba leitud! Soovid sa seda uuendada?	There was already a bank account found! Do you wish to update this?
+2904	Aruannete summad koos	Report amounts with
+2905	Andmete salvestamine	Data storage
+2906	Kiirus	Speed
+2907	Eriseaded	Special settings
+2908	Aruandes näidatavad kümnendkohad	Reporting decimals
+2909	Ava eseme kanded	Open item ledgers
+2910	Ära kasuta aruandemootorit	Do not use Reportman
+2911	Realarvud	Real numbers
+2912	Määratud kümnendkohad	Fixed decimals
+2913	<>  tähistab kreeditit	<>  for Credit
+2914	+/-  tähistab deebetit/kreeditit	+/-  for Debit/Credit
+2915	D/K tähistab deebetit/kreeditit	D/C for Debit/Credit
+2916	Näita kalendrit	Show calandar
+2917	Ära hoiata kinnnitamata kannetest	No warning unposted
+2918	Kasuta jooksvat kuupäeva aruannetel	Use current date for reports
+2919	Lisa kirjeldus	Extra description
+2920	KOMPL.	BOM
+2921	Müük (teenus)	Sales (no stock)
+2922	Ost (teenus)	Purchase (no stock)
+2923	Komplektatsioon / retsept	BOM list
+2924	Kopeeri teisest tootest	Copy from item
+2925	Ära arvuta kandeid kokku	Do not calculate journals
+2926	Dokumendi kogus	Document quantity
+2927	AutoCopy informatsioon	Auto-copy info
+2928	Kasuta vaikekontot	Use default account
+2929	Vaikekonto	Default account
+2930	Järeltellimust pole	No backorder
+2931	Ei saa müüa! Toode on otsas või lattu vormistamata!	Cannot sell out of stock
+2932	Trükin otsekohe!	No print confirmation
+2933	Kontrolli viitenumbrit!	Check reference used
+2934	Esemete loomine ebaõnnestus	Cannot create items
+2935	Kliendiekraan	Pole display
+2936	Kliendiekraan ühendatud	Pole display connected
+2937	Kas näed seda??	Can you see this ??
+2938	Standartne kliendiekraan	Default POS Pole
+2939	2 x 20 märgiga ekraan	2 X 20 chars POS Pole
+2940	Kaal	Weight dish
+2941	Kaal on ühendatud	Weight dish connected
+2942	Kaalu vastus päringule	Return value from weight dish
+2943	Testi!	Test
+2945	Müüjate kiirvahetus	Fast switch salesperson
+2946	Ümmarda sularaharvete summa	Round POS end amount
+2947	Näita laokogust	Show qty on hand
+2948	Allahindluse salasõna	Discount password
+2949	Kasuta salasõna allahindluse lubamisel	Use password for discount
+2950	Kasuta kliendi müügihinda	Use debtor selling price
+2951	Laegas	Drawer
+2952	Oled kustutamas oma registreerimisandmeid! Jooksvate andmete kustutamise järel avatakse registreerimisvorm. Kas soovid säilitada senised registreerimisandmed?	This will remove your current registration and open the enter registration form! Do you want to cancel?
+2953	Trüki vöötkoodid	Print bacodes
+2954	Vaheta kontot	Change account
+2956	Varunda aruanded	Backup reports
+2957	Loo aruandemootori kaustad	Generate Reportman directories
+2958	Seo tehing lahti	Unlink transaction
+2959	Maksete vastuvõtmine	Receive payment
+2960	Trüki tehing uuesti	Reprint transactions
+2961	Sisesta summa seosele	Enter amount to link
+2962	Piira avatud eset	Suppress open item
+2963	Jäta meelde bruto	Remember inclusive
+2964	Trükitud	Printed
+2965	Vali varukoopia kataloog	Select backup directory
+2966	Näidis	Sample
+2967	Kasuta filtrit	Use filter
+2968	Väljamineva mailiserveri (SMTP) kirjeldus	Outgoing mail server identification (SMTP)
+2969	Vaikimisi tekst	Default text
+2970	Palun sisesta oma nimekiri	Please enter your list
+2971	Nimekiri komaga eraldatult	Your list with comma separation
+2972	Vali limiteerimata nimekirjast	Select from delimited list
+2973	Peida keelatud menüüread	Hide disabled menu items
+2974	Kinnita dokumendid	Document posting
+2975	Seo müüjaga	Link to salesperson
+2976	Muuda kogust	Edit quantity
+2977	Vali uue raamatupaki kaust	Select new Set of Books directory
+2978	Teadaolevad veaparandused	Known bug fix
+2979	Ainunlt algsaldod	Opening balances only
+2980	Näita eelarvet	Show budget
+2981	Näita kõiki laotooteid	Show all stock items
+2982	Kaasa kinnitamata kanded	Add unposted
+2983	Pakkumised / Tellimused	Quotes / Orders
+2984	Hind koos KM	Price inclusive
+2985	Näita nulljäägiga kaupu	Show zero stock count
+2986	Näita kõiki müüjaid	Show all salespersons
+2987	Näita arve numbrit	Show invoice no.
+2988	Kassamüügi aruanne	Cash-up report
+2989	Müügiaruanne	Sales report
+2990	Trüki raamid	Print frames
+2991	Trüki logo	Print logo
+2992	Nr Dok. kinnitamine	No document posting
+2993	Kohandatud piirang	Custom limitation
+2994	Peida	Hide
+2995	Keela	Disable
+2996	Näita	Show
+2997	Luba	Enable
+2998	Kordamine	Replication
+2999	Ava konteeringud	Open journals
+3000	Ainult üleslaadimine	Upload only
+3001	Ainult allalaadimine	Download only
+3002	Loon kausta	Creating directory...
+3003	Kopeerin raamatupakki...	Copying Set of Books...
+3004	Kopeeri raamatupakist	Copy from a Set of Books
+3005	st	of
+3006	Alustasin ülekandmist	Transfer started to
+3007	Ainult see konto	Only this account
+3008	Uue majandusaasta avamine õnnestus!	A new year has been opened succesfully!
+3009	Liigutan summasid...	Moving totals...
+3010	Viitenumbrit on kasutatud teises dokumendis. Kontrolli, ega Sa ei koosta sama arvet teist korda!	The reference has been used in a other document! Please check your input for duplicates!
+3011	Kõik dokumendid	All documents
+3012	Kõik aastad	All years
+3013	Pangasaldo kontoväljavõttelt	Bank balance as per bank statement
+3014	Kassaraamatu aruanne	Bank reconciliation report as at
+3015	Sissekantud kontoväljavõte	Reconciled bank balance
+3016	Pangasaldo seisuga <@APPNAME@>	Bank balance according to <@APPNAME@> at
+3017	vahe	Difference
+3018	TÄHELEPANU! Aruanne sisaldab kinnitamata kandeid!	Warning - This report contains unposted journals!
+3019	Näita null laojääke	Show zero stock count
+3020	Muuda arve ostudokumendiks	Convert invoice to order
+3021	Kopeeri dokument	Copy document
+3022	Määra aruandegrupp 1	Set reporting group 1
+3023	Määra aruiandegrupp 2	Set reporting group 2
+3024	ava OSCommerce tellimus sirvikus	Open osCommerce order in browser
+3025	Ava OSCOmmerce klient sirvikus	Open osCommerce customer in browser
+3026	Panga nimi	Bank name
+3027	Kasuta KM vaikemäära	Use default tax
+3028	Vaikimisi KM konto	Default tax account
+3029	Eesnimi	First name
+3030	Seo kaugandmebaasiga.	Connect to remote database
+3031	Koos käibemaksuga?	Inclusive mode
+3032	Ühe rea kaupa	Single line mode
+3033	Automaatne alias	Auto-alias
+3034	Pea meeles KM-ga summa	Remember inclusive
+3035	Kasuta seotud maksu	Use link tax
+3036	Seotud maks	Link tax
+3037	Kontrakonto KM	Contra tax
+3038	Avatud objekti konto	Open item account
+3039	Kassaaruande (POS) valikud	POS report options
+3040	Kasuta algset kuupäeva	Use document date
+3041	Kasuta korrespondeeruva kande numbrit	Contra ref. as account ref.
+3042	Automaatne uuendamine	Auto refresh
+3043	Vahemik (sek)	Interval (sec.)
+3044	Piira dok. SQL-i	Limit documents SQL
+3045	Otsi sarnaseid dokumente	Search for strings
+3046	Vahesumma	Subtotal
+3047	Summa sisestamine	Amount entry
+3048	Dokumendi rida	Document row
+3049	Impordi kinnitatud kanded	Import a posted journal
+3050	Kasuta KM vaikemäära!	Use default tax
+3051	Konto algus	Account starts with
+3052	Ekraani ja värskenda	Expand after refresh
+3053	Valmistan e-kirja	Use link tax
+3054	Näita korrespondeeruvat kontot	Link tax
+3055	Näita ühiku hinda	Contra tax
+3056	Kas tahad selle toimingu tühistada?	Refresh
+3057	Suurenda	Expand
+3058	Vähenda	Collapse
+3059	Liiguta vasakule	Move left
+3060	Allkontod	Sub-accounts
+3061	Eelarveperioodil kokku	Total period budget
+3062	Määra eelarveperiood	Set period budget
+3063	Finantskategooria	Financial categories
+3064	Vale konto	Not a valid account!
+3065	Puuduvad õigused	No user rights!
+3066	Nõutud väli puudub, palun kontrolli imporditavat faili!	Field missing! Please check import file!
+3067	Viga vahetuse lõpetamisel! Palun proovi uuesti!	Error in closing shift! Please try again!
+3068	Viga! Ei leia kontot.	Error : No account found!
+3070	Lisa Clieop ülekande kommentaarid!	Clieop comment lines must be filled!
+3071	Pead sisestama pangakonto numbri!	You need to enter a bank account number!
+3072	Katkesta importimine!	Abort import!
+3073	Grupil on alamgrupid! Kustuta esmalt alamgrupid!	Group still has nested groups! Remove them first!
+3074	Selle grupiga on seotud kontosid! Palun seo need teise grupiga või kustuta (Esimene konto =	There's still accounts using this group! Please remove them first! (First account =
+3075	Selle grupiga on seiotud dokumente. Palun seo need teise grupiga või kustuta!	There's still documents using this group! Please remove them first!
+3076	Selle grupiga on seotud tooted! Esmalt seo need teise grupiga või kustuta.	There's still stock using this group! Please remove them first!
+3077	Ühtki sidet pole määratud	No connection assigned!
+3078	Kontokood on juba kasutusel	Account code already exists!
+3079	Pakkumine on valmis!	Quote(s) generated!
+3080	Kas soovid teha kande jaotamata kasumi kontole?	Do you wish to post on the retained earnings account?
+3081	Nullin laojäägi?	Reset stock?
+3082	failivormingu importimist ei toetata	Import file format not implemented!
+3083	Toode on laost otsas! Automaatne koguse muutus	This item is out of stock! Auto adjusting quantity!
+3084	Tehtud	Finished!
+3085	Tühi kood!	Empty code!
+3086	Kood on juba olemas!	Code exists!
+3087	Number %s ei ole kehtiv 11 kinnituse number!	Number %s is not a valid 11 proof number!
+3088	Kasuta etiketiprinterit	Use barcode printer
+3089	Keerukam...	Advanced mode
+3090	Uuenduse liik	Update type
+3091	Seadista ladu	Setup stock
+3092	Seadista grupp	Setup group
+3093	Tehingu kuupäev	Transaction date
+3094	Eelistatud tarnija 1	Preferred supplier1
+3095	Eelistatud tarnija 2	Preferred supplier2
+3096	Koosta arved	Create invoices for hours
+3097	Piira lao SQL	Limit stock SQL
+3098	Koos kinnitamata arvetega	Include unposted invoices
+3099	Projektid	Projects
+3100	Sa üritad ühenduda kaugandmebaasiga! Käesolev versioon ei toeta seda vaikimisi. Palun võta meiega ühendust vajaliku toetuse saamiseks aadressil tugi@kassasysteem.ee või https://www.osfinancials.org/en/webshop 	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!
+3101	Registreerimata	Unregistered
+3102	registreeritud	Registered to
+3103	Single user	Single user
+3104	T-konto näitaja	Ledger analyser
+3105	Seerianumber	Serial number
+3106	Veeru saldo	Column balances
+3107	Veeru saldo -deebitor	Column balances debtors
+3108	Veeru saldo - kreeditor	Column balances creditors
+3109	Dokumendi põhi	Layout file 1
+3110	Kreeditarve põhi	Layout file 2
+3111	Pakkumise põhi	Layout file 3
+3112	Keel	Language
+3113	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8
+3114	https://www.osfinancials.org/en/forum-en	https://www.osfinancials.org/en/forum-en
+3115	https://www.osfinancials.org/en/webshop	https://www.osfinancials.org/en/webshop
+3116	https://www.osfinancials.org/en/forum-en?view=category&catid=8 	https://www.osfinancials.org/en/forum-en?view=category&catid=8 
+3117	Registreerimata versioon! Palun osta see plugin aadressil https://www.osfinancials.org/en/webshop ja toeta <@APPNAME@>'i  arendamist.	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.
+3118	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop
+3119	https://www.osfinancials.org/	https://www.osfinancials.org/
+3120	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 
+3121	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 
+3122	Time license expired! Please visit https://www.osfinancials.org/en/webshop 	Time license expired! Please visit https://www.osfinancials.org/en/webshop 
+3123	Tere tulemast <@APPNAME@>	Welcome to <@APPNAME@>
+3124	Edasta	Forward
+3125	Ava käivitamisel <@APPNAME@>.	Auto-open when starting <@APPNAME@>
+3126	Convert <@APPNAME@> to this version?	Convert <@APPNAME@> to this version
+3127	Net weight	Net weight
+3128	Gross weight	Gross weight
+3129	Reorder at	Reorder at
+3130	Minimum	Minimum
+3131	Reorder level - your items will be reordered until this quantity!	Reorder level - your items will be reordered until this quantity!
+3132	If your stock goes below this, then the system will reorder until the reorder quantity!	If your stock goes below this, then the system will reorder until the reorder quantity!
+3133	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!
+3134	Languages	Languages
+3135	Language	Language
+3136	Multi-group	Multi-group
+3137	Select image	Select image
+3138	Delete image	Delete image
+3139	Cur : %s Quote : %s Order : %s Exp : %s	Cur : %s Quote : %s Order : %s Exp : %s
+3140	Expected quantity	Expected quantity
+3141	Manufacturer	Manufacturer
+3142	Option item	Option item
+3143	Option item (no stock)	Option item (no stock)
+3144	Options	Options
+3145	Generate	Generate
+3146	Linked options	Linked options
+3147	View as tree	View as tree
+3148	Combination name	Combination name
+3149	Remove	Remove
+3150	Extra price	Extra price
+3151	Financial entry	Financial entry
+3152	Weight	Weight
+3153	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!
+3154	Options	Options
+3155	Setup options	Setup options
+3156	Double-click to enter the option list.	Double-click to enter the option list.
+3157	Default inclusive for documents	Default inclusive for documents
+3158	SQL only for stock lookup	SQL only for stock lookup
+3159	Merge invoice to orders	Merge invoice to orders
+3160	Merge items per tax on ledger	Merge items per tax on ledger
+3161	Button lookup	Button lookup
+3162	Cannot edit price	Cannot edit price
+3163	Cannot edit description	Cannot edit description
+3164	Go to quantity	Go to quantity
+3165	Bank accounts	Bank accounts
+3166	Column balances D/C	Column balances D/C
+3167	Column balances debtors D/C	Column balances debtors D/C
+3168	Column balances creditors D/C	Column balances creditors D/C
+3169	Strict tax on account	Strict tax on account
+3170	Post warning per invoice	Post warning per invoice
+3171	Process warnings	Process warnings
+3172	Process subscriptions	Process subscriptions
+3173	Send e-mail	Send e-mail
+3174	Document layout	Document layout
+3175	Contract term not the same!	Contract term not the same!
+3176	Send warning	Send warning
+3177	E-mail signed document	E-mail signed document
+3178	Link tax	Link tax
+3179	Bank links	Bank links
+3180	Edit account	Edit account
+3181	Convert to credit note / supplier return	Convert to credit note / supplier return
+3182	Open e-Commerce order in browser	Open e-Commerce order in browser
+3183	Open e-Commerce customer in browser	Open e-Commerce customer in browser
+3184	Convert documents to single document	Convert documents to single document
+3185	Create purchase on default supplier 1	Create purchase on default supplier 1
+3186	Image	Image
+3187	Bug report	Bug report
+3188	Cost centres	Cost centres
+3189	Close active forms	Close active forms
+3190	Show / hide sidebar	Show / hide sidebar
+3191	Show / hide topbar	Show / hide topbar
+3192	Only look in account for search	Only look in account for search
+3193	Bug report	Bug report
+3194	Webshop	Webshop
+3195	Help	Help
+3196	Forum	Forum
+3197	Opening balance - This year	Opening balance - This year
+3198	Gender	Gender
+3199	Male	Male
+3200	Female	Female
+3201	Newsletters and password	Newsletters and password
+3202	Referral source	Referral source
+3203	Newsletters	Newsletters
+3204	Password confirmation	Password confirmation
+3205	General	General
+3206	Release	Release
+3207	Bug fix	Bug fix
+3208	Community day	Community day
+3209	Existing user	Existing user
+3210	You have registered successfully !	You have registered successfully ! 
+3211	Usage	Usage
+3212	Website	Website
+3213	Reregister	Reregister
+3214	Consultant	Consultant
+3215	Send	Send
+3216	New user	New user
+3217	Action	Action
+3218	Username and password are used to log in to our forum and shop not for <@APPNAME@> self	Username and password are used to log in to our forum and shop not for <@APPNAME@> self
+3219	E-mail can be sent via the context menu in the Document list.	E-mail can be sent via the context menu in the Document list.
+3220	Mail template	Mail template
+3221	Select layout	Select layout
+3222	Select template	Select template
+3223	Report name	Report name
+3224	Base folder debtor/creditor	Base folder debtor/creditor
+3225	Base folder	Base folder
+3226	Test e-mail	Test e-mail
+3227	Send e-mail(s)	Send e-mail(s)
+3228	Resume e-mail(s)	Resume e-mail(s)
+3229	Stop e-mail(s)	Stop e-mail(s)
+3230	Path to the HTML files	Path to the HTML files
+3231	POP username	POP username
+3232	POP password	POP password
+3233	POP server	POP server
+3234	SMTP port	SMTP port
+3235	SMTP server	SMTP server
+3236	Return e-mail	Return e-mail
+3237	Return name	Return name
+3238	E-mail header text	E-mail header text
+3239	Send max mail	Send max mail
+3240	Timer threshold in sec.	Timer threshold in sec.
+3241	SMTP username	SMTP username
+3242	SMTP password	SMTP password
+3243	Sign certificate	Sign certificate
+3244	Certificate password	Certificate password
+3245	Sign any PDF	Sign any PDF
+3246	Free text	Free text
+3247	Preview in browser	Preview in browser
+3248	Test E-mail to Extra CC	Test E-mail to Extra CC
+3249	Extra CC	Extra CC
+3250	CC (multiple separate with ;)	CC (multiple separate with ;)
+3251	BCC (multiple separate with ;)	BCC (multiple separate with ;)
+3252	Send E-mail	Send E-mail
+3253	No extra CC found! Please enter an e-mail address in text box below this button!	No extra CC found! Please enter an e-mail address in text box below this button!
+3254	No POP password entered!	No POP password entered!
+3255	Stopped by user!	Stopped by user!
+3256	On	On
+3257	Off	Off
+3258	Setup E-mail Pro	Setup E-mail Pro
+3259	E-mail Pro	E-mail Pro
+3260	No category	No category
+3261	Freefields	Freefields
+3262	Register	Register
+3263	Purge invalid	Purge invalid
+3264	Redo discount on document	Redo discount on document
+3265	Percentage of sale	Percentage of sale
+3266	BOM (Production)	BOM (Production)
+3267	Supplier stock code	Supplier stock code
+3268	Preferred supplier	Preferred supplier
+3269	Next cost price	Next cost price
+3270	Assemble	Assemble
+3271	Disassemble	Disassemble
+3272	Link bank account from import to accounts	Link bank account from import to accounts
+3273	Link all records with current account bank accounts	Link all records with current account bank accounts
+3274	Select from account open item list	Select from account open item list
+3275	Show refs for account	Show references for account
+3276	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside a imported	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside an imported bank line to see if the text is in that string. Text will be searched in the uppercase.
+3277	Account bank references	Account bank references
+3278	Std Bank account no.	Std Bank account no.
+3279	Delivery date	Delivery date
+3280	Check	Check
+3281	Plugin mass action	Plugin mass action
+3282	Plugin action	Plugin action
+3283	Fast add item (code/barcode/serial)	Fast add item (code/barcode/serial)
+3284	Enter total	Enter total
+3285	Recalculate base	Recalculate base
+3286	Cost price	Cost price
+3287	Selling price	Selling price
+3288	Recalculate sales %	Recalculate sales %
+3289	Copy from plugin	Copy from plugin
+3290	Paste to plugin	Paste to plugin
+3291	Copy from / init	Copy from / init
+3292	Paste to / perform	Paste to / perform
+3293	Copy	Copy
+3294	Show tax in documents	Show tax in documents
+3295	Sales/Debit	Sales/Debit
+3296	Purchase/Credit	Purchase/Credit
+3297	Hide this tax	Hide this tax
+3298	All	All
+3299	No out of stock message	No out of stock message
+3300	Use colours for out of stock	Use colours for out of stock
+3301	Calculate BOM stock	Calculate BOM stock
+3302	Limit stock purchase only for default supplier or non	Limit stock purchase only for default supplier or non
+3303	Welcome	Welcome
+3304	New invoice	New invoice
+3305	Data saved	Data saved
+3306	Split bill	Split bill
+3307	Data saved	Data saved
+3308	Reopen invoice	Reopen invoice
+3309	+Open fast add	+Open fast add
+3310	-Close fast add	-Close fast add
+3311	Create purchase on default supplier 1	Create purchase on default supplier 1
+3312	No default supplier 1 for these stock items! Please correct first!	No default supplier 1 for these stock items! Please correct first!
+3313	Months	Months
+3314	Per period	Per period
+3315	Free selection	Free selection
+3316	Hours between date	Hours between date
+3317	Recalculate selling price	Recalculate selling price
+3318	Default cost centre	Default cost centre
+3319	Cost centre	Cost centre
+3320	Save this unsaved document?	Save this unsaved document?
+3321	Code, description and extra description	Code, description and extra description
+3322	Enter new inclusive total	Enter new inclusive total
+3323	Create backorders to deliver	Create backorders to deliver
+3324	Only new items (no adjust)	Only new items (no adjust)
+3325	<- Set selected to this price	<- Set selected to this price
+3326	Openitem	Open item
+3327	Clieop comment	Clieop comment
+3328	City	City
+3329	Cur	Cur
+3330	Quote	Quote
+3331	P	P
+3332	LP	LP
+3333	Order	Order
+3334	Exp	Exp
+3335	Log level	Log level
+3336	Next batch nr	Next journal no.
+3337	Backcolor	Back colour
+3338	Frontcolor	Font colour
+3339	Link image	Link image
+3340	Clear image	Clear image
+3341	Init all translations and plugins	Init all translations and plugins
+3342	Show colors	Show colours
+3343	Find invalide	Find invalid
+3344	Adjust payment date	Adjust payment date
+3345	Consolidating lines and using tax will mess up your tax report! please make sure you do not use tax or do not consolidate lines.!	Consolidating lines and using tax will mess up your tax report! Please make sure you do not use tax or do not consolidate lines!
+3346	As PDF file	As PDF file
+3347	Timeslot	Timeslot
+3348	Show at startup	Show at startup
+3349	There is document input asossiated with this project do you wish to continue ? all project data will be lost	There is document(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3350	There is transaction input asossiated with this project do you wish to continue ? all project data will be lost	There is transaction(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3351	There are unposted documents you cannot close this project!	There are unposted documents! You cannot close this project!
+3352	Sales, Purchase, Cost of sales and tax accounts	Sales, Purchase, Cost of sales and Tax accounts
+3353	Open transactions only	Open transactions only
+3354	Remove fault links	Remove fault links
+3355	Transfare transactions	Transfer transactions
+3356	Payroll import	Payroll import
+3357	Free selection	Free selection
+3358	AutoPymt	AutoPayment
+3359	Barcode printer	Barcode printer
+3360	Label printer	Label printer
+3361	Use multiprinter	Use multi printers
+3362	change remark	Change remark
+3363	Please enter change remark	Please enter change remark
+3364	No remaker entered operation aborted!	No remark entered, process aborted!
+3365	Stock Qty has been changed do you want to retain the current database data?	Stock quantity has been changed! Do you want to retain the current database data?
+3366	Manual adjust	Manual adjust
+3367	Continue action %s ?	Continue action %s ?
+3368	Standard Column balance	Standard column balances
+3369	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 
+3370	User exit!	User exit!
+3371	Do you wish to clear all documents or set them to unposted?	If you wish to clear (remove) all documents, click [Yes]. If you wish to retain all documents and set them to unposted, click [No].
+3372	Budget vs actual	Budget vs actual
+3373	This year vs last year	This year vs last year
+3374	Tools	Tools
+3375	External system links	External system links
+3376	financial tools	Financial tools
+3377	Generic plugins	Generic plugins
+3378	Freefields	Freefields
+3379	Multimedia	Multimedia
+3380	Price agreement	Price agreement
+3381	Stockcheck	StockCheck
+3382	QuickOrder	QuickOrder
+3383	E-commerce	E-commerce
+3384	Activa	Activa
+3385	Office	Office
+3386	Sql browser	Sql Browser
+3387	Drill down	DrillDown
+3388	Xml audit file	Xml Audit File
+3389	Pos display	POS Display
+3390	Send package	Send Package
+3391	Subscriptions	Subscriptions
+3392	Web export	Web Export
+3393	Customer on hold	Customer on hold
+3394	Document email pro	Document E-mail Pro
+3395	HORECA Pos	HORECA POS
+3396	RETAIL Pos	RETAIL POS
+3397	Charter	Charter
+3398	Location-Serilization-batches	Location-Serials-Batches
+3400	Remittance	Remittance
+3401	Reportman	Reportman
+3402	Handytools	HandyTools (Advanced users only)
+3403	Register plugins	Register plugins
+3404	Export / import	Export / Import
+3405	Stock plugins	Stock plugins
+3406	Document plugins	Document plugins
+3407	Branch specific	Branch Specific
+3408	Driverschool plugin	Driving school plugin
+3409	Postalcode / tax id / regno lookup	Postal code / tax id / reg. no. lookup
+3410	Dutch tax plugin	Dutch Tax plugin
+3411	CCV Pin	CCV PIN
+3412	Pos points	POS Points
+3413	Controler login	Controller Login
+3414	Multi user agenda	Multi-user Agenda
+3415	Woodsales	Woodsales
+3416	Document export import	Document Export Import
+3417	Promeetec	Promeetec
+3418	Plugin load list	Plugin load list
+3419	Activate plugin	Activate plugin
+3420	Deactivate plugin	Deactivate plugin
+3421	Use tabs in stock	Use tabs in stock
+3422	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.
+3423	Copy to	Copy to
+3424	Delete not local (Books this pc can not find)	Delete not local (Books this PC cannot find)
+3425	Reprint ticket	Reprint ticket
+3426	Rental / reservations	Rental / Reservations
+3427	Calculate minutes	Calculate minutes
+3428	Minutes inactive	Minutes inactive
+3429	Std disc%	Std disc%
+3430	Document id	Document id
+3431	webshop/forum login and Newsletters	Webshop/Forum Login and Newsletters
+3432	Step status	Step status
+3433	Process	Process
+3434	Date last action	Date last action
+3435	Step name	Step name
+3436	Used time	Used time
+3437	View closed	View closed
+3438	Belgische btw aangifte	Belgium Tax Returns
+3439	Retype password	Retype password
+3440	Branches	Branches
+3441	Skypename	Teams name
+3442	Reset pass (email new pw to you)	Reset password (E-mail new password to you)
+3443	Open webshop	Open webshop
+3444	Change password	Change password
+3445	Please register <@APPNAME@> first!	Please register <@APPNAME@> first!
+3446	To register plugins you need to register <@APPNAME@> first!	To register plugins, you need to register <@APPNAME@> first!
+3447	Timelicence	Time license
+3448	Current total	Current total
+3449	No points used! please us points or close window!	No points used! Please use points or close window!
+3450	Use point	Use points
+3451	Current points	Current points
+3452	Points to use	Points to use
+3453	General DIV ledger	General ledger differences
+3454	Symbol	Symbol
+3455	Rate	Rate
+3465	Tax classes	Tax classes
+3466	Tax class	Tax class
+3467	Force stocktype check	Force stock type check
+3468	Default costgroup	Default cost group
+3469	Workflow setup	Workflow setup
+3470	Currencies	Currencies
+3471	I have read this instruction and i understaind the action!	I have read this instruction, and I understand the action!
+3472	Payment discount	Payment discount
+3473	Payment diverence	Payment difference
+3474	Auto process	Auto process
+3475	Outlook sync	Outlook sync
+3476	Sync to <@APPNAME@>	Sync to <@APPNAME@>
+3477	From <@APPNAME@> to Outlook	From <@APPNAME@> to Outlook
+3478	Sync Email	Sync E-mail
+3479	Email link	E-mail link
+3480	Outlook syngroniser	Outlook syncroniser
+3481	Document links	Document links
+3482	Links from	Links from
+3483	Links to	Links to
+3484	Link	Link
+3485	Where am i?	Where am I?
+3486	Step hint	Step hint
+3487	Rights	Rights
+3488	Add step	Add step
+3489	Edit step	Edit step
+3490	Delete step	Delete step
+3491	Transition	Transition
+3492	Create Transition	Create transition
+3493	Duration	Duration
+3494	Years	Years
+3495	Status text	Status text
+3496	Screentype	Screen type
+3497	Stepname	Step name
+3498	Stepdata	Step data
+3499	You still have a detail screen open press cancel or save to close.	You still have a detail screen open! Click [Cancel] or [Save] to close!
+3500	Add transition	Add transition
+3501	Condition	Condition
+3502	Next process date	Next process date
+3503	Curent value	Current value
+3504	Purchase date	Purchase date
+3505	Write-off type	Write-off type
+3506	Write-off period	Write-off period
+3507	Linked transaction	Linked transaction
+3508	Rest-amount	Rest-amount
+3509	Write-off percentage	Write-off percentage
+3510	Next write-off amount	Next write-off amount
+3511	Total write-off on ledger	Total write-off on ledger
+3512	Needs processing	Needs processing
+3513	New transactions	New transactions
+3514	Add manual	Add manual
+3515	Posted transactions	Posted transactions
+3516	Process (selected) lines	Process (selected) lines
+3517	Purchase amount	Purchase amount
+3518	Activa	Activa
+3519	Add (selected) lines	Add (selected) lines
+3520	add consolidated	Add consolidated
+3521	Show for this user	Show for this user
+3522	Selection	Selection
+3523	Adjust remittance date of selection to :	Adjust remittance date of selection to :
+3524	No auto incasso	No auto payment
+3525	With a remittance date from	With a remittance date from
+3526	Openitems with paydate from	Open items with pay date from
+3527	Email filter	E-mail filter
+3528	Email selected	E-mail selected
+3529	Edit remittance	Edit remittance
+3530	Print all	Print all
+3531	Edit report	Edit report
+3532	Show report	Show report
+3533	Default days no remittance	Default days no remittance
+3534	Update multimedia	Update Multimedia
+3535	This action will adjust the lats date remittance at the "selected" debtors. Do you wish to continue?	This action will adjust the last date remittance at the "selected" debtors! Do you wish to continue?
+3536	This action will adjust the lats date remittance at the "ALL VISIBLE" debtors. Do you wish to continue?	This action will adjust the last date remittance at the "ALL VISIBLE" debtors! Do you wish to continue?
+3537	Popup if there are transactions	Popup if there are transactions
+3538	Date oldest transaction	Date oldest transaction
+3539	Date last remittance	Date last remittance
+3540	Design edit fields	Design edit fields
+3541	Design search fields	Design search fields
+3542	Search sql	Search SQL
+3543	Lookup language	Lookup language
+3544	Type of control	Type of control
+3545	Heigth	Height
+3546	Size	Size
+3547	Translation	Translation
+3548	Col origin	Column origin
+3549	Save and rebuild	Save and rebuild
+3550	Copy as new	Copy as new
+3551	Gen on table	Generate on table
+3552	Sql and extra data	SQL and extra data
+3553	Fieldtype	Field type
+3554	Default value	Default value
+3555	Write off for %s ended do you want to clear the activa accounts?	Write off for %s ended do you want to clear the activa accounts?
+3556	Project	Project
+3557	Create entries	Create entries
+3558	Entries createded!	Entries created!
+3559	Bulk time entry	Bulk time entry
+3560	Stock out	Stock out
+3561	Stock in	Stock in
+3562	Limit rows	Limit rows
+3563	User tab	User tab
+3564	Auto learn	Auto learn
+3565	Unlinked items	Unlinked items
+3567	Show inactive	Show disabled
+3568	Quotes per period	Quotes per period
+3569	Credits per period	Credit notes per period
+3570	Invoices per period	Invoices per period
+3571	Sales per product	Sales per product
+3572	Orders per period	Orders per period
+3573	Purchase per period	Purchases per period
+3574	Returnnote per period	Supplier returns per period
+3575	Purchase per product	Purchases per product
+3576	New report	New report
+3577	New folder	New folder
+3578	Create params and open	Create parameters and open
+3579	No refresh after save	No refresh after save
+3580	Select test document id	Select test document id
+3581	Explorer folder	Explorer folder
+3582	Copy report	Copy report
+3583	Save gridlayout	Save grid layout
+3584	Leads	Leads
+3585	Mass tag	Mass tag
+3586	Tags	Tags
+3587	Add tag	Add tag
+3588	Mass activity	Mass activity
+3589	CRM	CRM
+3590	Activities	Activities
+3591	Add %s to records	Add %s to records
+3592	Start timer	Start timer
+3593	Stop timer	Stop timer
+3594	All accounts	All accounts
+3595	Lead	Lead
+3596	Followup	Follow-up
+3597	Direction	Direction
+3598	Incomming	Incoming
+3599	Outgoing	Outgoing
+3600	Handeled	Handled
+3601	preform run on	Perform run on
+3602	mass contact	Mass contact
+3603	Billing matrix	Billing matrix
+3604	Minimum bill minutes	Minimum bill minutes
+3605	Increment bill minutes	Increment bill minutes
+3606	Cross link	Cross link
+3607	Skip lines	Skip lines
+3608	Delimiter	Delimiter
+3609	Date format	Date format
+3610	Date seperator	Date separator
+3611	Decimal seprator	Decimal separator
+3612	Redo	Redo
+3613	Leads dataset importer	Leads dataset importer
+3614	Headers in file	Headers in file
+3615	Billing	Billing
+3616	Bill visible	Bill visible
+3617	Convert to	Convert to
+3618	Dashbord view	Dashbord view
+3619	Duration	Duration
+3620	Manual input in minutes	Manual input in minutes
+3621	Is billed	Is billed
+3622	Convert	Convert
+3623	Order is placed!	Order is placed!
+3624	Select or create a document!	Select or create a document!
+3625	Please add items to your order!	Please add items to your order!
+3626	This list shows what you already ordered	This list shows what you already ordered
+3627	This list shows what you are going to order when you press the order button	This list shows what you are going to order when you press the [Order] button
+3628	Select a product to add to your order list	Select a product to add to your order list
+3629	Merge	Merge
+3630	Table overview	Table overview
+3631	All orders	All orders
+3632	Print ticket	Print ticket
+3633	Date reservation	Date reservation
+3634	Day memo	Day memo
+3635	Guest	Guest
+3636	Create POS ticket	Create POS ticket
+3637	Person(s)	Person(s)
+3638	Stay in minutes	Stay in minutes
+3639	Expected time	Expected time
+3640	Horizontal pos layout	Horizontal POS layout
+3641	Vertical pos layout	Vertical POS layout
+3642	Clear table movement	Clear table movement
+3643	Move seat	Move seat
+3644	Link seat	Link seat
+3645	Unlink seat	Unlink seat
+3646	Hide <@APPNAME@> interface	Hide <@APPNAME@> interface
+3647	Telephonic orders	Telephonic orders
+3648	Orders to deliverlist	Orders to deliver list
+3649	Lock	Lock
+3650	Start click here	Start click here
+3651	Click here again	Click here again
+3652	Click here	Click here
+3653	Reservations	Reservations
+3654	Close pos	Close POS
+3655	Cash entry	Cash entry
+3656	Payment of posted documents	Payment of posted documents
+3657	Show doc info	Show doc. info
+3658	Simple action buttons	Simple action buttons
+3659	No captions	No captions
+3660	dayly provission	Daily provision
+3661	Document without border	Document without border
+3662	Posted payments	Posted payments
+3663	Sales per table	Sales per table
+3664	New order	New order
+3665	Show fixed first group list	Show fixed first group list
+3666	Show current totals in list	Show current totals in list
+3667	Recieve seperate payments	Receive separate payments
+3668	Create account from documentdetails	Create account from document details
+3669	Send documenttype	Send document type
+3670	Print document and send email	Print document and send email
+3671	Username	Username
+3672	Enable auto set inactive debtor after x days unpayed	Enable auto set inactive debtor after x days unpaid
+3673	Days after payment before inactive	Days after payment before inactive
+3674	Do you want to run this process for 1 creditor?	Do you want to run this process for 1 creditor?
+3675	Tax list debtor / creditor with taxid	Tax list debtor with tax id
+3676	Unposted documents found ! Please process all documents before manual edit	Unposted documents found ! Please process all documents before manual edit!
+3677	Start quantity	Start quantity
+3678	Expected quantity	Expected quantity
+3679	Production date	Production date
+3680	Max salesdate	Max sales date
+3681	Location	Location
+3682	Serial	Serial
+3683	Batch	Batch
+3684	Total sold	Total sold
+3685	Find with central search	Find with central search
+3686	No account creation	No account creation
+3687	Match on open amounts	Match on open amounts
+3688	Total Exp sales on price 2	Total Exp sales on price 2
+3689	Total Stock value	Total Stock value
+3690	Enter email adress seperate with ;	Enter email address separate with ;
+3691	Countries	Countries
+3692	Correction missing transact	Correction transaction ageing
+3693	Please save or cancel your document first	Please save or cancel your document first!
+3694	Please save or cancel your stock first	Please save or cancel your stock first!
+3695	Please save or cancel your debtor first	Please save or cancel your debtor first!
+3696	Please save or cancel your creditor first	Please save or cancel your creditor first!
+3697	Spreadsheet sales	Spreadsheet sales
+3698	Spreadsheet reports	Spreadsheet reports
+3699	Use all to stop asking this question.	Select [All] to stop asking this question.
+3700	View	View
+3701	Zoom	Zoom
+3702	Page layout	Page layout
+3703	Formules	Formulas
+3704	Import check	Import check
+3705	Profile	Profile
+3706	Save profile	Save profile
+3707	Add profile	Add profile
+3708	Import type	Import type
+3709	Link on	Link on 
+3710	Small backup (books)	Small backup (books)
+3711	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>.
+Do you wish to continue?	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?
+3712	Updates	Updates
+3713	Check for update at start	Check for update at start
+3714	Beta versions	Beta versions
+3715	Install	Install
+3716	Workflow	Workflow
+3717	Blockchain	Blockchain
+3718	Activate plugins	Activate plugins
+3719	Add to group	Add to group
+3720	Spreadsheet import	Spreadsheet import
+3721	Enable Blockchain	Enable Blockchain
+3722	Document show quantity	Document show quantity
+3723	Counted quantity	Counted quantity
+3724	Current quantity	Current quantity
+3725	Date of count	Date of count
+3726	Ok -> Next	OK → Next
+3727	Uncounted	Uncounted
+3728	Counted	Counted
+3729	Fast add	Fast add
+3730	Post diverence	Post difference
+3731	Checked and OK	Checked and OK
+3732	Your current open year end date "%s" is greater than today. do you want to stop opening a new year?	Your current open year end date %s is greater than today! Do you want to stop opening a new year?
+3733	Are you sure you want to overwrite your current books?	Are you sure you want to overwrite your current books?
+3734	Post in period 0	Post in period 0
+3735	You are putting proffit/loss on ledger with tax. This will messup tax reports Do you wish to continue?	You are putting profit/loss on ledger with tax! This will mess up tax reports! Do you wish to continue?
+3736	You are putting cash from a bank/cash directly to a bank/cash account. Do you wish to continue?	You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?
+3737	Do you wish to cancel the print this reciept?	Do you wish to cancel the print this receipt?
+3738	LTR	LTR
+3739	Convert quote to one unproccessed invoice per client	Convert quote to one unprocessed invoice per client
+9901	//  Siin on peamenüü kommentaarid	//  These are the main menu comments
+20000	Erinevate tasemete loomine pole siin lubatud.	You cannot create recursive levels!
+20001	Kinnitus	Confirm
+20002	Kustutada kirje?	Delete record?
+20003	Kustutada kõik märgitud kirjed?	Delete all selected records?
+20004	Uue rea lisamiseks klõpsa siin	Click here to add a new row
+20005	Filter on tühi>	Filter is <empty>
+20006	Kohandamine	Customisation
+20007	Veerud	Columns
+20008	Lohista veerg hiirega teise veeru peale nende grupeerimiseks!	Use your mouse to pull a column here to group on that column
+20009	Kohanda...	Customise...
+20010	Ribad	Bands
+20011	Puudub infovahetuskomponent! Palun lisa %s komponent vormile!	Missing an intermediary component! Please add a %s component to the form!
+20012	cxGrid puudub	cxGrid does not exist!
+20013	Komponent puudub	Component does not exist!
+20014	Impordi viga	Import error!
+20015	Võrgustiku vaadet pole olemas	Grid view does not exist!
+20016	Aktiivset võrgustiku taset pole olemas	Active grid level does not exist!
+20017	Ei saa luua faili eksportimiseks	Cannot create the export output file!
+20018	ExtLookupComboBox|Represents on ülitäpne otsingu süsteem, mis kasutab QuantumGrid'i oma rippmenüüna	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!
+20019	võrdne	Equal to
+20020	ei ole võrdne	Not equal to
+20021	väiksem kui	Less than
+20022	väiksem või võrdne	Less than or equal to
+20023	suurem kui	Greater than
+20024	suurem või võrdne	Greater than or equal to
+20025	sarnane	Like
+20026	ei ole sarnane	Not like
+20027	vahemikus	Between
+20028	ei ole vahemikus	Not between
+20029	kuulub	in
+20030	ei kuulu	Not in
+20031	on eile	is yesterday
+20032	on täna	is today
+20033	on homme	is tomorrow
+20034	on eelmine nädal	is last week
+20035	on eelmine kuu	is last month
+20036	on eelmine aasta	is last year
+20037	on jooksev nädal	is this week
+20038	on jooksev kuu	is this month
+20039	on jooksev aasta	is this year
+20040	on järgmine nädal	is next week
+20041	on järgmine kuu	is next month
+20042	on järgmine aasta	is next year
+20043	Ja	and
+20044	Või	or
+20045	Ei	Not
+20046	Tühi	Empty
+20047	väärtus on null	is nul
+20048	väärtus pole null	is not nul
+20049	Algab	Begins with
+20050	Ei alga	Does not begin with
+20051	Lõpeb	Ends with
+20052	Ei lõpe	Does not end with
+20053	sisaldab	Contains
+20054	ei sisalda	Does not contain
+20055	(Kõik)	(All)
+20056	(Kohandatud...)	(Custom...)
+20057	(Tühi)	(Empty)
+20058	(Pole tühi)	(Not empty)
+20059	Tehingu number	Transaction no.
+20060	Konteeringu number	Journal no.
+20061	,0.00	,0.00
+20062	Arv: 0	Count : 0
+20063	Eksport	Export
+20064	Veerud	Columns
+20065	Kogumüük	Total sales
+20066	Koguste summa	Total Qty.
+20067	Päeva müügikäibe summa:	Total sales per day
+20068	Müüdud kogus päevas	Total qty. per day
+20069	Tehingud	Transactions
+20070	Kliendi arved	Customer invoice
+20071	Tooted arvetel	Invoice stock item
+20072	Arved toodete kohta	Stock item invoice
+20073	Diagrammid	Charts
+20074	Kordumatu tootekood	Unique stock no.
+20075	Kordumatu dokumendinumber	Unique document no.
+20076	Kordumatu reanumber	Unique line no.
+20077	Kordumatu kontonumber	Unique account no.
+20078	See versioon lõpetas töö 01.03.2005. Täpsema info jaoks vaata https://www.osfinancials.org/ !	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/
+20079	Ava esmalt ettevõte!	Open a Set of Books first!
+20080	Kohta	About
+20081	Välju	Exit
+20082	Käivita SQL...	Run SQL
+20083	Ava SQL...	Load SQL...
+20084	Salvesta SQL...	Save SQL...
+20085	Filtrid	Filters
+20086	Gruppeerimine	Grouping
+20087	Fondi muutmine...	Editor font...
+20088	Vaikekujundus	Native style
+20089	Avatud kaust	Open directory
+20090	Nähtavad veerud	Visible columns
+20091	alates	From
+20092	kuni	Until
+20093	ja	and
+20094	või	or
+20095	ja ei	and not
+20096	või ei	or not
+20097	Filter	Filter
+20098	Uus &tingimus	New &condition
+20099	Uus &grupp	New &group
+20100	Kustuta ri&da	&Delete row
+20101	Kustut&a kõik	Delete &all
+20102	Klõpsa sellel nupul tingimuse lisamiseks	Push this button to add a condition
+20103	Sisaldab järgmiseid tingimusi	Contains the following conditions
+20104	<Päis>	<Head>
+20105	<Tühi>	<Empty>
+20106	Filtri tühjendamine ebaõnnestus	Cannot empty filter!
+20107	Kohandatud filter	Adjusted filter
+20108	Vale väärtus	Invalid value
+20109	Kasuta	Use
+20110	üksiku märgi esitamiseks	to present a single character
+20111	mitme järgneva märgi esitamiseks	to present multiple characters
+20112	ja	and
+20113	Või	or
+20114	Näita ridu, kus:	Show rows where :
+20115	Loo filter	Make filter
+20116	nimetu.flt	noname.flt
+20117	Ava salvestatud filter	Open a saved filter
+20118	Salvesta aktiivne filter	Save active filter
+20119	&Salvesta nimega...	&Save as...
+20120	Ava...	&Open...
+20121	Kehtest&a	&Apply
+20122	flt	flt
+20123	Filter (*.flt)|*.flt	Filter (*.flt)|*.flt
+20124	<No data to display>	<No data to display>
+20130	Do not cash	Do not cash
+20131	Create goods sold not taken	Create goods sold not taken
+20132	Cannot delete!	Cannot delete!
+20133	Use advanced stock	Use advanced stock
+21000	&File	&File
+21001	Report Manager Designer	Report Manager Designer
+21002	&Report	&Report
+21003	&Edit	&Edit
+21004	&Display	&Display
+21005	&Preferences	&Preferences
+21006	&Help	&Help
+21007	Grid	Grid
+21008	Grid options for this report	Grid options for this report
+21009	Cut	Cut
+21010	Copy	Copy
+21011	Paste	Paste
+21012	Cut selected object	Cut selected object
+21013	Copy selected object to clipboard	Copy selected object to clipboard
+21014	Paste from clipboard	Paste from clipboard
+21015	Hide	Hide
+21016	Hide selected objects	Hide selected objects
+21017	Show all	Show all
+21018	Shows all the hiden components	Shows all the hidden components
+21019	All	All
+21020	Selects all components of the report	Selects all components of the report
+21021	Select	Select
+21022	Move	Move
+21023	Left	Left
+21024	Moves the selection to the left	Moves the selection to the left
+21025	Right	Right
+21026	Moves the selection to the left	Moves the selection to the right
+21027	Up	Up
+21028	Moves the selection up	Moves the selection up
+21029	Down	Down
+21030	Moves the selection down	Moves the selection down
+21031	Align	Align
+21032	Aligns selection to the left	Aligns selection to the left
+21033	Aligns selection to the right	Aligns selection to the right
+21034	Aligns selection up	Aligns selection up
+21035	Aligns selection down	Aligns selection down
+21036	Horizontal space	Horizontal space
+21037	Aligns selection distributing horzontal space	Aligns selection distributing horizontal space
+21038	Vertical space	Vertical space
+21039	Aligns selection distributing vertical space	Aligns selection distributing vertical space
+21040	New	New
+21041	Creates a new report	Creates a new report
+21042	Open	Open
+21043	Opens an existing report	Opens an existing report
+21044	AExit	Exit
+21045	Closes de application	Closes the application
+21046	Save...	Save...
+21047	Saves the current report	Saves the current report
+21048	Save as...	Save as...
+21049	Saves the report to a new file	Saves the report to a new file
+21050	Page Setup	Page setup
+21051	Show report page setup	Show report page setup
+21052	Print	Print
+21053	Print the report, you can select pages to print	Print the report. You can select pages to print.
+21054	Print Preview	Print preview
+21055	Preview the report in the screen	Preview the report in the screen
+21056	Printer setup...	Printer setup...
+21057	Displays printer setup dialog	Displays printer setup dialog
+21058	About Report Manager	About Report Manager
+21059	Shows information about Report Manger	Shows information about Report Manger
+21060	Documentation	Documentation
+21061	Display Report Manager Designer Documentation	Display Report Manager Designer Documentation
+21062	Measurement	Measurement
+21063	&Cms	&Cms
+21064	Change measurement units to cms	Change measurement units to cms
+21065	Inches	Inches
+21066	Changes measurement units to inchess	Changes measurement units to inches
+21067	Driver	Driver
+21068	Qt driver (CLX)	Qt driver (CLX)
+21069	Activates the Qt cross platform graphics and printing driver	Activates the Qt cross platform graphics and printing driver
+21070	GDI Driver (VCL)	GDI Driver (VCL)
+21071	Activates the GDI32 direct rendering driver (VCL), Windows only	Activates the GDI32 direct rendering driver (VCL), Windows only
+21072	Qt System print dialog	Qt System print dialog
+21073	Shows the system print dialog, or a custom print dialog	Shows the system print dialog, or a custom print dialog
+21074	Kylix Print Bugfix	Kylix Print Bugfix
+21075	Uses kylix print bugfix (use metaprint to print metafiles)	Uses Kylix print bugfix (use metaprint to print metafiles)
+21076	Status bar	Status bar
+21077	Shows or hides the status bar	Shows or hides the status bar
+21081	Select objects	Select objects
+21082	Inserts a static text	Inserts a static text
+21083	Inserts a expression	Inserts an expression
+21084	Inserts a simple drawing	Inserts a simple drawing
+21085	Inserts a image	Inserts an image
+21086	Inserts a barcode	Inserts a barcode
+21087	Inserts a chart	Inserts a chart
+21093	OK	OK
+21094	Cancel	Cancel
+21095	Default	Default
+21096	Custom	Custom
+21097	Page size	Page size
+21098	Page orientation	Page orientation
+21099	Page Margins	Page margins
+21100	Left	Left
+21101	Right	Right
+21102	Top	Top
+21103	Bottom	Bottom
+21104	Custom size	Custom size
+21105	Custom page orientation	Custom page orientation
+21106	Portrait	Portrait
+21107	Landscape	Landscape
+21108	Copies	Copies
+21109	Collate copies	Collate copies
+21110	Dialog	Dialog
+21111	Two pass report	Two pass report
+21112	Report language	Report language
+21113	Printer Fonts (Windows GDI Only)	Printer fonts (Windows GDI Only)
+21114	Always use printer fonts	Always use printer fonts
+21115	Never use printer fonts	Never use printer fonts
+21116	Background color	Background color
+21117	All Text	All Text
+21118	Selects all text components of the report	Selects all text components of the report
+21119	Page header	Page header
+21120	Inserts a page header in the selected subreport	Inserts a page header in the selected subreport
+21121	Page footer	Page footer
+21122	Inserts a page footer in the selected subreport	Inserts a page footer in the selected subreport
+21123	Group header and footer	Group header and footer
+21124	Insert a group header an footer	Insert a group header and footer
+21125	Subreport	Subreport
+21126	Insert a new subreport	Insert a new subreport
+21127	Delete section/subreport	Delete section/subreport
+21128	Deletes the selected subreport or section	Deletes the selected subreport or section
+21129	Detail	Detail
+21130	Inserts a detail section in the selected subreport	Inserts a detail section in the selected subreport
+21131	Data access configuration	Data access configuration
+21132	Modifies data access information	Modifies data access information
+21133	Parameter definition	Parameter definition
+21134	Shows parameter definition for the report and data configuration	Shows parameter definition for the report and data configuration
+21135	Parameters	Parameters
+21136	Show report parameters	Show report parameters
+21137	Delete section	Delete section
+21138	Delete the selected section	Delete the selected section
+21139	Moves the section up	Moves the section up
+21140	Moves the section down	Moves the section down
+21142	Connections	Connections
+21143	Configure printers	Configure printers
+21144	Login prompt	Login prompt
+21145	Load params	Load parameters
+21146	Load driver params	Load driver parameters
+21148	Datasets	Datasets
+21149	Add	Add
+21150	Delete	Delete
+21152	Parameters	Parameters
+21154	Connection	Connection
+21155	Master dataset	Master dataset
+21156	Show data	Show data
+21157	BDE Type	BDE type
+21158	Table and order	Table and order
+21159	Query	Query
+21160	Table	Table
+21161	BDE Filter	BDE filter
+21162	Table	Table
+21163	Index Name	Index name
+21164	Index Fields	Index fields
+21165	Master fields	Master fields
+21166	Note: Write fields separated by ; character	Note: Write fields separated by ; character
+21167	MyBase Filename	MyBase file name
+21168	Build...	Build...
+21216	Save Metafile As	Save metafile as
+21217	Save the report as a metafile report	Save the report as a metafile report
+21218	Cancels the report calculation	Cancels the report calculation
+21219	Closes the preview window	Closes the preview window
+21220	First page	First page
+21221	Goes to the first page of the report	Goes to the first page of the report
+21222	Previous page	Previous page
+21223	Shows the previous page	Shows the previous page
+21224	Next page	Next page
+21225	Shows the next page	Shows the next page
+21226	Last page	Last page
+21227	Goes to the last page of the report	Goes to the last page of the report
+21228	Normal Scale	Normal scale
+21229	Shows the report in real size	Shows the report in real size
+21230	Scale to window	Scale to window
+21231	Scale adjusting the paper to the window width	Scale adjusting the paper to the window width
+21232	Scale to full page	Scale to full page
+21233	Scale to view full page	Scale to view full page
+21234	Zoom-	Zoom-
+21235	Zooms out the view	Zooms out the view
+21236	Zoom+	Zoom+
+21237	Zooms in the view	Zooms in the view
+21354	Reportman manager designer	Reportman manager designer
+21539	New dataset	New dataset
+21540	Rename dataset	Rename dataset
+21732	User defined	User defined
+21733	Custom size	Custom size
+21734	Adds a section to the selected subreport	Adds a section to the selected subreport
+21741	Select Printer	Select printer
+21742	Dialog	Dialog
+21743	Configuraiton file	Configuration file
+21744	User configuration	User configuration
+21745	System configuration	System configuration
+21746	Position adjustment	Position adjustment
+21753	Connect	Connect
+21763	Operations after print	Operations after print
+21764	Example, TM200 Open Drawer: #27#112#48#160#160#4	Example, TM200 Open Drawer: #27#112#48#160#160#4
+21765	Example, TM88 Open Drawer: #27#112#48#40#200#4	Example, TM88 Open Drawer: #27#112#48#40#200#4
+21766	Cut paper	Cut paper
+21767	Open drawer	Open drawer
+21799	No data available to print!	No data available to print!
+21800	Print only if data available	Print only if data available
+21831	First range	First range
+21832	Last range	Last range
+21833	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter
+21835	Load section	Load section
+21836	Save section	Save section
+21840	Preview window and scale	Preview window and scale
+21841	Normal	Normal
+21842	Maxmized	Maximized
+21843	Wide	Wide
+21844	Normal	Normal
+21845	Page	Page
+21857	Page setup	Page setup
+21858	Print setup	Print setup
+21936	Native driver	Native driver
+21939	Activates the Native driver, no graphics dependent	Activates the Native driver, no graphics dependent
+21976	System information	System information
+21977	Shows system and printer information	Shows system and printer information
+22058	Text only driver	Text only driver
+22059	Align height 1/6	Align height 1/6
+22060	Aligns all sections height to 1/6 inchess for dot matrix compatibility	Aligns all sections height to 1/6 inches for dot matrix compatibility
+22080	Libraries	Libraries
+22081	Open report libraries dialog	Open report libraries dialog
+22082	Dataset client side unions	Dataset client side unions
+22083	Unions	Unions
+22084	Union grouping	Union grouping
+22085	Field defs file	Field defs file
+22086	Modify...	Modify...
+22097	Database connections and datasets	Database connections and datasets
+22098	Available connections	Available connections
+22099	Connection String	Connection string
+22100	Available	Available
+22101	Database driver	Database driver
+22102	New connection	New connection
+22103	Adds a new connection	Adds a new connection
+22104	Delete connection	Delete connection
+22105	Deletes the selected connection	Deletes the selected connection
+22106	Delete the selected object	Delete the selected object
+22230	Mail to	Mail to
+22231	Sends the reports to a e-mail destination	Sends the reports to an e-mail destination
+22347	Application Font	Application font
+22348	Application Font	Application font
+22377	Lines per inch	Lines per inch
+22433	Recalculte report	Recalculte report
+22434	Find	Find
+22435	Find text	Find text
+22440	Parallel union	Parallel union
+900000	ELS kood	Parcelware code
+900001	Verstuur naar parcelware	Send to Parcelware
+900002	Maja	House no.
+900003	Maja	House no. unit
+900004	Tänav	Street
+901000	Tellimused	Subscriptions
+901001	Tellimuste nimekiri	Subscriptions list
+901002	Hoiatused	Warnings
+901003	Tellimused töötlemiseks	Subscriptions to process
+901004	Rea väärtus (koos KM)	Line value (Incl.)
+901005	Arve saatmine päevades enne tellimuse päeva	Invoice in days before subscription date
+901006	Hoiatuse saatmine päevades enne tellimuse päeva	Warning in days before subscription date
+901007	Intervalli liik	Interval type
+901008	Intervall	Interval
+901009	<Vali laotoode>	<Select stock item>
+901010	Kas tahad kindlasti tühistada selle tellimuse?	Are you sure you want to delete this subscription?
+901011	Viimane käivitus	Last run
+901012	Järgmine käivitus	Next run
+901013	Avapäev	Start date
+901014	Kuni	To
+901015	Töödeldud	Processed
+901016	Tellimused	Subscriptions
+901017	Päev	Day
+901018	Nädal	Week
+901019	Kuu	Month
+901020	Kvartal	3 Months
+901021	poolaasta	6 Months
+901022	Aasta	Year
+901023	Järgmine hoiatus	Next warning
+901500	Split	Split
+901501	Seat	Seat
+901502	Couvert	Couvert
+901503	Waiter	Waiter
+901504	The item %s is out of stock! Please review your entry!	The item %s is out of stock! Please review your entry!
+901505	New lines added please review this payment!	New lines added please review this payment!
+901506	Please close all open invoices first!	Please close all open invoices first!
+901507	Are you sure you want to continue to close the POS?	Are you sure you want to continue to close the POS?
+901508	Close POS	Close POS
+901509	Handheld	Handheld
+902000	Hinnakokkulepe	Price agreement
+902001	Kuni kogus	Until quantity
+902002	Väline tootekood	External product code
+902003	Protsent keskmisest ostuhinnast	Percentage of avg. cost price
+902004	<Kõik laokaubad>	<All stock>
+902005	<Kõik deebitorid>	<All debtors>
+902006	Ajalooline	Historical
+902007	Hinna tüüp	Price type
+902008	Price list - Large retail - Sales	Price list - Large retail - Sales
+902009	Price list - Large retail - Purchases	Price list - Large retail - Purchases
+903000	Multimeedium	Multimedia
+903001	Faili asukoht	File location
+903002	Esmane faili nimi	Original file name
+903003	Faili kuupäev	File date
+903004	Andmebaasi	To database
+903005	Viita fail	Link file
+903006	Kopeeri fail	Copy file
+903007	URL	URL
+903008	Vaata/Muuda	View/Edit
+903009	Klõpsa "Ok" kui oled muudatused teinud ning soovid neid andmebaasi talletada!	Press [OK] when you are done editing the file to save it to the database!
+903010	Salvesta kui...	Save as...
+903011	Loetle	List
+903100	Charter	Charter
+903101	Corrections	Corrections
+903102	Sysvars	Sysvars
+903103	Inconsistencies	Inconsistencies
+903104	MSG	MSG
+903105	Run SQL	Run SQL
+903106	Cleanup batch	Cleanup journal
+903107	Colour conditions	Colour conditions
+903108	Ledger transactions	Ledger transactions
+903109	Import	Import
+903110	Patches	Patches
+903111	Round-off cents	Round-off cents
+903112	Add extra description to stock	Add extra description to stock
+903113	Drop extra description from stock	Drop extra description from stock
+903114	Change stock code type	Change stock code type
+903115	Calculate total in stock	Calculate total in stock
+903116	Test increase	Test increase
+903117	Type id	Type id
+903118	End stock code	End stock code
+903119	Remove groups not in stock	Remove groups not in stock
+903120	Remove stock not in documents	Remove stock not in documents
+903121	Generate stock per ledger	Generate stock per ledger
+903122	Remove from BOM which is not BOM	Remove from BOM which is not BOM
+903123	Update stock qty for option items	Update stock qty for option items
+903124	Remove debtors	Remove debtors
+903125	Remove creditors	Remove creditors
+903126	Remove stock items	Remove stock items
+903127	Remove contacts	Remove contacts
+903128	Clear messages	Clear messages
+903129	Consolidate closed years	Consolidate closed years
+903130	Transfer account data	Transfer account data
+903131	Transfer stock data	Transfer stock data
+903132	Transfer doubles to Min id and delete	Transfer doubles to Min id and delete
+903133	Consolidate closed years - documents and stock	Consolidate closed years - documents and stock
+903134	Fill globals with max + 1 id	Fill globals with max + 1 id
+903135	Remove debtors not in account	Remove debtors not in account
+903136	Remove creditors not in account	Remove creditors not in account
+903137	Set all debtors to open item	Set all debtors to open item
+903138	Set all creditors to open item	Set all creditors to open item
+903139	Correct account numbers	Correct account numbers
+903140	Correct sub-accounts	Correct sub-accounts
+903141	Trim debtor address and set first character to the UPPERCASE	Trim debtor address and set first character to the UPPERCASE
+903142	Generate all total entries	Generate all total entries
+903143	Remove invalid symbols from bank accounts	Remove invalid symbols from bank accounts
+903144	Reset purchase to basis of last document	Reset purchase to basis of last document
+903145	Correct errors balance booking descriptions	Correct errors balance booking descriptions
+903146	Set Transact previous years	Set Transact previous years
+903147	Update Dochead FTaxAmt	Update Dochead FTaxAmt
+903148	Correct periods	Correct periods
+903149	Fix periods	Fix periods
+903150	Find unbalanced entries	Find unbalanced entries
+903151	Auto-link all zero debtors	Auto-link all zero debtors
+903152	Remove all links	Remove all links
+903153	Correct Transact line id	Correct Transact line id
+903154	Correct Incl. Excl. Tax amount (Reverse bug)	Correct Incl./Excl. Tax amount (Reverse bug)
+903155	Clear totals	Clear totals
+903156	Clear Sysvars parameters	Clear Sysvars parameters
+903157	Delete all invoices	Delete all invoices
+903158	Remove BatCon not in Transact	Remove BatCon not in Transact
+903159	Remove zero invoices	Remove zero invoices
+903160	Remove last name from contacts after a comma	Remove last name from contacts after a comma
+903161	Find debtors	Find debtors
+903162	Find creditors	Find creditors
+903163	Generate contacts	Generate contacts
+903164	Pick colour	Pick colour
+903165	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price
+903166	Select	Select
+903167	Rerun Patch X	Rerun Patch X
+903168	Reset Sysvars	Reset Sysvars
+903169	Current version	Current version
+903170	Execute	Execute
+903171	Script	Script
+903172	Set term	Set term
+903173	Drop	Drop
+903174	Save to all users	Save to all users
+903175	Expression	Expression
+903176	Font expression	Font expression
+903177	Background expression	Background expression
+903178	Are you sure?	Are you sure?
+903179	Nothing found !	Nothing found !
+903180	Enter code	Enter code
+903181	Please register <@APPNAME@> first!	Please register <@APPNAME@> first!
+903182	Registered	Registered
+906000	Vaatamata eelnenud meeldetuletustele on meie andmetel teie võlgnevus siiani tasumata.	Despite previous reminders, according to our records your account is still overdue. 
+906001	Järgmine tellimusperiood on algamas. Väljastame teile järgmise perioodi arve.	The next subscription will start soon. The invoice for the new period will follow shortly.
+906002	Dokumendi kuupäev ja kellaaeg.	Document date/time
+906003	Alias	Alias
+906004	Varustaja	Supplier
+906005	Tellimuse kuupäev	Order date
+906006	Pakkumise kuupäev	Quote date
+906007	Cum	Cum
+906008	Kokku makstud	Total paid
+906009	PIN	PIN
+906010	Palume tasuda võlgnevuse esimesel võimalusel.	Please settle your account as soon as possible!
+906011	Ilma KM-ta	Exclusive
+906012	Koos KM-ga	Inclusive
+906013	Kontole	On account
+906014	Sularahaarve	POS Tax Invoice
+906015	IBAN	IBAN
+906016	BIC	BIC
+906017	SWIFT	SWIFT
+906018	Täname teie toetuse eest!	Thank you for your patronage.
+906019	Head päeva teile!	Have a nice day.
+906020	Käibemaks	Tax
+906021	Osakonna kood	Branch code
+906022	Konto omanik	Account holder
+906023	-Aruande lõpp-	- End of report -
+906024	Kreeditarve kuupäev	Credit note date
+906025	Cum gen	Cum total
+906026	Ostudokument	Purchase document
+906027	Soetamise kuupäev	Purchase date
+906028	Hankijale tagastamise kuupäev	Supplier return date
+906029	Tagastussaateleht	Supplier return document
+906030	Tagastus aktsepteeritud hankija poolt	Supplier return accepted
+906031	Historical value	Historical value
+906032	Order list	Order list
+906033	Outstanding orders	Outstanding orders
+906034	Outstanding quotes	Outstanding quotes
+906035	Debtor - Price agreement	Debtor - Price agreement
+906036	Reorder quantities	Reorder quantities
+906037	Sales hours	Sales hours
+906038	Stock movement	Stock movement
+906039	Transaction details	Transaction details
+906040	Yagoda barcode	Yagoda barcode
+906041	P/L	P/L
+906042	Profit/Loss	Profit/Loss
+906043	Sales per customer group	Sales per customer group
+906044	Sales per stock group	Sales per stock group
+906045	Debtor list	Debtor list
+906046	Creditor list	Creditor list
+906047	Contact list - Debtors	Contact list - Debtors
+906048	Contact list - Creditors	Contact list - Creditors
+906049	Contact list - All	Contact list - All
+906050	Backorder	Backorder
+906051	Log report	Log report
+906052	Log-on	Log-on
+906053	Log-off	Log-off
+906054	OS user	OS user
+906055	From PC	From PC
+906056	Bar order	Bar order
+906057	Kitchen order	Kitchen order
+906058	Turnover	Turnover
+906059	Sales per customer	Sales per customer
+906060	Contact list - Main	Contact list - Main
+906061	Transaction list - Open item	Transaction list - Open item
+906062	Selected debtor label	Selected debtor label
+906063	Selected creditor label	Selected creditor label
+906064	Delivery address labels	Delivery address labels
+906065	Selected debtor delivery label	Selected debtor delivery label
+906066	Selected creditor delivery label	Selected creditor delivery label
+906067	Payments	Payments
+906068	Page no.	Page no.
+906069	Your tax reference	Your tax reference
+906070	Reprinted	Reprinted
+906071	Cost centre 1	Cost centre 1
+906072	Cost centre 2	Cost centre 2
+906073	POSPoints	POSPoints
+906074	Batch	Journal
+906075	Compare period	Compare period
+906076	Compare period - Debtors	Compare period - Debtors
+906077	Compare period - Creditors	Compare period - Creditors
+906078	Compare period - Profit / Loss	Compare period - Profit / Loss
+906079	Multi-year	Multi-year
+906080	On selected account / other	On selected account / other
+906081	Transaction id	Transaction id
+906082	Batch type id	Journal type id
+906083	Document amount	Document amount
+906084	Document tax	Document tax
+906085	Tax on tax account	Tax on tax account
+906086	Control report - Processed transactions per contra account	Control report - Processed transactions per contra account
+906087	POS Payment types	POS Payment types
+906088	Creditor - Price agreement	Creditor - Price agreement
+906089	POS Sales report	POS Sales report
+906090	POS Current cash report	POS Current cash report
+906091	POS Historical cash report	POS Historical cash report
+906092	Total Profit / Loss	Total Profit / Loss
+906093	Opening balance	Opening balance
+906094	Total balance	Total balance
+906095	Total lines	Total lines
+906096	Checksum	Checksum
+906097	Automatic receipts report	Automatic receipts report
+906098	Batch type report	Journal type report
+906099	BatchID	Journal id
+906100	Posted batch	Posted journal
+906101	Unposted batch	Unposted journal
+906102	Contra Accounts	Contra accounts
+906103	Creditors outstanding at date	Creditors outstanding at date
+906104	Debtors outstanding at date	Debtors outstanding at date
+906105	Tax per period	Tax per period
+906106	Debtor transactions - Standard	Debtor transactions - Standard
+906107	Debtor transactions - Extra details	Debtor transactions - Extra details
+906108	Creditor transactions - Standard	Creditor transactions - Standard
+906109	Creditor transactions - Extra details	Creditor transactions - Extra details
+906110	General ledger transactions - Standard	General ledger transactions - Standard
+906111	General ledger transactions - Extra details	General ledger transactions - Extra details
+906112	Stock In / Out	Stock In / Out
+906113	Period quantity	Period quantity
+906114	Purchases per period	Purchases per period
+906115	Items per period	Items per period
+906116	Creditor group	Creditor group
+906117	Debtor group	Debtor group
+906118	Stock group	Stock group
+906119	Document group	Document group
+906120	Supplier returns per period	Supplier returns per period
+906121	Credit notes per period	Credit notes per period
+906122	Sales per period	Sales per period
+906123	Debtor transactions	Debtor transactions
+906124	Creditor transactions	Creditor transactions
+906125	Posted invoices	Posted invoices
+906126	Unposted invoices	Unposted invoices
+906127	Posted credit notes	Posted credit notes
+906128	Unposted credit notes	Unposted credit notes
+906129	Posted purchases	Posted purchases
+906130	Unposted purchases	Unposted purchases
+906131	Posted supplier returns	Posted supplier returns
+906132	Unposted supplier returns	Unposted supplier returns
+906133	Confirmed quotes	Confirmed quotes
+906134	Unconfirmed quotes	Unconfirmed quotes
+906135	Confirmed orders	Confirmed orders
+906136	Unconfirmed orders	Unconfirmed orders
+906137	Postal address labels	Postal address labels
+906138	List delivery address	List delivery address
+906139	List postal address	List postal address
+906140	List details	List details
+906141	Batch transactions per period	Journal transactions per period
+906142	Balances detail	Balances detail
+906143	Balances detail history (open item)	Balances detail history (open item)
+906144	Outstanding open item transaction totals	Outstanding open item transaction totals
+906145	Outstanding transaction totals	Outstanding transaction totals
+906146	Debtor age analysis	Debtor age analysis
+906147	Balances	Balances
+906148	Balances detail 1	Balances detail 1
+906149	Reporting groups	Reporting groups
+906150	Purchases per period - Quantities	Purchases per period - Quantities
+906151	Purchases per period - Cost	Purchases per period - Amount
+906152	Purchases per period - Creditor group 1	Purchases per period - Creditor group 1
+906153	Purchases per period - Creditor group 2	Purchases per period - Creditor group 2
+906154	Purchases per period - Document group 1	Purchases per period - Document group 1
+906155	Invoices per period - Quantities	Invoices per period - Quantities
+906156	Invoices per period - Turnover	Invoices per period - Amount
+906157	Invoices per period - Debtor group 1	Invoices per period - Debtor group 1
+906158	Invoices per period - Debtor group 2	Invoices per period - Debtor group 2
+906159	Invoices per period - Document group 1	Invoices per period - Document group 1
+906160	Cash slip printer	Cash slip printer
+906161	Document listing per account	Document listing per account
+906162	Unprinted document listing	Unprinted document listing
+906163	Purchases per period - Document group 2	Purchases per period - Document group 2
+906164	Purchases per period - Salesperson	Purchases per period - Salesperson
+906165	Invoices per period - Document group 2	Invoices per period - Document group 2
+906166	Invoices per period - Salesperson	Invoices per period - Salesperson
+906167	Graph - Creditor per week	Graph - Creditors per week
+906168	Graph - Debtor per week	Graph - Debtors per week
+906169	Graph - Profit / Loss per week	Graph - Profit / Loss per week
+906170	Graph - Invoices per week - Quantities	Graph - Invoices per week - Quantities
+906171	Graph - Invoices per week - Turnover	Graph - Invoices per week - Amount
+906172	Purchases per product - Stock group 1	Purchases per product - Stock group 1
+906173	Purchases per product - Stock group 2	Purchases per product - Stock group 2
+906174	Sales per product - Stock group 1	Sales per product - Stock group 1
+906175	Sales per product - Stock group 2	Sales per product - Stock group 2
+906176	System user	System user
+906177	<@APPNAME@> user	<@APPNAME@> user
+906178	Stock in	Stock in
+906179	Stock out	Stock out
+906180	Open drawer	Open drawer
+906181	Delivery note (no codes)	Delivery note (no codes)
+906182	Delivery note (15 code)	Delivery note (15 code)
+906183	POS - STARTSP100	POS - STARTSP100
+906184	POS	POS 1
+906185	POS 2	POS 2
+906186	POS A4	POS A4
+906187	Default A4	Default A4
+906188	Default A4 (10 code)	Default A4 (10 code)
+906189	Default A4 (15 code)	Default A4 (15 code)
+906190	Invoice test	Invoice test
+906191	Invoice English (15 code)	Invoice English (15 code)
+906192	Invoice Bank details (no codes)	Invoice Bank details (no codes)
+906193	Invoice Bank details (15 code)	Invoice Bank details (15 code)
+906194	Invoice (no codes)	Invoice (no codes)
+906195	Credit note (no codes)	Credit note (no codes)
+906196	Quote (no codes)	Quote (no codes)
+906197	Purchase (no codes)	Purchase (no codes)
+906198	Supplier return (no codes)	Supplier return (no codes)
+906199	Order (no codes)	Order (no codes)
+906200	Invoice (10 code)	Invoice (10 code)
+906201	Credit note (10 code)	Credit note (10 code)
+906202	Quote (10 code)	Quote (10 code)
+906203	Purchase (10 code)	Purchase (10 code)
+906204	Supplier return (10 code)	Supplier return (10 code)
+906205	Order (10 code)	Order (10 code)
+906206	Invoice (15 code)	Invoice (15 code)
+906207	Credit note (15 code)	Credit note (15 code)
+906208	Quote (15 code)	Quote (15 code)
+906209	Purchase (15 code)	Purchase (15 code)
+906210	Supplier return (15 code)	Supplier return (15 code)
+906211	Order (15 code)	Order (15 code)
+906212	Invoice A4 (no codes)	Invoice A4 (no codes)
+906213	Credit note A4 (no codes)	Credit note A4 (no codes)
+906214	Quote A4 (no codes)	Quote A4 (no codes)
+906215	Purchase A4 (no codes)	Purchase A4 (no codes)
+906216	Supplier return A4 (no codes)	Supplier return A4 (no codes)
+906217	Order A4 (no codes)	Order A4 (no codes)
+906218	Invoice A4 (10 code)	Invoice A4 (10 code)
+906219	Credit note A4 (10 code)	Credit note A4 (10 code)
+906220	Quote A4 (10 code)	Quote A4 (10 code)
+906221	Purchase A4 (10 code)	Purchase A4 (10 code)
+906222	Supplier return A4 (10 code)	Supplier return A4 (10 code)
+906223	Order A4 (10 code)	Order A4 (10 code)
+906224	Invoice A4 (15 code)	Invoice A4 (15 code)
+906225	Credit note A4 (15 code)	Credit note A4 (15 code)
+906226	Quote A4 (15 code)	Quote A4 (15 code)
+906227	Purchase A4 (15 code)	Purchase A4 (15 code)
+906228	Supplier return A4 (15 code)	Supplier return A4 (15 code)
+906229	Order A4 (15 code)	Order A4 (15 code)
+906230	Invoice A4 Plain (no codes)	Invoice A4 Plain (no codes)
+906231	Credit note A4 Plain (no codes)	Credit note A4 Plain (no codes)
+906232	Quote A4 Plain (no codes)	Quote A4 Plain (no codes)
+906233	Purchase A4 Plain (no codes)	Purchase A4 Plain (no codes)
+906234	Supplier return A4 Plain (no codes)	Supplier return A4 Plain (no codes)
+906235	Order A4 Plain (no codes)	Order A4 Plain (no codes)
+906236	Invoice A4 Plain (10 code)	Invoice A4 Plain (10 code)
+906237	Credit note A4 Plain (10 code)	Credit note A4 Plain (10 code)
+906238	Quote A4 Plain (10 code)	Quote A4 Plain (10 code)
+906239	Purchase A4 Plain (10 code)	Purchase A4 Plain (10 code)
+906240	Supplier return A4 Plain (10 code)	Supplier return A4 Plain (10 code)
+906241	Order A4 Plain (10 code)	Order A4 Plain (10 code)
+906242	Invoice A4 Plain (15 code)	Invoice A4 Plain (15 code)
+906243	Credit note A4 Plain (15 code)	Credit note A4 Plain (15 code)
+906244	Quote A4 Plain (15 code)	Quote A4 Plain (15 code)
+906245	Purchase A4 Plain (15 code)	Purchase A4 Plain (15 code)
+906246	Supplier return A4 Plain (15 code)	Supplier return A4 Plain (15 code)
+906247	Order A4 Plain (15 code)	Order A4 Plain (15 code)
+906248	Invoice No Tax (no codes)	Invoice No Tax (no codes)
+906249	Credit note No Tax (no codes)	Credit note No Tax (no codes)
+906250	Quote No Tax (no codes)	Quote No Tax (no codes)
+906251	Purchase No Tax (no codes)	Purchase No Tax (no codes)
+906252	Supplier return No Tax (no codes)	Supplier return No Tax (no codes)
+906253	Order No Tax (no codes)	Order No Tax (no codes)
+906254	Invoice No Tax (15 code)	Invoice No Tax (15 code)
+906255	Credit note No Tax (15 code)	Credit note No Tax (15 code)
+906256	Quote No Tax (15 code)	Quote No Tax (15 code)
+906257	Purchase No Tax (15 code)	Purchase No Tax (15 code)
+906258	Supplier return No Tax (15 code)	Supplier return No Tax (15 code)
+906259	Order No Tax (15 code)	Order No Tax (15 code)
+906260	Invoice Bank details (10 code)	Invoice Bank details (10 code)
+906261	Invoice English (10 code)	Invoice English (10 code)
+906262	Invoice English (no codes)	Invoice English (no codes)
+906263	New report	New report
+906264	DOCUMENTS	DOCUMENTS
+906265	Tax report	Tax report
+906266	Posted Items - Outstanding	Posted items - Outstanding
+906267	Unposted Items - Outstanding	Unposted items - Outstanding
+906268	Current stock levels	Current stock levels
+906269	The sum of	The sum of
+906270	Amount outstanding	Amount outstanding
+906271	Original transaction amount	Original transaction amount
+906272	Paid to	Paid to
+906273	Payment number	Payment number
+906274	LAY-BUYS (to pay)	LAY-BUYS (to pay)
+906275	accepted	accepted
+906276	Document layout (10 code)	Document layout (10 code)
+906277	Document layout (15 code)	Document layout (15 code)
+906278	Document layout (no codes)	Document layout (no codes)
+906279	Supplier 1	Supplier 1
+906280	Ledger and tax	Ledger and tax
+906281	Dummy price	Dummy price
+906282	Extra convert to languages	Extra convert to languages
+906283	Active stock	Active stock
+906284	Mark copy	Mark copy
+906285	Multi-group copy	Multi-group copy
+906286	Report total	Report total
+906287	Debit transactions	Debit transactions
+906288	Credit transactions	Credit transactions
+906289	Graph - Purchases per week - Quantities	Graph - Purchases per week - Quantities
+906290	Graph - Purchases per week - Cost	Graph - Purchases per week - Amount
+906291	Credit notes per period - Debtor group 1	Credit notes per period - Debtor group 1
+906292	Credit notes per period - Debtor group 2	Credit notes per period - Debtor group 2
+906293	Credit notes per period - Document group 1	Credit notes per period - Document group 1
+906294	Credit notes per period - Document group 2	Credit notes per period - Document group 2
+906295	Credit notes per period - Salesperson	Credit notes per period - Salesperson
+906296	Supplier returns per period - Creditor group 1	Supplier returns per period - Creditor group 1
+906297	Supplier returns per period - Creditor group 2	Supplier returns per period - Creditor group 2
+906298	Supplier returns per period - Document group 1	Supplier returns per period - Document group 1
+906299	Supplier returns per period - Document group 2	Supplier returns per period - Document group 2
+906300	Supplier returns per period - Salesperson	Supplier returns per period - Salesperson
+906301	Quotes per period - Debtor group 1	Quotes per period - Debtor group 1
+906302	Quotes per period - Debtor group 2	Quotes per period - Debtor group 2
+906303	Quotes per period - Document group 1	Quotes per period - Document group 1
+906304	Quotes per period - Document group 2	Quotes per period - Document group 2
+906305	Quotes per period - Salesperson	Quotes per period - Salesperson
+906306	Orders per period - Creditor group 1	Orders per period - Creditor group 1
+906307	Orders per period - Creditor group 2	Orders per period - Creditor group 2
+906308	Orders per period - Document group 1	Orders per period - Document group 1
+906309	Orders per period - Document group 2	Orders per period - Document group 2
+906310	Orders per period - Salesperson	Orders per period - Salesperson
+906311	Credit notes per period - Quantities	Credit notes per period - Quantities
+906312	Credit notes per period - Turnover	Credit notes per period - Amount
+906313	Supplier returns per period - Quantities	Supplier returns per period - Quantities
+906314	Supplier returns per period - Cost	Supplier returns per period - Amount
+906315	Quotes per period - Quantities	Quotes per period - Quantities
+906316	Quotes per period - Turnover	Quotes per period - Amount
+906317	Orders per period - Quantities	Orders per period - Quantities
+906318	Orders per period - Cost	Orders per period - Amount
+906319	Graph - Credit notes per week - Quantities	Graph - Credit notes per week - Quantities
+906320	Graph - Credit notes per week - Turnover	Graph - Credit notes per week - Amount
+906321	Graph - Supplier returns per week - Quantities	Graph - Supplier returns per week - Quantities
+906322	Graph - Supplier returns per week - Cost	Graph - Supplier returns per week - Amount
+906323	Graph - Quotes per week - Quantities	Graph - Quotes per week - Quantities
+906324	Graph - Quotes per week - Turnover	Graph - Quotes per week - Amount
+906325	Graph - Orders per week - Quantities	Graph - Orders per week - Quantities
+906326	Graph - Orders per week - Cost	Graph - Orders per week - Amount
+906327	Purchase documents per period - Creditor group 1	Purchase documents per period - Creditor group 1
+906328	Purchase documents per period - Creditor group 2	Purchase documents per period - Creditor group 2
+906329	Purchase documents per period - Document group 1	Purchase documents per period - Document group 1
+906330	Purchase documents per period - Document group 2	Purchase documents per period - Document group 2
+906331	Purchase documents per period - Salesperson	Purchase documents per period - Salesperson
+906332	Sales per period - Debtor group 1	Sales per period - Debtor group 1
+906333	Sales per period - Debtor group 2	Sales per period - Debtor group 2
+906334	Sales per period - Document group 1	Sales per period - Document group 1
+906335	Sales per period - Document group 2	Sales per period - Document group 2
+906336	Sales per period - Salesperson	Sales per period - Salesperson
+906337	Purchases and supplier returns per period	Purchases and supplier returns per period
+906338	Credit control listing (Credit limit vs current balance) as at 	Credit control listing (Credit limit vs current balance) as at 
+906339	Tax and company registration numbers	Tax and company registration numbers
+906440	Transaction list	Transaction list
+906441	Actual	Actual
+906442	Budget v/s realisation 3 periods	Budget v/s realisation 3 periods
+906443	Ref. No.	Ref. no.
+906444	Data integrity check report	Data integrity check report
+906445	Date / Time	Date / Time
+906446	ID	ID
+906447	Unposted payments	Unposted payments
+906448	Unposted receipts	Unposted receipts
+906449	Automatic payments report	Automatic payments report
+906550	Tax report - Reference / Document no.	Tax report - Reference / Document no.
+906551	Creditor remittance advise - Outstanding	Creditor remittance advise - Outstanding
+906552	Debtor statement - Outstanding	Debtor statement - Outstanding
+906553	Tax list creditor with tax id	Tax list creditor with tax id
+906554	Outdated batch	Outdated batch
+906555	Batch bought from supplier	Batch bought from supplier
+906556	Batch sold to customer	Batch sold to customer
+906557	Graphs	Graphs
+906558	Graphs per week	Graphs per week
+906559	Graphs per month	Graphs per month
+906560	Graph - Profit / Loss per month	Graph - Profit / Loss per month
+906561	Graph - Debtors per month	Graph - Debtors per month
+906562	Graph - Creditors per month	Graph - Creditors per month
+906563	Graph - Quotes per month - Quantities	Graph - Quotes per month - Quantities
+906564	Graph - Quotes per month - Amount	Graph - Quotes per month - Amount
+906565	Graph - Credit notes per month - Quantities	Graph - Credit notes per month - Quantities
+906566	Graph - Credit notes per month - Amount	Graph - Credit notes per month - Amount
+906567	Graph - Invoices per month - Quantities	Graph - Invoices per month - Quantities
+906568	Graph - Invoices per month - Amount	Graph - Invoices per month - Amount
+906569	Graph - Invoices - Credit notes per month - Quantities	Graph - Invoices - Credit notes per month - Quantities
+906570	Graph - Invoices - Credit notes per month - Amount	Graph - Invoices - Credit notes per month - Amount
+906571	Graph - Purchases - Supplier returns per month - Quantities	Graph - Purchases - Supplier returns per month - Quantities
+906572	Graph - Purchases - Supplier returns per month - Amount	Graph - Purchases - Supplier returns per month - Amount
+906573	Graph - Orders per month - Amount	Graph - Orders per month - Amount
+906574	Graph - Orders per month - Quantities	Graph - Orders per month - Quantities
+906575	Graph - Supplier returns per month - Amount	Graph - Supplier returns per month - Amount
+906576	Graph - Supplier returns per month - Quantities	Graph - Supplier returns per month - Quantities
+906577	Graph - Purchases per month - Amount	Graph - Purchases per month - Amount
+906578	Graph - Purchases per month - Quantities	Graph - Purchases per month - Quantities
+906579	Graph - Invoices - Credit notes per week - Quantities	Graph - Invoices - Credit notes per week - Quantities
+906580	Graph - Invoices - Credit notes per week - Amount	Graph - Invoices - Credit notes per week - Amount
+906581	Graph - Purchases - Supplier returns per week - Quantities	Graph - Purchases - Supplier returns per week - Quantities
+906582	Graph - Purchases - Supplier returns per week - Amount	Graph - Purchases - Supplier returns per week - Amount
+906583	Tax codes - Tax rates	Tax codes - Tax rates
+906584	Production list	Production list
+906585	Stock item list - Active stock	Stock item list - Active stock
+906586	Stock - Expected quantities	Stock - Expected quantities
+906587	Document reference	Document reference
+906588	Value stock account	Value stock account
+906589	NO-TAX Layout file	NO-TAX Layout file
+906590	NO-TAX Document layout	NO-TAX Document layout
+906591	NO-TAX Document layout (15-code)	NO-TAX Document layout (15-code)
+1000000	test	English Master File - Do Not Translate. This English Master file contains Journal in stead of Batch related translations.
+1000001	Welcome to <@APPNAME@>	Welcome to <@APPNAME@>
+1000002	Not used / Do not translate	Not used / Do not translate
+1000003	3	*Your Currency
+1000004	<@APPNAME@>	<@APPNAME@>
+1000005	Open item - Due report	Age analysis - Due report
+1000006	Not used / Do not translate	Not used / Do not translate
+1000007	Not used / Do not translate	Not used / Do not translate
+1000008	Not used / Do not translate	Not used / Do not translate
+1000009	Not used / Do not translate	Not used / Do not translate
+1000011	Not used / Do not translate	Not used / Do not translate
+1000012	Not used / Do not translate	Not used / Do not translate
+1000013	Not used / Do not translate	Not used / Do not translate
+1000014	Not used / Do not translate	Not used / Do not translate
+1000015	Not used / Do not translate	Not used / Do not translate
+1000016	Not used / Do not translate	Not used / Do not translate
+1000017	Not used / Do not translate	Not used / Do not translate
+1000018	Not used / Do not translate	Not used / Do not translate
+1000019	Not used / Do not translate	Not used / Do not translate
+1000020	Not used / Do not translate	Not used / Do not translate
+1000021	Not used / Do not translate	Not used / Do not translate
+1000022	Not used / Do not translate	Not used / Do not translate
+1000023	Not used / Do not translate	Not used / Do not translate
+1000024	Not used / Do not translate	Not used / Do not translate
+1000025	Not used / Do not translate	Not used / Do not translate
+1000026	Not used / Do not translate	Not used / Do not translate
+1000027	Not used / Do not translate	Not used / Do not translate
+1000028	Not used / Do not translate	Not used / Do not translate
+1000029	Not used / Do not translate	Not used / Do not translate
+1000030	Not used / Do not translate	Not used / Do not translate
+1000031	Not used / Do not translate	Not used / Do not translate
+1000032	Not used / Do not translate	Not used / Do not translate
+1000033	Not used / Do not translate	Not used / Do not translate
+1000034	Not used / Do not translate	Not used / Do not translate
+1000035	Not used / Do not translate	Not used / Do not translate
+1000036	Not used / Do not translate	Not used / Do not translate
+1000037	Not used / Do not translate	Not used / Do not translate
+1000038	Not used / Do not translate	Not used / Do not translate
+1000039	Not used / Do not translate	Not used / Do not translate
+1000040	Not used / Do not translate	Not used / Do not translate
+1000041	Not used / Do not translate	Not used / Do not translate
+1000042	Not used / Do not translate	Not used / Do not translate
+1000043	Not used / Do not translate	Not used / Do not translate
+1000044	Not used / Do not translate	Not used / Do not translate
+1000045	Not used / Do not translate	Not used / Do not translate
+1000046	Not used / Do not translate	Not used / Do not translate
+1000054	Not used / Do not translate	Not used / Do not translate
+1000055	Not used / Do not translate	Not used / Do not translate
+1000056	Not used / Do not translate	Not used / Do not translate
+1000057	Not used / Do not translate	Not used / Do not translate
