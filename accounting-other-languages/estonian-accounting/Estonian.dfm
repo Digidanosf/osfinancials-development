@@ -2588,7 +2588,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2099
-      Text = 'Aruande kujundus puudub!'
+      Text = 'Aruande kujundusfaili ei leitud!'
     end
     item
       IndexID = 2098
@@ -3530,7 +3530,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1847
-      Text = 'ARUANNETE GRUPI T'#220'VI'
+      Text = 'ARUANDLUSGRUPPIDE JUUR'
     end
     item
       IndexID = 1846
@@ -3730,15 +3730,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1796
-      Text = 'Aruande grupp'
+      Text = 'Aruandlusgrupp'
     end
     item
       IndexID = 1795
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 1794
-      Text = 'Aruande grupp'
+      Text = 'Aruandlusgrupp'
     end
     item
       IndexID = 1793
@@ -3834,7 +3834,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1761
-      Text = '&Aruannete kujundaja'
+      Text = '&Aruannete koostaja'
     end
     item
       IndexID = 1760
@@ -4118,7 +4118,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 576
-      Text = 'Aruandluse kuup'#228'evad'
+      Text = 'Aruandlusperioodid'
     end
     item
       IndexID = 575
@@ -4674,7 +4674,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 100
-      Text = '&Aruandluse kuup'#228'evad'
+      Text = '&Aruandlusperioodid'
     end
     item
       IndexID = 101
@@ -4978,11 +4978,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 179
-      Text = 'Aruande grupp 1'
+      Text = 'Aruandlusgrupp 1'
     end
     item
       IndexID = 180
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 181
@@ -5222,7 +5222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 240
-      Text = 'Aruande saab'
+      Text = 'Saada aruanne'
     end
     item
       IndexID = 241
@@ -5534,7 +5534,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 318
-      Text = 'Araunde summa koos'
+      Text = 'Aruande summad koos'
     end
     item
       IndexID = 319
@@ -6020,7 +6020,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 441
-      Text = 'Kas j'#228'tkad aruande koostamist?'
+      Text = 'Kas soovite aruande koostamist j'#228'tkata?'
     end
     item
       IndexID = 442
@@ -6465,8 +6465,8 @@ object TTranslationSaveObject
     item
       IndexID = 589
       Text = 
-        'T'#196'HELEPANU! Kuup'#228'ev on v'#228'ljaspool jooksvat ning eelmist majandus' +
-        'aastat!'
+        'T'#196'HELEPANU! See kuup'#228'ev ei j'#228#228' jooksvasse ega eelmisesse aruandl' +
+        'usperioodi!'
     end
     item
       IndexID = 590
@@ -6636,7 +6636,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 631
-      Text = 'Aruannet ei saa koostada'
+      Text = 'Aruande koostamine pole v'#245'imalik alates'
     end
     item
       IndexID = 632
@@ -7334,7 +7334,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 804
-      Text = 'Kasutaja aruannet pole valitud. Palun vali!'
+      Text = 'Kasutaja aruannet pole valitud! Palun valige '#252'ks!'
     end
     item
       IndexID = 805
@@ -9409,7 +9409,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1323
-      Text = 'Aruande grupp 1'
+      Text = 'Aruandlusgrupp 1'
     end
     item
       IndexID = 1324
@@ -9417,7 +9417,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1325
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 1326
@@ -10240,7 +10240,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3014
-      Text = 'Kassaraamatu aruanne'
+      Text = 'Pangakontrolli aruanne seisuga'
     end
     item
       IndexID = 3015
@@ -13274,7 +13274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21125
-      Text = 'Alamaruane'
+      Text = 'Alamaruanne'
     end
     item
       IndexID = 21126
