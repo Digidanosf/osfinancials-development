@@ -802,7 +802,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 203
-      Text = 'Descuento a clientes'
+      Text = 'Descuento a cliente'
     end
     item
       IndexID = 204
@@ -998,7 +998,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 252
-      Text = 'Cuentas de clientes'
+      Text = 'Cuentas de cliente'
     end
     item
       IndexID = 253
@@ -1042,7 +1042,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 263
-      Text = 'Opciones de an'#225'lisis de vencimientos de clientes'
+      Text = 'Opciones de an'#225'lisis de vencimientos de cliente'
     end
     item
       IndexID = 264
@@ -1086,7 +1086,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 274
-      Text = 'Opciones de movimiento de clientes'
+      Text = 'Opciones de movimiento de cliente'
     end
     item
       IndexID = 275
@@ -1494,7 +1494,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 380
-      Text = 'Ventas por clientes'
+      Text = 'Ventas por cliente'
     end
     item
       IndexID = 381
@@ -1510,7 +1510,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 384
-      Text = 'Opciones de ventas por clientes'
+      Text = 'Opciones de ventas por cliente'
     end
     item
       IndexID = 385
@@ -1658,7 +1658,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 421
-      Text = 'Grupos de clientes'
+      Text = 'Grupos de cliente'
     end
     item
       IndexID = 422
