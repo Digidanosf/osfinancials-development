@@ -2185,7 +2185,7 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Do you want to run the Data Integrity Check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -3869,7 +3869,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 920
-      Text = 'Starting Restore...'
+      Text = 'Starting restore...'
     end
     item
       IndexID = 921
@@ -5381,7 +5381,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1299
-      Text = 'Waiting to run ...'
+      Text = 'Waiting to run...'
     end
     item
       IndexID = 1300
@@ -5991,7 +5991,7 @@ object TTranslationSaveObject
       IndexID = 1738
       Text = 
         'This will close the invoice entry screen and post all POS invoic' +
-        'es for ...'
+        'es for...'
     end
     item
       IndexID = 1737
@@ -6741,7 +6741,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Transfering'
+      Text = 'Transfering...'
     end
     item
       IndexID = 1922
@@ -6917,7 +6917,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1964
-      Text = 'Connecting to %s'
+      Text = 'Connecting to %s...'
     end
     item
       IndexID = 1963
@@ -7517,7 +7517,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1993
-      Text = 'Posting: %s of %s'
+      Text = 'Posting: %s of %s...'
     end
     item
       IndexID = 1992
@@ -7549,11 +7549,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1997
-      Text = 'Updating totals'
+      Text = 'Updating totals...'
     end
     item
       IndexID = 1996
-      Text = 'Checking batch entries ...'
+      Text = 'Checking batch entries...'
     end
     item
       IndexID = 1995
@@ -7801,11 +7801,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2067
-      Text = 'Balancing'
+      Text = 'Balancing...'
     end
     item
       IndexID = 2066
-      Text = 'Consolidating'
+      Text = 'Consolidating...'
     end
     item
       IndexID = 2065
@@ -7813,63 +7813,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2064
-      Text = 'Ageing ...'
+      Text = 'Ageing...'
     end
     item
       IndexID = 2063
-      Text = 'Allocating outstanding balances'
+      Text = 'Allocating outstanding balances...'
     end
     item
       IndexID = 2062
-      Text = 'Generating balances ...'
+      Text = 'Generating balances...'
     end
     item
       IndexID = 2073
-      Text = 'Importing stock items'
+      Text = 'Importing stock items...'
     end
     item
       IndexID = 2072
-      Text = 'Exporting debtors'
+      Text = 'Exporting debtors...'
     end
     item
       IndexID = 2071
-      Text = 'Exporting transactions'
+      Text = 'Exporting transactions...'
     end
     item
       IndexID = 2070
-      Text = 'Importing accounts'
+      Text = 'Importing accounts...'
     end
     item
       IndexID = 2069
-      Text = 'Reading spreadsheet file'
+      Text = 'Reading spreadsheet file...'
     end
     item
       IndexID = 2068
-      Text = 'Importing stock items'
+      Text = 'Importing stock items...'
     end
     item
       IndexID = 2079
-      Text = 'Exporting to spreadsheet file'
+      Text = 'Exporting to spreadsheet file...'
     end
     item
       IndexID = 2078
-      Text = 'Exporting to CSV file'
+      Text = 'Exporting to CSV file...'
     end
     item
       IndexID = 2077
-      Text = 'Exporting documents'
+      Text = 'Exporting documents...'
     end
     item
       IndexID = 2076
-      Text = 'Importing documents'
+      Text = 'Importing documents...'
     end
     item
       IndexID = 2075
-      Text = 'Exporting accounts'
+      Text = 'Exporting accounts...'
     end
     item
       IndexID = 2074
-      Text = 'Exporting chart of accounts'
+      Text = 'Exporting chart of accounts...'
     end
     item
       IndexID = 2085
@@ -7881,19 +7881,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2083
-      Text = 'Preparing list'
+      Text = 'Preparing list...'
     end
     item
       IndexID = 2082
-      Text = 'Exporting to MS Excel file'
+      Text = 'Exporting to MS Excel file...'
     end
     item
       IndexID = 2081
-      Text = 'Exporting to SYLK spreadsheet file'
+      Text = 'Exporting to SYLK spreadsheet file...'
     end
     item
       IndexID = 2080
-      Text = 'Exporting to OpenOffice spreadsheet file'
+      Text = 'Exporting to OpenOffice spreadsheet file...'
     end
     item
       IndexID = 2091
@@ -8265,7 +8265,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2183
-      Text = 'Importing : %s  of %s'
+      Text = 'Importing : %s  of %s...'
     end
     item
       IndexID = 2182
@@ -8325,7 +8325,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2192
-      Text = 'Printing on'
+      Text = 'Printing on...'
     end
     item
       IndexID = 2191
@@ -8369,7 +8369,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2205
-      Text = 'Default bank reconciliation'
+      Text = 'Manual bank reconciliation'
     end
     item
       IndexID = 2204
@@ -12186,7 +12186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906082
-      Text = 'Batch type id'
+      Text = 'Journal type id'
     end
     item
       IndexID = 906083
@@ -13828,7 +13828,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Correct Incl. Excl. Tax amount (Reverse bug)'
+      Text = 'Correct Incl./Excl. Tax amount (Reverse bug)'
     end
     item
       IndexID = 903155

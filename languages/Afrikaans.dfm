@@ -6586,7 +6586,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Besig om oor te dra'
+      Text = 'Besig om oor te dra...'
     end
     item
       IndexID = 1924
@@ -6752,7 +6752,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1964
-      Text = 'Konnekteer aan %s'
+      Text = 'Konnekteer aan %s...'
     end
     item
       IndexID = 1965
@@ -7387,7 +7387,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1993
-      Text = 'Postering: %s van %s'
+      Text = 'Postering: %s van %s...'
     end
     item
       IndexID = 1994
@@ -7399,11 +7399,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1996
-      Text = 'Kontroleer joernaalinvoere ...'
+      Text = 'Kontroleer joernaalinvoere...'
     end
     item
       IndexID = 1997
-      Text = 'Opdateer totale'
+      Text = 'Opdateer totale...'
     end
     item
       IndexID = 1998
@@ -7661,7 +7661,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2062
-      Text = 'Genereer balanse ...'
+      Text = 'Genereer balanse...'
     end
     item
       IndexID = 2063
@@ -7669,7 +7669,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2064
-      Text = 'Ouderdomsontleding ...'
+      Text = 'Ouderdomsontleding...'
     end
     item
       IndexID = 2065
@@ -7677,11 +7677,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2066
-      Text = 'Konsolidering'
+      Text = 'Konsolidering...'
     end
     item
       IndexID = 2067
-      Text = 'Balansering'
+      Text = 'Balansering...'
     end
     item
       IndexID = 2068
@@ -7689,63 +7689,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2069
-      Text = 'Lees sigblad (spreadsheet) l'#234'er'
+      Text = 'Lees sigblad (spreadsheet) l'#234'er...'
     end
     item
       IndexID = 2070
-      Text = 'Invoer van rekeninge'
+      Text = 'Invoer van rekeninge...'
     end
     item
       IndexID = 2071
-      Text = 'Uitvoer van transaksies'
+      Text = 'Uitvoer van transaksies...'
     end
     item
       IndexID = 2072
-      Text = 'Uitvoer van debiteure'
+      Text = 'Uitvoer van debiteure...'
     end
     item
       IndexID = 2073
-      Text = 'Invoer van voorraaditems'
+      Text = 'Invoer van voorraaditems...'
     end
     item
       IndexID = 2074
-      Text = 'Uitvoer van tabel van rekeninge'
+      Text = 'Uitvoer van tabel van rekeninge...'
     end
     item
       IndexID = 2075
-      Text = 'Uitvoer van rekeninge'
+      Text = 'Uitvoer van rekeninge...'
     end
     item
       IndexID = 2076
-      Text = 'Invoer van dokumente'
+      Text = 'Invoer van dokumente...'
     end
     item
       IndexID = 2077
-      Text = 'Uitvoer van dokumente'
+      Text = 'Uitvoer van dokumente...'
     end
     item
       IndexID = 2078
-      Text = 'Uitvoer na CSV-l'#234'er'
+      Text = 'Uitvoer na CSV-l'#234'er...'
     end
     item
       IndexID = 2079
-      Text = 'Uitvoer na sigblad (spreadsheet) l'#234'er'
+      Text = 'Uitvoer na sigblad (spreadsheet) l'#234'er...'
     end
     item
       IndexID = 2080
-      Text = 'Uitvoer na OpenOffice sigblad (spreadsheet) l'#234'er'
+      Text = 'Uitvoer na OpenOffice sigblad (spreadsheet) l'#234'er...'
     end
     item
       IndexID = 2081
-      Text = 'Uitvoer na SYLK sigblad (spreadsheet) l'#234'er'
+      Text = 'Uitvoer na SYLK sigblad (spreadsheet) l'#234'er...'
     end
     item
       IndexID = 2082
-      Text = 'Uitvoer na MSExcel l'#234'er'
+      Text = 'Uitvoer na MSExcel l'#234'er...'
     end
     item
       IndexID = 2083
-      Text = 'Berei lys voor'
+      Text = 'Berei lys voor...'
     end
     item
       IndexID = 2084
@@ -8137,11 +8137,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2183
-      Text = 'Invoer: %s  van %s'
+      Text = 'Invoer: %s  van %s...'
     end
     item
       IndexID = 2184
-      Text = 'Invoer van debiteure/krediteure'
+      Text = 'Invoer van debiteure/krediteure...'
     end
     item
       IndexID = 2185
@@ -8221,11 +8221,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2204
-      Text = 'Redigeer Bank'
+      Text = 'Redigeer bank'
     end
     item
       IndexID = 2205
-      Text = 'Verstek bankrekonsiliasie'
+      Text = 'Handmatige bankrekon.'
     end
     item
       IndexID = 2206
