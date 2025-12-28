@@ -8221,7 +8221,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2205
-      Text = 'Default bank reconciliation'
+      Text = 'Manual bank reconciliation'
     end
     item
       IndexID = 2204

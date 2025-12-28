@@ -2,59 +2,59 @@ object TTranslationSaveObject
   aTranslationCollection = <
     item
       IndexID = 1756
-      Text = 'Change alias (journal name)'
+      Text = 'Badilisha Jina'
     end
     item
       IndexID = 1755
-      Text = '&Open drawer'
+      Text = '&Fungua Drawer'
     end
     item
       IndexID = 1754
-      Text = '&Report'
+      Text = '&Ripoti'
     end
     item
       IndexID = 1753
-      Text = 'Incl./Excl. mode'
+      Text = 'Pamoja na/Kwadoa Hali'
     end
     item
       IndexID = 1752
-      Text = 'Cl&ose shift'
+      Text = 'Cl&ose Shift'
     end
     item
       IndexID = 1751
-      Text = '&Reprint last invoice'
+      Text = '&Chapisha Upya  Ankra ya Mwisho'
     end
     item
       IndexID = 7
-      Text = 'May'
+      Text = 'Mei'
     end
     item
       IndexID = 8
-      Text = 'June'
+      Text = 'Juni'
     end
     item
       IndexID = 9
-      Text = 'July'
+      Text = 'Julai'
     end
     item
       IndexID = 10
-      Text = 'August'
+      Text = 'Agosti'
     end
     item
       IndexID = 11
-      Text = 'September'
+      Text = 'Septemba'
     end
     item
       IndexID = 13
-      Text = 'October'
+      Text = 'Octoba'
     end
     item
       IndexID = 14
-      Text = 'November'
+      Text = 'Novemba'
     end
     item
       IndexID = 15
-      Text = 'December'
+      Text = 'Desemba'
     end
     item
       IndexID = 9901
@@ -62,643 +62,643 @@ object TTranslationSaveObject
     end
     item
       IndexID = 16
-      Text = '&Open Set of Books'
+      Text = '&Fugua Hesabu'
     end
     item
       IndexID = 17
-      Text = '&Create Set of Books'
+      Text = '&Unda Hesabu Mpya'
     end
     item
       IndexID = 18
-      Text = '&Delete Set of Books'
+      Text = '&Futa Hesabu Kabisa'
     end
     item
       IndexID = 20
-      Text = '&Switch language'
+      Text = '&Badilisha Lugha'
     end
     item
       IndexID = 21
-      Text = '&Exit <@APPNAME@>'
+      Text = '&Funga <@APPNAME@>'
     end
     item
       IndexID = 22
-      Text = '&Accounts'
+      Text = '&Akaunti'
     end
     item
       IndexID = 23
-      Text = '&Budgets'
+      Text = '&Bajeti'
     end
     item
       IndexID = 24
-      Text = '&Delete'
+      Text = '&Futa'
     end
     item
       IndexID = 25
-      Text = '&Repeating transactions'
+      Text = 'Ingizo ya &Kurudia'
     end
     item
       IndexID = 26
-      Text = 'Repeating &invoices'
+      Text = '&Ankra zinazorudia'
     end
     item
       IndexID = 27
-      Text = 'Inventory'
+      Text = '&Bidhaa'
     end
     item
       IndexID = 28
-      Text = '&User reports'
+      Text = '&Ripoti Binafsi'
     end
     item
       IndexID = 29
-      Text = 'Bank account'
+      Text = 'Akaunti ya Benki'
     end
     item
       IndexID = 30
-      Text = 'Vendors'
+      Text = 'Wadai'
     end
     item
       IndexID = 31
-      Text = 'Customers'
+      Text = 'Wadaiwa'
     end
     item
       IndexID = 32
-      Text = 'General ledger'
+      Text = 'Daftari ya Jumla'
     end
     item
       IndexID = 33
-      Text = 'Tax account'
+      Text = 'Akaunti ya Kodi'
     end
     item
       IndexID = 34
-      Text = 'Account'
+      Text = 'Akaunti'
     end
     item
       IndexID = 35
-      Text = 'User report'
+      Text = 'Ripoti Binafsi'
     end
     item
       IndexID = 37
-      Text = 'Inventory item'
+      Text = 'Bidhaa'
     end
     item
       IndexID = 38
-      Text = 'Documents'
+      Text = 'Stakabadhi'
     end
     item
       IndexID = 39
-      Text = 'Delete invoices'
+      Text = 'Futa Ankra'
     end
     item
       IndexID = 40
-      Text = 'Delete purchases'
+      Text = 'Futa Ununuzi wa Bidhaa'
     end
     item
       IndexID = 41
-      Text = 'Delete vendor returns'
+      Text = 'Futa Rudisha Bidhaa'
     end
     item
       IndexID = 42
-      Text = '&Adjust inventory'
+      Text = '&Rekebisha Bidhaa'
     end
     item
       IndexID = 43
-      Text = '&Journal entry'
+      Text = '&Bunda la Ingizo'
     end
     item
       IndexID = 44
-      Text = '&Reconcile bank'
+      Text = '&Linganisha Benki'
     end
     item
       IndexID = 45
-      Text = '&Documents listing'
+      Text = 'Orodha ya &Stakabadhi'
     end
     item
       IndexID = 46
-      Text = 'Input post to ledger'
+      Text = 'Ingizo Sahihisho kwa Daftari'
     end
     item
       IndexID = 47
-      Text = '&Credit notes'
+      Text = 'Noti za &Credit'
     end
     item
       IndexID = 48
-      Text = '&Invoices'
+      Text = '&Ankra'
     end
     item
       IndexID = 49
-      Text = '&Purchases'
+      Text = '&Ununuzi wa Bidhaa'
     end
     item
       IndexID = 50
-      Text = 'Vendor &returns'
+      Text = '&Rudisha Bidhaa'
     end
     item
       IndexID = 51
-      Text = '&Enter'
+      Text = '&Timiza'
     end
     item
       IndexID = 52
-      Text = '&Print'
+      Text = '&Chapisha'
     end
     item
       IndexID = 53
-      Text = '&Update ledger'
+      Text = '&Sahihisha Daftari'
     end
     item
       IndexID = 54
-      Text = 'Print &delivery notes'
+      Text = 'Chapisha &Delivery Note'
     end
     item
       IndexID = 55
-      Text = '&Journal type'
+      Text = 'Aina ya &Bunda'
     end
     item
       IndexID = 56
-      Text = '&Vendors'
+      Text = '&Wadai'
     end
     item
       IndexID = 57
-      Text = '&Customers'
+      Text = '&Wadaiwa'
     end
     item
       IndexID = 58
-      Text = '&General ledger'
+      Text = '&Daftari ya Jumla'
     end
     item
       IndexID = 59
-      Text = '&Reconciliation'
+      Text = '&Linganisha'
     end
     item
       IndexID = 60
-      Text = '&Invoices'
+      Text = '&Ankra'
     end
     item
       IndexID = 61
-      Text = '&Purchases'
+      Text = '&Ununuzi wa Bidhaa'
     end
     item
       IndexID = 62
-      Text = '&Inventory'
+      Text = '&Bidhaa'
     end
     item
       IndexID = 63
-      Text = '&Tax'
+      Text = '&Kodi'
     end
     item
       IndexID = 64
-      Text = '&User reports'
+      Text = '&Ripoti Binafsi'
     end
     item
       IndexID = 65
-      Text = '&Age analysis'
+      Text = '&Uzee wa Madeni'
     end
     item
       IndexID = 66
-      Text = '&Listing'
+      Text = '&Orodha'
     end
     item
       IndexID = 67
-      Text = '&Movements'
+      Text = '&Mabadiliko'
     end
     item
       IndexID = 68
-      Text = '&Print labels'
+      Text = '&Chapisha Vibandiko'
     end
     item
       IndexID = 69
-      Text = '&Remittance advices'
+      Text = '&Vyeti vya Malipo'
     end
     item
       IndexID = 70
-      Text = '&Transactions'
+      Text = '&Timilizo'
     end
     item
       IndexID = 71
-      Text = '&Statements'
+      Text = '&Vyeti'
     end
     item
       IndexID = 72
-      Text = '&Budget performance'
+      Text = '&Matokeo ya Bajeti'
     end
     item
       IndexID = 73
-      Text = '&Chart of accounts'
+      Text = '&Orodha ya Akaunti'
     end
     item
       IndexID = 74
-      Text = 'Transactions'
+      Text = 'Timilizo'
     end
     item
       IndexID = 75
-      Text = '&Trial balance'
+      Text = '&Urari wa Hesabu'
     end
     item
       IndexID = 76
-      Text = '&Backorder listing'
+      Text = 'Orodha ya &Maagizo Yasiyotekelezwa'
     end
     item
       IndexID = 77
-      Text = '&Credit note listing'
+      Text = 'Orodha ya &Noti za Credit'
     end
     item
       IndexID = 78
-      Text = '&Invoice listing'
+      Text = ' Orodha ya &Ankra'
     end
     item
       IndexID = 162
-      Text = 'Invoice history'
+      Text = ' Historia ya  Ankra'
     end
     item
       IndexID = 79
-      Text = '&Purchases listing'
+      Text = 'Orodha ya &Ununuzi wa Bidhaa'
     end
     item
       IndexID = 80
-      Text = '&Vendor return listing'
+      Text = 'Orodha ya &Rudisha Bidhaa'
     end
     item
       IndexID = 81
-      Text = '&Activity'
+      Text = '&Harakati'
     end
     item
       IndexID = 82
-      Text = '&Movement summary'
+      Text = 'Muhtasari wa &Mabadiliko'
     end
     item
       IndexID = 83
-      Text = '&Reorder report'
+      Text = 'Ripoti ya Maagizo ya Ku&rudia'
     end
     item
       IndexID = 84
-      Text = '&Inventory item listing'
+      Text = 'Orodha ya &Bidhaa'
     end
     item
       IndexID = 85
-      Text = 'Sales analysis'
+      Text = ' Uchambuzi wa Mauzo'
     end
     item
       IndexID = 86
-      Text = '&Invoiced details'
+      Text = 'Maelezo Kamili ya &Ankra'
     end
     item
       IndexID = 87
-      Text = '&Invoiced summary'
+      Text = 'Muhtasari wa &Ankra'
     end
     item
       IndexID = 88
-      Text = '&Received / paid details'
+      Text = 'Maelezo Kamili ya &Pokea/ Lipa'
     end
     item
       IndexID = 89
-      Text = 'Received / &paid summary'
+      Text = 'Muhtasari wa Pokea/ &Lipa'
     end
     item
       IndexID = 90
-      Text = '&Access control'
+      Text = '&Dhibiti Fikio'
     end
     item
       IndexID = 91
-      Text = 'Backup &path'
+      Text = '&Njia ya Nakili'
     end
     item
       IndexID = 92
-      Text = '&Journal types'
+      Text = 'Aina ya &Bunda'
     end
     item
       IndexID = 93
-      Text = 'Company &info'
+      Text = '&Maelezo Kamili ya Kampuni'
     end
     item
       IndexID = 94
-      Text = '&Colors'
+      Text = '&Rangi'
     end
     item
       IndexID = 95
-      Text = 'Define &labels'
+      Text = 'Chora &Vibandiko'
     end
     item
       IndexID = 97
-      Text = '&Groups'
+      Text = '&Vikundi'
     end
     item
       IndexID = 98
-      Text = '&Documents'
+      Text = '&Stakabadhi'
     end
     item
       IndexID = 99
-      Text = '&Printer'
+      Text = '&Mtambo wa Kuchapisha'
     end
     item
       IndexID = 100
-      Text = '&Reporting dates'
+      Text = '&Tarehe za Taarifa Rasmi'
     end
     item
       IndexID = 101
-      Text = 'Sales&person'
+      Text = '&Wauzaji'
     end
     item
       IndexID = 102
-      Text = '&Statements'
+      Text = '&Vyeti'
     end
     item
       IndexID = 103
-      Text = 'Inventory information'
+      Text = 'Taarifa Kuhusu Bidhaa'
     end
     item
       IndexID = 104
-      Text = '&Backup / Restore Set of Books'
+      Text = '&Nakili/Fufua  Hesabu'
     end
     item
       IndexID = 105
-      Text = '&Calculator'
+      Text = '&Kikokotoo'
     end
     item
       IndexID = 106
-      Text = 'Data integrity check'
+      Text = 'Thibitisha Uzima wa &Data'
     end
     item
       IndexID = 107
-      Text = '&Export'
+      Text = '&Hamisha'
     end
     item
       IndexID = 108
-      Text = '&Global processes'
+      Text = '&Michakato ya Jumla'
     end
     item
       IndexID = 109
-      Text = '&Import'
+      Text = '&Leta'
     end
     item
       IndexID = 110
-      Text = '&Open item relink'
+      Text = 'Unganisha &Ingizo Wazi'
     end
     item
       IndexID = 111
-      Text = '&Restore from backup'
+      Text = '&Fufua kutoka Nakili'
     end
     item
       IndexID = 112
-      Text = '&Viewer'
+      Text = '&Kionyesha'
     end
     item
       IndexID = 113
-      Text = '&Support'
+      Text = '&Fundi'
     end
     item
       IndexID = 114
-      Text = '&Clear / Reset'
+      Text = 'Futa/ Anza &Upya'
     end
     item
       IndexID = 115
-      Text = '&Do year end'
+      Text = '&Rusha Mwaka'
     end
     item
       IndexID = 116
-      Text = '&Reconcile'
+      Text = '&Linganisha'
     end
     item
       IndexID = 117
-      Text = '&Transfer transactions'
+      Text = '&Hawilisha Timilizo'
     end
     item
       IndexID = 118
-      Text = 'Unreconcile'
+      Text = 'Hadia Linganisho'
     end
     item
       IndexID = 119
-      Text = 'About <@APPNAME@>'
+      Text = 'Kuhusu <@APPNAME@>'
     end
     item
       IndexID = 120
-      Text = 'File'
+      Text = 'Faili'
     end
     item
       IndexID = 121
-      Text = 'Edit'
+      Text = 'Hariri'
     end
     item
       IndexID = 122
-      Text = 'Input'
+      Text = 'Ingizo'
     end
     item
       IndexID = 123
-      Text = 'Reports'
+      Text = 'Ripoti'
     end
     item
       IndexID = 124
-      Text = 'Setup'
+      Text = 'Andaa'
     end
     item
       IndexID = 125
-      Text = 'Tools'
+      Text = 'Vifaa'
     end
     item
       IndexID = 126
-      Text = 'Help'
+      Text = 'Msaada'
     end
     item
       IndexID = 127
-      Text = 'One'
+      Text = 'Moja'
     end
     item
       IndexID = 128
-      Text = 'Two'
+      Text = 'Mbili'
     end
     item
       IndexID = 129
-      Text = 'Three'
+      Text = 'Tatu'
     end
     item
       IndexID = 130
-      Text = 'Four'
+      Text = 'Nne'
     end
     item
       IndexID = 131
-      Text = 'Five'
+      Text = 'Tano'
     end
     item
       IndexID = 132
-      Text = 'Six'
+      Text = 'Sita'
     end
     item
       IndexID = 133
-      Text = 'Seven'
+      Text = 'Saba'
     end
     item
       IndexID = 134
-      Text = 'Eight'
+      Text = 'Nane'
     end
     item
       IndexID = 135
-      Text = 'Nine'
+      Text = 'Tisa'
     end
     item
       IndexID = 136
-      Text = 'Ten'
+      Text = 'Kumi'
     end
     item
       IndexID = 137
-      Text = 'Eleven'
+      Text = 'Kumi na Moja'
     end
     item
       IndexID = 138
-      Text = 'Twelve'
+      Text = 'Kumi na Mbili'
     end
     item
       IndexID = 139
-      Text = 'Thirteen'
+      Text = 'Kumi na Tatu'
     end
     item
       IndexID = 140
-      Text = 'Fourteen'
+      Text = 'Kumi na Nne'
     end
     item
       IndexID = 141
-      Text = 'Fifteen'
+      Text = 'Kumi na Tano'
     end
     item
       IndexID = 142
-      Text = 'Sixteen'
+      Text = 'Kumi na Sita'
     end
     item
       IndexID = 143
-      Text = 'Seventeen'
+      Text = 'Kumi na Saba'
     end
     item
       IndexID = 144
-      Text = 'Eighteen'
+      Text = 'Kumi na Nane'
     end
     item
       IndexID = 145
-      Text = 'Nineteen'
+      Text = 'Kumi na Tisa'
     end
     item
       IndexID = 146
-      Text = 'Twenty'
+      Text = 'Ishirini'
     end
     item
       IndexID = 147
-      Text = 'Thirty'
+      Text = 'Thelathini'
     end
     item
       IndexID = 148
-      Text = 'Forty'
+      Text = 'Arobaini'
     end
     item
       IndexID = 149
-      Text = 'Fifty'
+      Text = 'Hamsini'
     end
     item
       IndexID = 150
-      Text = 'Sixty'
+      Text = 'Sitini'
     end
     item
       IndexID = 151
-      Text = 'Seventy'
+      Text = 'Sabini'
     end
     item
       IndexID = 152
-      Text = 'Eighty'
+      Text = 'Themanini'
     end
     item
       IndexID = 153
-      Text = 'Ninety'
+      Text = 'Tisini'
     end
     item
       IndexID = 154
-      Text = 'Hundred'
+      Text = 'Mia'
     end
     item
       IndexID = 155
-      Text = 'Thousand'
+      Text = 'Elfu'
     end
     item
       IndexID = 156
-      Text = 'Million'
+      Text = 'Milioni'
     end
     item
       IndexID = 157
-      Text = 'Dollars'
+      Text = 'Rands'
     end
     item
       IndexID = 158
-      Text = 'Cents'
+      Text = 'Senti'
     end
     item
       IndexID = 159
-      Text = 'Piece price'
+      Text = '*Piece Price'
     end
     item
       IndexID = 160
-      Text = 'Customers'
+      Text = 'Wadaiwa'
     end
     item
       IndexID = 161
-      Text = 'Vendors'
+      Text = 'Wadai'
     end
     item
       IndexID = 163
-      Text = '&Open'
+      Text = '&Fungua'
     end
     item
       IndexID = 164
-      Text = 'Journal entry'
+      Text = 'Bunda la Ingizo'
     end
     item
       IndexID = 165
-      Text = 'Invoice'
+      Text = 'Ankra'
     end
     item
       IndexID = 166
-      Text = 'Cash/Bank entry'
+      Text = 'Linganisha'
     end
     item
       IndexID = 167
-      Text = '&OK'
+      Text = '&Sawa'
     end
     item
       IndexID = 168
-      Text = '&Cancel'
+      Text = '&Acha'
     end
     item
       IndexID = 169
-      Text = '&Close'
+      Text = '&Funga'
     end
     item
       IndexID = 170
-      Text = 'Packaging unit'
+      Text = '*Packaging Unit'
     end
     item
       IndexID = 171
-      Text = 'Choose a language'
+      Text = 'Chagua Lugha'
     end
     item
       IndexID = 172
-      Text = 'Set of Books'
+      Text = 'Hesabu'
     end
     item
       IndexID = 173
-      Text = 'Delete'
+      Text = 'Futa'
     end
     item
       IndexID = 174
-      Text = 'Create'
+      Text = 'Unda'
     end
     item
       IndexID = 175
-      Text = 'Name for a new Set of Books'
+      Text = 'Jina la Hesabu Mpya'
     end
     item
       IndexID = 176
-      Text = 'Account no.'
+      Text = 'Nambari ya Akaunti'
     end
     item
       IndexID = 177
-      Text = 'Sub-account'
+      Text = 'Sub-Akaunti'
     end
     item
       IndexID = 19
-      Text = 'Save as'
+      Text = 'Hifadhi Kama'
     end
     item
       IndexID = 178
@@ -706,107 +706,107 @@ object TTranslationSaveObject
     end
     item
       IndexID = 179
-      Text = 'Reporting group 1'
+      Text = 'Rep Kikundi 1'
     end
     item
       IndexID = 180
-      Text = 'Reporting group 2'
+      Text = 'Rep Kikundi 2'
     end
     item
       IndexID = 181
-      Text = 'Payments'
+      Text = 'Malipo'
     end
     item
       IndexID = 182
-      Text = 'Receipts'
+      Text = 'Pokezi'
     end
     item
       IndexID = 183
-      Text = 'Bank accounts'
+      Text = 'Akaunti ya Benki'
     end
     item
       IndexID = 184
-      Text = 'Open item account'
+      Text = 'Akaunti ya Ingizo Wazi'
     end
     item
       IndexID = 185
-      Text = 'Name'
+      Text = 'Jina'
     end
     item
       IndexID = 186
-      Text = 'Address'
+      Text = 'Anwani'
     end
     item
       IndexID = 187
-      Text = 'Phone 1'
+      Text = 'Simu 1'
     end
     item
       IndexID = 188
-      Text = 'Phone 2'
+      Text = 'Simu 2'
     end
     item
       IndexID = 189
-      Text = 'Fax'
+      Text = 'Kipepeo'
     end
     item
       IndexID = 190
-      Text = 'Zip code'
+      Text = 'Code ya Posta'
     end
     item
       IndexID = 191
-      Text = 'E-mail'
+      Text = 'Barua pepe'
     end
     item
       IndexID = 192
-      Text = 'Credit limit'
+      Text = 'Mpaka wa Makope'
     end
     item
       IndexID = 193
-      Text = 'Charge amount'
+      Text = 'Gharama Iliyodaiwa'
     end
     item
       IndexID = 194
-      Text = 'Current balance'
+      Text = 'Tarafu Sasa'
     end
     item
       IndexID = 195
-      Text = 'Last paid'
+      Text = 'Iliyotangulia Kulipwa'
     end
     item
       IndexID = 196
-      Text = 'On'
+      Text = 'Kwa'
     end
     item
       IndexID = 197
-      Text = 'Contactperson'
+      Text = 'Mwenye Kuongelewa'
     end
     item
       IndexID = 198
-      Text = 'Salesperson'
+      Text = 'Muuzaji'
     end
     item
       IndexID = 199
-      Text = 'Delivery address'
+      Text = 'Kifiko cha Uletaji'
     end
     item
       IndexID = 200
-      Text = 'Message'
+      Text = 'Ujumbe Kwenye Cheti'
     end
     item
       IndexID = 201
-      Text = 'Account disabled'
+      Text = 'Akaunti  Imezuiliwa'
     end
     item
       IndexID = 202
-      Text = 'Tax reference'
+      Text = 'Nambari ya Kodi'
     end
     item
       IndexID = 203
-      Text = 'Customer discount'
+      Text = 'Discount ya Mteja'
     end
     item
       IndexID = 204
-      Text = 'Monthly interest on overdue amounts'
+      Text = 'Riba ya Mwezi kwa Deni zilizodumu zaidi'
     end
     item
       IndexID = 205
@@ -814,23 +814,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 206
-      Text = 'Income statement'
+      Text = 'Mapato / Matumizi'
     end
     item
       IndexID = 207
-      Text = 'Valid from'
+      Text = 'Halisi Kutoka'
     end
     item
       IndexID = 208
-      Text = 'To'
+      Text = 'Hadi'
     end
     item
       IndexID = 209
-      Text = 'Percentage'
+      Text = 'Asili Mia'
     end
     item
       IndexID = 210
-      Text = 'Annual'
+      Text = 'ya Kila Mwaka'
     end
     item
       IndexID = 211
@@ -842,707 +842,707 @@ object TTranslationSaveObject
     end
     item
       IndexID = 213
-      Text = 'Inventory code'
+      Text = 'Code ya Bidhaa'
     end
     item
       IndexID = 214
-      Text = 'Units'
+      Text = 'Kipimo cha Kidonge'
     end
     item
       IndexID = 215
-      Text = 'Latest cost'
+      Text = 'Gharama Mpya Zaidi'
     end
     item
       IndexID = 216
-      Text = 'Selling price 1'
+      Text = 'Bei ya Kuuza 1'
     end
     item
       IndexID = 217
-      Text = 'Selling price 2'
+      Text = 'Bei ya Kuuza 2'
     end
     item
       IndexID = 218
-      Text = 'Selling price 3'
+      Text = 'Bei ya Kuuza 3'
     end
     item
       IndexID = 219
-      Text = 'Input tax'
+      Text = 'Kodi kwenye Kununua'
     end
     item
       IndexID = 220
-      Text = 'Output tax'
+      Text = 'Kodi kwenye Mauzo'
     end
     item
       IndexID = 221
-      Text = 'Reorder level'
+      Text = 'Kiwango cha Agizo Jipya'
     end
     item
       IndexID = 222
-      Text = 'Apply invoice discount'
+      Text = 'Tumia Discount ya Ankra'
     end
     item
       IndexID = 223
-      Text = 'Sales account'
+      Text = 'Akaunti ya Mauzo'
     end
     item
       IndexID = 224
-      Text = 'Cost of sales'
+      Text = 'Gharama ya Mauzo'
     end
     item
       IndexID = 225
-      Text = 'Inventory control'
+      Text = 'Bidhaa Control'
     end
     item
       IndexID = 226
-      Text = 'Average cost'
+      Text = 'Wastani Gharama'
     end
     item
       IndexID = 227
-      Text = 'Quantity on hand'
+      Text = 'Kiasi Kilichoko'
     end
     item
       IndexID = 228
-      Text = 'Total cost'
+      Text = 'Gharama ya Jumla'
     end
     item
       IndexID = 229
-      Text = 'Last invoice'
+      Text = 'Ankra Iliyotangulia'
     end
     item
       IndexID = 230
-      Text = 'From invoice'
+      Text = 'Kutoka Ankra'
     end
     item
       IndexID = 231
-      Text = 'To invoice'
+      Text = 'Hadi Ankra'
     end
     item
       IndexID = 232
-      Text = 'Include items until'
+      Text = 'Yakiwemo Maandiko Hadi'
     end
     item
       IndexID = 233
-      Text = 'Bank balance'
+      Text = 'Tarafu Kwenye Benki'
     end
     item
       IndexID = 234
-      Text = 'Invoice no.'
+      Text = 'Nambari ya Ankra'
     end
     item
       IndexID = 235
-      Text = 'Postal address'
+      Text = 'Code ya Posta'
     end
     item
       IndexID = 236
-      Text = 'Available'
+      Text = 'Iko'
     end
     item
       IndexID = 237
-      Text = 'Your reference'
+      Text = 'Tajo Lako'
     end
     item
       IndexID = 238
-      Text = 'Date'
+      Text = 'Tarehe'
     end
     item
       IndexID = 239
-      Text = 'Message'
+      Text = 'Ujumbe'
     end
     item
       IndexID = 240
-      Text = 'Send report to'
+      Text = 'Tuma Ripoti Hadi'
     end
     item
       IndexID = 241
-      Text = 'Journal type'
+      Text = 'Aina ya Bunda'
     end
     item
       IndexID = 242
-      Text = 'Which year'
+      Text = 'Mwaka Gani'
     end
     item
       IndexID = 243
-      Text = 'From reporting date'
+      Text = 'Kutoka Tarehe ya Ripoti'
     end
     item
       IndexID = 244
-      Text = 'Each period separately'
+      Text = 'Kila Kipindi Mbali'
     end
     item
       IndexID = 245
-      Text = 'Show balancing entries'
+      Text = 'Onyesha Balancing Entries'
     end
     item
       IndexID = 246
-      Text = 'From account'
+      Text = 'Kutoka Akaunti'
     end
     item
       IndexID = 247
-      Text = 'Sequence'
+      Text = 'Mfuatano'
     end
     item
       IndexID = 248
-      Text = 'Include zero balances'
+      Text = 'Ikiwemo Zero Balances'
     end
     item
       IndexID = 249
-      Text = 'Vendor transaction report options'
+      Text = 'Mdai Transaction Ripoti Options'
     end
     item
       IndexID = 250
-      Text = 'Bank accounts'
+      Text = 'Akaunti ya Benki'
     end
     item
       IndexID = 251
-      Text = 'Vendor accounts'
+      Text = 'Akaunti za Wadai'
     end
     item
       IndexID = 252
-      Text = 'Customer accounts'
+      Text = 'Akaunti za Wadaiwa'
     end
     item
       IndexID = 253
-      Text = 'General ledger accounts'
+      Text = 'Akaunti za Daftari ya Jumla'
     end
     item
       IndexID = 254
-      Text = 'Tax accounts'
+      Text = 'Akaunti za Kodi'
     end
     item
       IndexID = 255
-      Text = 'Budget accounts'
+      Text = 'Akaunti za Bajeti'
     end
     item
       IndexID = 256
-      Text = 'Bank accounts'
+      Text = 'Akaunti za Benki'
     end
     item
       IndexID = 257
-      Text = 'Inventory item'
+      Text = 'Bidhaa'
     end
     item
       IndexID = 258
-      Text = 'User report'
+      Text = 'Ripoti Binafsi'
     end
     item
       IndexID = 259
-      Text = 'Reconcile bank account'
+      Text = 'Linganisha Akaunti ya Benki'
     end
     item
       IndexID = 260
-      Text = 'Invoicing'
+      Text = 'Chora Ankra'
     end
     item
       IndexID = 261
-      Text = 'Journal type report options'
+      Text = 'Chaguo kwa Ripoti ya Aina ya Bunda'
     end
     item
       IndexID = 262
-      Text = 'Account list options'
+      Text = 'Chaguo kwa Orodha ya Akaunti'
     end
     item
       IndexID = 263
-      Text = 'Customer age analysis options'
+      Text = 'Chaguo - Taarifa ya Uzee wa Madeni yaliyodaiwa'
     end
     item
       IndexID = 264
-      Text = 'Minimum amount'
+      Text = 'Kiwango cha Chini'
     end
     item
       IndexID = 265
-      Text = 'Use open item'
+      Text = 'Tumia Ingizo Wazi'
     end
     item
       IndexID = 266
-      Text = 'Ignore zero balances'
+      Text = 'Achana na Zero Balance'
     end
     item
       IndexID = 267
-      Text = 'Show account detail'
+      Text = 'Onyesha Ukamilifu wa Akaunti'
     end
     item
       IndexID = 268
-      Text = 'Sort by name'
+      Text = 'Fuatanisha kwa Jina'
     end
     item
       IndexID = 269
-      Text = 'Show transactions'
+      Text = 'Onyesha Timilizo'
     end
     item
       IndexID = 270
-      Text = 'Date of aging'
+      Text = 'Tarehe ya Kutenga Uzee'
     end
     item
       IndexID = 271
-      Text = 'up to'
+      Text = 'Hadi'
     end
     item
       IndexID = 272
-      Text = 'Month(s) up to'
+      Text = 'Mw(i)ezi Hadi'
     end
     item
       IndexID = 273
-      Text = 'Account list options'
+      Text = 'Chaguo kwa Orodha ya Akaunti'
     end
     item
       IndexID = 274
-      Text = 'Customer movement options'
+      Text = 'Chaguo - Ripoti ya Mabadiliko ya Mdaiwa'
     end
     item
       IndexID = 275
-      Text = 'Customer transaction report options'
+      Text = 'Chaguo  - Ripoti ya Timilizo ya Mdaiwa'
     end
     item
       IndexID = 276
-      Text = 'Show sub-accounts'
+      Text = 'Onyesha Sub-Akaunti'
     end
     item
       IndexID = 277
-      Text = 'Budget performance options'
+      Text = 'Chaguo - Matokeo ya Bajeti'
     end
     item
       IndexID = 278
-      Text = 'General ledger options'
+      Text = 'Chaguo - Daftari ya Jumla'
     end
     item
       IndexID = 279
-      Text = 'Vendor movement options'
+      Text = 'Chaguo  - Mabadiliko ya Mdai'
     end
     item
       IndexID = 280
-      Text = 'General ledger account movement options'
+      Text = 'Chaguo - Mabadiliko kwa Akaunti  ya Daftari ya Jumla'
     end
     item
       IndexID = 281
-      Text = 'Trial balance options'
+      Text = 'Chaguo - Urari wa Hesabu'
     end
     item
       IndexID = 282
-      Text = 'From'
+      Text = 'Kutoka'
     end
     item
       IndexID = 283
-      Text = 'Bank reconciliation'
+      Text = 'Linganisha Akaunti ya Benki'
     end
     item
       IndexID = 284
-      Text = 'From invoice no.'
+      Text = 'Kutoka Ankra Number'
     end
     item
       IndexID = 285
-      Text = 'To invoice no.'
+      Text = 'Hadi Ankra Number'
     end
     item
       IndexID = 286
-      Text = 'From date'
+      Text = 'Kutoka Tarehe'
     end
     item
       IndexID = 287
-      Text = 'To date'
+      Text = 'Hadi Tarehe'
     end
     item
       IndexID = 288
-      Text = 'Documents listing options'
+      Text = 'Chaguo - Orodha ya Stakabadhi'
     end
     item
       IndexID = 289
-      Text = 'From inventory code'
+      Text = 'Kutoka Code ya Bidhaa'
     end
     item
       IndexID = 290
-      Text = 'Inventory activity options'
+      Text = 'Chaguo  - Harakati ya Bidhaa'
     end
     item
       IndexID = 291
-      Text = 'Access control'
+      Text = 'Dhibiti Fikio'
     end
     item
       IndexID = 292
-      Text = 'Add'
+      Text = 'Ongeza'
     end
     item
       IndexID = 293
-      Text = 'Delete'
+      Text = 'Futa'
     end
     item
       IndexID = 294
-      Text = 'Security Options'
+      Text = 'Chaguo kwenya Usalama'
     end
     item
       IndexID = 295
-      Text = 'User password'
+      Text = 'Nywila ya Mtumiaji'
     end
     item
       IndexID = 296
-      Text = 'Edit accounts'
+      Text = 'Hariri Akaunti'
     end
     item
       IndexID = 297
-      Text = 'Edit inventory'
+      Text = 'Hariri Bidhaa'
     end
     item
       IndexID = 298
-      Text = 'Journal entry'
+      Text = 'Bunda la Ingizo'
     end
     item
       IndexID = 299
-      Text = 'Credit note no.'
+      Text = 'Nambari ya Noti ya Credit'
     end
     item
       IndexID = 300
-      Text = 'Invoices'
+      Text = 'Ankra'
     end
     item
       IndexID = 301
-      Text = 'System setup'
+      Text = 'Andaa Mfumo'
     end
     item
       IndexID = 302
-      Text = 'Purchases'
+      Text = 'Nunuzi'
     end
     item
       IndexID = 303
-      Text = 'Vendor returns'
+      Text = 'Bidhaa Returns'
     end
     item
       IndexID = 304
-      Text = 'Disabled'
+      Text = 'Imezuiliwa'
     end
     item
       IndexID = 305
-      Text = 'Vendor reports'
+      Text = 'Ripoti za Wadai'
     end
     item
       IndexID = 306
-      Text = 'Customer reports'
+      Text = 'Ripoti za Wadaiwa'
     end
     item
       IndexID = 307
-      Text = 'General ledger reports'
+      Text = 'Ripoti za Daftari ya Jumla'
     end
     item
       IndexID = 308
-      Text = 'Inventory reports'
+      Text = 'Ripoti za Bidhaa'
     end
     item
       IndexID = 309
-      Text = 'User reports'
+      Text = 'Ripoti Binafsi'
     end
     item
       IndexID = 310
-      Text = 'Posting'
+      Text = 'Kusahihisha'
     end
     item
       IndexID = 311
-      Text = 'Global processes'
+      Text = 'Michakato ya Jumla'
     end
     item
       IndexID = 312
-      Text = 'Tel'
+      Text = 'Simu'
     end
     item
       IndexID = 313
-      Text = 'Company name'
+      Text = 'Jina la Kampuni'
     end
     item
       IndexID = 314
-      Text = 'Tax method'
+      Text = 'Mpango wa Kodi'
     end
     item
       IndexID = 315
-      Text = 'Due account'
+      Text = 'Akaunti Inayostahili Kulipwa Sasa'
     end
     item
       IndexID = 316
-      Text = 'Company reg. no.'
+      Text = 'Nmb. ya Kampuni'
     end
     item
       IndexID = 317
-      Text = 'Tax reg. no.'
+      Text = 'Nmb Rasmi ya Kodi'
     end
     item
       IndexID = 318
-      Text = 'Report amount with'
+      Text = 'Tangaza Kiasi na'
     end
     item
       IndexID = 319
-      Text = 'Set Windows date format/style'
+      Text = 'Bofya Hapa Kuandaa Mpango wa Tarehe kwa Windows'
     end
     item
       IndexID = 320
-      Text = 'Company info'
+      Text = 'Ukamilifu wa Kampuni'
     end
     item
       IndexID = 321
-      Text = 'Next invoice no.'
+      Text = 'Ankra Inayofuata'
     end
     item
       IndexID = 322
-      Text = 'Invoice journal'
+      Text = 'Bunda la Ankra'
     end
     item
       IndexID = 323
-      Text = 'Paper type'
+      Text = 'Aina ya Karatasi'
     end
     item
       IndexID = 324
-      Text = 'Invoice heading'
+      Text = 'Heading ya Ankra'
     end
     item
       IndexID = 325
-      Text = 'Invoice message'
+      Text = 'Ujumbe kwenya Ankra'
     end
     item
       IndexID = 326
-      Text = 'Next credit note no.'
+      Text = 'Noti ya Credit Inayofuata'
     end
     item
       IndexID = 327
-      Text = 'Credit note journal'
+      Text = 'Bunda la Noti za Credit'
     end
     item
       IndexID = 328
-      Text = 'Credit note heading'
+      Text = 'Heading ya Noti ya Credit'
     end
     item
       IndexID = 329
-      Text = 'Credit note message'
+      Text = 'Ujumbe Kwenya Noti za Credit'
     end
     item
       IndexID = 330
-      Text = 'Next purchase no.'
+      Text = 'Nambari ya Nunuzi Unaofuata'
     end
     item
       IndexID = 331
-      Text = 'Purchase journal'
+      Text = 'Bunda la Nunuzi'
     end
     item
       IndexID = 332
-      Text = 'Purchase heading'
+      Text = 'Heading ya Nunuzi'
     end
     item
       IndexID = 333
-      Text = 'Purchase message'
+      Text = 'Ujumbe kwenye Nunuzi'
     end
     item
       IndexID = 334
-      Text = 'Next vendor return no.'
+      Text = 'Nmb. ya Rudisha Bidhaa Inayofuata'
     end
     item
       IndexID = 335
-      Text = 'Vendor return journal'
+      Text = 'Bunda la Rudisha Bidhaa'
     end
     item
       IndexID = 336
-      Text = 'Vendor return heading'
+      Text = 'Heading ya Rudisha Bidhaa'
     end
     item
       IndexID = 337
-      Text = 'Vendor return message'
+      Text = 'Rudisha Bidhaa Ujumbe'
     end
     item
       IndexID = 338
-      Text = 'Next order no.'
+      Text = 'Nmb. ya Agizo Linalofuata'
     end
     item
       IndexID = 339
-      Text = 'Order heading'
+      Text = 'Heading ya Agizo'
     end
     item
       IndexID = 340
-      Text = 'Order message'
+      Text = 'Ujumbe Kwenya Agizo'
     end
     item
       IndexID = 341
-      Text = 'Next estimate no.'
+      Text = 'Nmb. ya Kimo cha Bei Kilichofuata'
     end
     item
       IndexID = 342
-      Text = 'Estimate heading'
+      Text = ' Heading ya Kimo cha Bei'
     end
     item
       IndexID = 343
-      Text = 'Estimate message'
+      Text = 'Ujumbe kwenye Kimo cha Bei'
     end
     item
       IndexID = 344
-      Text = 'Documents setup'
+      Text = 'Andaa Stakabadhi'
     end
     item
       IndexID = 345
-      Text = 'Groups'
+      Text = 'Vikundi'
     end
     item
       IndexID = 346
-      Text = 'Payment types'
+      Text = 'Aina za Malipo'
     end
     item
       IndexID = 347
-      Text = 'Statement setup'
+      Text = 'Andaa Cheti'
     end
     item
       IndexID = 348
-      Text = 'Statement message'
+      Text = 'Ujumbe kwenye Cheti'
     end
     item
       IndexID = 349
-      Text = 'Cost of sales journal'
+      Text = 'Bunda la Gharama ya Mauzo'
     end
     item
       IndexID = 350
-      Text = 'Inventory information'
+      Text = 'Maelezo Kuhusu Bidhaa'
     end
     item
       IndexID = 351
-      Text = 'Create cost of sales'
+      Text = 'Unda Gharama ya Mauzo'
     end
     item
       IndexID = 352
-      Text = 'General information'
+      Text = 'Maelezo ya Jumla'
     end
     item
       IndexID = 353
-      Text = 'Accounting information'
+      Text = 'Maelezo Kuhusu Uhasibu'
     end
     item
       IndexID = 354
-      Text = 'Statements'
+      Text = 'Vyeti'
     end
     item
       IndexID = 355
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 356
-      Text = 'Edit'
+      Text = 'Hariri'
     end
     item
       IndexID = 357
-      Text = 'Reset'
+      Text = 'Anza Upya'
     end
     item
       IndexID = 358
-      Text = 'Update'
+      Text = 'Sahihisha'
     end
     item
       IndexID = 359
-      Text = 'Open item re-link'
+      Text = 'Ungana Ingizo Wazi Tena'
     end
     item
       IndexID = 360
-      Text = 'Open item link'
+      Text = 'Ungana Ingizo Wazi'
     end
     item
       IndexID = 365
-      Text = 'About <@APPNAME@>'
+      Text = 'Kuhusu <@APPNAME@>'
     end
     item
       IndexID = 366
-      Text = 'Journal entry'
+      Text = 'Bunda la Ingizo'
     end
     item
       IndexID = 367
-      Text = '^D: Delete'
+      Text = '^D: Futa'
     end
     item
       IndexID = 368
-      Text = '^N: Insert'
+      Text = '^N: Penyeza'
     end
     item
       IndexID = 369
-      Text = 'F5: Balance'
+      Text = 'F5: Sawazisha'
     end
     item
       IndexID = 370
-      Text = 'F6: Post'
+      Text = 'F6: Sahihisha'
     end
     item
       IndexID = 371
-      Text = 'F7: Exclusive'
+      Text = 'F7: Bila'
     end
     item
       IndexID = 372
-      Text = 'F8: List'
+      Text = 'F8: Orodha'
     end
     item
       IndexID = 373
-      Text = 'F9: Process'
+      Text = 'F9: Michakato'
     end
     item
       IndexID = 374
-      Text = 'F10: Setup'
+      Text = 'F10: Andaa'
     end
     item
       IndexID = 375
-      Text = 'Inclusive amount:'
+      Text = 'Zilizoko Kodi:'
     end
     item
       IndexID = 376
-      Text = 'Exclusive amount:'
+      Text = 'Bila Kodi:'
     end
     item
       IndexID = 377
-      Text = 'Reference total:'
+      Text = 'Baki'
     end
     item
       IndexID = 378
-      Text = 'Allocate to:'
+      Text = 'Hesabu katika:'
     end
     item
       IndexID = 379
-      Text = 'Contra account:'
+      Text = 'Contra Akaunti:'
     end
     item
       IndexID = 380
-      Text = 'Sales per customer'
+      Text = 'Mauzo kwa Mteja'
     end
     item
       IndexID = 381
-      Text = 'Sales per product'
+      Text = 'Mauzo kwa Aina ya Bidhaa'
     end
     item
       IndexID = 382
-      Text = 'Sales per salesperson'
+      Text = 'Mauzo kwa Muuzaji'
     end
     item
       IndexID = 383
-      Text = 'Sales per group'
+      Text = 'Mauzo kwa Kikundi'
     end
     item
       IndexID = 384
-      Text = 'Sales per customer options'
+      Text = 'Chaguo - Mauzo kwa Mteja'
     end
     item
       IndexID = 385
-      Text = 'Sales per product options'
+      Text = 'Chaguo - Mauzo kwa Aina ya Bidhaa'
     end
     item
       IndexID = 386
-      Text = 'Sales per salesperson options'
+      Text = 'Chaguo - Mauzo kwa Muuzaji'
     end
     item
       IndexID = 387
-      Text = 'Sales per group options'
+      Text = 'Chaguo - Mauzo kwa Kikundi'
     end
     item
       IndexID = 388
-      Text = 'From group'
+      Text = 'Kutoka Kikundi'
     end
     item
       IndexID = 389
-      Text = 'From product'
+      Text = 'Kutoka Aina ya Bidhaa'
     end
     item
       IndexID = 390
-      Text = 'Tax report options'
+      Text = 'Kodi Ripoti Options'
     end
     item
       IndexID = 391
-      Text = 'Tax code'
+      Text = 'Kodi Code'
     end
     item
       IndexID = 392
-      Text = 'Show details'
+      Text = 'Onyesha Maelezo Kamili'
     end
     item
       IndexID = 393
@@ -1590,39 +1590,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 404
-      Text = 'Open item link'
+      Text = 'Ungana Ing. Wazi'
     end
     item
       IndexID = 405
-      Text = 'Update invoices'
+      Text = 'Sahihisha Ankra'
     end
     item
       IndexID = 406
-      Text = 'Date of statements'
+      Text = 'Tarehe of Vyeti'
     end
     item
       IndexID = 407
-      Text = 'Show tax transactions'
+      Text = 'Onyesha Kodi Timilizo'
     end
     item
       IndexID = 408
-      Text = 'Customer reports'
+      Text = 'Mdaiwa Ripoti'
     end
     item
       IndexID = 409
-      Text = 'Show tax separately'
+      Text = 'Onyesha Kodi Separate'
     end
     item
       IndexID = 410
-      Text = 'Inventory movement options'
+      Text = 'Bidhaa Mabadiliko Options'
     end
     item
       IndexID = 411
-      Text = 'Inventory list options'
+      Text = 'Bidhaa List Options'
     end
     item
       IndexID = 412
-      Text = 'Information to include'
+      Text = 'Information to Ikiwemo'
     end
     item
       IndexID = 413
@@ -1630,76 +1630,76 @@ object TTranslationSaveObject
     end
     item
       IndexID = 414
-      Text = 'Cost price'
+      Text = 'Cost Price'
     end
     item
       IndexID = 415
-      Text = 'Inventory count'
+      Text = 'Bidhaa Count'
     end
     item
       IndexID = 416
-      Text = 'Selling price'
+      Text = 'Bei ya Kuuza'
     end
     item
       IndexID = 417
-      Text = 'Inventory value'
+      Text = 'Bidhaa Value'
     end
     item
       IndexID = 418
-      Text = 'Estimates'
+      Text = 'Kimo cha Bei'
     end
     item
       IndexID = 419
-      Text = 'Vendor returns'
+      Text = 'Rudisha Bidhaa'
     end
     item
       IndexID = 420
-      Text = 'Account groups'
+      Text = 'Akaunti Vikundi'
     end
     item
       IndexID = 421
-      Text = 'Customer groups'
+      Text = 'Mdaiwa Vikundi'
     end
     item
       IndexID = 422
-      Text = 'Vendor groups'
+      Text = 'Mdai Vikundi'
     end
     item
       IndexID = 423
-      Text = 'Inventory groups'
+      Text = 'Bidhaa Vikundi'
     end
     item
       IndexID = 424
-      Text = 'Document groups'
+      Text = 'Document Vikundi'
     end
     item
       IndexID = 425
       Text = 
-        'Warning, this will seriously affect your Set of Books! Do you st' +
-        'ill wish to continue?'
+        'Warning, this will seriously affect your Hesabu! Do you still wi' +
+        'sh to continue?'
     end
     item
       IndexID = 426
       Text = 
-        'You have chosen to delete all users! Access control will now be ' +
+        'You have chosen to delete all users, access control will now be ' +
         'disabled!'
     end
     item
       IndexID = 427
       Text = 
-        'There are unposted journals associated with this user! Please po' +
-        'st or delete them before deleting this user.'
+        'There are unposted batches associated with this user, please pos' +
+        't or delete them before deleting this user'
     end
     item
       IndexID = 428
       Text = 
-        'There are journals associated with this user! Please select a ne' +
-        'w user to assign these journals to.'
+        'There are batches associated with this user, please select a new' +
+        ' user to assign these batches to.'
     end
     item
       IndexID = 429
       Text = 
-        'There are transactions associated with this user! Please select ' +
+        'There are transactions associated with this user, please select ' +
         'a new user to assign these transactions to.'
     end
     item
@@ -1708,19 +1708,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 431
-      Text = 'Please type in a password for this user!'
+      Text = 'Please type in a password for this user.'
     end
     item
       IndexID = 432
-      Text = 'Create this account?'
+      Text = 'Unda this account?'
     end
     item
       IndexID = 433
-      Text = 'Invalid account number! The first character must be a number!'
+      Text = 'Invalid account number, the first character must be a number.'
     end
     item
       IndexID = 434
-      Text = 'This is not a bank account!'
+      Text = 'This is not a bank account.'
     end
     item
       IndexID = 435
@@ -1732,7 +1732,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 437
-      Text = 'Are you sure you wish to delete this transaction?'
+      Text = 'Una hakika unataka kufuta timilizo hili?'
     end
     item
       IndexID = 438
@@ -1740,33 +1740,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 439
-      Text = 'Journal is not in balance!'
+      Text = 'Batch is not in balance.'
     end
     item
       IndexID = 440
-      Text = 'Account does not exist, do you wish to create it?'
+      Text = 'Akaunti does not exist, do you wish to create it?'
     end
     item
       IndexID = 441
-      Text = 'Do you want to continue reporting?'
+      Text = 'Ungependa kuendelea na taarifa?'
     end
     item
       IndexID = 442
       Text = 
-        'Cannot delete this journal type! It has journals associated with' +
-        ' it!'
+        'Can not delete this batch type, as it has batches associated wit' +
+        'h it.'
     end
     item
       IndexID = 443
       Text = 
-        'Editing journal types will seriously affect your Set of Books! A' +
-        're you sure you want to do this?'
+        'Haririing batch types will seriously affect your Hesabu, are you' +
+        ' sure you want to do this?'
     end
     item
       IndexID = 444
       Text = 
-        'This will seriously affect your Set of Books! Do you wish to can' +
-        'cel now?'
+        'This will seriously affect your set of accounts, do you wish to ' +
+        'cancel now?'
     end
     item
       IndexID = 445
@@ -1778,15 +1778,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 447
-      Text = ' Set of Books?'
+      Text = ' Hesabu?'
     end
     item
       IndexID = 448
-      Text = ' Set of Books created!'
+      Text = ' Hesabu created.'
     end
     item
       IndexID = 449
-      Text = 'Error creating books!'
+      Text = 'Error creating books.'
     end
     item
       IndexID = 450
@@ -1794,15 +1794,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 451
-      Text = ' Set of Books already exist!'
+      Text = ' Hesabu already exist.'
     end
     item
       IndexID = 452
-      Text = 'Account cannot be blank!'
+      Text = 'Akaunti cannot be blank.'
     end
     item
       IndexID = 453
-      Text = 'The first character of the account number must be a number!'
+      Text = 'The first character of the account number must be a number.'
     end
     item
       IndexID = 454
@@ -1811,8 +1811,8 @@ object TTranslationSaveObject
     item
       IndexID = 455
       Text = 
-        'This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 S' +
-        'et of Books!'
+        'This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 H' +
+        'esabu.'
     end
     item
       IndexID = 456
@@ -1840,37 +1840,37 @@ object TTranslationSaveObject
     end
     item
       IndexID = 462
-      Text = 'Sub-account(s) and cannot be deleted!'
+      Text = 'sub-account(s) and cannot be deleted.'
     end
     item
       IndexID = 463
-      Text = 'You cannot delete this inventory item! It has transactions!'
+      Text = 'You cannot delete this stock item, as it has transactions.'
     end
     item
       IndexID = 464
-      Text = 'Are you sure you want to delete this inventory item?'
+      Text = 'Are you sure you want to delete this stock item?'
     end
     item
       IndexID = 465
-      Text = 'Inventory item deleted!'
+      Text = 'Bidhaa item deleted.'
     end
     item
       IndexID = 466
-      Text = 'This inventory item does not exist!'
+      Text = 'This stock item does not exist.'
     end
     item
       IndexID = 467
-      Text = 'This is not a general ledger account!'
+      Text = 'This is not a general ledger account.'
     end
     item
       IndexID = 468
       Text = 
-        'This account is still active! All transactions will be moved to ' +
-        'new sub-account! Are you sure you wish to create sub-account?'
+        'This account is still active, all transactions will be moved to ' +
+        'new sub-account, are you sure you wish to create sub-account?'
     end
     item
       IndexID = 469
-      Text = 'This is not a tax account!'
+      Text = 'This is not a tax account'
     end
     item
       IndexID = 470
@@ -1878,15 +1878,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 471
-      Text = 'You have not set up a Set of Books yet!'
+      Text = 'You have not set up a Hesabu yet.'
     end
     item
       IndexID = 472
-      Text = 'This entry is already linked!'
+      Text = 'This entry is already linked.'
     end
     item
       IndexID = 473
-      Text = 'Nothing to link for this customer!'
+      Text = 'Lathing to link for this debtor.'
     end
     item
       IndexID = 474
@@ -1894,63 +1894,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 475
-      Text = 'Invalid password!'
+      Text = 'Invalid Password'
     end
     item
       IndexID = 476
-      Text = 'Date conflict !!!! Check date 1'
+      Text = 'Tarehe conflict !!!! Check date 1'
     end
     item
       IndexID = 477
-      Text = 'Date conflict !!!! Check date 2'
+      Text = 'Tarehe conflict !!!! Check date 2'
     end
     item
       IndexID = 478
-      Text = 'Date conflict !!!! Check date 3'
+      Text = 'Tarehe conflict !!!! Check date 3'
     end
     item
       IndexID = 479
-      Text = 'Date conflict !!!! Check date 4'
+      Text = 'Tarehe conflict !!!! Check date 4'
     end
     item
       IndexID = 480
-      Text = 'Date conflict !!!! Check date 5'
+      Text = 'Tarehe conflict !!!! Check date 5'
     end
     item
       IndexID = 481
-      Text = 'Date conflict !!!! Check date 6'
+      Text = 'Tarehe conflict !!!! Check date 6'
     end
     item
       IndexID = 482
-      Text = 'Date conflict !!!! Check date 7'
+      Text = 'Tarehe conflict !!!! Check date 7'
     end
     item
       IndexID = 483
-      Text = 'Date conflict !!!! Check date 8'
+      Text = 'Tarehe conflict !!!! Check date 8'
     end
     item
       IndexID = 484
-      Text = 'Date conflict !!!! Check date 9'
+      Text = 'Tarehe conflict !!!! Check date 9'
     end
     item
       IndexID = 485
-      Text = 'Date conflict !!!! Check date 10'
+      Text = 'Tarehe conflict !!!! Check date 10'
     end
     item
       IndexID = 486
-      Text = 'Date conflict !!!! Check date 11'
+      Text = 'Tarehe conflict !!!! Check date 11'
     end
     item
       IndexID = 487
-      Text = 'Date conflict !!!! Check date 12'
+      Text = 'Tarehe conflict !!!! Check date 12'
     end
     item
       IndexID = 488
-      Text = 'Date conflict !!!! Check date 13'
+      Text = 'Tarehe conflict !!!! Check date 13'
     end
     item
       IndexID = 489
-      Text = 'Only periods between 1 and 13 are allowed!'
+      Text = 'Pekee periods between 1 and 13 are allowed'
     end
     item
       IndexID = 490
@@ -1958,7 +1958,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 491
-      Text = 'No items to reconcile!'
+      Text = 'La items to reconcile!'
     end
     item
       IndexID = 492
@@ -1970,7 +1970,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 494
-      Text = 'Do you wish to create this inventory item?'
+      Text = 'Do you wish to create this Stock Item?'
     end
     item
       IndexID = 495
@@ -1978,24 +1978,24 @@ object TTranslationSaveObject
     end
     item
       IndexID = 496
-      Text = 'Select a user report'
+      Text = 'Select a User Report'
     end
     item
       IndexID = 497
-      Text = 'Units of inventory'
+      Text = 'Units of Bidhaa'
     end
     item
       IndexID = 498
-      Text = 'Selling price descriptions'
+      Text = 'Bei ya Kuuza Elezos'
     end
     item
       IndexID = 499
-      Text = 'Cost of sales'
+      Text = 'Gharama ya Mauzo'
     end
     item
       IndexID = 500
       Text = 
-        'Do you want to run the Data integrity check before making the ba' +
+        'Do you want to run the Data Integrity Check before making the ba' +
         'ckup?'
     end
     item
@@ -2016,7 +2016,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 505
-      Text = 'Do you wish to print this Invoice now?'
+      Text = 'Do you wish to print this invoice now?'
     end
     item
       IndexID = 506
@@ -2037,12 +2037,12 @@ object TTranslationSaveObject
     item
       IndexID = 510
       Text = 
-        'Do you want to run the Data integrity check before making the ba' +
+        'Do you want to run the Data Integrity Check before making the ba' +
         'ckup?'
     end
     item
       IndexID = 511
-      Text = 'Backup completed!'
+      Text = 'Nakili Complete.'
     end
     item
       IndexID = 512
@@ -2078,21 +2078,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 518
-      Text = 'This directory does not contain a Set of Books!'
+      Text = 'This directory does not contain a Hesabu.'
     end
     item
       IndexID = 519
       Text = 
-        'This will seriously affect your Set of Books! Are you sure you w' +
-        'ant to clear this Set of Books?'
+        'This will seriously affect your Hesabu! Are you sure you want to' +
+        ' clear this Hesabu?'
     end
     item
       IndexID = 520
-      Text = 'Please complete the registration form!'
+      Text = 'Please complete the registration form.'
     end
     item
       IndexID = 521
-      Text = 'Invalid unlocking code!'
+      Text = 'Invalid unlocking code.'
     end
     item
       IndexID = 522
@@ -2101,39 +2101,39 @@ object TTranslationSaveObject
     item
       IndexID = 523
       Text = 
-        'This account has transactions! Do you wish to transfer the trans' +
+        'This account has transactions, do you wish to transfer the trans' +
         'actions to another account?'
     end
     item
       IndexID = 524
-      Text = 'You cannot transfer to this account! It has sub-accounts!'
+      Text = 'You cannot transfer to this account as it has sub-accounts.'
     end
     item
       IndexID = 525
-      Text = 'Account deleted!'
+      Text = 'Akaunti deleted.'
     end
     item
       IndexID = 526
       Text = 
-        'This customer has transactions! Do you wish to transfer the tran' +
-        'sactions to another customer?'
+        'This debtor has transactions, do you wish to transfer the transa' +
+        'ctions to another debtor?'
     end
     item
       IndexID = 527
       Text = 
-        'This vendor has transactions! Do you wish to transfer the transa' +
-        'ctions to another vendor ?'
+        'This creditor has transactions, do you wish to transfer the tran' +
+        'sactions to another creditor?'
     end
     item
       IndexID = 528
       Text = 
-        'This bank account has transactions! Do you wish to transfer the ' +
+        'This bank account has transactions, do you wish to transfer the ' +
         'transactions to another bank account?'
     end
     item
       IndexID = 529
       Text = 
-        'This tax account has transactions! Do you wish to transfer the t' +
+        'This tax account has transactions, do you wish to transfer the t' +
         'ransactions to another tax account?'
     end
     item
@@ -2142,43 +2142,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 531
-      Text = 'Unposted journals and'
+      Text = 'unposted batches and'
     end
     item
       IndexID = 532
-      Text = 'Unposted journals'
+      Text = 'unposted batches'
     end
     item
       IndexID = 534
-      Text = 'Properties'
+      Text = 'Sifa'
     end
     item
       IndexID = 535
-      Text = 'Change Set of Books properties'
+      Text = 'Badilisha a Hesabu properties.'
     end
     item
       IndexID = 536
-      Text = 'Enter the name of the Set of Books'
+      Text = 'Type in the name of the Hesabu.'
     end
     item
       IndexID = 537
-      Text = 'Enter the path where the books are stored'
+      Text = 'Type in the path where the books are stored.'
     end
     item
       IndexID = 538
-      Text = 'Change'
+      Text = 'Badilisha'
     end
     item
       IndexID = 539
-      Text = 'A Set of Books called'
+      Text = 'A Hesabu called'
     end
     item
       IndexID = 533
-      Text = 'Unposted documents'
+      Text = 'unposted documents'
     end
     item
       IndexID = 587
-      Text = 'Invoice entry'
+      Text = 'Ankra Entry'
     end
     item
       IndexID = 588
@@ -2188,35 +2188,35 @@ object TTranslationSaveObject
       IndexID = 589
       Text = 
         'Warning, this date does not fall into any of this or last year'#39's' +
-        ' reporting dates!'
+        ' reporting dates.'
     end
     item
       IndexID = 590
-      Text = 'This journal does not validate!'
+      Text = 'This batch does not validate!'
     end
     item
       IndexID = 1
-      Text = '&No'
+      Text = '&La'
     end
     item
       IndexID = 2
-      Text = '&Yes'
+      Text = '&Ndio'
     end
     item
       IndexID = 3
-      Text = 'January'
+      Text = 'Januari'
     end
     item
       IndexID = 4
-      Text = 'February'
+      Text = 'Februari'
     end
     item
       IndexID = 5
-      Text = 'March'
+      Text = 'Machi'
     end
     item
       IndexID = 6
-      Text = 'April'
+      Text = 'Aprili'
     end
     item
       IndexID = 545
@@ -2225,9 +2225,9 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        'Welcome to the <@APPNAME@> Set of Books Creation wizard. Please ' +
-        'select an option and click on the [Next] button, or click on the' +
-        ' [Cancel] button to cancel the creation of a new Set of Books.'
+        'Welcome to the <@APPNAME@> Hesabu Creation Wizard. Please select' +
+        ' an option and click on the Next button, or click on the Acha bu' +
+        'tton to cancel the creation of a new Hesabu.'
     end
     item
       IndexID = 543
@@ -2240,13 +2240,13 @@ object TTranslationSaveObject
     item
       IndexID = 541
       Text = 
-        'Please select a Set of Books from the list below, or click [Brow' +
-        'se] button to select the Set of Books you wish to copy in a fold' +
-        'er elsewhere on your system.'
+        'Please select a Hesabu from the list below, or click Bowse butto' +
+        'n to select the Hesabu you wish to copy in a folder elsewhere on' +
+        ' your system.'
     end
     item
       IndexID = 540
-      Text = 'Creation wizard'
+      Text = 'Creation Wizard'
     end
     item
       IndexID = 551
@@ -2254,33 +2254,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 550
-      Text = 'Convert TurboCASH3 to <@APPNAME@>'
+      Text = 'Convert TurboCASH3 to <@APPNAME@>?'
     end
     item
       IndexID = 549
-      Text = 'Customize your own Set of Books (Advanced)'
+      Text = 'Customise your own Hesabu (Advanced)?'
     end
     item
       IndexID = 548
-      Text = 'Let <@APPNAME@> help you to create a Set of Books'
+      Text = 'Let <@APPNAME@> help you to create a Hesabu?'
     end
     item
       IndexID = 547
-      Text = 'Copy an existing Set of Books'
+      Text = 'Copy an existing Hesabu?'
     end
     item
       IndexID = 546
-      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)'
+      Text = 'Convert from an older TurboCASH (v 2.01, 2.02, 2.03)?'
     end
     item
       IndexID = 557
-      Text = 'Please click [Finish] to specify your:'
+      Text = 'Please click finish to specify your:'
     end
     item
       IndexID = 556
       Text = 
         'You now need to type in the number of periods there are in your ' +
-        'financial year and the date of the start of the year!'
+        'financial year and the date of the start of the year.'
     end
     item
       IndexID = 555
@@ -2288,23 +2288,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 554
-      Text = 'Retained earnings'
+      Text = 'Retained Earnings'
     end
     item
       IndexID = 553
-      Text = 'Customer control'
+      Text = 'Wadaiwa Control'
     end
     item
       IndexID = 552
-      Text = 'Vendors control'
+      Text = 'Wadai Control'
     end
     item
       IndexID = 563
-      Text = 'Creating required accounts (Customers control)...'
+      Text = 'Creating required accounts (Wadaiwa Control)...'
     end
     item
       IndexID = 562
-      Text = 'Creating required accounts (Vendor control)...'
+      Text = 'Creating required accounts (Wadai Control)...'
     end
     item
       IndexID = 561
@@ -2312,21 +2312,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 560
-      Text = 'Creating Set of Books...'
+      Text = 'Creating Hesabu...'
     end
     item
       IndexID = 559
-      Text = 'You have to choose a Set of Books or directory to copy'
+      Text = 'You have to choose a Hesabu or directory to copy'
     end
     item
       IndexID = 558
       Text = 
-        'This directory does not contain a Set of Books, or the Set of Bo' +
-        'oks is damaged!'
+        'This directory does not contain a Hesabu, or the Hesabu is damag' +
+        'ed.'
     end
     item
       IndexID = 569
-      Text = 'Converting Pastel inventory...'
+      Text = 'Converting Pastel stock...'
     end
     item
       IndexID = 568
@@ -2342,11 +2342,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 565
-      Text = 'Converting Set of Books...'
+      Text = 'Converting Hesabu...'
     end
     item
       IndexID = 564
-      Text = 'Creating required accounts (Retained earnings)...'
+      Text = 'Creating required accounts (Retained Earnings)...'
     end
     item
       IndexID = 575
@@ -2364,9 +2364,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 572
-      Text = 
-        'Please select an old Set of Books to convert from the list below' +
-        '.'
+      Text = 'Please select an old Hesabu to convert from the list below.'
     end
     item
       IndexID = 571
@@ -2378,11 +2376,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 581
-      Text = '*Translate : Enter your details'
+      Text = 'Philip'#39's own label'
     end
     item
       IndexID = 580
-      Text = 'Open for posting'
+      Text = 'Fungua for posting'
     end
     item
       IndexID = 579
@@ -2390,7 +2388,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 578
-      Text = 'Post to other years'
+      Text = 'Sahihisho to last year'
     end
     item
       IndexID = 577
@@ -2398,11 +2396,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 576
-      Text = 'Reporting dates'
+      Text = 'Ripotiing Tarehes'
     end
     item
       IndexID = 591
-      Text = 'is out of balance by'
+      Text = 'is out of balance kwa'
     end
     item
       IndexID = 592
@@ -2410,11 +2408,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 593
-      Text = 'Allow both'
+      Text = 'Allow Both'
     end
     item
       IndexID = 594
-      Text = 'Journal contains transactions posting to last year!'
+      Text = 'Batch contains transactions posting to last year.'
     end
     item
       IndexID = 595
@@ -2422,39 +2420,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 596
-      Text = 'Cannot post to main account containing Sub-accounts!'
+      Text = 'Can'#39't post to main account containing Sub-Akaunti.'
     end
     item
       IndexID = 597
-      Text = 'Account does not exist! Do you wish to create it?'
+      Text = 'Akaunti does not exist, do you wish to create it?'
     end
     item
       IndexID = 598
-      Text = 'No data to import!'
+      Text = 'La Data to import.'
     end
     item
       IndexID = 599
-      Text = 'Enter month and year to repeat entries to'
+      Text = 'Timiza Month and Mwaka to repeat entries to'
     end
     item
       IndexID = 600
-      Text = 'Period'
+      Text = 'Kipindi'
     end
     item
       IndexID = 601
-      Text = 'Year'
+      Text = 'Mwaka'
     end
     item
       IndexID = 602
-      Text = '&Select contra account'
+      Text = '&Select Contra Akaunti'
     end
     item
       IndexID = 603
-      Text = 'This year'
+      Text = 'Mwaka Huu'
     end
     item
       IndexID = 604
-      Text = 'Last year'
+      Text = 'ya Mwaka Jana'
     end
     item
       IndexID = 605
@@ -2462,7 +2460,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 606
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 607
@@ -2470,83 +2468,83 @@ object TTranslationSaveObject
     end
     item
       IndexID = 608
-      Text = 'Account'
+      Text = 'Akaunti'
     end
     item
       IndexID = 609
-      Text = 'Tax'
+      Text = 'Kodi'
     end
     item
       IndexID = 610
-      Text = 'Abbreviation definition'
+      Text = 'Abbreviation Definition'
     end
     item
       IndexID = 611
-      Text = 'Balance journal'
+      Text = 'Balance Batch'
     end
     item
       IndexID = 612
-      Text = 'Delimited file import'
+      Text = 'Delimited Faili Leta'
     end
     item
       IndexID = 613
-      Text = 'Erase journal'
+      Text = 'Erase Batch'
     end
     item
       IndexID = 614
-      Text = 'Generate multiple transactions'
+      Text = 'Generate multiple Timilizo'
     end
     item
       IndexID = 615
-      Text = 'List journal'
+      Text = 'List Batch'
     end
     item
       IndexID = 616
-      Text = 'Post journal'
+      Text = 'Sahihisho Batch'
     end
     item
       IndexID = 617
-      Text = 'Repeating transactions'
+      Text = 'Repeating Timilizo'
     end
     item
       IndexID = 618
-      Text = 'Totals for each period'
+      Text = 'Haditals for each Kipindi'
     end
     item
       IndexID = 619
-      Text = 'Write delimited file'
+      Text = 'Write Delimited Faili'
     end
     item
       IndexID = 620
-      Text = 'Process the journal'
+      Text = 'Mchakatothe batch'
     end
     item
       IndexID = 621
-      Text = 'Are you sure you want to erase this entire journal?'
+      Text = 'Are you sure you want to erase this Batch entry?'
     end
     item
       IndexID = 622
-      Text = 'Options for this journal'
+      Text = 'Options for this batch'
     end
     item
       IndexID = 623
-      Text = 'Increment reference'
+      Text = 'Increment Reference Number'
     end
     item
       IndexID = 624
-      Text = 'Repeat details'
+      Text = 'Repeat Maelezo Kamili'
     end
     item
       IndexID = 625
-      Text = 'Contra account per line'
+      Text = 'Contra Akaunti per Line'
     end
     item
       IndexID = 626
-      Text = 'Consolidate balancing'
+      Text = 'Consolidate Balancing'
     end
     item
       IndexID = 627
-      Text = 'Amount entry'
+      Text = 'Amount Entry'
     end
     item
       IndexID = 628
@@ -2566,33 +2564,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 632
-      Text = 'already exists!'
+      Text = 'already exists.'
     end
     item
       IndexID = 633
-      Text = 'Select Pastel data folder !!!'
+      Text = 'Select Pastel Data folder !!!'
     end
     item
       IndexID = 635
-      Text = 'You must have a Set of Books open to use this option!'
+      Text = 'You must have a Hesabu open to use this option.'
     end
     item
       IndexID = 636
-      Text = 'You have not set up a Set of Books yet!'
+      Text = 'You have not set up a Hesabu yet.'
     end
     item
       IndexID = 637
-      Text = 'Include opening balances'
+      Text = 'Ikiwemo opening balances'
     end
     item
       IndexID = 638
-      Text = 'You cannot select this account because it contains sub-accounts!'
+      Text = 'You can'#39't select this account because it contains sub-accounts'
     end
     item
       IndexID = 639
       Text = 
         'The information on this line will be lost if it'#39's changed to com' +
-        'ment!'
+        'ment'
     end
     item
       IndexID = 640
@@ -2601,66 +2599,66 @@ object TTranslationSaveObject
     item
       IndexID = 641
       Text = 
-        'This will radically alter your data! We recommend that you stop ' +
-        'and make a backup!'
+        'This will radically alter your Data. We recommend that you stop ' +
+        'and make a backup.'
     end
     item
       IndexID = 642
-      Text = 'Do you wish to continue?'
+      Text = 'Do you wish to Continue?'
     end
     item
       IndexID = 643
       Text = 
-        'This account has an opening last year balance! You cannot delete' +
-        ' the account!'
+        'This account has an opening last year balance, you cannot delete' +
+        ' the account .'
     end
     item
       IndexID = 644
-      Text = 'This account is not an income / expense account!'
+      Text = 'This account is not an income / expense account.'
     end
     item
       IndexID = 645
-      Text = 'Exclusive total'
+      Text = 'Kwadoausive Hadital'
     end
     item
       IndexID = 646
-      Text = 'Invoice total'
+      Text = 'Ankra Hadital'
     end
     item
       IndexID = 647
-      Text = 'Total discount'
+      Text = 'Hadital Discount'
     end
     item
       IndexID = 648
-      Text = 'Unit excl.'
+      Text = 'Unit Kwadoa.'
     end
     item
       IndexID = 649
-      Text = 'Unit incl.'
+      Text = 'Unit Pamoja na.'
     end
     item
       IndexID = 650
-      Text = 'Amount excl.'
+      Text = 'Amount Kwadoa.'
     end
     item
       IndexID = 651
-      Text = 'Amount incl.'
+      Text = 'Amount Pamoja na.'
     end
     item
       IndexID = 652
-      Text = 'Item code'
+      Text = 'Item Code'
     end
     item
       IndexID = 653
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 655
-      Text = 'Qty order'
+      Text = 'Qty Order'
     end
     item
       IndexID = 656
-      Text = 'Qty ship'
+      Text = 'Qty Ship'
     end
     item
       IndexID = 657
@@ -2676,65 +2674,65 @@ object TTranslationSaveObject
     end
     item
       IndexID = 660
-      Text = 'F10: Delete all'
+      Text = 'F10: Futa All'
     end
     item
       IndexID = 662
-      Text = '&Comment line'
+      Text = '&Comment Line'
     end
     item
       IndexID = 663
-      Text = '&Enter overall discount'
+      Text = '&Timiza overall discount'
     end
     item
       IndexID = 664
-      Text = 'F7: Inclusive'
+      Text = 'F7: Pamoja nausive'
     end
     item
       IndexID = 665
       Text = 
-        'You have changed payment and receipt journal! This will corrupt ' +
-        'your recon! Do you wish to continue?'
+        'You have changed Payment and Receipt Batch, This will corrupt yo' +
+        'ur recon. Do you wish to continue?'
     end
     item
       IndexID = 666
-      Text = 'Control account cannot be used!'
+      Text = 'Control account cannot be used.'
     end
     item
       IndexID = 667
-      Text = 'You have changed the percentage!'
+      Text = 'You have changed the percentage.'
     end
     item
       IndexID = 668
-      Text = 'Cannot have budgets for an account which has sub-accounts!'
+      Text = 'Cannot have budgets for an account which has sub-accounts.'
     end
     item
       IndexID = 669
-      Text = 'General ledger account cannot be used!'
+      Text = 'Daftari ya Jumla account cannot be used.'
     end
     item
       IndexID = 670
-      Text = 'Credit note entry'
+      Text = 'Credit Late Entry'
     end
     item
       IndexID = 671
-      Text = 'F10: Delete credit note'
+      Text = 'F10: Futa Credit Late'
     end
     item
       IndexID = 673
-      Text = 'Do you wish to print this credit note now?'
+      Text = 'Do you wish to print this Credit Late now?'
     end
     item
       IndexID = 674
-      Text = 'Update credit notes'
+      Text = 'Sahihisha Credit Lates'
     end
     item
       IndexID = 675
-      Text = 'From credit note'
+      Text = 'Kutoka Credit Late'
     end
     item
       IndexID = 676
-      Text = 'To credit note'
+      Text = 'Hadi Credit Late'
     end
     item
       IndexID = 677
@@ -2742,13 +2740,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 678
-      Text = 'There is no invoice to print!'
+      Text = 'There is no Ankra to print.'
     end
     item
       IndexID = 679
-      Text = 
-        'Cannot have the same payments journal type as for another bank a' +
-        'ccount!'
+      Text = 'Cannot  have the same Malipo batch type as another Bank account!'
     end
     item
       IndexID = 680
@@ -2756,21 +2752,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 681
-      Text = 'Remittance message'
+      Text = 'Remittance Ujumbe'
     end
     item
       IndexID = 682
-      Text = 'Goods received'
+      Text = 'Goods Received'
     end
     item
       IndexID = 683
-      Text = 
-        'Cannot have the same receipt journal type as for another bank ac' +
-        'count!'
+      Text = 'Cannot have the same Receipt batch type as another Bank account!'
     end
     item
       IndexID = 684
-      Text = 'Unit price'
+      Text = 'Unit Price'
     end
     item
       IndexID = 685
@@ -2778,79 +2772,79 @@ object TTranslationSaveObject
     end
     item
       IndexID = 686
-      Text = 'Print a purchase document now?'
+      Text = 'Chapisha a Nunuzi Late now?'
     end
     item
       IndexID = 687
-      Text = 'Tax excluded'
+      Text = 'Kodi Kwadoauded'
     end
     item
       IndexID = 688
-      Text = 'Tax included'
+      Text = 'Kodi Ikiwemod'
     end
     item
       IndexID = 689
-      Text = 'Credit note history'
+      Text = 'Credit Late Historia ya'
     end
     item
       IndexID = 690
-      Text = 'Vendor return history'
+      Text = 'Bidhaa Return Historia ya'
     end
     item
       IndexID = 691
-      Text = 'Purchases history'
+      Text = 'Ununuzi wa Bidhaa Historia ya'
     end
     item
       IndexID = 692
-      Text = 'Estimate history'
+      Text = 'Quotations Historia ya'
     end
     item
       IndexID = 693
-      Text = 'Orders history'
+      Text = 'Orders Historia ya'
     end
     item
       IndexID = 694
-      Text = 'From purchase'
+      Text = 'Kutoka Nunuzi'
     end
     item
       IndexID = 695
-      Text = 'Delete credit notes'
+      Text = 'Futa Credit Lates'
     end
     item
       IndexID = 696
-      Text = 'Invalid next number! Change it in '#39'Setup '#8594' Documents setup'#39'!'
+      Text = 'Invalid Next Number, Badilisha it in Document Andaa.'
     end
     item
       IndexID = 697
-      Text = 'Do you want to continue backup?'
+      Text = 'Do you want to continue Nakili'
     end
     item
       IndexID = 698
-      Text = 'Do you want to continue restore from?'
+      Text = 'Do you want to continue Fufua Kutoka'
     end
     item
       IndexID = 699
-      Text = 'No Set of Books selected!'
+      Text = 'La Hesabu selected.'
     end
     item
       IndexID = 700
-      Text = 'Update purchase'
+      Text = 'Sahihisha Nunuzi'
     end
     item
       IndexID = 701
-      Text = 'Update vendor returns'
+      Text = 'Sahihisha Bidhaa Returns'
     end
     item
       IndexID = 702
-      Text = 'From vendor return'
+      Text = 'Kutoka Bidhaa Return'
     end
     item
       IndexID = 703
-      Text = 'Purchase no.'
+      Text = 'Nunuzi La.'
     end
     item
       IndexID = 704
-      Text = 'Vendor return no.'
+      Text = 'Bidhaa Ret. La.'
     end
     item
       IndexID = 705
@@ -2858,29 +2852,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 706
-      Text = 'Credit notes'
+      Text = 'Credit Lates'
     end
     item
       IndexID = 707
-      Text = 'Do you wish to print this order?'
+      Text = 'Do you wish to print this Order?'
     end
     item
       IndexID = 708
-      Text = 'Do you wish to print this vendor return?'
+      Text = 'Do you wish to print this Bidhaa Return?'
     end
     item
       IndexID = 709
-      Text = 'Do you wish to print this purchase?'
+      Text = 'Do you wish to print this Nunuzi?'
     end
     item
       IndexID = 710
-      Text = 'Do you wish to print this estimate?'
+      Text = 'Do you wish to print this Quotation?'
     end
     item
       IndexID = 711
-      Text = 
-        'Run '#39'Setup '#8594' Journal types'#39' and select contra account for this j' +
-        'ournal!'
+      Text = 'Run Andaa and select Contra Akaunti for this batch.'
     end
     item
       IndexID = 712
@@ -2888,11 +2880,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 713
-      Text = 'Client server update'
+      Text = 'Client Server Sahihisha'
     end
     item
       IndexID = 714
-      Text = 'Internet update'
+      Text = 'Internet Sahihisha'
     end
     item
       IndexID = 715
@@ -2900,47 +2892,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 716
-      Text = 'Location :'
+      Text = 'Location:'
     end
     item
       IndexID = 717
-      Text = 'Set of Books not found! Directory doesn'#39't exist:'
+      Text = 'Hesabu not found, Directory doesn'#39't exist:'
     end
     item
       IndexID = 718
-      Text = 'Or trouble on a network mapped drive'
+      Text = 'Or Trouble on Network Maped Drive'
     end
     item
       IndexID = 719
       Text = 
-        'This will delete all your information! Are you sure you want to ' +
+        'This will delete all your information, are you sure you want to ' +
         'continue?'
     end
     item
       IndexID = 720
-      Text = 'Btrv error:'
+      Text = 'Btrv Error:'
     end
     item
       IndexID = 721
-      Text = 'Nothing to link for this vendor!'
+      Text = 'Lathing to link for this Mdai.'
     end
     item
       IndexID = 722
       Text = 
-        'Warning, if you click [Yes] you will lose all your current links' +
-        ' for this account!'
+        'Warning, if you click yes you will lose all your current links f' +
+        'or this account.'
     end
     item
       IndexID = 723
-      Text = 'Insert disk in'
+      Text = 'Insert Disk in'
     end
     item
       IndexID = 724
-      Text = 'Internet setup information is incorrect! Run '#39'Setup '#8594' Internet'#39'.'
+      Text = 'Internet Andaa information is incorrect. Run Internet Andaa'
     end
     item
       IndexID = 725
-      Text = 'Do you want to delete?'
+      Text = 'Do you want to Futa'
     end
     item
       IndexID = 726
@@ -2960,7 +2952,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 730
-      Text = '&Last'
+      Text = '&ya Mwisho'
     end
     item
       IndexID = 731
@@ -2972,7 +2964,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 733
-      Text = 'Print range'
+      Text = 'Chapisha Range'
     end
     item
       IndexID = 734
@@ -2980,89 +2972,89 @@ object TTranslationSaveObject
     end
     item
       IndexID = 735
-      Text = '&From'
+      Text = '&Kutoka'
     end
     item
       IndexID = 736
-      Text = '&To'
+      Text = '&Hadi'
     end
     item
       IndexID = 737
-      Text = '&All pages'
+      Text = '&All Pages'
     end
     item
       IndexID = 738
-      Text = 'Number of &copies'
+      Text = 'Number of &Copies'
     end
     item
       IndexID = 739
-      Text = 'Exporting report error!'
+      Text = 'Hamishaing Ripoti Error'
     end
     item
       IndexID = 740
-      Text = 'Error when creating Tmp!'
+      Text = 'Error when creating Tmp'
     end
     item
       IndexID = 741
-      Text = 'Invalid password!'
+      Text = 'Invalid Password'
     end
     item
       IndexID = 742
       Text = 
-        'You cannot use this account as a contra account! It contains sub' +
-        '-accounts!'
+        'You cannot use this account as a contra account, as it contains ' +
+        'sub-accounts'
     end
     item
       IndexID = 743
-      Text = 'Create directory'
+      Text = 'Unda directory'
     end
     item
       IndexID = 744
-      Text = 'That Set of Books already exists! Please re-enter!'
+      Text = 'That Hesabu already exists. Please re-enter.'
     end
     item
       IndexID = 745
-      Text = 'Couldn'#39't create directory!'
+      Text = 'Couldn'#39't create directory.'
     end
     item
       IndexID = 746
-      Text = 'Please re-enter!'
+      Text = 'Please re-enter.'
     end
     item
       IndexID = 747
-      Text = 'No data to print!'
+      Text = 'La Data to print'
     end
     item
       IndexID = 748
-      Text = 'Illegal account code!'
+      Text = 'Illegal Nambari ya Akaunti'
     end
     item
       IndexID = 750
-      Text = 'Tax Invoice no.'
+      Text = 'Kodi Ankra Number'
     end
     item
       IndexID = 751
-      Text = 'Estimate no.'
+      Text = 'Kimo cha Bei Number'
     end
     item
       IndexID = 752
-      Text = 'Vendor return no.'
+      Text = 'Rudisha Bidhaa La.'
     end
     item
       IndexID = 753
-      Text = 'Invalid media type for backup!'
+      Text = 'Invalid Media Type for Nakili'
     end
     item
       IndexID = 754
-      Text = 'Cannot delete a control account!'
+      Text = 'Cannot delete Control Akaunti'
     end
     item
       IndexID = 755
-      Text = 'The Set of Books'
+      Text = 'The Hesabu'
     end
     item
       IndexID = 756
-      Text = 'will permanently be removed from disk!'
+      Text = 'will permanently be removed from disk.'
     end
     item
       IndexID = 757
@@ -3070,19 +3062,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 758
-      Text = 'Credit note no.'
+      Text = 'Credit Late Number'
     end
     item
       IndexID = 759
-      Text = 'Purchase no.'
+      Text = 'Nunuzi Number'
     end
     item
       IndexID = 761
-      Text = 'Goods received voucher'
+      Text = 'Goods Received Voucher'
     end
     item
       IndexID = 762
-      Text = 'Order no.'
+      Text = 'Order Number'
     end
     item
       IndexID = 763
@@ -3090,21 +3082,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 764
-      Text = 'Then click [Close] to finish the Creation wizard.'
+      Text = 'Then click close to finish the setup wizard.'
     end
     item
       IndexID = 765
-      Text = 'Customer'#39's balance is over credit limit with:'
+      Text = 'Mdaiwa'#39's Balance is over credit limit with:'
     end
     item
       IndexID = 766
-      Text = 'Cannot transfer transactions to the same account!'
+      Text = 'Cannot transfer tansactions to the same account.'
     end
     item
       IndexID = 767
       Text = 
-        'The last time that you worked with this Set of Books you did not' +
-        ' exit the program properly!'
+        'The last time that you worked with this Hesabu you did not exit ' +
+        'the program properly.'
     end
     item
       IndexID = 768
@@ -3118,49 +3110,49 @@ object TTranslationSaveObject
       IndexID = 770
       Text = 
         'It is good practice to make regular backups and archive copies o' +
-        'f your Sets of Books to prevent loss of data.'
+        'f your sets of books to prevent loss of data.'
     end
     item
       IndexID = 771
-      Text = 'Estimate no.'
+      Text = 'Kimo cha Bei La.'
     end
     item
       IndexID = 772
-      Text = 'From estimate '
+      Text = 'Kutoka Kimo cha Bei'
     end
     item
       IndexID = 773
-      Text = 'From order'
+      Text = 'Kutoka Order'
     end
     item
       IndexID = 774
-      Text = 'This account has balances, cannot be deleted!'
+      Text = 'This account has balances, cannot be deleted.'
     end
     item
       IndexID = 775
-      Text = 'Do you want to create this contactperson?'
+      Text = 'Do you want to Unda this contact person?'
     end
     item
       IndexID = 776
-      Text = 'Do you want to delete this contactperson?'
+      Text = 'Do you want to Futa this contact person?'
     end
     item
       IndexID = 777
-      Text = 'Contactperson deleted!'
+      Text = 'Mwenye Kuongelewa Futad.'
     end
     item
       IndexID = 778
-      Text = 'Illegal contact name!'
+      Text = 'Illegal Mwenye Kuongelewa Jina'
     end
     item
       IndexID = 779
-      Text = 'Account numbers should be unique!'
+      Text = 'Akaunti numbers should be unique.'
     end
     item
       IndexID = 780
       Text = 
         'All transactions will be removed and account balances will be se' +
-        't to zero!'
+        't to zero.'
     end
     item
       IndexID = 781
@@ -3172,39 +3164,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 783
-      Text = 'Illegal document number!'
+      Text = 'Illegal Document Number'
     end
     item
       IndexID = 784
-      Text = 'Illegal inventory code!'
+      Text = 'Illegal Code ya Bidhaa'
     end
     item
       IndexID = 785
-      Text = 'Balance customers with amount < x.xx'
+      Text = 'Balance debtors with amount < Rx.xx'
     end
     item
       IndexID = 786
-      Text = 'Vendors with charge amount'
+      Text = 'Wadai with charge amount'
     end
     item
       IndexID = 787
-      Text = 'Customers with charge amount'
+      Text = 'Wadaiwa with charge amount'
     end
     item
       IndexID = 788
-      Text = 'Fixed amount to all customers'
+      Text = 'Fixed amount to all debtors'
     end
     item
       IndexID = 789
-      Text = 'Interest on overdue customers'
+      Text = 'Interest on overdue debtors'
     end
     item
       IndexID = 790
-      Text = 'Vendor balances at date'
+      Text = 'Mdai balances at date'
     end
     item
       IndexID = 791
-      Text = 'Create receipts'
+      Text = 'Unda Upokezi'
     end
     item
       IndexID = 792
@@ -3212,7 +3204,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 793
-      Text = 'Check'
+      Text = 'Cheque'
     end
     item
       IndexID = 794
@@ -3228,7 +3220,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 797
-      Text = 'Amount is not the same as the transaction amount!'
+      Text = 'Amount is not the same as the transaction amount.'
     end
     item
       IndexID = 798
@@ -3236,11 +3228,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 799
-      Text = 'Reference is not the same as the transaction reference!'
+      Text = 'Reference is not the same as the transaction Reference.'
     end
     item
       IndexID = 800
-      Text = 'Do you wish to close <@APPNAME@>?'
+      Text = 'Do you wish to Funga <@APPNAME@>?'
     end
     item
       IndexID = 801
@@ -3248,17 +3240,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 802
-      Text = 'No method selected! Please select one!'
+      Text = 'La method selected. Please select one.'
     end
     item
       IndexID = 803
       Text = 
-        'Cannot take Inventory on for an item with a non-zero quantity on' +
-        ' hand!'
+        'Cannot take Bidhaa on for an item with a non-zero quantity on ha' +
+        'nd.'
     end
     item
       IndexID = 804
-      Text = 'No user report selected! Please select one!'
+      Text = 'La Ripoti Binafsi selected. Please select one.'
     end
     item
       IndexID = 805
@@ -3266,11 +3258,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 806
-      Text = 'Are you sure you want to change the next document number?'
+      Text = 'Are you sure you want to change the Next Document Number?'
     end
     item
       IndexID = 807
-      Text = 'Error occurred during copy process!'
+      Text = 'Error occurred during copy process.'
     end
     item
       IndexID = 808
@@ -3286,7 +3278,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 811
-      Text = 'on the inventory file'
+      Text = 'on the stock file'
     end
     item
       IndexID = 812
@@ -3294,50 +3286,50 @@ object TTranslationSaveObject
     end
     item
       IndexID = 813
-      Text = 'An error occurred while converting your old T3 data!'
+      Text = 'An Error occur while converting your old T3 data.'
     end
     item
       IndexID = 814
-      Text = 'Could not find unpaid amount!'
+      Text = 'Could not find unpaid amount.'
     end
     item
       IndexID = 815
       Text = 
-        'Your payment and receipt journal are not linked correctly to thi' +
-        's bank account!'
+        'Your Payment and Receipt Batch are not attached correctly to thi' +
+        's Akaunti ya Benki.'
     end
     item
       IndexID = 816
       Text = 
-        'May not have a tax type for a customer or vendor in the payments' +
-        ' based system!'
+        'May not have a Kodi type for a Mdaiwa or Mdai in the receipts ba' +
+        'sed system.'
     end
     item
       IndexID = 817
-      Text = 'Backup file not found in'
+      Text = 'Nakili file not found in'
     end
     item
       IndexID = 818
-      Text = 'Select Backup or Restore mode'
+      Text = 'Select Nakili or Fufua Hali'
     end
     item
       IndexID = 820
       Text = 
-        'Running on the payment basis requires that all customers and ven' +
-        'dors be converted to open item account. Do you want to continue?'
+        'Running on the payment basis requires that all debtors and credi' +
+        'tors be converted to open item account. Do you want to continue?'
     end
     item
       IndexID = 821
       Text = 
         'The payments based method of tax treats tax purely on a cash bas' +
-        'is. Tax is payable to the revenue authorities only when it is re' +
-        'ceived from the customer. Do you wish to continue?'
+        'is. Kodi is payable to the revenue authorities only when it is r' +
+        'eceived from the customer. Do you wish to continue?'
     end
     item
       IndexID = 822
       Text = 
-        'You are running payment based method and the due account cannot ' +
-        'be found! Please run '#39'Setup '#8594' Company info'#39'!'
+        'You are running Payment Based method and the Due Akaunti can not' +
+        ' be found. Please run Kampuni info Andaa.'
     end
     item
       IndexID = 823
@@ -3345,27 +3337,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 824
-      Text = 'Click on [Finish] to execute.'
+      Text = 'Click on Finish to execute.'
     end
     item
       IndexID = 825
-      Text = 'Which Chart of Accounts do you want to use?'
+      Text = 'Which Chart of Akaunti do you want to use'
     end
     item
       IndexID = 826
-      Text = 'Please type in the name of the new Set of Books!'
+      Text = 'Please type in the name of the New Hesabu'
     end
     item
       IndexID = 827
-      Text = 'From journal'
+      Text = 'Kutoka Batch'
     end
     item
       IndexID = 828
-      Text = 'Close'
+      Text = 'Funga'
     end
     item
       IndexID = 829
-      Text = 'You have no right to process!  Access to this process denied!'
+      Text = 'You have no right to process.  Access to this process dinied.'
     end
     item
       IndexID = 830
@@ -3373,11 +3365,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 831
-      Text = 'This account is disabled and cannot be used!'
+      Text = 'This account is disabled and can not be used!'
     end
     item
       IndexID = 832
-      Text = 'Account does not exist! Process cannot be performed!'
+      Text = 'Akaunti does not exist, operation can not be performed.'
     end
     item
       IndexID = 833
@@ -3385,27 +3377,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 834
-      Text = 'Backup / Restore'
+      Text = 'Nakili/Fufua'
     end
     item
       IndexID = 835
-      Text = 'C&lose Set of Books'
+      Text = 'C&lose Hesabu'
     end
     item
       IndexID = 836
-      Text = '&Backup / Restore Set of Books'
+      Text = '&Nakili/Fufua Hesabu'
     end
     item
       IndexID = 837
-      Text = 'Da&ta Re-index'
+      Text = 'Da&ta Re-Index'
     end
     item
       IndexID = 838
-      Text = '&Contacts'
+      Text = '&Mwenye Kuongelewa'
     end
     item
       IndexID = 839
-      Text = '&Estimates'
+      Text = 'Quo&tations'
     end
     item
       IndexID = 840
@@ -3417,23 +3409,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 842
-      Text = '&Income statement'
+      Text = '&Hati ya Mapato'
     end
     item
       IndexID = 843
-      Text = '&Contact listing'
+      Text = '&Mwenye Kuongelewa Orodha'
     end
     item
       IndexID = 844
-      Text = '&Backorders'
+      Text = '&Back-Order'
     end
     item
       IndexID = 845
-      Text = '&Internet'
+      Text = 'Wavut&i'
     end
     item
       IndexID = 846
-      Text = '&Financial categories'
+      Text = '&Financial Categories'
     end
     item
       IndexID = 847
@@ -3441,27 +3433,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 848
-      Text = 'System &parameters'
+      Text = 'Data &Parameters'
     end
     item
       IndexID = 849
-      Text = 'Customize language'
+      Text = 'Customise Lugha'
     end
     item
       IndexID = 850
-      Text = '&Import'
+      Text = '&Leta'
     end
     item
       IndexID = 851
-      Text = 'Show &welcome'
+      Text = 'Onyesha &Welcome'
     end
     item
       IndexID = 852
-      Text = 'Online &registration'
+      Text = 'Kwaline &Registration'
     end
     item
       IndexID = 853
-      Text = 'Online &update'
+      Text = 'Kwaline &Sahihisha'
     end
     item
       IndexID = 854
@@ -3469,47 +3461,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 855
-      Text = 'Salesperson per product'
+      Text = 'Muuzaji kwa Aina ya Bidhaa'
     end
     item
       IndexID = 856
-      Text = 'Salesperson per customer'
+      Text = 'Muuzaji kwa Mteja'
     end
     item
       IndexID = 857
-      Text = 'Product per customer'
+      Text = 'Aina ya Bidhaa kwa Mteja'
     end
     item
       IndexID = 858
-      Text = 'Product per salesperson'
+      Text = 'Aina ya Bidhaa kwa Muuzaji'
     end
     item
       IndexID = 859
-      Text = 'Customer per salesperson'
+      Text = 'Mteja kwa Muuzaji'
     end
     item
       IndexID = 860
-      Text = 'Customer per product'
+      Text = 'Mteja kwa Aina ya Bidhaa'
     end
     item
       IndexID = 861
-      Text = 'Purchases per vendor '
+      Text = 'Ununuzi wa Bidhaa kwa Supplier'
     end
     item
       IndexID = 862
-      Text = 'Purchases per product'
+      Text = 'Ununuzi wa Bidhaa kwa Aina ya Bidhaa'
     end
     item
       IndexID = 863
-      Text = 'Printing options'
+      Text = 'Kuchapisa Options'
     end
     item
       IndexID = 864
-      Text = '&Printer setup'
+      Text = 'Hariri Mtambo&Chapisha'
     end
     item
       IndexID = 865
-      Text = 'Send report to:'
+      Text = 'Tuma Ripoti Hadi:'
     end
     item
       IndexID = 866
@@ -3525,19 +3517,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 869
-      Text = 'Inventory'
+      Text = 'Bidhaa'
     end
     item
       IndexID = 870
-      Text = '&Available fields'
+      Text = '&Available Fields'
     end
     item
       IndexID = 871
-      Text = '&Selected fields'
+      Text = '&Selected Fields'
     end
     item
       IndexID = 872
-      Text = 'Select from:'
+      Text = 'Select Kutoka:'
     end
     item
       IndexID = 873
@@ -3549,15 +3541,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 875
-      Text = 'Financial periods'
+      Text = 'Financial Kipindis'
     end
     item
       IndexID = 876
-      Text = 'Salesperson'
+      Text = 'Muuzaji'
     end
     item
       IndexID = 877
-      Text = 'Set of Books to copy:'
+      Text = 'Hesabu to Copy:'
     end
     item
       IndexID = 879
@@ -3565,31 +3557,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 880
-      Text = 'Files corruption'
+      Text = 'Failis Corruption'
     end
     item
       IndexID = 881
-      Text = 'Balances per period'
+      Text = 'Balances per Kipindi'
     end
     item
       IndexID = 882
-      Text = 'Count accounts and inventory items'
+      Text = 'Count Akaunti and Bidhaas'
     end
     item
       IndexID = 883
-      Text = 'Customers and vendors'
+      Text = 'Wadaiwa and Wadai'
     end
     item
       IndexID = 884
-      Text = 'Outstanding journals and documents'
+      Text = 'Outstanding Batches and Stakabadhi'
     end
     item
       IndexID = 885
-      Text = 'Unposted documents'
+      Text = 'Unposted Stakabadhi'
     end
     item
       IndexID = 886
-      Text = 'Select Set of Books'
+      Text = 'Select Hesabu'
     end
     item
       IndexID = 887
@@ -3597,39 +3589,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 888
-      Text = 'Last year is closed for posting!'
+      Text = 'ya Mwaka Jana is Fungad for posting.'
     end
     item
       IndexID = 889
-      Text = 'This period is closed for posting!'
+      Text = 'This period is Fungad for posting'
     end
     item
       IndexID = 890
-      Text = 'To turn it on, go to '#39'Setup '#8594' Reporting dates'#39
+      Text = 'Hadi turn it on, open Ripotiing Tarehe Options'
     end
     item
       IndexID = 891
-      Text = 'Backup'
+      Text = 'Nakili'
     end
     item
       IndexID = 892
-      Text = 'Restore'
+      Text = 'Fufua'
     end
     item
       IndexID = 893
-      Text = 'Restore from'
+      Text = 'Fufua Kutoka'
     end
     item
       IndexID = 894
-      Text = 'Restore to'
+      Text = 'Fufua Hadi'
     end
     item
       IndexID = 895
-      Text = 'Backup from'
+      Text = 'Nakili Kutoka'
     end
     item
       IndexID = 896
-      Text = 'Backup to'
+      Text = 'Nakili Hadi'
     end
     item
       IndexID = 897
@@ -3637,19 +3629,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 898
-      Text = 'Restore Set of Books'
+      Text = 'Fufua Hesabu'
     end
     item
       IndexID = 899
-      Text = 'Backup Set of Books'
+      Text = 'Nakili Hesabu'
     end
     item
       IndexID = 900
-      Text = 'Backup completed...'
+      Text = 'Nakili completed...'
     end
     item
       IndexID = 901
-      Text = 'The backup process is completed!'
+      Text = 'The backup process is completed'
     end
     item
       IndexID = 902
@@ -3657,15 +3649,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903
-      Text = 'Please insert disk!'
+      Text = 'Please insert disk'
     end
     item
       IndexID = 904
-      Text = 'of the multi-disk Set of Books backup.'
+      Text = 'of the multi-disk Hesabu Nakili.'
     end
     item
       IndexID = 905
-      Text = 'Select backup target'
+      Text = 'Select Nakili target'
     end
     item
       IndexID = 906
@@ -3673,67 +3665,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 908
-      Text = 'The restore process is completed!'
+      Text = 'The Fufua process is completed.'
     end
     item
       IndexID = 909
-      Text = 'Restored'
+      Text = 'Fufuad'
     end
     item
       IndexID = 910
-      Text = 'Insert the last disk of disk set then'
+      Text = 'Insert the last Disk of Disk set then'
     end
     item
       IndexID = 911
-      Text = 'Click on [Yes] to continue or [No] to abort'
+      Text = 'Press Ndio to continue or La to abort'
     end
     item
       IndexID = 912
-      Text = 'Starting backup...'
+      Text = 'Starting Nakili...'
     end
     item
       IndexID = 913
-      Text = 'No valid Set of Books found in:'
+      Text = 'La valid Hesabu found in:'
     end
     item
       IndexID = 914
-      Text = 'Cannot use this drive! Map it and try again...'
+      Text = 'Cannot use this drive. Map it and try again...'
     end
     item
       IndexID = 915
-      Text = 'Cannot run backup...'
+      Text = 'Cannot run Nakili...'
     end
     item
       IndexID = 916
-      Text = 'Backup incompleted...'
+      Text = 'Nakili incompleted...'
     end
     item
       IndexID = 917
-      Text = 'Set of Books - Backup process canceled by user!'
+      Text = 'Hesabu Nakili MchakatoAchaled kwa Mtumiaji'
     end
     item
       IndexID = 918
-      Text = 'Files compressed'
+      Text = 'Failis compressed'
     end
     item
       IndexID = 919
-      Text = 'Process canceled by the user!'
+      Text = 'Operation Achaled kwa the Mtumiaji'
     end
     item
       IndexID = 920
-      Text = 'Starting restore...'
+      Text = 'Starting Fufua...'
     end
     item
       IndexID = 921
-      Text = 'Your Set of Books will be restored in:'
+      Text = 'Your Hesabu will be restored in:'
     end
     item
       IndexID = 922
-      Text = 'Files restored'
+      Text = 'Failis Fufuad'
     end
     item
       IndexID = 923
-      Text = 'Incorrect password!'
+      Text = 'Incorrect Password'
     end
     item
       IndexID = 924
@@ -3741,7 +3733,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 925
-      Text = 'Error: Opening file!'
+      Text = 'Error Funguaing Faili'
     end
     item
       IndexID = 926
@@ -3750,20 +3742,20 @@ object TTranslationSaveObject
     item
       IndexID = 927
       Text = 
-        'This user setting is now turned to administrator user by <@APPNA' +
-        'ME@>!'
+        'This user setting is now turned to administrator user kwa <@APPN' +
+        'AME@>'
     end
     item
       IndexID = 928
-      Text = 'Document entry'
+      Text = 'Document Entry'
     end
     item
       IndexID = 929
-      Text = 'Purchases'
+      Text = 'Ununuzi wa Bidhaa'
     end
     item
       IndexID = 930
-      Text = 'Details'
+      Text = 'Maelezo Kamili'
     end
     item
       IndexID = 931
@@ -3771,11 +3763,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 932
-      Text = 'Clear links'
+      Text = 'Clear Links'
     end
     item
       IndexID = 933
-      Text = 'Generate Balance B/F'
+      Text = 'Gen BB/F'
     end
     item
       IndexID = 934
@@ -3783,15 +3775,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 935
-      Text = 'Total amount'
+      Text = 'Hadital Amount'
     end
     item
       IndexID = 936
-      Text = 'Total outstanding'
+      Text = 'Hadital Outstanding'
     end
     item
       IndexID = 937
-      Text = 'Total ledger'
+      Text = 'Hadital Daftari'
     end
     item
       IndexID = 938
@@ -3803,27 +3795,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 940
-      Text = 'Clear link options'
+      Text = 'Clear Links Options'
     end
     item
       IndexID = 941
-      Text = 'Clear all links'
+      Text = 'Clear all Links'
     end
     item
       IndexID = 942
-      Text = 'Use start date'
+      Text = 'Tumia Start Tarehe'
     end
     item
       IndexID = 943
-      Text = 'By credit dates'
+      Text = 'By Credit Tarehes'
     end
     item
       IndexID = 944
-      Text = 'Search by'
+      Text = 'Search kwa'
     end
     item
       IndexID = 945
-      Text = 'Apply'
+      Text = 'Tumia'
     end
     item
       IndexID = 946
@@ -3839,15 +3831,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 949
-      Text = 'Show statement'
+      Text = 'Onyesha Cheti'
     end
     item
       IndexID = 950
-      Text = 'Reconcile'
+      Text = 'Linganisha'
     end
     item
       IndexID = 951
-      Text = 'UnReconcile'
+      Text = 'UnLinganisha'
     end
     item
       IndexID = 952
@@ -3859,7 +3851,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 954
-      Text = 'Reconciled'
+      Text = 'Linganishad'
     end
     item
       IndexID = 955
@@ -3867,27 +3859,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 956
-      Text = 'Search by reference'
+      Text = 'Search kwa Reference'
     end
     item
       IndexID = 957
-      Text = 'Search by amount'
+      Text = 'Search kwa Amount'
     end
     item
       IndexID = 958
-      Text = 'Search by date'
+      Text = 'Search kwa Tarehe'
     end
     item
       IndexID = 959
-      Text = 'Current bank account'
+      Text = 'Current Akaunti ya Benki'
     end
     item
       IndexID = 960
-      Text = 'Total'
+      Text = 'Hadital'
     end
     item
       IndexID = 961
-      Text = 'Posted'
+      Text = 'Iliyosahihishwa'
     end
     item
       IndexID = 962
@@ -3904,15 +3896,15 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        'Inventory control account or sales account not set up correctly ' +
-        'for this inventory item'
+        'Control ya Bidhaa Akaunti or Akaunti ya Mauzo not set up correct' +
+        'ly for this stock Item'
     end
     item
       IndexID = 966
       Text = 
-        'This document cannot be posted! Please set up correctly Sales ac' +
-        'count, Inventory control account (and Cost of sales account) and' +
-        ' then post it!'
+        'This document can not be posted, Please set up correctly Akaunti' +
+        ' ya Mauzo, Control ya Bidhaa Akaunti (And Cost of Akaunti ya Mau' +
+        'zo) and then Sahihisho it'
     end
     item
       IndexID = 967
@@ -3924,15 +3916,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 969
-      Text = '&Get it online'
+      Text = '&Get it Kwaline'
     end
     item
       IndexID = 970
-      Text = 'Unlocking code (from <@APPNAME@>):'
+      Text = 'Unlocking Code (Kutoka <@APPNAME@>):'
     end
     item
       IndexID = 971
-      Text = 'Serial number:'
+      Text = 'Serial Number:'
     end
     item
       IndexID = 972
@@ -3940,45 +3932,45 @@ object TTranslationSaveObject
     end
     item
       IndexID = 973
-      Text = 'To get your unlocking code or'
+      Text = 'Hadi Get your Unlocking Code or'
     end
     item
       IndexID = 974
-      Text = 'Phone:'
+      Text = 'Simu:'
     end
     item
       IndexID = 975
       Text = 
-        'This copy of <@APPNAME@> is not registered! Do you wish to regis' +
+        'This copy of <@APPNAME@> is not registered. Do you wish to regis' +
         'ter it now?'
     end
     item
       IndexID = 976
-      Text = 'Company name:'
+      Text = 'Kampuni Jina:'
     end
     item
       IndexID = 977
-      Text = 'Purchase analysis'
+      Text = 'Nunuzi Uchambuzi'
     end
     item
       IndexID = 978
-      Text = 'Balance sheet options'
+      Text = 'Hati ya Hazina Options'
     end
     item
       IndexID = 979
-      Text = 'Show decimal'
+      Text = 'Onyesha Decimal'
     end
     item
       IndexID = 980
-      Text = 'Income statement options'
+      Text = 'Income Satement Options'
     end
     item
       IndexID = 981
-      Text = 'Show last year'
+      Text = 'Onyesha ya Mwaka Jana'
     end
     item
       IndexID = 982
-      Text = 'Show variance'
+      Text = 'Onyesha Tofauti'
     end
     item
       IndexID = 983
@@ -3986,7 +3978,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 984
-      Text = 'Delete'
+      Text = 'Futa'
     end
     item
       IndexID = 985
@@ -3994,7 +3986,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 986
-      Text = 'Printer'
+      Text = 'Mtambochapisha'
     end
     item
       IndexID = 987
@@ -4006,71 +3998,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 989
-      Text = 'Auto-select'
+      Text = 'Auto Select'
     end
     item
       IndexID = 990
-      Text = 'Barcode'
+      Text = 'Bar Code'
     end
     item
       IndexID = 991
-      Text = 'Barcode'
+      Text = 'Bar Code'
     end
     item
       IndexID = 992
-      Text = 'Product per customer options'
+      Text = 'Aina ya Bidhaa kwa Mteja Options'
     end
     item
       IndexID = 993
-      Text = 'Product per salesperson options'
+      Text = 'Aina ya Bidhaa kwa Muuzaji Options'
     end
     item
       IndexID = 994
-      Text = 'Customer per salesperson options'
+      Text = 'Mteja kwa Muuzaji Options'
     end
     item
       IndexID = 995
-      Text = 'Customer per product options'
+      Text = 'Mteja kwa Aina ya Bidhaa Options'
     end
     item
       IndexID = 996
-      Text = 'Salesperson per customer options'
+      Text = 'Muuzaji kwa Mteja Options'
     end
     item
       IndexID = 997
-      Text = 'Payments cashbook'
+      Text = 'Malipo Cash book'
     end
     item
       IndexID = 998
-      Text = 'Receipt cashbook'
+      Text = 'Receipt Cash book'
     end
     item
       IndexID = 999
-      Text = 'Inclusive mode'
+      Text = 'Pamoja nausive mode'
     end
     item
       IndexID = 1000
-      Text = 'Balance sheet'
+      Text = 'Hati ya Hazina'
     end
     item
       IndexID = 1001
-      Text = 'Windows default'
+      Text = 'Windows Default'
     end
     item
       IndexID = 1002
-      Text = 'Accounts'
+      Text = 'Akaunti'
     end
     item
       IndexID = 1003
-      Text = 'Select contact'
+      Text = 'Select Mwenye Kuongelewa'
     end
     item
       IndexID = 1004
-      Text = 'Select groups'
+      Text = 'Select Vikundi'
     end
     item
       IndexID = 1005
-      Text = 'Do you want to cancel the year-end process?'
+      Text = 'Do you want to cancel the Mwaka end Process?'
     end
     item
       IndexID = 1006
@@ -4079,24 +4071,24 @@ object TTranslationSaveObject
     item
       IndexID = 1007
       Text = 
-        'This will seriously affect your Set of Books! Are you sure you w' +
-        'ant delete this journal type?'
+        'This will seriously affect your Hesabu. Are you sure you want de' +
+        'lete this Aina ya Bunda?'
     end
     item
       IndexID = 1008
-      Text = 'Sales per product options'
+      Text = 'Mauzo kwa Aina ya Bidhaa Options'
     end
     item
       IndexID = 1009
-      Text = 'Default output'
+      Text = 'Default Output'
     end
     item
       IndexID = 1010
-      Text = 'Company logo'
+      Text = 'Kampuni Logo'
     end
     item
       IndexID = 1011
-      Text = 'Use logo on reports'
+      Text = 'Tumia Picture logo on Ripoti'
     end
     item
       IndexID = 1012
@@ -4108,7 +4100,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1014
-      Text = '&Load from file'
+      Text = '&Load from Faili'
     end
     item
       IndexID = 1015
@@ -4120,23 +4112,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1017
-      Text = '<@APPNAME@> - Load logo'
+      Text = '<@APPNAME@> - Load Picture'
     end
     item
       IndexID = 1018
-      Text = 'Delete estimates'
+      Text = 'Futa Kimo cha Beis'
     end
     item
       IndexID = 1019
-      Text = 'Delete orders'
+      Text = 'Futa Orders'
     end
     item
       IndexID = 1020
-      Text = 'Print standard logo'
+      Text = 'Chapisha standard logo'
     end
     item
       IndexID = 1021
-      Text = 'Trial balance'
+      Text = 'Urari wa Hesabu'
     end
     item
       IndexID = 1022
@@ -4144,7 +4136,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1023
-      Text = 'Net profit'
+      Text = 'Net Profit'
     end
     item
       IndexID = 1024
@@ -4152,11 +4144,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1025
-      Text = 'Net loss'
+      Text = 'Net Loss'
     end
     item
       IndexID = 1026
-      Text = 'Total for'
+      Text = 'Hadital for'
     end
     item
       IndexID = 1027
@@ -4168,91 +4160,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1029
-      Text = '&Re-run'
+      Text = '&Re Run'
     end
     item
       IndexID = 1030
-      Text = 'C&ash flow'
+      Text = 'C&ash Flow'
     end
     item
       IndexID = 1033
-      Text = 'Vendor age analysis options'
+      Text = 'Mdai Uzee wa Madeni Options'
     end
     item
       IndexID = 1034
-      Text = 'Ledger options'
+      Text = 'Daftari Options'
     end
     item
       IndexID = 1035
-      Text = 'Each period separately'
+      Text = 'Kila Kipindi Mbali'
     end
     item
       IndexID = 1036
-      Text = 'New page per account'
+      Text = 'New page per account ?'
     end
     item
       IndexID = 1037
-      Text = 'Date of report'
+      Text = 'Tarehe of Ripoti'
     end
     item
       IndexID = 1039
-      Text = 'Select report'
+      Text = 'Select Ripoti'
     end
     item
       IndexID = 1040
-      Text = 'Show lines'
+      Text = 'Onyesha Lines'
     end
     item
       IndexID = 1041
-      Text = 'Spec file'
+      Text = 'Spec Faili'
     end
     item
       IndexID = 1042
-      Text = 'Labels report options'
+      Text = 'Vibandiko Ripoti Options'
     end
     item
       IndexID = 1043
-      Text = 'Customer listing options'
+      Text = 'Mdaiwa Orodha Options'
     end
     item
       IndexID = 1044
-      Text = 'Vendor listing options'
+      Text = 'Mdai Orodha Options'
     end
     item
       IndexID = 1045
-      Text = 'Cash flow options'
+      Text = 'Cash Flow Options'
     end
     item
       IndexID = 1046
-      Text = 'Periods'
+      Text = 'Kipindis'
     end
     item
       IndexID = 1047
-      Text = 'From bank account'
+      Text = 'Kutoka Bank Acc.'
     end
     item
       IndexID = 1048
-      Text = 'Include petty cash'
+      Text = 'Ikiwemo Petty Cash'
     end
     item
       IndexID = 1049
-      Text = 'Set of Books name cannot be blank!'
+      Text = 'Hesabu name can not be blank'
     end
     item
       IndexID = 1050
-      Text = 'Default zoom preview'
+      Text = 'Default Zoom Preview'
     end
     item
       IndexID = 1051
-      Text = 'Salesperson per product options'
+      Text = 'Muuzaji kwa Aina ya Bidhaa Options'
     end
     item
       IndexID = 1052
-      Text = 'Purge list'
+      Text = 'Purge List'
     end
     item
       IndexID = 1053
-      Text = 'Select '#39'Setup '#8594' Company info'#39' you want to change!'
+      Text = 'Select Kampuni setup options you want to change'
     end
     item
       IndexID = 1054
@@ -4260,33 +4252,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1055
-      Text = 'Do you want to delete the salesperson?'
+      Text = 'Do you want to delete the sales person'
     end
     item
       IndexID = 1056
-      Text = 'All selling prices'
+      Text = 'All Bei ya Kuuzas'
     end
     item
       IndexID = 1057
-      Text = 'None'
+      Text = 'Lane'
     end
     item
       IndexID = 1058
-      Text = 'Inventory description'
+      Text = 'Bidhaa Elezo'
     end
     item
       IndexID = 1059
-      Text = 'Cannot run a report twice! The first report is running!'
+      Text = 'Can not run twice a Ripoti, the first report is running'
     end
     item
       IndexID = 1060
       Text = 
-        'Your Set of Books is corrupted! Run Data Re-index to rebuild key' +
-        ' values.'
+        'Your Hesabu is corrupted, Run Data Re-index to rebuild key value' +
+        's'
     end
     item
       IndexID = 1063
-      Text = 'Select spreadsheet inventory file'
+      Text = 'Select Lotus SpreadSheet Bidhaa file'
     end
     item
       IndexID = 1064
@@ -4294,11 +4286,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1065
-      Text = 'Contact name'
+      Text = 'Mwenye Kuongelewa Jina'
     end
     item
       IndexID = 1066
-      Text = 'Opening balances'
+      Text = 'Funguaing Balance'
     end
     item
       IndexID = 1067
@@ -4306,11 +4298,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1068
-      Text = 'Select type'
+      Text = 'Select Type'
     end
     item
       IndexID = 1069
-      Text = 'From ... to'
+      Text = 'Kutoka ... Hadi'
     end
     item
       IndexID = 1070
@@ -4318,31 +4310,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1071
-      Text = 'Journals'
+      Text = 'Batches'
     end
     item
       IndexID = 1072
-      Text = 'User'
+      Text = 'Mtumiaji'
     end
     item
       IndexID = 1073
-      Text = 'Online'
+      Text = 'Kwaline'
     end
     item
       IndexID = 1074
-      Text = 'Update journals'
+      Text = 'Sahihisha Batches'
     end
     item
       IndexID = 1076
-      Text = 'Show inventory groups'
+      Text = 'Onyesha Bidhaa Vikundi'
     end
     item
       IndexID = 1077
-      Text = 'Purchases per product options'
+      Text = 'Ununuzi wa Bidhaa kwa Aina ya Bidhaa Options'
     end
     item
       IndexID = 1078
-      Text = 'Purchases per vendor options'
+      Text = 'Ununuzi wa Bidhaa kwa Supplier Options'
     end
     item
       IndexID = 1079
@@ -4350,47 +4342,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1080
-      Text = 'Use'
+      Text = 'Tumia'
     end
     item
       IndexID = 1081
-      Text = 'Cost of sales account'
+      Text = 'Cost of Akaunti ya Mauzo'
     end
     item
       IndexID = 1082
-      Text = 'Reorder options'
+      Text = 'Re-Order Options'
     end
     item
       IndexID = 1083
-      Text = 'Backorder options'
+      Text = 'Back Order Options'
     end
     item
       IndexID = 1084
-      Text = 'Show all items'
+      Text = 'Onyesha all items'
     end
     item
       IndexID = 1085
-      Text = 'New page per item'
+      Text = 'New page per Item ?'
     end
     item
       IndexID = 1086
-      Text = 'Delivery note options'
+      Text = 'Delivery Late Options'
     end
     item
       IndexID = 1087
-      Text = 'Document type'
+      Text = 'Document Type'
     end
     item
       IndexID = 1088
-      Text = 'Last year only'
+      Text = 'ya Mwaka Jana Pekee'
     end
     item
       IndexID = 1089
-      Text = 'Remittance advice'
+      Text = 'Remittance Advise'
     end
     item
       IndexID = 1090
-      Text = 'Customer statement'
+      Text = 'Mdaiwa Vyeti'
     end
     item
       IndexID = 1091
@@ -4398,7 +4390,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1092
-      Text = 'Calculator'
+      Text = 'Kikokotoo'
     end
     item
       IndexID = 1093
@@ -4406,19 +4398,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1094
-      Text = 'Transfer'
+      Text = 'Hawilisha'
     end
     item
       IndexID = 1095
-      Text = 'Print documents'
+      Text = 'Chapisha Stakabadhi'
     end
     item
       IndexID = 1096
-      Text = 'UnPrinted'
+      Text = 'UnChapishaed'
     end
     item
       IndexID = 1097
-      Text = 'Unposted'
+      Text = 'UnIliyosahihishwa'
     end
     item
       IndexID = 1098
@@ -4434,27 +4426,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1101
-      Text = 'UnReconcile options'
+      Text = 'UnLinganisha Options'
     end
     item
       IndexID = 1102
-      Text = 'UnReconcile by date'
+      Text = 'UnLinganisha kwa date'
     end
     item
       IndexID = 1103
-      Text = 'UnReconcile by reference'
+      Text = 'UnLinganisha kwa reference'
     end
     item
       IndexID = 1104
-      Text = 'Reconcile options'
+      Text = 'Linganisha Options'
     end
     item
       IndexID = 1105
-      Text = 'Reconcile by date'
+      Text = 'Linganisha kwa date'
     end
     item
       IndexID = 1106
-      Text = 'Reconcile by reference'
+      Text = 'Linganisha kwa reference'
     end
     item
       IndexID = 1107
@@ -4462,19 +4454,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1108
-      Text = 'Account description'
+      Text = 'Akaunti Elezo'
     end
     item
       IndexID = 1109
-      Text = 'Account type'
+      Text = 'Akaunti Type'
     end
     item
       IndexID = 1110
-      Text = 'Invoice based'
+      Text = 'Ankra Based'
     end
     item
       IndexID = 1111
-      Text = 'Payments based'
+      Text = 'Malipo Based'
     end
     item
       IndexID = 1112
@@ -4494,7 +4486,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1116
-      Text = 'Forty'
+      Text = 'Arobaini'
     end
     item
       IndexID = 1117
@@ -4502,33 +4494,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1118
-      Text = 'Show contactperson'
+      Text = 'Onyesha Mwenye Kuongelewa'
     end
     item
       IndexID = 1119
-      Text = 'From list'
+      Text = 'Kutoka List'
     end
     item
       IndexID = 1120
-      Text = 'Document no.'
+      Text = 'Document Number'
     end
     item
       IndexID = 1121
-      Text = 'Document date'
+      Text = 'Document Tarehe'
     end
     item
       IndexID = 1122
-      Text = '"Price Name",Value'
+      Text = '"Price Jina",Value'
     end
     item
       IndexID = 1123
-      Text = 'deleted!'
+      Text = 'Futad'
     end
     item
       IndexID = 1124
       Text = 
-        'Missing or corrupted customers and vendors control accounts! Ple' +
-        'ase contact <@APPNAME@> for support!'
+        'Missing or Corrupted Wadaiwa and Wadai Control Akaunti, Please M' +
+        'wenye Kuongelewa <@APPNAME@> for Fundi.'
     end
     item
       IndexID = 1125
@@ -4544,15 +4536,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1128
-      Text = 'Statement to'
+      Text = 'Cheti to'
     end
     item
       IndexID = 1129
-      Text = 'Remittance advice to'
+      Text = 'Remittance Advice to'
     end
     item
       IndexID = 1130
-      Text = 'Customer tax ref.'
+      Text = 'Mteja Kodi Ref.'
     end
     item
       IndexID = 1131
@@ -4564,7 +4556,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1133
-      Text = 'Invoice accepted'
+      Text = 'Ankra Accepted'
     end
     item
       IndexID = 1134
@@ -4572,19 +4564,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'ST registration'
+      Text = 'VAT Registration'
     end
     item
       IndexID = 1136
-      Text = 'Amount exclusive'
+      Text = 'Amount Kwadoausive'
     end
     item
       IndexID = 1137
-      Text = 'Amount inclusive'
+      Text = 'Amount Pamoja nausive'
     end
     item
       IndexID = 1138
-      Text = 'Tax amount'
+      Text = 'Kodi Amount'
     end
     item
       IndexID = 1139
@@ -4600,7 +4592,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1142
-      Text = 'Inventory item description'
+      Text = 'Bidhaas Elezo'
     end
     item
       IndexID = 1143
@@ -4608,31 +4600,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1144
-      Text = 'Vendor address'
+      Text = 'Supplier Anwani'
     end
     item
       IndexID = 1145
-      Text = 'Invoice address'
+      Text = 'Ankra Anwani'
     end
     item
       IndexID = 1146
-      Text = 'Credit note accepted'
+      Text = 'Credit Late Accepted'
     end
     item
       IndexID = 1147
-      Text = 'Purchase document accepted'
+      Text = 'GRV Accepted'
     end
     item
       IndexID = 1148
-      Text = 'Estimate accepted'
+      Text = 'Kimo cha Bei Accepted'
     end
     item
       IndexID = 1149
-      Text = 'Order accepted'
+      Text = 'Order Accepted'
     end
     item
       IndexID = 1150
-      Text = 'Delivery note accepted'
+      Text = 'Delivery Late Accepted'
     end
     item
       IndexID = 1151
@@ -4640,7 +4632,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1152
-      Text = 'Total Assets'
+      Text = 'Hadital Assets'
     end
     item
       IndexID = 1153
@@ -4648,11 +4640,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1154
-      Text = 'Total Capital and Liabilities'
+      Text = 'Hadital Capital and Liabilities'
     end
     item
       IndexID = 1155
-      Text = 'Total Net Profit/Loss'
+      Text = 'Hadital Net Profit/Loss'
     end
     item
       IndexID = 1156
@@ -4664,11 +4656,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1158
-      Text = 'Income and expense report'
+      Text = 'Income and Expense Ripoti'
     end
     item
       IndexID = 1159
-      Text = 'Variance'
+      Text = 'Tofauti'
     end
     item
       IndexID = 1160
@@ -4676,13 +4668,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1161
-      Text = 'Search stopped! Limit reached!'
+      Text = 'Search stopped, limit reached.'
     end
     item
       IndexID = 1162
       Text = 
-        'Today'#39's date is beyond your financial period. You should run you' +
-        'r year end to process to this date!'
+        'Hadiday'#39's Tarehe is beyond your financial period, you should run' +
+        ' your Mwaka end to process to this date'
     end
     item
       IndexID = 1163
@@ -4690,7 +4682,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1164
-      Text = '&Customer'
+      Text = '&Mteja'
     end
     item
       IndexID = 1165
@@ -4702,7 +4694,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1167
-      Text = '&Delete all'
+      Text = '&Futa All'
     end
     item
       IndexID = 1168
@@ -4710,7 +4702,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1169
-      Text = 'Cash in drawer'
+      Text = 'Cash in Drawer'
     end
     item
       IndexID = 1170
@@ -4718,11 +4710,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1171
-      Text = 'Float in/out'
+      Text = 'Float In/Out'
     end
     item
       IndexID = 1172
-      Text = 'Checks'
+      Text = 'Cheques'
     end
     item
       IndexID = 1173
@@ -4730,23 +4722,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1174
-      Text = 'POS Access control'
+      Text = 'POS Dhibiti Fikio'
     end
     item
       IndexID = 1175
-      Text = 'Point-of-Sale login'
+      Text = 'Point Of Sale Login'
     end
     item
       IndexID = 1176
-      Text = 'Cashier name'
+      Text = 'Cashier Jina'
     end
     item
       IndexID = 1177
-      Text = '(Saleperson name)'
+      Text = '(Saleperson Jina)'
     end
     item
       IndexID = 1178
-      Text = 'Remember my login'
+      Text = 'Remember my Login'
     end
     item
       IndexID = 1179
@@ -4754,35 +4746,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1180
-      Text = 'Abbreviation list'
+      Text = 'Abreviation List'
     end
     item
       IndexID = 1181
-      Text = 'Customer movement'
+      Text = 'Mdaiwa Mabadiliko'
     end
     item
       IndexID = 1182
-      Text = 'Vendor movement'
+      Text = 'Mdai Mabadiliko'
     end
     item
       IndexID = 1183
-      Text = 'Account movement'
+      Text = 'Akaunti Mabadiliko'
     end
     item
       IndexID = 1184
-      Text = 'Budget performance'
+      Text = 'Budget Performance'
     end
     item
       IndexID = 1185
-      Text = 'Variance amount'
+      Text = 'Tofauti Amount'
     end
     item
       IndexID = 1186
-      Text = 'Variance percentage'
+      Text = 'Tofauti Asili Mia'
     end
     item
       IndexID = 1187
-      Text = 'Retained income'
+      Text = 'Retained Income'
     end
     item
       IndexID = 1188
@@ -4790,31 +4782,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1189
-      Text = 'List of accounts'
+      Text = 'List of Akaunti'
     end
     item
       IndexID = 1190
-      Text = 'Items on backorder'
+      Text = 'Items on Back Order'
     end
     item
       IndexID = 1191
-      Text = 'Backorders'
+      Text = 'BackOrders Outatanding'
     end
     item
       IndexID = 1192
-      Text = 'Totals for each period'
+      Text = 'Haditals for each Kipindi'
     end
     item
       IndexID = 1193
-      Text = 'To balance'
+      Text = 'Hadi Balance'
     end
     item
       IndexID = 1194
-      Text = 'Journal entry details'
+      Text = 'Batch entry details'
     end
     item
       IndexID = 1195
-      Text = 'Inclusive'
+      Text = 'Pamoja nausive'
     end
     item
       IndexID = 1196
@@ -4822,7 +4814,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1197
-      Text = '<@APPNAME@> Support'
+      Text = '<@APPNAME@> Fundi'
     end
     item
       IndexID = 1198
@@ -4830,19 +4822,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1199
-      Text = 'Journal type details report'
+      Text = 'Aina ya Bunda Maelezo Kamili Ripoti'
     end
     item
       IndexID = 1200
-      Text = 'Excl. amt.'
+      Text = 'Kwadoa. Amt'
     end
     item
       IndexID = 1201
-      Text = 'Incl. amt.'
+      Text = 'Pamoja na. Amt'
     end
     item
       IndexID = 1202
-      Text = 'Total:'
+      Text = 'Hadital:'
     end
     item
       IndexID = 1203
@@ -4854,15 +4846,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1205
-      Text = 'Seach for'
+      Text = 'Seach For'
     end
     item
       IndexID = 1206
-      Text = 'Search now'
+      Text = 'Search Law'
     end
     item
       IndexID = 1207
-      Text = 'Advanced options'
+      Text = 'Advanced Options'
     end
     item
       IndexID = 1208
@@ -4870,7 +4862,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1209
-      Text = 'Refine search'
+      Text = 'Refine Search'
     end
     item
       IndexID = 1210
@@ -4880,20 +4872,20 @@ object TTranslationSaveObject
       IndexID = 1211
       Text = 
         'Type in what you are looking for if want to look a specific type' +
-        ' check the corresponding button or click down here to refine you' +
-        'r search.'
+        ' check the corresponding button or Click down here to refine you' +
+        'r serach'
     end
     item
       IndexID = 1212
-      Text = 'Search tip'
+      Text = 'Search Tip'
     end
     item
       IndexID = 1213
-      Text = 'Account information'
+      Text = 'Akaunti Information'
     end
     item
       IndexID = 1214
-      Text = 'Case sensitive'
+      Text = 'Case Sensitive'
     end
     item
       IndexID = 1215
@@ -4913,11 +4905,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1219
-      Text = 'Search options'
+      Text = 'Search Options'
     end
     item
       IndexID = 1220
-      Text = 'Account names'
+      Text = 'Akaunti Majina'
     end
     item
       IndexID = 1221
@@ -4925,79 +4917,79 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1222
-      Text = 'Select customer'
+      Text = 'Select Mdaiwa'
     end
     item
       IndexID = 1223
-      Text = 'Estimate to convert to invoice'
+      Text = 'Kimo cha Beis to Convert to Ankra'
     end
     item
       IndexID = 1224
-      Text = 'Order no.'
+      Text = 'Order La'
     end
     item
       IndexID = 1225
-      Text = 'Order to convert to purchase'
+      Text = 'Order to Convert to Nunuzi'
     end
     item
       IndexID = 1226
-      Text = 'Select vendor'
+      Text = 'Select Mdai'
     end
     item
       IndexID = 1227
-      Text = 'Search by number'
+      Text = 'Search By Number'
     end
     item
       IndexID = 1228
-      Text = 'Search by account'
+      Text = 'Search By Akaunti'
     end
     item
       IndexID = 1229
-      Text = 'Search by description'
+      Text = 'Search By Elezo'
     end
     item
       IndexID = 1230
-      Text = 'CASH flow'
+      Text = 'CASH Flow'
     end
     item
       IndexID = 1231
-      Text = 'Opening BANK balance'
+      Text = 'Funguaing BANK Balance'
     end
     item
       IndexID = 1232
-      Text = 'Net cash flow'
+      Text = 'Net Cash Flow'
     end
     item
       IndexID = 1233
-      Text = 'Total bank balance'
+      Text = 'Hadital Bank Balance'
     end
     item
       IndexID = 1234
-      Text = 'Opening petty cash balance'
+      Text = 'Funguaing Petty Cash Balance'
     end
     item
       IndexID = 1235
-      Text = 'Petty cash in'
+      Text = 'Petty Cash In'
     end
     item
       IndexID = 1236
-      Text = 'Petty cash out'
+      Text = 'Petty Cash Out'
     end
     item
       IndexID = 1237
-      Text = 'Net petty cash flow'
+      Text = 'Net Petty Cash Flow'
     end
     item
       IndexID = 1238
-      Text = 'Total petty cash'
+      Text = 'Hadital Petty Cash'
     end
     item
       IndexID = 1239
-      Text = 'Total cash flow'
+      Text = 'Hadital Cash Flow'
     end
     item
       IndexID = 1240
-      Text = 'Funds available'
+      Text = 'Funds Available'
     end
     item
       IndexID = 1241
@@ -5009,7 +5001,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1243
-      Text = 'Point-of-Sale cash-up check'
+      Text = 'Point of Mauzo Cash up Check'
     end
     item
       IndexID = 1244
@@ -5021,15 +5013,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1246
-      Text = 'Cashed up (in the drawer)'
+      Text = 'Cashed up (In the Drawer)'
     end
     item
       IndexID = 1247
-      Text = 'Summary'
+      Text = 'Muhtasari'
     end
     item
       IndexID = 1248
-      Text = 'Checking unposted items'
+      Text = 'Checking unposted Items'
     end
     item
       IndexID = 1249
@@ -5041,19 +5033,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1251
-      Text = 'Contact listing'
+      Text = 'Mwenye Kuongelewa Orodha'
     end
     item
       IndexID = 1252
-      Text = 'Telephone 1'
+      Text = 'Simu 1'
     end
     item
       IndexID = 1253
-      Text = 'Telephone 2'
+      Text = 'Simu 2'
     end
     item
       IndexID = 1254
-      Text = 'E-mail address'
+      Text = 'Email Anwani'
     end
     item
       IndexID = 1255
@@ -5065,27 +5057,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1257
-      Text = 'Real numbers'
+      Text = 'Real Numbers'
     end
     item
       IndexID = 1258
-      Text = 'Fix decimals'
+      Text = 'Fix Decimals'
     end
     item
       IndexID = 1259
-      Text = 'Document quantity'
+      Text = 'Document Quantity'
     end
     item
       IndexID = 1260
-      Text = 'Reporting decimals'
+      Text = 'Ripotiing Decimals'
     end
     item
       IndexID = 1261
-      Text = 'Data storage'
+      Text = 'Data Storage'
     end
     item
       IndexID = 1262
-      Text = 'Report amounts with'
+      Text = 'Ripoti amounts with'
     end
     item
       IndexID = 1263
@@ -5097,47 +5089,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1265
-      Text = 'T-Account viewer'
+      Text = 'T-Akaunti Kionyesha'
     end
     item
       IndexID = 1266
-      Text = 'Point-of-Sale'
+      Text = 'Point- of-Sale'
     end
     item
       IndexID = 1267
-      Text = '&Script engine'
+      Text = '&Script Engine'
     end
     item
       IndexID = 1268
-      Text = 'Sales documents'
+      Text = 'Mauzo Stakabadhi'
     end
     item
       IndexID = 1269
-      Text = 'Purchase documents'
+      Text = 'Nunuzi Stakabadhi'
     end
     item
       IndexID = 1270
-      Text = 'POS Invoice'
+      Text = 'POS Ankra'
     end
     item
       IndexID = 1271
-      Text = 'Enter amount to link'
+      Text = 'Timiza amount to link'
     end
     item
       IndexID = 1272
-      Text = 'Enter amount'
+      Text = 'Timiza Amount'
     end
     item
       IndexID = 1273
-      Text = 'Receipt number'
+      Text = 'Receipt Number'
     end
     item
       IndexID = 1274
-      Text = 'Issued by'
+      Text = 'Issued kwa'
     end
     item
       IndexID = 1275
-      Text = 'Payment method'
+      Text = 'Payment Method'
     end
     item
       IndexID = 1276
@@ -5149,11 +5141,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1278
-      Text = 'Open item selection'
+      Text = 'Ingizo Wazi Selection'
     end
     item
       IndexID = 1279
-      Text = 'Payment reference'
+      Text = 'Pmt Reference'
     end
     item
       IndexID = 1280
@@ -5161,19 +5153,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1281
-      Text = 'Customer transactions'
+      Text = 'Wadaiwa Timilizo'
     end
     item
       IndexID = 1282
-      Text = 'Detailed ledger'
+      Text = 'Detailed Daftari'
     end
     item
       IndexID = 1283
-      Text = 'Vendor transactions'
+      Text = 'Mdai Timilizo'
     end
     item
       IndexID = 1284
-      Text = 'Report range'
+      Text = 'Ripoti Range'
     end
     item
       IndexID = 1285
@@ -5181,7 +5173,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1286
-      Text = 'Cumulative balance'
+      Text = 'Cumulative Balance'
     end
     item
       IndexID = 1287
@@ -5189,15 +5181,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1288
-      Text = 'Opening balance at'
+      Text = 'Funguaing Balance at'
     end
     item
       IndexID = 1289
-      Text = 'Closing balance at'
+      Text = 'Closing Balance at'
     end
     item
       IndexID = 1290
-      Text = 'Accumulative total'
+      Text = 'Accumulative Hadital'
     end
     item
       IndexID = 1291
@@ -5205,7 +5197,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = 'Select Set of Books to rebuild'
+      Text = 'Select Hesabu to Rebuild'
     end
     item
       IndexID = 1293
@@ -5229,15 +5221,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1298
-      Text = 'All users must logout before running this process!'
+      Text = 'All Mtumiajis must logout before running this process'
     end
     item
       IndexID = 1299
-      Text = 'Waiting to run...'
+      Text = 'Waiting to run ...'
     end
     item
       IndexID = 1300
-      Text = 'Re-building keys'
+      Text = 'Re-Building Keys'
     end
     item
       IndexID = 1301
@@ -5245,7 +5237,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1302
-      Text = 'Key values'
+      Text = 'Key Values'
     end
     item
       IndexID = 1303
@@ -5253,7 +5245,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1304
-      Text = 'Checked OK file(s)'
+      Text = 'Checked Sawa file(s)'
     end
     item
       IndexID = 1305
@@ -5261,23 +5253,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1306
-      Text = 'Transaction date/period rebuilt'
+      Text = 'Transaction Tarehe/Kipindi Rebuiled'
     end
     item
       IndexID = 1307
-      Text = 'Transaction date/period failed! Try again!'
+      Text = 'Transaction Tarehe/Kipindi failed. Try again.'
     end
     item
       IndexID = 1308
-      Text = 'Loading Message.db records'
+      Text = 'Loading Ujumbe.db records'
     end
     item
       IndexID = 1309
-      Text = 'Compressing Message.db...'
+      Text = 'Compressing Ujumbe.db'
     end
     item
       IndexID = 1310
-      Text = 'Error: Filling table structure!'
+      Text = 'Error Filling table structure'
     end
     item
       IndexID = 1311
@@ -5285,27 +5277,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1312
-      Text = 'Get date report value'
+      Text = 'Get Tarehe Ripoti Value'
     end
     item
       IndexID = 1313
-      Text = 'Delivery note'
+      Text = 'Delivery Late'
     end
     item
       IndexID = 1314
-      Text = 'Receipt options'
+      Text = 'Hariri Upokezi Options'
     end
     item
       IndexID = 1315
-      Text = 'Print out'
+      Text = 'Chapisha out'
     end
     item
       IndexID = 1316
-      Text = 'List of customer accounts'
+      Text = 'List of Mdaiwa Akaunti'
     end
     item
       IndexID = 1317
-      Text = 'List of vendor accounts'
+      Text = 'List of Mdai Akaunti'
     end
     item
       IndexID = 1318
@@ -5313,11 +5305,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1319
-      Text = 'Telephone'
+      Text = 'Simu'
     end
     item
       IndexID = 1320
-      Text = 'Open item'
+      Text = 'Ingizo Wazi'
     end
     item
       IndexID = 1321
@@ -5325,35 +5317,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1322
-      Text = 'Enabled'
+      Text = 'Wezeshad'
     end
     item
       IndexID = 1323
-      Text = 'Reporting group 1'
+      Text = 'Ripotiing Kikundi 1'
     end
     item
       IndexID = 1324
-      Text = 'Age type'
+      Text = 'Age Type'
     end
     item
       IndexID = 1325
-      Text = 'Reporting group 2'
+      Text = 'Ripotiing Kikundi 2'
     end
     item
       IndexID = 1326
-      Text = 'Salesperson'
+      Text = 'Muuzaji'
     end
     item
       IndexID = 1327
-      Text = 'Contact'
+      Text = 'Mwenye Kuongelewa'
     end
     item
       IndexID = 1328
-      Text = 'Monthly interest'
+      Text = 'Monthly Interest'
     end
     item
       IndexID = 1329
-      Text = 'Report type'
+      Text = 'Ripoti Type'
     end
     item
       IndexID = 1330
@@ -5361,11 +5353,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1331
-      Text = 'Paper size'
+      Text = 'Paper Size'
     end
     item
       IndexID = 1332
-      Text = 'Paper quality'
+      Text = 'Paper Quality'
     end
     item
       IndexID = 1333
@@ -5377,7 +5369,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1335
-      Text = 'Top'
+      Text = 'Hadip'
     end
     item
       IndexID = 1336
@@ -5421,11 +5413,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1346
-      Text = 'Customer'
+      Text = 'Mteja'
     end
     item
       IndexID = 1347
-      Text = 'Select customer'
+      Text = 'Select Mteja'
     end
     item
       IndexID = 1348
@@ -5437,47 +5429,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1350
-      Text = 'Charge to account'
+      Text = 'Charge to Akaunti'
     end
     item
       IndexID = 1351
-      Text = 'Bank account code'
+      Text = 'Akaunti ya Benki Code'
     end
     item
       IndexID = 1352
-      Text = 'Check number'
+      Text = 'Cheque Number'
     end
     item
       IndexID = 1353
-      Text = 'Card number'
+      Text = 'Card Number'
     end
     item
       IndexID = 1354
-      Text = 'Holder'#39's name'
+      Text = 'Holder Jina'
     end
     item
       IndexID = 1355
-      Text = 'Card type'
+      Text = 'Card Type'
     end
     item
       IndexID = 1356
-      Text = 'Expiry date'
+      Text = 'Expire Tarehe'
     end
     item
       IndexID = 1357
-      Text = 'POS Sales analysis'
+      Text = 'POS Mauzo Uchambuzi'
     end
     item
       IndexID = 1358
-      Text = 'Item description'
+      Text = 'Item Elezo'
     end
     item
       IndexID = 1359
-      Text = 'Sales amount'
+      Text = 'Mauzo Amount'
     end
     item
       IndexID = 1360
-      Text = 'Totals'
+      Text = 'Haditals'
     end
     item
       IndexID = 1361
@@ -5485,23 +5477,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1362
-      Text = 'Edit price'
+      Text = 'Hariri Price'
     end
     item
       IndexID = 1363
-      Text = 'Use serial number tracking'
+      Text = 'Tumia Serial number Tracking'
     end
     item
       IndexID = 1364
-      Text = 'Default payment method'
+      Text = 'Default Payment Method'
     end
     item
       IndexID = 1365
-      Text = 'Float limit'
+      Text = 'Float Limit'
     end
     item
       IndexID = 1366
-      Text = 'Allow cash float'
+      Text = 'Allow Cash Float'
     end
     item
       IndexID = 1367
@@ -5521,75 +5513,75 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1371
-      Text = 'Entry screen'
+      Text = 'Entry Screen'
     end
     item
       IndexID = 1372
-      Text = 'Ledger'
+      Text = 'Daftari'
     end
     item
       IndexID = 1373
-      Text = 'Print customer details'
+      Text = 'Chapisha Mteja Maelezo Kamili'
     end
     item
       IndexID = 1374
-      Text = 'Print delivery address'
+      Text = 'Chapisha Kifiko cha Uletaji'
     end
     item
       IndexID = 1375
-      Text = 'Print payment details'
+      Text = 'Chapisha Payment Maelezo Kamili'
     end
     item
       IndexID = 1376
-      Text = 'Sales journal entry'
+      Text = 'Mauzo Bunda la Ingizo'
     end
     item
       IndexID = 1377
-      Text = 'Receipts journal entry'
+      Text = 'Upokezi Bunda la Ingizo'
     end
     item
       IndexID = 1378
-      Text = 'Payment description entry'
+      Text = 'Payment Elezo Entry'
     end
     item
       IndexID = 1379
-      Text = 'Cash sales account'
+      Text = 'Cash Akaunti ya Mauzo'
     end
     item
       IndexID = 1380
-      Text = 'Cash transfer account'
+      Text = 'Cash Hawilisha Akaunti'
     end
     item
       IndexID = 1381
-      Text = 'Till account'
+      Text = 'Till Akaunti'
     end
     item
       IndexID = 1382
-      Text = 'Max cash in till'
+      Text = 'Max Cash in Till'
     end
     item
       IndexID = 1383
-      Text = 'Next number'
+      Text = 'Next Number'
     end
     item
       IndexID = 1384
-      Text = '&Use POS messages'
+      Text = '&Tumia POS Ujumbes'
     end
     item
       IndexID = 1385
-      Text = 'Drawer connected'
+      Text = 'Drawer Connected'
     end
     item
       IndexID = 1386
-      Text = 'Barcode scanner connected'
+      Text = 'Barcode Scanner Connected'
     end
     item
       IndexID = 1387
-      Text = '&Test drawer'
+      Text = '&Test Drawer'
     end
     item
       IndexID = 1388
-      Text = 'Serial port parameters'
+      Text = 'Serial Port Parameters'
     end
     item
       IndexID = 1389
@@ -5597,27 +5589,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1390
-      Text = 'Open cash drawer for'
+      Text = 'Fungua Cash Drawer For'
     end
     item
       IndexID = 1391
-      Text = 'Parallel port'
+      Text = 'Parallel Port'
     end
     item
       IndexID = 1392
-      Text = 'Serial port'
+      Text = 'Serial Port'
     end
     item
       IndexID = 1393
-      Text = 'Baud rate'
+      Text = 'Baud Rate'
     end
     item
       IndexID = 1394
-      Text = 'Data bits'
+      Text = 'Data Bits'
     end
     item
       IndexID = 1395
-      Text = 'Stop bits'
+      Text = 'Stop Bits'
     end
     item
       IndexID = 1396
@@ -5625,35 +5617,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1397
-      Text = 'Port number'
+      Text = 'Port Number'
     end
     item
       IndexID = 1398
-      Text = 'Confirm printing'
+      Text = 'Comfirm Kuchapisa'
     end
     item
       IndexID = 1399
-      Text = 'Use first printer'
+      Text = 'Tumia First Mtambochapisha'
     end
     item
       IndexID = 1400
-      Text = 'Use second printer'
+      Text = 'Tumia Second Mtambochapisha'
     end
     item
       IndexID = 1401
-      Text = 'Second printer'
+      Text = 'Second Mtambochapisha'
     end
     item
       IndexID = 1402
-      Text = 'First printer'
+      Text = 'First Mtambochapisha'
     end
     item
       IndexID = 1403
-      Text = '&Test printers'
+      Text = '&Test Mtambochapishas'
     end
     item
       IndexID = 1404
-      Text = 'Printer control code'
+      Text = 'Mtambochapisha Control Code'
     end
     item
       IndexID = 1405
@@ -5661,91 +5653,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1406
-      Text = 'Enter your password'
+      Text = 'Timiza your Password'
     end
     item
       IndexID = 1407
-      Text = 'Dot-matrix printer paper setup'
+      Text = 'Dotmatrix Mtambochapisha Paper Andaa'
     end
     item
       IndexID = 1408
-      Text = 'System parameters'
+      Text = 'Sifa za Data'
     end
     item
       IndexID = 1409
-      Text = 'POS setup'
+      Text = 'POS Andaa'
     end
     item
       IndexID = 1410
-      Text = '&Use invoice messages'
+      Text = '&Tumia Ankra Ujumbes'
     end
     item
       IndexID = 1411
-      Text = 'Printers'
+      Text = 'Mtambochapishas'
     end
     item
       IndexID = 1412
-      Text = 'Error while importing or invalid file format!'
+      Text = 'Error while importing or Invalid Faili Format'
     end
     item
       IndexID = 1413
-      Text = 'User cannot use this journal!'
+      Text = 'Mtumiaji cannot use this batch.'
     end
     item
       IndexID = 1414
-      Text = 'Enable access in '#39'Setup '#8594' Access control'#39
+      Text = 'Hadi enable access use :Andaa->System Parameters->Dhibiti Fikio'
     end
     item
       IndexID = 1700
-      Text = 'Vendor age analysis'
+      Text = 'Mdai Uzee wa Madeni'
     end
     item
       IndexID = 586
-      Text = '&Help'
+      Text = '&Msaada'
     end
     item
       IndexID = 585
-      Text = '&Access control'
+      Text = '&Dhibiti Fikio'
     end
     item
       IndexID = 584
-      Text = '&System parameters'
+      Text = '&System Parameters'
     end
     item
       IndexID = 583
-      Text = '&Preferences'
+      Text = 'Ma&pendekezo'
     end
     item
       IndexID = 582
-      Text = '&Client server'
+      Text = '&Client Server'
     end
     item
       IndexID = 1707
-      Text = 'Inventory code'
+      Text = 'Code ya Bidhaa'
     end
     item
       IndexID = 1706
-      Text = 'No.'
+      Text = 'La'
     end
     item
       IndexID = 1704
-      Text = 'Customer age analysis as at'
+      Text = 'Mdaiwa Uzee wa Madeni as at'
     end
     item
       IndexID = 1703
-      Text = 'Totals for report :'
+      Text = 'Haditals for Ripoti :'
     end
     item
       IndexID = 1702
-      Text = 'Transaction total'
+      Text = 'Transaction Hadital'
     end
     item
       IndexID = 1701
-      Text = 'Reference no.'
+      Text = 'Reference La'
     end
     item
       IndexID = 1713
-      Text = 'Float movement'
+      Text = 'Float Mabadiliko'
     end
     item
       IndexID = 1712
@@ -5765,7 +5757,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1708
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 1719
@@ -5773,23 +5765,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1718
-      Text = 'Salesperson:'
+      Text = 'Muuzaji:'
     end
     item
       IndexID = 1717
-      Text = 'Customer'
+      Text = 'Mteja'
     end
     item
       IndexID = 1716
-      Text = '&Into the drawer'
+      Text = '&Into the Drawer'
     end
     item
       IndexID = 1715
-      Text = '&Out of the drawer'
+      Text = '&Out of the Drawer'
     end
     item
       IndexID = 1714
-      Text = 'Point-of-Sale invoice entry'
+      Text = 'Point-of-Sale Ankra Entry'
     end
     item
       IndexID = 1726
@@ -5797,7 +5789,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1725
-      Text = 'Inv. %s (Check)'
+      Text = 'Inv. %s (Cheque)'
     end
     item
       IndexID = 1724
@@ -5805,7 +5797,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1723
-      Text = 'Inv. %s (Account)'
+      Text = 'Inv. %s (Akaunti)'
     end
     item
       IndexID = 1722
@@ -5813,11 +5805,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1721
-      Text = 'New invoice'
+      Text = 'New Ankra'
     end
     item
       IndexID = 1732
-      Text = 'Card number:'
+      Text = 'Card Number:'
     end
     item
       IndexID = 1731
@@ -5825,7 +5817,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1730
-      Text = '(Check)'
+      Text = '(Cheque)'
     end
     item
       IndexID = 1729
@@ -5833,7 +5825,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1728
-      Text = '(Account)'
+      Text = '(Akaunti)'
     end
     item
       IndexID = 1727
@@ -5842,48 +5834,48 @@ object TTranslationSaveObject
     item
       IndexID = 1738
       Text = 
-        'This will close the invoice entry screen and post all POS invoic' +
-        'es for...'
+        'This will close the Ankra Entry screen and Sahihisho all POS Ank' +
+        'ra for ...'
     end
     item
       IndexID = 1737
-      Text = 'Cannot run without default!'
+      Text = 'Can not run without Default'
     end
     item
       IndexID = 1736
-      Text = 'Do you want to close and cancel this invoice now?'
+      Text = 'Do you want to close and cancel this invoice now ?'
     end
     item
       IndexID = 1735
-      Text = 'Expiry date:'
+      Text = 'Expiry Tarehe:'
     end
     item
       IndexID = 1734
-      Text = 'Card type:'
+      Text = 'Card Type:'
     end
     item
       IndexID = 1733
-      Text = 'Holder name:'
+      Text = 'Holder Jina:'
     end
     item
       IndexID = 1720
-      Text = 'Default customer account not setup! Please setup!'
+      Text = 'Default Mteja Akaunti not setup, Please Andaa'
     end
     item
       IndexID = 1744
-      Text = 'Left alignment'
+      Text = 'Left Alignment'
     end
     item
       IndexID = 1743
-      Text = 'Till slip PRINTER TEST'
+      Text = 'Till Splip PRINTER TEST'
     end
     item
       IndexID = 1742
-      Text = 'Posting document'
+      Text = 'Kusahihisha Document'
     end
     item
       IndexID = 1741
-      Text = 'Closing shift and posting all invoices'
+      Text = 'Closing Shift and Kusahihisha All Ankra'
     end
     item
       IndexID = 1740
@@ -5891,15 +5883,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1739
-      Text = 'Change to give back.'
+      Text = 'Badilisha to give back.'
     end
     item
       IndexID = 1778
-      Text = 'Reorder'
+      Text = 'Re-order'
     end
     item
       IndexID = 1777
-      Text = 'On hand'
+      Text = 'Kwa Hand'
     end
     item
       IndexID = 1776
@@ -5915,31 +5907,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1773
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 1750
-      Text = '&Cash up'
+      Text = '&Cash Up'
     end
     item
       IndexID = 1749
-      Text = '<@APPNAME@> till test'
+      Text = '<@APPNAME@> Till Test'
     end
     item
       IndexID = 1748
-      Text = 'Up 3 blank lines ?'
+      Text = 'Up 3 Blank Lines ?'
     end
     item
       IndexID = 1747
-      Text = '3 Blank lines'
+      Text = '3 Blank Lines'
     end
     item
       IndexID = 1746
-      Text = 'Right alignment'
+      Text = 'Right Alignment'
     end
     item
       IndexID = 1745
-      Text = 'Centre alignment'
+      Text = 'Centre Alignment'
     end
     item
       IndexID = 1762
@@ -5947,7 +5939,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1761
-      Text = '&Report designer'
+      Text = '&Ripoti Designer'
     end
     item
       IndexID = 1760
@@ -5955,19 +5947,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1759
-      Text = 'Point-of-Sale'
+      Text = 'Point-of-Mauzo'
     end
     item
       IndexID = 1758
-      Text = 'Posted journals import'
+      Text = 'Iliyosahihishwa Batches Leta'
     end
     item
       IndexID = 1757
-      Text = 'Reverse journal (D<-->C)'
+      Text = 'Rejeza Bunda'
     end
     item
       IndexID = 1768
-      Text = 'Ave && latest cost'
+      Text = 'Ave && Gharama Mpya Zaidi'
     end
     item
       IndexID = 1767
@@ -5979,11 +5971,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1765
-      Text = 'Delete item'
+      Text = 'Futa Item'
     end
     item
       IndexID = 1764
-      Text = 'New item'
+      Text = 'New Item'
     end
     item
       IndexID = 1763
@@ -5991,27 +5983,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1772
-      Text = 'Inventory code'
+      Text = 'Code ya Bidhaa'
     end
     item
       IndexID = 1771
-      Text = 'Inventory take-on'
+      Text = 'Bidhaa Take-on'
     end
     item
       IndexID = 1770
-      Text = 'Selling prices'
+      Text = 'Bei ya Kuuzas'
     end
     item
       IndexID = 1899
-      Text = 'Username'
+      Text = 'Mtumiaji Jina'
     end
     item
       IndexID = 1898
-      Text = 'Standard security'
+      Text = 'Standard Security'
     end
     item
       IndexID = 1897
-      Text = 'Access control'
+      Text = 'Dhibiti Fikio'
     end
     item
       IndexID = 1783
@@ -6019,27 +6011,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1782
-      Text = 'Selling price3'
+      Text = 'Bei ya Kuuza3'
     end
     item
       IndexID = 1781
-      Text = 'Selling price2'
+      Text = 'Bei ya Kuuza2'
     end
     item
       IndexID = 1780
-      Text = 'Selling price1'
+      Text = 'Bei ya Kuuza1'
     end
     item
       IndexID = 1779
-      Text = 'Qty && latest cost'
+      Text = 'Qty && Gharama Mpya Zaidi'
     end
     item
       IndexID = 1769
-      Text = 'Qty && ave cost'
+      Text = 'Qty && Ave Cost'
     end
     item
       IndexID = 1789
-      Text = 'Tax accounts'
+      Text = 'Kodi Akaunti'
     end
     item
       IndexID = 1788
@@ -6047,7 +6039,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1787
-      Text = 'Input'
+      Text = 'Ingizo'
     end
     item
       IndexID = 1786
@@ -6055,27 +6047,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1785
-      Text = 'Unit cost'
+      Text = 'Unit Cost'
     end
     item
       IndexID = 1784
-      Text = 'Avg. cost'
+      Text = 'Avg Cost'
     end
     item
       IndexID = 1795
-      Text = 'Reporting group2'
+      Text = 'Ripotiing Kikundi2'
     end
     item
       IndexID = 1794
-      Text = 'Reporting group'
+      Text = 'Ripotiing Kikundi'
     end
     item
       IndexID = 1793
-      Text = 'Inventory '
+      Text = 'Bidhaa'
     end
     item
       IndexID = 1792
-      Text = 'Sales'
+      Text = 'Mauzo'
     end
     item
       IndexID = 1791
@@ -6083,7 +6075,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1790
-      Text = 'General ledger accounts'
+      Text = 'Daftari ya Jumla Akaunti'
     end
     item
       IndexID = 1801
@@ -6091,23 +6083,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1800
-      Text = 'To all items'
+      Text = 'Hadi all items'
     end
     item
       IndexID = 1799
-      Text = 'Use percentage'
+      Text = 'Tumia Asili Mia'
     end
     item
       IndexID = 1798
-      Text = 'Generate transactions'
+      Text = 'Generate Timilizo'
     end
     item
       IndexID = 1797
-      Text = 'Use spreadsheet file'
+      Text = 'Tumia Spreadsheet Faili'
     end
     item
       IndexID = 1796
-      Text = 'Reporting group'
+      Text = 'Ripotiing Kikundi'
     end
     item
       IndexID = 1807
@@ -6115,49 +6107,49 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1806
-      Text = 'Creating Set of Books...'
+      Text = 'Creating Hesabu...'
     end
     item
       IndexID = 1805
-      Text = 'Plugins'
+      Text = 'Plug-Ins'
     end
     item
       IndexID = 1804
-      Text = ' Are you sure you want to change the code?'
+      Text = 'Are you sure you want to change the code?'
     end
     item
       IndexID = 1803
       Text = 
-        'Changing the inventory code will result in all reports to use th' +
-        'is code!'
+        'Changing the Bidhaa code wil result in all reports to use this c' +
+        'ode.'
     end
     item
       IndexID = 1802
-      Text = 'Date'
+      Text = 'Tarehe'
     end
     item
       IndexID = 1813
-      Text = 'Retained earnings'
+      Text = 'Retained Earnings'
     end
     item
       IndexID = 1812
-      Text = 'Creating required accounts (Retained earnings)...'
+      Text = 'Creating required accounts(Retained Earnings)...'
     end
     item
       IndexID = 1811
-      Text = 'Customer control'
+      Text = 'Wadaiwa Control'
     end
     item
       IndexID = 1810
-      Text = 'Creating required accounts (Customer control)...'
+      Text = 'Creating required accounts(Wadaiwa Control)...'
     end
     item
       IndexID = 1809
-      Text = 'Vendors control'
+      Text = 'Wadai Control'
     end
     item
       IndexID = 1808
-      Text = 'Creating required accounts (Vendor control)...'
+      Text = 'Creating required accounts(Wadai Control)...'
     end
     item
       IndexID = 1820
@@ -6165,15 +6157,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1818
-      Text = 'Old Set of Books to convert :'
+      Text = 'Old Hesabu to Convert :'
     end
     item
       IndexID = 1817
-      Text = 'Set of Books to copy :'
+      Text = 'Hesabu to Copy :'
     end
     item
       IndexID = 1816
-      Text = 'Enter the name of new Set of Books'
+      Text = 'Timiza the name of new Hesabu'
     end
     item
       IndexID = 1815
@@ -6181,27 +6173,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1814
-      Text = 'Finished!'
+      Text = 'Finished !'
     end
     item
       IndexID = 1826
-      Text = 'Add salespersons'
+      Text = 'Add Wauzaji'
     end
     item
       IndexID = 1825
-      Text = 'Documents setup'
+      Text = 'Documents Setup'
     end
     item
       IndexID = 1824
-      Text = 'Groups setup'
+      Text = 'Groups Setup'
     end
     item
       IndexID = 1823
-      Text = 'Journal types setup'
+      Text = 'Batch Types Setup'
     end
     item
       IndexID = 1822
-      Text = 'Accounting periods setup'
+      Text = 'Accounting Periods Setup'
     end
     item
       IndexID = 1821
@@ -6209,15 +6201,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1833
-      Text = 'Account groups'
+      Text = 'Akaunti Vikundi'
     end
     item
       IndexID = 1832
-      Text = 'Item no.'
+      Text = 'Item La'
     end
     item
       IndexID = 1831
-      Text = 'Converting Set of Books...'
+      Text = 'Converting Hesabu...'
     end
     item
       IndexID = 1829
@@ -6225,39 +6217,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1828
-      Text = 'Name :'
+      Text = 'Jina :'
     end
     item
       IndexID = 1827
-      Text = 'Set of Books copied!'
+      Text = 'Hesabu to Copy :'
     end
     item
       IndexID = 1839
-      Text = 'Group2'
+      Text = 'Kikundi2'
     end
     item
       IndexID = 1838
-      Text = 'Group1'
+      Text = 'Kikundi1'
     end
     item
       IndexID = 1837
-      Text = 'Document groups'
+      Text = 'Document Vikundi'
     end
     item
       IndexID = 1836
-      Text = 'Inventory'
+      Text = 'Bidhaa Vikundi'
     end
     item
       IndexID = 1835
-      Text = 'Vendor groups'
+      Text = 'Mdai Vikundi'
     end
     item
       IndexID = 1834
-      Text = 'Customer groups'
+      Text = 'Mdaiwa Vikundi'
     end
     item
       IndexID = 1845
-      Text = 'Reporting group name:'
+      Text = 'Ripotiing Kikundi Jina:'
     end
     item
       IndexID = 1844
@@ -6269,11 +6261,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1842
-      Text = 'Delete'
+      Text = 'Futa'
     end
     item
       IndexID = 1841
-      Text = 'Edit'
+      Text = 'Hariri'
     end
     item
       IndexID = 1840
@@ -6281,15 +6273,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1851
-      Text = 'Clearing inventory transactions...'
+      Text = 'Clearing Bidhaa Timilizo...'
     end
     item
       IndexID = 1850
-      Text = 'Clearing transactions...'
+      Text = 'Clearing Timilizo...'
     end
     item
       IndexID = 1849
-      Text = 'Clearing totals...'
+      Text = 'Clearing Haditals...'
     end
     item
       IndexID = 1848
@@ -6301,11 +6293,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1846
-      Text = 'Groups'
+      Text = 'Vikundi'
     end
     item
       IndexID = 1857
-      Text = '30 days'
+      Text = '30 Days'
     end
     item
       IndexID = 1856
@@ -6313,23 +6305,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1855
-      Text = 'New group'
+      Text = 'New Kikundi'
     end
     item
       IndexID = 1854
-      Text = 'Clearing journal information...'
+      Text = 'Clearing Batch Information...'
     end
     item
       IndexID = 1853
-      Text = 'Clearing document transactions...'
+      Text = 'Clearing Stakabadhi Timilizo...'
     end
     item
       IndexID = 1852
-      Text = 'Clearing inventory information...'
+      Text = 'Clearing Bidhaa Information...'
     end
     item
       IndexID = 1863
-      Text = 'Tax'
+      Text = 'Kodi'
     end
     item
       IndexID = 1862
@@ -6341,47 +6333,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1860
-      Text = 'Description'
+      Text = 'Elezo'
     end
     item
       IndexID = 1859
-      Text = '90+ days'
+      Text = '90+ Days'
     end
     item
       IndexID = 1858
-      Text = '60 days'
+      Text = '60 Days'
     end
     item
       IndexID = 1869
-      Text = 'Document type'
+      Text = 'Document Type'
     end
     item
       IndexID = 1868
-      Text = 'Contra account'
+      Text = 'Contra Akaunti'
     end
     item
       IndexID = 1867
-      Text = 'Journal name'
+      Text = 'Batch Jina'
     end
     item
       IndexID = 1866
-      Text = 'Incl. amt.'
+      Text = 'Pamoja na Amt'
     end
     item
       IndexID = 1865
-      Text = 'Disc%'
+      Text = 'Disc %'
     end
     item
       IndexID = 1864
-      Text = 'Excl. amt.'
+      Text = 'Kwadoa Amt'
     end
     item
       IndexID = 1875
-      Text = 'Date'
+      Text = 'Tarehe'
     end
     item
       IndexID = 1874
-      Text = 'Confirm estimates and orders'
+      Text = 'Confirm Kimo cha Beis and Orders'
     end
     item
       IndexID = 1873
@@ -6389,7 +6381,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1872
-      Text = '&Add selected'
+      Text = '&Add Sel.'
     end
     item
       IndexID = 1871
@@ -6397,7 +6389,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1870
-      Text = 'Estimates'
+      Text = 'Kimo cha Beis'
     end
     item
       IndexID = 1881
@@ -6409,7 +6401,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1879
-      Text = 'Select date'
+      Text = 'Select Tarehe'
     end
     item
       IndexID = 1878
@@ -6417,19 +6409,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1877
-      Text = 'Confirmed'
+      Text = 'Confimed'
     end
     item
       IndexID = 1876
-      Text = 'Account'
+      Text = 'Akaunti'
     end
     item
       IndexID = 1887
-      Text = 'Invoices to repeat'
+      Text = 'Ankra to Repeat'
     end
     item
       IndexID = 1886
-      Text = 'Invoice history'
+      Text = 'Ankra Historia ya'
     end
     item
       IndexID = 1885
@@ -6437,11 +6429,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1884
-      Text = 'Over 90 days'
+      Text = 'Over 90 Days'
     end
     item
       IndexID = 1883
-      Text = 'Statement'
+      Text = 'Cheti'
     end
     item
       IndexID = 1882
@@ -6449,11 +6441,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1893
-      Text = 'Apply to all'
+      Text = 'Tumia to All'
     end
     item
       IndexID = 1892
-      Text = 'Apply to selection'
+      Text = 'Tumia to selection'
     end
     item
       IndexID = 1891
@@ -6461,11 +6453,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1979
-      Text = 'Open item selection'
+      Text = 'Ingizo Wazi Selection'
     end
     item
       IndexID = 1978
-      Text = 'Enter amount'
+      Text = 'Timiza  Amount'
     end
     item
       IndexID = 1977
@@ -6473,35 +6465,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1896
-      Text = 'Add this comment line'
+      Text = 'Add this Comment Line'
     end
     item
       IndexID = 1895
-      Text = 'Set new invoice as repeating'
+      Text = 'Set New Ankra as Repeating'
     end
     item
       IndexID = 1894
-      Text = 'Replace message with'
+      Text = 'Replace Ujumbe By'
     end
     item
       IndexID = 1902
-      Text = 'General ledger reports'
+      Text = 'GL Ripoti'
     end
     item
       IndexID = 1901
-      Text = 'Reports access'
+      Text = 'Ripoti Access'
     end
     item
       IndexID = 1900
-      Text = 'User e-mail'
+      Text = 'Mtumiaji Barua Pepe'
     end
     item
       IndexID = 1890
-      Text = 'Add all'
+      Text = 'Add All'
     end
     item
       IndexID = 1889
-      Text = 'Search by invoice number'
+      Text = 'Search By Ankra Number'
     end
     item
       IndexID = 1888
@@ -6509,15 +6501,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1908
-      Text = 'Edit user report'
+      Text = 'Hariri Ripoti Binafsi'
     end
     item
       IndexID = 1907
-      Text = 'Edit inventory'
+      Text = 'Hariri Bidhaa'
     end
     item
       IndexID = 1906
-      Text = 'Edit accounts'
+      Text = 'Hariri Akaunti'
     end
     item
       IndexID = 1905
@@ -6525,15 +6517,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1904
-      Text = 'Select accounts to block'
+      Text = 'Select Akaunti to Block'
     end
     item
       IndexID = 1903
-      Text = 'Journals access'
+      Text = 'Batches Access'
     end
     item
       IndexID = 1914
-      Text = 'Equity'
+      Text = '&Capital'
     end
     item
       IndexID = 1913
@@ -6541,11 +6533,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1912
-      Text = 'Financial categories'
+      Text = 'Financial Categories'
     end
     item
       IndexID = 1911
-      Text = '&Page setup'
+      Text = '&Page Andaa'
     end
     item
       IndexID = 1910
@@ -6553,39 +6545,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1909
-      Text = 'New user'
+      Text = 'New Mtumiaji'
     end
     item
       IndexID = 1920
-      Text = 'Print Income before Expenses'
+      Text = 'Chapisha Income Before Expenses'
     end
     item
       IndexID = 1919
-      Text = 'Print Liabilities before Equity'
+      Text = 'Chapisha Liabilities Before Capital'
     end
     item
       IndexID = 1918
-      Text = 'Print Equity before Liabilities'
+      Text = 'Chapisha Capital Before Liabilities'
     end
     item
       IndexID = 1917
-      Text = 'Liabilities'
+      Text = '&Liabilities'
     end
     item
       IndexID = 1916
-      Text = 'Income'
+      Text = '&Income'
     end
     item
       IndexID = 1915
-      Text = 'Expenses'
+      Text = '&Expenses'
     end
     item
       IndexID = 1926
-      Text = 'Bank account journals not setup correctly!'
+      Text = 'Akaunti ya Benki Batches Lat Andaa Correctly'
     end
     item
       IndexID = 1925
-      Text = 'Tax'
+      Text = 'Kodi'
     end
     item
       IndexID = 1924
@@ -6593,27 +6585,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Transfering...'
+      Text = 'Hawilishaing'
     end
     item
       IndexID = 1922
-      Text = 'Groups'
+      Text = 'Vikundi'
     end
     item
       IndexID = 1921
-      Text = 'Print Expenses before Income'
+      Text = 'Chapisha Expenses Before Income'
     end
     item
       IndexID = 1932
-      Text = 'To'
+      Text = 'Hadi'
     end
     item
       IndexID = 1931
-      Text = 'Print receipt'
+      Text = 'Chapisha Receipt'
     end
     item
       IndexID = 1930
-      Text = 'Receiving from'
+      Text = 'Receiving Kutoka'
     end
     item
       IndexID = 1929
@@ -6621,55 +6613,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1928
-      Text = 'Cannot post transactions to an account which has sub-accounts!'
+      Text = 'Cannot Sahihisho Timilizo to an account which has sub-accounts'
     end
     item
       IndexID = 1927
-      Text = 'Payment'
+      Text = 'Payment -'
     end
     item
       IndexID = 1938
-      Text = '&Print list'
+      Text = '&Chapisha List'
     end
     item
       IndexID = 1937
-      Text = 'Push the key you want to assign an abbreviation to'
+      Text = 'Push the key you want to assign an abreviation to'
     end
     item
       IndexID = 1936
-      Text = 'Set an abbreviation'
+      Text = 'Set an abbreviations'
     end
     item
       IndexID = 1935
-      Text = 'Account type'
+      Text = 'Akaunti Type'
     end
     item
       IndexID = 1934
-      Text = 'To account'
+      Text = 'Hadi Akaunti'
     end
     item
       IndexID = 1933
-      Text = 'From account'
+      Text = 'Kutoka Akaunti'
     end
     item
       IndexID = 1944
-      Text = 'Network server (data replication)'
+      Text = 'Network Server ( Data Replication)'
     end
     item
       IndexID = 1943
-      Text = 'User id'
+      Text = 'Mtumiaji ID'
     end
     item
       IndexID = 1942
-      Text = 'Server name'
+      Text = 'Server Jina'
     end
     item
       IndexID = 1941
-      Text = 'E-mail account :'
+      Text = 'E-Mail Akaunti :'
     end
     item
       IndexID = 1940
-      Text = 'Internet setup'
+      Text = 'Internet Andaa'
     end
     item
       IndexID = 1939
@@ -6677,7 +6669,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1950
-      Text = 'not verified! Test failed!'
+      Text = 'not verified. Test Failed'
     end
     item
       IndexID = 1949
@@ -6689,27 +6681,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1947
-      Text = '&Test net server'
+      Text = '&Test Net Server'
     end
     item
       IndexID = 1946
-      Text = 'or IP address'
+      Text = 'or IP Anwani'
     end
     item
       IndexID = 1945
-      Text = 'Server name'
+      Text = 'Server Jina'
     end
     item
       IndexID = 1956
-      Text = 'Connection failed!'
+      Text = 'Connection failed'
     end
     item
       IndexID = 1955
-      Text = 'Test finished! Success!'
+      Text = 'Test Finished. Success'
     end
     item
       IndexID = 1954
-      Text = 'E-mail test in progress...'
+      Text = 'e-mail test in progress...'
     end
     item
       IndexID = 1953
@@ -6717,27 +6709,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1952
-      Text = 'E-mail server not found...'
+      Text = 'E-Mail Server not found...'
     end
     item
       IndexID = 1951
-      Text = '<@APPNAME@> Report mail sender %s e-mail account %s'
+      Text = '<@APPNAME@> RipotiMail Tumaer %s Barua Pepe Akaunti %s'
     end
     item
       IndexID = 1962
-      Text = 'Invalid server!'
+      Text = 'Invalid Server'
     end
     item
       IndexID = 1961
-      Text = 'Connection test started!'
+      Text = '! Connection Test Started'
     end
     item
       IndexID = 1960
-      Text = 'Test in progress :%s bytes out of %s'
+      Text = 'Test in progress :%s kwates out of %s'
     end
     item
       IndexID = 1959
-      Text = 'Authentication failed!'
+      Text = 'Authentification Failed.'
     end
     item
       IndexID = 1958
@@ -6745,7 +6737,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1957
-      Text = 'General e-mail failure!'
+      Text = 'General e-mail Failure'
     end
     item
       IndexID = 1968
@@ -6761,19 +6753,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1966
-      Text = 'Server connection failed!'
+      Text = 'Server Connection Failed'
     end
     item
       IndexID = 1965
-      Text = 'User testing on server'
+      Text = 'Mtumiaji Testing on server'
     end
     item
       IndexID = 1964
-      Text = 'Connecting to %s...'
+      Text = 'Connecting to %s'
     end
     item
       IndexID = 1963
-      Text = 'Net server resolved!'
+      Text = 'Net Server Resolved'
     end
     item
       IndexID = 1974
@@ -6781,11 +6773,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1973
-      Text = 'Date'
+      Text = 'Tarehe'
     end
     item
       IndexID = 1972
-      Text = 'User password'
+      Text = 'Mtumiaji Password'
     end
     item
       IndexID = 20123
@@ -6797,15 +6789,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20121
-      Text = '&Apply'
+      Text = '&Tumia'
     end
     item
       IndexID = 1976
-      Text = 'Number'
+      Text = 'Amount'
     end
     item
       IndexID = 1975
-      Text = 'Payment reference'
+      Text = 'Pmt Reference'
     end
     item
       IndexID = 20001
@@ -6813,11 +6805,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20000
-      Text = 'You cannot create recursive levels!'
+      Text = 'You cannot create recursive levels'
     end
     item
       IndexID = 2828
-      Text = 'Comments cannot be placed within other markup!'
+      Text = 'Comments can not be placed within other markup'
     end
     item
       IndexID = 2827
@@ -6837,11 +6829,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20006
-      Text = 'Customisation'
+      Text = 'Customization'
     end
     item
       IndexID = 20005
-      Text = 'Filter is <empty>'
+      Text = 'Filter is Empty>'
     end
     item
       IndexID = 20004
@@ -6849,25 +6841,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20003
-      Text = 'Delete all selected records?'
+      Text = 'Futa all selected records?'
     end
     item
       IndexID = 20002
-      Text = 'Delete record?'
+      Text = 'Futa record?'
     end
     item
       IndexID = 20013
-      Text = 'Component does not exist!'
+      Text = 'Component does not exist'
     end
     item
       IndexID = 20012
-      Text = 'cxGrid does not exist!'
+      Text = 'cxGrid does not exist'
     end
     item
       IndexID = 20011
       Text = 
         'Missing an intermediary component! Please add a %s component to ' +
-        'the form!'
+        'the form.'
     end
     item
       IndexID = 20010
@@ -6879,7 +6871,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20008
-      Text = 'Use your mouse to pull a column here to group on that column'
+      Text = 'Tumia your mouse to pull a column here to group on that column'
     end
     item
       IndexID = 20019
@@ -6888,8 +6880,8 @@ object TTranslationSaveObject
     item
       IndexID = 20018
       Text = 
-        'Ext Lookup Combo Box - Represents an ultra-advanced lookup using' +
-        ' the quantum grid as its drop down control!'
+        'ExtLookupComboBox|Represents an ultra-advanced lookup using the ' +
+        'QuantumGrid as its drop down control'
     end
     item
       IndexID = 20017
@@ -6901,15 +6893,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20015
-      Text = 'Grid view does not exist!'
+      Text = 'Grid view does not exist'
     end
     item
       IndexID = 20014
-      Text = 'Import error!'
+      Text = 'Leta error'
     end
     item
       IndexID = 20025
-      Text = 'Like'
+      Text = 'like'
     end
     item
       IndexID = 20024
@@ -6929,7 +6921,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20020
-      Text = 'Not equal to'
+      Text = 'Lat equal to'
     end
     item
       IndexID = 20031
@@ -6937,7 +6929,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20030
-      Text = 'Not in'
+      Text = 'not in'
     end
     item
       IndexID = 20029
@@ -6945,7 +6937,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20028
-      Text = 'Not between'
+      Text = 'Lat between'
     end
     item
       IndexID = 20027
@@ -6953,7 +6945,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20026
-      Text = 'Not like'
+      Text = 'Lat like'
     end
     item
       IndexID = 20037
@@ -6981,7 +6973,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20043
-      Text = 'and'
+      Text = 'And'
     end
     item
       IndexID = 20042
@@ -7021,11 +7013,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20045
-      Text = 'Not'
+      Text = 'Lat'
     end
     item
       IndexID = 20044
-      Text = 'or'
+      Text = 'Or'
     end
     item
       IndexID = 20055
@@ -7057,15 +7049,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20060
-      Text = 'Journal no.'
+      Text = 'Batch La.'
     end
     item
       IndexID = 20059
-      Text = 'Transaction no.'
+      Text = 'Transactionnr'
     end
     item
       IndexID = 20058
-      Text = '(Not empty)'
+      Text = '(Lat empty)'
     end
     item
       IndexID = 20057
@@ -7077,15 +7069,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20067
-      Text = 'Total sales per day'
+      Text = 'Hadital sales per day'
     end
     item
       IndexID = 20066
-      Text = 'Total Qty.'
+      Text = 'Hadital qty.'
     end
     item
       IndexID = 20065
-      Text = 'Total sales'
+      Text = 'Hadital sales'
     end
     item
       IndexID = 20064
@@ -7093,7 +7085,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20063
-      Text = 'Export'
+      Text = 'Hamisha'
     end
     item
       IndexID = 20062
@@ -7105,27 +7097,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20072
-      Text = 'Inventory item invoice'
+      Text = 'Bidhaa Ankra'
     end
     item
       IndexID = 20071
-      Text = 'Invoice inventory item'
+      Text = 'Ankra Bidhaa'
     end
     item
       IndexID = 20070
-      Text = 'Customer invoice'
+      Text = 'Mteja Ankra'
     end
     item
       IndexID = 20069
-      Text = 'Transactions'
+      Text = 'Timilizo'
     end
     item
       IndexID = 20068
-      Text = 'Total qty. per day'
+      Text = 'Hadital qty. per day'
     end
     item
       IndexID = 20079
-      Text = 'Open a Set of Books first!'
+      Text = 'Fungua a Hesabu first!'
     end
     item
       IndexID = 20078
@@ -7135,19 +7127,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20077
-      Text = 'Unique account no.'
+      Text = 'Unique accountno.'
     end
     item
       IndexID = 20076
-      Text = 'Unique line no.'
+      Text = 'Unique lineno.'
     end
     item
       IndexID = 20075
-      Text = 'Unique document no.'
+      Text = 'Unique documentno.'
     end
     item
       IndexID = 20074
-      Text = 'Unique inventory no.'
+      Text = 'Unique stockno.'
     end
     item
       IndexID = 20085
@@ -7171,11 +7163,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20080
-      Text = 'About'
+      Text = 'Kuhusu'
     end
     item
       IndexID = 1982
-      Text = 'No tax'
+      Text = 'La tax'
     end
     item
       IndexID = 1981
@@ -7183,7 +7175,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1980
-      Text = 'User password'
+      Text = 'Mtumiaji Password'
     end
     item
       IndexID = 1971
@@ -7191,61 +7183,61 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1970
-      Text = 'Only periods between 1 and 13 are allowed!'
+      Text = 'Pekee periods between 1 and 13 are allowed'
     end
     item
       IndexID = 1969
       Text = 
-        'Cannot have more than %s for this unregistered <@APPNAME@> copie' +
-        ' %s! Please register and get your licence code!'
+        'Can not have more than %s for this unregisted <@APPNAME@> Copie%' +
+        'sPlease Register and Get your licence code'
     end
     item
       IndexID = 1988
-      Text = 'Account lookup type'
+      Text = 'Akaunti code lookup type'
     end
     item
       IndexID = 1987
-      Text = 'Special ledgers'
+      Text = 'Daftaris special'
     end
     item
       IndexID = 1986
-      Text = 'Remember contra on account'
+      Text = 'Remember contra on acc'
     end
     item
       IndexID = 1985
-      Text = 'Remember tax on contra account'
+      Text = 'Remember tax on con.acc'
     end
     item
       IndexID = 1984
-      Text = 'Reverse contra'
+      Text = 'Rejeza contra'
     end
     item
       IndexID = 1983
-      Text = 'Not open item journal'
+      Text = 'Lat open item batch'
     end
     item
       IndexID = 20091
-      Text = 'From'
+      Text = 'Kutoka'
     end
     item
       IndexID = 20090
-      Text = 'Visible columns'
+      Text = 'Visible Columns'
     end
     item
       IndexID = 20089
-      Text = 'Open directory'
+      Text = 'Fungua Directory'
     end
     item
       IndexID = 20088
-      Text = 'Native style'
+      Text = 'Native Style'
     end
     item
       IndexID = 20087
-      Text = 'Editor font...'
+      Text = 'Haririor Font...'
     end
     item
       IndexID = 20086
-      Text = 'Grouping'
+      Text = 'Kikundiing'
     end
     item
       IndexID = 20097
@@ -7253,11 +7245,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20096
-      Text = 'or not'
+      Text = 'or Lat'
     end
     item
       IndexID = 20095
-      Text = 'and not'
+      Text = 'and Lat'
     end
     item
       IndexID = 20094
@@ -7265,7 +7257,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20093
-      Text = 'and'
+      Text = 'And'
     end
     item
       IndexID = 20092
@@ -7273,7 +7265,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20103
-      Text = 'Contains the following conditions'
+      Text = 'Containts the folowing conditions'
     end
     item
       IndexID = 20102
@@ -7281,11 +7273,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20101
-      Text = 'Delete &all'
+      Text = 'Futa &all'
     end
     item
       IndexID = 20100
-      Text = '&Delete row'
+      Text = '&Futa row'
     end
     item
       IndexID = 20099
@@ -7297,7 +7289,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20109
-      Text = 'Use'
+      Text = 'Tumia'
     end
     item
       IndexID = 20108
@@ -7325,7 +7317,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20114
-      Text = 'Show rows where :'
+      Text = 'Onyesha rows where :'
     end
     item
       IndexID = 20113
@@ -7345,7 +7337,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20120
-      Text = '&Open...'
+      Text = '&Fungua...'
     end
     item
       IndexID = 20119
@@ -7357,7 +7349,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20117
-      Text = 'Open a saved filter'
+      Text = 'Fungua a saved filter'
     end
     item
       IndexID = 20116
@@ -7369,11 +7361,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1993
-      Text = 'Posting: %s of %s...'
+      Text = 'Kusahihisha: %s of %s'
     end
     item
       IndexID = 1992
-      Text = 'Qty && latest cost'
+      Text = 'Qty && Gharama Mpya Zaidi'
     end
     item
       IndexID = 1991
@@ -7385,27 +7377,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1989
-      Text = 'Contra account lookup type'
+      Text = 'Contra account code lookup type'
     end
     item
       IndexID = 2000
-      Text = 'Customers'
+      Text = 'Wadaiwa'
     end
     item
       IndexID = 1999
-      Text = 'Inventory'
+      Text = 'Bidhaa'
     end
     item
       IndexID = 1998
-      Text = 'Documents'
+      Text = 'Stakabadhi'
     end
     item
       IndexID = 1997
-      Text = 'Updating totals...'
+      Text = 'Updating totals'
     end
     item
       IndexID = 1996
-      Text = 'Checking journal entries ...'
+      Text = 'Checking batch entries ...'
     end
     item
       IndexID = 1995
@@ -7413,39 +7405,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2006
-      Text = 'Export files name'
+      Text = 'Hamisha Failis Jina'
     end
     item
       IndexID = 2005
-      Text = 'File type'
+      Text = 'Faili Type'
     end
     item
       IndexID = 2004
-      Text = 'Export to:'
+      Text = 'Hamisha Hadi'
     end
     item
       IndexID = 2003
-      Text = 'Posted journals'
+      Text = 'Iliyosahihishwa Batches'
     end
     item
       IndexID = 2002
-      Text = 'Vendor'
+      Text = 'Wadai'
     end
     item
       IndexID = 2001
-      Text = 'Accounts'
+      Text = 'Akaunti'
     end
     item
       IndexID = 2012
-      Text = 'Date / Period'
+      Text = 'Tarehe Kipindi'
     end
     item
       IndexID = 2011
-      Text = 'To'
+      Text = 'Hadi'
     end
     item
       IndexID = 2010
-      Text = 'From'
+      Text = 'Kutoka'
     end
     item
       IndexID = 2009
@@ -7453,15 +7445,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2008
-      Text = 'Log file'
+      Text = 'Log Faili'
     end
     item
       IndexID = 2007
-      Text = 'File name'
+      Text = 'Faili Jina'
     end
     item
       IndexID = 2018
-      Text = 'Import from:'
+      Text = 'Leta Kutoka:'
     end
     item
       IndexID = 2017
@@ -7473,35 +7465,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2015
-      Text = 'File to import'
+      Text = 'Faili to import'
     end
     item
       IndexID = 2014
-      Text = '&Import'
+      Text = '&Leta'
     end
     item
       IndexID = 2013
-      Text = '&Export'
+      Text = '&Hamisha'
     end
     item
       IndexID = 2024
-      Text = 'Sort by date'
+      Text = 'Fuatanisha kwa date'
     end
     item
       IndexID = 2023
-      Text = 'Import file format not implemented!'
+      Text = 'Faili format Leta Lat Implemented'
     end
     item
       IndexID = 2022
-      Text = 'Data file import completed!'
+      Text = 'Data Faili import completed'
     end
     item
       IndexID = 2021
-      Text = 'Import data into <@APPNAME@>'
+      Text = 'Leta Data into <@APPNAME@>'
     end
     item
       IndexID = 2020
-      Text = 'Import data wizard'
+      Text = 'Leta Data Wizard'
     end
     item
       IndexID = 2019
@@ -7513,19 +7505,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2029
-      Text = '&Change alias'
+      Text = '&Badilisha the Jina'
     end
     item
       IndexID = 2028
-      Text = 'You can now click on [Import] to start the process.'
+      Text = 'You can now click on Leta to start the process.'
     end
     item
       IndexID = 2027
-      Text = 'File format'
+      Text = 'Faili format'
     end
     item
       IndexID = 2026
-      Text = 'Data type to import'
+      Text = 'Data Type to Leta'
     end
     item
       IndexID = 2025
@@ -7533,19 +7525,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2036
-      Text = '<@APPNAME@> Invoice'
+      Text = '<@APPNAME@> Ankra'
     end
     item
       IndexID = 2035
-      Text = 'Opening drawer'
+      Text = 'Funguaing Drawer'
     end
     item
       IndexID = 2034
-      Text = 'Open item selection'
+      Text = 'Ingizo Wazi Selection'
     end
     item
       IndexID = 2033
-      Text = 'Change company info'
+      Text = 'Badilisha Kampuni info.'
     end
     item
       IndexID = 2032
@@ -7557,7 +7549,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2042
-      Text = 'Change'
+      Text = 'Badilisha'
     end
     item
       IndexID = 2041
@@ -7569,11 +7561,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2039
-      Text = 'Fax.'
+      Text = 'Kipepeo.'
     end
     item
       IndexID = 2038
-      Text = 'Tel.'
+      Text = 'Simu.'
     end
     item
       IndexID = 2037
@@ -7581,11 +7573,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2048
-      Text = 'Contact'
+      Text = 'Mwenye Kuongelewa'
     end
     item
       IndexID = 2047
-      Text = 'Last name'
+      Text = 'Jina'
     end
     item
       IndexID = 2046
@@ -7593,19 +7585,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2045
-      Text = 'Cashier name :'
+      Text = 'Cashier Jina :'
     end
     item
       IndexID = 2044
-      Text = '8.25%'
+      Text = '14.00%'
     end
     item
       IndexID = 2043
-      Text = 'ST-AMT'
+      Text = 'VAT-AMT'
     end
     item
       IndexID = 2054
-      Text = 'Record locked by other user! Please try again!'
+      Text = 'Record locked kwa other user. Please try again!'
     end
     item
       IndexID = 2053
@@ -7617,7 +7609,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '*Indicates non-Sales Tax item'
+      Text = '* Indicates non-VAT item'
     end
     item
       IndexID = 2050
@@ -7625,11 +7617,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2049
-      Text = 'Delivery address'
+      Text = 'Kifiko cha Uletaji'
     end
     item
       IndexID = 2061
-      Text = 'Bank statement transactions'
+      Text = 'Bank Cheti Timilizo'
     end
     item
       IndexID = 2060
@@ -7637,127 +7629,127 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2059
-      Text = 'Cannot get new number! Record is locked! Try again later!'
+      Text = 'Cant get new number record is locked try again later'
     end
     item
       IndexID = 2058
-      Text = 'POS Cash up'
+      Text = 'Pos Cash up'
     end
     item
       IndexID = 2057
-      Text = 'Bottom feed lines'
+      Text = 'Bottom Feed Lines'
     end
     item
       IndexID = 2056
-      Text = 'Use invoice print'
+      Text = 'Tumia invoice print'
     end
     item
       IndexID = 2067
-      Text = 'Balancing...'
+      Text = 'Balancing'
     end
     item
       IndexID = 2066
-      Text = 'Consolidating...'
+      Text = 'Consolidating'
     end
     item
       IndexID = 2065
-      Text = 'Creating Set of Books...'
+      Text = 'Creating Hesabu'
     end
     item
       IndexID = 2064
-      Text = 'Aging...'
+      Text = 'Ageing ...'
     end
     item
       IndexID = 2063
-      Text = 'Allocating outstanding balances...'
+      Text = 'Allocating Outstanding Balances'
     end
     item
       IndexID = 2062
-      Text = 'Generating balances...'
+      Text = 'Generating Balances ...'
     end
     item
       IndexID = 2073
-      Text = 'Importing inventory items...'
+      Text = 'Letaing Bidhaas'
     end
     item
       IndexID = 2072
-      Text = 'Exporting customers...'
+      Text = 'Hamishaing Wadaiwa'
     end
     item
       IndexID = 2071
-      Text = 'Exporting transactions...'
+      Text = 'Hamishaing Timilizo'
     end
     item
       IndexID = 2070
-      Text = 'Importing accounts...'
+      Text = 'Letaing Akaunti'
     end
     item
       IndexID = 2069
-      Text = 'Reading spreadsheet file...'
+      Text = 'Reading Lotus Faili'
     end
     item
       IndexID = 2068
-      Text = 'Importing inventory items...'
+      Text = 'Letaing Bidhaas'
     end
     item
       IndexID = 2079
-      Text = 'Exporting to spreadsheet file...'
+      Text = 'Hamishaing to Lotus file'
     end
     item
       IndexID = 2078
-      Text = 'Exporting to CSV file...'
+      Text = 'Hamishaing to CSV file'
     end
     item
       IndexID = 2077
-      Text = 'Exporting documents...'
+      Text = 'Hamishaing Stakabadhi'
     end
     item
       IndexID = 2076
-      Text = 'Importing documents...'
+      Text = 'Letaing Stakabadhi'
     end
     item
       IndexID = 2075
-      Text = 'Exporting accounts...'
+      Text = 'Hamishaing Akaunti'
     end
     item
       IndexID = 2074
-      Text = 'Exporting chart of accounts...'
+      Text = 'Hamishaing Chart of Akaunti'
     end
     item
       IndexID = 2085
-      Text = 'Alias (journal name)'
+      Text = 'Jina'
     end
     item
       IndexID = 2084
-      Text = 'Reverse posted journal/document'
+      Text = 'Rejeza Bunda/ Stak. Zilizosahihishwa'
     end
     item
       IndexID = 2083
-      Text = 'Preparing list...'
+      Text = 'Preparing List'
     end
     item
       IndexID = 2082
-      Text = 'Exporting to MS Excel file...'
+      Text = 'Hamishaing to MS Excel file'
     end
     item
       IndexID = 2081
-      Text = 'Exporting to SYLK spreadsheet file...'
+      Text = 'Hamishaing to SYLK SpreadSheet file'
     end
     item
       IndexID = 2080
-      Text = 'Exporting to OpenOffice spreadsheet file...'
+      Text = 'Hamishaing to FunguaOffice SpreadSheet file'
     end
     item
       IndexID = 2091
-      Text = 'Use periods'
+      Text = 'Tumia Kipindis'
     end
     item
       IndexID = 2090
-      Text = 'Use numbers'
+      Text = 'Tumia Numbers'
     end
     item
       IndexID = 2089
-      Text = 'Doc. no.'
+      Text = 'Doc.no.'
     end
     item
       IndexID = 2088
@@ -7765,23 +7757,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2087
-      Text = 'Reverse posted document'
+      Text = 'Rejeza Stakabadhi Iliyosahihishwa'
     end
     item
       IndexID = 2086
-      Text = 'Reverse posted journal'
+      Text = 'Rejeza Bunda lililosahihishwa'
     end
     item
       IndexID = 2097
-      Text = 'Float transfer not allowed!'
+      Text = 'Float Hawilisha Lat Allowed'
     end
     item
       IndexID = 2096
-      Text = 'A record was edited! Do you wish to post you data?'
+      Text = 'A record was edited. Do you wish to post you data?'
     end
     item
       IndexID = 2095
-      Text = 'You cannot report from %s to %s !'
+      Text = 'You cannot report from %s to %s'
     end
     item
       IndexID = 2094
@@ -7789,15 +7781,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2093
-      Text = 'Including unposted items'
+      Text = 'Pamoja nauding unposted items'
     end
     item
       IndexID = 2092
-      Text = 'Show contra'
+      Text = 'Onyesha contra'
     end
     item
       IndexID = 2103
-      Text = '&Customize'
+      Text = '&Customise'
     end
     item
       IndexID = 2102
@@ -7809,33 +7801,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2100
-      Text = 'Click on [OK] to save new name'
+      Text = 'Tumia Sawa to save New Jina'
     end
     item
       IndexID = 2099
-      Text = 'Report layout file not found!'
+      Text = 'Ripoti Layout Faili Lat Found'
     end
     item
       IndexID = 2098
       Text = 
         'You still have amount receive. %s Cannot leave unpaid amount for' +
-        ' POS invoice!'
+        ' POS invoice'
     end
     item
       IndexID = 2109
-      Text = 'Select Set of Books directory'
+      Text = 'Select Hesabu Directory'
     end
     item
       IndexID = 2108
-      Text = 'From date'
+      Text = 'Kutoka date'
     end
     item
       IndexID = 2107
-      Text = 'Show contact details'
+      Text = 'Onyesha Physical Anwani'
     end
     item
       IndexID = 2106
-      Text = 'Number'
+      Text = 'number'
     end
     item
       IndexID = 2105
@@ -7843,23 +7835,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2104
-      Text = '&Update server'
+      Text = '&Sahihisha Server'
     end
     item
       IndexID = 2115
-      Text = 'Account digits'
+      Text = 'Akaunti digits'
     end
     item
       IndexID = 2114
-      Text = '<@APPNAME@> select backup file'
+      Text = '<@APPNAME@> Select Nakili Faili'
     end
     item
       IndexID = 2113
-      Text = 'Restore from server'
+      Text = 'Fufua from Server'
     end
     item
       IndexID = 2112
-      Text = 'E-mail backup'
+      Text = 'Barua Pepe Nakili'
     end
     item
       IndexID = 2111
@@ -7876,28 +7868,28 @@ object TTranslationSaveObject
     item
       IndexID = 2120
       Text = 
-        'Changing the inventory code will result in all reports to use th' +
-        'is code!'
+        'Changing the Bidhaa code wil result in all reports to use this c' +
+        'ode.'
     end
     item
       IndexID = 2119
-      Text = 'Change code'
+      Text = 'Badilisha Code'
     end
     item
       IndexID = 2118
-      Text = 'Compress message file'
+      Text = 'Compress Ujumbe Faili'
     end
     item
       IndexID = 2117
-      Text = 'Path'
+      Text = 'Njia'
     end
     item
       IndexID = 2116
-      Text = 'Name of Set of Books'
+      Text = 'Jina of Hesabu'
     end
     item
       IndexID = 2127
-      Text = 'Correct Debit/Credit'
+      Text = 'Correct debit/credit'
     end
     item
       IndexID = 2126
@@ -7905,11 +7897,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2125
-      Text = 'Update all'
+      Text = 'Sahihisha all'
     end
     item
       IndexID = 2124
-      Text = 'Inventory information'
+      Text = 'Bidhaa Information'
     end
     item
       IndexID = 2123
@@ -7917,15 +7909,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2122
-      Text = 'New inventory code'
+      Text = 'New Code ya Bidhaa'
     end
     item
       IndexID = 2133
-      Text = '&Contra account'
+      Text = '&Contra Akaunti'
     end
     item
       IndexID = 2132
-      Text = '&Date for transactions'
+      Text = '&Tarehe for Timilizo'
     end
     item
       IndexID = 2131
@@ -7933,7 +7925,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2130
-      Text = 'New reference'
+      Text = 'New Reference'
     end
     item
       IndexID = 2129
@@ -7941,15 +7933,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2128
-      Text = 'Totals for each period'
+      Text = 'Haditals for each Kipindi'
     end
     item
       IndexID = 2139
-      Text = 'From customer'
+      Text = 'Kutoka Mdaiwa:'
     end
     item
       IndexID = 2138
-      Text = 'Generate multiple transactions'
+      Text = 'Generate multiple Timilizo'
     end
     item
       IndexID = 2137
@@ -7957,11 +7949,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2136
-      Text = 'To customers with a balance less than (amount)'
+      Text = 'Hadi debtors with a balance less than (amount)'
     end
     item
       IndexID = 2135
-      Text = 'To customers for (amount)'
+      Text = 'Hadi debtors for (amount)'
     end
     item
       IndexID = 2134
@@ -7973,7 +7965,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2144
-      Text = 'Use A5 size'
+      Text = 'Tumia A5 Size'
     end
     item
       IndexID = 2143
@@ -7989,11 +7981,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2140
-      Text = 'To:'
+      Text = 'Hadi:'
     end
     item
       IndexID = 2151
-      Text = 'Enter overall discount'
+      Text = 'Timiza overall discount'
     end
     item
       IndexID = 2150
@@ -8017,59 +8009,59 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2157
-      Text = 'Credit note totals :'
+      Text = 'C/Late Haditals :'
     end
     item
       IndexID = 2156
-      Text = 'Invoice totals :'
+      Text = 'Ankra Haditals :'
     end
     item
       IndexID = 2155
-      Text = 'Invoice'
+      Text = 'Ankra'
     end
     item
       IndexID = 2154
-      Text = 'Vendor returns'
+      Text = 'Gds/Returned'
     end
     item
       IndexID = 2153
-      Text = 'Purchases'
+      Text = 'Nunuzi'
     end
     item
       IndexID = 2152
-      Text = 'Credit note'
+      Text = 'Credit Late'
     end
     item
       IndexID = 2163
-      Text = 'Purchase analysis - Purchases per vendor'
+      Text = 'Mauzo Uchambuzi - Ununuzi wa Bidhaa kwa Supplier'
     end
     item
       IndexID = 2162
-      Text = 'Vendor totals :'
+      Text = 'Supplier Haditals :'
     end
     item
       IndexID = 2161
-      Text = 'Vendor return totals :'
+      Text = 'Gds/Returned Haditals :'
     end
     item
       IndexID = 2160
-      Text = 'Purchase totals :'
+      Text = 'Nunuzi Haditals :'
     end
     item
       IndexID = 2159
-      Text = 'Sales analysis - Sales per customer'
+      Text = 'Mauzo Uchambuzi - Mauzo kwa Mteja'
     end
     item
       IndexID = 2158
-      Text = 'Customer totals :'
+      Text = 'Mteja Haditals :'
     end
     item
       IndexID = 2172
-      Text = 'Generate Balance B/F options'
+      Text = 'Generate Balance BF options'
     end
     item
       IndexID = 2171
-      Text = 'Use reference'
+      Text = 'Tumia reference'
     end
     item
       IndexID = 2170
@@ -8077,15 +8069,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2169
-      Text = 'Estimate'
+      Text = 'Kimo cha Bei'
     end
     item
       IndexID = 2168
-      Text = 'Set of Books location :'
+      Text = 'Hesabu location :'
     end
     item
       IndexID = 2167
-      Text = 'Search by invoice no.'
+      Text = 'Search kwa Ankra Number'
     end
     item
       IndexID = 2178
@@ -8093,39 +8085,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 'Tax amount found but tax account is deleted!'
+      Text = 'Kodi Amount Found but Kodi Akaunti Futad'
     end
     item
       IndexID = 2176
-      Text = 'Current date'
+      Text = 'Current Tarehe'
     end
     item
       IndexID = 2175
-      Text = 'Include items since'
+      Text = 'Ikiwemo Item Since'
     end
     item
       IndexID = 2174
-      Text = 'By debit dates'
+      Text = 'By Debit Tarehes'
     end
     item
       IndexID = 2173
-      Text = 'Clear links options'
+      Text = 'Clear Links options'
     end
     item
       IndexID = 2184
-      Text = 'Importing customers/vendors...'
+      Text = 'Letaing Wadaiwa/Wadai'
     end
     item
       IndexID = 2183
-      Text = 'Importing : %s  of %s...'
+      Text = 'Letaing : %s  of %s'
     end
     item
       IndexID = 2182
-      Text = 'To customer'
+      Text = 'Hadi Mdaiwa'
     end
     item
       IndexID = 2181
-      Text = 'From customer'
+      Text = 'Kutoka Mdaiwa'
     end
     item
       IndexID = 2180
@@ -8137,7 +8129,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2190
-      Text = 'Each journal separately'
+      Text = 'Each Batch Mbalily'
     end
     item
       IndexID = 2189
@@ -8145,7 +8137,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2188
-      Text = 'Checking unposted items'
+      Text = 'Checking Unposted Items'
     end
     item
       IndexID = 2187
@@ -8153,43 +8145,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2186
-      Text = 'Bank statement options'
+      Text = 'Akaunti ya Benki Recon Options'
     end
     item
       IndexID = 2185
-      Text = 'My description'
+      Text = 'My Elezo'
     end
     item
       IndexID = 2196
-      Text = 'Decimal symbol'
+      Text = 'Decimal Symbol'
     end
     item
       IndexID = 2195
-      Text = 'Digit symbol'
+      Text = 'Digit Symbol'
     end
     item
       IndexID = 2194
-      Text = 'Use currency sign'
+      Text = 'Tumia currency sign'
     end
     item
       IndexID = 2193
-      Text = 'Dutch text numbering'
+      Text = 'Dutch way of text num.'
     end
     item
       IndexID = 2192
-      Text = 'Printing on...'
+      Text = 'Kuchapisa on'
     end
     item
       IndexID = 2191
-      Text = 'Show details'
+      Text = 'Onyesha Maelezo Kamili'
     end
     item
       IndexID = 2202
-      Text = 'Edit vendors'
+      Text = 'Hariri Wadai'
     end
     item
       IndexID = 2201
-      Text = 'Edit customers'
+      Text = 'Hariri Wadaiwa'
     end
     item
       IndexID = 2200
@@ -8197,15 +8189,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2199
-      Text = 'Accounting'
+      Text = 'Akauntiing'
     end
     item
       IndexID = 2198
-      Text = 'Invoice/Accounting'
+      Text = 'Ankra/Akauntiing'
     end
     item
       IndexID = 2197
-      Text = 'Mode'
+      Text = 'Hali'
     end
     item
       IndexID = 2208
@@ -8213,27 +8205,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2207
-      Text = 'Country'
+      Text = 'Anwani 3'
     end
     item
       IndexID = 2206
-      Text = 'Address 2'
+      Text = 'Anwani 2'
     end
     item
       IndexID = 2205
-      Text = 'Manual bank reconciliation'
+      Text = 'View all bank statements'
     end
     item
       IndexID = 2204
-      Text = 'Edit bank'
+      Text = 'Hariri Bank'
     end
     item
       IndexID = 2203
-      Text = 'Edit tax'
+      Text = 'Hariri Kodi'
     end
     item
       IndexID = 2214
-      Text = 'Create Clieop file'
+      Text = 'Unda clieop file'
     end
     item
       IndexID = 2213
@@ -8241,7 +8233,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2212
-      Text = 'Automatic payments'
+      Text = 'Pay Wadai'
     end
     item
       IndexID = 2211
@@ -8257,15 +8249,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2220
-      Text = 'Address'
+      Text = 'Anwani'
     end
     item
       IndexID = 2219
-      Text = 'Vendor code'
+      Text = 'Mdai code'
     end
     item
       IndexID = 2218
-      Text = 'Customer code'
+      Text = 'Mdaiwa code'
     end
     item
       IndexID = 2217
@@ -8281,7 +8273,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2226
-      Text = 'Vendor payment report'
+      Text = 'Mdai payment report'
     end
     item
       IndexID = 2225
@@ -8305,15 +8297,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2232
-      Text = 'Payments'
+      Text = 'Malipo'
     end
     item
       IndexID = 2231
-      Text = 'Statement reference'
+      Text = 'Cheti Reference'
     end
     item
       IndexID = 2230
-      Text = 'Enter statement reference'
+      Text = 'Timiza Cheti Reference'
     end
     item
       IndexID = 2229
@@ -8321,35 +8313,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2228
-      Text = 'Total amount'
+      Text = 'Hadital amount'
     end
     item
       IndexID = 2227
-      Text = 'Total rows'
+      Text = 'Hadital rows'
     end
     item
       IndexID = 2238
-      Text = 'Import bank statement'
+      Text = 'Leta bankstatement'
     end
     item
       IndexID = 2237
-      Text = 'Delete line'
+      Text = 'Futa line'
     end
     item
       IndexID = 2236
-      Text = '^D : Delete statement'
+      Text = '^D : Futa statement'
     end
     item
       IndexID = 2235
-      Text = 'Last entered statement'
+      Text = 'ya Mwisho entered statement'
     end
     item
       IndexID = 2234
-      Text = 'Last total'
+      Text = 'ya Mwisho total'
     end
     item
       IndexID = 2233
-      Text = 'Receipts'
+      Text = 'Upokezi'
     end
     item
       IndexID = 2244
@@ -8361,7 +8353,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2242
-      Text = 'Sort'
+      Text = 'sort'
     end
     item
       IndexID = 2241
@@ -8369,7 +8361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2240
-      Text = 'No check'
+      Text = 'La check'
     end
     item
       IndexID = 2239
@@ -8377,15 +8369,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2251
-      Text = 'No Windows timers are available!'
+      Text = 'La Window'#39's timers are available.'
     end
     item
       IndexID = 2249
-      Text = 'This feature is not implemented at this time!'
+      Text = 'This feature is not implemented at this time.'
     end
     item
       IndexID = 2248
-      Text = 'Delete'
+      Text = 'Futa'
     end
     item
       IndexID = 2247
@@ -8401,103 +8393,103 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2257
-      Text = 'Error: Posting data to the database!'
+      Text = 'Error posting data to the database.'
     end
     item
       IndexID = 2256
-      Text = 'The end time cannot precede the start time!'
+      Text = 'The end time cannot precede the start time.'
     end
     item
       IndexID = 2255
-      Text = 'Conflicts with another exclusive event!'
+      Text = 'Conflicts with another exclusive event.'
     end
     item
       IndexID = 2254
-      Text = 'Folder editor'
+      Text = 'Folder Haririor.'
     end
     item
       IndexID = 2253
-      Text = 'Folder items editor.'
+      Text = 'Folder Items Haririor.'
     end
     item
       IndexID = 2252
-      Text = 'Invalid trigger handle!'
+      Text = 'Invalid trigger handle.'
     end
     item
       IndexID = 2263
-      Text = 'Error: Invalid year!'
+      Text = 'Error: Invalid Mwaka.'
     end
     item
       IndexID = 2262
-      Text = 'Error: Invalid month name!'
+      Text = 'Error: Invalid Month Jina.'
     end
     item
       IndexID = 2261
-      Text = 'Error: Invalid month!'
+      Text = 'Error: Invalid Month.'
     end
     item
       IndexID = 2250
-      Text = 'Error: Invalid date!'
+      Text = 'Error: Invalid Tarehe.'
     end
     item
       IndexID = 2259
-      Text = 'Error: Invalid day!'
+      Text = 'Error: Invalid Day.'
     end
     item
       IndexID = 2258
-      Text = 'Error converting the month number!'
+      Text = 'Error converting the month number.'
     end
     item
       IndexID = 2269
-      Text = 'Error: Failure while creating event!'
+      Text = 'Error: Failure while creating Event.'
     end
     item
       IndexID = 2268
-      Text = 'Error: Failure while creating task!'
+      Text = 'Error: Failure while creating Task.'
     end
     item
       IndexID = 2267
-      Text = 'Error: Name cannot be empty!'
+      Text = 'Error: Jina cannot be empty.'
     end
     item
       IndexID = 2266
-      Text = 'Error: Year is required!'
+      Text = 'Error: Mwaka is required.'
     end
     item
       IndexID = 2265
-      Text = 'Error: Month is required!'
+      Text = 'Error: Month Is Required.'
     end
     item
       IndexID = 2264
-      Text = 'Error: Day is required!'
+      Text = 'Error: Day is required.'
     end
     item
       IndexID = 2275
-      Text = 'Error: Unable to update!'
+      Text = 'Error: Unable to update'
     end
     item
       IndexID = 2274
-      Text = 'Error: Unable to open!'
+      Text = 'Error: Unable to open'
     end
     item
       IndexID = 2273
-      Text = 'Error: Invalid table specified!'
+      Text = 'Error: Invalid table specified.'
     end
     item
       IndexID = 2272
-      Text = 'Error: Duplicate resource!'
+      Text = 'Error: Duplicate Resource.'
     end
     item
       IndexID = 2271
-      Text = 'Error: Failure while creating resource!'
+      Text = 'Error: Failure while creating Resource.'
     end
     item
       IndexID = 2260
-      Text = 'Error: Failure while creating contact!'
+      Text = 'Error: Failure while creating Mwenye Kuongelewa.'
     end
     item
       IndexID = 2281
-      Text = 'Home fax'
+      Text = 'Home Kipepeo'
     end
     item
       IndexID = 2280
@@ -8505,7 +8497,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2279
-      Text = 'Company'
+      Text = 'Kampuni'
     end
     item
       IndexID = 2278
@@ -8529,7 +8521,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2285
-      Text = 'Other fax'
+      Text = 'Other Kipepeo'
     end
     item
       IndexID = 2284
@@ -8549,7 +8541,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2292
-      Text = 'Work fax'
+      Text = 'Work Kipepeo'
     end
     item
       IndexID = 2291
@@ -8561,7 +8553,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2289
-      Text = 'Telex'
+      Text = 'Simuex'
     end
     item
       IndexID = 2288
@@ -8673,7 +8665,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2321
-      Text = 'None'
+      Text = 'Lane'
     end
     item
       IndexID = 2320
@@ -8697,27 +8689,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2327
-      Text = 'Yearly by date'
+      Text = 'Mwakaly By Tarehe'
     end
     item
       IndexID = 2326
-      Text = 'Yearly by day'
+      Text = 'Mwakaly By Day'
     end
     item
       IndexID = 2325
-      Text = 'Monthly by date'
+      Text = 'Monthly By Tarehe'
     end
     item
       IndexID = 2324
-      Text = 'Monthly by day'
+      Text = 'Monthly By Day'
     end
     item
       IndexID = 2335
-      Text = 'Edit contact...'
+      Text = 'Hariri Mwenye Kuongelewa...'
     end
     item
       IndexID = 2334
-      Text = 'Add contact...'
+      Text = 'Add Mwenye Kuongelewa...'
     end
     item
       IndexID = 2333
@@ -8737,15 +8729,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2341
-      Text = 'Delete task...'
+      Text = 'Futa Task...'
     end
     item
       IndexID = 2340
-      Text = 'Edit task...'
+      Text = 'Hariri Task...'
     end
     item
       IndexID = 2339
-      Text = 'Add task...'
+      Text = 'Add Task...'
     end
     item
       IndexID = 2338
@@ -8757,175 +8749,175 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2336
-      Text = 'Delete contact...'
+      Text = 'Futa Mwenye Kuongelewa...'
     end
     item
       IndexID = 2347
-      Text = 'Next year'
+      Text = 'Next Mwaka'
     end
     item
       IndexID = 2346
-      Text = 'Previous month'
+      Text = 'Previous Month'
     end
     item
       IndexID = 2345
-      Text = 'Next month'
+      Text = 'Next Month'
     end
     item
       IndexID = 2344
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2343
-      Text = 'Task list'
+      Text = 'Task List'
     end
     item
       IndexID = 2342
-      Text = 'Task list -'
+      Text = 'Task List -'
     end
     item
       IndexID = 2353
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2352
-      Text = 'Change date'
+      Text = 'Badilisha Tarehe'
     end
     item
       IndexID = 2351
-      Text = '&Delete event...'
+      Text = '&Futa Event...'
     end
     item
       IndexID = 2350
-      Text = 'Edit event...'
+      Text = 'Hariri Event...'
     end
     item
       IndexID = 2349
-      Text = 'Add event...'
+      Text = 'Add Event...'
     end
     item
       IndexID = 2348
-      Text = 'Previous year'
+      Text = 'Previous Mwaka'
     end
     item
       IndexID = 2359
-      Text = 'Previous year'
+      Text = 'Previous Mwaka'
     end
     item
       IndexID = 2358
-      Text = 'Next year'
+      Text = 'Next Mwaka'
     end
     item
       IndexID = 2357
-      Text = 'Previous month'
+      Text = 'Previous Month'
     end
     item
       IndexID = 2356
-      Text = 'Next month'
+      Text = 'Next Month'
     end
     item
       IndexID = 2355
-      Text = 'Previous week'
+      Text = 'Previous Week'
     end
     item
       IndexID = 2354
-      Text = 'Next week'
+      Text = 'Next Week'
     end
     item
       IndexID = 2365
-      Text = 'Edit event...'
+      Text = 'Hariri Event...'
     end
     item
       IndexID = 2364
-      Text = 'Add event...'
+      Text = 'Add Event...'
     end
     item
       IndexID = 2363
-      Text = 'Last page'
+      Text = 'ya Mwisho Page'
     end
     item
       IndexID = 2362
-      Text = 'First page'
+      Text = 'First Page'
     end
     item
       IndexID = 2361
-      Text = 'Next page'
+      Text = 'Next Page'
     end
     item
       IndexID = 2360
-      Text = 'Previous page'
+      Text = 'Previous Page'
     end
     item
       IndexID = 2371
-      Text = 'Next day'
+      Text = 'Next Day'
     end
     item
       IndexID = 2370
-      Text = 'Yesterday'
+      Text = 'Ndioterday'
     end
     item
       IndexID = 2369
-      Text = 'Tomorrow'
+      Text = 'Hadimorrow'
     end
     item
       IndexID = 2368
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2367
-      Text = 'Change date'
+      Text = 'Badilisha Tarehe'
     end
     item
       IndexID = 2366
-      Text = 'Delete event...'
+      Text = 'Futa Event...'
     end
     item
       IndexID = 2377
-      Text = 'Next year'
+      Text = 'Next Mwaka'
     end
     item
       IndexID = 2376
-      Text = 'Previous month'
+      Text = 'Previous Month'
     end
     item
       IndexID = 2375
-      Text = 'Next month'
+      Text = 'Next Month'
     end
     item
       IndexID = 2374
-      Text = 'Previous week'
+      Text = 'Previous Week'
     end
     item
       IndexID = 2373
-      Text = 'Next week'
+      Text = 'Next Week'
     end
     item
       IndexID = 2372
-      Text = 'Previous day'
+      Text = 'Previous Day'
     end
     item
       IndexID = 2383
-      Text = 'Previous week'
+      Text = 'Previous Week'
     end
     item
       IndexID = 2382
-      Text = 'Next week'
+      Text = 'Next Week'
     end
     item
       IndexID = 2381
-      Text = 'Yesterday'
+      Text = 'Ndioterday'
     end
     item
       IndexID = 2380
-      Text = 'Tomorrow'
+      Text = 'Hadimorrow'
     end
     item
       IndexID = 2379
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2378
-      Text = 'Previous year'
+      Text = 'Previous Mwaka'
     end
     item
       IndexID = 2389
@@ -8937,7 +8929,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2387
-      Text = 'E-mail'
+      Text = 'E-Mail'
     end
     item
       IndexID = 2386
@@ -8945,7 +8937,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2385
-      Text = 'Company'
+      Text = 'Kampuni'
     end
     item
       IndexID = 2384
@@ -8953,7 +8945,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2395
-      Text = 'OK'
+      Text = 'Sawa'
     end
     item
       IndexID = 2394
@@ -8973,15 +8965,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2390
-      Text = 'Notes'
+      Text = 'Lates'
     end
     item
       IndexID = 2401
-      Text = 'Sound finder'
+      Text = 'Sound Finder'
     end
     item
       IndexID = 2400
-      Text = 'Select a sound'
+      Text = 'Select A Sound'
     end
     item
       IndexID = 2399
@@ -8989,27 +8981,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2398
-      Text = '&Print'
+      Text = '&Chapisha'
     end
     item
       IndexID = 2397
-      Text = '&Close'
+      Text = '&Funga'
     end
     item
       IndexID = 2396
-      Text = 'Cancel'
+      Text = 'Acha'
     end
     item
       IndexID = 2407
-      Text = 'Start time'
+      Text = 'Start Time:'
     end
     item
       IndexID = 2406
-      Text = 'Category'
+      Text = 'Category:'
     end
     item
       IndexID = 2405
-      Text = 'Subject'
+      Text = 'Subject:'
     end
     item
       IndexID = 2404
@@ -9021,23 +9013,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2402
-      Text = 'Use default sound'
+      Text = 'Tumia the default sound'
     end
     item
       IndexID = 2413
-      Text = '&All day event'
+      Text = '&All Day Event'
     end
     item
       IndexID = 2412
-      Text = 'Repeat until'
+      Text = 'Repeat Until:'
     end
     item
       IndexID = 2411
-      Text = 'Interval (days)'
+      Text = 'Interval (days):'
     end
     item
       IndexID = 2410
-      Text = 'Appointment recurrence'
+      Text = 'Appointment Recurrence:'
     end
     item
       IndexID = 2409
@@ -9045,63 +9037,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2408
-      Text = 'End time'
+      Text = 'End Time:'
     end
     item
       IndexID = 2419
-      Text = 'Address 2'
+      Text = 'City:'
     end
     item
       IndexID = 2418
-      Text = 'Address'
+      Text = 'Anwani:'
     end
     item
       IndexID = 2417
-      Text = 'Title'
+      Text = 'Title:'
     end
     item
       IndexID = 2416
-      Text = 'Name'
+      Text = 'Jina:'
     end
     item
       IndexID = 2415
-      Text = 'Contact'
+      Text = 'Mwenye Kuongelewa'
     end
     item
       IndexID = 2414
-      Text = 'Notes'
+      Text = 'Lates:'
     end
     item
       IndexID = 2425
-      Text = 'Print preview'
+      Text = 'Chapisha Preview'
     end
     item
       IndexID = 2424
-      Text = 'Position'
+      Text = 'Position:'
     end
     item
       IndexID = 2423
-      Text = 'Company'
+      Text = 'Kampuni:'
     end
     item
       IndexID = 2422
-      Text = 'Zip code'
+      Text = 'Zip Code:'
     end
     item
       IndexID = 2421
-      Text = 'Country'
+      Text = 'Country:'
     end
     item
       IndexID = 2420
-      Text = 'Address 3'
+      Text = 'State:'
     end
     item
       IndexID = 2431
-      Text = 'Created on'
+      Text = 'Undad on'
     end
     item
       IndexID = 2430
-      Text = 'Days overdue'
+      Text = ' Days overdue'
     end
     item
       IndexID = 2429
@@ -9109,11 +9101,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2428
-      Text = 'Details'
+      Text = 'Maelezo Kamili:'
     end
     item
       IndexID = 2427
-      Text = 'Due date'
+      Text = 'Due Tarehe:'
     end
     item
       IndexID = 2426
@@ -9121,15 +9113,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2437
-      Text = 'Notes'
+      Text = 'Lates:'
     end
     item
       IndexID = 2436
-      Text = 'Subject'
+      Text = 'Subject:'
     end
     item
       IndexID = 2435
-      Text = 'Click [&Snooze] to be reminded again in:'
+      Text = 'Click &Snooze to be reminded again in:'
     end
     item
       IndexID = 2434
@@ -9145,19 +9137,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2443
-      Text = '15 minutes'
+      Text = '15 Minutes'
     end
     item
       IndexID = 2442
-      Text = '10 minutes'
+      Text = '10 Minutes'
     end
     item
       IndexID = 2441
-      Text = '5 minutes'
+      Text = '5 Minutes'
     end
     item
       IndexID = 2440
-      Text = '&Open item'
+      Text = '&Ingizo Wazi'
     end
     item
       IndexID = 2439
@@ -9169,79 +9161,79 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2449
-      Text = '4 hours'
+      Text = '4 Hours'
     end
     item
       IndexID = 2448
-      Text = '3 hours'
+      Text = '3 Hours'
     end
     item
       IndexID = 2447
-      Text = '2 hours'
+      Text = '2 Hours'
     end
     item
       IndexID = 2446
-      Text = '1 hour'
+      Text = '1 Hour'
     end
     item
       IndexID = 2445
-      Text = '45 minutes'
+      Text = '45 Minutes'
     end
     item
       IndexID = 2444
-      Text = '30 minutes'
+      Text = '30 Minutes'
     end
     item
       IndexID = 2455
-      Text = '2 days'
+      Text = '2 Days'
     end
     item
       IndexID = 2454
-      Text = '1 day'
+      Text = '1 Day'
     end
     item
       IndexID = 2453
-      Text = '8 hours'
+      Text = '8 Hours'
     end
     item
       IndexID = 2452
-      Text = '7 hours'
+      Text = '7 Hours'
     end
     item
       IndexID = 2451
-      Text = '6 hours'
+      Text = '6 Hours'
     end
     item
       IndexID = 2450
-      Text = '5 hours'
+      Text = '5 Hours'
     end
     item
       IndexID = 2461
-      Text = 'Previous month'
+      Text = 'Previous Month'
     end
     item
       IndexID = 2460
-      Text = '1 week'
+      Text = '1 Week'
     end
     item
       IndexID = 2459
-      Text = '6 days'
+      Text = '6 Days'
     end
     item
       IndexID = 2458
-      Text = '5 days'
+      Text = '5 Days'
     end
     item
       IndexID = 2457
-      Text = '4 days'
+      Text = '4 Days'
     end
     item
       IndexID = 2456
-      Text = '3 days'
+      Text = '3 Days'
     end
     item
       IndexID = 2467
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2466
@@ -9249,23 +9241,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2465
-      Text = 'Today'
+      Text = 'Hadiday'
     end
     item
       IndexID = 2464
-      Text = 'Next year'
+      Text = 'Next Mwaka'
     end
     item
       IndexID = 2463
-      Text = 'Previous year'
+      Text = 'Previous Mwaka'
     end
     item
       IndexID = 2462
-      Text = 'Next month'
+      Text = 'Next Month'
     end
     item
       IndexID = 2773
-      Text = 'Cannot open WININET! Microsoft IE required!'
+      Text = 'Cannot open WININET, Microsoft IE required'
     end
     item
       IndexID = 2472
@@ -9273,91 +9265,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2471
-      Text = 'Previous year'
+      Text = 'Previous Mwaka'
     end
     item
       IndexID = 2470
-      Text = 'Next year'
+      Text = 'Next Mwaka'
     end
     item
       IndexID = 2469
-      Text = 'Previous month'
+      Text = 'Previous Month'
     end
     item
       IndexID = 2468
-      Text = 'Next month'
+      Text = 'Next Month'
     end
     item
       IndexID = 2779
-      Text = 'Unable to send HTTP request!'
+      Text = 'Unable to send http request'
     end
     item
       IndexID = 2778
-      Text = 'HTTP data not available!'
+      Text = 'Http data not available'
     end
     item
       IndexID = 2777
-      Text = 'HTTP read request failed!'
+      Text = 'Http read request failed'
     end
     item
       IndexID = 2776
-      Text = 'Unable to allocate memory for XML source!'
+      Text = 'Unable to allocate memory for XML source'
     end
     item
       IndexID = 2775
-      Text = 'File %s could not be found!'
+      Text = 'Faili %s could not be found'
     end
     item
       IndexID = 2774
-      Text = 'Unable to open file!'
+      Text = 'Unable to open file'
     end
     item
       IndexID = 2785
-      Text = 'FTP read request failed!'
+      Text = 'Ftp read request failed'
     end
     item
       IndexID = 2784
-      Text = 'Invalid FTP directory!'
+      Text = 'Invalid ftp directory'
     end
     item
       IndexID = 2783
-      Text = 'Invalid FTP location!'
+      Text = 'Invalid ftp location'
     end
     item
       IndexID = 2782
-      Text = 'Unable to open Internet!'
+      Text = 'Unable to open Internet'
     end
     item
       IndexID = 2781
-      Text = 'Unable to make Internet connection!'
+      Text = 'Unable to make Internet connection'
     end
     item
       IndexID = 2780
-      Text = 'Unable to open HTTP request!'
+      Text = 'Unable to open http request'
     end
     item
       IndexID = 2791
-      Text = 'Line: %d Col: %d Error: %s !'
+      Text = 'Line: %d Col: %d Error: %s'
     end
     item
       IndexID = 2790
-      Text = 'Invalid memory pointer!'
+      Text = 'Invalid memory Pointer'
     end
     item
       IndexID = 2789
-      Text = 'Unable to load source!'
+      Text = 'Unable to load source'
     end
     item
       IndexID = 2788
-      Text = 'Could not save file via FTP to %s'
+      Text = 'Could not save file via ftp to %s'
     end
     item
       IndexID = 2787
-      Text = 'Unable to open FTP file!'
+      Text = 'Unable to open ftp file'
     end
     item
       IndexID = 2786
-      Text = 'FTP data not available!'
+      Text = 'Ftp data not available'
     end
     item
       IndexID = 2797
@@ -9365,7 +9357,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2796
-      Text = 'System identifier missing!'
+      Text = 'System identifier missing'
     end
     item
       IndexID = 2795
@@ -9381,11 +9373,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2792
-      Text = 'ERROR INDEX OUT OF BOUNDS!'
+      Text = 'ERROR INDEX OUT OF BOUNDS'
     end
     item
       IndexID = 2803
-      Text = 'Illegal character in reference!'
+      Text = 'Illegal character in reference'
     end
     item
       IndexID = 2802
@@ -9393,11 +9385,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2801
-      Text = 'Unexpected end of file!'
+      Text = 'Unexpected end of file'
     end
     item
       IndexID = 2800
-      Text = 'Expected comment or CDATA section!'
+      Text = 'Expected comment or CDATA section'
     end
     item
       IndexID = 2799
@@ -9421,7 +9413,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2806
-      Text = 'Whitespace expected at byte!'
+      Text = 'Whitespace expected at kwate'
     end
     item
       IndexID = 2805
@@ -9433,7 +9425,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2815
-      Text = 'Attributes cannot be redefined in a start tag!'
+      Text = 'Attributes cannot be redefined in a start tag'
     end
     item
       IndexID = 2814
@@ -9443,11 +9435,11 @@ object TTranslationSaveObject
       IndexID = 2813
       Text = 
         'Document cannot start with a comment if it also contains an XML ' +
-        'declaration!'
+        'declaration'
     end
     item
       IndexID = 2812
-      Text = 'Invalid comment text!'
+      Text = 'Invalid comment text'
     end
     item
       IndexID = 2811
@@ -9455,11 +9447,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2810
-      Text = 'Unable to create stream for input!'
+      Text = 'Unable to create stream for input.'
     end
     item
       IndexID = 2821
-      Text = 'Notation not declared:'
+      Text = 'Latation not declared:'
     end
     item
       IndexID = 2820
@@ -9468,36 +9460,16 @@ object TTranslationSaveObject
         'type declaration!'
     end
     item
-      IndexID = 3056
-      Text = 'Refresh'
-    end
-    item
-      IndexID = 3055
-      Text = 'Contra tax'
-    end
-    item
-      IndexID = 3054
-      Text = 'Link tax'
-    end
-    item
-      IndexID = 3053
-      Text = 'Use link tax'
-    end
-    item
-      IndexID = 3052
-      Text = 'Expand after refresh'
-    end
-    item
       IndexID = 3051
       Text = 'Account starts with'
     end
     item
       IndexID = 3050
-      Text = 'Use default tax'
+      Text = 'Use Default Tax'
     end
     item
       IndexID = 3018
-      Text = 'Warning - This report contains unposted journals!'
+      Text = 'Ripoti hii ina bunda ambazo hazijaingizwa'
     end
     item
       IndexID = 3017
@@ -9505,15 +9477,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3016
-      Text = 'Bank balance according to <@APPNAME@> at'
+      Text = 'Tarafu Kwenye Benki kwa <@APPNAME@>'
     end
     item
       IndexID = 3015
-      Text = 'Reconciled bank balance'
+      Text = 'Tarafu Iliyolinganishwa ya Bank'
     end
     item
       IndexID = 3014
-      Text = 'Bank reconciliation report as at'
+      Text = 'Taarifa ya Daftari ya Pesa'
     end
     item
       IndexID = 3013
@@ -9521,11 +9493,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3012
-      Text = 'All years'
+      Text = 'Miaka Yote'
     end
     item
       IndexID = 3011
-      Text = 'All documents'
+      Text = 'Stakabadhi Zote'
     end
     item
       IndexID = 3010
@@ -9539,7 +9511,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3008
-      Text = 'A new year has been opened succesfully!'
+      Text = 'A new year has been opened succesfull!'
     end
     item
       IndexID = 2823
@@ -9547,7 +9519,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2822
-      Text = 'Invalid public id character:'
+      Text = 'Invalid PublicID character:'
     end
     item
       IndexID = 2831
@@ -9631,11 +9603,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2847
-      Text = 'Format name cannot be blank!'
+      Text = 'FormatJina cannot be blank'
     end
     item
       IndexID = 2846
-      Text = 'Please supply an element name!'
+      Text = 'Please supply an Element Jina'
     end
     item
       IndexID = 2845
@@ -9667,7 +9639,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2850
-      Text = 'Invalid item type!'
+      Text = 'Invalid Item Type!'
     end
     item
       IndexID = 2861
@@ -9675,11 +9647,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2860
-      Text = 'Vendor appointment'
+      Text = 'Wadai appointment'
     end
     item
       IndexID = 2859
-      Text = 'Customer appointment'
+      Text = 'Wadaiwa appointment'
     end
     item
       IndexID = 2858
@@ -9691,11 +9663,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2856
-      Text = 'Localisation file not found!'
+      Text = 'Localization file not found.'
     end
     item
       IndexID = 2867
-      Text = 'Edit print formats...'
+      Text = 'Hariri Chapisha Formats...'
     end
     item
       IndexID = 2866
@@ -9735,11 +9707,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2869
-      Text = 'No resource has been selected! Would you like to select one now?'
+      Text = 'La resource has been selected. Would you like to select one now?'
     end
     item
       IndexID = 2868
-      Text = 'No resources have been defined! Would you like to add one now?'
+      Text = 'La resources have been defined. Would you like to add one now?'
     end
     item
       IndexID = 2879
@@ -9747,7 +9719,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2878
-      Text = '# Display days'
+      Text = '# Display Days'
     end
     item
       IndexID = 2877
@@ -9755,7 +9727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2876
-      Text = 'Contacts'
+      Text = 'Mwenye Kuongelewas'
     end
     item
       IndexID = 2875
@@ -9767,15 +9739,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2885
-      Text = 'Process all'
+      Text = 'MchakatoAll'
     end
     item
       IndexID = 2884
-      Text = 'Invoice date'
+      Text = 'Ankra date'
     end
     item
       IndexID = 2883
-      Text = 'Repeating invoice'
+      Text = 'Repeating Ankra'
     end
     item
       IndexID = 2882
@@ -9788,12 +9760,12 @@ object TTranslationSaveObject
     item
       IndexID = 2880
       Text = 
-        'Please save this repeating invoice first! After reopening you ca' +
-        'n add clients to the invoice.'
+        'Please save this repeating invoice firts. After reopening you ca' +
+        'n add clients to invoice'
     end
     item
       IndexID = 2891
-      Text = '&Telephone'
+      Text = '&Simu'
     end
     item
       IndexID = 2890
@@ -9801,7 +9773,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2889
-      Text = '&Edit'
+      Text = '&Hariri'
     end
     item
       IndexID = 2888
@@ -9809,35 +9781,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2887
-      Text = 'Process selected'
+      Text = 'Mchakatoselected'
     end
     item
       IndexID = 2886
-      Text = 'Process list'
+      Text = 'Mchakatolist'
     end
     item
       IndexID = 2897
-      Text = 'Please enter a name for the Set of Books!'
+      Text = 'Please enter a name for the Hesabu'
     end
     item
       IndexID = 2896
-      Text = 'Automatic receipts'
+      Text = 'Receive Wadaiwa'
     end
     item
       IndexID = 2895
-      Text = 'Due date is lower then document date!'
+      Text = 'Due Tarehe is lower then document date'
     end
     item
       IndexID = 2894
-      Text = 'Document(s) created!'
+      Text = 'Document(s) created.'
     end
     item
       IndexID = 2893
-      Text = 'Due amount'
+      Text = 'Due Amount'
     end
     item
       IndexID = 2892
-      Text = '&Notes'
+      Text = '&Lates'
     end
     item
       IndexID = 2903
@@ -9847,15 +9819,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2902
-      Text = 'Lookup vendor'
+      Text = 'Lookup Mdai'
     end
     item
       IndexID = 2901
-      Text = 'Lookup customer'
+      Text = 'Lookup Mdaiwa'
     end
     item
       IndexID = 2900
-      Text = 'Lookup document with amount'
+      Text = 'Lookup Doc with amount'
     end
     item
       IndexID = 2899
@@ -9863,19 +9835,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2898
-      Text = 'Update bank account'
+      Text = 'Sahihisha bankaccount'
     end
     item
       IndexID = 2909
-      Text = 'Open item ledgers'
+      Text = 'Ingizo Wazi Daftaris'
     end
     item
       IndexID = 2908
-      Text = 'Reporting decimals'
+      Text = 'Ripotiing Decimals'
     end
     item
       IndexID = 2907
-      Text = 'Special settings'
+      Text = 'Special Settings'
     end
     item
       IndexID = 2906
@@ -9883,11 +9855,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2905
-      Text = 'Data storage'
+      Text = 'Data Storage'
     end
     item
       IndexID = 2904
-      Text = 'Report amounts with'
+      Text = 'Ripoti amounts with'
     end
     item
       IndexID = 2915
@@ -9903,19 +9875,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2912
-      Text = 'Fixed decimals'
+      Text = 'Fixed Decimals'
     end
     item
       IndexID = 2911
-      Text = 'Real numbers'
+      Text = 'Real Numbers'
     end
     item
       IndexID = 2910
-      Text = 'Do not use Reportman'
+      Text = 'Do not use Ripotiman'
     end
     item
       IndexID = 2921
-      Text = 'Sales (no inventory)'
+      Text = 'Mauzo (La stock)'
     end
     item
       IndexID = 2920
@@ -9923,31 +9895,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2919
-      Text = 'Extra description'
+      Text = 'Extra Elezo'
     end
     item
       IndexID = 2918
-      Text = 'Use current date for reports'
+      Text = 'Tumia current date for reports'
     end
     item
       IndexID = 2917
-      Text = 'No warning unposted'
+      Text = 'La warning unposted'
     end
     item
       IndexID = 2916
-      Text = 'Show calandar'
+      Text = 'Onyesha Calandar'
     end
     item
       IndexID = 2927
-      Text = 'Auto-copy info'
+      Text = 'Auto copy info'
     end
     item
       IndexID = 2926
-      Text = 'Document quantity'
+      Text = 'Document Quantity'
     end
     item
       IndexID = 2925
-      Text = 'Do not calculate journals'
+      Text = 'Do not calc batch'
     end
     item
       IndexID = 2924
@@ -9955,11 +9927,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2923
-      Text = 'BOM list'
+      Text = 'BOM List'
     end
     item
       IndexID = 2922
-      Text = 'Purchase (no inventory)'
+      Text = 'Nunuzi (La stock)'
     end
     item
       IndexID = 2933
@@ -9967,15 +9939,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2932
-      Text = 'No print confirmation'
+      Text = 'La Chapisha Confirmation'
     end
     item
       IndexID = 2931
-      Text = 'Cannot sell out of inventory'
+      Text = 'Can'#39't Sell out of Bidhaa'
     end
     item
       IndexID = 2930
-      Text = 'No backorder'
+      Text = 'La Back-Order'
     end
     item
       IndexID = 2929
@@ -9983,15 +9955,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2928
-      Text = 'Use default account'
+      Text = 'Tumia default account'
     end
     item
       IndexID = 2939
-      Text = '2 X 20 chars POS Pole'
+      Text = '2 X 20 chars POS Poll'
     end
     item
       IndexID = 2938
-      Text = 'Default POS Pole'
+      Text = 'Default POS Poll'
     end
     item
       IndexID = 2937
@@ -9999,15 +9971,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2936
-      Text = 'Pole display connected'
+      Text = 'Pol DIsplay Connected'
     end
     item
       IndexID = 2935
-      Text = 'Pole display'
+      Text = 'Poll Display'
     end
     item
       IndexID = 2934
-      Text = 'Cannot create items'
+      Text = 'Can'#39't create items'
     end
     item
       IndexID = 2946
@@ -10015,7 +9987,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2945
-      Text = 'Fast switch salesperson'
+      Text = 'Fast switch Muuzaji'
     end
     item
       IndexID = 2943
@@ -10027,11 +9999,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2941
-      Text = 'Weight dish connected'
+      Text = 'Weight Dish connected'
     end
     item
       IndexID = 2940
-      Text = 'Weight dish'
+      Text = 'Weight Dish'
     end
     item
       IndexID = 2952
@@ -10045,67 +10017,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2950
-      Text = 'Use customer selling price'
+      Text = 'Tumia debtor selling price'
     end
     item
       IndexID = 2949
-      Text = 'Use password for discount'
+      Text = 'Tumia password for discount'
     end
     item
       IndexID = 2948
-      Text = 'Discount password'
+      Text = 'Discount PW'
     end
     item
       IndexID = 2947
-      Text = 'Show qty on hand'
+      Text = 'Onyesha qty on hand'
     end
     item
       IndexID = 2957
-      Text = 'Generate Reportman directories'
+      Text = 'Generate reportman dirs'
     end
     item
       IndexID = 2956
-      Text = 'Backup reports'
+      Text = 'Nakili reports'
     end
     item
       IndexID = 2954
-      Text = 'Change account'
+      Text = 'Badilisha account'
     end
     item
       IndexID = 2953
-      Text = 'Print bacodes'
+      Text = 'Chapisha barcodes'
     end
     item
       IndexID = 2962
-      Text = 'Suppress open item'
+      Text = 'Suppress Funguaitem'
     end
     item
       IndexID = 2961
-      Text = 'Enter amount to link'
+      Text = 'Timiza amount to link'
     end
     item
       IndexID = 2960
-      Text = 'Reprint transactions'
+      Text = 'Chapisha Upya transactions'
     end
     item
       IndexID = 2959
-      Text = 'Receive payment'
+      Text = 'Receive Payment'
     end
     item
       IndexID = 2958
-      Text = 'Unlink transaction'
+      Text = 'Unlink Transaction'
     end
     item
       IndexID = 2824
-      Text = 'Stand alone value must equal '#39'yes'#39' or '#39'no'#39
+      Text = 'Standalone value must equal '#39'yes'#39' or '#39'no'#39
     end
     item
       IndexID = 2968
-      Text = 'Outgoing mail server identification (SMTP)'
+      Text = 'Outgoing Mail server identification (SMTP)'
     end
     item
       IndexID = 2967
-      Text = 'Use filter'
+      Text = 'Tumia filter'
     end
     item
       IndexID = 2966
@@ -10113,19 +10085,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2965
-      Text = 'Select backup directory'
+      Text = 'Select Nakili Directory'
     end
     item
       IndexID = 2964
-      Text = 'Printed'
+      Text = 'Chapishaed'
     end
     item
       IndexID = 2963
-      Text = 'Remember inclusive'
+      Text = 'Remember inc'
     end
     item
       IndexID = 2974
-      Text = 'Document posting'
+      Text = 'Doc posting'
     end
     item
       IndexID = 2973
@@ -10133,11 +10105,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2972
-      Text = 'Select from delimited list'
+      Text = 'Select from delimeted list'
     end
     item
       IndexID = 2971
-      Text = 'Your list with comma separation'
+      Text = 'Your list with comma seperation'
     end
     item
       IndexID = 2970
@@ -10149,11 +10121,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2980
-      Text = 'Show budget'
+      Text = 'Onyesha Budget'
     end
     item
       IndexID = 2979
-      Text = 'Opening balances only'
+      Text = 'Funguaing balance only'
     end
     item
       IndexID = 2978
@@ -10161,23 +10133,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2977
-      Text = 'Select new Set of Books directory'
+      Text = 'Select New Hesabu Directory'
     end
     item
       IndexID = 2976
-      Text = 'Edit quantity'
+      Text = 'Hariri Qantity'
     end
     item
       IndexID = 2975
-      Text = 'Link to salesperson'
+      Text = 'Link to salesman'
     end
     item
       IndexID = 2986
-      Text = 'Show all salespersons'
+      Text = 'Onyesha All Wauzaji'
     end
     item
       IndexID = 2985
-      Text = 'Show zero inventory count'
+      Text = 'Each MauzoPerson Separetly'
     end
     item
       IndexID = 2984
@@ -10185,7 +10157,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2983
-      Text = 'Estimates / Orders'
+      Text = 'Kimo cha Bei Nunuzi'
     end
     item
       IndexID = 2982
@@ -10193,31 +10165,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2981
-      Text = 'Show all inventory items'
+      Text = 'Onyesha all stockitems'
     end
     item
       IndexID = 2992
-      Text = 'No document posting'
+      Text = 'La doc posting'
     end
     item
       IndexID = 2991
-      Text = 'Print logo'
+      Text = 'Chapisha Logo'
     end
     item
       IndexID = 2990
-      Text = 'Print frames'
+      Text = 'Chapisha Frames'
     end
     item
       IndexID = 2989
-      Text = 'Sales report'
+      Text = 'Mauzo Ripoti'
     end
     item
       IndexID = 2988
-      Text = 'Cash-up report'
+      Text = 'Cashup Ripoti'
     end
     item
       IndexID = 2987
-      Text = 'Show invoice no.'
+      Text = 'Onyesha Ankra Number'
     end
     item
       IndexID = 2998
@@ -10225,15 +10197,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2997
-      Text = 'Enable'
+      Text = 'Wezesha'
     end
     item
       IndexID = 2996
-      Text = 'Show'
+      Text = 'Onyesha'
     end
     item
       IndexID = 2995
-      Text = 'Disable'
+      Text = 'Zuia'
     end
     item
       IndexID = 2994
@@ -10245,47 +10217,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3004
-      Text = 'Copy from a Set of Books'
+      Text = 'Copy from a set of books'
     end
     item
       IndexID = 3003
-      Text = 'Copying Set of Books...'
+      Text = 'Copying set of books'
     end
     item
       IndexID = 3002
-      Text = 'Creating directory...'
+      Text = 'Creating Directory'
     end
     item
       IndexID = 3001
-      Text = 'Download only'
+      Text = 'Download Pekee'
     end
     item
       IndexID = 3000
-      Text = 'Upload only'
+      Text = 'Upload Pekee'
     end
     item
       IndexID = 2999
-      Text = 'Open journals'
+      Text = 'Fungua Batches'
     end
     item
       IndexID = 3007
-      Text = 'Only this account'
+      Text = 'Pekee this account'
     end
     item
       IndexID = 3006
-      Text = 'Transfer started to'
+      Text = 'Tranfert Started Hadi'
     end
     item
       IndexID = 3005
       Text = 'of'
     end
     item
+      IndexID = 3052
+      Text = 'Expand after refresh'
+    end
+    item
+      IndexID = 3053
+      Text = 'Use Link Tax'
+    end
+    item
+      IndexID = 3054
+      Text = 'Link Tax'
+    end
+    item
+      IndexID = 3055
+      Text = 'Contra Tax'
+    end
+    item
+      IndexID = 3056
+      Text = 'Refresh'
+    end
+    item
       IndexID = 3019
-      Text = 'Show zero inventory count'
+      Text = 'Show zero stock count'
     end
     item
       IndexID = 3020
-      Text = 'Convert invoice to order'
+      Text = 'Convert invoice to purchase'
     end
     item
       IndexID = 3021
@@ -10293,11 +10285,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3022
-      Text = 'Set reporting group 1'
+      Text = 'Set Reporting Group 1'
     end
     item
       IndexID = 3023
-      Text = 'Set reporting group 2'
+      Text = 'Set Reporting Group 2'
     end
     item
       IndexID = 3024
@@ -10309,7 +10301,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3026
-      Text = 'Bank name'
+      Text = 'Bank Name'
     end
     item
       IndexID = 3027
@@ -10321,15 +10313,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3029
-      Text = 'First name'
+      Text = 'First Name'
     end
     item
       IndexID = 3030
-      Text = 'Connect to remote database'
+      Text = 'Connect to Remote Database'
     end
     item
       IndexID = 3031
-      Text = 'Inclusive mode'
+      Text = 'Inclusive Mode'
     end
     item
       IndexID = 3032
@@ -10337,43 +10329,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3033
-      Text = 'Auto-alias'
+      Text = 'Auto Alias'
     end
     item
       IndexID = 3034
-      Text = 'Remember inclusive'
+      Text = 'Remember Inclusive'
     end
     item
       IndexID = 3035
-      Text = 'Use link tax'
+      Text = 'Use Link Tax'
     end
     item
       IndexID = 3036
-      Text = 'Link tax'
+      Text = 'Link Tax'
     end
     item
       IndexID = 3037
-      Text = 'Contra tax'
+      Text = 'Contra Tax'
     end
     item
       IndexID = 3038
-      Text = 'Open item account'
+      Text = 'Open Item Account'
     end
     item
       IndexID = 3039
-      Text = 'POS report options'
+      Text = 'POS Report Options'
     end
     item
       IndexID = 3040
-      Text = 'Use document date'
+      Text = 'Use Document Date'
     end
     item
       IndexID = 3041
-      Text = 'Contra ref. as account ref.'
+      Text = 'Contra Ref. as Account Ref.'
     end
     item
       IndexID = 3042
-      Text = 'Auto refresh'
+      Text = 'Auto Refresh'
     end
     item
       IndexID = 3043
@@ -10381,11 +10373,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3044
-      Text = 'Limit documents SQL'
+      Text = 'Limit Documents SQL'
     end
     item
       IndexID = 3045
-      Text = 'Search for strings'
+      Text = 'Search for Strings'
     end
     item
       IndexID = 3046
@@ -10393,15 +10385,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3047
-      Text = 'Amount entry'
+      Text = 'Amount Entry'
     end
     item
       IndexID = 3048
-      Text = 'Document row'
+      Text = 'Document Row'
     end
     item
       IndexID = 3049
-      Text = 'Import a posted journal'
+      Text = 'Import a Posted Batch'
     end
     item
       IndexID = 20130
@@ -10417,7 +10409,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Use advanced inventory'
+      Text = 'Use Advanced Stock'
     end
     item
       IndexID = 3057
@@ -10445,7 +10437,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3063
-      Text = 'Financial categories'
+      Text = 'Financial Categories'
     end
     item
       IndexID = 3064
@@ -10481,7 +10473,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3073
-      Text = 'Group still has nested groups! Remove them first!'
+      Text = 'Group still has nesteled groups! Remove them first!'
     end
     item
       IndexID = 3074
@@ -10497,9 +10489,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3076
-      Text = 
-        'There'#39's still inventory items using this group! Please remove th' +
-        'em first!'
+      Text = 'There'#39's still stock using this group! Please remove them first!'
     end
     item
       IndexID = 3077
@@ -10507,11 +10497,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3078
-      Text = 'Account code already exists!'
+      Text = 'Account code already exist!'
     end
     item
       IndexID = 3079
-      Text = 'Estimate(s) generated!'
+      Text = 'Quote(s) generated!'
     end
     item
       IndexID = 3080
@@ -10519,7 +10509,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3081
-      Text = 'Reset inventory?'
+      Text = 'Reset stock?'
     end
     item
       IndexID = 3082
@@ -10527,7 +10517,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3083
-      Text = 'This item is out of inventory! Auto adjusting quantity!'
+      Text = 'This item is out of stock! Auto adjusting quantity!'
     end
     item
       IndexID = 3084
@@ -10547,35 +10537,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3088
-      Text = 'Use barcode printer'
+      Text = 'Use Barcode Printer'
     end
     item
       IndexID = 3089
-      Text = 'Advanced mode'
+      Text = 'Advanced Mode'
     end
     item
       IndexID = 3090
-      Text = 'Update type'
+      Text = 'Update Type'
     end
     item
       IndexID = 3091
-      Text = 'Setup inventory'
+      Text = 'Setup Stock'
     end
     item
       IndexID = 3092
-      Text = 'Setup group'
+      Text = 'Setup Group'
     end
     item
       IndexID = 3093
-      Text = 'Transaction date'
+      Text = 'Transaction Date'
     end
     item
       IndexID = 3094
-      Text = 'Preferred vendor1'
+      Text = 'Preferred Supplier1'
     end
     item
       IndexID = 3095
-      Text = 'Preferred vendor2'
+      Text = 'Preferred Supplier2'
     end
     item
       IndexID = 3096
@@ -10583,11 +10573,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3097
-      Text = 'Limit inventory SQL'
+      Text = 'Limit Stock SQL'
     end
     item
       IndexID = 3098
-      Text = 'Include unposted invoices'
+      Text = 'Include Unposted Invoices'
     end
     item
       IndexID = 3099
@@ -10611,39 +10601,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3103
-      Text = 'Single user'
+      Text = ' Single user'
     end
     item
       IndexID = 3104
-      Text = 'Ledger analyzer'
+      Text = 'T-Ledger Analyser'
     end
     item
       IndexID = 3105
-      Text = 'Serial number'
+      Text = 'Serial Number'
     end
     item
       IndexID = 3106
-      Text = 'Column balances'
+      Text = 'Column Balances'
     end
     item
       IndexID = 3107
-      Text = 'Column balances customers'
+      Text = 'Column Balances Debtor'
     end
     item
       IndexID = 3108
-      Text = 'Column balances vendors'
+      Text = 'Column Balances Creditor'
     end
     item
       IndexID = 3109
-      Text = 'Layout file 1'
+      Text = 'Layout File 1'
     end
     item
       IndexID = 3110
-      Text = 'Layout file 2'
+      Text = 'Layout File 2'
     end
     item
       IndexID = 3111
-      Text = 'Layout file 3'
+      Text = 'Layout File 3'
     end
     item
       IndexID = 3112
@@ -10702,9 +10692,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 
-        'English Master File for English Canada (en-CA) - Do Not Translat' +
-        'e. To customize this language file, create a copy.'
+      Text = 'Jamhuri ya Uganda (Kiswahili)'
     end
     item
       IndexID = 1000001
@@ -10720,11 +10708,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 900002
-      Text = 'House no.'
+      Text = 'House No.'
     end
     item
       IndexID = 900003
-      Text = 'House no. unit'
+      Text = 'House No. tv'
     end
     item
       IndexID = 900004
@@ -10736,7 +10724,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901001
-      Text = 'Subscriptions list'
+      Text = 'Subscriptions List'
     end
     item
       IndexID = 901002
@@ -10744,11 +10732,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901003
-      Text = 'Subscriptions to process'
+      Text = 'Subscriptions to Process'
     end
     item
       IndexID = 901004
-      Text = 'Line value (Incl.)'
+      Text = 'Line Value (Inc)'
     end
     item
       IndexID = 901005
@@ -10760,7 +10748,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901007
-      Text = 'Interval type'
+      Text = 'Interval Type'
     end
     item
       IndexID = 901008
@@ -10768,7 +10756,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Select inventory item>'
+      Text = '<Select Stock Item>'
     end
     item
       IndexID = 901010
@@ -10776,15 +10764,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901011
-      Text = 'Last run'
+      Text = 'Last Run'
     end
     item
       IndexID = 901012
-      Text = 'Next run'
+      Text = 'Next Run'
     end
     item
       IndexID = 901013
-      Text = 'Start date'
+      Text = 'Start Date'
     end
     item
       IndexID = 901014
@@ -10812,83 +10800,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901020
-      Text = '3 Months'
+      Text = 'Quarter'
     end
     item
       IndexID = 901021
-      Text = '6 Months'
+      Text = 'Half Year'
     end
     item
       IndexID = 901022
       Text = 'Year'
     end
     item
-      IndexID = 901023
-      Text = 'Next warning'
-    end
-    item
-      IndexID = 901500
-      Text = 'Split'
-    end
-    item
-      IndexID = 901501
-      Text = 'Seat'
-    end
-    item
-      IndexID = 901502
-      Text = 'Couvert'
-    end
-    item
-      IndexID = 901503
-      Text = 'Waiter'
-    end
-    item
-      IndexID = 901504
-      Text = 'The item %s is out of inventory! Please review your entry!'
-    end
-    item
-      IndexID = 901505
-      Text = 'New lines added please review this payment!'
-    end
-    item
-      IndexID = 901506
-      Text = 'Please close all open invoices first!'
-    end
-    item
-      IndexID = 901507
-      Text = 'Are you sure you want to continue to close the POS?'
-    end
-    item
-      IndexID = 901508
-      Text = 'Close POS'
-    end
-    item
-      IndexID = 901509
-      Text = 'Handheld'
-    end
-    item
       IndexID = 902000
-      Text = 'Price agreement'
+      Text = 'Price Agreement'
     end
     item
       IndexID = 902001
-      Text = 'Until quantity'
+      Text = 'Until Quantity'
     end
     item
       IndexID = 902002
-      Text = 'External product code'
+      Text = 'External Product Code'
     end
     item
       IndexID = 902003
-      Text = 'Percentage of avg. cost price'
+      Text = 'Percentage of Avg Cost Price'
     end
     item
       IndexID = 902004
-      Text = '<All inventory>'
+      Text = '<All Stock>'
     end
     item
       IndexID = 902005
-      Text = '<All customers>'
+      Text = '<All Debtors>'
     end
     item
       IndexID = 903000
@@ -10896,27 +10840,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903001
-      Text = 'File location'
+      Text = 'File Location'
     end
     item
       IndexID = 903002
-      Text = 'Original file name'
+      Text = 'Original File Name'
     end
     item
       IndexID = 903003
-      Text = 'File date'
+      Text = 'File Date'
     end
     item
       IndexID = 903004
-      Text = 'To database'
+      Text = 'To Database'
     end
     item
       IndexID = 903005
-      Text = 'Link file'
+      Text = 'Link File'
     end
     item
       IndexID = 903006
-      Text = 'Copy file'
+      Text = 'Copy File'
     end
     item
       IndexID = 903007
@@ -10929,12 +10873,12 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Press [OK] when you are done editing the file to save it to the ' +
-        'database!'
+        'Press OK when you are done editing the file to save it to the da' +
+        'tabase!'
     end
     item
       IndexID = 903010
-      Text = 'Save as...'
+      Text = 'Save As...'
     end
     item
       IndexID = 903011
@@ -10946,7 +10890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902007
-      Text = 'Price type'
+      Text = 'Price Type'
     end
     item
       IndexID = 1000002
@@ -10954,7 +10898,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = '$'
+      Text = 'R'
     end
     item
       IndexID = 1000004
@@ -10962,7 +10906,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000005
-      Text = 'Age analysis - Due report'
+      Text = 'Open item - Due report'
     end
     item
       IndexID = 1000006
@@ -11039,6 +10983,22 @@ object TTranslationSaveObject
     item
       IndexID = 1000025
       Text = 'Not used / Do not translate'
+    end
+    item
+      IndexID = 3123
+      Text = 'Welcome to <@APPNAME@>'
+    end
+    item
+      IndexID = 3124
+      Text = 'Forward'
+    end
+    item
+      IndexID = 3125
+      Text = 'Auto open when starting <@APPNAME@>'
+    end
+    item
+      IndexID = 3126
+      Text = 'Convert <@APPNAME@> to this version?'
     end
     item
       IndexID = 1000026
@@ -11121,10 +11081,14 @@ object TTranslationSaveObject
       Text = 'Not used / Do not translate'
     end
     item
+      IndexID = 1000046
+      Text = 'Not used / Do not translate'
+    end
+    item
       IndexID = 906000
       Text = 
-        'Despite previous reminders, according to our records your accoun' +
-        't is still overdue. '
+        'In spite of previous reminders, according to our records your ac' +
+        'count is still overdue.'
     end
     item
       IndexID = 906001
@@ -11134,7 +11098,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906002
-      Text = 'Document date/time'
+      Text = 'Document Date/Time'
     end
     item
       IndexID = 906003
@@ -11142,15 +11106,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906004
-      Text = 'Vendor'
+      Text = 'Supplier'
     end
     item
       IndexID = 906005
-      Text = 'Order date'
+      Text = 'Order Date'
     end
     item
       IndexID = 906006
-      Text = 'Estimate date'
+      Text = 'Quote Date'
     end
     item
       IndexID = 906007
@@ -11158,11 +11122,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906008
-      Text = 'Total paid'
+      Text = 'Total Paid'
     end
     item
       IndexID = 906009
-      Text = 'PIN'
+      Text = 'Pin'
     end
     item
       IndexID = 906010
@@ -11178,7 +11142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906013
-      Text = 'On account'
+      Text = 'On Account'
     end
     item
       IndexID = 906014
@@ -11206,87 +11170,87 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906020
-      Text = 'Sales Tax'
+      Text = 'Tax'
     end
     item
       IndexID = 906021
-      Text = 'Branch code'
+      Text = 'Branch Code'
     end
     item
       IndexID = 906022
-      Text = 'Account holder'
+      Text = 'Account Holder'
     end
     item
       IndexID = 906023
-      Text = '- End of report -'
+      Text = '- End of Report -'
     end
     item
       IndexID = 906024
-      Text = 'Credit note date'
+      Text = 'Credit Note Date'
     end
     item
       IndexID = 906025
-      Text = 'Cum total'
+      Text = 'Cum gen'
     end
     item
       IndexID = 906026
-      Text = 'Purchase document'
+      Text = 'Purchase Document'
     end
     item
       IndexID = 906027
-      Text = 'Purchase date'
+      Text = 'Purchase Date'
     end
     item
       IndexID = 906028
-      Text = 'Vendor return date'
+      Text = 'Supplier Return Date'
     end
     item
       IndexID = 906029
-      Text = 'Vendor return document'
+      Text = 'Supplier Return Document'
     end
     item
       IndexID = 906030
-      Text = 'Vendor return accepted'
+      Text = 'Supplier Return Accepted'
     end
     item
       IndexID = 906031
-      Text = 'Historical value'
+      Text = 'Historical Value'
     end
     item
       IndexID = 906032
-      Text = 'Order list'
+      Text = 'Order List'
     end
     item
       IndexID = 906033
-      Text = 'Outstanding orders'
+      Text = 'Outstanding Orders'
     end
     item
       IndexID = 906034
-      Text = 'Outstanding estimate '
+      Text = 'Outstanding Quotes'
     end
     item
       IndexID = 906035
-      Text = 'Customer - Price agreement'
+      Text = 'Debtor - Price Agreement'
     end
     item
       IndexID = 906036
-      Text = 'Reorder quantities'
+      Text = 'Reorder Quantities'
     end
     item
       IndexID = 906037
-      Text = 'Sales hours'
+      Text = 'Sales Hours'
     end
     item
       IndexID = 906038
-      Text = 'Inventory movement'
+      Text = 'Stock Movement'
     end
     item
       IndexID = 906039
-      Text = 'Transaction details'
+      Text = 'Transaction Details'
     end
     item
       IndexID = 906040
-      Text = 'Yagoda barcode'
+      Text = 'Yagoda Barcode'
     end
     item
       IndexID = 906041
@@ -11298,31 +11262,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906043
-      Text = 'Sales per customer group'
+      Text = 'Sales per Customer Group'
     end
     item
       IndexID = 906044
-      Text = 'Sales per inventory group'
+      Text = 'Sales per Stock Group'
     end
     item
       IndexID = 906045
-      Text = 'Customer list'
+      Text = 'Debtor List'
     end
     item
       IndexID = 906046
-      Text = 'Vendor list'
+      Text = 'Creditor List'
     end
     item
       IndexID = 906047
-      Text = 'Customer contact list'
+      Text = 'Debtor Contact List'
     end
     item
       IndexID = 906048
-      Text = 'Vendor contact list'
+      Text = 'Creditor Contact List'
     end
     item
       IndexID = 906049
-      Text = 'Contact list - All'
+      Text = 'Contact List - All'
     end
     item
       IndexID = 906050
@@ -11330,7 +11294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906051
-      Text = 'Log report'
+      Text = 'Log-on Report'
     end
     item
       IndexID = 906052
@@ -11342,7 +11306,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906054
-      Text = 'OS user'
+      Text = 'OS User'
     end
     item
       IndexID = 906055
@@ -11350,11 +11314,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906056
-      Text = 'Bar order'
+      Text = 'Bar Order'
     end
     item
       IndexID = 906057
-      Text = 'Kitchen order'
+      Text = 'Kitchen Order'
     end
     item
       IndexID = 906058
@@ -11362,35 +11326,83 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906059
-      Text = 'Sales per customer'
+      Text = 'Sales per Customer'
     end
     item
       IndexID = 906060
-      Text = 'Contact list - Main'
+      Text = 'Contact List - Main'
     end
     item
       IndexID = 906061
-      Text = 'Transaction list - Open item'
+      Text = 'Transaction List - Open Item'
+    end
+    item
+      IndexID = 1000054
+      Text = 'Not used / Do not translate'
+    end
+    item
+      IndexID = 901023
+      Text = 'Next warning'
+    end
+    item
+      IndexID = 901500
+      Text = 'Split'
+    end
+    item
+      IndexID = 901501
+      Text = 'Seat'
+    end
+    item
+      IndexID = 901502
+      Text = 'Couvert'
+    end
+    item
+      IndexID = 901503
+      Text = 'Waiter'
+    end
+    item
+      IndexID = 901504
+      Text = 'The item %s is out of stock! Please review your entry!'
+    end
+    item
+      IndexID = 901505
+      Text = 'New lines added please review this payment!'
+    end
+    item
+      IndexID = 901506
+      Text = 'Please close all open invoices first!'
+    end
+    item
+      IndexID = 901507
+      Text = 'Are you sure you want to continue to close the POS?'
+    end
+    item
+      IndexID = 901508
+      Text = 'Close POS'
+    end
+    item
+      IndexID = 901509
+      Text = 'Handheld'
     end
     item
       IndexID = 906062
-      Text = 'Selected customer label'
+      Text = 'Selected Debtor Label'
     end
     item
       IndexID = 906063
-      Text = 'Selected vendor label'
+      Text = 'Selected Creditor Label'
     end
     item
       IndexID = 906064
-      Text = 'Delivery address labels'
+      Text = 'Delivery Address Labels'
     end
     item
       IndexID = 906065
-      Text = 'Selected customer delivery label'
+      Text = 'Selected Debtor Delivery Label'
     end
     item
       IndexID = 906066
-      Text = 'Selected vendor delivery label'
+      Text = 'Selected Creditor Delivery Label'
     end
     item
       IndexID = 906067
@@ -11398,31 +11410,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906068
-      Text = 'Page no.'
+      Text = 'Page No.'
     end
     item
       IndexID = 906069
-      Text = 'Your tax reference'
-    end
-    item
-      IndexID = 1000054
-      Text = 'Not used / Do not translate'
-    end
-    item
-      IndexID = 3123
-      Text = 'Welcome to <@APPNAME@>'
-    end
-    item
-      IndexID = 3124
-      Text = 'Forward'
-    end
-    item
-      IndexID = 3125
-      Text = 'Auto-open when starting <@APPNAME@>'
-    end
-    item
-      IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version'
+      Text = 'Your Tax Reference'
     end
     item
       IndexID = 1000055
@@ -11434,23 +11426,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906071
-      Text = 'Cost centre 1'
+      Text = 'Cost Centre 1'
     end
     item
       IndexID = 906072
-      Text = 'Cost centre 2'
-    end
-    item
-      IndexID = 1000046
-      Text = 'Not used / Do not translate'
+      Text = 'Cost Centre 2'
     end
     item
       IndexID = 3127
-      Text = 'Net weight'
+      Text = 'Net Weight'
     end
     item
       IndexID = 3128
-      Text = 'Gross weight'
+      Text = 'Gross Weight'
     end
     item
       IndexID = 3129
@@ -11469,14 +11457,14 @@ object TTranslationSaveObject
     item
       IndexID = 3132
       Text = 
-        'If your inventory goes below this, then the system will reorder ' +
-        'until the reorder quantity!'
+        'If your stock goes below this, then the system will reorder unti' +
+        'l the reorder quantity!'
     end
     item
       IndexID = 3133
       Text = 
-        'If you want to reserve some inventory for sales this field will ' +
-        'be deducted from current inventory levels in a estimate'
+        'If you want to reserve some stock for sales this field will be d' +
+        'educted from current stock levels in a quote!'
     end
     item
       IndexID = 3134
@@ -11492,19 +11480,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3137
-      Text = 'Select image'
+      Text = 'Select Image'
     end
     item
       IndexID = 3138
-      Text = 'Delete image'
+      Text = 'Delete Image'
     end
     item
       IndexID = 3139
-      Text = 'Cur : %s Estimate: %s Order : %s Exp : %s'
+      Text = 'Cur : %s Quote : %s Order : %s Exp : %s'
     end
     item
       IndexID = 3140
-      Text = 'Expected quantity'
+      Text = 'Expected Quantity'
     end
     item
       IndexID = 3141
@@ -11512,11 +11500,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3142
-      Text = 'Option item'
+      Text = 'Option Item'
     end
     item
       IndexID = 3143
-      Text = 'Option item (no inventory)'
+      Text = 'Option Item (No Stock)'
     end
     item
       IndexID = 3144
@@ -11528,15 +11516,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3146
-      Text = 'Linked options'
+      Text = 'Linked Options'
     end
     item
       IndexID = 3147
-      Text = 'View as tree'
+      Text = 'View as Tree'
     end
     item
       IndexID = 3148
-      Text = 'Combination name'
+      Text = 'Combination Name'
     end
     item
       IndexID = 3149
@@ -11544,11 +11532,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3150
-      Text = 'Extra price'
+      Text = 'Extra Price'
     end
     item
       IndexID = 3151
-      Text = 'Financial entry'
+      Text = 'Financial Entry'
     end
     item
       IndexID = 3152
@@ -11566,83 +11554,83 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3155
-      Text = 'Setup options'
+      Text = 'Setup Options'
     end
     item
       IndexID = 3156
-      Text = 'Double-click to enter the option list.'
+      Text = 'Double-click to enter the Option List.'
     end
     item
       IndexID = 3157
-      Text = 'Default inclusive for documents'
+      Text = 'Default Incl. for Docs'
     end
     item
       IndexID = 3158
-      Text = 'SQL only for inventory lookup'
+      Text = 'SQL Only for Stock Lookup'
     end
     item
       IndexID = 3159
-      Text = 'Merge invoice to orders'
+      Text = 'Merge Invoice to Orders'
     end
     item
       IndexID = 3160
-      Text = 'Merge items per tax on ledger'
+      Text = 'Merge Items per Tax on Ledger'
     end
     item
       IndexID = 3161
-      Text = 'Button lookup'
+      Text = 'Button Lookup'
     end
     item
       IndexID = 3162
-      Text = 'Cannot edit price'
+      Text = 'Cannot Edit Price'
     end
     item
       IndexID = 3163
-      Text = 'Cannot edit description'
+      Text = 'Cannot Edit Description'
     end
     item
       IndexID = 3164
-      Text = 'Go to quantity'
+      Text = 'Go to Quantity'
     end
     item
       IndexID = 3165
-      Text = 'Bank accounts'
+      Text = 'Bank Accounts'
     end
     item
       IndexID = 3166
-      Text = 'Column balances D/C'
+      Text = 'Column Balances D/C'
     end
     item
       IndexID = 3167
-      Text = 'Column balances customers D/C'
+      Text = 'Column Balances Debtor D/C'
     end
     item
       IndexID = 3168
-      Text = 'Column balances vendors D/C'
+      Text = 'Column Balances Creditor D/C'
     end
     item
       IndexID = 3169
-      Text = 'Strict tax on account'
+      Text = 'Strict Tax on Account'
     end
     item
       IndexID = 3170
-      Text = 'Post warning per invoice'
+      Text = 'Post Warning per Invoice'
     end
     item
       IndexID = 3171
-      Text = 'Process warnings'
+      Text = 'Process Warnings'
     end
     item
       IndexID = 3172
-      Text = 'Process subscriptions'
+      Text = 'Process Subscriptions'
     end
     item
       IndexID = 3173
-      Text = 'Send e-mail'
+      Text = 'Send E-mail'
     end
     item
       IndexID = 3174
-      Text = 'Document layout'
+      Text = 'Document Layout'
     end
     item
       IndexID = 3175
@@ -11650,43 +11638,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3176
-      Text = 'Send warning'
+      Text = 'Send Warning'
     end
     item
       IndexID = 3177
-      Text = 'E-mail signed document'
+      Text = 'E-mail Signed Document'
     end
     item
       IndexID = 3178
-      Text = 'Link tax'
+      Text = 'Link Tax'
     end
     item
       IndexID = 3179
-      Text = 'Bank links'
+      Text = 'Bank Links'
     end
     item
       IndexID = 3180
-      Text = 'Edit account'
+      Text = 'Edit Account'
     end
     item
       IndexID = 3181
-      Text = 'Convert to credit note / vendor return'
+      Text = 'Convert to Creditnote / Return Note'
     end
     item
       IndexID = 3182
-      Text = 'Open e-Commerce order in browser'
+      Text = 'Open e-Commerce Order in Browser'
     end
     item
       IndexID = 3183
-      Text = 'Open e-Commerce customer in browser'
+      Text = 'Open e-Commerce Customer in Browser'
     end
     item
       IndexID = 3184
-      Text = 'Convert documents to single document'
+      Text = 'Convert Documents to Single Document'
     end
     item
       IndexID = 3185
-      Text = 'Create purchase on default vendor 1'
+      Text = 'Create Purchase on Default Supplier 1'
     end
     item
       IndexID = 3186
@@ -11694,31 +11682,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3187
-      Text = 'Bug report'
+      Text = 'Bug Report'
     end
     item
       IndexID = 3189
-      Text = 'Close active forms'
+      Text = 'Close Active Forms'
     end
     item
       IndexID = 3190
-      Text = 'Show / hide sidebar'
+      Text = 'Show / Hide Sidebar'
     end
     item
       IndexID = 3191
-      Text = 'Show / hide topbar'
+      Text = 'Show / Hide Topbar'
     end
     item
       IndexID = 3192
-      Text = 'Only look in account for search'
+      Text = 'Only Look in Account for Search'
     end
     item
       IndexID = 3188
-      Text = 'Cost centres'
+      Text = 'Cost Centres'
     end
     item
       IndexID = 3193
-      Text = 'Bug report'
+      Text = 'Bug Report'
     end
     item
       IndexID = 3194
@@ -11734,7 +11722,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3197
-      Text = 'Opening balance - This year'
+      Text = 'Opening Balance - This Year'
     end
     item
       IndexID = 3198
@@ -11750,11 +11738,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3201
-      Text = 'Newsletters and password'
+      Text = 'Newsletters and Password'
     end
     item
       IndexID = 3202
-      Text = 'Referral source'
+      Text = 'Referral Source'
     end
     item
       IndexID = 3203
@@ -11762,7 +11750,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3204
-      Text = 'Password confirmation'
+      Text = 'Password Confirmation'
     end
     item
       IndexID = 3205
@@ -11774,19 +11762,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3207
-      Text = 'Bug fix'
+      Text = 'Bug Fix'
     end
     item
       IndexID = 3208
-      Text = 'Community day'
+      Text = 'Community Day'
     end
     item
       IndexID = 3209
-      Text = 'Existing user'
+      Text = 'Existing User'
     end
     item
       IndexID = 3210
-      Text = 'You have registered successfully ! '
+      Text = 'You have registered successfully ! Registration name'
     end
     item
       IndexID = 3211
@@ -11810,7 +11798,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3216
-      Text = 'New user'
+      Text = 'New User'
     end
     item
       IndexID = 3217
@@ -11828,103 +11816,103 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3220
-      Text = 'Mail template'
+      Text = 'Mail Template'
     end
     item
       IndexID = 3221
-      Text = 'Select layout'
+      Text = 'Select Layout'
     end
     item
       IndexID = 3222
-      Text = 'Select template'
+      Text = 'Select Template'
     end
     item
       IndexID = 3223
-      Text = 'Report name'
+      Text = 'Report Name'
     end
     item
       IndexID = 3224
-      Text = 'Base folder customer/vendor'
+      Text = 'Base Folder Debtor/Creditor'
     end
     item
       IndexID = 3225
-      Text = 'Base folder'
+      Text = 'Base Folder'
     end
     item
       IndexID = 3226
-      Text = 'Test e-mail'
+      Text = 'Test E-mail'
     end
     item
       IndexID = 3227
-      Text = 'Send e-mail(s)'
+      Text = 'Send E-mail(s)'
     end
     item
       IndexID = 3228
-      Text = 'Resume e-mail(s)'
+      Text = 'Resume E-mail(s)'
     end
     item
       IndexID = 3229
-      Text = 'Stop e-mail(s)'
+      Text = 'Stop E-mail(s)'
     end
     item
       IndexID = 3230
-      Text = 'Path to the HTML files'
+      Text = 'Path to the HTML Files'
     end
     item
       IndexID = 3231
-      Text = 'POP username'
+      Text = 'POP Username'
     end
     item
       IndexID = 3232
-      Text = 'POP password'
+      Text = 'POP Password'
     end
     item
       IndexID = 3233
-      Text = 'POP server'
+      Text = 'POP Server'
     end
     item
       IndexID = 3234
-      Text = 'SMTP port'
+      Text = 'SMTP Port'
     end
     item
       IndexID = 3235
-      Text = 'SMTP server'
+      Text = 'SMTP Server'
     end
     item
       IndexID = 3236
-      Text = 'Return e-mail'
+      Text = 'Return E-mail'
     end
     item
       IndexID = 3237
-      Text = 'Return name'
+      Text = 'Return Name'
     end
     item
       IndexID = 3238
-      Text = 'E-mail header text'
+      Text = 'E-mail Header Text'
     end
     item
       IndexID = 3239
-      Text = 'Send max mail'
+      Text = 'Send Max Mail'
     end
     item
       IndexID = 3240
-      Text = 'Timer threshold in sec.'
+      Text = 'Timer Treshhold in Sec.'
     end
     item
       IndexID = 3241
-      Text = 'SMTP username'
+      Text = 'SMTP Username'
     end
     item
       IndexID = 3242
-      Text = 'SMTP password'
+      Text = 'SMTP Password'
     end
     item
       IndexID = 3243
-      Text = 'Sign certificate'
+      Text = 'Sign Certificate'
     end
     item
       IndexID = 3244
-      Text = 'Certificate password'
+      Text = 'Certificate Password'
     end
     item
       IndexID = 3245
@@ -11932,11 +11920,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3246
-      Text = 'Free text'
+      Text = 'Free Text'
     end
     item
       IndexID = 3247
-      Text = 'Preview in browser'
+      Text = 'Preview in Browser'
     end
     item
       IndexID = 3248
@@ -11966,11 +11954,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3254
-      Text = 'No POP password entered!'
+      Text = 'No POP Password entered!'
     end
     item
       IndexID = 3255
-      Text = 'Stopped by user!'
+      Text = 'Stopped by User!'
     end
     item
       IndexID = 3256
@@ -11990,11 +11978,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3260
-      Text = 'No category'
+      Text = 'No Category'
     end
     item
       IndexID = 3261
-      Text = 'Freefields'
+      Text = 'Free Fields'
     end
     item
       IndexID = 3262
@@ -12002,7 +11990,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3263
-      Text = 'Purge invalid'
+      Text = 'Purge Invalid'
     end
     item
       IndexID = 906073
@@ -12010,23 +11998,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906074
-      Text = 'Journal'
+      Text = 'Batch'
     end
     item
       IndexID = 906075
-      Text = 'Compare period'
+      Text = 'Compare Period'
     end
     item
       IndexID = 906076
-      Text = 'Compare period - Customers'
+      Text = 'Compare Period - Debtors'
     end
     item
       IndexID = 906077
-      Text = 'Compare period - Vendors'
+      Text = 'Compare Period - Creditors'
     end
     item
       IndexID = 906078
-      Text = 'Compare period - Profit / Loss'
+      Text = 'Compare Period - Profit / Loss'
     end
     item
       IndexID = 906079
@@ -12038,31 +12026,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906081
-      Text = 'Transaction id'
+      Text = 'Transaction ID'
     end
     item
       IndexID = 906082
-      Text = 'Journal type id'
+      Text = 'Batch Type ID'
     end
     item
       IndexID = 906083
-      Text = 'Document amount'
+      Text = 'Document Amount'
     end
     item
       IndexID = 906084
-      Text = 'Document tax'
+      Text = 'Document Tax'
     end
     item
       IndexID = 906085
-      Text = 'Tax on tax account'
+      Text = 'Tax on Tax Account'
     end
     item
       IndexID = 906086
-      Text = 'Control report - Processed transactions per contra account'
+      Text = 'Control Report - Processed Transactions per Contra Account'
     end
     item
       IndexID = 3264
-      Text = 'Redo discount on document'
+      Text = 'Redo Discount on Document'
     end
     item
       IndexID = 903100
@@ -12070,27 +12058,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906087
-      Text = 'POS Payment types'
+      Text = 'POS Payment Types'
     end
     item
       IndexID = 906088
-      Text = 'Vendor - Price agreement'
-    end
-    item
-      IndexID = 906089
-      Text = 'POS Sales report'
-    end
-    item
-      IndexID = 906090
-      Text = 'POS Current cash report'
-    end
-    item
-      IndexID = 906091
-      Text = 'POS Historical cash report'
+      Text = 'Creditor - Price Agreement'
     end
     item
       IndexID = 3265
-      Text = 'Percentage of sale'
+      Text = 'Percentage of Sale'
     end
     item
       IndexID = 3266
@@ -12098,15 +12074,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3267
-      Text = 'Vendor inventory code'
+      Text = 'Supplier Stock Code'
     end
     item
       IndexID = 3268
-      Text = 'Preferred vendor'
+      Text = 'Preferred Supplier'
     end
     item
       IndexID = 3269
-      Text = 'Next cost price'
+      Text = 'Next Cost Price'
     end
     item
       IndexID = 3270
@@ -12130,63 +12106,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3275
-      Text = 'Show references for account'
+      Text = 'Show refs for account'
     end
     item
       IndexID = 3276
       Text = 
         'Bank import extra link functions. Enter bank account for exact m' +
-        'atch on account. Enter text with a # prefix to look inside an im' +
-        'ported bank line to see if the text is in that string. Text will' +
-        ' be searched in the upper-case.'
+        'atch on account. Enter text with a # prefix to look inside a imp' +
+        'orted'#13#10'bank line to see if the text is in that string. Text will' +
+        ' be searched in the uppercase.'
     end
     item
       IndexID = 3277
-      Text = 'Account bank references'
+      Text = 'Account Bank References'
     end
     item
       IndexID = 3278
-      Text = 'Std Bank account no.'
-    end
-    item
-      IndexID = 906092
-      Text = 'Total Profit / Loss'
-    end
-    item
-      IndexID = 906093
-      Text = 'Opening balance'
-    end
-    item
-      IndexID = 906094
-      Text = 'Total balance'
-    end
-    item
-      IndexID = 906095
-      Text = 'Total lines'
-    end
-    item
-      IndexID = 906096
-      Text = 'Checksum'
-    end
-    item
-      IndexID = 906097
-      Text = 'Automatic receipts report'
-    end
-    item
-      IndexID = 906098
-      Text = 'Journal type report'
-    end
-    item
-      IndexID = 906099
-      Text = 'Journ. id'
-    end
-    item
-      IndexID = 906100
-      Text = 'Posted journal'
-    end
-    item
-      IndexID = 906101
-      Text = 'Unposted journal'
+      Text = 'Std Bank Account No.'
     end
     item
       IndexID = 3279
@@ -12206,7 +12142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3283
-      Text = 'Fast add item (code/barcode/serial)'
+      Text = 'Fast add item (stock code / barcode / serial)'
     end
     item
       IndexID = 3284
@@ -12218,15 +12154,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3286
-      Text = 'Cost price'
+      Text = 'Cost Price'
     end
     item
       IndexID = 3287
-      Text = 'Selling price'
+      Text = 'Selling Price'
     end
     item
       IndexID = 3288
-      Text = 'Recalculate sales %'
+      Text = 'Recalculate Sales %'
     end
     item
       IndexID = 3289
@@ -12242,7 +12178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3292
-      Text = 'Paste to / perform'
+      Text = 'Paste to / preform'
     end
     item
       IndexID = 3293
@@ -12270,19 +12206,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3299
-      Text = 'No out of inventory message'
+      Text = 'No out of stock message'
     end
     item
       IndexID = 3300
-      Text = 'Use colors for out of inventory'
+      Text = 'Use colours for out of stock'
     end
     item
       IndexID = 3301
-      Text = 'Calc BOM inventory'
+      Text = 'Calc BOM stock'
     end
     item
       IndexID = 3302
-      Text = 'Limit inventory purchase only for default vendor or non'
+      Text = 'Limit stock purchase only for default suppier or non'
     end
     item
       IndexID = 3303
@@ -12306,25 +12242,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3308
-      Text = 'Reopen invoice'
+      Text = 'Reopen Invoice'
     end
     item
       IndexID = 3309
-      Text = '+Open fast add'
+      Text = 'Open Fast Add'
     end
     item
       IndexID = 3310
-      Text = '-Close fast add'
+      Text = 'Close Fast Add'
     end
     item
       IndexID = 3311
-      Text = 'Create purchase on default vendor 1'
+      Text = 'Create Purchase on Default Supplier 1'
     end
     item
       IndexID = 3312
       Text = 
-        'No default vendor 1 for these inventory items! Please correct fi' +
-        'rst!'
+        'No default supplier 1 for these stock items! Please correct firs' +
+        't!'
     end
     item
       IndexID = 3313
@@ -12332,11 +12268,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3314
-      Text = 'Per period'
+      Text = 'Per Period'
     end
     item
       IndexID = 3315
-      Text = 'Free selection'
+      Text = 'Free Selection'
     end
     item
       IndexID = 3316
@@ -12344,15 +12280,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3317
-      Text = 'Recalculate selling price'
+      Text = 'Recalculate Selling Price'
     end
     item
       IndexID = 3318
-      Text = 'Default cost center'
+      Text = 'Default Cost Centre'
     end
     item
       IndexID = 3319
-      Text = 'Cost center'
+      Text = 'Cost Centre'
     end
     item
       IndexID = 3320
@@ -12360,7 +12296,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3321
-      Text = 'Code, description and extra description'
+      Text = 'Code, Description and Extra Description'
     end
     item
       IndexID = 3322
@@ -12368,7 +12304,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3323
-      Text = 'Create backorders to deliver'
+      Text = 'Create Backorders to Deliver'
     end
     item
       IndexID = 3324
@@ -12380,7 +12316,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3326
-      Text = 'Open item'
+      Text = 'Open Item'
     end
     item
       IndexID = 3327
@@ -12396,7 +12332,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3330
-      Text = 'Estimate '
+      Text = 'Quote'
     end
     item
       IndexID = 3331
@@ -12420,15 +12356,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3336
-      Text = 'Next journal no.'
+      Text = 'Next batch no.'
     end
     item
       IndexID = 3337
-      Text = 'Back color'
+      Text = 'Back colour'
     end
     item
       IndexID = 3338
-      Text = 'Font color'
+      Text = 'Font colour'
     end
     item
       IndexID = 3339
@@ -12444,7 +12380,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3342
-      Text = 'Show colors'
+      Text = 'Show colours'
     end
     item
       IndexID = 3343
@@ -12475,14 +12411,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'There is document(s) associated with this project! Do you wish t' +
-        'o continue ? All project data will be lost!'
+        'There is document input asossiated with this project! Do you wis' +
+        'h to continue ? All project data will be lost!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction(s) associated with this project! Do you wis' +
-        'h to continue ? All project data will be lost!'
+        'There is transaction input asossiated with this project! Do you ' +
+        'wish to continue ? All project data will be lost!'
     end
     item
       IndexID = 3351
@@ -12490,7 +12426,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Sales, Purchase, Cost of sales and Tax accounts'
+      Text = 'Sales, Purchase, Cost of Sales and Tax Accounts'
     end
     item
       IndexID = 3353
@@ -12506,11 +12442,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3356
-      Text = 'Payroll import'
+      Text = 'Payroll Import'
     end
     item
       IndexID = 3357
-      Text = 'Free selection'
+      Text = 'Free Selection'
     end
     item
       IndexID = 3358
@@ -12538,13 +12474,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3364
-      Text = 'No remark entered, process aborted!'
+      Text = 'No remaker entered process aborted!'
     end
     item
       IndexID = 3365
       Text = 
-        'Inventory quantity has been changed! Do you want to retain the c' +
-        'urrent database data?'
+        'Stock Qty has been changed! Do you want to retain the current da' +
+        'tabase data?'
     end
     item
       IndexID = 3366
@@ -12556,7 +12492,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3368
-      Text = 'Standard column balances'
+      Text = 'Standard Column Balances'
     end
     item
       IndexID = 3369
@@ -12569,19 +12505,70 @@ object TTranslationSaveObject
       Text = 'User exit!'
     end
     item
+      IndexID = 906089
+      Text = 'POS Sales Report'
+    end
+    item
+      IndexID = 906090
+      Text = 'POS Current Cash Report'
+    end
+    item
+      IndexID = 906091
+      Text = 'POS Historical Cash Report'
+    end
+    item
+      IndexID = 906092
+      Text = 'Total Profit / Loss'
+    end
+    item
+      IndexID = 906093
+      Text = 'Opening Balance'
+    end
+    item
+      IndexID = 906094
+      Text = 'Total Balance'
+    end
+    item
+      IndexID = 906095
+      Text = 'Total Lines'
+    end
+    item
+      IndexID = 906096
+      Text = 'Checksum'
+    end
+    item
+      IndexID = 906097
+      Text = 'Automatic Receipts Report'
+    end
+    item
+      IndexID = 906098
+      Text = 'Batch Type Report'
+    end
+    item
+      IndexID = 906099
+      Text = 'BatchID'
+    end
+    item
+      IndexID = 906100
+      Text = 'Posted Batch'
+    end
+    item
+      IndexID = 906101
+      Text = 'Unposted Batch'
+    end
+    item
       IndexID = 3371
       Text = 
-        'If you wish to clear (remove) all documents, click [Yes]. If you' +
-        ' wish to retain all documents and set them to unposted, click [N' +
-        'o].'
+        'If you wish to clear (remove) all documents, click Yes. If you w' +
+        'ish to retain all documents and set them to unposted, click No.'
     end
     item
       IndexID = 3372
-      Text = 'Budget vs actual'
+      Text = 'Budget vs Actual'
     end
     item
       IndexID = 3373
-      Text = 'This year vs last year'
+      Text = 'This Year vs Last Year'
     end
     item
       IndexID = 3374
@@ -12589,15 +12576,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3375
-      Text = 'External system links'
+      Text = 'External System Links'
     end
     item
       IndexID = 3376
-      Text = 'Financial tools'
+      Text = 'Financial Tools'
     end
     item
       IndexID = 3377
-      Text = 'Generic plugins'
+      Text = 'Generic Plugins'
     end
     item
       IndexID = 3378
@@ -12609,11 +12596,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3380
-      Text = 'Price agreement'
+      Text = 'Price Agreement'
     end
     item
       IndexID = 3381
-      Text = 'Inventory check'
+      Text = 'StockCheck'
     end
     item
       IndexID = 3382
@@ -12681,7 +12668,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3398
-      Text = 'Location-Serials-Batches'
+      Text = 'Location-Serilisation-Batches'
     end
     item
       IndexID = 3400
@@ -12693,11 +12680,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3402
-      Text = 'HandyTools (Advanced users only)'
+      Text = 'HandyTools (Advanced Users Only)'
     end
     item
       IndexID = 3403
-      Text = 'Register plugins'
+      Text = 'Register Plugins'
     end
     item
       IndexID = 3404
@@ -12705,11 +12692,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3405
-      Text = 'Inventory plugins'
+      Text = 'Stock Plugins'
     end
     item
       IndexID = 3406
-      Text = 'Document plugins'
+      Text = 'Document Plugins'
     end
     item
       IndexID = 3407
@@ -12717,19 +12704,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3408
-      Text = 'Driving school plugin'
+      Text = 'Driving School Plugin'
     end
     item
       IndexID = 3409
-      Text = 'Zip code / tax id / reg. no. lookup'
+      Text = 'Postalcode / tax id / regno lookup'
     end
     item
       IndexID = 3410
-      Text = 'Dutch Tax plugin'
+      Text = 'Dutch Tax Plugin'
     end
     item
       IndexID = 3411
-      Text = 'CCV PIN'
+      Text = 'CCV Pin'
     end
     item
       IndexID = 3412
@@ -12737,7 +12724,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3413
-      Text = 'Controler Login'
+      Text = 'Controller Login'
     end
     item
       IndexID = 3414
@@ -12769,7 +12756,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'Use tabs in inventory'
+      Text = 'Use tabs in stock'
     end
     item
       IndexID = 3422
@@ -12784,11 +12771,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this PC cannot find)'
+      Text = 'Delete not local (Books this PC can not find)'
     end
     item
       IndexID = 3425
-      Text = 'Reprint ticket'
+      Text = 'Reprint Ticket'
     end
     item
       IndexID = 3426
@@ -12796,671 +12783,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3427
-      Text = 'Calculate minutes'
+      Text = 'Calculate Minutes'
     end
     item
       IndexID = 3428
-      Text = 'Minutes inactive'
+      Text = 'Minutes Inactive'
     end
     item
       IndexID = 20124
       Text = '<No data to display>'
-    end
-    item
-      IndexID = 906102
-      Text = 'Contra accounts'
-    end
-    item
-      IndexID = 906103
-      Text = 'Vendor outstanding at date'
-    end
-    item
-      IndexID = 906104
-      Text = 'Customers outstanding at date'
-    end
-    item
-      IndexID = 906105
-      Text = 'Sales Tax per period'
-    end
-    item
-      IndexID = 906106
-      Text = 'Customer transactions - Standard'
-    end
-    item
-      IndexID = 906107
-      Text = 'Customer transactions - Extra details'
-    end
-    item
-      IndexID = 906108
-      Text = 'Vendor transactions - Standard'
-    end
-    item
-      IndexID = 906109
-      Text = 'Vendor transactions - Extra details'
-    end
-    item
-      IndexID = 906110
-      Text = 'General ledger transactions - Standard'
-    end
-    item
-      IndexID = 906111
-      Text = 'General ledger transactions - Extra details'
-    end
-    item
-      IndexID = 906112
-      Text = 'Inventory In / Out'
-    end
-    item
-      IndexID = 906113
-      Text = 'Period quantity'
-    end
-    item
-      IndexID = 906114
-      Text = 'Purchases per period'
-    end
-    item
-      IndexID = 906115
-      Text = 'Items per period'
-    end
-    item
-      IndexID = 906116
-      Text = 'Vendor group'
-    end
-    item
-      IndexID = 906117
-      Text = 'Customer group'
-    end
-    item
-      IndexID = 906118
-      Text = 'Inventory group'
-    end
-    item
-      IndexID = 906119
-      Text = 'Document group'
-    end
-    item
-      IndexID = 906120
-      Text = 'Vendor returns per period'
-    end
-    item
-      IndexID = 906121
-      Text = 'Credit notes per period'
-    end
-    item
-      IndexID = 906122
-      Text = 'Sales per period'
-    end
-    item
-      IndexID = 906123
-      Text = 'Customer transactions'
-    end
-    item
-      IndexID = 906124
-      Text = 'Vendor transactions'
-    end
-    item
-      IndexID = 906125
-      Text = 'Posted invoices'
-    end
-    item
-      IndexID = 906126
-      Text = 'Unposted invoices'
-    end
-    item
-      IndexID = 906127
-      Text = 'Posted credit notes'
-    end
-    item
-      IndexID = 906128
-      Text = 'Unposted credit notes'
-    end
-    item
-      IndexID = 906129
-      Text = 'Posted purchases'
-    end
-    item
-      IndexID = 906130
-      Text = 'Unposted purchases'
-    end
-    item
-      IndexID = 906131
-      Text = 'Posted vendor returns'
-    end
-    item
-      IndexID = 906132
-      Text = 'Unposted vendor returns'
-    end
-    item
-      IndexID = 906133
-      Text = 'Confirmed estimates'
-    end
-    item
-      IndexID = 906134
-      Text = 'Unconfirmed estimates '
-    end
-    item
-      IndexID = 906135
-      Text = 'Confirmed orders'
-    end
-    item
-      IndexID = 906136
-      Text = 'Unconfirmed orders'
-    end
-    item
-      IndexID = 906137
-      Text = 'Postal address labels'
-    end
-    item
-      IndexID = 906138
-      Text = 'List delivery address'
-    end
-    item
-      IndexID = 906139
-      Text = 'List postal address'
-    end
-    item
-      IndexID = 906140
-      Text = 'List details'
-    end
-    item
-      IndexID = 906141
-      Text = 'Journal transactions per period'
-    end
-    item
-      IndexID = 906142
-      Text = 'Balances detail'
-    end
-    item
-      IndexID = 906143
-      Text = 'Balances detail history (open item)'
-    end
-    item
-      IndexID = 906144
-      Text = 'Outstanding open item transaction totals'
-    end
-    item
-      IndexID = 906145
-      Text = 'Outstanding transaction totals'
-    end
-    item
-      IndexID = 906146
-      Text = 'Customer age analysis'
-    end
-    item
-      IndexID = 906147
-      Text = 'Balances'
-    end
-    item
-      IndexID = 906148
-      Text = 'Balances detail 1'
-    end
-    item
-      IndexID = 906149
-      Text = 'Reporting groups'
-    end
-    item
-      IndexID = 906150
-      Text = 'Purchases per period - Quantities'
-    end
-    item
-      IndexID = 906151
-      Text = 'Purchases per period - Amount'
-    end
-    item
-      IndexID = 906152
-      Text = 'Purchases per period - Vendor group 1'
-    end
-    item
-      IndexID = 906153
-      Text = 'Purchases per period - Vendor group 2'
-    end
-    item
-      IndexID = 906154
-      Text = 'Purchases per period - Document group 1'
-    end
-    item
-      IndexID = 906155
-      Text = 'Invoices per period - Quantities'
-    end
-    item
-      IndexID = 906156
-      Text = 'Invoices per period - Amount'
-    end
-    item
-      IndexID = 906157
-      Text = 'Invoices per period - Customer group 1'
-    end
-    item
-      IndexID = 906158
-      Text = 'Invoices per period - Customer group 2'
-    end
-    item
-      IndexID = 906159
-      Text = 'Invoices per period - Document group 1'
-    end
-    item
-      IndexID = 906160
-      Text = 'Cash slip printer'
-    end
-    item
-      IndexID = 906161
-      Text = 'Document listing per account'
-    end
-    item
-      IndexID = 906162
-      Text = 'Unprinted document listing'
-    end
-    item
-      IndexID = 906163
-      Text = 'Purchases per period - Document group 2'
-    end
-    item
-      IndexID = 906164
-      Text = 'Purchases per period - Salesperson'
-    end
-    item
-      IndexID = 906165
-      Text = 'Invoices per period - Document group 2'
-    end
-    item
-      IndexID = 906166
-      Text = 'Invoices per period - Salesperson'
-    end
-    item
-      IndexID = 906167
-      Text = 'Graph - Vendors per week'
-    end
-    item
-      IndexID = 906168
-      Text = 'Graph - Customers per week'
-    end
-    item
-      IndexID = 906169
-      Text = 'Graph - Profit / Loss per week'
-    end
-    item
-      IndexID = 906170
-      Text = 'Graph - Invoices per week - Quantities'
-    end
-    item
-      IndexID = 906171
-      Text = 'Graph - Invoices per week - Amount'
-    end
-    item
-      IndexID = 906172
-      Text = 'Purchases per product - Inventory group 1'
-    end
-    item
-      IndexID = 906173
-      Text = 'Purchases per product - Inventory group 2'
-    end
-    item
-      IndexID = 906174
-      Text = 'Sales per product - Inventory group 1'
-    end
-    item
-      IndexID = 906175
-      Text = 'Sales per product - Inventory group 2'
-    end
-    item
-      IndexID = 906176
-      Text = 'System user'
-    end
-    item
-      IndexID = 906177
-      Text = '<@APPNAME@> user'
-    end
-    item
-      IndexID = 906178
-      Text = 'Inventory in'
-    end
-    item
-      IndexID = 906179
-      Text = 'Inventory out'
-    end
-    item
-      IndexID = 906180
-      Text = 'Open drawer'
-    end
-    item
-      IndexID = 906181
-      Text = 'Delivery note (no codes)'
-    end
-    item
-      IndexID = 906182
-      Text = 'Delivery note (15 code)'
-    end
-    item
-      IndexID = 906183
-      Text = 'POS - STARTSP100'
-    end
-    item
-      IndexID = 906184
-      Text = 'POS 1'
-    end
-    item
-      IndexID = 906185
-      Text = 'POS 2'
-    end
-    item
-      IndexID = 906186
-      Text = 'POS A4'
-    end
-    item
-      IndexID = 906187
-      Text = 'Default A4'
-    end
-    item
-      IndexID = 906188
-      Text = 'Default A4 (10 code)'
-    end
-    item
-      IndexID = 906189
-      Text = 'Default A4 (15 code)'
-    end
-    item
-      IndexID = 906190
-      Text = 'Invoice test'
-    end
-    item
-      IndexID = 906191
-      Text = 'Invoice English (15 code)'
-    end
-    item
-      IndexID = 906192
-      Text = 'Invoice Bank details (no codes)'
-    end
-    item
-      IndexID = 906193
-      Text = 'Invoice Bank details (15 code)'
-    end
-    item
-      IndexID = 906194
-      Text = 'Invoice (no codes)'
-    end
-    item
-      IndexID = 906195
-      Text = 'Credit note (no codes)'
-    end
-    item
-      IndexID = 906196
-      Text = 'Estimate (no codes)'
-    end
-    item
-      IndexID = 906197
-      Text = 'Purchase (no codes)'
-    end
-    item
-      IndexID = 906198
-      Text = 'Vendor return (no codes)'
-    end
-    item
-      IndexID = 906199
-      Text = 'Order (no codes)'
-    end
-    item
-      IndexID = 906200
-      Text = 'Invoice (10 code)'
-    end
-    item
-      IndexID = 906201
-      Text = 'Credit note (10 code)'
-    end
-    item
-      IndexID = 906202
-      Text = 'Estimate (10 code)'
-    end
-    item
-      IndexID = 906203
-      Text = 'Purchase (10 code)'
-    end
-    item
-      IndexID = 906204
-      Text = 'Vendor return (10 code)'
-    end
-    item
-      IndexID = 906205
-      Text = 'Order (10 code)'
-    end
-    item
-      IndexID = 906206
-      Text = 'Invoice (15 code)'
-    end
-    item
-      IndexID = 906207
-      Text = 'Credit note (15 code)'
-    end
-    item
-      IndexID = 906208
-      Text = 'Estimate (15 code)'
-    end
-    item
-      IndexID = 906209
-      Text = 'Purchase (15 code)'
-    end
-    item
-      IndexID = 906210
-      Text = 'Vendor return (15 code)'
-    end
-    item
-      IndexID = 906211
-      Text = 'Order (15 code)'
-    end
-    item
-      IndexID = 906212
-      Text = 'Invoice A4 (no codes)'
-    end
-    item
-      IndexID = 906213
-      Text = 'Credit note A4 (no codes)'
-    end
-    item
-      IndexID = 906214
-      Text = 'Estimate A4 (no codes)'
-    end
-    item
-      IndexID = 906215
-      Text = 'Purchase A4 (no codes)'
-    end
-    item
-      IndexID = 906216
-      Text = 'Vendor return A4 (no codes)'
-    end
-    item
-      IndexID = 906218
-      Text = 'Invoice A4 (10 code)'
-    end
-    item
-      IndexID = 906219
-      Text = 'Credit note A4 (10 code)'
-    end
-    item
-      IndexID = 906220
-      Text = 'Estimate A4 (10 code)'
-    end
-    item
-      IndexID = 906221
-      Text = 'Purchase A4 (10 code)'
-    end
-    item
-      IndexID = 906222
-      Text = 'Vendor return A4 (10 code)'
-    end
-    item
-      IndexID = 906223
-      Text = 'Order A4 (10 code)'
-    end
-    item
-      IndexID = 906224
-      Text = 'Invoice A4 (15 code)'
-    end
-    item
-      IndexID = 906225
-      Text = 'Credit note A4 (15 code)'
-    end
-    item
-      IndexID = 906226
-      Text = 'Estimate A4 (15 code)'
-    end
-    item
-      IndexID = 906227
-      Text = 'Purchase A4 (15 code)'
-    end
-    item
-      IndexID = 906228
-      Text = 'Vendor return A4 (15 code)'
-    end
-    item
-      IndexID = 906229
-      Text = 'Order A4 (15 code)'
-    end
-    item
-      IndexID = 906230
-      Text = 'Invoice A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906231
-      Text = 'Credit note A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906232
-      Text = 'Estimate A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906233
-      Text = 'Purchase A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906234
-      Text = 'Vendor return A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906235
-      Text = 'Order A4 Plain (no codes)'
-    end
-    item
-      IndexID = 906236
-      Text = 'Invoice A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906237
-      Text = 'Credit note A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906238
-      Text = 'Estimate A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906239
-      Text = 'Purchase A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906240
-      Text = 'Vendor return A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906241
-      Text = 'Order A4 Plain (10 code)'
-    end
-    item
-      IndexID = 906242
-      Text = 'Invoice A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906243
-      Text = 'Credit note A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906244
-      Text = 'Estimate A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906245
-      Text = 'Purchase A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906246
-      Text = 'Vendor return A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906247
-      Text = 'Order A4 Plain (15 code)'
-    end
-    item
-      IndexID = 906248
-      Text = 'Invoice No Tax (no codes)'
-    end
-    item
-      IndexID = 906249
-      Text = 'Credit note No Tax (no codes)'
-    end
-    item
-      IndexID = 906250
-      Text = 'Estimate No Tax (no codes)'
-    end
-    item
-      IndexID = 906251
-      Text = 'Purchase No Tax (no codes)'
-    end
-    item
-      IndexID = 906252
-      Text = 'Vendor return No Tax (no codes)'
-    end
-    item
-      IndexID = 906253
-      Text = 'Order No Tax (no codes)'
-    end
-    item
-      IndexID = 906254
-      Text = 'Invoice No Tax (15 code)'
-    end
-    item
-      IndexID = 906255
-      Text = 'Credit note No Tax (15 code)'
-    end
-    item
-      IndexID = 906256
-      Text = 'Estimate No Tax (15 code)'
-    end
-    item
-      IndexID = 906257
-      Text = 'Purchase No Tax (15 code)'
-    end
-    item
-      IndexID = 906258
-      Text = 'Vendor return No Tax (15 code)'
-    end
-    item
-      IndexID = 906259
-      Text = 'Order No Tax (15 code)'
-    end
-    item
-      IndexID = 906217
-      Text = 'Order A4 (no codes)'
-    end
-    item
-      IndexID = 906260
-      Text = 'Invoice Bank details (10 code)'
-    end
-    item
-      IndexID = 906261
-      Text = 'Invoice English (10 code)'
-    end
-    item
-      IndexID = 906262
-      Text = 'Invoice English (no codes)'
-    end
-    item
-      IndexID = 906263
-      Text = 'New report'
-    end
-    item
-      IndexID = 906264
-      Text = 'DOCUMENTS'
-    end
-    item
-      IndexID = 906265
-      Text = 'Sales Tax Report'
     end
     item
       IndexID = 3429
@@ -13469,336 +12800,6 @@ object TTranslationSaveObject
     item
       IndexID = 3430
       Text = 'Document id'
-    end
-    item
-      IndexID = 903101
-      Text = 'Corrections'
-    end
-    item
-      IndexID = 903102
-      Text = 'Sysvars'
-    end
-    item
-      IndexID = 903103
-      Text = 'Inconsistencies'
-    end
-    item
-      IndexID = 903104
-      Text = 'MSG'
-    end
-    item
-      IndexID = 903105
-      Text = 'Run SQL'
-    end
-    item
-      IndexID = 903106
-      Text = 'Cleanup journal'
-    end
-    item
-      IndexID = 903107
-      Text = 'Color conditions'
-    end
-    item
-      IndexID = 903108
-      Text = 'Ledger transactions'
-    end
-    item
-      IndexID = 903109
-      Text = 'Import'
-    end
-    item
-      IndexID = 903110
-      Text = 'Patches'
-    end
-    item
-      IndexID = 903111
-      Text = 'Round-off cents'
-    end
-    item
-      IndexID = 903112
-      Text = 'Add extra description to inventory'
-    end
-    item
-      IndexID = 903113
-      Text = 'Drop extra description from inventory'
-    end
-    item
-      IndexID = 903114
-      Text = 'Change inventory code type'
-    end
-    item
-      IndexID = 903115
-      Text = 'Calculate total in inventory'
-    end
-    item
-      IndexID = 903116
-      Text = 'Test increase'
-    end
-    item
-      IndexID = 903117
-      Text = 'Type id'
-    end
-    item
-      IndexID = 903118
-      Text = 'End inventory code'
-    end
-    item
-      IndexID = 903119
-      Text = 'Remove groups not in inventory'
-    end
-    item
-      IndexID = 903120
-      Text = 'Remove inventory not in documents'
-    end
-    item
-      IndexID = 903121
-      Text = 'Generate inventory per ledger'
-    end
-    item
-      IndexID = 903122
-      Text = 'Remove from BOM which is not BOM'
-    end
-    item
-      IndexID = 903123
-      Text = 'Update inventory qty for option items'
-    end
-    item
-      IndexID = 903124
-      Text = 'Remove customers'
-    end
-    item
-      IndexID = 903125
-      Text = 'Remove vendors'
-    end
-    item
-      IndexID = 903126
-      Text = 'Remove inventory items'
-    end
-    item
-      IndexID = 903127
-      Text = 'Remove contacts'
-    end
-    item
-      IndexID = 903128
-      Text = 'Clear messages'
-    end
-    item
-      IndexID = 903129
-      Text = 'Consolidate closed years'
-    end
-    item
-      IndexID = 903130
-      Text = 'Transfer account data'
-    end
-    item
-      IndexID = 903131
-      Text = 'Transfer inventory data'
-    end
-    item
-      IndexID = 903132
-      Text = 'Transfer doubles to Min id and delete'
-    end
-    item
-      IndexID = 903133
-      Text = 'Consolidate closed years - documents and inventory'
-    end
-    item
-      IndexID = 903134
-      Text = 'Fill globals with max + 1 id'
-    end
-    item
-      IndexID = 903135
-      Text = 'Remove customers not in account'
-    end
-    item
-      IndexID = 903136
-      Text = 'Remove vendors not in account'
-    end
-    item
-      IndexID = 903137
-      Text = 'Set all customers to open item'
-    end
-    item
-      IndexID = 903138
-      Text = 'Set all vendor to open item'
-    end
-    item
-      IndexID = 903139
-      Text = 'Correct account numbers'
-    end
-    item
-      IndexID = 903140
-      Text = 'Correct sub-accounts'
-    end
-    item
-      IndexID = 903141
-      Text = 'Trim customer address and set first character to the UPPER-CASE'
-    end
-    item
-      IndexID = 903142
-      Text = 'Generate all total entries'
-    end
-    item
-      IndexID = 903143
-      Text = 'Remove invalid symbols from bank accounts'
-    end
-    item
-      IndexID = 903144
-      Text = 'Reset purchase to basis of last document'
-    end
-    item
-      IndexID = 903145
-      Text = 'Correct errors balance booking descriptions'
-    end
-    item
-      IndexID = 903146
-      Text = 'Set Transact previous years'
-    end
-    item
-      IndexID = 903147
-      Text = 'Update Dochead FTaxAmt'
-    end
-    item
-      IndexID = 903148
-      Text = 'Correct periods'
-    end
-    item
-      IndexID = 903149
-      Text = 'Fix periods'
-    end
-    item
-      IndexID = 903150
-      Text = 'Find unbalanced entries'
-    end
-    item
-      IndexID = 903151
-      Text = 'Auto-link all zero customers'
-    end
-    item
-      IndexID = 903152
-      Text = 'Remove all links'
-    end
-    item
-      IndexID = 903153
-      Text = 'Correct Transact line id'
-    end
-    item
-      IndexID = 903154
-      Text = 'Correct Incl./Excl. Tax amount (Reverse bug)'
-    end
-    item
-      IndexID = 903155
-      Text = 'Clear totals'
-    end
-    item
-      IndexID = 903156
-      Text = 'Clear Sysvars parameters'
-    end
-    item
-      IndexID = 903157
-      Text = 'Delete all invoices'
-    end
-    item
-      IndexID = 903158
-      Text = 'Remove BatCon not in Transact'
-    end
-    item
-      IndexID = 903159
-      Text = 'Remove zero invoices'
-    end
-    item
-      IndexID = 903160
-      Text = 'Remove last name from contacts after a comma'
-    end
-    item
-      IndexID = 903161
-      Text = 'Find customers'
-    end
-    item
-      IndexID = 903162
-      Text = 'Find vendors'
-    end
-    item
-      IndexID = 903163
-      Text = 'Generate contacts'
-    end
-    item
-      IndexID = 903164
-      Text = 'Pick color'
-    end
-    item
-      IndexID = 903165
-      Text = 
-        'Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price' +
-        ' 2 at1.3 X of Purchase Price'
-    end
-    item
-      IndexID = 903166
-      Text = 'Select'
-    end
-    item
-      IndexID = 903167
-      Text = 'Rerun Patch X'
-    end
-    item
-      IndexID = 903168
-      Text = 'Reset Sysvars'
-    end
-    item
-      IndexID = 903169
-      Text = 'Current version'
-    end
-    item
-      IndexID = 903170
-      Text = 'Execute'
-    end
-    item
-      IndexID = 903171
-      Text = 'Script'
-    end
-    item
-      IndexID = 903172
-      Text = 'Set term'
-    end
-    item
-      IndexID = 903173
-      Text = 'Drop'
-    end
-    item
-      IndexID = 903174
-      Text = 'Save to all users'
-    end
-    item
-      IndexID = 903175
-      Text = 'Expression'
-    end
-    item
-      IndexID = 903176
-      Text = 'Font expression'
-    end
-    item
-      IndexID = 903177
-      Text = 'Background expression'
-    end
-    item
-      IndexID = 903178
-      Text = 'Are you sure?'
-    end
-    item
-      IndexID = 903179
-      Text = 'Nothing found !'
-    end
-    item
-      IndexID = 903180
-      Text = 'Enter code'
-    end
-    item
-      IndexID = 903181
-      Text = 'Please register <@APPNAME@> first!'
-    end
-    item
-      IndexID = 903182
-      Text = 'Registered'
     end
     item
       IndexID = 3431
@@ -13833,24 +12834,8 @@ object TTranslationSaveObject
       Text = 'Belgium Tax Returns'
     end
     item
-      IndexID = 1000056
-      Text = 'Not used / Do not translate'
-    end
-    item
-      IndexID = 906266
-      Text = 'Posted items - Outstanding'
-    end
-    item
-      IndexID = 906267
-      Text = 'Unposted items - Outstanding'
-    end
-    item
-      IndexID = 906268
-      Text = 'Current inventory levels'
-    end
-    item
       IndexID = 3439
-      Text = 'Retype password'
+      Text = 'Retype Password'
     end
     item
       IndexID = 3440
@@ -13858,11 +12843,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3441
-      Text = 'Teams name'
+      Text = 'Skype Name'
     end
     item
       IndexID = 3442
-      Text = 'Reset password (E-mail new password to you)'
+      Text = 'Reset Password (E-mail new password to you)'
     end
     item
       IndexID = 3443
@@ -13870,7 +12855,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3444
-      Text = 'Change password'
+      Text = 'Change Password'
     end
     item
       IndexID = 3445
@@ -13882,7 +12867,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3447
-      Text = 'Time license'
+      Text = 'Time License'
     end
     item
       IndexID = 3448
@@ -13905,36 +12890,8 @@ object TTranslationSaveObject
       Text = 'Points to use'
     end
     item
-      IndexID = 906269
-      Text = 'The sum of'
-    end
-    item
-      IndexID = 906270
-      Text = 'Amount outstanding'
-    end
-    item
-      IndexID = 906271
-      Text = 'Original transaction amount'
-    end
-    item
-      IndexID = 906272
-      Text = 'Paid to'
-    end
-    item
-      IndexID = 906273
-      Text = 'Payment number'
-    end
-    item
-      IndexID = 906274
-      Text = 'LAY-BUYS (to pay)'
-    end
-    item
-      IndexID = 1000057
-      Text = 'Not used / Do not translate'
-    end
-    item
       IndexID = 3453
-      Text = 'General ledger differences'
+      Text = 'General Ledger Differences'
     end
     item
       IndexID = 3454
@@ -13946,59 +12903,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Tax classes'
+      Text = 'Tax Classes'
     end
     item
       IndexID = 3466
-      Text = 'Tax class'
+      Text = 'Tax Class'
     end
     item
       IndexID = 3467
-      Text = 'Force inventory type check'
+      Text = 'Force Stock Type Check'
     end
     item
       IndexID = 3468
-      Text = 'Default cost group'
+      Text = 'Default Cost Group'
     end
     item
       IndexID = 3469
-      Text = 'Workflow setup'
+      Text = 'Workflow Setup'
     end
     item
       IndexID = 3470
       Text = 'Currencies'
     end
     item
-      IndexID = 906275
-      Text = 'accepted'
-    end
-    item
-      IndexID = 906276
-      Text = 'Document layout (10 code)'
-    end
-    item
-      IndexID = 906277
-      Text = 'Document layout (15 code)'
-    end
-    item
-      IndexID = 906278
-      Text = 'Document layout (no codes)'
-    end
-    item
-      IndexID = 906279
-      Text = 'Vendor 1'
-    end
-    item
-      IndexID = 906280
-      Text = 'Ledger and tax'
-    end
-    item
-      IndexID = 906281
-      Text = 'Dummy price'
-    end
-    item
       IndexID = 3471
-      Text = 'I have read this instruction, and I understand the action!'
+      Text = 'I have read this instruction and I understand the action!'
     end
     item
       IndexID = 3472
@@ -14022,7 +12951,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3477
-      Text = 'From <@APPNAME@> to Outlook'
+      Text = 'From <@APPNAME@> to outlook'
     end
     item
       IndexID = 3478
@@ -14082,7 +13011,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3492
-      Text = 'Create transition'
+      Text = 'Create Transition'
     end
     item
       IndexID = 3493
@@ -14111,8 +13040,8 @@ object TTranslationSaveObject
     item
       IndexID = 3499
       Text = 
-        'You still have a detail screen open! Click [Cancel] or [Save] to' +
-        ' close!'
+        'You still have a detail screen open! Click Cancel or Save to clo' +
+        'se!'
     end
     item
       IndexID = 3500
@@ -14220,7 +13149,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3526
-      Text = 'Open items with pay date from'
+      Text = 'Open Items with paydate from'
     end
     item
       IndexID = 3527
@@ -14258,13 +13187,13 @@ object TTranslationSaveObject
       IndexID = 3535
       Text = 
         'This action will adjust the last date remittance at the "selecte' +
-        'd" customers. Do you wish to continue?'
+        'd" debtors! Do you wish to continue?'
     end
     item
       IndexID = 3536
       Text = 
         'This action will adjust the last date remittance at the "ALL VIS' +
-        'IBLE" customers! Do you wish to continue?'
+        'IBLE" debtors! Do you wish to continue?'
     end
     item
       IndexID = 3537
@@ -14360,235 +13289,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3560
-      Text = 'Inventory out'
+      Text = 'Stock out'
     end
     item
       IndexID = 3561
-      Text = 'Inventory in'
+      Text = 'Stock in'
     end
     item
       IndexID = 3562
       Text = 'Limit rows'
-    end
-    item
-      IndexID = 906282
-      Text = 'Extra convert to languages'
-    end
-    item
-      IndexID = 906283
-      Text = 'Active inventory'
-    end
-    item
-      IndexID = 906284
-      Text = 'Mark copy'
-    end
-    item
-      IndexID = 906285
-      Text = 'Multi-group copy'
-    end
-    item
-      IndexID = 906286
-      Text = 'Report total'
-    end
-    item
-      IndexID = 906287
-      Text = 'Debit transactions'
-    end
-    item
-      IndexID = 906288
-      Text = 'Credit transactions'
-    end
-    item
-      IndexID = 906289
-      Text = 'Graph - Purchases per week - Quantities'
-    end
-    item
-      IndexID = 906290
-      Text = 'Graph - Purchases per week - Amount'
-    end
-    item
-      IndexID = 906291
-      Text = 'Credit notes per period - Customer group 1'
-    end
-    item
-      IndexID = 906292
-      Text = 'Credit notes per period - Customer group 2'
-    end
-    item
-      IndexID = 906293
-      Text = 'Credit notes per period - Document group 1'
-    end
-    item
-      IndexID = 906294
-      Text = 'Credit notes per period - Document group 2'
-    end
-    item
-      IndexID = 906295
-      Text = 'Credit notes per period - Salesperson'
-    end
-    item
-      IndexID = 906296
-      Text = 'Vendor returns per period - Vendor group 1'
-    end
-    item
-      IndexID = 906297
-      Text = 'Vendor returns per period - Vendor group 2'
-    end
-    item
-      IndexID = 906298
-      Text = 'Vendor returns per period - Document group 1'
-    end
-    item
-      IndexID = 906299
-      Text = 'Vendor returns per period - Document group 2'
-    end
-    item
-      IndexID = 906300
-      Text = 'Vendor returns per period - Salesperson'
-    end
-    item
-      IndexID = 906301
-      Text = 'Estimate per period - Customer group 1'
-    end
-    item
-      IndexID = 906302
-      Text = 'Estimates per period - Customer group 2'
-    end
-    item
-      IndexID = 906303
-      Text = 'Estimate per period - Document group 1'
-    end
-    item
-      IndexID = 906304
-      Text = 'Estimate per period - Document group 2'
-    end
-    item
-      IndexID = 906305
-      Text = 'Estimate per period - Salesperson'
-    end
-    item
-      IndexID = 906306
-      Text = 'Orders per period - Vendor group 1'
-    end
-    item
-      IndexID = 906307
-      Text = 'Orders per period - Vendor group 2'
-    end
-    item
-      IndexID = 906308
-      Text = 'Orders per period - Document group 1'
-    end
-    item
-      IndexID = 906309
-      Text = 'Orders per period - Document group 2'
-    end
-    item
-      IndexID = 906310
-      Text = 'Orders per period - Salesperson'
-    end
-    item
-      IndexID = 906311
-      Text = 'Credit notes per period - Quantities'
-    end
-    item
-      IndexID = 906312
-      Text = 'Credit notes per period - Amount'
-    end
-    item
-      IndexID = 906313
-      Text = 'Vendor returns per period - Quantities'
-    end
-    item
-      IndexID = 906314
-      Text = 'Vendor returns per period - Amount'
-    end
-    item
-      IndexID = 906315
-      Text = 'Estimate per period - Quantities'
-    end
-    item
-      IndexID = 906316
-      Text = 'Estimate per period - Amount'
-    end
-    item
-      IndexID = 906317
-      Text = 'Orders per period - Quantities'
-    end
-    item
-      IndexID = 906318
-      Text = 'Orders per period - Amount'
-    end
-    item
-      IndexID = 906319
-      Text = 'Graph - Credit notes per week - Quantities'
-    end
-    item
-      IndexID = 906320
-      Text = 'Graph - Credit notes per week - Amount'
-    end
-    item
-      IndexID = 906321
-      Text = 'Graph - Vendor returns per week - Quantities'
-    end
-    item
-      IndexID = 906322
-      Text = 'Graph - Vendor returns per week - Amount'
-    end
-    item
-      IndexID = 906323
-      Text = 'Graph - Estimate per week - Quantities'
-    end
-    item
-      IndexID = 906324
-      Text = 'Graph - Estimate per week - Amount'
-    end
-    item
-      IndexID = 906325
-      Text = 'Graph - Orders per week - Quantities'
-    end
-    item
-      IndexID = 906326
-      Text = 'Graph - Orders per week - Amount'
-    end
-    item
-      IndexID = 906327
-      Text = 'Purchase documents per period - Vendor group 1'
-    end
-    item
-      IndexID = 906328
-      Text = 'Purchase documents per period - Vendor group 2'
-    end
-    item
-      IndexID = 906329
-      Text = 'Purchase documents per period - Document group 1'
-    end
-    item
-      IndexID = 906330
-      Text = 'Purchase documents per period - Document group 2'
-    end
-    item
-      IndexID = 906331
-      Text = 'Purchase documents per period - Salesperson'
-    end
-    item
-      IndexID = 906332
-      Text = 'Sales per period - Customer group 1'
-    end
-    item
-      IndexID = 906333
-      Text = 'Sales per period - Customer group 2'
-    end
-    item
-      IndexID = 906334
-      Text = 'Sales per period - Document group 1'
-    end
-    item
-      IndexID = 906335
-      Text = 'Sales per period - Document group 2'
-    end
-    item
-      IndexID = 906336
-      Text = 'Sales per period - Salesperson'
     end
     item
       IndexID = 3563
@@ -14603,28 +13312,1298 @@ object TTranslationSaveObject
       Text = 'Unlinked items'
     end
     item
+      IndexID = 906102
+      Text = 'Contra Accounts'
+    end
+    item
+      IndexID = 906103
+      Text = 'Creditors Outstanding at date'
+    end
+    item
+      IndexID = 906104
+      Text = 'Debtors Outstanding at date'
+    end
+    item
+      IndexID = 906105
+      Text = 'Tax per period'
+    end
+    item
+      IndexID = 906106
+      Text = 'Debtor Transactions - Standard'
+    end
+    item
+      IndexID = 906107
+      Text = 'Debtor Transactions - Extra Details'
+    end
+    item
+      IndexID = 906108
+      Text = 'Creditor Transactions - Standard'
+    end
+    item
+      IndexID = 906109
+      Text = 'Creditor Transactions - Extra Details'
+    end
+    item
+      IndexID = 906110
+      Text = 'General Ledger Transactions - Standard'
+    end
+    item
+      IndexID = 906111
+      Text = 'General Ledger Transactions - Extra Details'
+    end
+    item
+      IndexID = 906112
+      Text = 'Stock In / Out'
+    end
+    item
+      IndexID = 906113
+      Text = 'Period Quantity'
+    end
+    item
+      IndexID = 906114
+      Text = 'Purchases per period'
+    end
+    item
+      IndexID = 906115
+      Text = 'Items per period'
+    end
+    item
+      IndexID = 906116
+      Text = 'Creditor Group'
+    end
+    item
+      IndexID = 906117
+      Text = 'Debtor Group'
+    end
+    item
+      IndexID = 906118
+      Text = 'Stock Group'
+    end
+    item
+      IndexID = 906119
+      Text = 'Document Group'
+    end
+    item
+      IndexID = 906120
+      Text = 'Supplier Returns per period'
+    end
+    item
+      IndexID = 906121
+      Text = 'Credit Notes per period'
+    end
+    item
+      IndexID = 906122
+      Text = 'Sales per period'
+    end
+    item
+      IndexID = 906123
+      Text = 'Debtor Transactions'
+    end
+    item
+      IndexID = 906124
+      Text = 'Creditor Transactions'
+    end
+    item
+      IndexID = 906125
+      Text = 'Posted Invoices'
+    end
+    item
+      IndexID = 906126
+      Text = 'Unposted Invoices'
+    end
+    item
+      IndexID = 906127
+      Text = 'Posted Credit Notes'
+    end
+    item
+      IndexID = 906128
+      Text = 'Unposted Credit Notes'
+    end
+    item
+      IndexID = 906129
+      Text = 'Posted Purchases'
+    end
+    item
+      IndexID = 906130
+      Text = 'Unposted Purchases'
+    end
+    item
+      IndexID = 906131
+      Text = 'Posted Supplier Returns'
+    end
+    item
+      IndexID = 906132
+      Text = 'Unposted Supplier Returns'
+    end
+    item
+      IndexID = 906133
+      Text = 'Confirmed Quotes'
+    end
+    item
+      IndexID = 906134
+      Text = 'Unconfirmed Quotes'
+    end
+    item
+      IndexID = 906135
+      Text = 'Confirmed Orders'
+    end
+    item
+      IndexID = 906136
+      Text = 'Unconfirmed Orders'
+    end
+    item
+      IndexID = 906137
+      Text = 'Postal Address Labels'
+    end
+    item
+      IndexID = 906138
+      Text = 'List Delivery Address'
+    end
+    item
+      IndexID = 906139
+      Text = 'List Postal Address'
+    end
+    item
+      IndexID = 906140
+      Text = 'List Details'
+    end
+    item
+      IndexID = 906141
+      Text = 'Batch transactions per period'
+    end
+    item
+      IndexID = 906142
+      Text = 'Balances Detail'
+    end
+    item
+      IndexID = 906143
+      Text = 'Balances Detail History'
+    end
+    item
+      IndexID = 906144
+      Text = 'Outstanding Open Item Transaction Totals'
+    end
+    item
+      IndexID = 906145
+      Text = 'Outstanding Transaction Totals'
+    end
+    item
+      IndexID = 906146
+      Text = 'Debtor Age Analysis'
+    end
+    item
+      IndexID = 906147
+      Text = 'Balances'
+    end
+    item
+      IndexID = 906148
+      Text = 'Balances Detail 1'
+    end
+    item
+      IndexID = 906149
+      Text = 'Reporting Groups'
+    end
+    item
+      IndexID = 906150
+      Text = 'Purchases per period - Quantities'
+    end
+    item
+      IndexID = 906151
+      Text = 'Purchases per period - Cost'
+    end
+    item
+      IndexID = 906152
+      Text = 'Purchases per period - Creditor Group 1'
+    end
+    item
+      IndexID = 906153
+      Text = 'Purchases per period - Creditor Group 2'
+    end
+    item
+      IndexID = 906154
+      Text = 'Purchases per period - Document Group 1'
+    end
+    item
+      IndexID = 906155
+      Text = 'Invoices per period - Quantities'
+    end
+    item
+      IndexID = 906156
+      Text = 'Invoices per period - Turnover'
+    end
+    item
+      IndexID = 906157
+      Text = 'Invoices per period - Debtor Group 1'
+    end
+    item
+      IndexID = 906158
+      Text = 'Invoices per period - Debtor Group 2'
+    end
+    item
+      IndexID = 906159
+      Text = 'Invoices per period - Document Group 1'
+    end
+    item
+      IndexID = 906160
+      Text = 'Cash Slip Printer'
+    end
+    item
+      IndexID = 906161
+      Text = 'Document Listing per Account'
+    end
+    item
+      IndexID = 906162
+      Text = 'Unprinted Document Listing'
+    end
+    item
+      IndexID = 906163
+      Text = 'Purchases per period - Document Group 2'
+    end
+    item
+      IndexID = 906164
+      Text = 'Purchases per period - Salesperson'
+    end
+    item
+      IndexID = 906165
+      Text = 'Invoices per period - Document Group 2'
+    end
+    item
+      IndexID = 906166
+      Text = 'Invoices per period - Salesperson'
+    end
+    item
+      IndexID = 906167
+      Text = 'Graph - Creditor per week'
+    end
+    item
+      IndexID = 906168
+      Text = 'Graph - Debtor per week'
+    end
+    item
+      IndexID = 906169
+      Text = 'Graph - Profit / Loss per week'
+    end
+    item
+      IndexID = 906170
+      Text = 'Graph - Invoices per week - Quantities'
+    end
+    item
+      IndexID = 906171
+      Text = 'Graph - Invoices per week - Turnover'
+    end
+    item
+      IndexID = 906172
+      Text = 'Purchases by Product - Stock Group 1'
+    end
+    item
+      IndexID = 906173
+      Text = 'Purchases by Product - Stock Group 2'
+    end
+    item
+      IndexID = 906174
+      Text = 'Sales by Product - Stock Group 1'
+    end
+    item
+      IndexID = 906175
+      Text = 'Sales by Product - Stock Group 2'
+    end
+    item
+      IndexID = 906176
+      Text = 'System User'
+    end
+    item
+      IndexID = 906177
+      Text = '<@APPNAME@> user'
+    end
+    item
+      IndexID = 906178
+      Text = 'Stock In'
+    end
+    item
+      IndexID = 906179
+      Text = 'Stock Out'
+    end
+    item
+      IndexID = 906180
+      Text = 'Open Drawer'
+    end
+    item
+      IndexID = 906181
+      Text = 'Delivery Note (No Codes)'
+    end
+    item
+      IndexID = 906182
+      Text = 'Delivery Note (15 Code)'
+    end
+    item
+      IndexID = 906183
+      Text = 'POS - STARTSP100'
+    end
+    item
+      IndexID = 906184
+      Text = 'POS'
+    end
+    item
+      IndexID = 906185
+      Text = 'POS 2'
+    end
+    item
+      IndexID = 906186
+      Text = 'POS A4'
+    end
+    item
+      IndexID = 906187
+      Text = 'Default A4'
+    end
+    item
+      IndexID = 906188
+      Text = 'Default A4 (10 Code)'
+    end
+    item
+      IndexID = 906189
+      Text = 'Default A4 (15 Code)'
+    end
+    item
+      IndexID = 906190
+      Text = 'Invoice Test'
+    end
+    item
+      IndexID = 906191
+      Text = 'Invoice English (15 Code)'
+    end
+    item
+      IndexID = 906192
+      Text = 'Invoice Bank Details (No Code)'
+    end
+    item
+      IndexID = 906193
+      Text = 'Invoice Bank Details (15 Code)'
+    end
+    item
+      IndexID = 906194
+      Text = 'Invoice (No Code)'
+    end
+    item
+      IndexID = 906195
+      Text = 'Credit Note (No Code)'
+    end
+    item
+      IndexID = 906196
+      Text = 'Quote (No Code)'
+    end
+    item
+      IndexID = 906197
+      Text = 'Purchase (No Code)'
+    end
+    item
+      IndexID = 906198
+      Text = 'Supplier Return (No Code)'
+    end
+    item
+      IndexID = 906199
+      Text = 'Order (No Code)'
+    end
+    item
+      IndexID = 906200
+      Text = 'Invoice (10 Code)'
+    end
+    item
+      IndexID = 906201
+      Text = 'Credit Note (10 Code)'
+    end
+    item
+      IndexID = 906202
+      Text = 'Quote (10 Code)'
+    end
+    item
+      IndexID = 906203
+      Text = 'Purchase (10 Code)'
+    end
+    item
+      IndexID = 906204
+      Text = 'Supplier Return (10 Code)'
+    end
+    item
+      IndexID = 906205
+      Text = 'Order (10 Code)'
+    end
+    item
+      IndexID = 906206
+      Text = 'Invoice (15 Code)'
+    end
+    item
+      IndexID = 906207
+      Text = 'Credit Note (15 Code)'
+    end
+    item
+      IndexID = 906208
+      Text = 'Quote (15 Code)'
+    end
+    item
+      IndexID = 906209
+      Text = 'Purchase (15 Code)'
+    end
+    item
+      IndexID = 906210
+      Text = 'Supplier Return (15 Code)'
+    end
+    item
+      IndexID = 906211
+      Text = 'Order (15 Code)'
+    end
+    item
+      IndexID = 906212
+      Text = 'Invoice A4 (No Code)'
+    end
+    item
+      IndexID = 906213
+      Text = 'Credit Note A4 (No Code)'
+    end
+    item
+      IndexID = 906214
+      Text = 'Quote A4 (No Code)'
+    end
+    item
+      IndexID = 906215
+      Text = 'Purchase A4 (No Code)'
+    end
+    item
+      IndexID = 906216
+      Text = 'Supplier Return A4 (No Code)'
+    end
+    item
+      IndexID = 906218
+      Text = 'Invoice A4 (10 Code)'
+    end
+    item
+      IndexID = 906219
+      Text = 'Credit Note A4 (10 Code)'
+    end
+    item
+      IndexID = 906220
+      Text = 'Quote A4 (10 Code)'
+    end
+    item
+      IndexID = 906221
+      Text = 'Purchase A4 (10 Code)'
+    end
+    item
+      IndexID = 906222
+      Text = 'Supplier Return A4 (10 Code)'
+    end
+    item
+      IndexID = 906223
+      Text = 'Order A4 (10 Code)'
+    end
+    item
+      IndexID = 906224
+      Text = 'Invoice A4 (15 Code)'
+    end
+    item
+      IndexID = 906225
+      Text = 'Credit Note A4 (15 Code)'
+    end
+    item
+      IndexID = 906226
+      Text = 'Quote A4 (15 Code)'
+    end
+    item
+      IndexID = 906227
+      Text = 'Purchase A4 (15 Code)'
+    end
+    item
+      IndexID = 906228
+      Text = 'Supplier Return A4 (15 Code)'
+    end
+    item
+      IndexID = 906229
+      Text = 'Order A4 (15 Code)'
+    end
+    item
+      IndexID = 906230
+      Text = 'Invoice A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906231
+      Text = 'Credit Note A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906232
+      Text = 'Quote A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906233
+      Text = 'Purchase A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906234
+      Text = 'Supplier Return A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906235
+      Text = 'Order A4 Plain (No Code)'
+    end
+    item
+      IndexID = 906236
+      Text = 'Invoice A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906237
+      Text = 'Credit Note A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906238
+      Text = 'Quote A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906239
+      Text = 'Purchase A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906240
+      Text = 'Supplier Return A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906241
+      Text = 'Order A4 Plain (10 Code)'
+    end
+    item
+      IndexID = 906242
+      Text = 'Invoice A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906243
+      Text = 'Credit Note A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906244
+      Text = 'Quote A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906245
+      Text = 'Purchase A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906246
+      Text = 'Supplier Return A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906247
+      Text = 'Order A4 Plain (15 Code)'
+    end
+    item
+      IndexID = 906248
+      Text = 'Invoice No Tax (No Code)'
+    end
+    item
+      IndexID = 906249
+      Text = 'Credit Note No Tax (No Code)'
+    end
+    item
+      IndexID = 906250
+      Text = 'Quote No Tax (No Code)'
+    end
+    item
+      IndexID = 906251
+      Text = 'Purchase No Tax (No Code)'
+    end
+    item
+      IndexID = 906252
+      Text = 'Supplier Return No Tax (No Code)'
+    end
+    item
+      IndexID = 906253
+      Text = 'Order No Tax (No Code)'
+    end
+    item
+      IndexID = 906254
+      Text = 'Invoice No Tax (15 Code)'
+    end
+    item
+      IndexID = 906255
+      Text = 'Credit Note No Tax (15 Code)'
+    end
+    item
+      IndexID = 906256
+      Text = 'Quote No Tax (15 Code)'
+    end
+    item
+      IndexID = 906257
+      Text = 'Purchase No Tax (15 Code)'
+    end
+    item
+      IndexID = 906258
+      Text = 'Supplier Return No Tax (15 Code)'
+    end
+    item
+      IndexID = 906259
+      Text = 'Order No Tax (15 Code)'
+    end
+    item
+      IndexID = 906217
+      Text = 'Order A4 (No Code)'
+    end
+    item
+      IndexID = 906260
+      Text = 'Invoice Bank Details (10 Code)'
+    end
+    item
+      IndexID = 906261
+      Text = 'Invoice English (10 Code)'
+    end
+    item
+      IndexID = 906262
+      Text = 'Invoice English (No Code)'
+    end
+    item
+      IndexID = 906263
+      Text = 'New Report'
+    end
+    item
+      IndexID = 906264
+      Text = 'DOCUMENTS'
+    end
+    item
+      IndexID = 906265
+      Text = 'Tax Report'
+    end
+    item
+      IndexID = 903101
+      Text = 'Corrections'
+    end
+    item
+      IndexID = 903102
+      Text = 'Sysvars'
+    end
+    item
+      IndexID = 903103
+      Text = 'Inconsistencies'
+    end
+    item
+      IndexID = 903104
+      Text = 'MSG'
+    end
+    item
+      IndexID = 903105
+      Text = 'Run SQL'
+    end
+    item
+      IndexID = 903106
+      Text = 'Cleanup Batch'
+    end
+    item
+      IndexID = 903107
+      Text = 'Colour Conditions'
+    end
+    item
+      IndexID = 903108
+      Text = 'Ledger Transactions'
+    end
+    item
+      IndexID = 903109
+      Text = 'Import'
+    end
+    item
+      IndexID = 903110
+      Text = 'Patches'
+    end
+    item
+      IndexID = 903111
+      Text = 'Round-off Cents'
+    end
+    item
+      IndexID = 903112
+      Text = 'Add Extra Description to Stock'
+    end
+    item
+      IndexID = 903113
+      Text = 'Drop Extra Description from Stock'
+    end
+    item
+      IndexID = 903114
+      Text = 'Change Stock Code Type'
+    end
+    item
+      IndexID = 903115
+      Text = 'Calculate Total in Stock'
+    end
+    item
+      IndexID = 903116
+      Text = 'Test Increase'
+    end
+    item
+      IndexID = 903117
+      Text = 'Type ID'
+    end
+    item
+      IndexID = 903118
+      Text = 'End Stock Code'
+    end
+    item
+      IndexID = 903119
+      Text = 'Remove Groups not in Stock'
+    end
+    item
+      IndexID = 903120
+      Text = 'Remove Stock not in Documents'
+    end
+    item
+      IndexID = 903121
+      Text = 'Generate Stock per Ledger'
+    end
+    item
+      IndexID = 903122
+      Text = 'Remove from BOM which is not BOM'
+    end
+    item
+      IndexID = 903123
+      Text = 'Update Stock Qty for Option Items'
+    end
+    item
+      IndexID = 903124
+      Text = 'Remove Debtors'
+    end
+    item
+      IndexID = 903125
+      Text = 'Remove Creditors'
+    end
+    item
+      IndexID = 903126
+      Text = 'Remove Stock items'
+    end
+    item
+      IndexID = 903127
+      Text = 'Remove Contacts'
+    end
+    item
+      IndexID = 903128
+      Text = 'Clear Messages'
+    end
+    item
+      IndexID = 903129
+      Text = 'Consolidate Closed Years'
+    end
+    item
+      IndexID = 903130
+      Text = 'Transfer Account Data'
+    end
+    item
+      IndexID = 903131
+      Text = 'Transfer Stock Data'
+    end
+    item
+      IndexID = 903132
+      Text = 'Transfer Doubles to Min ID and Delete'
+    end
+    item
+      IndexID = 903133
+      Text = 'Consolidate Closed Years - Documents and Stock'
+    end
+    item
+      IndexID = 903134
+      Text = 'Fill Globals with Max + 1 ID'
+    end
+    item
+      IndexID = 903135
+      Text = 'Remove Debtors not in Account'
+    end
+    item
+      IndexID = 903136
+      Text = 'Remove Creditors not in Account'
+    end
+    item
+      IndexID = 903137
+      Text = 'Set all Debtors to Open Item'
+    end
+    item
+      IndexID = 903138
+      Text = 'Set all Creditors to Open Item'
+    end
+    item
+      IndexID = 903139
+      Text = 'Correct Account Numbers'
+    end
+    item
+      IndexID = 903140
+      Text = 'Correct Sub-accounts'
+    end
+    item
+      IndexID = 903141
+      Text = 'Trim Debtor Address and Set First Character to the UPPERCASE'
+    end
+    item
+      IndexID = 903142
+      Text = 'Generate All Total Entries'
+    end
+    item
+      IndexID = 903143
+      Text = 'Remove Invalid Symbols from Bank Accounts'
+    end
+    item
+      IndexID = 903144
+      Text = 'Reset Purchase to Basis of Last Document'
+    end
+    item
+      IndexID = 903145
+      Text = 'Correct Errors Balance Bookings Descriptions'
+    end
+    item
+      IndexID = 903146
+      Text = 'Set Transact Previous Years'
+    end
+    item
+      IndexID = 903147
+      Text = 'Update Dochead FTaxAmt'
+    end
+    item
+      IndexID = 903148
+      Text = 'Correct Periods'
+    end
+    item
+      IndexID = 903149
+      Text = 'Fix Periods'
+    end
+    item
+      IndexID = 903150
+      Text = 'Find Unbalanced Entries'
+    end
+    item
+      IndexID = 903151
+      Text = 'Auto-link All Zero Debtors'
+    end
+    item
+      IndexID = 903152
+      Text = 'Remove All Links'
+    end
+    item
+      IndexID = 903153
+      Text = 'Correct Transact Line ID'
+    end
+    item
+      IndexID = 903154
+      Text = 'Correct Incl. Excl. Tax Amount (Reverse Bug)'
+    end
+    item
+      IndexID = 903155
+      Text = 'Clear Totals'
+    end
+    item
+      IndexID = 903156
+      Text = 'Clear Sysvars Parameters'
+    end
+    item
+      IndexID = 903157
+      Text = 'Delete All Invoices'
+    end
+    item
+      IndexID = 903158
+      Text = 'Remove BatCon not in Transact'
+    end
+    item
+      IndexID = 903159
+      Text = 'Remove Zero Invoices'
+    end
+    item
+      IndexID = 903160
+      Text = 'Remove Last Name from Contacts after a Comma'
+    end
+    item
+      IndexID = 903161
+      Text = 'Find Debtors'
+    end
+    item
+      IndexID = 903162
+      Text = 'Find Creditors'
+    end
+    item
+      IndexID = 903163
+      Text = 'Generate Contacts'
+    end
+    item
+      IndexID = 903164
+      Text = 'Pick Colour'
+    end
+    item
+      IndexID = 903165
+      Text = 
+        'Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price' +
+        ' 2 at1.3 X of Purchase Price'
+    end
+    item
+      IndexID = 903166
+      Text = 'Select'
+    end
+    item
+      IndexID = 903167
+      Text = 'Rerun Patch X'
+    end
+    item
+      IndexID = 903168
+      Text = 'Reset Sysvars'
+    end
+    item
+      IndexID = 903169
+      Text = 'Current Version'
+    end
+    item
+      IndexID = 903170
+      Text = 'Execute'
+    end
+    item
+      IndexID = 903171
+      Text = 'Script'
+    end
+    item
+      IndexID = 903172
+      Text = 'Set Term'
+    end
+    item
+      IndexID = 903173
+      Text = 'Drop'
+    end
+    item
+      IndexID = 903174
+      Text = 'Save to All Users'
+    end
+    item
+      IndexID = 903175
+      Text = 'Expression'
+    end
+    item
+      IndexID = 903176
+      Text = 'Font Expression'
+    end
+    item
+      IndexID = 903177
+      Text = 'Background Expression'
+    end
+    item
+      IndexID = 903178
+      Text = 'Are you sure ?'
+    end
+    item
+      IndexID = 903179
+      Text = 'Nothing found !'
+    end
+    item
+      IndexID = 903180
+      Text = 'Enter Code'
+    end
+    item
+      IndexID = 903181
+      Text = 'Please register <@APPNAME@> first !'
+    end
+    item
+      IndexID = 903182
+      Text = 'Registered'
+    end
+    item
+      IndexID = 1000056
+      Text = 'Not used / Do not translate'
+    end
+    item
+      IndexID = 906266
+      Text = 'Posted Items - Outstanding'
+    end
+    item
+      IndexID = 906267
+      Text = 'Unposted Items - Outstanding'
+    end
+    item
+      IndexID = 906268
+      Text = 'Current Stock Levels'
+    end
+    item
+      IndexID = 906269
+      Text = 'The sum of'
+    end
+    item
+      IndexID = 906270
+      Text = 'Amount Outstanding'
+    end
+    item
+      IndexID = 906271
+      Text = 'Original Transaction Amount'
+    end
+    item
+      IndexID = 906272
+      Text = 'Paid to'
+    end
+    item
+      IndexID = 906273
+      Text = 'Payment Number'
+    end
+    item
+      IndexID = 906274
+      Text = 'LAY-BUYS (to pay)'
+    end
+    item
+      IndexID = 1000057
+      Text = 'Not used / Do not translate'
+    end
+    item
+      IndexID = 906275
+      Text = 'Accepted'
+    end
+    item
+      IndexID = 906276
+      Text = 'Documentlayout (10 Codes)'
+    end
+    item
+      IndexID = 906277
+      Text = 'Documentlayout (15 Codes)'
+    end
+    item
+      IndexID = 906278
+      Text = 'Documentlayout (No Codes)'
+    end
+    item
+      IndexID = 906279
+      Text = 'Supplier 1'
+    end
+    item
+      IndexID = 906280
+      Text = 'Ledger and Tax'
+    end
+    item
+      IndexID = 906281
+      Text = 'Dummy Price'
+    end
+    item
+      IndexID = 906282
+      Text = 'Extra Convert to Languages'
+    end
+    item
+      IndexID = 906283
+      Text = 'Active Stock'
+    end
+    item
+      IndexID = 906284
+      Text = 'Mark Copy'
+    end
+    item
+      IndexID = 906285
+      Text = 'Multi-group copy'
+    end
+    item
+      IndexID = 906286
+      Text = 'Report Total'
+    end
+    item
+      IndexID = 906287
+      Text = 'Debit Transactions'
+    end
+    item
+      IndexID = 906288
+      Text = 'Credit Transactions'
+    end
+    item
+      IndexID = 906289
+      Text = 'Graph - Purchases per week - Quantities'
+    end
+    item
+      IndexID = 906290
+      Text = 'Graph - Purchases per week - Cost'
+    end
+    item
+      IndexID = 906291
+      Text = 'Credit Notes per period - Debtor Group 1'
+    end
+    item
+      IndexID = 906292
+      Text = 'Credit Notes per period - Debtor Group 2'
+    end
+    item
+      IndexID = 906293
+      Text = 'Credit Notes per period - Document Group 1'
+    end
+    item
+      IndexID = 906294
+      Text = 'Credit Notes per period - Document Group 2'
+    end
+    item
+      IndexID = 906295
+      Text = 'Credit Notes per period - Salesperson'
+    end
+    item
+      IndexID = 906296
+      Text = 'Supplier Returns per period - Creditor Group 1'
+    end
+    item
+      IndexID = 906297
+      Text = 'Supplier Returns per period - Creditor Group 2'
+    end
+    item
+      IndexID = 906298
+      Text = 'Supplier Returns per period - Document Group 1'
+    end
+    item
+      IndexID = 906299
+      Text = 'Supplier Returns per period - Document Group 2'
+    end
+    item
+      IndexID = 906300
+      Text = 'Supplier Returns per period - Salesperson'
+    end
+    item
+      IndexID = 906301
+      Text = 'Quotes per period - Debtor Group 1'
+    end
+    item
+      IndexID = 906302
+      Text = 'Quotes per period - Debtor Group 2'
+    end
+    item
+      IndexID = 906303
+      Text = 'Quotes per period - Document Group 1'
+    end
+    item
+      IndexID = 906304
+      Text = 'Quotes per period - Document Group 2'
+    end
+    item
+      IndexID = 906305
+      Text = 'Quotes per period - Salesperson'
+    end
+    item
+      IndexID = 906306
+      Text = 'Orders per period - Creditor Group 1'
+    end
+    item
+      IndexID = 906307
+      Text = 'Orders per period - Creditor Group 2'
+    end
+    item
+      IndexID = 906308
+      Text = 'Orders per period - Document Group 1'
+    end
+    item
+      IndexID = 906309
+      Text = 'Orders per period - Document Group 2'
+    end
+    item
+      IndexID = 906310
+      Text = 'Orders per period - Salesperson'
+    end
+    item
+      IndexID = 906311
+      Text = 'Credit Notes per period - Quantities'
+    end
+    item
+      IndexID = 906312
+      Text = 'Credit Notes per period - Turnover'
+    end
+    item
+      IndexID = 906313
+      Text = 'Supplier Returns per period - Quantities'
+    end
+    item
+      IndexID = 906314
+      Text = 'Supplier Returns per period - Cost'
+    end
+    item
+      IndexID = 906315
+      Text = 'Quotes per period - Quantities'
+    end
+    item
+      IndexID = 906316
+      Text = 'Quotes per period - Turnover'
+    end
+    item
+      IndexID = 906317
+      Text = 'Orders per period - Quantities'
+    end
+    item
+      IndexID = 906318
+      Text = 'Orders per period - Cost'
+    end
+    item
+      IndexID = 906319
+      Text = 'Graph - Credit Notes per week - Quantities'
+    end
+    item
+      IndexID = 906320
+      Text = 'Graph - Credit Notes per week - Turnover'
+    end
+    item
+      IndexID = 906321
+      Text = 'Graph - Supplier Returns per week - Quantities'
+    end
+    item
+      IndexID = 906322
+      Text = 'Graph - Supplier Returns per week - Cost'
+    end
+    item
+      IndexID = 906323
+      Text = 'Graph - Quotes per week - Quantities'
+    end
+    item
+      IndexID = 906324
+      Text = 'Graph - Quotes per week - Turnover'
+    end
+    item
+      IndexID = 906325
+      Text = 'Graph - Orders per week - Quantities'
+    end
+    item
+      IndexID = 906326
+      Text = 'Graph - Orders per week - Cost'
+    end
+    item
+      IndexID = 906327
+      Text = 'Purchase Documents per period - Creditor Group 1'
+    end
+    item
+      IndexID = 906328
+      Text = 'Purchase Documents per period - Creditor Group 2'
+    end
+    item
+      IndexID = 906329
+      Text = 'Purchase Documents per period - Document Group 1'
+    end
+    item
+      IndexID = 906330
+      Text = 'Purchase Documents per period - Document Group 2'
+    end
+    item
+      IndexID = 906331
+      Text = 'Purchase Documents per period - Salesperson'
+    end
+    item
+      IndexID = 906332
+      Text = 'Sales per period - Debtor Group 1'
+    end
+    item
+      IndexID = 906333
+      Text = 'Sales per period - Debtor Group 2'
+    end
+    item
+      IndexID = 906334
+      Text = 'Sales per period - Document Group 1'
+    end
+    item
+      IndexID = 906335
+      Text = 'Sales per period - Document Group 2'
+    end
+    item
+      IndexID = 906336
+      Text = 'Sales per period - Salesperson'
+    end
+    item
       IndexID = 906337
-      Text = 'Purchases and Vendor returns per period'
+      Text = 'Purchases and Supplier Returns'
     end
     item
       IndexID = 3567
       Text = 'Show disabled'
     end
     item
-      IndexID = 906338
-      Text = 'Credit control listing (Credit limit vs current balance) as at '
-    end
-    item
-      IndexID = 906339
-      Text = 'Tax and company registration numbers'
-    end
-    item
       IndexID = 3568
-      Text = 'Estimates per period'
+      Text = 'Quotes per period'
     end
     item
       IndexID = 3569
-      Text = 'Credit notes per period'
+      Text = 'Credit Notes per period'
     end
     item
       IndexID = 3570
@@ -14644,15 +14623,241 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3574
-      Text = 'Vendor returns per period'
+      Text = 'Supplier Returns per period'
     end
     item
       IndexID = 3575
       Text = 'Purchases per product'
     end
     item
+      IndexID = 3576
+      Text = 'New report'
+    end
+    item
+      IndexID = 3577
+      Text = 'New folder'
+    end
+    item
+      IndexID = 3578
+      Text = 'Create parameters and open'
+    end
+    item
+      IndexID = 3579
+      Text = 'No refresh after save'
+    end
+    item
+      IndexID = 3580
+      Text = 'Select test document id'
+    end
+    item
+      IndexID = 3581
+      Text = 'Explorer folder'
+    end
+    item
+      IndexID = 3582
+      Text = 'Copy report'
+    end
+    item
+      IndexID = 36
+      Text = 'Order confirmation'
+    end
+    item
+      IndexID = 96
+      Text = 'Proforma'
+    end
+    item
+      IndexID = 3583
+      Text = 'Save gridlayout'
+    end
+    item
+      IndexID = 3584
+      Text = 'Leads'
+    end
+    item
+      IndexID = 3585
+      Text = 'Mass tag'
+    end
+    item
+      IndexID = 3586
+      Text = 'Tags'
+    end
+    item
+      IndexID = 3587
+      Text = 'Add tag'
+    end
+    item
+      IndexID = 3588
+      Text = 'Mass activity'
+    end
+    item
+      IndexID = 3589
+      Text = 'CRM'
+    end
+    item
+      IndexID = 3590
+      Text = 'Activities'
+    end
+    item
+      IndexID = 3591
+      Text = 'Add %s to records'
+    end
+    item
+      IndexID = 3592
+      Text = 'Start timer'
+    end
+    item
+      IndexID = 3593
+      Text = 'Stop timer'
+    end
+    item
+      IndexID = 3594
+      Text = 'All accounts'
+    end
+    item
+      IndexID = 3595
+      Text = 'Lead'
+    end
+    item
+      IndexID = 3596
+      Text = 'Followup'
+    end
+    item
+      IndexID = 3597
+      Text = 'Direction'
+    end
+    item
+      IndexID = 3598
+      Text = 'Incoming'
+    end
+    item
+      IndexID = 3599
+      Text = 'Outgoing'
+    end
+    item
+      IndexID = 3600
+      Text = 'Handled'
+    end
+    item
+      IndexID = 3601
+      Text = 'preform run on'
+    end
+    item
+      IndexID = 3602
+      Text = 'mass contact'
+    end
+    item
+      IndexID = 3603
+      Text = 'Billing matrix'
+    end
+    item
+      IndexID = 3604
+      Text = 'Minimum bill minutes'
+    end
+    item
+      IndexID = 3605
+      Text = 'Increment bill minutes'
+    end
+    item
+      IndexID = 3606
+      Text = 'Cross link'
+    end
+    item
+      IndexID = 3607
+      Text = 'Skip lines'
+    end
+    item
+      IndexID = 3608
+      Text = 'Delimiter'
+    end
+    item
+      IndexID = 3609
+      Text = 'Date format'
+    end
+    item
+      IndexID = 3610
+      Text = 'Date seperator'
+    end
+    item
+      IndexID = 3611
+      Text = 'Decimal seprator'
+    end
+    item
+      IndexID = 3612
+      Text = 'Redo'
+    end
+    item
+      IndexID = 3613
+      Text = 'Leads dataset importer'
+    end
+    item
+      IndexID = 3614
+      Text = 'Headers in file'
+    end
+    item
+      IndexID = 3615
+      Text = 'Billing'
+    end
+    item
+      IndexID = 3616
+      Text = 'Bill visible'
+    end
+    item
+      IndexID = 3617
+      Text = 'Convert to'
+    end
+    item
+      IndexID = 3618
+      Text = 'Dashbord view'
+    end
+    item
+      IndexID = 3619
+      Text = 'Duration'
+    end
+    item
+      IndexID = 3620
+      Text = 'Manual input in minutes'
+    end
+    item
+      IndexID = 3621
+      Text = 'Is billed'
+    end
+    item
+      IndexID = 3622
+      Text = 'Convert'
+    end
+    item
+      IndexID = 3623
+      Text = 'Order is placed!'
+    end
+    item
+      IndexID = 3624
+      Text = 'Select or create a document!'
+    end
+    item
+      IndexID = 3625
+      Text = 'Please add items to your order!'
+    end
+    item
+      IndexID = 3626
+      Text = 'This list shows what you already ordered'
+    end
+    item
+      IndexID = 3627
+      Text = 
+        'This list shows what you are going to order when you press the o' +
+        'rder button'
+    end
+    item
+      IndexID = 3628
+      Text = 'Select a product to add to your order list'
+    end
+    item
+      IndexID = 3629
+      Text = 'Merge'
+    end
+    item
       IndexID = 21216
-      Text = 'Save metafile as'
+      Text = 'Save Metafile As'
     end
     item
       IndexID = 21094
@@ -14668,7 +14873,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21053
-      Text = 'Print the report. You can select pages to print.'
+      Text = 'Print the report, you can select pages to print'
     end
     item
       IndexID = 21046
@@ -14684,7 +14889,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 22231
-      Text = 'Sends the reports to an e-mail destination'
+      Text = 'Sends the reports to a e-mail destination'
     end
     item
       IndexID = 21044
@@ -14736,7 +14941,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21228
-      Text = 'Normal scale'
+      Text = 'Normal Scale'
     end
     item
       IndexID = 21229
@@ -14776,7 +14981,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21050
-      Text = 'Page setup'
+      Text = 'Page Setup'
     end
     item
       IndexID = 21051
@@ -14824,7 +15029,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21099
-      Text = 'Page margins'
+      Text = 'Page Margins'
     end
     item
       IndexID = 21100
@@ -14884,7 +15089,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21113
-      Text = 'Printer fonts (Windows GDI Only)'
+      Text = 'Printer Fonts (Windows GDI Only)'
     end
     item
       IndexID = 21114
@@ -14904,7 +15109,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21741
-      Text = 'Select printer'
+      Text = 'Select Printer'
     end
     item
       IndexID = 21143
@@ -14920,7 +15125,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21842
-      Text = 'Maximized'
+      Text = 'Maxmized'
     end
     item
       IndexID = 21843
@@ -14944,11 +15149,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 22347
-      Text = 'Application font'
+      Text = 'Application Font'
     end
     item
       IndexID = 22348
-      Text = 'Application font'
+      Text = 'Application Font'
     end
     item
       IndexID = 21000
@@ -15240,7 +15445,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21075
-      Text = 'Uses Kylix print bugfix (use metaprint to print metafiles)'
+      Text = 'Uses kylix print bugfix (use metaprint to print metafiles)'
     end
     item
       IndexID = 21076
@@ -15272,7 +15477,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21083
-      Text = 'Inserts an expression'
+      Text = 'Inserts a expression'
     end
     item
       IndexID = 21084
@@ -15280,7 +15485,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21085
-      Text = 'Inserts an image'
+      Text = 'Inserts a image'
     end
     item
       IndexID = 21086
@@ -15338,7 +15543,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21124
-      Text = 'Insert a group header and footer'
+      Text = 'Insert a group header an footer'
     end
     item
       IndexID = 21125
@@ -15430,11 +15635,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21145
-      Text = 'Load parameters'
+      Text = 'Load params'
     end
     item
       IndexID = 21146
-      Text = 'Load driver parameters'
+      Text = 'Load driver params'
     end
     item
       IndexID = 21753
@@ -15450,7 +15655,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 22099
-      Text = 'Connection string'
+      Text = 'Connection String'
     end
     item
       IndexID = 22100
@@ -15494,7 +15699,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21157
-      Text = 'BDE type'
+      Text = 'BDE Type'
     end
     item
       IndexID = 21158
@@ -15510,7 +15715,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21161
-      Text = 'BDE filter'
+      Text = 'BDE Filter'
     end
     item
       IndexID = 21162
@@ -15518,15 +15723,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21163
-      Text = 'Index name'
+      Text = 'Index Name'
     end
     item
       IndexID = 21164
-      Text = 'Index fields'
+      Text = 'Index Fields'
     end
     item
       IndexID = 21165
-      Text = 'Master fields'
+      Text = 'Master Fields'
     end
     item
       IndexID = 21166
@@ -15534,7 +15739,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21167
-      Text = 'MyBase file name'
+      Text = 'MyBase Filename'
     end
     item
       IndexID = 21831
@@ -15583,30 +15788,6 @@ object TTranslationSaveObject
       Text = 'Rename dataset'
     end
     item
-      IndexID = 3576
-      Text = 'New report'
-    end
-    item
-      IndexID = 3577
-      Text = 'New folder'
-    end
-    item
-      IndexID = 3578
-      Text = 'Create parameters and open'
-    end
-    item
-      IndexID = 3579
-      Text = 'No refresh after save'
-    end
-    item
-      IndexID = 3580
-      Text = 'Select test document id'
-    end
-    item
-      IndexID = 3581
-      Text = 'Explorer folder'
-    end
-    item
       IndexID = 21743
       Text = 'Configuration file'
     end
@@ -15651,180 +15832,16 @@ object TTranslationSaveObject
       Text = 'Text only driver'
     end
     item
-      IndexID = 3582
-      Text = 'Copy report'
+      IndexID = 906338
+      Text = 'Credit Control Listing (Credit Limit vs Current Balance) as at '
     end
     item
-      IndexID = 36
-      Text = 'Order confirmation'
-    end
-    item
-      IndexID = 96
-      Text = 'Proforma'
+      IndexID = 906339
+      Text = 'Tax and Company Registration Numbers'
     end
     item
       IndexID = 906440
-      Text = 'Transaction list'
-    end
-    item
-      IndexID = 3583
-      Text = 'Save grid layout'
-    end
-    item
-      IndexID = 3584
-      Text = 'Leads'
-    end
-    item
-      IndexID = 3585
-      Text = 'Mass tag'
-    end
-    item
-      IndexID = 3586
-      Text = 'Tags'
-    end
-    item
-      IndexID = 3587
-      Text = 'Add tag'
-    end
-    item
-      IndexID = 3588
-      Text = 'Mass activity'
-    end
-    item
-      IndexID = 3589
-      Text = 'CRM'
-    end
-    item
-      IndexID = 3590
-      Text = 'Activities'
-    end
-    item
-      IndexID = 3591
-      Text = 'Add %s to records'
-    end
-    item
-      IndexID = 3592
-      Text = 'Start timer'
-    end
-    item
-      IndexID = 3593
-      Text = 'Stop timer'
-    end
-    item
-      IndexID = 3594
-      Text = 'All accounts'
-    end
-    item
-      IndexID = 3595
-      Text = 'Lead'
-    end
-    item
-      IndexID = 3596
-      Text = 'Follow-up'
-    end
-    item
-      IndexID = 3597
-      Text = 'Direction'
-    end
-    item
-      IndexID = 3598
-      Text = 'Incoming'
-    end
-    item
-      IndexID = 3599
-      Text = 'Outgoing'
-    end
-    item
-      IndexID = 3600
-      Text = 'Handled'
-    end
-    item
-      IndexID = 3601
-      Text = 'Perform run on'
-    end
-    item
-      IndexID = 3602
-      Text = 'Mass contact'
-    end
-    item
-      IndexID = 3603
-      Text = 'Billing matrix'
-    end
-    item
-      IndexID = 3604
-      Text = 'Minimum bill minutes'
-    end
-    item
-      IndexID = 3605
-      Text = 'Increment bill minutes'
-    end
-    item
-      IndexID = 3606
-      Text = 'Cross link'
-    end
-    item
-      IndexID = 3607
-      Text = 'Skip lines'
-    end
-    item
-      IndexID = 3608
-      Text = 'Delimiter'
-    end
-    item
-      IndexID = 3609
-      Text = 'Date format'
-    end
-    item
-      IndexID = 3610
-      Text = 'Date separator'
-    end
-    item
-      IndexID = 3611
-      Text = 'Decimal separator'
-    end
-    item
-      IndexID = 3612
-      Text = 'Redo'
-    end
-    item
-      IndexID = 3613
-      Text = 'Leads dataset importer'
-    end
-    item
-      IndexID = 3614
-      Text = 'Headers in file'
-    end
-    item
-      IndexID = 3615
-      Text = 'Billing'
-    end
-    item
-      IndexID = 3616
-      Text = 'Bill visible'
-    end
-    item
-      IndexID = 3617
-      Text = 'Convert to'
-    end
-    item
-      IndexID = 3618
-      Text = 'Dashbord view'
-    end
-    item
-      IndexID = 3619
-      Text = 'Duration'
-    end
-    item
-      IndexID = 3620
-      Text = 'Manual input in minutes'
-    end
-    item
-      IndexID = 3621
-      Text = 'Is billed'
-    end
-    item
-      IndexID = 3622
-      Text = 'Convert'
+      Text = 'Transaction List'
     end
     item
       IndexID = 906441
@@ -15832,15 +15849,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906442
-      Text = 'Budget vs realization 3 periods'
+      Text = 'Budget v/s realisation 3 periods'
     end
     item
       IndexID = 906443
-      Text = 'Ref. no.'
+      Text = 'Ref. No.'
     end
     item
       IndexID = 906444
-      Text = 'Data integrity check report'
+      Text = 'Data Integrity Check Report'
     end
     item
       IndexID = 906445
@@ -15852,45 +15869,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906447
-      Text = 'Unposted payments'
+      Text = 'Unposted Payments'
     end
     item
       IndexID = 906448
-      Text = 'Unposted receipts'
-    end
-    item
-      IndexID = 3623
-      Text = 'Order is placed!'
-    end
-    item
-      IndexID = 3624
-      Text = 'Select or create a document!'
-    end
-    item
-      IndexID = 3625
-      Text = 'Please add items to your order!'
-    end
-    item
-      IndexID = 3626
-      Text = 'This list shows what you already ordered'
-    end
-    item
-      IndexID = 3627
-      Text = 
-        'This list shows what you are going to order when you press the [' +
-        'Order] button'
-    end
-    item
-      IndexID = 3628
-      Text = 'Select a product to add to your order list'
-    end
-    item
-      IndexID = 3629
-      Text = 'Merge'
+      Text = 'Unposted Receipts'
     end
     item
       IndexID = 906449
-      Text = 'Automatic payments report'
+      Text = 'Automatic Payments Report'
     end
     item
       IndexID = 3630
@@ -15934,11 +15921,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3640
-      Text = 'Horizontal POS layout'
+      Text = 'Horizontal pos layout'
     end
     item
       IndexID = 3641
-      Text = 'Vertical POS layout'
+      Text = 'Vertical pos layout'
     end
     item
       IndexID = 3642
@@ -15966,7 +15953,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3648
-      Text = 'Orders to deliver list'
+      Text = 'Orders to deliverlist'
     end
     item
       IndexID = 3649
@@ -15990,7 +15977,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3654
-      Text = 'Close POS'
+      Text = 'Close pos'
     end
     item
       IndexID = 3655
@@ -16002,7 +15989,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3657
-      Text = 'Show doc. info'
+      Text = 'Show doc info'
     end
     item
       IndexID = 3658
@@ -16014,7 +16001,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3660
-      Text = 'Daily provision'
+      Text = 'dayly provission'
     end
     item
       IndexID = 3661
@@ -16042,27 +16029,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3667
-      Text = 'Receive separate payments'
+      Text = 'Recieve seperate payments'
     end
     item
       IndexID = 3668
-      Text = 'Create account from document details'
+      Text = 'Create account from documentdetails'
     end
     item
       IndexID = 3669
-      Text = 'Send document type'
+      Text = 'Send documenttype'
     end
     item
       IndexID = 3670
       Text = 'Print document and send email'
-    end
-    item
-      IndexID = 21799
-      Text = 'No data available to print!'
-    end
-    item
-      IndexID = 21354
-      Text = 'Reportman manager designer'
     end
     item
       IndexID = 3671
@@ -16070,29 +16049,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3672
-      Text = 'Enable auto set inactive customer after x days unpaid'
+      Text = 'Enable auto set inactive debtor after x days unpaid'
     end
     item
       IndexID = 3673
       Text = 'Days after payment before inactive'
     end
     item
-      IndexID = 906550
-      Text = 'Sales Tax report - Reference / Document no.'
-    end
-    item
       IndexID = 3674
-      Text = 'Do you want to run this process for 1 vendor?'
+      Text = 'Do you want to run this process for 1 creditor?'
     end
     item
       IndexID = 3675
-      Text = 'Tax list customer with tax id'
+      Text = 'Tax list debtor / creditor with taxid'
     end
     item
       IndexID = 3676
       Text = 
         'Unposted documents found ! Please process all documents before m' +
-        'anual edit!'
+        'anual edit'
     end
     item
       IndexID = 3677
@@ -16108,7 +16083,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3680
-      Text = 'Max sales date'
+      Text = 'Max salesdate'
     end
     item
       IndexID = 3681
@@ -16127,16 +16102,24 @@ object TTranslationSaveObject
       Text = 'Total sold'
     end
     item
+      IndexID = 21799
+      Text = 'No data available to print!'
+    end
+    item
+      IndexID = 21354
+      Text = 'Reportman manager designer'
+    end
+    item
+      IndexID = 906550
+      Text = 'Tax report - Reference / Document no.'
+    end
+    item
       IndexID = 906551
-      Text = 'Vendor remittance advise - Outstanding'
+      Text = 'Creditor remittance advise - Outstanding'
     end
     item
       IndexID = 906552
-      Text = 'Customer statement - Outstanding'
-    end
-    item
-      IndexID = 906553
-      Text = 'Tax list vendor with tax id'
+      Text = 'Debtor statement - Outstanding'
     end
     item
       IndexID = 3685
@@ -16156,11 +16139,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3689
-      Text = 'Total inventory value'
+      Text = 'Total Stock value'
     end
     item
       IndexID = 3690
-      Text = 'Enter email address separate with ;'
+      Text = 'Enter email adress seperate with ;'
     end
     item
       IndexID = 3691
@@ -16168,23 +16151,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3692
-      Text = 'Correction transaction aging'
+      Text = 'Correction missing transact'
     end
     item
       IndexID = 3693
-      Text = 'Please save or cancel your document first!'
+      Text = 'Please save or cancel your document first'
     end
     item
       IndexID = 3694
-      Text = 'Please save or cancel your inventory first!'
+      Text = 'Please save or cancel your stock first'
     end
     item
       IndexID = 3695
-      Text = 'Please save or cancel your customer first!'
+      Text = 'Please save or cancel your debtor first'
     end
     item
       IndexID = 3696
-      Text = 'Please save or cancel your vendor first!'
+      Text = 'Please save or cancel your creditor first'
     end
     item
       IndexID = 3697
@@ -16196,7 +16179,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3699
-      Text = 'Select [All] to stop asking this question.'
+      Text = 'Use all to stop asking this question.'
     end
     item
       IndexID = 3700
@@ -16212,7 +16195,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3703
-      Text = 'Formulas'
+      Text = 'Formules'
     end
     item
       IndexID = 3704
@@ -16245,9 +16228,9 @@ object TTranslationSaveObject
     item
       IndexID = 3711
       Text = 
-        'This action will close <@APPNAME@> and install version %s we rec' +
-        'ommend you make a backup of the whole folder of <@APPNAME@>. Do ' +
-        'you wish to continue?'
+        'This action wil close <@APPNAME@> and install version %s we reco' +
+        'mend you make a backup of the whole folder of <@APPNAME@>.'#13#10'Do y' +
+        'ou wish to continue?'
     end
     item
       IndexID = 3712
@@ -16266,12 +16249,16 @@ object TTranslationSaveObject
       Text = 'Install'
     end
     item
+      IndexID = 906553
+      Text = 'Tax list creditor with tax id'
+    end
+    item
       IndexID = 906554
       Text = 'Outdated batch'
     end
     item
       IndexID = 906555
-      Text = 'Batch bought from vendor'
+      Text = 'Batch bought from supplier'
     end
     item
       IndexID = 906556
@@ -16319,7 +16306,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3726
-      Text = 'OK '#8594' Next'
+      Text = 'Ok -> Next'
     end
     item
       IndexID = 3727
@@ -16335,7 +16322,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3730
-      Text = 'Post difference'
+      Text = 'Post diverence'
     end
     item
       IndexID = 3731
@@ -16344,8 +16331,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date %s is greater than today! Do you' +
-        ' want to stop opening a new year?'
+        'Your current open year end date "%s" is greater than today. do y' +
+        'ou want to stop opening a new year?'
     end
     item
       IndexID = 3733
@@ -16358,22 +16345,66 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        'You are putting profit/loss on ledger with tax! This will mess u' +
-        'p tax reports! Do you wish to continue?'
+        'You are putting proffit/loss on ledger with tax. This will messu' +
+        'p tax reports Do you wish to continue?'
     end
     item
       IndexID = 3736
       Text = 
         'You are putting cash from a bank/cash directly to a bank/cash ac' +
-        'count! Do you wish to continue?'
+        'count. Do you wish to continue?'
     end
     item
       IndexID = 3737
-      Text = 'Do you wish to cancel the print this receipt?'
+      Text = 'Do you wish to cancel the print this reciept?'
     end
     item
       IndexID = 3738
       Text = 'LTR'
+    end
+    item
+      IndexID = 3739
+      Text = 'Convert quote to one unproccessed invoice per client'
+    end
+    item
+      IndexID = 906589
+      Text = 'NO-TAX Layout file'
+    end
+    item
+      IndexID = 906590
+      Text = 'NO-TAX Document layout'
+    end
+    item
+      IndexID = 906591
+      Text = 'NO-TAX Document layout (15-code)'
+    end
+    item
+      IndexID = 906588
+      Text = 'Value stock account'
+    end
+    item
+      IndexID = 906587
+      Text = 'Document reference'
+    end
+    item
+      IndexID = 906586
+      Text = 'Stock - Expected quantities'
+    end
+    item
+      IndexID = 906585
+      Text = 'Stock item list - Active stock'
+    end
+    item
+      IndexID = 906584
+      Text = 'Production list'
+    end
+    item
+      IndexID = 902009
+      Text = 'Price list - Large retail - Purchases'
+    end
+    item
+      IndexID = 902008
+      Text = 'Price list - Large retail - Sales'
     end
     item
       IndexID = 906557
@@ -16393,19 +16424,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906561
-      Text = 'Graph - Customers per month'
+      Text = 'Graph - Debtors per month'
     end
     item
       IndexID = 906562
-      Text = 'Graph - Vendors per month'
+      Text = 'Graph - Creditors per month'
     end
     item
       IndexID = 906563
-      Text = 'Graph - Estimates per month - Quantities'
+      Text = 'Graph - Quotes per month - Quantities'
     end
     item
       IndexID = 906564
-      Text = 'Graph - Estimates per month - Amount'
+      Text = 'Graph - Quotes per month - Amount'
     end
     item
       IndexID = 906565
@@ -16433,11 +16464,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Vendor returns per month - Quantities'
+      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Vendor returns per month - Amount'
+      Text = 'Graph - Purchases - Supplier returns per month - Amount'
     end
     item
       IndexID = 906573
@@ -16449,11 +16480,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906575
-      Text = 'Graph - Vendor returns per month - Amount'
+      Text = 'Graph - Supplier returns per month - Amount'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Vendor returns per month - Quantities'
+      Text = 'Graph - Supplier returns per month - Quantities'
     end
     item
       IndexID = 906577
@@ -16473,58 +16504,14 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Vendor returns per week - Quantities'
+      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Vendor returns per week - Amount'
+      Text = 'Graph - Purchases - Supplier returns per week - Amount'
     end
     item
       IndexID = 906583
-      Text = 'Sales tax codes - Tax rates'
-    end
-    item
-      IndexID = 906589
-      Text = 'NO-TAX Layout file'
-    end
-    item
-      IndexID = 906590
-      Text = 'NO-TAX Document layout'
-    end
-    item
-      IndexID = 906591
-      Text = 'NO-TAX Document layout (15-code)'
-    end
-    item
-      IndexID = 906588
-      Text = 'Value inventory account'
-    end
-    item
-      IndexID = 906587
-      Text = 'Document reference'
-    end
-    item
-      IndexID = 906586
-      Text = 'Stock - Expected quantities'
-    end
-    item
-      IndexID = 906585
-      Text = 'Stock item list - Active inventory items'
-    end
-    item
-      IndexID = 906584
-      Text = 'Production list'
-    end
-    item
-      IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
-    end
-    item
-      IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
-    end
-    item
-      IndexID = 3739
-      Text = 'Convert estimate to one unprocessed invoice per client'
+      Text = 'Tax codes - Tax rates'
     end>
 end
