@@ -5062,7 +5062,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1255
-      Text = 'Prosesseer'
+      Text = 'Prosesseer...'
     end
     item
       IndexID = 1256
@@ -5238,11 +5238,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1299
-      Text = 'Wag om te begin ...'
+      Text = 'Wag om te begin...'
     end
     item
       IndexID = 1300
-      Text = 'Herbou sleutels'
+      Text = 'Herbou sleutels...'
     end
     item
       IndexID = 1301
@@ -5278,7 +5278,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1309
-      Text = 'Saampers van Message.db'
+      Text = 'Saampers van Message.db...'
     end
     item
       IndexID = 1310
@@ -5286,7 +5286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1311
-      Text = 'Besig om te herbou'
+      Text = 'Besig om te herbou...'
     end
     item
       IndexID = 1312
@@ -5866,7 +5866,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1742
-      Text = 'Posteer dokument(e)'
+      Text = 'Posteer dokument(e)...'
     end
     item
       IndexID = 1743
@@ -6148,7 +6148,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1812
-      Text = 'Besig om die vereiste rekening (Behoue inkomste) te skep ...'
+      Text = 'Besig om die vereiste rekening (Behoue inkomste) te skep...'
     end
     item
       IndexID = 1813
@@ -6688,7 +6688,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1948
-      Text = 'Verifieer %s op bediener %s'
+      Text = 'Verifieer %s op bediener %s...'
     end
     item
       IndexID = 1949
@@ -7539,7 +7539,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2031
-      Text = 'Prosessering'
+      Text = 'Prosessering...'
     end
     item
       IndexID = 2032
@@ -7555,7 +7555,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2035
-      Text = 'Maak laai oop'
+      Text = 'Maak laai oop...'
     end
     item
       IndexID = 2036
@@ -7665,7 +7665,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2063
-      Text = 'Allokeer uitstaande balanse'
+      Text = 'Allokeer uitstaande balanse...'
     end
     item
       IndexID = 2064
@@ -7673,7 +7673,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2065
-      Text = 'Skep Stel Boeke'
+      Text = 'Skep Stel Boeke...'
     end
     item
       IndexID = 2066
@@ -7685,7 +7685,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2068
-      Text = 'Invoer van voorraaditems'
+      Text = 'Invoer van voorraaditems...'
     end
     item
       IndexID = 2069
@@ -8137,7 +8137,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2183
-      Text = 'Invoer: %s  van %s...'
+      Text = 'Invoer: %s van %s...'
     end
     item
       IndexID = 2184
@@ -8173,7 +8173,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2192
-      Text = 'Druk op'
+      Text = 'Druk op...'
     end
     item
       IndexID = 2193
@@ -10209,11 +10209,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3002
-      Text = 'Besig om gids te skep'
+      Text = 'Besig om gids te skep...'
     end
     item
       IndexID = 3003
-      Text = 'Kopieer Stel Boeke'
+      Text = 'Kopieer Stel Boeke...'
     end
     item
       IndexID = 3004
