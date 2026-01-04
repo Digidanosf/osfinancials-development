@@ -5205,7 +5205,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1255
-      Text = 'Processing'
+      Text = 'Processing...'
     end
     item
       IndexID = 1256
@@ -5381,11 +5381,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1299
-      Text = 'Waiting to run ...'
+      Text = 'Waiting to run...'
     end
     item
       IndexID = 1300
-      Text = 'Re-building keys'
+      Text = 'Re-building keys...'
     end
     item
       IndexID = 1301
@@ -5429,7 +5429,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1311
-      Text = 'Rebuilding'
+      Text = 'Rebuilding...'
     end
     item
       IndexID = 1312
@@ -6027,7 +6027,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1742
-      Text = 'Posting document'
+      Text = 'Posting document...'
     end
     item
       IndexID = 1741
@@ -6833,7 +6833,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1948
-      Text = 'Verifying %s on server %s'
+      Text = 'Verifying %s on server %s...'
     end
     item
       IndexID = 1947
@@ -7685,7 +7685,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2035
-      Text = 'Opening drawer'
+      Text = 'Opening drawer...'
     end
     item
       IndexID = 2034
@@ -7701,7 +7701,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2031
-      Text = 'Processing'
+      Text = 'Processing...'
     end
     item
       IndexID = 2042
@@ -8265,7 +8265,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2183
-      Text = 'Importing : %s  of %s...'
+      Text = 'Importing : %s of %s...'
     end
     item
       IndexID = 2182
