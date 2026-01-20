@@ -58,35 +58,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 16
-      Text = '&Buka Set Buku'
+      Text = '&Buka kumpulan buku'
     end
     item
       IndexID = 17
-      Text = '&Buat Set Buku'
+      Text = '&Buat kumpulan buku'
     end
     item
       IndexID = 18
-      Text = '&Hapus Set Buku'
+      Text = '&Hapus kumpulan buku'
     end
     item
       IndexID = 19
-      Text = 'Disimpan Sebagai'
+      Text = 'Simpan sebagai'
     end
     item
       IndexID = 20
-      Text = '&Penukaran bahasa'
+      Text = '&Ganti bahasa'
     end
     item
       IndexID = 21
-      Text = '&Keluar <@APPNAME@>'
+      Text = '&Keluar dari <@APPNAME@>'
     end
     item
       IndexID = 22
-      Text = '&Rekening'
+      Text = '&Akun'
     end
     item
       IndexID = 23
-      Text = '&Anggaran Belanja'
+      Text = '&Anggaran'
     end
     item
       IndexID = 24
@@ -94,11 +94,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 25
-      Text = '&Catatan Berulang'
+      Text = '&Transaksi berulang'
     end
     item
       IndexID = 26
-      Text = '&Tagihan Berulang'
+      Text = '&Faktur berulang'
     end
     item
       IndexID = 27
@@ -106,15 +106,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 28
-      Text = '&Laporan user'
+      Text = '&Laporan pengguna'
     end
     item
       IndexID = 29
-      Text = 'Rekening Bank'
+      Text = 'Akun bank'
     end
     item
       IndexID = 30
-      Text = 'Kreditor'
+      Text = 'Kreditur'
     end
     item
       IndexID = 31
@@ -122,23 +122,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 32
-      Text = 'Buku Besar Umum'
+      Text = 'Buku besar umum'
     end
     item
       IndexID = 33
-      Text = 'Rekening Pajak'
+      Text = 'Akun PPN'
     end
     item
       IndexID = 34
-      Text = 'Rekening'
+      Text = 'Akun'
     end
     item
       IndexID = 35
-      Text = 'Laporan user'
+      Text = 'Laporan pengguna'
     end
     item
       IndexID = 37
-      Text = 'Stok'
+      Text = 'Item stok'
     end
     item
       IndexID = 38
@@ -146,43 +146,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 39
-      Text = 'Hapus Tagihan Tagihan'
+      Text = 'Hapus faktur'
     end
     item
       IndexID = 40
-      Text = 'Hapus Banyak Pembeli'
+      Text = 'Hapus pembelian'
     end
     item
       IndexID = 41
-      Text = 'Hapus Stok Kembali'
+      Text = 'Hapus retur pemasok'
     end
     item
       IndexID = 42
-      Text = '&Mengatur Barang'
+      Text = '&Penyesuaian stok'
     end
     item
       IndexID = 43
-      Text = '&Isian Sekaligus'
+      Text = '&Entri jurnal'
     end
     item
       IndexID = 44
-      Text = '&Rekonsiliasi Bank'
+      Text = '&Rekonsiliasi bank'
     end
     item
       IndexID = 45
-      Text = '&Daftar Dokumen'
+      Text = '&Daftar dokumen'
     end
     item
       IndexID = 46
-      Text = '&Posting ke  Buku besar'
+      Text = 'Posting ke buku besar'
     end
     item
       IndexID = 47
-      Text = '&Nota Kredit'
+      Text = '&Nota kredit'
     end
     item
       IndexID = 48
-      Text = '&Tagihan'
+      Text = '&Faktur'
     end
     item
       IndexID = 49
@@ -190,7 +190,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 50
-      Text = 'Stok &Kembali'
+      Text = 'Retur &pemasok'
     end
     item
       IndexID = 51
@@ -202,19 +202,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 53
-      Text = '&Perbaharui Bukubesar'
+      Text = '&Perbarui buku besar'
     end
     item
       IndexID = 54
-      Text = 'Cetak &Catatan Pengantaran'
+      Text = 'Cetak &surat jalan'
     end
     item
       IndexID = 55
-      Text = '&Tipe Batch'
+      Text = '&Tipe jurnal'
     end
     item
       IndexID = 56
-      Text = '&Kreditor'
+      Text = '&Kreditur'
     end
     item
       IndexID = 57
@@ -222,7 +222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 58
-      Text = '&Bukubesar Umum'
+      Text = '&Buku besar umum'
     end
     item
       IndexID = 59
@@ -230,7 +230,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 60
-      Text = '&Tagihan'
+      Text = '&Faktur'
     end
     item
       IndexID = 61
@@ -242,15 +242,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 63
-      Text = '&Pajak'
+      Text = '&PPN'
     end
     item
       IndexID = 64
-      Text = '&Laporan user'
+      Text = '&Laporan pengguna'
     end
     item
       IndexID = 65
-      Text = '&Analisa Masa'
+      Text = '&Analisis umur'
     end
     item
       IndexID = 66
@@ -258,15 +258,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 67
-      Text = '&Gerakan'
+      Text = '&Mutasi'
     end
     item
       IndexID = 68
-      Text = '&Cetak Label'
+      Text = '&Cetak label'
     end
     item
       IndexID = 69
-      Text = '&Pengiriman uang'
+      Text = '&Saran remitansi'
     end
     item
       IndexID = 70
@@ -274,43 +274,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 71
-      Text = '&Pernyataan'
+      Text = '&Laporan pernyataan'
     end
     item
       IndexID = 72
-      Text = '&Kinerja Anggaran'
+      Text = '&Kinerja anggaran'
     end
     item
       IndexID = 73
-      Text = '&Tabel Rekening'
+      Text = '&Bagan akun'
     end
     item
       IndexID = 74
-      Text = 'Transaksi Transaksi'
+      Text = 'Transaksi'
     end
     item
       IndexID = 75
-      Text = '&Neraca Percobaan'
+      Text = '&Neraca saldo'
     end
     item
       IndexID = 76
-      Text = '&Daftar Pesanan Kembali'
+      Text = '&Daftar pesanan tunda'
     end
     item
       IndexID = 77
-      Text = '&Daftar Nota Kredit'
+      Text = '&Daftar nota kredit'
     end
     item
       IndexID = 78
-      Text = '&Daftar Tagihan'
+      Text = '&Daftar faktur'
     end
     item
       IndexID = 79
-      Text = '&Daftar Pembelian'
+      Text = '&Daftar pembelian'
     end
     item
       IndexID = 80
-      Text = '&Daftar Pengembalian'
+      Text = '&Daftar retur pemasok'
     end
     item
       IndexID = 81
@@ -318,51 +318,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 82
-      Text = '&Ringkasan Pergerakan'
+      Text = '&Ringkasan mutasi'
     end
     item
       IndexID = 83
-      Text = '&Atur ulang Laporan'
+      Text = '&Laporan pesan ulang'
     end
     item
       IndexID = 84
-      Text = '&Daftar Stok'
+      Text = '&Daftar item stok'
     end
     item
       IndexID = 85
-      Text = 'Analisa Penjualan'
+      Text = 'Analisis penjualan'
     end
     item
       IndexID = 86
-      Text = '&Rincian Tagihan'
+      Text = '&Rincian faktur'
     end
     item
       IndexID = 87
-      Text = '&Tagihan Ringkasan'
+      Text = '&Ringkasan faktur'
     end
     item
       IndexID = 88
-      Text = '& Menerima / Membayar'
+      Text = '&Rincian terima/bayar'
     end
     item
       IndexID = 89
-      Text = 'Menerima / &Membayar Ringkasan'
+      Text = 'Ringkasan terima/&bayar'
     end
     item
       IndexID = 90
-      Text = '&Pengaturan Akses'
+      Text = '&Kontrol akses'
     end
     item
       IndexID = 91
-      Text = 'Lokasi &Backup'
+      Text = 'Jalur &cadangan'
     end
     item
       IndexID = 92
-      Text = '&Tipe Batch'
+      Text = '&Tipe jurnal'
     end
     item
       IndexID = 93
-      Text = 'Informasi Perusahaan'
+      Text = '&Info perusahaan'
     end
     item
       IndexID = 94
@@ -370,7 +370,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 95
-      Text = '&Label'
+      Text = 'Tentukan &label'
     end
     item
       IndexID = 97
@@ -382,15 +382,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 99
-      Text = '&Printer'
+      Text = '&Pencetak'
     end
     item
       IndexID = 100
-      Text = '&Tgl. Laporan'
+      Text = '&Tanggal laporan'
     end
     item
       IndexID = 101
-      Text = '&Penjual'
+      Text = '&Wiraniaga'
     end
     item
       IndexID = 102
@@ -398,11 +398,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 103
-      Text = 'Informasi Stok'
+      Text = 'Informasi stok'
     end
     item
       IndexID = 104
-      Text = '&Simpan / Baru Set Buku'
+      Text = '&Cadangkan/pulihkan kumpulan buku'
     end
     item
       IndexID = 105
@@ -410,7 +410,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 106
-      Text = '&Periksa Integritas Data'
+      Text = 'Periksa integritas data'
     end
     item
       IndexID = 107
@@ -418,7 +418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 108
-      Text = '&Cara Keseluruhan'
+      Text = '&Proses global'
     end
     item
       IndexID = 109
@@ -426,11 +426,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 110
-      Text = '&Buka Item Terhubung Ulang'
+      Text = '&Tautkan ulang item terbuka'
     end
     item
       IndexID = 111
-      Text = '&Ambil Data Cadangan'
+      Text = '&Pulihkan dari cadangan'
     end
     item
       IndexID = 112
@@ -442,11 +442,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 114
-      Text = '&Bersihkan / Reset'
+      Text = '&Bersihkan/atur ulang'
     end
     item
       IndexID = 115
-      Text = '&Akhir Tahun'
+      Text = '&Lakukan tutup tahun'
     end
     item
       IndexID = 116
@@ -454,11 +454,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 117
-      Text = '&Kirim Transaksi'
+      Text = '&Transfer transaksi'
     end
     item
       IndexID = 118
-      Text = 'Tidak Dapat Terrekonsiliasi'
+      Text = 'Batalkan rekonsiliasi'
     end
     item
       IndexID = 119
@@ -466,15 +466,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 120
-      Text = 'Arsip'
+      Text = 'Berkas'
     end
     item
       IndexID = 121
-      Text = 'Edit'
+      Text = 'Ubah'
     end
     item
       IndexID = 122
-      Text = 'Masuk'
+      Text = 'Masukan'
     end
     item
       IndexID = 123
@@ -482,7 +482,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 124
-      Text = 'Setup'
+      Text = 'Persiapan'
     end
     item
       IndexID = 125
@@ -538,79 +538,79 @@ object TTranslationSaveObject
     end
     item
       IndexID = 138
-      Text = 'Duabelas'
+      Text = 'Dua belas'
     end
     item
       IndexID = 139
-      Text = 'Tigabelas'
+      Text = 'Tiga belas'
     end
     item
       IndexID = 140
-      Text = 'Empatbelas'
+      Text = 'Empat belas'
     end
     item
       IndexID = 141
-      Text = 'Limabelas'
+      Text = 'Lima belas'
     end
     item
       IndexID = 142
-      Text = 'Enambelas'
+      Text = 'Enam belas'
     end
     item
       IndexID = 143
-      Text = 'Tujuhbelas'
+      Text = 'Tujuh belas'
     end
     item
       IndexID = 144
-      Text = 'Delapanbelas'
+      Text = 'Delapan belas'
     end
     item
       IndexID = 145
-      Text = 'Sembilanbelas'
+      Text = 'Sembilan belas'
     end
     item
       IndexID = 146
-      Text = 'Duapuluh'
+      Text = 'Dua puluh'
     end
     item
       IndexID = 147
-      Text = 'Tigapuluh'
+      Text = 'Tiga puluh'
     end
     item
       IndexID = 148
-      Text = 'Empatpuluh'
+      Text = 'Empat puluh'
     end
     item
       IndexID = 149
-      Text = 'Limapuluh'
+      Text = 'Lima puluh'
     end
     item
       IndexID = 150
-      Text = 'Enampuluh'
+      Text = 'Enam puluh'
     end
     item
       IndexID = 151
-      Text = 'Tujuhpuluh'
+      Text = 'Tujuh puluh'
     end
     item
       IndexID = 152
-      Text = 'Delapanpuluh'
+      Text = 'Delapan puluh'
     end
     item
       IndexID = 153
-      Text = 'Sebilanpuluh'
+      Text = 'Sembilan puluh'
     end
     item
       IndexID = 154
-      Text = 'Seratus'
+      Text = 'Ratus'
     end
     item
       IndexID = 155
-      Text = 'Seribu'
+      Text = 'Ribu'
     end
     item
       IndexID = 156
-      Text = 'Milyar'
+      Text = 'Juta'
     end
     item
       IndexID = 157
@@ -622,15 +622,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 160
-      Text = 'Debitur 2x'
+      Text = 'Debitur'
     end
     item
       IndexID = 161
-      Text = 'Kreditur2'
+      Text = 'Kreditur'
     end
     item
       IndexID = 162
-      Text = 'Sejarah Tagihan'
+      Text = 'Riwayat faktur'
     end
     item
       IndexID = 163
@@ -638,15 +638,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 164
-      Text = 'Isian Batch'
+      Text = 'Entri jurnal'
     end
     item
       IndexID = 165
-      Text = 'Tagihan'
+      Text = 'Faktur'
     end
     item
       IndexID = 166
-      Text = 'Rekons'
+      Text = 'Entri kas/bank'
     end
     item
       IndexID = 167
@@ -662,11 +662,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 171
-      Text = 'Memilih Bahasa'
+      Text = 'Pilih bahasa'
     end
     item
       IndexID = 172
-      Text = 'Set Buku'
+      Text = 'Kumpulan buku'
     end
     item
       IndexID = 173
@@ -678,15 +678,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 175
-      Text = 'Nama untuk Set Buku Baru'
+      Text = 'Nama untuk kumpulan buku baru'
     end
     item
       IndexID = 176
-      Text = 'Nomor Rekening'
+      Text = 'Nomor akun'
     end
     item
       IndexID = 177
-      Text = 'sub-Rekening'
+      Text = 'Sub-akun'
     end
     item
       IndexID = 178
@@ -694,11 +694,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 179
-      Text = 'Group Laporan 1'
+      Text = 'Grup laporan 1'
     end
     item
       IndexID = 180
-      Text = 'Group Laporan 2'
+      Text = 'Grup laporan 2'
     end
     item
       IndexID = 181
@@ -706,15 +706,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 182
-      Text = 'Tanda Terima'
+      Text = 'Penerimaan'
     end
     item
       IndexID = 183
-      Text = 'Rekening 2x Bank'
+      Text = 'Akun bank'
     end
     item
       IndexID = 184
-      Text = 'Buka Hal Rekening'
+      Text = 'Akun item terbuka'
     end
     item
       IndexID = 185
@@ -734,67 +734,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 189
-      Text = 'Fax'
+      Text = 'Faks'
     end
     item
       IndexID = 190
-      Text = 'Kode Pos'
+      Text = 'Kode pos'
     end
     item
       IndexID = 191
-      Text = 'E-mail'
+      Text = 'Email'
     end
     item
       IndexID = 192
-      Text = 'Batas Kredit'
+      Text = 'Batas kredit'
     end
     item
       IndexID = 193
-      Text = 'Jumlah Ongkos'
+      Text = 'Jumlah biaya'
     end
     item
       IndexID = 194
-      Text = 'Arus Neraca'
+      Text = 'Saldo saat ini'
     end
     item
       IndexID = 195
-      Text = 'Terakhir Membayar'
+      Text = 'Pembayaran terakhir'
     end
     item
       IndexID = 196
-      Text = 'Atas / Hidup'
+      Text = 'Nyala'
     end
     item
       IndexID = 197
-      Text = 'Koneksi'
+      Text = 'Orang yang dapat dihubungi'
     end
     item
       IndexID = 198
-      Text = 'Salesman'
+      Text = 'Wiraniaga'
     end
     item
       IndexID = 199
-      Text = 'Alamat Kirim'
+      Text = 'Alamat pengiriman'
     end
     item
       IndexID = 200
-      Text = 'Pesan Pernyataan'
+      Text = 'Pesan'
     end
     item
       IndexID = 201
-      Text = 'Rekening dibekukan'
+      Text = 'Akun dinonaktifkan'
     end
     item
       IndexID = 202
-      Text = 'Referensi Pajak'
+      Text = 'Referensi PPN'
     end
     item
       IndexID = 203
-      Text = 'Potongan Nasabah'
+      Text = 'Diskon pelanggan'
     end
     item
       IndexID = 204
-      Text = 'Bunga atas Tunggakan'
+      Text = 'Bunga bulanan atas tunggakan'
     end
     item
       IndexID = 205
@@ -802,11 +802,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 206
-      Text = 'Pendapatan / Biaya'
+      Text = 'Laporan laba rugi'
     end
     item
       IndexID = 207
-      Text = 'Berlaku Dari'
+      Text = 'Berlaku dari'
     end
     item
       IndexID = 208
@@ -830,15 +830,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 213
-      Text = 'Kode Stok'
+      Text = 'Kode stok'
     end
     item
       IndexID = 214
-      Text = 'Ukuran Satuan'
+      Text = 'Satuan'
     end
     item
       IndexID = 215
-      Text = 'Harga Terakhir'
+      Text = 'Biaya terakhir'
     end
     item
       IndexID = 216
@@ -854,71 +854,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 219
-      Text = 'Pajak Masuk'
+      Text = 'PPN masukan'
     end
     item
       IndexID = 220
-      Text = 'Pajak Keluar'
+      Text = 'PPN keluaran'
     end
     item
       IndexID = 221
-      Text = 'Batas ReOrder'
+      Text = 'Level pesan ulang'
     end
     item
       IndexID = 222
-      Text = 'Gunakan Pot. Tagihan'
+      Text = 'Terapkan diskon faktur'
     end
     item
       IndexID = 223
-      Text = 'Laporan Penjual'
+      Text = 'Akun penjualan'
     end
     item
       IndexID = 224
-      Text = 'Harga jual'
+      Text = 'Harga pokok penjualan'
     end
     item
       IndexID = 225
-      Text = 'Pengawasan Stok'
+      Text = 'Kontrol stok'
     end
     item
       IndexID = 226
-      Text = 'Rata - rata Harga'
+      Text = 'Biaya rata-rata'
     end
     item
       IndexID = 227
-      Text = 'Jumlah Barang'
+      Text = 'Kuantitas di tangan'
     end
     item
       IndexID = 228
-      Text = 'Jumlah Harga'
+      Text = 'Total biaya'
     end
     item
       IndexID = 229
-      Text = 'Terakhir Tagihan'
+      Text = 'Faktur terakhir'
     end
     item
       IndexID = 230
-      Text = 'Dari Tagihan'
+      Text = 'Dari faktur'
     end
     item
       IndexID = 231
-      Text = 'Ke Tagihan'
+      Text = 'Ke faktur'
     end
     item
       IndexID = 232
-      Text = 'Barang Sampai'
+      Text = 'Termasuk item hingga'
     end
     item
       IndexID = 233
-      Text = 'Neraca Bank'
+      Text = 'Saldo bank'
     end
     item
       IndexID = 234
-      Text = 'No. Tagihan'
+      Text = 'No. faktur'
     end
     item
       IndexID = 235
-      Text = 'Alamat Pos'
+      Text = 'Alamat pos'
     end
     item
       IndexID = 236
@@ -926,11 +926,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 237
-      Text = 'Keterangan Anda'
+      Text = 'Referensi Anda'
     end
     item
       IndexID = 238
-      Text = 'Tgl.'
+      Text = 'Tanggal'
     end
     item
       IndexID = 239
@@ -938,31 +938,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 240
-      Text = 'Laporan ke'
+      Text = 'Kirim laporan ke'
     end
     item
       IndexID = 241
-      Text = 'Tipe Batch'
+      Text = 'Tipe jurnal'
     end
     item
       IndexID = 242
-      Text = 'Pilih Tahun'
+      Text = 'Tahun yang mana'
     end
     item
       IndexID = 243
-      Text = 'Dari Tgl. Laporan'
+      Text = 'Dari tanggal laporan'
     end
     item
       IndexID = 244
-      Text = 'Setiap Masa Terpisah'
+      Text = 'Setiap periode secara terpisah'
     end
     item
       IndexID = 245
-      Text = 'Tampilkan Neraca Masuk'
+      Text = 'Tampilkan entri penyeimbang'
     end
     item
       IndexID = 246
-      Text = 'Dari Rekening'
+      Text = 'Dari akun'
     end
     item
       IndexID = 247
@@ -970,139 +970,139 @@ object TTranslationSaveObject
     end
     item
       IndexID = 248
-      Text = 'Termasuk Neraca Nol'
+      Text = 'Termasuk saldo nol'
     end
     item
       IndexID = 249
-      Text = 'Pilihan Laporan Transaksi Kreditur'
+      Text = 'Opsi laporan transaksi kreditur'
     end
     item
       IndexID = 250
-      Text = 'Rekening Bank'
+      Text = 'Akun bank'
     end
     item
       IndexID = 251
-      Text = 'Rekening Kreditor'
+      Text = 'Akun kreditur'
     end
     item
       IndexID = 252
-      Text = 'Rekening Debitur'
+      Text = 'Akun debitur'
     end
     item
       IndexID = 253
-      Text = 'Rekening Buku Besar'
+      Text = 'Akun buku besar umum'
     end
     item
       IndexID = 254
-      Text = 'Rekening Pajak'
+      Text = 'Akun-akun PPN'
     end
     item
       IndexID = 255
-      Text = 'Rek. Anggaran Belanja'
+      Text = 'Akun anggaran'
     end
     item
       IndexID = 256
-      Text = 'Rekening Bank'
+      Text = 'Akun bank'
     end
     item
       IndexID = 257
-      Text = 'Stok'
+      Text = 'Item stok'
     end
     item
       IndexID = 258
-      Text = 'Laporan user'
+      Text = 'Laporan pengguna'
     end
     item
       IndexID = 259
-      Text = 'Rekonsiliasi Rekening Bank'
+      Text = 'Rekonsiliasi akun bank'
     end
     item
       IndexID = 260
-      Text = 'Membuat Tagihan'
+      Text = 'Penagihan'
     end
     item
       IndexID = 261
-      Text = 'Pilihan Laporan Tipe Batch'
+      Text = 'Opsi laporan tipe jurnal'
     end
     item
       IndexID = 262
-      Text = 'Pilihan Daftar Rekening'
+      Text = 'Opsi daftar akun'
     end
     item
       IndexID = 263
-      Text = 'Pilihan Analisa Masa Debitur'
+      Text = 'Opsi analisis umur debitur'
     end
     item
       IndexID = 264
-      Text = 'Jumlah Terendah'
+      Text = 'Jumlah minimum'
     end
     item
       IndexID = 265
-      Text = 'Gunakan Barang terbuka'
+      Text = 'Gunakan item terbuka'
     end
     item
       IndexID = 266
-      Text = 'Abaikan Neraca Nol'
+      Text = 'Abaikan saldo nol'
     end
     item
       IndexID = 267
-      Text = 'Tampilkan Detil Rekening'
+      Text = 'Tampilkan detail akun'
     end
     item
       IndexID = 268
-      Text = 'Urut sesuai nama'
+      Text = 'Urutkan berdasarkan nama'
     end
     item
       IndexID = 269
-      Text = 'Tampilkan Transaksi'
+      Text = 'Tampilkan transaksi'
     end
     item
       IndexID = 270
-      Text = 'Tgl. Masa Habis'
+      Text = 'Tanggal penuaan'
     end
     item
       IndexID = 271
-      Text = 'sampai'
+      Text = 'hingga'
     end
     item
       IndexID = 272
-      Text = 'Sampai Bulan'
+      Text = 'Bulan hingga'
     end
     item
       IndexID = 273
-      Text = 'Pilihan Daftar Rekening'
+      Text = 'Opsi daftar akun'
     end
     item
       IndexID = 274
-      Text = 'Pilihan Gerakan  Debitur'
+      Text = 'Opsi mutasi debitur'
     end
     item
       IndexID = 275
-      Text = 'Pilihan Laporan Transaksi Debitur'
+      Text = 'Opsi laporan transaksi debitur'
     end
     item
       IndexID = 276
-      Text = 'Tampilkan Sub-Rekening'
+      Text = 'Tampilkan sub-akun'
     end
     item
       IndexID = 277
-      Text = 'Pilihan Kinerja Anggaran'
+      Text = 'Opsi kinerja anggaran'
     end
     item
       IndexID = 278
-      Text = 'Pilihan Buku besar'
+      Text = 'Opsi buku besar umum'
     end
     item
       IndexID = 279
-      Text = 'Pilihan Gerakan Kreditor'
+      Text = 'Opsi mutasi kreditur'
     end
     item
       IndexID = 280
-      Text = 'Pilihan Gerakan Rekening Buku Besar'
+      Text = 'Opsi mutasi akun buku besar'
     end
     item
       IndexID = 281
-      Text = 'Pilihan Neraca Usaha'
+      Text = 'Opsi neraca saldo'
     end
     item
       IndexID = 282
@@ -1110,39 +1110,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 283
-      Text = 'Rekonsiliasi Rekening Bank'
+      Text = 'Rekonsiliasi bank'
     end
     item
       IndexID = 284
-      Text = 'Dari Nomor Tagihan'
+      Text = 'Dari no. faktur'
     end
     item
       IndexID = 285
-      Text = 'Ke Nomor Tagihan'
+      Text = 'Ke no. faktur'
     end
     item
       IndexID = 286
-      Text = 'Dari Tgl.'
+      Text = 'Dari tanggal'
     end
     item
       IndexID = 287
-      Text = 'Ke Tgl.'
+      Text = 'Ke tanggal'
     end
     item
       IndexID = 288
-      Text = 'Pilihan Daftar Dokumen'
+      Text = 'Opsi daftar dokumen'
     end
     item
       IndexID = 289
-      Text = 'Dari Kode Stok'
+      Text = 'Dari kode stok'
     end
     item
       IndexID = 290
-      Text = 'Pilihan Akitivitas Barang'
+      Text = 'Opsi aktivitas stok'
     end
     item
       IndexID = 291
-      Text = 'Pengontrolan Akses'
+      Text = 'Kontrol akses'
     end
     item
       IndexID = 292
@@ -1154,35 +1154,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 294
-      Text = 'Pilihan Keamanan'
+      Text = 'Opsi keamanan'
     end
     item
       IndexID = 295
-      Text = 'user Password'
+      Text = 'Kata sandi pengguna'
     end
     item
       IndexID = 296
-      Text = 'Edit Rekening'
+      Text = 'Ubah akun'
     end
     item
       IndexID = 297
-      Text = 'Edit Stok'
+      Text = 'Ubah stok'
     end
     item
       IndexID = 298
-      Text = 'Masukkan Batch'
+      Text = 'Entri jurnal'
     end
     item
       IndexID = 299
-      Text = 'No.Note Kredit'
+      Text = 'No. nota kredit'
     end
     item
       IndexID = 300
-      Text = 'Tagihan'
+      Text = 'Faktur'
     end
     item
       IndexID = 301
-      Text = 'Setup Sistem'
+      Text = 'Persiapan sistem'
     end
     item
       IndexID = 302
@@ -1190,39 +1190,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 303
-      Text = 'Stok Kembali'
+      Text = 'Retur pemasok'
     end
     item
       IndexID = 304
-      Text = 'Dibekukan'
+      Text = 'Dinonaktifkan'
     end
     item
       IndexID = 305
-      Text = 'Laporan Kreditor'
+      Text = 'Laporan kreditur'
     end
     item
       IndexID = 306
-      Text = 'Laporan Debitur'
+      Text = 'Laporan debitur'
     end
     item
       IndexID = 307
-      Text = 'Laporan Buku Besar'
+      Text = 'Laporan buku besar'
     end
     item
       IndexID = 308
-      Text = 'Laporan Stok'
+      Text = 'Laporan stok'
     end
     item
       IndexID = 309
-      Text = 'Laporan user'
+      Text = 'Laporan pengguna'
     end
     item
       IndexID = 310
-      Text = 'Pembukuan'
+      Text = 'Posting'
     end
     item
       IndexID = 311
-      Text = 'Proses Keseluruhan'
+      Text = 'Proses global'
     end
     item
       IndexID = 312
@@ -1230,131 +1230,131 @@ object TTranslationSaveObject
     end
     item
       IndexID = 313
-      Text = 'Nama Perusahaan'
+      Text = 'Nama perusahaan'
     end
     item
       IndexID = 314
-      Text = 'Metode Pajak'
+      Text = 'Metode PPN'
     end
     item
       IndexID = 315
-      Text = 'Hak Rekening'
+      Text = 'Akun jatuh tempo'
     end
     item
       IndexID = 316
-      Text = 'No. Reg. Perusahaan'
+      Text = 'No. reg. perusahaan'
     end
     item
       IndexID = 317
-      Text = 'No. Reg. Pajak'
+      Text = 'No. reg. PPN'
     end
     item
       IndexID = 318
-      Text = 'Laporan Jumlah'
+      Text = 'Laporkan jumlah dengan'
     end
     item
       IndexID = 319
-      Text = 'Klik disini untuk format Tgl. Windows'
+      Text = 'Atur format tanggal Windows'
     end
     item
       IndexID = 320
-      Text = 'Informasi Perusahaan'
+      Text = 'Info perusahaan'
     end
     item
       IndexID = 321
-      Text = 'No.Tagihan Berikut'
+      Text = 'No. faktur berikutnya'
     end
     item
       IndexID = 322
-      Text = 'Batch Tagihan'
+      Text = 'Jurnal faktur'
     end
     item
       IndexID = 323
-      Text = 'Tipe Kertas'
+      Text = 'Tipe kertas'
     end
     item
       IndexID = 324
-      Text = 'Judul Tagihan'
+      Text = 'Judul faktur'
     end
     item
       IndexID = 325
-      Text = 'Pesan Tagihan'
+      Text = 'Pesan faktur'
     end
     item
       IndexID = 326
-      Text = 'No.Nota Kredit Berikut'
+      Text = 'No. nota kredit berikutnya'
     end
     item
       IndexID = 327
-      Text = 'Batch Nota kredit'
+      Text = 'Jurnal nota kredit'
     end
     item
       IndexID = 328
-      Text = 'Judul Nota Kredit'
+      Text = 'Judul nota kredit'
     end
     item
       IndexID = 329
-      Text = 'Pesan Nota Kredit'
+      Text = 'Pesan nota kredit'
     end
     item
       IndexID = 330
-      Text = 'No.Pembelian berikut'
+      Text = 'No. pembelian berikutnya'
     end
     item
       IndexID = 331
-      Text = 'Batch Pembelian'
+      Text = 'Jurnal pembelian'
     end
     item
       IndexID = 332
-      Text = 'Judul Pembelian'
+      Text = 'Judul pembelian'
     end
     item
       IndexID = 333
-      Text = 'Pesan Pembelian'
+      Text = 'Pesan pembelian'
     end
     item
       IndexID = 334
-      Text = 'No. Kembali Berikut'
+      Text = 'No. retur pemasok berikutnya'
     end
     item
       IndexID = 335
-      Text = 'Batch Barang Kembali'
+      Text = 'Jurnal retur pemasok'
     end
     item
       IndexID = 336
-      Text = 'Judul Barang Kembali'
+      Text = 'Judul retur pemasok'
     end
     item
       IndexID = 337
-      Text = 'Pesan Barang Kembali'
+      Text = 'Pesan retur pemasok'
     end
     item
       IndexID = 338
-      Text = 'No Pemesanan Brkt'
+      Text = 'No. pesanan berikutnya'
     end
     item
       IndexID = 339
-      Text = 'Judul Pemesanan'
+      Text = 'Judul pesanan'
     end
     item
       IndexID = 340
-      Text = 'Pesan Pemesanan'
+      Text = 'Pesan pesanan'
     end
     item
       IndexID = 341
-      Text = 'No Penawaran Brkt'
+      Text = 'No. penawaran berikutnya'
     end
     item
       IndexID = 342
-      Text = 'Judul Penawaran'
+      Text = 'Judul penawaran'
     end
     item
       IndexID = 343
-      Text = 'Pesan Penawaran'
+      Text = 'Pesan penawaran'
     end
     item
       IndexID = 344
-      Text = 'Aturan Dokumen'
+      Text = 'Persiapan dokumen'
     end
     item
       IndexID = 345
@@ -1362,35 +1362,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 346
-      Text = 'Tipe Pembayaran'
+      Text = 'Tipe pembayaran'
     end
     item
       IndexID = 347
-      Text = 'Setup Pernyataan'
+      Text = 'Persiapan pernyataan'
     end
     item
       IndexID = 348
-      Text = 'Pesan Pernyataan'
+      Text = 'Pesan pernyataan'
     end
     item
       IndexID = 349
-      Text = 'Batch Biaya Penjualan'
+      Text = 'Jurnal harga pokok penjualan'
     end
     item
       IndexID = 350
-      Text = 'Informasi Stok'
+      Text = 'Informasi stok'
     end
     item
       IndexID = 351
-      Text = 'Buat Biaya Penjualan'
+      Text = 'Buat harga pokok penjualan'
     end
     item
       IndexID = 352
-      Text = 'Informasi Umum'
+      Text = 'Informasi umum'
     end
     item
       IndexID = 353
-      Text = 'Informasi Akuntansi'
+      Text = 'Informasi akuntansi'
     end
     item
       IndexID = 354
@@ -1402,23 +1402,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 356
-      Text = 'Edit'
-    end
-    item
-      IndexID = 357
-      Text = 'Reset'
-    end
-    item
-      IndexID = 358
       Text = 'Ubah'
     end
     item
+      IndexID = 357
+      Text = 'Atur ulang'
+    end
+    item
+      IndexID = 358
+      Text = 'Perbarui'
+    end
+    item
       IndexID = 359
-      Text = 'Buka Barang yang tidak berhubungan'
+      Text = 'Tautkan ulang item terbuka'
     end
     item
       IndexID = 360
-      Text = 'Buka Barang yang berhubungan'
+      Text = 'Tautan item terbuka'
     end
     item
       IndexID = 365
@@ -1426,7 +1426,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 366
-      Text = 'Batch masuk'
+      Text = 'Entri jurnal'
     end
     item
       IndexID = 367
@@ -1434,11 +1434,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 368
-      Text = '^N: Masukkan'
+      Text = '^N: Sisipkan'
     end
     item
       IndexID = 369
-      Text = 'F5: Neraca'
+      Text = 'F5: Saldo'
     end
     item
       IndexID = 370
@@ -1458,79 +1458,79 @@ object TTranslationSaveObject
     end
     item
       IndexID = 374
-      Text = 'F10: Setup'
+      Text = 'F10: Persiapan'
     end
     item
       IndexID = 375
-      Text = 'Jumlah inklusif'
+      Text = 'Jumlah inklusif:'
     end
     item
       IndexID = 376
-      Text = 'Jumlah Eksklusif'
+      Text = 'Jumlah eksklusif:'
     end
     item
       IndexID = 377
-      Text = 'Jumlah Referensi'
+      Text = 'Total referensi:'
     end
     item
       IndexID = 378
-      Text = 'Alokasi Untuk :'
+      Text = 'Alokasikan ke:'
     end
     item
       IndexID = 379
-      Text = 'Lawan Rekening'
+      Text = 'Akun kontra:'
     end
     item
       IndexID = 380
-      Text = 'Penjualan bds Nasabah'
+      Text = 'Penjualan per pelanggan'
     end
     item
       IndexID = 381
-      Text = 'Penjualan bds Produk'
+      Text = 'Penjualan per produk'
     end
     item
       IndexID = 382
-      Text = 'Penjualan bds Penjual'
+      Text = 'Penjualan per wiraniaga'
     end
     item
       IndexID = 383
-      Text = 'Penjualan bds Kelompok'
+      Text = 'Penjualan per kelompok'
     end
     item
       IndexID = 384
-      Text = 'Penjualan bds Nasabah pilihan'
+      Text = 'Opsi penjualan per pelanggan'
     end
     item
       IndexID = 385
-      Text = 'Penjualan bds produk pilihan'
+      Text = 'Opsi penjualan per produk'
     end
     item
       IndexID = 386
-      Text = 'Penjualan bds penjual perorangan pilihan'
+      Text = 'Opsi penjualan per wiraniaga'
     end
     item
       IndexID = 387
-      Text = 'Penjualan bds kelompok pilihan'
+      Text = 'Opsi penjualan per kelompok'
     end
     item
       IndexID = 388
-      Text = 'Dari Kelompok'
+      Text = 'Dari kelompok'
     end
     item
       IndexID = 389
-      Text = 'Dari Produk'
+      Text = 'Dari produk'
     end
     item
       IndexID = 390
-      Text = 'Pilihan Laporan pajak'
+      Text = 'Opsi laporan PPN'
     end
     item
       IndexID = 391
-      Text = 'Kode Pajak'
+      Text = 'Kode PPN'
     end
     item
       IndexID = 392
-      Text = 'Tampilkan rincian'
+      Text = 'Tampilkan detail'
     end
     item
       IndexID = 393
@@ -1538,11 +1538,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 394
-      Text = 'Cemerlang'
+      Text = 'Brilian'
     end
     item
       IndexID = 395
-      Text = 'SA Baru'
+      Text = 'SA baru'
     end
     item
       IndexID = 396
@@ -1570,7 +1570,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 402
-      Text = 'Angkasa'
+      Text = 'Luar angkasa'
     end
     item
       IndexID = 403
@@ -1578,59 +1578,59 @@ object TTranslationSaveObject
     end
     item
       IndexID = 404
-      Text = 'Hubungan Barang Terbuka'
+      Text = 'Tautan item terbuka'
     end
     item
       IndexID = 405
-      Text = 'Ubah Tagihan'
+      Text = 'Perbarui faktur'
     end
     item
       IndexID = 406
-      Text = 'Tgl.  dari Pernyataan'
+      Text = 'Tanggal pernyataan'
     end
     item
       IndexID = 407
-      Text = 'Tampilkan Transaksi Pajak'
+      Text = 'Tampilkan transaksi PPN'
     end
     item
       IndexID = 408
-      Text = 'Laporan Debitur'
+      Text = 'Laporan debitur'
     end
     item
       IndexID = 409
-      Text = 'Tampilkan Pajak Terpisah'
+      Text = 'Tampilkan PPN secara terpisah'
     end
     item
       IndexID = 410
-      Text = 'Pilihan Gerakan Stok'
+      Text = 'Opsi mutasi stok'
     end
     item
       IndexID = 411
-      Text = 'Pilihan Daftar Stok'
+      Text = 'Opsi daftar stok'
     end
     item
       IndexID = 412
-      Text = 'Informasi yang Diikutkan'
+      Text = 'Informasi yang disertakan'
     end
     item
       IndexID = 413
-      Text = 'Jumlah'
+      Text = 'Kuantitas'
     end
     item
       IndexID = 414
-      Text = 'Ongkos Harga'
+      Text = 'Harga biaya'
     end
     item
       IndexID = 415
-      Text = 'Hitungan Stok'
+      Text = 'Perhitungan stok'
     end
     item
       IndexID = 416
-      Text = 'Harga Jual'
+      Text = 'Harga jual'
     end
     item
       IndexID = 417
-      Text = 'Nilai Stok'
+      Text = 'Nilai stok'
     end
     item
       IndexID = 418
@@ -1638,81 +1638,81 @@ object TTranslationSaveObject
     end
     item
       IndexID = 419
-      Text = 'Barang Kembali'
+      Text = 'Retur pemasok'
     end
     item
       IndexID = 420
-      Text = 'Kelompok Rekening'
+      Text = 'Kelompok akun'
     end
     item
       IndexID = 421
-      Text = 'Kelompok Debitur'
+      Text = 'Kelompok debitur'
     end
     item
       IndexID = 422
-      Text = 'Kelompok Kreditur'
+      Text = 'Kelompok kreditur'
     end
     item
       IndexID = 423
-      Text = 'Kelompok Stok'
+      Text = 'Kelompok stok'
     end
     item
       IndexID = 424
-      Text = 'Kelompok Dokumen'
+      Text = 'Kelompok dokumen'
     end
     item
       IndexID = 425
       Text = 
-        'Peringatan,ini akan berdampak terhadap Set Buku anda, lanjutkan ' +
-        '?'
+        'Peringatan, ini akan sangat memengaruhi kumpulan buku anda! Apak' +
+        'ah anda tetap ingin melanjutkan?'
     end
     item
       IndexID = 426
       Text = 
-        'Anda harus memilih untuk menghapus seluruh user,  pengawasan aks' +
-        'es akan dimatikan'
+        'Anda telah memilih untuk menghapus semua pengguna! Kontrol akses' +
+        ' sekarang akan dinonaktifkan!'
     end
     item
       IndexID = 427
       Text = 
-        'Ada Batch blm terposting yang terasosiasi dengan user ini, Silah' +
-        'kan posting atau hapus dahulu sebelum menghapus user ini'
+        'Ada jurnal yang belum diposting yang terkait dengan pengguna ini' +
+        '! Silakan posting atau hapus sebelum menghapus pengguna ini.'
     end
     item
       IndexID = 428
       Text = 
-        'Ada Batch yang terasosiasi dengan user ini, pilih user  baru unt' +
-        'uk mengasosiasikan Batch ini'
+        'Ada jurnal yang terkait dengan pengguna ini! Silakan pilih pengg' +
+        'una baru untuk menetapkan jurnal ini.'
     end
     item
       IndexID = 429
       Text = 
-        'Telah terjadi asosiasi transaksi dengan user ini, Silahkan pilih' +
-        ' user baru untuk bertanggung jawab atas transaksi ini'
+        'Ada transaksi yang terkait dengan pengguna ini! Silakan pilih pe' +
+        'ngguna baru untuk menetapkan transaksi ini.'
     end
     item
       IndexID = 430
-      Text = 'Simpan perubahan ke user ini?'
+      Text = 'Simpan perubahan pada pengguna ini?'
     end
     item
       IndexID = 431
-      Text = 'Masukkan password untuk user ini'
+      Text = 'Silakan masukkan kata sandi untuk pengguna ini!'
     end
     item
       IndexID = 432
-      Text = 'Buat Rekening ini?'
+      Text = 'Buat akun ini?'
     end
     item
       IndexID = 433
-      Text = 'Nomor Rekening salah, Karakter pertama harus angka'
+      Text = 'Nomor akun tidak valid! Karakter pertama harus berupa angka!'
     end
     item
       IndexID = 434
-      Text = 'Ini bukan Rekening bank'
+      Text = 'Ini bukan akun bank!'
     end
     item
       IndexID = 435
-      Text = 'Simpan perubahannya?'
+      Text = 'Apakah anda ingin menyimpan perubahan?'
     end
     item
       IndexID = 436
@@ -1720,76 +1720,77 @@ object TTranslationSaveObject
     end
     item
       IndexID = 437
-      Text = 'Hapus transaksi ini?'
+      Text = 'Apakah anda yakin ingin menghapus transaksi ini?'
     end
     item
       IndexID = 438
-      Text = 'Anda ingin menempatkan transaksi ini ke tahun lalu?'
+      Text = 'Apakah anda ingin mengalokasikan transaksi ini ke tahun lalu?'
     end
     item
       IndexID = 439
-      Text = 'Batch tidak seimbang'
+      Text = 'Jurnal tidak seimbang!'
     end
     item
       IndexID = 440
-      Text = 'Rekening tidak ditemukan, Anda ingin membuatnya?'
+      Text = 'Akun tidak ada, apakah anda ingin membuatnya?'
     end
     item
       IndexID = 441
-      Text = 'Anda ingin melanjutkan laporannya ?'
+      Text = 'Apakah anda ingin melanjutkan pelaporan?'
     end
     item
       IndexID = 442
       Text = 
-        'Tidak dapat menghapus Batch tipe ini,karena ada Batch terasosias' +
-        'i dengan nya'
+        'Tidak dapat menghapus tipe jurnal ini! Tipe jurnal ini memiliki ' +
+        'jurnal yang terkait dengannya!'
     end
     item
       IndexID = 443
       Text = 
-        'Perubahan tipe Batch akan sangat mempengaruhi Set Buku anda, And' +
-        'a yakin melakukannya?'
+        'Mengubah tipe jurnal akan sangat memengaruhi kumpulan buku anda!' +
+        ' Apakah anda yakin ingin melakukan ini?'
     end
     item
       IndexID = 444
       Text = 
-        'Ini akan sangat mempengaruhi Batch dari rekening anda,Anda ingin' +
-        ' membatalkannya sekarang?'
+        'Ini akan sangat memengaruhi kumpulan buku anda! Apakah anda ingi' +
+        'n membatalkannya sekarang?'
     end
     item
       IndexID = 445
-      Text = 'Anda ingin menyimpan perubahan ini?'
+      Text = 'Apakah anda ingin menyimpan perubahan ini?'
     end
     item
       IndexID = 446
-      Text = 'Anda yakin ingin membuat'
+      Text = 'Apakah anda yakin ingin membuat'
     end
     item
       IndexID = 447
-      Text = ' Set Buku?'
+      Text = 'Kumpulan buku?'
     end
     item
       IndexID = 448
-      Text = 'Set Buku yang selesai dibuat.'
+      Text = 'Kumpulan buku berhasil dibuat!'
     end
     item
       IndexID = 449
-      Text = 'Kesalah menciptakan buku'
+      Text = 'Kesalahan saat membuat buku!'
     end
     item
       IndexID = 450
+      Text = '-'
     end
     item
       IndexID = 451
-      Text = 'Set Buku sudah ada'
+      Text = 'Kumpulan buku sudah ada!'
     end
     item
       IndexID = 452
-      Text = 'Rekening Tidak boleh kosong'
+      Text = 'Akun tidak boleh kosong!'
     end
     item
       IndexID = 453
-      Text = 'Karakter pertama pada nomor rekening harus nomor'
+      Text = 'Karakter pertama nomor akun harus berupa angka!'
     end
     item
       IndexID = 454
@@ -1798,180 +1799,182 @@ object TTranslationSaveObject
     item
       IndexID = 455
       Text = 
-        'Direktori ini  tidak berisi TurboCASH 2.01, 2.02 atau 2.03 Set B' +
-        'uku'
+        'Direktori ini tidak berisi kumpulan buku TurboCASH 2.01, 2.02 at' +
+        'au 2.03!'
     end
     item
       IndexID = 456
-      Text = 'Anda yakin ingin membatalkannya ?'
+      Text = 'Apakah anda yakin ingin membatalkan?'
     end
     item
       IndexID = 457
-      Text = 'Anda ingin membuat rekening ?'
+      Text = 'Apakah anda ingin membuat akun ini?'
     end
     item
       IndexID = 458
-      Text = 'Anda yakin ingin menghapus'
+      Text = 'Apakah anda yakin ingin menghapus'
     end
     item
       IndexID = 459
-      Text = 'Paket Rekening?'
+      Text = 'rangkaian akun?'
     end
     item
       IndexID = 460
-      Text = 'Anda yakin ingin menghapus rekening ini ?'
+      Text = 'Apakah anda yakin ingin menghapus akun ini?'
     end
     item
       IndexID = 461
-      Text = 'Rekening ini berisi'
+      Text = 'Akun ini berisi'
     end
     item
       IndexID = 462
-      Text = 'sub-rekening(s) dan tidak dapat dihapus'
+      Text = 'Sub-akun dan tidak dapat dihapus!'
     end
     item
       IndexID = 463
       Text = 
-        'Stok tidak dapat dihapus, masih terdapat transaksi dari barang t' +
-        'ersebut.'
+        'Anda tidak dapat menghapus item stok ini! Item ini memiliki tran' +
+        'saksi!'
     end
     item
       IndexID = 464
-      Text = 'Anda ingin menghapus barang stok ini?'
+      Text = 'Apakah anda yakin ingin menghapus item stok ini?'
     end
     item
       IndexID = 465
-      Text = 'Stok sudah dihapus.'
+      Text = 'Item stok telah dihapus!'
     end
     item
       IndexID = 466
-      Text = 'Barang  Stok ini tidak ada.'
+      Text = 'Item stok ini tidak ada!'
     end
     item
       IndexID = 467
-      Text = 'Ini bukan bukubesar umum rekening.'
+      Text = 'Ini bukan akun buku besar umum!'
     end
     item
       IndexID = 468
       Text = 
-        'Rekening ini masih aktif,semua transaksi akan di pindahkan ke su' +
-        'b-rekening baru,anda yakin untuk membut sub-rekening?'
+        'Akun ini masih aktif! Semua transaksi akan dipindahkan ke sub-ak' +
+        'un baru! Apakah anda yakin ingin membuat sub-akun?'
     end
     item
       IndexID = 469
-      Text = 'Ini bukan rekening pajak'
+      Text = 'Ini bukan akun PPN!'
     end
     item
       IndexID = 470
-      Text = 'Hubungan jumlah akan kurang dari pada atau akan sama'
+      Text = 'Jumlah tautan harus kurang dari atau sama dengan'
     end
     item
       IndexID = 471
-      Text = 'Anda belum merubah Set Buku .'
+      Text = 'Anda belum menyiapkan kumpulan buku!'
     end
     item
       IndexID = 472
-      Text = 'Masukkan ini akan terhubung'
+      Text = 'Entri ini sudah ditautkan!'
     end
     item
       IndexID = 473
-      Text = 'Tidak ada keterhubungan untuk debitur ini.'
+      Text = 'Tidak ada yang perlu ditautkan untuk debitur ini!'
     end
     item
       IndexID = 474
-      Text = 'Anda yakin untuk tidak ada keterhubungan bagi masukkan ini?'
+      Text = 'Apakah anda yakin ingin memutuskan tautan entri ini?'
     end
     item
       IndexID = 475
-      Text = 'Kata kunci salah'
+      Text = 'Kata sandi tidak valid!'
     end
     item
       IndexID = 476
-      Text = 'Tgl. konflik !!!!cek Tgl. 1'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 1'
     end
     item
       IndexID = 477
-      Text = 'Tgl. konflik  !!!!cek Tgl. 2'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 2'
     end
     item
       IndexID = 478
-      Text = 'Tgl. konflik !!!!cek Tgl. 3'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 3'
     end
     item
       IndexID = 479
-      Text = 'Tgl. konflik !!!! cek Tgl. 4'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 4'
     end
     item
       IndexID = 480
-      Text = 'Tgl. konflik  !!!!cek Tgl. 5'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 5'
     end
     item
       IndexID = 481
-      Text = 'Tgl. konflik !!!!cek Tgl. 6'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 6'
     end
     item
       IndexID = 482
-      Text = 'Tgl. konflik  !!!! cek Tgl. 7'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 7'
     end
     item
       IndexID = 483
-      Text = 'Tgl. konflik  !!!! cek Tgl. 8'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 8'
     end
     item
       IndexID = 484
-      Text = 'Tgl. konflik !!! !cek Tgl. 9'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 9'
     end
     item
       IndexID = 485
-      Text = 'Tgl. konflik !!!!cek Tgl. 10'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 10'
     end
     item
       IndexID = 486
-      Text = 'Tgl. konflik  !!!!cek Tgl. 11'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 11'
     end
     item
       IndexID = 487
-      Text = 'Tgl. konflik  !!!!cek Tgl.  12'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 12'
     end
     item
       IndexID = 488
-      Text = 'Tgl. konflik !!!! cek Tgl. 13'
+      Text = 'Konflik tanggal !!!! Periksa tanggal 13'
     end
     item
       IndexID = 489
-      Text = 'Hanya diantara periode 1 dan 13 yang diijinkan'
+      Text = 'Hanya periode antara 1 dan 13 yang diizinkan!'
     end
     item
       IndexID = 490
-      Text = 'Anda yakin ingin membatalkan  perubahan?'
+      Text = 'Apakah anda yakin ingin membatalkan perubahan?'
     end
     item
       IndexID = 491
-      Text = 'Tidak barang untuk direkonsiliasi!'
+      Text = 'Tidak ada item untuk direkonsiliasi!'
     end
     item
       IndexID = 492
-      Text = 'Ini bukan rekening pendapatan/pengeluaran.'
+      Text = 'Ini bukan akun pendapatan/pengeluaran!'
     end
     item
       IndexID = 493
-      Text = 'Rekening ini berisi sub-rekening.'
+      Text = 'Akun ini berisi sub-akun!'
     end
     item
       IndexID = 494
-      Text = 'Anda ingin membuat Stok ini?'
+      Text = 'Apakah anda ingin membuat item stok ini?'
     end
     item
       IndexID = 495
-      Text = 'Kesalah pembukuan, silahkan Restore dari backup-nya.'
+      Text = 
+        'Kesalahan saat memposting faktur! Silakan pulihkan dari cadangan' +
+        '!'
     end
     item
       IndexID = 496
-      Text = 'Pilih user laporan'
+      Text = 'Pilih laporan pengguna'
     end
     item
       IndexID = 497
-      Text = 'Satuan Stok'
+      Text = 'Satuan stok'
     end
     item
       IndexID = 498
@@ -1979,23 +1982,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 499
-      Text = 'Beban Penjualan'
+      Text = 'Harga pokok penjualan'
     end
     item
       IndexID = 500
-      Text = 'Anda ingin menguji integriti data sebelum membuat salinannya?'
+      Text = 
+        'Apakah anda ingin menjalankan pemeriksaan integritas data sebelu' +
+        'm membuat cadangan?'
     end
     item
       IndexID = 501
-      Text = 'Anda ingin melanjutkan dengan backup-nya?'
+      Text = 'Apakah anda ingin melanjutkan dengan cadangan?'
     end
     item
       IndexID = 502
-      Text = '!!!  KESALAHAN BERKAS FATAL 11 !!!'
+      Text = '!!! Kesalahan berkas fatal 11 !!!'
     end
     item
       IndexID = 503
-      Text = 'Tgl. ini diluar tahun aktif. Harus berada di tahun aktif.'
+      Text = 'Tanggal ini di luar tahun berjalan! Harus berada di antara'
     end
     item
       IndexID = 504
@@ -2003,57 +2008,61 @@ object TTranslationSaveObject
     end
     item
       IndexID = 505
-      Text = 'Anda ingin cetak Tagihan ini sekarang?'
+      Text = 'Apakah anda ingin mencetak faktur ini sekarang?'
     end
     item
       IndexID = 506
-      Text = 'Peringatan. Ada'
+      Text = 'Peringatan, ada'
     end
     item
       IndexID = 507
-      Text = 'Barang Tersedia'
+      Text = 'item tersedia.'
     end
     item
       IndexID = 508
-      Text = 'Anda yakin  ingin menghapus semua yang masuk ke  Tagihan ini?'
+      Text = 'Apakah anda yakin ingin menghapus semua entri di faktur ini?'
     end
     item
       IndexID = 509
-      Text = 'Potongan salah, seharusnya positif'
+      Text = 'Diskon tidak valid! Jumlah harus positif!'
     end
     item
       IndexID = 510
-      Text = 'Anda ingin menguji integriti data sebelum membuat salinannya?'
+      Text = 
+        'Apakah anda ingin menjalankan pemeriksaan integritas data sebelu' +
+        'm mencadangkan?'
     end
     item
       IndexID = 511
-      Text = 'Salinan Selesai.'
+      Text = 'Pencadangan selesai!'
     end
     item
       IndexID = 512
       Text = 
-        'PERINGATAN ini akan menimpa Set Buku anda. Anda yakin untuk lanj' +
-        'ut?'
+        'PERINGATAN ini akan menimpa kumpulan buku anda! Apakah anda yaki' +
+        'n ingin melanjutkan?'
     end
     item
       IndexID = 513
       Text = 
-        'Silahkan masukkan perangkat backup anda di drive dan lanjutkan, ' +
-        'atau batalkan pekerjaan ini sekarang.'
+        'Silakan masukkan disk cadangan anda ke drive dan lanjutkan, atau' +
+        ' batalkan sekarang.'
     end
     item
       IndexID = 514
-      Text = 'Restore Selesai'
+      Text = 'Pemulihan selesai!'
     end
     item
       IndexID = 515
       Text = 
-        'Salinan <@APPNAME@> ini belum terdaftar,Anda ingin mendaftar sek' +
-        'arang? Gratis'
+        'Salinan <@APPNAME@> ini belum terdaftar! Apakah anda ingin menda' +
+        'ftar sekarang?'
     end
     item
       IndexID = 516
-      Text = 'Semua informasi anda akan dihapus. Anda yakin melakukannya?'
+      Text = 
+        'Ini akan menghapus semua informasi anda! Apakah anda yakin ingin' +
+        ' melakukannya?'
     end
     item
       IndexID = 517
@@ -2061,21 +2070,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 518
-      Text = 'Direktori ini tidak berisi Set Buku.'
+      Text = 'Direktori ini tidak berisi kumpulan buku!'
     end
     item
       IndexID = 519
       Text = 
-        'Ini akan sangat berdampak terhadap Set Buku anda, anda yakin ing' +
-        'in membersihkan Set Buku ini?'
+        'Ini akan sangat memengaruhi kumpulan buku anda! Apakah anda yaki' +
+        'n ingin menghapus isi kumpulan buku ini?'
     end
     item
       IndexID = 520
-      Text = 'Silahkan melengkapi formulir pendaftaran.'
+      Text = 'Silakan lengkapi formulir pendaftaran!'
     end
     item
       IndexID = 521
-      Text = 'Kode pendaftaran salah'
+      Text = 'Kode pembuka kunci tidak valid!'
     end
     item
       IndexID = 522
@@ -2084,40 +2093,42 @@ object TTranslationSaveObject
     item
       IndexID = 523
       Text = 
-        'Rekening ini telah melakukan transaksi, Anda ingin mentransfer t' +
-        'ransaksi ini ke rekening lain?'
+        'Akun ini memiliki transaksi! Apakah anda ingin mentransfer trans' +
+        'aksi ke akun lain?'
     end
     item
       IndexID = 524
-      Text = 'Anda tidak dapat mentransfer ke rekening ini karena sub-rekening'
+      Text = 
+        'Anda tidak dapat mentransfer ke akun ini! Akun ini memiliki sub-' +
+        'akun!'
     end
     item
       IndexID = 525
-      Text = 'Rekening sudah dihapus.'
+      Text = 'Akun dihapus!'
     end
     item
       IndexID = 526
       Text = 
-        'Debitor ini telah melakukan transaksi,Anda ingin mentransfer tra' +
-        'nsaksi ini ke debitor lain?'
+        'Debitur ini memiliki transaksi! Apakah anda ingin mentransfer tr' +
+        'ansaksi ke debitur lain?'
     end
     item
       IndexID = 527
       Text = 
-        'Kreditor ini telah melakukan transaksi,Anda ingin mentransfer tr' +
-        'ansaksi ini ke kreditor lain?'
+        'Kreditur ini memiliki transaksi! Apakah anda ingin mentransfer t' +
+        'ransaksi ke kreditur lain?'
     end
     item
       IndexID = 528
       Text = 
-        'Rekening bank ini telah melakukan transaksi, Anda ingin mentrans' +
-        'fer transaksi ini ke rekening bank lain?'
+        'Akun bank ini memiliki transaksi! Apakah anda ingin mentransfer ' +
+        'transaksi ke akun bank lain?'
     end
     item
       IndexID = 529
       Text = 
-        'Rekening pajak ini telah melakukan transaksi, Anda ingin mentran' +
-        'sfer transaksi ini ke rekening pajak lain?'
+        'Akun PPN ini memiliki transaksi! Apakah anda ingin mentransfer t' +
+        'ransaksi ke akun PPN lain?'
     end
     item
       IndexID = 530
@@ -2125,15 +2136,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 531
-      Text = 'Batch yang belum terposting dan'
+      Text = 'Jurnal yang belum diposting dan'
     end
     item
       IndexID = 532
-      Text = 'Batch belum terposting'
+      Text = 'Jurnal yang belum diposting'
     end
     item
       IndexID = 533
-      Text = 'dokumen belum terposting'
+      Text = 'Dokumen yang belum diposting'
     end
     item
       IndexID = 534
@@ -2141,15 +2152,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 535
-      Text = 'Menukar properti Set Buku.'
+      Text = 'Ubah properti kumpulan buku'
     end
     item
       IndexID = 536
-      Text = 'Tipe nama Set Buku.'
+      Text = 'Masukkan nama kumpulan buku'
     end
     item
       IndexID = 537
-      Text = 'Dimana Set Buku akan disimpan?'
+      Text = 'Masukkan lokasi penyimpanan set buku'
     end
     item
       IndexID = 538
@@ -2157,22 +2168,22 @@ object TTranslationSaveObject
     end
     item
       IndexID = 539
-      Text = 'Set Buku bernama'
+      Text = 'Kumpulan buku bernama'
     end
     item
       IndexID = 540
-      Text = 'Asisten Pembuatan'
+      Text = 'Wisaya pembuatan'
     end
     item
       IndexID = 541
       Text = 
-        'Silahkan pilih Set Buku dari daftar dibawah,atau klik tombol lih' +
-        'at untuk memilih Set Buku yang ingin disalin dalam folder manapu' +
-        'n pada sistem anda'
+        'Silakan pilih kumpulan buku dari daftar di bawah, atau klik tomb' +
+        'ol [Cari] untuk memilih kumpulan buku yang ingin anda salin ke f' +
+        'older lain di sistem anda.'
     end
     item
       IndexID = 542
-      Text = 'Melihat'
+      Text = 'Cari'
     end
     item
       IndexID = 543
@@ -2181,133 +2192,133 @@ object TTranslationSaveObject
     item
       IndexID = 544
       Text = 
-        'Selamat datang pada Asistensi Pembuatan Set Buku <@APPNAME@>. Si' +
-        'lahkan pilih satu pilihan dan klik pada button berikut, atau kli' +
-        'k pada batal untuk membatalkan  kreasi dari Set Buku baru'
+        'Selamat datang di wisaya pembuatan kumpulan buku <@APPNAME@>. si' +
+        'lakan pilih opsi dan klik tombol [Berikutnya], atau klik tombol ' +
+        '[Batal] untuk membatalkan pembuatan kumpulan buku baru.'
     end
     item
       IndexID = 545
-      Text = 'Apa yang anda inginkan?'
+      Text = 'Apakah anda ingin:'
     end
     item
       IndexID = 546
-      Text = 'Mengubah dari TurboCASH lama (v 2.01, 2.02, 2.03)?'
+      Text = 'Konversi dari TurboCASH lama (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 547
-      Text = 'Salin dari Set Buku yang  ada?'
+      Text = 'Salin kumpulan buku yang sudah ada'
     end
     item
       IndexID = 548
-      Text = 'Asistensi Pembuatan Set Buku oleh <@APPNAME@>'
+      Text = 'Buat kumpulan buku dengan <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Buat sendiri Set Buku anda (Tingkat Mahir)?'
+      Text = 'Sesuaikan kumpulan buku anda sendiri (lanjutan)'
     end
     item
       IndexID = 550
-      Text = 'Mengubah dari TurboCASH3 - <@APPNAME@>?'
+      Text = 'Konversi TurboCASH3 ke <@APPNAME@>'
     end
     item
       IndexID = 551
-      Text = 'Berikut >>'
+      Text = 'Berikutnya >>'
     end
     item
       IndexID = 552
-      Text = 'Pengawas Kreditor'
+      Text = 'Kontrol kreditur'
     end
     item
       IndexID = 553
-      Text = 'Pengawas Debitur'
+      Text = 'Kontrol debitur'
     end
     item
       IndexID = 554
-      Text = 'Pendapatan'
+      Text = 'Laba ditahan'
     end
     item
       IndexID = 555
-      Text = 'Menciptakan Paket Rekening ...'
+      Text = 'Membuat kumpulan akun...'
     end
     item
       IndexID = 556
       Text = 
-        'Tulis banyaknya periode di tahun finansial anda dan Tgl. mulai t' +
-        'ahun'
+        'Masukkan jumlah periode dalam tahun finansial dan tanggal mulai ' +
+        'tahun!'
     end
     item
       IndexID = 557
-      Text = 'Silahkan klik sudah setelah menetapkan:'
+      Text = 'Silakan klik [Selesai] untuk menentukan:'
     end
     item
       IndexID = 558
       Text = 
-        'Direktori ini tidak mempunyai Set Buku, atau Set Buku tersebut r' +
-        'usak.'
+        'Direktori ini tidak berisi kumpulan buku, atau kumpulan buku rus' +
+        'ak!'
     end
     item
       IndexID = 559
-      Text = 'Anda harus memilih Set Buku atau direktori untuk disalin'
+      Text = 'Anda harus memilih kumpulan buku atau direktori untuk disalin'
     end
     item
       IndexID = 560
-      Text = 'Membuat Set Buku...'
+      Text = 'Membuat kumpulan buku...'
     end
     item
       IndexID = 561
-      Text = 'Membuat Rekening Wajib....'
+      Text = 'Membuat akun yang diperlukan...'
     end
     item
       IndexID = 562
-      Text = 'Membuat Rekening Wajib ( Pengawas Kreditor )...'
+      Text = 'Membuat akun yang diperlukan (Kontrol kreditur)...'
     end
     item
       IndexID = 563
-      Text = 'Membuat Rekening Wajib( Pengawas Debitur) ...'
+      Text = 'Membuat akun yang diperlukan (Kontrol debitur)...'
     end
     item
       IndexID = 564
-      Text = 'Membuat Rekening Wajib( Pendapatan ditahan)'
+      Text = 'Membuat akun yang diperlukan (Laba ditahan)...'
     end
     item
       IndexID = 565
-      Text = 'Mengubah Set Buku...'
+      Text = 'Mengonversi kumpulan buku...'
     end
     item
       IndexID = 566
-      Text = 'Membaca data  dari Pastel.'
+      Text = 'Membaca data dari Pastel...'
     end
     item
       IndexID = 567
-      Text = 'Mengkonversi variabel sistem Pastel.'
+      Text = 'Mengonversi variabel sistem Pastel...'
     end
     item
       IndexID = 568
-      Text = 'Mengkonversi rekening Pastel.'
+      Text = 'Mengonversi akun Pastel...'
     end
     item
       IndexID = 569
-      Text = 'Mengkonversi Stok Pastel.'
+      Text = 'Konversi stok Pastel...'
     end
     item
       IndexID = 570
-      Text = 'Mengkonversi jurnal Pastel.'
+      Text = 'Mengonversi jurnal Pastel...'
     end
     item
       IndexID = 571
-      Text = 'Silahkan pilih folder data Pastel'
+      Text = 'Silakan pilih folder data Pastel'
     end
     item
       IndexID = 572
       Text = 
-        'Silahkan pilih Set Buku  lama dari susunan  berikut untuk dikonv' +
-        'ersikan'
+        'Silakan pilih kumpulan buku lama untuk dikonversi dari daftar di' +
+        ' bawah.'
     end
     item
       IndexID = 573
       Text = 
-        'Silahkan pilih Partner Data Pastel dari susunan berikut untuk di' +
-        'konversikan'
+        'Silakan pilih Data Partner Pastel untuk dikonversi dari daftar d' +
+        'i bawah.'
     end
     item
       IndexID = 574
@@ -2319,43 +2330,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 576
-      Text = 'Tgl. Laporan'
+      Text = 'Tanggal pelaporan'
     end
     item
       IndexID = 577
-      Text = 'Mulai'
+      Text = 'Tanggal mulai'
     end
     item
       IndexID = 578
-      Text = 'Posting ketahun lalu'
+      Text = 'Posting ke tahun lain'
     end
     item
       IndexID = 579
-      Text = 'Berakhir'
+      Text = 'Berakhir pada'
     end
     item
       IndexID = 580
-      Text = 'Posting Terbuka'
+      Text = 'Terbuka untuk posting'
     end
     item
       IndexID = 581
-      Text = 'Label milik Philip'
+      Text = '*Terjemahan: Masukkan rincian anda'
     end
     item
       IndexID = 582
-      Text = '&Client Server'
+      Text = '&Server klien'
     end
     item
       IndexID = 583
-      Text = '&Preferences'
+      Text = '&Preferensi'
     end
     item
       IndexID = 584
-      Text = '&Sistem Parameter'
+      Text = '&Parameter sistem'
     end
     item
       IndexID = 585
-      Text = '&Mengawasi Jalan Masuk'
+      Text = '&Kontrol akses'
     end
     item
       IndexID = 586
@@ -2363,59 +2374,61 @@ object TTranslationSaveObject
     end
     item
       IndexID = 587
-      Text = 'Tagihan masuk'
+      Text = 'Entri faktur'
     end
     item
       IndexID = 588
-      Text = 'Salah'
+      Text = 'Kesalahan'
     end
     item
       IndexID = 589
-      Text = 'Peringatan,Tgl. ini tidak berada pada Tgl. pelaporan'
+      Text = 
+        'Peringatan, tanggal ini tidak termasuk dalam tanggal pelaporan t' +
+        'ahun ini atau tahun lalu!'
     end
     item
       IndexID = 590
-      Text = 'Batch ini tidak sah'
+      Text = 'Jurnal ini tidak tervalidasi!'
     end
     item
       IndexID = 591
-      Text = 'tidak seimbang'
+      Text = 'tidak seimbang sebesar'
     end
     item
       IndexID = 592
-      Text = 'Garis'
+      Text = 'Baris'
     end
     item
       IndexID = 593
-      Text = 'Debet && Kredit'
+      Text = 'Izinkan keduanya'
     end
     item
       IndexID = 594
-      Text = 'Batch berisi transaksi pembukuan tahun lalu.'
+      Text = 'Jurnal berisi transaksi yang diposting ke tahun lalu!'
     end
     item
       IndexID = 595
-      Text = 'Anda ingin melanjutkan pembukuan?'
+      Text = 'Apakah anda ingin melanjutkan posting?'
     end
     item
       IndexID = 596
-      Text = 'Tidak dapat posting ke pokok rekening berisi sub rekening.'
+      Text = 'Tidak dapat memposting ke akun utama yang memiliki sub-akun!'
     end
     item
       IndexID = 597
-      Text = 'Rekening tidak ada,Anda ingin membuat rekening?'
+      Text = 'Akun tidak ada! Apakah anda ingin membuatnya?'
     end
     item
       IndexID = 598
-      Text = 'Tidak ada data untuk impor'
+      Text = 'Tidak ada data untuk diimpor!'
     end
     item
       IndexID = 599
-      Text = 'Masuk bulan dan tahun untuk mengulang Isian'
+      Text = 'Masukkan bulan dan tahun untuk mengulang entri'
     end
     item
       IndexID = 600
-      Text = 'Perioda'
+      Text = 'Periode'
     end
     item
       IndexID = 601
@@ -2423,7 +2436,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 602
-      Text = '&Pilih Lawan Rekening'
+      Text = '&Pilih akun kontra'
     end
     item
       IndexID = 603
@@ -2431,7 +2444,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 604
-      Text = 'Tahun Lalu'
+      Text = 'Tahun lalu'
     end
     item
       IndexID = 605
@@ -2447,87 +2460,87 @@ object TTranslationSaveObject
     end
     item
       IndexID = 608
-      Text = 'Rekening'
+      Text = 'Akun'
     end
     item
       IndexID = 609
-      Text = 'Pajak'
+      Text = 'PPN'
     end
     item
       IndexID = 610
-      Text = 'Kependekan Definisi'
+      Text = 'Definisi singkatan'
     end
     item
       IndexID = 611
-      Text = 'Batch seimbang'
+      Text = 'Jurnal keseimbangan'
     end
     item
       IndexID = 612
-      Text = 'Berkas impor delimited'
+      Text = 'Impor berkas berbatas (delimited)'
     end
     item
       IndexID = 613
-      Text = 'Hapus Batch'
+      Text = 'Hapus jurnal'
     end
     item
       IndexID = 614
-      Text = 'Buat Isian berganda'
+      Text = 'Hasilkan beberapa transaksi'
     end
     item
       IndexID = 615
-      Text = 'Daftar Batch'
+      Text = 'Daftar jurnal'
     end
     item
       IndexID = 616
-      Text = 'Posting Batch'
+      Text = 'Posting jurnal'
     end
     item
       IndexID = 617
-      Text = 'Transaksi diulang'
+      Text = 'Transaksi berulang'
     end
     item
       IndexID = 618
-      Text = 'Total setiap perioda'
+      Text = 'Total untuk setiap periode'
     end
     item
       IndexID = 619
-      Text = 'Catat file yang didelimited'
+      Text = 'Tulis berkas berbatas (delimited)'
     end
     item
       IndexID = 620
-      Text = 'Proses pengumpulan'
+      Text = 'Proses jurnal'
     end
     item
       IndexID = 621
-      Text = 'Anda yakin untuk hapus Isian Batch ini?'
+      Text = 'Apakah anda yakin ingin menghapus seluruh jurnal ini?'
     end
     item
       IndexID = 622
-      Text = 'Pilihan untuk Batch ini'
+      Text = 'Opsi untuk jurnal ini'
     end
     item
       IndexID = 623
-      Text = 'Penambahan  nomor Referensi'
+      Text = 'Tingkatkan referensi'
     end
     item
       IndexID = 624
-      Text = 'Rincian diulang'
+      Text = 'Ulangi detail'
     end
     item
       IndexID = 625
-      Text = 'Seimbangkan Perbaris'
+      Text = 'Akun kontra per baris'
     end
     item
       IndexID = 626
-      Text = 'Mengkonsolider Neraca'
+      Text = 'Konsolidasi penyeimbangan'
     end
     item
       IndexID = 627
-      Text = 'Jumlah Isian'
+      Text = 'Entri jumlah'
     end
     item
       IndexID = 628
-      Text = 'konfirmasi'
+      Text = 'Konfirmasi'
     end
     item
       IndexID = 629
@@ -2543,39 +2556,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 632
-      Text = 'Sudah Ada.'
+      Text = 'sudah ada!'
     end
     item
       IndexID = 633
-      Text = 'Pilih Folder data Pastel !!!'
+      Text = 'Pilih folder data Pastel !!!'
     end
     item
       IndexID = 635
-      Text = 'Anda harus membuka Set Buku  untuk menggunakan pilihan ini'
+      Text = 'Anda harus membuka kumpulan buku untuk menggunakan opsi ini!'
     end
     item
       IndexID = 636
-      Text = 'Anda tidak menyiapkan Set Buku sebelumnya.'
+      Text = 'Anda belum menyiapkan kumpulan buku!'
     end
     item
       IndexID = 637
-      Text = 'Include opening balances'
+      Text = 'Sertakan saldo awal'
     end
     item
       IndexID = 638
-      Text = 'Rekening ini tidak dapat dipilih karena memiliki sub rekening'
+      Text = 'Anda tidak dapat memilih akun ini karena berisi sub-akun!'
     end
     item
       IndexID = 639
-      Text = 'Informasi pada baris ini akan hilang bila diubah ke komentar'
+      Text = 
+        'Informasi pada baris ini akan hilang jika diubah menjadi komenta' +
+        'r!'
     end
     item
       IndexID = 640
-      Text = 'Beri komentar baris ini?'
+      Text = 'Apakah anda yakin ingin memberi komentar pada baris ini?'
     end
     item
       IndexID = 641
-      Text = 'Perubahan Data Radikal! Buatlah salinan dahulu.'
+      Text = 
+        'Ini akan mengubah data anda secara drastis! Kami sarankan anda b' +
+        'erhenti dan buat cadangan!'
     end
     item
       IndexID = 642
@@ -2584,44 +2601,44 @@ object TTranslationSaveObject
     item
       IndexID = 643
       Text = 
-        'Rekening ini mempunyai neraca pembuka untuk tahun lalu. Tidak bi' +
-        'sa dihapus'
+        'Akun ini memiliki saldo awal tahun lalu! Anda tidak dapat mengha' +
+        'pus akun ini!'
     end
     item
       IndexID = 644
-      Text = 'Bukan rekening pendapatan / pengeluaran'
+      Text = 'Akun ini bukan akun pendapatan/biaya!'
     end
     item
       IndexID = 645
-      Text = 'Eksklusip Total'
+      Text = 'Total eksklusif'
     end
     item
       IndexID = 646
-      Text = 'Tagihan Total'
+      Text = 'Total faktur'
     end
     item
       IndexID = 647
-      Text = 'Total Potongan'
+      Text = 'Total diskon'
     end
     item
       IndexID = 648
-      Text = 'Unit Dikecualikan'
+      Text = 'Unit ekskl.'
     end
     item
       IndexID = 649
-      Text = 'Unit Diikutkan'
+      Text = 'Unit inkl.'
     end
     item
       IndexID = 650
-      Text = 'Jumlah Dikecualikan'
+      Text = 'Jumlah ekskl.'
     end
     item
       IndexID = 651
-      Text = 'Jumlah Diikutkan'
+      Text = 'Jumlah inkl.'
     end
     item
       IndexID = 652
-      Text = 'Kode Item'
+      Text = 'Kode item'
     end
     item
       IndexID = 653
@@ -2629,19 +2646,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 655
-      Text = 'Jumlah Pesan'
+      Text = 'Kuantitas pesanan'
     end
     item
       IndexID = 656
-      Text = 'Jumlah Kirim'
+      Text = 'Jml kirim'
     end
     item
       IndexID = 657
-      Text = 'Kort.'
+      Text = 'Disk.'
     end
     item
       IndexID = 658
-      Text = 'F8: Potongan'
+      Text = 'F8: Diskon'
     end
     item
       IndexID = 659
@@ -2649,7 +2666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 660
-      Text = 'F10: Hapus Semua'
+      Text = 'F10: Hapus semua'
     end
     item
       IndexID = 662
@@ -2657,215 +2674,219 @@ object TTranslationSaveObject
     end
     item
       IndexID = 663
-      Text = '&Masuk Potongan Umum'
+      Text = '&Masukkan diskon keseluruhan'
     end
     item
       IndexID = 664
-      Text = 'F7: Termasuk'
+      Text = 'F7: Inklusif'
     end
     item
       IndexID = 665
       Text = 
-        'Batch Penerimaan dan Pembayaran berubah, hal ini akan mengacauka' +
-        'n rekosiliasi anda. Lanjutkan?'
+        'Anda telah mengubah jurnal pembayaran dan penerimaan! Ini akan m' +
+        'erusak rekonsiliasi anda! Apakah anda ingin melanjutkan?'
     end
     item
       IndexID = 666
-      Text = 'rekening kontrol tidak bisa dipakai.'
+      Text = 'Akun kontrol tidak dapat digunakan!'
     end
     item
       IndexID = 667
-      Text = 'Anda telah merubah persentase'
+      Text = 'Anda telah mengubah persentase!'
     end
     item
       IndexID = 668
-      Text = 
-        'Tidak dapat mempunyai anggaran untuk suatu rekening yang memilik' +
-        'i sub rekening.'
+      Text = 'Tidak dapat memiliki anggaran untuk akun yang memiliki sub-akun!'
     end
     item
       IndexID = 669
-      Text = 'Jurnal Umum tidak dapat dipakai'
+      Text = 'Akun buku besar umum tidak dapat digunakan!'
     end
     item
       IndexID = 670
-      Text = 'Masuk Nota Kredit'
+      Text = 'Entri nota kredit'
     end
     item
       IndexID = 671
-      Text = 'F10: Hapus Nota Kredit'
+      Text = 'F10: Hapus nota kredit'
     end
     item
       IndexID = 673
-      Text = 'Anda ingin cetak Nota Kredit ini sekarang?'
+      Text = 'Apakah anda ingin mencetak nota kredit ini sekarang?'
     end
     item
       IndexID = 674
-      Text = 'Update Nota Kredit'
+      Text = 'Perbarui nota kredit'
     end
     item
       IndexID = 675
-      Text = 'Dari Nota Kredit'
+      Text = 'Dari nota kredit'
     end
     item
       IndexID = 676
-      Text = 'Ke Nota Kredit'
+      Text = 'Ke nota kredit'
     end
     item
       IndexID = 677
-      Text = 'Melanjutkan'
+      Text = 'Lanjutkan'
     end
     item
       IndexID = 678
-      Text = 'Tidak ada Tagihan unyuk dicetak.'
+      Text = 'Tidak ada faktur untuk dicetak!'
     end
     item
       IndexID = 679
       Text = 
-        'Tidak dapat memiliki tipe kumulan pembayaran yang sama seperti r' +
-        'ekening bank lain'
+        'Tidak dapat memiliki tipe jurnal pembayaran yang sama dengan aku' +
+        'n bank lain!'
     end
     item
       IndexID = 680
-      Text = 'Remittance'
+      Text = 'Remitansi'
     end
     item
       IndexID = 681
-      Text = 'Pesan Remittance'
+      Text = 'Pesan remitansi'
     end
     item
       IndexID = 682
-      Text = 'Barang Kembali'
+      Text = 'Barang diterima'
     end
     item
       IndexID = 683
       Text = 
-        'Tidak dapat menggunakan Tipe Batch Penerimaan yang digunakan rek' +
-        'ening bank lain'
+        'Tidak dapat menggunakan tipe jurnal penerimaan yang sama dengan ' +
+        'akun bank lain!'
     end
     item
       IndexID = 684
-      Text = 'Harga'
+      Text = 'Harga satuan'
     end
     item
       IndexID = 685
-      Text = 'Hapus semua Isian untuk pembelian ini'
+      Text = 
+        'Apakah anda yakin ingin menghapus semua entri untuk pembelian in' +
+        'i?'
     end
     item
       IndexID = 686
-      Text = 'Cetak Nota Pembelian?'
+      Text = 'Apakah anda ingin mencetak dokumen pembelian sekarang?'
     end
     item
       IndexID = 687
-      Text = 'Tidak Termasuk Pajak'
+      Text = 'Eksklusif PPN'
     end
     item
       IndexID = 688
-      Text = 'Termasuk Pajak'
+      Text = 'Inklusif PPN'
     end
     item
       IndexID = 689
-      Text = 'Riwayat Nota Kredit'
+      Text = 'Riwayat nota kredit'
     end
     item
       IndexID = 690
-      Text = 'Riwayat Stok Kembali'
+      Text = 'Riwayat retur pemasok'
     end
     item
       IndexID = 691
-      Text = 'Riwayat Pembelian'
+      Text = 'Riwayat pembelian'
     end
     item
       IndexID = 692
-      Text = 'Riwayat Penawaran'
+      Text = 'Riwayat penawaran'
     end
     item
       IndexID = 693
-      Text = 'Riwayat Pemesanan'
+      Text = 'Riwayat pesanan'
     end
     item
       IndexID = 694
-      Text = 'Dari Pembelian'
+      Text = 'Dari pembelian'
     end
     item
       IndexID = 695
-      Text = 'Hapus Nota Kredit'
+      Text = 'Hapus nota kredit'
     end
     item
       IndexID = 696
-      Text = 'Ganti dahulu nomor berikut dari setup dokumen'
+      Text = 
+        'Nomor berikutnya tidak valid! Ubah di '#39'Persiapan '#8594' Persiapan dok' +
+        'umen'#39'!'
     end
     item
       IndexID = 697
-      Text = 'Lanjutkan Simpan Backup'
+      Text = 'Apakah anda ingin melanjutkan pencadangan?'
     end
     item
       IndexID = 698
-      Text = 'Lanjutkan MengRestore dari'
+      Text = 'Apakah anda ingin melanjutkan pemulihan dari?'
     end
     item
       IndexID = 699
-      Text = 'Tidak ada set buku yang dipilih'
+      Text = 'Tidak ada kumpulan buku yang dipilih!'
     end
     item
       IndexID = 700
-      Text = 'Perbaharui Pembelian'
+      Text = 'Perbarui pembelian'
     end
     item
       IndexID = 701
-      Text = 'Perbaharui Stok Kembali'
+      Text = 'Perbarui retur pemasok'
     end
     item
       IndexID = 702
-      Text = 'Dari Barang Kembali'
+      Text = 'Dari retur pemasok'
     end
     item
       IndexID = 703
-      Text = 'Pembelian No.'
+      Text = 'No. pembelian'
     end
     item
       IndexID = 704
-      Text = 'Stok Kembali No.'
+      Text = 'No. retur pemasok'
     end
     item
       IndexID = 705
-      Text = 'Kembali'
+      Text = 'Retur pemasok'
     end
     item
       IndexID = 706
-      Text = 'Nota Kredit'
+      Text = 'Nota kredit'
     end
     item
       IndexID = 707
-      Text = 'Cetak Pesanan ini?'
+      Text = 'Apakah anda ingin mencetak pesanan ini?'
     end
     item
       IndexID = 708
-      Text = 'Cetak Stok kembali ini?'
+      Text = 'Apakah anda ingin mencetak retur pemasok ini?'
     end
     item
       IndexID = 709
-      Text = 'Cetak Pembelian ini?'
+      Text = 'Apakah anda ingin mencetak pembelian ini?'
     end
     item
       IndexID = 710
-      Text = 'Cetak Penawaran ini?'
+      Text = 'Apakah anda ingin mencetak penawaran ini?'
     end
     item
       IndexID = 711
-      Text = 'Jalankan Setup dan pilih Lawan rekening dari Batch ini.'
+      Text = 
+        'Jalankan '#39'Persiapan '#8594' Tipe jurnal'#39' dan pilih akun kontra untuk j' +
+        'urnal ini!'
     end
     item
       IndexID = 712
-      Text = 'Hapus informasi dari baris ini?'
+      Text = 'Apakah anda yakin ingin menghapus informasi baris ini?'
     end
     item
       IndexID = 713
-      Text = 'Perbaharui Klien Server'
+      Text = 'Pembaruan server klien'
     end
     item
       IndexID = 714
-      Text = 'Perbaharui Internet'
+      Text = 'Pembaruan internet'
     end
     item
       IndexID = 715
@@ -2873,47 +2894,49 @@ object TTranslationSaveObject
     end
     item
       IndexID = 716
-      Text = 'Lokasi'
+      Text = 'Lokasi:'
     end
     item
       IndexID = 717
-      Text = 'Tidak ditemukan set Buku, direktori tidak ada:'
+      Text = 'Kumpulan buku tidak ditemukan! direktori tidak ada:'
     end
     item
       IndexID = 718
-      Text = 'atau ada Masalah pada Drive Jaringan'
+      Text = 'Atau masalah pada drive jaringan'
     end
     item
       IndexID = 719
-      Text = 'Semua informasi anda akan dihapus. Anda yakin melakukannya?'
+      Text = 
+        'Ini akan menghapus semua informasi anda! Apakah anda yakin ingin' +
+        ' melanjutkan?'
     end
     item
       IndexID = 720
-      Text = 'Salah Btrv:'
+      Text = 'Kesalahan Btrv:'
     end
     item
       IndexID = 721
-      Text = 'Tidak ada yang dapat dihubungkan untuk Kreditor ini'
+      Text = 'Tidak ada yang perlu ditautkan untuk kreditur ini!'
     end
     item
       IndexID = 722
       Text = 
-        'Peringatan, anda akan kehilangan semua hubungan terhadap rekenin' +
-        'g ini!'
+        'Peringatan, jika anda mengeklik [Ya] anda akan kehilangan semua ' +
+        'tautan untuk akun ini!'
     end
     item
       IndexID = 723
-      Text = 'Masukkan disket'
+      Text = 'Masukkan disk ke'
     end
     item
       IndexID = 724
       Text = 
-        'Informasi setup internet belum benar, jalankan kembali setup int' +
-        'ernet.'
+        'Informasi persiapan internet salah! Jalankan '#39'Persiapan '#8594' Intern' +
+        'et'#39'.'
     end
     item
       IndexID = 725
-      Text = 'Anda ingin hapus'
+      Text = 'Apakah anda ingin menghapus?'
     end
     item
       IndexID = 726
@@ -2921,15 +2944,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 727
-      Text = '&Awal'
+      Text = '&Pertama'
     end
     item
       IndexID = 728
-      Text = '&Sebelum'
+      Text = '&Sebelumnya'
     end
     item
       IndexID = 729
-      Text = '&Berikut'
+      Text = '&Berikutnya'
     end
     item
       IndexID = 730
@@ -2945,7 +2968,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 733
-      Text = 'Jarak Cetak'
+      Text = 'Rentang cetak'
     end
     item
       IndexID = 734
@@ -2961,207 +2984,205 @@ object TTranslationSaveObject
     end
     item
       IndexID = 737
-      Text = '&Semua Halaman'
+      Text = '&Semua halaman'
     end
     item
       IndexID = 738
-      Text = 'Banyak &Salinan'
+      Text = 'Jumlah &salinan'
     end
     item
       IndexID = 739
-      Text = 'Ekspor laporan salah'
+      Text = 'Kesalahan mengekspor laporan!'
     end
     item
       IndexID = 740
-      Text = 'Kesalahan Pembuatan TMP'
+      Text = 'Kesalahan saat membuat Tmp!'
     end
     item
       IndexID = 741
-      Text = 'Kata sandi Salah'
+      Text = 'Kata sandi tidak valid!'
     end
     item
       IndexID = 742
       Text = 
-        'Tidak dapat digunakan sebagai rekening lawan, rekening ini mempu' +
-        'nyai sub rekening'
+        'Anda tidak dapat menggunakan akun ini sebagai akun kontra! Akun ' +
+        'ini berisi sub-akun!'
     end
     item
       IndexID = 743
-      Text = 'Buat Direktori'
+      Text = 'Buat direktori'
     end
     item
       IndexID = 744
-      Text = 'Set buku sudah ada.'
+      Text = 'Kumpulan buku sudah ada! silakan masukkan kembali!'
     end
     item
       IndexID = 745
-      Text = 'Tidak dapat membuat direktori'
+      Text = 'Tidak dapat membuat direktori!'
     end
     item
       IndexID = 746
-      Text = 'Silahkan isi ulang'
+      Text = 'Silakan masukkan kembali!'
     end
     item
       IndexID = 747
-      Text = 'Tidak ada data untuk dicetak'
+      Text = 'Tidak ada data untuk dicetak!'
     end
     item
       IndexID = 748
-      Text = 'Nomor Rekening salah'
+      Text = 'Kode akun tidak valid!'
     end
     item
       IndexID = 750
-      Text = 'Nomor Tagihan Pajak'
+      Text = 'No. faktur PPN'
     end
     item
       IndexID = 751
-      Text = 'Nomor Penawaran'
+      Text = 'No. penawaran'
     end
     item
       IndexID = 752
-      Text = 'Nomor Barang Kembali'
+      Text = 'No. retur pemasok'
     end
     item
       IndexID = 753
-      Text = 'Tipe media tidak cocok untuk backup'
+      Text = 'Tipe media tidak valid untuk pencadangan!'
     end
     item
       IndexID = 754
-      Text = 'Tidak dapat menghapus rekening kontrol.'
+      Text = 'Tidak dapat menghapus akun kontrol!'
     end
     item
       IndexID = 755
-      Text = 'Set Buku'
+      Text = 'Kumpulan buku'
     end
     item
       IndexID = 756
-      Text = 'hendak dihapus dari disket.'
+      Text = 'akan dihapus secara permanen dari disk!'
     end
     item
       IndexID = 757
-      Text = 'Batalkan Penghapusan?'
+      Text = 'Apakah anda ingin membatalkan penghapusan?'
     end
     item
       IndexID = 758
-      Text = 'Nomor Nota Kredit'
+      Text = 'No. nota kredit'
     end
     item
       IndexID = 759
-      Text = 'Nomor Pembelian'
+      Text = 'No. pembelian'
     end
     item
       IndexID = 761
-      Text = 'Voucher Barang Kembali'
+      Text = 'Voucher penerimaan barang'
     end
     item
       IndexID = 762
-      Text = 'Nomor Pemesanan'
+      Text = 'No. pesanan'
     end
     item
       IndexID = 763
-      Text = 'Balans terikut ketika melakukan posting'
+      Text = 'Saldo dibawa ke depan saat posting'
     end
     item
       IndexID = 764
-      Text = 'Lalu tekan Tutup untuk menyelesaikan bantuan setup'
+      Text = 'Kemudian klik [Tutup] untuk menyelesaikan wisaya pembuatan.'
     end
     item
       IndexID = 765
-      Text = 'Balans Debitur melewati batas kredit dengan;'
+      Text = 'Saldo debitur melebihi batas kredit sebesar:'
     end
     item
       IndexID = 766
-      Text = 'Tidak dapat mengirim transaksi ke rekening yang sama'
+      Text = 'Tidak dapat mentransfer transaksi ke akun yang sama!'
     end
     item
       IndexID = 767
       Text = 
-        'Terakhir kali anda bekerja dengan set buku ini, anda tidak berhe' +
-        'nti dari program dengan normal.'
+        'Terakhir kali anda mengerjakan kumpulan buku ini, anda tidak kel' +
+        'uar dari program dengan benar!'
     end
     item
       IndexID = 768
-      Text = 'Jika mengalami masalah, kembalikan data anda dari backup'
+      Text = 'Jika anda mengalami masalah, pulihkan data anda dari cadangan.'
     end
     item
       IndexID = 769
-      Text = '<@APPNAME@> Menganjurkan:'
+      Text = '<@APPNAME@> ingin mengingatkan anda bahwa:'
     end
     item
       IndexID = 770
       Text = 
-        'Buatlah backup & dokumentasi set buku anda untuk menghindari keh' +
-        'ilangan data'
+        'Sebaiknya buat cadangan rutin dan salinan arsip kumpulan buku an' +
+        'da untuk mencegah kehilangan data.'
     end
     item
       IndexID = 771
-      Text = 'Nomor Penawaran'
+      Text = 'No. penawaran'
     end
     item
       IndexID = 772
-      Text = 'Dari Penawaran'
+      Text = 'Dari penawaran'
     end
     item
       IndexID = 773
-      Text = 'Dari Pesanan'
+      Text = 'Dari pesanan'
     end
     item
       IndexID = 774
-      Text = 'rekening ini memiliki balans, tidak dapat dihapus'
+      Text = 'Akun ini memiliki saldo, tidak dapat dihapus!'
     end
     item
       IndexID = 775
-      Text = 'Buat Kontak?'
+      Text = 'Apakah anda ingin membuat kontak ini?'
     end
     item
       IndexID = 776
-      Text = 'Hapus Kontak ini?'
+      Text = 'Apakah anda ingin menghapus kontak ini?'
     end
     item
       IndexID = 777
-      Text = 'Kontak terhapus.'
+      Text = 'Kontak dihapus!'
     end
     item
       IndexID = 778
-      Text = 'Nama Kontak salah'
+      Text = 'Nama kontak tidak valid!'
     end
     item
       IndexID = 779
-      Text = 'Nomer Rekening harus unik.'
+      Text = 'Nomor akun harus unik!'
     end
     item
       IndexID = 780
-      Text = 
-        'Semua transaksi akan dihapus dan balans rekening akan di set ke ' +
-        'nol'
+      Text = 'Semua transaksi akan dihapus dan saldo akun akan disetel ke nol!'
     end
     item
       IndexID = 781
-      Text = 'Batalkan proses kliring?'
+      Text = 'Apakah anda ingin membatalkan proses pembersihan?'
     end
     item
       IndexID = 782
-      Text = 'Sudah Ada!'
+      Text = 'sudah ada!'
     end
     item
       IndexID = 783
-      Text = 'Nomor Dokumen Tidak Sah'
+      Text = 'Nomor dokumen tidak valid!'
     end
     item
       IndexID = 784
-      Text = 'Kode Stok Tidak Sah'
+      Text = 'Kode stok tidak valid!'
     end
     item
       IndexID = 785
-      Text = 'Balans debitur dengan jumlah < Rpx.xx'
+      Text = 'Saldo debitur dengan jumlah < x.xx'
     end
     item
       IndexID = 786
-      Text = 'Kreditur dengan jumlah yang dikenakan'
+      Text = 'Kreditur dengan jumlah biaya'
     end
     item
       IndexID = 787
-      Text = 'Debitur dengan jumlah yang dikenakan'
+      Text = 'Debitur dengan jumlah biaya'
     end
     item
       IndexID = 788
@@ -3169,15 +3190,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 789
-      Text = 'Bunga atas Tunggakan Debitur'
+      Text = 'Bunga pada debitur yang jatuh tempo'
     end
     item
       IndexID = 790
-      Text = 'Balans Kreditur pada Tgl.'
+      Text = 'Saldo kreditur pada tanggal'
     end
     item
       IndexID = 791
-      Text = 'Buat Tanda Terima'
+      Text = 'Buat tanda terima'
     end
     item
       IndexID = 792
@@ -3193,15 +3214,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 795
-      Text = 'Milyar'
+      Text = 'Miliar'
     end
     item
       IndexID = 796
-      Text = 'Trilyun'
+      Text = 'Triliun'
     end
     item
       IndexID = 797
-      Text = 'Jumlah tidak sama dengan jumlah pada transaksi.'
+      Text = 'Jumlah tidak sama dengan jumlah transaksi!'
     end
     item
       IndexID = 798
@@ -3209,129 +3230,131 @@ object TTranslationSaveObject
     end
     item
       IndexID = 799
-      Text = 'Referensi tidak sama dengan referensi pada transaksi'
+      Text = 'Referensi tidak sama dengan referensi transaksi!'
     end
     item
       IndexID = 800
-      Text = 'Anda ingin tutup <@APPNAME@>?'
+      Text = 'Apakah anda ingin menutup <@APPNAME@>?'
     end
     item
       IndexID = 801
-      Text = 'Anda ingin batalkan pencetakan?'
+      Text = 'Apakah anda ingin membatalkan pencetakan dokumen?'
     end
     item
       IndexID = 802
-      Text = 'Tidak ada metoda yang dipilih. Mohon pilih satu'
+      Text = 'Tidak ada metode yang dipilih! Silakan pilih satu!'
     end
     item
       IndexID = 803
       Text = 
-        'Tidak dapat mengambil Stok untuk barang yang memiliki jumlah ter' +
-        'simpan'
+        'Tidak dapat menambah stok untuk item dengan jumlah tersedia yang' +
+        ' bukan nol!'
     end
     item
       IndexID = 804
-      Text = 'Tidak ada laporan user yang dipilih. Pilih salah satu'
+      Text = 'Tidak ada laporan pengguna yang dipilih! Silakan pilih satu!'
     end
     item
       IndexID = 805
-      Text = 'Anda ingin mengisi semua detail untuk Kontak baru ini?'
+      Text = 'Apakah anda ingin mengisi semua detail untuk kontak baru ini?'
     end
     item
       IndexID = 806
-      Text = 'Ubah nomor dokumen selanjutnya?'
+      Text = 'Apakah anda yakin ingin mengubah nomor dokumen berikutnya?'
     end
     item
       IndexID = 807
-      Text = 'Kesalahan telah terjadi saat proses penyalinan'
+      Text = 'Terjadi kesalahan selama proses penyalinan!'
     end
     item
       IndexID = 808
-      Text = 'Potongan harus antara 0 %  sampai 99.99 %'
+      Text = 'Diskon harus dalam rentang 0 % hingga 99.99 %'
     end
     item
       IndexID = 809
-      Text = 'Bunga atas tunggakan harus diantara 0% sampai 99.99%'
+      Text = 
+        'Bunga atas jumlah jatuh tempo harus dalam rentang 0 % hingga 99.' +
+        '99 %'
     end
     item
       IndexID = 810
-      Text = 'harga lebih rendah dari harga barang'
+      Text = 'Harga ini lebih rendah dari harga satuan'
     end
     item
       IndexID = 811
-      Text = 'Dalam arsip Stok'
+      Text = 'pada berkas stok'
     end
     item
       IndexID = 812
-      Text = 'Data T3 lama telah berhasil dikonversi'
+      Text = 'Data T3 lama berhasil dikonversi'
     end
     item
       IndexID = 813
-      Text = 'Suatu kesalahan terjadi saat mengkonversi data lama T3.'
+      Text = 'Terjadi kesalahan saat mengonversi data T3 lama anda!'
     end
     item
       IndexID = 814
-      Text = 'Jumlah belum dibayar tidak dapat ditemukan'
+      Text = 'Tidak dapat menemukan jumlah yang belum dibayar!'
     end
     item
       IndexID = 815
       Text = 
-        'Batch Pembayaran dan Penerimaan tidak terhubung dengan benar ter' +
-        'hadap rekening bank.'
+        'Jurnal pembayaran dan penerimaan anda tidak tertaut dengan benar' +
+        ' ke akun bank ini!'
     end
     item
       IndexID = 816
       Text = 
-        'Mungkin tidak memiliki tipe pajak untuk debitur dan kreditur dal' +
-        'am sistem berbasis penerimaan'
+        'Mungkin tidak memiliki tipe pajak untuk debitur atau kreditur da' +
+        'lam sistem berbasis pembayaran!'
     end
     item
       IndexID = 817
-      Text = 'Arsip Backup tidak ditemukan di'
+      Text = 'Berkas cadangan tidak ditemukan di'
     end
     item
       IndexID = 818
-      Text = 'Pilih metoda Backup dan Restore.'
+      Text = 'Pilih mode pencadangan atau pemulihan'
     end
     item
       IndexID = 820
       Text = 
-        'Semua debitur dan kreditur harus dikonversi menjadi rekening ter' +
-        'buka untuk dapat berjalan pada sistem berbasis pembayaran. Lanju' +
-        'tkan?'
+        'Berjalan pada basis pembayaran mengharuskan semua debitur dan kr' +
+        'editur dikonversi ke akun item terbuka. Apakah anda ingin melanj' +
+        'utkan?'
     end
     item
       IndexID = 821
       Text = 
-        'Metoda Pajak berbasis pembayaran memberlakukan pajak bds kas. Pa' +
-        'jak dibayarkan untuk dinas pajak hanya ketika pajak tersebut dit' +
-        'erima dari pelanggan. Lanjutkan?'
+        'Metode pajak berbasis pembayaran memperlakukan pajak secara tuna' +
+        'i. Pajak dibayarkan kepada otoritas pendapatan hanya saat diteri' +
+        'ma dari pelanggan. Apakah anda ingin melanjutkan?'
     end
     item
       IndexID = 822
       Text = 
-        'Anda bekerja di basis Pembayaran dan rekening jatuh tempo tidak ' +
-        'ditemukan. Jalankan kembali setup Perusahaan'
+        'Anda menjalankan metode berbasis pembayaran dan akun jatuh tempo' +
+        ' tidak ditemukan! Harap jalankan '#39'Persiapan '#8594' Info perusahaan'#39'!'
     end
     item
       IndexID = 823
-      Text = 'Kartu Kredit'
+      Text = 'Kartu kredit'
     end
     item
       IndexID = 824
-      Text = 'Klik Sudah untuk menjalankan.'
+      Text = 'Klik [Selesai] untuk mengeksekusi.'
     end
     item
       IndexID = 825
-      Text = 'Susunan Buku mana yang hendak dipakai?'
+      Text = 'Bagan akun mana yang ingin anda gunakan?'
     end
     item
       IndexID = 826
-      Text = 'Beri nama set buku yang baru'
+      Text = 'Silakan ketikkan nama kumpulan buku yang baru!'
     end
     item
       IndexID = 827
-      Text = 'Dari Batch'
+      Text = 'Dari jurnal'
     end
     item
       IndexID = 828
@@ -3339,39 +3362,41 @@ object TTranslationSaveObject
     end
     item
       IndexID = 829
-      Text = 'Anda tidak memiliki hak proses. Proses ditolak.'
+      Text = 
+        'Anda tidak memiliki hak untuk memproses! Akses ke proses ini dit' +
+        'olak!'
     end
     item
       IndexID = 830
-      Text = 'Hubungi administrator <@APPNAME@>'
+      Text = 'Silakan hubungi administrator <@APPNAME@> Anda!'
     end
     item
       IndexID = 831
-      Text = 'Rekening ini dibekukan dan tidak dapat digunakan'
+      Text = 'Akun ini dinonaktifkan dan tidak dapat digunakan!'
     end
     item
       IndexID = 832
-      Text = 'Rek. tidak ada, operasi tidak dapat dilakukan'
+      Text = 'Akun tidak ada! Proses tidak dapat dilakukan!'
     end
     item
       IndexID = 833
-      Text = 'Arsip Tertanda Fax tidak dapat ditemukan di'
+      Text = 'Tidak dapat membuka file tanda tangan faks di'
     end
     item
       IndexID = 834
-      Text = 'Backup / Restore'
+      Text = 'Pencadangan/Pemulihan'
     end
     item
       IndexID = 835
-      Text = 'Tutup Set Buku'
+      Text = '&Tutup kumpulan buku'
     end
     item
       IndexID = 836
-      Text = '&Backup / Restore Set Buku'
+      Text = '&Pencadangan/Pemulihan kumpulan buku'
     end
     item
       IndexID = 837
-      Text = 'Indeks ulang Da&ta'
+      Text = 'Indeks ulang da&ta'
     end
     item
       IndexID = 838
@@ -3387,19 +3412,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 841
-      Text = 'Peme&sanan'
+      Text = 'Pesanan'
     end
     item
       IndexID = 842
-      Text = '&Laporan Pendapatan'
+      Text = '&Laporan laba rugi'
     end
     item
       IndexID = 843
-      Text = '&Daftar Kontak'
+      Text = '&Daftar kontak'
     end
     item
       IndexID = 844
-      Text = '&Pesan Belakang'
+      Text = '&Pesanan tunda'
     end
     item
       IndexID = 845
@@ -3407,19 +3432,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 846
-      Text = 'Kategori &Finansial'
+      Text = '&Kategori finansial'
     end
     item
       IndexID = 847
-      Text = 'Huru&f'
+      Text = '&Font'
     end
     item
       IndexID = 848
-      Text = '&Parameter Data'
+      Text = '&Parameter sistem'
     end
     item
       IndexID = 849
-      Text = 'Kebiasaan Bahasa'
+      Text = 'Sesuaikan bahasa'
     end
     item
       IndexID = 850
@@ -3427,63 +3452,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 851
-      Text = 'Tam&pilan Sambutan'
+      Text = 'Tampilkan &selamat datang'
     end
     item
       IndexID = 852
-      Text = 'Pendafta&ran Online'
+      Text = 'Pendafta&ran online'
     end
     item
       IndexID = 853
-      Text = 'Pembahar&uan Online'
+      Text = 'Pembar&uan online'
     end
     item
       IndexID = 854
-      Text = '&Jelajah'
+      Text = '&Telusuri'
     end
     item
       IndexID = 855
-      Text = 'Penjual bds produk'
+      Text = 'Penjual per produk'
     end
     item
       IndexID = 856
-      Text = 'Penjual bds Pelanggan'
+      Text = 'Penjual per pelanggan'
     end
     item
       IndexID = 857
-      Text = 'Produk bds Pelanggan'
+      Text = 'Produk per pelanggan'
     end
     item
       IndexID = 858
-      Text = 'Produk bds Penjual'
+      Text = 'Produk per penjual'
     end
     item
       IndexID = 859
-      Text = 'Pelanggan bds Penjual'
+      Text = 'Pelanggan per penjual'
     end
     item
       IndexID = 860
-      Text = 'Pelanggan bds Produk'
+      Text = 'Pelanggan per produk'
     end
     item
       IndexID = 861
-      Text = 'Pembelian bds Penyedia'
+      Text = 'Pembelian per pemasok'
     end
     item
       IndexID = 862
-      Text = 'Pembelian bds Produk'
+      Text = 'Pembelian per produk'
     end
     item
       IndexID = 863
-      Text = 'Pilihan Cetak'
+      Text = 'Opsi pencetakan'
     end
     item
       IndexID = 864
-      Text = '&Aturan Printer'
+      Text = '&Persiapan pencetak'
     end
     item
       IndexID = 865
-      Text = 'Laporan ke:'
+      Text = 'Kirim laporan ke:'
     end
     item
       IndexID = 866
@@ -3495,7 +3520,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 868
-      Text = '&Banyak Tabel'
+      Text = '&Tabel'
     end
     item
       IndexID = 869
@@ -3503,11 +3528,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 870
-      Text = 'Isian Tersedi&a'
+      Text = 'Bidang tersedi&a'
     end
     item
       IndexID = 871
-      Text = 'I&sian terpilih'
+      Text = 'Bidang terpilih'
     end
     item
       IndexID = 872
@@ -3515,7 +3540,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 873
-      Text = '&Hapus Semua'
+      Text = '&Hapus semua'
     end
     item
       IndexID = 874
@@ -3523,7 +3548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 875
-      Text = 'Perioda Finansial'
+      Text = 'Periode finansial'
     end
     item
       IndexID = 876
@@ -3531,7 +3556,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 877
-      Text = 'Set Buku yang hendak dikopi'
+      Text = 'Kumpulan buku yang akan disalin:'
     end
     item
       IndexID = 879
@@ -3539,31 +3564,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 880
-      Text = 'Gangguan Arsip'
+      Text = 'Korupsi berkas'
     end
     item
       IndexID = 881
-      Text = 'Balans per periode'
+      Text = 'Saldo per periode'
     end
     item
       IndexID = 882
-      Text = 'Hitung Rekening dan Stok'
+      Text = 'Hitung akun dan item stok'
     end
     item
       IndexID = 883
-      Text = 'Debitur dan Kreditur'
+      Text = 'Debitur dan kreditur'
     end
     item
       IndexID = 884
-      Text = 'Batch dan dokumen yg belum diproses'
+      Text = 'Jurnal dan dokumen yang belum terselesaikan'
     end
     item
       IndexID = 885
-      Text = 'Dokumen belum terposting'
+      Text = 'Dokumen yang belum diposting'
     end
     item
       IndexID = 886
-      Text = 'Pilih Set Buku'
+      Text = 'Pilih kumpulan buku'
     end
     item
       IndexID = 887
@@ -3571,165 +3596,165 @@ object TTranslationSaveObject
     end
     item
       IndexID = 888
-      Text = 'Posting ke tahun lalu tertutup'
+      Text = 'Tahun lalu ditutup untuk posting!'
     end
     item
       IndexID = 889
-      Text = 'Periode ini tertutup untuk posting'
+      Text = 'Periode ini ditutup untuk posting!'
     end
     item
       IndexID = 890
-      Text = 'untuk menyalakannya, buka opsi Tgl. Laporan'
+      Text = 'Untuk mengaktifkannya, buka '#39'Persiapan '#8594' Tanggal pelaporan'#39
     end
     item
       IndexID = 891
-      Text = 'Backup'
+      Text = 'Pencadangan'
     end
     item
       IndexID = 892
-      Text = 'Restore'
+      Text = 'Pemulihan'
     end
     item
       IndexID = 893
-      Text = 'Restore dari'
+      Text = 'Pulihkan dari'
     end
     item
       IndexID = 894
-      Text = 'Restore ke'
+      Text = 'Pulihkan ke'
     end
     item
       IndexID = 895
-      Text = 'Backup dari'
+      Text = 'Cadangkan dari'
     end
     item
       IndexID = 896
-      Text = 'Backup ke'
+      Text = 'Cadangkan ke'
     end
     item
       IndexID = 897
-      Text = 'stop'
+      Text = 'Berhenti'
     end
     item
       IndexID = 898
-      Text = 'Restore set buku'
+      Text = 'Pulihkan kumpulan buku'
     end
     item
       IndexID = 899
-      Text = 'Backup set buku'
+      Text = 'Cadangkan kumpulan buku'
     end
     item
       IndexID = 900
-      Text = 'Backup selesai.'
+      Text = 'Pencadangan selesai...'
     end
     item
       IndexID = 901
-      Text = 'proses backup sudah selesai'
+      Text = 'Proses cadangan telah selesai!'
     end
     item
       IndexID = 902
-      Text = 'men-zip'
+      Text = 'Mengompres'
     end
     item
       IndexID = 903
-      Text = 'Masukkan disket'
+      Text = 'Silakan masukkan disk!'
     end
     item
       IndexID = 904
-      Text = 'Backup multi-disk dari set buku'
+      Text = 'dari cadangan kumpulan buku multi-disk.'
     end
     item
       IndexID = 905
-      Text = 'Pilih target backup'
+      Text = 'Pilih target cadangan'
     end
     item
       IndexID = 906
-      Text = 'Proses un-zip'
+      Text = 'Mengekstrak'
     end
     item
       IndexID = 908
-      Text = 'Proses Restore selesai'
+      Text = 'Proses pemulihan telah selesai!'
     end
     item
       IndexID = 909
-      Text = 'Telah terambil'
+      Text = 'Dipulihkan'
     end
     item
       IndexID = 910
-      Text = 'Masukkan disket terakhir dari satuan disket'
+      Text = 'Masukkan disk terakhir dari set disk lalu'
     end
     item
       IndexID = 911
-      Text = 'Batalkan atau Lanjutkan'
+      Text = 'Klik [Ya] untuk melanjutkan atau [Tidak] untuk membatalkan'
     end
     item
       IndexID = 912
-      Text = 'Mulai Backup..'
+      Text = 'Memulai cadangan...'
     end
     item
       IndexID = 913
-      Text = 'tidak ada set buku valid ditemukan di:'
+      Text = 'Tidak ada kumpulan buku valid yang ditemukan di:'
     end
     item
       IndexID = 914
-      Text = 'Tidak dapat menggunakan drive ini. Petakan lagi.'
+      Text = 'Tidak dapat menggunakan drive ini! Petakan dan coba lagi...'
     end
     item
       IndexID = 915
-      Text = 'Back up tidak dapat di jalankan...'
+      Text = 'Tidak dapat menjalankan cadangan...'
     end
     item
       IndexID = 916
-      Text = 'Backup tidak lengkap...'
+      Text = 'Cadangan tidak lengkap...'
     end
     item
       IndexID = 917
-      Text = 'Proses backup dibatalkan user'
+      Text = 'Kumpulan buku - proses cadangan dibatalkan oleh pengguna!'
     end
     item
       IndexID = 918
-      Text = 'Arsip terkompresi'
+      Text = 'File dikompresi'
     end
     item
       IndexID = 919
-      Text = 'Operasi dibatalkan oleh user'
+      Text = 'Proses dibatalkan oleh pengguna!'
     end
     item
       IndexID = 920
-      Text = 'Mulai Restore.'
+      Text = 'Memulai pemulihan...'
     end
     item
       IndexID = 921
-      Text = 'Set buku anda akan di Restore dan disimpan di:'
+      Text = 'Kumpulan buku anda akan dipulihkan di:'
     end
     item
       IndexID = 922
-      Text = 'Arsip TerRestore'
+      Text = 'File dipulihkan'
     end
     item
       IndexID = 923
-      Text = 'Kata sandi Salah'
+      Text = 'Kata sandi salah!'
     end
     item
       IndexID = 924
-      Text = 'Mengabaikan file:'
+      Text = 'Melewati file:'
     end
     item
       IndexID = 925
-      Text = 'Gangguan Pembukaan Arsip'
+      Text = 'Kesalahan: Membuka file!'
     end
     item
       IndexID = 926
-      Text = 'Menunggu proses berjalan.'
+      Text = 'Menunggu untuk dijalankan...'
     end
     item
       IndexID = 927
       Text = 
-        'setting user ini sekarang dijadikan administrator oleh <@APPNAME' +
-        '@>'
+        'Pengaturan pengguna ini sekarang diubah menjadi administrator ol' +
+        'eh <@APPNAME@>!'
     end
     item
       IndexID = 928
-      Text = 'Isian Dokumen'
+      Text = 'Entri dokumen'
     end
     item
       IndexID = 929
@@ -3737,67 +3762,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 930
-      Text = 'Rincian'
+      Text = 'Detail'
     end
     item
       IndexID = 931
-      Text = 'Judul'
+      Text = 'Header'
     end
     item
       IndexID = 932
-      Text = 'Hapus Hubungan'
+      Text = 'Hapus tautan'
     end
     item
       IndexID = 933
-      Text = 'Gen BB/F'
+      Text = 'Hasilkan Saldo B/F'
     end
     item
       IndexID = 934
-      Text = 'Bongkar Hubungan'
+      Text = 'Putuskan tautan'
     end
     item
       IndexID = 935
-      Text = 'Total Jumlah'
+      Text = 'Jumlah total'
     end
     item
       IndexID = 936
-      Text = 'Total Tunggakan'
+      Text = 'Total tunggakan'
     end
     item
       IndexID = 937
-      Text = 'Total Bukubesar'
+      Text = 'Total buku besar'
     end
     item
       IndexID = 938
-      Text = 'Perbedaan/Jumlah'
+      Text = 'Selisih/Jumlah'
     end
     item
       IndexID = 939
-      Text = 'Perbedaan / Tunggakan'
+      Text = 'Selisih/Tunggakan'
     end
     item
       IndexID = 940
-      Text = 'Bersihkan Pilihan Hubungan'
+      Text = 'Hapus opsi tautan'
     end
     item
       IndexID = 941
-      Text = 'Bersihkan semua Hubungan'
+      Text = 'Hapus semua tautan'
     end
     item
       IndexID = 942
-      Text = 'Gunakan Tgl. Mulai'
+      Text = 'Gunakan tanggal mulai'
     end
     item
       IndexID = 943
-      Text = 'Dengan Tgl. Kredit'
+      Text = 'Berdasarkan tanggal kredit'
     end
     item
       IndexID = 944
-      Text = 'Cari bds'
+      Text = 'Cari per'
     end
     item
       IndexID = 945
-      Text = 'Gunakan'
+      Text = 'Terapkan'
     end
     item
       IndexID = 946
@@ -3813,7 +3838,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 949
-      Text = 'Tampilkan Pernyataan'
+      Text = 'Tampilkan laporan'
     end
     item
       IndexID = 950
@@ -3821,7 +3846,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 951
-      Text = 'Tidak dapat direkonsiliasi'
+      Text = 'Batalkan rekonsiliasi'
     end
     item
       IndexID = 952
@@ -3833,27 +3858,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 954
-      Text = 'Terrekonsiliasi'
+      Text = 'Terekonsiliasi'
     end
     item
       IndexID = 955
-      Text = 'Perbedaan'
+      Text = 'Selisih'
     end
     item
       IndexID = 956
-      Text = 'Cari bds referensi'
+      Text = 'Cari per referensi'
     end
     item
       IndexID = 957
-      Text = 'Cari bds jumlah'
+      Text = 'Cari per jumlah'
     end
     item
       IndexID = 958
-      Text = 'Cari bds Tgl.'
+      Text = 'Cari per tanggal'
     end
     item
       IndexID = 959
-      Text = 'Rekening Bank Lancar'
+      Text = 'Rekening bank saat ini'
     end
     item
       IndexID = 960
@@ -3861,39 +3886,40 @@ object TTranslationSaveObject
     end
     item
       IndexID = 961
-      Text = 'Pembukuan'
+      Text = 'Terposting'
     end
     item
       IndexID = 962
-      Text = 'Blm Terposting'
+      Text = 'Belum diposting'
     end
     item
       IndexID = 963
-      Text = 'Hal Pembayaran'
+      Text = 'Item pembayaran'
     end
     item
       IndexID = 964
-      Text = 'Hal Tanda Terima'
+      Text = 'Item penerimaan'
     end
     item
       IndexID = 965
       Text = 
-        'Rekening kontrol Stok atau Rekening Penjualan tidak disiapkan de' +
-        'ngan benar untuk Stok barang ini'
+        'Akun kontrol stok dan/atau akun penjualan tidak diatur dengan be' +
+        'nar untuk item stok ini!'
     end
     item
       IndexID = 966
       Text = 
-        'Dokumen belum dapat diposting, mohon setup Rekening Penjualan, R' +
-        'ekening Kontrol Stok (dan Rekening Biaya Penjualan)'
+        'Dokumen ini tidak dapat diposting! Harap atur dengan benar - Pen' +
+        'jualan, akun kontrol stok (dan akun harga pokok penjualan) lalu ' +
+        'posting!'
     end
     item
       IndexID = 967
-      Text = 'Salinan <@APPNAME@> blm terdaftar'
+      Text = 'Salinan <@APPNAME@> yang tidak terdaftar'
     end
     item
       IndexID = 968
-      Text = 'are limited to 500 transactions or 500 documents'
+      Text = 'dibatasi hingga 500 transaksi atau 500 dokumen'
     end
     item
       IndexID = 969
@@ -3901,19 +3927,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 970
-      Text = 'Kode Pembuka dari <@APPNAME@>'
+      Text = 'Kode buka kunci (dari <@APPNAME@>):'
     end
     item
       IndexID = 971
-      Text = 'Nomor Serial (pada Disket)'
+      Text = 'Nomor seri:'
     end
     item
       IndexID = 972
-      Text = 'Daftarkan <@APPNAME@> anda. '
+      Text = 'Daftar <@APPNAME@> Anda'
     end
     item
       IndexID = 973
-      Text = 'Untuk mendapatkan Kode pembuka atau'
+      Text = 'Untuk mendapatkan kode buka kunci anda atau'
     end
     item
       IndexID = 974
@@ -3921,19 +3947,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 975
-      Text = 'Ini salinan <@APPNAME@> tidak terdaftar, daftarkan sekarang?'
+      Text = 
+        'Salinan <@APPNAME@> ini tidak terdaftar! Apakah anda ingin menda' +
+        'ftarkannya sekarang?'
     end
     item
       IndexID = 976
-      Text = 'Nama Perusahaan :'
+      Text = 'Nama perusahaan:'
     end
     item
       IndexID = 977
-      Text = 'Analisa Pembelian'
+      Text = 'Analisis pembelian'
     end
     item
       IndexID = 978
-      Text = 'Pilihan Neraca Lajur'
+      Text = 'Opsi neraca'
     end
     item
       IndexID = 979
@@ -3941,15 +3969,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 980
-      Text = 'Pilihan Laporan Pendapatan'
+      Text = 'Opsi laporan laba rugi'
     end
     item
       IndexID = 981
-      Text = 'Tampilkan Tahun lalu'
+      Text = 'Tampilkan tahun lalu'
     end
     item
       IndexID = 982
-      Text = 'Tampilkan Varian'
+      Text = 'Tampilkan varians'
     end
     item
       IndexID = 983
@@ -3965,7 +3993,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 986
-      Text = 'Printer'
+      Text = 'Pencetak'
     end
     item
       IndexID = 987
@@ -3973,139 +4001,141 @@ object TTranslationSaveObject
     end
     item
       IndexID = 988
-      Text = 'Akhir'
+      Text = 'Selesai'
     end
     item
       IndexID = 989
-      Text = 'Pilih Otomatis'
+      Text = 'Pilih otomatis'
     end
     item
       IndexID = 990
-      Text = 'Kode Garis'
+      Text = 'Barcode'
     end
     item
       IndexID = 991
-      Text = 'Kode Garis'
+      Text = 'Barcode'
     end
     item
       IndexID = 992
-      Text = 'Produk bds Pilihan Pelanggan'
+      Text = 'Opsi produk per pelanggan'
     end
     item
       IndexID = 993
-      Text = 'Produk bds Pilihan Penjual'
+      Text = 'Opsi produk per tenaga penjual'
     end
     item
       IndexID = 994
-      Text = 'Pelanggan bds Pilihan Penjual'
+      Text = 'Opsi pelanggan per tenaga penjual'
     end
     item
       IndexID = 995
-      Text = 'Pelanggan bds Pilihan Produk'
+      Text = 'Opsi pelanggan per produk'
     end
     item
       IndexID = 996
-      Text = 'Penjual bds Pilihan Pelanggan'
+      Text = 'Opsi tenaga penjual per pelanggan'
     end
     item
       IndexID = 997
-      Text = 'Buku Pembayaran Tunai'
+      Text = 'Buku kas pembayaran'
     end
     item
       IndexID = 998
-      Text = 'Buku Penerimaan Tunai'
+      Text = 'Buku kas penerimaan'
     end
     item
       IndexID = 999
-      Text = 'Mode Inklusi'
+      Text = 'Mode inklusif'
     end
     item
       IndexID = 1000
-      Text = 'Neraca Lajur'
+      Text = 'Neraca'
     end
     item
       IndexID = 1001
-      Text = 'Default dari Windows'
+      Text = 'Windows standar'
     end
     item
       IndexID = 1002
-      Text = 'Rekening'
+      Text = 'Akun'
     end
     item
       IndexID = 1003
-      Text = 'Pilih Kontak'
+      Text = 'Pilih kontak'
     end
     item
       IndexID = 1004
-      Text = 'Pilih Kelompok'
+      Text = 'Pilih grup'
     end
     item
       IndexID = 1005
-      Text = 'Batalkan Proses Akhir Tahun?'
+      Text = 'Apakah anda ingin membatalkan proses akhir tahun?'
     end
     item
       IndexID = 1006
-      Text = 'Hapus Laporan User ini?'
+      Text = 'Apakah anda yakin ingin menghapus laporan pengguna ini?'
     end
     item
       IndexID = 1007
-      Text = 'Set Buku anda akan terpengaruh. Hapus Tipe Batch ini?'
+      Text = 
+        'Ini akan sangat memengaruhi kumpulan buku anda! Apakah anda yaki' +
+        'n ingin menghapus tipe jurnal ini?'
     end
     item
       IndexID = 1008
-      Text = 'Penjualan bds Pilihan Produk'
+      Text = 'Opsi penjualan per produk'
     end
     item
       IndexID = 1009
-      Text = 'Keluaran Default'
+      Text = 'Output standar'
     end
     item
       IndexID = 1010
-      Text = 'Logo Perusahaan'
+      Text = 'Logo perusahaan'
     end
     item
       IndexID = 1011
-      Text = 'Gunakan Logo dlm Laporan'
+      Text = 'Gunakan logo pada laporan'
     end
     item
       IndexID = 1012
-      Text = 'Pilihan'
+      Text = 'Opsi'
     end
     item
       IndexID = 1013
-      Text = 'Ganti Nama'
+      Text = 'Ubah nama'
     end
     item
       IndexID = 1014
-      Text = '&Ambil dari arsip'
+      Text = '&Muat dari file'
     end
     item
       IndexID = 1015
-      Text = '&Pindahkan'
+      Text = '&Tempel'
     end
     item
       IndexID = 1016
-      Text = '&Hapus'
+      Text = '&Bersihkan'
     end
     item
       IndexID = 1017
-      Text = '<@APPNAME@> - Ambil Gambar'
+      Text = '<@APPNAME@> - Muat logo'
     end
     item
       IndexID = 1018
-      Text = 'Hapus Penawaran'
+      Text = 'Hapus penawaran'
     end
     item
       IndexID = 1019
-      Text = 'Hapus Pesanan'
+      Text = 'Hapus pesanan'
     end
     item
       IndexID = 1020
-      Text = 'Cetak Logo Standar'
+      Text = 'Cetak logo standar'
     end
     item
       IndexID = 1021
-      Text = 'Neraca Ujicoba'
+      Text = 'Neraca saldo'
     end
     item
       IndexID = 1022
@@ -4113,7 +4143,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1023
-      Text = 'Laba Bersih'
+      Text = 'Laba bersih'
     end
     item
       IndexID = 1024
@@ -4121,7 +4151,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1025
-      Text = 'Rugi Bersih'
+      Text = 'Rugi bersih'
     end
     item
       IndexID = 1026
@@ -4129,43 +4159,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1027
-      Text = 'Anggaran Belanja'
+      Text = 'Anggaran'
     end
     item
       IndexID = 1028
-      Text = 'Seperti di'
+      Text = 'Per tanggal'
     end
     item
       IndexID = 1029
-      Text = '&Jalankan Kembali'
+      Text = '&Jalankan ulang'
     end
     item
       IndexID = 1030
-      Text = '&Aliran Kas'
+      Text = '&Arus kas'
     end
     item
       IndexID = 1033
-      Text = 'Pilihan Analisa Masa Kreditur'
+      Text = 'Opsi analisis umur kreditur'
     end
     item
       IndexID = 1034
-      Text = 'Pilihan buku besar'
+      Text = 'Opsi buku besar'
     end
     item
       IndexID = 1035
-      Text = 'Setiap perioda Terpisah'
+      Text = 'Setiap periode secara terpisah'
     end
     item
       IndexID = 1036
-      Text = 'Halaman Baru Per Rekening'
+      Text = 'Halaman baru per akun'
     end
     item
       IndexID = 1037
-      Text = 'Tgl. Laporan'
+      Text = 'Tanggal laporan'
     end
     item
       IndexID = 1039
-      Text = 'Pilih Laporan'
+      Text = 'Pilih laporan'
     end
     item
       IndexID = 1040
@@ -4173,91 +4203,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1041
-      Text = 'Arsip Spesifikasi'
+      Text = 'File spesifikasi'
     end
     item
       IndexID = 1042
-      Text = 'Pilihan label laporan'
+      Text = 'Opsi laporan label'
     end
     item
       IndexID = 1043
-      Text = 'Pilihan Daftar Depitur'
+      Text = 'Opsi daftar debitur'
     end
     item
       IndexID = 1044
-      Text = 'Pilihan Daftar Kreditur'
+      Text = 'Opsi daftar kreditur'
     end
     item
       IndexID = 1045
-      Text = 'Pilihan Aliran Kas'
+      Text = 'Opsi arus kas'
     end
     item
       IndexID = 1046
-      Text = 'Perioda Finansial'
+      Text = 'Periode'
     end
     item
       IndexID = 1047
-      Text = 'Dari Bank Rek.'
+      Text = 'Dari akun bank'
     end
     item
       IndexID = 1048
-      Text = 'Termasuk Kas Kecil'
+      Text = 'Termasuk kas kecil'
     end
     item
       IndexID = 1049
-      Text = 'Nama Set Buku tidak boleh kosong'
+      Text = 'Nama kumpulan buku tidak boleh kosong!'
     end
     item
       IndexID = 1050
-      Text = 'Default Perbesaran'
+      Text = 'Pratinjau zoom standar'
     end
     item
       IndexID = 1051
-      Text = 'Pilihan Penjual bds produk'
+      Text = 'Opsi tenaga penjual per produk'
     end
     item
       IndexID = 1052
-      Text = 'Bersihkan Daftar'
+      Text = 'Bersihkan daftar'
     end
     item
       IndexID = 1053
-      Text = 'Pilih pilihan setup perusahaan untuk anda rubah'
+      Text = 'Pilih '#39'Persiapan '#8594' Info perusahaan'#39' yang ingin anda ubah!'
     end
     item
       IndexID = 1054
-      Text = 'Batalkan Proses ini?'
+      Text = 'Apakah anda ingin membatalkan proses ini?'
     end
     item
       IndexID = 1055
-      Text = 'Hapus Penjual ini?'
+      Text = 'Apakah anda ingin menghapus tenaga penjual?'
     end
     item
       IndexID = 1056
-      Text = 'Semua Harga Jual'
+      Text = 'Semua harga jual'
     end
     item
       IndexID = 1057
-      Text = 'Tak ada'
+      Text = 'Tidak ada'
     end
     item
       IndexID = 1058
-      Text = 'Deskripsi Barang'
+      Text = 'Deskripsi stok'
     end
     item
       IndexID = 1059
       Text = 
-        'Tidak dapat dijalankan dua kali per laporan. Laporan Pertama mas' +
-        'ih berjalan.'
+        'Tidak dapat menjalankan laporan dua kali! Laporan pertama sedang' +
+        ' berjalan!'
     end
     item
       IndexID = 1060
       Text = 
-        'Set Buku anda terkorupsi, indeks ulang untuk membangun kembali n' +
-        'ilai kunci'
+        'Kumpulan buku anda rusak! Jalankan indeks ulang data untuk memba' +
+        'ngun kembali nilai kunci.'
     end
     item
       IndexID = 1063
-      Text = 'Pilih Arsip Lembar Kerja Lotus berisi Stok'
+      Text = 'Pilih berkas lembar sebar stok'
     end
     item
       IndexID = 1064
@@ -4265,23 +4295,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1065
-      Text = 'Nama Kontak'
+      Text = 'Nama kontak'
     end
     item
       IndexID = 1066
-      Text = 'Neraca Pembuka'
+      Text = 'Saldo awal'
     end
     item
       IndexID = 1067
-      Text = '&Tampilan'
+      Text = '&Pratinjau'
     end
     item
       IndexID = 1068
-      Text = 'Pilih Tipe'
+      Text = 'Pilih tipe'
     end
     item
       IndexID = 1069
-      Text = 'Dari...Ke'
+      Text = 'Dari ... ke'
     end
     item
       IndexID = 1070
@@ -4289,11 +4319,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1071
-      Text = 'Banyak Batch'
+      Text = 'Jurnal'
     end
     item
       IndexID = 1072
-      Text = 'user'
+      Text = 'Pengguna'
     end
     item
       IndexID = 1073
@@ -4301,19 +4331,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1074
-      Text = 'Update Batch'
+      Text = 'Perbarui jurnal'
     end
     item
       IndexID = 1076
-      Text = 'Tampilkan Kelompok Barang'
+      Text = 'Tampilkan grup stok'
     end
     item
       IndexID = 1077
-      Text = 'Pilihan Pembelian bds Produk'
+      Text = 'Opsi pembelian per produk'
     end
     item
       IndexID = 1078
-      Text = 'Pilihan Pembelian bds Penyedia'
+      Text = 'Opsi pembelian per pemasok'
     end
     item
       IndexID = 1079
@@ -4321,23 +4351,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1080
-      Text = 'Pakai'
+      Text = 'Gunakan'
     end
     item
       IndexID = 1081
-      Text = 'Rekening Beban Penjualan'
+      Text = 'Akun harga pokok penjualan'
     end
     item
       IndexID = 1082
-      Text = 'Pilihan ReOrder'
+      Text = 'Opsi pesan ulang'
     end
     item
       IndexID = 1083
-      Text = 'Pilihan Pesan Belakang'
+      Text = 'Opsi pesanan tunda'
     end
     item
       IndexID = 1084
-      Text = 'Tampilkan semua hal'
+      Text = 'Tampilkan semua item'
     end
     item
       IndexID = 1085
@@ -4345,23 +4375,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1086
-      Text = 'Pilihan Nota Pengantaran'
+      Text = 'Opsi surat jalan'
     end
     item
       IndexID = 1087
-      Text = 'Tipe Dokumen'
+      Text = 'Tipe dokumen'
     end
     item
       IndexID = 1088
-      Text = 'Hanya Tahun Lalu'
+      Text = 'Hanya tahun lalu'
     end
     item
       IndexID = 1089
-      Text = '$Remittance Advise'
+      Text = 'Saran remitansi kreditur'
     end
     item
       IndexID = 1090
-      Text = 'Pernyataan Debitur'
+      Text = 'Pernyataan debitur'
     end
     item
       IndexID = 1091
@@ -4373,23 +4403,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1093
-      Text = 'Spasi'
+      Text = 'Backspace'
     end
     item
       IndexID = 1094
-      Text = 'Pengiriman'
+      Text = 'Transfer'
     end
     item
       IndexID = 1095
-      Text = 'Cetak Dokumen'
+      Text = 'Cetak dokumen'
     end
     item
       IndexID = 1096
-      Text = 'Tidak Tercetak'
+      Text = 'Belum dicetak'
     end
     item
       IndexID = 1097
-      Text = 'Tidak Terposting'
+      Text = 'Belum diposting'
     end
     item
       IndexID = 1098
@@ -4401,31 +4431,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1100
-      Text = 'Tanda Terima'
+      Text = 'Penerimaan'
     end
     item
       IndexID = 1101
-      Text = 'Pilihan Pembatalan Rekonsiliasi'
+      Text = 'Opsi pembatalan rekonsiliasi'
     end
     item
       IndexID = 1102
-      Text = 'Pembatalan Rekonsiliasi bds Tgl.'
+      Text = 'Batalkan rekonsiliasi berdasarkan tanggal'
     end
     item
       IndexID = 1103
-      Text = 'Pembatalan Rekonsiliasi bds referensi'
+      Text = 'Batalkan rekonsiliasi berdasarkan referensi'
     end
     item
       IndexID = 1104
-      Text = 'Pilihan Rekonsiliasi'
+      Text = 'Opsi rekonsiliasi'
     end
     item
       IndexID = 1105
-      Text = 'Rekonsiliasi bds Tgl.'
+      Text = 'Rekonsiliasi berdasarkan tanggal'
     end
     item
       IndexID = 1106
-      Text = 'Rekonsiliasi bds referensi'
+      Text = 'Rekonsiliasi berdasarkan referensi'
     end
     item
       IndexID = 1107
@@ -4433,27 +4463,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1108
-      Text = 'Deskripsi Rekening'
+      Text = 'Deskripsi akun'
     end
     item
       IndexID = 1109
-      Text = 'Tipe Rekening'
+      Text = 'Tipe akun'
     end
     item
       IndexID = 1110
-      Text = 'bds Tagihan'
+      Text = 'Berdasarkan faktur'
     end
     item
       IndexID = 1111
-      Text = 'bds Pembayaran'
+      Text = 'Berdasarkan pembayaran'
     end
     item
       IndexID = 1112
-      Text = 'Pracetak'
+      Text = 'Pra-cetak'
     end
     item
       IndexID = 1113
-      Text = 'A4'
+      Text = 'A4 polos'
     end
     item
       IndexID = 1114
@@ -4461,11 +4491,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1115
-      Text = 'Plain Eyeline'
+      Text = 'Eyeline polos'
     end
     item
       IndexID = 1116
-      Text = 'Empatpuluh'
+      Text = 'Empat puluh'
     end
     item
       IndexID = 1117
@@ -4473,57 +4503,57 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1118
-      Text = 'Tampilkan Kontak'
+      Text = 'Tampilkan orang kontak'
     end
     item
       IndexID = 1119
-      Text = 'Dari Daftar'
+      Text = 'Dari daftar'
     end
     item
       IndexID = 1120
-      Text = 'Nomor Dokumen'
+      Text = 'No. dokumen'
     end
     item
       IndexID = 1121
-      Text = 'Tgl. Dokumen'
+      Text = 'Tanggal dokumen'
     end
     item
       IndexID = 1122
-      Text = '"Nama Harga",Nilai'
+      Text = '"Nama harga",Nilai'
     end
     item
       IndexID = 1123
-      Text = 'Berhasil dihapus'
+      Text = 'dihapus!'
     end
     item
       IndexID = 1124
       Text = 
-        'Rekening Kontrol Debitur dan Kreditur terkorupsi, Silahkan konta' +
-        'k <@APPNAME@>'
+        'Akun kontrol debitur dan kreditur hilang atau rusak! Silakan hub' +
+        'ungi <@APPNAME@> untuk bantuan!'
     end
     item
       IndexID = 1125
-      Text = 'Jatuh Tempo'
+      Text = 'Jatuh tempo'
     end
     item
       IndexID = 1126
-      Text = 'Brought Forward'
+      Text = 'Saldo pindahan (B/F)'
     end
     item
       IndexID = 1127
-      Text = 'Carried Forward'
+      Text = 'Saldo dibawa (C/F)'
     end
     item
       IndexID = 1128
-      Text = 'Pernyataan ke'
+      Text = 'Laporan ke'
     end
     item
       IndexID = 1129
-      Text = 'Remittance Advice to'
+      Text = 'Saran remitansi ke'
     end
     item
       IndexID = 1130
-      Text = 'Ref. Pajak Pelanggan'
+      Text = 'Ref. PPN pelanggan'
     end
     item
       IndexID = 1131
@@ -4535,43 +4565,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1133
-      Text = 'Tagihan Diterima'
+      Text = 'Faktur diterima'
     end
     item
       IndexID = 1134
-      Text = 'Tandatangan'
+      Text = 'Tanda tangan'
     end
     item
       IndexID = 1135
-      Text = 'Registrasi Nilai Setelah Pajak'
+      Text = 'Registrasi PPN'
     end
     item
       IndexID = 1136
-      Text = 'Jumlah Eksklusif'
+      Text = 'Jumlah eksklusif'
     end
     item
       IndexID = 1137
-      Text = 'Jumlah Inklusif'
+      Text = 'Jumlah inklusif'
     end
     item
       IndexID = 1138
-      Text = 'Jumlah Pajak'
+      Text = 'Jumlah PPN'
     end
     item
       IndexID = 1139
-      Text = 'Tagihan'
+      Text = 'Fak.'
     end
     item
       IndexID = 1140
-      Text = 'Hal'
+      Text = 'Item'
     end
     item
       IndexID = 1141
-      Text = 'Potongan'
+      Text = 'Diskon'
     end
     item
       IndexID = 1142
-      Text = 'Diskripsi Stok Barang'
+      Text = 'Deskripsi item stok'
     end
     item
       IndexID = 1143
@@ -4579,19 +4609,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1144
-      Text = 'Alamat Penyalur'
+      Text = 'Alamat pemasok'
     end
     item
       IndexID = 1145
-      Text = 'Alamat Tagihan'
+      Text = 'Alamat faktur'
     end
     item
       IndexID = 1146
-      Text = 'Menerima Nota Kredit'
+      Text = 'Nota kredit diterima'
     end
     item
       IndexID = 1147
-      Text = 'GRV diterima'
+      Text = 'Dokumen pembelian diterima'
     end
     item
       IndexID = 1148
@@ -4599,11 +4629,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1149
-      Text = 'Penawaran diterima'
+      Text = 'Pesanan diterima'
     end
     item
       IndexID = 1150
-      Text = 'Nota Pengantaran diterima'
+      Text = 'Surat jalan diterima'
     end
     item
       IndexID = 1151
@@ -4611,53 +4641,53 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1152
-      Text = 'Total Aset'
+      Text = 'Total aset'
     end
     item
       IndexID = 1153
-      Text = 'Modal dan Kewajiban'
+      Text = 'Modal dan liabilitas'
     end
     item
       IndexID = 1154
-      Text = 'Total Modal dan Kewajiban'
+      Text = 'Total modal dan liabilitas'
     end
     item
       IndexID = 1155
-      Text = 'Total Laba/Rugi Bersih'
+      Text = 'Total laba/rugi bersih'
     end
     item
       IndexID = 1156
-      Text = 'belum dialokasikan'
+      Text = 'Belum dialokasikan'
     end
     item
       IndexID = 1157
-      Text = 'di'
+      Text = 'pada'
     end
     item
       IndexID = 1158
-      Text = 'Laporan Pendapatan dan Pengeluaran'
+      Text = 'Laporan pendapatan dan biaya'
     end
     item
       IndexID = 1159
-      Text = 'Varian'
+      Text = 'Varians'
     end
     item
       IndexID = 1160
-      Text = 'Laba/Rugi bersih'
+      Text = 'Laba/rugi bersih'
     end
     item
       IndexID = 1161
-      Text = 'Pencari berhenti, sudah maksimal.'
+      Text = 'Pencarian berhenti! Batas tercapai!'
     end
     item
       IndexID = 1162
       Text = 
-        'Tgl. hari ini berada diluar periode finansial, jalankan prosedur' +
-        ' Akhir Tahun untuk memproses sampai Tgl. hari ini'
+        'Tanggal hari ini melampaui periode finansial anda. Anda harus me' +
+        'njalankan akhir tahun untuk memproses hingga tanggal ini!'
     end
     item
       IndexID = 1163
-      Text = '&Referensi'
+      Text = '&Cari'
     end
     item
       IndexID = 1164
@@ -4665,7 +4695,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1165
-      Text = '&Mengambang'
+      Text = '&Float'
     end
     item
       IndexID = 1166
@@ -4677,19 +4707,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1168
-      Text = 'Silahkan dibaca'
+      Text = 'Harap baca ini'
     end
     item
       IndexID = 1169
-      Text = 'Uang Kas'
+      Text = 'Kas di laci'
     end
     item
       IndexID = 1170
-      Text = 'Kartu Kredit'
+      Text = 'Kartu kredit'
     end
     item
       IndexID = 1171
-      Text = 'Mengambang Masuk/Keluar'
+      Text = 'Float masuk/keluar'
     end
     item
       IndexID = 1172
@@ -4701,23 +4731,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1174
-      Text = 'Kontrol Akses POS'
+      Text = 'Kontrol akses POS'
     end
     item
       IndexID = 1175
-      Text = 'Login Point Of Sale'
+      Text = 'Login Point-of-Sale'
     end
     item
       IndexID = 1176
-      Text = 'Nama Kasir'
+      Text = 'Nama kasir'
     end
     item
       IndexID = 1177
-      Text = '(Nama Penjual)'
+      Text = '(Nama tenaga penjual)'
     end
     item
       IndexID = 1178
-      Text = 'Simpan login saya'
+      Text = 'Ingat login saya'
     end
     item
       IndexID = 1179
@@ -4725,51 +4755,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1180
-      Text = 'Daftar Abrevasi'
+      Text = 'Daftar singkatan'
     end
     item
       IndexID = 1181
-      Text = 'Pergerakan Debitur'
+      Text = 'Mutasi debitur'
     end
     item
       IndexID = 1182
-      Text = 'Pergerakan Kreditur'
+      Text = 'Mutasi kreditur'
     end
     item
       IndexID = 1183
-      Text = 'Pergerakan Rekening'
+      Text = 'Pergerakan akun'
     end
     item
       IndexID = 1184
-      Text = 'Kinerja Anggaran'
+      Text = 'Kinerja anggaran'
     end
     item
       IndexID = 1185
-      Text = 'Jumlah Variansi'
+      Text = 'Jumlah varians'
     end
     item
       IndexID = 1186
-      Text = 'Persentasi Variansi'
+      Text = 'Persentase varians'
     end
     item
       IndexID = 1187
-      Text = 'Pendapatan diperoleh'
+      Text = 'Laba ditahan'
     end
     item
       IndexID = 1188
-      Text = 'Pdpt / Pglr'
+      Text = 'Pend/Beban'
     end
     item
       IndexID = 1189
-      Text = 'Daftar Rekening'
+      Text = 'Daftar akun'
     end
     item
       IndexID = 1190
-      Text = 'Barang di Back Order'
+      Text = 'Item pesanan tunda'
     end
     item
       IndexID = 1191
-      Text = 'Back Order tertunda'
+      Text = 'Pesanan tunda'
     end
     item
       IndexID = 1192
@@ -4777,15 +4807,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1193
-      Text = 'Ke Neraca'
+      Text = 'Ke saldo'
     end
     item
       IndexID = 1194
-      Text = 'Detail isian Batch'
+      Text = 'Detail entri jurnal'
     end
     item
       IndexID = 1195
-      Text = 'Inclusive'
+      Text = 'Inklusif'
     end
     item
       IndexID = 1196
@@ -4793,23 +4823,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1197
-      Text = '<@APPNAME@> Pendukung'
+      Text = 'Dukungan <@APPNAME@>'
     end
     item
       IndexID = 1198
-      Text = 'Halaman Dukungan <@APPNAME@>'
+      Text = 'Halaman dukungan <@APPNAME@>'
     end
     item
       IndexID = 1199
-      Text = 'Laporan Detail Tipe Batch'
+      Text = 'Laporan detail tipe jurnal'
     end
     item
       IndexID = 1200
-      Text = 'Jml Excl.'
+      Text = 'Jml ekskl.'
     end
     item
       IndexID = 1201
-      Text = 'Jml Incl'
+      Text = 'Jml inkl.'
     end
     item
       IndexID = 1202
@@ -4817,11 +4847,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1203
-      Text = 'Penyelidik'
+      Text = 'Investigator'
     end
     item
       IndexID = 1204
-      Text = 'Cari sekarang'
+      Text = 'Cari'
     end
     item
       IndexID = 1205
@@ -4833,7 +4863,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1207
-      Text = 'Pilihan Luarbiasa'
+      Text = 'Opsi lanjutan'
     end
     item
       IndexID = 1208
@@ -4841,7 +4871,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1209
-      Text = 'Pencarian Ulang'
+      Text = 'Pertajam pencarian'
     end
     item
       IndexID = 1210
@@ -4850,29 +4880,29 @@ object TTranslationSaveObject
     item
       IndexID = 1211
       Text = 
-        'Ketikkan apa yang anda cari. Jika ingin mengunakan tipe spesifik' +
-        ', manfaatkan tombol ybs atau tekan dibawah sini untuk mencari ul' +
-        'ang'
+        'Ketikkan apa yang anda cari. Jika ingin mencari tipe spesifik, c' +
+        'entang tombol yang sesuai atau klik di bawah sini untuk menyempu' +
+        'rnakan pencarian anda.'
     end
     item
       IndexID = 1212
-      Text = 'Tips Pencarian'
+      Text = 'Tip pencarian'
     end
     item
       IndexID = 1213
-      Text = 'Informasi Rekening'
+      Text = 'Informasi akun'
     end
     item
       IndexID = 1214
-      Text = 'Kapitaliasasi Huruf'
+      Text = 'Peka huruf besar-kecil'
     end
     item
       IndexID = 1215
-      Text = 'Dimana saja di'
+      Text = 'Di mana saja di'
     end
     item
       IndexID = 1216
-      Text = 'Posisi mulai'
+      Text = 'Posisi awal'
     end
     item
       IndexID = 1217
@@ -4880,71 +4910,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1218
-      Text = 'Lagi'
+      Text = 'Lebih banyak'
     end
     item
       IndexID = 1219
-      Text = 'Pilihan Pencarian'
+      Text = 'Opsi pencarian'
     end
     item
       IndexID = 1220
-      Text = 'Nama rekening'
+      Text = 'Nama akun'
     end
     item
       IndexID = 1221
-      Text = 'Segalanya'
+      Text = 'Semuanya'
     end
     item
       IndexID = 1222
-      Text = 'Pilih Debitur'
+      Text = 'Pilih debitur'
     end
     item
       IndexID = 1223
-      Text = 'Penawaran untuk dibuat Tagihan'
+      Text = 'Penawaran untuk dikonversi ke faktur'
     end
     item
       IndexID = 1224
-      Text = 'No Pemesanan'
+      Text = 'No. pesanan'
     end
     item
       IndexID = 1225
-      Text = 'Pemesanan yang dijadikan Pembelian'
+      Text = 'Pesanan untuk dikonversi ke pembelian'
     end
     item
       IndexID = 1226
-      Text = 'Pilih Kreditor'
+      Text = 'Pilih kreditur'
     end
     item
       IndexID = 1227
-      Text = 'Cari dengan nomor'
+      Text = 'Cari per nomor'
     end
     item
       IndexID = 1228
-      Text = 'Cari dengan rekening'
+      Text = 'Cari per akun'
     end
     item
       IndexID = 1229
-      Text = 'Cari dengan deskripsi'
+      Text = 'Cari per deskripsi'
     end
     item
       IndexID = 1230
-      Text = 'Aliran Kas'
+      Text = 'Arus kas'
     end
     item
       IndexID = 1231
-      Text = 'Pembukaan neraca Bank'
+      Text = 'Saldo bank awal'
     end
     item
       IndexID = 1232
-      Text = 'Aliran Kas Bersih'
+      Text = 'Arus kas bersih'
     end
     item
       IndexID = 1233
-      Text = 'Total Neraca Bank'
+      Text = 'Total saldo bank'
     end
     item
       IndexID = 1234
-      Text = 'Pembukaan Neraca Kas kecil'
+      Text = 'Saldo kas kecil awal'
     end
     item
       IndexID = 1235
@@ -4956,7 +4986,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1237
-      Text = 'Aliran Kas kecil bersih'
+      Text = 'Arus kas kecil bersih'
     end
     item
       IndexID = 1238
@@ -4964,7 +4994,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1239
-      Text = 'Total Aliran kas'
+      Text = 'Total arus kas'
     end
     item
       IndexID = 1240
@@ -4972,15 +5002,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1241
-      Text = 'Diterima kas'
+      Text = 'KAS DITERIMA'
     end
     item
       IndexID = 1242
-      Text = 'Dibayarkan kas'
+      Text = 'KAS DIBAYARKAN'
     end
     item
       IndexID = 1243
-      Text = 'Pemeriksaan Kas Point of Sales'
+      Text = 'Pemeriksaan kas Point-of-Sale'
     end
     item
       IndexID = 1244
@@ -4988,11 +5018,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1245
-      Text = 'Quantitas'
+      Text = 'Kuantitas'
     end
     item
       IndexID = 1246
-      Text = 'Kas ditumpuk (dlm laci)'
+      Text = 'Kas dihitung (dalam laci)'
     end
     item
       IndexID = 1247
@@ -5012,7 +5042,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1251
-      Text = 'Daftar Kontak'
+      Text = 'Daftar kontak'
     end
     item
       IndexID = 1252
@@ -5020,87 +5050,87 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1253
-      Text = 'Telepone 2'
+      Text = 'Telepon 2'
     end
     item
       IndexID = 1254
-      Text = 'Alamat Email'
+      Text = 'Alamat email'
     end
     item
       IndexID = 1255
-      Text = 'Memproses'
+      Text = 'Memproses...'
     end
     item
       IndexID = 1256
-      Text = 'Tunggu Sejenak.'
+      Text = 'Harap tunggu...'
     end
     item
       IndexID = 1257
-      Text = 'Angka Nyata'
+      Text = 'Angka riil'
     end
     item
       IndexID = 1258
-      Text = 'Desimal tetap'
+      Text = 'Perbaiki desimal'
     end
     item
       IndexID = 1259
-      Text = 'Kuantitas Dokumen'
+      Text = 'Kuantitas dokumen'
     end
     item
       IndexID = 1260
-      Text = 'Desimal Pelaporan'
+      Text = 'Desimal pelaporan'
     end
     item
       IndexID = 1261
-      Text = 'Penyimpanan Data'
+      Text = 'Penyimpanan data'
     end
     item
       IndexID = 1262
-      Text = 'Laporkan Jumlah dengan'
+      Text = 'Laporkan jumlah dengan'
     end
     item
       IndexID = 1263
-      Text = 'Untuk Kredit'
+      Text = 'untuk kredit'
     end
     item
       IndexID = 1264
-      Text = 'Untuk Debit/Kredit'
+      Text = 'untuk debit/kredit'
     end
     item
       IndexID = 1265
-      Text = 'T-Account Viewer'
+      Text = 'Penampil akun-T'
     end
     item
       IndexID = 1266
-      Text = 'Point- of-Sale'
+      Text = 'Point-of-Sale'
     end
     item
       IndexID = 1267
-      Text = 'Mesin &Script'
+      Text = 'Mesin &skrip'
     end
     item
       IndexID = 1268
-      Text = 'Dokumen Penjualan'
+      Text = 'Dokumen penjualan'
     end
     item
       IndexID = 1269
-      Text = 'Dokumen Pembelian'
+      Text = 'Dokumen pembelian'
     end
     item
       IndexID = 1270
-      Text = 'Tagihan POS'
+      Text = 'Faktur POS'
     end
     item
       IndexID = 1271
-      Text = 'Isikan jumlah untuk dihubungkan'
+      Text = 'Masukkan jumlah untuk ditautkan'
     end
     item
       IndexID = 1272
-      Text = 'Isikan jumlah'
+      Text = 'Masukkan jumlah'
     end
     item
       IndexID = 1273
-      Text = 'Nomor Tanda Terima'
+      Text = 'Nomor tanda terima'
     end
     item
       IndexID = 1274
@@ -5108,7 +5138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1275
-      Text = 'Metoda pembayaran'
+      Text = 'Metode pembayaran'
     end
     item
       IndexID = 1276
@@ -5120,15 +5150,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1278
-      Text = 'Pemilihan Item terbuka'
+      Text = 'Pemilihan item terbuka'
     end
     item
       IndexID = 1279
-      Text = 'Ref. Pembayaran'
+      Text = 'Referensi pembayaran'
     end
     item
       IndexID = 1280
-      Text = 'Tertunda'
+      Text = 'Belum dibayar'
     end
     item
       IndexID = 1281
@@ -5136,7 +5166,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1282
-      Text = 'Jurnal Detail'
+      Text = 'Buku besar detail'
     end
     item
       IndexID = 1283
@@ -5144,7 +5174,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1284
-      Text = 'Jarak pelaporan'
+      Text = 'Rentang laporan'
     end
     item
       IndexID = 1285
@@ -5152,31 +5182,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1286
-      Text = 'Neraca kumulatif'
+      Text = 'Saldo kumulatif'
     end
     item
       IndexID = 1287
-      Text = 'Neraca di'
+      Text = 'Saldo pada'
     end
     item
       IndexID = 1288
-      Text = 'Neraca Pembuka di'
+      Text = 'Saldo awal pada'
     end
     item
       IndexID = 1289
-      Text = 'Neraca Penutup di'
+      Text = 'Saldo penutup pada'
     end
     item
       IndexID = 1290
-      Text = 'Total Akumulatif'
+      Text = 'Total akumulatif'
     end
     item
       IndexID = 1291
-      Text = 'Perbaiki database'
+      Text = 'Membangun ulang database'
     end
     item
       IndexID = 1292
-      Text = 'pilih set buku yang hendak diperbaiki'
+      Text = 'Pilih kumpulan buku untuk dibangun ulang'
     end
     item
       IndexID = 1293
@@ -5184,7 +5214,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1294
-      Text = 'Judul'
+      Text = 'Header'
     end
     item
       IndexID = 1295
@@ -5196,19 +5226,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1297
-      Text = 'Perbaikan'
+      Text = 'Bangun ulang'
     end
     item
       IndexID = 1298
-      Text = 'Semua user harus keluar sebelum proses dijalankan'
+      Text = 'Semua pengguna harus keluar sebelum menjalankan proses ini!'
     end
     item
       IndexID = 1299
-      Text = 'menunggu untuk dijalankan.'
+      Text = 'Menunggu untuk dijalankan...'
     end
     item
       IndexID = 1300
-      Text = 'Membangun ulang kunci..'
+      Text = 'Membangun ulang kunci...'
     end
     item
       IndexID = 1301
@@ -5216,75 +5246,75 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1302
-      Text = 'Nilai Kunci'
+      Text = 'Nilai kunci'
     end
     item
       IndexID = 1303
-      Text = 'Korupsi Kunci'
+      Text = 'Kerusakan kunci'
     end
     item
       IndexID = 1304
-      Text = 'Arsip OK'
+      Text = 'File terperiksa OK'
     end
     item
       IndexID = 1305
-      Text = 'Arsip terkorupsi'
+      Text = 'File rusak'
     end
     item
       IndexID = 1306
-      Text = 'Tgl./Periode Transaksi dibangun ulang'
+      Text = 'Tanggal/periode transaksi dibangun ulang'
     end
     item
       IndexID = 1307
-      Text = 'Tgl./Periode Transaksi gagal. Coba lagi'
+      Text = 'Tanggal/periode transaksi gagal! Coba lagi!'
     end
     item
       IndexID = 1308
-      Text = 'Mengambil catatan message.db'
+      Text = 'Memuat catatan Message.db'
     end
     item
       IndexID = 1309
-      Text = 'Memampatkan message.db'
+      Text = 'Mengompres Message.db...'
     end
     item
       IndexID = 1310
-      Text = 'Kesalahan pengisian struktul tabel'
+      Text = 'Kesalahan: Mengisi struktur tabel!'
     end
     item
       IndexID = 1311
-      Text = 'Perbaikan.'
+      Text = 'Membangun ulang...'
     end
     item
       IndexID = 1312
-      Text = 'Ambil Nilai Tgl. Laporan'
+      Text = 'Ambil nilai tanggal laporan'
     end
     item
       IndexID = 1313
-      Text = 'Nota Pengantaran'
+      Text = 'Surat jalan'
     end
     item
       IndexID = 1314
-      Text = 'Edit Pilihan Tanda terima'
+      Text = 'Opsi tanda terima'
     end
     item
       IndexID = 1315
-      Text = 'Cetakan'
+      Text = 'Hasil cetakan'
     end
     item
       IndexID = 1316
-      Text = 'Daftar rekening debitur'
+      Text = 'Daftar akun debitur'
     end
     item
       IndexID = 1317
-      Text = 'Daftar rekening kreditur'
+      Text = 'Daftar akun kreditur'
     end
     item
       IndexID = 1318
-      Text = 'blm dialokasikan'
+      Text = 'Belum dialokasikan'
     end
     item
       IndexID = 1319
-      Text = 'Telepone'
+      Text = 'Telepon'
     end
     item
       IndexID = 1320
@@ -5292,7 +5322,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1321
-      Text = 'Neraca B/F'
+      Text = 'Saldo B/F'
     end
     item
       IndexID = 1322
@@ -5300,19 +5330,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1323
-      Text = 'Grup Laporan 1'
+      Text = 'Grup laporan 1'
     end
     item
       IndexID = 1324
-      Text = 'Tipe Masa'
+      Text = 'Tipe umur'
     end
     item
       IndexID = 1325
-      Text = 'Group Laporan 2'
+      Text = 'Grup laporan 2'
     end
     item
       IndexID = 1326
-      Text = 'Penjual'
+      Text = 'Tenaga penjual'
     end
     item
       IndexID = 1327
@@ -5320,27 +5350,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1328
-      Text = 'Bunga Bulanan'
+      Text = 'Bunga bulanan'
     end
     item
       IndexID = 1329
-      Text = 'Tipe Laporan'
+      Text = 'Tipe laporan'
     end
     item
       IndexID = 1330
-      Text = 'Batas'
+      Text = 'Margin'
     end
     item
       IndexID = 1331
-      Text = 'Ukuran Kertas'
+      Text = 'Ukuran kertas'
     end
     item
       IndexID = 1332
-      Text = 'Kualitas Kertas'
+      Text = 'Kualitas kertas'
     end
     item
       IndexID = 1333
-      Text = 'Lain Lain'
+      Text = 'Lainnya'
     end
     item
       IndexID = 1334
@@ -5356,7 +5386,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1337
-      Text = 'Dasar'
+      Text = 'Bawah'
     end
     item
       IndexID = 1338
@@ -5372,11 +5402,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1341
-      Text = 'Default'
+      Text = 'Standar'
     end
     item
       IndexID = 1342
-      Text = 'Kostumasi'
+      Text = 'Kustom'
     end
     item
       IndexID = 1343
@@ -5384,11 +5414,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1344
-      Text = 'Rancangan'
+      Text = 'Draf'
     end
     item
       IndexID = 1345
-      Text = 'Letter'
+      Text = 'Surat'
     end
     item
       IndexID = 1346
@@ -5396,7 +5426,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1347
-      Text = 'Pilih Pelanggan'
+      Text = 'Pilih pelanggan'
     end
     item
       IndexID = 1348
@@ -5404,47 +5434,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1349
-      Text = 'Still to pay'
+      Text = 'Masih harus dibayar'
     end
     item
       IndexID = 1350
-      Text = 'Dikenakan ke rekening'
+      Text = 'Bebankan ke akun'
     end
     item
       IndexID = 1351
-      Text = 'Kode Rekening Bank'
+      Text = 'Kode akun bank'
     end
     item
       IndexID = 1352
-      Text = 'Nomor Cek'
+      Text = 'Nomor cek'
     end
     item
       IndexID = 1353
-      Text = 'Nomor Kartu'
+      Text = 'Nomor kartu'
     end
     item
       IndexID = 1354
-      Text = 'Nama Pemegang'
+      Text = 'Nama pemegang'
     end
     item
       IndexID = 1355
-      Text = 'Tipe Kartu'
+      Text = 'Tipe kartu'
     end
     item
       IndexID = 1356
-      Text = 'Tgl. Habis'
+      Text = 'Tanggal kedaluwarsa'
     end
     item
       IndexID = 1357
-      Text = 'Analisa Penjualan POS'
+      Text = 'Analisis penjualan POS'
     end
     item
       IndexID = 1358
-      Text = 'Deskripsi Barang'
+      Text = 'Deskripsi item'
     end
     item
       IndexID = 1359
-      Text = 'Jumlah Penjualan'
+      Text = 'Jumlah penjualan'
     end
     item
       IndexID = 1360
@@ -5452,27 +5482,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1361
-      Text = 'Neraca'
+      Text = 'Saldo'
     end
     item
       IndexID = 1362
-      Text = 'Edit Harga'
+      Text = 'Ubah harga'
     end
     item
       IndexID = 1363
-      Text = 'Gunakan Pelacakan Nomor Serial'
+      Text = 'Gunakan pelacakan nomor seri'
     end
     item
       IndexID = 1364
-      Text = 'Metoda pembayaran default'
+      Text = 'Metode pembayaran standar'
     end
     item
       IndexID = 1365
-      Text = 'Batas Ambang'
+      Text = 'Batas float'
     end
     item
       IndexID = 1366
-      Text = 'Kas Mengambang diijinkan'
+      Text = 'Izinkan float kas'
     end
     item
       IndexID = 1367
@@ -5480,23 +5510,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1368
-      Text = 'Setting'
+      Text = 'Pengaturan'
     end
     item
       IndexID = 1369
-      Text = 'Isian'
+      Text = 'Entri'
     end
     item
       IndexID = 1370
-      Text = 'Peralatan'
+      Text = 'Periferal'
     end
     item
       IndexID = 1371
-      Text = 'Layar Isian'
+      Text = 'Layar entri'
     end
     item
       IndexID = 1372
-      Text = 'Buku Besar'
+      Text = 'Buku besar'
     end
     item
       IndexID = 1373
@@ -5512,35 +5542,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1376
-      Text = 'Isian Batch Penjualan'
+      Text = 'Entri jurnal penjualan'
     end
     item
       IndexID = 1377
-      Text = 'Isian Batch Penerimaan'
+      Text = 'Entri jurnal penerimaan'
     end
     item
       IndexID = 1378
-      Text = 'Isian Deskripsi Pembayaran'
+      Text = 'Entri deskripsi pembayaran'
     end
     item
       IndexID = 1379
-      Text = 'Rekening Kas Penjualan'
+      Text = 'Akun penjualan tunai'
     end
     item
       IndexID = 1380
-      Text = 'Rekening Kas Transfer'
+      Text = 'Akun transfer kas'
     end
     item
       IndexID = 1381
-      Text = 'Till Account'
+      Text = 'Akun laci kas'
     end
     item
       IndexID = 1382
-      Text = 'Max Cash in Till'
+      Text = 'Kas maks di laci'
     end
     item
       IndexID = 1383
-      Text = 'Nomor Berikut'
+      Text = 'Nomor berikutnya'
     end
     item
       IndexID = 1384
@@ -5548,19 +5578,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1385
-      Text = 'Mesin Kasir terhubungkan'
+      Text = 'Laci terhubung'
     end
     item
       IndexID = 1386
-      Text = 'Barcode Scanner terhubungkan'
+      Text = 'Pemindai barcode terhubung'
     end
     item
       IndexID = 1387
-      Text = '&Tes Mesing Kasir'
+      Text = '&Tes laci'
     end
     item
       IndexID = 1388
-      Text = 'Parameter Port Serial'
+      Text = 'Parameter port serial'
     end
     item
       IndexID = 1389
@@ -5568,27 +5598,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1390
-      Text = 'Buka Mesin Kasir untuk'
+      Text = 'Buka laci kas untuk'
     end
     item
       IndexID = 1391
-      Text = 'Port Pararel'
+      Text = 'Port paralel'
     end
     item
       IndexID = 1392
-      Text = 'Port Serial'
+      Text = 'Port serial'
     end
     item
       IndexID = 1393
-      Text = 'Rating Transfer Serial Port'
+      Text = 'Baud rate'
     end
     item
       IndexID = 1394
-      Text = 'Bit Data'
+      Text = 'Bit data'
     end
     item
       IndexID = 1395
-      Text = 'Bit Stop'
+      Text = 'Bit stop'
     end
     item
       IndexID = 1396
@@ -5596,35 +5626,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1397
-      Text = 'Nomor Port'
+      Text = 'Nomor port'
     end
     item
       IndexID = 1398
-      Text = 'Konfirmasi Pencetakan'
+      Text = 'Konfirmasi pencetakan'
     end
     item
       IndexID = 1399
-      Text = 'Gunakan Printer Pertama'
+      Text = 'Gunakan pencetak pertama'
     end
     item
       IndexID = 1400
-      Text = 'Gunakan Printer kedua'
+      Text = 'Gunakan pencetak kedua'
     end
     item
       IndexID = 1401
-      Text = 'Printer kedua'
+      Text = 'Pencetak kedua'
     end
     item
       IndexID = 1402
-      Text = 'Printer pertama'
+      Text = 'Pencetak pertama'
     end
     item
       IndexID = 1403
-      Text = 'Uji Prin&ter'
+      Text = '&Uji pencetak'
     end
     item
       IndexID = 1404
-      Text = 'Kode kontrol Printer'
+      Text = 'Kode kontrol pencetak'
     end
     item
       IndexID = 1405
@@ -5632,69 +5662,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1406
-      Text = 'Masukkan Kata Sandi Anda'
+      Text = 'Masukkan kata sandi Anda'
     end
     item
       IndexID = 1407
-      Text = 'Setup Kertas Printer Dotmatrix'
+      Text = 'Persiapan kertas pencetak dot-matrix'
     end
     item
       IndexID = 1408
-      Text = 'Parameter Data'
+      Text = 'Parameter sistem'
     end
     item
       IndexID = 1409
-      Text = 'Setup POS'
+      Text = 'Persiapan POS'
     end
     item
       IndexID = 1410
-      Text = 'G&unakan pesan Tagihan'
+      Text = '&Gunakan pesan faktur'
     end
     item
       IndexID = 1411
-      Text = 'Printer'
+      Text = 'Pencetak'
     end
     item
       IndexID = 1412
-      Text = 'Gangguan saat mengimpor atau format arsip tidak valid'
+      Text = 'Kesalahan saat mengimpor atau format file tidak valid!'
     end
     item
       IndexID = 1413
-      Text = 'Batch ini tidak bisa digunakan oleh user'
+      Text = 'Pengguna tidak dapat menggunakan jurnal ini!'
     end
     item
       IndexID = 1414
-      Text = 
-        'Untuk mengaktifkan penggunaan akses :Setup->Parameter Sistem->Ko' +
-        'ntrol Akses'
+      Text = 'Aktifkan akses di '#39'Persiapan '#8594' Kontrol akses'#39
     end
     item
       IndexID = 1700
-      Text = 'Analisa Masa Kreditor'
+      Text = 'Analisis umur kreditur'
     end
     item
       IndexID = 1701
-      Text = 'Nomor Referensi'
+      Text = 'No. referensi'
     end
     item
       IndexID = 1702
-      Text = 'Total Transaksi'
+      Text = 'Total transaksi'
     end
     item
       IndexID = 1703
-      Text = 'Total untuk laporan :'
+      Text = 'Total untuk laporan:'
     end
     item
       IndexID = 1704
-      Text = 'Analisa Masa Debitur pada'
+      Text = 'Analisis umur debitur per tanggal'
     end
     item
       IndexID = 1706
-      Text = 'No'
+      Text = 'No.'
     end
     item
       IndexID = 1707
-      Text = 'Kode Stok'
+      Text = 'Kode stok'
     end
     item
       IndexID = 1708
@@ -5706,11 +5734,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1710
-      Text = 'Kuantitas'
+      Text = 'Jml'
     end
     item
       IndexID = 1711
-      Text = 'Potongan'
+      Text = 'Diskon'
     end
     item
       IndexID = 1712
@@ -5718,19 +5746,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1713
-      Text = 'Pergerakan Ambang'
+      Text = 'Pergerakan kas kecil'
     end
     item
       IndexID = 1714
-      Text = 'Isian Tagihan POS'
+      Text = 'Entri faktur titik penjualan'
     end
     item
       IndexID = 1715
-      Text = 'Diluar dari &Mesin Kasir'
+      Text = '&Keluar dari laci kas'
     end
     item
       IndexID = 1716
-      Text = 'Masuk ke Mes&in Kasir'
+      Text = '&Masuk ke laci kas'
     end
     item
       IndexID = 1717
@@ -5738,7 +5766,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1718
-      Text = 'Penjual'
+      Text = 'Tenaga penjual:'
     end
     item
       IndexID = 1719
@@ -5746,31 +5774,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1720
-      Text = 'Rekening Pelanggan Default belum disiapkan, mohon siapkan'
+      Text = 'Akun pelanggan standar belum disiapkan! Harap siapkan!'
     end
     item
       IndexID = 1721
-      Text = 'Tagihan baru'
+      Text = 'Faktur baru'
     end
     item
       IndexID = 1722
-      Text = 'Inv. %s (Kartu kredit)'
+      Text = 'Fak. %s (Kartu kredit)'
     end
     item
       IndexID = 1723
-      Text = 'Inv. %s (Rekening)'
+      Text = 'Fak. %s (Akun)'
     end
     item
       IndexID = 1724
-      Text = 'Inv. %s (Voucher)'
+      Text = 'Fak. %s (Voucher)'
     end
     item
       IndexID = 1725
-      Text = 'Inv. %s (Cek)'
+      Text = 'Fak. %s (Cek)'
     end
     item
       IndexID = 1726
-      Text = 'Inv. %s (Tunai)'
+      Text = 'Fak. %s (Tunai)'
     end
     item
       IndexID = 1727
@@ -5778,7 +5806,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1728
-      Text = '(Rekening)'
+      Text = '(Akun)'
     end
     item
       IndexID = 1729
@@ -5798,33 +5826,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1733
-      Text = 'Nama Pemegang:'
+      Text = 'Nama pemegang:'
     end
     item
       IndexID = 1734
-      Text = 'Tipe Kartu:'
+      Text = 'Tipe kartu:'
     end
     item
       IndexID = 1735
-      Text = 'Tgl. Habis:'
+      Text = 'Tgl. kedaluwarsa:'
     end
     item
       IndexID = 1736
-      Text = 'Tutup dan batalkan Tagihan ini sekarang?'
+      Text = 'Apakah anda ingin menutup dan membatalkan faktur ini sekarang?'
     end
     item
       IndexID = 1737
-      Text = 'Tidak bisa berjalan tanpa default'
+      Text = 'Tidak dapat berjalan tanpa standar!'
     end
     item
       IndexID = 1738
       Text = 
-        'Layar isian tagihan akan ditupup dan semua tagihan POS akan dipo' +
-        'stin untuk .'
+        'Ini akan menutup layar entri faktur dan memposting semua faktur ' +
+        'POS untuk...'
     end
     item
       IndexID = 1739
-      Text = 'Kembalian'
+      Text = 'Kembalian untuk diberikan.'
     end
     item
       IndexID = 1740
@@ -5832,27 +5860,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1741
-      Text = 'Tutup Shift dan Posting semua Tagihan'
+      Text = 'Menutup shift dan memposting semua faktur'
     end
     item
       IndexID = 1742
-      Text = 'Posting Dokumen'
+      Text = 'Memposting dokumen...'
     end
     item
       IndexID = 1743
-      Text = 'Till Splip PRINTER TEST'
+      Text = 'UJI PENCETAK struk kasir'
     end
     item
       IndexID = 1744
-      Text = 'Rata Kiri'
+      Text = 'Rata kiri'
     end
     item
       IndexID = 1745
-      Text = 'Rata Tengah'
+      Text = 'Rata tengah'
     end
     item
       IndexID = 1746
-      Text = 'Rata Kanan'
+      Text = 'Rata kanan'
     end
     item
       IndexID = 1747
@@ -5860,51 +5888,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1748
-      Text = 'Sampai 3 baris kosong ?'
+      Text = 'Naik 3 baris kosong?'
     end
     item
       IndexID = 1749
-      Text = '<@APPNAME@> Till Test'
+      Text = '<@APPNAME@> uji kasir'
     end
     item
       IndexID = 1750
-      Text = '&Kas Siap'
+      Text = '&Kas opname'
     end
     item
       IndexID = 1751
-      Text = 'Cetak ulang Tagihan Terakhi&r'
+      Text = '&Cetak ulang faktur terakhir'
     end
     item
       IndexID = 1752
-      Text = 'Tutup semua s&hift'
+      Text = 'Tu&tup shift'
     end
     item
       IndexID = 1753
-      Text = 'Mode Incl/Excl'
+      Text = 'Mode masuk/keluar pajak'
     end
     item
       IndexID = 1754
-      Text = 'Lapo&ran'
+      Text = '&Laporan'
     end
     item
       IndexID = 1755
-      Text = 'Buka &mesin kasir'
+      Text = '&Buka laci'
     end
     item
       IndexID = 1756
-      Text = 'Ganti alias'
+      Text = 'Ganti alias (nama jurnal)'
     end
     item
       IndexID = 1757
-      Text = 'Balikkan Batch'
+      Text = 'Balikkan jurnal (D<-->K)'
     end
     item
       IndexID = 1758
-      Text = 'Impor Batch yang telah terposting'
+      Text = 'Impor jurnal yang telah diposting'
     end
     item
       IndexID = 1759
-      Text = 'Point-of-Sales'
+      Text = 'Titik penjualan'
     end
     item
       IndexID = 1760
@@ -5912,7 +5940,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1761
-      Text = 'Pendesain Lapo&ran'
+      Text = 'Pendesain lapo&ran'
     end
     item
       IndexID = 1762
@@ -5924,15 +5952,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1764
-      Text = 'Barang Baru'
+      Text = 'Barang baru'
     end
     item
       IndexID = 1765
-      Text = 'Hapus Barang'
+      Text = 'Hapus barang'
     end
     item
       IndexID = 1766
-      Text = 'Tingk&at Lanjut'
+      Text = 'Tingk&at lanjut'
     end
     item
       IndexID = 1767
@@ -5940,11 +5968,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1768
-      Text = 'Rata rata && Harga Akhir'
+      Text = '&Rata-rata biaya terakhir'
     end
     item
       IndexID = 1769
-      Text = 'Qty && Rata2 Harga'
+      Text = 'Kuant biaya r&ata-rata'
     end
     item
       IndexID = 1770
@@ -5952,11 +5980,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1771
-      Text = 'Pengambilan Stok'
+      Text = 'Saldo awal stok'
     end
     item
       IndexID = 1772
-      Text = 'Kode Stok'
+      Text = 'Kode stok'
     end
     item
       IndexID = 1773
@@ -5964,11 +5992,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1774
-      Text = 'Barkode'
+      Text = 'Barcode'
     end
     item
       IndexID = 1775
-      Text = 'Unit'
+      Text = 'Satuan'
     end
     item
       IndexID = 1776
@@ -5980,23 +6008,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1778
-      Text = 'ReOrder'
+      Text = 'Pesan ulang'
     end
     item
       IndexID = 1779
-      Text = 'Qty && Harga Terakhir'
+      Text = 'Kuant biaya &terakhir'
     end
     item
       IndexID = 1780
-      Text = 'Harga Jual 1'
+      Text = 'Harga jual 1'
     end
     item
       IndexID = 1781
-      Text = 'Harga Jual 2'
+      Text = 'Harga jual 2'
     end
     item
       IndexID = 1782
-      Text = 'Harga Jual 3'
+      Text = 'Harga jual 3'
     end
     item
       IndexID = 1783
@@ -6004,31 +6032,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1784
-      Text = 'Biaya rata-rata'
+      Text = 'Rata-rata biaya'
     end
     item
       IndexID = 1785
-      Text = 'biaya unit'
+      Text = 'Biaya satuan'
     end
     item
       IndexID = 1786
-      Text = 'Potongan'
+      Text = 'Diskon'
     end
     item
       IndexID = 1787
-      Text = 'Isian'
+      Text = 'Masukan'
     end
     item
       IndexID = 1788
-      Text = 'keluaran'
+      Text = 'Keluaran'
     end
     item
       IndexID = 1789
-      Text = 'Rekening Pajak'
+      Text = 'Akun PPN'
     end
     item
       IndexID = 1790
-      Text = 'Rekening Buku besar umum'
+      Text = 'Akun buku besar umum'
     end
     item
       IndexID = 1791
@@ -6036,7 +6064,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1792
-      Text = 'Penjual'
+      Text = 'Penjualan'
     end
     item
       IndexID = 1793
@@ -6044,27 +6072,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1794
-      Text = 'Grup Laporan'
+      Text = 'Grup pelaporan'
     end
     item
       IndexID = 1795
-      Text = 'Grup Laporan2'
+      Text = 'Grup pelaporan 2'
     end
     item
       IndexID = 1796
-      Text = 'Grup Laporan'
+      Text = 'Grup pelaporan'
     end
     item
       IndexID = 1797
-      Text = 'Gunakan Arsip Spreadsheet'
+      Text = 'Gunakan file lembar sebar'
     end
     item
       IndexID = 1798
-      Text = 'Buat Transaksi'
+      Text = 'Buat transaksi'
     end
     item
       IndexID = 1799
-      Text = 'Gunakan Persentase'
+      Text = 'Gunakan persentase'
     end
     item
       IndexID = 1800
@@ -6076,17 +6104,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1802
-      Text = 'Tgl.'
+      Text = 'Tanggal'
     end
     item
       IndexID = 1803
       Text = 
-        'Mengubah kode Stok akan membuat kode ini digunakan di semua lapo' +
-        'ran'
+        'Mengubah kode stok akan mengakibatkan semua laporan menggunakan ' +
+        'kode ini!'
     end
     item
       IndexID = 1804
-      Text = 'Ubah kodenya?'
+      Text = 'Apakah anda yakin ingin mengubah kode tersebut?'
     end
     item
       IndexID = 1805
@@ -6094,55 +6122,57 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1806
-      Text = 'Membuat set Buku .'
+      Text = 'Membuat kumpulan buku...'
     end
     item
       IndexID = 1807
-      Text = 'Membuat rekening yang diperlukan.'
+      Text = 'Membuat akun yang diperlukan...'
     end
     item
       IndexID = 1808
-      Text = 'Membuat rekening yang diperlukan(Kontrol Kreditur).'
+      Text = 'Membuat akun yang diperlukan (kontrol kreditur)...'
     end
     item
       IndexID = 1809
-      Text = 'Kontrol Kreditur'
+      Text = 'Kontrol kreditur'
     end
     item
       IndexID = 1810
-      Text = 'Membuat rekening yang diperlukan(Kontrol Debitur).'
+      Text = 'Membuat akun yang diperlukan (kontrol debitur)...'
     end
     item
       IndexID = 1811
-      Text = 'Kontrol Debitur'
+      Text = 'Kontrol debitur'
     end
     item
       IndexID = 1812
-      Text = 'Membuat rekening yang diperlukan(Penghasilan).'
+      Text = 'Membuat akun yang diperlukan (laba ditahan)...'
     end
     item
       IndexID = 1813
-      Text = 'Penghasilan Diperoleh'
+      Text = 'Laba ditahan'
     end
     item
       IndexID = 1814
-      Text = 'Selesai!!'
+      Text = 'Selesai!'
     end
     item
       IndexID = 1815
-      Text = 'Menyiapkan rekening kontrol, setting perusahaan dan parameter'
+      Text = 
+        'Mengatur nomor akun kontrol dan pengaturan perusahaan serta para' +
+        'meter'
     end
     item
       IndexID = 1816
-      Text = 'Masukkan nama set buku yang baru'
+      Text = 'Masukkan nama kumpulan buku baru'
     end
     item
       IndexID = 1817
-      Text = 'Set buku untuk disalin :'
+      Text = 'Kumpulan buku untuk disalin:'
     end
     item
       IndexID = 1818
-      Text = 'Set buku lama untuk dikonversi :'
+      Text = 'Kumpulan buku lama untuk dikonversi:'
     end
     item
       IndexID = 1820
@@ -6150,77 +6180,75 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1821
-      Text = 'Membuat Paket Rekening...'
+      Text = 'Membuat set akun...'
     end
     item
       IndexID = 1822
-      Text = 
-        'Spesifikasikan nomor perioda rekening pada tahun finansial anda ' +
-        'dan set Tgl. mulai tahun finansial anda?'
+      Text = 'Persiapan periode akuntansi'
     end
     item
       IndexID = 1823
-      Text = 'Ubah tipe Batchnya?'
+      Text = 'Persiapan tipe jurnal'
     end
     item
       IndexID = 1824
-      Text = 'Ubah grup anda'
+      Text = 'Persiapan grup'
     end
     item
       IndexID = 1825
-      Text = 'Anda menjual barang?'
+      Text = 'Persiapan dokumen'
     end
     item
       IndexID = 1826
-      Text = 'Tambahkan Penjual'
+      Text = 'Tambah tenaga penjual'
     end
     item
       IndexID = 1827
-      Text = 'Set Buku untuk disalin :'
+      Text = 'Kumpulan buku disalin!'
     end
     item
       IndexID = 1828
-      Text = 'Nama :'
+      Text = 'Nama:'
     end
     item
       IndexID = 1829
-      Text = 'Lokasi :'
+      Text = 'Lokasi:'
     end
     item
       IndexID = 1831
-      Text = 'Konversi Set Buku...'
+      Text = 'Mengonversi kumpulan buku...'
     end
     item
       IndexID = 1832
-      Text = 'No Barang'
+      Text = 'No. barang'
     end
     item
       IndexID = 1833
-      Text = 'Grup Rekening'
+      Text = 'Grup akun'
     end
     item
       IndexID = 1834
-      Text = 'Grup Debitor'
+      Text = 'Grup debitur'
     end
     item
       IndexID = 1835
-      Text = 'Grup Kreditor'
+      Text = 'Grup kreditur'
     end
     item
       IndexID = 1836
-      Text = 'Grup Stok'
+      Text = 'Stok'
     end
     item
       IndexID = 1837
-      Text = 'Grup Dokumen'
+      Text = 'Grup dokumen'
     end
     item
       IndexID = 1838
-      Text = 'Grup1'
+      Text = 'Grup 1'
     end
     item
       IndexID = 1839
-      Text = 'Grup2'
+      Text = 'Grup 2'
     end
     item
       IndexID = 1840
@@ -6244,7 +6272,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1845
-      Text = 'Nama :'
+      Text = 'Nama grup pelaporan:'
     end
     item
       IndexID = 1846
@@ -6252,39 +6280,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1847
-      Text = 'Laporan Grup Cabang Utama'
+      Text = 'Akar grup pelaporan'
     end
     item
       IndexID = 1848
-      Text = 'Subnode dibawahnya harus dihapus dahulu!'
+      Text = 'Ada subnode, hapus subnode terlebih dahulu!'
     end
     item
       IndexID = 1849
-      Text = 'Membersihkan Totals.'
+      Text = 'Membersihkan total...'
     end
     item
       IndexID = 1850
-      Text = 'Membersihkan Transaksi.'
+      Text = 'Membersihkan transaksi...'
     end
     item
       IndexID = 1851
-      Text = 'Membersihkan Transaksi Barang.'
+      Text = 'Membersihkan transaksi stok...'
     end
     item
       IndexID = 1852
-      Text = 'Membersihkan Informasi Barang.'
+      Text = 'Membersihkan informasi stok...'
     end
     item
       IndexID = 1853
-      Text = 'Membersihkan Transaksi Dokumen.'
+      Text = 'Membersihkan transaksi dokumen...'
     end
     item
       IndexID = 1854
-      Text = 'Membersihkan Informasi Batch.'
+      Text = 'Membersihkan informasi jurnal...'
     end
     item
       IndexID = 1855
-      Text = 'Grup Baru'
+      Text = 'Grup baru'
     end
     item
       IndexID = 1856
@@ -6308,35 +6336,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1861
-      Text = 'Pemesanan'
+      Text = 'Pesanan'
     end
     item
       IndexID = 1862
-      Text = 'Diantarkan'
+      Text = 'Kirim'
     end
     item
       IndexID = 1863
-      Text = 'Pajak'
+      Text = 'PPN'
     end
     item
       IndexID = 1864
-      Text = 'Diluar jml'
+      Text = 'Jml. tidak termasuk'
     end
     item
       IndexID = 1865
-      Text = '% Ptg'
+      Text = '% diskon'
     end
     item
       IndexID = 1866
-      Text = 'Termasuk Jml'
+      Text = 'Jml. termasuk'
     end
     item
       IndexID = 1867
-      Text = 'Nama Batch'
+      Text = 'Nama jurnal'
     end
     item
       IndexID = 1868
-      Text = 'Rekening kontra'
+      Text = 'Akun kontra'
     end
     item
       IndexID = 1869
@@ -6348,31 +6376,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1871
-      Text = 'Pemesanan'
+      Text = 'Pesanan'
     end
     item
       IndexID = 1872
-      Text = 'T&ambah Pil.'
+      Text = '&Tambah yang dipilih'
     end
     item
       IndexID = 1873
-      Text = 'Buan&g'
+      Text = '&Hapus'
     end
     item
       IndexID = 1874
-      Text = 'konfirmasi penawaran dan pemesanan'
+      Text = 'Konfirmasi penawaran dan pesanan'
     end
     item
       IndexID = 1875
-      Text = 'Tgl.'
+      Text = 'Tanggal'
     end
     item
       IndexID = 1876
-      Text = 'Rekening'
+      Text = 'Akun'
     end
     item
       IndexID = 1877
-      Text = 'Konfirmasi'
+      Text = 'Dikonfirmasi'
     end
     item
       IndexID = 1878
@@ -6380,7 +6408,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1879
-      Text = 'Pilih Tgl.'
+      Text = 'Pilih tanggal'
     end
     item
       IndexID = 1880
@@ -6388,7 +6416,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1881
-      Text = 'Hubungan'
+      Text = 'Tautan'
     end
     item
       IndexID = 1882
@@ -6404,15 +6432,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1885
-      Text = 'Jatuh Tempo'
+      Text = 'Jatuh tempo'
     end
     item
       IndexID = 1886
-      Text = 'Sejarah Tagihan'
+      Text = 'Riwayat faktur'
     end
     item
       IndexID = 1887
-      Text = 'Tagihan berulang'
+      Text = 'Faktur berulang'
     end
     item
       IndexID = 1888
@@ -6420,7 +6448,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1889
-      Text = 'Cari bds Nomor Tagihan'
+      Text = 'Cari per nomor faktur'
     end
     item
       IndexID = 1890
@@ -6432,27 +6460,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1892
-      Text = 'Gunakan pada pilihan'
+      Text = 'Terapkan pada pilihan'
     end
     item
       IndexID = 1893
-      Text = 'Gunakan pada semua'
+      Text = 'Terapkan pada semua'
     end
     item
       IndexID = 1894
-      Text = 'Gantikan pesan dengan'
+      Text = 'Ganti pesan dengan'
     end
     item
       IndexID = 1895
-      Text = 'Set Tagihan baru selalu berulang'
+      Text = 'Atur faktur baru sebagai berulang'
     end
     item
       IndexID = 1896
-      Text = 'Tambah Baris Komentar'
+      Text = 'Tambah baris komentar ini'
     end
     item
       IndexID = 1897
-      Text = 'Kontrol Akses'
+      Text = 'Kontrol akses'
     end
     item
       IndexID = 1898
@@ -6460,43 +6488,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1899
-      Text = 'Nama Pengguna'
+      Text = 'Nama pengguna'
     end
     item
       IndexID = 1900
-      Text = 'E-mail Pengguna'
+      Text = 'Email pengguna'
     end
     item
       IndexID = 1901
-      Text = 'Akses Laporan'
+      Text = 'Akses laporan'
     end
     item
       IndexID = 1902
-      Text = 'Laporan Buku Besar'
+      Text = 'Laporan buku besar'
     end
     item
       IndexID = 1903
-      Text = 'Akses Batch'
+      Text = 'Akses jurnal'
     end
     item
       IndexID = 1904
-      Text = 'Pilih Rekening untuk di blok'
+      Text = 'Pilih akun untuk diblokir'
     end
     item
       IndexID = 1905
-      Text = 'Lain-lain'
+      Text = 'Lainnya'
     end
     item
       IndexID = 1906
-      Text = 'Ubah Rekening'
+      Text = 'Ubah akun'
     end
     item
       IndexID = 1907
-      Text = 'Ubah Stok'
+      Text = 'Ubah stok'
     end
     item
       IndexID = 1908
-      Text = 'Ubah Laporan Pengguna'
+      Text = 'Ubah laporan pengguna'
     end
     item
       IndexID = 1909
@@ -6504,51 +6532,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1910
-      Text = 'Gambaran arsip'
+      Text = 'Berkas tata letak'
     end
     item
       IndexID = 1911
-      Text = 'Setu&p Hlmn.'
+      Text = '&Pengaturan halaman'
     end
     item
       IndexID = 1912
-      Text = 'Kategori finansial'
+      Text = 'Kategori keuangan'
     end
     item
       IndexID = 1913
-      Text = 'Pilih kategori dan alokasikan grupnya'
+      Text = 'Pilih kategori dan alokasikan grup yang sesuai'
     end
     item
       IndexID = 1914
-      Text = '&Modal'
+      Text = 'Modal'
     end
     item
       IndexID = 1915
-      Text = 'P&engeluaran'
+      Text = 'Pengeluaran'
     end
     item
       IndexID = 1916
-      Text = '&Pendapatan'
+      Text = 'Pendapatan'
     end
     item
       IndexID = 1917
-      Text = 'Ke&wajiban'
+      Text = 'Kewajiban'
     end
     item
       IndexID = 1918
-      Text = 'Cetak Modal sebelum Kewajiban'
+      Text = 'Cetak modal sebelum kewajiban'
     end
     item
       IndexID = 1919
-      Text = 'Cetak Kewajiban sebelum Modal'
+      Text = 'Cetak kewajiban sebelum modal'
     end
     item
       IndexID = 1920
-      Text = 'Cetak Pendapatan sebelum Pengeluaran'
+      Text = 'Cetak pendapatan sebelum pengeluaran'
     end
     item
       IndexID = 1921
-      Text = 'Cetak Pengeluaran sebelum Pendapatan'
+      Text = 'Cetak pengeluaran sebelum pendapatan'
     end
     item
       IndexID = 1922
@@ -6556,7 +6584,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Transfer'
+      Text = 'Mentransfer...'
     end
     item
       IndexID = 1924
@@ -6564,19 +6592,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1925
-      Text = 'Pajak'
+      Text = 'PPN'
     end
     item
       IndexID = 1926
-      Text = 'Batch Rekening Bank Belum Diset dengan Benar'
+      Text = 'Jurnal akun bank tidak disiapkan dengan benar!'
     end
     item
       IndexID = 1927
-      Text = 'Pembayaran -'
+      Text = 'Pembayaran'
     end
     item
       IndexID = 1928
-      Text = 'Tidak dapat posting transaksi ke rekening dalam sub-rekening'
+      Text = 'Tidak dapat memposting transaksi ke akun yang memiliki sub-akun!'
     end
     item
       IndexID = 1929
@@ -6588,91 +6616,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1931
-      Text = 'Cetak Tanda Terima'
+      Text = 'Cetak tanda terima'
     end
     item
       IndexID = 1932
-      Text = 'ke'
+      Text = 'Ke'
     end
     item
       IndexID = 1933
-      Text = 'Dari Rekening'
+      Text = 'Dari akun'
     end
     item
       IndexID = 1934
-      Text = 'ke Rekening'
+      Text = 'Ke akun'
     end
     item
       IndexID = 1935
-      Text = 'Tipe Rekening'
+      Text = 'Tipe akun'
     end
     item
       IndexID = 1936
-      Text = 'set abreviasi'
+      Text = 'Atur singkatan'
     end
     item
       IndexID = 1937
-      Text = 'Tekan tombol yang diinginkan untuk abbreviasi'
+      Text = 'Tekan tombol yang ingin anda tetapkan sebagai singkatan'
     end
     item
       IndexID = 1938
-      Text = 'Cetak Da&ftar'
+      Text = '&Cetak daftar'
     end
     item
       IndexID = 1939
-      Text = 'Ketikkan Abbreviasinya'
+      Text = 'Ketikkan singkatannya:'
     end
     item
       IndexID = 1940
-      Text = 'Setup Internet'
+      Text = 'Persiapan internet'
     end
     item
       IndexID = 1941
-      Text = 'Email'
+      Text = 'Akun email:'
     end
     item
       IndexID = 1942
-      Text = 'Nama Server'
+      Text = 'Nama server'
     end
     item
       IndexID = 1943
-      Text = 'Identitas User'
+      Text = 'ID pengguna'
     end
     item
       IndexID = 1944
-      Text = 'Server Jaringan ( Replikasi data)'
+      Text = 'Server jaringan (replikasi data)'
     end
     item
       IndexID = 1945
-      Text = 'Nama Server'
+      Text = 'Nama server'
     end
     item
       IndexID = 1946
-      Text = 'atau IP Address'
+      Text = 'Atau alamat IP'
     end
     item
       IndexID = 1947
-      Text = '&Test Net Server'
+      Text = '&Uji server jaringan'
     end
     item
       IndexID = 1948
-      Text = 'Verifikasi %s di server %s'
+      Text = 'Memverifikasi %s pada server %s...'
     end
     item
       IndexID = 1949
-      Text = 'terverifikasi'
+      Text = 'Terverifikasi'
     end
     item
       IndexID = 1950
-      Text = 'tidak terverifikasi. Tes Gagal'
+      Text = 'Tidak terverifikasi! Tes gagal!'
     end
     item
       IndexID = 1951
-      Text = '<@APPNAME@> ReportMail Pengirim %s Email %s'
+      Text = 'Pengirim email laporan <@APPNAME@> %s akun email %s'
     end
     item
       IndexID = 1952
-      Text = 'E-Mail Server tidak ditemukan...'
+      Text = 'Server email tidak ditemukan...'
     end
     item
       IndexID = 1953
@@ -6680,89 +6708,90 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1954
-      Text = 'Menguji e-mail ...'
+      Text = 'Pengujian email sedang berlangsung...'
     end
     item
       IndexID = 1955
-      Text = 'Uji selesai. Sukses'
+      Text = 'Pengujian selesai! Berhasil!'
     end
     item
       IndexID = 1956
-      Text = 'Koneksi gagal'
+      Text = 'Koneksi gagal!'
     end
     item
       IndexID = 1957
-      Text = 'Kesalahan umum email'
+      Text = 'Kegagalan email umum!'
     end
     item
       IndexID = 1958
-      Text = 'Terputus.'
+      Text = 'Terputus...'
     end
     item
       IndexID = 1959
-      Text = 'Autentikasi gagal'
+      Text = 'Autentikasi gagal!'
     end
     item
       IndexID = 1960
-      Text = 'Menguji :%s byte dari %s'
+      Text = 'Pengujian berlangsung: %s byte dari %s'
     end
     item
       IndexID = 1961
-      Text = '! Uji koneksi dimulai'
+      Text = 'Uji koneksi dimulai!'
     end
     item
       IndexID = 1962
-      Text = 'Server Tidak sah'
+      Text = 'Server tidak valid!'
     end
     item
       IndexID = 1963
-      Text = 'Net Server Resolved'
+      Text = 'Server jaringan terselesaikan!'
     end
     item
       IndexID = 1964
-      Text = 'Terhubung ke%s'
+      Text = 'Menghubungkan ke %s...'
     end
     item
       IndexID = 1965
-      Text = 'Percobaan pengguna di server'
+      Text = 'Pengujian pengguna di server'
     end
     item
       IndexID = 1966
-      Text = 'koneksi ke server gagal'
+      Text = 'Koneksi server gagal!'
     end
     item
       IndexID = 1967
       Text = 
-        '<@APPNAME@> the limit of 500 transactions or 500 document is rea' +
-        'ched! Please register and buy a licence.'
+        '<@APPNAME@> batas 500 transaksi atau 500 dokumen telah tercapai!' +
+        ' Silakan mendaftar dan beli lisensi.'
     end
     item
       IndexID = 1968
       Text = 
-        'This software is limited to 500 transactions or 500 documents! P' +
-        'lease register and buy a licence for <@APPNAME@>.'
+        'Perangkat lunak ini dibatasi hingga 500 transaksi atau 500 dokum' +
+        'en! Silakan daftar dan beli lisensi untuk <@APPNAME@>.'
     end
     item
       IndexID = 1969
       Text = 
-        'Tidak dapat lebih dari %s untuk salinan <@APPNAME@> yang belum r' +
-        'egistrasi%s Silahkan mendaftar dan dapatkan kode lisensi anda'
+        'Tidak dapat memiliki lebih dari %s untuk salinan <@APPNAME@> yan' +
+        'g belum terdaftar %s! Silakan daftar dan dapatkan kode lisensi a' +
+        'nda!'
     end
     item
       IndexID = 1970
-      Text = 'Hanya Periode antara 1 dan 13 yang diperbolehkan'
+      Text = 'Hanya periode antara 1 dan 13 yang diizinkan!'
     end
     item
       IndexID = 1971
-      Text = 'Simpan perubahan ini ?'
+      Text = 'Apakah anda ingin menyimpan perubahan ini?'
     end
     item
       IndexID = 1972
-      Text = 'Kata sandi user'
+      Text = 'Kata sandi pengguna'
     end
     item
       IndexID = 1973
-      Text = 'Tgl.'
+      Text = 'Tanggal'
     end
     item
       IndexID = 1974
@@ -6770,27 +6799,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1975
-      Text = 'Referensi Pbyr'
+      Text = 'Referensi pembayaran'
     end
     item
       IndexID = 1976
-      Text = 'Jumlah'
+      Text = 'Nomor'
     end
     item
       IndexID = 1977
-      Text = 'Tertunda'
+      Text = 'Belum lunas'
     end
     item
       IndexID = 1978
-      Text = 'Masukkan Jumlah'
+      Text = 'Masukkan jumlah'
     end
     item
       IndexID = 1979
-      Text = 'Pilihan Barang Terbuka'
+      Text = 'Pemilihan item terbuka'
     end
     item
       IndexID = 1980
-      Text = 'Kata sandi user'
+      Text = 'Kata sandi pengguna'
     end
     item
       IndexID = 1981
@@ -6798,35 +6827,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'Tidak ada pajak'
+      Text = 'Tanpa PPN'
     end
     item
       IndexID = 1983
-      Text = 'Bukan Batch barang terbuka'
+      Text = 'Bukan jurnal item terbuka'
     end
     item
       IndexID = 1984
-      Text = 'Balikkan Kontra'
+      Text = 'Balikkan kontra'
     end
     item
       IndexID = 1985
-      Text = 'Ingat pajak dalam rek. Kon.'
+      Text = 'Ingat PPN pada akun kontra'
     end
     item
       IndexID = 1986
-      Text = 'Ingat kontra di rek.'
+      Text = 'Ingat kontra pada akun'
     end
     item
       IndexID = 1987
-      Text = 'Jurnal Spesial'
+      Text = 'Buku besar khusus'
     end
     item
       IndexID = 1988
-      Text = 'Tipe Referensi Kode Rekening'
+      Text = 'Tipe pencarian akun'
     end
     item
       IndexID = 1989
-      Text = 'Tipe Referensi Kode Rekening Kontra'
+      Text = 'Tipe pencarian akun kontra'
     end
     item
       IndexID = 1990
@@ -6834,15 +6863,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1991
-      Text = 'Tingkat Lanjut'
+      Text = 'Tingkat lanjut'
     end
     item
       IndexID = 9901
-      Text = '// Ini komentar menu utama'
+      Text = '// Ini adalah komentar menu utama'
     end
     item
       IndexID = 20000
-      Text = 'Anda tidak dapat membuat level-level rekursif'
+      Text = 'Anda tidak dapat membuat level rekursif!'
     end
     item
       IndexID = 20001
@@ -6850,23 +6879,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20002
-      Text = 'Hapus Record ?'
+      Text = 'Hapus rekaman?'
     end
     item
       IndexID = 20003
-      Text = 'Hapus semua Record yang dipilih?'
+      Text = 'Hapus semua rekaman terpilih?'
     end
     item
       IndexID = 20004
-      Text = 'klik disini untuk menambah baris baris'
+      Text = 'Klik di sini untuk menambah baris baru'
     end
     item
       IndexID = 20005
-      Text = 'Saringan kosong>'
+      Text = 'Filter <kosong>'
     end
     item
       IndexID = 20006
-      Text = 'Kostumasi'
+      Text = 'Kustomisasi'
     end
     item
       IndexID = 20007
@@ -6874,53 +6903,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20008
-      Text = 
-        'Gunakan mouse anda untuk mengelompokkan kolum dengan kolom lainn' +
-        'ya'
+      Text = 'Gunakan mouse untuk menarik kolom ke sini untuk pengelompokan'
     end
     item
       IndexID = 20009
-      Text = 'Kostumasi.'
+      Text = 'Kustomisasi...'
     end
     item
       IndexID = 20010
-      Text = 'Batasan'
+      Text = 'Pita'
     end
     item
       IndexID = 20011
       Text = 
-        'Kehilangan komponen  intermediary ! Silahkan menambah komponen  ' +
-        '%s ke form'
+        'Komponen perantara hilang! Harap tambahkan komponen %s ke formul' +
+        'ir!'
     end
     item
       IndexID = 20012
-      Text = 'cxGrid tidak ada'
+      Text = 'cxGrid tidak ditemukan!'
     end
     item
       IndexID = 20013
-      Text = 'komponen tidak ada'
+      Text = 'Komponen tidak ditemukan!'
     end
     item
       IndexID = 20014
-      Text = 'Impor Gagal'
+      Text = 'Galat impor!'
     end
     item
       IndexID = 20015
-      Text = 'Tampilan Grid tidak ada'
+      Text = 'Tampilan kisi tidak ditemukan!'
     end
     item
       IndexID = 20016
-      Text = 'Tingkat aktf Grid tidak ada'
+      Text = 'Level kisi aktif tidak ditemukan!'
     end
     item
       IndexID = 20017
-      Text = 'Tidak dapat membuat arsip ekspor keluaran'
+      Text = 'Tidak dapat membuat berkas keluaran ekspor!'
     end
     item
       IndexID = 20018
       Text = 
-        'ExtLookupComboBox|mewakili referensi tingkat lebih lanjut dengan' +
-        ' menggunakan QuantumGrid sebagai kontrol Drop Down'
+        'Ext Lookup Combo Box - Mewakili pencarian tingkat lanjut menggun' +
+        'akan kisi kuantum sebagai kontrol drop down!'
     end
     item
       IndexID = 20019
@@ -6932,11 +6959,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20021
-      Text = 'kurang dari'
+      Text = 'Kurang dari'
     end
     item
       IndexID = 20022
-      Text = 'kurang dari atau sama dengan'
+      Text = 'Kurang dari atau sama dengan'
     end
     item
       IndexID = 20023
@@ -6956,75 +6983,75 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20027
-      Text = 'Diantara'
+      Text = 'Di antara'
     end
     item
       IndexID = 20028
-      Text = 'Tidak diantara'
+      Text = 'Tidak di antara'
     end
     item
       IndexID = 20029
-      Text = 'Dalam'
+      Text = 'di dalam'
     end
     item
       IndexID = 20030
-      Text = 'Tidak Dalam'
+      Text = 'Tidak di dalam'
     end
     item
       IndexID = 20031
-      Text = 'Kemarin'
+      Text = 'adalah kemarin'
     end
     item
       IndexID = 20032
-      Text = 'Hari ini'
+      Text = 'adalah hari ini'
     end
     item
       IndexID = 20033
-      Text = 'Besok'
+      Text = 'adalah besok'
     end
     item
       IndexID = 20034
-      Text = 'Minggu lalu'
+      Text = 'adalah minggu lalu'
     end
     item
       IndexID = 20035
-      Text = 'Bulan lalu'
+      Text = 'adalah bulan lalu'
     end
     item
       IndexID = 20036
-      Text = 'Tahun lalu'
+      Text = 'adalah tahun lalu'
     end
     item
       IndexID = 20037
-      Text = 'Minggu ini'
+      Text = 'adalah minggu ini'
     end
     item
       IndexID = 20038
-      Text = 'Bulan ini'
+      Text = 'adalah bulan ini'
     end
     item
       IndexID = 20039
-      Text = 'Tahun ini'
+      Text = 'adalah tahun ini'
     end
     item
       IndexID = 20040
-      Text = 'Minggu depan'
+      Text = 'adalah minggu depan'
     end
     item
       IndexID = 20041
-      Text = 'Bulan depan'
+      Text = 'adalah bulan depan'
     end
     item
       IndexID = 20042
-      Text = 'Tahun depan'
+      Text = 'adalah tahun depan'
     end
     item
       IndexID = 20043
-      Text = 'Dan'
+      Text = 'dan'
     end
     item
       IndexID = 20044
-      Text = 'Atau'
+      Text = 'dtau'
     end
     item
       IndexID = 20045
@@ -7036,11 +7063,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20047
-      Text = 'Nol'
+      Text = 'adalah null'
     end
     item
       IndexID = 20048
-      Text = 'Tidak nol'
+      Text = 'bukan null'
     end
     item
       IndexID = 20049
@@ -7052,7 +7079,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20051
-      Text = 'diakhiri dengan'
+      Text = 'Diakhiri dengan'
     end
     item
       IndexID = 20052
@@ -7060,11 +7087,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20053
-      Text = 'Mengandung'
+      Text = 'Berisi'
     end
     item
       IndexID = 20054
-      Text = 'Tidak Mengandung'
+      Text = 'Tidak berisi'
     end
     item
       IndexID = 20055
@@ -7072,7 +7099,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20056
-      Text = '(Custom...)'
+      Text = '(Kustom...)'
     end
     item
       IndexID = 20057
@@ -7084,11 +7111,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20059
-      Text = 'Transaksi'
+      Text = 'No. transaksi'
     end
     item
       IndexID = 20060
-      Text = 'No. Batch'
+      Text = 'No. jurnal'
     end
     item
       IndexID = 20061
@@ -7096,7 +7123,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20062
-      Text = 'Hitung : 0'
+      Text = 'Jumlah : 0'
     end
     item
       IndexID = 20063
@@ -7108,11 +7135,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20065
-      Text = 'Total Penjualan'
+      Text = 'Total penjualan'
     end
     item
       IndexID = 20066
-      Text = 'Total qty'
+      Text = 'Total kuantitas'
     end
     item
       IndexID = 20067
@@ -7120,7 +7147,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20068
-      Text = 'Total qty. per hari'
+      Text = 'Total kuantitas per hari'
     end
     item
       IndexID = 20069
@@ -7128,45 +7155,45 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20070
-      Text = 'Tagihan Pelanggan'
+      Text = 'Faktur pelanggan'
     end
     item
       IndexID = 20071
-      Text = 'Tagih Stok'
+      Text = 'Faktur item stok'
     end
     item
       IndexID = 20072
-      Text = 'Tagihan stock Barang'
+      Text = 'Faktur item stok'
     end
     item
       IndexID = 20073
-      Text = 'Laporan Lajur'
+      Text = 'Grafik'
     end
     item
       IndexID = 20074
-      Text = 'No Stok unik'
+      Text = 'No. stok unik'
     end
     item
       IndexID = 20075
-      Text = 'No Dokumen unik'
+      Text = 'No. dokumen unik'
     end
     item
       IndexID = 20076
-      Text = 'No Garis unik'
+      Text = 'No. baris unik'
     end
     item
       IndexID = 20077
-      Text = 'No.Rekening unik'
+      Text = 'No. akun unik'
     end
     item
       IndexID = 20078
       Text = 
-        'Versi ini hanya bekerja sampai 1-3-2005 untuk info lebih lanjut ' +
-        'buka  https://www.osfinancials.org/'
+        'Versi ini hanya berfungsi hingga 1-3-2005 untuk info lebih lanju' +
+        't kunjungi https://www.osfinancials.org/'
     end
     item
       IndexID = 20079
-      Text = 'Buka Dahulu Set Buku'
+      Text = 'Buka kumpulan buku terlebih dahulu!'
     end
     item
       IndexID = 20080
@@ -7182,7 +7209,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20083
-      Text = 'Baca SQL...'
+      Text = 'Muat SQL...'
     end
     item
       IndexID = 20084
@@ -7190,27 +7217,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20085
-      Text = 'Saring'
+      Text = 'Filter'
     end
     item
       IndexID = 20086
-      Text = 'Pengelompokkan'
+      Text = 'Pengelompokan'
     end
     item
       IndexID = 20087
-      Text = 'Editor Font...'
+      Text = 'Editor font...'
     end
     item
       IndexID = 20088
-      Text = 'Model Bawaan'
+      Text = 'Gaya bawaan'
     end
     item
       IndexID = 20089
-      Text = 'Buka Direktori'
+      Text = 'Buka direktori'
     end
     item
       IndexID = 20090
-      Text = 'Kolom Terlihat'
+      Text = 'Kolom terlihat'
     end
     item
       IndexID = 20091
@@ -7218,7 +7245,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20092
-      Text = 'Sampai'
+      Text = 'Hingga'
     end
     item
       IndexID = 20093
@@ -7230,27 +7257,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20095
-      Text = 'Dan Tidak'
+      Text = 'Dan bukan'
     end
     item
       IndexID = 20096
-      Text = 'Atau Tidak'
+      Text = 'Atau bukan'
     end
     item
       IndexID = 20097
-      Text = 'Saring'
+      Text = 'Filter'
     end
     item
       IndexID = 20098
-      Text = '&Kondisi Baru'
+      Text = '&Kondisi baru'
     end
     item
       IndexID = 20099
-      Text = '&Group Baru'
+      Text = '&Grup baru'
     end
     item
       IndexID = 20100
-      Text = '&Hapus Baris'
+      Text = '&Hapus baris'
     end
     item
       IndexID = 20101
@@ -7258,15 +7285,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20102
-      Text = 'Tekan Tombol ini untuk menambah kondisi'
+      Text = 'Tekan tombol ini untuk menambah kondisi'
     end
     item
       IndexID = 20103
-      Text = 'Memiliki kondisi berikut'
+      Text = 'Berisi kondisi berikut'
     end
     item
       IndexID = 20104
-      Text = '<Judul/Kepala>'
+      Text = '<Kepala>'
     end
     item
       IndexID = 20105
@@ -7274,7 +7301,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20106
-      Text = 'Tidak bisa mengosongkan filter'
+      Text = 'Tidak dapat mengosongkan filter!'
     end
     item
       IndexID = 20107
@@ -7282,35 +7309,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20108
-      Text = 'Nilai tidak sah'
+      Text = 'Nilai tidak valid'
     end
     item
       IndexID = 20109
-      Text = 'Guna'
+      Text = 'Gunakan'
     end
     item
       IndexID = 20110
-      Text = 'untuk menerangkan karakter tunggal'
+      Text = 'Untuk mewakili karakter tunggal'
     end
     item
       IndexID = 20111
-      Text = 'untuk menerangkan karakter banyak'
+      Text = 'Untuk mewakili banyak karakter'
     end
     item
       IndexID = 20112
-      Text = 'dan'
+      Text = 'Dan'
     end
     item
       IndexID = 20113
-      Text = 'atau'
+      Text = 'Atau'
     end
     item
       IndexID = 20114
-      Text = 'Tampilkan baris dimana :'
+      Text = 'Tampilkan baris di mana :'
     end
     item
       IndexID = 20115
-      Text = 'Buat Penyaringan'
+      Text = 'Buat filter'
     end
     item
       IndexID = 20116
@@ -7318,15 +7345,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20117
-      Text = 'Buka saring yang tersimpan'
+      Text = 'Buka filter tersimpan'
     end
     item
       IndexID = 20118
-      Text = 'Simpan saring aktif'
+      Text = 'Simpan filter aktif'
     end
     item
       IndexID = 20119
-      Text = '&Simpan di...'
+      Text = '&Simpan sebagai...'
     end
     item
       IndexID = 20120
@@ -7346,3277 +7373,3285 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1992
-      Text = '*Qty && Latest Cost'
+      Text = '&Kuant biaya terakhir'
     end
     item
       IndexID = 1993
-      Text = '*Posting: %s Of %s'
+      Text = 'Memposting: %s dari %s...'
     end
     item
       IndexID = 1994
-      Text = '*COST OF SALES'
+      Text = 'HARGA POKOK PENJUALAN'
     end
     item
       IndexID = 1995
-      Text = '*COS*DOC*'
+      Text = 'HPPDOK'
     end
     item
       IndexID = 1996
-      Text = '*Checking batch entries ...'
+      Text = 'Memeriksa entri jurnal...'
     end
     item
       IndexID = 1997
-      Text = '*Updating totals'
+      Text = 'Memperbarui total...'
     end
     item
       IndexID = 1998
-      Text = '*Documents'
+      Text = 'Dokumen'
     end
     item
       IndexID = 1999
-      Text = '*Stock'
+      Text = 'Stok'
     end
     item
       IndexID = 2000
-      Text = '*Debtors'
+      Text = 'Debitur'
     end
     item
       IndexID = 2001
-      Text = '*Accounts'
+      Text = 'Akun'
     end
     item
       IndexID = 2002
-      Text = '*Creditors'
+      Text = 'Kreditur'
     end
     item
       IndexID = 2003
-      Text = '*Posted Batches'
+      Text = 'Jurnal yang diposting'
     end
     item
       IndexID = 2004
-      Text = '*Export To'
+      Text = 'Ekspor ke:'
     end
     item
       IndexID = 2005
-      Text = '*File Type'
+      Text = 'Tipe berkas'
     end
     item
       IndexID = 2006
-      Text = '*Export Files Name'
+      Text = 'Nama berkas ekspor'
     end
     item
       IndexID = 2007
-      Text = '*File Name'
+      Text = 'Nama berkas'
     end
     item
       IndexID = 2008
-      Text = '*Log File'
+      Text = 'Berkas log'
     end
     item
       IndexID = 2009
-      Text = '*Range'
+      Text = 'Rentang'
     end
     item
       IndexID = 2010
-      Text = '*From'
+      Text = 'Dari'
     end
     item
       IndexID = 2011
-      Text = '*To'
+      Text = 'Ke'
     end
     item
       IndexID = 2012
-      Text = '*Date Period'
+      Text = 'Tanggal/periode'
     end
     item
       IndexID = 2013
-      Text = '*&Export'
+      Text = '&Ekspor'
     end
     item
       IndexID = 2014
-      Text = '*&Import'
+      Text = '&Impor'
     end
     item
       IndexID = 2015
-      Text = '*File to import'
+      Text = 'Berkas untuk diimpor'
     end
     item
       IndexID = 2016
-      Text = '*Headers'
+      Text = 'Header'
     end
     item
       IndexID = 2017
-      Text = '*Lines'
+      Text = 'Baris'
     end
     item
       IndexID = 2018
-      Text = '*Import From:'
+      Text = 'Impor dari:'
     end
     item
       IndexID = 2019
-      Text = '*View file'
+      Text = 'Lihat berkas'
     end
     item
       IndexID = 2020
-      Text = '*Import Data wizard'
+      Text = 'Wizard impor data'
     end
     item
       IndexID = 2021
-      Text = '*Import data into <@APPNAME@>'
+      Text = 'Impor data ke <@APPNAME@>'
     end
     item
       IndexID = 2022
-      Text = '*Data File import Completed'
+      Text = 'Impor berkas data selesai!'
     end
     item
       IndexID = 2023
-      Text = '*file format Import Not Implemented'
+      Text = 'Format berkas impor tidak diimplementasikan!'
     end
     item
       IndexID = 2024
-      Text = '*Order on date'
+      Text = 'Urutkan berdasarkan tanggal'
     end
     item
       IndexID = 2025
-      Text = '*Please Select the type of data you want to import'
+      Text = 'Silakan pilih jenis data yang ingin anda impor'
     end
     item
       IndexID = 2026
-      Text = '*Data Type to Import'
+      Text = 'Jenis data untuk diimpor'
     end
     item
       IndexID = 2027
-      Text = '*File format'
+      Text = 'Format berkas'
     end
     item
       IndexID = 2028
-      Text = '*You can now click on import to start the process.'
+      Text = 'Anda sekarang dapat mengeklik [Impor] untuk memulai proses.'
     end
     item
       IndexID = 2029
-      Text = '*&Change the Alias'
+      Text = '&Ganti alias'
     end
     item
       IndexID = 2030
-      Text = '*Please wait...'
+      Text = 'Harap tunggu...'
     end
     item
       IndexID = 2031
-      Text = '*Processing'
+      Text = 'Memproses...'
     end
     item
       IndexID = 2032
-      Text = '*of'
+      Text = 'dari'
     end
     item
       IndexID = 2033
-      Text = '*Change Company info.'
+      Text = 'Ubah info perusahaan'
     end
     item
       IndexID = 2034
-      Text = '*Open Item Selection'
+      Text = 'Pemilihan item terbuka'
     end
     item
       IndexID = 2035
-      Text = '*Openning Drawer'
+      Text = 'Membuka laci...'
     end
     item
       IndexID = 2036
-      Text = '*<@APPNAME@> Invoice'
+      Text = 'Faktur <@APPNAME@>'
     end
     item
       IndexID = 2037
-      Text = '*TAX INVOICE'
+      Text = 'FAKTUR PPN'
     end
     item
       IndexID = 2038
-      Text = '*Tel.'
+      Text = 'Telp.'
     end
     item
       IndexID = 2039
-      Text = '*Fax.'
+      Text = 'Faks.'
     end
     item
       IndexID = 2040
-      Text = '*Cel.'
+      Text = 'Ponsel'
     end
     item
       IndexID = 2041
-      Text = '*CASH'
+      Text = 'TUNAI'
     end
     item
       IndexID = 2042
-      Text = '*Change'
+      Text = 'Kembalian'
     end
     item
       IndexID = 2043
-      Text = '*VAT-AMT'
+      Text = 'JML-PPN'
     end
     item
       IndexID = 2044
-      Text = '*14.00%'
+      Text = '11.00%'
     end
     item
       IndexID = 2045
-      Text = '*Cashier Name :'
+      Text = 'Nama kasir:'
     end
     item
       IndexID = 2046
-      Text = '*Number'
+      Text = 'Nomor'
     end
     item
       IndexID = 2047
-      Text = '*Name'
+      Text = 'Nama belakang'
     end
     item
       IndexID = 2048
-      Text = '*Contact'
+      Text = 'Kontak'
     end
     item
       IndexID = 2049
-      Text = '*Delivery Address'
+      Text = 'Alamat pengiriman'
     end
     item
       IndexID = 2050
-      Text = '*Comments'
+      Text = 'Komentar'
     end
     item
       IndexID = 2051
-      Text = '** Indicates non-vat item'
+      Text = '*Menunjukkan item non-PPN'
     end
     item
       IndexID = 2052
-      Text = '*Items'
+      Text = 'Item'
     end
     item
       IndexID = 2053
-      Text = '*Due'
+      Text = 'Jatuh tempo'
     end
     item
       IndexID = 2054
-      Text = '*Record locked by other user please try again!'
+      Text = 'Rekaman dikunci oleh pengguna lain! Silakan coba lagi!'
     end
     item
       IndexID = 2056
-      Text = '*Use invoice print'
+      Text = 'Gunakan cetak faktur'
     end
     item
       IndexID = 2057
-      Text = '*Bottom Feed Lines'
+      Text = 'Baris umpan bawah'
     end
     item
       IndexID = 2058
-      Text = '*Pos Cash up'
+      Text = 'Kas opname POS'
     end
     item
       IndexID = 2059
-      Text = '*Cant get new number record is locked try again later'
+      Text = 
+        'Tidak dapat mengambil nomor baru! Rekaman dikunci! Coba lagi nan' +
+        'ti!'
     end
     item
       IndexID = 2060
-      Text = '*Generate bank bookings'
+      Text = 'Buat pembukuan bank'
     end
     item
       IndexID = 2061
-      Text = '*Bank Statement transactions'
+      Text = 'Transaksi rekening koran'
     end
     item
       IndexID = 2062
-      Text = '*Generating Balances ...'
+      Text = 'Menghasilkan saldo...'
     end
     item
       IndexID = 2063
-      Text = '*Allocating Outstanding Balances'
+      Text = 'Mengalokasikan saldo terutang...'
     end
     item
       IndexID = 2064
-      Text = '*Agging ...'
+      Text = 'Penuaan...'
     end
     item
       IndexID = 2065
-      Text = '*Creating Set Of Books'
+      Text = 'Membuat kumpulan buku...'
     end
     item
       IndexID = 2066
-      Text = '*Consolidating'
+      Text = 'Mengonsolidasi...'
     end
     item
       IndexID = 2067
-      Text = '*Balancing'
+      Text = 'Menyeimbangkan...'
     end
     item
       IndexID = 2068
-      Text = '*Importing Stock Items'
+      Text = 'Mengimpor item stok...'
     end
     item
       IndexID = 2069
-      Text = '*Reading Lotus File'
+      Text = 'Membaca file lembar sebar...'
     end
     item
       IndexID = 2070
-      Text = '*Importing Accounts'
+      Text = 'Mengimpor akun...'
     end
     item
       IndexID = 2071
-      Text = '*Exporting Transaction'
+      Text = 'Mengekspor transaksi...'
     end
     item
       IndexID = 2072
-      Text = '*Exporting Debtors'
+      Text = 'Mengekspor debitur...'
     end
     item
       IndexID = 2073
-      Text = '*Importing Stock Items'
+      Text = 'Mengimpor item stok...'
     end
     item
       IndexID = 2074
-      Text = '*Exporting Chart of Account'
+      Text = 'Mengekspor bagan akun...'
     end
     item
       IndexID = 2075
-      Text = '*Exporting Accounts'
+      Text = 'Mengekspor akun...'
     end
     item
       IndexID = 2076
-      Text = '*Importing Documents'
+      Text = 'Mengimpor dokumen...'
     end
     item
       IndexID = 2077
-      Text = '*Exporting Documents'
+      Text = 'Mengekspor dokumen...'
     end
     item
       IndexID = 2078
-      Text = '*Exporting to csv file'
+      Text = 'Mengekspor ke berkas CSV...'
     end
     item
       IndexID = 2079
-      Text = '*Exporting to Lotus file'
+      Text = 'Mengekspor ke file lembar sebar...'
     end
     item
       IndexID = 2080
-      Text = '*Exporting to OpenOffice SpreadSheet file'
+      Text = 'Mengekspor ke file lembar sebar OpenOffice...'
     end
     item
       IndexID = 2081
-      Text = '*Exporting to Sylk SpreadSheet file'
+      Text = 'Mengekspor ke file lembar sebar SYLK...'
     end
     item
       IndexID = 2082
-      Text = '*Exporting to MSExcel file'
+      Text = 'Mengekspor ke berkas MS Excel...'
     end
     item
       IndexID = 2083
-      Text = '*Preparing List'
+      Text = 'Menyiapkan daftar...'
     end
     item
       IndexID = 2084
-      Text = '*Reverse Batch'
+      Text = 'Balikkan jurnal/dokumen yang diposting'
     end
     item
       IndexID = 2085
-      Text = '*Alias'
+      Text = 'Alias (nama jurnal)'
     end
     item
       IndexID = 2086
-      Text = '*Reverse batch'
+      Text = 'Balikkan jurnal yang diposting'
     end
     item
       IndexID = 2087
-      Text = '*Reverse document'
+      Text = 'Balikkan dokumen yang diposting'
     end
     item
       IndexID = 2088
-      Text = '*Linecount'
+      Text = 'Jumlah baris'
     end
     item
       IndexID = 2089
-      Text = '*Docno'
+      Text = 'No. dok.'
     end
     item
       IndexID = 2090
-      Text = '*Use Numbers'
+      Text = 'Gunakan nomor'
     end
     item
       IndexID = 2091
-      Text = '*Use Periods'
+      Text = 'Gunakan periode'
     end
     item
       IndexID = 2092
-      Text = '*Show contra'
+      Text = 'Tampilkan kontra'
     end
     item
       IndexID = 2093
-      Text = '*Including unposted items'
+      Text = 'Termasuk item yang belum diposting'
     end
     item
       IndexID = 2094
-      Text = '*Do you wish to use the current balance as opening balance?'
+      Text = 'Apakah anda ingin menggunakan saldo saat ini sebagai saldo awal?'
     end
     item
       IndexID = 2095
-      Text = '*You cannot report from %s to %s'
+      Text = 'Anda tidak dapat melaporkan dari %s ke %s!'
     end
     item
       IndexID = 2096
-      Text = '*A record was edited do you wish to post you data?'
+      Text = 'Rekaman telah diubah! Apakah anda ingin memposting data anda?'
     end
     item
       IndexID = 2097
-      Text = '*Float Transfert Not Allowed'
+      Text = 'Transfer kas kecil tidak diizinkan!'
     end
     item
       IndexID = 2098
       Text = 
-        '*You Still have amount receive. %s Cannot leave unpaid amount fo' +
-        'r POS invoice'
+        'Anda masih memiliki jumlah yang diterima. %s Tidak dapat meningg' +
+        'alkan jumlah yang belum dibayar untuk faktur POS!'
     end
     item
       IndexID = 2099
-      Text = '*Report Layout File Not Found'
+      Text = 'Berkas tata letak laporan tidak ditemukan!'
     end
     item
       IndexID = 2100
-      Text = '*Use Ok to save New Name'
+      Text = 'Klik [OK] untuk menyimpan nama baru'
     end
     item
       IndexID = 2101
-      Text = '*General numbers'
+      Text = 'Nomor umum'
     end
     item
       IndexID = 2102
-      Text = '*Auto-post documents on print'
+      Text = 'Posting dokumen otomatis saat cetak'
     end
     item
       IndexID = 2103
-      Text = '*&Customize'
+      Text = '&Sesuaikan'
     end
     item
       IndexID = 2104
-      Text = '*&Update Server'
+      Text = '&Perbarui server'
     end
     item
       IndexID = 2105
-      Text = '*Version :'
+      Text = 'Versi:'
     end
     item
       IndexID = 2106
-      Text = '*number'
+      Text = 'Nomor'
     end
     item
       IndexID = 2107
-      Text = '*Show Physical Address'
+      Text = 'Tampilkan detail kontak'
     end
     item
       IndexID = 2108
-      Text = '*From periode'
+      Text = 'Dari tanggal'
     end
     item
       IndexID = 2109
-      Text = '*Select Set Of Books Directory'
+      Text = 'Pilih direktori set buku'
     end
     item
       IndexID = 2110
-      Text = '*Browse for folder'
+      Text = 'Cari folder'
     end
     item
       IndexID = 2111
-      Text = '*Self extracting exe'
+      Text = 'Berkas exe yang dapat dieksekusi'
     end
     item
       IndexID = 2112
-      Text = '*Email Backup'
+      Text = 'Cadangan email'
     end
     item
       IndexID = 2113
-      Text = '*Restore From Server'
+      Text = 'Pulihkan dari server'
     end
     item
       IndexID = 2114
-      Text = '*<@APPNAME@> Backup select file'
+      Text = 'Pilih berkas cadangan <@APPNAME@>'
     end
     item
       IndexID = 2115
-      Text = '*Account digits'
+      Text = 'Digit akun'
     end
     item
       IndexID = 2116
-      Text = '*BookName'
+      Text = 'Nama kumpulan buku'
     end
     item
       IndexID = 2117
-      Text = '*Path'
+      Text = 'Jalur'
     end
     item
       IndexID = 2118
-      Text = '*Compress Message File'
+      Text = 'Kompres berkas pesan'
     end
     item
       IndexID = 2119
-      Text = '*Change code'
+      Text = 'Ubah kode'
     end
     item
       IndexID = 2120
       Text = 
-        '*Changing the Stock code wil result in all reports to use this c' +
-        'ode.'
+        'Mengubah kode stok akan mengakibatkan semua laporan menggunakan ' +
+        'kode ini!'
     end
     item
       IndexID = 2121
-      Text = '*Are you sure you want to change the code?'
+      Text = 'Apakah anda yakin ingin mengubah kode tersebut?'
     end
     item
       IndexID = 2122
-      Text = '*New stock code'
+      Text = 'Kode stok baru'
     end
     item
       IndexID = 2123
-      Text = '*Code'
+      Text = 'Kode'
     end
     item
       IndexID = 2124
-      Text = '*Stock information'
+      Text = 'Informasi stok'
     end
     item
       IndexID = 2125
-      Text = '*Upd all'
+      Text = 'Perbarui semua'
     end
     item
       IndexID = 2126
-      Text = '*BALANCING ENTRY'
+      Text = 'ENTRI PENYEIMBANG'
     end
     item
       IndexID = 2127
-      Text = '*Correct debit/credit'
+      Text = 'Perbaiki debit/kredit'
     end
     item
       IndexID = 2128
-      Text = '*Totals for each Period'
+      Text = 'Total untuk setiap periode'
     end
     item
       IndexID = 2129
-      Text = '*Add this to descriptions'
+      Text = 'Tambahkan ini ke deskripsi'
     end
     item
       IndexID = 2130
-      Text = '*New Reference'
+      Text = 'Referensi baru'
     end
     item
       IndexID = 2131
-      Text = '*Process'
+      Text = 'Proses'
     end
     item
       IndexID = 2132
-      Text = '*&Date for Transactions'
+      Text = '&Tanggal untuk transaksi'
     end
     item
       IndexID = 2133
-      Text = '*&Contra Account'
+      Text = '&Akun kontra'
     end
     item
       IndexID = 2134
-      Text = '*De&scription'
+      Text = 'De&skripsi'
     end
     item
       IndexID = 2135
-      Text = '*To debtors for (amount)'
+      Text = 'Ke debitur sebesar (jumlah)'
     end
     item
       IndexID = 2136
-      Text = '*To debtors with a balance less than (amount)'
+      Text = 'Ke debitur dengan saldo kurang dari (jumlah)'
     end
     item
       IndexID = 2137
-      Text = '*Number of days overdue'
+      Text = 'Jumlah hari lewat jatuh tempo'
     end
     item
       IndexID = 2138
-      Text = '*Generate Multiple entries'
+      Text = 'Buat beberapa transaksi'
     end
     item
       IndexID = 2139
-      Text = '*From Debtor:'
+      Text = 'Dari debitur'
     end
     item
       IndexID = 2140
-      Text = '*To:'
+      Text = 'Ke:'
     end
     item
       IndexID = 2141
-      Text = '*%s %s of %s overdue on %s'
+      Text = '%s %s dari %s jatuh tempo pada %s'
     end
     item
       IndexID = 2142
-      Text = '*Bal'
+      Text = 'Saldo'
     end
     item
       IndexID = 2143
-      Text = '*Count :'
+      Text = 'Hitungan:'
     end
     item
       IndexID = 2144
-      Text = '*Use A5 Size'
+      Text = 'Gunakan ukuran A5'
     end
     item
       IndexID = 2145
-      Text = '*and'
+      Text = 'dan'
     end
     item
       IndexID = 2146
-      Text = '*Zero'
+      Text = 'Nol'
     end
     item
       IndexID = 2147
-      Text = '*Bank balance at'
+      Text = 'Saldo bank per'
     end
     item
       IndexID = 2148
-      Text = '*According to <@APPNAME@>'
+      Text = 'Menurut <@APPNAME@>:'
     end
     item
       IndexID = 2149
-      Text = '*BALANCE AT'
+      Text = 'SALDO PER'
     end
     item
       IndexID = 2150
-      Text = '*items on hand'
+      Text = 'item tersedia'
     end
     item
       IndexID = 2151
-      Text = '*Enter overall discount'
+      Text = 'Masukkan diskon keseluruhan'
     end
     item
       IndexID = 2152
-      Text = '*Credit Note'
+      Text = 'Nota kredit'
     end
     item
       IndexID = 2153
-      Text = '*Purchass'
+      Text = 'Pembelian'
     end
     item
       IndexID = 2154
-      Text = '*Gds/Returned'
+      Text = 'Retur pemasok'
     end
     item
       IndexID = 2155
-      Text = '*Invoice'
+      Text = 'Faktur'
     end
     item
       IndexID = 2156
-      Text = '*Invoice Totals :'
+      Text = 'Total faktur:'
     end
     item
       IndexID = 2157
-      Text = '*C/Note Totals :'
+      Text = 'Total nota kredit:'
     end
     item
       IndexID = 2158
-      Text = '*Customer Totals :'
+      Text = 'Total pelanggan:'
     end
     item
       IndexID = 2159
-      Text = '*Sales Analysis - Sales By Customer'
+      Text = 'Analisis penjualan - Penjualan per pelanggan'
     end
     item
       IndexID = 2160
-      Text = '*Purchass Totals :'
+      Text = 'Total pembelian:'
     end
     item
       IndexID = 2161
-      Text = '*Gds/Returned Totals :'
+      Text = 'Total retur pemasok:'
     end
     item
       IndexID = 2162
-      Text = '*Supplier Totals :'
+      Text = 'Total pemasok:'
     end
     item
       IndexID = 2163
-      Text = '*Sales Analysis - Purchasses By Supplier'
+      Text = 'Analisis pembelian - Pembelian per pemasok'
     end
     item
       IndexID = 2167
-      Text = '*Search By Invoice Number'
+      Text = 'Cari per no. faktur'
     end
     item
       IndexID = 2168
-      Text = '*Set of Books location :'
+      Text = 'Lokasi kumpulan buku:'
     end
     item
       IndexID = 2169
-      Text = '*Quote'
+      Text = 'Penawaran'
     end
     item
       IndexID = 2170
-      Text = '*Order'
+      Text = 'Pesanan'
     end
     item
       IndexID = 2171
-      Text = '*Use reference'
+      Text = 'Gunakan referensi'
     end
     item
       IndexID = 2172
-      Text = '*Generate Balance BF options'
+      Text = 'Opsi buat saldo awal'
     end
     item
       IndexID = 2173
-      Text = '*Clear links options'
+      Text = 'Opsi hapus tautan'
     end
     item
       IndexID = 2174
-      Text = '*By Debit Dates'
+      Text = 'Berdasarkan tanggal debit'
     end
     item
       IndexID = 2175
-      Text = '*Include Item Since'
+      Text = 'Sertakan item sejak'
     end
     item
       IndexID = 2176
-      Text = '*Current Date'
+      Text = 'Tanggal saat ini'
     end
     item
       IndexID = 2177
-      Text = '*Tax Amount Found but Tax Account Delete'
+      Text = 'Jumlah PPN ditemukan tetapi akun PPN dihapus!'
     end
     item
       IndexID = 2178
-      Text = '*COST OF SALES'
+      Text = 'HARGA POKOK PENJUALAN'
     end
     item
       IndexID = 2179
-      Text = '*Day'
+      Text = 'Hari'
     end
     item
       IndexID = 2180
-      Text = '*N'
+      Text = 'N'
     end
     item
       IndexID = 2181
-      Text = '*From Debtor'
+      Text = 'Dari debitur'
     end
     item
       IndexID = 2182
-      Text = '*ToDebtor'
+      Text = 'Ke debitur'
     end
     item
       IndexID = 2183
-      Text = '*Importing : %s  Of %s'
+      Text = 'Mengimpor: %s dari %s...'
     end
     item
       IndexID = 2184
-      Text = '*Importing Debtors/Creditors'
+      Text = 'Mengimpor debitur/kreditur...'
     end
     item
       IndexID = 2185
-      Text = '*My Description'
+      Text = 'Deskripsi saya'
     end
     item
       IndexID = 2186
-      Text = '*Bank Account Recon Options'
+      Text = 'Opsi rekening koran'
     end
     item
       IndexID = 2187
-      Text = '*(Doc.)'
+      Text = '(Dok.)'
     end
     item
       IndexID = 2188
-      Text = '*Checking unposted Items'
+      Text = 'Memeriksa item yang belum diposting'
     end
     item
       IndexID = 2189
-      Text = '*Unposted only'
+      Text = 'Hanya yang belum diposting'
     end
     item
       IndexID = 2190
-      Text = '*Each Batch seperatly'
+      Text = 'Setiap jurnal secara terpisah'
     end
     item
       IndexID = 2191
-      Text = '*Show Details'
+      Text = 'Tampilkan detail'
     end
     item
       IndexID = 2192
-      Text = '*Printing on'
+      Text = 'Mencetak pada...'
     end
     item
       IndexID = 2193
-      Text = '*Dutch way of text num.'
+      Text = 'Penomoran teks cara Belanda'
     end
     item
       IndexID = 2194
-      Text = '*Use currency sign'
+      Text = 'Gunakan tanda mata uang'
     end
     item
       IndexID = 2195
-      Text = '*Digit Symbol'
+      Text = 'Simbol digit'
     end
     item
       IndexID = 2196
-      Text = '*Decimal Symbol'
+      Text = 'Simbol desimal'
     end
     item
       IndexID = 2197
-      Text = '*Mode'
+      Text = 'Mode'
     end
     item
       IndexID = 2198
-      Text = '*Invoice/Accounting'
+      Text = 'Faktur/Akuntansi'
     end
     item
       IndexID = 2199
-      Text = '*Accounting'
+      Text = 'Akuntansi'
     end
     item
       IndexID = 2200
-      Text = '*POS'
+      Text = 'Titik penjualan'
     end
     item
       IndexID = 2201
-      Text = '*Edit Debtors'
+      Text = 'Ubah debitur'
     end
     item
       IndexID = 2202
-      Text = '*Edit Creditors'
+      Text = 'Ubah kreditur'
     end
     item
       IndexID = 2203
-      Text = '*Edit Tax'
+      Text = 'Ubah PPN'
     end
     item
       IndexID = 2204
-      Text = '*Edit Bank'
+      Text = 'Ubah bank'
     end
     item
       IndexID = 2205
-      Text = '*View all bank statements'
+      Text = 'Rekonsiliasi bank manual'
     end
     item
       IndexID = 2206
-      Text = '*City'
+      Text = 'Alamat 2'
     end
     item
       IndexID = 2207
-      Text = '*Country'
+      Text = 'Negara'
     end
     item
       IndexID = 2208
-      Text = '*11 proof'
+      Text = 'Bukti 11'
     end
     item
       IndexID = 2209
-      Text = '*Arbitrair'
+      Text = 'Arbitrer'
     end
     item
       IndexID = 2210
-      Text = '*Bank account type'
+      Text = 'Tipe akun bank'
     end
     item
       IndexID = 2211
-      Text = '*Bank account nr'
+      Text = 'No. akun bank'
     end
     item
       IndexID = 2212
-      Text = '*Pay Creditors'
+      Text = 'Pembayaran otomatis'
     end
     item
       IndexID = 2213
-      Text = '*Payment date'
+      Text = 'Tanggal pembayaran'
     end
     item
       IndexID = 2214
-      Text = '*Create clieop file'
+      Text = 'Buat berkas Clieop'
     end
     item
       IndexID = 2215
-      Text = '*Payment bank account'
+      Text = 'Akun bank pembayaran'
     end
     item
       IndexID = 2216
-      Text = '*Pay transaction'
+      Text = 'Bayar transaksi'
     end
     item
       IndexID = 2217
-      Text = '*Save file'
+      Text = 'Simpan berkas'
     end
     item
       IndexID = 2218
-      Text = '*Debtorcode'
+      Text = 'Kode debitur'
     end
     item
       IndexID = 2219
-      Text = '*Creditorcode'
+      Text = 'Kode kreditur'
     end
     item
       IndexID = 2220
-      Text = '*Address'
+      Text = 'Alamat'
     end
     item
       IndexID = 2221
-      Text = '*Due days'
+      Text = 'Hari jatuh tempo'
     end
     item
       IndexID = 2222
-      Text = '*Duedate'
+      Text = 'Tanggal jatuh tempo'
     end
     item
       IndexID = 2223
-      Text = '*Uncheck all'
+      Text = 'Hapus semua centang'
     end
     item
       IndexID = 2224
-      Text = '*Uncheck selected'
+      Text = 'Hapus centang terpilih'
     end
     item
       IndexID = 2225
-      Text = '*Check selected'
+      Text = 'Centang terpilih'
     end
     item
       IndexID = 2226
-      Text = '*Creditor payment report'
+      Text = 'Laporan pembayaran kreditur'
     end
     item
       IndexID = 2227
-      Text = '*Total rows'
+      Text = 'Total baris'
     end
     item
       IndexID = 2228
-      Text = '*Total amount'
+      Text = 'Total jumlah'
     end
     item
       IndexID = 2229
-      Text = '*Checksum bank accounts'
+      Text = 'Checksum akun bank'
     end
     item
       IndexID = 2230
-      Text = '*Enter statement Reference'
+      Text = 'Masukkan referensi pernyataan'
     end
     item
       IndexID = 2231
-      Text = '*Statement Reference'
+      Text = 'Referensi pernyataan'
     end
     item
       IndexID = 2232
-      Text = '*Payments'
+      Text = 'Pembayaran'
     end
     item
       IndexID = 2233
-      Text = '*Reciepts'
+      Text = 'Penerimaan'
     end
     item
       IndexID = 2234
-      Text = '*Last total'
+      Text = 'Total terakhir'
     end
     item
       IndexID = 2235
-      Text = '*Last entered statement'
+      Text = 'Pernyataan terakhir yang dimasukkan'
     end
     item
       IndexID = 2236
-      Text = '*^D : Delete statement'
+      Text = '^D : Hapus pernyataan'
     end
     item
       IndexID = 2237
-      Text = '*Delete line'
+      Text = 'Hapus baris'
     end
     item
       IndexID = 2238
-      Text = '*Import bankstatement'
+      Text = 'Impor pernyataan bank'
     end
     item
       IndexID = 2239
-      Text = '*11 Proof'
+      Text = 'Bukti 11'
     end
     item
       IndexID = 2240
-      Text = '*No check'
+      Text = 'Tanpa pemeriksaan'
     end
     item
       IndexID = 2241
-      Text = '*Due days'
+      Text = 'Hari jatuh tempo'
     end
     item
       IndexID = 2242
-      Text = '*sort'
+      Text = 'Urutkan'
     end
     item
       IndexID = 2243
-      Text = '*Y'
+      Text = 'Y'
     end
     item
       IndexID = 2244
-      Text = '*N'
+      Text = 'N'
     end
     item
       IndexID = 2245
-      Text = '*T'
+      Text = 'T'
     end
     item
       IndexID = 2246
-      Text = '*F'
+      Text = 'F'
     end
     item
       IndexID = 2247
-      Text = '*Wy'
+      Text = 'Wy'
     end
     item
       IndexID = 2248
-      Text = '*Delete'
+      Text = 'Hapus'
     end
     item
       IndexID = 2249
-      Text = '*This feature is not implemented at this time.'
+      Text = 'Fitur ini belum diimplementasikan saat ini!'
     end
     item
       IndexID = 2250
-      Text = '*Error: Invalid Date.'
+      Text = 'Kesalahan: Tanggal tidak valid!'
     end
     item
       IndexID = 2251
-      Text = '*No Window'#39's timers are available.'
+      Text = 'Tidak ada timer Windows yang tersedia!'
     end
     item
       IndexID = 2252
-      Text = '*Invalid trigger handle.'
+      Text = 'Handle pemicu tidak valid!'
     end
     item
       IndexID = 2253
-      Text = '*Folder Items Editor.'
+      Text = 'Editor item folder'
     end
     item
       IndexID = 2254
-      Text = '*Folder Editor.'
+      Text = 'Editor folder'
     end
     item
       IndexID = 2255
-      Text = '*Conflicts with another exclusive event.'
+      Text = 'Berkonflik dengan acara eksklusif lainnya!'
     end
     item
       IndexID = 2256
-      Text = '*The end time cannot precede the start time.'
+      Text = 'Waktu selesai tidak boleh mendahului waktu mulai!'
     end
     item
       IndexID = 2257
-      Text = '*Error posting data to the database.'
+      Text = 'Kesalahan: Mengirim data ke basis data!'
     end
     item
       IndexID = 2258
-      Text = '*Error converting the month number.'
+      Text = 'Kesalahan mengonversi nomor bulan!'
     end
     item
       IndexID = 2259
-      Text = '*Error: Invalid Day.'
+      Text = 'Kesalahan: Hari tidak valid!'
     end
     item
       IndexID = 2260
-      Text = '*Error: Failure while creating Contact.'
+      Text = 'Kesalahan: Gagal saat membuat kontak!'
     end
     item
       IndexID = 2261
-      Text = '*Error: Invalid Month.'
+      Text = 'Kesalahan: Bulan tidak valid!'
     end
     item
       IndexID = 2262
-      Text = '*Error: Invalid Month Name.'
+      Text = 'Kesalahan: Nama bulan tidak valid!'
     end
     item
       IndexID = 2263
-      Text = '*Error: Invalid Year.'
+      Text = 'Kesalahan: Tahun tidak valid!'
     end
     item
       IndexID = 2264
-      Text = '*Error: Day is required.'
+      Text = 'Kesalahan: Hari diperlukan!'
     end
     item
       IndexID = 2265
-      Text = '*Error: Month Is Required.'
+      Text = 'Kesalahan: Bulan diperlukan!'
     end
     item
       IndexID = 2266
-      Text = '*Error: Year is required.'
+      Text = 'Kesalahan: Tahun diperlukan!'
     end
     item
       IndexID = 2267
-      Text = '*Error: Name cannot be empty.'
+      Text = 'Kesalahan: Nama tidak boleh kosong!'
     end
     item
       IndexID = 2268
-      Text = '*Error: Failure while creating Task.'
+      Text = 'Kesalahan: Gagal saat membuat tugas!'
     end
     item
       IndexID = 2269
-      Text = '*Error: Failure while creating Event.'
+      Text = 'Kesalahan: Gagal saat membuat acara!'
     end
     item
       IndexID = 2271
-      Text = '*Error: Failure while creating Resource.'
+      Text = 'Kesalahan: Gagal saat membuat sumber daya!'
     end
     item
       IndexID = 2272
-      Text = '*Error: Duplicate Resource.'
+      Text = 'Kesalahan: Sumber daya duplikat!'
     end
     item
       IndexID = 2273
-      Text = '*Error: Invalid table specified.'
+      Text = 'Kesalahan: Tabel yang ditentukan tidak valid!'
     end
     item
       IndexID = 2274
-      Text = '*Error: Unable to open'
+      Text = 'Kesalahan: Tidak dapat membuka!'
     end
     item
       IndexID = 2275
-      Text = '*Error: Unable to update'
+      Text = 'Kesalahan: Tidak dapat memperbarui!'
     end
     item
       IndexID = 2276
-      Text = '*Assistant'
+      Text = 'Asisten'
     end
     item
       IndexID = 2277
-      Text = '*Callback'
+      Text = 'Panggilan balik'
     end
     item
       IndexID = 2278
-      Text = '*Car'
+      Text = 'Mobil'
     end
     item
       IndexID = 2279
-      Text = '*Company'
+      Text = 'Perusahaan'
     end
     item
       IndexID = 2280
-      Text = '*Home'
+      Text = 'Rumah'
     end
     item
       IndexID = 2281
-      Text = '*Home Fax'
+      Text = 'Faks rumah'
     end
     item
       IndexID = 2282
-      Text = '*ISDN'
+      Text = 'ISDN'
     end
     item
       IndexID = 2283
-      Text = '*Mobile'
+      Text = 'Seluler'
     end
     item
       IndexID = 2284
-      Text = '*Other'
+      Text = 'Lainnya'
     end
     item
       IndexID = 2285
-      Text = '*Other Fax'
+      Text = 'Faks lainnya'
     end
     item
       IndexID = 2286
-      Text = '*Pager'
+      Text = 'Pager'
     end
     item
       IndexID = 2287
-      Text = '*Primary'
+      Text = 'Utama'
     end
     item
       IndexID = 2288
-      Text = '*Radio'
+      Text = 'Radio'
     end
     item
       IndexID = 2289
-      Text = '*Telex'
+      Text = 'Teleks'
     end
     item
       IndexID = 2290
-      Text = '*TTY/TDD'
+      Text = 'TTY/TDD'
     end
     item
       IndexID = 2291
-      Text = '*Work'
+      Text = 'Pekerjaan'
     end
     item
       IndexID = 2292
-      Text = '*Work Fax'
+      Text = 'Faks kantor'
     end
     item
       IndexID = 2293
-      Text = '*Business'
+      Text = 'Bisnis'
     end
     item
       IndexID = 2294
-      Text = '*Clients'
+      Text = 'Debitur'
     end
     item
       IndexID = 2295
-      Text = '*Family'
+      Text = 'Keluarga'
     end
     item
       IndexID = 2296
-      Text = '*Personal'
+      Text = 'Pribadi'
     end
     item
       IndexID = 2297
-      Text = '*Other'
+      Text = 'Lainnya'
     end
     item
       IndexID = 2298
-      Text = '*Week of'
+      Text = 'Minggu dari'
     end
     item
       IndexID = 2299
-      Text = '*Through'
+      Text = 'Melalui'
     end
     item
       IndexID = 2300
-      Text = '*Sunday'
+      Text = 'Minggu'
     end
     item
       IndexID = 2301
-      Text = '*Monday'
+      Text = 'Senin'
     end
     item
       IndexID = 2302
-      Text = '*Tuesday'
+      Text = 'Selasa'
     end
     item
       IndexID = 2303
-      Text = '*Wednesday'
+      Text = 'Rabu'
     end
     item
       IndexID = 2304
-      Text = '*Thursday'
+      Text = 'Kamis'
     end
     item
       IndexID = 2305
-      Text = '*Friday'
+      Text = 'Jumat'
     end
     item
       IndexID = 2306
-      Text = '*Saturday'
+      Text = 'Sabtu'
     end
     item
       IndexID = 2307
-      Text = '*Sun'
+      Text = 'Min'
     end
     item
       IndexID = 2308
-      Text = '*Mon'
+      Text = 'Sen'
     end
     item
       IndexID = 2309
-      Text = '*Tue'
+      Text = 'Sel'
     end
     item
       IndexID = 2310
-      Text = '*Wed'
+      Text = 'Rab'
     end
     item
       IndexID = 2311
-      Text = '*Thu'
+      Text = 'Kam'
     end
     item
       IndexID = 2312
-      Text = '*Fri'
+      Text = 'Jum'
     end
     item
       IndexID = 2313
-      Text = '*Sat'
+      Text = 'Sab'
     end
     item
       IndexID = 2314
-      Text = '*S'
+      Text = 'M'
     end
     item
       IndexID = 2315
-      Text = '*M'
+      Text = 'S'
     end
     item
       IndexID = 2316
-      Text = '*T'
+      Text = 'S'
     end
     item
       IndexID = 2317
-      Text = '*W'
+      Text = 'R'
     end
     item
       IndexID = 2318
-      Text = '*T'
+      Text = 'K'
     end
     item
       IndexID = 2319
-      Text = '*F'
+      Text = 'J'
     end
     item
       IndexID = 2320
-      Text = '*S'
+      Text = 'S'
     end
     item
       IndexID = 2321
-      Text = '*None'
+      Text = 'Tidak ada'
     end
     item
       IndexID = 2322
-      Text = '*Daily'
+      Text = 'Harian'
     end
     item
       IndexID = 2323
-      Text = '*Weekly'
+      Text = 'Mingguan'
     end
     item
       IndexID = 2324
-      Text = '*Monthly By Day'
+      Text = 'Bulanan berdasarkan hari'
     end
     item
       IndexID = 2325
-      Text = '*Monthly By Date'
+      Text = 'Bulanan berdasarkan tanggal'
     end
     item
       IndexID = 2326
-      Text = '*Yearly By Day'
+      Text = 'Tahunan berdasarkan hari'
     end
     item
       IndexID = 2327
-      Text = '*Yearly By Date'
+      Text = 'Tahunan berdasarkan tanggal'
     end
     item
       IndexID = 2328
-      Text = '*Custom'
+      Text = 'Kustom'
     end
     item
       IndexID = 2329
-      Text = '*Minutes'
+      Text = 'Menit'
     end
     item
       IndexID = 2330
-      Text = '*Hours'
+      Text = 'Jam'
     end
     item
       IndexID = 2331
-      Text = '*Days'
+      Text = 'Hari'
     end
     item
       IndexID = 2332
-      Text = '*This operation cannot be undone!'
+      Text = 'Operasi ini tidak dapat dibatalkan!'
     end
     item
       IndexID = 2333
-      Text = '*from your list of contacts?'
+      Text = 'dari daftar kontak Anda?'
     end
     item
       IndexID = 2334
-      Text = '*Add Contact...'
+      Text = 'Tambah kontak...'
     end
     item
       IndexID = 2335
-      Text = '*Edit Contact...'
+      Text = 'Ubah kontak...'
     end
     item
       IndexID = 2336
-      Text = '*Delete Contact...'
+      Text = 'Hapus kontak...'
     end
     item
       IndexID = 2337
-      Text = '*from your schedule?'
+      Text = 'dari jadwal Anda?'
     end
     item
       IndexID = 2338
-      Text = '*from your task list?'
+      Text = 'dari daftar tugas Anda?'
     end
     item
       IndexID = 2339
-      Text = '*Add Task...'
+      Text = 'Tambah tugas...'
     end
     item
       IndexID = 2340
-      Text = '*Edit Task...'
+      Text = 'Ubah tugas...'
     end
     item
       IndexID = 2341
-      Text = '*Delete Task...'
+      Text = 'Hapus tugas...'
     end
     item
       IndexID = 2342
-      Text = '*Task List -'
+      Text = 'Daftar tugas -'
     end
     item
       IndexID = 2343
-      Text = '*Task List'
+      Text = 'Daftar tugas'
     end
     item
       IndexID = 2344
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2345
-      Text = '*Next Month'
+      Text = 'Bulan depan'
     end
     item
       IndexID = 2346
-      Text = '*Previous Month'
+      Text = 'Bulan sebelumnya'
     end
     item
       IndexID = 2347
-      Text = '*Next Year'
+      Text = 'Tahun depan'
     end
     item
       IndexID = 2348
-      Text = '*Previous Year'
+      Text = 'Tahun sebelumnya'
     end
     item
       IndexID = 2349
-      Text = '*Add Event...'
+      Text = 'Tambah acara...'
     end
     item
       IndexID = 2350
-      Text = '*Edit Event...'
+      Text = 'Ubah acara...'
     end
     item
       IndexID = 2351
-      Text = '*&Delete Event...'
+      Text = '&Hapus acara...'
     end
     item
       IndexID = 2352
-      Text = '*Change Date'
+      Text = 'Ubah tanggal'
     end
     item
       IndexID = 2353
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2354
-      Text = '*Next Week'
+      Text = 'Minggu depan'
     end
     item
       IndexID = 2355
-      Text = '*Previous Week'
+      Text = 'Minggu sebelumnya'
     end
     item
       IndexID = 2356
-      Text = '*Next Month'
+      Text = 'Bulan depan'
     end
     item
       IndexID = 2357
-      Text = '*Previous Month'
+      Text = 'Bulan sebelumnya'
     end
     item
       IndexID = 2358
-      Text = '*Next Year'
+      Text = 'Tahun depan'
     end
     item
       IndexID = 2359
-      Text = '*Previous Year'
+      Text = 'Tahun sebelumnya'
     end
     item
       IndexID = 2360
-      Text = '*Previous Page'
+      Text = 'Halaman sebelumnya'
     end
     item
       IndexID = 2361
-      Text = '*Next Page'
+      Text = 'Halaman berikutnya'
     end
     item
       IndexID = 2362
-      Text = '*First Page'
+      Text = 'Halaman pertama'
     end
     item
       IndexID = 2363
-      Text = '*Last Page'
+      Text = 'Halaman terakhir'
     end
     item
       IndexID = 2364
-      Text = '*Add Event...'
+      Text = 'Tambah acara...'
     end
     item
       IndexID = 2365
-      Text = '*Edit Event...'
+      Text = 'Ubah acara...'
     end
     item
       IndexID = 2366
-      Text = '*Delete Event...'
+      Text = 'Hapus acara...'
     end
     item
       IndexID = 2367
-      Text = '*Change Date'
+      Text = 'Ubah tanggal'
     end
     item
       IndexID = 2368
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2369
-      Text = '*Tomorrow'
+      Text = 'Besok'
     end
     item
       IndexID = 2370
-      Text = '*Yesterday'
+      Text = 'Kemarin'
     end
     item
       IndexID = 2371
-      Text = '*Next Day'
+      Text = 'Hari berikutnya'
     end
     item
       IndexID = 2372
-      Text = '*Previous Day'
+      Text = 'Hari sebelumnya'
     end
     item
       IndexID = 2373
-      Text = '*Next Week'
+      Text = 'Minggu depan'
     end
     item
       IndexID = 2374
-      Text = '*Previous Week'
+      Text = 'Minggu sebelumnya'
     end
     item
       IndexID = 2375
-      Text = '*Next Month'
+      Text = 'Bulan depan'
     end
     item
       IndexID = 2376
-      Text = '*Previous Month'
+      Text = 'Bulan sebelumnya'
     end
     item
       IndexID = 2377
-      Text = '*Next Year'
+      Text = 'Tahun depan'
     end
     item
       IndexID = 2378
-      Text = '*Previous Year'
+      Text = 'Tahun sebelumnya'
     end
     item
       IndexID = 2379
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2380
-      Text = '*Tomorrow'
+      Text = 'Besok'
     end
     item
       IndexID = 2381
-      Text = '*Yesterday'
+      Text = 'Kemarin'
     end
     item
       IndexID = 2382
-      Text = '*Next Week'
+      Text = 'Minggu depan'
     end
     item
       IndexID = 2383
-      Text = '*Previous Week'
+      Text = 'Minggu sebelumnya'
     end
     item
       IndexID = 2384
-      Text = '*Position'
+      Text = 'Posisi'
     end
     item
       IndexID = 2385
-      Text = '*Company'
+      Text = 'Perusahaan'
     end
     item
       IndexID = 2386
-      Text = '*Title'
+      Text = 'Judul'
     end
     item
       IndexID = 2387
-      Text = '*E-Mail'
+      Text = 'E-mail'
     end
     item
       IndexID = 2388
-      Text = '*Country'
+      Text = 'Negara'
     end
     item
       IndexID = 2389
-      Text = '*Category'
+      Text = 'Kategori'
     end
     item
       IndexID = 2390
-      Text = '*Notes'
+      Text = 'Catatan'
     end
     item
       IndexID = 2391
-      Text = '*Custom 1'
+      Text = 'Kustom 1'
     end
     item
       IndexID = 2392
-      Text = '*Custom 2'
+      Text = 'Kustom 2'
     end
     item
       IndexID = 2393
-      Text = '*Custom 3'
+      Text = 'Kustom 3'
     end
     item
       IndexID = 2394
-      Text = '*Custom 4'
+      Text = 'Kustom 4'
     end
     item
       IndexID = 2395
-      Text = '*OK'
+      Text = 'OK'
     end
     item
       IndexID = 2396
-      Text = '*Cancel'
+      Text = 'Batal'
     end
     item
       IndexID = 2397
-      Text = '*&Close'
+      Text = '&Tutup'
     end
     item
       IndexID = 2398
-      Text = '*&Print'
+      Text = '&Cetak'
     end
     item
       IndexID = 2399
-      Text = '*Untitled'
+      Text = 'Tanpa judul'
     end
     item
       IndexID = 2400
-      Text = '*Select A Sound'
+      Text = 'Pilih suara'
     end
     item
       IndexID = 2401
-      Text = '*Sound Finder'
+      Text = 'Pencari suara'
     end
     item
       IndexID = 2402
-      Text = '*Use the default sound'
+      Text = 'Gunakan suara standar'
     end
     item
       IndexID = 2403
-      Text = '*Event'
+      Text = 'Acara'
     end
     item
       IndexID = 2404
-      Text = '*Appointment'
+      Text = 'Janji temu'
     end
     item
       IndexID = 2405
-      Text = '*Subject:'
+      Text = 'Subjek'
     end
     item
       IndexID = 2406
-      Text = '*Category:'
+      Text = 'Kategori'
     end
     item
       IndexID = 2407
-      Text = '*Start Time:'
+      Text = 'Waktu mulai'
     end
     item
       IndexID = 2408
-      Text = '*End Time:'
+      Text = 'Waktu selesai'
     end
     item
       IndexID = 2409
-      Text = '*&Reminder'
+      Text = '&Pengingat'
     end
     item
       IndexID = 2410
-      Text = '*Appointment Recurrence:'
+      Text = 'Pengulangan janji temu'
     end
     item
       IndexID = 2411
-      Text = '*Interval (days):'
+      Text = 'Interval (hari)'
     end
     item
       IndexID = 2412
-      Text = '*Repeat Until:'
+      Text = 'Ulangi sampai'
     end
     item
       IndexID = 2413
-      Text = '*&All Day Event'
+      Text = '&Acara sepanjang hari'
     end
     item
       IndexID = 2414
-      Text = '*Notes:'
+      Text = 'Catatan'
     end
     item
       IndexID = 2415
-      Text = '*Contact'
+      Text = 'Kontak'
     end
     item
       IndexID = 2416
-      Text = '*Name:'
+      Text = 'Nama'
     end
     item
       IndexID = 2417
-      Text = '*Title:'
+      Text = 'Judul'
     end
     item
       IndexID = 2418
-      Text = '*Address:'
+      Text = 'Alamat'
     end
     item
       IndexID = 2419
-      Text = '*City:'
+      Text = 'Alamat 2'
     end
     item
       IndexID = 2420
-      Text = '*State:'
+      Text = 'Alamat 3'
     end
     item
       IndexID = 2421
-      Text = '*Country:'
+      Text = 'Negara'
     end
     item
       IndexID = 2422
-      Text = '*Zip Code:'
+      Text = 'Kode pos'
     end
     item
       IndexID = 2423
-      Text = '*Company:'
+      Text = 'Perusahaan'
     end
     item
       IndexID = 2424
-      Text = '*Position:'
+      Text = 'Posisi'
     end
     item
       IndexID = 2425
-      Text = '*Print Preview'
+      Text = 'Pratinjau cetak'
     end
     item
       IndexID = 2426
-      Text = '*Task'
+      Text = 'Tugas'
     end
     item
       IndexID = 2427
-      Text = '*Due Date:'
+      Text = 'Tanggal jatuh tempo'
     end
     item
       IndexID = 2428
-      Text = '*Details:'
+      Text = 'Detail'
     end
     item
       IndexID = 2429
-      Text = '*Task complete'
+      Text = 'Tugas selesai'
     end
     item
       IndexID = 2430
-      Text = '* Days overdue'
+      Text = 'Hari terlambat'
     end
     item
       IndexID = 2431
-      Text = '*Created on'
+      Text = 'Dibuat pada'
     end
     item
       IndexID = 2432
-      Text = '*Completed on'
+      Text = 'Selesai pada'
     end
     item
       IndexID = 2433
-      Text = '*Reminder'
+      Text = 'Pengingat'
     end
     item
       IndexID = 2434
-      Text = '*OVERDUE!'
+      Text = 'TERLAMBAT!'
     end
     item
       IndexID = 2435
-      Text = '*Click &Snooze to be reminded again in:'
+      Text = 'Klik [&Tunda] untuk diingatkan lagi dalam:'
     end
     item
       IndexID = 2436
-      Text = '*Subject:'
+      Text = 'Subjek'
     end
     item
       IndexID = 2437
-      Text = '*Notes:'
+      Text = 'Catatan'
     end
     item
       IndexID = 2438
-      Text = '*&Dismiss'
+      Text = '&Abaikan'
     end
     item
       IndexID = 2439
-      Text = '*&Snooze'
+      Text = '&Tunda'
     end
     item
       IndexID = 2440
-      Text = '*&Open Item'
+      Text = '&Buka item'
     end
     item
       IndexID = 2441
-      Text = '*5 Minutes'
+      Text = '5 menit'
     end
     item
       IndexID = 2442
-      Text = '*10 Minutes'
+      Text = '10 menit'
     end
     item
       IndexID = 2443
-      Text = '*15 Minutes'
+      Text = '15 menit'
     end
     item
       IndexID = 2444
-      Text = '*30 Minutes'
+      Text = '30 menit'
     end
     item
       IndexID = 2445
-      Text = '*45 Minutes'
+      Text = '45 menit'
     end
     item
       IndexID = 2446
-      Text = '*1 Hour'
+      Text = '1 jam'
     end
     item
       IndexID = 2447
-      Text = '*2 Hours'
+      Text = '2 jam'
     end
     item
       IndexID = 2448
-      Text = '*3 Hours'
+      Text = '3 jam'
     end
     item
       IndexID = 2449
-      Text = '*4 Hours'
+      Text = '4 jam'
     end
     item
       IndexID = 2450
-      Text = '*5 Hours'
+      Text = '5 jam'
     end
     item
       IndexID = 2451
-      Text = '*6 Hours'
+      Text = '6 jam'
     end
     item
       IndexID = 2452
-      Text = '*7 Hours'
+      Text = '7 jam'
     end
     item
       IndexID = 2453
-      Text = '*8 Hours'
+      Text = '8 jam'
     end
     item
       IndexID = 2454
-      Text = '*1 Day'
+      Text = '1 hari'
     end
     item
       IndexID = 2455
-      Text = '*2 Days'
+      Text = '2 hari'
     end
     item
       IndexID = 2456
-      Text = '*3 Days'
+      Text = '3 hari'
     end
     item
       IndexID = 2457
-      Text = '*4 Days'
+      Text = '4 hari'
     end
     item
       IndexID = 2458
-      Text = '*5 Days'
+      Text = '5 hari'
     end
     item
       IndexID = 2459
-      Text = '*6 Days'
+      Text = '6 hari'
     end
     item
       IndexID = 2460
-      Text = '*1 Week'
+      Text = '1 minggu'
     end
     item
       IndexID = 2461
-      Text = '*Previous Month'
+      Text = 'Bulan sebelumnya'
     end
     item
       IndexID = 2462
-      Text = '*Next Month'
+      Text = 'Bulan depan'
     end
     item
       IndexID = 2463
-      Text = '*Previous Year'
+      Text = 'Tahun sebelumnya'
     end
     item
       IndexID = 2464
-      Text = '*Next Year'
+      Text = 'Tahun depan'
     end
     item
       IndexID = 2465
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2466
-      Text = '*Revert'
+      Text = 'Kembalikan'
     end
     item
       IndexID = 2467
-      Text = '*Today'
+      Text = 'Hari ini'
     end
     item
       IndexID = 2468
-      Text = '*Next Month'
+      Text = 'Bulan depan'
     end
     item
       IndexID = 2469
-      Text = '*Previous Month'
+      Text = 'Bulan sebelumnya'
     end
     item
       IndexID = 2470
-      Text = '*Next Year'
+      Text = 'Tahun depan'
     end
     item
       IndexID = 2471
-      Text = '*Previous Year'
+      Text = 'Tahun sebelumnya'
     end
     item
       IndexID = 2472
-      Text = '*Revert'
+      Text = 'Kembalikan'
     end
     item
       IndexID = 2773
-      Text = '*Cannot open WININET, Microsoft IE required'
+      Text = 'Tidak dapat membuka WININET! Microsoft IE diperlukan!'
     end
     item
       IndexID = 2774
-      Text = '*Unable to open file'
+      Text = 'Tidak dapat membuka berkas!'
     end
     item
       IndexID = 2775
-      Text = '*File %s could not be found'
+      Text = 'Berkas %s tidak dapat ditemukan!'
     end
     item
       IndexID = 2776
-      Text = '*Unable to allocate memory for XML source'
+      Text = 'Tidak dapat mengalokasikan memori untuk sumber XML!'
     end
     item
       IndexID = 2777
-      Text = '*Http read request failed'
+      Text = 'Permintaan baca HTTP gagal!'
     end
     item
       IndexID = 2778
-      Text = '*Http data not available'
+      Text = 'Data HTTP tidak tersedia!'
     end
     item
       IndexID = 2779
-      Text = '*Unable to send http request'
+      Text = 'Tidak dapat mengirim permintaan HTTP!'
     end
     item
       IndexID = 2780
-      Text = '*Unable to open http request'
+      Text = 'Tidak dapat membuka permintaan HTTP!'
     end
     item
       IndexID = 2781
-      Text = '*Unable to make Internet connection'
+      Text = 'Tidak dapat membuat koneksi internet!'
     end
     item
       IndexID = 2782
-      Text = '*Unable to open Internet'
+      Text = 'Tidak dapat membuka internet!'
     end
     item
       IndexID = 2783
-      Text = '*Invalid ftp location'
+      Text = 'Lokasi FTP tidak valid!'
     end
     item
       IndexID = 2784
-      Text = '*Invalid ftp directory'
+      Text = 'Direktori FTP tidak valid!'
     end
     item
       IndexID = 2785
-      Text = '*Ftp read request failed'
+      Text = 'Permintaan baca FTP gagal!'
     end
     item
       IndexID = 2786
-      Text = '*Ftp data not available'
+      Text = 'Data FTP tidak tersedia!'
     end
     item
       IndexID = 2787
-      Text = '*Unable to open ftp file'
+      Text = 'Tidak dapat membuka berkas FTP!'
     end
     item
       IndexID = 2788
-      Text = '*Could not save file via ftp to %s'
+      Text = 'Tidak dapat menyimpan berkas via FTP ke %s'
     end
     item
       IndexID = 2789
-      Text = '*Unable to load source'
+      Text = 'Tidak dapat memuat sumber!'
     end
     item
       IndexID = 2790
-      Text = '*Invalid memory Pointer'
+      Text = 'Pointer memori tidak valid!'
     end
     item
       IndexID = 2791
-      Text = '*Line: %d Col: %d Error: %s'
+      Text = 'Baris: %d Kol: %d Kesalahan: %s !'
     end
     item
       IndexID = 2792
-      Text = '*ERROR INDEX OUT OF BOUNDS'
+      Text = 'KESALAHAN INDEKS DI LUAR BATAS!'
     end
     item
       IndexID = 2793
-      Text = '*Expected markup declaration, but found:'
+      Text = 'Mengharapkan deklarasi markup, tetapi menemukan:'
     end
     item
       IndexID = 2794
-      Text = '*Illegal attribute type:'
+      Text = 'Tipe atribut ilegal:'
     end
     item
       IndexID = 2795
-      Text = '*Illegal keyword for attribute default value:'
+      Text = 'Kata kunci ilegal untuk nilai standar atribut:'
     end
     item
       IndexID = 2796
-      Text = '*System identifier missing'
+      Text = 'Pengidentifikasi sistem hilang!'
     end
     item
       IndexID = 2797
-      Text = '*External modifier missing:'
+      Text = 'Pengubah eksternal hilang:'
     end
     item
       IndexID = 2798
-      Text = '*Conditional section must begin with INCLUDE or IGNORE'
+      Text = 'Bagian bersyarat harus dimulai dengan INCLUDE atau IGNORE'
     end
     item
       IndexID = 2799
-      Text = '*Bad separator in content model:'
+      Text = 'Pemisah buruk dalam model konten:'
     end
     item
       IndexID = 2800
-      Text = '*Expected comment or CDATA section'
+      Text = 'Mengharapkan komentar atau bagian CDATA!'
     end
     item
       IndexID = 2801
-      Text = '*Unexpected end of file'
+      Text = 'Akhir berkas tidak terduga!'
     end
     item
       IndexID = 2802
-      Text = '*Mismatched end tag:'
+      Text = 'Tag penutup tidak cocok:'
     end
     item
       IndexID = 2803
-      Text = '*Illegal character in reference'
+      Text = 'Karakter ilegal dalam referensi!'
     end
     item
       IndexID = 2804
-      Text = '*Reference to undeclared entity:'
+      Text = 'Referensi ke entitas yang tidak dideklarasikan:'
     end
     item
       IndexID = 2805
-      Text = '*Expected String:'
+      Text = 'Mengharapkan string:'
     end
     item
       IndexID = 2806
-      Text = '*Whitespace expected at byte'
+      Text = 'Spasi diharapkan pada bita!'
     end
     item
       IndexID = 2807
-      Text = '*End of input while looking for delimiter:'
+      Text = 'Akhir masukan saat mencari pembatas:'
     end
     item
       IndexID = 2808
-      Text = '*Expected " or '#39
+      Text = 'Mengharapkan " atau '#39
     end
     item
       IndexID = 2809
-      Text = '*XMLPartner does not support XML specification greater than %s'
+      Text = 
+        'XMLPartner tidak mendukung spesifikasi XML yang lebih besar dari' +
+        ' %s'
     end
     item
       IndexID = 2810
-      Text = '*Unable to create stream for input.'
+      Text = 'Tidak dapat membuat stream untuk masukan!'
     end
     item
       IndexID = 2811
-      Text = '*Invalid XML name:'
+      Text = 'Nama XML tidak valid:'
     end
     item
       IndexID = 2812
-      Text = '*Invalid comment text'
+      Text = 'Teks komentar tidak valid!'
     end
     item
       IndexID = 2813
       Text = 
-        '*Document cannot start with a comment if it also contains an XML' +
-        ' declaration'
+        'Dokumen tidak dapat dimulai dengan komentar jika juga berisi dek' +
+        'larasi XML!'
     end
     item
       IndexID = 2814
-      Text = '*Invalid characters in CDATA section'
+      Text = 'Karakter tidak valid dalam bagian CDATA'
     end
     item
       IndexID = 2815
-      Text = '*Attributes cannot be redefined in a start tag'
+      Text = 'Atribut tidak dapat didefinisikan ulang dalam tag mulai!'
     end
     item
       IndexID = 2816
-      Text = '*Circular reference to:'
+      Text = 'Referensi melingkar ke:'
     end
     item
       IndexID = 2817
-      Text = '*Invalid character in attribute value:'
+      Text = 'Karakter tidak valid dalam nilai atribut:'
     end
     item
       IndexID = 2818
-      Text = '*Invalid characters in element'#39's character data:'
+      Text = 'Karakter tidak valid dalam data karakter elemen:'
     end
     item
       IndexID = 2820
       Text = 
-        '*Conditional sections not allowed in internal subset of document' +
-        ' type declaration'
+        'Bagian bersyarat tidak diperbolehkan dalam subset internal dekla' +
+        'rasi tipe dokumen!'
     end
     item
       IndexID = 2821
-      Text = '*Notation not declared:'
+      Text = 'Notasi tidak dideklarasikan:'
     end
     item
       IndexID = 2822
-      Text = '*Invalid PublicID character:'
+      Text = 'Karakter id publik tidak valid:'
     end
     item
       IndexID = 2823
-      Text = '*NDATA not allowed in parameter entity declaration'
+      Text = 'NDATA tidak diperbolehkan dalam deklarasi entitas parameter'
     end
     item
       IndexID = 2824
-      Text = '*Standalone value must equal '#39'yes'#39' or '#39'no'#39
+      Text = #39'Nilai mandiri harus sama dengan '#39#39'yes'#39#39' atau '#39#39'no'#39#39#39
     end
     item
       IndexID = 2825
-      Text = '*Invalid encoding declaration:'
+      Text = 'Deklarasi penyandian tidak valid:'
     end
     item
       IndexID = 2826
-      Text = '*Invalid XML version number:'
+      Text = 'Nomor versi XML tidak valid:'
     end
     item
       IndexID = 2827
-      Text = '*Invalid character in entity value:'
+      Text = 'Karakter tidak valid dalam nilai entitas:'
     end
     item
       IndexID = 2828
-      Text = '*Comments can not be placed within other markup'
+      Text = 'Komentar tidak dapat ditempatkan di dalam markup lain!'
     end
     item
       IndexID = 2829
-      Text = '*There is invalid data after valid XML document'
+      Text = 'Ada data tidak valid setelah dokumen XML yang valid!'
     end
     item
       IndexID = 2830
-      Text = '*The XML declaration must appear before the first element'
+      Text = 'Deklarasi XML harus muncul sebelum elemen pertama!'
     end
     item
       IndexID = 2831
-      Text = '*Invalid element name:'
+      Text = 'Nama elemen tidak valid:'
     end
     item
       IndexID = 2832
-      Text = '*Parameter-entity text must be properly nested:'
+      Text = 'Teks entitas-parameter harus bersarang dengan benar:'
     end
     item
       IndexID = 2833
-      Text = '*Invalid character encoding specified.'
+      Text = 'Penyandian karakter yang ditentukan tidak valid!'
     end
     item
       IndexID = 2834
-      Text = '*Attribute %s of element %s does not have an integer value.'
+      Text = 'Atribut %s dari elemen %s tidak memiliki nilai integer!'
     end
     item
       IndexID = 2835
-      Text = '*Unknown axis specifier: %s'
+      Text = 'Spesifikasi sumbu tidak dikenal: %s'
     end
     item
       IndexID = 2836
-      Text = '*Invalid XML Character found'
+      Text = 'Karakter XML tidak valid ditemukan!'
     end
     item
       IndexID = 2837
-      Text = '*Invalid (big-endian) UTF-16 character encoding'
+      Text = 'Penyandian karakter UTF-16 (big-endian) tidak valid!'
     end
     item
       IndexID = 2838
-      Text = '*Invalid (little-endian) UTF-16 character encoding'
+      Text = 'Penyandian karakter UTF-16 (little-endian) tidak valid!'
     end
     item
       IndexID = 2839
-      Text = '*Badly formed UTF-8 character in stream'
+      Text = 'Karakter UTF-8 dengan format buruk dalam stream!'
     end
     item
       IndexID = 2840
-      Text = '*Unexpected end of document stream'
+      Text = 'Akhir stream dokumen tidak terduga!'
     end
     item
       IndexID = 2841
-      Text = '*Cannot convert UCS-4 character to ISO-8859-1'
+      Text = 'Tidak dapat mengonversi karakter UCS-4 ke ISO-8859-1!'
     end
     item
       IndexID = 2842
-      Text = '*Cannot convert UCS-4 character to UTF-16'
+      Text = 'Tidak dapat mengonversi karakter UCS-4 ke UTF-16!'
     end
     item
       IndexID = 2843
-      Text = '*Cannot convert UCS-4 character to UTF-8'
+      Text = 'Tidak dapat mengonversi karakter UCS-4 ke UTF-8!'
     end
     item
       IndexID = 2844
-      Text = '*Out of range'
+      Text = 'Di luar jangkauan!'
     end
     item
       IndexID = 2845
-      Text = '*not supported'
+      Text = 'tidak didukung!'
     end
     item
       IndexID = 2846
-      Text = '*Please supply an Element Name'
+      Text = 'Harap berikan nama elemen!'
     end
     item
       IndexID = 2847
-      Text = '*FormatName cannot be blank'
+      Text = 'Nama format tidak boleh kosong!'
     end
     item
       IndexID = 2848
-      Text = '*Print controller is not owned by a TVpControlLink!'
+      Text = 'Kontroler cetak tidak dimiliki oleh TVpControlLink!'
     end
     item
       IndexID = 2849
-      Text = '*Invalid print format'
+      Text = 'Format cetak tidak valid!'
     end
     item
       IndexID = 2850
-      Text = '*Invalid item type'
+      Text = 'Tipe item tidak valid!'
     end
     item
       IndexID = 2851
-      Text = '*Invalid measurement'
+      Text = 'Pengukuran tidak valid!'
     end
     item
       IndexID = 2852
-      Text = '*Owner must be a TWinControl descendent'
+      Text = 'Pemilik harus merupakan turunan TWinControl!'
     end
     item
       IndexID = 2853
-      Text = '*Component must be linked to a TVpControlLink'
+      Text = 'Komponen harus ditautkan ke TVpControlLink!'
     end
     item
       IndexID = 2854
-      Text = '*No print formats have been defined'
+      Text = 'Tidak ada format cetak yang telah ditentukan!'
     end
     item
       IndexID = 2855
-      Text = '*TCanvas not assigned'
+      Text = 'TCanvas tidak ditetapkan!'
     end
     item
       IndexID = 2856
-      Text = '*Localization file not found.'
+      Text = 'Berkas lokalisasi tidak ditemukan!'
     end
     item
       IndexID = 2857
-      Text = '*Appointment'
+      Text = 'Janji temu'
     end
     item
       IndexID = 2858
-      Text = '*Repeating invoices'
+      Text = 'Faktur berulang'
     end
     item
       IndexID = 2859
-      Text = '*Debtors appointment'
+      Text = 'Janji temu debitur'
     end
     item
       IndexID = 2860
-      Text = '*Creditors appointment'
+      Text = 'Janji temu kreditur'
     end
     item
       IndexID = 2861
-      Text = '*Category 4'
+      Text = 'Kategori 4'
     end
     item
       IndexID = 2862
-      Text = '*Category 5'
+      Text = 'Kategori 5'
     end
     item
       IndexID = 2863
-      Text = '*Category 6'
+      Text = 'Kategori 6'
     end
     item
       IndexID = 2864
-      Text = '*Category 7'
+      Text = 'Kategori 7'
     end
     item
       IndexID = 2865
-      Text = '*Category 8'
+      Text = 'Kategori 8'
     end
     item
       IndexID = 2866
-      Text = '*Category 9'
+      Text = 'Kategori 9'
     end
     item
       IndexID = 2867
-      Text = '*Edit Print Formats...'
+      Text = 'Ubah format cetak...'
     end
     item
       IndexID = 2868
-      Text = '*No resources have been defined. Would you like to add one now?'
+      Text = 
+        'Tidak ada sumber daya yang telah didefinisikan! Apakah anda ingi' +
+        'n menambahkannya sekarang?'
     end
     item
       IndexID = 2869
       Text = 
-        '*No resource has been selected. Would you like to select one now' +
-        '?'
+        'Tidak ada sumber daya yang telah dipilih! Apakah anda ingin memi' +
+        'lihnya sekarang?'
     end
     item
       IndexID = 2870
-      Text = '*Filter column'
+      Text = 'Kolom filter'
     end
     item
       IndexID = 2871
-      Text = '*Value'
+      Text = 'Nilai'
     end
     item
       IndexID = 2872
-      Text = '*Display'
+      Text = 'Tampilan'
     end
     item
       IndexID = 2873
-      Text = '*Clock'
+      Text = 'Jam'
     end
     item
       IndexID = 2874
-      Text = '*Agenda'
+      Text = 'Agenda'
     end
     item
       IndexID = 2875
-      Text = '*Tasks'
+      Text = 'Tugas'
     end
     item
       IndexID = 2876
-      Text = '*Contacts'
+      Text = 'Kontak'
     end
     item
       IndexID = 2877
-      Text = '*Loaded events'
+      Text = 'Acara dimuat'
     end
     item
       IndexID = 2878
-      Text = '*# Display Days'
+      Text = '# Tampilkan hari'
     end
     item
       IndexID = 2879
-      Text = '*Calendar'
+      Text = 'Kalender'
     end
     item
       IndexID = 2880
       Text = 
-        '*Please save this repeating invoice firts. After reopening you c' +
-        'an add clients to invoice'
+        'Harap simpan faktur berulang ini terlebih dahulu! Setelah membuk' +
+        'a kembali, anda dapat menambahkan debitur ke faktur.'
     end
     item
       IndexID = 2881
-      Text = '*Do you wish to delete this %s?'
+      Text = 'Apakah anda ingin menghapus %s ini?'
     end
     item
       IndexID = 2882
-      Text = '*Do you wish to delete all %s?'
+      Text = 'Apakah anda ingin menghapus semua %s?'
     end
     item
       IndexID = 2883
-      Text = '*Repeating invoice'
+      Text = 'Faktur berulang'
     end
     item
       IndexID = 2884
-      Text = '*Invoice date'
+      Text = 'Tanggal faktur'
     end
     item
       IndexID = 2885
-      Text = '*Process All'
+      Text = 'Proses semua'
     end
     item
       IndexID = 2886
-      Text = '*Process list'
+      Text = 'Proses daftar'
     end
     item
       IndexID = 2887
-      Text = '*Process selected'
+      Text = 'Proses yang dipilih'
     end
     item
       IndexID = 2888
-      Text = '*&New'
+      Text = '&Baru'
     end
     item
       IndexID = 2889
-      Text = '*&Edit'
+      Text = '&Edit'
     end
     item
       IndexID = 2890
-      Text = '*&Main'
+      Text = '&Utama'
     end
     item
       IndexID = 2891
-      Text = '*&Telephone'
+      Text = '&Telepon'
     end
     item
       IndexID = 2892
-      Text = '*&Notes'
+      Text = '&Catatan'
     end
     item
       IndexID = 2893
-      Text = '*Due Amount'
+      Text = 'Jumlah jatuh tempo'
     end
     item
       IndexID = 2894
-      Text = '*Document(s) created.'
+      Text = 'Dokumen dibuat!'
     end
     item
       IndexID = 2895
-      Text = '*Duedate is lower then document date'
+      Text = 'Tanggal jatuh tempo lebih awal dari tanggal dokumen!'
     end
     item
       IndexID = 2896
-      Text = '*Recieve debtors'
+      Text = 'Penerimaan otomatis'
     end
     item
       IndexID = 2897
-      Text = '*Please enter a name for the Set of Books'
+      Text = 'Harap masukkan nama untuk kumpulan buku!'
     end
     item
       IndexID = 2898
-      Text = '*Update bankaccount'
+      Text = 'Perbarui akun bank'
     end
     item
       IndexID = 2899
-      Text = '*Lookup document'
+      Text = 'Cari dokumen'
     end
     item
       IndexID = 2900
-      Text = '*Lookup Doc with amount'
+      Text = 'Cari dokumen dengan jumlah'
     end
     item
       IndexID = 2901
-      Text = '*Lookup Debtor'
+      Text = 'Cari debitur'
     end
     item
       IndexID = 2902
-      Text = '*Lookup Creditor'
+      Text = 'Cari kreditur'
     end
     item
       IndexID = 2903
       Text = 
-        '*There was already a bank account found! Do you wish to update t' +
-        'his?'
+        'Sudah ada akun bank yang ditemukan! Apakah anda ingin memperbaru' +
+        'i ini?'
     end
     item
       IndexID = 2904
-      Text = '*Report amounts with'
+      Text = 'Laporkan jumlah dengan'
     end
     item
       IndexID = 2905
-      Text = '*Data Storage'
+      Text = 'Penyimpanan data'
     end
     item
       IndexID = 2906
-      Text = '*Speed'
+      Text = 'Kecepatan'
     end
     item
       IndexID = 2907
-      Text = '*Special Settings'
+      Text = 'Pengaturan khusus'
     end
     item
       IndexID = 2908
-      Text = '*Reporting Decimals'
+      Text = 'Desimal pelaporan'
     end
     item
       IndexID = 2909
-      Text = '*Open Item Ledgers'
+      Text = 'Buku besar item terbuka'
     end
     item
       IndexID = 2910
-      Text = '*Do not use Reportman'
+      Text = 'Jangan gunakan Reportman'
     end
     item
       IndexID = 2911
-      Text = '*Real Numbers'
+      Text = 'Angka riil'
     end
     item
       IndexID = 2912
-      Text = '*Fixed Decimals'
+      Text = 'Desimal tetap'
     end
     item
       IndexID = 2913
-      Text = '*<>  for Credit'
+      Text = '<> untuk Kredit'
     end
     item
       IndexID = 2914
-      Text = '*+/-  for Debit/Credit'
+      Text = '+/- untuk Debit/Kredit'
     end
     item
       IndexID = 2915
-      Text = '*D/C for Debit/Credit'
+      Text = 'D/C untuk Debit/Kredit'
     end
     item
       IndexID = 2916
-      Text = '*Show Calandar'
+      Text = 'Tampilkan kalender'
     end
     item
       IndexID = 2917
-      Text = '*No warning unposted'
+      Text = 'Tanpa peringatan belum diposting'
     end
     item
       IndexID = 2918
-      Text = '*Use current date for reports'
+      Text = 'Gunakan tanggal saat ini untuk laporan'
     end
     item
       IndexID = 2919
-      Text = '*Extra Description'
+      Text = 'Deskripsi tambahan'
     end
     item
       IndexID = 2920
-      Text = '*BOM'
+      Text = 'BOM'
     end
     item
       IndexID = 2921
-      Text = '*Sales (No stock)'
+      Text = 'Penjualan (tanpa stok)'
     end
     item
       IndexID = 2922
-      Text = '*Purchase (No stock)'
+      Text = 'Pembelian (tanpa stok)'
     end
     item
       IndexID = 2923
-      Text = '*BOM List'
+      Text = 'Daftar BOM'
     end
     item
       IndexID = 2924
-      Text = '*Copy from item'
+      Text = 'Salin dari item'
     end
     item
       IndexID = 2925
-      Text = '*Do not calc batch'
+      Text = 'Jangan hitung jurnal'
     end
     item
       IndexID = 2926
-      Text = '*Document Quantity'
+      Text = 'Kuantitas dokumen'
     end
     item
       IndexID = 2927
-      Text = '*Auto copy info'
+      Text = 'Info salin otomatis'
     end
     item
       IndexID = 2928
-      Text = '*Use default account'
+      Text = 'Gunakan akun standar'
     end
     item
       IndexID = 2929
-      Text = '*Default account'
+      Text = 'Akun standar'
     end
     item
       IndexID = 2930
-      Text = '*No Back-Order'
+      Text = 'Tanpa pesanan tunda'
     end
     item
       IndexID = 2931
-      Text = '*Can'#39't Sell out of Stock'
+      Text = 'Tidak dapat menjual saat stok habis'
     end
     item
       IndexID = 2932
-      Text = '*No Print Confirmation'
+      Text = 'Tanpa konfirmasi cetak'
     end
     item
       IndexID = 2933
-      Text = '*Check reference used'
+      Text = 'Periksa referensi yang digunakan'
     end
     item
       IndexID = 2934
-      Text = '*Can'#39't create items'
+      Text = 'Tidak dapat membuat item'
     end
     item
       IndexID = 2935
-      Text = '*Poll Display'
+      Text = 'Tampilan tiang'
     end
     item
       IndexID = 2936
-      Text = '*Pol DIsplay Connected'
+      Text = 'Tampilan tiang terhubung'
     end
     item
       IndexID = 2937
-      Text = '*Can you see this ??'
+      Text = 'Apakah anda bisa melihat ini??'
     end
     item
       IndexID = 2938
-      Text = '*Default POS Poll'
+      Text = 'Tiang POS standar'
     end
     item
       IndexID = 2939
-      Text = '*2 X 20 chars POS Poll'
+      Text = 'Tiang POS 2 X 20 karakter'
     end
     item
       IndexID = 2940
-      Text = '*Weight Dish'
+      Text = 'Piringan timbangan'
     end
     item
       IndexID = 2941
-      Text = '*Weight Dish connected'
+      Text = 'Piringan timbangan terhubung'
     end
     item
       IndexID = 2942
-      Text = '*Return value from weight dish'
+      Text = 'Nilai kembali dari piringan timbangan'
     end
     item
       IndexID = 2943
-      Text = '*Test'
+      Text = 'Uji'
     end
     item
       IndexID = 2945
-      Text = '*Fast switch Salesperson'
+      Text = 'Peralihan cepat tenaga penjual'
     end
     item
       IndexID = 2946
-      Text = '*Round POS end amount'
+      Text = 'Bulatkan jumlah akhir POS'
     end
     item
       IndexID = 2947
-      Text = '*Show qty on hand'
+      Text = 'Tampilkan jumlah di tangan'
     end
     item
       IndexID = 2948
-      Text = '*Discount PW'
+      Text = 'Kata sandi diskon'
     end
     item
       IndexID = 2949
-      Text = '*Use password for discount'
+      Text = 'Gunakan kata sandi untuk diskon'
     end
     item
       IndexID = 2950
-      Text = '*Use debtor selling price'
+      Text = 'Gunakan harga jual debitur'
     end
     item
       IndexID = 2951
-      Text = '*Drawer'
+      Text = 'Laci'
     end
     item
       IndexID = 2952
       Text = 
-        '*This will remove your current registration and open the enter r' +
-        'egistration form! Do you want to cancel?'
+        'Ini akan menghapus pendaftaran anda saat ini dan membuka formuli' +
+        'r masukan pendaftaran! Apakah anda ingin membatalkan?'
     end
     item
       IndexID = 2953
-      Text = '*Print bacodes'
+      Text = 'Cetak kode batang'
     end
     item
       IndexID = 2954
-      Text = '*Change account'
+      Text = 'Ubah akun'
     end
     item
       IndexID = 2956
-      Text = '*Backup reports'
+      Text = 'Cadangkan laporan'
     end
     item
       IndexID = 2957
-      Text = '*Generate reportman dirs'
+      Text = 'Buat direktori Reportman'
     end
     item
       IndexID = 2958
-      Text = '*Unlink Transaction'
+      Text = 'Batalkan tautan transaksi'
     end
     item
       IndexID = 2959
-      Text = '*Receive Payment'
+      Text = 'Terima pembayaran'
     end
     item
       IndexID = 2960
-      Text = '*Reprint transactions'
+      Text = 'Cetak ulang transaksi'
     end
     item
       IndexID = 2961
-      Text = '*Enter amount to link'
+      Text = 'Masukkan jumlah untuk ditautkan'
     end
     item
       IndexID = 2962
-      Text = '*Suppress Openitem'
+      Text = 'Abaikan item terbuka'
     end
     item
       IndexID = 2963
-      Text = '*Remember inc'
+      Text = 'Ingat inklusif'
     end
     item
       IndexID = 2964
-      Text = '*Printed'
+      Text = 'Dicetak'
     end
     item
       IndexID = 2965
-      Text = '*Select Backup Directory'
+      Text = 'Pilih direktori cadangan'
     end
     item
       IndexID = 2966
-      Text = '*Sample'
+      Text = 'Contoh'
     end
     item
       IndexID = 2967
-      Text = '*Use filter'
+      Text = 'Gunakan filter'
     end
     item
       IndexID = 2968
-      Text = '*Outgoing Mail server identification (SMTP)'
+      Text = 'Identifikasi server surat keluar (SMTP)'
     end
     item
       IndexID = 2969
-      Text = '*Default text'
+      Text = 'Teks standar'
     end
     item
       IndexID = 2970
-      Text = '*Please enter your list'
+      Text = 'Harap masukkan daftar Anda'
     end
     item
       IndexID = 2971
-      Text = '*Your list with comma seperation'
+      Text = 'Daftar anda dengan pemisah koma'
     end
     item
       IndexID = 2972
-      Text = '*Select from delimeted list'
+      Text = 'Pilih dari daftar yang dibatasi'
     end
     item
       IndexID = 2973
-      Text = '*Hide disabled menu items'
+      Text = 'Sembunyikan item menu yang dinonaktifkan'
     end
     item
       IndexID = 2974
-      Text = '*Doc posting'
+      Text = 'Posting dokumen'
     end
     item
       IndexID = 2975
-      Text = '*Link to salesman'
+      Text = 'Tautkan ke tenaga penjual'
     end
     item
       IndexID = 2976
-      Text = '*Edit Qantity'
+      Text = 'Ubah kuantitas'
     end
     item
       IndexID = 2977
-      Text = 'Select New Set of Books Directory'
+      Text = 'Pilih direktori kumpulan buku baru'
     end
     item
       IndexID = 2978
-      Text = 'Known bug fix'
+      Text = 'Perbaikan bug yang diketahui'
     end
     item
       IndexID = 2979
-      Text = 'Opening balance only'
+      Text = 'Saldo awal saja'
     end
     item
       IndexID = 2980
-      Text = 'Show Budget'
+      Text = 'Tampilkan anggaran'
     end
     item
       IndexID = 2981
-      Text = 'Show all stockitems'
+      Text = 'Tampilkan semua item stok'
     end
     item
       IndexID = 2982
-      Text = 'Add unposted'
+      Text = 'Tambah yang belum diposting'
     end
     item
       IndexID = 2983
-      Text = 'Quote Purchase'
+      Text = 'Penawaran/Pesanan'
     end
     item
       IndexID = 2984
-      Text = 'Price inclusive'
+      Text = 'Harga inklusif'
     end
     item
       IndexID = 2985
-      Text = 'Each SalesPerson Separetly'
+      Text = 'Tampilkan stok berjumlah nol'
     end
     item
       IndexID = 2986
-      Text = 'Show All Salespersons'
+      Text = 'Tampilkan semua tenaga penjual'
     end
     item
       IndexID = 2987
-      Text = 'Show Invoice Number'
+      Text = 'Tampilkan no. faktur'
     end
     item
       IndexID = 2988
-      Text = 'Cashup Report'
+      Text = 'Laporan setoran tunai'
     end
     item
       IndexID = 2989
-      Text = 'Sales Report'
+      Text = 'Laporan penjualan'
     end
     item
       IndexID = 2990
-      Text = 'Print Frames'
+      Text = 'Cetak bingkai'
     end
     item
       IndexID = 2991
-      Text = 'Print Logo'
+      Text = 'Cetak logo'
     end
     item
       IndexID = 2992
-      Text = 'No doc posting'
+      Text = 'Tanpa posting dokumen'
     end
     item
       IndexID = 2993
-      Text = 'Custom limitation'
+      Text = 'Batasan kustom'
     end
     item
       IndexID = 2994
-      Text = 'Hide'
+      Text = 'Sembunyikan'
     end
     item
       IndexID = 2995
-      Text = 'Disable'
+      Text = 'Nonaktifkan'
     end
     item
       IndexID = 2996
-      Text = 'Show'
+      Text = 'Tampilkan'
     end
     item
       IndexID = 2997
-      Text = 'Enable'
+      Text = 'Aktifkan'
     end
     item
       IndexID = 2998
-      Text = 'Replication'
+      Text = 'Replikasi'
     end
     item
       IndexID = 2999
-      Text = 'Open Batches'
+      Text = 'Jurnal terbuka'
     end
     item
       IndexID = 3000
-      Text = 'Upload Only'
+      Text = 'Unggah saja'
     end
     item
       IndexID = 3001
-      Text = 'Download Only'
+      Text = 'Hanya unduh'
     end
     item
       IndexID = 3002
-      Text = 'Creating Directory'
+      Text = 'Membuat direktori...'
     end
     item
       IndexID = 3003
-      Text = 'Copying set of books'
+      Text = 'Menyalin kumpulan buku...'
     end
     item
       IndexID = 3004
-      Text = 'Copy from a set of books'
+      Text = 'Salin dari kumpulan buku'
     end
     item
       IndexID = 3005
-      Text = 'of'
+      Text = 'dari'
     end
     item
       IndexID = 3006
-      Text = 'Tranfert Started To'
+      Text = 'Transfer dimulai ke'
     end
     item
       IndexID = 3007
-      Text = 'Only this account'
+      Text = 'Hanya akun ini'
     end
     item
       IndexID = 3008
-      Text = 'A new year has been opend succesfull!'
+      Text = 'Tahun baru telah berhasil dibuka!'
     end
     item
       IndexID = 3009
-      Text = 'Moving totals...'
+      Text = 'Memindahkan total...'
     end
     item
       IndexID = 3010
       Text = 
-        'The reference has been used in a other document please check you' +
-        'r input for doubles'
+        'Referensi telah digunakan di dokumen lain! Silakan periksa masuk' +
+        'an anda untuk duplikasi!'
     end
     item
       IndexID = 3011
-      Text = 'All documents'
+      Text = 'Semua dokumen'
     end
     item
       IndexID = 3012
-      Text = 'All years'
+      Text = 'Semua tahun'
     end
     item
       IndexID = 3013
-      Text = 'Bank balance as per bank statement'
+      Text = 'Saldo bank sesuai rekening koran'
     end
     item
       IndexID = 3014
-      Text = 'Cash book report'
+      Text = 'Laporan rekonsiliasi bank per tanggal'
     end
     item
       IndexID = 3015
-      Text = 'Reconciled Bank Balance'
+      Text = 'Saldo bank yang direkonsiliasi'
     end
     item
       IndexID = 3016
-      Text = '*Bank balance according to <@APPNAME@> at'
+      Text = 'Saldo bank menurut <@APPNAME@> pada'
     end
     item
       IndexID = 3017
-      Text = 'diverence'
+      Text = 'Perbedaan'
     end
     item
       IndexID = 3018
-      Text = 'Warning - This report contains unposted batches'
+      Text = 'Peringatan - Laporan ini berisi jurnal yang belum diposting!'
     end
     item
       IndexID = 3019
-      Text = 'Show zero stock count'
+      Text = 'Tampilkan hitungan stok nol'
     end
     item
       IndexID = 3020
-      Text = 'Convert invoice to purchase'
+      Text = 'Konversi faktur menjadi pesanan'
     end
     item
       IndexID = 3021
-      Text = 'Copy document'
+      Text = 'Salin dokumen'
     end
     item
       IndexID = 3022
-      Text = 'Set reportinggroup 1'
+      Text = 'Atur grup pelaporan 1'
     end
     item
       IndexID = 3023
-      Text = 'Set reportinggroup 2'
+      Text = 'Atur grup pelaporan 2'
     end
     item
       IndexID = 3024
-      Text = 'open OSCommerce order in browser'
+      Text = 'Buka pesanan osCommerce di peramban'
     end
     item
       IndexID = 3025
-      Text = 'Open OSCOmmerce customer in browser'
+      Text = 'Buka pelanggan osCommerce di peramban'
     end
     item
       IndexID = 3026
-      Text = 'Bank name'
+      Text = 'Nama bank'
     end
     item
       IndexID = 3027
-      Text = 'Use default tax'
+      Text = 'Gunakan PPN standar'
     end
     item
       IndexID = 3028
-      Text = 'Default tax account'
+      Text = 'Akun PPN standar'
     end
     item
       IndexID = 3029
-      Text = 'Firtsname'
+      Text = 'Nama depan'
     end
     item
       IndexID = 3030
-      Text = 'Connect to remote Database'
+      Text = 'Hubungkan ke basis data jarak jauh'
     end
     item
       IndexID = 3031
-      Text = 'Inclusive mode?'
+      Text = 'Mode inklusif'
     end
     item
       IndexID = 3032
-      Text = 'Single line mode'
+      Text = 'Mode baris tunggal'
     end
     item
       IndexID = 3033
-      Text = 'Auto alias'
+      Text = 'Alias otomatis'
     end
     item
       IndexID = 3034
-      Text = 'Remember inc'
+      Text = 'Ingat inklusif'
     end
     item
       IndexID = 3035
-      Text = 'Use link tax'
+      Text = 'Gunakan tautan PPN'
     end
     item
       IndexID = 3036
-      Text = 'Link tax'
+      Text = 'Tautkan PPN'
     end
     item
       IndexID = 3037
-      Text = 'Contra tax'
+      Text = 'Kontra PPN'
     end
     item
       IndexID = 3038
-      Text = 'Openitem Account'
+      Text = 'Akun item terbuka'
     end
     item
       IndexID = 3039
-      Text = 'Pos Report Option'
+      Text = 'Opsi laporan POS'
     end
     item
       IndexID = 3040
-      Text = 'Use Doc Date'
+      Text = 'Gunakan tanggal dokumen'
     end
     item
       IndexID = 3041
-      Text = 'Contra ref as account Ref'
+      Text = 'Ref kontra sebagai ref akun'
     end
     item
       IndexID = 3042
-      Text = 'Auto refresh'
+      Text = 'Perbarui otomatis'
     end
     item
       IndexID = 3043
-      Text = 'Interval (sec)'
+      Text = 'Interval (detik)'
     end
     item
       IndexID = 3044
-      Text = 'Limit Doc SQL'
+      Text = 'Batasi SQL dokumen'
     end
     item
       IndexID = 3045
-      Text = 'Like search for strings'
+      Text = 'Cari rangkaian teks'
     end
     item
       IndexID = 3046
-      Text = 'Sub-total'
+      Text = 'Subtotal'
     end
     item
       IndexID = 3047
-      Text = 'Amount entry'
+      Text = 'Entri jumlah'
     end
     item
       IndexID = 3048
-      Text = 'Document row'
+      Text = 'Baris dokumen'
     end
     item
       IndexID = 3049
-      Text = 'Import a posted batch'
+      Text = 'Impor jurnal yang sudah diposting'
     end
     item
       IndexID = 3050
-      Text = 'Closed!'
+      Text = 'Gunakan PPN standar'
     end
     item
       IndexID = 3051
-      Text = 'Account starts with'
+      Text = 'Akun dimulai dengan'
     end
     item
       IndexID = 3052
-      Text = 'Expand after refresh'
+      Text = 'Perluas setelah diperbarui'
     end
     item
       IndexID = 3053
-      Text = 'Use link tax'
+      Text = 'Gunakan tautan PPN'
     end
     item
       IndexID = 3054
-      Text = 'Link tax'
+      Text = 'Tautkan PPN'
     end
     item
       IndexID = 3055
-      Text = 'Contra tax'
+      Text = 'Kontra PPN'
     end
     item
       IndexID = 3056
-      Text = 'Refresh'
+      Text = 'Perbarui'
     end
     item
       IndexID = 3057
-      Text = 'Expand'
+      Text = 'Perluas'
     end
     item
       IndexID = 3058
-      Text = 'Collaps'
+      Text = 'Tutup'
     end
     item
       IndexID = 3059
-      Text = 'Move left'
+      Text = 'Pindah ke kiri'
     end
     item
       IndexID = 3060
-      Text = 'Subaccounts'
+      Text = 'Sub-akun'
     end
     item
       IndexID = 3061
-      Text = 'Total period budged'
+      Text = 'Total anggaran periode'
     end
     item
       IndexID = 3062
-      Text = 'Set period buged'
+      Text = 'Atur anggaran periode'
     end
     item
       IndexID = 3063
-      Text = 'Financial Categorie'
+      Text = 'Kategori keuangan'
     end
     item
       IndexID = 3064
-      Text = 'Not a valid account'
+      Text = 'Akun tidak valid!'
     end
     item
       IndexID = 3065
-      Text = 'No user rights!'
+      Text = 'Tidak ada hak akses pengguna!'
     end
     item
       IndexID = 3066
-      Text = 'Field missing please check importfile!'
+      Text = 'Bidang hilang! Silakan periksa berkas impor!'
     end
     item
       IndexID = 3067
-      Text = 'Error in closing shift please try again.'
+      Text = 'Kesalahan saat menutup shift! Silakan coba lagi!'
     end
     item
       IndexID = 3068
-      Text = 'Error no account found'
+      Text = 'Kesalahan : Akun tidak ditemukan!'
     end
     item
       IndexID = 3070
-      Text = 'Clieop comment lines must be filled'
+      Text = 'Baris komentar Clieop harus diisi!'
     end
     item
       IndexID = 3071
-      Text = 'You need to enter a bank account number'
+      Text = 'Anda harus memasukkan nomor rekening bank!'
     end
     item
       IndexID = 3072
-      Text = 'Abort import!'
+      Text = 'Batalkan impor!'
     end
     item
       IndexID = 3073
-      Text = 'Group still has nesteled groups remove them first!'
+      Text = 'Grup masih memiliki grup bersarang! Hapus terlebih dahulu!'
     end
     item
       IndexID = 3074
       Text = 
-        'Theres still accounts using this group please remove them first!' +
-        ' (Firts account ='
+        'Masih ada akun yang menggunakan grup ini! Harap hapus terlebih d' +
+        'ahulu! (Akun pertama ='
     end
     item
       IndexID = 3075
       Text = 
-        'Theres still documents using this group please remove them first' +
-        '!'
+        'Masih ada dokumen yang menggunakan grup ini! Harap hapus terlebi' +
+        'h dahulu!'
     end
     item
       IndexID = 3076
-      Text = 'Theres still stock using this group please remove them first!'
+      Text = 
+        'Masih ada stok yang menggunakan grup ini! Harap hapus terlebih d' +
+        'ahulu!'
     end
     item
       IndexID = 3077
-      Text = 'No connection assigned'
+      Text = 'Tidak ada koneksi yang ditetapkan!'
     end
     item
       IndexID = 3078
-      Text = 'Accountcode already exist!'
+      Text = 'Kode akun sudah ada!'
     end
     item
       IndexID = 3079
-      Text = 'Quote(s) are generated!'
+      Text = 'Penawaran dibuat!'
     end
     item
       IndexID = 3080
-      Text = 'Do you wish to post on the retained earnings account?'
+      Text = 'Apakah anda ingin memposting pada akun laba ditahan?'
     end
     item
       IndexID = 3081
-      Text = 'Reset stock?'
+      Text = 'Atur ulang stok?'
     end
     item
       IndexID = 3082
-      Text = 'file format Import Not Implemented'
+      Text = 'Format berkas impor tidak diterapkan!'
     end
     item
       IndexID = 3083
-      Text = 'This item is out of stock! Auto adjusting qty'
+      Text = 'Barang ini habis! Menyesuaikan jumlah secara otomatis!'
     end
     item
       IndexID = 3084
-      Text = 'Finished'
+      Text = 'Selesai!'
     end
     item
       IndexID = 3085
-      Text = 'Empty code!'
+      Text = 'Kode kosong!'
     end
     item
       IndexID = 3086
-      Text = 'Code exists!'
+      Text = 'Kode sudah ada!'
     end
     item
       IndexID = 3087
-      Text = 'Number %s is not a valide 11 proof number!'
+      Text = 'Nomor %s bukan nomor bukti 11 yang valid!'
     end
     item
       IndexID = 3088
-      Text = 'Use barcode printer'
+      Text = 'Pencetak kode batang'
     end
     item
       IndexID = 3089
-      Text = 'Advanced mode'
+      Text = 'Mode lanjutan'
     end
     item
       IndexID = 3090
-      Text = 'Updatetype'
+      Text = 'Tipe pembaruan'
     end
     item
       IndexID = 3091
-      Text = 'Setup stock'
+      Text = 'Pengaturan stok'
     end
     item
       IndexID = 3092
-      Text = 'Setup group'
+      Text = 'Siapkan grup'
     end
     item
       IndexID = 3093
-      Text = 'Transactiondate'
+      Text = 'Tanggal transaksi'
     end
     item
       IndexID = 3094
-      Text = 'Prefferd supplier 1'
+      Text = 'Pemasok pilihan 1'
     end
     item
       IndexID = 3095
-      Text = 'Prefferd supplier 2'
+      Text = 'Pemasok pilihan 2'
     end
     item
       IndexID = 3096
-      Text = 'Create houre invoices'
+      Text = 'Buat faktur untuk jam kerja'
     end
     item
       IndexID = 3097
-      Text = 'Limit Stock SQL'
+      Text = 'Batasi SQL stok'
     end
     item
       IndexID = 3098
-      Text = 'Inc unposted invoices'
+      Text = 'Termasuk faktur yang belum diposting'
     end
     item
       IndexID = 3099
-      Text = 'Projects'
+      Text = 'Proyek'
     end
     item
       IndexID = 3100
       Text = 
-        'You are trying to connect to a remote database! This version doe' +
-        's not support that by default! Please contact us at https://www.' +
-        'osfinancials.org/ to support the project and receive your multi-' +
-        'user license!'
+        'Anda mencoba menghubungkan ke basis data jarak jauh! Versi ini t' +
+        'idak mendukung hal tersebut secara standar! Silakan hubungi kami' +
+        ' di https://www.osfinancials.org/ untuk mendukung proyek dan men' +
+        'erima lisensi multi-pengguna anda!'
     end
     item
       IndexID = 3101
-      Text = 'Unregistered'
+      Text = 'Tidak terdaftar'
     end
     item
       IndexID = 3102
-      Text = 'registered to'
+      Text = 'Terdaftar untuk'
     end
     item
       IndexID = 3103
-      Text = 'Single user'
+      Text = 'Pengguna tunggal'
     end
     item
       IndexID = 3104
-      Text = 'TLedgerviewer'
+      Text = 'Penganalisis buku besar'
     end
     item
       IndexID = 3105
-      Text = 'Serial number'
+      Text = 'Nomor seri'
     end
     item
       IndexID = 3106
-      Text = 'Column balans'
+      Text = 'Saldo kolom'
     end
     item
       IndexID = 3107
-      Text = 'Column balans debtor'
+      Text = 'Saldo kolom debitur'
     end
     item
       IndexID = 3108
-      Text = 'Column balans creditor'
+      Text = 'Saldo kolom kreditur'
     end
     item
       IndexID = 3109
-      Text = 'Document layout'
+      Text = 'Berkas tata letak 1'
     end
     item
       IndexID = 3110
-      Text = 'Creditnote layout'
+      Text = 'Berkas tata letak 2'
     end
     item
       IndexID = 3111
-      Text = 'Quote layout'
+      Text = 'Berkas tata letak 3'
     end
     item
       IndexID = 3112
-      Text = 'Taal'
+      Text = 'Bahasa'
     end
     item
       IndexID = 3113
@@ -10637,15 +10672,15 @@ object TTranslationSaveObject
     item
       IndexID = 3117
       Text = 
-        'Unregistered version! Please buy this plugin at https://www.osfi' +
-        'nancials.org/en/webshop and support the <@APPNAME@> development.'
+        'Versi tidak terdaftar! Silakan beli plugin ini di https://www.os' +
+        'financials.org/en/webshop dan dukung pengembangan <@APPNAME@>.'
     end
     item
       IndexID = 3118
       Text = 
-        'This demo plugin allows %s records to be entered. If you need mo' +
-        're, please buy the product at https://www.osfinancials.org/en/we' +
-        'bshop'
+        'Plugin demo ini memungkinkan %s rekaman untuk dimasukkan. Jika a' +
+        'nda membutuhkan lebih banyak, silakan beli produk di https://www' +
+        '.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3119
@@ -10654,88 +10689,91 @@ object TTranslationSaveObject
     item
       IndexID = 3120
       Text = 
-        ':Time license expires in 1 day! Please visit https://www.osfinan' +
-        'cials.org/en/webshop '
+        ':Lisensi waktu berakhir dalam 1 hari! Silakan kunjungi https://w' +
+        'ww.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3121
       Text = 
-        ':Time license expires in 1 day! Please visit https://www.osfinan' +
-        'cials.org/en/webshop '
+        ':Lisensi waktu berakhir dalam %s hari! Silakan kunjungi https://' +
+        'www.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3122
       Text = 
-        'Time license expired! Please visit https://www.osfinancials.org/' +
-        'en/webshop '
+        'Lisensi waktu telah berakhir! Silakan kunjungi https://www.osfin' +
+        'ancials.org/en/webshop'
     end
     item
       IndexID = 3123
-      Text = 'Welcome to <@APPNAME@>'
+      Text = 'Selamat datang di <@APPNAME@>'
     end
     item
       IndexID = 3124
-      Text = 'Forward'
+      Text = 'Maju'
     end
     item
       IndexID = 3125
-      Text = 'Auto open when starting <@APPNAME@>'
+      Text = 'Buka otomatis saat memulai <@APPNAME@>'
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Konversi <@APPNAME@> ke versi ini'
     end
     item
       IndexID = 1000000
-      Text = 'Welcome to osFinancials'
+      Text = 
+        'File Master Bahasa Indonesia untuk Indonesia (id-ID) - Jangan di' +
+        'terjemahkan. Untuk menyesuaikan file bahasa ini, buatlah salinan' +
+        '.'
     end
     item
       IndexID = 1000001
-      Text = 'Welcome to <@APPNAME@>'
+      Text = 'Selamat datang di <@APPNAME@>'
     end
     item
       IndexID = 900000
-      Text = 'Parcelware code'
+      Text = 'Kode Parcelware'
     end
     item
       IndexID = 900001
-      Text = 'Verstuur naar parcelware'
+      Text = 'Kirim ke Parcelware'
     end
     item
       IndexID = 900002
-      Text = 'House nr'
+      Text = 'No. rumah'
     end
     item
       IndexID = 900003
-      Text = 'House ext'
+      Text = 'Unit no. rumah'
     end
     item
       IndexID = 900004
-      Text = 'Street'
+      Text = 'Jalan'
     end
     item
       IndexID = 3325
-      Text = '<- Set selected to this price'
+      Text = '<- Atur yang dipilih ke harga ini'
     end
     item
       IndexID = 3326
-      Text = 'Openitem'
+      Text = 'Item terbuka'
     end
     item
       IndexID = 3327
-      Text = 'Clieop comment'
+      Text = 'Komentar Clieop'
     end
     item
       IndexID = 3328
-      Text = 'City'
+      Text = 'Kota'
     end
     item
       IndexID = 3329
-      Text = 'Cur'
+      Text = 'Mata uang'
     end
     item
       IndexID = 3330
-      Text = 'Quote'
+      Text = 'Penawaran'
     end
     item
       IndexID = 3331
@@ -10747,198 +10785,203 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3333
-      Text = 'Order'
+      Text = 'Pesanan'
     end
     item
       IndexID = 3334
-      Text = 'Exp'
+      Text = 'Kedaluwarsa'
     end
     item
       IndexID = 3335
-      Text = 'Log level'
+      Text = 'Tingkat log'
     end
     item
       IndexID = 3336
-      Text = 'Next batch nr'
+      Text = 'No. jurnal berikutnya'
     end
     item
       IndexID = 3337
-      Text = 'Backcolor'
+      Text = 'Warna latar'
     end
     item
       IndexID = 3338
-      Text = 'Frontcolor'
+      Text = 'Warna font'
     end
     item
       IndexID = 3339
-      Text = 'Link image'
+      Text = 'Tautkan gambar'
     end
     item
       IndexID = 3340
-      Text = 'Clear image'
+      Text = 'Bersihkan gambar'
     end
     item
       IndexID = 3341
-      Text = 'Init all translations and plugins'
+      Text = 'Inisialisasi semua terjemahan dan plugin'
     end
     item
       IndexID = 3342
-      Text = 'Show colors'
+      Text = 'Tampilkan warna'
     end
     item
       IndexID = 3343
-      Text = 'Find invalide'
+      Text = 'Temukan yang tidak valid'
     end
     item
       IndexID = 3344
-      Text = 'Adjust payment date'
+      Text = 'Sesuaikan tanggal pembayaran'
     end
     item
       IndexID = 3345
       Text = 
-        'Consolidating lines and using tax will mess up your tax report! ' +
-        'please make sure you do not use tax or do not consolidate lines.' +
-        '!'
+        'Menggabungkan baris dan menggunakan pajak akan mengacaukan lapor' +
+        'an pajak anda! Harap pastikan anda tidak menggunakan pajak atau ' +
+        'tidak menggabungkan baris!'
     end
     item
       IndexID = 3346
-      Text = 'As PDF file'
+      Text = 'Sebagai berkas PDF'
     end
     item
       IndexID = 3347
-      Text = 'Timeslot'
+      Text = 'Slot waktu'
     end
     item
       IndexID = 3348
-      Text = 'Show at startup'
+      Text = 'Tampilkan saat memulai'
     end
     item
       IndexID = 3349
       Text = 
-        'There is document input asossiated with this project do you wish' +
-        ' to continue ? all project data will be lost'
+        'Ada dokumen yang terkait dengan proyek ini! Apakah anda ingin me' +
+        'lanjutkan? Semua data proyek akan hilang!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input asossiated with this project do you w' +
-        'ish to continue ? all project data will be lost'
+        'Ada transaksi yang terkait dengan proyek ini! Apakah anda ingin ' +
+        'melanjutkan? Semua data proyek akan hilang!'
     end
     item
       IndexID = 3351
-      Text = 'There are unposted documents you cannot close this project!'
+      Text = 
+        'Ada dokumen yang belum diposting! Anda tidak dapat menutup proye' +
+        'k ini!'
     end
     item
       IndexID = 3352
-      Text = 'Sales, Purchase, Cost of sales and tax accounts'
+      Text = 'Akun Penjualan, Pembelian, Harga Pokok Penjualan dan PPN'
     end
     item
       IndexID = 3353
-      Text = 'Open transactions only'
+      Text = 'Hanya transaksi terbuka'
     end
     item
       IndexID = 3354
-      Text = 'Remove fault links'
+      Text = 'Hapus tautan yang salah'
     end
     item
       IndexID = 3355
-      Text = 'Transfare transactions'
+      Text = 'Transfer transaksi'
     end
     item
       IndexID = 3356
-      Text = 'Payroll import'
+      Text = 'Impor penggajian'
     end
     item
       IndexID = 3357
-      Text = 'Free selection'
+      Text = 'Pilihan bebas'
     end
     item
       IndexID = 3358
-      Text = 'AutoPymt'
+      Text = 'Pembayaran otomatis'
     end
     item
       IndexID = 3359
-      Text = 'Barcode printer'
+      Text = 'Pencetak kode batang'
     end
     item
       IndexID = 3360
-      Text = 'Label printer'
+      Text = 'Pencetak label'
     end
     item
       IndexID = 3361
-      Text = 'Use multiprinter'
+      Text = 'Gunakan banyak pencetak'
     end
     item
       IndexID = 3362
-      Text = 'change remark'
+      Text = 'Ubah catatan'
     end
     item
       IndexID = 3363
-      Text = 'Please enter change remark'
+      Text = 'Silakan masukkan catatan perubahan'
     end
     item
       IndexID = 3364
-      Text = 'No remaker entered operation aborted!'
+      Text = 'Tidak ada catatan yang dimasukkan, proses dibatalkan!'
     end
     item
       IndexID = 3365
       Text = 
-        'Stock Qty has been changed do you want to retain the current dat' +
-        'abase data?'
+        'Jumlah stok telah diubah! Apakah anda ingin mempertahankan data ' +
+        'database saat ini?'
     end
     item
       IndexID = 3366
-      Text = 'Manual adjust'
+      Text = 'Penyesuaian manual'
     end
     item
       IndexID = 3367
-      Text = 'Continue action %s ?'
+      Text = 'Lanjutkan tindakan %s ?'
     end
     item
       IndexID = 3368
-      Text = 'Standard Column balance'
+      Text = 'Saldo kolom standar'
     end
     item
       IndexID = 3369
       Text = 
-        'The data of this document has changed by a other user or input s' +
-        'creen. %s Do you wish to override the data? '
+        'Data dokumen ini telah diubah oleh pengguna lain atau layar inpu' +
+        't. %s Apakah anda ingin menimpa data tersebut?'
     end
     item
       IndexID = 3370
-      Text = 'User exit!'
+      Text = 'Pengguna keluar!'
     end
     item
       IndexID = 3371
-      Text = 'Do you wish to clear all documents or set them to unposted?'
+      Text = 
+        'Jika anda ingin membersihkan (menghapus) semua dokumen, klik [Ya' +
+        ']. Jika anda ingin mempertahankan semua dokumen dan menetapkanny' +
+        'a sebagai belum diposting, klik [Tidak].'
     end
     item
       IndexID = 3372
-      Text = 'Budget vs actual'
+      Text = 'Anggaran vs realisasi'
     end
     item
       IndexID = 3373
-      Text = 'This year vs last year'
+      Text = 'Tahun ini vs tahun lalu'
     end
     item
       IndexID = 3374
-      Text = 'Tools'
+      Text = 'Alat'
     end
     item
       IndexID = 3375
-      Text = 'External system links'
+      Text = 'Tautan sistem eksternal'
     end
     item
       IndexID = 3376
-      Text = 'financial tools'
+      Text = 'Alat keuangan'
     end
     item
       IndexID = 3377
-      Text = 'Generic plugins'
+      Text = 'Plugin generik'
     end
     item
       IndexID = 3378
-      Text = 'Freefields'
+      Text = 'Bidang bebas'
     end
     item
       IndexID = 3379
@@ -10946,11 +10989,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3380
-      Text = 'Price agreement'
+      Text = 'Perjanjian harga'
     end
     item
       IndexID = 3381
-      Text = 'Stockcheck'
+      Text = 'Periksa stok'
     end
     item
       IndexID = 3382
@@ -10962,131 +11005,131 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3384
-      Text = 'Activa'
+      Text = 'Aktiva'
     end
     item
       IndexID = 3385
-      Text = 'Office'
+      Text = 'Kantor'
     end
     item
       IndexID = 3386
-      Text = 'Sql browser'
+      Text = 'Peramban SQL'
     end
     item
       IndexID = 3387
-      Text = 'Drill down'
+      Text = 'Telusuri'
     end
     item
       IndexID = 3388
-      Text = 'Xml audit file'
+      Text = 'Berkas audit Xml'
     end
     item
       IndexID = 3389
-      Text = 'Pos display'
+      Text = 'Tampilan POS'
     end
     item
       IndexID = 3390
-      Text = 'Send package'
+      Text = 'Kirim paket'
     end
     item
       IndexID = 3391
-      Text = 'Subscriptions'
+      Text = 'Langganan'
     end
     item
       IndexID = 3392
-      Text = 'Web export'
+      Text = 'Ekspor web'
     end
     item
       IndexID = 3393
-      Text = 'Customer on hold'
+      Text = 'Pelanggan ditangguhkan'
     end
     item
       IndexID = 3394
-      Text = 'Document email pro'
+      Text = 'Surel Dokumen Pro'
     end
     item
       IndexID = 3395
-      Text = 'HORECA Pos'
+      Text = 'POS HORECA'
     end
     item
       IndexID = 3396
-      Text = 'RETAIL Pos'
+      Text = 'POS RETAIL'
     end
     item
       IndexID = 3397
-      Text = 'Charter'
+      Text = 'Piagam'
     end
     item
       IndexID = 3398
-      Text = 'Location-Serilization-batches'
+      Text = 'Lokasi-Seri-Batch'
     end
     item
       IndexID = 3400
-      Text = 'Remittance'
+      Text = 'Pengiriman uang'
     end
     item
       IndexID = 3401
-      Text = 'Reportman'
+      Text = 'Manajer laporan'
     end
     item
       IndexID = 3402
-      Text = 'Handytools'
+      Text = 'Alat bantu (Hanya untuk pengguna tingkat lanjut)'
     end
     item
       IndexID = 3403
-      Text = 'Register plugins'
+      Text = 'Daftar plugin'
     end
     item
       IndexID = 3404
-      Text = 'Export / import'
+      Text = 'Ekspor/impor'
     end
     item
       IndexID = 3405
-      Text = 'Stock plugins'
+      Text = 'Plugin stok'
     end
     item
       IndexID = 3406
-      Text = 'Document plugins'
+      Text = 'Plugin dokumen'
     end
     item
       IndexID = 3407
-      Text = 'Branch specific'
+      Text = 'Khusus cabang'
     end
     item
       IndexID = 3408
-      Text = 'Driverschool plugin'
+      Text = 'Plugin sekolah mengemudi'
     end
     item
       IndexID = 3409
-      Text = 'Postalcode / tax id / regno lookup'
+      Text = 'Cari kode pos/ID PPN/No. reg.'
     end
     item
       IndexID = 3410
-      Text = 'Dutch tax plugin'
+      Text = 'Dutch Tax Plugin'
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'PIN CCV'
     end
     item
       IndexID = 3412
-      Text = 'Pos points'
+      Text = 'Poin POS'
     end
     item
       IndexID = 3413
-      Text = 'Controler login'
+      Text = 'Masuk pengawas'
     end
     item
       IndexID = 3414
-      Text = 'Multi user agenda'
+      Text = 'Agenda multi-pengguna'
     end
     item
       IndexID = 3415
-      Text = 'Woodsales'
+      Text = 'Penjualan kayu'
     end
     item
       IndexID = 3416
-      Text = 'Document export import'
+      Text = 'Ekspor impor dokumen'
     end
     item
       IndexID = 3417
@@ -11094,656 +11137,662 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3418
-      Text = 'Plugin load list'
+      Text = 'Daftar pemuatan plugin'
     end
     item
       IndexID = 3419
-      Text = 'Activate plugin'
+      Text = 'Aktifkan plugin'
     end
     item
       IndexID = 3420
-      Text = 'Deactivate plugin'
+      Text = 'Nonaktifkan plugin'
     end
     item
       IndexID = 3421
-      Text = 'Use tabs in stock'
+      Text = 'Gunakan tab pada stok'
     end
     item
       IndexID = 3422
       Text = 
-        'You are not yet registered to post on our forum you will need to' +
-        ' register <@APPNAME@> then you can use that username password to' +
-        ' login to our forum or shop.'
+        'Anda belum terdaftar untuk mengirim pesan di forum kami! Anda pe' +
+        'rlu mendaftarkan <@APPNAME@> agar nama pengguna dan kata sandi t' +
+        'ersebut dapat digunakan untuk masuk ke forum atau toko kami.'
     end
     item
       IndexID = 3423
-      Text = 'Copy to'
+      Text = 'Salin ke'
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this pc can not find)'
+      Text = 'Hapus yang bukan lokal (Buku yang tidak dapat ditemukan PC ini)'
     end
     item
       IndexID = 3425
-      Text = 'Reprint ticket'
+      Text = 'Cetak ulang tiket'
     end
     item
       IndexID = 3426
-      Text = 'Rental / reservations'
+      Text = 'Sewa/reservasi'
     end
     item
       IndexID = 3427
-      Text = 'Calculate minutes'
+      Text = 'Hitung menit'
     end
     item
       IndexID = 3428
-      Text = 'Minutes inactive'
+      Text = 'Menit tidak aktif'
     end
     item
       IndexID = 3429
-      Text = 'Std disc%'
+      Text = '% diskon standar'
     end
     item
       IndexID = 3430
-      Text = 'Document id'
+      Text = 'ID dokumen'
     end
     item
       IndexID = 3431
-      Text = 'webshop/forum login and Newsletters'
+      Text = 'Masuk toko daring/forum dan buletin'
     end
     item
       IndexID = 3432
-      Text = 'Step status'
+      Text = 'Status langkah'
     end
     item
       IndexID = 3433
-      Text = 'Process'
+      Text = 'Proses'
     end
     item
       IndexID = 3434
-      Text = 'Date last action'
+      Text = 'Tanggal tindakan terakhir'
     end
     item
       IndexID = 3435
-      Text = 'Step name'
+      Text = 'Nama langkah'
     end
     item
       IndexID = 3436
-      Text = 'Used time'
+      Text = 'Waktu yang digunakan'
     end
     item
       IndexID = 3437
-      Text = 'View closed'
+      Text = 'Lihat yang ditutup'
     end
     item
       IndexID = 3438
-      Text = 'Belgische btw aangifte'
+      Text = 'Belgium Tax Returns'
     end
     item
       IndexID = 3439
-      Text = 'Retype password'
+      Text = 'Ketik ulang kata sandi'
     end
     item
       IndexID = 3440
-      Text = 'Branches'
+      Text = 'Cabang'
     end
     item
       IndexID = 3441
-      Text = 'Skypename'
+      Text = 'Nama Teams'
     end
     item
       IndexID = 3442
-      Text = 'Reset pass (email new pw to you)'
+      Text = 'Atur ulang kata sandi (Surel kata sandi baru untuk Anda)'
     end
     item
       IndexID = 3443
-      Text = 'Open webshop'
+      Text = 'Buka toko daring'
     end
     item
       IndexID = 3444
-      Text = 'Change password'
+      Text = 'Ubah kata sandi'
     end
     item
       IndexID = 3445
-      Text = 'Please register <@APPNAME@> first!'
+      Text = 'Harap daftarkan <@APPNAME@> terlebih dahulu!'
     end
     item
       IndexID = 3446
-      Text = 'To register plugins you need to register <@APPNAME@> first!'
+      Text = 
+        'Untuk mendaftarkan plugin, anda harus mendaftarkan <@APPNAME@> t' +
+        'erlebih dahulu!'
     end
     item
       IndexID = 3447
-      Text = 'Timelicence'
+      Text = 'Lisensi waktu'
     end
     item
       IndexID = 3448
-      Text = 'Current total'
+      Text = 'Total saat ini'
     end
     item
       IndexID = 3449
-      Text = 'No points used! please us points or close window!'
+      Text = 
+        'Tidak ada poin yang digunakan! Harap gunakan poin atau tutup jen' +
+        'dela!'
     end
     item
       IndexID = 3450
-      Text = 'Use point'
+      Text = 'Gunakan poin'
     end
     item
       IndexID = 3451
-      Text = 'Current points'
+      Text = 'Poin saat ini'
     end
     item
       IndexID = 3452
-      Text = 'Points to use'
+      Text = 'Poin yang akan digunakan'
     end
     item
       IndexID = 3453
-      Text = 'General DIV ledger'
+      Text = 'Perbedaan buku besar umum'
     end
     item
       IndexID = 3454
-      Text = 'Symbol'
+      Text = 'Simbol'
     end
     item
       IndexID = 3455
-      Text = 'Rate'
+      Text = 'Kurs'
     end
     item
       IndexID = 3465
-      Text = 'Tax classes'
+      Text = 'Kelas PPN'
     end
     item
       IndexID = 3466
-      Text = 'Tax class'
+      Text = 'Kelas PPN'
     end
     item
       IndexID = 3467
-      Text = 'Force stocktype check'
+      Text = 'Paksa pemeriksaan tipe stok'
     end
     item
       IndexID = 3468
-      Text = 'Default costgroup'
+      Text = 'Grup biaya standar'
     end
     item
       IndexID = 3469
-      Text = 'Workflow setup'
+      Text = 'Persiapan alur kerja'
     end
     item
       IndexID = 3470
-      Text = 'Currencies'
+      Text = 'Mata uang'
     end
     item
       IndexID = 3471
-      Text = 'I have read this instruction and i understaind the action!'
+      Text = 'Saya telah membaca instruksi ini, dan saya memahami tindakannya!'
     end
     item
       IndexID = 3472
-      Text = 'Payment discount'
+      Text = 'Diskon pembayaran'
     end
     item
       IndexID = 3473
-      Text = 'Payment diverence'
+      Text = 'Perbedaan pembayaran'
     end
     item
       IndexID = 3474
-      Text = 'Auto process'
+      Text = 'Proses otomatis'
     end
     item
       IndexID = 3475
-      Text = 'Outlook sync'
+      Text = 'Sinkronisasi Outlook'
     end
     item
       IndexID = 3476
-      Text = 'Sync to <@APPNAME@>'
+      Text = 'Sinkronkan ke <@APPNAME@>'
     end
     item
       IndexID = 3477
-      Text = 'From <@APPNAME@> to outlook'
+      Text = 'Dari <@APPNAME@> ke Outlook'
     end
     item
       IndexID = 3478
-      Text = 'Sync Email'
+      Text = 'Sinkronkan surel'
     end
     item
       IndexID = 3479
-      Text = 'Email link'
+      Text = 'Tautan surel'
     end
     item
       IndexID = 3480
-      Text = 'Outlook syngroniser'
+      Text = 'Penyingkron Outlook'
     end
     item
       IndexID = 3481
-      Text = 'Document links'
+      Text = 'Tautan dokumen'
     end
     item
       IndexID = 3482
-      Text = 'Links from'
+      Text = 'Tautan dari'
     end
     item
       IndexID = 3483
-      Text = 'Links to'
+      Text = 'Tautan ke'
     end
     item
       IndexID = 3484
-      Text = 'Link'
+      Text = 'Tautan'
     end
     item
       IndexID = 3485
-      Text = 'Where am i?'
+      Text = 'Di mana saya?'
     end
     item
       IndexID = 3486
-      Text = 'Step hint'
+      Text = 'Petunjuk langkah'
     end
     item
       IndexID = 3487
-      Text = 'Rights'
+      Text = 'Hak akses'
     end
     item
       IndexID = 3488
-      Text = 'Add step'
+      Text = 'Tambah langkah'
     end
     item
       IndexID = 3489
-      Text = 'Edit step'
+      Text = 'Ubah langkah'
     end
     item
       IndexID = 3490
-      Text = 'Delete step'
+      Text = 'Hapus langkah'
     end
     item
       IndexID = 3491
-      Text = 'Transition'
+      Text = 'Transisi'
     end
     item
       IndexID = 3492
-      Text = 'Create Transition'
+      Text = 'Buat transisi'
     end
     item
       IndexID = 3493
-      Text = 'Duration'
+      Text = 'Durasi'
     end
     item
       IndexID = 3494
-      Text = 'Years'
+      Text = 'Tahun'
     end
     item
       IndexID = 3495
-      Text = 'Status text'
+      Text = 'Teks status'
     end
     item
       IndexID = 3496
-      Text = 'Screentype'
+      Text = 'Tipe layar'
     end
     item
       IndexID = 3497
-      Text = 'Stepname'
+      Text = 'Nama langkah'
     end
     item
       IndexID = 3498
-      Text = 'Stepdata'
+      Text = 'Data langkah'
     end
     item
       IndexID = 3499
       Text = 
-        'You still have a detail screen open press cancel or save to clos' +
-        'e.'
+        'Anda masih memiliki layar detail yang terbuka! Klik [Batal] atau' +
+        ' [Simpan] untuk menutup!'
     end
     item
       IndexID = 3500
-      Text = 'Add transition'
+      Text = 'Tambah transisi'
     end
     item
       IndexID = 3501
-      Text = 'Condition'
+      Text = 'Kondisi'
     end
     item
       IndexID = 3502
-      Text = 'Next process date'
+      Text = 'Tanggal proses berikutnya'
     end
     item
       IndexID = 3503
-      Text = 'Curent value'
+      Text = 'Nilai saat ini'
     end
     item
       IndexID = 3504
-      Text = 'Purchase date'
+      Text = 'Tanggal pembelian'
     end
     item
       IndexID = 3505
-      Text = 'Write-off type'
+      Text = 'Tipe penghapusan'
     end
     item
       IndexID = 3506
-      Text = 'Write-off period'
+      Text = 'Periode penghapusan'
     end
     item
       IndexID = 3507
-      Text = 'Linked transaction'
+      Text = 'Transaksi tertaut'
     end
     item
       IndexID = 3508
-      Text = 'Rest-amount'
+      Text = 'Sisa jumlah'
     end
     item
       IndexID = 3509
-      Text = 'Write-off percentage'
+      Text = 'Persentase penghapusan'
     end
     item
       IndexID = 3510
-      Text = 'Next write-off amount'
+      Text = 'Jumlah penghapusan berikutnya'
     end
     item
       IndexID = 3511
-      Text = 'Total write-off on ledger'
+      Text = 'Total penghapusan pada buku besar'
     end
     item
       IndexID = 3512
-      Text = 'Needs processing'
+      Text = 'Perlu diproses'
     end
     item
       IndexID = 3513
-      Text = 'New transactions'
+      Text = 'Transaksi baru'
     end
     item
       IndexID = 3514
-      Text = 'Add manual'
+      Text = 'Tambah manual'
     end
     item
       IndexID = 3515
-      Text = 'Posted transactions'
+      Text = 'Transaksi terposting'
     end
     item
       IndexID = 3516
-      Text = 'Process (selected) lines'
+      Text = 'Proses baris (terpilih)'
     end
     item
       IndexID = 3517
-      Text = 'Purchase amount'
+      Text = 'Jumlah pembelian'
     end
     item
       IndexID = 3518
-      Text = 'Activa'
+      Text = 'Aktiva'
     end
     item
       IndexID = 3519
-      Text = 'Add (selected) lines'
+      Text = 'Tambah baris (terpilih)'
     end
     item
       IndexID = 3520
-      Text = 'add consolidated'
+      Text = 'Tambah konsolidasi'
     end
     item
       IndexID = 3521
-      Text = 'Show for this user'
+      Text = 'Tampilkan untuk pengguna ini'
     end
     item
       IndexID = 3522
-      Text = 'Selection'
+      Text = 'Seleksi'
     end
     item
       IndexID = 3523
-      Text = 'Adjust remittance date of selection to :'
+      Text = 'Sesuaikan tanggal remitansi pilihan ke :'
     end
     item
       IndexID = 3524
-      Text = 'No auto incasso'
+      Text = 'Tanpa pembayaran otomatis'
     end
     item
       IndexID = 3525
-      Text = 'With a remittance date from'
+      Text = 'Dengan tanggal remitansi dari'
     end
     item
       IndexID = 3526
-      Text = 'Openitems with paydate from'
+      Text = 'Item terbuka dengan tanggal bayar dari'
     end
     item
       IndexID = 3527
-      Text = 'Email filter'
+      Text = 'Filter email'
     end
     item
       IndexID = 3528
-      Text = 'Email selected'
+      Text = 'Email terpilih'
     end
     item
       IndexID = 3529
-      Text = 'Edit remittance'
+      Text = 'Ubah remitansi'
     end
     item
       IndexID = 3530
-      Text = 'Print all'
+      Text = 'Cetak semua'
     end
     item
       IndexID = 3531
-      Text = 'Edit report'
+      Text = 'Ubah laporan'
     end
     item
       IndexID = 3532
-      Text = 'Show report'
+      Text = 'Tampilkan laporan'
     end
     item
       IndexID = 3533
-      Text = 'Default days no remittance'
+      Text = 'Standar hari tanpa remitansi'
     end
     item
       IndexID = 3534
-      Text = 'Update multimedia'
+      Text = 'Perbarui multimedia'
     end
     item
       IndexID = 3535
       Text = 
-        'This action will adjust the lats date remittance at the "selecte' +
-        'd" debtors. Do you wish to continue?'
+        'Tindakan ini akan menyesuaikan tanggal remitansi terakhir pada d' +
+        'ebitur "terpilih"! Apakah anda ingin melanjutkan?'
     end
     item
       IndexID = 3536
       Text = 
-        'This action will adjust the lats date remittance at the "ALL VIS' +
-        'IBLE" debtors. Do you wish to continue?'
+        'Tindakan ini akan menyesuaikan tanggal remitansi terakhir pada "' +
+        'SEMUA YANG TERLIHAT" debitur! Apakah anda ingin melanjutkan?'
     end
     item
       IndexID = 3537
-      Text = 'Popup if there are transactions'
+      Text = 'Munculan jika ada transaksi'
     end
     item
       IndexID = 3538
-      Text = 'Date oldest transaction'
+      Text = 'Tanggal transaksi terlama'
     end
     item
       IndexID = 3539
-      Text = 'Date last remittance'
+      Text = 'Tanggal remitansi terakhir'
     end
     item
       IndexID = 3540
-      Text = 'Design edit fields'
+      Text = 'Desain kolom ubah'
     end
     item
       IndexID = 3541
-      Text = 'Design search fields'
+      Text = 'Desain kolom cari'
     end
     item
       IndexID = 3542
-      Text = 'Search sql'
+      Text = 'Cari SQL'
     end
     item
       IndexID = 3543
-      Text = 'Lookup language'
+      Text = 'Cari bahasa'
     end
     item
       IndexID = 3544
-      Text = 'Type of control'
+      Text = 'Tipe kontrol'
     end
     item
       IndexID = 3545
-      Text = 'Heigth'
+      Text = 'Tinggi'
     end
     item
       IndexID = 3546
-      Text = 'Size'
+      Text = 'Ukuran'
     end
     item
       IndexID = 3547
-      Text = 'Translation'
+      Text = 'Terjemahan'
     end
     item
       IndexID = 3548
-      Text = 'Col origin'
+      Text = 'Kolom asal'
     end
     item
       IndexID = 3549
-      Text = 'Save and rebuild'
+      Text = 'Simpan dan bangun ulang'
     end
     item
       IndexID = 3550
-      Text = 'Copy as new'
+      Text = 'Salin sebagai baru'
     end
     item
       IndexID = 3551
-      Text = 'Gen on table'
+      Text = 'Hasilkan pada tabel'
     end
     item
       IndexID = 3552
-      Text = 'Sql and extra data'
+      Text = 'SQL dan data tambahan'
     end
     item
       IndexID = 3553
-      Text = 'Fieldtype'
+      Text = 'Tipe kolom'
     end
     item
       IndexID = 3554
-      Text = 'Default value'
+      Text = 'Nilai standar'
     end
     item
       IndexID = 3555
-      Text = 'Write off for %s ended do you want to clear the activa accounts?'
+      Text = 
+        'Penghapusan untuk %s berakhir, apakah Anda ingin mengosongkan ak' +
+        'un aktiva?'
     end
     item
       IndexID = 3556
-      Text = 'Project'
+      Text = 'Proyek'
     end
     item
       IndexID = 3557
-      Text = 'Create entries'
+      Text = 'Buat entri'
     end
     item
       IndexID = 3558
-      Text = 'Entries createded!'
+      Text = 'Entri berhasil dibuat!'
     end
     item
       IndexID = 3559
-      Text = 'Bulk time entry'
+      Text = 'Entri waktu massal'
     end
     item
       IndexID = 3560
-      Text = 'Stock out'
+      Text = 'Stok keluar'
     end
     item
       IndexID = 3561
-      Text = 'Stock in'
+      Text = 'Stok masuk'
     end
     item
       IndexID = 3562
-      Text = 'Limit rows'
+      Text = 'Batasi baris'
     end
     item
       IndexID = 3563
-      Text = 'User tab'
+      Text = 'Tab pengguna'
     end
     item
       IndexID = 3564
-      Text = 'Auto learn'
+      Text = 'Belajar otomatis'
     end
     item
       IndexID = 3565
-      Text = 'Unlinked items'
+      Text = 'Item tidak tertaut'
     end
     item
       IndexID = 3567
-      Text = 'Show inactive'
+      Text = 'Tampilkan yang dinonaktifkan'
     end
     item
       IndexID = 3568
-      Text = 'Quotes per period'
+      Text = 'Penawaran per periode'
     end
     item
       IndexID = 3569
-      Text = 'Credits per period'
+      Text = 'Nota kredit per periode'
     end
     item
       IndexID = 3570
-      Text = 'Invoices per period'
+      Text = 'Faktur per periode'
     end
     item
       IndexID = 3571
-      Text = 'Sales per product'
+      Text = 'Penjualan per produk'
     end
     item
       IndexID = 3572
-      Text = 'Orders per period'
+      Text = 'Pesanan per periode'
     end
     item
       IndexID = 3573
-      Text = 'Purchase per period'
+      Text = 'Pembelian per periode'
     end
     item
       IndexID = 3574
-      Text = 'Returnnote per period'
+      Text = 'Retur pemasok per periode'
     end
     item
       IndexID = 3575
-      Text = 'Purchase per product'
+      Text = 'Pembelian per produk'
     end
     item
       IndexID = 3576
-      Text = 'New report'
+      Text = 'Laporan baru'
     end
     item
       IndexID = 3577
-      Text = 'New folder'
+      Text = 'Folder baru'
     end
     item
       IndexID = 3578
-      Text = 'Create params and open'
+      Text = 'Buat parameter dan buka'
     end
     item
       IndexID = 3579
-      Text = 'No refresh after save'
+      Text = 'Tanpa muat ulang setelah simpan'
     end
     item
       IndexID = 3580
-      Text = 'Select test document id'
+      Text = 'Pilih ID dokumen uji'
     end
     item
       IndexID = 3581
-      Text = 'Explorer folder'
+      Text = 'Folder penjelajah'
     end
     item
       IndexID = 3582
-      Text = 'Copy report'
+      Text = 'Salin laporan'
     end
     item
       IndexID = 3583
-      Text = 'Save gridlayout'
+      Text = 'Simpan tata letak kisi'
     end
     item
       IndexID = 3584
-      Text = 'Leads'
+      Text = 'Prospek'
     end
     item
       IndexID = 3585
-      Text = 'Mass tag'
+      Text = 'Tag massal'
     end
     item
       IndexID = 3586
-      Text = 'Tags'
+      Text = 'Tag'
     end
     item
       IndexID = 3587
-      Text = 'Add tag'
+      Text = 'Tambah tag'
     end
     item
       IndexID = 3588
-      Text = 'Mass activity'
+      Text = 'Aktivitas massal'
     end
     item
       IndexID = 3589
@@ -11751,375 +11800,377 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3590
-      Text = 'Activities'
+      Text = 'Aktivitas'
     end
     item
       IndexID = 3591
-      Text = 'Add %s to records'
+      Text = 'Tambah %s ke rekaman'
     end
     item
       IndexID = 3592
-      Text = 'Start timer'
+      Text = 'Mulai penghitung waktu'
     end
     item
       IndexID = 3593
-      Text = 'Stop timer'
+      Text = 'Hentikan penghitung waktu'
     end
     item
       IndexID = 3594
-      Text = 'All accounts'
+      Text = 'Semua akun'
     end
     item
       IndexID = 3595
-      Text = 'Lead'
+      Text = 'Prospek'
     end
     item
       IndexID = 3596
-      Text = 'Followup'
+      Text = 'Tindak lanjut'
     end
     item
       IndexID = 3597
-      Text = 'Direction'
+      Text = 'Arah'
     end
     item
       IndexID = 3598
-      Text = 'Incomming'
+      Text = 'Masuk'
     end
     item
       IndexID = 3599
-      Text = 'Outgoing'
+      Text = 'Keluar'
     end
     item
       IndexID = 3600
-      Text = 'Handeled'
+      Text = 'Ditangani'
     end
     item
       IndexID = 3601
-      Text = 'preform run on'
+      Text = 'Jalankan pada'
     end
     item
       IndexID = 3602
-      Text = 'mass contact'
+      Text = 'Kontak massal'
     end
     item
       IndexID = 3603
-      Text = 'Billing matrix'
+      Text = 'Matriks penagihan'
     end
     item
       IndexID = 3604
-      Text = 'Minimum bill minutes'
+      Text = 'Minimum menit tagihan'
     end
     item
       IndexID = 3605
-      Text = 'Increment bill minutes'
+      Text = 'Kenaikan menit tagihan'
     end
     item
       IndexID = 3606
-      Text = 'Cross link'
+      Text = 'Tautan silang'
     end
     item
       IndexID = 3607
-      Text = 'Skip lines'
+      Text = 'Lewati baris'
     end
     item
       IndexID = 3608
-      Text = 'Delimiter'
+      Text = 'Pembatas'
     end
     item
       IndexID = 3609
-      Text = 'Date format'
+      Text = 'Format tanggal'
     end
     item
       IndexID = 3610
-      Text = 'Date seperator'
+      Text = 'Pemisah tanggal'
     end
     item
       IndexID = 3611
-      Text = 'Decimal seprator'
+      Text = 'Pemisah desimal'
     end
     item
       IndexID = 3612
-      Text = 'Redo'
+      Text = 'Ulangi'
     end
     item
       IndexID = 3613
-      Text = 'Leads dataset importer'
+      Text = 'Pengimpor dataset prospek'
     end
     item
       IndexID = 3614
-      Text = 'Headers in file'
+      Text = 'Header dalam berkas'
     end
     item
       IndexID = 3615
-      Text = 'Billing'
+      Text = 'Penagihan'
     end
     item
       IndexID = 3616
-      Text = 'Bill visible'
+      Text = 'Tagihan terlihat'
     end
     item
       IndexID = 3617
-      Text = 'Convert to'
+      Text = 'Konversi ke'
     end
     item
       IndexID = 3618
-      Text = 'Dashbord view'
+      Text = 'Tampilan dasbor'
     end
     item
       IndexID = 3619
-      Text = 'Duration'
+      Text = 'Durasi'
     end
     item
       IndexID = 3620
-      Text = 'Manual input in minutes'
+      Text = 'Masukan manual dalam menit'
     end
     item
       IndexID = 3621
-      Text = 'Is billed'
+      Text = 'Sudah ditagih'
     end
     item
       IndexID = 3622
-      Text = 'Convert'
+      Text = 'Konversi'
     end
     item
       IndexID = 3623
-      Text = 'Order is placed!'
+      Text = 'Pesanan telah ditempatkan!'
     end
     item
       IndexID = 3624
-      Text = 'Select or create a document!'
+      Text = 'Pilih atau buat dokumen!'
     end
     item
       IndexID = 3625
-      Text = 'Please add items to your order!'
+      Text = 'Silakan tambahkan item ke pesanan anda!'
     end
     item
       IndexID = 3626
-      Text = 'This list shows what you already ordered'
+      Text = 'Daftar ini menunjukkan apa yang sudah anda pesan'
     end
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the o' +
-        'rder button'
+        'Daftar ini menunjukkan apa yang akan anda pesan saat anda meneka' +
+        'n tombol [Pesan]'
     end
     item
       IndexID = 3628
-      Text = 'Select a product to add to your order list'
+      Text = 'Pilih produk untuk ditambahkan ke daftar pesanan anda'
     end
     item
       IndexID = 3629
-      Text = 'Merge'
+      Text = 'Gabungkan'
     end
     item
       IndexID = 3630
-      Text = 'Table overview'
+      Text = 'Ikhtisar tabel'
     end
     item
       IndexID = 3631
-      Text = 'All orders'
+      Text = 'Semua pesanan'
     end
     item
       IndexID = 3632
-      Text = 'Print ticket'
+      Text = 'Cetak tiket'
     end
     item
       IndexID = 3633
-      Text = 'Date reservation'
+      Text = 'Tanggal reservasi'
     end
     item
       IndexID = 3634
-      Text = 'Day memo'
+      Text = 'Memo harian'
     end
     item
       IndexID = 3635
-      Text = 'Guest'
+      Text = 'Tamu'
     end
     item
       IndexID = 3636
-      Text = 'Create POS ticket'
+      Text = 'Buat tiket POS'
     end
     item
       IndexID = 3637
-      Text = 'Person(s)'
+      Text = 'Orang'
     end
     item
       IndexID = 3638
-      Text = 'Stay in minutes'
+      Text = 'Durasi tinggal dalam menit'
     end
     item
       IndexID = 3639
-      Text = 'Expected time'
+      Text = 'Waktu yang diharapkan'
     end
     item
       IndexID = 3640
-      Text = 'Horizontal pos layout'
+      Text = 'Tata letak POS horizontal'
     end
     item
       IndexID = 3641
-      Text = 'Vertical pos layout'
+      Text = 'Tata letak POS vertikal'
     end
     item
       IndexID = 3642
-      Text = 'Clear table movement'
+      Text = 'Bersihkan pergerakan tabel'
     end
     item
       IndexID = 3643
-      Text = 'Move seat'
+      Text = 'Pindahkan kursi'
     end
     item
       IndexID = 3644
-      Text = 'Link seat'
+      Text = 'Tautkan kursi'
     end
     item
       IndexID = 3645
-      Text = 'Unlink seat'
+      Text = 'Putus tautan kursi'
     end
     item
       IndexID = 3646
-      Text = 'Hide <@APPNAME@> interface'
+      Text = 'Sembunyikan antarmuka <@APPNAME@>'
     end
     item
       IndexID = 3647
-      Text = 'Telephonic orders'
+      Text = 'Pesanan melalui telepon'
     end
     item
       IndexID = 3648
-      Text = 'Orders to deliverlist'
+      Text = 'Daftar pesanan untuk dikirim'
     end
     item
       IndexID = 3649
-      Text = 'Lock'
+      Text = 'Kunci'
     end
     item
       IndexID = 3650
-      Text = 'Start click here'
+      Text = 'Mulai klik di sini'
     end
     item
       IndexID = 3651
-      Text = 'Click here again'
+      Text = 'Klik di sini lagi'
     end
     item
       IndexID = 3652
-      Text = 'Click here'
+      Text = 'Klik di sini'
     end
     item
       IndexID = 3653
-      Text = 'Reservations'
+      Text = 'Reservasi'
     end
     item
       IndexID = 3654
-      Text = 'Close pos'
+      Text = 'Tutup POS'
     end
     item
       IndexID = 3655
-      Text = 'Cash entry'
+      Text = 'Entri tunai'
     end
     item
       IndexID = 3656
-      Text = 'Payment of posted documents'
+      Text = 'Pembayaran dokumen terposting'
     end
     item
       IndexID = 3657
-      Text = 'Show doc info'
+      Text = 'Tampilkan info dokumen'
     end
     item
       IndexID = 3658
-      Text = 'Simple action buttons'
+      Text = 'Tombol tindakan sederhana'
     end
     item
       IndexID = 3659
-      Text = 'No captions'
+      Text = 'Tanpa keterangan'
     end
     item
       IndexID = 3660
-      Text = 'dayly provission'
+      Text = 'Provisi harian'
     end
     item
       IndexID = 3661
-      Text = 'Document without border'
+      Text = 'Dokumen tanpa bingkai'
     end
     item
       IndexID = 3662
-      Text = 'Posted payments'
+      Text = 'Pembayaran terposting'
     end
     item
       IndexID = 3663
-      Text = 'Sales per table'
+      Text = 'Penjualan per meja'
     end
     item
       IndexID = 3664
-      Text = 'New order'
+      Text = 'Pesanan baru'
     end
     item
       IndexID = 3665
-      Text = 'Show fixed first group list'
+      Text = 'Tampilkan daftar grup pertama tetap'
     end
     item
       IndexID = 3666
-      Text = 'Show current totals in list'
+      Text = 'Tampilkan total saat ini dalam daftar'
     end
     item
       IndexID = 3667
-      Text = 'Recieve seperate payments'
+      Text = 'Terima pembayaran terpisah'
     end
     item
       IndexID = 3668
-      Text = 'Create account from documentdetails'
+      Text = 'Buat akun dari detail dokumen'
     end
     item
       IndexID = 3669
-      Text = 'Send documenttype'
+      Text = 'Kirim tipe dokumen'
     end
     item
       IndexID = 3670
-      Text = 'Print document and send email'
+      Text = 'Cetak dokumen dan kirim email'
     end
     item
       IndexID = 3671
-      Text = 'Username'
+      Text = 'Nama pengguna'
     end
     item
       IndexID = 3672
-      Text = 'Enable auto set inactive debtor after x days unpayed'
+      Text = 
+        'Aktifkan pengaturan otomatis debitur tidak aktif setelah x hari ' +
+        'tidak dibayar'
     end
     item
       IndexID = 3673
-      Text = 'Days after payment before inactive'
+      Text = 'Hari setelah pembayaran sebelum tidak aktif'
     end
     item
       IndexID = 3674
-      Text = 'Do you want to run this process for 1 creditor?'
+      Text = 'Apakah anda ingin menjalankan proses ini untuk 1 kreditur?'
     end
     item
       IndexID = 3675
-      Text = 'Tax list debtor / creditor with taxid'
+      Text = 'Daftar PPN debitur dengan ID PPN'
     end
     item
       IndexID = 3676
       Text = 
-        'Unposted documents found ! Please process all documents before m' +
-        'anual edit'
+        'Dokumen belum diposting ditemukan! Harap proses semua dokumen se' +
+        'belum mengubah manual!'
     end
     item
       IndexID = 3677
-      Text = 'Start quantity'
+      Text = 'Jumlah awal'
     end
     item
       IndexID = 3678
-      Text = 'Expected quantity'
+      Text = 'Jumlah yang diharapkan'
     end
     item
       IndexID = 3679
-      Text = 'Production date'
+      Text = 'Tanggal produksi'
     end
     item
       IndexID = 3680
-      Text = 'Max salesdate'
+      Text = 'Tanggal penjualan maksimal'
     end
     item
       IndexID = 3681
-      Text = 'Location'
+      Text = 'Lokasi'
     end
     item
       IndexID = 3682
@@ -12131,354 +12182,354 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3684
-      Text = 'Total sold'
+      Text = 'Total terjual'
     end
     item
       IndexID = 3685
-      Text = 'Find with central search'
+      Text = 'Cari dengan pencarian pusat'
     end
     item
       IndexID = 3686
-      Text = 'No account creation'
+      Text = 'Tanpa pembuatan akun'
     end
     item
       IndexID = 3687
-      Text = 'Match on open amounts'
+      Text = 'Cocokkan pada jumlah terbuka'
     end
     item
       IndexID = 3688
-      Text = 'Total Exp sales on price 2'
+      Text = 'Total penjualan diharapkan pada harga 2'
     end
     item
       IndexID = 3689
-      Text = 'Total Stock value'
+      Text = 'Total nilai stok'
     end
     item
       IndexID = 3690
-      Text = 'Enter email adress seperate with ;'
+      Text = 'Masukkan alamat email dipisahkan dengan ;'
     end
     item
       IndexID = 3691
-      Text = 'Countries'
+      Text = 'Negara-negara'
     end
     item
       IndexID = 3692
-      Text = 'Correction missing transact'
+      Text = 'Koreksi umur transaksi'
     end
     item
       IndexID = 3693
-      Text = 'Please save or cancel your document first'
+      Text = 'Harap simpan atau batalkan dokumen anda terlebih dahulu!'
     end
     item
       IndexID = 3694
-      Text = 'Please save or cancel your stock first'
+      Text = 'Harap simpan atau batalkan stok anda terlebih dahulu!'
     end
     item
       IndexID = 3695
-      Text = 'Please save or cancel your debtor first'
+      Text = 'Harap simpan atau batalkan debitur anda terlebih dahulu!'
     end
     item
       IndexID = 3696
-      Text = 'Please save or cancel your creditor first'
+      Text = 'Harap simpan atau batalkan kreditur anda terlebih dahulu!'
     end
     item
       IndexID = 3697
-      Text = 'Spreadsheet sales'
+      Text = 'Penjualan lembar sebar'
     end
     item
       IndexID = 3698
-      Text = 'Spreadsheet reports'
+      Text = 'Laporan lembar sebar'
     end
     item
       IndexID = 3699
-      Text = 'Use all to stop asking this question.'
+      Text = 'Pilih [Semua] untuk berhenti menanyakan pertanyaan ini.'
     end
     item
       IndexID = 3700
-      Text = 'View'
+      Text = 'Tampilan'
     end
     item
       IndexID = 3701
-      Text = 'Zoom'
+      Text = 'Perbesar'
     end
     item
       IndexID = 3702
-      Text = 'Page layout'
+      Text = 'Tata letak halaman'
     end
     item
       IndexID = 3703
-      Text = 'Formules'
+      Text = 'Rumus'
     end
     item
       IndexID = 3704
-      Text = 'Import check'
+      Text = 'Periksa impor'
     end
     item
       IndexID = 3705
-      Text = 'Profile'
+      Text = 'Profil'
     end
     item
       IndexID = 3706
-      Text = 'Save profile'
+      Text = 'Simpan profil'
     end
     item
       IndexID = 3707
-      Text = 'Add profile'
+      Text = 'Tambah profil'
     end
     item
       IndexID = 3708
-      Text = 'Import type'
+      Text = 'Tipe impor'
     end
     item
       IndexID = 3709
-      Text = 'Link on'
+      Text = 'Tautkan pada'
     end
     item
       IndexID = 3710
-      Text = 'Small backup (books)'
+      Text = 'Cadangan kecil (buku)'
     end
     item
       IndexID = 3711
       Text = 
-        'This action wil close <@APPNAME@> and install version %s we reco' +
-        'mend you make a backup of the whole folder of <@APPNAME@>.'#13#10'Do y' +
-        'ou wish to continue?'
+        'Tindakan ini akan menutup <@APPNAME@> dan memasang versi %s kami' +
+        ' menyarankan anda membuat cadangan seluruh folder <@APPNAME@>. A' +
+        'pakah anda ingin melanjutkan?'
     end
     item
       IndexID = 3712
-      Text = 'Updates'
+      Text = 'Pembaruan'
     end
     item
       IndexID = 3713
-      Text = 'Check for update at start'
+      Text = 'Periksa pembaruan saat mulai'
     end
     item
       IndexID = 3714
-      Text = 'Beta versions'
+      Text = 'Versi beta'
     end
     item
       IndexID = 3715
-      Text = 'Install'
+      Text = 'Pasang'
     end
     item
       IndexID = 20124
-      Text = '<No data to display>'
+      Text = '<Tidak ada data untuk ditampilkan>'
     end
     item
       IndexID = 21216
-      Text = 'Save Metafile As'
+      Text = 'Simpan Metafile Sebagai'
     end
     item
       IndexID = 21094
-      Text = 'Cancel'
+      Text = 'Batal'
     end
     item
       IndexID = 21218
-      Text = 'Cancels the report calculation'
+      Text = 'Membatalkan perhitungan laporan'
     end
     item
       IndexID = 21052
-      Text = 'Print'
+      Text = 'Cetak'
     end
     item
       IndexID = 21053
-      Text = 'Print the report, you can select pages to print'
+      Text = 'Cetak laporan. Anda dapat memilih halaman yang akan dicetak.'
     end
     item
       IndexID = 21046
-      Text = 'Save...'
+      Text = 'Simpan...'
     end
     item
       IndexID = 21217
-      Text = 'Save the report as a metafile report'
+      Text = 'Simpan laporan sebagai laporan metafile'
     end
     item
       IndexID = 22230
-      Text = 'Mail to'
+      Text = 'Kirim email ke'
     end
     item
       IndexID = 22231
-      Text = 'Sends the reports to a e-mail destination'
+      Text = 'Mengirim laporan ke tujuan email'
     end
     item
       IndexID = 21044
-      Text = 'AExit'
+      Text = 'Keluar'
     end
     item
       IndexID = 21219
-      Text = 'Closes the preview window'
+      Text = 'Menutup jendela pratinjau'
     end
     item
       IndexID = 21135
-      Text = 'Parameters'
+      Text = 'Parameter'
     end
     item
       IndexID = 21136
-      Text = 'Show report parameters'
+      Text = 'Tampilkan parameter laporan'
     end
     item
       IndexID = 21220
-      Text = 'First page'
+      Text = 'Halaman pertama'
     end
     item
       IndexID = 21221
-      Text = 'Goes to the first page of the report'
+      Text = 'Menuju ke halaman pertama laporan'
     end
     item
       IndexID = 21222
-      Text = 'Previous page'
+      Text = 'Halaman sebelumnya'
     end
     item
       IndexID = 21223
-      Text = 'Shows the previous page'
+      Text = 'Menampilkan halaman sebelumnya'
     end
     item
       IndexID = 21224
-      Text = 'Next page'
+      Text = 'Halaman berikutnya'
     end
     item
       IndexID = 21225
-      Text = 'Shows the next page'
+      Text = 'Menampilkan halaman berikutnya'
     end
     item
       IndexID = 21226
-      Text = 'Last page'
+      Text = 'Halaman terakhir'
     end
     item
       IndexID = 21227
-      Text = 'Goes to the last page of the report'
+      Text = 'Menuju ke halaman terakhir laporan'
     end
     item
       IndexID = 21228
-      Text = 'Normal Scale'
+      Text = 'Skala normal'
     end
     item
       IndexID = 21229
-      Text = 'Shows the report in real size'
+      Text = 'Menampilkan laporan dalam ukuran asli'
     end
     item
       IndexID = 21230
-      Text = 'Scale to window'
+      Text = 'Skala ke jendela'
     end
     item
       IndexID = 21231
-      Text = 'Scale adjusting the paper to the window width'
+      Text = 'Skala menyesuaikan kertas dengan lebar jendela'
     end
     item
       IndexID = 21232
-      Text = 'Scale to full page'
+      Text = 'Skala ke satu halaman penuh'
     end
     item
       IndexID = 21233
-      Text = 'Scale to view full page'
+      Text = 'Skala untuk melihat satu halaman penuh'
     end
     item
       IndexID = 21234
-      Text = 'Zoom-'
+      Text = 'Perkecil-'
     end
     item
       IndexID = 21235
-      Text = 'Zooms out the view'
+      Text = 'Memperkecil tampilan'
     end
     item
       IndexID = 21236
-      Text = 'Zoom+'
+      Text = 'Perbesar+'
     end
     item
       IndexID = 21237
-      Text = 'Zooms in the view'
+      Text = 'Memperbesar tampilan'
     end
     item
       IndexID = 21050
-      Text = 'Page Setup'
+      Text = 'Pengaturan halaman'
     end
     item
       IndexID = 21051
-      Text = 'Show report page setup'
+      Text = 'Tampilkan pengaturan halaman laporan'
     end
     item
       IndexID = 22434
-      Text = 'Find'
+      Text = 'Cari'
     end
     item
       IndexID = 22435
-      Text = 'Find text'
+      Text = 'Cari teks'
     end
     item
       IndexID = 21095
-      Text = 'Default'
+      Text = 'Standar'
     end
     item
       IndexID = 21093
-      Text = 'OK'
+      Text = 'Oke'
     end
     item
       IndexID = 21096
-      Text = 'Custom'
+      Text = 'Kustom'
     end
     item
       IndexID = 21732
-      Text = 'User defined'
+      Text = 'Ditentukan pengguna'
     end
     item
       IndexID = 21097
-      Text = 'Page size'
+      Text = 'Ukuran halaman'
     end
     item
       IndexID = 21104
-      Text = 'Custom size'
+      Text = 'Ukuran kustom'
     end
     item
       IndexID = 21733
-      Text = 'Custom size'
+      Text = 'Ukuran kustom'
     end
     item
       IndexID = 21098
-      Text = 'Page orientation'
+      Text = 'Orientasi halaman'
     end
     item
       IndexID = 21099
-      Text = 'Page Margins'
+      Text = 'Margin halaman'
     end
     item
       IndexID = 21100
-      Text = 'Left'
+      Text = 'Kiri'
     end
     item
       IndexID = 21101
-      Text = 'Right'
+      Text = 'Kanan'
     end
     item
       IndexID = 21102
-      Text = 'Top'
+      Text = 'Atas'
     end
     item
       IndexID = 21103
-      Text = 'Bottom'
+      Text = 'Bawah'
     end
     item
       IndexID = 21105
-      Text = 'Custom page orientation'
+      Text = 'Orientasi halaman kustom'
     end
     item
       IndexID = 21106
-      Text = 'Portrait'
+      Text = 'Potret'
     end
     item
       IndexID = 21107
-      Text = 'Landscape'
+      Text = 'Lanskap'
     end
     item
       IndexID = 21108
-      Text = 'Copies'
+      Text = 'Salinan'
     end
     item
       IndexID = 22377
-      Text = 'Lines per inch'
+      Text = 'Baris per inci'
     end
     item
       IndexID = 21109
-      Text = 'Collate copies'
+      Text = 'Susun salinan'
     end
     item
       IndexID = 21110
@@ -12486,47 +12537,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21111
-      Text = 'Two pass report'
+      Text = 'Laporan dua tahap'
     end
     item
       IndexID = 21800
-      Text = 'Print only if data available'
+      Text = 'Cetak hanya jika data tersedia'
     end
     item
       IndexID = 21112
-      Text = 'Report language'
+      Text = 'Bahasa laporan'
     end
     item
       IndexID = 21113
-      Text = 'Printer Fonts (Windows GDI Only)'
+      Text = 'Font pencetak (hanya GDI Windows)'
     end
     item
       IndexID = 21114
-      Text = 'Always use printer fonts'
+      Text = 'Selalu gunakan font pencetak'
     end
     item
       IndexID = 21115
-      Text = 'Never use printer fonts'
+      Text = 'Jangan pernah gunakan font pencetak'
     end
     item
       IndexID = 22433
-      Text = 'Recalculte report'
+      Text = 'Hitung ulang laporan'
     end
     item
       IndexID = 21116
-      Text = 'Background color'
+      Text = 'Warna latar belakang'
     end
     item
       IndexID = 21741
-      Text = 'Select Printer'
+      Text = 'Pilih pencetak'
     end
     item
       IndexID = 21143
-      Text = 'Configure printers'
+      Text = 'Konfigurasi pencetak'
     end
     item
       IndexID = 21840
-      Text = 'Preview window and scale'
+      Text = 'Jendela pratinjau dan skala'
     end
     item
       IndexID = 21841
@@ -12534,11 +12585,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21842
-      Text = 'Maxmized'
+      Text = 'Diperbesar maksimal'
     end
     item
       IndexID = 21843
-      Text = 'Wide'
+      Text = 'Lebar'
     end
     item
       IndexID = 21844
@@ -12546,263 +12597,263 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21845
-      Text = 'Page'
+      Text = 'Halaman'
     end
     item
       IndexID = 21857
-      Text = 'Page setup'
+      Text = 'Pengaturan halaman'
     end
     item
       IndexID = 21858
-      Text = 'Print setup'
+      Text = 'Pengaturan cetak'
     end
     item
       IndexID = 22347
-      Text = 'Application Font'
+      Text = 'Font aplikasi'
     end
     item
       IndexID = 22348
-      Text = 'Application Font'
+      Text = 'Font aplikasi'
     end
     item
       IndexID = 21000
-      Text = '&File'
+      Text = '&Berkas'
     end
     item
       IndexID = 21001
-      Text = 'Report Manager Designer'
+      Text = 'Desainer Manajer Laporan'
     end
     item
       IndexID = 21002
-      Text = '&Report'
+      Text = '&Laporan'
     end
     item
       IndexID = 21003
-      Text = '&Edit'
+      Text = '&Ubah'
     end
     item
       IndexID = 21004
-      Text = '&Display'
+      Text = '&Tampilan'
     end
     item
       IndexID = 21007
-      Text = 'Grid'
+      Text = 'Kisi'
     end
     item
       IndexID = 21008
-      Text = 'Grid options for this report'
+      Text = 'Opsi kisi untuk laporan ini'
     end
     item
       IndexID = 21009
-      Text = 'Cut'
+      Text = 'Potong'
     end
     item
       IndexID = 21150
-      Text = 'Delete'
+      Text = 'Hapus'
     end
     item
       IndexID = 22106
-      Text = 'Delete the selected object'
+      Text = 'Hapus objek yang dipilih'
     end
     item
       IndexID = 21010
-      Text = 'Copy'
+      Text = 'Salin'
     end
     item
       IndexID = 21011
-      Text = 'Paste'
+      Text = 'Tempel'
     end
     item
       IndexID = 21012
-      Text = 'Cut selected object'
+      Text = 'Potong objek terpilih'
     end
     item
       IndexID = 21013
-      Text = 'Copy selected object to clipboard'
+      Text = 'Salin objek terpilih ke papan klip'
     end
     item
       IndexID = 21014
-      Text = 'Paste from clipboard'
+      Text = 'Tempel dari papan klip'
     end
     item
       IndexID = 21015
-      Text = 'Hide'
+      Text = 'Sembunyikan'
     end
     item
       IndexID = 21016
-      Text = 'Hide selected objects'
+      Text = 'Sembunyikan objek terpilih'
     end
     item
       IndexID = 21017
-      Text = 'Show all'
+      Text = 'Tampilkan semua'
     end
     item
       IndexID = 21018
-      Text = 'Shows all the hiden components'
+      Text = 'Menampilkan semua komponen tersembunyi'
     end
     item
       IndexID = 21019
-      Text = 'All'
+      Text = 'Semua'
     end
     item
       IndexID = 21117
-      Text = 'All Text'
+      Text = 'Semua Teks'
     end
     item
       IndexID = 21118
-      Text = 'Selects all text components of the report'
+      Text = 'Memilih semua komponen teks laporan'
     end
     item
       IndexID = 21020
-      Text = 'Selects all components of the report'
+      Text = 'Memilih semua komponen laporan'
     end
     item
       IndexID = 21021
-      Text = 'Select'
+      Text = 'Pilih'
     end
     item
       IndexID = 21022
-      Text = 'Move'
+      Text = 'Pindahkan'
     end
     item
       IndexID = 21023
-      Text = 'Left'
+      Text = 'Kiri'
     end
     item
       IndexID = 21024
-      Text = 'Moves the selection to the left'
+      Text = 'Memindahkan pilihan ke kiri'
     end
     item
       IndexID = 21025
-      Text = 'Right'
+      Text = 'Kanan'
     end
     item
       IndexID = 21026
-      Text = 'Moves the selection to the left'
+      Text = 'Memindahkan pilihan ke kanan'
     end
     item
       IndexID = 21027
-      Text = 'Up'
+      Text = 'Atas'
     end
     item
       IndexID = 21028
-      Text = 'Moves the selection up'
+      Text = 'Memindahkan pilihan ke atas'
     end
     item
       IndexID = 21029
-      Text = 'Down'
+      Text = 'Bawah'
     end
     item
       IndexID = 21030
-      Text = 'Moves the selection down'
+      Text = 'Memindahkan pilihan ke bawah'
     end
     item
       IndexID = 21031
-      Text = 'Align'
+      Text = 'Ratakan'
     end
     item
       IndexID = 21032
-      Text = 'Aligns selection to the left'
+      Text = 'Meratakan pilihan ke kiri'
     end
     item
       IndexID = 21033
-      Text = 'Aligns selection to the right'
+      Text = 'Meratakan pilihan ke kanan'
     end
     item
       IndexID = 21034
-      Text = 'Aligns selection up'
+      Text = 'Meratakan pilihan ke atas'
     end
     item
       IndexID = 21035
-      Text = 'Aligns selection down'
+      Text = 'Meratakan pilihan ke bawah'
     end
     item
       IndexID = 21036
-      Text = 'Horizontal space'
+      Text = 'Ruang horizontal'
     end
     item
       IndexID = 21037
-      Text = 'Aligns selection distributing horzontal space'
+      Text = 'Meratakan pilihan dengan menyebarkan ruang horizontal'
     end
     item
       IndexID = 21038
-      Text = 'Vertical space'
+      Text = 'Ruang vertikal'
     end
     item
       IndexID = 21039
-      Text = 'Aligns selection distributing vertical space'
+      Text = 'Meratakan pilihan dengan menyebarkan ruang vertikal'
     end
     item
       IndexID = 21040
-      Text = 'New'
+      Text = 'Baru'
     end
     item
       IndexID = 21041
-      Text = 'Creates a new report'
+      Text = 'Membuat laporan baru'
     end
     item
       IndexID = 21042
-      Text = 'Open'
+      Text = 'Buka'
     end
     item
       IndexID = 21043
-      Text = 'Opens an existing report'
+      Text = 'Membuka laporan yang ada'
     end
     item
       IndexID = 21045
-      Text = 'Closes de application'
+      Text = 'Menutup aplikasi'
     end
     item
       IndexID = 21047
-      Text = 'Saves the current report'
+      Text = 'Menyimpan laporan saat ini'
     end
     item
       IndexID = 21048
-      Text = 'Save as...'
+      Text = 'Simpan sebagai...'
     end
     item
       IndexID = 21049
-      Text = 'Saves the report to a new file'
+      Text = 'Menyimpan laporan ke berkas baru'
     end
     item
       IndexID = 21054
-      Text = 'Print Preview'
+      Text = 'Pratinjau cetak'
     end
     item
       IndexID = 21055
-      Text = 'Preview the report in the screen'
+      Text = 'Pratinjau laporan di layar'
     end
     item
       IndexID = 21056
-      Text = 'Printer setup...'
+      Text = 'Persiapan pencetak...'
     end
     item
       IndexID = 21057
-      Text = 'Displays printer setup dialog'
+      Text = 'Menampilkan dialog persiapan pencetak'
     end
     item
       IndexID = 21006
-      Text = '&Help'
+      Text = '&Bantuan'
     end
     item
       IndexID = 21058
-      Text = 'About Report Manager'
+      Text = 'Tentang Manajer Laporan'
     end
     item
       IndexID = 21059
-      Text = 'Shows information about Report Manger'
+      Text = 'Menampilkan informasi tentang Manajer Laporan'
     end
     item
       IndexID = 21060
-      Text = 'Documentation'
+      Text = 'Dokumentasi'
     end
     item
       IndexID = 21061
-      Text = 'Display Report Manager Designer Documentation'
+      Text = 'Tampilkan Dokumentasi Desainer Manajer Laporan'
     end
     item
       IndexID = 21062
-      Text = 'Measurement'
+      Text = 'Pengukuran'
     end
     item
       IndexID = 21063
@@ -12810,15 +12861,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21064
-      Text = 'Change measurement units to cms'
+      Text = 'Ubah unit pengukuran ke cms'
     end
     item
       IndexID = 21065
-      Text = 'Inches'
+      Text = 'Inci'
     end
     item
       IndexID = 21066
-      Text = 'Changes measurement units to inchess'
+      Text = 'Mengubah unit pengukuran ke inci'
     end
     item
       IndexID = 21067
@@ -12826,149 +12877,153 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21068
-      Text = 'Qt driver (CLX)'
+      Text = 'Driver Qt (CLX)'
     end
     item
       IndexID = 21069
-      Text = 'Activates the Qt cross platform graphics and printing driver'
+      Text = 'Mengaktifkan driver pencetakan dan grafik lintas platform Qt'
     end
     item
       IndexID = 21070
-      Text = 'GDI Driver (VCL)'
+      Text = 'Driver GDI (VCL)'
     end
     item
       IndexID = 21071
-      Text = 'Activates the GDI32 direct rendering driver (VCL), Windows only'
+      Text = 
+        'Mengaktifkan driver perenderan langsung GDI32 (VCL), khusus Wind' +
+        'ows'
     end
     item
       IndexID = 21936
-      Text = 'Native driver'
+      Text = 'Driver bawaan'
     end
     item
       IndexID = 21939
-      Text = 'Activates the Native driver, no graphics dependent'
+      Text = 'Mengaktifkan driver bawaan, tidak bergantung pada grafik'
     end
     item
       IndexID = 21074
-      Text = 'Kylix Print Bugfix'
+      Text = 'Perbaikan bug cetak Kylix'
     end
     item
       IndexID = 21075
-      Text = 'Uses kylix print bugfix (use metaprint to print metafiles)'
+      Text = 
+        'Menggunakan perbaikan bug cetak Kylix (gunakan metaprint untuk m' +
+        'encetak metafile)'
     end
     item
       IndexID = 21076
-      Text = 'Status bar'
+      Text = 'Bilah status'
     end
     item
       IndexID = 21077
-      Text = 'Shows or hides the status bar'
+      Text = 'Menampilkan atau menyembunyikan bilah status'
     end
     item
       IndexID = 21005
-      Text = '&Preferences'
+      Text = '&Preferensi'
     end
     item
       IndexID = 21072
-      Text = 'Qt System print dialog'
+      Text = 'Dialog cetak sistem Qt'
     end
     item
       IndexID = 21073
-      Text = 'Shows the system print dialog, or a custom print dialog'
+      Text = 'Menampilkan dialog cetak sistem, atau dialog cetak kustom'
     end
     item
       IndexID = 21081
-      Text = 'Select objects'
+      Text = 'Pilih objek'
     end
     item
       IndexID = 21082
-      Text = 'Inserts a static text'
+      Text = 'Menyisipkan teks statis'
     end
     item
       IndexID = 21083
-      Text = 'Inserts a expression'
+      Text = 'Menyisipkan ekspresi'
     end
     item
       IndexID = 21084
-      Text = 'Inserts a simple drawing'
+      Text = 'Menyisipkan gambar sederhana'
     end
     item
       IndexID = 21085
-      Text = 'Inserts a image'
+      Text = 'Menyisipkan gambar'
     end
     item
       IndexID = 21086
-      Text = 'Inserts a barcode'
+      Text = 'Menyisipkan kode batang'
     end
     item
       IndexID = 21087
-      Text = 'Inserts a chart'
+      Text = 'Menyisipkan grafik'
     end
     item
       IndexID = 22059
-      Text = 'Align height 1/6'
+      Text = 'Ratakan tinggi 1/6'
     end
     item
       IndexID = 22060
       Text = 
-        'Aligns all sections height to 1/6 inchess for dot matrix compati' +
-        'bility'
+        'Meratakan semua tinggi bagian ke 1/6 inci untuk kompatibilitas d' +
+        'ot matrix'
     end
     item
       IndexID = 22080
-      Text = 'Libraries'
+      Text = 'Pustaka'
     end
     item
       IndexID = 22081
-      Text = 'Open report libraries dialog'
+      Text = 'Buka dialog pustaka laporan'
     end
     item
       IndexID = 21976
-      Text = 'System information'
+      Text = 'Informasi sistem'
     end
     item
       IndexID = 21977
-      Text = 'Shows system and printer information'
+      Text = 'Menampilkan informasi sistem dan pencetak'
     end
     item
       IndexID = 21119
-      Text = 'Page header'
+      Text = 'Header halaman'
     end
     item
       IndexID = 21120
-      Text = 'Inserts a page header in the selected subreport'
+      Text = 'Menyisipkan header halaman dalam sublaporan terpilih'
     end
     item
       IndexID = 21121
-      Text = 'Page footer'
+      Text = 'Footer halaman'
     end
     item
       IndexID = 21122
-      Text = 'Inserts a page footer in the selected subreport'
+      Text = 'Menyisipkan footer halaman dalam sublaporan terpilih'
     end
     item
       IndexID = 21123
-      Text = 'Group header and footer'
+      Text = 'Header dan footer grup'
     end
     item
       IndexID = 21124
-      Text = 'Insert a group header an footer'
+      Text = 'Sisipkan header dan footer grup'
     end
     item
       IndexID = 21125
-      Text = 'Subreport'
+      Text = 'Sublaporan'
     end
     item
       IndexID = 21126
-      Text = 'Insert a new subreport'
+      Text = 'Sisipkan sublaporan baru'
     end
     item
       IndexID = 21127
-      Text = 'Delete section/subreport'
+      Text = 'Hapus bagian/sublaporan'
     end
     item
       IndexID = 21128
-      Text = 'Deletes the selected subreport or section'
+      Text = 'Menghapus sublaporan atau bagian terpilih'
     end
     item
       IndexID = 21129
@@ -12976,237 +13031,239 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21130
-      Text = 'Inserts a detail section in the selected subreport'
+      Text = 'Menyisipkan bagian detail dalam sublaporan terpilih'
     end
     item
       IndexID = 21131
-      Text = 'Data access configuration'
+      Text = 'Konfigurasi akses data'
     end
     item
       IndexID = 21132
-      Text = 'Modifies data access information'
+      Text = 'Mengubah informasi akses data'
     end
     item
       IndexID = 21133
-      Text = 'Parameter definition'
+      Text = 'Definisi parameter'
     end
     item
       IndexID = 21134
-      Text = 'Shows parameter definition for the report and data configuration'
+      Text = 
+        'Menampilkan definisi parameter untuk laporan dan konfigurasi dat' +
+        'a'
     end
     item
       IndexID = 21149
-      Text = 'Add'
+      Text = 'Tambah'
     end
     item
       IndexID = 21835
-      Text = 'Load section'
+      Text = 'Muat bagian'
     end
     item
       IndexID = 21836
-      Text = 'Save section'
+      Text = 'Simpan bagian'
     end
     item
       IndexID = 21137
-      Text = 'Delete section'
+      Text = 'Hapus bagian'
     end
     item
       IndexID = 21138
-      Text = 'Delete the selected section'
+      Text = 'Hapus bagian yang dipilih'
     end
     item
       IndexID = 21139
-      Text = 'Moves the section up'
+      Text = 'Pindahkan bagian ke atas'
     end
     item
       IndexID = 21140
-      Text = 'Moves the section down'
+      Text = 'Pindahkan bagian ke bawah'
     end
     item
       IndexID = 21734
-      Text = 'Adds a section to the selected subreport'
+      Text = 'Menambahkan bagian ke sublaporan terpilih'
     end
     item
       IndexID = 22097
-      Text = 'Database connections and datasets'
+      Text = 'Koneksi basis data dan dataset'
     end
     item
       IndexID = 21142
-      Text = 'Connections'
+      Text = 'Koneksi'
     end
     item
       IndexID = 21148
-      Text = 'Datasets'
+      Text = 'Dataset'
     end
     item
       IndexID = 21144
-      Text = 'Login prompt'
+      Text = 'Perintah masuk'
     end
     item
       IndexID = 21145
-      Text = 'Load params'
+      Text = 'Muat parameter'
     end
     item
       IndexID = 21146
-      Text = 'Load driver params'
+      Text = 'Muat parameter driver'
     end
     item
       IndexID = 21753
-      Text = 'Connect'
+      Text = 'Hubungkan'
     end
     item
       IndexID = 21168
-      Text = 'Build...'
+      Text = 'Bangun...'
     end
     item
       IndexID = 22098
-      Text = 'Available connections'
+      Text = 'Koneksi yang tersedia'
     end
     item
       IndexID = 22099
-      Text = 'Connection String'
+      Text = 'String koneksi'
     end
     item
       IndexID = 22100
-      Text = 'Available'
+      Text = 'Tersedia'
     end
     item
       IndexID = 22101
-      Text = 'Database driver'
+      Text = 'Driver basis data'
     end
     item
       IndexID = 22102
-      Text = 'New connection'
+      Text = 'Koneksi baru'
     end
     item
       IndexID = 22103
-      Text = 'Adds a new connection'
+      Text = 'Menambahkan koneksi baru'
     end
     item
       IndexID = 22104
-      Text = 'Delete connection'
+      Text = 'Hapus koneksi'
     end
     item
       IndexID = 22105
-      Text = 'Deletes the selected connection'
+      Text = 'Menghapus koneksi yang dipilih'
     end
     item
       IndexID = 21152
-      Text = 'Parameters'
+      Text = 'Parameter'
     end
     item
       IndexID = 21154
-      Text = 'Connection'
+      Text = 'Koneksi'
     end
     item
       IndexID = 21155
-      Text = 'Master dataset'
+      Text = 'Dataset master'
     end
     item
       IndexID = 21156
-      Text = 'Show data'
+      Text = 'Tampilkan data'
     end
     item
       IndexID = 21157
-      Text = 'BDE Type'
+      Text = 'Tipe BDE'
     end
     item
       IndexID = 21158
-      Text = 'Table and order'
+      Text = 'Tabel dan urutan'
     end
     item
       IndexID = 21159
-      Text = 'Query'
+      Text = 'Kueri'
     end
     item
       IndexID = 21160
-      Text = 'Table'
+      Text = 'Tabel'
     end
     item
       IndexID = 21161
-      Text = 'BDE Filter'
+      Text = 'Filter BDE'
     end
     item
       IndexID = 21162
-      Text = 'Table'
+      Text = 'Tabel'
     end
     item
       IndexID = 21163
-      Text = 'Index Name'
+      Text = 'Nama indeks'
     end
     item
       IndexID = 21164
-      Text = 'Index Fields'
+      Text = 'Kolom indeks'
     end
     item
       IndexID = 21165
-      Text = 'Master fields'
+      Text = 'Kolom master'
     end
     item
       IndexID = 21166
-      Text = 'Note: Write fields separated by ; character'
+      Text = 'Catatan: Tulis kolom dipisahkan oleh karakter ;'
     end
     item
       IndexID = 21167
-      Text = 'MyBase Filename'
+      Text = 'Nama berkas MyBase'
     end
     item
       IndexID = 21831
-      Text = 'First range'
+      Text = 'Rentang pertama'
     end
     item
       IndexID = 21832
-      Text = 'Last range'
+      Text = 'Rentang terakhir'
     end
     item
       IndexID = 21833
       Text = 
-        'Each line will be evaluated and assigned to each field as the st' +
-        'art of the filter and end of the filter'
+        'Setiap baris akan dievaluasi dan ditetapkan ke setiap kolom seba' +
+        'gai awal dan akhir filter'
     end
     item
       IndexID = 22082
-      Text = 'Dataset client side unions'
+      Text = 'Gabungan dataset sisi klien'
     end
     item
       IndexID = 22083
-      Text = 'Unions'
+      Text = 'Gabungan'
     end
     item
       IndexID = 22084
-      Text = 'Union grouping'
+      Text = 'Pengelompokan gabungan'
     end
     item
       IndexID = 22440
-      Text = 'Parallel union'
+      Text = 'Gabungan paralel'
     end
     item
       IndexID = 22085
-      Text = 'Field defs file'
+      Text = 'Berkas definisi kolom'
     end
     item
       IndexID = 22086
-      Text = 'Modify...'
+      Text = 'Ubah...'
     end
     item
       IndexID = 21539
-      Text = 'New dataset'
+      Text = 'Dataset baru'
     end
     item
       IndexID = 21540
-      Text = 'Rename dataset'
+      Text = 'Ubah nama dataset'
     end
     item
       IndexID = 21743
-      Text = 'Configuraiton file'
+      Text = 'Berkas konfigurasi'
     end
     item
       IndexID = 21744
-      Text = 'User configuration'
+      Text = 'Konfigurasi pengguna'
     end
     item
       IndexID = 21745
-      Text = 'System configuration'
+      Text = 'Konfigurasi sistem'
     end
     item
       IndexID = 21742
@@ -13214,71 +13271,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21746
-      Text = 'Position adjustment'
+      Text = 'Penyesuaian posisi'
     end
     item
       IndexID = 21763
-      Text = 'Operations after print'
+      Text = 'Operasi setelah cetak'
     end
     item
       IndexID = 21764
-      Text = 'Example, TM200 Open Drawer: #27#112#48#160#160#4'
+      Text = 'Contoh, TM200 Buka Laci: #27#112#48#160#160#4'
     end
     item
       IndexID = 21765
-      Text = 'Example, TM88 Open Drawer: #27#112#48#40#200#4'
+      Text = 'Contoh, TM88 Buka Laci: #27#112#48#40#200#4'
     end
     item
       IndexID = 21766
-      Text = 'Cut paper'
+      Text = 'Potong kertas'
     end
     item
       IndexID = 21767
-      Text = 'Open drawer'
+      Text = 'Buka laci'
     end
     item
       IndexID = 22058
-      Text = 'Text only driver'
+      Text = 'Driver teks saja'
     end
     item
       IndexID = 21799
-      Text = 'No data available to print!'
+      Text = 'Tidak ada data yang tersedia untuk dicetak!'
     end
     item
       IndexID = 21354
-      Text = 'Reportman manager designer'
+      Text = 'Desainer manajer Reportman'
     end
     item
       IndexID = 901000
-      Text = 'Subscriptions'
+      Text = 'Langganan'
     end
     item
       IndexID = 901001
-      Text = 'Subscriptions list'
+      Text = 'Daftar langganan'
     end
     item
       IndexID = 901002
-      Text = 'Warnings'
+      Text = 'Peringatan'
     end
     item
       IndexID = 901003
-      Text = 'Subscriptions to process'
+      Text = 'Langganan untuk diproses'
     end
     item
       IndexID = 901004
-      Text = 'Line value (Incl.)'
+      Text = 'Nilai baris (Termasuk)'
     end
     item
       IndexID = 901005
-      Text = 'Invoice in days before subscription date'
+      Text = 'Faktur dalam hitungan hari sebelum tanggal langganan'
     end
     item
       IndexID = 901006
-      Text = 'Warning in days before subscription date'
+      Text = 'Peringatan dalam hitungan hari sebelum tanggal langganan'
     end
     item
       IndexID = 901007
-      Text = 'Interval type'
+      Text = 'Tipe interval'
     end
     item
       IndexID = 901008
@@ -13286,127 +13343,127 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Select stock item>'
+      Text = '<Pilih item stok>'
     end
     item
       IndexID = 901010
-      Text = 'Are you sure you want to delete this subscription?'
+      Text = 'Apakah anda yakin ingin menghapus langganan ini?'
     end
     item
       IndexID = 901011
-      Text = 'Last run'
+      Text = 'Terakhir dijalankan'
     end
     item
       IndexID = 901012
-      Text = 'Next run'
+      Text = 'Berikutnya dijalankan'
     end
     item
       IndexID = 901013
-      Text = 'Start date'
+      Text = 'Tanggal mulai'
     end
     item
       IndexID = 901014
-      Text = 'To'
+      Text = 'Ke'
     end
     item
       IndexID = 901015
-      Text = 'Processed'
+      Text = 'Diproses'
     end
     item
       IndexID = 901016
-      Text = 'Subscriptions'
+      Text = 'Langganan'
     end
     item
       IndexID = 901017
-      Text = 'Day'
+      Text = 'Hari'
     end
     item
       IndexID = 901018
-      Text = 'Week'
+      Text = 'Minggu'
     end
     item
       IndexID = 901019
-      Text = 'Month'
+      Text = 'Bulan'
     end
     item
       IndexID = 901020
-      Text = '3 Months'
+      Text = '3 Bulan'
     end
     item
       IndexID = 901021
-      Text = '6 Months'
+      Text = '6 Bulan'
     end
     item
       IndexID = 901022
-      Text = 'Year'
+      Text = 'Tahun'
     end
     item
       IndexID = 901023
-      Text = 'Next warning'
+      Text = 'Peringatan berikutnya'
     end
     item
       IndexID = 901500
-      Text = 'Split'
+      Text = 'Bagi'
     end
     item
       IndexID = 901501
-      Text = 'Seat'
+      Text = 'Kursi'
     end
     item
       IndexID = 901502
-      Text = 'Couvert'
+      Text = 'Alat makan'
     end
     item
       IndexID = 901503
-      Text = 'Waiter'
+      Text = 'Pelayan'
     end
     item
       IndexID = 901504
-      Text = 'The item %s is out of stock! Please review your entry!'
+      Text = 'Item %s kehabisan stok! Silakan tinjau entri anda!'
     end
     item
       IndexID = 901505
-      Text = 'New lines added please review this payment!'
+      Text = 'Baris baru ditambahkan silakan tinjau pembayaran ini!'
     end
     item
       IndexID = 901506
-      Text = 'Please close all open invoices first!'
+      Text = 'Harap tutup semua faktur yang terbuka terlebih dahulu!'
     end
     item
       IndexID = 901507
-      Text = 'Are you sure you want to continue to close the POS?'
+      Text = 'Apakah anda yakin ingin melanjutkan untuk menutup POS?'
     end
     item
       IndexID = 901508
-      Text = 'Close POS'
+      Text = 'Tutup POS'
     end
     item
       IndexID = 901509
-      Text = 'Handheld'
+      Text = 'Perangkat genggam'
     end
     item
       IndexID = 902000
-      Text = 'Price agreement'
+      Text = 'Perjanjian harga'
     end
     item
       IndexID = 902001
-      Text = 'Until quantity'
+      Text = 'Sampai kuantitas'
     end
     item
       IndexID = 902002
-      Text = 'External product code'
+      Text = 'Kode produk eksternal'
     end
     item
       IndexID = 902003
-      Text = 'Percentage of avg. cost price'
+      Text = 'Persentase harga biaya rata-rata'
     end
     item
       IndexID = 902004
-      Text = '<All stock>'
+      Text = '<Semua stok>'
     end
     item
       IndexID = 902005
-      Text = '<All debtors>'
+      Text = '<Semua debitur>'
     end
     item
       IndexID = 903000
@@ -13414,27 +13471,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903001
-      Text = 'File location'
+      Text = 'Lokasi berkas'
     end
     item
       IndexID = 903002
-      Text = 'Original file name'
+      Text = 'Nama berkas asli'
     end
     item
       IndexID = 903003
-      Text = 'File date'
+      Text = 'Tanggal berkas'
     end
     item
       IndexID = 903004
-      Text = 'To database'
+      Text = 'Ke basis data'
     end
     item
       IndexID = 903005
-      Text = 'Link file'
+      Text = 'Tautkan berkas'
     end
     item
       IndexID = 903006
-      Text = 'Copy file'
+      Text = 'Salin berkas'
     end
     item
       IndexID = 903007
@@ -13442,37 +13499,37 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903008
-      Text = 'View/Edit'
+      Text = 'Lihat/Ubah'
     end
     item
       IndexID = 903009
       Text = 
-        'Press OK when you are done editing the file to save it to the da' +
-        'tabase!'
+        'Tekan [OK] setelah anda selesai mengedit berkas untuk menyimpann' +
+        'ya ke basis data!'
     end
     item
       IndexID = 903010
-      Text = 'Save as...'
+      Text = 'Simpan sebagai...'
     end
     item
       IndexID = 903011
-      Text = 'List'
+      Text = 'Daftar'
     end
     item
       IndexID = 902006
-      Text = 'Historical'
+      Text = 'Historis'
     end
     item
       IndexID = 902007
-      Text = 'Price type'
+      Text = 'Tipe harga'
     end
     item
       IndexID = 1000002
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000003
-      Text = '*Your Currency'
+      Text = 'Rp'
     end
     item
       IndexID = 1000004
@@ -13480,179 +13537,179 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000005
-      Text = 'Open item - Due report'
+      Text = 'Analisis umur - Laporan jatuh tempo'
     end
     item
       IndexID = 1000006
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000007
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000008
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000009
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000011
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000012
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000013
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000014
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000015
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000016
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000017
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000018
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000019
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000020
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000021
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000022
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000023
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000024
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000025
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000026
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000027
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000028
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000029
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000030
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000031
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000032
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000033
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000034
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000035
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000036
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000037
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000038
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000039
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000040
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000041
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000042
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000043
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000044
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000045
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 906000
       Text = 
-        'In spite of previous reminders, according to our records your ac' +
-        'count is still overdue.'
+        'Meskipun sudah ada pengingat sebelumnya, menurut catatan kami ak' +
+        'un anda masih menunggak.'
     end
     item
       IndexID = 906001
       Text = 
-        'The next subscription will start soon. The invoice for the new p' +
-        'eriod will follow shortly.'
+        'Langganan berikutnya akan segera dimulai. Faktur untuk periode b' +
+        'aru akan segera menyusul.'
     end
     item
       IndexID = 906002
-      Text = 'Document date/time'
+      Text = 'Tanggal/waktu dokumen'
     end
     item
       IndexID = 906003
@@ -13660,47 +13717,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906004
-      Text = 'Supplier'
+      Text = 'Pemasok'
     end
     item
       IndexID = 906005
-      Text = 'Order date'
+      Text = 'Tanggal pesanan'
     end
     item
       IndexID = 906006
-      Text = 'Quote date'
+      Text = 'Tanggal penawaran'
     end
     item
       IndexID = 906007
-      Text = 'Cum'
+      Text = 'Kumulatif'
     end
     item
       IndexID = 906008
-      Text = 'Total paid'
+      Text = 'Total dibayar'
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
-      Text = 'Please settle your account as soon as possible!'
+      Text = 'Harap lunasi akun anda sesegera mungkin!'
     end
     item
       IndexID = 906011
-      Text = 'Exclusive'
+      Text = 'Eksklusif'
     end
     item
       IndexID = 906012
-      Text = 'Inclusive'
+      Text = 'Inklusif'
     end
     item
       IndexID = 906013
-      Text = 'On account'
+      Text = 'Atas akun'
     end
     item
       IndexID = 906014
-      Text = 'POS Tax Invoice'
+      Text = 'Faktur PPN POS'
     end
     item
       IndexID = 906015
@@ -13716,331 +13773,331 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906018
-      Text = 'Thank you for your patronage.'
+      Text = 'Terima kasih atas dukungan Anda.'
     end
     item
       IndexID = 906019
-      Text = 'Have a nice day.'
+      Text = 'Semoga hari anda menyenangkan.'
     end
     item
       IndexID = 906020
-      Text = 'Tax'
+      Text = 'PPN'
     end
     item
       IndexID = 906021
-      Text = 'Branch code'
+      Text = 'Kode cabang'
     end
     item
       IndexID = 906022
-      Text = 'Account holder'
+      Text = 'Pemegang akun'
     end
     item
       IndexID = 906023
-      Text = '- End of report -'
+      Text = '- Akhir laporan -'
     end
     item
       IndexID = 906024
-      Text = 'Credit note date'
+      Text = 'Tanggal nota kredit'
     end
     item
       IndexID = 906025
-      Text = 'Cum total'
+      Text = 'Total kumulatif'
     end
     item
       IndexID = 906026
-      Text = 'Purchase document'
+      Text = 'Dokumen pembelian'
     end
     item
       IndexID = 906027
-      Text = 'Purchase date'
+      Text = 'Tanggal pembelian'
     end
     item
       IndexID = 906028
-      Text = 'Supplier return date'
+      Text = 'Tanggal retur pemasok'
     end
     item
       IndexID = 906029
-      Text = 'Supplier return document'
+      Text = 'Dokumen retur pemasok'
     end
     item
       IndexID = 906030
-      Text = 'Supplier return accepted'
+      Text = 'Retur pemasok diterima'
     end
     item
       IndexID = 906031
-      Text = 'Historical value'
+      Text = 'Nilai historis'
     end
     item
       IndexID = 906032
-      Text = 'Order list'
+      Text = 'Daftar pesanan'
     end
     item
       IndexID = 906033
-      Text = 'Outstanding orders'
+      Text = 'Pesanan belum terpenuhi'
     end
     item
       IndexID = 906034
-      Text = 'Outstanding quotes'
+      Text = 'Penawaran belum terpenuhi'
     end
     item
       IndexID = 906035
-      Text = 'Debtor - Price agreement'
+      Text = 'Debitur - Perjanjian harga'
     end
     item
       IndexID = 906036
-      Text = 'Reorder quantities'
+      Text = 'Kuantitas pesan ulang'
     end
     item
       IndexID = 906037
-      Text = 'Sales hours'
+      Text = 'Jam penjualan'
     end
     item
       IndexID = 906038
-      Text = 'Stock movement'
+      Text = 'Mutasi stok'
     end
     item
       IndexID = 906039
-      Text = 'Transaction details'
+      Text = 'Detail transaksi'
     end
     item
       IndexID = 906040
-      Text = 'Yagoda barcode'
+      Text = 'Barcode Yagoda'
     end
     item
       IndexID = 906041
-      Text = 'P/L'
+      Text = 'L/R'
     end
     item
       IndexID = 906042
-      Text = 'Profit/Loss'
+      Text = 'Laba/Rugi'
     end
     item
       IndexID = 906043
-      Text = 'Sales per customer group'
+      Text = 'Penjualan per grup pelanggan'
     end
     item
       IndexID = 906044
-      Text = 'Sales per stock group'
+      Text = 'Penjualan per grup stok'
     end
     item
       IndexID = 906045
-      Text = 'Debtor list'
+      Text = 'Daftar debitur'
     end
     item
       IndexID = 906046
-      Text = 'Creditor list'
+      Text = 'Daftar kreditur'
     end
     item
       IndexID = 906047
-      Text = 'Contact list - Debtors'
+      Text = 'Daftar kontak - Debitur'
     end
     item
       IndexID = 906048
-      Text = 'Contact list - Creditors'
+      Text = 'Daftar kontak - Kreditur'
     end
     item
       IndexID = 906049
-      Text = 'Contact list - All'
+      Text = 'Daftar kontak - Semua'
     end
     item
       IndexID = 906050
-      Text = 'Backorder'
+      Text = 'Pesanan tunda'
     end
     item
       IndexID = 906051
-      Text = 'Log report'
+      Text = 'Laporan log'
     end
     item
       IndexID = 906052
-      Text = 'Log-on'
+      Text = 'Masuk log'
     end
     item
       IndexID = 906053
-      Text = 'Log-off'
+      Text = 'Keluar log'
     end
     item
       IndexID = 906054
-      Text = 'OS user'
+      Text = 'Pengguna sistem operasi'
     end
     item
       IndexID = 906055
-      Text = 'From PC'
+      Text = 'Dari PC'
     end
     item
       IndexID = 906056
-      Text = 'Bar order'
+      Text = 'Pesanan bar'
     end
     item
       IndexID = 906057
-      Text = 'Kitchen order'
+      Text = 'Pesanan dapur'
     end
     item
       IndexID = 906058
-      Text = 'Turnover'
+      Text = 'Omzet'
     end
     item
       IndexID = 906059
-      Text = 'Sales per customer'
+      Text = 'Penjualan per pelanggan'
     end
     item
       IndexID = 906060
-      Text = 'Contact list - Main'
+      Text = 'Daftar kontak - Utama'
     end
     item
       IndexID = 906061
-      Text = 'Transaction list - Open item'
+      Text = 'Daftar transaksi - Item terbuka'
     end
     item
       IndexID = 906062
-      Text = 'Selected debtor label'
+      Text = 'Label debitur terpilih'
     end
     item
       IndexID = 906063
-      Text = 'Selected creditor label'
+      Text = 'Label kreditur terpilih'
     end
     item
       IndexID = 906064
-      Text = 'Delivery address labels'
+      Text = 'Label alamat pengiriman'
     end
     item
       IndexID = 906065
-      Text = 'Selected debtor delivery label'
+      Text = 'Label pengiriman debitur terpilih'
     end
     item
       IndexID = 906066
-      Text = 'Selected creditor delivery label'
+      Text = 'Label pengiriman kreditur terpilih'
     end
     item
       IndexID = 906067
-      Text = 'Payments'
+      Text = 'Pembayaran'
     end
     item
       IndexID = 906068
-      Text = 'Page no.'
+      Text = 'No. halaman'
     end
     item
       IndexID = 906069
-      Text = 'Your tax reference'
+      Text = 'Referensi PPN anda'
     end
     item
       IndexID = 1000054
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 1000055
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 906070
-      Text = 'Reprinted'
+      Text = 'Dicetak ulang'
     end
     item
       IndexID = 906071
-      Text = 'Cost centre 1'
+      Text = 'Pusat biaya 1'
     end
     item
       IndexID = 906072
-      Text = 'Cost centre 2'
+      Text = 'Pusat biaya 2'
     end
     item
       IndexID = 1000046
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 906073
-      Text = 'POSPoints'
+      Text = 'Poin POS'
     end
     item
       IndexID = 906074
-      Text = 'Batch'
+      Text = 'Jurnal'
     end
     item
       IndexID = 906075
-      Text = 'Compare period'
+      Text = 'Bandingkan periode'
     end
     item
       IndexID = 906076
-      Text = 'Compare period - Debtors'
+      Text = 'Bandingkan periode - Debitur'
     end
     item
       IndexID = 906077
-      Text = 'Compare period - Creditors'
+      Text = 'Bandingkan periode - Kreditur'
     end
     item
       IndexID = 906078
-      Text = 'Compare period - Profit / Loss'
+      Text = 'Bandingkan periode - Laba/Rugi'
     end
     item
       IndexID = 906079
-      Text = 'Multi-year'
+      Text = 'Multi-tahun'
     end
     item
       IndexID = 906080
-      Text = 'On selected account / other'
+      Text = 'Pada akun terpilih/lainnya'
     end
     item
       IndexID = 906081
-      Text = 'Transaction id'
+      Text = 'Id transaksi'
     end
     item
       IndexID = 906082
-      Text = 'Batch type id'
+      Text = 'Id tipe jurnal'
     end
     item
       IndexID = 906083
-      Text = 'Document amount'
+      Text = 'Jumlah dokumen'
     end
     item
       IndexID = 906084
-      Text = 'Document tax'
+      Text = 'PPN dokumen'
     end
     item
       IndexID = 906085
-      Text = 'Tax on tax account'
+      Text = 'PPN di akun PPN'
     end
     item
       IndexID = 906086
-      Text = 'Control report - Processed transactions per contra account'
+      Text = 'Laporan kontrol - Transaksi yang diproses per akun kontra'
     end
     item
       IndexID = 903100
-      Text = 'Charter'
+      Text = 'Piagam'
     end
     item
       IndexID = 906087
-      Text = 'POS Payment types'
+      Text = 'Tipe pembayaran POS'
     end
     item
       IndexID = 906088
-      Text = 'Creditor - Price agreement'
+      Text = 'Kreditur - Perjanjian harga'
     end
     item
       IndexID = 906089
-      Text = 'POS Sales report'
+      Text = 'Laporan penjualan POS'
     end
     item
       IndexID = 906090
-      Text = 'POS Current cash report'
+      Text = 'Laporan kas POS saat ini'
     end
     item
       IndexID = 906091
-      Text = 'POS Historical cash report'
+      Text = 'Laporan kas POS historis'
     end
     item
       IndexID = 906092
-      Text = 'Total Profit / Loss'
+      Text = 'Total Laba/Rugi'
     end
     item
       IndexID = 906093
-      Text = 'Opening balance'
+      Text = 'Saldo awal'
     end
     item
       IndexID = 906094
-      Text = 'Total balance'
+      Text = 'Total saldo'
     end
     item
       IndexID = 906095
-      Text = 'Total lines'
+      Text = 'Total baris'
     end
     item
       IndexID = 906096
@@ -14048,347 +14105,347 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906097
-      Text = 'Automatic receipts report'
+      Text = 'Laporan tanda terima otomatis'
     end
     item
       IndexID = 906098
-      Text = 'Batch type report'
+      Text = 'Laporan tipe jurnal'
     end
     item
       IndexID = 906099
-      Text = 'BatchID'
+      Text = 'ID jurnal'
     end
     item
       IndexID = 906100
-      Text = 'Posted batch'
+      Text = 'Jurnal yang diposting'
     end
     item
       IndexID = 906101
-      Text = 'Unposted batch'
+      Text = 'Jurnal yang belum diposting'
     end
     item
       IndexID = 906102
-      Text = 'Contra Accounts'
+      Text = 'Akun kontra'
     end
     item
       IndexID = 906103
-      Text = 'Creditors outstanding at date'
+      Text = 'Kreditur belum lunas pada tanggal'
     end
     item
       IndexID = 906104
-      Text = 'Debtors outstanding at date'
+      Text = 'Debitur belum lunas pada tanggal'
     end
     item
       IndexID = 906105
-      Text = 'Tax per period'
+      Text = 'PPN per periode'
     end
     item
       IndexID = 906106
-      Text = 'Debtor transactions - Standard'
+      Text = 'Transaksi debitur - Standar'
     end
     item
       IndexID = 906107
-      Text = 'Debtor transactions - Extra details'
+      Text = 'Transaksi debitur - Detail tambahan'
     end
     item
       IndexID = 906108
-      Text = 'Creditor transactions - Standard'
+      Text = 'Transaksi kreditur - Standar'
     end
     item
       IndexID = 906109
-      Text = 'Creditor transactions - Extra details'
+      Text = 'Transaksi kreditur - Detail tambahan'
     end
     item
       IndexID = 906110
-      Text = 'General ledger transactions - Standard'
+      Text = 'Transaksi buku besar - Standar'
     end
     item
       IndexID = 906111
-      Text = 'General ledger transactions - Extra details'
+      Text = 'Transaksi buku besar - Detail tambahan'
     end
     item
       IndexID = 906112
-      Text = 'Stock In / Out'
+      Text = 'Stok Masuk/Keluar'
     end
     item
       IndexID = 906113
-      Text = 'Period quantity'
+      Text = 'Kuantitas periode'
     end
     item
       IndexID = 906114
-      Text = 'Purchases per period'
+      Text = 'Pembelian per periode'
     end
     item
       IndexID = 906115
-      Text = 'Items per period'
+      Text = 'Item per periode'
     end
     item
       IndexID = 906116
-      Text = 'Creditor group'
+      Text = 'Grup kreditur'
     end
     item
       IndexID = 906117
-      Text = 'Debtor group'
+      Text = 'Grup debitur'
     end
     item
       IndexID = 906118
-      Text = 'Stock group'
+      Text = 'Grup stok'
     end
     item
       IndexID = 906119
-      Text = 'Document group'
+      Text = 'Grup dokumen'
     end
     item
       IndexID = 906120
-      Text = 'Supplier returns per period'
+      Text = 'Retur pemasok per periode'
     end
     item
       IndexID = 906121
-      Text = 'Credit notes per period'
+      Text = 'Nota kredit per periode'
     end
     item
       IndexID = 906122
-      Text = 'Sales per period'
+      Text = 'Penjualan per periode'
     end
     item
       IndexID = 906123
-      Text = 'Debtor transactions'
+      Text = 'Transaksi debitur'
     end
     item
       IndexID = 906124
-      Text = 'Creditor transactions'
+      Text = 'Transaksi kreditur'
     end
     item
       IndexID = 906125
-      Text = 'Posted invoices'
+      Text = 'Faktur yang diposting'
     end
     item
       IndexID = 906126
-      Text = 'Unposted invoices'
+      Text = 'Faktur yang belum diposting'
     end
     item
       IndexID = 906127
-      Text = 'Posted credit notes'
+      Text = 'Nota kredit yang diposting'
     end
     item
       IndexID = 906128
-      Text = 'Unposted credit notes'
+      Text = 'Nota kredit yang belum diposting'
     end
     item
       IndexID = 906129
-      Text = 'Posted purchases'
+      Text = 'Pembelian yang diposting'
     end
     item
       IndexID = 906130
-      Text = 'Unposted purchases'
+      Text = 'Pembelian yang belum diposting'
     end
     item
       IndexID = 906131
-      Text = 'Posted supplier returns'
+      Text = 'Retur pemasok terposting'
     end
     item
       IndexID = 906132
-      Text = 'Unposted supplier returns'
+      Text = 'Retur pemasok belum diposting'
     end
     item
       IndexID = 906133
-      Text = 'Confirmed quotes'
+      Text = 'Penawaran yang dikonfirmasi'
     end
     item
       IndexID = 906134
-      Text = 'Unconfirmed quotes'
+      Text = 'Penawaran yang belum dikonfirmasi'
     end
     item
       IndexID = 906135
-      Text = 'Confirmed orders'
+      Text = 'Pesanan yang dikonfirmasi'
     end
     item
       IndexID = 906136
-      Text = 'Unconfirmed orders'
+      Text = 'Pesanan yang belum dikonfirmasi'
     end
     item
       IndexID = 906137
-      Text = 'Postal address labels'
+      Text = 'Label alamat pos'
     end
     item
       IndexID = 906138
-      Text = 'List delivery address'
+      Text = 'Daftar alamat pengiriman'
     end
     item
       IndexID = 906139
-      Text = 'List postal address'
+      Text = 'Daftar alamat pos'
     end
     item
       IndexID = 906140
-      Text = 'List details'
+      Text = 'Daftar detail'
     end
     item
       IndexID = 906141
-      Text = 'Batch transactions per period'
+      Text = 'Transaksi jurnal per periode'
     end
     item
       IndexID = 906142
-      Text = 'Balances detail'
+      Text = 'Detail saldo'
     end
     item
       IndexID = 906143
-      Text = 'Balances detail history (open item)'
+      Text = 'Riwayat detail saldo (item terbuka)'
     end
     item
       IndexID = 906144
-      Text = 'Outstanding open item transaction totals'
+      Text = 'Total transaksi item terbuka yang belum lunas'
     end
     item
       IndexID = 906145
-      Text = 'Outstanding transaction totals'
+      Text = 'Total transaksi yang belum lunas'
     end
     item
       IndexID = 906146
-      Text = 'Debtor age analysis'
+      Text = 'Analisis umur debitur'
     end
     item
       IndexID = 906147
-      Text = 'Balances'
+      Text = 'Saldo'
     end
     item
       IndexID = 906148
-      Text = 'Balances detail 1'
+      Text = 'Detail saldo 1'
     end
     item
       IndexID = 906149
-      Text = 'Reporting groups'
+      Text = 'Grup pelaporan'
     end
     item
       IndexID = 906150
-      Text = 'Purchases per period - Quantities'
+      Text = 'Pembelian per periode - Kuantitas'
     end
     item
       IndexID = 906151
-      Text = 'Purchases per period - Cost'
+      Text = 'Pembelian per periode - Jumlah'
     end
     item
       IndexID = 906152
-      Text = 'Purchases per period - Creditor group 1'
+      Text = 'Pembelian per periode - Grup kreditur 1'
     end
     item
       IndexID = 906153
-      Text = 'Purchases per period - Creditor group 2'
+      Text = 'Pembelian per periode - Grup kreditur 2'
     end
     item
       IndexID = 906154
-      Text = 'Purchases per period - Document group 1'
+      Text = 'Pembelian per periode - Grup dokumen 1'
     end
     item
       IndexID = 906155
-      Text = 'Invoices per period - Quantities'
+      Text = 'Faktur per periode - Kuantitas'
     end
     item
       IndexID = 906156
-      Text = 'Invoices per period - Turnover'
+      Text = 'Faktur per periode - Jumlah'
     end
     item
       IndexID = 906157
-      Text = 'Invoices per period - Debtor group 1'
+      Text = 'Faktur per periode - Grup debitur 1'
     end
     item
       IndexID = 906158
-      Text = 'Invoices per period - Debtor group 2'
+      Text = 'Faktur per periode - Grup debitur 2'
     end
     item
       IndexID = 906159
-      Text = 'Invoices per period - Document group 1'
+      Text = 'Faktur per periode - Grup dokumen 1'
     end
     item
       IndexID = 906160
-      Text = 'Cash slip printer'
+      Text = 'Pencetak slip kas'
     end
     item
       IndexID = 906161
-      Text = 'Document listing per account'
+      Text = 'Daftar dokumen per akun'
     end
     item
       IndexID = 906162
-      Text = 'Unprinted document listing'
+      Text = 'Daftar dokumen yang belum dicetak'
     end
     item
       IndexID = 906163
-      Text = 'Purchases per period - Document group 2'
+      Text = 'Pembelian per periode - Grup dokumen 2'
     end
     item
       IndexID = 906164
-      Text = 'Purchases per period - Salesperson'
+      Text = 'Pembelian per periode - Wiraniaga'
     end
     item
       IndexID = 906165
-      Text = 'Invoices per period - Document group 2'
+      Text = 'Faktur per periode - Grup dokumen 2'
     end
     item
       IndexID = 906166
-      Text = 'Invoices per period - Salesperson'
+      Text = 'Faktur per periode - Wiraniaga'
     end
     item
       IndexID = 906167
-      Text = 'Graph - Creditor per week'
+      Text = 'Grafik - Kreditur per minggu'
     end
     item
       IndexID = 906168
-      Text = 'Graph - Debtor per week'
+      Text = 'Grafik - Debitur per minggu'
     end
     item
       IndexID = 906169
-      Text = 'Graph - Profit / Loss per week'
+      Text = 'Grafik - Laba/Rugi per minggu'
     end
     item
       IndexID = 906170
-      Text = 'Graph - Invoices per week - Quantities'
+      Text = 'Grafik - Faktur per minggu - Kuantitas'
     end
     item
       IndexID = 906171
-      Text = 'Graph - Invoices per week - Turnover'
+      Text = 'Grafik - Faktur per minggu - Jumlah'
     end
     item
       IndexID = 906172
-      Text = 'Purchases per product - Stock group 1'
+      Text = 'Pembelian per produk - Grup stok 1'
     end
     item
       IndexID = 906173
-      Text = 'Purchases per product - Stock group 2'
+      Text = 'Pembelian per produk - Grup stok 2'
     end
     item
       IndexID = 906174
-      Text = 'Sales per product - Stock group 1'
+      Text = 'Penjualan per produk - Grup stok 1'
     end
     item
       IndexID = 906175
-      Text = 'Sales per product - Stock group 2'
+      Text = 'Penjualan per produk - Grup stok 2'
     end
     item
       IndexID = 906176
-      Text = 'System user'
+      Text = 'Pengguna sistem'
     end
     item
       IndexID = 906177
-      Text = '<@APPNAME@> user'
+      Text = 'Pengguna <@APPNAME@>'
     end
     item
       IndexID = 906178
-      Text = 'Stock in'
+      Text = 'Stok masuk'
     end
     item
       IndexID = 906179
-      Text = 'Stock out'
+      Text = 'Stok keluar'
     end
     item
       IndexID = 906180
-      Text = 'Open drawer'
+      Text = 'Buka laci'
     end
     item
       IndexID = 906181
-      Text = 'Delivery note (no codes)'
+      Text = 'Surat jalan (tanpa kode)'
     end
     item
       IndexID = 906182
-      Text = 'Delivery note (15 code)'
+      Text = 'Surat jalan (kode-15)'
     end
     item
       IndexID = 906183
@@ -14396,7 +14453,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906184
-      Text = 'POS'
+      Text = 'POS 1'
     end
     item
       IndexID = 906185
@@ -14408,323 +14465,323 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906187
-      Text = 'Default A4'
+      Text = 'Standar A4'
     end
     item
       IndexID = 906188
-      Text = 'Default A4 (10 code)'
+      Text = 'Standar A4 (kode-10)'
     end
     item
       IndexID = 906189
-      Text = 'Default A4 (15 code)'
+      Text = 'Standar A4 (kode-15)'
     end
     item
       IndexID = 906190
-      Text = 'Invoice test'
+      Text = 'Tes faktur'
     end
     item
       IndexID = 906191
-      Text = 'Invoice English (15 code)'
+      Text = 'Faktur bahasa Inggris (kode-15)'
     end
     item
       IndexID = 906192
-      Text = 'Invoice Bank details (no codes)'
+      Text = 'Faktur detail bank (tanpa kode)'
     end
     item
       IndexID = 906193
-      Text = 'Invoice Bank details (15 code)'
+      Text = 'Faktur detail bank (kode-15)'
     end
     item
       IndexID = 906194
-      Text = 'Invoice (no codes)'
+      Text = 'Faktur (tanpa kode)'
     end
     item
       IndexID = 906195
-      Text = 'Credit note (no codes)'
+      Text = 'Nota kredit (tanpa kode)'
     end
     item
       IndexID = 906196
-      Text = 'Quote (no codes)'
+      Text = 'Penawaran (tanpa kode)'
     end
     item
       IndexID = 906197
-      Text = 'Purchase (no codes)'
+      Text = 'Pembelian (tanpa kode)'
     end
     item
       IndexID = 906198
-      Text = 'Supplier return (no codes)'
+      Text = 'Retur pemasok (tanpa kode)'
     end
     item
       IndexID = 906199
-      Text = 'Order (no codes)'
+      Text = 'Pesanan (tanpa kode)'
     end
     item
       IndexID = 906200
-      Text = 'Invoice (10 code)'
+      Text = 'Faktur (kode-10)'
     end
     item
       IndexID = 906201
-      Text = 'Credit note (10 code)'
+      Text = 'Nota kredit (kode-10)'
     end
     item
       IndexID = 906202
-      Text = 'Quote (10 code)'
+      Text = 'Penawaran (kode-10)'
     end
     item
       IndexID = 906203
-      Text = 'Purchase (10 code)'
+      Text = 'Pembelian (kode-10)'
     end
     item
       IndexID = 906204
-      Text = 'Supplier return (10 code)'
+      Text = 'Retur pemasok (kode-10)'
     end
     item
       IndexID = 906205
-      Text = 'Order (10 code)'
+      Text = 'Pesanan (kode-10)'
     end
     item
       IndexID = 906206
-      Text = 'Invoice (15 code)'
+      Text = 'Faktur (kode-15)'
     end
     item
       IndexID = 906207
-      Text = 'Credit note (15 code)'
+      Text = 'Nota kredit (kode-15)'
     end
     item
       IndexID = 906208
-      Text = 'Quote (15 code)'
+      Text = 'Penawaran (kode-15)'
     end
     item
       IndexID = 906209
-      Text = 'Purchase (15 code)'
+      Text = 'Pembelian (kode-15)'
     end
     item
       IndexID = 906210
-      Text = 'Supplier return (15 code)'
+      Text = 'Retur pemasok (kode-15)'
     end
     item
       IndexID = 906211
-      Text = 'Order (15 code)'
+      Text = 'Pesanan (kode-15)'
     end
     item
       IndexID = 906212
-      Text = 'Invoice A4 (no codes)'
+      Text = 'Faktur A4 (tanpa kode)'
     end
     item
       IndexID = 906213
-      Text = 'Credit note A4 (no codes)'
+      Text = 'Nota kredit A4 (tanpa kode)'
     end
     item
       IndexID = 906214
-      Text = 'Quote A4 (no codes)'
+      Text = 'Penawaran A4 (tanpa kode)'
     end
     item
       IndexID = 906215
-      Text = 'Purchase A4 (no codes)'
+      Text = 'Pembelian A4 (tanpa kode)'
     end
     item
       IndexID = 906216
-      Text = 'Supplier return A4 (no codes)'
+      Text = 'Retur pemasok A4 (tanpa kode)'
     end
     item
       IndexID = 906218
-      Text = 'Invoice A4 (10 code)'
+      Text = 'Faktur A4 (kode-10)'
     end
     item
       IndexID = 906219
-      Text = 'Credit note A4 (10 code)'
+      Text = 'Nota kredit A4 (kode-10)'
     end
     item
       IndexID = 906220
-      Text = 'Quote A4 (10 code)'
+      Text = 'Penawaran A4 (kode-10)'
     end
     item
       IndexID = 906221
-      Text = 'Purchase A4 (10 code)'
+      Text = 'Pembelian A4 (kode-10)'
     end
     item
       IndexID = 906222
-      Text = 'Supplier return A4 (10 code)'
+      Text = 'Retur pemasok A4 (kode-10)'
     end
     item
       IndexID = 906223
-      Text = 'Order A4 (10 code)'
+      Text = 'Pesanan A4 (kode-10)'
     end
     item
       IndexID = 906224
-      Text = 'Invoice A4 (15 code)'
+      Text = 'Faktur A4 (kode-15)'
     end
     item
       IndexID = 906225
-      Text = 'Credit note A4 (15 code)'
+      Text = 'Nota kredit A4 (kode-15)'
     end
     item
       IndexID = 906226
-      Text = 'Quote A4 (15 code)'
+      Text = 'Penawaran A4 (kode-15)'
     end
     item
       IndexID = 906227
-      Text = 'Purchase A4 (15 code)'
+      Text = 'Pembelian A4 (kode-15)'
     end
     item
       IndexID = 906228
-      Text = 'Supplier return A4 (15 code)'
+      Text = 'Retur pemasok A4 (kode-15)'
     end
     item
       IndexID = 906229
-      Text = 'Order A4 (15 code)'
+      Text = 'Pesanan A4 (kode-15)'
     end
     item
       IndexID = 906230
-      Text = 'Invoice A4 Plain (no codes)'
+      Text = 'Faktur A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906231
-      Text = 'Credit note A4 Plain (no codes)'
+      Text = 'Nota kredit A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906232
-      Text = 'Quote A4 Plain (no codes)'
+      Text = 'Penawaran A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906233
-      Text = 'Purchase A4 Plain (no codes)'
+      Text = 'Pembelian A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906234
-      Text = 'Supplier return A4 Plain (no codes)'
+      Text = 'Retur pemasok A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906235
-      Text = 'Order A4 Plain (no codes)'
+      Text = 'Pesanan A4 Polos (tanpa kode)'
     end
     item
       IndexID = 906236
-      Text = 'Invoice A4 Plain (10 code)'
+      Text = 'Faktur A4 Polos (kode-10)'
     end
     item
       IndexID = 906237
-      Text = 'Credit note A4 Plain (10 code)'
+      Text = 'Nota kredit A4 Polos (kode-10)'
     end
     item
       IndexID = 906238
-      Text = 'Quote A4 Plain (10 code)'
+      Text = 'Penawaran A4 Polos (kode-10)'
     end
     item
       IndexID = 906239
-      Text = 'Purchase A4 Plain (10 code)'
+      Text = 'Pembelian A4 Polos (kode-10)'
     end
     item
       IndexID = 906240
-      Text = 'Supplier return A4 Plain (10 code)'
+      Text = 'Retur pemasok A4 Polos (kode-10)'
     end
     item
       IndexID = 906241
-      Text = 'Order A4 Plain (10 code)'
+      Text = 'Pesanan A4 Polos (kode-10)'
     end
     item
       IndexID = 906242
-      Text = 'Invoice A4 Plain (15 code)'
+      Text = 'Faktur A4 Polos (kode-15)'
     end
     item
       IndexID = 906243
-      Text = 'Credit note A4 Plain (15 code)'
+      Text = 'Nota kredit A4 Polos (kode-15)'
     end
     item
       IndexID = 906244
-      Text = 'Quote A4 Plain (15 code)'
+      Text = 'Penawaran A4 Polos (kode-15)'
     end
     item
       IndexID = 906245
-      Text = 'Purchase A4 Plain (15 code)'
+      Text = 'Pembelian A4 Polos (kode-15)'
     end
     item
       IndexID = 906246
-      Text = 'Supplier return A4 Plain (15 code)'
+      Text = 'Retur pemasok A4 Polos (kode-15)'
     end
     item
       IndexID = 906247
-      Text = 'Order A4 Plain (15 code)'
+      Text = 'Pesanan A4 Polos (kode-15)'
     end
     item
       IndexID = 906248
-      Text = 'Invoice No Tax (no codes)'
+      Text = 'Faktur tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906249
-      Text = 'Credit note No Tax (no codes)'
+      Text = 'Nota kredit tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906250
-      Text = 'Quote No Tax (no codes)'
+      Text = 'Penawaran tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906251
-      Text = 'Purchase No Tax (no codes)'
+      Text = 'Pembelian tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906252
-      Text = 'Supplier return No Tax (no codes)'
+      Text = 'Retur pemasok tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906253
-      Text = 'Order No Tax (no codes)'
+      Text = 'Pesanan tanpa PPN (tanpa kode)'
     end
     item
       IndexID = 906254
-      Text = 'Invoice No Tax (15 code)'
+      Text = 'Faktur tanpa PPN (kode-15)'
     end
     item
       IndexID = 906255
-      Text = 'Credit note No Tax (15 code)'
+      Text = 'Nota kredit tanpa PPN (kode-15)'
     end
     item
       IndexID = 906256
-      Text = 'Quote No Tax (15 code)'
+      Text = 'Penawaran tanpa PPN (kode-15)'
     end
     item
       IndexID = 906257
-      Text = 'Purchase No Tax (15 code)'
+      Text = 'Pembelian tanpa PPN (kode-15)'
     end
     item
       IndexID = 906258
-      Text = 'Supplier return No Tax (15 code)'
+      Text = 'Retur pemasok tanpa PPN (kode-15)'
     end
     item
       IndexID = 906259
-      Text = 'Order No Tax (15 code)'
+      Text = 'Pesanan tanpa PPN (kode-15)'
     end
     item
       IndexID = 906217
-      Text = 'Order A4 (no codes)'
+      Text = 'Pesanan A4 (tanpa kode)'
     end
     item
       IndexID = 906260
-      Text = 'Invoice Bank details (10 code)'
+      Text = 'Faktur detail bank (kode-10)'
     end
     item
       IndexID = 906261
-      Text = 'Invoice English (10 code)'
+      Text = 'Faktur bahasa Inggris (kode-10)'
     end
     item
       IndexID = 906262
-      Text = 'Invoice English (no codes)'
+      Text = 'Faktur bahasa Inggris (tanpa kode)'
     end
     item
       IndexID = 906263
-      Text = 'New report'
+      Text = 'Laporan baru'
     end
     item
       IndexID = 906264
-      Text = 'DOCUMENTS'
+      Text = 'DOKUMEN'
     end
     item
       IndexID = 906265
-      Text = 'Tax report'
+      Text = 'Laporan PPN'
     end
     item
       IndexID = 903101
-      Text = 'Corrections'
+      Text = 'Koreksi'
     end
     item
       IndexID = 903102
@@ -14732,7 +14789,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903103
-      Text = 'Inconsistencies'
+      Text = 'Inkonsistensi'
     end
     item
       IndexID = 903104
@@ -14740,253 +14797,253 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903105
-      Text = 'Run SQL'
+      Text = 'Jalankan SQL'
     end
     item
       IndexID = 903106
-      Text = 'Cleanup batch'
+      Text = 'Pembersihan jurnal'
     end
     item
       IndexID = 903107
-      Text = 'Colour conditions'
+      Text = 'Kondisi warna'
     end
     item
       IndexID = 903108
-      Text = 'Ledger transactions'
+      Text = 'Transaksi buku besar'
     end
     item
       IndexID = 903109
-      Text = 'Import'
+      Text = 'Impor'
     end
     item
       IndexID = 903110
-      Text = 'Patches'
+      Text = 'Tambalan'
     end
     item
       IndexID = 903111
-      Text = 'Round-off cents'
+      Text = 'Pembulatan sen'
     end
     item
       IndexID = 903112
-      Text = 'Add extra description to stock'
+      Text = 'Tambah deskripsi tambahan pada stok'
     end
     item
       IndexID = 903113
-      Text = 'Drop extra description from stock'
+      Text = 'Hapus deskripsi tambahan dari stok'
     end
     item
       IndexID = 903114
-      Text = 'Change stock code type'
+      Text = 'Ubah tipe kode stok'
     end
     item
       IndexID = 903115
-      Text = 'Calculate total in stock'
+      Text = 'Hitung total dalam stok'
     end
     item
       IndexID = 903116
-      Text = 'Test increase'
+      Text = 'Tes peningkatan'
     end
     item
       IndexID = 903117
-      Text = 'Type id'
+      Text = 'Id tipe'
     end
     item
       IndexID = 903118
-      Text = 'End stock code'
+      Text = 'Kode stok akhir'
     end
     item
       IndexID = 903119
-      Text = 'Remove groups not in stock'
+      Text = 'Hapus grup tidak di stok'
     end
     item
       IndexID = 903120
-      Text = 'Remove stock not in documents'
+      Text = 'Hapus stok tidak di dokumen'
     end
     item
       IndexID = 903121
-      Text = 'Generate stock per ledger'
+      Text = 'Buat stok per buku besar'
     end
     item
       IndexID = 903122
-      Text = 'Remove from BOM which is not BOM'
+      Text = 'Hapus dari BOM yang bukan BOM'
     end
     item
       IndexID = 903123
-      Text = 'Update stock qty for option items'
+      Text = 'Perbarui jumlah stok untuk item pilihan'
     end
     item
       IndexID = 903124
-      Text = 'Remove debtors'
+      Text = 'Hapus debitur'
     end
     item
       IndexID = 903125
-      Text = 'Remove creditors'
+      Text = 'Hapus kreditur'
     end
     item
       IndexID = 903126
-      Text = 'Remove stock items'
+      Text = 'Hapus item stok'
     end
     item
       IndexID = 903127
-      Text = 'Remove contacts'
+      Text = 'Hapus kontak'
     end
     item
       IndexID = 903128
-      Text = 'Clear messages'
+      Text = 'Bersihkan pesan'
     end
     item
       IndexID = 903129
-      Text = 'Consolidate closed years'
+      Text = 'Konsolidasi thn ditutup'
     end
     item
       IndexID = 903130
-      Text = 'Transfer account data'
+      Text = 'Transfer data akun'
     end
     item
       IndexID = 903131
-      Text = 'Transfer stock data'
+      Text = 'Transfer data stok'
     end
     item
       IndexID = 903132
-      Text = 'Transfer doubles to Min id and delete'
+      Text = 'Transfer data ganda ke Id minimum dan hapus'
     end
     item
       IndexID = 903133
-      Text = 'Consolidate closed years - documents and stock'
+      Text = 'Konsolidasi thn ditutup - dok & stok'
     end
     item
       IndexID = 903134
-      Text = 'Fill globals with max + 1 id'
+      Text = 'Isi global dengan id maksimum + 1'
     end
     item
       IndexID = 903135
-      Text = 'Remove debtors not in account'
+      Text = 'Hapus debitur tidak di akun'
     end
     item
       IndexID = 903136
-      Text = 'Remove creditors not in account'
+      Text = 'Hapus kreditur tidak di akun'
     end
     item
       IndexID = 903137
-      Text = 'Set all debtors to open item'
+      Text = 'Atur semua debitur ke item terbuka'
     end
     item
       IndexID = 903138
-      Text = 'Set all creditors to open item'
+      Text = 'Atur semua kreditur ke item terbuka'
     end
     item
       IndexID = 903139
-      Text = 'Correct account numbers'
+      Text = 'Perbaiki nomor akun'
     end
     item
       IndexID = 903140
-      Text = 'Correct sub-accounts'
+      Text = 'Perbaiki sub-akun'
     end
     item
       IndexID = 903141
-      Text = 'Trim debtor address and set first character to the UPPERCASE'
+      Text = 'Potong alamat debitur dan atur karakter pertama ke HURUF BESAR'
     end
     item
       IndexID = 903142
-      Text = 'Generate all total entries'
+      Text = 'Buat semua entri total'
     end
     item
       IndexID = 903143
-      Text = 'Remove invalid symbols from bank accounts'
+      Text = 'Hapus simbol tidak valid dari akun bank'
     end
     item
       IndexID = 903144
-      Text = 'Reset purchase to basis of last document'
+      Text = 'Atur ulang pembelian ke dasar dokumen terakhir'
     end
     item
       IndexID = 903145
-      Text = 'Correct errors balance booking descriptions'
+      Text = 'Perbaiki kesalahan deskripsi pembukuan saldo'
     end
     item
       IndexID = 903146
-      Text = 'Set Transact previous years'
+      Text = 'Atur Transact tahun sebelumnya'
     end
     item
       IndexID = 903147
-      Text = 'Update Dochead FTaxAmt'
+      Text = 'Perbarui Dochead FTaxAmt'
     end
     item
       IndexID = 903148
-      Text = 'Correct periods'
+      Text = 'Perbaiki periode'
     end
     item
       IndexID = 903149
-      Text = 'Fix periods'
+      Text = 'Perbaiki periode'
     end
     item
       IndexID = 903150
-      Text = 'Find unbalanced entries'
+      Text = 'Temukan entri tidak seimbang'
     end
     item
       IndexID = 903151
-      Text = 'Auto-link all zero debtors'
+      Text = 'Tautkan otomatis semua debitur nol'
     end
     item
       IndexID = 903152
-      Text = 'Remove all links'
+      Text = 'Hapus semua tautan'
     end
     item
       IndexID = 903153
-      Text = 'Correct Transact line id'
+      Text = 'Perbaiki id baris Transact'
     end
     item
       IndexID = 903154
-      Text = 'Correct Incl. Excl. Tax amount (Reverse bug)'
+      Text = 'Perbaiki jumlah PPN Term./Eks. (Bug terbalik)'
     end
     item
       IndexID = 903155
-      Text = 'Clear totals'
+      Text = 'Bersihkan total'
     end
     item
       IndexID = 903156
-      Text = 'Clear Sysvars parameters'
+      Text = 'Bersihkan parameter Sysvars'
     end
     item
       IndexID = 903157
-      Text = 'Delete all invoices'
+      Text = 'Hapus semua faktur'
     end
     item
       IndexID = 903158
-      Text = 'Remove BatCon not in Transact'
+      Text = 'Hapus BatCon tidak di Transact'
     end
     item
       IndexID = 903159
-      Text = 'Remove zero invoices'
+      Text = 'Hapus faktur nol'
     end
     item
       IndexID = 903160
-      Text = 'Remove last name from contacts after a comma'
+      Text = 'Hapus nama belakang dari kontak setelah koma'
     end
     item
       IndexID = 903161
-      Text = 'Find debtors'
+      Text = 'Temukan debitur'
     end
     item
       IndexID = 903162
-      Text = 'Find creditors'
+      Text = 'Temukan kreditur'
     end
     item
       IndexID = 903163
-      Text = 'Generate contacts'
+      Text = 'Buat kontak'
     end
     item
       IndexID = 903164
-      Text = 'Pick colour'
+      Text = 'Pilih warna'
     end
     item
       IndexID = 903165
       Text = 
-        'Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price' +
-        ' 2 at1.3 X of Purchase Price'
+        'Atur harga jual 1 pada 1,5 X harga beli dan harga jual 2 pada 1,' +
+        '3 X harga beli'
     end
     item
       IndexID = 903166
-      Text = 'Select'
+      Text = 'Pilih'
     end
     item
       IndexID = 903167
@@ -14998,467 +15055,469 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903169
-      Text = 'Current version'
+      Text = 'Versi saat ini'
     end
     item
       IndexID = 903170
-      Text = 'Execute'
+      Text = 'Eksekusi'
     end
     item
       IndexID = 903171
-      Text = 'Script'
+      Text = 'Skrip'
     end
     item
       IndexID = 903172
-      Text = 'Set term'
+      Text = 'Atur istilah'
     end
     item
       IndexID = 903173
-      Text = 'Drop'
+      Text = 'Lepas'
     end
     item
       IndexID = 903174
-      Text = 'Save to all users'
+      Text = 'Simpan ke semua pengguna'
     end
     item
       IndexID = 903175
-      Text = 'Expression'
+      Text = 'Ekspresi'
     end
     item
       IndexID = 903176
-      Text = 'Font expression'
+      Text = 'Ekspresi font'
     end
     item
       IndexID = 903177
-      Text = 'Background expression'
+      Text = 'Ekspresi latar belakang'
     end
     item
       IndexID = 903178
-      Text = 'Are you sure?'
+      Text = 'Apakah Anda yakin?'
     end
     item
       IndexID = 903179
-      Text = 'Nothing found !'
+      Text = 'Tidak ada yang ditemukan !'
     end
     item
       IndexID = 903180
-      Text = 'Enter code'
+      Text = 'Masukkan kode'
     end
     item
       IndexID = 903181
-      Text = 'Please register <@APPNAME@> first!'
+      Text = 'Harap daftarkan <@APPNAME@> terlebih dahulu!'
     end
     item
       IndexID = 903182
-      Text = 'Registered'
+      Text = 'Terdaftar'
     end
     item
       IndexID = 1000056
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Item yang diposting - Belum lunas'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Item yang belum diposting - Belum lunas'
     end
     item
       IndexID = 906268
-      Text = 'Current stock levels'
+      Text = 'Tingkat stok saat ini'
     end
     item
       IndexID = 906269
-      Text = 'The sum of'
+      Text = 'Jumlah dari'
     end
     item
       IndexID = 906270
-      Text = 'Amount outstanding'
+      Text = 'Jumlah belum lunas'
     end
     item
       IndexID = 906271
-      Text = 'Original transaction amount'
+      Text = 'Jumlah transaksi asli'
     end
     item
       IndexID = 906272
-      Text = 'Paid to'
+      Text = 'Dibayarkan ke'
     end
     item
       IndexID = 906273
-      Text = 'Payment number'
+      Text = 'Nomor pembayaran'
     end
     item
       IndexID = 906274
-      Text = 'LAY-BUYS (to pay)'
+      Text = 'LAY-BUYS (untuk dibayar)'
     end
     item
       IndexID = 1000057
-      Text = 'Not used / Do not translate'
+      Text = 'Tidak digunakan/Jangan diterjemahkan'
     end
     item
       IndexID = 906275
-      Text = 'accepted'
+      Text = 'diterima'
     end
     item
       IndexID = 906276
-      Text = 'Document layout (10 code)'
+      Text = 'Tata letak dokumen (kode-10)'
     end
     item
       IndexID = 906277
-      Text = 'Document layout (15 code)'
+      Text = 'Tata letak dokumen (kode-15)'
     end
     item
       IndexID = 906278
-      Text = 'Document layout (no codes)'
+      Text = 'Tata letak dokumen (tanpa kode)'
     end
     item
       IndexID = 906279
-      Text = 'Supplier 1'
+      Text = 'Pemasok 1'
     end
     item
       IndexID = 906280
-      Text = 'Ledger and tax'
+      Text = 'Buku besar dan PPN'
     end
     item
       IndexID = 906281
-      Text = 'Dummy price'
+      Text = 'Harga tiruan'
     end
     item
       IndexID = 906282
-      Text = 'Extra convert to languages'
+      Text = 'Konversi ekstra ke bahasa'
     end
     item
       IndexID = 906283
-      Text = 'Active stock'
+      Text = 'Stok aktif'
     end
     item
       IndexID = 906284
-      Text = 'Mark copy'
+      Text = 'Tandai salinan'
     end
     item
       IndexID = 906285
-      Text = 'Multi-group copy'
+      Text = 'Salinan multi-grup'
     end
     item
       IndexID = 906286
-      Text = 'Report total'
+      Text = 'Total laporan'
     end
     item
       IndexID = 906287
-      Text = 'Debit transactions'
+      Text = 'Transaksi debit'
     end
     item
       IndexID = 906288
-      Text = 'Credit transactions'
+      Text = 'Transaksi kredit'
     end
     item
       IndexID = 906289
-      Text = 'Graph - Purchases per week - Quantities'
+      Text = 'Grafik - Pembelian per minggu - Kuantitas'
     end
     item
       IndexID = 906290
-      Text = 'Graph - Purchases per week - Cost'
+      Text = 'Grafik - Pembelian per minggu - Jumlah'
     end
     item
       IndexID = 906291
-      Text = 'Credit notes per period - Debtor group 1'
+      Text = 'Nota kredit per periode - Grup debitur 1'
     end
     item
       IndexID = 906292
-      Text = 'Credit notes per period - Debtor group 2'
+      Text = 'Nota kredit per periode - Grup debitur 2'
     end
     item
       IndexID = 906293
-      Text = 'Credit notes per period - Document group 1'
+      Text = 'Nota kredit per periode - Grup dokumen 1'
     end
     item
       IndexID = 906294
-      Text = 'Credit notes per period - Document group 2'
+      Text = 'Nota kredit per periode - Grup dokumen 2'
     end
     item
       IndexID = 906295
-      Text = 'Credit notes per period - Salesperson'
+      Text = 'Nota kredit per periode - Wiraniaga'
     end
     item
       IndexID = 906296
-      Text = 'Supplier returns per period - Creditor group 1'
+      Text = 'Retur pemasok per periode - Grup kreditur 1'
     end
     item
       IndexID = 906297
-      Text = 'Supplier returns per period - Creditor group 2'
+      Text = 'Retur pemasok per periode - Grup kreditur 2'
     end
     item
       IndexID = 906298
-      Text = 'Supplier returns per period - Document group 1'
+      Text = 'Retur pemasok per periode - Grup dokumen 1'
     end
     item
       IndexID = 906299
-      Text = 'Supplier returns per period - Document group 2'
+      Text = 'Retur pemasok per periode - Grup dokumen 2'
     end
     item
       IndexID = 906300
-      Text = 'Supplier returns per period - Salesperson'
+      Text = 'Retur pemasok per periode - Wiraniaga'
     end
     item
       IndexID = 906301
-      Text = 'Quotes per period - Debtor group 1'
+      Text = 'Penawaran per periode - Grup debitur 1'
     end
     item
       IndexID = 906302
-      Text = 'Quotes per period - Debtor group 2'
+      Text = 'Penawaran per periode - Grup debitur 2'
     end
     item
       IndexID = 906303
-      Text = 'Quotes per period - Document group 1'
+      Text = 'Penawaran per periode - Grup dokumen 1'
     end
     item
       IndexID = 906304
-      Text = 'Quotes per period - Document group 2'
+      Text = 'Penawaran per periode - Grup dokumen 2'
     end
     item
       IndexID = 906305
-      Text = 'Quotes per period - Salesperson'
+      Text = 'Penawaran per periode - Wiraniaga'
     end
     item
       IndexID = 906306
-      Text = 'Orders per period - Creditor group 1'
+      Text = 'Pesanan per periode - Grup kreditur 1'
     end
     item
       IndexID = 906307
-      Text = 'Orders per period - Creditor group 2'
+      Text = 'Pesanan per periode - Grup kreditur 2'
     end
     item
       IndexID = 906308
-      Text = 'Orders per period - Document group 1'
+      Text = 'Pesanan per periode - Grup dokumen 1'
     end
     item
       IndexID = 906309
-      Text = 'Orders per period - Document group 2'
+      Text = 'Pesanan per periode - Grup dokumen 2'
     end
     item
       IndexID = 906310
-      Text = 'Orders per period - Salesperson'
+      Text = 'Pesanan per periode - Wiraniaga'
     end
     item
       IndexID = 906311
-      Text = 'Credit notes per period - Quantities'
+      Text = 'Nota kredit per periode - Kuantitas'
     end
     item
       IndexID = 906312
-      Text = 'Credit notes per period - Turnover'
+      Text = 'Nota kredit per periode - Jumlah'
     end
     item
       IndexID = 906313
-      Text = 'Supplier returns per period - Quantities'
+      Text = 'Retur pemasok per periode - Kuantitas'
     end
     item
       IndexID = 906314
-      Text = 'Supplier returns per period - Cost'
+      Text = 'Retur pemasok per periode - Jumlah'
     end
     item
       IndexID = 906315
-      Text = 'Quotes per period - Quantities'
+      Text = 'Penawaran per periode - Kuantitas'
     end
     item
       IndexID = 906316
-      Text = 'Quotes per period - Turnover'
+      Text = 'Penawaran per periode - Jumlah'
     end
     item
       IndexID = 906317
-      Text = 'Orders per period - Quantities'
+      Text = 'Pesanan per periode - Kuantitas'
     end
     item
       IndexID = 906318
-      Text = 'Orders per period - Cost'
+      Text = 'Pesanan per periode - Jumlah'
     end
     item
       IndexID = 906319
-      Text = 'Graph - Credit notes per week - Quantities'
+      Text = 'Grafik - Nota kredit per minggu - Kuantitas'
     end
     item
       IndexID = 906320
-      Text = 'Graph - Credit notes per week - Turnover'
+      Text = 'Grafik - Nota kredit per minggu - Jumlah'
     end
     item
       IndexID = 906321
-      Text = 'Graph - Supplier returns per week - Quantities'
+      Text = 'Grafik - Retur pemasok per minggu - Kuantitas'
     end
     item
       IndexID = 906322
-      Text = 'Graph - Supplier returns per week - Cost'
+      Text = 'Grafik - Retur pemasok per minggu - Jumlah'
     end
     item
       IndexID = 906323
-      Text = 'Graph - Quotes per week - Quantities'
+      Text = 'Grafik - Penawaran per minggu - Kuantitas'
     end
     item
       IndexID = 906324
-      Text = 'Graph - Quotes per week - Turnover'
+      Text = 'Grafik - Penawaran per minggu - Jumlah'
     end
     item
       IndexID = 906325
-      Text = 'Graph - Orders per week - Quantities'
+      Text = 'Grafik - Pesanan per minggu - Kuantitas'
     end
     item
       IndexID = 906326
-      Text = 'Graph - Orders per week - Cost'
+      Text = 'Grafik - Pesanan per minggu - Jumlah'
     end
     item
       IndexID = 906327
-      Text = 'Purchase documents per period - Creditor group 1'
+      Text = 'Dokumen pembelian per periode - Grup kreditur 1'
     end
     item
       IndexID = 906328
-      Text = 'Purchase documents per period - Creditor group 2'
+      Text = 'Dokumen pembelian per periode - Grup kreditur 2'
     end
     item
       IndexID = 906329
-      Text = 'Purchase documents per period - Document group 1'
+      Text = 'Dokumen pembelian per periode - Grup dokumen 1'
     end
     item
       IndexID = 906330
-      Text = 'Purchase documents per period - Document group 2'
+      Text = 'Dokumen pembelian per periode - Grup dokumen 2'
     end
     item
       IndexID = 906331
-      Text = 'Purchase documents per period - Salesperson'
+      Text = 'Dokumen pembelian per periode - Wiraniaga'
     end
     item
       IndexID = 906332
-      Text = 'Sales per period - Debtor group 1'
+      Text = 'Penjualan per periode - Grup debitur 1'
     end
     item
       IndexID = 906333
-      Text = 'Sales per period - Debtor group 2'
+      Text = 'Penjualan per periode - Grup debitur 2'
     end
     item
       IndexID = 906334
-      Text = 'Sales per period - Document group 1'
+      Text = 'Penjualan per periode - Grup dokumen 1'
     end
     item
       IndexID = 906335
-      Text = 'Sales per period - Document group 2'
+      Text = 'Penjualan per periode - Grup dokumen 2'
     end
     item
       IndexID = 906336
-      Text = 'Sales per period - Salesperson'
+      Text = 'Penjualan per periode - Wiraniaga'
     end
     item
       IndexID = 906337
-      Text = 'Purchases and supplier returns per period'
+      Text = 'Pembelian dan retur pemasok per periode'
     end
     item
       IndexID = 906338
-      Text = 'Credit control listing (Credit limit vs current balance) as at '
+      Text = 
+        'Daftar kontrol kredit (Batas kredit vs saldo saat ini) per tangg' +
+        'al'
     end
     item
       IndexID = 906339
-      Text = 'Tax and company registration numbers'
+      Text = 'No. PPN dan registrasi perusahaan'
     end
     item
       IndexID = 906440
-      Text = 'Transaction list'
+      Text = 'Daftar transaksi'
     end
     item
       IndexID = 906441
-      Text = 'Actual'
+      Text = 'Aktual'
     end
     item
       IndexID = 906442
-      Text = 'Budget v/s realisation 3 periods'
+      Text = 'Anggaran vs realisasi 3 periode'
     end
     item
       IndexID = 906443
-      Text = 'Ref. No.'
+      Text = 'No. ref.'
     end
     item
       IndexID = 906444
-      Text = 'Data integrity check report'
+      Text = 'Laporan pemeriksaan integritas data'
     end
     item
       IndexID = 906445
-      Text = 'Date / Time'
+      Text = 'Tanggal/Waktu'
     end
     item
       IndexID = 906446
-      Text = 'ID'
+      Text = 'Id'
     end
     item
       IndexID = 906447
-      Text = 'Unposted payments'
+      Text = 'Pembayaran yang belum diposting'
     end
     item
       IndexID = 906448
-      Text = 'Unposted receipts'
+      Text = 'Penerimaan yang belum diposting'
     end
     item
       IndexID = 906449
-      Text = 'Automatic payments report'
+      Text = 'Laporan pembayaran otomatis'
     end
     item
       IndexID = 906550
-      Text = 'Tax report - Reference / Document no.'
+      Text = 'Laporan PPN - Ref./No. dokumen'
     end
     item
       IndexID = 906551
-      Text = 'Creditor remittance advise - Outstanding'
+      Text = 'Saran remitansi kreditur - Belum lunas'
     end
     item
       IndexID = 906552
-      Text = 'Debtor statement - Outstanding'
+      Text = 'Pernyataan debitur - Belum lunas'
     end
     item
       IndexID = 906553
-      Text = 'Tax list creditor with tax id'
+      Text = 'Daftar PPN kreditur dengan ID PPN'
     end
     item
       IndexID = 906554
-      Text = 'Outdated batch'
+      Text = 'Batch kedaluwarsa'
     end
     item
       IndexID = 906555
-      Text = 'Batch bought from supplier'
+      Text = 'Batch dibeli dari pemasok'
     end
     item
       IndexID = 906556
-      Text = 'Batch sold to customer'
+      Text = 'Batch dijual ke pelanggan'
     end
     item
       IndexID = 159
-      Text = 'Piece price'
+      Text = 'Harga per potong'
     end
     item
       IndexID = 170
-      Text = 'Packaging unit'
+      Text = 'Satuan kemasan'
     end
     item
       IndexID = 20130
-      Text = 'Do not cash'
+      Text = 'Jangan tunaikan'
     end
     item
       IndexID = 20131
-      Text = 'Create goods sold not taken'
+      Text = 'Buat barang terjual belum diambil'
     end
     item
       IndexID = 20132
-      Text = 'Cannot delete!'
+      Text = 'Tidak dapat menghapus!'
     end
     item
       IndexID = 20133
-      Text = 'Use advanced stock'
+      Text = 'Gunakan fitur stok tingkat lanjut'
     end
     item
       IndexID = 3127
-      Text = 'Net weight'
+      Text = 'Berat bersih'
     end
     item
       IndexID = 3128
-      Text = 'Gross weight'
+      Text = 'Berat kotor'
     end
     item
       IndexID = 3129
-      Text = 'Reorder at'
+      Text = 'Pesan ulang pada'
     end
     item
       IndexID = 3130
@@ -15467,270 +15526,270 @@ object TTranslationSaveObject
     item
       IndexID = 3131
       Text = 
-        'Reorder level - your items will be reordered until this quantity' +
-        '!'
+        'Tingkat pesan ulang - barang anda akan dipesan ulang sampai juml' +
+        'ah ini!'
     end
     item
       IndexID = 3132
       Text = 
-        'If your stock goes below this, then the system will reorder unti' +
-        'l the reorder quantity!'
+        'Jika stok anda di bawah ini, maka sistem akan memesan ulang samp' +
+        'ai jumlah pesanan ulang!'#13#10
     end
     item
       IndexID = 3133
       Text = 
-        'If you want to reserve some stock for sales this field will be d' +
-        'educted from current stock levels in a quote!'
+        'Jika anda ingin memesan stok untuk penjualan, kolom ini akan dik' +
+        'urangi dari tingkat stok saat ini dalam penawaran!'
     end
     item
       IndexID = 3134
-      Text = 'Languages'
+      Text = 'Bahasa'
     end
     item
       IndexID = 3135
-      Text = 'Language'
+      Text = 'Bahasa'
     end
     item
       IndexID = 3136
-      Text = 'Multi-group'
+      Text = 'Multi-grup'
     end
     item
       IndexID = 3137
-      Text = 'Select image'
+      Text = 'Pilih gambar'
     end
     item
       IndexID = 3138
-      Text = 'Delete image'
+      Text = 'Hapus gambar'
     end
     item
       IndexID = 3139
-      Text = 'Cur : %s Quote : %s Order : %s Exp : %s'
+      Text = 'Mata Uang : %s Penawaran : %s Pesanan : %s Kedaluwarsa : %s'
     end
     item
       IndexID = 3140
-      Text = 'Expected quantity'
+      Text = 'Jumlah yang diharapkan'
     end
     item
       IndexID = 3141
-      Text = 'Manufacturer'
+      Text = 'Produsen'
     end
     item
       IndexID = 3142
-      Text = 'Option item'
+      Text = 'Item pilihan'
     end
     item
       IndexID = 3143
-      Text = 'Option item (no stock)'
+      Text = 'Item pilihan (tanpa stok)'
     end
     item
       IndexID = 3144
-      Text = 'Options'
+      Text = 'Opsi'
     end
     item
       IndexID = 3145
-      Text = 'Generate'
+      Text = 'Hasilkan'
     end
     item
       IndexID = 3146
-      Text = 'Linked options'
+      Text = 'Opsi tertaut'
     end
     item
       IndexID = 3147
-      Text = 'View as tree'
+      Text = 'Tampilkan sebagai pohon'
     end
     item
       IndexID = 3148
-      Text = 'Combination name'
+      Text = 'Nama kombinasi'
     end
     item
       IndexID = 3149
-      Text = 'Remove'
+      Text = 'Hapus'
     end
     item
       IndexID = 3150
-      Text = 'Extra price'
+      Text = 'Harga tambahan'
     end
     item
       IndexID = 3151
-      Text = 'Financial entry'
+      Text = 'Entri keuangan'
     end
     item
       IndexID = 3152
-      Text = 'Weight'
+      Text = 'Berat'
     end
     item
       IndexID = 3153
       Text = 
-        'If you have OpenOffice installed, you can edit this as HTML by d' +
-        'ouble-clicking in this text field!'
+        'Jika anda menginstal OpenOffice, anda dapat mengedit ini sebagai' +
+        ' HTML dengan mengeklik dua kali di kolom teks ini!'
     end
     item
       IndexID = 3154
-      Text = 'Options'
+      Text = 'Opsi'
     end
     item
       IndexID = 3155
-      Text = 'Setup options'
+      Text = 'Siapkan opsi'
     end
     item
       IndexID = 3156
-      Text = 'Double-click to enter the option list.'
+      Text = 'Klik dua kali untuk masuk ke daftar opsi.'
     end
     item
       IndexID = 3157
-      Text = 'Default inclusive for documents'
+      Text = 'Inklusif standar untuk dokumen'
     end
     item
       IndexID = 3158
-      Text = 'SQL only for stock lookup'
+      Text = 'SQL hanya untuk pencarian stok'
     end
     item
       IndexID = 3159
-      Text = 'Merge invoice to orders'
+      Text = 'Gabungkan faktur ke pesanan'
     end
     item
       IndexID = 3160
-      Text = 'Merge items per tax on ledger'
+      Text = 'Gabungkan item per PPN di buku besar'
     end
     item
       IndexID = 3161
-      Text = 'Button lookup'
+      Text = 'Pencarian tombol'
     end
     item
       IndexID = 3162
-      Text = 'Cannot edit price'
+      Text = 'Tidak dapat mengedit harga'
     end
     item
       IndexID = 3163
-      Text = 'Cannot edit description'
+      Text = 'Tidak dapat mengedit deskripsi'
     end
     item
       IndexID = 3164
-      Text = 'Go to quantity'
+      Text = 'Pergi ke jumlah'
     end
     item
       IndexID = 3165
-      Text = 'Bank accounts'
+      Text = 'Rekening bank'
     end
     item
       IndexID = 3166
-      Text = 'Column balances D/C'
+      Text = 'Saldo kolom D/K'
     end
     item
       IndexID = 3167
-      Text = 'Column balances debtors D/C'
+      Text = 'Saldo kolom debitur D/K'
     end
     item
       IndexID = 3168
-      Text = 'Column balances creditors D/C'
+      Text = 'Saldo kolom kreditur D/K'
     end
     item
       IndexID = 3169
-      Text = 'Strict tax on account'
+      Text = 'PPN ketat pada akun'
     end
     item
       IndexID = 3170
-      Text = 'Post warning per invoice'
+      Text = 'Posting peringatan per faktur'
     end
     item
       IndexID = 3171
-      Text = 'Process warnings'
+      Text = 'Proses peringatan'
     end
     item
       IndexID = 3172
-      Text = 'Process subscriptions'
+      Text = 'Proses langganan'
     end
     item
       IndexID = 3173
-      Text = 'Send e-mail'
+      Text = 'Kirim surel'
     end
     item
       IndexID = 3174
-      Text = 'Document layout'
+      Text = 'Tata letak dokumen'
     end
     item
       IndexID = 3175
-      Text = 'Contract term not the same!'
+      Text = 'Jangka waktu kontrak tidak sama!'
     end
     item
       IndexID = 3176
-      Text = 'Send warning'
+      Text = 'Kirim peringatan'
     end
     item
       IndexID = 3177
-      Text = 'E-mail signed document'
+      Text = 'Surel dokumen yang ditandatangani'
     end
     item
       IndexID = 3178
-      Text = 'Link tax'
+      Text = 'Tautkan PPN'
     end
     item
       IndexID = 3179
-      Text = 'Bank links'
+      Text = 'Tautan bank'
     end
     item
       IndexID = 3180
-      Text = 'Edit account'
+      Text = 'Ubah akun'
     end
     item
       IndexID = 3181
-      Text = 'Convert to credit note / supplier return'
+      Text = 'Konversi ke nota kredit/retur pemasok'
     end
     item
       IndexID = 3182
-      Text = 'Open e-Commerce order in browser'
+      Text = 'Buka pesanan e-Commerce di peramban'
     end
     item
       IndexID = 3183
-      Text = 'Open e-Commerce customer in browser'
+      Text = 'Buka pelanggan e-Commerce di peramban'
     end
     item
       IndexID = 3184
-      Text = 'Convert documents to single document'
+      Text = 'Konversi dokumen menjadi dokumen tunggal'
     end
     item
       IndexID = 3185
-      Text = 'Create purchase on default supplier 1'
+      Text = 'Buat pembelian pada pemasok standar 1'
     end
     item
       IndexID = 3186
-      Text = 'Image'
+      Text = 'Gambar'
     end
     item
       IndexID = 3187
-      Text = 'Bug report'
+      Text = 'Laporan kutu'
     end
     item
       IndexID = 3189
-      Text = 'Close active forms'
+      Text = 'Tutup formulir aktif'
     end
     item
       IndexID = 3190
-      Text = 'Show / hide sidebar'
+      Text = 'Tampilkan/sembunyikan bilah samping'
     end
     item
       IndexID = 3191
-      Text = 'Show / hide topbar'
+      Text = 'Tampilkan/sembunyikan bilah atas'
     end
     item
       IndexID = 3192
-      Text = 'Only look in account for search'
+      Text = 'Hanya cari di akun untuk pencarian'
     end
     item
       IndexID = 3188
-      Text = 'Cost centres'
+      Text = 'Pusat biaya'
     end
     item
       IndexID = 3193
-      Text = 'Bug report'
+      Text = 'Laporan kutu'
     end
     item
       IndexID = 3194
-      Text = 'Webshop'
+      Text = 'Toko daring'
     end
     item
       IndexID = 3195
-      Text = 'Help'
+      Text = 'Bantuan'
     end
     item
       IndexID = 3196
@@ -15738,529 +15797,530 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3197
-      Text = 'Opening balance - This year'
+      Text = 'Saldo awal - Tahun ini'
     end
     item
       IndexID = 3198
-      Text = 'Gender'
+      Text = 'Jenis kelamin'
     end
     item
       IndexID = 3199
-      Text = 'Male'
+      Text = 'Laki-laki'
     end
     item
       IndexID = 3200
-      Text = 'Female'
+      Text = 'Perempuan'
     end
     item
       IndexID = 3201
-      Text = 'Newsletters and password'
+      Text = 'Buletin dan kata sandi'
     end
     item
       IndexID = 3202
-      Text = 'Referral source'
+      Text = 'Sumber rujukan'
     end
     item
       IndexID = 3203
-      Text = 'Newsletters'
+      Text = 'Buletin'
     end
     item
       IndexID = 3204
-      Text = 'Password confirmation'
+      Text = 'Konfirmasi kata sandi'
     end
     item
       IndexID = 3205
-      Text = 'General'
+      Text = 'Umum'
     end
     item
       IndexID = 3206
-      Text = 'Release'
+      Text = 'Rilis'
     end
     item
       IndexID = 3207
-      Text = 'Bug fix'
+      Text = 'Perbaikan kutu'
     end
     item
       IndexID = 3208
-      Text = 'Community day'
+      Text = 'Hari komunitas'
     end
     item
       IndexID = 3209
-      Text = 'Existing user'
+      Text = 'Pengguna yang sudah ada'
     end
     item
       IndexID = 3210
-      Text = 'You have registered successfully ! '
+      Text = 'Anda telah berhasil mendaftar !'
     end
     item
       IndexID = 3211
-      Text = 'Usage'
+      Text = 'Penggunaan'
     end
     item
       IndexID = 3212
-      Text = 'Website'
+      Text = 'Situs web'
     end
     item
       IndexID = 3213
-      Text = 'Reregister'
+      Text = 'Daftar ulang'
     end
     item
       IndexID = 3214
-      Text = 'Consultant'
+      Text = 'Konsultan'
     end
     item
       IndexID = 3215
-      Text = 'Send'
+      Text = 'Kirim'
     end
     item
       IndexID = 3216
-      Text = 'New user'
+      Text = 'Pengguna baru'
     end
     item
       IndexID = 3217
-      Text = 'Action'
+      Text = 'Tindakan'
     end
     item
       IndexID = 3218
       Text = 
-        'Username and password are used to log in to our forum and shop n' +
-        'ot for <@APPNAME@> self'
+        'Nama pengguna dan kata sandi digunakan untuk masuk ke forum dan ' +
+        'toko kami bukan untuk <@APPNAME@> sendiri'
     end
     item
       IndexID = 3219
-      Text = 'E-mail can be sent via the context menu in the Document list.'
+      Text = 'Surel dapat dikirim melalui menu konteks di daftar dokumen.'
     end
     item
       IndexID = 3220
-      Text = 'Mail template'
+      Text = 'Templat surel'
     end
     item
       IndexID = 3221
-      Text = 'Select layout'
+      Text = 'Pilih tata letak'
     end
     item
       IndexID = 3222
-      Text = 'Select template'
+      Text = 'Pilih templat'
     end
     item
       IndexID = 3223
-      Text = 'Report name'
+      Text = 'Nama laporan'
     end
     item
       IndexID = 3224
-      Text = 'Base folder debtor/creditor'
+      Text = 'Folder basis debitur/kreditur'
     end
     item
       IndexID = 3225
-      Text = 'Base folder'
+      Text = 'Folder basis'
     end
     item
       IndexID = 3226
-      Text = 'Test e-mail'
+      Text = 'Uji surel'
     end
     item
       IndexID = 3227
-      Text = 'Send e-mail(s)'
+      Text = 'Kirim surel'
     end
     item
       IndexID = 3228
-      Text = 'Resume e-mail(s)'
+      Text = 'Lanjutkan surel'
     end
     item
       IndexID = 3229
-      Text = 'Stop e-mail(s)'
+      Text = 'Hentikan surel'
     end
     item
       IndexID = 3230
-      Text = 'Path to the HTML files'
+      Text = 'Jalur ke berkas HTML'
     end
     item
       IndexID = 3231
-      Text = 'POP username'
+      Text = 'Nama pengguna POP'
     end
     item
       IndexID = 3232
-      Text = 'POP password'
+      Text = 'Kata sandi POP'
     end
     item
       IndexID = 3233
-      Text = 'POP server'
+      Text = 'Server POP'
     end
     item
       IndexID = 3234
-      Text = 'SMTP port'
+      Text = 'Port SMTP'
     end
     item
       IndexID = 3235
-      Text = 'SMTP server'
+      Text = 'Server SMTP'
     end
     item
       IndexID = 3236
-      Text = 'Return e-mail'
+      Text = 'Surel balasan'
     end
     item
       IndexID = 3237
-      Text = 'Return name'
+      Text = 'Nama balasan'
     end
     item
       IndexID = 3238
-      Text = 'E-mail header text'
+      Text = 'Teks tajuk surel'
     end
     item
       IndexID = 3239
-      Text = 'Send max mail'
+      Text = 'Kirim surel maksimal'
     end
     item
       IndexID = 3240
-      Text = 'Timer threshold in sec.'
+      Text = 'Ambang batas waktu dalam detik'
     end
     item
       IndexID = 3241
-      Text = 'SMTP username'
+      Text = 'Nama pengguna SMTP'
     end
     item
       IndexID = 3242
-      Text = 'SMTP password'
+      Text = 'Kata sandi SMTP'
     end
     item
       IndexID = 3243
-      Text = 'Sign certificate'
+      Text = 'Sertifikat tanda tangan'
     end
     item
       IndexID = 3244
-      Text = 'Certificate password'
+      Text = 'Kata sandi sertifikat'
     end
     item
       IndexID = 3245
-      Text = 'Sign any PDF'
+      Text = 'Tanda tangani PDF apa pun'
     end
     item
       IndexID = 3246
-      Text = 'Free text'
+      Text = 'Teks bebas'
     end
     item
       IndexID = 3247
-      Text = 'Preview in browser'
+      Text = 'Pratinjau di peramban'
     end
     item
       IndexID = 3248
-      Text = 'Test E-mail to Extra CC'
+      Text = 'Uji surel ke CC tambahan'
     end
     item
       IndexID = 3249
-      Text = 'Extra CC'
+      Text = 'CC tambahan'
     end
     item
       IndexID = 3250
-      Text = 'CC (multiple separate with ;)'
+      Text = 'CC (pisahkan beberapa dengan ;)'
     end
     item
       IndexID = 3251
-      Text = 'BCC (multiple separate with ;)'
+      Text = 'BCC (pisahkan beberapa dengan ;)'
     end
     item
       IndexID = 3252
-      Text = 'Send E-mail'
+      Text = 'Kirim surel'
     end
     item
       IndexID = 3253
       Text = 
-        'No extra CC found! Please enter an e-mail address in text box be' +
-        'low this button!'
+        'Tidak ada CC tambahan yang ditemukan! Harap masukkan alamat sure' +
+        'l di kotak teks di bawah tombol ini!'
     end
     item
       IndexID = 3254
-      Text = 'No POP password entered!'
+      Text = 'Tidak ada kata sandi POP yang dimasukkan!'
     end
     item
       IndexID = 3255
-      Text = 'Stopped by user!'
+      Text = 'Dihentikan oleh pengguna!'
     end
     item
       IndexID = 3256
-      Text = 'On'
+      Text = 'Aktif'
     end
     item
       IndexID = 3257
-      Text = 'Off'
+      Text = 'Mati'
     end
     item
       IndexID = 3258
-      Text = 'Setup E-mail Pro'
+      Text = 'Siapkan Email Pro'
     end
     item
       IndexID = 3259
-      Text = 'E-mail Pro'
+      Text = 'Surel Pro'
     end
     item
       IndexID = 3260
-      Text = 'No category'
+      Text = 'Tanpa kategori'
     end
     item
       IndexID = 3261
-      Text = 'Freefields'
+      Text = 'Bidang bebas'
     end
     item
       IndexID = 3262
-      Text = 'Register'
+      Text = 'Daftar'
     end
     item
       IndexID = 3263
-      Text = 'Purge invalid'
+      Text = 'Bersihkan yang tidak valid'
     end
     item
       IndexID = 3264
-      Text = 'Redo discount on document'
+      Text = 'Ulangi diskon pada dokumen'
     end
     item
       IndexID = 3265
-      Text = 'Percentage of sale'
+      Text = 'Persentase penjualan'
     end
     item
       IndexID = 3266
-      Text = 'BOM (Production)'
+      Text = 'BOM (Produksi)'
     end
     item
       IndexID = 3267
-      Text = 'Supplier stock code'
+      Text = 'Kode stok pemasok'
     end
     item
       IndexID = 3268
-      Text = 'Preferred supplier'
+      Text = 'Pemasok pilihan'
     end
     item
       IndexID = 3269
-      Text = 'Next cost price'
+      Text = 'Harga pokok berikutnya'
     end
     item
       IndexID = 3270
-      Text = 'Assemble'
+      Text = 'Rakit'
     end
     item
       IndexID = 3271
-      Text = 'Disassemble'
+      Text = 'Bongkar'
     end
     item
       IndexID = 3272
-      Text = 'Link bank account from import to accounts'
+      Text = 'Tautkan rekening bank dari impor ke akun'
     end
     item
       IndexID = 3273
-      Text = 'Link all records with current account bank accounts'
+      Text = 'Tautkan semua rekaman dengan rekening bank akun saat ini'
     end
     item
       IndexID = 3274
-      Text = 'Select from account open item list'
+      Text = 'Pilih dari daftar item terbuka akun'
     end
     item
       IndexID = 3275
-      Text = 'Show refs for account'
+      Text = 'Tampilkan referensi untuk akun'
     end
     item
       IndexID = 3276
       Text = 
-        'Bank import extra link functions. Enter bank account for exact m' +
-        'atch on account. Enter text with a # prefix to look inside a imp' +
-        'orted'#13#10'bank line to see if the text is in that string. Text will' +
-        ' be searched in the uppercase.'
+        'Fungsi tautan ekstra impor bank. Masukkan rekening bank untuk pe' +
+        'ncocokan tepat pada akun. Masukkan teks dengan awalan # untuk me' +
+        'ncari di dalam baris bank yang diimpor untuk melihat apakah teks' +
+        ' ada dalam rangkaian tersebut. Teks akan dicari dalam huruf besa' +
+        'r.'
     end
     item
       IndexID = 3277
-      Text = 'Account bank references'
+      Text = 'Referensi bank akun'
     end
     item
       IndexID = 3278
-      Text = 'Std Bank account no.'
+      Text = 'No. rekening bank standar'
     end
     item
       IndexID = 3279
-      Text = 'Delivery date'
+      Text = 'Tanggal pengiriman'
     end
     item
       IndexID = 3280
-      Text = 'Check'
+      Text = 'Periksa'
     end
     item
       IndexID = 3281
-      Text = 'Plugin mass action'
+      Text = 'Tindakan massal plugin'
     end
     item
       IndexID = 3282
-      Text = 'Plugin action'
+      Text = 'Tindakan plugin'
     end
     item
       IndexID = 3283
-      Text = 'Fast add item (code/barcode/serial)'
+      Text = 'Tambah cepat item (kode/kode batang/seri)'
     end
     item
       IndexID = 3284
-      Text = 'Enter total'
+      Text = 'Masukkan total'
     end
     item
       IndexID = 3285
-      Text = 'Recalculate base'
+      Text = 'Hitung ulang basis'
     end
     item
       IndexID = 3286
-      Text = 'Cost price'
+      Text = 'Harga pokok'
     end
     item
       IndexID = 3287
-      Text = 'Selling price'
+      Text = 'Harga jual'
     end
     item
       IndexID = 3288
-      Text = 'Recalculate sales %'
+      Text = 'Hitung ulang % penjualan'
     end
     item
       IndexID = 3289
-      Text = 'Copy from plugin'
+      Text = 'Salin dari plugin'
     end
     item
       IndexID = 3290
-      Text = 'Paste to plugin'
+      Text = 'Tempel ke plugin'
     end
     item
       IndexID = 3291
-      Text = 'Copy from / init'
+      Text = 'Salin dari/inisialisasi'
     end
     item
       IndexID = 3292
-      Text = 'Paste to / perform'
+      Text = 'Tempel ke/laksanakan'
     end
     item
       IndexID = 3293
-      Text = 'Copy'
+      Text = 'Salin'
     end
     item
       IndexID = 3294
-      Text = 'Show tax in documents'
+      Text = 'Tampilkan PPN dalam dokumen'
     end
     item
       IndexID = 3295
-      Text = 'Sales/Debit'
+      Text = 'Penjualan/Debit'
     end
     item
       IndexID = 3296
-      Text = 'Purchase/Credit'
+      Text = 'Pembelian/Kredit'
     end
     item
       IndexID = 3297
-      Text = 'Hide this tax'
+      Text = 'Sembunyikan PPN ini'
     end
     item
       IndexID = 3298
-      Text = 'All'
+      Text = 'Semua'
     end
     item
       IndexID = 3299
-      Text = 'No out of stock message'
+      Text = 'Tanpa pesan stok habis'
     end
     item
       IndexID = 3300
-      Text = 'Use colours for out of stock'
+      Text = 'Gunakan warna untuk stok habis'
     end
     item
       IndexID = 3301
-      Text = 'Calculate BOM stock'
+      Text = 'Hitung stok BOM'
     end
     item
       IndexID = 3302
-      Text = 'Limit stock purchase only for default supplier or non'
+      Text = 'Batasi pembelian stok hanya untuk pemasok standar atau tidak'
     end
     item
       IndexID = 3303
-      Text = 'Welcome'
+      Text = 'Selamat datang'
     end
     item
       IndexID = 3304
-      Text = 'New invoice'
+      Text = 'Faktur baru'
     end
     item
       IndexID = 3305
-      Text = 'Data saved'
+      Text = 'Data disimpan'
     end
     item
       IndexID = 3306
-      Text = 'Split bill'
+      Text = 'Bagi tagihan'
     end
     item
       IndexID = 3307
-      Text = 'Data saved'
+      Text = 'Data disimpan'
     end
     item
       IndexID = 3308
-      Text = 'Reopen invoice'
+      Text = 'Buka kembali faktur'
     end
     item
       IndexID = 3309
-      Text = '+Open fast add'
+      Text = '+Buka tambah cepat'
     end
     item
       IndexID = 3310
-      Text = '-Close fast add'
+      Text = '-Tutup tambah cepat'
     end
     item
       IndexID = 3311
-      Text = 'Create purchase on default supplier 1'
+      Text = 'Buat pembelian pada pemasok standar 1'
     end
     item
       IndexID = 3312
       Text = 
-        'No default supplier 1 for these stock items! Please correct firs' +
-        't!'
+        'Tidak ada pemasok standar 1 untuk barang stok ini! Harap perbaik' +
+        'i terlebih dahulu!'
     end
     item
       IndexID = 3313
-      Text = 'Months'
+      Text = 'Bulan'
     end
     item
       IndexID = 3314
-      Text = 'Per period'
+      Text = 'Per periode'
     end
     item
       IndexID = 3315
-      Text = 'Free selection'
+      Text = 'Pilihan bebas'
     end
     item
       IndexID = 3316
-      Text = 'Hours between date'
+      Text = 'Jam antara tanggal'
     end
     item
       IndexID = 3317
-      Text = 'Recalculate selling price'
+      Text = 'Hitung ulang harga jual'
     end
     item
       IndexID = 3318
-      Text = 'Default cost centre'
+      Text = 'Pusat biaya standar'
     end
     item
       IndexID = 3319
-      Text = 'Cost centre'
+      Text = 'Pusat biaya'
     end
     item
       IndexID = 3320
-      Text = 'Save this unsaved document?'
+      Text = 'Simpan dokumen yang belum disimpan ini?'
     end
     item
       IndexID = 3321
-      Text = 'Code, description and extra description'
+      Text = 'Kode, deskripsi dan deskripsi tambahan'
     end
     item
       IndexID = 3322
-      Text = 'Enter new inclusive total'
+      Text = 'Masukkan total inklusif baru'
     end
     item
       IndexID = 3323
-      Text = 'Create backorders to deliver'
+      Text = 'Buat pesanan tunda untuk dikirim'
     end
     item
       IndexID = 3324
-      Text = 'Only new items (no adjust)'
+      Text = 'Hanya item baru (tanpa penyesuaian)'
     end
     item
       IndexID = 36
-      Text = 'Order confirmation'
+      Text = 'Konfirmasi pesanan'
     end
     item
       IndexID = 96
@@ -16268,7 +16328,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3716
-      Text = 'Workflow'
+      Text = 'Alur kerja'
     end
     item
       IndexID = 3717
@@ -16276,89 +16336,89 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3718
-      Text = 'Activate plugins'
+      Text = 'Aktifkan plugin'
     end
     item
       IndexID = 3719
-      Text = 'Add to group'
+      Text = 'Tambah ke grup'
     end
     item
       IndexID = 3720
-      Text = 'Spreadsheet import'
+      Text = 'Impor lembar sebar'
     end
     item
       IndexID = 3721
-      Text = 'Enable Blockchain'
+      Text = 'Aktifkan Blockchain'
     end
     item
       IndexID = 3722
-      Text = 'Document show quantity'
+      Text = 'Dokumen tampilkan jumlah'
     end
     item
       IndexID = 3723
-      Text = 'Counted quantity'
+      Text = 'Jumlah yang dihitung'
     end
     item
       IndexID = 3724
-      Text = 'Current quantity'
+      Text = 'Jumlah saat ini'
     end
     item
       IndexID = 3725
-      Text = 'Date of count'
+      Text = 'Tanggal perhitungan'
     end
     item
       IndexID = 3726
-      Text = 'Ok -> Next'
+      Text = 'Oke '#8594' Berikutnya'
     end
     item
       IndexID = 3727
-      Text = 'Uncounted'
+      Text = 'Belum dihitung'
     end
     item
       IndexID = 3728
-      Text = 'Counted'
+      Text = 'Sudah dihitung'
     end
     item
       IndexID = 3729
-      Text = 'Fast add'
+      Text = 'Tambah cepat'
     end
     item
       IndexID = 3730
-      Text = 'Post diverence'
+      Text = 'Posting perbedaan'
     end
     item
       IndexID = 3731
-      Text = 'Checked and OK'
+      Text = 'Diperiksa dan oke'
     end
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today. do y' +
-        'ou want to stop opening a new year?'
+        'Tanggal akhir tahun yang terbuka %s lebih besar dari hari ini! A' +
+        'pakah anda ingin membatalkan pembukaan tahun baru?'
     end
     item
       IndexID = 3733
-      Text = 'Are you sure you want to overwrite your current books?'
+      Text = 'Apakah anda yakin ingin menimpa buku saat ini?'
     end
     item
       IndexID = 3734
-      Text = 'Post in period 0'
+      Text = 'Posting di periode 0'
     end
     item
       IndexID = 3735
       Text = 
-        'You are putting proffit/loss on ledger with tax. This will messu' +
-        'p tax reports Do you wish to continue?'
+        'Anda mencatat laba/rugi pada buku besar dengan PPN! Ini akan men' +
+        'gacaukan laporan PPN! Apakah anda ingin melanjutkan?'
     end
     item
       IndexID = 3736
       Text = 
-        'You are putting cash from a bank/cash directly to a bank/cash ac' +
-        'count. Do you wish to continue?'
+        'Anda memasukkan kas dari bank/kas langsung ke akun bank/kas! Apa' +
+        'kah anda ingin melanjutkan?'
     end
     item
       IndexID = 3737
-      Text = 'Do you wish to cancel the print this reciept?'
+      Text = 'Apakah anda ingin membatalkan pencetakan struk ini?'
     end
     item
       IndexID = 3738
@@ -16366,154 +16426,156 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Convert quote to one unproccessed invoice per client'
+      Text = 
+        'Konversi penawaran menjadi satu faktur yang belum diproses per d' +
+        'ebitur'
     end
     item
       IndexID = 906589
-      Text = 'NO-TAX Layout file'
+      Text = 'Berkas tata letak TANPA-PPN'
     end
     item
       IndexID = 906590
-      Text = 'NO-TAX Document layout'
+      Text = 'Tata letak dokumen TANPA-PPN'
     end
     item
       IndexID = 906591
-      Text = 'NO-TAX Document layout (15-code)'
+      Text = 'Tata letak dokumen TANPA-PPN (kode-15)'
     end
     item
       IndexID = 906588
-      Text = 'Value stock account'
+      Text = 'Nilai akun stok'
     end
     item
       IndexID = 906587
-      Text = 'Document reference'
+      Text = 'Referensi dokumen'
     end
     item
       IndexID = 906586
-      Text = 'Stock - Expected quantities'
+      Text = 'Stok - Kuantitas yang diharapkan'
     end
     item
       IndexID = 906585
-      Text = 'Stock item list - Active stock'
+      Text = 'Daftar item stok - Stok aktif'
     end
     item
       IndexID = 906584
-      Text = 'Production list'
+      Text = 'Daftar produksi'
     end
     item
       IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
+      Text = 'Daftar harga - Ritel besar - Pembelian'
     end
     item
       IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
+      Text = 'Daftar harga - Ritel besar - Penjualan'
     end
     item
       IndexID = 906557
-      Text = 'Graphs'
+      Text = 'Daftar grafik'
     end
     item
       IndexID = 906558
-      Text = 'Graphs per week'
+      Text = 'Grafik per minggu'
     end
     item
       IndexID = 906559
-      Text = 'Graphs per month'
+      Text = 'Grafik per bulan'
     end
     item
       IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
+      Text = 'Grafik - Laba/Rugi per bulan'
     end
     item
       IndexID = 906561
-      Text = 'Graph - Debtors per month'
+      Text = 'Grafik - Debitur per bulan'
     end
     item
       IndexID = 906562
-      Text = 'Graph - Creditors per month'
+      Text = 'Grafik - Kreditur per bulan'
     end
     item
       IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
+      Text = 'Grafik - Penawaran per bulan - Kuantitas'
     end
     item
       IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
+      Text = 'Grafik - Penawaran per bulan - Jumlah'
     end
     item
       IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
+      Text = 'Grafik - Nota kredit per bulan - Kuantitas'
     end
     item
       IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
+      Text = 'Grafik - Nota kredit per bulan - Jumlah'
     end
     item
       IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
+      Text = 'Grafik - Faktur per bulan - Kuantitas'
     end
     item
       IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
+      Text = 'Grafik - Faktur per bulan - Jumlah'
     end
     item
       IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
+      Text = 'Grafik - Faktur - Nota kredit per bulan - Kuantitas'
     end
     item
       IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
+      Text = 'Grafik - Faktur - Nota kredit per bulan - Jumlah'
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
+      Text = 'Grafik - Pembelian - Retur pemasok per bulan - Kuantitas'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns per month - Amount'
+      Text = 'Grafik - Pembelian - Retur pemasok per bulan - Jumlah'
     end
     item
       IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
+      Text = 'Grafik - Pesanan per bulan - Jumlah'
     end
     item
       IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
+      Text = 'Grafik - Pesanan per bulan - Kuantitas'
     end
     item
       IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
+      Text = 'Grafik - Retur pemasok per bulan - Jumlah'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
+      Text = 'Grafik - Retur pemasok per bulan - Kuantitas'
     end
     item
       IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
+      Text = 'Grafik - Pembelian per bulan - Jumlah'
     end
     item
       IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
+      Text = 'Grafik - Pembelian per bulan - Kuantitas'
     end
     item
       IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
+      Text = 'Grafik - Faktur - Nota kredit per minggu - Kuantitas'
     end
     item
       IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
+      Text = 'Grafik - Faktur - Nota kredit per minggu - Jumlah'
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
+      Text = 'Grafik - Pembelian - Retur pemasok per minggu - Kuantitas'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
+      Text = 'Grafik - Pembelian - Retur pemasok per minggu - Jumlah'
     end
     item
       IndexID = 906583
-      Text = 'Tax codes - Tax rates'
+      Text = 'Kode PPN - Tarif PPN'
     end>
 end

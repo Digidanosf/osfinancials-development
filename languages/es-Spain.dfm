@@ -18,7 +18,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1752
-      Text = 'Cerrar &sesi'#243'n de TPCV'
+      Text = 'Cerrar &sesi'#243'n de TPV'
     end
     item
       IndexID = 1751
@@ -154,7 +154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 41
-      Text = 'Eliminar devoluciones de proveedores'
+      Text = 'Eliminar devoluciones a proveedor'
     end
     item
       IndexID = 42
@@ -314,7 +314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 80
-      Text = '&Listado de devoluciones de proveedores'
+      Text = '&Listado de devoluciones a proveedor'
     end
     item
       IndexID = 81
@@ -986,7 +986,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 249
-      Text = 'Opciones de informe de transacciones de acreedores'
+      Text = 'Opciones de informe de transacciones de proveedor'
     end
     item
       IndexID = 250
@@ -994,11 +994,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 251
-      Text = 'Cuentas de proveedores'
+      Text = 'Cuentas de proveedor'
     end
     item
       IndexID = 252
-      Text = 'Cuentas de clientes'
+      Text = 'Cuentas de cliente'
     end
     item
       IndexID = 253
@@ -1042,7 +1042,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 263
-      Text = 'Opciones de an'#225'lisis de vencimientos de clientes'
+      Text = 'Opciones de an'#225'lisis de vencimiento de cliente'
     end
     item
       IndexID = 264
@@ -1090,7 +1090,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 275
-      Text = 'Opciones de informe de transacciones de deudores'
+      Text = 'Opciones de informe de transacciones de cliente'
     end
     item
       IndexID = 276
@@ -1106,7 +1106,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 279
-      Text = 'Opciones de movimiento de proveedores'
+      Text = 'Opciones de movimiento de proveedor'
     end
     item
       IndexID = 280
@@ -1202,7 +1202,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 303
-      Text = 'Devoluciones a proveedores'
+      Text = 'Devoluciones a proveedor'
     end
     item
       IndexID = 304
@@ -1210,11 +1210,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 305
-      Text = 'Informes de acreedores'
+      Text = 'Informes de proveedor'
     end
     item
       IndexID = 306
-      Text = 'Informes de deudores'
+      Text = 'Informes de cliente'
     end
     item
       IndexID = 307
@@ -1334,11 +1334,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 336
-      Text = 'Encabezado de devoluciones de proveedores'
+      Text = 'Encabezado de devoluciones a proveedor'
     end
     item
       IndexID = 337
-      Text = 'Mensaje de devoluciones de proveedores'
+      Text = 'Mensaje de devoluciones a proveedor'
     end
     item
       IndexID = 338
@@ -1606,7 +1606,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 408
-      Text = 'Informes de deudores'
+      Text = 'Informes de cliente'
     end
     item
       IndexID = 409
@@ -1650,7 +1650,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 419
-      Text = 'Devoluciones a proveedores'
+      Text = 'Devoluciones a proveedor'
     end
     item
       IndexID = 420
@@ -1658,11 +1658,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 421
-      Text = 'Grupos de clientes'
+      Text = 'Grupos de cliente'
     end
     item
       IndexID = 422
-      Text = 'Grupos de proveedores'
+      Text = 'Grupos de proveedor'
     end
     item
       IndexID = 423
@@ -1692,13 +1692,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 428
-      Text = #161'Hay diarios asociados a este usuario! As'#237'gnelos a otro usuario.'
+      Text = 
+        #161'Hay diarios asociados a este usuario! Por favor, seleccione un ' +
+        'nuevo usuario al que asignar estos diarios.'
     end
     item
       IndexID = 429
       Text = 
-        #161'Hay transacciones asociadas a este usuario! Asigne un nuevo usu' +
-        'ario.'
+        #161'Hay transacciones asociadas a este usuario! Por favor, seleccio' +
+        'ne un nuevo usuario al que asignar estas transacciones.'
     end
     item
       IndexID = 430
@@ -1715,8 +1717,8 @@ object TTranslationSaveObject
     item
       IndexID = 433
       Text = 
-        #161'N'#250'mero de cuenta inv'#225'lido! El primer car'#225'cter debe ser un n'#250'mer' +
-        'o.'
+        #161'N'#250'mero de cuenta inv'#225'lido! '#161'El primer car'#225'cter debe ser un n'#250'me' +
+        'ro!'
     end
     item
       IndexID = 434
@@ -1786,7 +1788,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 449
-      Text = #161'Error al crear la libros contable!'
+      Text = #161'Error al crear los libros contables!'
     end
     item
       IndexID = 450
@@ -1869,9 +1871,9 @@ object TTranslationSaveObject
     item
       IndexID = 468
       Text = 
-        #161'Esta cuenta est'#225' activa! '#161'Se mover'#225'n todas las transacciones a ' +
-        'la nueva subcuenta! '#191'Est'#225' seguro de que desea crear una subcuent' +
-        'a?'
+        #161'Esta cuenta a'#250'n est'#225' activa! '#161'Todas las transacciones se mover'#225 +
+        'n a la nueva subcuenta! '#191'Est'#225' seguro de que desea crear una subc' +
+        'uenta?'
     end
     item
       IndexID = 469
@@ -1899,7 +1901,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 475
-      Text = 'Contrase'#241'a inv'#225'lida.'
+      Text = #161'Contrase'#241'a inv'#225'lida!'
     end
     item
       IndexID = 476
@@ -2031,7 +2033,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 508
-      Text = #191'Eliminar todas las entradas de esta factura?'
+      Text = 
+        #191'Est'#225' seguro de que desea vaciar todas las entradas de esta fact' +
+        'ura?'
     end
     item
       IndexID = 509
@@ -2039,7 +2043,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 510
-      Text = #191'Verificar integridad de datos antes del respaldo?'
+      Text = 
+        #191'Desea ejecutar el control de integridad de datos antes de reali' +
+        'zar el respaldo?'
     end
     item
       IndexID = 511
@@ -2048,8 +2054,8 @@ object TTranslationSaveObject
     item
       IndexID = 512
       Text = 
-        #161'ADVERTENCIA! Esto sobrescribir'#225' su libro contable actual. '#191'Cont' +
-        'inuar?'
+        #161'ADVERTENCIA! Esto sobrescribir'#225' su contabilidad actual. '#191'Est'#225' s' +
+        'eguro de que desea continuar?'
     end
     item
       IndexID = 513
@@ -2062,12 +2068,14 @@ object TTranslationSaveObject
     item
       IndexID = 515
       Text = 
-        'Esta copia de <@APPNAME@> no est'#225' registrada. '#191'Registrarla ahora' +
-        '?'
+        #161'Esta copia de <@APPNAME@> no est'#225' registrada! '#191'Desea registrarl' +
+        'a ahora?'
     end
     item
       IndexID = 516
-      Text = #161'Esto borrar'#225' toda su informaci'#243'n! '#191'Continuar?'
+      Text = 
+        #161'Esto eliminar'#225' toda su informaci'#243'n! '#191'Est'#225' seguro de que desea h' +
+        'acerlo?'
     end
     item
       IndexID = 517
@@ -2079,7 +2087,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 519
-      Text = #161'Esto afectar'#225' seriamente su libro contable! '#191'Eliminar?'
+      Text = 
+        #161'Esto afectar'#225' seriamente su contabilidad! '#191'Est'#225' seguro de que d' +
+        'esea vaciar este libro de contabilidad?'
     end
     item
       IndexID = 520
@@ -2091,11 +2101,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 522
-      Text = #191'Cancelar registro?'
+      Text = #191'Desea cancelar el registro?'
     end
     item
       IndexID = 523
-      Text = #161'Esta cuenta tiene transacciones! '#191'Transferirlas?'
+      Text = 
+        #161'Esta cuenta tiene transacciones! '#191'Desea transferir las transacc' +
+        'iones a otra cuenta?'
     end
     item
       IndexID = 524
@@ -2107,19 +2119,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 526
-      Text = #161'Este cliente tiene transacciones! '#191'Transferirlas?'
+      Text = 
+        #161'Este cliente tiene transacciones! '#191'Desea transferir las transac' +
+        'ciones a otro cliente?'
     end
     item
       IndexID = 527
-      Text = #161'Este proveedor tiene transacciones! '#191'Transferirlas?'
+      Text = 
+        #161'Este proveedor tiene transacciones! '#191'Desea transferir las trans' +
+        'acciones a otro proveedor?'
     end
     item
       IndexID = 528
-      Text = #161'Esta cuenta bancaria tiene transacciones! '#191'Transferirlas?'
+      Text = 
+        #161'Esta cuenta bancaria tiene transacciones! '#191'Desea transferir las' +
+        ' transacciones a otra cuenta bancaria?'
     end
     item
       IndexID = 529
-      Text = #161'Esta cuenta de impuesto tiene transacciones! '#191'Transferirlas?'
+      Text = 
+        #161'Esta cuenta de impuestos tiene transacciones! '#191'Desea transferir' +
+        ' las transacciones a otra cuenta de impuestos?'
     end
     item
       IndexID = 530
@@ -2247,7 +2267,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 548
-      Text = '<@APPNAME@> te ayuda a crear un nuevo libro contable'
+      Text = '<@APPNAME@> le ayuda a crear su libro contable'
     end
     item
       IndexID = 547
@@ -2263,7 +2283,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 556
-      Text = 'Ingrese n'#250'mero de per'#237'odos y fecha de inicio del ejercicio'
+      Text = 
+        #161'Ahora debe ingresar el n'#250'mero de per'#237'odos de su ejercicio conta' +
+        'ble y la fecha de inicio del a'#241'o!'
     end
     item
       IndexID = 555
@@ -2275,19 +2297,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 553
-      Text = 'Control de clientes'
+      Text = 'Control de cliente'
     end
     item
       IndexID = 552
-      Text = 'Control de proveedores'
+      Text = 'Control de proveedor'
     end
     item
       IndexID = 563
-      Text = 'Creando cuentas requeridas (Control de deudores)...'
+      Text = 'Creando cuentas requeridas (Control de clientes)...'
     end
     item
       IndexID = 562
-      Text = 'Creando cuentas requeridas (Control de acreedores)...'
+      Text = 'Creando cuentas requeridas (Control de proveedores)...'
     end
     item
       IndexID = 561
@@ -2505,7 +2527,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 621
-      Text = #191'Eliminar este diario completo?'
+      Text = #191'Est'#225' seguro de que desea borrar este diario completo?'
     end
     item
       IndexID = 622
@@ -2577,7 +2599,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 640
-      Text = #191'Convertir esta l'#237'nea en comentario?'
+      Text = #191'Est'#225' seguro de que desea convertir esta l'#237'nea en un comentario?'
     end
     item
       IndexID = 641
@@ -2587,7 +2609,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 642
-      Text = #191'Continuar?'
+      Text = #191'Desea continuar?'
     end
     item
       IndexID = 643
@@ -2674,8 +2696,8 @@ object TTranslationSaveObject
     item
       IndexID = 665
       Text = 
-        #161'Ha modificado diarios de pago/recibo! '#161'Esto afectar'#225' su concili' +
-        'aci'#243'n! '#191'Continuar?'
+        #161'Ha modificado el diario de pagos y cobros! '#161'Esto corromper'#225' su ' +
+        'conciliaci'#243'n! '#191'Desea continuar?'
     end
     item
       IndexID = 666
@@ -2755,7 +2777,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 685
-      Text = #191'Eliminar todas las entradas de esta compra?'
+      Text = 
+        #191'Est'#225' seguro de que desea vaciar todas las entradas de esta comp' +
+        'ra?'
     end
     item
       IndexID = 686
@@ -2775,7 +2799,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 690
-      Text = 'Historial de devoluciones de proveedores'
+      Text = 'Historial de devoluciones a proveedor'
     end
     item
       IndexID = 691
@@ -2809,7 +2833,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 698
-      Text = #191'Continuar con la restauraci'#243'n de?'
+      Text = 
+        #191'Desea continuar con la restauraci'#243'n desde el archivo selecciona' +
+        'do?'
     end
     item
       IndexID = 699
@@ -2821,7 +2847,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 701
-      Text = 'Actualizar devoluciones de proveedores'
+      Text = 'Actualizar devoluciones a proveedor'
     end
     item
       IndexID = 702
@@ -2867,11 +2893,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 712
-      Text = #191'Est'#225' seguro que desea eliminar los datos de esta fila?'
+      Text = #191'Est'#225' seguro de que desea eliminar la informaci'#243'n de esta fila?'
     end
     item
       IndexID = 713
-      Text = 'Actualizar desde servidor cliente'
+      Text = 'Actualizaci'#243'n cliente-servidor'
     end
     item
       IndexID = 714
@@ -2887,7 +2913,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 717
-      Text = 'Libro contable no encontrado. El directorio no existe:'
+      Text = #161'Libro contable no encontrado! El directorio no existe:'
     end
     item
       IndexID = 718
@@ -2895,7 +2921,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 719
-      Text = #191'Esto eliminar'#225' toda su informaci'#243'n? '#191'Est'#225' seguro de continuar?'
+      Text = #161'Esto eliminar'#225' toda su informaci'#243'n! '#191'Est'#225' seguro de continuar?'
     end
     item
       IndexID = 720
@@ -2987,7 +3013,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 741
-      Text = 'Contrase'#241'a inv'#225'lida'
+      Text = #161'Contrase'#241'a inv'#225'lida!'
     end
     item
       IndexID = 742
@@ -3045,7 +3071,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 756
-      Text = 'ser'#225'n eliminadas permanentemente del disco'
+      Text = #161'ser'#225'n eliminadas permanentemente del disco!'
     end
     item
       IndexID = 757
@@ -3077,7 +3103,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 765
-      Text = 'El saldo del cliente supera el l'#237'mite de cr'#233'dito con:'
+      Text = 'El saldo del clientes supera el l'#237'mite de cr'#233'dito con:'
     end
     item
       IndexID = 766
@@ -3165,7 +3191,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 785
-      Text = 'Saldar deudores con importe < x.xx'
+      Text = 'Saldar clientes con importe < x.xx'
     end
     item
       IndexID = 786
@@ -3253,7 +3279,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 806
-      Text = #191'Est'#225' seguro de cambiar el pr'#243'ximo n'#250'mero de documento?'
+      Text = 
+        #191'Est'#225' seguro de que desea cambiar el siguiente n'#250'mero de documen' +
+        'to?'
     end
     item
       IndexID = 807
@@ -3298,8 +3326,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        #161'No puede tener un tipo impositivo para clientes o proveedores e' +
-        'n el sistema de pagos por caja!'
+        #161'No puede tener un tipo impositivo para cliente o proveedor en e' +
+        'l sistema de pagos por caja!'
     end
     item
       IndexID = 817
@@ -3312,15 +3340,17 @@ object TTranslationSaveObject
     item
       IndexID = 820
       Text = 
-        'Ejecutar el sistema de pagos requiere convertir todas las cuenta' +
-        's de clientes/proveedores a partidas abiertas. '#191'Continuar?'
+        'Ejecutar el sistema sobre la base de pagos requiere que todos lo' +
+        's clientes y proveedores se conviertan a cuentas de partidas abi' +
+        'ertas. '#191'Desea continuar?'
     end
     item
       IndexID = 821
       Text = 
-        'El m'#233'todo de imputaci'#243'n de impuestos es puramente de caja. El im' +
-        'puesto es liquidable a la Agencia Tributaria solo cuando se reci' +
-        'be del cliente. '#191'Desea continuar?'
+        'El m'#233'todo de impuestos basado en pagos trata los impuestos puram' +
+        'ente sobre una base de caja. El impuesto es pagadero a las autor' +
+        'idades fiscales solo cuando se recibe del cliente. '#191'Desea contin' +
+        'uar?'
     end
     item
       IndexID = 822
@@ -3647,7 +3677,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903
-      Text = 'Por favor inserte un disco'
+      Text = #161'Por favor, inserte un disco!'
     end
     item
       IndexID = 904
@@ -3687,7 +3717,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 914
-      Text = #161'No se puede usar esta unidad! Con'#233'ctela e intente nuevamente'
+      Text = #161'No se puede usar esta unidad! Con'#233'ctela e intente nuevamente...'
     end
     item
       IndexID = 915
@@ -4070,12 +4100,12 @@ object TTranslationSaveObject
     item
       IndexID = 1007
       Text = 
-        #161'Esto afectar'#225' gravemente su libro contable! '#191'Est'#225' seguro de eli' +
-        'minar este tipo de diario?'
+        #161'Esto afectar'#225' seriamente su libro contable! '#191'Est'#225' seguro de que' +
+        ' desea eliminar este tipo de diario?'
     end
     item
       IndexID = 1008
-      Text = 'Opciones de Ventas por Productos'
+      Text = 'Opciones de ventas por productos'
     end
     item
       IndexID = 1009
@@ -4167,7 +4197,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1033
-      Text = 'Opciones de an'#225'lisis de antig'#252'edad de acreedores'
+      Text = 'Opciones de an'#225'lisis de antig'#252'edad de proveedor'
     end
     item
       IndexID = 1034
@@ -4203,11 +4233,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1043
-      Text = 'Opciones de listado de deudores'
+      Text = 'Opciones de listado de cliente'
     end
     item
       IndexID = 1044
-      Text = 'Opciones de listado de acreedores'
+      Text = 'Opciones de listado de proveedor'
     end
     item
       IndexID = 1045
@@ -4355,7 +4385,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1083
-      Text = 'Opciones de Pedidos Pendientes'
+      Text = 'Opciones de pedidos pendientes'
     end
     item
       IndexID = 1084
@@ -4379,11 +4409,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1089
-      Text = 'Avisos de remesa'
+      Text = 'Aviso de remesa de proveedor'
     end
     item
       IndexID = 1090
-      Text = 'Estados de cuenta de clientes'
+      Text = 'Estados de cuenta de cliente'
     end
     item
       IndexID = 1091
@@ -4511,17 +4541,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1122
-      Text = '"Nombre de precio", "Valor"'
+      Text = '"Nombre de precio", Valor'
     end
     item
       IndexID = 1123
-      Text = 'Eliminado'
+      Text = #161'eliminado!'
     end
     item
       IndexID = 1124
       Text = 
-        #161'Faltan o est'#225'n corruptas las cuentas de control de Deudores/Acr' +
-        'eedores! '#161'Contacte al Soporte de <@APPNAME@>!'
+        #161'Faltan o est'#225'n corruptas las cuentas de control de clientes/pro' +
+        'veedores! '#161'Contacte al Soporte de <@APPNAME@>!'
     end
     item
       IndexID = 1125
@@ -4751,11 +4781,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1181
-      Text = 'Movimientos de clientes'
+      Text = 'Movimientos de cliente'
     end
     item
       IndexID = 1182
-      Text = 'Movimientos de proveedores'
+      Text = 'Movimientos de proveedor'
     end
     item
       IndexID = 1183
@@ -4917,7 +4947,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1222
-      Text = 'Movimiento de clientes'
+      Text = 'Seleccionar cliente'
     end
     item
       IndexID = 1223
@@ -4933,7 +4963,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1226
-      Text = 'Seleccionar proveedores'
+      Text = 'Seleccionar proveedor'
     end
     item
       IndexID = 1227
@@ -5049,7 +5079,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1255
-      Text = 'Procesando'
+      Text = 'Procesando...'
     end
     item
       IndexID = 1256
@@ -5153,7 +5183,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1281
-      Text = 'Transacciones de clientes'
+      Text = 'Transacciones de cliente'
     end
     item
       IndexID = 1282
@@ -5161,7 +5191,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1283
-      Text = 'Transacciones de proveedores'
+      Text = 'Transacciones de proveedor'
     end
     item
       IndexID = 1284
@@ -5231,7 +5261,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1300
-      Text = 'Claves reconstruidas'
+      Text = 'Claves reconstruidas...'
     end
     item
       IndexID = 1301
@@ -5267,7 +5297,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1309
-      Text = 'Comprimiendo Message.db'
+      Text = 'Comprimiendo Message.db...'
     end
     item
       IndexID = 1310
@@ -5275,7 +5305,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1311
-      Text = 'Reconstruyendo'
+      Text = 'Reconstruyendo...'
     end
     item
       IndexID = 1312
@@ -5295,11 +5325,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1316
-      Text = 'Listado de cuentas de clientes'
+      Text = 'Listado de cuentas de cliente'
     end
     item
       IndexID = 1317
-      Text = 'Listado de cuentas de proveedores'
+      Text = 'Listado de cuentas de proveedor'
     end
     item
       IndexID = 1318
@@ -5691,7 +5721,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1700
-      Text = 'An'#225'lisis de vencimiento de acreedores'
+      Text = 'An'#225'lisis de vencimiento de proveedor'
     end
     item
       IndexID = 586
@@ -5723,7 +5753,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1704
-      Text = 'An'#225'lisis de vencimiento de deudores al'
+      Text = 'An'#225'lisis de antig'#252'edad de cliente al'
     end
     item
       IndexID = 1703
@@ -5845,7 +5875,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1736
-      Text = #191'Desea cerrar y cancelar esta factura ahora?'
+      Text = #191'Desea cerrar y anular esta factura ahora?'
     end
     item
       IndexID = 1735
@@ -5862,8 +5892,8 @@ object TTranslationSaveObject
     item
       IndexID = 1720
       Text = 
-        #161'No hay cuenta de cliente predeterminada configurada! '#161'Por favor' +
-        ' config'#250'rela!'
+        #161'No hay una cuenta de cliente predeterminada configurada! '#161'Por f' +
+        'avor config'#250'rela!'
     end
     item
       IndexID = 1744
@@ -6141,19 +6171,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1811
-      Text = 'Control de deudores'
+      Text = 'Control de clientes'
     end
     item
       IndexID = 1810
-      Text = 'Creando cuentas requeridas (Control de deudores)...'
+      Text = 'Creando cuentas requeridas (Control de clientes)...'
     end
     item
       IndexID = 1809
-      Text = 'Control de acreedores'
+      Text = 'Control de proveedores'
     end
     item
       IndexID = 1808
-      Text = 'Creando cuentas requeridas (Control de acreedores)...'
+      Text = 'Creando cuentas requeridas (Control de proveedores)...'
     end
     item
       IndexID = 1820
@@ -6247,11 +6277,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1835
-      Text = 'Grupos de acreedores'
+      Text = 'Grupos de proveedor'
     end
     item
       IndexID = 1834
-      Text = 'Grupos de deudores'
+      Text = 'Grupos de cliente'
     end
     item
       IndexID = 1845
@@ -6595,7 +6625,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Transfiriendo'
+      Text = 'Transfiriendo...'
     end
     item
       IndexID = 1922
@@ -6689,7 +6719,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1948
-      Text = 'Verificando %s en el servidor %s'
+      Text = 'Verificando %s en el servidor %s...'
     end
     item
       IndexID = 1947
@@ -6773,7 +6803,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1964
-      Text = 'Conectando a %s'
+      Text = 'Conectando a %s...'
     end
     item
       IndexID = 1963
@@ -6894,8 +6924,8 @@ object TTranslationSaveObject
     item
       IndexID = 20018
       Text = 
-        'Cuadro combinado de b'#250'squeda Ext - Representa una b'#250'squeda ultra' +
-        ' avanzada usando la cuadr'#237'cula cu'#225'ntica como control desplegable'
+        'Ext Lookup Combo Box - '#161'Representa una b'#250'squeda ultra avanzada u' +
+        'sando la cuadr'#237'cula cu'#225'ntica como control desplegable!'
     end
     item
       IndexID = 20017
@@ -7375,7 +7405,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1993
-      Text = 'Contabilizando: %s de %s'
+      Text = 'Contabilizando: %s de %s...'
     end
     item
       IndexID = 1992
@@ -7395,7 +7425,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2000
-      Text = 'Deudores/Clientes'
+      Text = 'Clientes'
     end
     item
       IndexID = 1999
@@ -7407,7 +7437,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1997
-      Text = 'Actualizando totales'
+      Text = 'Actualizando totales...'
     end
     item
       IndexID = 1996
@@ -7435,7 +7465,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2002
-      Text = 'Acreedores'
+      Text = 'Proveedores'
     end
     item
       IndexID = 2001
@@ -7543,7 +7573,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2035
-      Text = 'Apertura de caj'#243'n'
+      Text = 'Apertura de caj'#243'n...'
     end
     item
       IndexID = 2034
@@ -7559,7 +7589,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2031
-      Text = 'Procesando'
+      Text = 'Procesando...'
     end
     item
       IndexID = 2042
@@ -7663,11 +7693,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2067
-      Text = 'Balance'
+      Text = 'Balance...'
     end
     item
       IndexID = 2066
-      Text = 'Consolidaci'#243'n'
+      Text = 'Consolidaci'#243'n...'
     end
     item
       IndexID = 2065
@@ -7679,7 +7709,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2063
-      Text = 'Asignando saldos pendientes'
+      Text = 'Asignando saldos pendientes...'
     end
     item
       IndexID = 2062
@@ -7687,51 +7717,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2073
-      Text = 'Importando art'#237'culos de inventario'
+      Text = 'Importando art'#237'culos de inventario...'
     end
     item
       IndexID = 2072
-      Text = 'Exportando deudores/clientes'
+      Text = 'Exportando clientes...'
     end
     item
       IndexID = 2071
-      Text = 'Exportando transacciones'
+      Text = 'Exportando transacciones...'
     end
     item
       IndexID = 2070
-      Text = 'Importando cuentas'
+      Text = 'Importando cuentas...'
     end
     item
       IndexID = 2069
-      Text = 'Leyendo archivo de hoja de c'#225'lculo'
+      Text = 'Leyendo archivo de hoja de c'#225'lculo...'
     end
     item
       IndexID = 2068
-      Text = 'Importando art'#237'culos de inventario'
+      Text = 'Importando art'#237'culos de inventario...'
     end
     item
       IndexID = 2079
-      Text = 'Exportando a archivo de hoja de c'#225'lculo'
+      Text = 'Exportando a archivo de hoja de c'#225'lculo...'
     end
     item
       IndexID = 2078
-      Text = 'Exportando a archivo CSV'
+      Text = 'Exportando a archivo CSV...'
     end
     item
       IndexID = 2077
-      Text = 'Exportando documentos'
+      Text = 'Exportando documentos...'
     end
     item
       IndexID = 2076
-      Text = 'Importando documentos'
+      Text = 'Importando documentos...'
     end
     item
       IndexID = 2075
-      Text = 'Exportando cuentas'
+      Text = 'Exportando cuentas...'
     end
     item
       IndexID = 2074
-      Text = 'Exportando plan de cuentas'
+      Text = 'Exportando plan de cuentas...'
     end
     item
       IndexID = 2085
@@ -7743,19 +7773,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2083
-      Text = 'Preparando lista'
+      Text = 'Preparando lista...'
     end
     item
       IndexID = 2082
-      Text = 'Exportando a archivo de MS Excel'
+      Text = 'Exportando a archivo de MS Excel...'
     end
     item
       IndexID = 2081
-      Text = 'Exportando a archivo de hoja de c'#225'lculo SYLK'
+      Text = 'Exportando a archivo de hoja de c'#225'lculo SYLK...'
     end
     item
       IndexID = 2080
-      Text = 'Exportando a archivo de hoja de c'#225'lculo OpenOffice'
+      Text = 'Exportando a archivo de hoja de c'#225'lculo OpenOffice...'
     end
     item
       IndexID = 2091
@@ -7787,7 +7817,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2096
-      Text = #161'Un registro fue editado! '#191'Desea contabilizar sus datos?'
+      Text = #161'Un registro fue editado! '#191'Desea contabilizar sus datos ahora?'
     end
     item
       IndexID = 2095
@@ -7955,7 +7985,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2139
-      Text = 'De deudor:'
+      Text = 'De cliente :'
     end
     item
       IndexID = 2138
@@ -7967,11 +7997,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2136
-      Text = 'A deudores con saldo menor que (importe)'
+      Text = 'A clientes con saldo menor que (importe)'
     end
     item
       IndexID = 2135
-      Text = 'A deudores para (importe)'
+      Text = 'A clientes para (importe)'
     end
     item
       IndexID = 2134
@@ -8039,7 +8069,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2154
-      Text = 'Devoluciones a proveedores'
+      Text = 'Devoluciones a proveedor'
     end
     item
       IndexID = 2153
@@ -8051,7 +8081,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2163
-      Text = 'Compras por proveedor'
+      Text = 'An'#225'lisis de compras - Compras por proveedor'
     end
     item
       IndexID = 2162
@@ -8059,7 +8089,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2161
-      Text = 'Totales de devoluciones de proveedores:'
+      Text = 'Totales de devoluciones a proveedor:'
     end
     item
       IndexID = 2160
@@ -8067,7 +8097,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2159
-      Text = 'Ventas por cliente'
+      Text = 'An'#225'lisis de ventas - Ventas por cliente'
     end
     item
       IndexID = 2158
@@ -8125,19 +8155,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Importando acreedores/proveedores'
+      Text = 'Importando clientes/proveedores...'
     end
     item
       IndexID = 2183
-      Text = 'Importando: %s de %s'
+      Text = 'Importando: %s de %s...'
     end
     item
       IndexID = 2182
-      Text = 'A deudor'
+      Text = 'A cliente'
     end
     item
       IndexID = 2181
-      Text = 'De deudor'
+      Text = 'De cliente'
     end
     item
       IndexID = 2180
@@ -8189,7 +8219,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2192
-      Text = 'Imprimiendo en'
+      Text = 'Imprimiendo en...'
     end
     item
       IndexID = 2191
@@ -8197,11 +8227,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2202
-      Text = 'Editar acreedores'
+      Text = 'Editar proveedores'
     end
     item
       IndexID = 2201
-      Text = 'Editar deudores'
+      Text = 'Editar clientes'
     end
     item
       IndexID = 2200
@@ -8253,7 +8283,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2212
-      Text = 'Pagos autom'#225'ticos'
+      Text = 'Pagos auto. a proveedores'
     end
     item
       IndexID = 2211
@@ -8273,11 +8303,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2219
-      Text = 'C'#243'digo de acreedor'
+      Text = 'C'#243'digo de proveedor'
     end
     item
       IndexID = 2218
-      Text = 'C'#243'digo de deudor'
+      Text = 'C'#243'digo de cliente'
     end
     item
       IndexID = 2217
@@ -8293,7 +8323,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2226
-      Text = 'Informe de pago a acreedores'
+      Text = 'Informe de pago a proveedor'
     end
     item
       IndexID = 2225
@@ -9785,7 +9815,7 @@ object TTranslationSaveObject
       IndexID = 2880
       Text = 
         #161'Guarde primero esta factura recurrente! Al reabrirla podr'#225' a'#241'ad' +
-        'ir clientes.'
+        'ir clientes a la factura.'
     end
     item
       IndexID = 2891
@@ -9817,7 +9847,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2896
-      Text = 'Recibos autom'#225'ticos'
+      Text = 'Cobros auto. clientes'
     end
     item
       IndexID = 2895
@@ -10535,11 +10565,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3082
-      Text = 'Formato de archivo de importaci'#243'n no implementado'
+      Text = #161'Formato de archivo de importaci'#243'n no implementado!'
     end
     item
       IndexID = 3083
-      Text = #161'Este art'#237'culo est'#225' agotado! Ajustando cantidad autom'#225'ticamente.'
+      Text = 
+        #161'Este art'#237'culo est'#225' agotado! '#161'Ajustando cantidad autom'#225'ticamente' +
+        '!'
     end
     item
       IndexID = 3084
@@ -10635,15 +10667,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3106
-      Text = 'Saldos por columnas'
+      Text = 'Columnas - Saldos'
     end
     item
       IndexID = 3107
-      Text = 'Saldos por columnas de deudores'
+      Text = 'Columnas - Saldos clientes'
     end
     item
       IndexID = 3108
-      Text = 'Saldos por columnas de acreedores'
+      Text = 'Columnas - Saldos proveedores'
     end
     item
       IndexID = 3109
@@ -10717,7 +10749,8 @@ object TTranslationSaveObject
       IndexID = 1000000
       Text = 
         'Archivo maestro de idioma personalizado - Spain (es-ES) - NO TRA' +
-        'DUCIR'
+        'DUCIR. Para personalizar este archivo de idioma, crear una copia' +
+        '.'
     end
     item
       IndexID = 1000001
@@ -10857,7 +10890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902005
-      Text = '<Todos los deudores>'
+      Text = '<Todos los clientes>'
     end
     item
       IndexID = 903000
@@ -11253,7 +11286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906035
-      Text = 'Acuerdo de precios - Deudores'
+      Text = 'Acuerdo de precios - Cliente'
     end
     item
       IndexID = 906036
@@ -11293,19 +11326,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906045
-      Text = 'Lista de deudores'
+      Text = 'Lista de cliente'
     end
     item
       IndexID = 906046
-      Text = 'Lista de acreedores'
+      Text = 'Lista de proveedor'
     end
     item
       IndexID = 906047
-      Text = 'Lista de contactos - Deudores'
+      Text = 'Lista de contactos - Clientes'
     end
     item
       IndexID = 906048
-      Text = 'Lista de contactos - Acreedores'
+      Text = 'Lista de contactos - Proveedores'
     end
     item
       IndexID = 906049
@@ -11349,7 +11382,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906059
-      Text = 'Utilizaci'#243'n por cliente'
+      Text = 'Ventes por cliente'
     end
     item
       IndexID = 906060
@@ -11385,7 +11418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901504
-      Text = #161'El art'#237'culo %s est'#225' agotado! Por favor, revise su entrada.'
+      Text = #161'El art'#237'culo %s est'#225' agotado! '#161'Por favor, revise su entrada!'
     end
     item
       IndexID = 901505
@@ -11409,11 +11442,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906062
-      Text = 'Etiqueta de deudor seleccionado'
+      Text = 'Etiqueta de cliente seleccionado'
     end
     item
       IndexID = 906063
-      Text = 'Etiqueta de acreedor seleccionado'
+      Text = 'Etiqueta de proveedor seleccionado'
     end
     item
       IndexID = 906064
@@ -11421,11 +11454,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906065
-      Text = 'Etiqueta de entrega de deudor seleccionado'
+      Text = 'Etiqueta de entrega de cliente seleccionado'
     end
     item
       IndexID = 906066
-      Text = 'Etiqueta de entrega de acreedor seleccionado'
+      Text = 'Etiqueta de entrega de proveedor seleccionado'
     end
     item
       IndexID = 906067
@@ -11621,15 +11654,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Saldos por columnas D/C'
+      Text = 'Columnas - Saldos D/C'
     end
     item
       IndexID = 3167
-      Text = 'Saldos por columnas de deudores D/C'
+      Text = 'Columnas - Saldos clientes D/C'
     end
     item
       IndexID = 3168
-      Text = 'Saldos por columnas de acreedores D/C'
+      Text = 'Columnas - Saldos prov. D/C'
     end
     item
       IndexID = 3169
@@ -11685,11 +11718,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3182
-      Text = 'Abrir pedido de comercio electr'#243'nico en navegador'
+      Text = 'Abrir pedido de e-Commerce en el navegador'
     end
     item
       IndexID = 3183
-      Text = 'Abrir cliente de comercio electr'#243'nico en navegador'
+      Text = 'Abrir cliente de e-Commerce en el navegador'
     end
     item
       IndexID = 3184
@@ -11857,7 +11890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3224
-      Text = 'Carpeta base deudor/acreedor'
+      Text = 'Carpeta base cliente/proveedor'
     end
     item
       IndexID = 3225
@@ -11974,8 +12007,8 @@ object TTranslationSaveObject
     item
       IndexID = 3253
       Text = 
-        #161'No se encontr'#243' CC extra! Por favor, ingrese una direcci'#243'n de co' +
-        'rreo en el cuadro de texto debajo de este bot'#243'n.'
+        #161'No se encontr'#243' CC extra! '#161'Por favor, ingrese una direcci'#243'n de c' +
+        'orreo en el cuadro de texto debajo de este bot'#243'n!'
     end
     item
       IndexID = 3254
@@ -12352,7 +12385,7 @@ object TTranslationSaveObject
       IndexID = 3345
       Text = 
         #161'Consolidar l'#237'neas y usar impuestos afectar'#225' su informe fiscal! ' +
-        'Aseg'#250'rese de no usar impuestos o no consolidar l'#237'neas.'
+        #161'Aseg'#250'rese de no usar impuestos o no consolidar l'#237'neas!'
     end
     item
       IndexID = 3346
@@ -12369,14 +12402,14 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        #161'Hay entrada de documento asociada a este proyecto! '#191'Desea conti' +
-        'nuar? '#161'Todos los datos del proyecto se perder'#225'n!'
+        #161'Hay documentos asociados con este proyecto! '#191'Desea continuar? '#161 +
+        'Todos los datos del proyecto se perder'#225'n!'
     end
     item
       IndexID = 3350
       Text = 
-        #161'Hay entrada de transacci'#243'n asociada a este proyecto! '#191'Desea con' +
-        'tinuar? '#161'Todos los datos del proyecto se perder'#225'n!'
+        #161'Hay transacciones asociadas con este proyecto! '#191'Desea continuar' +
+        '? '#161'Todos los datos del proyecto se perder'#225'n!'
     end
     item
       IndexID = 3351
@@ -12426,11 +12459,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906076
-      Text = 'Comparar per'#237'odo - Deudores'
+      Text = 'Comparar per'#237'odo - Clientes'
     end
     item
       IndexID = 906077
-      Text = 'Comparar per'#237'odo - Acreedores'
+      Text = 'Comparar per'#237'odo - Proveedores'
     end
     item
       IndexID = 906078
@@ -12480,7 +12513,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906088
-      Text = 'Acuerdo de precios - Acreedores'
+      Text = 'Acuerdo de precios - Proveedor'
     end
     item
       IndexID = 906089
@@ -12516,7 +12549,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906097
-      Text = 'Informe de pagos de deudores'
+      Text = 'Informe de pagos de clientes'
     end
     item
       IndexID = 906098
@@ -12574,7 +12607,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3368
-      Text = 'Saldos de columna est'#225'ndar'
+      Text = 'Columnas - Saldos est'#225'ndar'
     end
     item
       IndexID = 3369
@@ -12639,7 +12672,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3383
-      Text = 'Comercio electr'#243'nico'
+      Text = 'e-Commerce'
     end
     item
       IndexID = 3384
@@ -13077,8 +13110,8 @@ object TTranslationSaveObject
     item
       IndexID = 3499
       Text = 
-        #161'Todav'#237'a tiene una pantalla de detalle abierta! Pulse [Cancelar]' +
-        ' o [Guardar] para cerrar.'
+        #161'Todav'#237'a tiene una pantalla de detalle abierta! '#161'Pulse [Cancelar' +
+        '] o [Guardar] para cerrar!'
     end
     item
       IndexID = 3500
@@ -13223,14 +13256,14 @@ object TTranslationSaveObject
     item
       IndexID = 3535
       Text = 
-        #161'Esta acci'#243'n ajustar'#225' la '#250'ltima fecha de remesa en los deudores ' +
-        '"seleccionados"! '#191'Desea continuar?'
+        #161'Esta acci'#243'n ajustar'#225' la '#250'ltima fecha de estado de cuenta en los' +
+        ' clientes seleccionados! '#191'Desea continuar?'
     end
     item
       IndexID = 3536
       Text = 
-        #161'Esta acci'#243'n ajustar'#225' la '#250'ltima fecha de remesa en los deudores ' +
-        '"TODOS VISIBLES"! '#191'Desea continuar?'
+        #161'Esta acci'#243'n ajustar'#225' la '#250'ltima fecha de estado de cuenta en TOD' +
+        'OS los clientes visibles! '#191'Desea continuar?'
     end
     item
       IndexID = 3537
@@ -13360,11 +13393,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906103
-      Text = 'Acreedores pendientes a fecha'
+      Text = 'Proveedores pendientes a fecha'
     end
     item
       IndexID = 906104
-      Text = 'Deudores pendientes a fecha'
+      Text = 'Clientes pendientes a fecha'
     end
     item
       IndexID = 906105
@@ -13372,19 +13405,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906106
-      Text = 'Transacciones de deudores - Est'#225'ndar'
+      Text = 'Transacciones de cliente - Est'#225'ndar'
     end
     item
       IndexID = 906107
-      Text = 'Transacciones de deudores - Detalles extra'
+      Text = 'Transacciones de cliente - Detalles extra'
     end
     item
       IndexID = 906108
-      Text = 'Transacciones de acreedores - Est'#225'ndar'
+      Text = 'Transacciones de proveedor - Est'#225'ndar'
     end
     item
       IndexID = 906109
-      Text = 'Transacciones de acreedores - Detalles extra'
+      Text = 'Transacciones de proveedor - Detalles extra'
     end
     item
       IndexID = 906110
@@ -13412,11 +13445,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906116
-      Text = 'Grupo de acreedores'
+      Text = 'Grupo de proveedor'
     end
     item
       IndexID = 906117
-      Text = 'Grupo de deudores'
+      Text = 'Grupo de cliente'
     end
     item
       IndexID = 906118
@@ -13428,7 +13461,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906120
-      Text = 'Devoluciones de proveedores por per'#237'odo'
+      Text = 'Devoluciones a proveedor por per'#237'odo'
     end
     item
       IndexID = 906121
@@ -13440,11 +13473,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906123
-      Text = 'Transacciones de deudores'
+      Text = 'Transacciones de cliente'
     end
     item
       IndexID = 906124
-      Text = 'Transacciones de acreedores'
+      Text = 'Transacciones de proveedor'
     end
     item
       IndexID = 906125
@@ -13472,11 +13505,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906131
-      Text = 'Devoluciones de proveedores contabilizados'
+      Text = 'Devoluciones a proveedor contabilizados'
     end
     item
       IndexID = 906132
-      Text = 'Devoluciones de proveedores no contabilizados'
+      Text = 'Devoluciones a proveedor no contabilizados'
     end
     item
       IndexID = 906133
@@ -13532,7 +13565,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906146
-      Text = 'An'#225'lisis de antig'#252'edad de deudores'
+      Text = 'An'#225'lisis de antig'#252'edad de cliente'
     end
     item
       IndexID = 906147
@@ -13556,11 +13589,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906152
-      Text = 'Compras por per'#237'odo - Grupo acreedores 1'
+      Text = 'Compras por per'#237'odo - Grupo proveedores 1'
     end
     item
       IndexID = 906153
-      Text = 'Compras por per'#237'odo - Grupo documentos 2'
+      Text = 'Compras por per'#237'odo - Grupo proveedores 2'
     end
     item
       IndexID = 906154
@@ -13576,11 +13609,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906157
-      Text = 'Facturas por per'#237'odo - Grupo deudores 1'
+      Text = 'Facturas por per'#237'odo - Grupo clientes 1'
     end
     item
       IndexID = 906158
-      Text = 'Facturas por per'#237'odo - Grupo deudores 2'
+      Text = 'Facturas por per'#237'odo - Grupo clientes 2'
     end
     item
       IndexID = 906159
@@ -13616,11 +13649,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906167
-      Text = 'Gr'#225'fico - Acreedores por semana'
+      Text = 'Gr'#225'fico - Proveedores por semana'
     end
     item
       IndexID = 906168
-      Text = 'Gr'#225'fico - Deudores por semana'
+      Text = 'Gr'#225'fico - Clientes por semana'
     end
     item
       IndexID = 906169
@@ -13864,19 +13897,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906230
-      Text = 'Factura A4 Simple (sin c'#243'digos)'
+      Text = 'Factura A4 simple (sin c'#243'digos)'
     end
     item
       IndexID = 906231
-      Text = 'Nota de cr'#233'dito A4 Simple (sin c'#243'digos)'
+      Text = 'Nota de cr'#233'dito A4 simple (sin c'#243'digos)'
     end
     item
       IndexID = 906232
-      Text = 'Cotizaci'#243'n A4 Simple (sin c'#243'digos)'
+      Text = 'Cotizaci'#243'n A4 simple (sin c'#243'digos)'
     end
     item
       IndexID = 906233
-      Text = 'Compra A4 Simple (sin c'#243'digos)'
+      Text = 'Compra A4 simple (sin c'#243'digos)'
     end
     item
       IndexID = 906234
@@ -13884,55 +13917,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906235
-      Text = 'Pedido A4 Simple (sin c'#243'digos)'
+      Text = 'Pedido A4 simple (sin c'#243'digos)'
     end
     item
       IndexID = 906236
-      Text = 'Factura A4 Simple (10 c'#243'digos)'
+      Text = 'Factura A4 simple (10 c'#243'digos)'
     end
     item
       IndexID = 906237
-      Text = 'Nota de cr'#233'dito A4 Simple (10 c'#243'digos)'
+      Text = 'Nota de cr'#233'dito A4 simple (10 c'#243'digos)'
     end
     item
       IndexID = 906238
-      Text = 'Cotizaci'#243'n A4 Simple (10 c'#243'digos)'
+      Text = 'Cotizaci'#243'n A4 simple (10 c'#243'digos)'
     end
     item
       IndexID = 906239
-      Text = 'Compra A4 Simple (10 c'#243'digos)'
+      Text = 'Compra A4 simple (10 c'#243'digos)'
     end
     item
       IndexID = 906240
-      Text = 'Devoluci'#243'n a proveedor Simple (10 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor simple (10 c'#243'digos)'
     end
     item
       IndexID = 906241
-      Text = 'Pedido A4 Simple (10 c'#243'digos)'
+      Text = 'Pedido A4 simple (10 c'#243'digos)'
     end
     item
       IndexID = 906242
-      Text = 'Factura A4 Simple (15 c'#243'digos)'
+      Text = 'Factura A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906243
-      Text = 'Nota de cr'#233'dito A4 Simple (15 c'#243'digos)'
+      Text = 'Nota de cr'#233'dito A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906244
-      Text = 'Cotizaci'#243'n A4 Simple (15 c'#243'digos)'
+      Text = 'Cotizaci'#243'n A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906245
-      Text = 'Compra A4 Simple (15 c'#243'digos)'
+      Text = 'Compra A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906246
-      Text = 'Devoluci'#243'n a proveedor A4 Simple (15 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906247
-      Text = 'Pedido A4 Simple (15 c'#243'digos)'
+      Text = 'Pedido A4 simple (15 c'#243'digos)'
     end
     item
       IndexID = 906248
@@ -13952,7 +13985,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906252
-      Text = 'Devoluci'#243'n a proveedor Sin IVA (sin c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor SIN IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906253
@@ -13976,7 +14009,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906258
-      Text = 'Devoluci'#243'n a proveedor Sin IVA (15 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor SIN IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906259
@@ -14016,7 +14049,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903102
-      Text = 'Variables del sistema'
+      Text = 'Sysvars'
     end
     item
       IndexID = 903103
@@ -14024,7 +14057,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903104
-      Text = 'Mensajes'
+      Text = 'MSG'
     end
     item
       IndexID = 903105
@@ -14104,15 +14137,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903124
-      Text = 'Eliminar deudores'
+      Text = 'Eliminar clientes'
     end
     item
       IndexID = 903125
-      Text = 'Eliminar acreedores'
+      Text = 'Eliminar proveedores'
     end
     item
       IndexID = 903126
-      Text = 'Eliminar art'#237'culos de inventario'
+      Text = 'Eliminar arts. de stock'
     end
     item
       IndexID = 903127
@@ -14148,19 +14181,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903135
-      Text = 'Eliminar deudores sin cuenta'
+      Text = 'Eliminar clientes sin cuenta'
     end
     item
       IndexID = 903136
-      Text = 'Eliminar acreedores sin cuenta'
+      Text = 'Eliminar prov. sin cuenta'
     end
     item
       IndexID = 903137
-      Text = 'Establecer todos los deudores a PA'
+      Text = 'Establecer todos los clientes a PA'
     end
     item
       IndexID = 903138
-      Text = 'Establecer todos los acreedores a PA'
+      Text = 'Establecer todos los prov. a PA'
     end
     item
       IndexID = 903139
@@ -14172,7 +14205,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903141
-      Text = 'Recortar y capitalizar direcci'#243'n de deudores'
+      Text = 'Recortar y capitalizar direcci'#243'n de clientes'
     end
     item
       IndexID = 903142
@@ -14192,7 +14225,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903146
-      Text = 'Establecer '#39'Transact'#39' de a'#241'os previos'
+      Text = 'Set '#39'Transact'#39' a'#241'os previos'
     end
     item
       IndexID = 903147
@@ -14212,7 +14245,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903151
-      Text = 'Vincular auto deudores con saldo cero'
+      Text = 'Vincular auto clientes con saldo cero'
     end
     item
       IndexID = 903152
@@ -14252,11 +14285,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903161
-      Text = 'Buscar deudores'
+      Text = 'Buscar clientes'
     end
     item
       IndexID = 903162
-      Text = 'Buscar acreedores'
+      Text = 'Buscar proveedores'
     end
     item
       IndexID = 903163
@@ -14278,11 +14311,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903167
-      Text = 'Reejecutar parche X'
+      Text = 'Rerun Patch X'
     end
     item
       IndexID = 903168
-      Text = 'Restablecer Sysvars'
+      Text = 'Reset Sysvars'
     end
     item
       IndexID = 903169
@@ -14450,11 +14483,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906291
-      Text = 'Notas de cr'#233'dito por per'#237'odo - Grupo deudores 1'
+      Text = 'Notas de cr'#233'dito por per'#237'odo - Grupo clientes 1'
     end
     item
       IndexID = 906292
-      Text = 'Notas de cr'#233'dito por per'#237'odo - Grupo deudores 2'
+      Text = 'Notas de cr'#233'dito por per'#237'odo - Grupo clientes 2'
     end
     item
       IndexID = 906293
@@ -14470,31 +14503,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906296
-      Text = 'Devoluciones de proveedores por per'#237'odo - Grupo acreedores 1'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Grupo proveedores 1'
     end
     item
       IndexID = 906297
-      Text = 'Devoluciones de proveedores por per'#237'odo - Grupo acreedores 2'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Grupo proveedores 2'
     end
     item
       IndexID = 906298
-      Text = 'Devoluciones por per'#237'odo - Grupo documentos 1'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Grupo documentos 1'
     end
     item
       IndexID = 906299
-      Text = 'Devoluciones de proveedores por per'#237'odo - Grupo documentos 2'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Grupo documentos 2'
     end
     item
       IndexID = 906300
-      Text = 'Devoluciones de proveedores por per'#237'odo - Vendedor'
+      Text = 'Devoluciones a proveedores por per'#237'odo - Vendedor'
     end
     item
       IndexID = 906301
-      Text = 'Cotizaciones por per'#237'odo - Grupo deudores 1'
+      Text = 'Cotizaciones por per'#237'odo - Grupo clientes 1'
     end
     item
       IndexID = 906302
-      Text = 'Cotizaciones por per'#237'odo - Grupo deudores 2'
+      Text = 'Cotizaciones por per'#237'odo - Grupo clientes 2'
     end
     item
       IndexID = 906303
@@ -14510,11 +14543,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906306
-      Text = 'Pedidos por per'#237'odo - Grupo acreedores 1'
+      Text = 'Pedidos por per'#237'odo - Grupo proveedores 1'
     end
     item
       IndexID = 906307
-      Text = 'Pedidos por per'#237'odo - Grupo acreedores 2'
+      Text = 'Pedidos por per'#237'odo - Grupo proveedores 2'
     end
     item
       IndexID = 906308
@@ -14538,11 +14571,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906313
-      Text = 'Devoluciones de proveedores por per'#237'odo - Cantidades'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Cantidades'
     end
     item
       IndexID = 906314
-      Text = 'Devoluciones de proveedores por per'#237'odo - Coste'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Coste'
     end
     item
       IndexID = 906315
@@ -14570,11 +14603,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906321
-      Text = 'Gr'#225'fico - Devoluciones de proveedores por semana - Cantidades'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Cantidades'
     end
     item
       IndexID = 906322
-      Text = 'Gr'#225'fico - Devoluciones de proveedores por semana - Coste'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Coste'
     end
     item
       IndexID = 906323
@@ -14594,11 +14627,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906327
-      Text = 'Documentos de compra por per'#237'odo - Grupo acreedores 1'
+      Text = 'Documentos de compra por per'#237'odo - Grupo proveedores 1'
     end
     item
       IndexID = 906328
-      Text = 'Documentos de compra por per'#237'odo - Grupo acreedores 2'
+      Text = 'Documentos de compra por per'#237'odo - Grupo proveedores 2'
     end
     item
       IndexID = 906329
@@ -14614,11 +14647,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906332
-      Text = 'Ventas por per'#237'odo - Grupo deudores 1'
+      Text = 'Ventas por per'#237'odo - Grupo clientes 1'
     end
     item
       IndexID = 906333
-      Text = 'Ventas por per'#237'odo - Grupo deudores 2'
+      Text = 'Ventas por per'#237'odo - Grupo clientes 2'
     end
     item
       IndexID = 906334
@@ -14634,7 +14667,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906337
-      Text = 'Compras y devoluciones de proveedores por per'#237'odo'
+      Text = 'Compras y devoluciones a proveedor por per'#237'odo'
     end
     item
       IndexID = 3568
@@ -14662,7 +14695,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3574
-      Text = 'Devoluciones de proveedores por per'#237'odo'
+      Text = 'Devoluciones a proveedor por per'#237'odo'
     end
     item
       IndexID = 3575
@@ -16096,7 +16129,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3672
-      Text = 'Activar auto-inactivaci'#243'n de deudor (x d'#237'as sin pagar)'
+      Text = 'Activar auto-inactivaci'#243'n cliente (x d'#237'as sin pagar)'
     end
     item
       IndexID = 3673
@@ -16104,11 +16137,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3674
-      Text = #191'Desea ejecutar este proceso para 1 acreedor?'
+      Text = #191'Desea ejecutar este proceso para 1 proveedor?'
     end
     item
       IndexID = 3675
-      Text = 'Lista fiscal de deudores con NIF'
+      Text = 'Lista fiscal de cliente con NIF'
     end
     item
       IndexID = 3676
@@ -16162,11 +16195,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906551
-      Text = 'Aviso de remesa de acreedores - Pendientes'
+      Text = 'Aviso de remesa de proveedor - Pendientes'
     end
     item
       IndexID = 906552
-      Text = 'Estado de cuenta de deudores - Pendientes'
+      Text = 'Estado de cuenta de cliente - Pendientes'
     end
     item
       IndexID = 3685
@@ -16202,7 +16235,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3693
-      Text = #161'Por favor guarde o cancele su documento primero!'
+      Text = #161'Por favor, guarde o cancele su documento primero!'
     end
     item
       IndexID = 3694
@@ -16210,11 +16243,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3695
-      Text = #161'Por favor guarde o cancele su deudor primero!'
+      Text = #161'Por favor, guarde o cancele su cliente primero!'
     end
     item
       IndexID = 3696
-      Text = #161'Por favor guarde o cancele su acreedor primero!'
+      Text = #161'Por favor, guarde o cancele su proveedor primero!'
     end
     item
       IndexID = 3697
@@ -16296,7 +16329,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906553
-      Text = 'Lista fiscal de acreedores con NIF'
+      Text = 'Lista fiscal de proveedor con NIF'
     end
     item
       IndexID = 906554
@@ -16377,8 +16410,8 @@ object TTranslationSaveObject
     item
       IndexID = 3732
       Text = 
-        '"'#161'Su fecha de fin de a'#241'o actual %s es posterior a hoy! '#191'Desea de' +
-        'jar de abrir un nuevo a'#241'o?"'
+        #161'Su fecha de fin de a'#241'o abierta actual %s es posterior a hoy! '#191'D' +
+        'esea detener la apertura de un nuevo a'#241'o?'
     end
     item
       IndexID = 3733
@@ -16391,8 +16424,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        #161'Est'#225' registrando beneficios/p'#233'rdidas en el mayor con impuesto! ' +
-        #161'Esto afectar'#225' a los informes fiscales! '#191'Desea continuar?'
+        #161'Est'#225' registrando p'#233'rdidas/ganancias con impuestos! '#161'Esto arruin' +
+        'ar'#225' sus informes fiscales! '#191'Desea continuar?'
     end
     item
       IndexID = 3736
@@ -16426,11 +16459,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906561
-      Text = 'Gr'#225'fico - Deudores por mes'
+      Text = 'Gr'#225'fico - Clientes por mes'
     end
     item
       IndexID = 906562
-      Text = 'Gr'#225'fico - Acreedores por mes'
+      Text = 'Gr'#225'fico - Proveedores por mes'
     end
     item
       IndexID = 906563
@@ -16467,12 +16500,12 @@ object TTranslationSaveObject
     item
       IndexID = 906571
       Text = 
-        'Gr'#225'fico - Compras - Devoluciones de proveedores por mes - Cantid' +
-        'ades'
+        'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Cantidade' +
+        's'
     end
     item
       IndexID = 906572
-      Text = 'Gr'#225'fico - Compras - Devoluciones de proveedores por mes - Coste'
+      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Coste'
     end
     item
       IndexID = 906573
@@ -16484,11 +16517,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906575
-      Text = 'Gr'#225'fico - Devoluciones de proveedores por mes - Coste'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Coste'
     end
     item
       IndexID = 906576
-      Text = 'Gr'#225'fico - Devoluciones de proveedores por mes - Cantidades'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Cantidades'
     end
     item
       IndexID = 906577
@@ -16509,14 +16542,12 @@ object TTranslationSaveObject
     item
       IndexID = 906581
       Text = 
-        'Gr'#225'fico - Compras - Devoluciones de proveedores por semana - Can' +
-        'tidades'
+        'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Cantid' +
+        'ades'
     end
     item
       IndexID = 906582
-      Text = 
-        'Gr'#225'fico - Compras - Devoluciones de proveedores por semana - Cos' +
-        'te'
+      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Coste'
     end
     item
       IndexID = 906583

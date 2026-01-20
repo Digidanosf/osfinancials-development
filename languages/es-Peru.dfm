@@ -4510,7 +4510,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1122
-      Text = '"""Nombre de precio"", ""Valor"""'
+      Text = '"Nombre de precio",Valor'
     end
     item
       IndexID = 1123
@@ -4916,7 +4916,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1222
-      Text = 'Movimiento de clientes'
+      Text = 'Seleccionar clientes'
     end
     item
       IndexID = 1223
