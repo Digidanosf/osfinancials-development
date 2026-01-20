@@ -2522,7 +2522,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 570
-      Text = 'Converting Pastel journals...'
+      Text = 'Converting Pastel batches...'
     end
     item
       IndexID = 581
@@ -12186,7 +12186,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906082
-      Text = 'Journal type id'
+      Text = 'Batch type id'
     end
     item
       IndexID = 906083

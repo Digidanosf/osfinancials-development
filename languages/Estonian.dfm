@@ -26,11 +26,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1772
-      Text = 'Kood'
+      Text = 'Laokood'
     end
     item
       IndexID = 1771
-      Text = 'Lao algsaldo'
+      Text = 'Laoseisu algsaldo'
     end
     item
       IndexID = 1770
@@ -54,7 +54,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1895
-      Text = 'M'#228#228'ra uus arve kordusarvena'
+      Text = 'M'#228#228'ra uus arve kordusarveks'
     end
     item
       IndexID = 1894
@@ -74,7 +74,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1979
-      Text = 'Avatud objektide valik'
+      Text = 'Avatud kirjete valik'
     end
     item
       IndexID = 1978
@@ -118,7 +118,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20120
-      Text = 'Ava...'
+      Text = '&Ava...'
     end
     item
       IndexID = 20119
@@ -174,7 +174,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20106
-      Text = 'Filtri t'#252'hjendamine eba'#245'nnestus'
+      Text = 'Filtri t'#252'hjendamine eba'#245'nnestus!'
     end
     item
       IndexID = 20105
@@ -282,7 +282,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20079
-      Text = 'Ava esmalt ettev'#245'te!'
+      Text = 'Enne j'#228'tkamist avage esmalt ettev'#245'te!'
     end
     item
       IndexID = 20078
@@ -292,19 +292,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20077
-      Text = 'Kordumatu kontonumber'
+      Text = 'Kordumatu konto nr.'
     end
     item
       IndexID = 20076
-      Text = 'Kordumatu reanumber'
+      Text = 'Kordumatu rea nr.'
     end
     item
       IndexID = 20075
-      Text = 'Kordumatu dokumendinumber'
+      Text = 'Kordumatu dokumendi nr.'
     end
     item
       IndexID = 20074
-      Text = 'Kordumatu tootekood'
+      Text = 'Kordumatu laokood nr.'
     end
     item
       IndexID = 20073
@@ -312,15 +312,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20072
-      Text = 'Arved toodete kohta'
+      Text = 'Laokaupade arve'
     end
     item
       IndexID = 20071
-      Text = 'Tooted arvetel'
+      Text = 'Arvetel olevad laokaubad'
     end
     item
       IndexID = 20070
-      Text = 'Kliendi arved'
+      Text = 'Kliendiarve'
     end
     item
       IndexID = 20069
@@ -360,11 +360,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20060
-      Text = 'Konteeringu number'
+      Text = 'Lausendi nr.'
     end
     item
       IndexID = 20059
-      Text = 'Tehingu number'
+      Text = 'Tehingu nr.'
     end
     item
       IndexID = 20058
@@ -529,32 +529,32 @@ object TTranslationSaveObject
     item
       IndexID = 20018
       Text = 
-        'ExtLookupComboBox|Represents on '#252'lit'#228'pne otsingu s'#252'steem, mis ka' +
-        'sutab QuantumGrid'#39'i oma rippmen'#252#252'na'
+        'Ext Lookup Combo Box - esindab '#252'lit'#228'pset otsingus'#252'steemi, mis ka' +
+        'sutab QuantumGrid'#39'i oma rippmen'#252#252'na!'
     end
     item
       IndexID = 20017
-      Text = 'Ei saa luua faili eksportimiseks'
+      Text = 'Ei saa luua faili eksportimiseks!'
     end
     item
       IndexID = 20016
-      Text = 'Aktiivset v'#245'rgustiku taset pole olemas'
+      Text = 'Aktiivset v'#245'rgustiku taset pole olemas!'
     end
     item
       IndexID = 20015
-      Text = 'V'#245'rgustiku vaadet pole olemas'
+      Text = 'V'#245'rgustiku vaadet pole olemas!'
     end
     item
       IndexID = 20014
-      Text = 'Impordi viga'
+      Text = 'Impordi viga!'
     end
     item
       IndexID = 20013
-      Text = 'Komponent puudub'
+      Text = 'Komponent puudub!'
     end
     item
       IndexID = 20012
-      Text = 'cxGrid puudub'
+      Text = 'cxGrid puudub!'
     end
     item
       IndexID = 20011
@@ -602,11 +602,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20000
-      Text = 'Erinevate tasemete loomine pole siin lubatud.'
+      Text = 'Erinevate tasemete loomine pole siin lubatud!'
     end
     item
       IndexID = 2828
-      Text = 'Kommentaare ei saa panna muu m'#228'rgendi sisse'
+      Text = 'Kommentaare ei saa panna muu m'#228'rgendi sisse!'
     end
     item
       IndexID = 2827
@@ -638,11 +638,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2820
-      Text = 'Tingimuslikud sektsioonid pole lubatud'
+      Text = 'Tingimuslikud sektsioonid pole lubatud!'
     end
     item
       IndexID = 2897
-      Text = 'Palun sisesta ettev'#245'tte nimi'
+      Text = 'Palun sisestage ettev'#245'tte nimi!'
     end
     item
       IndexID = 2896
@@ -654,7 +654,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2894
-      Text = 'Dokumendi loomine '#245'nnestus'
+      Text = 'Dokumendi loomine '#245'nnestus! / Dokumentide loomine '#245'nnestus!'
     end
     item
       IndexID = 2893
@@ -662,7 +662,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2892
-      Text = 'M'#228'rkmed'
+      Text = '&M'#228'rkmed'
     end
     item
       IndexID = 2891
@@ -674,7 +674,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2889
-      Text = 'Muuda'
+      Text = '&Muuda'
     end
     item
       IndexID = 2888
@@ -711,8 +711,8 @@ object TTranslationSaveObject
     item
       IndexID = 2880
       Text = 
-        'Salvesta esmalt kordusarve. Avamise j'#228'rel saad lisada kliendi ni' +
-        'ng muuta teisi andmeid.'
+        'Palun salvesta esmalt kordusarve! P'#228'rast uuesti avamist saad arv' +
+        'ele lisada kliendi!'
     end
     item
       IndexID = 2879
@@ -792,7 +792,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2860
-      Text = 'Kohtumine v'#245'lausaldajaga/hankijaga.'
+      Text = 'Kohtumine v'#245'lausaldajaga'
     end
     item
       IndexID = 2859
@@ -800,7 +800,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2858
-      Text = 'Perioodilised arved'
+      Text = 'Kordusarved'
     end
     item
       IndexID = 2857
@@ -812,31 +812,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2855
-      Text = 'TCanvas on m'#228#228'ramata'
+      Text = 'TCanvas on m'#228#228'ramata!'
     end
     item
       IndexID = 2854
-      Text = 'Tr'#252'kiformaadid m'#228#228'ramata'
+      Text = 'Tr'#252'kiformaadid m'#228#228'ramata!'
     end
     item
       IndexID = 2853
-      Text = 'Seade peab olema '#252'hendatud TVpControlLinki'
+      Text = 'Seade peab olema '#252'hendatud TVpControlLinki!'
     end
     item
       IndexID = 2852
-      Text = 'Omanik peab olema TWinControli k'#245'lblik'
+      Text = 'Omanik peab olema TWinControli k'#245'lblik!'
     end
     item
       IndexID = 2851
-      Text = 'Vale m'#245#245't'
+      Text = 'Vale m'#245#245't!'
     end
     item
       IndexID = 2850
-      Text = 'Valet t'#252#252'pi ese'
+      Text = 'Valet t'#252#252'pi ese!'
     end
     item
       IndexID = 2849
-      Text = 'Vigane tr'#252'kivorming'
+      Text = 'Vigane tr'#252'kivorming!'
     end
     item
       IndexID = 2848
@@ -844,55 +844,57 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2847
-      Text = 'VorminguNimi ei tohi olla t'#252'hi'
+      Text = 'VorminguNimi ei tohi olla t'#252'hi!'
     end
     item
       IndexID = 2846
-      Text = 'Palun lisa elemendi nimi'
+      Text = 'Palun lisa elemendi nimi!'
     end
     item
       IndexID = 2845
-      Text = 'ei toeta'
+      Text = 'ei toeta!'
     end
     item
       IndexID = 2844
-      Text = 'M'#245#245'tudest v'#228'ljas'
+      Text = 'M'#245#245'tudest v'#228'ljas!'
     end
     item
       IndexID = 2843
-      Text = 'UCS-4 m'#228'rgis'#252'steemi m'#228'rki ei saa konverteerida UTF-8 m'#228'rgistikku'
+      Text = 
+        'UCS-4 m'#228'rgis'#252'steemi m'#228'rki ei saa konverteerida UTF-8 m'#228'rgistikku' +
+        '!'
     end
     item
       IndexID = 2842
       Text = 
         'UCS-4 m'#228'rgis'#252'steemi m'#228'rki ei saa konverteerida UTF-16 m'#228'rgistikk' +
-        'u'
+        'u!'
     end
     item
       IndexID = 2841
       Text = 
         'UCS-4 m'#228'rgis'#252'steemi m'#228'rki ei saa konverteerida ISO-8859-1 m'#228'rgis' +
-        'tikku'
+        'tikku!'
     end
     item
       IndexID = 2840
-      Text = 'Dokumendivoo ootamatu l'#245'pp'
+      Text = 'Dokumendivoo ootamatu l'#245'pp!'
     end
     item
       IndexID = 2839
-      Text = 'Halva vorminguga UTF-8 m'#228'rk voos'
+      Text = 'Halva vorminguga UTF-8 m'#228'rk voos!'
     end
     item
       IndexID = 2838
-      Text = 'Vigane (little-endian) UTF-16 s'#252'mboli kodeerimine'
+      Text = 'Vigane (little-endian) UTF-16 s'#252'mboli kodeerimine!'
     end
     item
       IndexID = 2837
-      Text = 'Vigame (big-endian) UTF-16 s'#252'mboli kodeerimine'
+      Text = 'Vigame (big-endian) UTF-16 s'#252'mboli kodeerimine!'
     end
     item
       IndexID = 2836
-      Text = 'Programm leidis vigase XML m'#228'rgi'
+      Text = 'Programm leidis vigase XML m'#228'rgi!'
     end
     item
       IndexID = 2835
@@ -900,11 +902,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2834
-      Text = 'Atribuudil %s elemendis %s pole numbrilist v'#228#228'rtust'
+      Text = 'Atribuudil %s elemendis %s pole numbrilist v'#228#228'rtust!'
     end
     item
       IndexID = 2833
-      Text = 'Vigane m'#228'rgistiku kodeerimine.'
+      Text = 'Vigane m'#228'rgistiku kodeerimine!'
     end
     item
       IndexID = 2832
@@ -916,11 +918,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2830
-      Text = 'XML-deklaratsioon peab olema enne esimest elementi'
+      Text = 'XML-deklaratsioon peab olema enne esimest elementi!'
     end
     item
       IndexID = 2829
-      Text = 'Kehtivale XML-dokumendile j'#228'rgneb kogus kehtetuid andmeid'
+      Text = 'Kehtivale XML-dokumendile j'#228'rgneb kogus kehtetuid andmeid!'
     end
     item
       IndexID = 2818
@@ -936,7 +938,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2815
-      Text = 'Atribuutide muutmine start tag'#39'is keelatud'
+      Text = 'Atribuutide muutmine start tag'#39'is keelatud!'
     end
     item
       IndexID = 2814
@@ -948,7 +950,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2812
-      Text = 'Vigane kommentaar'
+      Text = 'Vigane kommentaar!'
     end
     item
       IndexID = 2811
@@ -956,7 +958,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2810
-      Text = 'Ei saa luua sisendivoogu'
+      Text = 'Ei saa luua sisendivoogu!'
     end
     item
       IndexID = 2809
@@ -964,7 +966,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2808
-      Text = 'Oodatud "or"'
+      Text = 'Oodatud "or'#39
     end
     item
       IndexID = 2807
@@ -972,7 +974,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2806
-      Text = 'Peaks olema t'#252'hik'
+      Text = 'Peaks olema t'#252'hik!'
     end
     item
       IndexID = 2805
@@ -984,7 +986,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2803
-      Text = 'Sobimatu m'#228'rk viites.'
+      Text = 'Sobimatu m'#228'rk viites!'
     end
     item
       IndexID = 2802
@@ -992,11 +994,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2801
-      Text = 'Ootamatu faili l'#245'pp'
+      Text = 'Ootamatu faili l'#245'pp!'
     end
     item
       IndexID = 2800
-      Text = 'Peaks olema kommentaar v'#245'i CDATA sektsioon'
+      Text = 'Peaks olema kommentaar v'#245'i CDATA sektsioon!'
     end
     item
       IndexID = 2799
@@ -1012,7 +1014,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2796
-      Text = 'S'#252'steemi identifitseerija puudub:'
+      Text = 'S'#252'steemi identifitseerija puudub!'
     end
     item
       IndexID = 2795
@@ -1028,19 +1030,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2792
-      Text = 'VIGA. INDEKS ON V'#196'LJASPOOL LUBATUD PIIRE'
+      Text = 'VIGA. INDEKS ON V'#196'LJASPOOL LUBATUD PIIRE!'
     end
     item
       IndexID = 2791
-      Text = 'Rida: %d Veerg: %d Viga: %s'
+      Text = 'Rida: %d Veerg: %d Viga: %s!'
     end
     item
       IndexID = 2790
-      Text = 'Vigane m'#228'lu osutaja'
+      Text = 'Vigane m'#228'lu osutaja!'
     end
     item
       IndexID = 2789
-      Text = 'Allikat pole v'#245'imalik avada'
+      Text = 'Allikat pole v'#245'imalik avada!'
     end
     item
       IndexID = 2788
@@ -1048,63 +1050,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2787
-      Text = 'Ei saa avada ftp failil'
+      Text = 'Ei saa avada ftp faili!'
     end
     item
       IndexID = 2786
-      Text = 'Ftp andmed pole k'#228'ttesaadavad'
+      Text = 'Ftp andmed pole k'#228'ttesaadavad! '
     end
     item
       IndexID = 2785
-      Text = 'Ftp p'#228'ring nurjus'
+      Text = 'Ftp p'#228'ring nurjus!'
     end
     item
       IndexID = 2784
-      Text = 'See ei ole '#245'ige ftp kaust'
+      Text = 'See ei ole '#245'ige ftp kaust!'
     end
     item
       IndexID = 2783
-      Text = 'See ei ole '#245'ige ftp aadress'
+      Text = 'See ei ole '#245'ige ftp aadress!'
     end
     item
       IndexID = 2782
-      Text = 'Interneti'#252'henduse avamine eba'#245'nnestus'
+      Text = 'Interneti'#252'henduse avamine eba'#245'nnestus!'
     end
     item
       IndexID = 2781
-      Text = 'Interneti'#252'henduse loomine eba'#245'nnestus'
+      Text = 'Interneti'#252'henduse loomine eba'#245'nnestus!'
     end
     item
       IndexID = 2780
-      Text = 'Ei saa avada http-p'#228'ringut'
+      Text = 'Ei saa avada http-p'#228'ringut!'
     end
     item
       IndexID = 2779
-      Text = 'Ei saa saata http-p'#228'ringut'
+      Text = 'Ei saa saata http-p'#228'ringut!'
     end
     item
       IndexID = 2778
-      Text = 'Http andmed pole k'#228'ttesaadavad'
+      Text = 'Http andmed pole k'#228'ttesaadavad!'
     end
     item
       IndexID = 2777
-      Text = 'Http - p'#228'ring eba'#245'nnestus'
+      Text = 'Http - p'#228'ring eba'#245'nnestus!'
     end
     item
       IndexID = 2776
-      Text = 'Ei saa jagada m'#228'lu XML-allikale.'
+      Text = 'Ei saa jagada m'#228'lu XML-allikale!'
     end
     item
       IndexID = 2775
-      Text = 'Ei leidnud faili %s'
+      Text = 'Ei leidnud faili %s!'
     end
     item
       IndexID = 2774
-      Text = 'Faili ei saa avada'
+      Text = 'Faili ei saa avada!'
     end
     item
       IndexID = 2773
-      Text = 'Ei saa avada WININET, Microsoft IE n'#245'utav'
+      Text = 'Ei saa avada WININET! Microsoft IE n'#245'utav!'
     end
     item
       IndexID = 2472
@@ -1236,7 +1238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Ava'
+      Text = '&Avatud kirje'
     end
     item
       IndexID = 2439
@@ -1896,83 +1898,83 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2275
-      Text = 'Viga: ei saa uuendada'
+      Text = 'Viga: ei saa uuendada!'
     end
     item
       IndexID = 2274
-      Text = 'Viga: ei saa avada'
+      Text = 'Viga: ei saa avada!'
     end
     item
       IndexID = 2273
-      Text = 'Viga: p'#246#246'rdub vale tabeli poole'
+      Text = 'Viga: p'#246#246'rdub vale tabeli poole!'
     end
     item
       IndexID = 2272
-      Text = 'Viga: dubleeriv kanne'
+      Text = 'Viga: dubleeriv kanne!'
     end
     item
       IndexID = 2271
-      Text = 'Viga: viga ressursi loomisel'
+      Text = 'Viga: viga ressursi loomisel!'
     end
     item
       IndexID = 2260
-      Text = 'Viga: kontaktkirje loomine eba'#245'nnestus'
+      Text = 'Viga: kontaktkirje loomine eba'#245'nnestus!'
     end
     item
       IndexID = 2269
-      Text = 'Viga: viga s'#252'ndmuse loomisel'
+      Text = 'Viga: viga s'#252'ndmuse loomisel!'
     end
     item
       IndexID = 2268
-      Text = 'Viga: viga '#252'lesande loomisel'
+      Text = 'Viga: viga '#252'lesande loomisel!'
     end
     item
       IndexID = 2267
-      Text = 'Viga: nimi ei saa t'#252'hjaks j'#228#228'da'
+      Text = 'Viga: nimi ei saa t'#252'hjaks j'#228#228'da!'
     end
     item
       IndexID = 2266
-      Text = 'Viga: aasta on kohustuslik'
+      Text = 'Viga: aasta on kohustuslik!'
     end
     item
       IndexID = 2265
-      Text = 'Viga: kuu on kohustuslik'
+      Text = 'Viga: kuu on kohustuslik!'
     end
     item
       IndexID = 2264
-      Text = 'Viga: p'#228'ev on kohustuslik'
+      Text = 'Viga: p'#228'ev on kohustuslik!'
     end
     item
       IndexID = 2263
-      Text = 'Viga: vale aasta'
+      Text = 'Viga: vale aasta!'
     end
     item
       IndexID = 2262
-      Text = 'Viga: vale kuu nimi'
+      Text = 'Viga: vale kuu nimi!'
     end
     item
       IndexID = 2261
-      Text = 'Viga: vale kuu'
+      Text = 'Viga: vale kuu!'
     end
     item
       IndexID = 2250
-      Text = 'Viga: Vale kuup'#228'ev'
+      Text = 'Viga: Vale kuup'#228'ev!'
     end
     item
       IndexID = 2259
-      Text = 'Viga: vale p'#228'ev'
+      Text = 'Viga: vale p'#228'ev!'
     end
     item
       IndexID = 2258
-      Text = 'Kuu numbri konverteerimne eba'#245'nnestus'
+      Text = 'Kuu numbri konverteerimne eba'#245'nnestus!'
     end
     item
       IndexID = 2257
-      Text = 'Andmete kirjutamine baasi eba'#245'nnestus'
+      Text = 'Andmete kirjutamine baasi eba'#245'nnestus!'
     end
     item
       IndexID = 2256
-      Text = 'L'#245'puaeg ei saa olla enne algusaega'
+      Text = 'L'#245'puaeg ei saa olla enne algusaega!'
     end
     item
       IndexID = 2255
@@ -1988,15 +1990,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2252
-      Text = 'Vigane k'#228'ivitusk'#228'sk'
+      Text = 'Vigane k'#228'ivitusk'#228'sk!'
     end
     item
       IndexID = 2251
-      Text = 'Windows'#39'i taimer pole k'#228'ttesaadav'
+      Text = 'Windows'#39'i taimer pole k'#228'ttesaadav!'
     end
     item
       IndexID = 2249
-      Text = 'Seda pole praegu v'#245'imalik rakendada'
+      Text = 'Seda pole praegu v'#245'imalik rakendada!'
     end
     item
       IndexID = 2248
@@ -2136,7 +2138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2214
-      Text = 'Clieop (Hollandis)'
+      Text = 'Loo CLIEOP-fail'
     end
     item
       IndexID = 2213
@@ -2148,7 +2150,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2211
-      Text = 'Arveldusarve nr'
+      Text = 'Pangakonto nr.'
     end
     item
       IndexID = 2210
@@ -2156,10 +2158,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2209
-      Text = 'Kohustuslik / Vaikimisi'
+      Text = 'Valikuline'
     end
     item
       IndexID = 2208
+      Text = '11 T'#245'end'
     end
     item
       IndexID = 2207
@@ -2179,15 +2182,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Muuda k'#228'ibemaksuseadeid'
+      Text = 'Muuda KM s'#228'tteid'
     end
     item
       IndexID = 2202
-      Text = 'Muuda hankijate andmeid'
+      Text = 'Muuda hankija andmeid'
     end
     item
       IndexID = 2201
-      Text = 'Muuda kliendi andmeid'
+      Text = 'Muuda klientide andmeid'
     end
     item
       IndexID = 2200
@@ -2231,7 +2234,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2190
-      Text = 'Iga vihik eraldi'
+      Text = 'Iga lausend eraldi'
     end
     item
       IndexID = 2189
@@ -2255,7 +2258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Impordi kliendid / hankijad'
+      Text = 'Impordin v'#245'lgnikke / hankijaid...'
     end
     item
       IndexID = 2183
@@ -2283,7 +2286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 'K'#228'ibemaksusumma leitud, kuid maksukonto puudub'
+      Text = 'KM summa leitud, kuid KM konto puudub!'
     end
     item
       IndexID = 2176
@@ -2311,23 +2314,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2170
-      Text = 'Tellimus'
+      Text = 'Ostutellimus'
     end
     item
       IndexID = 2169
-      Text = 'Pakkumine'
+      Text = 'Hinnapakkumine'
     end
     item
       IndexID = 2168
-      Text = 'M'#228#228'ra andmestiku asukoht'
+      Text = 'Ettev'#245'tte asukoht:'
     end
     item
       IndexID = 2167
-      Text = 'Otsi arve numbri j'#228'rgi:'
+      Text = 'Otsi arve nr. j'#228'rgi'
     end
     item
       IndexID = 2163
-      Text = 'M'#252#252'gianal'#252#252's - soetused hankijate l'#245'ikes'
+      Text = 'Ostuanal'#252#252's - Ostud hankijate l'#245'ikes'
     end
     item
       IndexID = 2162
@@ -2335,15 +2338,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2161
-      Text = 'Tagastuste summad:'
+      Text = 'Tarnija tagastuste kogusummad:'
     end
     item
       IndexID = 2160
-      Text = 'Ostuarvete summad:'
+      Text = 'Ostuarvete kogusummad:'
     end
     item
       IndexID = 2159
-      Text = 'M'#252#252'gi anal'#252#252's: M'#252#252'k klientide l'#245'ikes'
+      Text = 'M'#252#252'gianal'#252#252's - M'#252#252'k klientide l'#245'ikes'
     end
     item
       IndexID = 2158
@@ -2351,11 +2354,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2157
-      Text = 'Kr arve summad:'
+      Text = 'Kreeditkorralduse kogusumma:'
     end
     item
       IndexID = 2156
-      Text = 'Arve summad:'
+      Text = 'Arve kogusumma:'
     end
     item
       IndexID = 2155
@@ -2363,15 +2366,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2154
-      Text = 'Tagastatud kaubad'
+      Text = 'Tarnija tagastused'
     end
     item
       IndexID = 2153
-      Text = 'Ostuarve'
+      Text = 'Ostud'
     end
     item
       IndexID = 2152
-      Text = 'Kreeditarve'
+      Text = 'Kreeditkorraldus'
     end
     item
       IndexID = 2151
@@ -2439,7 +2442,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2135
-      Text = 'Kuni kliendini (summa alusel)'
+      Text = 'Kuni kliendini (summa j'#228'rgi)'
     end
     item
       IndexID = 2134
@@ -2491,7 +2494,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2122
-      Text = 'Uus tootekood.'
+      Text = 'Uus laokood'
     end
     item
       IndexID = 2121
@@ -2500,8 +2503,8 @@ object TTranslationSaveObject
     item
       IndexID = 2120
       Text = 
-        'Koodi muutmine muudab k'#245'iki aruandeid, kus seda koodi on kasutat' +
-        'ud.'
+        'Laokoodi muutmine p'#245'hjustab k'#245'igi seda koodi kasutanud aruannete' +
+        ' muutumise!'
     end
     item
       IndexID = 2119
@@ -2545,7 +2548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2109
-      Text = 'Vali raamatupaki asukohakaust'
+      Text = 'Vali ettev'#245'tte asukohakaust'
     end
     item
       IndexID = 2108
@@ -2565,11 +2568,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2104
-      Text = 'Andmete replikatsioon'
+      Text = '&Andmete replikatsioon'
     end
     item
       IndexID = 2103
-      Text = 'Kohanda'
+      Text = '&Kohanda'
     end
     item
       IndexID = 2102
@@ -2581,17 +2584,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2100
-      Text = 'Uue nime salvestamiseks kl'#245'psa "OK"!'
+      Text = 'Uue nime salvestamiseks kl'#245'psa [OK]!'
     end
     item
       IndexID = 2099
-      Text = 'Aruande kujundus puudub!'
+      Text = 'Aruande kujundusfaili ei leitud!'
     end
     item
       IndexID = 2098
-      Text = 
-        'Sul on kliendilt saada veel %s. Letim'#252#252'gil ei saa klient v'#245'lgu j' +
-        #228#228'da!'
+      Text = 'V'#245'lgnevus %s! POS arve puhul ei saa j'#228#228'da tasumata summat!'
     end
     item
       IndexID = 2097
@@ -2599,11 +2600,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2096
-      Text = 'Kannet muudeti. Kas soovid selle uuesti l'#228'bi kanda ja kinnitada?'
+      Text = 'Kannet muudeti! Kas soovid selle uuesti l'#228'bi kanda ja kinnitada?'
     end
     item
       IndexID = 2095
-      Text = 'Sa ei saa koostada aruannet alates %s kuni %s'
+      Text = 'Sa ei saa koostada aruannet alates %s kuni %s!'
     end
     item
       IndexID = 2094
@@ -2639,15 +2640,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2086
-      Text = 'T'#252'hista l'#228'bikantud vihik'
+      Text = 'T'#252'hista postitatud lausend'
     end
     item
       IndexID = 2085
-      Text = 'Alias'
+      Text = 'Varjunimi (lausendi nimi)'
     end
     item
       IndexID = 2084
-      Text = 'T'#252'hista l'#228'bikantud vihik / dokument'
+      Text = 'T'#252'hista postitatud lausend/dokument'
     end
     item
       IndexID = 2083
@@ -2659,15 +2660,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2081
-      Text = 'Ekspordi SYLK SpreadSheet failiks'
+      Text = 'Ekspordin SYLK tabelfailiks'
     end
     item
       IndexID = 2080
-      Text = 'Ekspordi OpenOffice Arvutustabeli failiks'
+      Text = 'Ekspordin OpenOffice'#39'i tabelfailiks'
     end
     item
       IndexID = 2079
-      Text = 'Ekspordi Lotus failiks'
+      Text = 'Ekspordin tabelfailiks'
     end
     item
       IndexID = 2078
@@ -2691,11 +2692,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2073
-      Text = 'Impordi lattu tooteid'
+      Text = 'Impordin laokaupu...'
     end
     item
       IndexID = 2072
-      Text = 'Ekspordikliendid'
+      Text = 'Ekspordin kliente...'
     end
     item
       IndexID = 2071
@@ -2707,11 +2708,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2069
-      Text = 'Loe Lotuse faili'
+      Text = 'Loen tabelfaili'
     end
     item
       IndexID = 2068
-      Text = 'Impordi laokaupa'
+      Text = 'Impordin laokaupu...'
     end
     item
       IndexID = 2067
@@ -2723,7 +2724,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2065
-      Text = 'Loon andmestikku...'
+      Text = 'Ettev'#245'tte loomine...'
     end
     item
       IndexID = 2064
@@ -2751,7 +2752,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2058
-      Text = 'Kassam'#252#252'gi aruanne'
+      Text = 'POS kassaaruanne'
     end
     item
       IndexID = 2057
@@ -2759,7 +2760,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2056
-      Text = 'Tr'#252'ki arve'
+      Text = 'Arve tr'#252'kkimine'
     end
     item
       IndexID = 2054
@@ -2775,7 +2776,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '* t'#228'histab k'#228'ibemaksuvaba toodet'
+      Text = '* t'#228'histab KM-vaba toodet'
     end
     item
       IndexID = 2050
@@ -2807,7 +2808,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = 'K'#228'ibemaks'
+      Text = 'KM summa'
     end
     item
       IndexID = 2042
@@ -2831,7 +2832,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2037
-      Text = 'Arve-Saateleht'
+      Text = 'KM ARVE'
     end
     item
       IndexID = 2036
@@ -2843,7 +2844,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2034
-      Text = 'Avatud objekti valik'
+      Text = 'Avatud kirje valik'
     end
     item
       IndexID = 2033
@@ -2863,11 +2864,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2029
-      Text = 'Muuda aliast'
+      Text = '&Muuda varjunime'
     end
     item
       IndexID = 2028
-      Text = 'Kl'#245'psates nupul "Import" alustad toimingu'
+      Text = 'Kl'#245'psates nupul [Import] alustad toimingu'
     end
     item
       IndexID = 2027
@@ -2887,11 +2888,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2023
-      Text = 'Faili vormingut polnud v'#245'imalik impordiks kasutada'
+      Text = 'Faili vormingut polnud v'#245'imalik impordiks kasutada!'
     end
     item
       IndexID = 2022
-      Text = 'Andmefaili import l'#245'petatud'
+      Text = 'Andmefaili import l'#245'petatud!'
     end
     item
       IndexID = 2021
@@ -2967,7 +2968,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2003
-      Text = 'Kinnitatud kanded'
+      Text = 'Postitatud lausend'
     end
     item
       IndexID = 2002
@@ -2995,7 +2996,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1996
-      Text = 'Kontrollin konteeringuid...'
+      Text = 'Kontrollin lausendi kandeid...'
     end
     item
       IndexID = 1995
@@ -3011,7 +3012,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1992
-      Text = 'Kogus ja Viimane hind'
+      Text = 'Kogus & Viimane &hind'
     end
     item
       IndexID = 1991
@@ -3039,7 +3040,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'Pea meeles kontrakonto KM'
+      Text = 'J'#228'ta meelde vastaskonto KM'
     end
     item
       IndexID = 1984
@@ -3047,11 +3048,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1983
-      Text = 'Ei ole avatud eseme konteering'
+      Text = 'Ei ole avatud kirjete p'#228'evaraamat'
     end
     item
       IndexID = 1982
-      Text = 'K'#228'ibemaksuvaba'
+      Text = 'KM-vaba'
     end
     item
       IndexID = 1981
@@ -3072,24 +3073,24 @@ object TTranslationSaveObject
     item
       IndexID = 1969
       Text = 
-        'Cannot have more than %s for this unregistered <@APPNAME@> copie' +
-        ' %s! Please register and get your licence code!'
+        'Selle registreerimata <@APPNAME@> koopia %s jaoks ei saa olla ro' +
+        'hkem kui %s! Palun registreeri ja hanki oma litsentsikood!'
     end
     item
       IndexID = 1968
       Text = 
-        'This software is limited to 500 transactions or 500 documents! P' +
-        'lease register and buy a licence for <@APPNAME@>.'
+        'See tarkvara on piiratud 500 kande v'#245'i 500 dokumendiga! Palun re' +
+        'gistreeri ja osta <@APPNAME@> jaoks litsents!'
     end
     item
       IndexID = 1967
       Text = 
-        '<@APPNAME@> the limit of 500 transactions or 500 document is rea' +
-        'ched! Please register and buy a licence.'
+        '<@APPNAME@> 500 kande v'#245'i 500 dokumendi piir on saavutatud! Palu' +
+        'n registreeri ja osta litsents!'
     end
     item
       IndexID = 1966
-      Text = 'Serveriga ei '#252'nnestunud '#252'hendust luua'
+      Text = 'Serveriga ei '#252'nnestunud '#252'hendust luua!'
     end
     item
       IndexID = 1965
@@ -3101,15 +3102,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1963
-      Text = 'V'#245'rguserver leitud'
+      Text = 'V'#245'rguserver leitud!'
     end
     item
       IndexID = 1962
-      Text = 'Vale server'
+      Text = 'Vale server!'
     end
     item
       IndexID = 1961
-      Text = '! '#220'henduse test alustatud'
+      Text = #220'henduse test alustatud!'
     end
     item
       IndexID = 1960
@@ -3117,7 +3118,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1959
-      Text = 'Autentimine eba'#245'nnestus.'
+      Text = 'Autentimine eba'#245'nnestus!'
     end
     item
       IndexID = 1958
@@ -3125,15 +3126,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1957
-      Text = #220'ldine e-posti viga'
+      Text = #220'ldine e-posti viga!'
     end
     item
       IndexID = 1956
-      Text = 'Side ei toimi.'
+      Text = 'Side ei toimi!'
     end
     item
       IndexID = 1955
-      Text = 'Test '#245'nnestus! Side toimib'
+      Text = 'Test '#245'nnestus! Side toimib!'
     end
     item
       IndexID = 1954
@@ -3153,7 +3154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1950
-      Text = 'ei kinnitanud. Test eba'#245'nnestus.'
+      Text = 'ei kinnitanud! Test eba'#245'nnestus!'
     end
     item
       IndexID = 1949
@@ -3241,7 +3242,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1928
-      Text = 'Ei saa kanda tehinguid kontole, millel on alamkontod'
+      Text = 'Ei saa kanda tehinguid kontole, millel on alamkontod!'
     end
     item
       IndexID = 1927
@@ -3249,11 +3250,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1926
-      Text = 'Pangakonto lausend pole korralikult seadistatud.'
+      Text = 'Pangakonto lausendid pole korralikult seadistatud!'
     end
     item
       IndexID = 1925
-      Text = 'K'#228'ibemaks'
+      Text = 'KM'
     end
     item
       IndexID = 1924
@@ -3325,7 +3326,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1907
-      Text = 'Muuda ladu'
+      Text = 'Muuda laoseisu'
     end
     item
       IndexID = 1906
@@ -3341,7 +3342,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1903
-      Text = 'Juurdep'#228#228's konteeringutele'
+      Text = 'Juurdep'#228#228's lausenditele'
     end
     item
       IndexID = 1902
@@ -3361,7 +3362,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1889
-      Text = 'Otsi arve numbri j'#228'rgi'
+      Text = 'Otsi arve numbri/nr. j'#228'rgi'
     end
     item
       IndexID = 1888
@@ -3369,11 +3370,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1887
-      Text = 'Arved kordamiseks'
+      Text = 'Kordusarved'
     end
     item
       IndexID = 1886
-      Text = 'Arve ajalugu'
+      Text = 'Arvete ajalugu'
     end
     item
       IndexID = 1885
@@ -3421,7 +3422,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1874
-      Text = 'Kinnita pakkumised ja tellimused'
+      Text = 'Kinnita hinnapakkumised ja ostutellimused'
     end
     item
       IndexID = 1873
@@ -3433,11 +3434,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1871
-      Text = 'Tellimused'
+      Text = 'Ostutellimused'
     end
     item
       IndexID = 1870
-      Text = 'Pakkumised'
+      Text = 'Hinnapakkumised'
     end
     item
       IndexID = 1869
@@ -3449,7 +3450,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1867
-      Text = 'Konteeringu nimi'
+      Text = 'Lausendi nimi'
     end
     item
       IndexID = 1866
@@ -3465,7 +3466,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1863
-      Text = 'Maks'
+      Text = 'KM'
     end
     item
       IndexID = 1862
@@ -3473,7 +3474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1861
-      Text = 'Tellimus'
+      Text = 'Ostutellimus'
     end
     item
       IndexID = 1860
@@ -3501,7 +3502,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1854
-      Text = 'Kustutan konteeringute infot...'
+      Text = 'Kustutan lausendite infot...'
     end
     item
       IndexID = 1853
@@ -3513,7 +3514,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1851
-      Text = 'Kustutan laotehinguid...'
+      Text = 'Kustutan laokandeid...'
     end
     item
       IndexID = 1850
@@ -3529,7 +3530,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1847
-      Text = 'ARUANNETE GRUPI T'#220'VI'
+      Text = 'ARUANDLUSGRUPPIDE JUUR'
     end
     item
       IndexID = 1846
@@ -3573,11 +3574,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1836
-      Text = 'Tootegrupid'
+      Text = 'Ladu'
     end
     item
       IndexID = 1835
-      Text = 'Hankijate grupid'
+      Text = 'Hankijagrupid'
     end
     item
       IndexID = 1834
@@ -3589,11 +3590,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1832
-      Text = 'Rea nr'
+      Text = 'Rea nr.'
     end
     item
       IndexID = 1831
-      Text = 'Konverteerin andmestikku...'
+      Text = 'Ettev'#245'tte konverteerimine...'
     end
     item
       IndexID = 1829
@@ -3605,7 +3606,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1827
-      Text = 'Millist andmestikku kopeerida:'
+      Text = 'Ettev'#245'te on edukalt kopeeritud!'
     end
     item
       IndexID = 1826
@@ -3621,7 +3622,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1823
-      Text = 'Kas soovid muuta konteeringute liike?'
+      Text = 'Kas soovid muuta lausendi t'#252#252'pe?'
     end
     item
       IndexID = 1822
@@ -3639,15 +3640,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1818
-      Text = 'Vana andmestik konverteerimiseks:'
+      Text = 'Konverteeritav vana ettev'#245'te:'
     end
     item
       IndexID = 1817
-      Text = 'Vali kopeeritav andmestik:'
+      Text = 'Kopeeritav ettev'#245'te:'
     end
     item
       IndexID = 1816
-      Text = 'Anna uuele raamatupakile nimi!'
+      Text = 'Sisesta uue ettev'#245'tte nimi!'
     end
     item
       IndexID = 1815
@@ -3679,7 +3680,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1808
-      Text = 'Loon vajalikke kontosid (hankijate koondkonto)...'
+      Text = 'Loome vajalikke kontosid (hankijate koondkonto)...'
     end
     item
       IndexID = 1807
@@ -3687,7 +3688,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1806
-      Text = 'Loon uut andmestikku...'
+      Text = 'Loon uut ettev'#245'tet...'
     end
     item
       IndexID = 1805
@@ -3699,7 +3700,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1803
-      Text = 'Tootekoodi muutmine m'#245'jutab k'#245'iki selle tootega seotud aruandeid'
+      Text = 
+        'Laokoodi muutmine p'#245'hjustab k'#245'igi selle laokaubaga seotud aruann' +
+        'ete uue koodi kasutamise!'
     end
     item
       IndexID = 1802
@@ -3723,19 +3726,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1797
-      Text = 'Kasuta tabelarvutuse faili'
+      Text = 'Kasuta tabelfaili'
     end
     item
       IndexID = 1796
-      Text = 'Aruande grupp'
+      Text = 'Aruandlusgrupp'
     end
     item
       IndexID = 1795
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 1794
-      Text = 'Aruande grupp'
+      Text = 'Aruandlusgrupp'
     end
     item
       IndexID = 1793
@@ -3755,7 +3758,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1789
-      Text = 'K'#228'ibemaksu kontod'
+      Text = 'KM kontod'
     end
     item
       IndexID = 1788
@@ -3795,15 +3798,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1779
-      Text = 'Kogus ja viimane hind'
+      Text = 'Kog&us & Viimane hind'
     end
     item
       IndexID = 1769
-      Text = 'Kogus ja Keskmine hind'
+      Text = 'Kogus & &Keskmine hind'
     end
     item
       IndexID = 1768
-      Text = 'Keskmine ja Viimane hind'
+      Text = 'Keskmine & &Viimane hind'
     end
     item
       IndexID = 1767
@@ -3811,7 +3814,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1766
-      Text = 'T'#228'psem'
+      Text = '&T'#228'psem'
     end
     item
       IndexID = 1765
@@ -3831,7 +3834,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1761
-      Text = 'A&ruannete kujundaja'
+      Text = '&Aruannete koostaja'
     end
     item
       IndexID = 1760
@@ -3843,23 +3846,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1758
-      Text = 'Kinnitatud andmete import'
+      Text = 'Postitatud lausendite import'
     end
     item
       IndexID = 1757
-      Text = 'Vastandkanne'
+      Text = 'Vastandkanne (D '#8596' K)'
     end
     item
       IndexID = 1756
-      Text = 'Muuda varjunime'
+      Text = 'Muuda varjunime (lausendi nimi)'
     end
     item
       IndexID = 1755
-      Text = 'Laeka avamine'
+      Text = '&Laeka avamine'
     end
     item
       IndexID = 1754
-      Text = 'Aruanne'
+      Text = '&Aruanne'
     end
     item
       IndexID = 1753
@@ -3871,11 +3874,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1751
-      Text = 'Viimase arve ko&rdustr'#252'kk'
+      Text = 'Viimase arve &kordustr'#252'kk'
     end
     item
       IndexID = 1750
-      Text = 'Kassaaruanne'
+      Text = '&Kassaaruanne'
     end
     item
       IndexID = 1749
@@ -3911,7 +3914,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1741
-      Text = 'L'#245'petan vahetuse ja kannan k'#245'ik arved sisse!'
+      Text = 'L'#245'petan vahetuse ja postitan k'#245'ik arved!'
     end
     item
       IndexID = 1740
@@ -3923,17 +3926,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1738
-      Text = 
-        'Sulgen arvete koostamise akna ja kannan l'#228'bi k'#245'ik arved, mille o' +
-        'n koostanud...'
+      Text = 'See sulgeb arve sisestuskuva ja postitab k'#245'ik POS arved...'
     end
     item
       IndexID = 1737
-      Text = 'Ilma vaikeseadeta ei saa t'#246#246'tada'
+      Text = 'Ilma vaikeseadeta ei saa t'#246#246'tada!'
     end
     item
       IndexID = 1736
-      Text = 'Kas tahad sulgeda ja t'#252'histada jooksva arve?'
+      Text = 'Kas soovid sulgeda ja t'#252'histada jooksva arve?'
     end
     item
       IndexID = 1735
@@ -3997,7 +3998,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1720
-      Text = 'Kliendi vaikekonto on h'#228#228'lestamata, palun tee seda n'#252#252'd.'
+      Text = 'Kliendi vaikekonto pole h'#228#228'lestatud! Palun h'#228#228'lesta see n'#252#252'd!'
     end
     item
       IndexID = 1719
@@ -4013,15 +4014,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1716
-      Text = 'Laekasse'
+      Text = '&Laekasse'
     end
     item
       IndexID = 1715
-      Text = 'Laekast v'#228'lja'
+      Text = 'L&aekast v'#228'lja'
     end
     item
       IndexID = 1714
-      Text = 'Sularahaarve kanne'
+      Text = 'Sularaha-arve kanne'
     end
     item
       IndexID = 1713
@@ -4049,11 +4050,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1707
-      Text = 'Toote kood'
+      Text = 'Laokood'
     end
     item
       IndexID = 1706
-      Text = 'Nr'
+      Text = 'Nr.'
     end
     item
       IndexID = 1704
@@ -4073,7 +4074,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1700
-      Text = 'Hankijan'#245'uete aegumise anal'#252#252's'
+      Text = 'Hankijav'#245'lgnevuste aegumise anal'#252#252's'
     end
     item
       IndexID = 586
@@ -4081,7 +4082,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 585
-      Text = 'Juurdep'#228#228'sukontroll'
+      Text = '&Juurdep'#228#228'sukontroll'
     end
     item
       IndexID = 584
@@ -4089,15 +4090,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 583
-      Text = 'Eelistused'
+      Text = '&Eelistused'
     end
     item
       IndexID = 582
-      Text = 'Klientserver'
+      Text = '&Klientserver'
     end
     item
       IndexID = 581
-      Text = 'Philip'#39'i enda lipakas'
+      Text = '*T'#245'lgi: Sisesta oma andmed - V'#245'id sisestada oma nime'
     end
     item
       IndexID = 580
@@ -4117,7 +4118,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 576
-      Text = 'Aruandluse kuup'#228'evad'
+      Text = 'Aruandlusperioodid'
     end
     item
       IndexID = 575
@@ -4136,8 +4137,8 @@ object TTranslationSaveObject
     item
       IndexID = 572
       Text = 
-        'Palun vali allolevast loetelust, millist andmestikku peaks konve' +
-        'rteerima.'
+        'Palun valige allolevast loetelust konverteerimiseks vana ettev'#245't' +
+        'e.'
     end
     item
       IndexID = 571
@@ -4145,11 +4146,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 570
-      Text = 'Konverteerin Pasteli p'#228'evikukandeid...'
+      Text = 'Konverteerin Pasteli lausendeid...'
     end
     item
       IndexID = 569
-      Text = 'Konverteerin Pasteli ladu...'
+      Text = 'Konverteerin Pasteli laoseisu...'
     end
     item
       IndexID = 568
@@ -4165,7 +4166,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 565
-      Text = 'Konverteerin raamatute komplekti...'
+      Text = 'Konverteerin ettev'#245'tet...'
     end
     item
       IndexID = 564
@@ -4177,7 +4178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 562
-      Text = 'Loon vajalikke kontosid (hankijate koondkonto)...'
+      Text = 'Loome vajalikke kontosid (hankijate koondkonto)...'
     end
     item
       IndexID = 561
@@ -4185,27 +4186,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 560
-      Text = 'Loon andmestikku...'
+      Text = 'Loon ettev'#245'tet...'
     end
     item
       IndexID = 559
-      Text = 'Kopeerida saad kas andmestikku v'#245'i siis seda sisaldavat kausta!'
+      Text = 'Kopeerimiseks peate valima ettev'#245'tte v'#245'i kataloogi!'
     end
     item
       IndexID = 558
       Text = 
-        'Siin kaustas pole sobivat andmestikku v'#245'i on see t'#245'siselt viga s' +
-        'aanud!'
+        'See kataloog ei sisalda ettev'#245'tet v'#245'i on see ettev'#245'te kahjustatu' +
+        'd!'
     end
     item
       IndexID = 557
-      Text = 'Kl'#245'psa "Valmis" ja t'#228'psusta:'
+      Text = 'Kl'#245'psa [Valmis] ja t'#228'psusta:'
     end
     item
       IndexID = 556
       Text = 
         'N'#252#252'd sisesta palun, mitmeks aruandeperioodiks jaotub Sinu majand' +
-        'usaasta ning majandusaasta alguskuup'#228'ev.'
+        'usaasta ning majandusaasta alguskuup'#228'ev!'
     end
     item
       IndexID = 555
@@ -4233,21 +4234,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 549
-      Text = 'Loo puhas andmestik (edasij'#245'udnutele!)?'
+      Text = 'Kohanda ettev'#245'tet (edasij'#245'udnutele)'
     end
     item
       IndexID = 548
-      Text = '<@APPNAME@> aitab sind ettev'#245'tte andmestiku loomisel!'
+      Text = '<@APPNAME@> aitab Teil ettev'#245'tet luua'
     end
     item
       IndexID = 547
-      Text = 'Kopeerida olemasoleva ettev'#245'tte andmestik?'
+      Text = 'Kopeeri olemasolev ettev'#245'te'
     end
     item
       IndexID = 546
       Text = 
-        'Konverteerida varasema osFinantsi (v 2.01, 2.02, 2.03) versiooni' +
-        ' raamatute komplekt?'
+        'Konverteerida varasema TurboCASH (v 2.01, 2.02, 2.03) versiooni ' +
+        'raamatute komplekt?'
     end
     item
       IndexID = 545
@@ -4257,9 +4258,8 @@ object TTranslationSaveObject
       IndexID = 544
       Text = 
         'Tere tulemast <@APPNAME@> ettev'#245'tte loomise n'#245'ustaja juurde! Pal' +
-        'un tee oma valik ning kl'#245'psa "Edasi" j'#228'tkamiseks. Kui leiad, et ' +
-        'oled sattunud v'#228'ga valesse kohta siis v'#228'ljumiseks ilma uut raama' +
-        'tupakki loomata kl'#245'psa "T'#252'hista".'
+        'un valige soovitud valik ja kl'#245'psake j'#228'tkamiseks [Edasi] v'#245'i t'#252'h' +
+        'istamiseks nuppu [T'#252'hista].'
     end
     item
       IndexID = 543
@@ -4272,9 +4272,9 @@ object TTranslationSaveObject
     item
       IndexID = 541
       Text = 
-        'Palun vali j'#228'rgnevast nimekirjast ettev'#245'tte nimi v'#245'i kl'#245'psa nupu' +
-        'l "Sirvi" otsimaks andmestikku m'#245'nest teisest kataloogist Sinu a' +
-        'rvutis!'
+        'Palun valige loetelust ettev'#245'te v'#245'i kl'#245'psake nuppu [Sirvi], et v' +
+        'alida ettev'#245'te, mida soovite kopeerida m'#245'nda teise kausta oma ar' +
+        'vutis.'
     end
     item
       IndexID = 540
@@ -4282,11 +4282,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1
-      Text = 'Ei'
+      Text = '&Ei'
     end
     item
       IndexID = 2
-      Text = 'Jah'
+      Text = '&Jah'
     end
     item
       IndexID = 3
@@ -4338,19 +4338,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 9901
-      Text = '//  Siin on peamen'#252#252' kommentaarid'
+      Text = '// Siin on peamen'#252#252' kommentaarid'
     end
     item
       IndexID = 16
-      Text = 'Ava ettev'#245'te'
+      Text = '&Ava ettev'#245'te'
     end
     item
       IndexID = 17
-      Text = 'Loo uus ettev'#245'te'
+      Text = '&Loo uus ettev'#245'te'
     end
     item
       IndexID = 18
-      Text = 'Kustuta ettev'#245'te'
+      Text = '&Kustuta ettev'#245'te'
     end
     item
       IndexID = 19
@@ -4358,7 +4358,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20
-      Text = 'Vali keel'
+      Text = '&Vali keel'
     end
     item
       IndexID = 21
@@ -4366,31 +4366,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 22
-      Text = 'Kontopl&aan'
+      Text = '&Kontoplaan'
     end
     item
       IndexID = 23
-      Text = 'Eelarved'
+      Text = '&Eelarved'
     end
     item
       IndexID = 24
-      Text = 'Kustuta'
+      Text = '&Kustuta'
     end
     item
       IndexID = 25
-      Text = 'Ko&rduvad sissekanded'
+      Text = '&Korduvad sissekanded'
     end
     item
       IndexID = 26
-      Text = 'Korduvad arved'
+      Text = 'Korduvad &arved'
     end
     item
       IndexID = 27
-      Text = 'Laokaubad'
+      Text = 'Ladu'
     end
     item
       IndexID = 28
-      Text = 'Kasutaja aruanded'
+      Text = '&Kasutaja aruanded'
     end
     item
       IndexID = 29
@@ -4410,7 +4410,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'Maksude kontod'
+      Text = 'KM kontod'
     end
     item
       IndexID = 34
@@ -4438,15 +4438,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 41
-      Text = 'Kustuta tagastatud kaubad'
+      Text = 'Kustuta tarnija tagastused'
     end
     item
       IndexID = 42
-      Text = 'Muud&a laokandeid'
+      Text = '&Muuda laoseisu'
     end
     item
       IndexID = 43
-      Text = 'Kontokanne'
+      Text = '&Lausendi kanne'
     end
     item
       IndexID = 44
@@ -4462,23 +4462,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 47
-      Text = 'Krediitarved'
+      Text = '&Kreeditkorraldused'
     end
     item
       IndexID = 48
-      Text = 'Arved'
+      Text = '&Arved'
     end
     item
       IndexID = 49
-      Text = 'Ostudokumendid'
+      Text = '&Ostud'
     end
     item
       IndexID = 50
-      Text = 'Kaupade tagastused'
+      Text = 'Tarnija &tagastused'
     end
     item
       IndexID = 51
-      Text = 'Sis&esta'
+      Text = '&Sisesta'
     end
     item
       IndexID = 52
@@ -4486,27 +4486,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 53
-      Text = 'Kinnita kanded'
+      Text = '&Kinnita kanded'
     end
     item
       IndexID = 54
-      Text = 'Prin&di saatelehed'
+      Text = 'Pri&ndi saatelehed'
     end
     item
       IndexID = 55
-      Text = 'Konteeringu t'#252#252'p'
+      Text = '&Lausendi t'#252#252'p'
     end
     item
       IndexID = 56
-      Text = 'Hankija'
+      Text = '&Hankija'
     end
     item
       IndexID = 57
-      Text = 'Klient'
+      Text = '&Klient'
     end
     item
       IndexID = 58
-      Text = 'Pearaamat'
+      Text = '&Pea&raamat'
     end
     item
       IndexID = 59
@@ -4514,23 +4514,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 60
-      Text = 'Arved'
+      Text = '&Arved'
     end
     item
       IndexID = 61
-      Text = 'Ostuarved'
+      Text = '&Ostuarved'
     end
     item
       IndexID = 62
-      Text = 'Ladu'
+      Text = '&Ladu'
     end
     item
       IndexID = 63
-      Text = 'K'#228'ibemaks'
+      Text = '&KM'
     end
     item
       IndexID = 64
-      Text = 'Kas&utaja aruanded'
+      Text = '&Kasutaja aruanded'
     end
     item
       IndexID = 65
@@ -4542,15 +4542,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 67
-      Text = 'Liiku&mised'
+      Text = '&Liikumised'
     end
     item
       IndexID = 68
-      Text = 'Tr'#252'ki etiketid'
+      Text = '&Tr'#252'ki etiketid'
     end
     item
       IndexID = 69
-      Text = 'Makseko&rraldused'
+      Text = '&Maksekorraldused'
     end
     item
       IndexID = 70
@@ -4558,15 +4558,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 71
-      Text = 'Aruandlu&s'
+      Text = '&Aruandlus'
     end
     item
       IndexID = 72
-      Text = 'Eelarve t'#228'itmine'
+      Text = '&Eelarve t'#228'itmine'
     end
     item
       IndexID = 73
-      Text = 'Kontoplaani v'#228'ljatr'#252'kk'
+      Text = '&Kontoplaani v'#228'ljatr'#252'kk'
     end
     item
       IndexID = 74
@@ -4574,31 +4574,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 75
-      Text = 'K'#228'ibeandmik'
+      Text = '&K'#228'ibeandmik'
     end
     item
       IndexID = 76
-      Text = 'T'#228'itmata tellimused'
+      Text = '&T'#228'itmata ostutellimused'
     end
     item
       IndexID = 77
-      Text = 'V'#228'ljastatud krediitarved'
+      Text = '&V'#228'ljastatud kreeditkorraldused'
     end
     item
       IndexID = 78
-      Text = 'V'#228'ljastatud arved'
+      Text = '&V'#228'ljastatud arved'
     end
     item
       IndexID = 162
-      Text = 'Arve ajalugu'
+      Text = 'Arvete ajalugu'
     end
     item
       IndexID = 79
-      Text = 'Saadud ostuarved'
+      Text = '&Saadud ostuarvete loetelu'
     end
     item
       IndexID = 80
-      Text = 'Tagastuste nimeki&ri'
+      Text = '&Tarnija tagastuste loetelu'
     end
     item
       IndexID = 81
@@ -4606,15 +4606,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 82
-      Text = 'Liiku&miste kokkuv'#245'te'
+      Text = '&Liikumiste kokkuv'#245'te'
     end
     item
       IndexID = 83
-      Text = 'K&ordustellimuste aruanne'
+      Text = '&Kordustellimuste aruanne'
     end
     item
       IndexID = 84
-      Text = 'Laotoodete nimekiri'
+      Text = '&Laokaupade nimekiri'
     end
     item
       IndexID = 85
@@ -4622,23 +4622,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 86
-      Text = 'Arvele kantud '#252'ksikasjad'
+      Text = '&Arvele kantud '#252'ksikasjad'
     end
     item
       IndexID = 87
-      Text = 'Arvete kokkuv'#245'te'
+      Text = '&Arvete kokkuv'#245'te'
     end
     item
       IndexID = 88
-      Text = 'Saadud / tehtud maksete '#252'ksikasjad'
+      Text = '&Saadud / tehtud maksete '#252'ksikasjad'
     end
     item
       IndexID = 89
-      Text = 'Saadud / tehtud maksete kokkuv'#245'te'
+      Text = 'Saadud / &tehtud maksete kokkuv'#245'te'
     end
     item
       IndexID = 90
-      Text = 'K&asutaja'#245'igused'
+      Text = '&Kasutaja'#245'igused'
     end
     item
       IndexID = 91
@@ -4646,19 +4646,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 92
-      Text = 'Konteeringute liigid'
+      Text = '&Lausendi t'#252#252'bid'
     end
     item
       IndexID = 93
-      Text = 'F&irma andmed'
+      Text = '&Firma andmed'
     end
     item
       IndexID = 94
-      Text = 'V'#228'rvid'
+      Text = '&V'#228'rvid'
     end
     item
       IndexID = 95
-      Text = 'Kirje&lda etiketid'
+      Text = '&Kirjelda etiketid'
     end
     item
       IndexID = 97
@@ -4674,27 +4674,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 100
-      Text = 'A&ruandluse kuup'#228'evad'
+      Text = '&Aruandlusperioodid'
     end
     item
       IndexID = 101
-      Text = 'M'#252#252'ja'
+      Text = 'M'#252#252'&ja'
     end
     item
       IndexID = 102
-      Text = 'Aruandlu&s'
+      Text = '&Aruandlus'
     end
     item
       IndexID = 103
-      Text = 'Laoraamat'
+      Text = 'Laoinfo'
     end
     item
       IndexID = 104
-      Text = 'Varunda / Taasta andmestik'
+      Text = '&Varunda / Taasta ettev'#245'te'
     end
     item
       IndexID = 105
-      Text = 'Kalkulaator'
+      Text = '&Kalkulaator'
     end
     item
       IndexID = 106
@@ -4714,11 +4714,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 110
-      Text = 'Avatud &objektide seosed'
+      Text = '&Avatud kirjete sidumine'
     end
     item
       IndexID = 111
-      Text = 'Taasta va&rukoopiast'
+      Text = '&Taasta varukoopiast'
     end
     item
       IndexID = 112
@@ -4726,15 +4726,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 113
-      Text = 'Tugi'
+      Text = '&Tugi'
     end
     item
       IndexID = 114
-      Text = 'Puhasta / Taasta algseaded'
+      Text = '&Puhasta / Taasta algseaded'
     end
     item
       IndexID = 115
-      Text = 'Aastal'#245'pu k'#228'ivitamine'
+      Text = '&Aastal'#245'pu k'#228'ivitamine'
     end
     item
       IndexID = 116
@@ -4902,11 +4902,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Krooni'
+      Text = 'Euro'
     end
     item
       IndexID = 158
-      Text = 'Senti'
+      Text = 'Sent'
     end
     item
       IndexID = 160
@@ -4918,15 +4918,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 163
-      Text = 'Ava'
+      Text = '&Ava'
     end
     item
       IndexID = 164
-      Text = 'Tehingute sisestamine'
+      Text = 'Lausendi sisestamine'
     end
     item
       IndexID = 165
-      Text = 'Dokumendid'
+      Text = 'Arve'
     end
     item
       IndexID = 166
@@ -4966,7 +4966,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 176
-      Text = 'Kontonumber'
+      Text = 'Konto nr.'
     end
     item
       IndexID = 177
@@ -4978,11 +4978,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 179
-      Text = 'Aruande grupp 1'
+      Text = 'Aruandlusgrupp 1'
     end
     item
       IndexID = 180
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 181
@@ -4998,7 +4998,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 184
-      Text = 'Ava vara arvestus'
+      Text = 'Avatud kirje konto'
     end
     item
       IndexID = 185
@@ -5070,7 +5070,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'Maksuviide'
+      Text = 'KM viide'
     end
     item
       IndexID = 203
@@ -5114,7 +5114,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 213
-      Text = 'Toote kood'
+      Text = 'Laokood'
     end
     item
       IndexID = 214
@@ -5138,11 +5138,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 219
-      Text = 'Sisenev maks'
+      Text = 'SKM'
     end
     item
       IndexID = 220
-      Text = 'V'#228'ljuv maks'
+      Text = 'VKM'
     end
     item
       IndexID = 221
@@ -5162,7 +5162,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 225
-      Text = 'Laokonto'
+      Text = 'Laokontroll'
     end
     item
       IndexID = 226
@@ -5198,7 +5198,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 234
-      Text = 'Arve nr'
+      Text = 'Arve nr.'
     end
     item
       IndexID = 235
@@ -5222,11 +5222,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 240
-      Text = 'Aruande saab'
+      Text = 'Saada aruanne'
     end
     item
       IndexID = 241
-      Text = 'Kande liik'
+      Text = 'Lausendi t'#252#252'p'
     end
     item
       IndexID = 242
@@ -5278,7 +5278,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'Maksukontod'
+      Text = 'KM kontod'
     end
     item
       IndexID = 255
@@ -5306,7 +5306,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 261
-      Text = 'Konteeringu liigi aruande valikud'
+      Text = 'Lausendi t'#252#252'bi aruande valikud'
     end
     item
       IndexID = 262
@@ -5322,7 +5322,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 265
-      Text = 'Kasuta avatud eset'
+      Text = 'Kasuta avatud kirjet'
     end
     item
       IndexID = 266
@@ -5398,11 +5398,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 284
-      Text = 'alates arvest number'
+      Text = 'Alates arve nr.'
     end
     item
       IndexID = 285
-      Text = 'kuni arveni number'
+      Text = 'Kuni arve nr.'
     end
     item
       IndexID = 286
@@ -5418,7 +5418,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 289
-      Text = 'alates tootekoodist'
+      Text = 'Alates laokoodist'
     end
     item
       IndexID = 290
@@ -5450,15 +5450,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 297
-      Text = 'Muuda ladu'
+      Text = 'Muuda laoseisu'
     end
     item
       IndexID = 298
-      Text = 'Konteering / Konto kanne'
+      Text = 'Lausendi kanne'
     end
     item
       IndexID = 299
-      Text = 'Kreeditarve nr'
+      Text = 'Kreeditkorralduse nr.'
     end
     item
       IndexID = 300
@@ -5470,11 +5470,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 302
-      Text = 'Ostuarve'
+      Text = 'Ostud'
     end
     item
       IndexID = 303
-      Text = 'Kauba tagastamine'
+      Text = 'Tarnija tagastused'
     end
     item
       IndexID = 304
@@ -5518,7 +5518,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'Arevestusmeetod'
+      Text = 'KM arvestusmeetod'
     end
     item
       IndexID = 315
@@ -5526,15 +5526,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 316
-      Text = 'Registrikood'
+      Text = #196'rireg. nr.'
     end
     item
       IndexID = 317
-      Text = 'K.M.K.R. reg. nr'
+      Text = 'KMKR reg. nr.'
     end
     item
       IndexID = 318
-      Text = 'Araunde summa koos'
+      Text = 'Aruande summad koos'
     end
     item
       IndexID = 319
@@ -5546,11 +5546,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 321
-      Text = 'J'#228'rgmine arve number'
+      Text = 'J'#228'rgmine arve nr.'
     end
     item
       IndexID = 322
-      Text = 'Arvete konteeringud'
+      Text = 'Arvelausend'
     end
     item
       IndexID = 323
@@ -5566,27 +5566,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 326
-      Text = 'J'#228'rgmine kreeditarve nr'
+      Text = 'J'#228'rgmine kreeditkorralduse nr.'
     end
     item
       IndexID = 327
-      Text = 'Krediitarvete konteeringud'
+      Text = 'Kreeditkorralduse lausend'
     end
     item
       IndexID = 328
-      Text = 'Kreeditarve p'#228'is'
+      Text = 'Kreeditkorralduse p'#228'is'
     end
     item
       IndexID = 329
-      Text = 'Kreeditarve m'#228'rkmed'
+      Text = 'Kreeditkorralduse m'#228'rkmed'
     end
     item
       IndexID = 330
-      Text = 'J'#228'rgmine ostuarve nr'
+      Text = 'J'#228'rgmine ostuarve nr.'
     end
     item
       IndexID = 331
-      Text = 'Ostuarvete konteeringud'
+      Text = 'Ostuarve lausend'
     end
     item
       IndexID = 332
@@ -5598,43 +5598,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 334
-      Text = 'J'#228'rgmine tagastuse number'
+      Text = 'J'#228'rgmine tarnija tagastuse nr.'
     end
     item
       IndexID = 335
-      Text = 'Tagastuse konteeringud'
+      Text = 'Tarnija tagastuse lausend'
     end
     item
       IndexID = 336
-      Text = 'Tagastuse p'#228'is'
+      Text = 'Tarnija tagastuse p'#228'is'
     end
     item
       IndexID = 337
-      Text = 'Tagastuse m'#228'rkmed'
+      Text = 'Tarnija tagastuse m'#228'rkmed'
     end
     item
       IndexID = 338
-      Text = 'J'#228'rgmine tellimuse number'
+      Text = 'J'#228'rgmine ostutellimuse nr.'
     end
     item
       IndexID = 339
-      Text = 'Tellimuse p'#228'is'
+      Text = 'Ostutellimuse p'#228'is'
     end
     item
       IndexID = 340
-      Text = 'Tellimuse m'#228'rkmed'
+      Text = 'Ostutellimuse m'#228'rkmed'
     end
     item
       IndexID = 341
-      Text = 'J'#228'rgmine pakkumise nr'
+      Text = 'J'#228'rgmine hinnapakkumise nr.'
     end
     item
       IndexID = 342
-      Text = 'Pakkumise p'#228'is'
+      Text = 'Hinnapakkumise p'#228'is'
     end
     item
       IndexID = 343
-      Text = 'Pakkumise m'#228'rkmed'
+      Text = 'Hinnapakkumise m'#228'rkmed'
     end
     item
       IndexID = 344
@@ -5658,7 +5658,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 349
-      Text = 'M'#252#252'gikulude konteeringud'
+      Text = 'M'#252#252'gikulu lausend'
     end
     item
       IndexID = 350
@@ -5698,11 +5698,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 359
-      Text = 'Ava esemete kordussidumine'
+      Text = 'Avatud kirjete kordussidumine'
     end
     item
       IndexID = 360
-      Text = 'Ava esemete seosesed'
+      Text = 'Avatud kirjete sidumine'
     end
     item
       IndexID = 365
@@ -5710,7 +5710,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 366
-      Text = 'Konteeringud / Kontokanded'
+      Text = 'Lausendi kanne'
     end
     item
       IndexID = 367
@@ -5782,7 +5782,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 384
-      Text = 'Klientide ostuaruande valikud'
+      Text = 'M'#252#252'gi aruande valikud klientide l'#245'ikes'
     end
     item
       IndexID = 385
@@ -5806,11 +5806,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 390
-      Text = 'K'#228'ibemaksuaruande valikud'
+      Text = 'KM aruande valikud'
     end
     item
       IndexID = 391
-      Text = 'Maksu kood'
+      Text = 'KM kood'
     end
     item
       IndexID = 392
@@ -5862,11 +5862,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 404
-      Text = 'Ava objekti seosed'
+      Text = 'Avatud kirje sidumine'
     end
     item
       IndexID = 405
-      Text = 'Kinnita arved'
+      Text = 'Postita arved'
     end
     item
       IndexID = 406
@@ -5874,7 +5874,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 407
-      Text = 'N'#228'ita k'#228'ibemaksuga tehinguid'
+      Text = 'N'#228'ita KM tehinguid'
     end
     item
       IndexID = 408
@@ -5890,7 +5890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 411
-      Text = 'Toodete nimekirja valikud'
+      Text = 'Laokaupade nimekirja valikud'
     end
     item
       IndexID = 412
@@ -5906,7 +5906,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 415
-      Text = 'Kogus laos'
+      Text = 'Laoseis'
     end
     item
       IndexID = 416
@@ -5918,11 +5918,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 418
-      Text = 'Pakkumine'
+      Text = 'Hinnapakkumised'
     end
     item
       IndexID = 419
-      Text = 'Tagastatud kaubad'
+      Text = 'Tarnija tagastused'
     end
     item
       IndexID = 420
@@ -5934,11 +5934,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 422
-      Text = 'Hankijate grupid'
+      Text = 'Hankijagrupid'
     end
     item
       IndexID = 423
-      Text = 'Laokannete grupid'
+      Text = 'Laokaupade grupid'
     end
     item
       IndexID = 424
@@ -5947,8 +5947,8 @@ object TTranslationSaveObject
     item
       IndexID = 425
       Text = 
-        'HOIATUS! Plaanitav tegevus m'#245'jutab kandeid k'#245'igis aktiivsetes ra' +
-        'amatutes. Oled Sa kindel, et soovid j'#228'tkata?'
+        'HOIATUS! See m'#245'jutab oluliselt k'#245'iki aktiivseid ettev'#245'tteid! Kas' +
+        ' soovid j'#228'tkata?'
     end
     item
       IndexID = 426
@@ -5959,20 +5959,20 @@ object TTranslationSaveObject
     item
       IndexID = 427
       Text = 
-        'Kustutatava kasutajaga on seotud sisse kandmata andmeid. Palun k' +
-        'anna need andmed raamatusse enne kasutaja kustutamist.'
+        'Selle kasutajaga on seotud postitamata lausendeid! Palun postita' +
+        ' v'#245'i kustuta need enne kasutaja eemaldamist!'
     end
     item
       IndexID = 428
       Text = 
-        'Kustutatava kasutajaga on seotud erinevaid andmeid. Palun vali u' +
-        'us kasutaja, kellega need andmed siduda.'
+        'Selle kasutajaga on seotud lausendeid! Palun vali uus kasutaja, ' +
+        'kellele need lausendid m'#228#228'rata!'
     end
     item
       IndexID = 429
       Text = 
-        'Kustutatava kasutajaga on seotud tehinguid. Palun seo need tehin' +
-        'gud uue kasutajaga enne jooksva kasutaja kustutamist.'
+        'Kustutatava kasutajaga on seotud tehinguid! Palun seo need tehin' +
+        'gud uue kasutajaga enne jooksva kasutaja kustutamist!'
     end
     item
       IndexID = 430
@@ -5992,7 +5992,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 434
-      Text = 'See ei ole pangaarve.'
+      Text = 'See ei ole pangaarve!'
     end
     item
       IndexID = 435
@@ -6012,7 +6012,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 439
-      Text = 'Konteering ei ole tasakaalus!'
+      Text = 'Lausend ei ole tasakaalus!'
     end
     item
       IndexID = 440
@@ -6020,25 +6020,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 441
-      Text = 'Kas j'#228'tkad aruande koostamist?'
+      Text = 'Kas soovite aruande koostamist j'#228'tkata?'
     end
     item
       IndexID = 442
       Text = 
-        'Seda konteeringu liiki pole v'#245'imalik kustutada, sest sellega on ' +
-        'seotud kanded.'
+        'Seda lausendi t'#252#252'pi ei saa kustutada! Sellega on seotud lausende' +
+        'id!'
     end
     item
       IndexID = 443
       Text = 
-        'Kontoplaani muutmine m'#245'jutab t'#245'siselt k'#245'iki Sinu aktiivseid raam' +
-        'atuid! Oled kindel, et soovid j'#228'tkata?'
+        'Lausendi t'#252#252'pide muutmine m'#245'jutab oluliselt Teie ettev'#245'tte andme' +
+        'id! Kas olete kindel?'
     end
     item
       IndexID = 444
       Text = 
-        'T'#196'HELEPANU! Algatatud toiming muudab oluliselt k'#245'iki aktiivseid ' +
-        'raamatuid! KAS LOOBUD TOIMINGUST?'
+        'See m'#245'jutab oluliselt Teie ettev'#245'tet! Kas soovid toimingust loob' +
+        'uda?'
     end
     item
       IndexID = 445
@@ -6050,7 +6050,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 447
-      Text = 'ettev'#245'tte aktiivne andmestik?'
+      Text = 'Aktiivne ettev'#245'te?'
     end
     item
       IndexID = 448
@@ -6058,7 +6058,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 449
-      Text = 'Viga raamatute loomisel.'
+      Text = 'Viga raamatute loomisel!'
     end
     item
       IndexID = 450
@@ -6066,7 +6066,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 451
-      Text = 'andmestik juba eksisteerib.'
+      Text = 'Ettev'#245'te on juba olemas!'
     end
     item
       IndexID = 452
@@ -6082,9 +6082,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 455
-      Text = 
-        'Selles kaustas pole  osFinants 2.01, 2.02 or 2.03 raamatukomplek' +
-        'te.'
+      Text = 'Selles kaustas pole TurboCASH 2.01, 2.02 v'#245'i 2.03 ettev'#245'tet!'
     end
     item
       IndexID = 456
@@ -6116,19 +6114,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 463
-      Text = 'Toodet pole v'#245'imalik kustutada, sest see on kantud tehingutesse!'
+      Text = 
+        'Laokaupa pole v'#245'imalik kustutada, sest see on kantud tehingutess' +
+        'e!'
     end
     item
       IndexID = 464
-      Text = 'Kas tahad kindlasti selle toote kustutada?'
+      Text = 'Kas soovid kindlasti selle laokaupa kustutada?'
     end
     item
       IndexID = 465
-      Text = 'Toode kustutatud!'
+      Text = 'Laokaup kustutatud!'
     end
     item
       IndexID = 466
-      Text = 'Sellist toodet pole olemas!'
+      Text = 'Sellist laokaupa pole olemas!'
     end
     item
       IndexID = 467
@@ -6138,11 +6138,11 @@ object TTranslationSaveObject
       IndexID = 468
       Text = 
         'See konto j'#228#228'b endiselt aktiivseks ja k'#245'ik selle kanded kantakse' +
-        ' uuele alamkontole. Kas soovid luua uue alamkonto?'
+        ' uuele alamkontole! Kas soovid luua uue alamkonto?'
     end
     item
       IndexID = 469
-      Text = 'See ei ole maksukonto!'
+      Text = 'See ei ole KM konto!'
     end
     item
       IndexID = 470
@@ -6150,7 +6150,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 471
-      Text = 'Ettev'#245'tte andmestik on loomata!'
+      Text = 'Te ei ole veel '#252'htegi ettev'#245'tet seadistanud!'
     end
     item
       IndexID = 472
@@ -6170,55 +6170,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 476
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 1'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 1!'
     end
     item
       IndexID = 477
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 2'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 2!'
     end
     item
       IndexID = 478
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 3'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 3!'
     end
     item
       IndexID = 479
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 4'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 4!'
     end
     item
       IndexID = 480
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 5'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 5!'
     end
     item
       IndexID = 481
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 6'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 6!'
     end
     item
       IndexID = 482
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 7'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 7!'
     end
     item
       IndexID = 483
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 8'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 8!'
     end
     item
       IndexID = 484
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 9'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 9!'
     end
     item
       IndexID = 485
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 10'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 10!'
     end
     item
       IndexID = 486
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 11'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 11!'
     end
     item
       IndexID = 487
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 12'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 12!'
     end
     item
       IndexID = 488
-      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 13'
+      Text = 'Kuup'#228'eva konflikt! Vaata kuup'#228'ev 13!'
     end
     item
       IndexID = 489
@@ -6234,7 +6234,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 492
-      Text = 'See pole tulu / kulu konto'
+      Text = 'See pole tulu / kulu konto!'
     end
     item
       IndexID = 493
@@ -6242,11 +6242,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 494
-      Text = 'Soovid sisestada lattu selle toote?'
+      Text = 'Kas soovid selle laokaupa luua?'
     end
     item
       IndexID = 495
-      Text = 'Viga arve sisse kandmisel, palun taasta varukoopiast!'
+      Text = 'Viga arve postitamisel! Palun taasta varukoopiast!'
     end
     item
       IndexID = 496
@@ -6254,7 +6254,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 497
-      Text = 'Lao'#252'hikud'
+      Text = 'Laokauba '#252'hikud'
     end
     item
       IndexID = 498
@@ -6281,7 +6281,7 @@ object TTranslationSaveObject
     item
       IndexID = 503
       Text = 
-        'See kuup'#228'ev on jooksvast majandusaastast v'#228'ljaspool. Palun muuda' +
+        'See kuup'#228'ev on jooksvast majandusaastast v'#228'ljaspool! Palun muuda' +
         '!'
     end
     item
@@ -6302,7 +6302,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 508
-      Text = 'Oled sa kindel, et soovid kustuda k'#245'ik read jooksvalt arvelt?'
+      Text = 
+        'Oled sa kindel, et soovid kustutada k'#245'ik kanded/read jooksvalt a' +
+        'rvelt?'
     end
     item
       IndexID = 509
@@ -6321,8 +6323,8 @@ object TTranslationSaveObject
     item
       IndexID = 512
       Text = 
-        'HOIATUS! Sa kirjutad kohe '#252'le ettev'#245'tte aktiivsete andmestiku! K' +
-        'as oled kindel, et soovid j'#228'tkata?'
+        'HOIATUS! See kirjutab Teie praeguse ettev'#245'tte andmed '#252'le! Kas ol' +
+        'ete kindel, et soovite j'#228'tkata?'
     end
     item
       IndexID = 513
@@ -6337,14 +6339,14 @@ object TTranslationSaveObject
     item
       IndexID = 515
       Text = 
-        'See koopia programmist <@APPNAME@> on registreerimata. Kas soovi' +
+        'See koopia programmist <@APPNAME@> on registreerimata! Kas soovi' +
         'd seda registreerida n'#252#252'd?'
     end
     item
       IndexID = 516
       Text = 
         'Oled kustutamas kogu oma informatsiooni! Kas Sa ikka tahad seda ' +
-        'teha???'
+        'teha?'
     end
     item
       IndexID = 517
@@ -6352,13 +6354,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 518
-      Text = 'Siin kaustas pole andmestikke!'
+      Text = 'See kataloog ei sisalda '#252'htegi ettev'#245'tet!'
     end
     item
       IndexID = 519
       Text = 
-        'Alustatud tegevus m'#245'jutab t'#245'siselt k'#245'iki aktiivseid andmestikke!' +
-        ' Soovid sa aktiivsete andmestike puhastamist j'#228'tkata?'
+        'See m'#245'jutab oluliselt Teie ettev'#245'tet! Kas olete kindel, et soovi' +
+        'te selle ettev'#245'tte andmed t'#252'hjendada?'
     end
     item
       IndexID = 520
@@ -6391,26 +6393,26 @@ object TTranslationSaveObject
     item
       IndexID = 526
       Text = 
-        'Selle kliendiga on seotud tehingud. Kas soovid need tehingud '#252'le' +
+        'Selle kliendiga on seotud tehingud! Kas soovid need tehingud '#252'le' +
         ' kanda m'#245'nele teisele kliendile?'
     end
     item
       IndexID = 527
       Text = 
-        'Selle hankijaga on seotud tehingud. Kas soovid need tehingud '#252'le' +
-        ' kanda m'#245'nele teisele hankijale?'
+        'Selle hankijaga on seotud tehingud! Kas soovite need tehingud '#252'l' +
+        'e kanda m'#245'nele teisele hankijale?'
     end
     item
       IndexID = 528
       Text = 
-        'Selle pangakontoga on seotud tehingud. Kas soovid need '#252'le kanda' +
-        ' m'#245'nele teisele pangakontole'
+        'Selle pangakontoga on seotud tehingud! Kas soovid need '#252'le kanda' +
+        ' m'#245'nele teisele pangakontole?'
     end
     item
       IndexID = 529
       Text = 
-        'Selle maksukontoga on seotud tehinguid. Kas soovid need '#252'le kand' +
-        'a teisele maksukontole?'
+        'Selle KM kontoga on seotud tehinguid! Kas soovid need '#252'le kanda ' +
+        'teisele KM kontole?'
     end
     item
       IndexID = 530
@@ -6418,11 +6420,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 531
-      Text = 'kinnitamata kanded ja'
+      Text = 'postitamata lausendid ja'
     end
     item
       IndexID = 532
-      Text = 'kinnitamata kanded'
+      Text = 'postitamata lausendid'
     end
     item
       IndexID = 534
@@ -6430,7 +6432,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 535
-      Text = 'Muuda ettev'#245'te andmestiku omadusi'
+      Text = 'Muuda ettev'#245'tte seadeid ja omadusi'
     end
     item
       IndexID = 536
@@ -6446,7 +6448,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 539
-      Text = 'andmestikku nimega'
+      Text = 'Ettev'#245'te nimega'
     end
     item
       IndexID = 533
@@ -6463,12 +6465,12 @@ object TTranslationSaveObject
     item
       IndexID = 589
       Text = 
-        'T'#196'HELEPANU! Kuup'#228'ev on v'#228'ljaspool jooksvat ning eelmist majandus' +
-        'aastat'
+        'T'#196'HELEPANU! See kuup'#228'ev ei j'#228#228' jooksvasse ega eelmisesse aruandl' +
+        'usperioodi!'
     end
     item
       IndexID = 590
-      Text = 'Kanne ei l'#228'bi kontrolltestimist!'
+      Text = 'See lausend ei valideeru!'
     end
     item
       IndexID = 591
@@ -6485,8 +6487,8 @@ object TTranslationSaveObject
     item
       IndexID = 594
       Text = 
-        'Lausendis sisalduvate kannete kuup'#228'evad on eelmises majandusaast' +
-        'as!'
+        'Lausend sisaldab kandeid, mis postitatakse eelmisesse majandusaa' +
+        'stasse!'
     end
     item
       IndexID = 595
@@ -6502,7 +6504,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 598
-      Text = 'Pole midagi importida'
+      Text = 'Pole midagi importida!'
     end
     item
       IndexID = 599
@@ -6546,7 +6548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'K'#228'ibemaks'
+      Text = 'KM'
     end
     item
       IndexID = 610
@@ -6554,7 +6556,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 611
-      Text = 'Tasakaalusta kanded'
+      Text = 'Tasakaalusta lausend'
     end
     item
       IndexID = 612
@@ -6562,7 +6564,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 613
-      Text = 'Kustuta lausend / konteering'
+      Text = 'Kustuta lausend'
     end
     item
       IndexID = 614
@@ -6570,11 +6572,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 615
-      Text = 'Konteeringute loetelu'
+      Text = 'Lausendite loend'
     end
     item
       IndexID = 616
-      Text = 'Kinnita konteering'
+      Text = 'Postita lausend'
     end
     item
       IndexID = 617
@@ -6590,15 +6592,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 620
-      Text = 'T'#246#246'tle konteeringud / lausendid'
+      Text = 'Postita lausend'
     end
     item
       IndexID = 621
-      Text = 'Kas oled nende kannete kustutamises kindel?'
+      Text = 'Oled kindel, et soovid kustutada kogu selle lausendi?'
     end
     item
       IndexID = 622
-      Text = 'Konteeringu valikud'
+      Text = 'Selle lausendi valikud'
     end
     item
       IndexID = 623
@@ -6634,11 +6636,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 631
-      Text = 'Aruannet ei saa koostada'
+      Text = 'Aruande koostamine pole v'#245'imalik alates'
     end
     item
       IndexID = 632
-      Text = 'on juba olemas.'
+      Text = 'on juba olemas!'
     end
     item
       IndexID = 633
@@ -6646,11 +6648,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 635
-      Text = 'Selle toimingu jaoks peab olema andmestik avatud!'
+      Text = 'Selle valiku kasutamiseks peab ettev'#245'te olema avatud!'
     end
     item
       IndexID = 636
-      Text = 'Sa pole veel avanud vajalikku andmestikku!'
+      Text = 'Te ei ole veel '#252'htegi ettev'#245'tet seadistanud!'
     end
     item
       IndexID = 637
@@ -6658,7 +6660,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 638
-      Text = 'Seda kontot pole v'#245'imalik m'#228'rkida, sest kontol on alam-kontosid.'
+      Text = 'Seda kontot pole v'#245'imalik m'#228'rkida, sest kontol on alam-kontosid!'
     end
     item
       IndexID = 639
@@ -6673,7 +6675,7 @@ object TTranslationSaveObject
     item
       IndexID = 641
       Text = 
-        'Toiming muudab Sinu andmeid '#228#228'rmuslikul moel. Soovitame enne j'#228't' +
+        'Toiming muudab Sinu andmeid '#228#228'rmuslikul moel! Soovitame enne j'#228't' +
         'kamist salvestada varukoopia!'
     end
     item
@@ -6683,7 +6685,7 @@ object TTranslationSaveObject
     item
       IndexID = 643
       Text = 
-        'Selle konto algsaldo on '#252'le tulnud eelmisest majandusaastast. Ku' +
+        'Selle konto algsaldo on '#252'le tulnud eelmisest majandusaastast! Ku' +
         'stutamine pole v'#245'imalik!'
     end
     item
@@ -6696,7 +6698,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 646
-      Text = 'Arvete kokkuv'#245'te'
+      Text = 'Arve kogusumma'
     end
     item
       IndexID = 647
@@ -6752,11 +6754,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 662
-      Text = 'Kommentaari rida'
+      Text = '&Kommentaari rida'
     end
     item
       IndexID = 663
-      Text = 'Sis&esta dokumendi allahindlus'
+      Text = '&Sisesta dokumendi allahindlus'
     end
     item
       IndexID = 664
@@ -6765,9 +6767,8 @@ object TTranslationSaveObject
     item
       IndexID = 665
       Text = 
-        'Oled muutnud makseviisi ja kviitungite konteeringuid. Selline ol' +
-        'ukord rikub andmete s'#252'nkronisatsiooni. Kas soovid sellegipoolest' +
-        ' j'#228'tkata?'
+        'Olete muutnud maksete ja laekumiste lausendeid! See rikub teie r' +
+        'ekontsilatsiooni! Kas soovite j'#228'tkata?'
     end
     item
       IndexID = 666
@@ -6783,31 +6784,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 669
-      Text = 'Pearaamatu kontot ei saa kasutada.'
+      Text = 'Pearaamatu kontot ei saa kasutada!'
     end
     item
       IndexID = 670
-      Text = 'Kreeditarve sisestamine'
+      Text = 'Kreeditkorralduse sisestamine'
     end
     item
       IndexID = 671
-      Text = 'F10: Kustuta kreeditarve'
+      Text = 'F10: Kustuta kreeditkorraldus'
     end
     item
       IndexID = 673
-      Text = 'Kas tr'#252'kime krediitarve kohe v'#228'lja?'
+      Text = 'Kas tr'#252'kime kreeditkorralduse kohe v'#228'lja?'
     end
     item
       IndexID = 674
-      Text = 'Uuendame kreeditarve?'
+      Text = 'Postitame kreeditkorraldused'
     end
     item
       IndexID = 675
-      Text = 'alates krediitarvest'
+      Text = 'Alates kreeditkorraldusest'
     end
     item
       IndexID = 676
-      Text = 'kuni krediitarveni'
+      Text = 'Kuni kreeditkorralduseni'
     end
     item
       IndexID = 677
@@ -6815,11 +6816,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 678
-      Text = 'Tr'#252'kkimiseks pole arvet.'
+      Text = 'Tr'#252'kkimiseks ei ole arvet!'
     end
     item
       IndexID = 679
-      Text = 'Ei tohi kasutada sama maksete konteeringut!'
+      Text = 
+        'Ei tohi kasutada sama maksete lausendi t'#252#252'pi kui teise pangakont' +
+        'o jaoks!'
     end
     item
       IndexID = 680
@@ -6835,7 +6838,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 683
-      Text = 'Ei tohi kasutada laekumiste konteeringut!'
+      Text = 
+        'Ei tohi kasutada sama laekumiste lausendi t'#252#252'pi kui teise pangak' +
+        'onto jaoks!'
     end
     item
       IndexID = 684
@@ -6843,27 +6848,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 685
-      Text = 'Oled kindel, et soovid kustutada k'#245'ik ostuarve read?'
+      Text = 'Oled kindel, et soovid kustutada k'#245'ik ostuarve kanded/read?'
     end
     item
       IndexID = 686
-      Text = 'Kas tr'#252'kime ostuarve kohe v'#228'lja'
+      Text = 'Kas tr'#252'kime ostuarve kohe v'#228'lja?'
     end
     item
       IndexID = 687
-      Text = 'Ilma k'#228'ibemaksuta'
+      Text = 'KM-ta'
     end
     item
       IndexID = 688
-      Text = 'K'#228'ibemaksuga'
+      Text = 'KM-ga'
     end
     item
       IndexID = 689
-      Text = 'Krediitarve ajalugu'
+      Text = 'Kreeditkorralduste ajalugu'
     end
     item
       IndexID = 690
-      Text = 'Tagastuste ajalugu'
+      Text = 'Tarnija tagastuste ajalugu'
     end
     item
       IndexID = 691
@@ -6871,25 +6876,25 @@ object TTranslationSaveObject
     end
     item
       IndexID = 692
-      Text = 'Pakkumiste ajalugu'
+      Text = 'Hinnapakkumiste ajalugu'
     end
     item
       IndexID = 693
-      Text = 'Tellimuste ajalugu'
+      Text = 'Ostutellimuste ajalugu'
     end
     item
       IndexID = 694
-      Text = 'alates ostuarvest'
+      Text = 'Alates ostuarvest'
     end
     item
       IndexID = 695
-      Text = 'Kututa krediitarved'
+      Text = 'Kustuta kreeditkorraldused'
     end
     item
       IndexID = 696
       Text = 
-        'J'#228'rgmise dokumendi number vale! Palun vii parandus sisse dokumen' +
-        'di seadete alt!'
+        'J'#228'rgmise dokumendi number vale! Palun vii parandus sisse: '#39'Seadi' +
+        'stamine '#8594' Dokumendi seaded'#39'!'
     end
     item
       IndexID = 697
@@ -6901,43 +6906,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 699
-      Text = 'Andmsetik valimata!'
+      Text = #220'htegi ettev'#245'tet pole valitud!'
     end
     item
       IndexID = 700
-      Text = 'Kinnita ostuarved'
+      Text = 'Postita ostuarved'
     end
     item
       IndexID = 701
-      Text = 'Kinnita tagastused'
+      Text = 'Postita tarnija tagastused'
     end
     item
       IndexID = 702
-      Text = 'alates tagastusest'
+      Text = 'Alates tarnija tagastusest'
     end
     item
       IndexID = 703
-      Text = 'Ostuarve nr'
+      Text = 'Ostuarve nr.'
     end
     item
       IndexID = 704
-      Text = 'Tagastus nr'
+      Text = 'Tarnija tagastuse nr.'
     end
     item
       IndexID = 705
-      Text = 'Tagastus'
+      Text = 'Tarnija tagastus'
     end
     item
       IndexID = 706
-      Text = 'Krediitarved'
+      Text = 'Kreeditkorraldused'
     end
     item
       IndexID = 707
-      Text = 'Kas tr'#252'kid tellimuse kohe v'#228'lja?'
+      Text = 'Kas tr'#252'kid ostutellimuse kohe v'#228'lja?'
     end
     item
       IndexID = 708
-      Text = 'Kas tr'#252'kid tagastusakti kohe v'#228'lja?'
+      Text = 'Kas soovite tarnija tagastuse kohe v'#228'lja tr'#252'kkida?'
     end
     item
       IndexID = 709
@@ -6945,13 +6950,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 710
-      Text = 'Kas tr'#252'kid pakkumise kohe v'#228'lja?'
+      Text = 'Kas tr'#252'kid hinnapakkumise kohe v'#228'lja?'
     end
     item
       IndexID = 711
       Text = 
-        'K'#228'ivita seadistamine ning vali lausendisse korrespondeeruv konto' +
-        '!'
+        'K'#228'ivita '#39'Seadistamine '#8594' Lausendi t'#252#252'bid'#39' ning vali selle lausend' +
+        'i vastaskonto!'
     end
     item
       IndexID = 712
@@ -6975,7 +6980,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 717
-      Text = 'Ei leidnud vajalikke raamatuid! Kausta pole olemas:'
+      Text = 'Ettev'#245'tet ei leitud! Kataloogi pole olemas:'
     end
     item
       IndexID = 718
@@ -6998,7 +7003,7 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'T'#196'HELEPANU! Kl'#245'psates "Jah" t'#252'histad k'#245'ik olemasolevad seosed se' +
+        'T'#196'HELEPANU! Kl'#245'psates [Jah] t'#252'histad k'#245'ik olemasolevad seosed se' +
         'llel kontol!'
     end
     item
@@ -7007,7 +7012,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 724
-      Text = 'Interneti seaded ebat'#228'psed! K'#228'ivita Interneti h'#228#228'lestamine!'
+      Text = 'Interneti seaded ebat'#228'psed! K'#228'ivita '#39'Seadistamine '#8594' Internet'#39'!'
     end
     item
       IndexID = 725
@@ -7019,23 +7024,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 727
-      Text = 'Esimene'
+      Text = '&Esimene'
     end
     item
       IndexID = 728
-      Text = 'Eelmine'
+      Text = '&Eelmine'
     end
     item
       IndexID = 729
-      Text = 'J'#228'rgmine'
+      Text = '&J'#228'rgmine'
     end
     item
       IndexID = 730
-      Text = 'Viimane'
+      Text = '&Viimane'
     end
     item
       IndexID = 731
-      Text = 'Suurendus...'
+      Text = '&Suurendus'
     end
     item
       IndexID = 732
@@ -7047,41 +7052,41 @@ object TTranslationSaveObject
     end
     item
       IndexID = 734
-      Text = 'Lehek'#252'ljed'
+      Text = '&Lehek'#252'ljed'
     end
     item
       IndexID = 735
-      Text = 'Alates'
+      Text = '&Alates'
     end
     item
       IndexID = 736
-      Text = 'Kuni'
+      Text = '&Kuni'
     end
     item
       IndexID = 737
-      Text = 'K'#245'ik lehek'#252'ljed'
+      Text = '&K'#245'ik lehek'#252'ljed'
     end
     item
       IndexID = 738
-      Text = 'Koopiate arv'
+      Text = 'Koopiate &arv'
     end
     item
       IndexID = 739
-      Text = 'Viga aruande eksportimisel'
+      Text = 'Viga aruande eksportimisel!'
     end
     item
       IndexID = 740
-      Text = 'Viga ajutise faili loomisel'
+      Text = 'Viga Tmp-faili loomisel!'
     end
     item
       IndexID = 741
-      Text = 'Vale salas'#245'na'
+      Text = 'Vale salas'#245'na!'
     end
     item
       IndexID = 742
       Text = 
         'Seda kontot pole v'#245'imalik kontrakontona kasutada, sest kontol on' +
-        ' alam-kontod.'
+        ' alam-kontod!'
     end
     item
       IndexID = 743
@@ -7089,35 +7094,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 744
-      Text = 'Sellise nimega andmestik on juba olemas. Palun vali uus nimi!'
+      Text = 'See ettev'#245'te on juba olemas! Palun sisestage uuesti!'
     end
     item
       IndexID = 745
-      Text = 'Kausta loomine eba'#245'nnestus.'
+      Text = 'Kausta loomine eba'#245'nnestus!'
     end
     item
       IndexID = 746
-      Text = 'Palun korda sisestust.'
+      Text = 'Palun korda sisestust!'
     end
     item
       IndexID = 747
-      Text = 'Tr'#252'kkimiseks puuduvad andmed.'
+      Text = 'Tr'#252'kkimiseks puuduvad andmed!'
     end
     item
       IndexID = 748
-      Text = 'Kehtetu kontonumber'
+      Text = 'Kehtetu kontonumber!'
     end
     item
       IndexID = 750
-      Text = 'Arve-Saateleht Nr'
+      Text = 'KM arve nr.'
     end
     item
       IndexID = 751
-      Text = 'Pakkumine number'
+      Text = 'Hinnapakkumise nr.'
     end
     item
       IndexID = 752
-      Text = 'Tagastusakt Nr'
+      Text = 'Tarnija tagastuse nr.'
     end
     item
       IndexID = 753
@@ -7129,11 +7134,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 755
-      Text = 'See raamatute komplekt'
+      Text = 'See ettev'#245'te'
     end
     item
       IndexID = 756
-      Text = 'kustutatakse j'#228#228'davalt.'
+      Text = 'kustutatakse j'#228#228'davalt!'
     end
     item
       IndexID = 757
@@ -7141,11 +7146,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 758
-      Text = 'Krediitarve Nr'
+      Text = 'Kreeditkorralduse nr.'
     end
     item
       IndexID = 759
-      Text = 'Ostuarve Nr'
+      Text = 'Ostuarve nr.'
     end
     item
       IndexID = 761
@@ -7153,7 +7158,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 762
-      Text = 'Tellimus Nr'
+      Text = 'Ostutellimuse nr.'
     end
     item
       IndexID = 763
@@ -7161,7 +7166,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 764
-      Text = 'N'#245'ustajaks v'#228'ljumiseks kl'#245'psa "Sulge".'
+      Text = 'N'#245'ustajaks v'#228'ljumiseks kl'#245'psa [Sulge].'
     end
     item
       IndexID = 765
@@ -7169,13 +7174,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 766
-      Text = 'Tehinguid ei saa '#252'le viia samale kontole.'
+      Text = 'Tehinguid ei saa '#252'le viia samale kontole!'
     end
     item
       IndexID = 767
       Text = 
-        'Viimati selle ettev'#245'tte andmestikuga t'#246#246'tades ei pannud sa neid ' +
-        'lahkumisel korralikult kinni!'
+        'Viimati selle ettev'#245'ttega t'#246#246'tades ei v'#228'ljunud Te programmist ko' +
+        'rrektselt!'
     end
     item
       IndexID = 768
@@ -7193,15 +7198,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 771
-      Text = 'Pakkumine nr'
+      Text = 'Hinnapakkumise nr.'
     end
     item
       IndexID = 772
-      Text = 'Pakkumisest'
+      Text = 'Hinnapakkumisest'
     end
     item
       IndexID = 773
-      Text = 'Alates tellimusest'
+      Text = 'Alates ostutellimusest'
     end
     item
       IndexID = 774
@@ -7221,7 +7226,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 778
-      Text = 'Selline kontakti nimi keelatud'
+      Text = 'Selline kontakti nimi keelatud!'
     end
     item
       IndexID = 779
@@ -7243,15 +7248,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 783
-      Text = 'Ei ole sobiv dokumendi number'
+      Text = 'Ei ole sobiv dokumendi number!'
     end
     item
       IndexID = 784
-      Text = 'Ei ole sobiv tootekood'
+      Text = 'Ebasobiv laokood!'
     end
     item
       IndexID = 785
-      Text = 'Klientide saldod, mis on v'#228'iksemad kui <Rx.xx'
+      Text = 'Klientide saldod v'#228'iksemad kui <X.XX'
     end
     item
       IndexID = 786
@@ -7299,15 +7304,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 797
-      Text = 'Summa ei ole v'#245'rdne tehingu summaga'
+      Text = 'Summa ei ole v'#245'rdne tehingu summaga!'
     end
     item
       IndexID = 798
-      Text = 'Tellimused'
+      Text = 'Ostutellimused'
     end
     item
       IndexID = 799
-      Text = 'Kande nr ei lange kokku tehingu numbriga.'
+      Text = 'Kande nr ei lange kokku tehingu numbriga!'
     end
     item
       IndexID = 800
@@ -7319,15 +7324,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 802
-      Text = 'Meetodit pole valitud. Palun vali '#252'ks!'
+      Text = 'Meetodit pole valitud! Palun vali '#252'ks!'
     end
     item
       IndexID = 803
-      Text = 'Laoj'#228#228'ki ei saa n'#228'idata kaubale, mis on registreerimata tehingus'
+      Text = 
+        'Laoseisu ei saa n'#228'idata kaubale, millel on nullist erinev kogus ' +
+        'laos!'
     end
     item
       IndexID = 804
-      Text = 'Kasutaja aruannet pole valitud. Palun vali!'
+      Text = 'Kasutaja aruannet pole valitud! Palun valige '#252'ks!'
     end
     item
       IndexID = 805
@@ -7363,7 +7370,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 813
-      Text = 'Vana T3 andmestiku konverteerimisel tekkis viga'
+      Text = 'Vana T3 andmestiku konverteerimisel tekkis viga!'
     end
     item
       IndexID = 814
@@ -7372,12 +7379,14 @@ object TTranslationSaveObject
     item
       IndexID = 815
       Text = 
-        'Makseviiside ja kviitungite konteeringud pole korrektselt pangar' +
-        'vega seotud!'
+        'Teie maksete ja laekumiste lausendid pole selle pangakontoga kor' +
+        'rektselt seotud!'
     end
     item
       IndexID = 816
-      Text = 'Tundub, et klientide ja hankijate maksu liik on m'#228#228'ramata!'
+      Text = 
+        'Tundub, et (k'#228'ibemaksu) kassap'#245'hises s'#252'steemis on v'#245'lgnike ja ha' +
+        'nkijate k'#228'ibemaksu liik m'#228#228'ramata!'
     end
     item
       IndexID = 817
@@ -7390,22 +7399,21 @@ object TTranslationSaveObject
     item
       IndexID = 820
       Text = 
-        'Kassap'#245'hise arvestusmetoodika kasutamine eeldab, et k'#245'ik hankija' +
-        'd ja kliendid muudetakse avatud esemetega kontodeks. Kas soovid ' +
-        'j'#228'tkata?'
+        'Kassap'#245'hine arvestus eeldab k'#245'igi hankijate ja v'#245'lgnike konverte' +
+        'erimist avatud kirje kontodeks. Kas soovite j'#228'tkata?'
     end
     item
       IndexID = 821
       Text = 
-        'Kassap'#245'hine meetod k'#228'sitleb tehinguid rangelt kliendilaekumiste ' +
-        'alusel. J'#228'tkame?'
+        'Kassap'#245'hine KM-arvestus k'#228'sitleb tehinguid rangelt laekumiste/ta' +
+        'sumiste alusel. KM tasutakse maksuhaldurile alles siis, kui see ' +
+        'on kliendilt laekunud. Kas soovid j'#228'tkata?'
     end
     item
       IndexID = 822
       Text = 
-        'Kasutad kassap'#245'hist meetodit ent v'#245'lakontot pole v'#245'imalik leida.' +
-        ' Palun k'#228'ivita ettev'#245'tte andmete seadistamise reziim ning parand' +
-        'a viga!'
+        'Kasutad kassap'#245'hist meetodit ent v'#245'lakontot pole v'#245'imalik leida!' +
+        ' Palun k'#228'ivita '#39'Seadistamine '#8594' Ettev'#245'tte info'#39'!'
     end
     item
       IndexID = 823
@@ -7421,11 +7429,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 826
-      Text = 'Palun anna uuele ettev'#245'tte andmestikule nimi.'
+      Text = 'Palun anna uuele ettev'#245'tte andmestikule nimi!'
     end
     item
       IndexID = 827
-      Text = 'Konteeringust'
+      Text = 'Lausendist'
     end
     item
       IndexID = 828
@@ -7459,11 +7467,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 835
-      Text = 'Su&lge aktiivne ettev'#245'te'
+      Text = '&Su&lge aktiivne ettev'#245'te'
     end
     item
       IndexID = 836
-      Text = 'Varunda / Taasta ettev'#245'tte andmestik'
+      Text = '&Varunda / Taasta ettev'#245'tte andmestik'
     end
     item
       IndexID = 837
@@ -7471,31 +7479,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 838
-      Text = 'Kontakt'
+      Text = '&Kontakt'
     end
     item
       IndexID = 839
-      Text = 'Pakkumised'
+      Text = '&Hinnapakkumised'
     end
     item
       IndexID = 840
-      Text = 'Ki&nnita'
+      Text = '&Kinnita'
     end
     item
       IndexID = 841
-      Text = 'Tellimuse&d'
+      Text = '&Tellimused'
     end
     item
       IndexID = 842
-      Text = 'Kasumiaruanne'
+      Text = '&Kasumiaruanne'
     end
     item
       IndexID = 843
-      Text = 'Kontaktide nimekiri'
+      Text = '&Kontaktide nimekiri'
     end
     item
       IndexID = 844
-      Text = 'J'#228'reltellimus'
+      Text = '&J'#228'reltellimused'
     end
     item
       IndexID = 845
@@ -7523,7 +7531,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 851
-      Text = 'N'#228'ita Tervitusi'
+      Text = 'N'#228'ita &tervitusi'
     end
     item
       IndexID = 852
@@ -7535,7 +7543,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 854
-      Text = 'Sirvi'
+      Text = '&Sirvi'
     end
     item
       IndexID = 855
@@ -7543,11 +7551,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 856
-      Text = 'M'#252#252'jad ja kliendid'
+      Text = 'M'#252#252'ja kliendi kohta'
     end
     item
       IndexID = 857
-      Text = 'Toodete ostjad'
+      Text = 'Laokaup kliendi kohta'
     end
     item
       IndexID = 858
@@ -7555,19 +7563,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 859
-      Text = 'Klient m'#252#252'ja kaudu'
+      Text = 'Klient m'#252#252'ja kohta'
     end
     item
       IndexID = 860
-      Text = 'Tarbija toote kaudu'
+      Text = 'Klient laokauba kohta'
     end
     item
       IndexID = 861
-      Text = 'Ostud hankijalt'
+      Text = 'Ostud hankija l'#245'ikes'
     end
     item
       IndexID = 862
-      Text = 'Toodete ostud'
+      Text = 'Ostud toote kohta'
     end
     item
       IndexID = 863
@@ -7611,7 +7619,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 873
-      Text = 'Puhasta k'#245'ik'
+      Text = '&Puhasta k'#245'ik'
     end
     item
       IndexID = 874
@@ -7627,11 +7635,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 877
-      Text = 'Kopeeritav andmestik:'
+      Text = 'Kopeeritav ettev'#245'te:'
     end
     item
       IndexID = 879
-      Text = 'Tagasi'
+      Text = '&Tagasi'
     end
     item
       IndexID = 880
@@ -7647,11 +7655,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 883
-      Text = 'Kliendid ja hankijad'
+      Text = 'V'#245'lgnikud ja hankijad'
     end
     item
       IndexID = 884
-      Text = 'Kinnitamata kanded ja dokumendid'
+      Text = 'Postitamata lausendid ja dokumendid'
     end
     item
       IndexID = 885
@@ -7667,15 +7675,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 888
-      Text = 'Eelmine aasta on sissekanneteks suletud.'
+      Text = 'Eelmine aasta on sissekanneteks suletud!'
     end
     item
       IndexID = 889
-      Text = 'See periood on sissekanneteks suletud'
+      Text = 'See periood on sissekanneteks suletud!'
     end
     item
       IndexID = 890
-      Text = 'Perioodi avamiseks leia "Aruandlusperioodide seaded"'
+      Text = 'Perioodi avamiseks mine: '#39'Seadistamine '#8594' Aruandluskuup'#228'evad'#39
     end
     item
       IndexID = 891
@@ -7707,11 +7715,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 898
-      Text = 'Taasta raamatupakk'
+      Text = 'Taasta ettev'#245'te'
     end
     item
       IndexID = 899
-      Text = 'Varunda raamatupakk'
+      Text = 'Varunda ettev'#245'te'
     end
     item
       IndexID = 900
@@ -7719,7 +7727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901
-      Text = 'Varukoopia salvestamine valmis'
+      Text = 'Varukoopia salvestamine valmis!'
     end
     item
       IndexID = 902
@@ -7727,11 +7735,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903
-      Text = 'Palun sisesta ketas'
+      Text = 'Palun sisesta ketas!'
     end
     item
       IndexID = 904
-      Text = 'mitmekettalisest varukoopia komplektist!'
+      Text = 'mitmekettalise ettev'#245'tte varukoopia kohta.'
     end
     item
       IndexID = 905
@@ -7755,7 +7763,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 911
-      Text = 'kl'#245'psa "Jah" j'#228'tkamiseks ning "Ei" katkestamiseks'
+      Text = 'kl'#245'psa [Jah] j'#228'tkamiseks ning [Ei] katkestamiseks'
     end
     item
       IndexID = 912
@@ -7763,11 +7771,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 913
-      Text = 'Siin pole '#245'iget andmestikku:'
+      Text = 'Asukohast ei leitud sobivat ettev'#245'tet:'
     end
     item
       IndexID = 914
-      Text = 'Ketas pole kasutatav. Mapi see uuesti!'
+      Text = 'Ketas pole kasutatav! Mapi see uuesti!'
     end
     item
       IndexID = 915
@@ -7779,7 +7787,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 917
-      Text = 'Raamatupaki varundamise katkestas kasutaja'
+      Text = 'Ettev'#245'tte varundamise protsessi katkestas kasutaja!'
     end
     item
       IndexID = 918
@@ -7795,7 +7803,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 921
-      Text = 'Raamatupakk taastatakse asukohas:'
+      Text = 'Teie ettev'#245'te taastatakse j'#228'rgmises asukohas:'
     end
     item
       IndexID = 922
@@ -7803,7 +7811,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 923
-      Text = 'Vale salas'#245'na'
+      Text = 'Vale salas'#245'na!'
     end
     item
       IndexID = 924
@@ -7821,7 +7829,7 @@ object TTranslationSaveObject
       IndexID = 927
       Text = 
         'Kasutajale on antud administraatori '#245'igused programmis <@APPNAME' +
-        '@>.'
+        '@>!'
     end
     item
       IndexID = 928
@@ -7829,7 +7837,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 929
-      Text = 'Ostudokumendid'
+      Text = 'Ostud'
     end
     item
       IndexID = 930
@@ -7921,7 +7929,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 952
-      Text = 'Ot&si'
+      Text = '&Otsi'
     end
     item
       IndexID = 953
@@ -7974,15 +7982,15 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        'Laok'#228'ibe konto v'#245'i m'#252#252'gikonto pole selle toote jaoks korralikult' +
-        ' m'#228#228'ratud!'
+        'Laokontrolli ja/v'#245'i m'#252#252'gikonto pole selle laokauba jaoks korrali' +
+        'kult m'#228#228'ratud!'
     end
     item
       IndexID = 966
       Text = 
-        'Dokumenti ei saa kinnitada / sisse kanda! Palun m'#228#228'ra '#228'ra '#245'ige m' +
-        #252#252'gikonto, laokonto (m'#252#252'gikulude konto) ning seej'#228'rel vii kinnit' +
-        'amine l'#228'bi.'
+        'Dokumenti ei saa postitada! Palun m'#228#228'ra '#245'igesti: m'#252#252'gikonto, lao' +
+        'kontrolli konto (ja m'#252#252'dud kauba kulu konto) ja seej'#228'rel postita' +
+        '!'
     end
     item
       IndexID = 967
@@ -7994,7 +8002,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 969
-      Text = 'Han&gi internetist!'
+      Text = '&Hangi internetist'
     end
     item
       IndexID = 970
@@ -8028,7 +8036,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 977
-      Text = 'Ostuarvete anal'#252#252's.'
+      Text = 'Ostuanal'#252#252's'
     end
     item
       IndexID = 978
@@ -8088,7 +8096,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 992
-      Text = 'Toode klientide valikute alusel'
+      Text = 'Toote valikud klientide l'#245'ikes'
     end
     item
       IndexID = 993
@@ -8100,11 +8108,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 995
-      Text = 'Kliendid toodete valikute alusel'
+      Text = 'Kliendi valikud laokaupade l'#245'ikes'
     end
     item
       IndexID = 996
-      Text = 'M'#252#252'ja kliendi valikute alusel'
+      Text = 'M'#252#252'ja valikud klientide l'#245'ikes'
     end
     item
       IndexID = 997
@@ -8149,8 +8157,8 @@ object TTranslationSaveObject
     item
       IndexID = 1007
       Text = 
-        'Alustatav toiming m'#245'jutab t'#245'siselt aktiivset raamatupakki! Kas s' +
-        'oovid j'#228'tkata konteeringu kustutamist?'
+        'See m'#245'jutab oluliselt Teie ettev'#245'tet! Kas olete kindel, et soovi' +
+        'te selle lausendi t'#252#252'bi kustutada?'
     end
     item
       IndexID = 1008
@@ -8182,11 +8190,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1015
-      Text = 'Kleebi'
+      Text = '&Kleebi'
     end
     item
       IndexID = 1016
-      Text = 'Puhasta'
+      Text = '&Puhasta'
     end
     item
       IndexID = 1017
@@ -8194,11 +8202,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1018
-      Text = 'Kustuta pakkumised'
+      Text = 'Kustuta hinnapakkumised'
     end
     item
       IndexID = 1019
-      Text = 'Kustuta tellimused'
+      Text = 'Kustuta ostutellimused'
     end
     item
       IndexID = 1020
@@ -8238,15 +8246,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1029
-      Text = 'Ko&rda'
+      Text = '&Korda'
     end
     item
       IndexID = 1030
-      Text = 'R&ahavoog'
+      Text = '&Rahavoog'
     end
     item
       IndexID = 1033
-      Text = 'Hankijav'#245'lgnevuste aegumise anal'#252#252's'
+      Text = 'Hankijav'#245'lgnevuste aegumise anal'#252#252'si valikud'
     end
     item
       IndexID = 1034
@@ -8306,7 +8314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1049
-      Text = 'Andmestikku ei saa j'#228'tta nimetuks'
+      Text = 'Ettev'#245'tte nime ei saa j'#228'tta t'#252'hjaks!'
     end
     item
       IndexID = 1050
@@ -8322,7 +8330,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1053
-      Text = 'Vali, milliseid ettev'#245'tte andmeid tahad muuta!'
+      Text = 
+        'Vali, milliseid ettev'#245'tte andmeid tahad muuta: '#39'Seadistamine '#8594' E' +
+        'ttev'#245'tte info'#39'!'
     end
     item
       IndexID = 1054
@@ -8342,23 +8352,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1058
-      Text = 'Laoinfo'
+      Text = 'Laokauba kirjeldus'
     end
     item
       IndexID = 1059
       Text = 
-        'Sama aruannet ei saa teha '#252'heaegselt! '#220'ks on juba koostamisel. P' +
+        'Sama aruannet ei saa teha '#252'heaegselt! '#220'ks on juba koostamisel! P' +
         'alun oota!'
     end
     item
       IndexID = 1060
       Text = 
-        'Andmestik on viga saanud! K'#228'ivita "Andmete '#252'mberinekseerimine" p' +
-        #245'hiandmete taastamiseks!'
+        'Teie ettev'#245'tte andmed on viga saanud! K'#228'ivitage andmete '#252'mberind' +
+        'ekseerimine p'#245'hiv'#228#228'rtuste taastamiseks.'
     end
     item
       IndexID = 1063
-      Text = 'Vali Lotuse SpreadSheet laoandmete fail'
+      Text = 'Vali arvutustabeli laofail'
     end
     item
       IndexID = 1064
@@ -8374,7 +8384,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1067
-      Text = 'Eelvaade'
+      Text = '&Eelvaade'
     end
     item
       IndexID = 1068
@@ -8390,7 +8400,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1071
-      Text = 'Konteeringud'
+      Text = 'Lausendid'
     end
     item
       IndexID = 1072
@@ -8402,19 +8412,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1074
-      Text = 'Kinnita tehingud'
+      Text = 'Uuenda lausendit'
     end
     item
       IndexID = 1076
-      Text = 'N'#228'ita tooter'#252'hmi'
+      Text = 'N'#228'ita laokaupade r'#252'hmi'
     end
     item
       IndexID = 1077
-      Text = 'Ostud toodete omaduste alusel'
+      Text = 'Ostud toote omaduste alusel'
     end
     item
       IndexID = 1078
-      Text = 'Ostud hankijate alusel'
+      Text = 'Ostud hankijate l'#245'ikes'
     end
     item
       IndexID = 1079
@@ -8434,7 +8444,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1083
-      Text = 'Asendustellimuste valikud'
+      Text = 'J'#228'reltellimuse valikud'
     end
     item
       IndexID = 1084
@@ -8458,7 +8468,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1089
-      Text = 'Maksekorraldus'
+      Text = 'Hankija maksejuhis'
     end
     item
       IndexID = 1090
@@ -8542,7 +8552,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1110
-      Text = 'Tekkep'#245'hine'
+      Text = 'Arvep'#245'hine'
     end
     item
       IndexID = 1111
@@ -8582,7 +8592,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1120
-      Text = 'Dokumendi number'
+      Text = 'Dokumendi nr.'
     end
     item
       IndexID = 1121
@@ -8594,13 +8604,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1123
-      Text = 'Kustutatud'
+      Text = 'kustutatud!'
     end
     item
       IndexID = 1124
       Text = 
-        'Missing or corrupted debtors and creditors control accounts! Ple' +
-        'ase contact <@APPNAME@> for support!'
+        'Puuduvad v'#245'i vigased v'#245'lgnike ja hankijate koondkontod! Palun ko' +
+        'ntakteeruge toe saamiseks <@APPNAME@>!'
     end
     item
       IndexID = 1125
@@ -8624,7 +8634,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'Kliendi KMRK nr'
+      Text = 'Kliendi KMRK nr.'
     end
     item
       IndexID = 1131
@@ -8644,7 +8654,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'K.M.K.R. number'
+      Text = 'KMKR nr.'
     end
     item
       IndexID = 1136
@@ -8656,7 +8666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1138
-      Text = 'K'#228'ibemaks'
+      Text = 'KM summa'
     end
     item
       IndexID = 1139
@@ -8672,7 +8682,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1142
-      Text = 'Laokoauba kirjeldus'
+      Text = 'Laokauba kirjeldus'
     end
     item
       IndexID = 1143
@@ -8684,23 +8694,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1145
-      Text = 'Arve saaja aadress'
+      Text = 'Arve aadress'
     end
     item
       IndexID = 1146
-      Text = 'Krediitarve vastu v'#245'etud'
+      Text = 'Kreeditkorraldus vastu v'#245'etud'
     end
     item
       IndexID = 1147
-      Text = 'Tagastuse kinnitanud:'
+      Text = 'Ostudokument kinnitatud'
     end
     item
       IndexID = 1148
-      Text = 'Pakkumise aktsepteeris'
+      Text = 'Hinnapakkumise aktsepteeris'
     end
     item
       IndexID = 1149
-      Text = 'Tellimus vastu v'#245'etud'
+      Text = 'Ostutellimus vastu v'#245'etud'
     end
     item
       IndexID = 1150
@@ -8747,33 +8757,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1161
-      Text = 'Otsing peatatud, arv t'#228'is'
+      Text = 'Otsing peatatud, arv t'#228'is!'
     end
     item
       IndexID = 1162
       Text = 
         'T'#228'nane kuup'#228'ev j'#228#228'b aktiivsest rahandusaastast v'#228'lja! J'#228'tkamisek' +
-        's tuleb k'#228'ivitada aasta l'#245'petamise protsess.'
+        's tuleb k'#228'ivitada aasta l'#245'petamise protsess!'
     end
     item
       IndexID = 1163
-      Text = 'Otsi'
+      Text = '&Otsi'
     end
     item
       IndexID = 1164
-      Text = 'Klient'
+      Text = '&Klient'
     end
     item
       IndexID = 1165
-      Text = 'Sisse/v'#228'ljamaks'
+      Text = '&Sisse/v'#228'ljamaks'
     end
     item
       IndexID = 1166
-      Text = 'Tasumine'
+      Text = '&Tasumine'
     end
     item
       IndexID = 1167
-      Text = 'Kustuta k'#245'ik'
+      Text = '&Kustuta k'#245'ik'
     end
     item
       IndexID = 1168
@@ -8801,7 +8811,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1174
-      Text = 'Kassa kasutamis'#245'igused'
+      Text = 'POS kasutus'#245'igused'
     end
     item
       IndexID = 1175
@@ -8833,7 +8843,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1182
-      Text = 'Kreeditk'#228'ive'
+      Text = 'Hankija liikumine'
     end
     item
       IndexID = 1183
@@ -8869,7 +8879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1191
-      Text = 'T'#228'itmata j'#228'reltellimused'
+      Text = 'J'#228'reltellimused'
     end
     item
       IndexID = 1192
@@ -8881,7 +8891,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1194
-      Text = 'Konteeringu '#252'ksikasjad'
+      Text = 'Lausendi kande '#252'ksikasjad'
     end
     item
       IndexID = 1195
@@ -8901,7 +8911,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1199
-      Text = 'Konteeringu liikide '#252'ksikasjalik aruanne'
+      Text = 'Lausendi t'#252#252'pide '#252'ksikasjalik aruanne'
     end
     item
       IndexID = 1200
@@ -8999,15 +9009,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1223
-      Text = 'Muuda pakkumine arveks'
+      Text = 'Hinnapakkumiste teisendamine arveks'
     end
     item
       IndexID = 1224
-      Text = 'Tellimus nr'
+      Text = 'Ostutellimuse nr.'
     end
     item
       IndexID = 1225
-      Text = 'Muuda tellimus ostudokumendiks'
+      Text = 'Teisenda ostutellimuseks'
     end
     item
       IndexID = 1226
@@ -9187,7 +9197,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1270
-      Text = 'Letim'#252#252'k'
+      Text = 'POS arve'
     end
     item
       IndexID = 1271
@@ -9219,7 +9229,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1278
-      Text = 'Ava objektide valik'
+      Text = 'Avatud kirjete valik'
     end
     item
       IndexID = 1279
@@ -9335,7 +9345,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1307
-      Text = 'Tehingu Kuup'#228'ev / Periood eba'#252'nnestunud. Proovi uuesti'
+      Text = 'Tehingu kuup'#228'ev / periood eba'#245'nnestus! Proovi uuesti!'
     end
     item
       IndexID = 1308
@@ -9347,7 +9357,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1310
-      Text = 'Viga tabeli struktuuri t'#228'itmisel'
+      Text = 'Viga tabeli struktuuri t'#228'itmisel!'
     end
     item
       IndexID = 1311
@@ -9387,7 +9397,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1320
-      Text = 'Avatud ese'
+      Text = 'Avatud kirje'
     end
     item
       IndexID = 1321
@@ -9399,7 +9409,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1323
-      Text = 'Aruande grupp 1'
+      Text = 'Aruandlusgrupp 1'
     end
     item
       IndexID = 1324
@@ -9407,7 +9417,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1325
-      Text = 'Aruande grupp 2'
+      Text = 'Aruandlusgrupp 2'
     end
     item
       IndexID = 1326
@@ -9535,7 +9545,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1357
-      Text = 'Kassade m'#252#252'giaruanded'
+      Text = 'POS m'#252#252'gianal'#252#252's'
     end
     item
       IndexID = 1358
@@ -9599,7 +9609,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1373
-      Text = 'Tr'#252'ki kliendi '#252'ksikasjad'
+      Text = 'Tr'#252'ki kliendi andmed'
     end
     item
       IndexID = 1374
@@ -9611,11 +9621,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1376
-      Text = 'M'#252#252'gikonteeringu lausendid'
+      Text = 'M'#252#252'gilausendi kanded'
     end
     item
       IndexID = 1377
-      Text = 'Laekumiste konteeringu lausendid'
+      Text = 'Laekumiste lausendi kanded'
     end
     item
       IndexID = 1378
@@ -9643,7 +9653,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1384
-      Text = 'Kasuta POS kirjeid'
+      Text = '&Kasuta POS teateid'
     end
     item
       IndexID = 1385
@@ -9655,7 +9665,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1387
-      Text = 'Testi kassalaegast'
+      Text = '&Testi kassalaegast'
     end
     item
       IndexID = 1388
@@ -9719,7 +9729,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1403
-      Text = 'Testi printereid'
+      Text = '&Testi printereid'
     end
     item
       IndexID = 1404
@@ -9743,11 +9753,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1409
-      Text = 'Kassa seaded'
+      Text = 'POS seadistus'
     end
     item
       IndexID = 1410
-      Text = 'Kas&uta arve m'#228'rkmeid'
+      Text = '&Kas&uta arve m'#228'rkmeid'
     end
     item
       IndexID = 1411
@@ -9755,17 +9765,17 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1412
-      Text = 'Importimise viga v'#245'i vale failivorming'
+      Text = 'Importimise viga v'#245'i vale failivorming!'
     end
     item
       IndexID = 1413
-      Text = 'Kasutaja ei tohi seda vihikut kasutada'
+      Text = 'Kasutaja ei tohi seda lausendit kasutada!'
     end
     item
       IndexID = 1414
       Text = 
-        'Kasutamise v'#245'imaldamiseks kasuta: Seaded -> S'#252'steemi parameetrid' +
-        ' -> kasutaja'#245'igused'
+        'Kasutamise v'#245'imaldamiseks kasuta: '#39'Seadistamine '#8594' Juurdep'#228#228'su ko' +
+        'ntroll'#39
     end
     item
       IndexID = 2898
@@ -9813,7 +9823,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2909
-      Text = 'Ava eseme kanded'
+      Text = 'Avatud kirje kanderaamatud'
     end
     item
       IndexID = 2910
@@ -9857,7 +9867,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2920
-      Text = 'KOMPL.'
+      Text = 'M.L.'
     end
     item
       IndexID = 2921
@@ -9869,7 +9879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2923
-      Text = 'Komplektatsioon / retsept'
+      Text = 'M.L. loetelu / Retsept'
     end
     item
       IndexID = 2924
@@ -9877,7 +9887,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2925
-      Text = #196'ra arvuta kandeid kokku'
+      Text = #196'ra arvuta lausendi kandeid kokku'
     end
     item
       IndexID = 2926
@@ -9901,7 +9911,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2931
-      Text = 'Ei saa m'#252#252'a! Toode on otsas v'#245'i lattu vormistamata!'
+      Text = 'Ei saa m'#252#252'a! Laokaup on otsas v'#245'i arvestusest puudu!'
     end
     item
       IndexID = 2932
@@ -9929,11 +9939,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2938
-      Text = 'Standartne kliendiekraan'
+      Text = 'POS kliendiekraan (vaikimisi)'
     end
     item
       IndexID = 2939
-      Text = '2 x 20 m'#228'rgiga ekraan'
+      Text = '2 x 20 m'#228'rgi POS ekraan'
     end
     item
       IndexID = 2940
@@ -9957,7 +9967,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2946
-      Text = #220'mmarda sularaharvete summa'
+      Text = #220'marda POS l'#245'ppsumma'
     end
     item
       IndexID = 2947
@@ -10020,7 +10030,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2962
-      Text = 'Piira avatud eset'
+      Text = 'Piira avatud kirjet'
     end
     item
       IndexID = 2963
@@ -10080,7 +10090,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2977
-      Text = 'Vali uue raamatupaki kaust'
+      Text = 'Valige uue ettev'#245'tte asukohakaust'
     end
     item
       IndexID = 2978
@@ -10096,7 +10106,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2981
-      Text = 'N'#228'ita k'#245'iki laotooteid'
+      Text = 'N'#228'ita k'#245'iki laokaupu'
     end
     item
       IndexID = 2982
@@ -10104,7 +10114,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2983
-      Text = 'Pakkumised / Tellimused'
+      Text = 'Hinnapakkumised / Ostutellimused'
     end
     item
       IndexID = 2984
@@ -10112,7 +10122,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2985
-      Text = 'N'#228'ita nullj'#228#228'giga kaupu'
+      Text = 'N'#228'ita null laoseisuga kaupu'
     end
     item
       IndexID = 2986
@@ -10120,7 +10130,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2987
-      Text = 'N'#228'ita arve numbrit'
+      Text = 'N'#228'ita arve nr.'
     end
     item
       IndexID = 2988
@@ -10168,7 +10178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2999
-      Text = 'Ava konteeringud'
+      Text = 'Ava lausendid'
     end
     item
       IndexID = 3000
@@ -10184,11 +10194,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3003
-      Text = 'Kopeerin raamatupakki...'
+      Text = 'Ettev'#245'tte kopeerimine...'
     end
     item
       IndexID = 3004
-      Text = 'Kopeeri raamatupakist'
+      Text = 'Kopeeri olemasolevast ettev'#245'ttest'
     end
     item
       IndexID = 3005
@@ -10213,7 +10223,7 @@ object TTranslationSaveObject
     item
       IndexID = 3010
       Text = 
-        'Viitenumbrit on kasutatud teises dokumendis. Kontrolli, ega Sa e' +
+        'Viitenumbrit on kasutatud teises dokumendis! Kontrolli, ega Sa e' +
         'i koosta sama arvet teist korda!'
     end
     item
@@ -10230,7 +10240,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3014
-      Text = 'Kassaraamatu aruanne'
+      Text = 'Pangakontrolli aruanne seisuga'
     end
     item
       IndexID = 3015
@@ -10246,7 +10256,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3018
-      Text = 'T'#196'HELEPANU! Aruanne sisaldab kinnitamata kandeid!'
+      Text = 'HOIATUS! See aruanne sisaldab postitamata lausendeid!'
     end
     item
       IndexID = 3050
@@ -10262,15 +10272,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Valmistan e-kirja'
+      Text = 'Kasuta seotud KM-i'
     end
     item
       IndexID = 3054
-      Text = 'N'#228'ita korrespondeeruvat kontot'
+      Text = 'Seotud KM'
     end
     item
       IndexID = 3055
-      Text = 'N'#228'ita '#252'hiku hinda'
+      Text = 'Vastaskonto KM'
     end
     item
       IndexID = 3056
@@ -10278,11 +10288,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3019
-      Text = 'N'#228'ita null laoj'#228#228'ke'
+      Text = 'N'#228'ita null laoseisu'
     end
     item
       IndexID = 3020
-      Text = 'Muuda arve ostudokumendiks'
+      Text = 'Teisenda ostuarve ostutellimuseks'
     end
     item
       IndexID = 3021
@@ -10298,11 +10308,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3024
-      Text = 'ava OSCommerce tellimus sirvikus'
+      Text = 'Ava OSCommerce ostutellimus sirvikus'
     end
     item
       IndexID = 3025
-      Text = 'Ava OSCOmmerce klient sirvikus'
+      Text = 'Ava osCommerce'#39'i klient brauseris'
     end
     item
       IndexID = 3026
@@ -10334,7 +10344,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3033
-      Text = 'Automaatne alias'
+      Text = 'Automaatne varjunimi'
     end
     item
       IndexID = 3034
@@ -10342,23 +10352,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Kasuta seotud maksu'
+      Text = 'Kasuta seotud KM-i'
     end
     item
       IndexID = 3036
-      Text = 'Seotud maks'
+      Text = 'Seotud KM'
     end
     item
       IndexID = 3037
-      Text = 'Kontrakonto KM'
+      Text = 'Vastaskonto KM'
     end
     item
       IndexID = 3038
-      Text = 'Avatud objekti konto'
+      Text = 'Avatud kirje konto'
     end
     item
       IndexID = 3039
-      Text = 'Kassaaruande (POS) valikud'
+      Text = 'POS aruande valikud'
     end
     item
       IndexID = 3040
@@ -10398,7 +10408,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3049
-      Text = 'Impordi kinnitatud kanded'
+      Text = 'Impordi postitatud lausend'
     end
     item
       IndexID = 3057
@@ -10430,11 +10440,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3064
-      Text = 'Vale konto'
+      Text = 'Vale konto!'
     end
     item
       IndexID = 3065
-      Text = 'Puuduvad '#245'igused'
+      Text = 'Puuduvad '#245'igused!'
     end
     item
       IndexID = 3066
@@ -10446,11 +10456,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3068
-      Text = 'Viga! Ei leia kontot.'
+      Text = 'Viga! Ei leia kontot!'
     end
     item
       IndexID = 3070
-      Text = 'Lisa Clieop '#252'lekande kommentaarid!'
+      Text = 'CLIEOP-'#252'lekande kommentaarid peavad olema t'#228'idetud!'
     end
     item
       IndexID = 3071
@@ -10468,31 +10478,31 @@ object TTranslationSaveObject
       IndexID = 3074
       Text = 
         'Selle grupiga on seotud kontosid! Palun seo need teise grupiga v' +
-        #245'i kustuta (Esimene konto ='
+        #245'i kustuta! (Esimene konto ='
     end
     item
       IndexID = 3075
       Text = 
-        'Selle grupiga on seiotud dokumente. Palun seo need teise grupiga' +
-        ' v'#245'i kustuta!'
+        'Selle grupiga on seotud dokumente! Palun seo need teise grupiga ' +
+        'v'#245'i kustuta!'
     end
     item
       IndexID = 3076
       Text = 
-        'Selle grupiga on seotud tooted! Esmalt seo need teise grupiga v'#245 +
-        'i kustuta.'
+        'Selle r'#252'hmaga on seotud laokaubad! Esmalt seo need teise r'#252'hmaga' +
+        ' v'#245'i kustuta!'
     end
     item
       IndexID = 3077
-      Text = #220'htki sidet pole m'#228#228'ratud'
+      Text = #220'htki sidet pole m'#228#228'ratud!'
     end
     item
       IndexID = 3078
-      Text = 'Kontokood on juba kasutusel'
+      Text = 'Kontokood on juba kasutusel!'
     end
     item
       IndexID = 3079
-      Text = 'Pakkumine on valmis!'
+      Text = 'Hinnapakkumine(d) on valmis!'
     end
     item
       IndexID = 3080
@@ -10500,19 +10510,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3081
-      Text = 'Nullin laoj'#228#228'gi?'
+      Text = 'Nullin laoseisu?'
     end
     item
       IndexID = 3082
-      Text = 'failivormingu importimist ei toetata'
+      Text = 'failivormingu importimist ei toetata!'
     end
     item
       IndexID = 3083
-      Text = 'Toode on laost otsas! Automaatne koguse muutus'
+      Text = 'Laokaup on laost otsas! Automaatne koguse korrigeerimine!'
     end
     item
       IndexID = 3084
-      Text = 'Tehtud'
+      Text = 'Tehtud!'
     end
     item
       IndexID = 3085
@@ -10524,7 +10534,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3087
-      Text = 'Number %s ei ole kehtiv 11 kinnituse number!'
+      Text = 'Number %s ei ole kehtiv 11 t'#245'endi number!'
     end
     item
       IndexID = 3088
@@ -10560,15 +10570,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3096
-      Text = 'Koosta arved'
+      Text = 'Koosta tunnip'#245'hised arved'
     end
     item
       IndexID = 3097
-      Text = 'Piira lao SQL'
+      Text = 'Piira laoandmete SQL'
     end
     item
       IndexID = 3098
-      Text = 'Koos kinnitamata arvetega'
+      Text = 'Kaasa postitamata arved'
     end
     item
       IndexID = 3099
@@ -10576,21 +10586,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'test'
+      Text = 
+        'Eesti P'#245'hifail Eesti Vabariigi jaoks (et-EE) - '#196'ra T'#245'lgi. Selle ' +
+        'keelefaili kohandamiseks loo koopia.'
     end
     item
       IndexID = 1000001
-      Text = 'Welcome to <@APPNAME@>'
+      Text = 'Tere tulemast <@APPNAME@> rakendusse'
     end
     item
       IndexID = 1000003
-      Text = '3'
+      Text = #8364
     end
     item
       IndexID = 3100
       Text = 
         'Sa '#252'ritad '#252'henduda kaugandmebaasiga! K'#228'esolev versioon ei toeta ' +
-        'seda vaikimisi. Palun v'#245'ta meiega '#252'hendust vajaliku toetuse saam' +
+        'seda vaikimisi! Palun v'#245'ta meiega '#252'hendust vajaliku toetuse saam' +
         'iseks aadressil tugi@kassasysteem.ee v'#245'i https://www.osfinancial' +
         's.org/en/webshop '
     end
@@ -10620,11 +10632,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3107
-      Text = 'Veeru saldo -deebitor'
+      Text = 'Veerusaldo v'#245'lgnike'
     end
     item
       IndexID = 3108
-      Text = 'Veeru saldo - kreeditor'
+      Text = 'Veerusaldo hankijad'
     end
     item
       IndexID = 3109
@@ -10652,11 +10664,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 900002
-      Text = 'Maja'
+      Text = 'Maja nr.'
     end
     item
       IndexID = 900003
-      Text = 'Maja'
+      Text = 'Maja nr./'#252'ksus'
     end
     item
       IndexID = 900004
@@ -10684,7 +10696,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901005
-      Text = 'Arve saatmine p'#228'evades enne tellimuse p'#228'eva'
+      Text = 'Arve saatmine p'#228'evades enne tellimisp'#228'eva'
     end
     item
       IndexID = 901006
@@ -10700,7 +10712,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Vali laotoode>'
+      Text = '<Vali laokaup>'
     end
     item
       IndexID = 901010
@@ -10776,7 +10788,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902005
-      Text = '<K'#245'ik deebitorid>'
+      Text = '<K'#245'ik v'#245'lgnikud>'
     end
     item
       IndexID = 903000
@@ -10817,7 +10829,7 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Kl'#245'psa "Ok" kui oled muudatused teinud ning soovid neid andmebaa' +
+        'Kl'#245'psa [OK] kui oled muudatused teinud ning soovid neid andmebaa' +
         'si talletada!'
     end
     item
@@ -10862,9 +10874,9 @@ object TTranslationSaveObject
     item
       IndexID = 3118
       Text = 
-        'This demo plugin allows %s records to be entered. If you need mo' +
-        're, please buy the product at https://www.osfinancials.org/en/we' +
-        'bshop'
+        'See demolisandmoodul lubab sisestada %s kirjet. Kui vajate rohke' +
+        'm, palun ostke toode aadressilt https://www.osfinancials.org/en/' +
+        'webshop'
     end
     item
       IndexID = 3119
@@ -10873,20 +10885,20 @@ object TTranslationSaveObject
     item
       IndexID = 3120
       Text = 
-        ':Time license expires in 1 day! Please visit https://www.osfinan' +
-        'cials.org/en/webshop '
+        ':Ajalitsents aegub 1 p'#228'eva p'#228'rast! Palun k'#252'lastage https://www.o' +
+        'sfinancials.org/en/webshop'
     end
     item
       IndexID = 3121
       Text = 
-        ':Time license expires in %s days! Please visit https://www.osfin' +
-        'ancials.org/en/webshop '
+        ':Ajalitsents aegub %s p'#228'eva p'#228'rast! Palun k'#252'lastage https://www.' +
+        'osfinancials.org/en/webshop'
     end
     item
       IndexID = 3122
       Text = 
-        'Time license expired! Please visit https://www.osfinancials.org/' +
-        'en/webshop '
+        'Ajalitsents on aegunud! Palun k'#252'lastage https://www.osfinancials' +
+        '.org/en/webshop'
     end
     item
       IndexID = 3123
@@ -10902,7 +10914,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Teisenda <@APPNAME@> sellele versioonile'
     end
     item
       IndexID = 906000
@@ -10922,19 +10934,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906003
-      Text = 'Alias'
+      Text = 'Varjunimi'
     end
     item
       IndexID = 906004
-      Text = 'Varustaja'
+      Text = 'Tarnija'
     end
     item
       IndexID = 906005
-      Text = 'Tellimuse kuup'#228'ev'
+      Text = 'Ostutellimuse kuup'#228'ev'
     end
     item
       IndexID = 906006
-      Text = 'Pakkumise kuup'#228'ev'
+      Text = 'Hinnapakkumise kuup'#228'ev'
     end
     item
       IndexID = 906007
@@ -10950,7 +10962,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906010
-      Text = 'Palume tasuda v'#245'lgnevuse esimesel v'#245'imalusel.'
+      Text = 'Palume tasuda v'#245'lgnevuse esimesel v'#245'imalusel!'
     end
     item
       IndexID = 906011
@@ -10966,7 +10978,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906014
-      Text = 'Sularahaarve'
+      Text = 'POS KM arve'
     end
     item
       IndexID = 906015
@@ -10990,7 +11002,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906020
-      Text = 'K'#228'ibemaks'
+      Text = 'KM'
     end
     item
       IndexID = 906021
@@ -11006,7 +11018,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906024
-      Text = 'Kreeditarve kuup'#228'ev'
+      Text = 'Kreeditkorralduse kuup'#228'ev'
     end
     item
       IndexID = 906025
@@ -11018,19 +11030,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906027
-      Text = 'Soetamise kuup'#228'ev'
+      Text = 'Ostukuup'#228'ev'
     end
     item
       IndexID = 906028
-      Text = 'Hankijale tagastamise kuup'#228'ev'
+      Text = 'Tarnija tagastuse kuup'#228'ev'
     end
     item
       IndexID = 906029
-      Text = 'Tagastussaateleht'
+      Text = 'Tarnija tagastuse dokument'
     end
     item
       IndexID = 906030
-      Text = 'Tagastus aktsepteeritud hankija poolt'
+      Text = 'Tarnija tagastus aktsepteeritud'
     end
     item
       IndexID = 901023
@@ -11038,27 +11050,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3325
-      Text = '<- Set selected to this price'
+      Text = '<- M'#228#228'ra valitud sellele hinnale'
     end
     item
       IndexID = 3326
-      Text = 'Openitem'
+      Text = 'Avatud kirje'
     end
     item
       IndexID = 3327
-      Text = 'Clieop comment'
+      Text = 'CLIEOP-kommentaar'
     end
     item
       IndexID = 3328
-      Text = 'City'
+      Text = 'Linn'
     end
     item
       IndexID = 3329
-      Text = 'Cur'
+      Text = 'Jooksev'
     end
     item
       IndexID = 3330
-      Text = 'Quote'
+      Text = 'Hinnapakkumine'
     end
     item
       IndexID = 3331
@@ -11070,346 +11082,348 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3333
-      Text = 'Order'
+      Text = 'Ostutellimus'
     end
     item
       IndexID = 3334
-      Text = 'Exp'
+      Text = 'Eeldatav'
     end
     item
       IndexID = 3335
-      Text = 'Log level'
+      Text = 'Logitase'
     end
     item
       IndexID = 3336
-      Text = 'Next batch nr'
+      Text = 'J'#228'rgmine lausendi nr.'
     end
     item
       IndexID = 3337
-      Text = 'Backcolor'
+      Text = 'Taustav'#228'rv'
     end
     item
       IndexID = 3338
-      Text = 'Frontcolor'
+      Text = 'Esiv'#228'rv'
     end
     item
       IndexID = 3339
-      Text = 'Link image'
+      Text = 'Seosta pilt'
     end
     item
       IndexID = 3340
-      Text = 'Clear image'
+      Text = 'Kustuta pilt'
     end
     item
       IndexID = 3341
-      Text = 'Init all translations and plugins'
+      Text = 'K'#228'ivita k'#245'ik t'#245'lked ja lisamoodulid'
     end
     item
       IndexID = 3342
-      Text = 'Show colors'
+      Text = 'N'#228'ita v'#228'rve'
     end
     item
       IndexID = 3343
-      Text = 'Find invalide'
+      Text = 'Otsi kehtetuid'
     end
     item
       IndexID = 3344
-      Text = 'Adjust payment date'
+      Text = 'Korrigeeri maksekuup'#228'eva'
     end
     item
       IndexID = 3345
       Text = 
-        'Consolidating lines and using tax will mess up your tax report! ' +
-        'please make sure you do not use tax or do not consolidate lines.' +
-        '!'
+        'Ridade konsolideerimine koos KM-ga rikub teie KM aruande! Veendu' +
+        'ge, et te ei kasuta KM-i ega konsolideeri ridu!'
     end
     item
       IndexID = 3346
-      Text = 'As PDF file'
+      Text = 'PDF-failina'
     end
     item
       IndexID = 3347
-      Text = 'Timeslot'
+      Text = 'Ajapilu'
     end
     item
       IndexID = 3348
-      Text = 'Show at startup'
+      Text = 'N'#228'ita k'#228'ivitamisel'
     end
     item
       IndexID = 3349
       Text = 
-        'There is document input asossiated with this project do you wish' +
-        ' to continue ? all project data will be lost'
+        'Selle projektiga on seotud dokumendisisendid! Kas soovite j'#228'tkat' +
+        'a? K'#245'ik projekti andmed l'#228'hevad kaotsi!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input asossiated with this project do you w' +
-        'ish to continue ? all project data will be lost'
+        'Selle projektiga on seotud kandesisendid! Kas soovite j'#228'tkata? K' +
+        #245'ik projekti andmed l'#228'hevad kaotsi!'
     end
     item
       IndexID = 3351
-      Text = 'There are unposted documents you cannot close this project!'
+      Text = 'On kandmata dokumente! Te ei saa seda projekti sulgeda!'
     end
     item
       IndexID = 3352
-      Text = 'Sales, Purchase, Cost of sales and tax accounts'
+      Text = 'M'#252#252'gi, ostu, omahinna ja KM kontod'
     end
     item
       IndexID = 3353
-      Text = 'Open transactions only'
+      Text = 'Ainult avatud tehingud'
     end
     item
       IndexID = 3354
-      Text = 'Remove fault links'
+      Text = 'Eemalda vigased seosed'
     end
     item
       IndexID = 3355
-      Text = 'Transfare transactions'
+      Text = 'Tehingute '#252'lekandmine'
     end
     item
       IndexID = 3356
-      Text = 'Payroll import'
+      Text = 'Palgaarvestuse import'
     end
     item
       IndexID = 3357
-      Text = 'Free selection'
+      Text = 'Vaba valik'
     end
     item
       IndexID = 3358
-      Text = 'AutoPymt'
+      Text = 'Automaatne makse'
     end
     item
       IndexID = 3359
-      Text = 'Barcode printer'
+      Text = 'V'#246#246'tkoodiprinter'
     end
     item
       IndexID = 3360
-      Text = 'Label printer'
+      Text = 'Sildiprinter'
     end
     item
       IndexID = 3361
-      Text = 'Use multiprinter'
+      Text = 'Kasuta mitut printerit'
     end
     item
       IndexID = 3362
-      Text = 'change remark'
+      Text = 'Muuda m'#228'rkust'
     end
     item
       IndexID = 3363
-      Text = 'Please enter change remark'
+      Text = 'Palun sisestage muutmism'#228'rkus'
     end
     item
       IndexID = 3364
-      Text = 'No remaker entered operation aborted!'
+      Text = 'M'#228'rkust ei sisestatud, toiming katkestati!'
     end
     item
       IndexID = 3365
       Text = 
-        'Stock Qty has been changed do you want to retain the current dat' +
-        'abase data?'
+        'Laoseisu kogust on muudetud! Kas soovid s'#228'ilitada praegused andm' +
+        'ebaasi andmed?'
     end
     item
       IndexID = 3366
-      Text = 'Manual adjust'
+      Text = 'K'#228'sitsi korrigeerimine'
     end
     item
       IndexID = 3367
-      Text = 'Continue action %s ?'
+      Text = 'Kas j'#228'tkata toimingut %s ?'
     end
     item
       IndexID = 3368
-      Text = 'Standard Column balance'
+      Text = 'Standardne veerusaldo'
     end
     item
       IndexID = 3369
       Text = 
-        'The data of this document has changed by a other user or input s' +
-        'creen. %s Do you wish to override the data? '
+        'Selle dokumendi andmeid on muutnud teine kasutaja v'#245'i sisestusek' +
+        'raan. %s Kas soovite andmed '#252'le kirjutada?'
     end
     item
       IndexID = 3370
-      Text = 'User exit!'
+      Text = 'Kasutaja v'#228'ljumine!'
     end
     item
       IndexID = 3371
-      Text = 'Do you wish to clear all documents or set them to unposted?'
+      Text = 
+        'Kui soovite k'#245'ik dokumendid kustutada (eemaldada), kl'#245'psake [Jah' +
+        ']. Kui soovite k'#245'ik dokumendid s'#228'ilitada ja seada need kandmata ' +
+        'olekusse, kl'#245'psake [Ei].'
     end
     item
       IndexID = 3372
-      Text = 'Budget vs actual'
+      Text = 'Eelarve vs tegelik'
     end
     item
       IndexID = 3373
-      Text = 'This year vs last year'
+      Text = 'See aasta vs eelmine aasta'
     end
     item
       IndexID = 3374
-      Text = 'Tools'
+      Text = 'T'#246#246'riistad'
     end
     item
       IndexID = 3375
-      Text = 'External system links'
+      Text = 'V'#228'lised s'#252'steemi lingid'
     end
     item
       IndexID = 3376
-      Text = 'financial tools'
+      Text = 'Finantsvahendid'
     end
     item
       IndexID = 3377
-      Text = 'Generic plugins'
+      Text = 'Geneerilised lisamoodulid'
     end
     item
       IndexID = 3378
-      Text = 'Freefields'
+      Text = 'Vabad v'#228'ljad'
     end
     item
       IndexID = 3379
-      Text = 'Multimedia'
+      Text = 'Multimeedia'
     end
     item
       IndexID = 3380
-      Text = 'Price agreement'
+      Text = 'Hinnakokkulepe'
     end
     item
       IndexID = 3381
-      Text = 'Stockcheck'
+      Text = 'Laokontroll'
     end
     item
       IndexID = 3382
-      Text = 'QuickOrder'
+      Text = 'Kiirtellimus'
     end
     item
       IndexID = 3383
-      Text = 'E-commerce'
+      Text = 'E-kaubandus'
     end
     item
       IndexID = 3384
-      Text = 'Activa'
+      Text = 'Aktiva'
     end
     item
       IndexID = 3385
-      Text = 'Office'
+      Text = 'Kontor'
     end
     item
       IndexID = 3386
-      Text = 'Sql browser'
+      Text = 'SQL brauser'
     end
     item
       IndexID = 3387
-      Text = 'Drill down'
+      Text = 'Detailidesse s'#252'venemine'
     end
     item
       IndexID = 3388
-      Text = 'Xml audit file'
+      Text = 'XML auditi fail'
     end
     item
       IndexID = 3389
-      Text = 'Pos display'
+      Text = 'POS ekraan'
     end
     item
       IndexID = 3390
-      Text = 'Send package'
+      Text = 'Saada pakett'
     end
     item
       IndexID = 3391
-      Text = 'Subscriptions'
+      Text = 'Tellimused'
     end
     item
       IndexID = 3392
-      Text = 'Web export'
+      Text = 'Veebi eksport'
     end
     item
       IndexID = 3393
-      Text = 'Customer on hold'
+      Text = 'Ootel klient'
     end
     item
       IndexID = 3394
-      Text = 'Document email pro'
+      Text = 'Dokumendi e-kiri Pro'
     end
     item
       IndexID = 3395
-      Text = 'HORECA Pos'
+      Text = 'HORECA POS'
     end
     item
       IndexID = 3396
-      Text = 'RETAIL Pos'
+      Text = 'RETAIL POS'
     end
     item
       IndexID = 3397
-      Text = 'Charter'
+      Text = 'Harta'
     end
     item
       IndexID = 3398
-      Text = 'Location-Serilization-batches'
+      Text = 'Asukoht-Seerianumbrid-Partiid'
     end
     item
       IndexID = 3400
-      Text = 'Remittance'
+      Text = 'Maksekorraldus'
     end
     item
       IndexID = 3401
-      Text = 'Reportman'
+      Text = 'Aruandehaldur'
     end
     item
       IndexID = 3402
-      Text = 'Handytools'
+      Text = 'Kasulikud t'#246#246'riistad (Ainult edasij'#245'udnud kasutajatele)'
     end
     item
       IndexID = 3403
-      Text = 'Register plugins'
+      Text = 'Registreeri lisamoodulid'
     end
     item
       IndexID = 3404
-      Text = 'Export / import'
+      Text = 'Eksport / Import'
     end
     item
       IndexID = 3405
-      Text = 'Stock plugins'
+      Text = 'Lao lisamoodulid'
     end
     item
       IndexID = 3406
-      Text = 'Document plugins'
+      Text = 'Dokumendi lisamoodulid'
     end
     item
       IndexID = 3407
-      Text = 'Branch specific'
+      Text = 'Filiaalispetsiifiline'
     end
     item
       IndexID = 3408
-      Text = 'Driverschool plugin'
+      Text = 'Autokooli lisamoodul'
     end
     item
       IndexID = 3409
-      Text = 'Postalcode / tax id / regno lookup'
+      Text = 'Postiindeks / KM-ID / reg. nr. otsing'
     end
     item
       IndexID = 3410
-      Text = 'Dutch tax plugin'
+      Text = 'Hollandi maksu lisamoodul'
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
-      Text = 'Pos points'
+      Text = 'POS punktid'
     end
     item
       IndexID = 3413
-      Text = 'Controler login'
+      Text = 'Kontrolleri sisselogimine'
     end
     item
       IndexID = 3414
-      Text = 'Multi user agenda'
+      Text = 'Mitme kasutaja p'#228'evakava'
     end
     item
       IndexID = 3415
-      Text = 'Woodsales'
+      Text = 'Puidu m'#252#252'k'
     end
     item
       IndexID = 3416
-      Text = 'Document export import'
+      Text = 'Dokumendi eksport-import'
     end
     item
       IndexID = 3417
@@ -11417,234 +11431,236 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3418
-      Text = 'Plugin load list'
+      Text = 'Lisamoodulite laadimise loend'
     end
     item
       IndexID = 3419
-      Text = 'Activate plugin'
+      Text = 'Aktiveeri lisamoodul'
     end
     item
       IndexID = 3420
-      Text = 'Deactivate plugin'
+      Text = 'Deaktiveeri lisamoodul'
     end
     item
       IndexID = 3421
-      Text = 'Use tabs in stock'
+      Text = 'Kasuta laos vahelehti'
     end
     item
       IndexID = 3422
       Text = 
-        'You are not yet registered to post on our forum! You will need t' +
-        'o register <@APPNAME@> to use that username password to login to' +
-        ' our forum or shop.'
+        'Te pole veel meie foorumisse postitamiseks registreeritud! Meie ' +
+        'foorumisse v'#245'i poodi sisselogimiseks peate registreerima <@APPNA' +
+        'ME@> ja kasutama seda kasutajanime ja parooli.'
     end
     item
       IndexID = 3423
-      Text = 'Copy to'
+      Text = 'Kopeeri'
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this pc can not find)'
+      Text = 'Kustuta mitte-kohalik (raamatud, mida see arvuti ei leia)'
     end
     item
       IndexID = 3425
-      Text = 'Reprint ticket'
+      Text = 'Kordustr'#252'kk'
     end
     item
       IndexID = 3426
-      Text = 'Rental / reservations'
+      Text = 'Rent / Broneeringud'
     end
     item
       IndexID = 3427
-      Text = 'Calculate minutes'
+      Text = 'Arvuta minutid'
     end
     item
       IndexID = 3428
-      Text = 'Minutes inactive'
+      Text = 'Minutid passiivne'
     end
     item
       IndexID = 3429
-      Text = 'Std disc%'
+      Text = 'Std allahindlus %'
     end
     item
       IndexID = 3430
-      Text = 'Document id'
+      Text = 'Dokumendi ID'
     end
     item
       IndexID = 3431
-      Text = 'webshop/forum login and Newsletters'
+      Text = 'E-pood/foorumi sisselogimine ja uudiskirjad'
     end
     item
       IndexID = 3432
-      Text = 'Step status'
+      Text = 'Etapi olek'
     end
     item
       IndexID = 3433
-      Text = 'Process'
+      Text = 'Protsess'
     end
     item
       IndexID = 3434
-      Text = 'Date last action'
+      Text = 'Viimase tegevuse kuup'#228'ev'
     end
     item
       IndexID = 3435
-      Text = 'Step name'
+      Text = 'Etapi nimi'
     end
     item
       IndexID = 3436
-      Text = 'Used time'
+      Text = 'Kasutatud aeg'
     end
     item
       IndexID = 3437
-      Text = 'View closed'
+      Text = 'Kuva suletud'
     end
     item
       IndexID = 3438
-      Text = 'Belgische btw aangifte'
+      Text = 'Belgia maksutagastused'
     end
     item
       IndexID = 3439
-      Text = 'Retype password'
+      Text = 'Sisestage parool uuesti'
     end
     item
       IndexID = 3440
-      Text = 'Branches'
+      Text = 'Filiaalid'
     end
     item
       IndexID = 3441
-      Text = 'Skypename'
+      Text = 'Teams'#39'i nimi'
     end
     item
       IndexID = 3442
-      Text = 'Reset pass (email new pw to you)'
+      Text = 'L'#228'htesta parool (Saada uus parool teile e-posti teel)'
     end
     item
       IndexID = 3443
-      Text = 'Open webshop'
+      Text = 'Ava e-pood'
     end
     item
       IndexID = 3444
-      Text = 'Change password'
+      Text = 'Muuda parooli'
     end
     item
       IndexID = 3445
-      Text = 'Please register <@APPNAME@> first!'
+      Text = 'Palun registreerige esmalt <@APPNAME@>!'
     end
     item
       IndexID = 3446
-      Text = 'To register plugins you need to register <@APPNAME@> first!'
+      Text = 
+        'Lisamoodulite registreerimiseks peate esmalt registreerima <@APP' +
+        'NAME@>!'
     end
     item
       IndexID = 3447
-      Text = 'Timelicence'
+      Text = 'Ajalitsents'
     end
     item
       IndexID = 3448
-      Text = 'Current total'
+      Text = 'Jooksev kogusumma'
     end
     item
       IndexID = 3449
-      Text = 'No points used! please us points or close window!'
+      Text = 'Punkte pole kasutatud! Palun kasutage punkte v'#245'i sulgege aken!'
     end
     item
       IndexID = 3450
-      Text = 'Use point'
+      Text = 'Kasuta punkte'
     end
     item
       IndexID = 3451
-      Text = 'Current points'
+      Text = 'Praegused punktid'
     end
     item
       IndexID = 3452
-      Text = 'Points to use'
+      Text = 'Kasutatavad punktid'
     end
     item
       IndexID = 3453
-      Text = 'General DIV ledger'
+      Text = 'Pearaamatu '#252'ldised erinevused'
     end
     item
       IndexID = 3454
-      Text = 'Symbol'
+      Text = 'S'#252'mbol'
     end
     item
       IndexID = 3455
-      Text = 'Rate'
+      Text = 'Kurss'
     end
     item
       IndexID = 3465
-      Text = 'Tax classes'
+      Text = 'KM klassid'
     end
     item
       IndexID = 3466
-      Text = 'Tax class'
+      Text = 'KM klass'
     end
     item
       IndexID = 3467
-      Text = 'Force stocktype check'
+      Text = 'Rakenda laot'#252#252'bi kontrolli'
     end
     item
       IndexID = 3468
-      Text = 'Default costgroup'
+      Text = 'Vaikimisi kulur'#252'hm'
     end
     item
       IndexID = 3469
-      Text = 'Workflow setup'
+      Text = 'T'#246#246'voo seadistus'
     end
     item
       IndexID = 3470
-      Text = 'Currencies'
+      Text = 'Valuutad'
     end
     item
       IndexID = 3471
-      Text = 'I have read this instruction and i understaind the action!'
+      Text = 'Olen seda juhist lugenud ja m'#245'istan toimingut!'
     end
     item
       IndexID = 3472
-      Text = 'Payment discount'
+      Text = 'Maksesoodustus'
     end
     item
       IndexID = 3473
-      Text = 'Payment diverence'
+      Text = 'Makse erinevus'
     end
     item
       IndexID = 3474
-      Text = 'Auto process'
+      Text = 'Automaatne t'#246#246'tlemine'
     end
     item
       IndexID = 3475
-      Text = 'Outlook sync'
+      Text = 'Outlooki s'#252'nkroonimine'
     end
     item
       IndexID = 3476
-      Text = 'Sync to <@APPNAME@>'
+      Text = 'S'#252'nkrooni <@APPNAME@>-sse'
     end
     item
       IndexID = 3477
-      Text = 'From <@APPNAME@> to Outlook'
+      Text = '<@APPNAME@>-st Outlooki'
     end
     item
       IndexID = 3478
-      Text = 'Sync Email'
+      Text = 'S'#252'nkrooni e-kiri'
     end
     item
       IndexID = 3479
-      Text = 'Email link'
+      Text = 'E-posti link'
     end
     item
       IndexID = 3480
-      Text = 'Outlook syngroniser'
+      Text = 'Outlooki s'#252'nkronisaator'
     end
     item
       IndexID = 3481
-      Text = 'Document links'
+      Text = 'Dokumendi lingid'
     end
     item
       IndexID = 3482
-      Text = 'Links from'
+      Text = 'Lingid alates'
     end
     item
       IndexID = 3483
-      Text = 'Links to'
+      Text = 'Lingid sihtkohta'
     end
     item
       IndexID = 3484
@@ -11652,1057 +11668,1057 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3485
-      Text = 'Where am i?'
+      Text = 'Kus ma olen?'
     end
     item
       IndexID = 3486
-      Text = 'Step hint'
+      Text = 'Etapi vihje'
     end
     item
       IndexID = 3487
-      Text = 'Rights'
+      Text = #213'igused'
     end
     item
       IndexID = 3488
-      Text = 'Add step'
+      Text = 'Lisa etapp'
     end
     item
       IndexID = 3489
-      Text = 'Edit step'
+      Text = 'Muuda etappi'
     end
     item
       IndexID = 3490
-      Text = 'Delete step'
+      Text = 'Kustuta etapp'
     end
     item
       IndexID = 3491
-      Text = 'Transition'
+      Text = #220'leminek'
     end
     item
       IndexID = 3492
-      Text = 'Create Transition'
+      Text = 'Loo '#252'leminek'
     end
     item
       IndexID = 3493
-      Text = 'Duration'
+      Text = 'Kestus'
     end
     item
       IndexID = 3494
-      Text = 'Years'
+      Text = 'Aastad'
     end
     item
       IndexID = 3495
-      Text = 'Status text'
+      Text = 'Olekutekst'
     end
     item
       IndexID = 3496
-      Text = 'Screentype'
+      Text = 'Ekraani t'#252#252'p'
     end
     item
       IndexID = 3497
-      Text = 'Stepname'
+      Text = 'Etapi nimi'
     end
     item
       IndexID = 3498
-      Text = 'Stepdata'
+      Text = 'Etapi andmed'
     end
     item
       IndexID = 3499
       Text = 
-        'You still have a detail screen open press cancel or save to clos' +
-        'e.'
+        'Teil on detailivaade endiselt avatud! Sulgemiseks vajutage [T'#252'hi' +
+        'sta] v'#245'i [Salvesta]!'
     end
     item
       IndexID = 3500
-      Text = 'Add transition'
+      Text = 'Lisa '#252'leminek'
     end
     item
       IndexID = 3501
-      Text = 'Condition'
+      Text = 'Tingimus'
     end
     item
       IndexID = 3502
-      Text = 'Next process date'
+      Text = 'J'#228'rgmine t'#246#246'tlemise kuup'#228'ev'
     end
     item
       IndexID = 3503
-      Text = 'Curent value'
+      Text = 'Jooksev v'#228#228'rtus'
     end
     item
       IndexID = 3504
-      Text = 'Purchase date'
+      Text = 'Ostukuup'#228'ev'
     end
     item
       IndexID = 3505
-      Text = 'Write-off type'
+      Text = 'Mahakandmise t'#252#252'p'
     end
     item
       IndexID = 3506
-      Text = 'Write-off period'
+      Text = 'Mahakandmise periood'
     end
     item
       IndexID = 3507
-      Text = 'Linked transaction'
+      Text = 'Seotud kanne'
     end
     item
       IndexID = 3508
-      Text = 'Rest-amount'
+      Text = 'J'#228#228'kv'#228#228'rtus'
     end
     item
       IndexID = 3509
-      Text = 'Write-off percentage'
+      Text = 'Mahakandmise protsent'
     end
     item
       IndexID = 3510
-      Text = 'Next write-off amount'
+      Text = 'J'#228'rgmine mahakandmise summa'
     end
     item
       IndexID = 3511
-      Text = 'Total write-off on ledger'
+      Text = 'Kogumahakandmine pearaamatus'
     end
     item
       IndexID = 3512
-      Text = 'Needs processing'
+      Text = 'Vajab t'#246#246'tlemist'
     end
     item
       IndexID = 3513
-      Text = 'New transactions'
+      Text = 'Uued kanded'
     end
     item
       IndexID = 3514
-      Text = 'Add manual'
+      Text = 'Lisa k'#228'sitsi'
     end
     item
       IndexID = 3515
-      Text = 'Posted transactions'
+      Text = 'Kandele pandud kanded'
     end
     item
       IndexID = 3516
-      Text = 'Process (selected) lines'
+      Text = 'T'#246#246'tle (valitud) ridu'
     end
     item
       IndexID = 3517
-      Text = 'Purchase amount'
+      Text = 'Ostusumma'
     end
     item
       IndexID = 3518
-      Text = 'Activa'
+      Text = 'Aktiva'
     end
     item
       IndexID = 3519
-      Text = 'Add (selected) lines'
+      Text = 'Lisa (valitud) read'
     end
     item
       IndexID = 3520
-      Text = 'add consolidated'
+      Text = 'Lisa konsolideeritud'
     end
     item
       IndexID = 3521
-      Text = 'Show for this user'
+      Text = 'N'#228'ita sellele kasutajale'
     end
     item
       IndexID = 3522
-      Text = 'Selection'
+      Text = 'Valik'
     end
     item
       IndexID = 3523
-      Text = 'Adjust remittance date of selection to :'
+      Text = 'Kohanda valiku maksekuup'#228'ev j'#228'rgmisele:'
     end
     item
       IndexID = 3524
-      Text = 'No auto incasso'
+      Text = 'Automaatset makset ei toimu'
     end
     item
       IndexID = 3525
-      Text = 'With a remittance date from'
+      Text = 'Maksekuup'#228'evaga alates'
     end
     item
       IndexID = 3526
-      Text = 'Openitems with paydate from'
+      Text = 'Avatud kirjed maksekuup'#228'evaga alates'
     end
     item
       IndexID = 3527
-      Text = 'Email filter'
+      Text = 'E-posti filter'
     end
     item
       IndexID = 3528
-      Text = 'Email selected'
+      Text = 'E-posti teel saadetud valitud'
     end
     item
       IndexID = 3529
-      Text = 'Edit remittance'
+      Text = 'Muuda maksekorraldust'
     end
     item
       IndexID = 3530
-      Text = 'Print all'
+      Text = 'Tr'#252'ki k'#245'ik'
     end
     item
       IndexID = 3531
-      Text = 'Edit report'
+      Text = 'Muuda aruannet'
     end
     item
       IndexID = 3532
-      Text = 'Show report'
+      Text = 'N'#228'ita aruannet'
     end
     item
       IndexID = 3533
-      Text = 'Default days no remittance'
+      Text = 'Vaikimisi p'#228'evad ilma maksekorralduseta'
     end
     item
       IndexID = 3534
-      Text = 'Update multimedia'
+      Text = 'V'#228'rskenda multimeediat'
     end
     item
       IndexID = 3535
       Text = 
-        'This action will adjust the lats date remittance at the "selecte' +
-        'd" debtors. Do you wish to continue?'
+        'See toiming muudab "valitud" v'#245'lgnike viimast maksekorralduse ku' +
+        'up'#228'eva! Kas soovid j'#228'tkata?'
     end
     item
       IndexID = 3536
       Text = 
-        'This action will adjust the lats date remittance at the "ALL VIS' +
-        'IBLE" debtors. Do you wish to continue?'
+        'See toiming muudab "K'#213'IKIDE N'#196'HTAVATE" v'#245'lgnike viimast maksekor' +
+        'ralduse kuup'#228'eva! Kas soovid j'#228'tkata?'
     end
     item
       IndexID = 3537
-      Text = 'Popup if there are transactions'
+      Text = 'H'#252'pikaken, kui on tehinguid'
     end
     item
       IndexID = 3538
-      Text = 'Date oldest transaction'
+      Text = 'Vaniima tehingu kuup'#228'ev'
     end
     item
       IndexID = 3539
-      Text = 'Date last remittance'
+      Text = 'Viimase maksekorralduse kuup'#228'ev'
     end
     item
       IndexID = 3540
-      Text = 'Design edit fields'
+      Text = 'Kujunda muutmise v'#228'ljad'
     end
     item
       IndexID = 3541
-      Text = 'Design search fields'
+      Text = 'Kujunda otsingu v'#228'ljad'
     end
     item
       IndexID = 3542
-      Text = 'Search sql'
+      Text = 'Otsi SQL-i'
     end
     item
       IndexID = 3543
-      Text = 'Lookup language'
+      Text = 'Otsingu keel'
     end
     item
       IndexID = 3544
-      Text = 'Type of control'
+      Text = 'Kontrolli t'#252#252'p'
     end
     item
       IndexID = 3545
-      Text = 'Heigth'
+      Text = 'K'#245'rgus'
     end
     item
       IndexID = 3546
-      Text = 'Size'
+      Text = 'Suurus'
     end
     item
       IndexID = 3547
-      Text = 'Translation'
+      Text = 'T'#245'lge'
     end
     item
       IndexID = 3548
-      Text = 'Col origin'
+      Text = 'Veeru p'#228'ritolu'
     end
     item
       IndexID = 3549
-      Text = 'Save and rebuild'
+      Text = 'Salvesta ja ehita uuesti'
     end
     item
       IndexID = 3550
-      Text = 'Copy as new'
+      Text = 'Kopeeri uueks'
     end
     item
       IndexID = 3551
-      Text = 'Gen on table'
+      Text = 'Genereeri tabelil'
     end
     item
       IndexID = 3552
-      Text = 'Sql and extra data'
+      Text = 'SQL ja lisaandmed'
     end
     item
       IndexID = 3553
-      Text = 'Fieldtype'
+      Text = 'V'#228'lja t'#252#252'p'
     end
     item
       IndexID = 3554
-      Text = 'Default value'
+      Text = 'Vaikimisi v'#228#228'rtus'
     end
     item
       IndexID = 3555
-      Text = 'Write off for %s ended do you want to clear the activa accounts?'
+      Text = 'Mahakandmine %s l'#245'ppes, kas soovite aktiva kontod t'#252'hjendada?'
     end
     item
       IndexID = 3556
-      Text = 'Project'
+      Text = 'Projekt'
     end
     item
       IndexID = 3557
-      Text = 'Create entries'
+      Text = 'Loo kandeid'
     end
     item
       IndexID = 3558
-      Text = 'Entries createded!'
+      Text = 'Kanded loodud!'
     end
     item
       IndexID = 3559
-      Text = 'Bulk time entry'
+      Text = 'Aja mass-sisestus'
     end
     item
       IndexID = 3560
-      Text = 'Stock out'
+      Text = 'Ladu v'#228'lja'
     end
     item
       IndexID = 3561
-      Text = 'Stock in'
+      Text = 'Ladu sisse'
     end
     item
       IndexID = 3562
-      Text = 'Limit rows'
+      Text = 'Piira ridu'
     end
     item
       IndexID = 3563
-      Text = 'User tab'
+      Text = 'Kasutaja vaheleht'
     end
     item
       IndexID = 3564
-      Text = 'Auto learn'
+      Text = 'Automaatne '#245'pe'
     end
     item
       IndexID = 3565
-      Text = 'Unlinked items'
+      Text = 'Seostamata kaubad'
     end
     item
       IndexID = 3567
-      Text = 'Show inactive'
+      Text = 'N'#228'ita keelatuid'
     end
     item
       IndexID = 3568
-      Text = 'Quotes per period'
+      Text = 'Hinnapakkumised perioodi kohta'
     end
     item
       IndexID = 3569
-      Text = 'Credits per period'
+      Text = 'Kreeditkorraldused perioodi kohta'
     end
     item
       IndexID = 3570
-      Text = 'Invoices per period'
+      Text = 'Arved perioodi kohta'
     end
     item
       IndexID = 3571
-      Text = 'Sales per product'
+      Text = 'M'#252#252'k toote kohta'
     end
     item
       IndexID = 3572
-      Text = 'Orders per period'
+      Text = 'Ostutellimused perioodi kohta'
     end
     item
       IndexID = 3573
-      Text = 'Purchase per period'
+      Text = 'Ostud perioodi kohta'
     end
     item
       IndexID = 3574
-      Text = 'Returnnote per period'
+      Text = 'Tarnija tagastused perioodi kohta'
     end
     item
       IndexID = 3575
-      Text = 'Purchase per product'
+      Text = 'Ostud toote kohta'
     end
     item
       IndexID = 3576
-      Text = 'New report'
+      Text = 'Uus aruanne'
     end
     item
       IndexID = 3577
-      Text = 'New folder'
+      Text = 'Uus kaust'
     end
     item
       IndexID = 3578
-      Text = 'Create params and open'
+      Text = 'Loo parameetrid ja ava'
     end
     item
       IndexID = 3579
-      Text = 'No refresh after save'
+      Text = 'P'#228'rast salvestamist ei v'#228'rskendata'
     end
     item
       IndexID = 3580
-      Text = 'Select test document id'
+      Text = 'Vali testi dokumendi ID'
     end
     item
       IndexID = 3581
-      Text = 'Explorer folder'
+      Text = 'Explorer'#39'i kaust'
     end
     item
       IndexID = 3582
-      Text = 'Copy report'
+      Text = 'Kopeeri aruanne'
     end
     item
       IndexID = 3583
-      Text = 'Save gridlayout'
+      Text = 'Salvesta ruudustiku paigutus'
     end
     item
       IndexID = 3584
-      Text = 'Leads'
+      Text = 'Kliendikontaktid'
     end
     item
       IndexID = 3585
-      Text = 'Mass tag'
+      Text = 'Mass-silt'
     end
     item
       IndexID = 3586
-      Text = 'Tags'
+      Text = 'Sildid'
     end
     item
       IndexID = 3587
-      Text = 'Add tag'
+      Text = 'Lisa silt'
     end
     item
       IndexID = 3588
-      Text = 'Mass activity'
+      Text = 'Mass-tegevus'
     end
     item
       IndexID = 3589
-      Text = 'CRM'
+      Text = 'Kliendisuhete haldus'
     end
     item
       IndexID = 3590
-      Text = 'Activities'
+      Text = 'Tegevused'
     end
     item
       IndexID = 3591
-      Text = 'Add %s to records'
+      Text = 'Lisa %s kirjetele'
     end
     item
       IndexID = 3592
-      Text = 'Start timer'
+      Text = 'K'#228'ivita taimer'
     end
     item
       IndexID = 3593
-      Text = 'Stop timer'
+      Text = 'Peata taimer'
     end
     item
       IndexID = 3594
-      Text = 'All accounts'
+      Text = 'K'#245'ik kontod'
     end
     item
       IndexID = 3595
-      Text = 'Lead'
+      Text = 'Kliendikontakt'
     end
     item
       IndexID = 3596
-      Text = 'Followup'
+      Text = 'J'#228'relmeetmed'
     end
     item
       IndexID = 3597
-      Text = 'Direction'
+      Text = 'Suund'
     end
     item
       IndexID = 3598
-      Text = 'Incomming'
+      Text = 'Sissetulev'
     end
     item
       IndexID = 3599
-      Text = 'Outgoing'
+      Text = 'V'#228'ljaminev'
     end
     item
       IndexID = 3600
-      Text = 'Handeled'
+      Text = 'K'#228'sitletud'
     end
     item
       IndexID = 3601
-      Text = 'preform run on'
+      Text = 'K'#228'ivita'
     end
     item
       IndexID = 3602
-      Text = 'mass contact'
+      Text = 'Mass-kontakt'
     end
     item
       IndexID = 3603
-      Text = 'Billing matrix'
+      Text = 'Arveldusmaatriks'
     end
     item
       IndexID = 3604
-      Text = 'Minimum bill minutes'
+      Text = 'Minimaalsed arveldusminutid'
     end
     item
       IndexID = 3605
-      Text = 'Increment bill minutes'
+      Text = 'Arveldusminutite juurdekasv'
     end
     item
       IndexID = 3606
-      Text = 'Cross link'
+      Text = 'Ristlink'
     end
     item
       IndexID = 3607
-      Text = 'Skip lines'
+      Text = 'J'#228'ta read vahele'
     end
     item
       IndexID = 3608
-      Text = 'Delimiter'
+      Text = 'Eraldaja'
     end
     item
       IndexID = 3609
-      Text = 'Date format'
+      Text = 'Kuup'#228'eva formaat'
     end
     item
       IndexID = 3610
-      Text = 'Date seperator'
+      Text = 'Kuup'#228'eva eraldaja'
     end
     item
       IndexID = 3611
-      Text = 'Decimal seprator'
+      Text = 'K'#252'mnendkoha eraldaja'
     end
     item
       IndexID = 3612
-      Text = 'Redo'
+      Text = 'Korda'
     end
     item
       IndexID = 3613
-      Text = 'Leads dataset importer'
+      Text = 'Kliendikontaktide andmekogumi importija'
     end
     item
       IndexID = 3614
-      Text = 'Headers in file'
+      Text = 'P'#228'ised failis'
     end
     item
       IndexID = 3615
-      Text = 'Billing'
+      Text = 'Arveldus'
     end
     item
       IndexID = 3616
-      Text = 'Bill visible'
+      Text = 'Arveldus n'#228'htav'
     end
     item
       IndexID = 3617
-      Text = 'Convert to'
+      Text = 'Teisenda'
     end
     item
       IndexID = 3618
-      Text = 'Dashbord view'
+      Text = 'Armatuurlaua vaade'
     end
     item
       IndexID = 3619
-      Text = 'Duration'
+      Text = 'Kestus'
     end
     item
       IndexID = 3620
-      Text = 'Manual input in minutes'
+      Text = 'K'#228'sitsi sisestus minutites'
     end
     item
       IndexID = 3621
-      Text = 'Is billed'
+      Text = 'On arveldatud'
     end
     item
       IndexID = 3622
-      Text = 'Convert'
+      Text = 'Teisenda'
     end
     item
       IndexID = 3623
-      Text = 'Order is placed!'
+      Text = 'Ostutellimus on esitatud!'
     end
     item
       IndexID = 3624
-      Text = 'Select or create a document!'
+      Text = 'Valige v'#245'i looge dokument!'
     end
     item
       IndexID = 3625
-      Text = 'Please add items to your order!'
+      Text = 'Palun lisage kaubad ostutellimusse!'
     end
     item
       IndexID = 3626
-      Text = 'This list shows what you already ordered'
+      Text = 'See loend n'#228'itab, mida olete juba tellinud'
     end
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the o' +
-        'rder button'
+        'See loend n'#228'itab, mida tellite, kui vajutate [Ostutellimuse] nup' +
+        'pu'
     end
     item
       IndexID = 3628
-      Text = 'Select a product to add to your order list'
+      Text = 'Valige toode ostutellimuste loendisse lisamiseks'
     end
     item
       IndexID = 3629
-      Text = 'Merge'
+      Text = #220'henda'
     end
     item
       IndexID = 3630
-      Text = 'Table overview'
+      Text = 'Tabeli '#252'levaade'
     end
     item
       IndexID = 3631
-      Text = 'All orders'
+      Text = 'K'#245'ik ostutellimused'
     end
     item
       IndexID = 3632
-      Text = 'Print ticket'
+      Text = 'Tr'#252'ki pilet'
     end
     item
       IndexID = 3633
-      Text = 'Date reservation'
+      Text = 'Broneeringu kuup'#228'ev'
     end
     item
       IndexID = 3634
-      Text = 'Day memo'
+      Text = 'P'#228'eva memo'
     end
     item
       IndexID = 3635
-      Text = 'Guest'
+      Text = 'K'#252'laline'
     end
     item
       IndexID = 3636
-      Text = 'Create POS ticket'
+      Text = 'Loo POS kviitung'
     end
     item
       IndexID = 3637
-      Text = 'Person(s)'
+      Text = 'Isik(ud)'
     end
     item
       IndexID = 3638
-      Text = 'Stay in minutes'
+      Text = 'Viibimine minutites'
     end
     item
       IndexID = 3639
-      Text = 'Expected time'
+      Text = 'Eeldatav aeg'
     end
     item
       IndexID = 3640
-      Text = 'Horizontal pos layout'
+      Text = 'Horisontaalne POS paigutus'
     end
     item
       IndexID = 3641
-      Text = 'Vertical pos layout'
+      Text = 'Vertikaalne POS paigutus'
     end
     item
       IndexID = 3642
-      Text = 'Clear table movement'
+      Text = 'T'#252'hista laua liikumine'
     end
     item
       IndexID = 3643
-      Text = 'Move seat'
+      Text = 'Liiguta istekohta'
     end
     item
       IndexID = 3644
-      Text = 'Link seat'
+      Text = 'Seo istekoht'
     end
     item
       IndexID = 3645
-      Text = 'Unlink seat'
+      Text = 'Eemalda istmekoha seos'
     end
     item
       IndexID = 3646
-      Text = 'Hide <@APPNAME@> interface'
+      Text = 'Peida <@APPNAME@> liides'
     end
     item
       IndexID = 3647
-      Text = 'Telephonic orders'
+      Text = 'Telefonitellimused'
     end
     item
       IndexID = 3648
-      Text = 'Orders to deliverlist'
+      Text = 'Tarnitavate ostutellimuste loend'
     end
     item
       IndexID = 3649
-      Text = 'Lock'
+      Text = 'Lukusta'
     end
     item
       IndexID = 3650
-      Text = 'Start click here'
+      Text = 'Alusta kl'#245'psates siin'
     end
     item
       IndexID = 3651
-      Text = 'Click here again'
+      Text = 'Kl'#245'psake siin uuesti'
     end
     item
       IndexID = 3652
-      Text = 'Click here'
+      Text = 'Kl'#245'psake siin'
     end
     item
       IndexID = 3653
-      Text = 'Reservations'
+      Text = 'Broneeringud'
     end
     item
       IndexID = 3654
-      Text = 'Close pos'
+      Text = 'Sulge POS'
     end
     item
       IndexID = 3655
-      Text = 'Cash entry'
+      Text = 'Kassa kanne'
     end
     item
       IndexID = 3656
-      Text = 'Payment of posted documents'
+      Text = 'Kandele pandud dokumentide tasumine'
     end
     item
       IndexID = 3657
-      Text = 'Show doc info'
+      Text = 'N'#228'ita dokumendi infot'
     end
     item
       IndexID = 3658
-      Text = 'Simple action buttons'
+      Text = 'Lihtsad tegevusnupud'
     end
     item
       IndexID = 3659
-      Text = 'No captions'
+      Text = 'Pealkirju pole'
     end
     item
       IndexID = 3660
-      Text = 'dayly provission'
+      Text = 'P'#228'evane proviis'
     end
     item
       IndexID = 3661
-      Text = 'Document without border'
+      Text = 'Dokument ilma '#228#228'riseta'
     end
     item
       IndexID = 3662
-      Text = 'Posted payments'
+      Text = 'Kandele pandud maksed'
     end
     item
       IndexID = 3663
-      Text = 'Sales per table'
+      Text = 'M'#252#252'k laua kohta'
     end
     item
       IndexID = 3664
-      Text = 'New order'
+      Text = 'Uus ostutellimus'
     end
     item
       IndexID = 3665
-      Text = 'Show fixed first group list'
+      Text = 'N'#228'ita fikseeritud esimest r'#252'hma loendit'
     end
     item
       IndexID = 3666
-      Text = 'Show current totals in list'
+      Text = 'N'#228'ita jooksvat kogusummat loendis'
     end
     item
       IndexID = 3667
-      Text = 'Recieve seperate payments'
+      Text = 'V'#245'ta vastu eraldi maksed'
     end
     item
       IndexID = 3668
-      Text = 'Create account from documentdetails'
+      Text = 'Loo konto dokumendi detailide p'#245'hjal'
     end
     item
       IndexID = 3669
-      Text = 'Send documenttype'
+      Text = 'Saada dokumendi t'#252#252'p'
     end
     item
       IndexID = 3670
-      Text = 'Print document and send email'
+      Text = 'Tr'#252'ki dokument ja saada e-kiri'
     end
     item
       IndexID = 3671
-      Text = 'Username'
+      Text = 'Kasutajanimi'
     end
     item
       IndexID = 3672
-      Text = 'Enable auto set inactive debtor after x days unpayed'
+      Text = 'Luba v'#245'lgniku passiivseks muutmine (x tasumata p'#228'eva j'#228'rel)'
     end
     item
       IndexID = 3673
-      Text = 'Days after payment before inactive'
+      Text = 'P'#228'evad p'#228'rast tasumist enne passiivseks muutumist'
     end
     item
       IndexID = 3674
-      Text = 'Do you want to run this process for 1 creditor?'
+      Text = 'Kas soovite seda protsessi k'#228'ivitada '#252'he hankija jaoks?'
     end
     item
       IndexID = 3675
-      Text = 'Tax list debtor / creditor with taxid'
+      Text = 'KM-i loetelu kliendi KMKR-koodiga'
     end
     item
       IndexID = 3676
       Text = 
-        'Unposted documents found ! Please process all documents before m' +
-        'anual edit'
+        'Leiti kandmata dokumente! Palun t'#246#246'tle k'#245'ik dokumendid enne k'#228'si' +
+        'tsi muutmist!'
     end
     item
       IndexID = 3677
-      Text = 'Start quantity'
+      Text = 'Algkogus'
     end
     item
       IndexID = 3678
-      Text = 'Expected quantity'
+      Text = 'Oodatav kogus'
     end
     item
       IndexID = 3679
-      Text = 'Production date'
+      Text = 'Tootmiskuup'#228'ev'
     end
     item
       IndexID = 3680
-      Text = 'Max salesdate'
+      Text = 'Maksimaalne m'#252#252'gikuup'#228'ev'
     end
     item
       IndexID = 3681
-      Text = 'Location'
+      Text = 'Asukoht'
     end
     item
       IndexID = 3682
-      Text = 'Serial'
+      Text = 'Seerianumber'
     end
     item
       IndexID = 3683
-      Text = 'Batch'
+      Text = 'Partii'
     end
     item
       IndexID = 3684
-      Text = 'Total sold'
+      Text = 'Kokku m'#252#252'dud'
     end
     item
       IndexID = 3685
-      Text = 'Find with central search'
+      Text = 'Leia keskse otsinguga'
     end
     item
       IndexID = 3686
-      Text = 'No account creation'
+      Text = 'Konto loomist ei toimu'
     end
     item
       IndexID = 3687
-      Text = 'Match on open amounts'
+      Text = 'Vasta avatud summadele'
     end
     item
       IndexID = 3688
-      Text = 'Total Exp sales on price 2'
+      Text = 'Kogum'#252#252'gi ootus hinnaga 2'
     end
     item
       IndexID = 3689
-      Text = 'Total Stock value'
+      Text = 'Kogu laov'#228#228'rtus'
     end
     item
       IndexID = 3690
-      Text = 'Enter email adress seperate with ;'
+      Text = 'Sisesta e-posti aadress, eraldades semikooloniga'
     end
     item
       IndexID = 3691
-      Text = 'Countries'
+      Text = 'Riigid'
     end
     item
       IndexID = 3692
-      Text = 'Correction missing transact'
+      Text = 'Puuduva kande parandus (tehingute vananemise korrigeerimine)'
     end
     item
       IndexID = 3693
-      Text = 'Please save or cancel your document first'
+      Text = 'Palun salvestage v'#245'i t'#252'histage esmalt oma dokument!'
     end
     item
       IndexID = 3694
-      Text = 'Please save or cancel your stock first'
+      Text = 'Palun salvesta v'#245'i t'#252'hista esmalt oma laoseis!'
     end
     item
       IndexID = 3695
-      Text = 'Please save or cancel your debtor first'
+      Text = 'Palun salvestage v'#245'i t'#252'histage esmalt v'#245'lgnik!'
     end
     item
       IndexID = 3696
-      Text = 'Please save or cancel your creditor first'
+      Text = 'Palun salvestage v'#245'i t'#252'histage esmalt hankija!'
     end
     item
       IndexID = 3697
-      Text = 'Spreadsheet sales'
+      Text = 'Tabelm'#252#252'k'
     end
     item
       IndexID = 3698
-      Text = 'Spreadsheet reports'
+      Text = 'Tabelaruanded'
     end
     item
       IndexID = 3699
-      Text = 'Use all to stop asking this question.'
+      Text = 'Valige [K'#245'ik], et l'#245'petada selle k'#252'simuse k'#252'simine.'
     end
     item
       IndexID = 3700
-      Text = 'View'
+      Text = 'Vaade'
     end
     item
       IndexID = 3701
-      Text = 'Zoom'
+      Text = 'Suumi'
     end
     item
       IndexID = 3702
-      Text = 'Page layout'
+      Text = 'Lehek'#252'lje paigutus'
     end
     item
       IndexID = 3703
-      Text = 'Formules'
+      Text = 'Valemid'
     end
     item
       IndexID = 3704
-      Text = 'Import check'
+      Text = 'Impordi kontroll'
     end
     item
       IndexID = 3705
-      Text = 'Profile'
+      Text = 'Profiil'
     end
     item
       IndexID = 3706
-      Text = 'Save profile'
+      Text = 'Salvesta profiil'
     end
     item
       IndexID = 3707
-      Text = 'Add profile'
+      Text = 'Lisa profiil'
     end
     item
       IndexID = 3708
-      Text = 'Import type'
+      Text = 'Impordi t'#252#252'p'
     end
     item
       IndexID = 3709
-      Text = 'Link on'
+      Text = 'Link'
     end
     item
       IndexID = 20124
-      Text = '<No data to display>'
+      Text = '<Andmed puuduvad>'
     end
     item
       IndexID = 21216
-      Text = 'Save Metafile As'
+      Text = 'Salvesta metafailina'
     end
     item
       IndexID = 21094
-      Text = 'Cancel'
+      Text = 'T'#252'hista'
     end
     item
       IndexID = 21218
-      Text = 'Cancels the report calculation'
+      Text = 'T'#252'histab aruande arvutamise'
     end
     item
       IndexID = 21052
-      Text = 'Print'
+      Text = 'Prindi'
     end
     item
       IndexID = 21053
-      Text = 'Print the report, you can select pages to print'
+      Text = 'Prindib aruande. Saate valida prinditavad lehek'#252'ljed.'
     end
     item
       IndexID = 21046
-      Text = 'Save...'
+      Text = 'Salvesta...'
     end
     item
       IndexID = 21217
-      Text = 'Save the report as a metafile report'
+      Text = 'Salvesta aruanne metafaili aruandena'
     end
     item
       IndexID = 22230
-      Text = 'Mail to'
+      Text = 'Saada e-kirjaga'
     end
     item
       IndexID = 22231
-      Text = 'Sends the reports to a e-mail destination'
+      Text = 'Saadab aruanded e-posti aadressile'
     end
     item
       IndexID = 21044
-      Text = 'AExit'
+      Text = 'V'#228'lju'
     end
     item
       IndexID = 21219
-      Text = 'Closes the preview window'
+      Text = 'Sulgeb eelvaate akna'
     end
     item
       IndexID = 21135
-      Text = 'Parameters'
+      Text = 'Parameetrid'
     end
     item
       IndexID = 21136
-      Text = 'Show report parameters'
+      Text = 'N'#228'ita aruande parameetreid'
     end
     item
       IndexID = 21220
-      Text = 'First page'
+      Text = 'Esimene lehek'#252'lg'
     end
     item
       IndexID = 21221
-      Text = 'Goes to the first page of the report'
+      Text = 'L'#228'heb aruande esimesele lehek'#252'ljele'
     end
     item
       IndexID = 21222
-      Text = 'Previous page'
+      Text = 'Eelmine lehek'#252'lg'
     end
     item
       IndexID = 21223
-      Text = 'Shows the previous page'
+      Text = 'N'#228'itab eelmist lehek'#252'lge'
     end
     item
       IndexID = 21224
-      Text = 'Next page'
+      Text = 'J'#228'rgmine lehek'#252'lg'
     end
     item
       IndexID = 21225
-      Text = 'Shows the next page'
+      Text = 'N'#228'itab j'#228'rgmist lehek'#252'lge'
     end
     item
       IndexID = 21226
-      Text = 'Last page'
+      Text = 'Viimane lehek'#252'lg'
     end
     item
       IndexID = 21227
-      Text = 'Goes to the last page of the report'
+      Text = 'L'#228'heb aruande viimasele lehek'#252'ljele'
     end
     item
       IndexID = 21228
-      Text = 'Normal Scale'
+      Text = 'Normaalne skaala'
     end
     item
       IndexID = 21229
-      Text = 'Shows the report in real size'
+      Text = 'N'#228'itab aruannet tegelikus suuruses'
     end
     item
       IndexID = 21230
-      Text = 'Scale to window'
+      Text = 'Mastaabi akna j'#228'rgi'
     end
     item
       IndexID = 21231
-      Text = 'Scale adjusting the paper to the window width'
+      Text = 'Mastaap reguleerib paberit akna laiuse j'#228'rgi'
     end
     item
       IndexID = 21232
-      Text = 'Scale to full page'
+      Text = 'Mastaap kogu lehek'#252'ljele'
     end
     item
       IndexID = 21233
-      Text = 'Scale to view full page'
+      Text = 'Mastaap kogu lehek'#252'lje vaatamiseks'
     end
     item
       IndexID = 21234
-      Text = 'Zoom-'
+      Text = 'Suumi v'#228'lja'
     end
     item
       IndexID = 21235
-      Text = 'Zooms out the view'
+      Text = 'Suumib vaate v'#228'lja'
     end
     item
       IndexID = 21236
-      Text = 'Zoom+'
+      Text = 'Suumi sisse'
     end
     item
       IndexID = 21237
-      Text = 'Zooms in the view'
+      Text = 'Suumib vaate sisse'
     end
     item
       IndexID = 21050
-      Text = 'Page Setup'
+      Text = 'Lehek'#252'lje seadistus'
     end
     item
       IndexID = 21051
-      Text = 'Show report page setup'
+      Text = 'N'#228'ita aruande lehek'#252'lje seadistust'
     end
     item
       IndexID = 22434
-      Text = 'Find'
+      Text = 'Leia'
     end
     item
       IndexID = 22435
-      Text = 'Find text'
+      Text = 'Leia tekst'
     end
     item
       IndexID = 21095
-      Text = 'Default'
+      Text = 'Vaikimisi'
     end
     item
       IndexID = 21093
@@ -12710,395 +12726,395 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21096
-      Text = 'Custom'
+      Text = 'Kohandatud'
     end
     item
       IndexID = 21732
-      Text = 'User defined'
+      Text = 'Kasutaja m'#228#228'ratud'
     end
     item
       IndexID = 21097
-      Text = 'Page size'
+      Text = 'Lehek'#252'lje suurus'
     end
     item
       IndexID = 21104
-      Text = 'Custom size'
+      Text = 'Kohandatud suurus'
     end
     item
       IndexID = 21733
-      Text = 'Custom size'
+      Text = 'Kohandatud suurus'
     end
     item
       IndexID = 21098
-      Text = 'Page orientation'
+      Text = 'Lehek'#252'lje suund'
     end
     item
       IndexID = 21099
-      Text = 'Page Margins'
+      Text = 'Lehek'#252'lje veerised'
     end
     item
       IndexID = 21100
-      Text = 'Left'
+      Text = 'Vasak'
     end
     item
       IndexID = 21101
-      Text = 'Right'
+      Text = 'Parem'
     end
     item
       IndexID = 21102
-      Text = 'Top'
+      Text = #220'lemine'
     end
     item
       IndexID = 21103
-      Text = 'Bottom'
+      Text = 'Alumine'
     end
     item
       IndexID = 21105
-      Text = 'Custom page orientation'
+      Text = 'Kohandatud lehek'#252'lje suund'
     end
     item
       IndexID = 21106
-      Text = 'Portrait'
+      Text = 'P'#252'stpaigutus'
     end
     item
       IndexID = 21107
-      Text = 'Landscape'
+      Text = 'R'#245'htpaigutus'
     end
     item
       IndexID = 21108
-      Text = 'Copies'
+      Text = 'Koopiad'
     end
     item
       IndexID = 22377
-      Text = 'Lines per inch'
+      Text = 'Ridu tolli kohta'
     end
     item
       IndexID = 21109
-      Text = 'Collate copies'
+      Text = 'Koguda koopiad'
     end
     item
       IndexID = 21110
-      Text = 'Dialog'
+      Text = 'Dialoog'
     end
     item
       IndexID = 21111
-      Text = 'Two pass report'
+      Text = 'Kahe k'#228'iguga aruanne'
     end
     item
       IndexID = 21800
-      Text = 'Print only if data available'
+      Text = 'Prindi ainult siis, kui andmed on saadaval'
     end
     item
       IndexID = 21112
-      Text = 'Report language'
+      Text = 'Aruande keel'
     end
     item
       IndexID = 21113
-      Text = 'Printer Fonts (Windows GDI Only)'
+      Text = 'Printeri fondid (ainult Windows GDI)'
     end
     item
       IndexID = 21114
-      Text = 'Always use printer fonts'
+      Text = 'Kasuta alati printeri fonte'
     end
     item
       IndexID = 21115
-      Text = 'Never use printer fonts'
+      Text = #196'ra kunagi kasuta printeri fonte'
     end
     item
       IndexID = 22433
-      Text = 'Recalculte report'
+      Text = 'Arvuta aruanne uuesti'
     end
     item
       IndexID = 21116
-      Text = 'Background color'
+      Text = 'Taustav'#228'rv'
     end
     item
       IndexID = 21741
-      Text = 'Select Printer'
+      Text = 'Vali printer'
     end
     item
       IndexID = 21143
-      Text = 'Configure printers'
+      Text = 'Seadista printerid'
     end
     item
       IndexID = 21840
-      Text = 'Preview window and scale'
+      Text = 'Eelvaate aken ja skaala'
     end
     item
       IndexID = 21841
-      Text = 'Normal'
+      Text = 'Normaalne'
     end
     item
       IndexID = 21842
-      Text = 'Maxmized'
+      Text = 'Maksimeeritud'
     end
     item
       IndexID = 21843
-      Text = 'Wide'
+      Text = 'Lai'
     end
     item
       IndexID = 21844
-      Text = 'Normal'
+      Text = 'Normaalne'
     end
     item
       IndexID = 21845
-      Text = 'Page'
+      Text = 'Lehek'#252'lg'
     end
     item
       IndexID = 21857
-      Text = 'Page setup'
+      Text = 'Lehek'#252'lje seadistus'
     end
     item
       IndexID = 21858
-      Text = 'Print setup'
+      Text = 'Printimise seadistus'
     end
     item
       IndexID = 22347
-      Text = 'Application Font'
+      Text = 'Rakenduse font'
     end
     item
       IndexID = 22348
-      Text = 'Application Font'
+      Text = 'Rakenduse font'
     end
     item
       IndexID = 21000
-      Text = '&File'
+      Text = '&Fail'
     end
     item
       IndexID = 21001
-      Text = 'Report Manager Designer'
+      Text = 'Aruannete halduri disainer'
     end
     item
       IndexID = 21002
-      Text = '&Report'
+      Text = '&Aruanne'
     end
     item
       IndexID = 21003
-      Text = '&Edit'
+      Text = '&Muuda'
     end
     item
       IndexID = 21004
-      Text = '&Display'
+      Text = '&Kuva'
     end
     item
       IndexID = 21007
-      Text = 'Grid'
+      Text = 'V'#245'rk'
     end
     item
       IndexID = 21008
-      Text = 'Grid options for this report'
+      Text = 'Aruande v'#245'rgustiku valikud'
     end
     item
       IndexID = 21009
-      Text = 'Cut'
+      Text = 'L'#245'ika'
     end
     item
       IndexID = 21150
-      Text = 'Delete'
+      Text = 'Kustuta'
     end
     item
       IndexID = 22106
-      Text = 'Delete the selected object'
+      Text = 'Kustuta valitud objekt'
     end
     item
       IndexID = 21010
-      Text = 'Copy'
+      Text = 'Kopeeri'
     end
     item
       IndexID = 21011
-      Text = 'Paste'
+      Text = 'Aseta'
     end
     item
       IndexID = 21012
-      Text = 'Cut selected object'
+      Text = 'L'#245'ika valitud objekt'
     end
     item
       IndexID = 21013
-      Text = 'Copy selected object to clipboard'
+      Text = 'Kopeeri valitud objekt l'#245'ikepuhvrisse'
     end
     item
       IndexID = 21014
-      Text = 'Paste from clipboard'
+      Text = 'Aseta l'#245'ikepuhvrist'
     end
     item
       IndexID = 21015
-      Text = 'Hide'
+      Text = 'Peida'
     end
     item
       IndexID = 21016
-      Text = 'Hide selected objects'
+      Text = 'Peida valitud objektid'
     end
     item
       IndexID = 21017
-      Text = 'Show all'
+      Text = 'N'#228'ita k'#245'iki'
     end
     item
       IndexID = 21018
-      Text = 'Shows all the hiden components'
+      Text = 'N'#228'itab k'#245'iki peidetud komponente'
     end
     item
       IndexID = 21019
-      Text = 'All'
+      Text = 'K'#245'ik'
     end
     item
       IndexID = 21117
-      Text = 'All Text'
+      Text = 'Kogu tekst'
     end
     item
       IndexID = 21118
-      Text = 'Selects all text components of the report'
+      Text = 'Valib k'#245'ik aruande tekstikomponendid'
     end
     item
       IndexID = 21020
-      Text = 'Selects all components of the report'
+      Text = 'Valib k'#245'ik aruande komponendid'
     end
     item
       IndexID = 21021
-      Text = 'Select'
+      Text = 'Vali'
     end
     item
       IndexID = 21022
-      Text = 'Move'
+      Text = 'Liiguta'
     end
     item
       IndexID = 21023
-      Text = 'Left'
+      Text = 'Vasakule'
     end
     item
       IndexID = 21024
-      Text = 'Moves the selection to the left'
+      Text = 'Liigutab valikut vasakule'
     end
     item
       IndexID = 21025
-      Text = 'Right'
+      Text = 'Paremale'
     end
     item
       IndexID = 21026
-      Text = 'Moves the selection to the left'
+      Text = 'Liigutab valikut paremale'
     end
     item
       IndexID = 21027
-      Text = 'Up'
+      Text = #220'les'
     end
     item
       IndexID = 21028
-      Text = 'Moves the selection up'
+      Text = 'Liigutab valikut '#252'les'
     end
     item
       IndexID = 21029
-      Text = 'Down'
+      Text = 'Alla'
     end
     item
       IndexID = 21030
-      Text = 'Moves the selection down'
+      Text = 'Liigutab valikut alla'
     end
     item
       IndexID = 21031
-      Text = 'Align'
+      Text = 'Joonda'
     end
     item
       IndexID = 21032
-      Text = 'Aligns selection to the left'
+      Text = 'Joondab valiku vasakule'
     end
     item
       IndexID = 21033
-      Text = 'Aligns selection to the right'
+      Text = 'Joondab valiku paremale'
     end
     item
       IndexID = 21034
-      Text = 'Aligns selection up'
+      Text = 'Joondab valiku '#252'les'
     end
     item
       IndexID = 21035
-      Text = 'Aligns selection down'
+      Text = 'Joondab valiku alla'
     end
     item
       IndexID = 21036
-      Text = 'Horizontal space'
+      Text = 'Horisontaalne vahe'
     end
     item
       IndexID = 21037
-      Text = 'Aligns selection distributing horzontal space'
+      Text = 'Joondab valiku, jaotades horisontaalse ruumi'
     end
     item
       IndexID = 21038
-      Text = 'Vertical space'
+      Text = 'Vertikaalne vahe'
     end
     item
       IndexID = 21039
-      Text = 'Aligns selection distributing vertical space'
+      Text = 'Joondab valiku, jaotades vertikaalse ruumi'
     end
     item
       IndexID = 21040
-      Text = 'New'
+      Text = 'Uus'
     end
     item
       IndexID = 21041
-      Text = 'Creates a new report'
+      Text = 'Loob uue aruande'
     end
     item
       IndexID = 21042
-      Text = 'Open'
+      Text = 'Ava'
     end
     item
       IndexID = 21043
-      Text = 'Opens an existing report'
+      Text = 'Avab olemasoleva aruande'
     end
     item
       IndexID = 21045
-      Text = 'Closes de application'
+      Text = 'Sulgeb rakenduse'
     end
     item
       IndexID = 21047
-      Text = 'Saves the current report'
+      Text = 'Salvestab praeguse aruande'
     end
     item
       IndexID = 21048
-      Text = 'Save as...'
+      Text = 'Salvesta nimega...'
     end
     item
       IndexID = 21049
-      Text = 'Saves the report to a new file'
+      Text = 'Salvestab aruande uude faili'
     end
     item
       IndexID = 21054
-      Text = 'Print Preview'
+      Text = 'Printimise eelvaade'
     end
     item
       IndexID = 21055
-      Text = 'Preview the report in the screen'
+      Text = 'Kuva aruande eelvaade ekraanil'
     end
     item
       IndexID = 21056
-      Text = 'Printer setup...'
+      Text = 'Printeri seadistus...'
     end
     item
       IndexID = 21057
-      Text = 'Displays printer setup dialog'
+      Text = 'Kuvab printeri seadistuse dialoogi'
     end
     item
       IndexID = 21006
-      Text = '&Help'
+      Text = '&Abi'
     end
     item
       IndexID = 21058
-      Text = 'About Report Manager'
+      Text = 'Aruandehalduri kohta'
     end
     item
       IndexID = 21059
-      Text = 'Shows information about Report Manger'
+      Text = 'N'#228'itab teavet Aruandehalduri kohta'
     end
     item
       IndexID = 21060
-      Text = 'Documentation'
+      Text = 'Dokumentatsioon'
     end
     item
       IndexID = 21061
-      Text = 'Display Report Manager Designer Documentation'
+      Text = 'Kuva Aruandehalduri disaineri dokumentatsioon'
     end
     item
       IndexID = 21062
-      Text = 'Measurement'
+      Text = 'M'#245#245't'#252'hik'
     end
     item
       IndexID = 21063
@@ -13106,165 +13122,171 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21064
-      Text = 'Change measurement units to cms'
+      Text = 'Muuda m'#245#245't'#252'hikud cm-deks'
     end
     item
       IndexID = 21065
-      Text = 'Inches'
+      Text = 'Tollid'
     end
     item
       IndexID = 21066
-      Text = 'Changes measurement units to inchess'
+      Text = 'Muudab m'#245#245't'#252'hikud tollideks'
     end
     item
       IndexID = 21067
-      Text = 'Driver'
+      Text = 'Draiver'
     end
     item
       IndexID = 21068
-      Text = 'Qt driver (CLX)'
+      Text = 'Qt draiver (CLX)'
     end
     item
       IndexID = 21069
-      Text = 'Activates the Qt cross platform graphics and printing driver'
+      Text = 'Aktiveerib Qt platvormide'#252'lese graafika- ja tr'#252'kidraiveri'
     end
     item
       IndexID = 21070
-      Text = 'GDI Driver (VCL)'
+      Text = 'GDI draiver (VCL)'
     end
     item
       IndexID = 21071
-      Text = 'Activates the GDI32 direct rendering driver (VCL), Windows only'
+      Text = 
+        'Aktiveerib GDI32 otsese renderdamise draiveri (VCL), ainult Wind' +
+        'owsis'
     end
     item
       IndexID = 21936
-      Text = 'Native driver'
+      Text = 'Kohalik draiver'
     end
     item
       IndexID = 21939
-      Text = 'Activates the Native driver, no graphics dependent'
+      Text = 'Aktiveerib kohaliku draiveri, graafikast s'#245'ltumatu'
     end
     item
       IndexID = 21074
-      Text = 'Kylix Print Bugfix'
+      Text = 'Kylix printimise veaparandus'
     end
     item
       IndexID = 21075
-      Text = 'Uses kylix print bugfix (use metaprint to print metafiles)'
+      Text = 
+        'Kasutab Kylix printimise veaparandust (kasuta metaprinti metaand' +
+        'mete printimiseks)'
     end
     item
       IndexID = 21076
-      Text = 'Status bar'
+      Text = 'Olekuriba'
     end
     item
       IndexID = 21077
-      Text = 'Shows or hides the status bar'
+      Text = 'N'#228'itab v'#245'i peidab olekuriba'
     end
     item
       IndexID = 21005
-      Text = '&Preferences'
+      Text = '&Eelistused'
     end
     item
       IndexID = 21072
-      Text = 'Qt System print dialog'
+      Text = 'Qt s'#252'steemi printimisdialoog'
     end
     item
       IndexID = 21073
-      Text = 'Shows the system print dialog, or a custom print dialog'
+      Text = 
+        'N'#228'itab s'#252'steemi printimisdialoogi v'#245'i kohandatud printimisdialoo' +
+        'gi'
     end
     item
       IndexID = 21081
-      Text = 'Select objects'
+      Text = 'Vali objektid'
     end
     item
       IndexID = 21082
-      Text = 'Inserts a static text'
+      Text = 'Lisab staatilise teksti'
     end
     item
       IndexID = 21083
-      Text = 'Inserts a expression'
+      Text = 'Lisab avaldise'
     end
     item
       IndexID = 21084
-      Text = 'Inserts a simple drawing'
+      Text = 'Lisab lihtsa joonise'
     end
     item
       IndexID = 21085
-      Text = 'Inserts a image'
+      Text = 'Lisab pildi'
     end
     item
       IndexID = 21086
-      Text = 'Inserts a barcode'
+      Text = 'Lisab v'#246#246'tkoodi'
     end
     item
       IndexID = 21087
-      Text = 'Inserts a chart'
+      Text = 'Lisab diagrammi'
     end
     item
       IndexID = 22059
-      Text = 'Align height 1/6'
+      Text = 'Joonda k'#245'rgus 1/6'
     end
     item
       IndexID = 22060
       Text = 
-        'Aligns all sections height to 1/6 inchess for dot matrix compati' +
-        'bility'
+        'Joondab k'#245'igi sektsioonide k'#245'rguse 1/6 tollini maatriksprinteri ' +
+        #252'hilduvuse tagamiseks'
     end
     item
       IndexID = 22080
-      Text = 'Libraries'
+      Text = 'Teegid'
     end
     item
       IndexID = 22081
-      Text = 'Open report libraries dialog'
+      Text = 'Ava aruande teekide dialoog'
     end
     item
       IndexID = 21976
-      Text = 'System information'
+      Text = 'S'#252'steemi teave'
     end
     item
       IndexID = 21977
-      Text = 'Shows system and printer information'
+      Text = 'N'#228'itab s'#252'steemi ja printeri teavet'
     end
     item
       IndexID = 21119
-      Text = 'Page header'
+      Text = 'Lehek'#252'lje p'#228'is'
     end
     item
       IndexID = 21120
-      Text = 'Inserts a page header in the selected subreport'
+      Text = 'Lisab lehek'#252'lje p'#228'ise valitud alamaruandesse'
     end
     item
       IndexID = 21121
-      Text = 'Page footer'
+      Text = 'Lehek'#252'lje jalus'
     end
     item
       IndexID = 21122
-      Text = 'Inserts a page footer in the selected subreport'
+      Text = 'Lisab lehek'#252'lje jaluse valitud alamaruandesse'
     end
     item
       IndexID = 21123
-      Text = 'Group header and footer'
+      Text = 'Grupi p'#228'is ja jalus'
     end
     item
       IndexID = 21124
-      Text = 'Insert a group header an footer'
+      Text = 'Lisa grupi p'#228'is ja jalus'
     end
     item
       IndexID = 21125
-      Text = 'Subreport'
+      Text = 'Alamaruanne'
     end
     item
       IndexID = 21126
-      Text = 'Insert a new subreport'
+      Text = 'Lisa uus alamaruane'
     end
     item
       IndexID = 21127
-      Text = 'Delete section/subreport'
+      Text = 'Kustuta sektsioon/alamaruane'
     end
     item
       IndexID = 21128
-      Text = 'Deletes the selected subreport or section'
+      Text = 'Kustutab valitud alamaruande v'#245'i sektsiooni'
     end
     item
       IndexID = 21129
@@ -13272,321 +13294,321 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21130
-      Text = 'Inserts a detail section in the selected subreport'
+      Text = 'Lisab detailisektsiooni valitud alamaruandesse'
     end
     item
       IndexID = 21131
-      Text = 'Data access configuration'
+      Text = 'Andmetele juurdep'#228#228'su seadistus'
     end
     item
       IndexID = 21132
-      Text = 'Modifies data access information'
+      Text = 'Muudab andmetele juurdep'#228#228'su teavet'
     end
     item
       IndexID = 21133
-      Text = 'Parameter definition'
+      Text = 'Parameetri m'#228#228'ratlus'
     end
     item
       IndexID = 21134
-      Text = 'Shows parameter definition for the report and data configuration'
+      Text = 'N'#228'itab aruande ja andmekonfiguratsiooni parameetri m'#228#228'ratlust'
     end
     item
       IndexID = 21149
-      Text = 'Add'
+      Text = 'Lisa'
     end
     item
       IndexID = 21835
-      Text = 'Load section'
+      Text = 'Laadi sektsioon'
     end
     item
       IndexID = 21836
-      Text = 'Save section'
+      Text = 'Salvesta sektsioon'
     end
     item
       IndexID = 21137
-      Text = 'Delete section'
+      Text = 'Kustuta sektsioon'
     end
     item
       IndexID = 21138
-      Text = 'Delete the selected section'
+      Text = 'Kustuta valitud sektsioon'
     end
     item
       IndexID = 21139
-      Text = 'Moves the section up'
+      Text = 'Liigutab sektsiooni '#252'les'
     end
     item
       IndexID = 21140
-      Text = 'Moves the section down'
+      Text = 'Liigutab sektsiooni alla'
     end
     item
       IndexID = 21734
-      Text = 'Adds a section to the selected subreport'
+      Text = 'Lisab sektsiooni valitud alamaruandesse'
     end
     item
       IndexID = 22097
-      Text = 'Database connections and datasets'
+      Text = 'Andmebaasi '#252'hendused ja andmekogumid'
     end
     item
       IndexID = 21142
-      Text = 'Connections'
+      Text = #220'hendused'
     end
     item
       IndexID = 21148
-      Text = 'Datasets'
+      Text = 'Andmekogumid'
     end
     item
       IndexID = 21144
-      Text = 'Login prompt'
+      Text = 'Sisselogimise viip'
     end
     item
       IndexID = 21145
-      Text = 'Load params'
+      Text = 'Laadi parameetrid'
     end
     item
       IndexID = 21146
-      Text = 'Load driver params'
+      Text = 'Laadi draiveri parameetrid'
     end
     item
       IndexID = 21753
-      Text = 'Connect'
+      Text = #220'henda'
     end
     item
       IndexID = 21168
-      Text = 'Build...'
+      Text = 'Ehita...'
     end
     item
       IndexID = 22098
-      Text = 'Available connections'
+      Text = 'Saadaolevad '#252'hendused'
     end
     item
       IndexID = 22099
-      Text = 'Connection String'
+      Text = #220'henduse string'
     end
     item
       IndexID = 22100
-      Text = 'Available'
+      Text = 'Saadaval'
     end
     item
       IndexID = 22101
-      Text = 'Database driver'
+      Text = 'Andmebaasi draiver'
     end
     item
       IndexID = 22102
-      Text = 'New connection'
+      Text = 'Uus '#252'hendus'
     end
     item
       IndexID = 22103
-      Text = 'Adds a new connection'
+      Text = 'Lisab uue '#252'henduse'
     end
     item
       IndexID = 22104
-      Text = 'Delete connection'
+      Text = 'Kustuta '#252'hendus'
     end
     item
       IndexID = 22105
-      Text = 'Deletes the selected connection'
+      Text = 'Kustutab valitud '#252'henduse'
     end
     item
       IndexID = 21152
-      Text = 'Parameters'
+      Text = 'Parameetrid'
     end
     item
       IndexID = 21154
-      Text = 'Connection'
+      Text = #220'hendus'
     end
     item
       IndexID = 21155
-      Text = 'Master dataset'
+      Text = 'Peamine andmekogum'
     end
     item
       IndexID = 21156
-      Text = 'Show data'
+      Text = 'N'#228'ita andmeid'
     end
     item
       IndexID = 21157
-      Text = 'BDE Type'
+      Text = 'BDE t'#252#252'p'
     end
     item
       IndexID = 21158
-      Text = 'Table and order'
+      Text = 'Tabel ja tellimus'
     end
     item
       IndexID = 21159
-      Text = 'Query'
+      Text = 'P'#228'ring'
     end
     item
       IndexID = 21160
-      Text = 'Table'
+      Text = 'Tabel'
     end
     item
       IndexID = 21161
-      Text = 'BDE Filter'
+      Text = 'BDE filter'
     end
     item
       IndexID = 21162
-      Text = 'Table'
+      Text = 'Tabel'
     end
     item
       IndexID = 21163
-      Text = 'Index Name'
+      Text = 'Indeksi nimi'
     end
     item
       IndexID = 21164
-      Text = 'Index Fields'
+      Text = 'Indeksi v'#228'ljad'
     end
     item
       IndexID = 21165
-      Text = 'Master fields'
+      Text = 'Peamised v'#228'ljad'
     end
     item
       IndexID = 21166
-      Text = 'Note: Write fields separated by ; character'
+      Text = 'M'#228'rkus: Kirjuta v'#228'ljad eraldatuna m'#228'rgi ; abil'
     end
     item
       IndexID = 21167
-      Text = 'MyBase Filename'
+      Text = 'MyBase faili nimi'
     end
     item
       IndexID = 21831
-      Text = 'First range'
+      Text = 'Esimene vahemik'
     end
     item
       IndexID = 21832
-      Text = 'Last range'
+      Text = 'Viimane vahemik'
     end
     item
       IndexID = 21833
       Text = 
-        'Each line will be evaluated and assigned to each field as the st' +
-        'art of the filter and end of the filter'
+        'Iga rida hinnatakse ja m'#228#228'ratakse igale v'#228'ljale filtri alguse ja' +
+        ' filtri l'#245'puna'
     end
     item
       IndexID = 22082
-      Text = 'Dataset client side unions'
+      Text = 'Andmekogumi kliendipoolsed '#252'hendused'
     end
     item
       IndexID = 22083
-      Text = 'Unions'
+      Text = #220'hendused'
     end
     item
       IndexID = 22084
-      Text = 'Union grouping'
+      Text = #220'henduse r'#252'hmitamine'
     end
     item
       IndexID = 22440
-      Text = 'Parallel union'
+      Text = 'Paralleelne '#252'hendus'
     end
     item
       IndexID = 22085
-      Text = 'Field defs file'
+      Text = 'V'#228'ljade definitsioonide fail'
     end
     item
       IndexID = 22086
-      Text = 'Modify...'
+      Text = 'Muuda...'
     end
     item
       IndexID = 21539
-      Text = 'New dataset'
+      Text = 'Uus andmekogum'
     end
     item
       IndexID = 21540
-      Text = 'Rename dataset'
+      Text = 'Nimeta andmekogum '#252'mber'
     end
     item
       IndexID = 21743
-      Text = 'Configuraiton file'
+      Text = 'Konfiguratsioonifail'
     end
     item
       IndexID = 21744
-      Text = 'User configuration'
+      Text = 'Kasutaja seadistus'
     end
     item
       IndexID = 21745
-      Text = 'System configuration'
+      Text = 'S'#252'steemi seadistus'
     end
     item
       IndexID = 21742
-      Text = 'Dialog'
+      Text = 'Dialoog'
     end
     item
       IndexID = 21746
-      Text = 'Position adjustment'
+      Text = 'Positsiooni reguleerimine'
     end
     item
       IndexID = 21763
-      Text = 'Operations after print'
+      Text = 'Toimingud p'#228'rast printimist'
     end
     item
       IndexID = 21764
-      Text = 'Example, TM200 Open Drawer: #27#112#48#160#160#4'
+      Text = 'N'#228'ide, TM200 ava sahtel: #27#112#48#160#160#4'
     end
     item
       IndexID = 21765
-      Text = 'Example, TM88 Open Drawer: #27#112#48#40#200#4'
+      Text = 'N'#228'ide, TM88 ava sahtel: #27#112#48#40#200#4'
     end
     item
       IndexID = 21766
-      Text = 'Cut paper'
+      Text = 'L'#245'ika paber'
     end
     item
       IndexID = 21767
-      Text = 'Open drawer'
+      Text = 'Ava sahtel'
     end
     item
       IndexID = 22058
-      Text = 'Text only driver'
+      Text = 'Ainult teksti draiver'
     end
     item
       IndexID = 21799
-      Text = 'No data available to print!'
+      Text = 'Andmed puuduvad printimiseks!'
     end
     item
       IndexID = 21354
-      Text = 'Reportman manager designer'
+      Text = 'Reportman halduri disainer'
     end
     item
       IndexID = 901500
-      Text = 'Split'
+      Text = 'Jaga'
     end
     item
       IndexID = 901501
-      Text = 'Seat'
+      Text = 'Iste'
     end
     item
       IndexID = 901502
-      Text = 'Couvert'
+      Text = 'Kuvert'
     end
     item
       IndexID = 901503
-      Text = 'Waiter'
+      Text = 'Kelner'
     end
     item
       IndexID = 901504
-      Text = 'The item %s is out of stock! Please review your entry!'
+      Text = 'Laokaup %s on otsas! Palun vaata oma kanne '#252'le!'
     end
     item
       IndexID = 901505
-      Text = 'New lines added please review this payment!'
+      Text = 'Uued read lisatud, palun vaadake see makse '#252'le!'
     end
     item
       IndexID = 901506
-      Text = 'Please close all open invoices first!'
+      Text = 'Palun sulgege esmalt k'#245'ik avatud arved!'
     end
     item
       IndexID = 901507
-      Text = 'Are you sure you want to continue to close the POS?'
+      Text = 'Kas olete kindel, et soovite j'#228'tkata m'#252#252'gikoha sulgemist?'
     end
     item
       IndexID = 901508
-      Text = 'Close POS'
+      Text = 'Sulge m'#252#252'gikoht'
     end
     item
       IndexID = 901509
-      Text = 'Handheld'
+      Text = 'Pihuseade'
     end
     item
       IndexID = 1000002
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000004
@@ -13594,399 +13616,399 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000005
-      Text = 'Open item - Due report'
+      Text = 'Avatud kaup - T'#228'htajaline aruanne'
     end
     item
       IndexID = 1000006
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000007
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000008
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000009
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000011
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000012
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000013
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000014
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000015
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000016
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000017
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000018
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000019
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000020
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000021
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000022
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000023
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000024
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000025
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000026
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000027
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000028
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000029
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000030
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000031
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000032
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000033
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000034
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000035
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000036
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000037
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000038
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000039
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000040
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000041
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000042
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000043
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000044
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000045
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 906031
-      Text = 'Historical value'
+      Text = 'Ajalooline v'#228#228'rtus'
     end
     item
       IndexID = 906032
-      Text = 'Order list'
+      Text = 'Ostutellimuste loetelu'
     end
     item
       IndexID = 906033
-      Text = 'Outstanding orders'
+      Text = 'T'#228'itmata ostutellimused'
     end
     item
       IndexID = 906034
-      Text = 'Outstanding quotes'
+      Text = 'T'#228'itmata hinnapakkumised'
     end
     item
       IndexID = 906035
-      Text = 'Debtor - Price agreement'
+      Text = 'V'#245'lgnik - Hinnakokkulepe'
     end
     item
       IndexID = 906036
-      Text = 'Reorder quantities'
+      Text = 'Uuesti tellitavad kogused'
     end
     item
       IndexID = 906037
-      Text = 'Sales hours'
+      Text = 'M'#252#252'gitunnid'
     end
     item
       IndexID = 906038
-      Text = 'Stock movement'
+      Text = 'Laoliikumine'
     end
     item
       IndexID = 906039
-      Text = 'Transaction details'
+      Text = 'Tehingu detailid'
     end
     item
       IndexID = 906040
-      Text = 'Yagoda barcode'
+      Text = 'Yagoda v'#246#246'tkood'
     end
     item
       IndexID = 906041
-      Text = 'P/L'
+      Text = 'K/K (Kasum/Kahjum)'
     end
     item
       IndexID = 906042
-      Text = 'Profit/Loss'
+      Text = 'Kasum/Kahjum'
     end
     item
       IndexID = 906043
-      Text = 'Sales per customer group'
+      Text = 'M'#252#252'k kliendir'#252'hma kohta'
     end
     item
       IndexID = 906044
-      Text = 'Sales per stock group'
+      Text = 'M'#252#252'k laokauba r'#252'hma kohta'
     end
     item
       IndexID = 906045
-      Text = 'Debtor list'
+      Text = 'V'#245'lgnike loetelu'
     end
     item
       IndexID = 906046
-      Text = 'Creditor list'
+      Text = 'Hankijate loetelu'
     end
     item
       IndexID = 906047
-      Text = 'Contact list - Debtors'
+      Text = 'Kontaktide loetelu - V'#245'lgnikud'
     end
     item
       IndexID = 906048
-      Text = 'Contact list - Creditors'
+      Text = 'Kontaktide loetelu - Hankijad'
     end
     item
       IndexID = 906049
-      Text = 'Contact list - All'
+      Text = 'Kontaktide loetelu - K'#245'ik'
     end
     item
       IndexID = 906050
-      Text = 'Backorder'
+      Text = 'J'#228'reltellimus'
     end
     item
       IndexID = 906051
-      Text = 'Log report'
+      Text = 'Logi aruanne'
     end
     item
       IndexID = 906052
-      Text = 'Log-on'
+      Text = 'Sisselogimine'
     end
     item
       IndexID = 906053
-      Text = 'Log-off'
+      Text = 'V'#228'ljalogimine'
     end
     item
       IndexID = 906054
-      Text = 'OS user'
+      Text = 'OS-i kasutaja'
     end
     item
       IndexID = 906055
-      Text = 'From PC'
+      Text = 'Arvutist'
     end
     item
       IndexID = 906056
-      Text = 'Bar order'
+      Text = 'Baari ostutellimus'
     end
     item
       IndexID = 906057
-      Text = 'Kitchen order'
+      Text = 'K'#246#246'gik'#228'sund'
     end
     item
       IndexID = 906058
-      Text = 'Turnover'
+      Text = 'K'#228'ive'
     end
     item
       IndexID = 906059
-      Text = 'Sales per customer'
+      Text = 'M'#252#252'k kliendi kohta'
     end
     item
       IndexID = 906060
-      Text = 'Contact list - Main'
+      Text = 'Kontaktide loetelu - Peamine'
     end
     item
       IndexID = 906061
-      Text = 'Transaction list - Open item'
+      Text = 'Tehingute loetelu - Avatud kirjed'
     end
     item
       IndexID = 906062
-      Text = 'Selected debtor label'
+      Text = 'Valitud v'#245'lgniku silt'
     end
     item
       IndexID = 906063
-      Text = 'Selected creditor label'
+      Text = 'Valitud hankija silt'
     end
     item
       IndexID = 906064
-      Text = 'Delivery address labels'
+      Text = 'Tarneaadressi sildid'
     end
     item
       IndexID = 906065
-      Text = 'Selected debtor delivery label'
+      Text = 'Valitud v'#245'lgniku tarne silt'
     end
     item
       IndexID = 906066
-      Text = 'Selected creditor delivery label'
+      Text = 'Valitud hankija tarneaadressi silt'
     end
     item
       IndexID = 906067
-      Text = 'Payments'
+      Text = 'Maksed'
     end
     item
       IndexID = 906068
-      Text = 'Page no.'
+      Text = 'Lehek'#252'lje nr.'
     end
     item
       IndexID = 906069
-      Text = 'Your tax reference'
+      Text = 'Teie KM viide'
     end
     item
       IndexID = 1000054
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 1000055
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 906070
-      Text = 'Reprinted'
+      Text = 'Uuesti prinditud'
     end
     item
       IndexID = 906071
-      Text = 'Cost centre 1'
+      Text = 'Kulukoht 1'
     end
     item
       IndexID = 906072
-      Text = 'Cost centre 2'
+      Text = 'Kulukoht 2'
     end
     item
       IndexID = 1000046
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 906073
-      Text = 'POSPoints'
+      Text = 'M'#252#252'gikoha punktid'
     end
     item
       IndexID = 906074
-      Text = 'Batch'
+      Text = 'Lausend'
     end
     item
       IndexID = 906075
-      Text = 'Compare period'
+      Text = 'V'#245'rdlusperiood'
     end
     item
       IndexID = 906076
-      Text = 'Compare period - Debtors'
+      Text = 'V'#245'rdlusperiood - V'#245'lgnikud'
     end
     item
       IndexID = 906077
-      Text = 'Compare period - Creditors'
+      Text = 'V'#245'rdlusperiood - Hankijad'
     end
     item
       IndexID = 906078
-      Text = 'Compare period - Profit / Loss'
+      Text = 'V'#245'rdlusperiood - Kasum/Kahjum'
     end
     item
       IndexID = 906079
-      Text = 'Multi-year'
+      Text = 'Mitu aastat'
     end
     item
       IndexID = 906080
-      Text = 'On selected account / other'
+      Text = 'Valitud kontol / muu'
     end
     item
       IndexID = 906081
-      Text = 'Transaction id'
+      Text = 'Tehingu ID'
     end
     item
       IndexID = 906082
-      Text = 'Batch type id'
+      Text = 'Lausendi t'#252#252'bi ID'
     end
     item
       IndexID = 906083
-      Text = 'Document amount'
+      Text = 'Dokumendi summa'
     end
     item
       IndexID = 906084
-      Text = 'Document tax'
+      Text = 'Dokumendi KM'
     end
     item
       IndexID = 906085
-      Text = 'Tax on tax account'
+      Text = 'KM kontol olev KM'
     end
     item
       IndexID = 906086
-      Text = 'Control report - Processed transactions per contra account'
+      Text = 'Kontrollaruanne - T'#246#246'deldud tehingud konta konto kohta'
     end
     item
       IndexID = 903100
@@ -13994,387 +14016,387 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906087
-      Text = 'POS Payment types'
+      Text = 'POS makseliigid'
     end
     item
       IndexID = 906088
-      Text = 'Creditor - Price agreement'
+      Text = 'Hankija - Hinnakokkulepe'
     end
     item
       IndexID = 906089
-      Text = 'POS Sales report'
+      Text = 'POS m'#252#252'giaruanne'
     end
     item
       IndexID = 906090
-      Text = 'POS Current cash report'
+      Text = 'POS jooksev sularahaaruanne'
     end
     item
       IndexID = 906091
-      Text = 'POS Historical cash report'
+      Text = 'POS ajalooline sularahaaruanne'
     end
     item
       IndexID = 906092
-      Text = 'Total Profit / Loss'
+      Text = 'Kasumi/Kahjumi kogusumma'
     end
     item
       IndexID = 906093
-      Text = 'Opening balance'
+      Text = 'Algusj'#228#228'k'
     end
     item
       IndexID = 906094
-      Text = 'Total balance'
+      Text = 'Koguj'#228#228'k'
     end
     item
       IndexID = 906095
-      Text = 'Total lines'
+      Text = 'Koguread'
     end
     item
       IndexID = 906096
-      Text = 'Checksum'
+      Text = 'Kontrollsumma'
     end
     item
       IndexID = 906097
-      Text = 'Automatic receipts report'
+      Text = 'Automaatsete laekumiste aruanne'
     end
     item
       IndexID = 906098
-      Text = 'Batch type report'
+      Text = 'Lausendi t'#252#252'bi aruanne'
     end
     item
       IndexID = 906099
-      Text = 'BatchID'
+      Text = 'Lausendi ID'
     end
     item
       IndexID = 906100
-      Text = 'Posted batch'
+      Text = 'Postitatud lausend'
     end
     item
       IndexID = 906101
-      Text = 'Unposted batch'
+      Text = 'Postitamata lausend'
     end
     item
       IndexID = 906102
-      Text = 'Contra Accounts'
+      Text = 'Konta kontod'
     end
     item
       IndexID = 906103
-      Text = 'Creditors outstanding at date'
+      Text = 'T'#228'itmata hankijad kuup'#228'eva seisuga'
     end
     item
       IndexID = 906104
-      Text = 'Debtors outstanding at date'
+      Text = 'T'#228'htajaks tasumata v'#245'lgnikud'
     end
     item
       IndexID = 906105
-      Text = 'Tax per period'
+      Text = 'KM perioodi kohta'
     end
     item
       IndexID = 906106
-      Text = 'Debtor transactions - Standard'
+      Text = 'V'#245'lgniku tehingud - Standard'
     end
     item
       IndexID = 906107
-      Text = 'Debtor transactions - Extra details'
+      Text = 'V'#245'lgniku tehingud - Lisadetailid'
     end
     item
       IndexID = 906108
-      Text = 'Creditor transactions - Standard'
+      Text = 'Hankija tehingud - Standard'
     end
     item
       IndexID = 906109
-      Text = 'Creditor transactions - Extra details'
+      Text = 'Hankija tehingud - Lisateave'
     end
     item
       IndexID = 906110
-      Text = 'General ledger transactions - Standard'
+      Text = 'Pearaamatu tehingud - Standard'
     end
     item
       IndexID = 906111
-      Text = 'General ledger transactions - Extra details'
+      Text = 'Pearaamatu tehingud - Lisadetailid'
     end
     item
       IndexID = 906112
-      Text = 'Stock In / Out'
+      Text = 'Ladu Sisse / V'#228'lja'
     end
     item
       IndexID = 906113
-      Text = 'Period quantity'
+      Text = 'Perioodi kogus'
     end
     item
       IndexID = 906114
-      Text = 'Purchases per period'
+      Text = 'Ostud perioodi kohta'
     end
     item
       IndexID = 906115
-      Text = 'Items per period'
+      Text = 'Kaubad perioodi kohta'
     end
     item
       IndexID = 906116
-      Text = 'Creditor group'
+      Text = 'Hankijagrupp'
     end
     item
       IndexID = 906117
-      Text = 'Debtor group'
+      Text = 'V'#245'lgniku grupp'
     end
     item
       IndexID = 906118
-      Text = 'Stock group'
+      Text = 'Laokauba r'#252'hm'
     end
     item
       IndexID = 906119
-      Text = 'Document group'
+      Text = 'Dokumendi grupp'
     end
     item
       IndexID = 906120
-      Text = 'Supplier returns per period'
+      Text = 'Tarnija tagastused perioodi kohta'
     end
     item
       IndexID = 906121
-      Text = 'Credit notes per period'
+      Text = 'Kreeditkorraldused perioodi kohta'
     end
     item
       IndexID = 906122
-      Text = 'Sales per period'
+      Text = 'M'#252#252'k perioodi kohta'
     end
     item
       IndexID = 906123
-      Text = 'Debtor transactions'
+      Text = 'V'#245'lgniku tehingud'
     end
     item
       IndexID = 906124
-      Text = 'Creditor transactions'
+      Text = 'Hankija tehingud'
     end
     item
       IndexID = 906125
-      Text = 'Posted invoices'
+      Text = 'Postitatud arved'
     end
     item
       IndexID = 906126
-      Text = 'Unposted invoices'
+      Text = 'Postitamata arved'
     end
     item
       IndexID = 906127
-      Text = 'Posted credit notes'
+      Text = 'Postitatud kreeditkorraldused'
     end
     item
       IndexID = 906128
-      Text = 'Unposted credit notes'
+      Text = 'Postitamata kreeditkorraldused'
     end
     item
       IndexID = 906129
-      Text = 'Posted purchases'
+      Text = 'Postitatud ostud'
     end
     item
       IndexID = 906130
-      Text = 'Unposted purchases'
+      Text = 'Postitamata ostud'
     end
     item
       IndexID = 906131
-      Text = 'Posted supplier returns'
+      Text = 'Postitatud tarnija tagastused'
     end
     item
       IndexID = 906132
-      Text = 'Unposted supplier returns'
+      Text = 'Postitamata tarnija tagastused'
     end
     item
       IndexID = 906133
-      Text = 'Confirmed quotes'
+      Text = 'Kinnitatud hinnapakkumised'
     end
     item
       IndexID = 906134
-      Text = 'Unconfirmed quotes'
+      Text = 'Kinnitamata hinnapakkumised'
     end
     item
       IndexID = 906135
-      Text = 'Confirmed orders'
+      Text = 'Kinnitatud ostutellimused'
     end
     item
       IndexID = 906136
-      Text = 'Unconfirmed orders'
+      Text = 'Kinnitamata ostutellimused'
     end
     item
       IndexID = 906137
-      Text = 'Postal address labels'
+      Text = 'Postiaadressi sildid'
     end
     item
       IndexID = 906138
-      Text = 'List delivery address'
+      Text = 'Tarneaadresside loetelu'
     end
     item
       IndexID = 906139
-      Text = 'List postal address'
+      Text = 'Postiaadresside loetelu'
     end
     item
       IndexID = 906140
-      Text = 'List details'
+      Text = 'Loetelu detailid'
     end
     item
       IndexID = 906141
-      Text = 'Batch transactions per period'
+      Text = 'Lausendi tehingud perioodi kohta'
     end
     item
       IndexID = 906142
-      Text = 'Balances detail'
+      Text = 'J'#228#228'kide detail'
     end
     item
       IndexID = 906143
-      Text = 'Balances detail history (open item)'
+      Text = 'J'#228#228'kide detailajalugu (avatud kirje)'
     end
     item
       IndexID = 906144
-      Text = 'Outstanding open item transaction totals'
+      Text = 'T'#228'itmata avatud kirjete tehingute kogusummad'
     end
     item
       IndexID = 906145
-      Text = 'Outstanding transaction totals'
+      Text = 'T'#228'itmata tehingute kogusummad'
     end
     item
       IndexID = 906146
-      Text = 'Debtor age analysis'
+      Text = 'V'#245'lgniku vanuse anal'#252#252's'
     end
     item
       IndexID = 906147
-      Text = 'Balances'
+      Text = 'J'#228#228'gid'
     end
     item
       IndexID = 906148
-      Text = 'Balances detail 1'
+      Text = 'J'#228#228'kide detail 1'
     end
     item
       IndexID = 906149
-      Text = 'Reporting groups'
+      Text = 'Aruandlusgrupid'
     end
     item
       IndexID = 906150
-      Text = 'Purchases per period - Quantities'
+      Text = 'Ostud perioodi kohta - Kogused'
     end
     item
       IndexID = 906151
-      Text = 'Purchases per period - Cost'
+      Text = 'Ostud perioodi kohta - Kulu'
     end
     item
       IndexID = 906152
-      Text = 'Purchases per period - Creditor group 1'
+      Text = 'Ostud perioodi kohta - Hankijagrupp 1'
     end
     item
       IndexID = 906153
-      Text = 'Purchases per period - Creditor group 2'
+      Text = 'Ostud perioodi kohta - Hankijagrupp 2'
     end
     item
       IndexID = 906154
-      Text = 'Purchases per period - Document group 1'
+      Text = 'Ostud perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906155
-      Text = 'Invoices per period - Quantities'
+      Text = 'Arved perioodi kohta - Kogused'
     end
     item
       IndexID = 906156
-      Text = 'Invoices per period - Turnover'
+      Text = 'Arved perioodi kohta - K'#228'ive'
     end
     item
       IndexID = 906157
-      Text = 'Invoices per period - Debtor group 1'
+      Text = 'Arved perioodi kohta - V'#245'lgnikugrupp 1'
     end
     item
       IndexID = 906158
-      Text = 'Invoices per period - Debtor group 2'
+      Text = 'Arved perioodi kohta - V'#245'lgnikugrupp 2'
     end
     item
       IndexID = 906159
-      Text = 'Invoices per period - Document group 1'
+      Text = 'Arved perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906160
-      Text = 'Cash slip printer'
+      Text = 'Kassat'#353'eki printer'
     end
     item
       IndexID = 906161
-      Text = 'Document listing per account'
+      Text = 'Dokumentide loetelu konto kohta'
     end
     item
       IndexID = 906162
-      Text = 'Unprinted document listing'
+      Text = 'Printimata dokumentide loetelu'
     end
     item
       IndexID = 906163
-      Text = 'Purchases per period - Document group 2'
+      Text = 'Ostud perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906164
-      Text = 'Purchases per period - Salesperson'
+      Text = 'Ostud perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906165
-      Text = 'Invoices per period - Document group 2'
+      Text = 'Arved perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906166
-      Text = 'Invoices per period - Salesperson'
+      Text = 'Arved perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906167
-      Text = 'Graph - Creditor per week'
+      Text = 'Graafik - Hankijad n'#228'dala l'#245'ikes'
     end
     item
       IndexID = 906168
-      Text = 'Graph - Debtor per week'
+      Text = 'Graafik - V'#245'lgnikud n'#228'dala kohta'
     end
     item
       IndexID = 906169
-      Text = 'Graph - Profit / Loss per week'
+      Text = 'Graafik - Kasum/Kahjum n'#228'dala kohta'
     end
     item
       IndexID = 906170
-      Text = 'Graph - Invoices per week - Quantities'
+      Text = 'Graafik - Arved n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906171
-      Text = 'Graph - Invoices per week - Turnover'
+      Text = 'Graafik - Arved n'#228'dala kohta - K'#228'ive'
     end
     item
       IndexID = 906172
-      Text = 'Purchases per product - Stock group 1'
+      Text = 'Ostud laokauba kohta - Laokauba r'#252'hm 1'
     end
     item
       IndexID = 906173
-      Text = 'Purchases per product - Stock group 2'
+      Text = 'Ostud laokauba kohta - Laokauba r'#252'hm 2'
     end
     item
       IndexID = 906174
-      Text = 'Sales per product - Stock group 1'
+      Text = 'M'#252#252'k laokauba kohta - Laokauba r'#252'hm 1'
     end
     item
       IndexID = 906175
-      Text = 'Sales per product - Stock group 2'
+      Text = 'M'#252#252'k laokauba kohta - Laokauba r'#252'hm 2'
     end
     item
       IndexID = 906176
-      Text = 'System user'
+      Text = 'S'#252'steemi kasutaja'
     end
     item
       IndexID = 906177
-      Text = '<@APPNAME@> user'
+      Text = '<@APPNAME@> kasutaja'
     end
     item
       IndexID = 906178
-      Text = 'Stock in'
+      Text = 'Ladu sisse'
     end
     item
       IndexID = 906179
-      Text = 'Stock out'
+      Text = 'Ladu v'#228'lja'
     end
     item
       IndexID = 906180
-      Text = 'Open drawer'
+      Text = 'Ava sahtel'
     end
     item
       IndexID = 906181
-      Text = 'Delivery note (no codes)'
+      Text = 'Saateleht (koodideta)'
     end
     item
       IndexID = 906182
-      Text = 'Delivery note (15 code)'
+      Text = 'Saateleht (15 koodiga)'
     end
     item
       IndexID = 906183
@@ -14382,7 +14404,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906184
-      Text = 'POS'
+      Text = 'POS 1'
     end
     item
       IndexID = 906185
@@ -14394,323 +14416,323 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906187
-      Text = 'Default A4'
+      Text = 'Vaikimisi A4'
     end
     item
       IndexID = 906188
-      Text = 'Default A4 (10 code)'
+      Text = 'Vaikimisi A4 (10 koodiga)'
     end
     item
       IndexID = 906189
-      Text = 'Default A4 (15 code)'
+      Text = 'Vaikimisi A4 (15 koodiga)'
     end
     item
       IndexID = 906190
-      Text = 'Invoice test'
+      Text = 'Arve test'
     end
     item
       IndexID = 906191
-      Text = 'Invoice English (15 code)'
+      Text = 'Arve inglise keeles (15 koodiga)'
     end
     item
       IndexID = 906192
-      Text = 'Invoice Bank details (no codes)'
+      Text = 'Arve pangadetailid (koodideta)'
     end
     item
       IndexID = 906193
-      Text = 'Invoice Bank details (15 code)'
+      Text = 'Arve pangadetailid (15 koodiga)'
     end
     item
       IndexID = 906194
-      Text = 'Invoice (no codes)'
+      Text = 'Arve (koodideta)'
     end
     item
       IndexID = 906195
-      Text = 'Credit note (no codes)'
+      Text = 'Kreeditkorraldus (koodideta)'
     end
     item
       IndexID = 906196
-      Text = 'Quote (no codes)'
+      Text = 'Hinnapakkumine (koodideta)'
     end
     item
       IndexID = 906197
-      Text = 'Purchase (no codes)'
+      Text = 'Ost (koodideta)'
     end
     item
       IndexID = 906198
-      Text = 'Supplier return (no codes)'
+      Text = 'Tarnija tagastus (koodideta)'
     end
     item
       IndexID = 906199
-      Text = 'Order (no codes)'
+      Text = 'Ostutellimus (koodideta)'
     end
     item
       IndexID = 906200
-      Text = 'Invoice (10 code)'
+      Text = 'Arve (10 koodiga)'
     end
     item
       IndexID = 906201
-      Text = 'Credit note (10 code)'
+      Text = 'Kreeditkorraldus (10 koodiga)'
     end
     item
       IndexID = 906202
-      Text = 'Quote (10 code)'
+      Text = 'Hinnapakkumine (10 koodiga)'
     end
     item
       IndexID = 906203
-      Text = 'Purchase (10 code)'
+      Text = 'Ost (10 koodiga)'
     end
     item
       IndexID = 906204
-      Text = 'Supplier return (10 code)'
+      Text = 'Tarnija tagastus (10 koodiga)'
     end
     item
       IndexID = 906205
-      Text = 'Order (10 code)'
+      Text = 'Ostutellimus (10 koodiga)'
     end
     item
       IndexID = 906206
-      Text = 'Invoice (15 code)'
+      Text = 'Arve (15 koodiga)'
     end
     item
       IndexID = 906207
-      Text = 'Credit note (15 code)'
+      Text = 'Kreeditkorraldus (15 koodiga)'
     end
     item
       IndexID = 906208
-      Text = 'Quote (15 code)'
+      Text = 'Hinnapakkumine (15 koodiga)'
     end
     item
       IndexID = 906209
-      Text = 'Purchase (15 code)'
+      Text = 'Ost (15 koodiga)'
     end
     item
       IndexID = 906210
-      Text = 'Supplier return (15 code)'
+      Text = 'Tarnija tagastus (15 koodiga)'
     end
     item
       IndexID = 906211
-      Text = 'Order (15 code)'
+      Text = 'Ostutellimus (15 koodiga)'
     end
     item
       IndexID = 906212
-      Text = 'Invoice A4 (no codes)'
+      Text = 'Arve A4 (koodideta)'
     end
     item
       IndexID = 906213
-      Text = 'Credit note A4 (no codes)'
+      Text = 'Kreeditkorraldus A4 (koodideta)'
     end
     item
       IndexID = 906214
-      Text = 'Quote A4 (no codes)'
+      Text = 'Hinnapakkumine A4 (koodideta)'
     end
     item
       IndexID = 906215
-      Text = 'Purchase A4 (no codes)'
+      Text = 'Ost A4 (koodideta)'
     end
     item
       IndexID = 906216
-      Text = 'Supplier return A4 (no codes)'
+      Text = 'Tarnija tagastus A4 (koodideta)'
     end
     item
       IndexID = 906218
-      Text = 'Invoice A4 (10 code)'
+      Text = 'Arve A4 (10 koodiga)'
     end
     item
       IndexID = 906219
-      Text = 'Credit note A4 (10 code)'
+      Text = 'Kreeditkorraldus A4 (10 koodiga)'
     end
     item
       IndexID = 906220
-      Text = 'Quote A4 (10 code)'
+      Text = 'Hinnapakkumine A4 (10 koodiga)'
     end
     item
       IndexID = 906221
-      Text = 'Purchase A4 (10 code)'
+      Text = 'Ost A4 (10 koodiga)'
     end
     item
       IndexID = 906222
-      Text = 'Supplier return A4 (10 code)'
+      Text = 'Tarnija tagastus A4 (10 koodiga)'
     end
     item
       IndexID = 906223
-      Text = 'Order A4 (10 code)'
+      Text = 'Ostutellimus A4 (10 koodiga)'
     end
     item
       IndexID = 906224
-      Text = 'Invoice A4 (15 code)'
+      Text = 'Arve A4 (15 koodiga)'
     end
     item
       IndexID = 906225
-      Text = 'Credit note A4 (15 code)'
+      Text = 'Kreeditkorraldus A4 (15 koodiga)'
     end
     item
       IndexID = 906226
-      Text = 'Quote A4 (15 code)'
+      Text = 'Hinnapakkumine A4 (15 koodiga)'
     end
     item
       IndexID = 906227
-      Text = 'Purchase A4 (15 code)'
+      Text = 'Ost A4 (15 koodiga)'
     end
     item
       IndexID = 906228
-      Text = 'Supplier return A4 (15 code)'
+      Text = 'Tarnija tagastus A4 (15 koodiga)'
     end
     item
       IndexID = 906229
-      Text = 'Order A4 (15 code)'
+      Text = 'Ostutellimus A4 (15 koodiga)'
     end
     item
       IndexID = 906230
-      Text = 'Invoice A4 Plain (no codes)'
+      Text = 'Arve A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906231
-      Text = 'Credit note A4 Plain (no codes)'
+      Text = 'Kreeditkorraldus A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906232
-      Text = 'Quote A4 Plain (no codes)'
+      Text = 'Hinnapakkumine A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906233
-      Text = 'Purchase A4 Plain (no codes)'
+      Text = 'Ost A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906234
-      Text = 'Supplier return A4 Plain (no codes)'
+      Text = 'Tarnija tagastus A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906235
-      Text = 'Order A4 Plain (no codes)'
+      Text = 'Ostutellimus A4 (lihtne, koodideta)'
     end
     item
       IndexID = 906236
-      Text = 'Invoice A4 Plain (10 code)'
+      Text = 'Arve A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906237
-      Text = 'Credit note A4 Plain (10 code)'
+      Text = 'Kreeditkorraldus A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906238
-      Text = 'Quote A4 Plain (10 code)'
+      Text = 'Hinnapakkumine A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906239
-      Text = 'Purchase A4 Plain (10 code)'
+      Text = 'Ost A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906240
-      Text = 'Supplier return A4 Plain (10 code)'
+      Text = 'Tarnija tagastus A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906241
-      Text = 'Order A4 Plain (10 code)'
+      Text = 'Ostutellimus A4 (lihtne, 10 koodiga)'
     end
     item
       IndexID = 906242
-      Text = 'Invoice A4 Plain (15 code)'
+      Text = 'Arve A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906243
-      Text = 'Credit note A4 Plain (15 code)'
+      Text = 'Kreeditkorraldus A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906244
-      Text = 'Quote A4 Plain (15 code)'
+      Text = 'Hinnapakkumine A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906245
-      Text = 'Purchase A4 Plain (15 code)'
+      Text = 'Ost A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906246
-      Text = 'Supplier return A4 Plain (15 code)'
+      Text = 'Tarnija tagastus A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906247
-      Text = 'Order A4 Plain (15 code)'
+      Text = 'Ostutellimus A4 (lihtne, 15 koodiga)'
     end
     item
       IndexID = 906248
-      Text = 'Invoice No Tax (no codes)'
+      Text = 'Arve ilma KM (koodideta)'
     end
     item
       IndexID = 906249
-      Text = 'Credit note No Tax (no codes)'
+      Text = 'Kreeditkorraldus ilma KM (koodideta)'
     end
     item
       IndexID = 906250
-      Text = 'Quote No Tax (no codes)'
+      Text = 'Hinnapakkumine ilma KM (koodideta)'
     end
     item
       IndexID = 906251
-      Text = 'Purchase No Tax (no codes)'
+      Text = 'Ost ilma KM (koodideta)'
     end
     item
       IndexID = 906252
-      Text = 'Supplier return No Tax (no codes)'
+      Text = 'Tarnija tagastus ilma KM-ta (koodideta)'
     end
     item
       IndexID = 906253
-      Text = 'Order No Tax (no codes)'
+      Text = 'Ostutellimus ilma KM (koodideta)'
     end
     item
       IndexID = 906254
-      Text = 'Invoice No Tax (15 code)'
+      Text = 'Arve ilma KM (15 koodiga)'
     end
     item
       IndexID = 906255
-      Text = 'Credit note No Tax (15 code)'
+      Text = 'Kreeditkorraldus ilma KM (15 koodiga)'
     end
     item
       IndexID = 906256
-      Text = 'Quote No Tax (15 code)'
+      Text = 'Hinnapakkumine ilma maksuta (15 koodiga)'
     end
     item
       IndexID = 906257
-      Text = 'Purchase No Tax (15 code)'
+      Text = 'Ost ilma maksuta (15 koodiga)'
     end
     item
       IndexID = 906258
-      Text = 'Supplier return No Tax (15 code)'
+      Text = 'Tarnija tagastus ilma KM-ta (15 koodiga)'
     end
     item
       IndexID = 906259
-      Text = 'Order No Tax (15 code)'
+      Text = 'Ostutellimus ilma KM (15 koodiga)'
     end
     item
       IndexID = 906217
-      Text = 'Order A4 (no codes)'
+      Text = 'Ostutellimus A4 (koodideta)'
     end
     item
       IndexID = 906260
-      Text = 'Invoice Bank details (10 code)'
+      Text = 'Arve pangadetailid (10 koodiga)'
     end
     item
       IndexID = 906261
-      Text = 'Invoice English (10 code)'
+      Text = 'Arve inglise keeles (10 koodiga)'
     end
     item
       IndexID = 906262
-      Text = 'Invoice English (no codes)'
+      Text = 'Arve inglise keeles (koodideta)'
     end
     item
       IndexID = 906263
-      Text = 'New report'
+      Text = 'Uus aruanne'
     end
     item
       IndexID = 906264
-      Text = 'DOCUMENTS'
+      Text = 'DOKUMENDID'
     end
     item
       IndexID = 906265
-      Text = 'Tax report'
+      Text = 'KM aruanne'
     end
     item
       IndexID = 903101
-      Text = 'Corrections'
+      Text = 'Parandused'
     end
     item
       IndexID = 903102
@@ -14718,1051 +14740,1047 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903103
-      Text = 'Inconsistencies'
+      Text = 'Ebak'#245'lad'
     end
     item
       IndexID = 903104
-      Text = 'MSG'
+      Text = 'S'#245'num'
     end
     item
       IndexID = 903105
-      Text = 'Run SQL'
+      Text = 'K'#228'ivita SQL'
     end
     item
       IndexID = 903106
-      Text = 'Cleanup batch'
+      Text = 'Puhasta lausend'
     end
     item
       IndexID = 903107
-      Text = 'Colour conditions'
+      Text = 'V'#228'rvitingimused'
     end
     item
       IndexID = 903108
-      Text = 'Ledger transactions'
+      Text = 'Pearaamatu kanded'
     end
     item
       IndexID = 903109
-      Text = 'Import'
+      Text = 'Importimine'
     end
     item
       IndexID = 903110
-      Text = 'Patches'
+      Text = 'Plaastrid'
     end
     item
       IndexID = 903111
-      Text = 'Round-off cents'
+      Text = #220'marda sendid'
     end
     item
       IndexID = 903112
-      Text = 'Add extra description to stock'
+      Text = 'Lisa laokaupa lisakirjeldus'
     end
     item
       IndexID = 903113
-      Text = 'Drop extra description from stock'
+      Text = 'Eemalda laokaupa lisakirjeldus'
     end
     item
       IndexID = 903114
-      Text = 'Change stock code type'
+      Text = 'Muuda laokoodi t'#252#252'pi'
     end
     item
       IndexID = 903115
-      Text = 'Calculate total in stock'
+      Text = 'Arvuta kogu laoseis'
     end
     item
       IndexID = 903116
-      Text = 'Test increase'
+      Text = 'Testi suurendamine'
     end
     item
       IndexID = 903117
-      Text = 'Type id'
+      Text = 'T'#252#252'bi ID'
     end
     item
       IndexID = 903118
-      Text = 'End stock code'
+      Text = 'L'#245'pu laokood'
     end
     item
       IndexID = 903119
-      Text = 'Remove groups not in stock'
+      Text = 'Eemalda laost puuduvad r'#252'hmad'
     end
     item
       IndexID = 903120
-      Text = 'Remove stock not in documents'
+      Text = 'Eemalda dokumentides puuduv laoseis'
     end
     item
       IndexID = 903121
-      Text = 'Generate stock per ledger'
+      Text = 'Genereeri laoseis pearaamatu kohta'
     end
     item
       IndexID = 903122
-      Text = 'Remove from BOM which is not BOM'
+      Text = 'Eemalda M.L.-st see, mis ei kuulu M.L.-i'
     end
     item
       IndexID = 903123
-      Text = 'Update stock qty for option items'
+      Text = 'Uuenda valikukaupade laoseisu kogust'
     end
     item
       IndexID = 903124
-      Text = 'Remove debtors'
+      Text = 'Eemalda v'#245'lgnikud'
     end
     item
       IndexID = 903125
-      Text = 'Remove creditors'
+      Text = 'Eemalda hankijad'
     end
     item
       IndexID = 903126
-      Text = 'Remove stock items'
+      Text = 'Eemalda laokaubad'
     end
     item
       IndexID = 903127
-      Text = 'Remove contacts'
+      Text = 'Eemalda kontaktid'
     end
     item
       IndexID = 903128
-      Text = 'Clear messages'
+      Text = 'T'#252'hjenda s'#245'numid'
     end
     item
       IndexID = 903129
-      Text = 'Consolidate closed years'
+      Text = 'Konsolideeri suletud aastad'
     end
     item
       IndexID = 903130
-      Text = 'Transfer account data'
+      Text = 'Kanna kontoandmed '#252'le'
     end
     item
       IndexID = 903131
-      Text = 'Transfer stock data'
+      Text = 'Kanna laoseisu andmed '#252'le'
     end
     item
       IndexID = 903132
-      Text = 'Transfer doubles to Min id and delete'
+      Text = 'Kanna duplikaadid min ID-le ja kustuta'
     end
     item
       IndexID = 903133
-      Text = 'Consolidate closed years - documents and stock'
+      Text = 'Konsolideeri suletud aastad - dokumendid ja laoseis'
     end
     item
       IndexID = 903134
-      Text = 'Fill globals with max + 1 id'
+      Text = 'T'#228'ida globaalid max + 1 ID-ga'
     end
     item
       IndexID = 903135
-      Text = 'Remove debtors not in account'
+      Text = 'Eemalda kontol puuduvad v'#245'lgnikud'
     end
     item
       IndexID = 903136
-      Text = 'Remove creditors not in account'
+      Text = 'Eemalda hankijad, kes pole kontol'
     end
     item
       IndexID = 903137
-      Text = 'Set all debtors to open item'
+      Text = 'M'#228#228'ra k'#245'ik v'#245'lgnikud avatud kirjeks'
     end
     item
       IndexID = 903138
-      Text = 'Set all creditors to open item'
+      Text = 'M'#228#228'ra k'#245'ik hankijad avatud kirjeteks'
     end
     item
       IndexID = 903139
-      Text = 'Correct account numbers'
+      Text = 'Paranda kontonumbrid'
     end
     item
       IndexID = 903140
-      Text = 'Correct sub-accounts'
+      Text = 'Paranda alamkontod'
     end
     item
       IndexID = 903141
-      Text = 'Trim debtor address and set first character to the UPPERCASE'
+      Text = 'L'#245'ika v'#245'lgniku aadress ja m'#228#228'ra esimene t'#228'ht SUURT'#196'HELE'
     end
     item
       IndexID = 903142
-      Text = 'Generate all total entries'
+      Text = 'Genereeri k'#245'ik kogusummaga kanded'
     end
     item
       IndexID = 903143
-      Text = 'Remove invalid symbols from bank accounts'
+      Text = 'Eemalda pangakontodelt kehtetud s'#252'mbolid'
     end
     item
       IndexID = 903144
-      Text = 'Reset purchase to basis of last document'
+      Text = 'L'#228'htesta ost viimase dokumendi alusel'
     end
     item
       IndexID = 903145
-      Text = 'Correct errors balance booking descriptions'
+      Text = 'Paranda vead saldode broneerimise kirjeldustes'
     end
     item
       IndexID = 903146
-      Text = 'Set Transact previous years'
+      Text = 'M'#228#228'ra eelneva aasta kanded'
     end
     item
       IndexID = 903147
-      Text = 'Update Dochead FTaxAmt'
+      Text = 'Uuenda '#39'Dochead'#39' '#39'FTaxAmt'#39
     end
     item
       IndexID = 903148
-      Text = 'Correct periods'
+      Text = 'Paranda perioodid'
     end
     item
       IndexID = 903149
-      Text = 'Fix periods'
+      Text = 'Paranda perioodid'
     end
     item
       IndexID = 903150
-      Text = 'Find unbalanced entries'
+      Text = 'Leia tasakaalustamata kanded'
     end
     item
       IndexID = 903151
-      Text = 'Auto-link all zero debtors'
+      Text = 'Auto-seosta k'#245'ik nullsaldo v'#245'lgnikud'
     end
     item
       IndexID = 903152
-      Text = 'Remove all links'
+      Text = 'Eemalda k'#245'ik seosed'
     end
     item
       IndexID = 903153
-      Text = 'Correct Transact line id'
+      Text = 'Paranda kande rea ID'
     end
     item
       IndexID = 903154
-      Text = 'Correct Incl. Excl. Tax amount (Reverse bug)'
+      Text = 'Paranda KM-ga/KM-ta summa (tagasip'#246#246'ramise viga)'
     end
     item
       IndexID = 903155
-      Text = 'Clear totals'
+      Text = 'T'#252'hjenda kogusummad'
     end
     item
       IndexID = 903156
-      Text = 'Clear Sysvars parameters'
+      Text = 'T'#252'hjenda Sysvars parameetrid'
     end
     item
       IndexID = 903157
-      Text = 'Delete all invoices'
+      Text = 'Kustuta k'#245'ik arved'
     end
     item
       IndexID = 903158
-      Text = 'Remove BatCon not in Transact'
+      Text = 'Eemalda BatCon, mis ei kuulu Transact-i'
     end
     item
       IndexID = 903159
-      Text = 'Remove zero invoices'
+      Text = 'Eemalda 0-arved'
     end
     item
       IndexID = 903160
-      Text = 'Remove last name from contacts after a comma'
+      Text = 'Eemalda perekonnanimi kontaktidest peale koma'
     end
     item
       IndexID = 903161
-      Text = 'Find debtors'
+      Text = 'Leia v'#245'lgnikud'
     end
     item
       IndexID = 903162
-      Text = 'Find creditors'
+      Text = 'Leia hankijad'
     end
     item
       IndexID = 903163
-      Text = 'Generate contacts'
+      Text = 'Genereeri kontaktid'
     end
     item
       IndexID = 903164
-      Text = 'Pick colour'
+      Text = 'Vali v'#228'rv'
     end
     item
       IndexID = 903165
-      Text = 
-        'Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price' +
-        ' 2 at1.3 X of Purchase Price'
+      Text = 'M'#228#228'ra m'#252#252'gihind 1 (1,5x Ostuhind) ja m'#252#252'gihind 2 (1,3x Ostuhind)'
     end
     item
       IndexID = 903166
-      Text = 'Select'
+      Text = 'Vali'
     end
     item
       IndexID = 903167
-      Text = 'Rerun Patch X'
+      Text = 'K'#228'ivita plaasterX uuesti'
     end
     item
       IndexID = 903168
-      Text = 'Reset Sysvars'
+      Text = 'L'#228'htesta Sysvars'
     end
     item
       IndexID = 903169
-      Text = 'Current version'
+      Text = 'Praegune versioon'
     end
     item
       IndexID = 903170
-      Text = 'Execute'
+      Text = 'Teosta'
     end
     item
       IndexID = 903171
-      Text = 'Script'
+      Text = 'Skript'
     end
     item
       IndexID = 903172
-      Text = 'Set term'
+      Text = 'M'#228#228'ra t'#228'htaeg'
     end
     item
       IndexID = 903173
-      Text = 'Drop'
+      Text = 'Eemalda'
     end
     item
       IndexID = 903174
-      Text = 'Save to all users'
+      Text = 'Salvesta k'#245'igile kasutajatele'
     end
     item
       IndexID = 903175
-      Text = 'Expression'
+      Text = 'Avaldis'
     end
     item
       IndexID = 903176
-      Text = 'Font expression'
+      Text = 'Fondi avaldis'
     end
     item
       IndexID = 903177
-      Text = 'Background expression'
+      Text = 'Tausta avaldis'
     end
     item
       IndexID = 903178
-      Text = 'Are you sure?'
+      Text = 'Oled sa kindel?'
     end
     item
       IndexID = 903179
-      Text = 'Nothing found !'
+      Text = 'Midagi ei leitud!'
     end
     item
       IndexID = 903180
-      Text = 'Enter code'
+      Text = 'Sisesta kood'
     end
     item
       IndexID = 903181
-      Text = 'Please register <@APPNAME@> first!'
+      Text = 'Palun registreeri <@APPNAME@> esmalt!'
     end
     item
       IndexID = 903182
-      Text = 'Registered'
+      Text = 'Registreeritud'
     end
     item
       IndexID = 1000056
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Postitatud kaubad - T'#228'itmata'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Postitamata kaubad - T'#228'itmata'
     end
     item
       IndexID = 906268
-      Text = 'Current stock levels'
+      Text = 'Jooksev laoseis'
     end
     item
       IndexID = 906269
-      Text = 'The sum of'
+      Text = 'Summa'
     end
     item
       IndexID = 906270
-      Text = 'Amount outstanding'
+      Text = 'T'#228'itmata summa'
     end
     item
       IndexID = 906271
-      Text = 'Original transaction amount'
+      Text = 'Algne tehingu summa'
     end
     item
       IndexID = 906272
-      Text = 'Paid to'
+      Text = 'Makstud (saajale)'
     end
     item
       IndexID = 906273
-      Text = 'Payment number'
+      Text = 'Makse number'
     end
     item
       IndexID = 906274
-      Text = 'LAY-BUYS (to pay)'
+      Text = 'OSAMAKSED (tasumiseks)'
     end
     item
       IndexID = 1000057
-      Text = 'Not used / Do not translate'
+      Text = 'Ei ole kasutusel / '#196'ra t'#245'lgi'
     end
     item
       IndexID = 906275
-      Text = 'accepted'
+      Text = 'vastu v'#245'etud'
     end
     item
       IndexID = 906276
-      Text = 'Document layout (10 code)'
+      Text = 'Dokumendi paigutus (10 koodiga)'
     end
     item
       IndexID = 906277
-      Text = 'Document layout (15 code)'
+      Text = 'Dokumendi paigutus (15 koodiga)'
     end
     item
       IndexID = 906278
-      Text = 'Document layout (no codes)'
+      Text = 'Dokumendi paigutus (koodideta)'
     end
     item
       IndexID = 906279
-      Text = 'Supplier 1'
+      Text = 'Tarnija 1'
     end
     item
       IndexID = 906280
-      Text = 'Ledger and tax'
+      Text = 'Pearaamat ja KM'
     end
     item
       IndexID = 906281
-      Text = 'Dummy price'
+      Text = 'N'#228'iv hind'
     end
     item
       IndexID = 906282
-      Text = 'Extra convert to languages'
+      Text = 'Lisa teisenda keelde'
     end
     item
       IndexID = 906283
-      Text = 'Active stock'
+      Text = 'Aktiivne laoseis'
     end
     item
       IndexID = 906284
-      Text = 'Mark copy'
+      Text = 'M'#228'rgista koopia'
     end
     item
       IndexID = 906285
-      Text = 'Multi-group copy'
+      Text = 'Mitmer'#252'hmaline koopia'
     end
     item
       IndexID = 906286
-      Text = 'Report total'
+      Text = 'Aruande kogusumma'
     end
     item
       IndexID = 906287
-      Text = 'Debit transactions'
+      Text = 'Deebettehingud'
     end
     item
       IndexID = 906288
-      Text = 'Credit transactions'
+      Text = 'Kreediettehingud'
     end
     item
       IndexID = 906289
-      Text = 'Graph - Purchases per week - Quantities'
+      Text = 'Graafik - Ostud n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906290
-      Text = 'Graph - Purchases per week - Cost'
+      Text = 'Graafik - Ostud n'#228'dala kohta - Kulu'
     end
     item
       IndexID = 906291
-      Text = 'Credit notes per period - Debtor group 1'
+      Text = 'Kreeditkorraldused perioodi kohta - V'#245'lgnikugrupp 1'
     end
     item
       IndexID = 906292
-      Text = 'Credit notes per period - Debtor group 2'
+      Text = 'Kreeditkorraldused perioodi kohta - V'#245'lgnikugrupp 2'
     end
     item
       IndexID = 906293
-      Text = 'Credit notes per period - Document group 1'
+      Text = 'Kreeditkorraldused perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906294
-      Text = 'Credit notes per period - Document group 2'
+      Text = 'Kreeditkorraldused perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906295
-      Text = 'Credit notes per period - Salesperson'
+      Text = 'Kreeditkorraldused perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906296
-      Text = 'Supplier returns per period - Creditor group 1'
+      Text = 'Tarnija tagastused perioodi kohta - Hankijagrupp 1'
     end
     item
       IndexID = 906297
-      Text = 'Supplier returns per period - Creditor group 2'
+      Text = 'Tarnija tagastused perioodi kohta - Hankijagrupp 2'
     end
     item
       IndexID = 906298
-      Text = 'Supplier returns per period - Document group 1'
+      Text = 'Tarnija tagastused perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906299
-      Text = 'Supplier returns per period - Document group 2'
+      Text = 'Tarnija tagastused perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906300
-      Text = 'Supplier returns per period - Salesperson'
+      Text = 'Tarnija tagastused perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906301
-      Text = 'Quotes per period - Debtor group 1'
+      Text = 'Hinnapakkumised perioodi kohta - V'#245'lgnikugrupp 1'
     end
     item
       IndexID = 906302
-      Text = 'Quotes per period - Debtor group 2'
+      Text = 'Hinnapakkumised perioodi kohta - V'#245'lgnikugrupp 2'
     end
     item
       IndexID = 906303
-      Text = 'Quotes per period - Document group 1'
+      Text = 'Hinnapakkumised perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906304
-      Text = 'Quotes per period - Document group 2'
+      Text = 'Hinnapakkumised perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906305
-      Text = 'Quotes per period - Salesperson'
+      Text = 'Hinnapakkumised perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906306
-      Text = 'Orders per period - Creditor group 1'
+      Text = 'Ostutellimused perioodi kohta - Hankijagrupp 1'
     end
     item
       IndexID = 906307
-      Text = 'Orders per period - Creditor group 2'
+      Text = 'Ostutellimused perioodi kohta - Hankijagrupp 2'
     end
     item
       IndexID = 906308
-      Text = 'Orders per period - Document group 1'
+      Text = 'Ostutellimus perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906309
-      Text = 'Orders per period - Document group 2'
+      Text = 'Ostutellimus perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906310
-      Text = 'Orders per period - Salesperson'
+      Text = 'Ostutellimus perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906311
-      Text = 'Credit notes per period - Quantities'
+      Text = 'Kreeditkorraldused perioodi kohta - Kogused'
     end
     item
       IndexID = 906312
-      Text = 'Credit notes per period - Turnover'
+      Text = 'Kreeditkorraldused perioodi kohta - K'#228'ive'
     end
     item
       IndexID = 906313
-      Text = 'Supplier returns per period - Quantities'
+      Text = 'Tarnija tagastused perioodi kohta - Kogused'
     end
     item
       IndexID = 906314
-      Text = 'Supplier returns per period - Cost'
+      Text = 'Tarnija tagastused perioodi kohta - Summa'
     end
     item
       IndexID = 906315
-      Text = 'Quotes per period - Quantities'
+      Text = 'Hinnapakkumised perioodi kohta - Kogused'
     end
     item
       IndexID = 906316
-      Text = 'Quotes per period - Turnover'
+      Text = 'Hinnapakkumised perioodi kohta - K'#228'ive'
     end
     item
       IndexID = 906317
-      Text = 'Orders per period - Quantities'
+      Text = 'Ostutellimus perioodi kohta - Kogused'
     end
     item
       IndexID = 906318
-      Text = 'Orders per period - Cost'
+      Text = 'Ostutellimus perioodi kohta - Kulu'
     end
     item
       IndexID = 906319
-      Text = 'Graph - Credit notes per week - Quantities'
+      Text = 'Graafik - Kreeditkorraldused n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906320
-      Text = 'Graph - Credit notes per week - Turnover'
+      Text = 'Graafik - Kreeditkorraldused n'#228'dala kohta - K'#228'ive'
     end
     item
       IndexID = 906321
-      Text = 'Graph - Supplier returns per week - Quantities'
+      Text = 'Graafik - Tarnija tagastused n'#228'dala l'#245'ikes - Kogused'
     end
     item
       IndexID = 906322
-      Text = 'Graph - Supplier returns per week - Cost'
+      Text = 'Graafik - Tarnija tagastused n'#228'dala l'#245'ikes - Summa'
     end
     item
       IndexID = 906323
-      Text = 'Graph - Quotes per week - Quantities'
+      Text = 'Graafik - Hinnapakkumised n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906324
-      Text = 'Graph - Quotes per week - Turnover'
+      Text = 'Graafik - Hinnapakkumised n'#228'dala kohta - K'#228'ive'
     end
     item
       IndexID = 906325
-      Text = 'Graph - Orders per week - Quantities'
+      Text = 'Graafik - Ostutellimus n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906326
-      Text = 'Graph - Orders per week - Cost'
+      Text = 'Graafik - Ostutellimus n'#228'dala kohta - Kulu'
     end
     item
       IndexID = 906327
-      Text = 'Purchase documents per period - Creditor group 1'
+      Text = 'Ostudokumendid perioodi kohta - Hankijagrupp 1'
     end
     item
       IndexID = 906328
-      Text = 'Purchase documents per period - Creditor group 2'
+      Text = 'Ostudokumendid perioodi kohta - Hankijagrupp 2'
     end
     item
       IndexID = 906329
-      Text = 'Purchase documents per period - Document group 1'
+      Text = 'Ostudokumendid perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906330
-      Text = 'Purchase documents per period - Document group 2'
+      Text = 'Ostudokumendid perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906331
-      Text = 'Purchase documents per period - Salesperson'
+      Text = 'Ostudokumendid perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 906332
-      Text = 'Sales per period - Debtor group 1'
+      Text = 'M'#252#252'k perioodi kohta - V'#245'lgnikugrupp 1'
     end
     item
       IndexID = 906333
-      Text = 'Sales per period - Debtor group 2'
+      Text = 'M'#252#252'k perioodi kohta - V'#245'lgnikugrupp 2'
     end
     item
       IndexID = 906334
-      Text = 'Sales per period - Document group 1'
+      Text = 'M'#252#252'k perioodi kohta - Dokumendigrupp 1'
     end
     item
       IndexID = 906335
-      Text = 'Sales per period - Document group 2'
+      Text = 'M'#252#252'k perioodi kohta - Dokumendigrupp 2'
     end
     item
       IndexID = 906336
-      Text = 'Sales per period - Salesperson'
+      Text = 'M'#252#252'k perioodi kohta - M'#252#252'ja'
     end
     item
       IndexID = 3127
-      Text = 'Net weight'
+      Text = 'Netokaal'
     end
     item
       IndexID = 3128
-      Text = 'Gross weight'
+      Text = 'Brutokaal'
     end
     item
       IndexID = 3129
-      Text = 'Reorder at'
+      Text = 'Tellimispunkt'
     end
     item
       IndexID = 3130
-      Text = 'Minimum'
+      Text = 'Miinimum'
     end
     item
       IndexID = 3131
-      Text = 
-        'Reorder level - your items will be reordered until this quantity' +
-        '!'
+      Text = 'Tellimispunkt '#8211' kaubad tellitakse uuesti kuni selle koguseni!'
     end
     item
       IndexID = 3132
       Text = 
-        'If your stock goes below this, then the system will reorder unti' +
-        'l the reorder quantity!'
+        'Kui laoseis langeb alla selle taseme, tellib s'#252'steem uuesti kuni' +
+        ' tellimiskoguseni!'
     end
     item
       IndexID = 3133
       Text = 
-        'If you want to reserve some stock for sales this field will be d' +
-        'educted from current stock levels in a quote!'
+        'Kui soovite m'#252#252'giks laovaru reserveerida, arvatakse see v'#228'li hin' +
+        'napakkumises maha praegusest laoseisust!'
     end
     item
       IndexID = 3134
-      Text = 'Languages'
+      Text = 'Keeled'
     end
     item
       IndexID = 3135
-      Text = 'Language'
+      Text = 'Keel'
     end
     item
       IndexID = 3136
-      Text = 'Multi-group'
+      Text = 'Mitmer'#252'hm'
     end
     item
       IndexID = 3137
-      Text = 'Select image'
+      Text = 'Vali pilt'
     end
     item
       IndexID = 3138
-      Text = 'Delete image'
+      Text = 'Kustuta pilt'
     end
     item
       IndexID = 3139
-      Text = 'Cur : %s Quote : %s Order : %s Exp : %s'
+      Text = 'Jooksev : %s Hpak. : %s Ostutell. : %s Eeldatav : %s'
     end
     item
       IndexID = 3140
-      Text = 'Expected quantity'
+      Text = 'Oodatav kogus'
     end
     item
       IndexID = 3141
-      Text = 'Manufacturer'
+      Text = 'Tootja'
     end
     item
       IndexID = 3142
-      Text = 'Option item'
+      Text = 'Valikukaup'
     end
     item
       IndexID = 3143
-      Text = 'Option item (no stock)'
+      Text = 'Valikukaup (laoseis puudub)'
     end
     item
       IndexID = 3144
-      Text = 'Options'
+      Text = 'Valikud'
     end
     item
       IndexID = 3145
-      Text = 'Generate'
+      Text = 'Genereeri'
     end
     item
       IndexID = 3146
-      Text = 'Linked options'
+      Text = 'Seotud valikud'
     end
     item
       IndexID = 3147
-      Text = 'View as tree'
+      Text = 'Kuva puuna'
     end
     item
       IndexID = 3148
-      Text = 'Combination name'
+      Text = 'Kombinatsiooni nimi'
     end
     item
       IndexID = 3149
-      Text = 'Remove'
+      Text = 'Eemalda'
     end
     item
       IndexID = 3150
-      Text = 'Extra price'
+      Text = 'Lisahind'
     end
     item
       IndexID = 3151
-      Text = 'Financial entry'
+      Text = 'Finantskanne'
     end
     item
       IndexID = 3152
-      Text = 'Weight'
+      Text = 'Kaal'
     end
     item
       IndexID = 3153
       Text = 
-        'If you have OpenOffice installed, you can edit this as HTML by d' +
-        'ouble-clicking in this text field!'
+        'Kui teil on OpenOffice installitud, saate seda tekstiv'#228'ljal tope' +
+        'ltkl'#245'psates HTML-ina muuta!'
     end
     item
       IndexID = 3154
-      Text = 'Options'
+      Text = 'Valikud'
     end
     item
       IndexID = 3155
-      Text = 'Setup options'
+      Text = 'Seadista valikud'
     end
     item
       IndexID = 3156
-      Text = 'Double-click to enter the option list.'
+      Text = 'Valikute loendisse sisenemiseks topeltkl'#245'psake.'
     end
     item
       IndexID = 3157
-      Text = 'Default inclusive for documents'
+      Text = 'Vaikimisi k'#228'ibemaksuga dokumentidele'
     end
     item
       IndexID = 3158
-      Text = 'SQL only for stock lookup'
+      Text = 'SQL ainult laokaupade otsinguks'
     end
     item
       IndexID = 3159
-      Text = 'Merge invoice to orders'
+      Text = 'Liida arve ostutellimustega'
     end
     item
       IndexID = 3160
-      Text = 'Merge items per tax on ledger'
+      Text = 'Liida kanded pearaamatus KM j'#228'rgi'
     end
     item
       IndexID = 3161
-      Text = 'Button lookup'
+      Text = 'Nupuotsing'
     end
     item
       IndexID = 3162
-      Text = 'Cannot edit price'
+      Text = 'Hinda ei saa muuta'
     end
     item
       IndexID = 3163
-      Text = 'Cannot edit description'
+      Text = 'Kirjeldust ei saa muuta'
     end
     item
       IndexID = 3164
-      Text = 'Go to quantity'
+      Text = 'Mine koguse juurde'
     end
     item
       IndexID = 3165
-      Text = 'Bank accounts'
+      Text = 'Pangakontod'
     end
     item
       IndexID = 3166
-      Text = 'Column balances D/C'
+      Text = 'Veerusaldo D/K'
     end
     item
       IndexID = 3167
-      Text = 'Column balances debtors D/C'
+      Text = 'Veerusaldo v'#245'lgnike D/K'
     end
     item
       IndexID = 3168
-      Text = 'Column balances creditors D/C'
+      Text = 'Veerusaldo hankijate D/K'
     end
     item
       IndexID = 3169
-      Text = 'Strict tax on account'
+      Text = 'Range maks kontol'
     end
     item
       IndexID = 3170
-      Text = 'Post warning per invoice'
+      Text = 'Postitamise hoiatus arve kohta'
     end
     item
       IndexID = 3171
-      Text = 'Process warnings'
+      Text = 'T'#246#246'tle hoiatusi'
     end
     item
       IndexID = 3172
-      Text = 'Process subscriptions'
+      Text = 'T'#246#246'tle tellimusi'
     end
     item
       IndexID = 3173
-      Text = 'Send e-mail'
+      Text = 'Saada e-kiri'
     end
     item
       IndexID = 3174
-      Text = 'Document layout'
+      Text = 'Dokumendi paigutus'
     end
     item
       IndexID = 3175
-      Text = 'Contract term not the same!'
+      Text = 'Lepingu t'#228'htaeg ei ole sama!'
     end
     item
       IndexID = 3176
-      Text = 'Send warning'
+      Text = 'Saada hoiatus'
     end
     item
       IndexID = 3177
-      Text = 'E-mail signed document'
+      Text = 'Saada allkirjastatud dokument e-posti teel'
     end
     item
       IndexID = 3178
-      Text = 'Link tax'
+      Text = 'Seosta maks'
     end
     item
       IndexID = 3179
-      Text = 'Bank links'
+      Text = 'Panga lingid'
     end
     item
       IndexID = 3180
-      Text = 'Edit account'
+      Text = 'Muuda kontot'
     end
     item
       IndexID = 3181
-      Text = 'Convert to credit note / supplier return'
+      Text = 'Teisenda kreeditkorralduseks / tarnija tagastuseks'
     end
     item
       IndexID = 3182
-      Text = 'Open e-Commerce order in browser'
+      Text = 'Ava e-kaubanduse ostutellimus brauseris'
     end
     item
       IndexID = 3183
-      Text = 'Open e-Commerce customer in browser'
+      Text = 'Ava e-kaubanduse klient brauseris'
     end
     item
       IndexID = 3184
-      Text = 'Convert documents to single document'
+      Text = 'Teisenda dokumendid '#252'hekordseks dokumendiks'
     end
     item
       IndexID = 3185
-      Text = 'Create purchase on default supplier 1'
+      Text = 'Loo ostuv'#228'ljav'#245'te vaikimisi tarnijale 1'
     end
     item
       IndexID = 3186
-      Text = 'Image'
+      Text = 'Pilt'
     end
     item
       IndexID = 3187
-      Text = 'Bug report'
+      Text = 'Veateade (Aruanne veast)'
     end
     item
       IndexID = 3188
-      Text = 'Cost centres'
+      Text = 'Kulukohad'
     end
     item
       IndexID = 3189
-      Text = 'Close active forms'
+      Text = 'Sulge aktiivsed vormid'
     end
     item
       IndexID = 3190
-      Text = 'Show / hide sidebar'
+      Text = 'N'#228'ita / peida k'#252'lgriba'
     end
     item
       IndexID = 3191
-      Text = 'Show / hide topbar'
+      Text = 'N'#228'ita / peida '#252'lemine riba'
     end
     item
       IndexID = 3192
-      Text = 'Only look in account for search'
+      Text = 'Otsi ainult kontolt'
     end
     item
       IndexID = 3193
-      Text = 'Bug report'
+      Text = 'Veateade (Aruanne veast)'
     end
     item
       IndexID = 3194
-      Text = 'Webshop'
+      Text = 'E-pood'
     end
     item
       IndexID = 3195
-      Text = 'Help'
+      Text = 'Abi'
     end
     item
       IndexID = 3196
-      Text = 'Forum'
+      Text = 'Foorum'
     end
     item
       IndexID = 3197
-      Text = 'Opening balance - This year'
+      Text = 'Algsaldo '#8211' see aasta'
     end
     item
       IndexID = 3198
-      Text = 'Gender'
+      Text = 'Sugu'
     end
     item
       IndexID = 3199
-      Text = 'Male'
+      Text = 'Mees'
     end
     item
       IndexID = 3200
-      Text = 'Female'
+      Text = 'Naine'
     end
     item
       IndexID = 3201
-      Text = 'Newsletters and password'
+      Text = 'Uudiskirjad ja parool'
     end
     item
       IndexID = 3202
-      Text = 'Referral source'
+      Text = 'Soovituse allikas'
     end
     item
       IndexID = 3203
-      Text = 'Newsletters'
+      Text = 'Uudiskirjad'
     end
     item
       IndexID = 3204
-      Text = 'Password confirmation'
+      Text = 'Parooli kinnitamine'
     end
     item
       IndexID = 3205
-      Text = 'General'
+      Text = #220'ldine'
     end
     item
       IndexID = 3206
-      Text = 'Release'
+      Text = 'V'#228'ljalase (Versioon)'
     end
     item
       IndexID = 3207
-      Text = 'Bug fix'
+      Text = 'Veaparandus'
     end
     item
       IndexID = 3208
-      Text = 'Community day'
+      Text = 'Kogukonna p'#228'ev'
     end
     item
       IndexID = 3209
-      Text = 'Existing user'
+      Text = 'Olemasolev kasutaja'
     end
     item
       IndexID = 3210
-      Text = 'You have registered successfully !'
+      Text = 'Te olete edukalt registreerunud!'
     end
     item
       IndexID = 3211
-      Text = 'Usage'
+      Text = 'Kasutus'
     end
     item
       IndexID = 3212
-      Text = 'Website'
+      Text = 'Veebisait'
     end
     item
       IndexID = 3213
-      Text = 'Reregister'
+      Text = 'Uuesti registreerimine'
     end
     item
       IndexID = 3214
-      Text = 'Consultant'
+      Text = 'Konsultant'
     end
     item
       IndexID = 3215
-      Text = 'Send'
+      Text = 'Saada'
     end
     item
       IndexID = 3216
-      Text = 'New user'
+      Text = 'Uus kasutaja'
     end
     item
       IndexID = 3217
-      Text = 'Action'
+      Text = 'Tegevus (Toiming)'
     end
     item
       IndexID = 3218
       Text = 
-        'Username and password are used to log in to our forum and shop n' +
-        'ot for <@APPNAME@> self'
+        'Kasutajanime ja parooli kasutatakse meie foorumisse ja poodi sis' +
+        'selogimiseks, mitte <@APPNAME@> enda jaoks'
     end
     item
       IndexID = 3219
-      Text = 'E-mail can be sent via the context menu in the Document list.'
+      Text = 'E-kirja saab saata dokumendiloendi kontekstimen'#252#252' kaudu.'
     end
     item
       IndexID = 3220
-      Text = 'Mail template'
+      Text = 'E-kirja mall'
     end
     item
       IndexID = 3221
-      Text = 'Select layout'
+      Text = 'Vali paigutus'
     end
     item
       IndexID = 3222
-      Text = 'Select template'
+      Text = 'Vali mall'
     end
     item
       IndexID = 3223
-      Text = 'Report name'
+      Text = 'Aruande nimi'
     end
     item
       IndexID = 3224
-      Text = 'Base folder debtor/creditor'
+      Text = 'Aluskaust v'#245'lgnik/hankija'
     end
     item
       IndexID = 3225
-      Text = 'Base folder'
+      Text = 'Aluskaust'
     end
     item
       IndexID = 3226
-      Text = 'Test e-mail'
+      Text = 'Test-e-kiri'
     end
     item
       IndexID = 3227
-      Text = 'Send e-mail(s)'
+      Text = 'Saada e-kiri(ad)'
     end
     item
       IndexID = 3228
-      Text = 'Resume e-mail(s)'
+      Text = 'J'#228'tka e-kirja(de) saatmist'
     end
     item
       IndexID = 3229
-      Text = 'Stop e-mail(s)'
+      Text = 'L'#245'peta e-kirja(de) saatmine'
     end
     item
       IndexID = 3230
-      Text = 'Path to the HTML files'
+      Text = 'Tee HTML-failideni'
     end
     item
       IndexID = 3231
-      Text = 'POP username'
+      Text = 'POP kasutajanimi'
     end
     item
       IndexID = 3232
-      Text = 'POP password'
+      Text = 'POP parool'
     end
     item
       IndexID = 3233
@@ -15778,398 +15796,401 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3236
-      Text = 'Return e-mail'
+      Text = 'Tagastus-e-kiri'
     end
     item
       IndexID = 3237
-      Text = 'Return name'
+      Text = 'Tagastuse nimi'
     end
     item
       IndexID = 3238
-      Text = 'E-mail header text'
+      Text = 'E-kirja p'#228'ise tekst'
     end
     item
       IndexID = 3239
-      Text = 'Send max mail'
+      Text = 'Maksimaalne saadetavate kirjade arv'
     end
     item
       IndexID = 3240
-      Text = 'Timer threshold in sec.'
+      Text = 'Taimeri l'#228'vi sekundites'
     end
     item
       IndexID = 3241
-      Text = 'SMTP username'
+      Text = 'SMTP kasutajanimi'
     end
     item
       IndexID = 3242
-      Text = 'SMTP password'
+      Text = 'SMTP parool'
     end
     item
       IndexID = 3243
-      Text = 'Sign certificate'
+      Text = 'Allkirjasta sertifikaat'
     end
     item
       IndexID = 3244
-      Text = 'Certificate password'
+      Text = 'Sertifikaadi parool'
     end
     item
       IndexID = 3245
-      Text = 'Sign any PDF'
+      Text = 'Allkirjasta suvaline PDF'
     end
     item
       IndexID = 3246
-      Text = 'Free text'
+      Text = 'Vaba tekst'
     end
     item
       IndexID = 3247
-      Text = 'Preview in browser'
+      Text = 'Eelvaade brauseris'
     end
     item
       IndexID = 3248
-      Text = 'Test E-mail to Extra CC'
+      Text = 'Test-e-kiri lisakoopia saajale'
     end
     item
       IndexID = 3249
-      Text = 'Extra CC'
+      Text = 'Lisa CC'
     end
     item
       IndexID = 3250
-      Text = 'CC (multiple separate with ;)'
+      Text = 'CC (mitu eraldatud semikooloniga)'
     end
     item
       IndexID = 3251
-      Text = 'BCC (multiple separate with ;)'
+      Text = 'BCC (mitu eraldatud semikooloniga)'
     end
     item
       IndexID = 3252
-      Text = 'Send E-mail'
+      Text = 'Saada e-kiri'
     end
     item
       IndexID = 3253
       Text = 
-        'No extra CC found! Please enter an e-mail address in text box be' +
-        'low this button!'
+        'Lisakoopia adressaati ei leitud! Palun sisestage e-posti aadress' +
+        ' nupust allpool olevasse tekstikasti!'
     end
     item
       IndexID = 3254
-      Text = 'No POP password entered!'
+      Text = 'POP parooli ei sisestatud!'
     end
     item
       IndexID = 3255
-      Text = 'Stopped by user!'
+      Text = 'Kasutaja peatas!'
     end
     item
       IndexID = 3256
-      Text = 'On'
+      Text = 'Sees'
     end
     item
       IndexID = 3257
-      Text = 'Off'
+      Text = 'V'#228'ljas'
     end
     item
       IndexID = 3258
-      Text = 'Setup E-mail Pro'
+      Text = 'E-kirja Pro seadistus'
     end
     item
       IndexID = 3259
-      Text = 'E-mail Pro'
+      Text = 'E-kiri Pro'
     end
     item
       IndexID = 3260
-      Text = 'No category'
+      Text = 'Kategooria puudub'
     end
     item
       IndexID = 3261
-      Text = 'Freefields'
+      Text = 'Vabad v'#228'ljad'
     end
     item
       IndexID = 3262
-      Text = 'Register'
+      Text = 'Registreeri'
     end
     item
       IndexID = 3263
-      Text = 'Purge invalid'
+      Text = 'Puhasta kehtetud'
     end
     item
       IndexID = 3264
-      Text = 'Redo discount on document'
+      Text = 'Korda allahindlust dokumendil'
     end
     item
       IndexID = 3265
-      Text = 'Percentage of sale'
+      Text = 'M'#252#252'giprotsent'
     end
     item
       IndexID = 3266
-      Text = 'BOM (Production)'
+      Text = 'M.L. (Tootmine)'
     end
     item
       IndexID = 3267
-      Text = 'Supplier stock code'
+      Text = 'Tarnija laokood'
     end
     item
       IndexID = 3268
-      Text = 'Preferred supplier'
+      Text = 'Eelistatud tarnija'
     end
     item
       IndexID = 3269
-      Text = 'Next cost price'
+      Text = 'J'#228'rgmine omahind'
     end
     item
       IndexID = 3270
-      Text = 'Assemble'
+      Text = 'Kokku panema'
     end
     item
       IndexID = 3271
-      Text = 'Disassemble'
+      Text = 'Lahti v'#245'tma'
     end
     item
       IndexID = 3272
-      Text = 'Link bank account from import to accounts'
+      Text = 'Seosta imporditud pangakonto kontodega'
     end
     item
       IndexID = 3273
-      Text = 'Link all records with current account bank accounts'
+      Text = 'Seosta k'#245'ik kirjed jooksvate pangakontodega'
     end
     item
       IndexID = 3274
-      Text = 'Select from account open item list'
+      Text = 'Vali avatud kirjete kontode loendist'
     end
     item
       IndexID = 3275
-      Text = 'Show refs for account'
+      Text = 'N'#228'ita viiteid konto kohta'
     end
     item
       IndexID = 3276
       Text = 
-        'Bank import extra link functions. Enter bank account for exact m' +
-        'atch on account. Enter text with a # prefix to look inside a imp' +
-        'orted'
+        'Pangaimpordi lisa linkimise funktsioonid. Sisestage pangakonto t' +
+        #228'pse vaste jaoks kontol. Sisestage tekst eesliitega #, et otsida' +
+        ' imporditud panga reast, kas tekst selles stringis sisaldub. Ots' +
+        'ing tehakse suurt'#228'htedega.'
     end
     item
       IndexID = 3277
-      Text = 'Account bank references'
+      Text = 'Konto panga viited'
     end
     item
       IndexID = 3278
-      Text = 'Std Bank account no.'
+      Text = 'Std. Pangakonto nr.'
     end
     item
       IndexID = 3279
-      Text = 'Delivery date'
+      Text = 'Tarnekuup'#228'ev'
     end
     item
       IndexID = 3280
-      Text = 'Check'
+      Text = 'Kontrolli'
     end
     item
       IndexID = 3281
-      Text = 'Plugin mass action'
+      Text = 'Lisamooduli massitegevus'
     end
     item
       IndexID = 3282
-      Text = 'Plugin action'
+      Text = 'Lisamooduli tegevus'
     end
     item
       IndexID = 3283
-      Text = 'Fast add item (code/barcode/serial)'
+      Text = 'Kiirlisa kaup (kood/v'#246#246'tkood/seerianumber)'
     end
     item
       IndexID = 3284
-      Text = 'Enter total'
+      Text = 'Sisesta kogusumma'
     end
     item
       IndexID = 3285
-      Text = 'Recalculate base'
+      Text = 'Arvuta baas uuesti'
     end
     item
       IndexID = 3286
-      Text = 'Cost price'
+      Text = 'Omahind'
     end
     item
       IndexID = 3288
-      Text = 'Recalculate sales %'
+      Text = 'Arvuta m'#252#252'giprotsent uuesti'
     end
     item
       IndexID = 3289
-      Text = 'Copy from plugin'
+      Text = 'Kopeeri lisamoodulist'
     end
     item
       IndexID = 3290
-      Text = 'Paste to plugin'
+      Text = 'Kleebi lisamoodulisse'
     end
     item
       IndexID = 3291
-      Text = 'Copy from / init'
+      Text = 'Kopeeri / k'#228'ivita'
     end
     item
       IndexID = 3292
-      Text = 'Paste to / perform'
+      Text = 'Kleebi / teosta'
     end
     item
       IndexID = 3293
-      Text = 'Copy'
+      Text = 'Kopeeri'
     end
     item
       IndexID = 3294
-      Text = 'Show tax in documents'
+      Text = 'N'#228'ita maksu dokumentides'
     end
     item
       IndexID = 3295
-      Text = 'Sales/Debit'
+      Text = 'M'#252#252'k/Deebet'
     end
     item
       IndexID = 3296
-      Text = 'Purchase/Credit'
+      Text = 'Ost/Kreedit'
     end
     item
       IndexID = 3297
-      Text = 'Hide this tax'
+      Text = 'Peida see maks'
     end
     item
       IndexID = 3298
-      Text = 'All'
+      Text = 'K'#245'ik'
     end
     item
       IndexID = 3299
-      Text = 'No out of stock message'
+      Text = 'Laoseisu puudumise teadet ei n'#228'idata'
     end
     item
       IndexID = 3300
-      Text = 'Use colours for out of stock'
+      Text = 'Kasuta laoseisu puudumisel v'#228'rve'
     end
     item
       IndexID = 3301
-      Text = 'Calculate BOM stock'
+      Text = 'Arvuta M.L. laoseis'
     end
     item
       IndexID = 3302
-      Text = 'Limit stock purchase only for default supplier or non'
+      Text = 'Piira laokaupade ostmine ainult vaikimisi tarnijale (v'#245'i mitte)'
     end
     item
       IndexID = 3303
-      Text = 'Welcome'
+      Text = 'Tere tulemast'
     end
     item
       IndexID = 3304
-      Text = 'New invoice'
+      Text = 'Uus arve'
     end
     item
       IndexID = 3305
-      Text = 'Data saved'
+      Text = 'Andmed salvestatud'
     end
     item
       IndexID = 3306
-      Text = 'Split bill'
+      Text = 'Jaga arve'
     end
     item
       IndexID = 3307
-      Text = 'Data saved'
+      Text = 'Andmed salvestatud'
     end
     item
       IndexID = 3308
-      Text = 'Reopen invoice'
+      Text = 'Ava arve uuesti'
     end
     item
       IndexID = 3309
-      Text = '+Open fast add'
+      Text = '+Ava kiirlisa'
     end
     item
       IndexID = 3310
-      Text = '-Close fast add'
+      Text = '-Sulge kiirlisa'
     end
     item
       IndexID = 3311
-      Text = 'Create purchase on default supplier 1'
+      Text = 'Loo ostuarve vaikimisi tarnijale 1'
     end
     item
       IndexID = 3312
       Text = 
-        'No default supplier 1 for these stock items! Please correct firs' +
-        't!'
+        'Nende laokaupade jaoks puudub vaikimisi tarnija 1! Palun paranda' +
+        'ge see esmalt.'
     end
     item
       IndexID = 3313
-      Text = 'Months'
+      Text = 'Kuud'
     end
     item
       IndexID = 3314
-      Text = 'Per period'
+      Text = 'Perioodi kohta'
     end
     item
       IndexID = 3315
-      Text = 'Free selection'
+      Text = 'Vaba valik'
     end
     item
       IndexID = 3316
-      Text = 'Hours between date'
+      Text = 'Tunnid kuup'#228'evade vahel'
     end
     item
       IndexID = 3317
-      Text = 'Recalculate selling price'
+      Text = 'Arvuta m'#252#252'gihind uuesti'
     end
     item
       IndexID = 3318
-      Text = 'Default cost centre'
+      Text = 'Vaikimisi kulukoht'
     end
     item
       IndexID = 3319
-      Text = 'Cost centre'
+      Text = 'Kulukoht'
     end
     item
       IndexID = 3320
-      Text = 'Save this unsaved document?'
+      Text = 'Kas salvestada see salvestamata dokument?'
     end
     item
       IndexID = 3321
-      Text = 'Code, description and extra description'
+      Text = 'Kood, kirjeldus ja lisakirjeldus'
     end
     item
       IndexID = 3322
-      Text = 'Enter new inclusive total'
+      Text = 'Sisesta uus k'#228'ibemaksuga kogusumma'
     end
     item
       IndexID = 3323
-      Text = 'Create backorders to deliver'
+      Text = 'Loo j'#228'reltellimused tarnimiseks'
     end
     item
       IndexID = 3324
-      Text = 'Only new items (no adjust)'
+      Text = 'Ainult uued kaubad (mitte korrigeerimine)'
     end
     item
       IndexID = 906337
-      Text = 'Purchases and supplier returns per period'
+      Text = 'Ostud ja tarnija tagastused perioodi kohta'
     end
     item
       IndexID = 906338
-      Text = 'Credit control listing (Credit limit vs current balance) as at '
+      Text = 
+        'Krediidikontrolli loetelu (krediidilimiit vs jooksev j'#228#228'k) seisu' +
+        'ga'
     end
     item
       IndexID = 906339
-      Text = 'Tax and company registration numbers'
+      Text = 'KM ja ettev'#245'tte registrinumbrid'
     end
     item
       IndexID = 906440
-      Text = 'Transaction list'
+      Text = 'Tehingute loetelu'
     end
     item
       IndexID = 906441
-      Text = 'Actual'
+      Text = 'Tegelik'
     end
     item
       IndexID = 906442
-      Text = 'Budget v/s realisation 3 periods'
+      Text = 'Eelarve vs realiseerimine 3 perioodi'
     end
     item
       IndexID = 906443
-      Text = 'Ref. No.'
+      Text = 'Viitenumber'
     end
     item
       IndexID = 906444
-      Text = 'Data integrity check report'
+      Text = 'Andmete terviklikkuse kontrollaruanne'
     end
     item
       IndexID = 906445
-      Text = 'Date / Time'
+      Text = 'Kuup'#228'ev / Aeg'
     end
     item
       IndexID = 906446
@@ -16177,70 +16198,70 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906447
-      Text = 'Unposted payments'
+      Text = 'Postitamata maksed'
     end
     item
       IndexID = 906448
-      Text = 'Unposted receipts'
+      Text = 'Postitamata laekumised'
     end
     item
       IndexID = 906449
-      Text = 'Automatic payments report'
+      Text = 'Automaatsete maksete aruanne'
     end
     item
       IndexID = 3710
-      Text = 'Small backup (books)'
+      Text = 'V'#228'ike varukoopia (raamatud)'
     end
     item
       IndexID = 3711
       Text = 
-        'This action will close <@APPNAME@> and install version %s we rec' +
-        'ommend you make a backup of the whole folder of <@APPNAME@>.'#13#10'Do' +
-        ' you wish to continue?'
+        'See toiming sulgeb <@APPNAME@> ja installib versiooni %s. Soovit' +
+        'ame teha varukoopia kogu <@APPNAME@> kaustast. Kas soovite j'#228'tka' +
+        'ta?'
     end
     item
       IndexID = 3712
-      Text = 'Updates'
+      Text = 'Uuendused'
     end
     item
       IndexID = 3713
-      Text = 'Check for update at start'
+      Text = 'Kontrolli uuendusi k'#228'ivitamisel'
     end
     item
       IndexID = 3714
-      Text = 'Beta versions'
+      Text = 'Beetaversioonid'
     end
     item
       IndexID = 3715
-      Text = 'Install'
+      Text = 'Installi'
     end
     item
       IndexID = 906550
-      Text = 'Tax report - Reference / Document no.'
+      Text = 'KM aruanne - Viitenumber / Dokumendi nr.'
     end
     item
       IndexID = 906551
-      Text = 'Creditor remittance advise - Outstanding'
+      Text = 'Hankija maksejuhis - T'#228'itmata'
     end
     item
       IndexID = 906552
-      Text = 'Debtor statement - Outstanding'
+      Text = 'V'#245'lgniku v'#228'ljav'#245'te - T'#228'itmata'
     end
     item
       IndexID = 906553
-      Text = 'Tax list creditor with tax id'
+      Text = 'KM-i loetelu hankija KMKR-koodiga'
     end
     item
       IndexID = 906554
-      Text = 'Outdated batch'
+      Text = 'Aegunud partii'
     end
     item
       IndexID = 906555
-      Text = 'Batch bought from supplier'
+      Text = 'Tarnijalt ostetud partii'
     end
     item
       IndexID = 906556
-      Text = 'Batch sold to customer'
+      Text = 'Kliendile m'#252#252'dud partii'
     end
     item
       IndexID = 159
@@ -16252,27 +16273,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20130
-      Text = 'Do not cash'
+      Text = #196'ra lunasta'
     end
     item
       IndexID = 20131
-      Text = 'Create goods sold not taken'
+      Text = 'Loo m'#252#252'dud, kuid v'#228'lja v'#245'tmata kaubad'
     end
     item
       IndexID = 20132
-      Text = 'Cannot delete!'
+      Text = 'Ei saa kustutada!'
     end
     item
       IndexID = 20133
-      Text = 'Use advanced stock'
+      Text = 'Kasuta t'#228'iustatud laoseisu'
     end
     item
       IndexID = 3287
-      Text = 'Selling price'
+      Text = 'M'#252#252'gihind'
     end
     item
       IndexID = 36
-      Text = 'Order confirmation'
+      Text = 'Tellimuse kinnitus'
     end
     item
       IndexID = 96
@@ -16280,97 +16301,99 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3716
-      Text = 'Workflow'
+      Text = 'T'#246#246'voog'
     end
     item
       IndexID = 3717
-      Text = 'Blockchain'
+      Text = 'Plokiahel'
     end
     item
       IndexID = 3718
-      Text = 'Activate plugins'
+      Text = 'Aktiveeri lisamoodulid'
     end
     item
       IndexID = 3719
-      Text = 'Add to group'
+      Text = 'Lisa r'#252'hma'
     end
     item
       IndexID = 3720
-      Text = 'Spreadsheet import'
+      Text = 'Tabeli import'
     end
     item
       IndexID = 3721
-      Text = 'Enable Blockchain'
+      Text = 'Luba plokiahel'
     end
     item
       IndexID = 3722
-      Text = 'Document show quantity'
+      Text = 'Dokumendi n'#228'idatav kogus'
     end
     item
       IndexID = 3723
-      Text = 'Counted quantity'
+      Text = 'Loendatud kogus'
     end
     item
       IndexID = 3724
-      Text = 'Current quantity'
+      Text = 'Jooksev kogus'
     end
     item
       IndexID = 3725
-      Text = 'Date of count'
+      Text = 'Loendamise kuup'#228'ev'
     end
     item
       IndexID = 3726
-      Text = 'Ok -> Next'
+      Text = 'OK '#8594' J'#228'rgmine'
     end
     item
       IndexID = 3727
-      Text = 'Uncounted'
+      Text = 'Loendamata'
     end
     item
       IndexID = 3728
-      Text = 'Counted'
+      Text = 'Loendatud'
     end
     item
       IndexID = 3729
-      Text = 'Fast add'
+      Text = 'Kiirlisa'
     end
     item
       IndexID = 3730
-      Text = 'Post diverence'
+      Text = 'Kanna erinevus'
     end
     item
       IndexID = 3731
-      Text = 'Checked and OK'
+      Text = 'Kontrollitud ja OK'
     end
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today. do y' +
-        'ou want to stop opening a new year?'
+        'Teie praegune avatud aasta l'#245'ppkuup'#228'ev %s on t'#228'nasest hilisem! K' +
+        'as soovite uue aasta avamise peatada?'
     end
     item
       IndexID = 3733
-      Text = 'Are you sure you want to overwrite your current books?'
+      Text = 
+        'Kas olete kindel, et soovite oma praegused raamatud '#252'le kirjutad' +
+        'a?'
     end
     item
       IndexID = 3734
-      Text = 'Post in period 0'
+      Text = 'Kanna perioodi 0'
     end
     item
       IndexID = 3735
       Text = 
-        'You are putting proffit/loss on ledger with tax. This will messu' +
-        'p tax reports Do you wish to continue?'
+        'Te kannate kasumi/kahjumi pearaamatusse koos KM-ga! See rikub KM' +
+        ' aruanded! Kas soovite j'#228'tkata?'
     end
     item
       IndexID = 3736
       Text = 
-        'You are putting cash from a bank/cash directly to a bank/cash ac' +
-        'count. Do you wish to continue?'
+        'Te kannate raha pangast/kassast otse panga/kassakontole! Kas soo' +
+        'vite j'#228'tkata?'
     end
     item
       IndexID = 3737
-      Text = 'Do you wish to cancel the print this reciept?'
+      Text = 'Kas soovite selle kviitungi tr'#252'kkimise t'#252'histada?'
     end
     item
       IndexID = 3738
@@ -16378,154 +16401,154 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Convert quote to one unproccessed invoice per client'
+      Text = 'Teisenda hinnapakkumine '#252'heks t'#246#246'tlemata arveks kliendi kohta'
     end
     item
       IndexID = 906589
-      Text = 'NO-TAX Layout file'
+      Text = 'KM-TA paigutuse fail'
     end
     item
       IndexID = 906590
-      Text = 'NO-TAX Document layout'
+      Text = 'KM-TA dokumendi paigutus'
     end
     item
       IndexID = 906591
-      Text = 'NO-TAX Document layout (15-code)'
+      Text = 'KM-TA dokumendi paigutus (15 koodiga)'
     end
     item
       IndexID = 906588
-      Text = 'Value stock account'
+      Text = 'Lao v'#228#228'rtuse konto'
     end
     item
       IndexID = 906587
-      Text = 'Document reference'
+      Text = 'Dokumendi viide'
     end
     item
       IndexID = 906586
-      Text = 'Stock - Expected quantities'
+      Text = 'Laoseis - Oodatavad kogused'
     end
     item
       IndexID = 906585
-      Text = 'Stock item list - Active stock'
+      Text = 'Laokaupade loetelu - Aktiivne laoseis'
     end
     item
       IndexID = 906584
-      Text = 'Production list'
+      Text = 'Tootmisloetelu'
     end
     item
       IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
+      Text = 'Hinnakiri - Suur jaem'#252#252'k - Ostud'
     end
     item
       IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
+      Text = 'Hinnakiri - Suur jaem'#252#252'k - M'#252#252'k'
     end
     item
       IndexID = 906557
-      Text = 'Graphs'
+      Text = 'Graafikud'
     end
     item
       IndexID = 906558
-      Text = 'Graphs per week'
+      Text = 'Graafikud n'#228'dala kohta'
     end
     item
       IndexID = 906559
-      Text = 'Graphs per month'
+      Text = 'Graafikud kuu kohta'
     end
     item
       IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
+      Text = 'Graafik - Kasum/Kahjum kuu kohta'
     end
     item
       IndexID = 906561
-      Text = 'Graph - Debtors per month'
+      Text = 'Graafik - V'#245'lgnikud kuu kohta'
     end
     item
       IndexID = 906562
-      Text = 'Graph - Creditors per month'
+      Text = 'Graafik - Hankijad kuu l'#245'ikes'
     end
     item
       IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
+      Text = 'Graafik - Hinnapakkumised kuu kohta - Kogused'
     end
     item
       IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
+      Text = 'Graafik - Hinnapakkumised kuu kohta - Summa'
     end
     item
       IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
+      Text = 'Graafik - Kreeditkorraldused kuu kohta - Kogused'
     end
     item
       IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
+      Text = 'Graafik - Kreeditkorraldused kuu kohta - Summa'
     end
     item
       IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
+      Text = 'Graafik - Arved kuu kohta - Kogused'
     end
     item
       IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
+      Text = 'Graafik - Arved kuu kohta - Summa'
     end
     item
       IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
+      Text = 'Graafik - Arved - Kreeditkorraldused kuu kohta - Kogused'
     end
     item
       IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
+      Text = 'Graafik - Arved - Kreeditkorraldused kuu kohta - Summa'
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
+      Text = 'Graafik - Ostud - Tarnija tagastused kuu l'#245'ikes - Kogused'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns per month - Amount'
+      Text = 'Graafik - Ostud - Tarnija tagastused kuu l'#245'ikes - Summa'
     end
     item
       IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
+      Text = 'Graafik - Ostutellimus kuu kohta - Summa'
     end
     item
       IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
+      Text = 'Graafik - Ostutellimus kuu kohta - Kogused'
     end
     item
       IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
+      Text = 'Graafik - Tarnija tagastused kuu l'#245'ikes - Summa'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
+      Text = 'Graafik - Tarnija tagastused kuu l'#245'ikes - Kogused'
     end
     item
       IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
+      Text = 'Graafik - Ostud kuu kohta - Summa'
     end
     item
       IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
+      Text = 'Graafik - Ostud kuu kohta - Kogused'
     end
     item
       IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
+      Text = 'Graafik - Arved - Kreeditkorraldused n'#228'dala kohta - Kogused'
     end
     item
       IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
+      Text = 'Graafik - Arved - Kreeditkorraldused n'#228'dala kohta - Summa'
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
+      Text = 'Graafik - Ostud - Tarnija tagastused n'#228'dala l'#245'ikes - Kogused'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
+      Text = 'Graafik - Ostud - Tarnija tagastused n'#228'dala l'#245'ikes - Summa'
     end
     item
       IndexID = 906583
-      Text = 'Tax codes - Tax rates'
+      Text = 'KM koodid - KM m'#228#228'rad'
     end>
 end
