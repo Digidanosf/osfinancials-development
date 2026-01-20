@@ -6075,7 +6075,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1768
-      Text = 'Ave && latest cost'
+      Text = 'Ave & latest cost'
     end
     item
       IndexID = 1767
@@ -6139,11 +6139,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1779
-      Text = 'Qty && latest cost'
+      Text = 'Qty & latest cost'
     end
     item
       IndexID = 1769
-      Text = 'Qty && ave cost'
+      Text = 'Qty & ave cost'
     end
     item
       IndexID = 1789
@@ -7481,7 +7481,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1992
-      Text = 'Qty && latest cost'
+      Text = 'Qty & latest cost'
     end
     item
       IndexID = 1991

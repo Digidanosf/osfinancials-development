@@ -5970,11 +5970,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1768
-      Text = 'Gem. && nuutste koste'
+      Text = 'Gem. & nuutste koste'
     end
     item
       IndexID = 1769
-      Text = 'Hoev && gem. koste'
+      Text = 'Hoev. & gem. koste'
     end
     item
       IndexID = 1770
@@ -6014,7 +6014,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1779
-      Text = 'Hoev && nuutste koste'
+      Text = 'Hoev & nuutste koste'
     end
     item
       IndexID = 1780
@@ -7383,7 +7383,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1992
-      Text = 'Hoev && nuutste koste'
+      Text = 'Hoev & nuutste koste'
     end
     item
       IndexID = 1993
