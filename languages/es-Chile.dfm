@@ -290,7 +290,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 75
-      Text = '&Balance de sumas y saldos'
+      Text = '&Balance de comprobaci'#243'n y saldos'
     end
     item
       IndexID = 76
@@ -1114,7 +1114,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 281
-      Text = 'Opciones balance de comprobaci'#243'n'
+      Text = 'Opciones balance de comprobaci'#243'n y saldos'
     end
     item
       IndexID = 282
@@ -2294,7 +2294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 554
-      Text = 'Resultados acumulados'
+      Text = 'Utilidades retenidas'
     end
     item
       IndexID = 553
@@ -2350,7 +2350,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 564
-      Text = 'Creando cuentas requeridas (Resultados acumulados)...'
+      Text = 'Creando las cuentas necesarias (utilidades retenidas)...'
     end
     item
       IndexID = 575
@@ -4152,7 +4152,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1021
-      Text = 'Balance de comprobaci'#243'n'
+      Text = 'Balance de comprobaci'#243'n y saldos'
     end
     item
       IndexID = 1022
@@ -4670,7 +4670,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1155
-      Text = 'Total utilidades/p'#233'rdidas netas'
+      Text = 'Total utilidad/p'#233'rdida neta'
     end
     item
       IndexID = 1156
@@ -6158,11 +6158,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1813
-      Text = 'Resultados acumulados'
+      Text = 'Utilidades retenidas'
     end
     item
       IndexID = 1812
-      Text = 'Creando cuentas requeridas (Resultados acumulados)...'
+      Text = 'Creando las cuentas necesarias (utilidades retenidas)...'
     end
     item
       IndexID = 1811
@@ -10550,7 +10550,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3080
-      Text = #191'Desea contabilizar en la cuenta de resultados acumulados?'
+      Text = #191'Desea contabilizar en la cuenta de utilidades retenidas?'
     end
     item
       IndexID = 3081
@@ -11305,11 +11305,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906041
-      Text = 'P/G'
+      Text = 'ER'
     end
     item
       IndexID = 906042
-      Text = 'P'#233'rdidas y Ganancias'
+      Text = 'Estado de resultados'
     end
     item
       IndexID = 906043
@@ -12462,7 +12462,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906078
-      Text = 'Comparar per'#237'odo - P'#233'rdidas y Ganancias'
+      Text = 'Comparar per'#237'odo - Utilidad/P'#233'rdida'
     end
     item
       IndexID = 906079
@@ -12524,7 +12524,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906092
-      Text = 'P'#233'rdidas y Ganancias totales'
+      Text = 'Utilidad/P'#233'rdida total'
     end
     item
       IndexID = 906093
@@ -14884,23 +14884,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906167
-      Text = 'Gr'#225'gico - Proveedores por semana'
+      Text = 'Gr'#225'fico - Proveedores por semana'
     end
     item
       IndexID = 906168
-      Text = 'Gr'#225'gico - Clientes por semana'
+      Text = 'Gr'#225'fico - Clientes por semana'
     end
     item
       IndexID = 906169
-      Text = 'Gr'#225'gico - P'#233'rdidas y Ganancias por semana'
+      Text = 'Gr'#225'fico - Resultado por semana'
     end
     item
       IndexID = 906170
-      Text = 'Gr'#225'gico - Facturas por semana - Cantidades'
+      Text = 'Gr'#225'fico - Facturas por semana - Cantidades'
     end
     item
       IndexID = 906171
-      Text = 'Gr'#225'gico - Facturas por semana - Monto'
+      Text = 'Gr'#225'fico - Facturas por semana - Monto'
     end
     item
       IndexID = 906172
@@ -15710,11 +15710,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906289
-      Text = 'Gr'#225'gico - Compras por semana - Cantidades'
+      Text = 'Gr'#225'fico - Compras por semana - Cantidades'
     end
     item
       IndexID = 906290
-      Text = 'Gr'#225'gico - Compras por semana - Monto'
+      Text = 'Gr'#225'fico - Compras por semana - Monto'
     end
     item
       IndexID = 906291
@@ -15830,35 +15830,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906319
-      Text = 'Gr'#225'gico - Notas de cr'#233'dito por semana - Cantidades'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por semana - Cantidades'
     end
     item
       IndexID = 906320
-      Text = 'Gr'#225'gico - Notas de cr'#233'dito por semana - Monto'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por semana - Monto'
     end
     item
       IndexID = 906321
-      Text = 'Gr'#225'gico - Devoluciones a proveedor por semana - Cantidades'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Cantidades'
     end
     item
       IndexID = 906322
-      Text = 'Gr'#225'gico - Devoluciones a proveedor por semana - Monto'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Monto'
     end
     item
       IndexID = 906323
-      Text = 'Gr'#225'gico - Cotizaciones por semana - Cantidades'
+      Text = 'Gr'#225'fico - Cotizaciones por semana - Cantidades'
     end
     item
       IndexID = 906324
-      Text = 'Gr'#225'gico - Cotizaciones por semana - Monto'
+      Text = 'Gr'#225'fico - Cotizaciones por semana - Monto'
     end
     item
       IndexID = 906325
-      Text = 'Gr'#225'gico - Pedidos por semana - Cantidades'
+      Text = 'Gr'#225'fico - Pedidos por semana - Cantidades'
     end
     item
       IndexID = 906326
-      Text = 'Gr'#225'gico - Pedidos por semana - Monto'
+      Text = 'Gr'#225'fico - Pedidos por semana - Monto'
     end
     item
       IndexID = 906327
@@ -16422,8 +16422,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        #161'Est'#225' registrando p'#233'rdidas/ganancias con impuestos! '#161'Esto arruin' +
-        'ar'#225' sus informes fiscales! '#191'Desea continuar?'
+        #161'Est'#225' registrando p'#233'rdidas/ganancias con impuestos! Esto arruina' +
+        'r'#225' sus informes fiscales. '#191'Desea continuar?'
     end
     item
       IndexID = 3736
@@ -16481,111 +16481,111 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906557
-      Text = 'Gr'#225'gicos'
+      Text = 'Gr'#225'ficos'
     end
     item
       IndexID = 906558
-      Text = 'Gr'#225'gicos por semana'
+      Text = 'Gr'#225'ficos por semana'
     end
     item
       IndexID = 906559
-      Text = 'Gr'#225'gicos por mes'
+      Text = 'Gr'#225'ficos por mes'
     end
     item
       IndexID = 906560
-      Text = 'Gr'#225'gico - P'#233'rdidas y Ganancias por mes'
+      Text = 'Gr'#225'fico - Resultado por mes'
     end
     item
       IndexID = 906561
-      Text = 'Gr'#225'gico - Clientes por mes'
+      Text = 'Gr'#225'fico - Clientes por mes'
     end
     item
       IndexID = 906562
-      Text = 'Gr'#225'gico - Proveedores por mes'
+      Text = 'Gr'#225'fico - Proveedores por mes'
     end
     item
       IndexID = 906563
-      Text = 'Gr'#225'gico - Cotizaciones por mes - Cantidades'
+      Text = 'Gr'#225'fico - Cotizaciones por mes - Cantidades'
     end
     item
       IndexID = 906564
-      Text = 'Gr'#225'gico - Cotizaciones por mes - Monto'
+      Text = 'Gr'#225'fico - Cotizaciones por mes - Monto'
     end
     item
       IndexID = 906565
-      Text = 'Gr'#225'gico - Notas de cr'#233'dito por mes - Cantidades'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por mes - Cantidades'
     end
     item
       IndexID = 906566
-      Text = 'Gr'#225'gico - Notas de cr'#233'dito por mes - Monto'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por mes - Monto'
     end
     item
       IndexID = 906567
-      Text = 'Gr'#225'gico - Facturas por mes - Cantidades'
+      Text = 'Gr'#225'fico - Facturas por mes - Cantidades'
     end
     item
       IndexID = 906568
-      Text = 'Gr'#225'gico - Facturas por mes - Monto'
+      Text = 'Gr'#225'fico - Facturas por mes - Monto'
     end
     item
       IndexID = 906569
-      Text = 'Gr'#225'gico - Facturas - Notas de cr'#233'dito por mes - Cantidades'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por mes - Cantidades'
     end
     item
       IndexID = 906570
-      Text = 'Gr'#225'gico - Facturas - Notas de cr'#233'dito por mes - Monto'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por mes - Monto'
     end
     item
       IndexID = 906571
       Text = 
-        'Gr'#225'gico - Compras - Devoluciones a proveedor por mes - Cantidade' +
+        'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Cantidade' +
         's'
     end
     item
       IndexID = 906572
-      Text = 'Gr'#225'gico - Compras - Devoluciones a proveedor por mes - Monto'
+      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Monto'
     end
     item
       IndexID = 906573
-      Text = 'Gr'#225'gico - Pedidos por mes - Monto'
+      Text = 'Gr'#225'fico - Pedidos por mes - Monto'
     end
     item
       IndexID = 906574
-      Text = 'Gr'#225'gico - Pedidos por mes - Cantidades'
+      Text = 'Gr'#225'fico - Pedidos por mes - Cantidades'
     end
     item
       IndexID = 906575
-      Text = 'Gr'#225'gico - Devoluciones a proveedor por mes - Monto'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Monto'
     end
     item
       IndexID = 906576
-      Text = 'Gr'#225'gico - Devoluciones a proveedor por mes - Cantidades'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Cantidades'
     end
     item
       IndexID = 906577
-      Text = 'Gr'#225'gico - Compras por mes - Monto'
+      Text = 'Gr'#225'fico - Compras por mes - Monto'
     end
     item
       IndexID = 906578
-      Text = 'Gr'#225'gico - Compras por mes - Cantidades'
+      Text = 'Gr'#225'fico - Compras por mes - Cantidades'
     end
     item
       IndexID = 906579
-      Text = 'Gr'#225'gico - Facturas - Notas de cr'#233'dito por semana - Cantidades'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por semana - Cantidades'
     end
     item
       IndexID = 906580
-      Text = 'Gr'#225'gico - Facturas - Notas de cr'#233'dito por semana - Monto'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por semana - Monto'
     end
     item
       IndexID = 906581
       Text = 
-        'Gr'#225'gico - Compras - Devoluciones a proveedor por semana - Cantid' +
+        'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Cantid' +
         'ades'
     end
     item
       IndexID = 906582
-      Text = 'Gr'#225'gico - Compras - Devoluciones a proveedor por semana - Monto'
+      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Monto'
     end
     item
       IndexID = 906583

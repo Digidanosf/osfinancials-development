@@ -110,7 +110,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 29
-      Text = 'Cuenta de banco'
+      Text = 'Cuenta bancaria'
     end
     item
       IndexID = 30
@@ -138,7 +138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 37
-      Text = 'Art'#237'culos de inventario'
+      Text = 'Art'#237'culo inventario'
     end
     item
       IndexID = 38
@@ -330,7 +330,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 84
-      Text = '&Listado de art'#237'culos de Inventario'
+      Text = '&Listado de art'#237'culos de inventario'
     end
     item
       IndexID = 85
@@ -358,7 +358,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 91
-      Text = 'Ruta de &copia de seguridad'
+      Text = 'Ruta de &respaldo'
     end
     item
       IndexID = 92
@@ -1146,7 +1146,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 289
-      Text = 'Desde c'#243'digo de inventario'
+      Text = 'Desde c'#243'digo de art'#237'culo'
     end
     item
       IndexID = 290
@@ -4154,7 +4154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1023
-      Text = 'Ganancia neta'
+      Text = 'Utilidad neta'
     end
     item
       IndexID = 1024
@@ -4664,7 +4664,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1155
-      Text = 'Total ganancias/p'#233'rdidas netas'
+      Text = 'Total utilidad/p'#233'rdida neta'
     end
     item
       IndexID = 1156
@@ -4684,7 +4684,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1160
-      Text = 'Ganancia/P'#233'rdida neta'
+      Text = 'Utilidad/p'#233'rdida neta'
     end
     item
       IndexID = 1161
@@ -11268,11 +11268,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906041
-      Text = 'B/P'
+      Text = 'ER'
     end
     item
       IndexID = 906042
-      Text = 'Beneficio/P'#233'rdida'
+      Text = 'Estado de resultados'
     end
     item
       IndexID = 906043
@@ -12425,7 +12425,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906078
-      Text = 'Comparar per'#237'odo - Beneficio/P'#233'rdida'
+      Text = 'Comparar per'#237'odo - Utilidad/P'#233'rdida'
     end
     item
       IndexID = 906079
@@ -12487,7 +12487,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906092
-      Text = 'Beneficio/P'#233'rdida total'
+      Text = 'Utilidad/P'#233'rdida total'
     end
     item
       IndexID = 906093
@@ -14855,7 +14855,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906169
-      Text = 'Gr'#224'fico - Beneficio/P'#233'rdida por semana'
+      Text = 'Gr'#224'fico - Estado de resultados por semana'
     end
     item
       IndexID = 906170
@@ -16384,8 +16384,8 @@ object TTranslationSaveObject
     item
       IndexID = 3735
       Text = 
-        #161'Est'#225' poniendo beneficio/p'#233'rdida en libro mayor con IVA! '#161'Esto a' +
-        'fectar'#225' a los reportes de IVA! '#191'Desea continuar?'
+        #161'Est'#225' registrando p'#233'rdidas/ganancias con impuestos! Esto arruina' +
+        'r'#225' sus informes fiscales. '#191'Desea continuar?'
     end
     item
       IndexID = 3736
@@ -16455,7 +16455,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906560
-      Text = 'Gr'#225'fico - Ganancia/P'#233'rdida por mes'
+      Text = 'Gr'#225'fico - Estado de resultados por mes'
     end
     item
       IndexID = 906561
