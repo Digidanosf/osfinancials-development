@@ -11612,7 +11612,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Columnas - Saldos  D/C'
+      Text = 'Columnas - Saldos D/C'
     end
     item
       IndexID = 3167

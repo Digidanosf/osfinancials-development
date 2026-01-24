@@ -2037,7 +2037,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 509
-      Text = #161'Descuento inv'#225'lido! El monto debe ser positivo.'
+      Text = #161'Descuento inv'#225'lido! El importe debe ser positivo.'
     end
     item
       IndexID = 510
@@ -3828,7 +3828,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 946
-      Text = 'Monto'
+      Text = 'Importe'
     end
     item
       IndexID = 947
@@ -6374,7 +6374,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1866
-      Text = 'Monto con IVA'
+      Text = 'Importe con IVA'
     end
     item
       IndexID = 1865
@@ -6382,7 +6382,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1864
-      Text = 'Monto sin IVA'
+      Text = 'Importe sin IVA'
     end
     item
       IndexID = 1875
@@ -7618,7 +7618,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2043
-      Text = 'IVA-monto'
+      Text = 'IVA-IMPORTE'
     end
     item
       IndexID = 2054
@@ -14258,7 +14258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903159
-      Text = 'Eliminar facturas con monto cero'
+      Text = 'Eliminar facturas con importe cero'
     end
     item
       IndexID = 903160

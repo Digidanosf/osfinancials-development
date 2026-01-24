@@ -10632,15 +10632,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3106
-      Text = 'Saldos por columnas'
+      Text = 'Columnas - Saldos'
     end
     item
       IndexID = 3107
-      Text = 'Saldos por columnas de deudores'
+      Text = 'Columnas - Saldos deudores'
     end
     item
       IndexID = 3108
-      Text = 'Saldos por columnas de acreedores'
+      Text = 'Columnas - Saldos acreedores'
     end
     item
       IndexID = 3109
@@ -11621,15 +11621,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Saldos por columnas D/C'
+      Text = 'Columnas - Saldos D/C'
     end
     item
       IndexID = 3167
-      Text = 'Saldos por columnas de deudores D/C'
+      Text = 'Columnas - Saldos deudores D/C'
     end
     item
       IndexID = 3168
-      Text = 'Saldos por columnas de acreedores D/C'
+      Text = 'Columnas - Saldos acreedores D/C'
     end
     item
       IndexID = 3169
@@ -12574,7 +12574,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3368
-      Text = 'Saldos de columna est'#225'ndar'
+      Text = 'Columnas - Saldos est'#225'ndar'
     end
     item
       IndexID = 3369

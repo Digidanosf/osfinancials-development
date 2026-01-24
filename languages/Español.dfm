@@ -330,7 +330,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 84
-      Text = '&Listado de art'#237'culos de existencias'
+      Text = '&Listado art'#237'culos existencias'
     end
     item
       IndexID = 85
@@ -402,7 +402,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 103
-      Text = 'Informaci'#243'n de existencias'
+      Text = 'Informaci'#243'n existencias'
     end
     item
       IndexID = 104
@@ -850,7 +850,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 215
-      Text = #218'ltimo costo'
+      Text = #218'ltimo coste'
     end
     item
       IndexID = 216
@@ -886,7 +886,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 224
-      Text = 'Costo de ventas'
+      Text = 'Coste de ventas'
     end
     item
       IndexID = 225
@@ -894,7 +894,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 226
-      Text = 'Costo promedio'
+      Text = 'Coste promedio'
     end
     item
       IndexID = 227
@@ -902,7 +902,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 228
-      Text = 'Costo total'
+      Text = 'Coste total'
     end
     item
       IndexID = 229
@@ -1386,7 +1386,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 349
-      Text = 'Diario de costo de ventas'
+      Text = 'Diario de coste de ventas'
     end
     item
       IndexID = 350
@@ -1394,7 +1394,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 351
-      Text = 'Crear costo de ventas'
+      Text = 'Crear coste de ventas'
     end
     item
       IndexID = 352
@@ -1618,7 +1618,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 411
-      Text = 'Opciones listado de existencias'
+      Text = 'Opciones listado existencias'
     end
     item
       IndexID = 412
@@ -1630,7 +1630,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 414
-      Text = 'Precio de costo'
+      Text = 'Precio de coste'
     end
     item
       IndexID = 415
@@ -1849,8 +1849,8 @@ object TTranslationSaveObject
     item
       IndexID = 463
       Text = 
-        #161'No puede eliminar este art'#237'culo de existencias! Tiene transacci' +
-        'ones.'
+        #161'No puede eliminar este art'#237'culo de existencias! '#161'Tiene transacc' +
+        'iones!'
     end
     item
       IndexID = 464
@@ -1997,7 +1997,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 499
-      Text = 'Costo de ventas'
+      Text = 'Coste de ventas'
     end
     item
       IndexID = 500
@@ -3187,7 +3187,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 784
-      Text = #161'C'#243'digo de art'#237'culo no v'#225'lido!'
+      Text = #161'C'#243'digo art'#237'culo no v'#225'lido!'
     end
     item
       IndexID = 785
@@ -3303,7 +3303,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 811
-      Text = 'En archivo existencias'
+      Text = 'en archivo existencias'
     end
     item
       IndexID = 812
@@ -3924,16 +3924,15 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        #161'La cuenta de control de existencias o la cuenta de ventas no es' +
-        't'#225'n configuradas correctamente para este art'#237'culo de existencias' +
-        '!'
+        #161'Cuenta control existencias o ventas no configurada para este ar' +
+        't'#237'culo!'
     end
     item
       IndexID = 966
       Text = 
         #161'Este documento no puede contabilizarse! Configure correctamente' +
-        ' la cuenta de ventas, la cuenta de control de existencias (y la ' +
-        'cuenta de costo de ventas) y luego contabil'#237'celo.'
+        ' las cuentas de ventas, de control de existencias (y la de coste' +
+        ' de ventas) antes de contabilizar.'
     end
     item
       IndexID = 967
@@ -4377,7 +4376,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1081
-      Text = 'Cuenta de costo de ventas'
+      Text = 'Cuenta de coste de ventas'
     end
     item
       IndexID = 1082
@@ -7141,15 +7140,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20072
-      Text = 'Factura art'#237'culos existencias'
+      Text = 'Art'#237'culos existencias > Factura'
     end
     item
       IndexID = 20071
-      Text = 'Art'#237'culos existencias factura'
+      Text = 'Factura > Art'#237'culos existencias'
     end
     item
       IndexID = 20070
-      Text = 'Factura de cliente'
+      Text = 'Factura > Cliente'
     end
     item
       IndexID = 20069
@@ -10882,7 +10881,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902003
-      Text = 'Porcentaje del precio de costo promedio'
+      Text = 'Porcentaje del precio de coste promedio'
     end
     item
       IndexID = 902004
@@ -11482,11 +11481,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906071
-      Text = 'Centro de costo 1'
+      Text = 'Centro de coste 1'
     end
     item
       IndexID = 906072
-      Text = 'Centro de costo 2'
+      Text = 'Centro de coste 2'
     end
     item
       IndexID = 3127
@@ -11758,7 +11757,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3188
-      Text = 'Centros de costo'
+      Text = 'Centros de coste'
     end
     item
       IndexID = 3193
@@ -12072,7 +12071,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3269
-      Text = 'Pr'#243'ximo precio de costo'
+      Text = 'Pr'#243'ximo precio de coste'
     end
     item
       IndexID = 3270
@@ -12145,7 +12144,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3286
-      Text = 'Precio de costo'
+      Text = 'Precio de coste'
     end
     item
       IndexID = 3287
@@ -12275,11 +12274,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3318
-      Text = 'Centro de costo predeterminado'
+      Text = 'Centro de coste predeterminado'
     end
     item
       IndexID = 3319
-      Text = 'Centro de costo'
+      Text = 'Centro de coste'
     end
     item
       IndexID = 3320
@@ -12985,7 +12984,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3468
-      Text = 'Grupo de costo predeterminado'
+      Text = 'Grupo de coste predeterminado'
     end
     item
       IndexID = 3469
@@ -13969,11 +13968,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906248
-      Text = 'Factura Sin IVA (sin c'#243'digos)'
+      Text = 'Factura sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906249
-      Text = 'Nota de cr'#233'dito Sin IVA (sin c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906250
@@ -13981,23 +13980,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906251
-      Text = 'Compra Sin IVA (sin c'#243'digos)'
+      Text = 'Compra sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906252
-      Text = 'Devoluci'#243'n a proveedor SIN IVA (sin c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906253
-      Text = 'Pedido Sin IVA (sin c'#243'digos)'
+      Text = 'Pedido sin IVA (sin c'#243'digos)'
     end
     item
       IndexID = 906254
-      Text = 'Factura Sin IVA (15 c'#243'digos)'
+      Text = 'Factura sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906255
-      Text = 'Nota de cr'#233'dito Sin IVA (15 c'#243'digos)'
+      Text = 'Nota de cr'#233'dito sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906256
@@ -14005,15 +14004,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906257
-      Text = 'Compra Sin IVA (15 c'#243'digos)'
+      Text = 'Compra sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906258
-      Text = 'Devoluci'#243'n a proveedor SIN IVA (15 c'#243'digos)'
+      Text = 'Devoluci'#243'n a proveedor sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906259
-      Text = 'Pedido Sin IVA (15 c'#243'digos)'
+      Text = 'Pedido sin IVA (15 c'#243'digos)'
     end
     item
       IndexID = 906217
@@ -14173,7 +14172,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903133
-      Text = 'Consolidar a'#241'os cerrados - documentos e inventario'
+      Text = 'Consolidar a'#241'os cerrados - Documentos e inventario'
     end
     item
       IndexID = 903134
@@ -15933,7 +15932,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906443
-      Text = 'N.'#186' referencia'
+      Text = 'N.'#186' ref.'
     end
     item
       IndexID = 906444

@@ -1692,7 +1692,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 428
-      Text = #161'Hay diarios asociados a este usuario! As'#237'gnelos a otro usuario.'
+      Text = 
+        #161'Hay diarios asociados a este usuario! Por favor, seleccione un ' +
+        'nuevo usuario al que asignar estos diarios.'
     end
     item
       IndexID = 429
@@ -1869,9 +1871,9 @@ object TTranslationSaveObject
     item
       IndexID = 468
       Text = 
-        #161'Esta cuenta est'#225' activa! '#161'Se mover'#225'n todas las transacciones a ' +
-        'la nueva subcuenta! '#191'Est'#225' seguro de que desea crear una subcuent' +
-        'a?'
+        #161'Esta cuenta a'#250'n est'#225' activa! '#161'Todas las transacciones se mover'#225 +
+        'n a la nueva subcuenta! '#191'Est'#225' seguro de que desea crear una subc' +
+        'uenta?'
     end
     item
       IndexID = 469
@@ -2256,7 +2258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 548
-      Text = '<@APPNAME@> te ayuda a crear un nuevo libro contable'
+      Text = '<@APPNAME@> le ayuda a crear su contabilidad'
     end
     item
       IndexID = 547
@@ -2264,7 +2266,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 546
-      Text = 'Convertir de TurboCASH (v 2.01-2.03)'
+      Text = 'Convertir de TurboCASH anterior (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 557
@@ -2273,8 +2275,8 @@ object TTranslationSaveObject
     item
       IndexID = 556
       Text = 
-        #161'Ahora debe ingresar el n'#250'mero de per'#237'odos de su a'#241'o fiscal y la' +
-        ' fecha de inicio del a'#241'o!'
+        #161'Ahora debe ingresar el n'#250'mero de per'#237'odos de su ejercicio fisca' +
+        'l y la fecha de inicio del a'#241'o!'
     end
     item
       IndexID = 555
@@ -6903,8 +6905,8 @@ object TTranslationSaveObject
     item
       IndexID = 20018
       Text = 
-        'Cuadro combinado de b'#250'squeda Ext - Representa una b'#250'squeda ultra' +
-        ' avanzada usando la cuadr'#237'cula cu'#225'ntica como control desplegable'
+        'Ext Lookup Combo Box - '#161'Representa una b'#250'squeda ultra avanzada u' +
+        'sando la cuadr'#237'cula cu'#225'ntica como control desplegable!'
     end
     item
       IndexID = 20017
@@ -10642,15 +10644,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3106
-      Text = 'Saldos por columnas'
+      Text = 'Columnas - Saldos'
     end
     item
       IndexID = 3107
-      Text = 'Saldos por columnas de deudores'
+      Text = 'Columnas - Saldos deudores'
     end
     item
       IndexID = 3108
-      Text = 'Saldos por columnas de acreedores'
+      Text = 'Columnas - Saldos acreedores'
     end
     item
       IndexID = 3109
@@ -11631,15 +11633,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Saldos por columnas D/C'
+      Text = 'Columnas - Saldos D/C'
     end
     item
       IndexID = 3167
-      Text = 'Saldos por columnas de deudores D/C'
+      Text = 'Columnas - Saldos deudores D/C'
     end
     item
       IndexID = 3168
-      Text = 'Saldos por columnas de acreedores D/C'
+      Text = 'Columnas - Saldos acreedores D/C'
     end
     item
       IndexID = 3169
@@ -12584,7 +12586,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3368
-      Text = 'Saldos de columna est'#225'ndar'
+      Text = 'Columnas - Saldos est'#225'ndar'
     end
     item
       IndexID = 3369
