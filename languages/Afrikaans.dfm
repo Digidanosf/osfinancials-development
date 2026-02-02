@@ -2269,7 +2269,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 559
-      Text = 'Jy moet '#39'n Stel Boeke, of '#39'n gids kies om te kopieer.'
+      Text = 'Jy moet '#39'n Stel Boeke, of '#39'n gids kies om te kopieer!'
     end
     item
       IndexID = 558
@@ -2569,7 +2569,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 633
-      Text = 'Kies Pastel data omslag!!!'
+      Text = 'Kies Pastel data omslag!'
     end
     item
       IndexID = 635
@@ -6704,7 +6704,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1952
-      Text = 'E-pos bediener nie gevind nie...'
+      Text = 'E-pos bediener nie gevind nie!'
     end
     item
       IndexID = 1953
@@ -7120,15 +7120,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20070
-      Text = 'Kli'#235'nt faktuur'
+      Text = 'Kli'#235'nt > Faktuur'
     end
     item
       IndexID = 20071
-      Text = 'Faktuur voorraaditem'
+      Text = 'Faktuur > Voorraaditem'
     end
     item
       IndexID = 20072
-      Text = 'Voorraaditem faktuur'
+      Text = 'Voorraaditem > Faktuur'
     end
     item
       IndexID = 20073
@@ -11699,11 +11699,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3182
-      Text = 'Maak E-commerce bestelling in webblaaier oop'
+      Text = 'Maak e-Commerce bestelling in webblaaier oop'
     end
     item
       IndexID = 3183
-      Text = 'Maak E-commerce kli'#235'nt in webblaaier oop'
+      Text = 'Maak e-Commerce kli'#235'nt in webblaaier oop'
     end
     item
       IndexID = 3184
@@ -12652,7 +12652,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3383
-      Text = 'E-Commerce'
+      Text = 'e-Commerce'
     end
     item
       IndexID = 3384

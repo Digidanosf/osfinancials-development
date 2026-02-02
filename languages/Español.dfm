@@ -10460,7 +10460,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Usar inventario avanzado'
+      Text = 'Usar existencias avanzado'
     end
     item
       IndexID = 3057
@@ -11519,7 +11519,7 @@ object TTranslationSaveObject
       IndexID = 3133
       Text = 
         #161'Si desea reservar existencias para ventas, este campo se deduci' +
-        'r'#225' de los niveles actuales en un presupuesto!'
+        'r'#225' de los niveles actuales en un cotizaci'#243'n!'
     end
     item
       IndexID = 3134
@@ -14172,7 +14172,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903133
-      Text = 'Consolidar a'#241'os cerrados - Documentos e inventario'
+      Text = 'Consolidar a'#241'os cerrados - Documentos e existencias'
     end
     item
       IndexID = 903134

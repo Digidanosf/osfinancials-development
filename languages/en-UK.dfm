@@ -2424,7 +2424,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 559
-      Text = 'You have to choose a Set of Books or directory to copy'
+      Text = 'You have to choose a Set of Books or directory to copy!'
     end
     item
       IndexID = 558
@@ -2467,7 +2467,7 @@ object TTranslationSaveObject
     item
       IndexID = 573
       Text = 
-        'Please select Pastel Partner Data to convert from the list below' +
+        'Please select Pastel Partner data to convert from the list below' +
         '.'
     end
     item
@@ -2530,7 +2530,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 596
-      Text = 'Cannot post to main account containing Sub-accounts!'
+      Text = 'Cannot post to main account containing sub-accounts!'
     end
     item
       IndexID = 597
@@ -2678,7 +2678,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 633
-      Text = 'Select Pastel data folder !!!'
+      Text = 'Select Pastel data folder!'
     end
     item
       IndexID = 635
@@ -6825,7 +6825,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1952
-      Text = 'E-mail server not found...'
+      Text = 'E-mail server not found!'
     end
     item
       IndexID = 1951
@@ -7213,15 +7213,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20072
-      Text = 'Stock item invoice'
+      Text = 'Stock item > Invoice'
     end
     item
       IndexID = 20071
-      Text = 'Invoice stock item'
+      Text = 'Invoice > Stock item'
     end
     item
       IndexID = 20070
-      Text = 'Customer invoice'
+      Text = 'Customer > Invoice'
     end
     item
       IndexID = 20069
@@ -12727,7 +12727,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3383
-      Text = 'E-commerce'
+      Text = 'e-Commerce'
     end
     item
       IndexID = 3384
@@ -16160,7 +16160,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3670
-      Text = 'Print document and send email'
+      Text = 'Print document and send e-mail'
     end
     item
       IndexID = 21799
@@ -16266,7 +16266,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3690
-      Text = 'Enter email address separate with ;'
+      Text = 'Enter e-mail address separate with ;'
     end
     item
       IndexID = 3691

@@ -1222,7 +1222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 308
-      Text = 'Reportes de stock'
+      Text = 'Reportes de inventario'
     end
     item
       IndexID = 309
@@ -3345,8 +3345,8 @@ object TTranslationSaveObject
       Text = 
         'El m'#233'todo de impuestos basado en pagos trata los impuestos puram' +
         'ente sobre una base de caja. El impuesto es pagadero a las autor' +
-        'idades fiscales solo cuando se recibe del cliente. '#191'Desea contin' +
-        'uar?'
+        'idades fiscales solo cuando se recibe del deudor. '#191'Desea continu' +
+        'ar?'
     end
     item
       IndexID = 822
@@ -6138,7 +6138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1803
-      Text = #161'Cambiar el c'#243'digo de stock afectar'#225' todos los reportes!'
+      Text = #161'Cambiar el c'#243'digo de inventario afectar'#225' todos los reportes!'
     end
     item
       IndexID = 1802
@@ -7889,7 +7889,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2120
-      Text = #161'Cambiar el c'#243'digo de stock afectar'#225' todos los reportes!'
+      Text = #161'Cambiar el c'#243'digo de inventario afectar'#225' todos los reportes!'
     end
     item
       IndexID = 2119
@@ -8053,7 +8053,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2163
-      Text = 'Compras por acreedor'
+      Text = 'An'#225'lisis de compras - Compras por acreedor'
     end
     item
       IndexID = 2162
@@ -9873,7 +9873,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2904
-      Text = 'Informar montos con'
+      Text = 'Reportar montos con'
     end
     item
       IndexID = 2915
@@ -9901,7 +9901,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2921
-      Text = 'Ventas (sin stock)'
+      Text = 'Ventas (sin inventario)'
     end
     item
       IndexID = 2920
@@ -9945,7 +9945,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2922
-      Text = 'Compras (sin stock)'
+      Text = 'Compras (sin inventario)'
     end
     item
       IndexID = 2933
@@ -9957,7 +9957,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2931
-      Text = 'No se puede vender sin stock'
+      Text = 'No se puede vender sin inventario'
     end
     item
       IndexID = 2930
@@ -10161,7 +10161,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2985
-      Text = 'Ver conteo de stock cero'
+      Text = 'Ver conteo de inventario cero'
     end
     item
       IndexID = 2984
@@ -10177,7 +10177,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2981
-      Text = 'Ver todos los art'#237'culos de stock'
+      Text = 'Ver todos los art'#237'culos de inventario'
     end
     item
       IndexID = 2992
@@ -11676,11 +11676,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3182
-      Text = 'Abrir pedido de comercio electr'#243'nico en navegador'
+      Text = 'Abrir pedido de e-Commerce en el navegador'
     end
     item
       IndexID = 3183
-      Text = 'Abrir deudor de comercio electr'#243'nico en navegador'
+      Text = 'Abrir deudor de e-Commerce en el navegador'
     end
     item
       IndexID = 3184
@@ -12630,7 +12630,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3383
-      Text = 'Comercio electr'#243'nico'
+      Text = 'e-Commerce'
     end
     item
       IndexID = 3384
@@ -15331,7 +15331,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903123
-      Text = 'Actualizar stock de art'#237'culos opcionales'
+      Text = 'Actualizar inventario de art'#237'culos opcionales'
     end
     item
       IndexID = 903124
@@ -16385,7 +16385,7 @@ object TTranslationSaveObject
       IndexID = 3735
       Text = 
         #161'Est'#225' registrando p'#233'rdidas/ganancias con impuestos! Esto arruina' +
-        'r'#225' sus informes fiscales. '#191'Desea continuar?'
+        'r'#225' sus reportes fiscales. '#191'Desea continuar?'
     end
     item
       IndexID = 3736

@@ -762,7 +762,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 193
-      Text = 'Monto a cobrar'
+      Text = 'Importe a cobrar'
     end
     item
       IndexID = 194
@@ -806,7 +806,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 204
-      Text = 'Inter'#233's mensual sobre montos atrasados'
+      Text = 'Inter'#233's mensual sobre importes atrasados'
     end
     item
       IndexID = 205
@@ -1046,7 +1046,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 264
-      Text = 'Monto m'#237'nimo'
+      Text = 'Importe m'#237'nimo'
     end
     item
       IndexID = 265
@@ -1262,7 +1262,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 318
-      Text = 'Informar monto con'
+      Text = 'Reportar importe con '
     end
     item
       IndexID = 319
@@ -1474,11 +1474,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 375
-      Text = 'Monto inclusivo:'
+      Text = 'Importe inclusivo:'
     end
     item
       IndexID = 376
-      Text = 'Monto exclusivo:'
+      Text = 'Importe exclusivo:'
     end
     item
       IndexID = 377
@@ -1879,7 +1879,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 470
-      Text = #161'El monto a enlazar debe ser '#8804' saldo!'
+      Text = #161'El importe a enlazar debe ser '#8804' saldo!'
     end
     item
       IndexID = 471
@@ -2039,7 +2039,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 509
-      Text = #161'Descuento inv'#225'lido! El monto debe ser positivo.'
+      Text = #161'Descuento inv'#225'lido! El importe debe ser positivo.'
     end
     item
       IndexID = 510
@@ -2550,7 +2550,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 627
-      Text = 'Ingreso de montos'
+      Text = 'Ingreso de importe'
     end
     item
       IndexID = 628
@@ -2642,11 +2642,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 650
-      Text = 'Monto sin imp.'
+      Text = 'Importe sin imp.'
     end
     item
       IndexID = 651
-      Text = 'Monto con imp.'
+      Text = 'Importe con imp.'
     end
     item
       IndexID = 652
@@ -3192,19 +3192,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 785
-      Text = 'Saldar clientes con monto < x.xx'
+      Text = 'Saldar clientes con importe < x.xx'
     end
     item
       IndexID = 786
-      Text = 'Proveedores con monto a cargar'
+      Text = 'Proveedores con importe a cargar'
     end
     item
       IndexID = 787
-      Text = 'Clientes con monto a cargar'
+      Text = 'Clientes con importe a cargar'
     end
     item
       IndexID = 788
-      Text = 'Monto fijo a todos los clientes'
+      Text = 'Importe fijo a todos los clientes'
     end
     item
       IndexID = 789
@@ -3240,7 +3240,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 797
-      Text = #161'El monto no coincide con el de la transacci'#243'n!'
+      Text = #161'El importe no coincide con el de la transacci'#243'n!'
     end
     item
       IndexID = 798
@@ -3294,7 +3294,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 809
-      Text = #161'El inter'#233's sobre monto vencidos debe estar entre 0% y 99,99%!'
+      Text = #161'El inter'#233's sobre importe vencidos debe estar entre 0% y 99,99%!'
     end
     item
       IndexID = 810
@@ -3314,7 +3314,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 814
-      Text = #161'No se encontr'#243' el monto no pagado!'
+      Text = #161'No se encontr'#243' el importe no pagado!'
     end
     item
       IndexID = 815
@@ -3802,7 +3802,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 935
-      Text = 'Monto total'
+      Text = 'Importe total'
     end
     item
       IndexID = 936
@@ -3814,7 +3814,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 938
-      Text = 'Diferencia/monto'
+      Text = 'Diferencia/Importe'
     end
     item
       IndexID = 939
@@ -3846,7 +3846,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 946
-      Text = 'Monto'
+      Text = 'Importe'
     end
     item
       IndexID = 947
@@ -3890,7 +3890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 957
-      Text = 'Buscar por monto'
+      Text = 'Buscar por importe'
     end
     item
       IndexID = 958
@@ -4597,15 +4597,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1136
-      Text = 'Monto excluido'
+      Text = 'Importe excluido'
     end
     item
       IndexID = 1137
-      Text = 'Monto incluido'
+      Text = 'Importe incluido'
     end
     item
       IndexID = 1138
-      Text = 'Monto IVA'
+      Text = 'Importe IVA'
     end
     item
       IndexID = 1139
@@ -4795,7 +4795,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1185
-      Text = 'Monto variaci'#243'n'
+      Text = 'Importe variaci'#243'n'
     end
     item
       IndexID = 1186
@@ -5105,7 +5105,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1262
-      Text = 'Informe monto con'
+      Text = 'Importe importe con'
     end
     item
       IndexID = 1263
@@ -5141,11 +5141,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1271
-      Text = 'Ingrese el monto a vincular'
+      Text = 'Ingrese el importe a vincular'
     end
     item
       IndexID = 1272
-      Text = 'Ingrese el monto'
+      Text = 'Ingrese el importe'
     end
     item
       IndexID = 1273
@@ -5495,7 +5495,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1359
-      Text = 'Monto ventas'
+      Text = 'Importe ventas'
     end
     item
       IndexID = 1360
@@ -5771,7 +5771,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1712
-      Text = 'Monto'
+      Text = 'Importe'
     end
     item
       IndexID = 1711
@@ -6491,7 +6491,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1978
-      Text = 'Ingrese el monto'
+      Text = 'Ingrese el importe'
     end
     item
       IndexID = 1977
@@ -7856,8 +7856,8 @@ object TTranslationSaveObject
     item
       IndexID = 2098
       Text = 
-        #161'A'#250'n tiene monto recibido. %s! '#161'No puede dejar monto sin pagar p' +
-        'ara factura de PDV!'
+        #161'A'#250'n tiene importe recibido. %s! '#161'No puede dejar importe sin pag' +
+        'ar para factura de PDV!'
     end
     item
       IndexID = 2109
@@ -7995,11 +7995,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2136
-      Text = 'A clientes con saldo menor que (monto)'
+      Text = 'A clientes con saldo menor que (importe)'
     end
     item
       IndexID = 2135
-      Text = 'A clientes para (monto)'
+      Text = 'A clientes para (importe)'
     end
     item
       IndexID = 2134
@@ -8131,7 +8131,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = #161'Monto de impuesto encontrado pero cuenta de impuesto eliminada!'
+      Text = 
+        #161'Importe de impuesto encontrado pero cuenta de impuesto eliminad' +
+        'a!'
     end
     item
       IndexID = 2176
@@ -8359,7 +8361,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2228
-      Text = 'Monto total'
+      Text = 'Importe total'
     end
     item
       IndexID = 2227
@@ -9855,7 +9857,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2893
-      Text = 'Monto pendiente'
+      Text = 'Importe pendiente'
     end
     item
       IndexID = 2892
@@ -9875,7 +9877,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2900
-      Text = 'Buscar documento con monto'
+      Text = 'Buscar documento con importe'
     end
     item
       IndexID = 2899
@@ -9907,7 +9909,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2904
-      Text = 'Informar monto con'
+      Text = 'Reportar importe con'
     end
     item
       IndexID = 2915
@@ -10031,7 +10033,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2946
-      Text = 'Redondear monto final PDV'
+      Text = 'Redondear importe final PDV'
     end
     item
       IndexID = 2945
@@ -10101,7 +10103,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2961
-      Text = 'Ingrese monto a vincular'
+      Text = 'Ingrese importe a vincular'
     end
     item
       IndexID = 2960
@@ -10433,7 +10435,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3047
-      Text = 'Entrada de monto'
+      Text = 'Entrada de importe'
     end
     item
       IndexID = 3048
@@ -11517,8 +11519,8 @@ object TTranslationSaveObject
     item
       IndexID = 3133
       Text = 
-        #161'Si desea reservar inventario para ventas, este campo se deducir' +
-        #225' de los niveles de stock actuales en una cotizaci'#243'n!'
+        #161'Si desea reservar stock para ventas, este campo se deducir'#225' de ' +
+        'los niveles actuales en una cotizaci'#243'n!'
     end
     item
       IndexID = 3134
@@ -12485,7 +12487,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906083
-      Text = 'Monto del documento'
+      Text = 'Importe del documento'
     end
     item
       IndexID = 906084
@@ -13145,7 +13147,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3508
-      Text = 'Monto restante'
+      Text = 'Importe restante'
     end
     item
       IndexID = 3509
@@ -13153,7 +13155,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3510
-      Text = 'Pr'#243'ximo monto de amortizaci'#243'n'
+      Text = 'Pr'#243'ximo importe de amortizaci'#243'n'
     end
     item
       IndexID = 3511
@@ -13181,7 +13183,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3517
-      Text = 'Monto de compra'
+      Text = 'Importe de compra'
     end
     item
       IndexID = 3518
@@ -13583,7 +13585,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906151
-      Text = 'Compras por per'#237'odo - Monto'
+      Text = 'Compras por per'#237'odo - Importe'
     end
     item
       IndexID = 906152
@@ -13603,7 +13605,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906156
-      Text = 'Facturas por per'#237'odo - Monto'
+      Text = 'Facturas por per'#237'odo - Importe'
     end
     item
       IndexID = 906157
@@ -13663,7 +13665,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906171
-      Text = 'Gr'#225'fico - Facturas por semana - Monto'
+      Text = 'Gr'#225'fico - Facturas por semana - Importe'
     end
     item
       IndexID = 906172
@@ -14255,7 +14257,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903154
-      Text = 'Corregir monto con/sin IVA (error inverso)'
+      Text = 'Corregir importe con/sin IVA (error inverso)'
     end
     item
       IndexID = 903155
@@ -14393,11 +14395,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906270
-      Text = 'Monto pendiente'
+      Text = 'Importe pendiente'
     end
     item
       IndexID = 906271
-      Text = 'Monto original de la transacci'#243'n'
+      Text = 'Importe original de la transacci'#243'n'
     end
     item
       IndexID = 906272
@@ -14477,7 +14479,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906290
-      Text = 'Gr'#225'fico - Compras por semana - Monto'
+      Text = 'Gr'#225'fico - Compras por semana - Importe'
     end
     item
       IndexID = 906291
@@ -14565,7 +14567,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906312
-      Text = 'Notas de cr'#233'dito por per'#237'odo - Monto'
+      Text = 'Notas de cr'#233'dito por per'#237'odo - Importe'
     end
     item
       IndexID = 906313
@@ -14573,7 +14575,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906314
-      Text = 'Devoluciones a proveedor por per'#237'odo - Monto'
+      Text = 'Devoluciones a proveedor por per'#237'odo - Importe'
     end
     item
       IndexID = 906315
@@ -14581,7 +14583,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906316
-      Text = 'Cotizaciones por per'#237'odo - Monto'
+      Text = 'Cotizaciones por per'#237'odo - Importe'
     end
     item
       IndexID = 906317
@@ -14589,7 +14591,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906318
-      Text = 'Pedidos por per'#237'odo - Monto'
+      Text = 'Pedidos por per'#237'odo - Importe'
     end
     item
       IndexID = 906319
@@ -14597,7 +14599,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906320
-      Text = 'Gr'#225'fico - Notas de cr'#233'dito por semana - Monto'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por semana - Importe'
     end
     item
       IndexID = 906321
@@ -14605,7 +14607,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906322
-      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Monto'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por semana - Importe'
     end
     item
       IndexID = 906323
@@ -14613,7 +14615,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906324
-      Text = 'Gr'#225'fico - Cotizaciones por semana - Monto'
+      Text = 'Gr'#225'fico - Cotizaciones por semana - Importe'
     end
     item
       IndexID = 906325
@@ -14621,7 +14623,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906326
-      Text = 'Gr'#225'fico - Pedidos por semana - Monto'
+      Text = 'Gr'#225'fico - Pedidos por semana - Importe'
     end
     item
       IndexID = 906327
@@ -16209,7 +16211,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3687
-      Text = 'Coincidir en montos abiertos'
+      Text = 'Coincidir en importe abiertos'
     end
     item
       IndexID = 3688
@@ -16470,7 +16472,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906564
-      Text = 'Gr'#225'fico - Cotizaciones por mes - Monto'
+      Text = 'Gr'#225'fico - Cotizaciones por mes - Importe'
     end
     item
       IndexID = 906565
@@ -16478,7 +16480,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906566
-      Text = 'Gr'#225'fico - Notas de cr'#233'dito por mes - Monto'
+      Text = 'Gr'#225'fico - Notas de cr'#233'dito por mes - Importe'
     end
     item
       IndexID = 906567
@@ -16486,7 +16488,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906568
-      Text = 'Gr'#225'fico - Facturas por mes - Monto'
+      Text = 'Gr'#225'fico - Facturas por mes - Importe'
     end
     item
       IndexID = 906569
@@ -16494,7 +16496,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906570
-      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por mes - Monto'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por mes - Importe'
     end
     item
       IndexID = 906571
@@ -16504,11 +16506,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906572
-      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Monto'
+      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por mes - Importe'
     end
     item
       IndexID = 906573
-      Text = 'Gr'#225'fico - Pedidos por mes - Monto'
+      Text = 'Gr'#225'fico - Pedidos por mes - Importe'
     end
     item
       IndexID = 906574
@@ -16516,7 +16518,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906575
-      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Monto'
+      Text = 'Gr'#225'fico - Devoluciones a proveedor por mes - Importe'
     end
     item
       IndexID = 906576
@@ -16524,7 +16526,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906577
-      Text = 'Gr'#225'fico - Compras por mes - Monto'
+      Text = 'Gr'#225'fico - Compras por mes - Importe'
     end
     item
       IndexID = 906578
@@ -16536,7 +16538,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906580
-      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por semana - Monto'
+      Text = 'Gr'#225'fico - Facturas - Notas de cr'#233'dito por semana - Importe'
     end
     item
       IndexID = 906581
@@ -16546,7 +16548,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906582
-      Text = 'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Monto'
+      Text = 
+        'Gr'#225'fico - Compras - Devoluciones a proveedor por semana - Import' +
+        'e'
     end
     item
       IndexID = 906583

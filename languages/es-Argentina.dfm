@@ -102,7 +102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 27
-      Text = 'Inventario'
+      Text = 'Stock'
     end
     item
       IndexID = 28
@@ -138,7 +138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 37
-      Text = 'Art'#237'culo inventario'
+      Text = 'Art'#237'culo de stock'
     end
     item
       IndexID = 38
@@ -158,7 +158,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 42
-      Text = '&Ajuste de inventario'
+      Text = '&Ajuste de stock'
     end
     item
       IndexID = 43
@@ -238,7 +238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 62
-      Text = '&Inventario'
+      Text = '&Stock'
     end
     item
       IndexID = 63
@@ -330,7 +330,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 84
-      Text = '&Listado de art'#237'culos de inventario'
+      Text = '&Listado de art'#237'culos de stock'
     end
     item
       IndexID = 85
@@ -402,7 +402,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 103
-      Text = 'Informaci'#243'n de inventario'
+      Text = 'Informaci'#243'n de stock'
     end
     item
       IndexID = 104
@@ -842,7 +842,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 213
-      Text = 'C'#243'digo de art'#237'culo'
+      Text = 'C'#243'digo de stock'
     end
     item
       IndexID = 214
@@ -890,7 +890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 225
-      Text = 'Control de inventario'
+      Text = 'Control de stock'
     end
     item
       IndexID = 226
@@ -1018,7 +1018,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 257
-      Text = 'Art'#237'culo de inventario'
+      Text = 'Art'#237'culo de stock'
     end
     item
       IndexID = 258
@@ -1150,7 +1150,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 290
-      Text = 'Opciones de actividad de inventario'
+      Text = 'Opciones de actividad de stock'
     end
     item
       IndexID = 291
@@ -1178,7 +1178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 297
-      Text = 'Editar inventario'
+      Text = 'Editar stock'
     end
     item
       IndexID = 298
@@ -1222,7 +1222,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 308
-      Text = 'Informes de inventario'
+      Text = 'Informes de stock'
     end
     item
       IndexID = 309
@@ -1390,7 +1390,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 350
-      Text = 'Informaci'#243'n de inventario'
+      Text = 'Informaci'#243'n de stock'
     end
     item
       IndexID = 351
@@ -1614,11 +1614,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 410
-      Text = 'Opciones de movimiento de inventario'
+      Text = 'Opciones de movimiento de stock'
     end
     item
       IndexID = 411
-      Text = 'Opciones de listado de inventario'
+      Text = 'Opciones de listado de stock'
     end
     item
       IndexID = 412
@@ -1634,7 +1634,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 415
-      Text = 'Conteo de inventario'
+      Text = 'Conteo de stock'
     end
     item
       IndexID = 416
@@ -1642,7 +1642,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 417
-      Text = 'Valor de inventario'
+      Text = 'Valor de stock'
     end
     item
       IndexID = 418
@@ -1666,7 +1666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 423
-      Text = 'Grupos de inventario'
+      Text = 'Grupos de stock'
     end
     item
       IndexID = 424
@@ -1848,21 +1848,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 463
-      Text = 
-        #161'No puede eliminar este art'#237'culo de inventario! Tiene transaccio' +
-        'nes.'
+      Text = #161'No puede eliminar este art'#237'culo de stock!'
     end
     item
       IndexID = 464
-      Text = #191'Est'#225' seguro/a que desea eliminar este art'#237'culo de inventario?'
+      Text = #191'Est'#225' seguro de que desea eliminar este art'#237'culo de stock?'
     end
     item
       IndexID = 465
-      Text = #161'Art'#237'culo de inventario eliminado!'
+      Text = #161'Art'#237'culo de stock eliminado!'
     end
     item
       IndexID = 466
-      Text = #161'Este art'#237'culo de inventario no existe!'
+      Text = #161'Este art'#237'culo de stock no existe!'
     end
     item
       IndexID = 467
@@ -1977,7 +1975,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 494
-      Text = #191'Desea crear este art'#237'culo de inventario?'
+      Text = #191'Desea crear este art'#237'culo de stock?'
     end
     item
       IndexID = 495
@@ -2300,7 +2298,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 562
-      Text = 'Creando cuentas requeridas (Control de acreedores)...'
+      Text = 'Creando cuentas requeridas (Control de proveedores)...'
     end
     item
       IndexID = 561
@@ -2322,7 +2320,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 569
-      Text = 'Convirtiendo inventario de Pastel...'
+      Text = 'Convirtiendo stock de Pastel...'
     end
     item
       IndexID = 568
@@ -3251,8 +3249,8 @@ object TTranslationSaveObject
     item
       IndexID = 803
       Text = 
-        #161'No se puede contabilizar la entrada en inventario para un art'#237'c' +
-        'ulo con cantidad en existencia distinta de cero!'
+        #161'No se puede contabilizar la entrada de stock para un art'#237'culo c' +
+        'on cantidad distinta de cero!'
     end
     item
       IndexID = 804
@@ -3286,7 +3284,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 811
-      Text = 'en el archivo de inventario'
+      Text = 'en el archivo de stock'
     end
     item
       IndexID = 812
@@ -3526,7 +3524,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 869
-      Text = 'Inventario'
+      Text = 'Stock'
     end
     item
       IndexID = 870
@@ -3574,7 +3572,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 882
-      Text = 'Conteo de cuentas y art'#237'culos de inventario'
+      Text = 'Conteo de cuentas y art'#237'culos de stock'
     end
     item
       IndexID = 883
@@ -3905,16 +3903,14 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        #161'La cuenta de control de inventario y/o la cuenta de ventas no e' +
-        'st'#225'n configuradas correctamente para este art'#237'culo de inventario' +
-        '!'
+        #161'La cuenta de control de stock o de ventas no est'#225' configurada c' +
+        'orrectamente!'
     end
     item
       IndexID = 966
       Text = 
-        #161'Este documento no puede contabilizarse! Configure correctamente' +
-        ' la cuenta de ventas, la cuenta de control de inventario (y la c' +
-        'uenta de costo de ventas) y luego contabil'#237'celo.'
+        #161'Este documento no puede contabilizarse! Configure la cuenta de ' +
+        'ventas y de control de stock.'
     end
     item
       IndexID = 967
@@ -4290,7 +4286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1063
-      Text = 'Seleccionar archivo hoja c'#225'lculo de inventario'
+      Text = 'Seleccionar archivo hoja c'#225'lculo de stock'
     end
     item
       IndexID = 1064
@@ -4338,7 +4334,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1076
-      Text = 'Ver grupos inventario'
+      Text = 'Ver grupos stock'
     end
     item
       IndexID = 1077
@@ -6002,7 +5998,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1771
-      Text = 'Toma inventario'
+      Text = 'Toma stock'
     end
     item
       IndexID = 1770
@@ -6078,7 +6074,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1793
-      Text = 'Inventario'
+      Text = 'Stock'
     end
     item
       IndexID = 1792
@@ -6160,7 +6156,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1809
-      Text = 'Control de acreedores'
+      Text = 'Control de proveedores'
     end
     item
       IndexID = 1808
@@ -6254,11 +6250,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1836
-      Text = 'Grupos inventario'
+      Text = 'Grupos stock'
     end
     item
       IndexID = 1835
-      Text = 'Grupos acreedores'
+      Text = 'Grupos proveedores'
     end
     item
       IndexID = 1834
@@ -6290,7 +6286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1851
-      Text = 'Borrando transacciones de inventario...'
+      Text = 'Borrando transacciones de stock...'
     end
     item
       IndexID = 1850
@@ -6334,7 +6330,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1852
-      Text = 'Borrando informaci'#243'n de inventario...'
+      Text = 'Borrando informaci'#243'n de stock...'
     end
     item
       IndexID = 1863
@@ -6522,7 +6518,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1907
-      Text = 'Editar inventario'
+      Text = 'Editar stock'
     end
     item
       IndexID = 1906
@@ -7122,11 +7118,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20072
-      Text = 'Factura de art'#237'culo de inventario'
+      Text = 'Art'#237'culo stock > Factura'
     end
     item
       IndexID = 20071
-      Text = 'Factura de art'#237'culo de inventario'
+      Text = 'Factura > Art'#237'culos stock'
     end
     item
       IndexID = 20070
@@ -7410,7 +7406,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1999
-      Text = 'Inventario'
+      Text = 'Stock'
     end
     item
       IndexID = 1998
@@ -7446,7 +7442,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2002
-      Text = 'Acreedores'
+      Text = 'Proveedores'
     end
     item
       IndexID = 2001
@@ -7698,7 +7694,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2073
-      Text = 'Importando art'#237'culos de inventario...'
+      Text = 'Importando art'#237'culos de stock...'
     end
     item
       IndexID = 2072
@@ -7718,7 +7714,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2068
-      Text = 'Importando art'#237'culos de inventario...'
+      Text = 'Importando art'#237'culos de stock...'
     end
     item
       IndexID = 2079
@@ -7930,7 +7926,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2124
-      Text = 'Informaci'#243'n de inventario'
+      Text = 'Informaci'#243'n de stock'
     end
     item
       IndexID = 2123
@@ -7938,7 +7934,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2122
-      Text = 'Nuevo c'#243'digo de art'#237'culo'
+      Text = 'Nuevo c'#243'digo de stock'
     end
     item
       IndexID = 2133
@@ -8134,7 +8130,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Importando acreedores/proveedores...'
+      Text = 'Importando proveedores...'
     end
     item
       IndexID = 2183
@@ -8206,7 +8202,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2202
-      Text = 'Editar acreedores'
+      Text = 'Editar proveedores'
     end
     item
       IndexID = 2201
@@ -8282,7 +8278,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2219
-      Text = 'C'#243'digo de acreedor'
+      Text = 'C'#243'digo de proveedor'
     end
     item
       IndexID = 2218
@@ -8302,7 +8298,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2226
-      Text = 'Informe de pago a acreedor'
+      Text = 'Informe de pago a proveedor'
     end
     item
       IndexID = 2225
@@ -9918,7 +9914,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2921
-      Text = 'Ventas (sin cantidad)'
+      Text = 'Ventas (sin stock)'
     end
     item
       IndexID = 2920
@@ -9962,7 +9958,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2922
-      Text = 'Compras (sin cantidad)'
+      Text = 'Compras (sin stock)'
     end
     item
       IndexID = 2933
@@ -9974,7 +9970,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2931
-      Text = 'No se puede vender sin inventory disponible'
+      Text = 'No se puede vender sin stock disponible'
     end
     item
       IndexID = 2930
@@ -10180,7 +10176,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2985
-      Text = 'Ver conteo de inventario en cero'
+      Text = 'Ver conteo de stock en cero'
     end
     item
       IndexID = 2984
@@ -10196,7 +10192,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2981
-      Text = 'Ver todos los art'#237'culos de inventario'
+      Text = 'Ver todos los art'#237'culos de stock'
     end
     item
       IndexID = 2992
@@ -10304,7 +10300,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3019
-      Text = 'Ver conteo de inventario en cero'
+      Text = 'Ver conteo de stock en cero'
     end
     item
       IndexID = 3020
@@ -10440,7 +10436,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Usar inventario avanzado'
+      Text = 'Usar stock avanzado'
     end
     item
       IndexID = 3057
@@ -10519,8 +10515,8 @@ object TTranslationSaveObject
     item
       IndexID = 3076
       Text = 
-        #161'Todav'#237'a hay art'#237'culos de inventario utilizando este grupo! '#161'Por' +
-        ' favor, elim'#237'nelos primero!'
+        #161'Hay art'#237'culos de stock todav'#237'a usando este grupo! '#161'Por favor, e' +
+        'lim'#237'nelos primero!'
     end
     item
       IndexID = 3077
@@ -10540,7 +10536,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3081
-      Text = #191'Reiniciar inventario?'
+      Text = #191'Reiniciar stock?'
     end
     item
       IndexID = 3082
@@ -10549,8 +10545,8 @@ object TTranslationSaveObject
     item
       IndexID = 3083
       Text = 
-        #161'Este art'#237'culo est'#225' agotado! '#161'Ajustando cantidad autom'#225'ticamente' +
-        '!'
+        #161'Este art'#237'culo est'#225' sin stock! Ajustando cantidad autom'#225'ticament' +
+        'e.'
     end
     item
       IndexID = 3084
@@ -10582,7 +10578,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3091
-      Text = 'Configurar inventario'
+      Text = 'Configurar stock'
     end
     item
       IndexID = 3092
@@ -10606,7 +10602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3097
-      Text = 'L'#237'mite SQL de inventario'
+      Text = 'L'#237'mite SQL de stock'
     end
     item
       IndexID = 3098
@@ -10793,7 +10789,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Seleccionar art'#237'culo de inventario>'
+      Text = '<Seleccionar art'#237'culo de stock>'
     end
     item
       IndexID = 901010
@@ -10865,7 +10861,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902004
-      Text = '<Todo el inventario>'
+      Text = '<Todo el stock>'
     end
     item
       IndexID = 902005
@@ -11279,7 +11275,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906038
-      Text = 'Movimiento de inventario'
+      Text = 'Movimiento de stock'
     end
     item
       IndexID = 906039
@@ -11303,7 +11299,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906044
-      Text = 'Ventas por grupo de inventario'
+      Text = 'Ventas por grupo de stock'
     end
     item
       IndexID = 906045
@@ -11399,7 +11395,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901504
-      Text = #161'El art'#237'culo %s est'#225' agotado! '#161'Por favor, revise su entrada!'
+      Text = #161'El art'#237'culo %s est'#225' sin stock! Por favor, revise su entrada.'
     end
     item
       IndexID = 901505
@@ -11494,14 +11490,14 @@ object TTranslationSaveObject
     item
       IndexID = 3132
       Text = 
-        #161'Si su inventario baja de este nivel, el sistema repondr'#225' hasta ' +
-        'alcanzar la cantidad de reposici'#243'n!'
+        #161'Si el stock baja de este nivel, el sistema repondr'#225' la cantidad' +
+        ' de reposici'#243'n!'
     end
     item
       IndexID = 3133
       Text = 
-        #161'Si desea reservar inventario para ventas, este campo se deducir' +
-        #225' de los niveles de inventario actuales en una cotizaci'#243'n!'
+        #161'Si desea reservar stock para ventas, este campo se deducir'#225' de ' +
+        'los niveles actuales en una cotizaci'#243'n!'
     end
     item
       IndexID = 3134
@@ -11541,7 +11537,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3143
-      Text = 'Art'#237'culo opcional (sin cantidad)'
+      Text = 'Art'#237'culo opcional (sin stock)'
     end
     item
       IndexID = 3144
@@ -11603,7 +11599,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3158
-      Text = 'SQL solo para b'#250'squeda de art'#237'culos de inventario'
+      Text = 'SQL solo para b'#250'squeda de art'#237'culos de stock'
     end
     item
       IndexID = 3159
@@ -12178,19 +12174,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3299
-      Text = 'Sin mensaje de art'#237'culo agotado'
+      Text = 'Sin mensaje de falta de stock'
     end
     item
       IndexID = 3300
-      Text = 'Usar colores para art'#237'culos agotados'
+      Text = 'Usar colores para art'#237'culos sin stock'
     end
     item
       IndexID = 3301
-      Text = 'Calcular inventario de LdM'
+      Text = 'Calcular stock de LdM'
     end
     item
       IndexID = 3302
-      Text = 'L'#237'mite compra: prov. predeterminado o ninguno'
+      Text = 'L'#237'mite de compra de stock: prov. predeterminado o ninguno'
     end
     item
       IndexID = 3303
@@ -12231,8 +12227,8 @@ object TTranslationSaveObject
     item
       IndexID = 3312
       Text = 
-        #161'No hay proveedor predeterminado 1 para estos art'#237'culos de inven' +
-        'tario! '#161'Por favor, corr'#237'jalos primero!'
+        #161'No hay proveedor predeterminado 1 para estos art'#237'culos de stock' +
+        '!'
     end
     item
       IndexID = 3313
@@ -12575,8 +12571,8 @@ object TTranslationSaveObject
     item
       IndexID = 3365
       Text = 
-        #161'La cantidad de art'#237'culo ha cambiado! '#191'Desea conservar los datos' +
-        ' actuales de la base de datos?'
+        #161'La cantidad de stock del art'#237'culo ha cambiado! '#191'Desea conservar' +
+        ' los datos actuales de la base de datos?'
     end
     item
       IndexID = 3366
@@ -12645,7 +12641,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3381
-      Text = 'Verificaci'#243'n de inventario'
+      Text = 'StockCheck'
     end
     item
       IndexID = 3382
@@ -12737,7 +12733,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3405
-      Text = 'Complementos de inventario'
+      Text = 'Complementos de stock'
     end
     item
       IndexID = 3406
@@ -12801,7 +12797,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'Usar pesta'#241'as en inventario'
+      Text = 'Usar pesta'#241'as en stock'
     end
     item
       IndexID = 3422
@@ -12962,7 +12958,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3467
-      Text = 'Forzar verificaci'#243'n de tipo de art'#237'culo'
+      Text = 'Forzar verificaci'#243'n de tipo de stock'
     end
     item
       IndexID = 3468
@@ -13342,11 +13338,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3560
-      Text = 'Salida de inventario'
+      Text = 'Salida de stock'
     end
     item
       IndexID = 3561
-      Text = 'Entrada de inventario'
+      Text = 'Entrada de stock'
     end
     item
       IndexID = 3562
@@ -13410,7 +13406,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906112
-      Text = 'Entrada/Salida de inventario'
+      Text = 'Entrada/Salida de stock'
     end
     item
       IndexID = 906113
@@ -13434,7 +13430,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906118
-      Text = 'Grupo de inventario'
+      Text = 'Grupo de stock'
     end
     item
       IndexID = 906119
@@ -13650,19 +13646,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906172
-      Text = 'Compras por art'#237'culo - Grupo de inventario 1'
+      Text = 'Compras por art'#237'culo - Grupo de stock 1'
     end
     item
       IndexID = 906173
-      Text = 'Compras por art'#237'culo - Grupo de inventario 2'
+      Text = 'Compras por art'#237'culo - Grupo de stock 2'
     end
     item
       IndexID = 906174
-      Text = 'Ventas por art'#237'culo - Grupo de inventario 1'
+      Text = 'Ventas por art'#237'culo - Grupo de stock 1'
     end
     item
       IndexID = 906175
-      Text = 'Ventas por art'#237'culo - Grupo de inventario 2'
+      Text = 'Ventas por art'#237'culo - Grupo de stock 2'
     end
     item
       IndexID = 906176
@@ -13674,11 +13670,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906178
-      Text = 'Entrada de inventario'
+      Text = 'Entrada de stock'
     end
     item
       IndexID = 906179
-      Text = 'Salida de inventario'
+      Text = 'Salida de stock'
     end
     item
       IndexID = 906180
@@ -14030,7 +14026,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903102
-      Text = 'Variables del sistema'
+      Text = 'Sysvars'
     end
     item
       IndexID = 903103
@@ -14038,11 +14034,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903104
-      Text = 'Mensajes'
+      Text = 'MSG'
     end
     item
       IndexID = 903105
-      Text = 'Ejecutar SQL'
+      Text = 'Run SQL'
     end
     item
       IndexID = 903106
@@ -14070,11 +14066,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903112
-      Text = 'A'#241'adir descripci'#243'n a inventario'
+      Text = 'A'#241'adir descripci'#243'n extra al stock'
     end
     item
       IndexID = 903113
-      Text = 'Eliminar descripci'#243'n extra de inventario'
+      Text = 'Eliminar descripci'#243'n extra del stock'
     end
     item
       IndexID = 903114
@@ -14082,7 +14078,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903115
-      Text = 'Calcular total en inventario'
+      Text = 'Calcular total en stock'
     end
     item
       IndexID = 903116
@@ -14098,15 +14094,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903119
-      Text = 'Eliminar grupos sin inventario'
+      Text = 'Eliminar grupos sin stock'
     end
     item
       IndexID = 903120
-      Text = 'Eliminar inventario sin documentos'
+      Text = 'Eliminar stock sin documentos'
     end
     item
       IndexID = 903121
-      Text = 'Generar inventario por libro mayor'
+      Text = 'Generar stock por libro mayor'
     end
     item
       IndexID = 903122
@@ -14114,7 +14110,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903123
-      Text = 'Actualizar cantidad de inventario de art'#237'culos opcionales'
+      Text = 'Actualizar cantidad de stock de art'#237'culos opcionales'
     end
     item
       IndexID = 903124
@@ -14126,7 +14122,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903126
-      Text = 'Eliminar art. inventario'
+      Text = 'Eliminar art'#237'culos de stock'
     end
     item
       IndexID = 903127
@@ -14146,7 +14142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903131
-      Text = 'Transferir datos de inventario'
+      Text = 'Transferir datos de stock'
     end
     item
       IndexID = 903132
@@ -14154,7 +14150,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903133
-      Text = 'Consolidar a'#241'os cerrados - Documentos e inventario'
+      Text = 'Consolidar a'#241'os cerrados - Documentos e stock'
     end
     item
       IndexID = 903134
@@ -14174,7 +14170,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903138
-      Text = 'Establecer todos los proveedores a AA'
+      Text = 'Establecer todos los prov. a AA'
     end
     item
       IndexID = 903139
@@ -14368,7 +14364,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906268
-      Text = 'Niveles actuales de inventario'
+      Text = 'Niveles actuales de stock'
     end
     item
       IndexID = 906269
@@ -14432,7 +14428,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906283
-      Text = 'Inventario activo'
+      Text = 'Stock activo'
     end
     item
       IndexID = 906284
@@ -16200,7 +16196,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3689
-      Text = 'Valor total de inventario'
+      Text = 'Valor total de stock'
     end
     item
       IndexID = 3690
@@ -16220,7 +16216,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3694
-      Text = #161'Por favor, guarde o cancele el art'#237'culo de inventario primero!'
+      Text = #161'Por favor, guarde o cancele el stock primero!'
     end
     item
       IndexID = 3695
@@ -16550,7 +16546,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906588
-      Text = 'Cuenta de valor de inventario'
+      Text = 'Cuenta de valor de Stock'
     end
     item
       IndexID = 906587
@@ -16558,11 +16554,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906586
-      Text = 'Inventario - Cantidades esperadas'
+      Text = 'Stock - Cantidades esperadas'
     end
     item
       IndexID = 906585
-      Text = 'Lista de art'#237'culos de inventario - Inventario activo'
+      Text = 'Lista de art'#237'culos de stock - Stock activo'
     end
     item
       IndexID = 906584
