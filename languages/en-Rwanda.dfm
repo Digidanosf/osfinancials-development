@@ -5843,7 +5843,7 @@ object TTranslationSaveObject
       IndexID = 1738
       Text = 
         'This will close the invoice entry screen and post all POS invoic' +
-        'es for ...'
+        'es for...'
     end
     item
       IndexID = 1737
@@ -6245,7 +6245,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1836
-      Text = 'Stock'
+      Text = 'Stock groups'
     end
     item
       IndexID = 1835
@@ -10927,7 +10927,7 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Press [OK] when you are done editing the file to save it to the ' +
+        'Click [OK] when you are done editing the file to save it to the ' +
         'database!'
     end
     item
@@ -15875,7 +15875,7 @@ object TTranslationSaveObject
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the [' +
+        'This list shows what you are going to order when you click the [' +
         'Order] button'
     end
     item
