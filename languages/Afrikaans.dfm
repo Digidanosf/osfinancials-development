@@ -6238,7 +6238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1836
-      Text = 'Voorraad'
+      Text = 'Voorraadgroepe'
     end
     item
       IndexID = 1837
@@ -10860,7 +10860,7 @@ object TTranslationSaveObject
     item
       IndexID = 903009
       Text = 
-        'Druk [Goed] sodra jy klaar is om te redigeer; om die l'#234'er in die' +
+        'Klik [Goed] sodra jy klaar is om te redigeer; om die l'#234'er in die' +
         ' databasis te stoor!'
     end
     item
