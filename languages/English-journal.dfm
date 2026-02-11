@@ -1823,7 +1823,7 @@ object TTranslationSaveObject
     item
       IndexID = 425
       Text = 
-        'Warning, this will seriously affect your Set of Books! Do you st' +
+        'Warning! This will seriously affect your Set of Books! Do you st' +
         'ill wish to continue?'
     end
     item
@@ -2143,7 +2143,7 @@ object TTranslationSaveObject
     item
       IndexID = 500
       Text = 
-        'Do you want to run the data integrity check before making the ba' +
+        'Do you want to run the Data integrity check before making the ba' +
         'ckup?'
     end
     item
@@ -2168,7 +2168,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 506
-      Text = 'Warning there are'
+      Text = 'Warning! There are'
     end
     item
       IndexID = 507
@@ -2195,8 +2195,8 @@ object TTranslationSaveObject
     item
       IndexID = 512
       Text = 
-        'WARNING this will overwrite your current Set of Books! Are you s' +
-        'ure you want to continue?'
+        'WARNING! This will overwrite your current Set of Books! Are you ' +
+        'sure you want to continue?'
     end
     item
       IndexID = 513
@@ -2286,7 +2286,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 530
-      Text = 'Warning, there are'
+      Text = 'Warning! There are'
     end
     item
       IndexID = 531
@@ -2335,7 +2335,7 @@ object TTranslationSaveObject
     item
       IndexID = 589
       Text = 
-        'Warning, this date does not fall into any of this or last year'#39's' +
+        'Warning! This date does not fall into any of this or last year'#39's' +
         ' reporting dates!'
     end
     item
@@ -2507,7 +2507,7 @@ object TTranslationSaveObject
     item
       IndexID = 573
       Text = 
-        'Please select Pastel Partner Data to convert from the list below' +
+        'Please select Pastel Partner data to convert from the list below' +
         '.'
     end
     item
@@ -3075,7 +3075,7 @@ object TTranslationSaveObject
     item
       IndexID = 722
       Text = 
-        'Warning, if you click [Yes] you will lose all your current links' +
+        'Warning! If you click [Yes] you will lose all your current links' +
         ' for this account!'
     end
     item
@@ -7553,7 +7553,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1996
-      Text = 'Checking journal entries ...'
+      Text = 'Checking journal entries...'
     end
     item
       IndexID = 1995
@@ -9553,7 +9553,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2798
-      Text = 'Conditional section must begin with INCLUDE or IGNORE'
+      Text = 'Conditional section must begin with INCLUDE or IGNORE!'
     end
     item
       IndexID = 2809
@@ -11084,6 +11084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903011
+      Text = 'List'
     end
     item
       IndexID = 902006
