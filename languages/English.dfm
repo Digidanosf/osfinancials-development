@@ -11518,11 +11518,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906062
-      Text = 'Selected debtor label'
+      Text = 'Selected debtor postal address label'
     end
     item
       IndexID = 906063
-      Text = 'Selected creditor label'
+      Text = 'Selected creditor postal address label'
     end
     item
       IndexID = 906064
@@ -11530,11 +11530,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906065
-      Text = 'Selected debtor delivery label'
+      Text = 'Selected debtor delivery address label'
     end
     item
       IndexID = 906066
-      Text = 'Selected creditor delivery label'
+      Text = 'Selected creditor delivery address label'
     end
     item
       IndexID = 906067

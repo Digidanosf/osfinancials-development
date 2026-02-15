@@ -11374,11 +11374,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906062
-      Text = 'Selected customer label'
+      Text = 'Selected customer postal address label'
     end
     item
       IndexID = 906063
-      Text = 'Selected vendor label'
+      Text = 'Selected vendor postal address label'
     end
     item
       IndexID = 906064
@@ -11386,11 +11386,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906065
-      Text = 'Selected customer delivery label'
+      Text = 'Selected customer delivery address label'
     end
     item
       IndexID = 906066
-      Text = 'Selected vendor delivery label'
+      Text = 'Selected vendor delivery address label'
     end
     item
       IndexID = 906067
