@@ -1258,7 +1258,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'VAT reg. no.'
+      Text = 'TAN (VAT) no.'
     end
     item
       IndexID = 318
@@ -11400,7 +11400,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906069
-      Text = 'Your VAT reference'
+      Text = 'Your TAN (VAT) reference'
     end
     item
       IndexID = 1000054
@@ -12719,7 +12719,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3409
-      Text = 'Postal code / tax id / reg. no. lookup'
+      Text = 'Postal code / TAN / reg. no. lookup'
     end
     item
       IndexID = 3410
@@ -14614,7 +14614,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906339
-      Text = 'VAT and company registration numbers'
+      Text = 'TAN and company registration numbers'
     end
     item
       IndexID = 3568
@@ -16084,7 +16084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3675
-      Text = 'Tax list debtor with tax id'
+      Text = 'VAT list debtor with TAN'
     end
     item
       IndexID = 3676
@@ -16134,7 +16134,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906553
-      Text = 'Tax list creditor with tax id'
+      Text = 'VAT list creditor with TAN'
     end
     item
       IndexID = 3685
