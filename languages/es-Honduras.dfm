@@ -834,11 +834,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 211
-      Text = 'D'#233'bito'
+      Text = 'Debe'
     end
     item
       IndexID = 212
-      Text = 'Cr'#233'dito'
+      Text = 'Haber'
     end
     item
       IndexID = 213
@@ -5115,11 +5115,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1263
-      Text = 'para cr'#233'dito'
+      Text = 'para Haber'
     end
     item
       IndexID = 1264
-      Text = 'para d'#233'bito/cr'#233'dito'
+      Text = 'para Debe/Haber'
     end
     item
       IndexID = 1265
@@ -9917,15 +9917,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2915
-      Text = 'D/C para D'#233'bito/Cr'#233'dito'
+      Text = 'D/H para Debe/Haber'
     end
     item
       IndexID = 2914
-      Text = '+/- para D'#233'bito/Cr'#233'dito'
+      Text = '+/- para Debe/Haber'
     end
     item
       IndexID = 2913
-      Text = '<> para Cr'#233'dito'
+      Text = '<> para Haber'
     end
     item
       IndexID = 2912
@@ -11656,7 +11656,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Columnas - Saldos D/C'
+      Text = 'Columnas - Saldos D/H'
     end
     item
       IndexID = 3167
@@ -11664,7 +11664,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3168
-      Text = 'Columnas - Saldos acreedores D/C'
+      Text = 'Columnas - Saldos acreedores D/H'
     end
     item
       IndexID = 3169

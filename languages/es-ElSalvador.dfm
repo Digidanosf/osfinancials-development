@@ -5099,7 +5099,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1263
-      Text = 'para cr'#233'dito'
+      Text = 'para Haber'
     end
     item
       IndexID = 1264

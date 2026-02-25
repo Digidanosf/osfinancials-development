@@ -5116,11 +5116,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1263
-      Text = 'para cr'#233'dito'
+      Text = 'para Haber'
     end
     item
       IndexID = 1264
-      Text = 'para d'#233'bito/cr'#233'dito'
+      Text = 'para Debe/Haber'
     end
     item
       IndexID = 1265

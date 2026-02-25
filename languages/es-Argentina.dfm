@@ -1848,9 +1848,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 463
-      Text = 
-        #161'No puede eliminar este art'#237'culo de stock! '#161'Tiene transacc' +
-        'iones!'
+      Text = #161'No puede eliminar este art'#237'culo de stock! '#161'Tiene transacciones!'
     end
     item
       IndexID = 464
@@ -5115,11 +5113,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1263
-      Text = 'para cr'#233'dito'
+      Text = 'para Haber'
     end
     item
       IndexID = 1264
-      Text = 'para d'#233'bito/cr'#233'dito'
+      Text = 'para Debe/Haber'
     end
     item
       IndexID = 1265
@@ -9917,15 +9915,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2915
-      Text = 'D/C para D'#233'bito/Cr'#233'dito'
+      Text = 'D/H para Debe/Haber'
     end
     item
       IndexID = 2914
-      Text = '+/- para D'#233'bito/Cr'#233'dito'
+      Text = '+/- para Debe/Haber'
     end
     item
       IndexID = 2913
-      Text = '<> para Cr'#233'dito'
+      Text = '<> para Haber'
     end
     item
       IndexID = 2912
@@ -11658,15 +11656,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Columnas - Saldos D/C'
+      Text = 'Columnas - Saldos D/H'
     end
     item
       IndexID = 3167
-      Text = 'Columnas - Saldos clientes D/C'
+      Text = 'Columnas - Saldos clientes D/H'
     end
     item
       IndexID = 3168
-      Text = 'Columnas - Saldos proveedores D/C'
+      Text = 'Columnas - Saldos proveedores D/H'
     end
     item
       IndexID = 3169
