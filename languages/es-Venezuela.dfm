@@ -11662,7 +11662,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3166
-      Text = 'Columnas - Saldos D/C'
+      Text = 'Columnas - Saldos D/H'
     end
     item
       IndexID = 3167
@@ -11670,7 +11670,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3168
-      Text = 'Columnas - Saldos acreedores D/C'
+      Text = 'Columnas - Saldos acreedores D/H'
     end
     item
       IndexID = 3169
@@ -15663,7 +15663,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000057
-      Text = 'No usado / No trad.'
+      Text = 'No utilizado / No traducir'
     end
     item
       IndexID = 906275
