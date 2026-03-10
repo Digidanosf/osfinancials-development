@@ -794,7 +794,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Message des relev'#233's'
+      Text = 'Message'
     end
     item
       IndexID = 201
