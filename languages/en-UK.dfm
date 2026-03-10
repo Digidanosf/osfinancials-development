@@ -58,11 +58,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns - month - Quantities'
+      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns - month - Amount'
+      Text = 'Graph - Purchases - Supplier returns per month - Amount'
     end
     item
       IndexID = 906573
@@ -278,7 +278,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 45
-      Text = '&Documents listing'
+      Text = '&Document listing'
     end
     item
       IndexID = 46
@@ -3004,7 +3004,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 715
-      Text = 'Do want to delete this label definitions?'
+      Text = 'Do you want to delete these label definitions?'
     end
     item
       IndexID = 716
@@ -4182,7 +4182,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1006
-      Text = 'Are you sure you want delete this user report?'
+      Text = 'Are you sure you want to delete this user report?'
     end
     item
       IndexID = 1007
@@ -6864,8 +6864,8 @@ object TTranslationSaveObject
     item
       IndexID = 1967
       Text = 
-        '<@APPNAME@> the limit of 500 transactions or 500 document is rea' +
-        'ched! Please register and buy a licence.'
+        '<@APPNAME@> the limit of 500 transactions or 500 documents is re' +
+        'ached! Please register and buy a licence.'
     end
     item
       IndexID = 1966
@@ -7304,8 +7304,8 @@ object TTranslationSaveObject
     item
       IndexID = 1969
       Text = 
-        'Cannot have more than %s for this unregistered <@APPNAME@> copie' +
-        ' %s! Please register and get your licence code!'
+        'Cannot have more than %s for this unregistered <@APPNAME@> copy ' +
+        '%s! Please register and get your licence code!'
     end
     item
       IndexID = 1988
@@ -7725,7 +7725,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2051
-      Text = '*Indicates non-VAT-item'
+      Text = '*Indicates non-taxable item'
     end
     item
       IndexID = 2050
@@ -10705,7 +10705,7 @@ object TTranslationSaveObject
         'You are trying to connect to a remote database! This version doe' +
         's not support that by default! Please contact us at https://www.' +
         'osfinancials.org/ to support the project and receive your multi-' +
-        'user license!'
+        'user licence!'
     end
     item
       IndexID = 3101
@@ -10791,19 +10791,19 @@ object TTranslationSaveObject
     item
       IndexID = 3120
       Text = 
-        ':Time license expires in 1 day! Please visit https://www.osfinan' +
+        ':Time licence expires in 1 day! Please visit https://www.osfinan' +
         'cials.org/en/webshop '
     end
     item
       IndexID = 3121
       Text = 
-        ':Time license expires in %s days! Please visit https://www.osfin' +
+        ':Time licence expires in %s days! Please visit https://www.osfin' +
         'ancials.org/en/webshop '
     end
     item
       IndexID = 3122
       Text = 
-        'Time license expired! Please visit https://www.osfinancials.org/' +
+        'Time licence expired! Please visit https://www.osfinancials.org/' +
         'en/webshop '
     end
     item
@@ -12388,7 +12388,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3302
-      Text = 'Limit stock purchase only for default supplier or non'
+      Text = 'Limit stock purchase only for default supplier or none'
     end
     item
       IndexID = 3303
@@ -12667,7 +12667,7 @@ object TTranslationSaveObject
     item
       IndexID = 3369
       Text = 
-        'The data of this document has changed by a other user or input s' +
+        'The data of this document has changed by another user or input s' +
         'creen. %s Do you wish to override the data? '
     end
     item
@@ -13988,7 +13988,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3447
-      Text = 'Time license'
+      Text = 'Time licence'
     end
     item
       IndexID = 3448
@@ -14254,7 +14254,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3508
-      Text = 'Rest-amount'
+      Text = 'Rest amount'
     end
     item
       IndexID = 3509
@@ -15636,7 +15636,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21166
-      Text = 'Note: Write fields separated by ; character'
+      Text = 'Note: Enter fields separated by ; character'
     end
     item
       IndexID = 21167
@@ -16262,7 +16262,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3689
-      Text = 'Total Stock value'
+      Text = 'Total stock value'
     end
     item
       IndexID = 3690
