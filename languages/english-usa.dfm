@@ -170,7 +170,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 45
-      Text = '&Documents listing'
+      Text = '&Document listing'
     end
     item
       IndexID = 46
@@ -1494,35 +1494,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 380
-      Text = 'Sales per customer'
+      Text = 'Sales by customer'
     end
     item
       IndexID = 381
-      Text = 'Sales per product'
+      Text = 'Sales by product'
     end
     item
       IndexID = 382
-      Text = 'Sales per salesperson'
+      Text = 'Sales by salesperson'
     end
     item
       IndexID = 383
-      Text = 'Sales per group'
+      Text = 'Sales by group'
     end
     item
       IndexID = 384
-      Text = 'Sales per customer options'
+      Text = 'Sales by customer options'
     end
     item
       IndexID = 385
-      Text = 'Sales per product options'
+      Text = 'Sales by product options'
     end
     item
       IndexID = 386
-      Text = 'Sales per salesperson options'
+      Text = 'Sales by salesperson options'
     end
     item
       IndexID = 387
-      Text = 'Sales per group options'
+      Text = 'Sales by group options'
     end
     item
       IndexID = 388
@@ -1794,7 +1794,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 451
-      Text = ' Set of Books already exist!'
+      Text = 'Set of Books already exists!'
     end
     item
       IndexID = 452
@@ -2538,7 +2538,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 625
-      Text = 'Contra account per line'
+      Text = 'Contra account by line'
     end
     item
       IndexID = 626
@@ -2896,7 +2896,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 715
-      Text = 'Do want to delete this label definitions?'
+      Text = 'Do you want to delete these label definitions?'
     end
     item
       IndexID = 716
@@ -3469,35 +3469,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 855
-      Text = 'Salesperson per product'
+      Text = 'Salesperson by product'
     end
     item
       IndexID = 856
-      Text = 'Salesperson per customer'
+      Text = 'Salesperson by customer'
     end
     item
       IndexID = 857
-      Text = 'Product per customer'
+      Text = 'Product by customer'
     end
     item
       IndexID = 858
-      Text = 'Product per salesperson'
+      Text = 'Product by salesperson'
     end
     item
       IndexID = 859
-      Text = 'Customer per salesperson'
+      Text = 'Customer by salesperson'
     end
     item
       IndexID = 860
-      Text = 'Customer per product'
+      Text = 'Customer by product'
     end
     item
       IndexID = 861
-      Text = 'Purchases per vendor '
+      Text = 'Purchases by vendor '
     end
     item
       IndexID = 862
-      Text = 'Purchases per product'
+      Text = 'Purchases by product'
     end
     item
       IndexID = 863
@@ -3569,7 +3569,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 881
-      Text = 'Balances per period'
+      Text = 'Balances by period'
     end
     item
       IndexID = 882
@@ -4018,23 +4018,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 992
-      Text = 'Product per customer options'
+      Text = 'Product by customer options'
     end
     item
       IndexID = 993
-      Text = 'Product per salesperson options'
+      Text = 'Product by salesperson options'
     end
     item
       IndexID = 994
-      Text = 'Customer per salesperson options'
+      Text = 'Customer by salesperson options'
     end
     item
       IndexID = 995
-      Text = 'Customer per product options'
+      Text = 'Customer by product options'
     end
     item
       IndexID = 996
-      Text = 'Salesperson per customer options'
+      Text = 'Salesperson by customer options'
     end
     item
       IndexID = 997
@@ -4074,7 +4074,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1006
-      Text = 'Are you sure you want delete this user report?'
+      Text = 'Are you sure you want to delete this user report?'
     end
     item
       IndexID = 1007
@@ -4084,7 +4084,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1008
-      Text = 'Sales per product options'
+      Text = 'Sales by product options'
     end
     item
       IndexID = 1009
@@ -4244,7 +4244,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1051
-      Text = 'Salesperson per product options'
+      Text = 'Salesperson by product options'
     end
     item
       IndexID = 1052
@@ -4338,11 +4338,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1077
-      Text = 'Purchases per product options'
+      Text = 'Purchases by product options'
     end
     item
       IndexID = 1078
-      Text = 'Purchases per vendor options'
+      Text = 'Purchases by vendor options'
     end
     item
       IndexID = 1079
@@ -4370,7 +4370,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1085
-      Text = 'New page per item'
+      Text = 'New page by item'
     end
     item
       IndexID = 1086
@@ -5939,7 +5939,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1745
-      Text = 'Centre alignment'
+      Text = 'Center alignment'
     end
     item
       IndexID = 1762
@@ -6751,13 +6751,13 @@ object TTranslationSaveObject
       IndexID = 1968
       Text = 
         'This software is limited to 500 transactions or 500 documents! P' +
-        'lease register and buy a licence for <@APPNAME@>.'
+        'lease register and buy a license for <@APPNAME@>.'
     end
     item
       IndexID = 1967
       Text = 
-        '<@APPNAME@> the limit of 500 transactions or 500 document is rea' +
-        'ched! Please register and buy a licence.'
+        '<@APPNAME@> the limit of 500 transactions or 500 documents is re' +
+        'ached! Please register and buy a license.'
     end
     item
       IndexID = 1966
@@ -7077,7 +7077,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20067
-      Text = 'Total sales per day'
+      Text = 'Total sales by day'
     end
     item
       IndexID = 20066
@@ -7121,7 +7121,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20068
-      Text = 'Total qty. per day'
+      Text = 'Total qty. by day'
     end
     item
       IndexID = 20079
@@ -7196,8 +7196,8 @@ object TTranslationSaveObject
     item
       IndexID = 1969
       Text = 
-        'Cannot have more than %s for this unregistered <@APPNAME@> copie' +
-        ' %s! Please register and get your licence code!'
+        'Cannot have more than %s for this unregistered <@APPNAME@> copy ' +
+        '%s! Please register and get your license code!'
     end
     item
       IndexID = 1988
@@ -8041,7 +8041,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2163
-      Text = 'Purchase analysis - Purchases per vendor'
+      Text = 'Purchase analysis - Purchases by vendor'
     end
     item
       IndexID = 2162
@@ -8057,7 +8057,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2159
-      Text = 'Sales analysis - Sales per customer'
+      Text = 'Sales analysis - Sales by customer'
     end
     item
       IndexID = 2158
@@ -11299,11 +11299,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906043
-      Text = 'Sales per customer group'
+      Text = 'Sales by customer group'
     end
     item
       IndexID = 906044
-      Text = 'Sales per inventory group'
+      Text = 'Sales by inventory group'
     end
     item
       IndexID = 906045
@@ -11363,7 +11363,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906059
-      Text = 'Sales per customer'
+      Text = 'Sales by customer'
     end
     item
       IndexID = 906060
@@ -11435,11 +11435,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906071
-      Text = 'Cost centre 1'
+      Text = 'Cost center 1'
     end
     item
       IndexID = 906072
-      Text = 'Cost centre 2'
+      Text = 'Cost center 2'
     end
     item
       IndexID = 1000046
@@ -11587,7 +11587,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3160
-      Text = 'Merge items per tax on ledger'
+      Text = 'Merge items by tax on ledger'
     end
     item
       IndexID = 3161
@@ -11627,7 +11627,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3170
-      Text = 'Post warning per invoice'
+      Text = 'Post warning by invoice'
     end
     item
       IndexID = 3171
@@ -11715,7 +11715,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3188
-      Text = 'Cost centres'
+      Text = 'Cost centers'
     end
     item
       IndexID = 3193
@@ -12059,7 +12059,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906086
-      Text = 'Control report - Processed transactions per contra account'
+      Text = 'Control report - Processed transactions by contra account'
     end
     item
       IndexID = 3264
@@ -12821,7 +12821,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'Sales Tax per period'
+      Text = 'Sales Tax by period'
     end
     item
       IndexID = 906106
@@ -12857,11 +12857,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906114
-      Text = 'Purchases per period'
+      Text = 'Purchases by period'
     end
     item
       IndexID = 906115
-      Text = 'Items per period'
+      Text = 'Items by period'
     end
     item
       IndexID = 906116
@@ -12881,15 +12881,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906120
-      Text = 'Vendor returns per period'
+      Text = 'Vendor returns by period'
     end
     item
       IndexID = 906121
-      Text = 'Credit notes per period'
+      Text = 'Credit notes by period'
     end
     item
       IndexID = 906122
-      Text = 'Sales per period'
+      Text = 'Sales by period'
     end
     item
       IndexID = 906123
@@ -12965,7 +12965,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906141
-      Text = 'Journal transactions per period'
+      Text = 'Journal transactions by period'
     end
     item
       IndexID = 906142
@@ -13001,43 +13001,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906150
-      Text = 'Purchases per period - Quantities'
+      Text = 'Purchases by period - Quantities'
     end
     item
       IndexID = 906151
-      Text = 'Purchases per period - Amount'
+      Text = 'Purchases by period - Amount'
     end
     item
       IndexID = 906152
-      Text = 'Purchases per period - Vendor group 1'
+      Text = 'Purchases by period - Vendor group 1'
     end
     item
       IndexID = 906153
-      Text = 'Purchases per period - Vendor group 2'
+      Text = 'Purchases by period - Vendor group 2'
     end
     item
       IndexID = 906154
-      Text = 'Purchases per period - Document group 1'
+      Text = 'Purchases by period - Document group 1'
     end
     item
       IndexID = 906155
-      Text = 'Invoices per period - Quantities'
+      Text = 'Invoices by period - Quantities'
     end
     item
       IndexID = 906156
-      Text = 'Invoices per period - Amount'
+      Text = 'Invoices by period - Amount'
     end
     item
       IndexID = 906157
-      Text = 'Invoices per period - Customer group 1'
+      Text = 'Invoices by period - Customer group 1'
     end
     item
       IndexID = 906158
-      Text = 'Invoices per period - Customer group 2'
+      Text = 'Invoices by period - Customer group 2'
     end
     item
       IndexID = 906159
-      Text = 'Invoices per period - Document group 1'
+      Text = 'Invoices by period - Document group 1'
     end
     item
       IndexID = 906160
@@ -13045,7 +13045,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906161
-      Text = 'Document listing per account'
+      Text = 'Document listing by account'
     end
     item
       IndexID = 906162
@@ -13053,55 +13053,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906163
-      Text = 'Purchases per period - Document group 2'
+      Text = 'Purchases by period - Document group 2'
     end
     item
       IndexID = 906164
-      Text = 'Purchases per period - Salesperson'
+      Text = 'Purchases by period - Salesperson'
     end
     item
       IndexID = 906165
-      Text = 'Invoices per period - Document group 2'
+      Text = 'Invoices by period - Document group 2'
     end
     item
       IndexID = 906166
-      Text = 'Invoices per period - Salesperson'
+      Text = 'Invoices by period - Salesperson'
     end
     item
       IndexID = 906167
-      Text = 'Graph - Vendors per week'
+      Text = 'Graph - Vendors by week'
     end
     item
       IndexID = 906168
-      Text = 'Graph - Customers per week'
+      Text = 'Graph - Customers by week'
     end
     item
       IndexID = 906169
-      Text = 'Graph - Profit / Loss per week'
+      Text = 'Graph - Profit / Loss by week'
     end
     item
       IndexID = 906170
-      Text = 'Graph - Invoices per week - Quantities'
+      Text = 'Graph - Invoices by week - Quantities'
     end
     item
       IndexID = 906171
-      Text = 'Graph - Invoices per week - Amount'
+      Text = 'Graph - Invoices by week - Amount'
     end
     item
       IndexID = 906172
-      Text = 'Purchases per product - Inventory group 1'
+      Text = 'Purchases by product - Inventory group 1'
     end
     item
       IndexID = 906173
-      Text = 'Purchases per product - Inventory group 2'
+      Text = 'Purchases by product - Inventory group 2'
     end
     item
       IndexID = 906174
-      Text = 'Sales per product - Inventory group 1'
+      Text = 'Sales by product - Inventory group 1'
     end
     item
       IndexID = 906175
-      Text = 'Sales per product - Inventory group 2'
+      Text = 'Sales by product - Inventory group 2'
     end
     item
       IndexID = 906176
@@ -13553,7 +13553,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903121
-      Text = 'Generate inventory per ledger'
+      Text = 'Generate inventory by ledger'
     end
     item
       IndexID = 903122
@@ -14035,7 +14035,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3480
-      Text = 'Outlook syncroniser'
+      Text = 'Outlook synchronizer'
     end
     item
       IndexID = 3481
@@ -14401,195 +14401,195 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906289
-      Text = 'Graph - Purchases per week - Quantities'
+      Text = 'Graph - Purchases by week - Quantities'
     end
     item
       IndexID = 906290
-      Text = 'Graph - Purchases per week - Amount'
+      Text = 'Graph - Purchases by week - Amount'
     end
     item
       IndexID = 906291
-      Text = 'Credit notes per period - Customer group 1'
+      Text = 'Credit notes by period - Customer group 1'
     end
     item
       IndexID = 906292
-      Text = 'Credit notes per period - Customer group 2'
+      Text = 'Credit notes by period - Customer group 2'
     end
     item
       IndexID = 906293
-      Text = 'Credit notes per period - Document group 1'
+      Text = 'Credit notes by period - Document group 1'
     end
     item
       IndexID = 906294
-      Text = 'Credit notes per period - Document group 2'
+      Text = 'Credit notes by period - Document group 2'
     end
     item
       IndexID = 906295
-      Text = 'Credit notes per period - Salesperson'
+      Text = 'Credit notes by period - Salesperson'
     end
     item
       IndexID = 906296
-      Text = 'Vendor returns per period - Vendor group 1'
+      Text = 'Vendor returns by period - Vendor group 1'
     end
     item
       IndexID = 906297
-      Text = 'Vendor returns per period - Vendor group 2'
+      Text = 'Vendor returns by period - Vendor group 2'
     end
     item
       IndexID = 906298
-      Text = 'Vendor returns per period - Document group 1'
+      Text = 'Vendor returns by period - Document group 1'
     end
     item
       IndexID = 906299
-      Text = 'Vendor returns per period - Document group 2'
+      Text = 'Vendor returns by period - Document group 2'
     end
     item
       IndexID = 906300
-      Text = 'Vendor returns per period - Salesperson'
+      Text = 'Vendor returns by period - Salesperson'
     end
     item
       IndexID = 906301
-      Text = 'Estimate per period - Customer group 1'
+      Text = 'Estimate by period - Customer group 1'
     end
     item
       IndexID = 906302
-      Text = 'Estimates per period - Customer group 2'
+      Text = 'Estimates by period - Customer group 2'
     end
     item
       IndexID = 906303
-      Text = 'Estimate per period - Document group 1'
+      Text = 'Estimate by period - Document group 1'
     end
     item
       IndexID = 906304
-      Text = 'Estimate per period - Document group 2'
+      Text = 'Estimate by period - Document group 2'
     end
     item
       IndexID = 906305
-      Text = 'Estimate per period - Salesperson'
+      Text = 'Estimate by period - Salesperson'
     end
     item
       IndexID = 906306
-      Text = 'Orders per period - Vendor group 1'
+      Text = 'Orders by period - Vendor group 1'
     end
     item
       IndexID = 906307
-      Text = 'Orders per period - Vendor group 2'
+      Text = 'Orders by period - Vendor group 2'
     end
     item
       IndexID = 906308
-      Text = 'Orders per period - Document group 1'
+      Text = 'Orders by period - Document group 1'
     end
     item
       IndexID = 906309
-      Text = 'Orders per period - Document group 2'
+      Text = 'Orders by period - Document group 2'
     end
     item
       IndexID = 906310
-      Text = 'Orders per period - Salesperson'
+      Text = 'Orders by period - Salesperson'
     end
     item
       IndexID = 906311
-      Text = 'Credit notes per period - Quantities'
+      Text = 'Credit notes by period - Quantities'
     end
     item
       IndexID = 906312
-      Text = 'Credit notes per period - Amount'
+      Text = 'Credit notes by period - Amount'
     end
     item
       IndexID = 906313
-      Text = 'Vendor returns per period - Quantities'
+      Text = 'Vendor returns by period - Quantities'
     end
     item
       IndexID = 906314
-      Text = 'Vendor returns per period - Amount'
+      Text = 'Vendor returns by period - Amount'
     end
     item
       IndexID = 906315
-      Text = 'Estimate per period - Quantities'
+      Text = 'Estimate by period - Quantities'
     end
     item
       IndexID = 906316
-      Text = 'Estimate per period - Amount'
+      Text = 'Estimate by period - Amount'
     end
     item
       IndexID = 906317
-      Text = 'Orders per period - Quantities'
+      Text = 'Orders by period - Quantities'
     end
     item
       IndexID = 906318
-      Text = 'Orders per period - Amount'
+      Text = 'Orders by period - Amount'
     end
     item
       IndexID = 906319
-      Text = 'Graph - Credit notes per week - Quantities'
+      Text = 'Graph - Credit notes by week - Quantities'
     end
     item
       IndexID = 906320
-      Text = 'Graph - Credit notes per week - Amount'
+      Text = 'Graph - Credit notes by week - Amount'
     end
     item
       IndexID = 906321
-      Text = 'Graph - Vendor returns per week - Quantities'
+      Text = 'Graph - Vendor returns by week - Quantities'
     end
     item
       IndexID = 906322
-      Text = 'Graph - Vendor returns per week - Amount'
+      Text = 'Graph - Vendor returns by week - Amount'
     end
     item
       IndexID = 906323
-      Text = 'Graph - Estimate per week - Quantities'
+      Text = 'Graph - Estimate by week - Quantities'
     end
     item
       IndexID = 906324
-      Text = 'Graph - Estimate per week - Amount'
+      Text = 'Graph - Estimate by week - Amount'
     end
     item
       IndexID = 906325
-      Text = 'Graph - Orders per week - Quantities'
+      Text = 'Graph - Orders by week - Quantities'
     end
     item
       IndexID = 906326
-      Text = 'Graph - Orders per week - Amount'
+      Text = 'Graph - Orders by week - Amount'
     end
     item
       IndexID = 906327
-      Text = 'Purchase documents per period - Vendor group 1'
+      Text = 'Purchase documents by period - Vendor group 1'
     end
     item
       IndexID = 906328
-      Text = 'Purchase documents per period - Vendor group 2'
+      Text = 'Purchase documents by period - Vendor group 2'
     end
     item
       IndexID = 906329
-      Text = 'Purchase documents per period - Document group 1'
+      Text = 'Purchase documents by period - Document group 1'
     end
     item
       IndexID = 906330
-      Text = 'Purchase documents per period - Document group 2'
+      Text = 'Purchase documents by period - Document group 2'
     end
     item
       IndexID = 906331
-      Text = 'Purchase documents per period - Salesperson'
+      Text = 'Purchase documents by period - Salesperson'
     end
     item
       IndexID = 906332
-      Text = 'Sales per period - Customer group 1'
+      Text = 'Sales by period - Customer group 1'
     end
     item
       IndexID = 906333
-      Text = 'Sales per period - Customer group 2'
+      Text = 'Sales by period - Customer group 2'
     end
     item
       IndexID = 906334
-      Text = 'Sales per period - Document group 1'
+      Text = 'Sales by period - Document group 1'
     end
     item
       IndexID = 906335
-      Text = 'Sales per period - Document group 2'
+      Text = 'Sales by period - Document group 2'
     end
     item
       IndexID = 906336
-      Text = 'Sales per period - Salesperson'
+      Text = 'Sales by period - Salesperson'
     end
     item
       IndexID = 3563
@@ -14605,7 +14605,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906337
-      Text = 'Purchases and Vendor returns per period'
+      Text = 'Purchases and Vendor returns by period'
     end
     item
       IndexID = 3567
@@ -14621,35 +14621,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3568
-      Text = 'Estimates per period'
+      Text = 'Estimates by period'
     end
     item
       IndexID = 3569
-      Text = 'Credit notes per period'
+      Text = 'Credit notes by period'
     end
     item
       IndexID = 3570
-      Text = 'Invoices per period'
+      Text = 'Invoices by period'
     end
     item
       IndexID = 3571
-      Text = 'Sales per product'
+      Text = 'Sales by product'
     end
     item
       IndexID = 3572
-      Text = 'Orders per period'
+      Text = 'Orders by period'
     end
     item
       IndexID = 3573
-      Text = 'Purchases per period'
+      Text = 'Purchases by period'
     end
     item
       IndexID = 3574
-      Text = 'Vendor returns per period'
+      Text = 'Vendor returns by period'
     end
     item
       IndexID = 3575
-      Text = 'Purchases per product'
+      Text = 'Purchases by product'
     end
     item
       IndexID = 21216
@@ -16027,7 +16027,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3663
-      Text = 'Sales per table'
+      Text = 'Sales by table'
     end
     item
       IndexID = 3664
@@ -16129,7 +16129,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906551
-      Text = 'Vendor remittance advise - Outstanding'
+      Text = 'Vendor remittance advice - Outstanding'
     end
     item
       IndexID = 906552
@@ -16382,103 +16382,103 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906558
-      Text = 'Graphs per week'
+      Text = 'Graphs by week'
     end
     item
       IndexID = 906559
-      Text = 'Graphs per month'
+      Text = 'Graphs by month'
     end
     item
       IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
+      Text = 'Graph - Profit / Loss by month'
     end
     item
       IndexID = 906561
-      Text = 'Graph - Customers per month'
+      Text = 'Graph - Customers by month'
     end
     item
       IndexID = 906562
-      Text = 'Graph - Vendors per month'
+      Text = 'Graph - Vendors by month'
     end
     item
       IndexID = 906563
-      Text = 'Graph - Estimates per month - Quantities'
+      Text = 'Graph - Estimates by month - Quantities'
     end
     item
       IndexID = 906564
-      Text = 'Graph - Estimates per month - Amount'
+      Text = 'Graph - Estimates by month - Amount'
     end
     item
       IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
+      Text = 'Graph - Credit notes by month - Quantities'
     end
     item
       IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
+      Text = 'Graph - Credit notes by month - Amount'
     end
     item
       IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
+      Text = 'Graph - Invoices by month - Quantities'
     end
     item
       IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
+      Text = 'Graph - Invoices by month - Amount'
     end
     item
       IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
+      Text = 'Graph - Invoices - Credit notes by month - Quantities'
     end
     item
       IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
+      Text = 'Graph - Invoices - Credit notes by month - Amount'
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Vendor returns per month - Quantities'
+      Text = 'Graph - Purchases - Vendor returns by month - Quantities'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Vendor returns per month - Amount'
+      Text = 'Graph - Purchases - Vendor returns by month - Amount'
     end
     item
       IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
+      Text = 'Graph - Orders by month - Amount'
     end
     item
       IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
+      Text = 'Graph - Orders by month - Quantities'
     end
     item
       IndexID = 906575
-      Text = 'Graph - Vendor returns per month - Amount'
+      Text = 'Graph - Vendor returns by month - Amount'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Vendor returns per month - Quantities'
+      Text = 'Graph - Vendor returns by month - Quantities'
     end
     item
       IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
+      Text = 'Graph - Purchases by month - Amount'
     end
     item
       IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
+      Text = 'Graph - Purchases by month - Quantities'
     end
     item
       IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
+      Text = 'Graph - Invoices - Credit notes by week - Quantities'
     end
     item
       IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
+      Text = 'Graph - Invoices - Credit notes by week - Amount'
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Vendor returns per week - Quantities'
+      Text = 'Graph - Purchases - Vendor returns by week - Quantities'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Vendor returns per week - Amount'
+      Text = 'Graph - Purchases - Vendor returns by week - Amount'
     end
     item
       IndexID = 906583
