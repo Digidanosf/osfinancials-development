@@ -1046,7 +1046,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 265
-      Text = 'Gebruik oopitem'
+      Text = 'Oopitem'
     end
     item
       IndexID = 266
@@ -3811,7 +3811,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 942
-      Text = 'Gebruik begindatum'
+      Text = 'Begindatum'
     end
     item
       IndexID = 943
@@ -4097,7 +4097,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1011
-      Text = 'Gebruik prent logo op verslae'
+      Text = 'Logo op verslae'
     end
     item
       IndexID = 1012
@@ -5494,7 +5494,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1363
-      Text = 'Gebruik strepieskodes'
+      Text = 'Strepieskodes'
     end
     item
       IndexID = 1364
@@ -5578,7 +5578,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1384
-      Text = 'Gebruik PVV-boodskappe'
+      Text = 'PVV-boodskappe'
     end
     item
       IndexID = 1385
@@ -5638,11 +5638,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1399
-      Text = 'Gebruik eerste drukker'
+      Text = 'Eerste drukker'
     end
     item
       IndexID = 1400
-      Text = 'Gebruik tweede drukker'
+      Text = 'Tweede drukker'
     end
     item
       IndexID = 1401
@@ -5682,7 +5682,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1410
-      Text = '&Gebruik Faktuurboodskappe'
+      Text = '&Faktuurboodskappe'
     end
     item
       IndexID = 1411
@@ -6086,7 +6086,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1797
-      Text = 'Gebruik sigblad (spreadsheet)'
+      Text = 'Sigblad (spreadsheet)'
     end
     item
       IndexID = 1798
@@ -6094,7 +6094,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1799
-      Text = 'Gebruik persentasie'
+      Text = 'Persentasie'
     end
     item
       IndexID = 1800
@@ -6828,7 +6828,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1413
-      Text = 'Gebruiker kan nie di'#233' joernaal gebruik nie.'
+      Text = 'Gebruiker kan nie di'#233' joernaal gebruik nie!'
     end
     item
       IndexID = 1414
@@ -7635,7 +7635,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2056
-      Text = 'Gebruik druk van faktuur'
+      Text = 'Druk van faktuur'
     end
     item
       IndexID = 2057
@@ -7773,11 +7773,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2090
-      Text = 'Gebruik nommers'
+      Text = 'Nommers'
     end
     item
       IndexID = 2091
-      Text = 'Gebruik periodes'
+      Text = 'Periodes'
     end
     item
       IndexID = 2092
@@ -7993,7 +7993,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2144
-      Text = 'Gebruik A5-grootte'
+      Text = 'A5-grootte'
     end
     item
       IndexID = 2145
@@ -8089,7 +8089,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2171
-      Text = 'Gebruik verwysing'
+      Text = 'Verwysing'
     end
     item
       IndexID = 2172
@@ -8181,7 +8181,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2194
-      Text = 'Gebruik geldeenheidsimbool'
+      Text = 'Geldeenheidsimbool'
     end
     item
       IndexID = 2195
@@ -9009,7 +9009,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2402
-      Text = 'Gebruik die verstek klank'
+      Text = 'Verstek klank'
     end
     item
       IndexID = 2403
@@ -9899,7 +9899,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2918
-      Text = 'Gebruik huidige datum vir verslae'
+      Text = 'Huidige datum vir verslae'
     end
     item
       IndexID = 2929
@@ -9907,7 +9907,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2928
-      Text = 'Gebruik verstekrekening'
+      Text = 'Verstekrekening'
     end
     item
       IndexID = 2927
@@ -10017,11 +10017,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2950
-      Text = 'Gebruik debiteurverkoopprys'
+      Text = 'Debiteurverkoopprys'
     end
     item
       IndexID = 2949
-      Text = 'Gebruik wagwoord vir korting'
+      Text = 'Wagwoord vir korting'
     end
     item
       IndexID = 2961
@@ -10069,7 +10069,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2967
-      Text = 'Gebruik filter'
+      Text = 'Filter'
     end
     item
       IndexID = 2968
@@ -10291,7 +10291,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Gebruik koppel BTW'
+      Text = 'Koppel BTW'
     end
     item
       IndexID = 3054
@@ -10331,7 +10331,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Gebruik verstek BTW'
+      Text = 'Verstek BTW'
     end
     item
       IndexID = 3028
@@ -10363,7 +10363,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Gebruik koppel BTW'
+      Text = 'Koppel BTW'
     end
     item
       IndexID = 3036
@@ -10383,7 +10383,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3040
-      Text = 'Gebruik dokumentdatum'
+      Text = 'Dokumentdatum'
     end
     item
       IndexID = 3041
@@ -10435,7 +10435,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Gebruik gevorderde voorraad'
+      Text = 'Gevorderde voorraad'
     end
     item
       IndexID = 3055
@@ -12301,7 +12301,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3300
-      Text = 'Gebruik kleure vir geen voorraad'
+      Text = 'Kleure vir geen voorraad'
     end
     item
       IndexID = 3301
@@ -12557,7 +12557,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3361
-      Text = 'Gebruik veelvoudige drukkers'
+      Text = 'Veelvoudige drukkers'
     end
     item
       IndexID = 3362
@@ -12800,7 +12800,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'Gebruik oortjies in voorraad'
+      Text = 'Oortjies in voorraad'
     end
     item
       IndexID = 3422
@@ -13929,7 +13929,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3450
-      Text = 'Gebruik punte'
+      Text = 'Punte'
     end
     item
       IndexID = 3451
