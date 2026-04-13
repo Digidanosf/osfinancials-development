@@ -10479,7 +10479,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3041
-      Text = 'R'#233'f. contrepartie = R'#233'f. compte'
+      Text = 'Contre-r'#233'f. pour r'#233'f. compte'
     end
     item
       IndexID = 3042

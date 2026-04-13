@@ -794,7 +794,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Message des relev'#233's'
+      Text = 'Message'
     end
     item
       IndexID = 201
@@ -1050,7 +1050,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 265
-      Text = 'Utiliser lettrage'
+      Text = 'Lettrage'
     end
     item
       IndexID = 266
@@ -3866,7 +3866,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 942
-      Text = 'Utiliser la date de d'#233'but'
+      Text = 'Date de d'#233'but'
     end
     item
       IndexID = 943
@@ -4151,7 +4151,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1011
-      Text = 'Utiliser le logo sur les rapports'
+      Text = 'Logo sur rapports'
     end
     item
       IndexID = 1012
@@ -5554,7 +5554,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1363
-      Text = 'Utiliser le suivi par num'#233'ro de s'#233'rie'
+      Text = 'Suivi num'#233'ros de s'#233'rie'
     end
     item
       IndexID = 1364
@@ -5638,7 +5638,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1384
-      Text = '&Utiliser messages PdV'
+      Text = '&Messages PdV'
     end
     item
       IndexID = 1385
@@ -5698,11 +5698,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1399
-      Text = 'Utiliser la premi'#232're imprimante'
+      Text = 'Premi'#232're imprimante'
     end
     item
       IndexID = 1400
-      Text = 'Utiliser la deuxi'#232'me imprimante'
+      Text = 'Deuxi'#232'me imprimante'
     end
     item
       IndexID = 1401
@@ -5742,7 +5742,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1410
-      Text = '&Utiliser messages facture'
+      Text = '&Messages de facture'
     end
     item
       IndexID = 1411
@@ -6150,7 +6150,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1797
-      Text = 'Utiliser le fichier tableur'
+      Text = 'Fichier tableur'
     end
     item
       IndexID = 1798
@@ -6158,7 +6158,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1799
-      Text = 'Utiliser un pourcentage'
+      Text = 'Pourcentage'
     end
     item
       IndexID = 1800
@@ -7699,7 +7699,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2056
-      Text = 'Utiliser impression facture'
+      Text = 'Impression de facture'
     end
     item
       IndexID = 2057
@@ -7837,11 +7837,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2090
-      Text = 'Utiliser les num'#233'ros'
+      Text = 'Num'#233'ros'
     end
     item
       IndexID = 2091
-      Text = 'Utiliser les p'#233'riodes'
+      Text = 'P'#233'riodes'
     end
     item
       IndexID = 2092
@@ -8061,7 +8061,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2144
-      Text = 'Utiliser le format A5'
+      Text = 'Format A5'
     end
     item
       IndexID = 2145
@@ -8157,7 +8157,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2171
-      Text = 'Utilisation de la r'#233'f'#233'rence'
+      Text = 'R'#233'f'#233'rence'
     end
     item
       IndexID = 2172
@@ -8249,7 +8249,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2194
-      Text = 'Utiliser le symbole mon'#233'taire'
+      Text = 'Symbole mon'#233'taire'
     end
     item
       IndexID = 2195
@@ -9079,7 +9079,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2402
-      Text = 'Utiliser le son par d'#233'faut'
+      Text = 'Son par d'#233'faut'
     end
     item
       IndexID = 2403
@@ -9961,7 +9961,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2918
-      Text = 'Utiliser la date actuelle pour les rapports'
+      Text = 'Date actuelle pour rapports'
     end
     item
       IndexID = 2919
@@ -10001,7 +10001,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2928
-      Text = 'Utiliser le compte par d'#233'faut'
+      Text = 'Compte par d'#233'faut'
     end
     item
       IndexID = 2929
@@ -10081,11 +10081,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2949
-      Text = 'Utiliser mot de passe pour remise'
+      Text = 'Mot de passe pour remise'
     end
     item
       IndexID = 2950
-      Text = 'Utiliser prix vente client'
+      Text = 'Prix de vente client'
     end
     item
       IndexID = 2951
@@ -10151,7 +10151,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2967
-      Text = 'Utiliser le filtre'
+      Text = 'Filtre'
     end
     item
       IndexID = 2968
@@ -10363,7 +10363,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Utiliser TVA par d'#233'faut'
+      Text = 'TVA par d'#233'faut'
     end
     item
       IndexID = 3051
@@ -10375,7 +10375,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3053
-      Text = 'Utiliser TVA li'#233'e'
+      Text = 'TVA li'#233'e'
     end
     item
       IndexID = 3054
@@ -10423,7 +10423,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Utiliser TVA par d'#233'faut'
+      Text = 'TVA par d'#233'faut'
     end
     item
       IndexID = 3028
@@ -10455,7 +10455,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Utiliser TVA li'#233'e'
+      Text = 'TVA li'#233'e'
     end
     item
       IndexID = 3036
@@ -10475,11 +10475,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3040
-      Text = 'Utiliser la date du document'
+      Text = 'Date du document'
     end
     item
       IndexID = 3041
-      Text = 'R'#233'f. contrepartie = R'#233'f. compte'
+      Text = 'Contre-r'#233'f. pour r'#233'f. compte'
     end
     item
       IndexID = 3042
@@ -12172,7 +12172,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3300
-      Text = 'Utiliser couleurs pour ruptures de stock'
+      Text = 'Couleurs pour ruptures de stock'
     end
     item
       IndexID = 3301
@@ -12427,7 +12427,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3361
-      Text = 'Utiliser plusieurs imprimantes'
+      Text = 'Multi-imprimantes'
     end
     item
       IndexID = 3362
@@ -12681,7 +12681,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Utiliser stock avanc'#233
+      Text = 'Stock avanc'#233
     end
     item
       IndexID = 3367
@@ -12903,7 +12903,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'Utiliser onglets dans stock'
+      Text = 'Onglets de stock'
     end
     item
       IndexID = 3422
@@ -13031,7 +13031,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3450
-      Text = 'Utiliser les points'
+      Text = 'Points'
     end
     item
       IndexID = 3451
