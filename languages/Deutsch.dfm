@@ -142,7 +142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 38
-      Text = 'Dokumente'
+      Text = 'Belege'
     end
     item
       IndexID = 39
@@ -170,7 +170,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 45
-      Text = '&Dokumentenliste'
+      Text = '&Belegliste'
     end
     item
       IndexID = 46
@@ -238,7 +238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 62
-      Text = '&Lagerhaltung'
+      Text = '&Lager'
     end
     item
       IndexID = 63
@@ -382,7 +382,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 98
-      Text = '&Dokumente'
+      Text = '&Belege'
     end
     item
       IndexID = 99
@@ -890,7 +890,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 225
-      Text = 'Lagerkontrolle'
+      Text = 'Lagerverwaltung'
     end
     item
       IndexID = 226
@@ -1018,7 +1018,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 257
-      Text = 'Lagerartikel'
+      Text = 'Artikel'
     end
     item
       IndexID = 258
@@ -1142,7 +1142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 288
-      Text = 'Optionen: Dokumentenliste'
+      Text = 'Optionen: Belegliste'
     end
     item
       IndexID = 289
@@ -1366,7 +1366,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 344
-      Text = 'Dokumenteneinstellungen'
+      Text = 'Belegeinstellungen'
     end
     item
       IndexID = 345
@@ -1634,7 +1634,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 415
-      Text = 'Lagerbestand'
+      Text = 'Inventur'
     end
     item
       IndexID = 416
@@ -1670,7 +1670,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 424
-      Text = 'Dokumentengruppen'
+      Text = 'Beleggruppen'
     end
     item
       IndexID = 425
@@ -1687,8 +1687,8 @@ object TTranslationSaveObject
     item
       IndexID = 427
       Text = 
-        'Es gibt ungebuchte Journale dieses Benutzers! Bitte zuerst buche' +
-        'n oder l'#246'schen.'
+        'Es gibt ungebuchte Journale f'#252'r diesen Benutzer! Bitte buchen od' +
+        'er l'#246'schen Sie diese, bevor Sie den Benutzer l'#246'schen.'
     end
     item
       IndexID = 428
@@ -1840,11 +1840,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 463
-      Text = 'Artikel hat Transaktionen und kann nicht gel'#246'scht werden!'
+      Text = 
+        'Dieser Artikel kann nicht gel'#246'scht werden, da Transaktionen vorh' +
+        'anden sind!'
     end
     item
       IndexID = 464
-      Text = 'Diesen Artikel wirklich l'#246'schen?'
+      Text = 'M'#246'chten Sie diesen Artikel wirklich l'#246'schen?'
     end
     item
       IndexID = 465
@@ -1852,7 +1854,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 466
-      Text = 'Artikel existiert nicht!'
+      Text = 'Dieser Artikel existiert nicht!'
     end
     item
       IndexID = 467
@@ -1966,7 +1968,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 494
-      Text = 'Diesen Artikel anlegen?'
+      Text = 'M'#246'chten Sie diesen Artikel neu anlegen?'
     end
     item
       IndexID = 495
@@ -2154,7 +2156,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 533
-      Text = 'Ungebuchte Dokumente'
+      Text = 'Ungebuchte Belege'
     end
     item
       IndexID = 587
@@ -2306,7 +2308,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 569
-      Text = 'Pastel-Bestand konvertieren...'
+      Text = 'Pastel-Bestandskonvertierung...'
     end
     item
       IndexID = 568
@@ -2744,7 +2746,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 686
-      Text = 'Einkaufsrechnung jetzt drucken?'
+      Text = 'Einkaufsbeleg jetzt drucken?'
     end
     item
       IndexID = 687
@@ -2785,8 +2787,8 @@ object TTranslationSaveObject
     item
       IndexID = 696
       Text = 
-        'Ung'#252'ltige n'#228'chste Nummer! In '#39'Einstellungen '#8594' Dokumenteneinstell' +
-        'ungen'#39' '#228'ndern!'
+        'Ung'#252'ltige n'#228'chste Nummer! In '#39'Einstellungen '#8594' Belegeinstellungen' +
+        #39' '#228'ndern!'
     end
     item
       IndexID = 697
@@ -3136,7 +3138,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 783
-      Text = 'Ung'#252'ltige Dokumentennummer!'
+      Text = 'Ung'#252'ltige Belegnummer!'
     end
     item
       IndexID = 784
@@ -3208,7 +3210,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 801
-      Text = 'Dokumentendruck abbrechen?'
+      Text = 'M'#246'chten Sie den Belegdruck abbrechen?'
     end
     item
       IndexID = 802
@@ -3216,7 +3218,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 803
-      Text = 'Artikel kann nicht gel'#246'scht werden - Lagerbestand nicht Null!'
+      Text = 
+        'Anfangsbestand kann nur f'#252'r Artikel mit Bestand "0" erfasst werd' +
+        'en!'
     end
     item
       IndexID = 804
@@ -3228,7 +3232,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 806
-      Text = 'N'#228'chste Dokumentennummer wirklich '#228'ndern?'
+      Text = 
+        'Sind Sie sicher, dass Sie die n'#228'chste Belegnummer '#228'ndern m'#246'chten' +
+        '?'
     end
     item
       IndexID = 807
@@ -3248,7 +3254,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 811
-      Text = 'in Lagerdatei'
+      Text = 'in der Lagerdatei'
     end
     item
       IndexID = 812
@@ -3533,7 +3539,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 882
-      Text = 'Anzahl Artikel- und Lagerkonten'
+      Text = 'Anzahl Konten und Artikel'
     end
     item
       IndexID = 883
@@ -3541,11 +3547,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 884
-      Text = 'Offene Posten und Dokumente'
+      Text = 'Ungebuchte Journale und Belege'
     end
     item
       IndexID = 885
-      Text = 'Ungebuchte Dokumente'
+      Text = 'Ungebuchte Belege'
     end
     item
       IndexID = 886
@@ -3717,7 +3723,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 928
-      Text = 'Dokumenteneingang'
+      Text = 'Belegeingang'
     end
     item
       IndexID = 929
@@ -3866,22 +3872,23 @@ object TTranslationSaveObject
     item
       IndexID = 965
       Text = 
-        'Lager- oder Verkaufskonto f'#252'r Artikel nicht korrekt eingerichtet' +
-        '!'
+        'Lagerkontroll- und/oder Erl'#246'skonto f'#252'r diesen Artikel nicht korr' +
+        'ekt eingerichtet!'
     end
     item
       IndexID = 966
       Text = 
-        'Dokument kann nicht gebucht werden! Bitte Verkaufs-, Lager- und ' +
-        'Wareneinsatzkonto korrekt einrichten!'
+        'Dieser Beleg kann nicht gebucht werden! Bitte richten Sie die Ko' +
+        'nten f'#252'r Verkauf, Lager und Wareneinsatz korrekt ein und buchen ' +
+        'Sie erneut.'
     end
     item
       IndexID = 967
-      Text = 'Nicht registrierte <@APPNAME@>-Kopien'
+      Text = 'Unregistrierte Versionen von <@APPNAME@>'
     end
     item
       IndexID = 968
-      Text = 'sind auf 500 Transaktionen/Dokumente beschr'#228'nkt'
+      Text = 'sind auf 500 Transaktionen oder 500 Belege beschr'#228'nkt.'
     end
     item
       IndexID = 969
@@ -4235,7 +4242,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1058
-      Text = 'Lagerbeschreibung'
+      Text = 'Artikelbeschreibung'
     end
     item
       IndexID = 1059
@@ -4339,7 +4346,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1087
-      Text = 'Dokumententyp'
+      Text = 'Belegtyp'
     end
     item
       IndexID = 1088
@@ -4371,7 +4378,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1095
-      Text = 'Dokumente drucken'
+      Text = 'Belegdruck'
     end
     item
       IndexID = 1096
@@ -4471,11 +4478,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1120
-      Text = 'Dokumenten-Nr.'
+      Text = 'Beleg-Nr.'
     end
     item
       IndexID = 1121
-      Text = 'Dokumentendatum'
+      Text = 'Belegdatum'
     end
     item
       IndexID = 1122
@@ -4581,7 +4588,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1147
-      Text = 'Wareneingang akzeptiert'
+      Text = 'Einkaufsbeleg akzeptiert'
     end
     item
       IndexID = 1148
@@ -5034,7 +5041,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1259
-      Text = 'Anzahl Belege'
+      Text = 'Beleganzahl'
     end
     item
       IndexID = 1260
@@ -5070,11 +5077,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1268
-      Text = 'Verkaufsdokumente'
+      Text = 'Verkaufsbelege'
     end
     item
       IndexID = 1269
-      Text = 'Einkaufsdokumente'
+      Text = 'Einkaufsbelege'
     end
     item
       IndexID = 1270
@@ -5826,7 +5833,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1742
-      Text = 'Dokument verbuchen'
+      Text = 'Belegverbuchung...'
     end
     item
       IndexID = 1743
@@ -5942,7 +5949,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1771
-      Text = 'Lageraufnahme'
+      Text = 'Lager-Anfangsbestand'
     end
     item
       IndexID = 1772
@@ -6070,7 +6077,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1803
-      Text = 'Die '#196'nderung der Artikelnummer betrifft alle Berichte!'
+      Text = 'Die '#196'nderung des Artikelcodes wirkt sich auf alle Berichte aus!'
     end
     item
       IndexID = 1804
@@ -6154,7 +6161,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1825
-      Text = 'Dokumente einrichten'
+      Text = 'Belegeinrichtung'
     end
     item
       IndexID = 1826
@@ -6194,11 +6201,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1836
-      Text = 'Lager'
+      Text = 'Artikelgruppen'
     end
     item
       IndexID = 1837
-      Text = 'Dokumentengruppen'
+      Text = 'Beleggruppen'
     end
     item
       IndexID = 1838
@@ -6254,15 +6261,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1851
-      Text = 'Lagerbuchungen bereinigen...'
+      Text = 'Lagerbuchungsbereinigung...'
     end
     item
       IndexID = 1852
-      Text = 'Lagerinformation bereinigen...'
+      Text = 'Lagerbuchungsbereinigung...'
     end
     item
       IndexID = 1853
-      Text = 'Dokumententransaktionen bereinigen...'
+      Text = 'Bereinigung der Belegtransaktionen...'
     end
     item
       IndexID = 1854
@@ -6326,7 +6333,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1869
-      Text = 'Dokumenttyp'
+      Text = 'Belegtyp'
     end
     item
       IndexID = 1870
@@ -6719,14 +6726,16 @@ object TTranslationSaveObject
     item
       IndexID = 1967
       Text = 
-        '<@APPNAME@> Limit von 500 Transaktionen/Dokumenten erreicht! Bit' +
-        'te registrieren und Lizenz kaufen.'
+        'In <@APPNAME@> wurde das Limit von 500 Transaktionen oder 500 Be' +
+        'legen erreicht! Bitte registrieren Sie sich und erwerben Sie ein' +
+        'e Lizenz.'
     end
     item
       IndexID = 1968
       Text = 
-        'Diese Software ist auf 500 Transaktionen/Dokumente beschr'#228'nkt! B' +
-        'itte registrieren und Lizenz f'#252'r <@APPNAME@> kaufen.'
+        '<@APPNAME@> ist auf 500 Transaktionen oder 500 Belege beschr'#228'nkt' +
+        '! Bitte registrieren Sie sich und erwerben Sie eine Lizenz f'#252'r <' +
+        '@APPNAME@>.'
     end
     item
       IndexID = 1969
@@ -7132,7 +7141,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20075
-      Text = 'Eindeutige Dokumenten-Nr.'
+      Text = 'Eindeutige Beleg-Nr.'
     end
     item
       IndexID = 20076
@@ -7354,7 +7363,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1998
-      Text = 'Dokumente'
+      Text = 'Belege'
     end
     item
       IndexID = 1999
@@ -7630,7 +7639,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2068
-      Text = 'Lagerartikel importieren'
+      Text = 'Artikelimport...'
     end
     item
       IndexID = 2069
@@ -7650,7 +7659,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2073
-      Text = 'Lagerartikel importieren'
+      Text = 'Artikelimport...'
     end
     item
       IndexID = 2074
@@ -7662,11 +7671,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2076
-      Text = 'Dokumente importieren'
+      Text = 'Belegimport...'
     end
     item
       IndexID = 2077
-      Text = 'Dokumente exportieren'
+      Text = 'Belegexport...'
     end
     item
       IndexID = 2078
@@ -7694,7 +7703,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2084
-      Text = 'Gebuchtes Journal/Dokument stornieren'
+      Text = 'Gebuchtes Journal/Beleg stornieren'
     end
     item
       IndexID = 2085
@@ -7706,7 +7715,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2087
-      Text = 'Gebuchtes Dokument stornieren'
+      Text = 'Gebuchten Beleg stornieren'
     end
     item
       IndexID = 2088
@@ -7768,7 +7777,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2102
-      Text = 'Dokumente beim Druck auto-buchen'
+      Text = 'Auto-Buchung bei Belegdruck'
     end
     item
       IndexID = 2103
@@ -7840,7 +7849,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2120
-      Text = 'Artikelnummern'#228'nderung betrifft alle Berichte!'
+      Text = 'Die '#196'nderung des Artikelcodes wirkt sich auf alle Berichte aus!'
     end
     item
       IndexID = 2121
@@ -9397,8 +9406,8 @@ object TTranslationSaveObject
     item
       IndexID = 2813
       Text = 
-        'Dokument kann nicht mit Kommentar beginnen, wenn XML-Deklaration' +
-        ' vorhanden ist!'
+        'Das Dokument darf nicht mit einem Kommentar beginnen, wenn es au' +
+        'ch eine XML-Deklaration enth'#228'lt!'
     end
     item
       IndexID = 2814
@@ -9422,7 +9431,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2820
-      Text = 'Bedingte Abschnitte in interner DTD nicht erlaubt!'
+      Text = 
+        'Bedingte Abschnitte sind in der internen Untermenge der Dokument' +
+        'typ-Deklaration nicht zul'#228'ssig!'
     end
     item
       IndexID = 2821
@@ -9458,7 +9469,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2829
-      Text = 'Ung'#252'ltige Daten nach g'#252'ltigem XML-Dokument!'
+      Text = 
+        'Es befinden sich ung'#252'ltige Daten hinter dem g'#252'ltigen XML-Dokumen' +
+        't!'
     end
     item
       IndexID = 2830
@@ -9502,7 +9515,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2840
-      Text = 'Unerwartetes Ende des Dokumentenstroms!'
+      Text = 'Unerwartetes Ende des Dokumenten-Datenstroms!'
     end
     item
       IndexID = 2841
@@ -9720,11 +9733,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2894
-      Text = 'Dokument(e) erstellt!'
+      Text = 'Beleg(e) erstellt!'
     end
     item
       IndexID = 2895
-      Text = 'F'#228'lligkeitsdatum liegt vor Rechnungsdatum!'
+      Text = 'F'#228'lligkeitsdatum liegt vor Belegdatum!'
     end
     item
       IndexID = 2896
@@ -9740,11 +9753,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2899
-      Text = 'Dokumentenansicht'
+      Text = 'Belegsuche'
     end
     item
       IndexID = 2900
-      Text = 'Dokumentenansicht mit Betr'#228'gen'
+      Text = 'Belegsuche mit Betr'#228'gen'
     end
     item
       IndexID = 2901
@@ -9828,11 +9841,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2921
-      Text = 'Verkauf (ohne Lager)'
+      Text = 'Verkauf (nicht lagerhaltig)'
     end
     item
       IndexID = 2922
-      Text = 'Einkauf (ohne Lager)'
+      Text = 'Einkauf (nicht lagerhaltig)'
     end
     item
       IndexID = 2923
@@ -9848,7 +9861,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2926
-      Text = 'Dokumentenanzahl'
+      Text = 'Beleganzahl'
     end
     item
       IndexID = 2927
@@ -10032,7 +10045,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2974
-      Text = 'Dokumentenbuchung'
+      Text = 'Belegbuchung'
     end
     item
       IndexID = 2975
@@ -10104,7 +10117,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2992
-      Text = 'Ohne Dokumentenbuchung'
+      Text = 'Ohne Belegbuchung'
     end
     item
       IndexID = 2993
@@ -10168,7 +10181,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3021
-      Text = 'Dokument kopieren'
+      Text = 'Beleg kopieren'
     end
     item
       IndexID = 3022
@@ -10244,7 +10257,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3040
-      Text = 'Dokumentdatum verwenden'
+      Text = 'Belegdatum'
     end
     item
       IndexID = 3041
@@ -10260,7 +10273,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3044
-      Text = 'Dokumenten-SQL begrenzen'
+      Text = 'Beleg-SQL begrenzen'
     end
     item
       IndexID = 3045
@@ -10276,7 +10289,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3048
-      Text = 'Dokumentzeile'
+      Text = 'Belegzeile'
     end
     item
       IndexID = 3049
@@ -10296,7 +10309,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20133
-      Text = 'Erweiterten Lagerbestand verwenden'
+      Text = 'Erweiterten Lagerbestand'
     end
     item
       IndexID = 3006
@@ -10316,11 +10329,13 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3010
-      Text = 'Referenz bereits verwendet! Bitte auf Doppeleingaben pr'#252'fen.'
+      Text = 
+        'Diese Referenz wurde bereits in einem anderen Beleg verwendet! B' +
+        'itte pr'#252'fen Sie Ihre Eingabe auf Duplikate.'
     end
     item
       IndexID = 3011
-      Text = 'Alle Dokumente'
+      Text = 'Alle Belege'
     end
     item
       IndexID = 3012
@@ -10450,7 +10465,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3075
-      Text = 'Dokumente verwenden noch diese Gruppe! Zuerst entfernen!'
+      Text = 
+        'Diese Gruppe wird noch von Belegen verwendet! Bitte entfernen Si' +
+        'e diese zuerst.'
     end
     item
       IndexID = 3076
@@ -10502,7 +10519,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3088
-      Text = 'Barcode-Drucker'
+      Text = 'Barcodedrucker'
     end
     item
       IndexID = 3089
@@ -10774,8 +10791,8 @@ object TTranslationSaveObject
     item
       IndexID = 3349
       Text = 
-        'Projekt enth'#228'lt Dokumente! Fortfahren? Alle Daten gehen verloren' +
-        '!'
+        'Diesem Projekt sind Belege zugeordnet! M'#246'chten Sie wirklich fort' +
+        'fahren? Alle Projektdaten gehen dabei verloren!'
     end
     item
       IndexID = 3350
@@ -10785,7 +10802,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3351
-      Text = 'Ungebuchte Dokumente! Projekt kann nicht geschlossen werden!'
+      Text = 
+        'Es sind noch ungebuchte Belege vorhanden! Das Projekt kann nicht' +
+        ' geschlossen werden.'
     end
     item
       IndexID = 3352
@@ -10825,7 +10844,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3361
-      Text = 'Mehrere Drucker verwenden'
+      Text = 'Mehrfachdrucker'
     end
     item
       IndexID = 3362
@@ -10837,7 +10856,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3364
-      Text = 'Kein Hinweis '#8211' Vorgang abgebrochen!'
+      Text = 'Kein Hinweis - Vorgang abgebrochen!'
     end
     item
       IndexID = 3365
@@ -10857,7 +10876,10 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3369
-      Text = 'Daten wurden von anderem Benutzer ge'#228'ndert. %s '#220'berschreiben?'
+      Text = 
+        'Die Daten dieses Belegs wurden durch einen anderen Benutzer oder' +
+        ' eine andere Maske ge'#228'ndert. %s M'#246'chten Sie die Daten '#252'berschrei' +
+        'ben?'
     end
     item
       IndexID = 3370
@@ -10866,8 +10888,9 @@ object TTranslationSaveObject
     item
       IndexID = 3371
       Text = 
-        'Klicken Sie [Ja], um alle Dokumente zu l'#246'schen, oder [Nein], um ' +
-        'sie als ungebucht zu markieren.'
+        'Wenn Sie alle Belege l'#246'schen m'#246'chten, klicken Sie auf [Ja]. Um a' +
+        'lle Belege zu behalten und als ungebucht zu markieren, klicken S' +
+        'ie auf [Nein].'
     end
     item
       IndexID = 3372
@@ -11003,7 +11026,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3406
-      Text = 'Dokumenten-Plugins'
+      Text = 'Beleg-Plugins'
     end
     item
       IndexID = 3407
@@ -11043,7 +11066,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3416
-      Text = 'Dokumenten-Export/Import'
+      Text = 'Beleg Export/Import'
     end
     item
       IndexID = 3417
@@ -11063,7 +11086,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3421
-      Text = 'Tabs im Lager verwenden'
+      Text = 'Lager-Registerkarten'
     end
     item
       IndexID = 3422
@@ -11503,7 +11526,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3133
-      Text = 'Reservierte Menge wird im Angebot vom Lager abgezogen!'
+      Text = 
+        'Falls Sie Lagerbestand f'#252'r Verk'#228'ufe reservieren m'#246'chten, wird di' +
+        'eser Betrag bereits im Angebot vom aktuellen Bestand abgezogen!'
     end
     item
       IndexID = 3134
@@ -11543,7 +11568,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3143
-      Text = 'Optionsartikel (ohne Lager)'
+      Text = 'Optionsartikel (nicht lagerhaltig)'
     end
     item
       IndexID = 3144
@@ -11601,7 +11626,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3157
-      Text = 'Standardm'#228#223'ig inklusive f'#252'r Dokumente'
+      Text = 'Standardm'#228#223'ig Brutto f'#252'r Belege'
     end
     item
       IndexID = 3158
@@ -11669,7 +11694,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3174
-      Text = 'Dokumentlayout'
+      Text = 'Beleglayout'
     end
     item
       IndexID = 3175
@@ -11681,7 +11706,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3177
-      Text = 'Signiertes Dokument per E-Mail'
+      Text = 'Signierter Beleg per E-Mail'
     end
     item
       IndexID = 3178
@@ -11709,7 +11734,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3184
-      Text = 'Dokumente zu einem Dokument zusammenf'#252'hren'
+      Text = 'Belege in einen einzelnen Beleg umwandeln'
     end
     item
       IndexID = 3185
@@ -11849,7 +11874,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3219
-      Text = 'E-Mails '#252'ber Kontextmen'#252' im Dokumentenliste.'
+      Text = 'EE-Mail-Versand '#252'ber Kontextmen'#252' der Belegliste.'
     end
     item
       IndexID = 3220
@@ -12041,7 +12066,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906002
-      Text = 'Dokumentdatum/-zeit'
+      Text = 'Belegdatum/-zeit'
     end
     item
       IndexID = 906003
@@ -12137,7 +12162,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906026
-      Text = 'Einkaufsdokument'
+      Text = 'Einkaufsbeleg'
     end
     item
       IndexID = 906027
@@ -12419,11 +12444,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906083
-      Text = 'Dokumentbetrag'
+      Text = 'Belegbetrag'
     end
     item
       IndexID = 906084
-      Text = 'Dokumentsteuer'
+      Text = 'Belegsteuer'
     end
     item
       IndexID = 906085
@@ -12435,7 +12460,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3264
-      Text = 'Rabatt neu berechnen'
+      Text = 'Rabatt-Neuberechnung im Beleg'
     end
     item
       IndexID = 903100
@@ -12508,8 +12533,10 @@ object TTranslationSaveObject
     item
       IndexID = 3276
       Text = 
-        'Bankimport-Zusatzfunktionen: Kontonummer f'#252'r exakte Suche oder T' +
-        'ext mit # f'#252'r Teilstring-Suche (Gro'#223'schreibung).'
+        'Zusatzfunktionen f'#252'r Bankimport: Geben Sie eine Kontonummer f'#252'r ' +
+        'eine exakte Suche ein. Verwenden Sie Text mit dem Pr'#228'fix #, um i' +
+        'nnerhalb einer importierten Bankzeile nach Teilstrings zu suchen' +
+        '. Die Suche erfolgt in Gro'#223'schreibung.'
     end
     item
       IndexID = 3277
@@ -12577,7 +12604,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3283
-      Text = 'Schnellartikel hinzuf'#252'gen (Code/Barcode/Seriennummer)'
+      Text = 'Schnellerfassung (Code/Barcode/Serie)'
     end
     item
       IndexID = 3284
@@ -12621,7 +12648,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Steuer in Dokumenten anzeigen'
+      Text = 'Steueranzeige in Belegen'
     end
     item
       IndexID = 3295
@@ -12645,7 +12672,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3300
-      Text = 'Pastel-Bestand konvertieren...'
+      Text = 'Farben bei Fehlbestand'
     end
     item
       IndexID = 3301
@@ -12725,7 +12752,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3320
-      Text = 'Dokument speichern?'
+      Text = 'M'#246'chten Sie diesen ungespeicherten Beleg speichern?'
     end
     item
       IndexID = 3321
@@ -12749,7 +12776,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3430
-      Text = 'Dokumenten-ID'
+      Text = 'Beleg-ID'
     end
     item
       IndexID = 3431
@@ -12829,7 +12856,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3450
-      Text = 'Punkte verwenden'
+      Text = 'Punkte'
     end
     item
       IndexID = 3451
@@ -12917,7 +12944,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3481
-      Text = 'Dokumentenverkn'#252'pfungen'
+      Text = 'Belegverkn'#252'pfungen'
     end
     item
       IndexID = 3482
@@ -13317,7 +13344,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3580
-      Text = 'Testdokument-ID ausw'#228'hlen'
+      Text = 'Test-Beleg-ID Auswahl'
     end
     item
       IndexID = 3581
@@ -13501,7 +13528,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3624
-      Text = 'Dokument ausw'#228'hlen oder erstellen!'
+      Text = 'Beleg w'#228'hlen oder erstellen!'
     end
     item
       IndexID = 3625
@@ -14577,7 +14604,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906119
-      Text = 'Dokumentengruppe'
+      Text = 'Beleggruppe'
     end
     item
       IndexID = 906120
@@ -14717,7 +14744,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906154
-      Text = 'Eink'#228'ufe pro Periode - Dokumentengruppe 1'
+      Text = 'Eink'#228'ufe pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906155
@@ -14737,7 +14764,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906159
-      Text = 'Rechnungen pro Periode - Dokumentengruppe 1'
+      Text = 'Eink'#228'ufe pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906160
@@ -14745,15 +14772,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906161
-      Text = 'Dokumentenliste pro Konto'
+      Text = 'Belegliste pro Konto'
     end
     item
       IndexID = 906162
-      Text = 'Ungedruckte Dokumentenliste'
+      Text = 'Liste ungedruckter Belege'
     end
     item
       IndexID = 906163
-      Text = 'Eink'#228'ufe pro Periode - Dokumentengruppe 2'
+      Text = 'Eink'#228'ufe pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906164
@@ -14761,7 +14788,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906165
-      Text = 'Rechnungen pro Periode - Dokumentengruppe 2'
+      Text = 'Rechnungen pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906166
@@ -15157,7 +15184,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906264
-      Text = 'DOKUMENTE'
+      Text = 'BELEGE'
     end
     item
       IndexID = 906265
@@ -15241,7 +15268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903120
-      Text = 'Nicht verwendete Artikel entfernen'
+      Text = 'Artikel ohne Belegbezug entfernen'
     end
     item
       IndexID = 903121
@@ -15293,7 +15320,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903133
-      Text = 'Jahreskonsolidierung - Dokumente & Artikel'
+      Text = 'Jahreskonsolidierung - Belege & Artikel'
     end
     item
       IndexID = 903134
@@ -15337,7 +15364,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903144
-      Text = 'Einkauf auf letztem Dok-Basis zur'#252'cksetzen'
+      Text = 'Einkauf auf Basis letzter Beleg zur'#252'cksetzen'
     end
     item
       IndexID = 903145
@@ -15543,15 +15570,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906276
-      Text = 'Dokumentlayout (10 Codes)'
+      Text = 'Beleglayout (10 Codes)'
     end
     item
       IndexID = 906277
-      Text = 'Dokumentlayout (15 Codes)'
+      Text = 'Beleglayout (15 Codes)'
     end
     item
       IndexID = 906278
-      Text = 'Dokumentlayout (ohne Codes)'
+      Text = 'Beleglayout (ohne Codes)'
     end
     item
       IndexID = 906279
@@ -15611,11 +15638,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906293
-      Text = 'Gutschriften pro Periode - Dokumentengruppe 1'
+      Text = 'Gutschriften pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906294
-      Text = 'Gutschriften pro Periode - Dokumentengruppe 2'
+      Text = 'Gutschriften pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906295
@@ -15631,11 +15658,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906298
-      Text = 'Lieferantenr'#252'cksendungen pro Periode - Dokumentengruppe 1'
+      Text = 'Lieferantenr'#252'cksendungen pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906299
-      Text = 'Lieferantenr'#252'cksendungen pro Periode - Dokumentengruppe 2'
+      Text = 'Lieferantenr'#252'cksendungen pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906300
@@ -15651,11 +15678,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906303
-      Text = 'Angebote pro Periode - Dokumentengruppe 1'
+      Text = 'Angebote pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906304
-      Text = 'Angebote pro Periode - Dokumentengruppe 2'
+      Text = 'Angebote pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906305
@@ -15671,11 +15698,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906308
-      Text = 'Bestellungen pro Periode - Dokumentengruppe 1'
+      Text = 'Bestellungen pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906309
-      Text = 'Bestellungen pro Periode - Dokumentengruppe 2'
+      Text = 'Bestellungen pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906310
@@ -15747,23 +15774,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906327
-      Text = 'Einkaufsdokumente pro Periode - Kreditorengruppe 1'
+      Text = 'Einkaufsbelege pro Periode - Kreditorengruppe 1'
     end
     item
       IndexID = 906328
-      Text = 'Einkaufsdokumente pro Periode - Kreditorengruppe 2'
+      Text = 'Einkaufsbelege pro Periode - Kreditorengruppe 2'
     end
     item
       IndexID = 906329
-      Text = 'Einkaufsdokumente pro Periode - Dokumentengruppe 1'
+      Text = 'Einkaufsbelege pro Periode - Dokumentengruppe 1'
     end
     item
       IndexID = 906330
-      Text = 'Einkaufsdokumente pro Periode - Dokumentengruppe 2'
+      Text = 'Einkaufsbelege pro Periode - Dokumentengruppe 2'
     end
     item
       IndexID = 906331
-      Text = 'Einkaufsdokumente pro Periode - Verk'#228'ufer'
+      Text = 'Einkaufsbelege pro Periode - Verk'#228'ufer'
     end
     item
       IndexID = 906332
@@ -15775,11 +15802,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906334
-      Text = 'Verk'#228'ufe pro Periode - Dokumentengruppe 1'
+      Text = 'Verk'#228'ufe pro Periode - Beleggruppe 1'
     end
     item
       IndexID = 906335
-      Text = 'Verk'#228'ufe pro Periode - Dokumentengruppe 2'
+      Text = 'Verk'#228'ufe pro Periode - Beleggruppe 2'
     end
     item
       IndexID = 906336
@@ -15943,7 +15970,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3656
-      Text = 'Zahlung gebuchter Dokumente'
+      Text = 'Zahlung gebuchter Belege'
     end
     item
       IndexID = 3657
@@ -15963,7 +15990,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3661
-      Text = 'Dokument ohne Rahmen'
+      Text = 'Beleg ohne Rahmen'
     end
     item
       IndexID = 3662
@@ -15991,15 +16018,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3668
-      Text = 'Konto aus Dokumentdetails erstellen'
+      Text = 'Konto aus Belegdetails erstellen'
     end
     item
       IndexID = 3669
-      Text = 'Dokumenttyp senden'
+      Text = 'Belegtyp senden'
     end
     item
       IndexID = 3670
-      Text = 'Dokument drucken und E-Mail senden'
+      Text = 'Beleg drucken und per E-Mail senden'
     end
     item
       IndexID = 3671
@@ -16024,8 +16051,8 @@ object TTranslationSaveObject
     item
       IndexID = 3676
       Text = 
-        'Ungebuchte Dokumente gefunden! Bitte alle Dokumente verarbeiten ' +
-        'vor manueller Bearbeitung!'
+        'Es wurden ungebuchte Belege gefunden! Bitte verarbeiten Sie alle' +
+        ' Belege vor einer manuellen Bearbeitung!'
     end
     item
       IndexID = 3677
@@ -16069,7 +16096,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'USt-Bericht - Referenz-/Dokumenten-Nr.'
+      Text = 'USt-Bericht - Referenz-/Belegnummer'
     end
     item
       IndexID = 906551
@@ -16113,7 +16140,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3693
-      Text = 'Bitte zuerst Dokument speichern oder abbrechen!'
+      Text = 
+        'Bitte speichern Sie zuerst Ihren Beleg oder brechen Sie den Vorg' +
+        'ang ab!'
     end
     item
       IndexID = 3694
@@ -16232,7 +16261,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3722
-      Text = 'Dokument zeigt Menge'
+      Text = 'Mengenanzeige im Beleg'
     end
     item
       IndexID = 906553
@@ -16328,11 +16357,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906590
-      Text = 'Keine-USt-Dokumentlayout'
+      Text = 'Keine-USt-Beleglayout'
     end
     item
       IndexID = 906591
-      Text = 'Keine-USt-Dokumentlayout (15-Code)'
+      Text = 'Keine-USt-Beleglayout (15-Code)'
     end
     item
       IndexID = 906588
@@ -16340,7 +16369,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906587
-      Text = 'Dokumentreferenz'
+      Text = 'Belegreferenz'
     end
     item
       IndexID = 906586
