@@ -726,11 +726,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Euro'
+      Text = 'Pound'
     end
     item
       IndexID = 158
-      Text = 'Cent'
+      Text = 'Pence'
     end
     item
       IndexID = 159
@@ -11060,7 +11060,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = #8364
+      Text = #163
     end
     item
       IndexID = 1000004
