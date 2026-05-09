@@ -9202,7 +9202,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Apunte abierto'
+      Text = '&Abrir'
     end
     item
       IndexID = 2439

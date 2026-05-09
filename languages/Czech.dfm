@@ -9299,7 +9299,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Otev'#345#237't polo'#382'ku'
+      Text = '&Otev'#345#237't'
     end
     item
       IndexID = 2439

@@ -9113,7 +9113,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Offene-Posten'
+      Text = '&'#214'ffnen'
     end
     item
       IndexID = 2441

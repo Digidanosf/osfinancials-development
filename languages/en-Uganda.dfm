@@ -3212,7 +3212,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 793
-      Text = 'Bank card'
+      Text = 'Cheque'
     end
     item
       IndexID = 794
@@ -9157,7 +9157,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Open item'
+      Text = '&Open'
     end
     item
       IndexID = 2439

@@ -9149,7 +9149,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Ingizo Wazi'
+      Text = '&Fungua'
     end
     item
       IndexID = 2439

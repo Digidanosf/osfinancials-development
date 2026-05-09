@@ -9146,7 +9146,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Atviras elementas'
+      Text = '&Atidaryti'
     end
     item
       IndexID = 2439

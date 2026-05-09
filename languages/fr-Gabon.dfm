@@ -9231,7 +9231,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Lettrage'
+      Text = '&Ouvrir'
     end
     item
       IndexID = 2441
