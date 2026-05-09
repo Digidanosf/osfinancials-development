@@ -9181,7 +9181,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&'#214'ppna objekt'
+      Text = '&'#214'ppna'
     end
     item
       IndexID = 2439

@@ -9144,7 +9144,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Otvorena stavka'
+      Text = '&Otvori'
     end
     item
       IndexID = 2441

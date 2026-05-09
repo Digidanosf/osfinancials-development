@@ -9166,7 +9166,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = #32317#24115' (&O) '
+      Text = #25171#38283
     end
     item
       IndexID = 2439
@@ -16289,5 +16289,9 @@ object TTranslationSaveObject
     item
       IndexID = 1000057
       Text = #26410#20351#29992' '#65295' '#35531#21247#32763#35695
+    end
+    item
+      IndexID = 3739
+      Text = 'Convert quote to one unproccessed invoice per client'
     end>
 end

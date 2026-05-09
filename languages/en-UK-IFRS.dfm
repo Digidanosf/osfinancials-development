@@ -9268,7 +9268,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Open item'
+      Text = '&Open'
     end
     item
       IndexID = 2439
@@ -10638,7 +10638,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3083
-      Text = 'This item is out of stock!! Auto adjusting quantity!'
+      Text = 'This item is out of stock! Auto adjusting quantity!'
     end
     item
       IndexID = 3084

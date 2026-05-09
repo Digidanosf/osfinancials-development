@@ -1238,7 +1238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Avatud kirje'
+      Text = '&Ava'
     end
     item
       IndexID = 2439

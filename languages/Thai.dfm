@@ -9136,7 +9136,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&'#3619#3634#3618#3585#3634#3619#3648#3611#3636#3604
+      Text = '&'#3648#3611#3636#3604
     end
     item
       IndexID = 2439

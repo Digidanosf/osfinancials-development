@@ -4096,7 +4096,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1011
-      Text = 'Use logo on reports'
+      Text = 'Logo on reports'
     end
     item
       IndexID = 1012
@@ -9157,7 +9157,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&Open item'
+      Text = '&Open'
     end
     item
       IndexID = 2439

@@ -1238,7 +1238,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2440
-      Text = '&A'#231#305'k kalem'
+      Text = '&A'#231
     end
     item
       IndexID = 2439
