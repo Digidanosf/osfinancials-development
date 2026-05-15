@@ -11634,11 +11634,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906071
-      Text = 'Miejsce powstawania koszt'#243'w 1'
+      Text = 'Centrum koszt'#243'w 1'
     end
     item
       IndexID = 906072
-      Text = 'Miejsce powstawania koszt'#243'w 2'
+      Text = 'Centrum koszt'#243'w 2'
     end
     item
       IndexID = 1000046
