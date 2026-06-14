@@ -214,11 +214,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 56
-      Text = '&Krediteure'
+      Text = '&Krediteur'
     end
     item
       IndexID = 57
-      Text = '&Debiteure'
+      Text = '&Debiteur'
     end
     item
       IndexID = 58
@@ -994,7 +994,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 252
-      Text = 'Debiteurrekeninge'
+      Text = 'Debiteurerekeninge'
     end
     item
       IndexID = 253
@@ -2123,8 +2123,8 @@ object TTranslationSaveObject
     item
       IndexID = 527
       Text = 
-        'Di'#233'krediteur het transaksies! Wil jy di'#233' transaksies na '#39'n ander' +
-        ' krediteur oorplaas?'
+        'Di'#233' krediteur het transaksies! Wil jy di'#233' transaksies na '#39'n ande' +
+        'r krediteur oorplaas?'
     end
     item
       IndexID = 528
@@ -2857,7 +2857,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 705
-      Text = 'Retoere'
+      Text = 'Verskafferretoer'
     end
     item
       IndexID = 706
@@ -3324,8 +3324,9 @@ object TTranslationSaveObject
     item
       IndexID = 820
       Text = 
-        'Bedryf van die betalingsgebasseerde metode vereis dat krediteure' +
-        ' na '#39'n oopitem rekening omgeskakel word. Wil jy voortgaan?'
+        'Bedryf van die betalingsgebasseerde metode vereis dat debiteure ' +
+        'en krediteure na '#39'n oopitem rekening omgeskakel word. Wil jy voo' +
+        'rtgaan?'
     end
     item
       IndexID = 821
@@ -4389,11 +4390,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1089
-      Text = 'Betalingsadvies'
+      Text = 'Krediteur - Betalingsadvies'
     end
     item
       IndexID = 1090
-      Text = 'Debiteurstate'
+      Text = 'Debiteur - Rekeningstaat'
     end
     item
       IndexID = 1091
@@ -6136,7 +6137,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1809
-      Text = 'Krediteure Kontrole'
+      Text = 'Krediteurekontrole'
     end
     item
       IndexID = 1810
@@ -6144,7 +6145,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1811
-      Text = 'Debiteure Kontrole'
+      Text = 'Debiteurekontrole'
     end
     item
       IndexID = 1812
@@ -8033,7 +8034,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2154
-      Text = 'Retoere'
+      Text = 'Verskafferretoere'
     end
     item
       IndexID = 2155
@@ -16163,11 +16164,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906551
-      Text = 'Krediteure - Betalingsadviese - Uitstaande'
+      Text = 'Krediteur - Betalingsadvies - Uitstaande'
     end
     item
       IndexID = 906552
-      Text = 'Debiteure - Rekeningstate - Uitstaande'
+      Text = 'Debiteur - Rekeningstaat - Uitstaande'
     end
     item
       IndexID = 906553
