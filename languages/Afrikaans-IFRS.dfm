@@ -114,11 +114,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 30
-      Text = 'Krediteure'
+      Text = 'Verskaffers'
     end
     item
       IndexID = 31
-      Text = 'Debiteure'
+      Text = 'Kli'#235'nte'
     end
     item
       IndexID = 32
@@ -214,11 +214,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 56
-      Text = '&Krediteur'
+      Text = '&Verskaffer'
     end
     item
       IndexID = 57
-      Text = '&Debiteur'
+      Text = '&Kli'#235'nt'
     end
     item
       IndexID = 58
@@ -630,11 +630,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 160
-      Text = 'Debiteure'
+      Text = 'Kli'#235'nte'
     end
     item
       IndexID = 161
-      Text = 'Krediteure'
+      Text = 'Verskaffers'
     end
     item
       IndexID = 163
@@ -798,7 +798,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 203
-      Text = 'Debiteurkorting'
+      Text = 'Kli'#235'ntkorting'
     end
     item
       IndexID = 204
@@ -982,7 +982,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 249
-      Text = 'Kediteurtransaksie verslagopsies'
+      Text = 'Verskaffertransaksie verslagopsies'
     end
     item
       IndexID = 250
@@ -990,11 +990,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 251
-      Text = 'Krediteurrekeninge'
+      Text = 'Verskaffersrekeninge'
     end
     item
       IndexID = 252
-      Text = 'Debiteurerekeninge'
+      Text = 'Kli'#235'nterekeninge'
     end
     item
       IndexID = 253
@@ -1038,7 +1038,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 263
-      Text = 'Debiteure ouderdomsontleding verslagopsies'
+      Text = 'Kli'#235'nt-ouderdomsontleding verslagopsies'
     end
     item
       IndexID = 264
@@ -1082,11 +1082,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 274
-      Text = 'Debiteurbewegings verslagopsies'
+      Text = 'Kli'#235'ntbeweging verslagopsies'
     end
     item
       IndexID = 275
-      Text = 'Debiteurtransaksie verslagopsies'
+      Text = 'Kli'#235'nttransaksie verslagopsies'
     end
     item
       IndexID = 276
@@ -1102,7 +1102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 279
-      Text = 'Krediteurbewegings verslagopsies'
+      Text = 'Verskafferbeweging'
     end
     item
       IndexID = 280
@@ -1206,11 +1206,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 305
-      Text = 'Krediteurverslae'
+      Text = 'Verskaffersverslae'
     end
     item
       IndexID = 306
-      Text = 'Debiteurverslae'
+      Text = 'Kli'#235'ntverslae'
     end
     item
       IndexID = 307
@@ -1602,7 +1602,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 408
-      Text = 'Debiteurverslae'
+      Text = 'Kli'#235'ntverslae'
     end
     item
       IndexID = 409
@@ -1654,11 +1654,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 421
-      Text = 'Debiteurgroepe'
+      Text = 'Kli'#235'ntegroepe'
     end
     item
       IndexID = 422
-      Text = 'Krediteurgroepe'
+      Text = 'Verskaffersgroepe'
     end
     item
       IndexID = 423
@@ -1886,7 +1886,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 473
-      Text = 'Niks om vir di'#233' debiteur te koppel nie!'
+      Text = 'Niks om vir di'#233' kli'#235'nt te koppel nie!'
     end
     item
       IndexID = 474
@@ -2117,14 +2117,14 @@ object TTranslationSaveObject
     item
       IndexID = 526
       Text = 
-        'Di'#233' debiteur het transaksies! Wil jy di'#233' transaksies na '#39'n ander' +
-        ' debiteur oorplaas?'
+        'Di'#233' kli'#235'nt het transaksies! Wil jy di'#233' transaksies na '#39'n ander k' +
+        'li'#235'nt oorplaas?'
     end
     item
       IndexID = 527
       Text = 
-        'Di'#233' krediteur het transaksies! Wil jy di'#233' transaksies na '#39'n ande' +
-        'r krediteur oorplaas?'
+        'Di'#233' verskaffer het transaksies! Wil jy di'#233' transaksies na '#39'n and' +
+        'er verskaffer oorplaas?'
     end
     item
       IndexID = 528
@@ -2245,11 +2245,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 553
-      Text = 'Debiteurekontrole'
+      Text = 'Kli'#235'ntekontrole'
     end
     item
       IndexID = 552
-      Text = 'Krediteurekontrole'
+      Text = 'Verskafferskontrole'
     end
     item
       IndexID = 551
@@ -2305,11 +2305,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 563
-      Text = 'Vereiste rekening word geskep (Debiteurekontrole)...'
+      Text = 'Vereiste rekening word geskep (Kli'#235'ntekontrole)...'
     end
     item
       IndexID = 562
-      Text = 'Vereiste rekening word geskep  (Krediteurekontrole)...'
+      Text = 'Vereiste rekening word geskep  (Verskafferskontrole)...'
     end
     item
       IndexID = 561
@@ -2923,7 +2923,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 721
-      Text = 'Niks om vir di'#233' krediteur te koppel nie!'
+      Text = 'Niks om vir di'#233' verskaffer te koppel nie!'
     end
     item
       IndexID = 722
@@ -3095,7 +3095,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 765
-      Text = 'Debiteur se balans oorskry die kredietlimiet met:'
+      Text = 'Kli'#235'nt se balans oorskry die kredietlimiet met:'
     end
     item
       IndexID = 766
@@ -3181,27 +3181,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 785
-      Text = 'Balanseer debiteure met bedrag < Rx.xx'
+      Text = 'Balanseer kli'#235'nte met bedrag < Rx.xx'
     end
     item
       IndexID = 786
-      Text = 'Krediteure met heffingsbedrag'
+      Text = 'Verskaffers met heffingsbedrag'
     end
     item
       IndexID = 787
-      Text = 'Debiteure met heffingsbedrag'
+      Text = 'Kli'#235'nte met heffingsbedrag'
     end
     item
       IndexID = 788
-      Text = 'Vaste bedrag aan alle debiteure'
+      Text = 'Vaste bedrag aan alle kli'#235'nte'
     end
     item
       IndexID = 789
-      Text = 'Rente op agterstallige debiteure'
+      Text = 'Rente op agterstallige kli'#235'nte'
     end
     item
       IndexID = 790
-      Text = 'Krediteurbalanse soos op'
+      Text = 'Verskafferbalanse soos op'
     end
     item
       IndexID = 791
@@ -3213,7 +3213,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 793
-      Text = 'Tjek'
+      Text = 'Bankkaart'
     end
     item
       IndexID = 794
@@ -3310,8 +3310,8 @@ object TTranslationSaveObject
     item
       IndexID = 816
       Text = 
-        'Jy mag nie '#39'n belastingtipe vir '#39'n debiteur of '#39'n krediteur in d' +
-        'ie ontvangsgebasseerde stelsel h'#234' nie!'
+        'Jy mag nie '#39'n belastingtipe vir '#39'n kli'#235'nt of '#39'n verskaffer in di' +
+        'e ontvangsgebasseerde stelsel h'#234' nie!'
     end
     item
       IndexID = 817
@@ -3324,9 +3324,9 @@ object TTranslationSaveObject
     item
       IndexID = 820
       Text = 
-        'Bedryf van die betalingsgebasseerde metode vereis dat debiteure ' +
-        'en krediteure na '#39'n oopitem rekening omgeskakel word. Wil jy voo' +
-        'rtgaan?'
+        'Bedryf van die betalingsgebasseerde metode vereis dat alle kli'#235'n' +
+        'te en verskaffers na '#39'n oopitem-rekening omgeskakel word. Wil jy' +
+        ' voortgaan?'
     end
     item
       IndexID = 821
@@ -3578,7 +3578,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 883
-      Text = 'Debiteure en krediteure'
+      Text = 'Kli'#235'nte en verskaffers'
     end
     item
       IndexID = 884
@@ -4178,7 +4178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1033
-      Text = 'Krediteure ouderdomsontleding verslagopsies'
+      Text = 'Verskaffer-ouderdomsontleding verslagopsies'
     end
     item
       IndexID = 1034
@@ -4214,11 +4214,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1043
-      Text = 'Debiteurelys verslagopsies'
+      Text = 'Kli'#235'ntelys verslagopsies'
     end
     item
       IndexID = 1044
-      Text = 'Krediteurelys verslagopsies'
+      Text = 'Verskafferslys verslagopsies'
     end
     item
       IndexID = 1045
@@ -4390,11 +4390,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1089
-      Text = 'Krediteur - Betalingsadvies'
+      Text = 'Verskaffer - Betalingsadvies'
     end
     item
       IndexID = 1090
-      Text = 'Debiteur - Rekeningstaat'
+      Text = 'Kli'#235'nt - Rekeningstaat'
     end
     item
       IndexID = 1091
@@ -4728,7 +4728,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1172
-      Text = 'Tjeks'
+      Text = 'Bankkaarte'
     end
     item
       IndexID = 1173
@@ -4764,11 +4764,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1181
-      Text = 'Debiteurbewegings'
+      Text = 'Kli'#235'ntbewegings'
     end
     item
       IndexID = 1182
-      Text = 'Krediteurbewegings'
+      Text = 'Verskafferbewegings'
     end
     item
       IndexID = 1183
@@ -4931,7 +4931,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1222
-      Text = 'Kies debiteur'
+      Text = 'Kies kli'#235'nt'
     end
     item
       IndexID = 1223
@@ -4947,7 +4947,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1226
-      Text = 'Kies krediteur'
+      Text = 'Kies verskaffer'
     end
     item
       IndexID = 1227
@@ -5167,7 +5167,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1281
-      Text = 'Debiteurtransaksies'
+      Text = 'Kli'#235'nttransaksies'
     end
     item
       IndexID = 1282
@@ -5175,7 +5175,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1283
-      Text = 'Krediteurtransaksies'
+      Text = 'Verskaffertransaksies'
     end
     item
       IndexID = 1284
@@ -5307,11 +5307,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1316
-      Text = 'Lys van debiteurrekeninge'
+      Text = 'Lys van kli'#235'nterekeninge'
     end
     item
       IndexID = 1317
-      Text = 'Lys van krediteurrekeninge'
+      Text = 'Lys van verskaffersrekeninge'
     end
     item
       IndexID = 1318
@@ -5451,7 +5451,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1352
-      Text = 'Tjeknommer'
+      Text = 'Kaartnommer'
     end
     item
       IndexID = 1353
@@ -5696,12 +5696,12 @@ object TTranslationSaveObject
     item
       IndexID = 1124
       Text = 
-        'Verlore of korrupte debiteure- en Krediteurekontrolerekeninge! K' +
-        'ontak asseblief <@APPNAME@> vir ondersteuning!'
+        'Verlore of korrupte kli'#235'nte- en verskafferskontrolerekeninge! Ko' +
+        'ntak asseblief <@APPNAME@> vir ondersteuning!'
     end
     item
       IndexID = 1700
-      Text = 'Krediteur ouderdomsontleding'
+      Text = 'Verskaffer ouderdomsontleding'
     end
     item
       IndexID = 1701
@@ -5717,7 +5717,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1704
-      Text = 'Debiteur ouderdomsontleding soos op'
+      Text = 'Kli'#235'nt-ouderdomsontleding soos op'
     end
     item
       IndexID = 1706
@@ -5797,7 +5797,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1725
-      Text = 'Fakt. %s (Tjek)'
+      Text = 'Fakt. %s (Bankkaart)'
     end
     item
       IndexID = 1726
@@ -5817,7 +5817,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1730
-      Text = '(Tjek)'
+      Text = '(Bankkaart)'
     end
     item
       IndexID = 1731
@@ -6133,19 +6133,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1808
-      Text = 'Besig om die vereiste rekening (Krediteurekontrole) te skep...'
+      Text = 'Besig om die vereiste rekening (Verskafferskontrole) te skep...'
     end
     item
       IndexID = 1809
-      Text = 'Krediteurekontrole'
+      Text = 'Verskafferskontrole'
     end
     item
       IndexID = 1810
-      Text = 'Besig om die vereiste rekening (Debiteurekontrole) te skep...'
+      Text = 'Besig om die vereiste rekening (Kli'#235'ntekontrole) te skep...'
     end
     item
       IndexID = 1811
-      Text = 'Debiteurekontrole'
+      Text = 'Kli'#235'ntekontrole'
     end
     item
       IndexID = 1812
@@ -6231,11 +6231,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1834
-      Text = 'Debiteurgroepe'
+      Text = 'Kli'#235'ntegroepe'
     end
     item
       IndexID = 1835
-      Text = 'Krediteurgroepe'
+      Text = 'Verskaffersgroepe'
     end
     item
       IndexID = 1836
@@ -7416,7 +7416,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2000
-      Text = 'Debiteure'
+      Text = 'Kli'#235'nte'
     end
     item
       IndexID = 2001
@@ -7424,7 +7424,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2002
-      Text = 'Krediteure'
+      Text = 'Verskaffers'
     end
     item
       IndexID = 2003
@@ -7702,7 +7702,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2072
-      Text = 'Uitvoer van debiteure...'
+      Text = 'Uitvoer van kli'#235'nte...'
     end
     item
       IndexID = 2073
@@ -7958,11 +7958,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2135
-      Text = 'Aan debiteure vir (bedrag)'
+      Text = 'Aan kli'#235'nte vir (bedrag)'
     end
     item
       IndexID = 2136
-      Text = 'Aan debiteure met '#39'n balans van minder (bedrag)'
+      Text = 'Aan kli'#235'nte met '#39'n balans van minder (bedrag)'
     end
     item
       IndexID = 2137
@@ -7974,7 +7974,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2139
-      Text = 'Vanaf debiteur:'
+      Text = 'Vanaf kli'#235'nt'
     end
     item
       IndexID = 2140
@@ -8130,11 +8130,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2181
-      Text = 'Vanaf debiteur'
+      Text = 'Vanaf kli'#235'nt'
     end
     item
       IndexID = 2182
-      Text = 'Tot debiteur'
+      Text = 'Tot kli'#235'nt'
     end
     item
       IndexID = 2183
@@ -8142,7 +8142,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2184
-      Text = 'Invoer van debiteure/krediteure...'
+      Text = 'Invoer van kli'#235'nte/verskaffers...'
     end
     item
       IndexID = 2185
@@ -8210,11 +8210,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2201
-      Text = 'Redigeer debiteure'
+      Text = 'Redigeer kli'#235'nte'
     end
     item
       IndexID = 2202
-      Text = 'Redigeer krediteure'
+      Text = 'Redigeer verskaffers'
     end
     item
       IndexID = 2203
@@ -8278,11 +8278,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2218
-      Text = 'Debiteurkode'
+      Text = 'Kli'#235'ntkode'
     end
     item
       IndexID = 2219
-      Text = 'Krediteurkode'
+      Text = 'Verskafferkode'
     end
     item
       IndexID = 2220
@@ -8310,7 +8310,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2226
-      Text = 'Krediteure betalingsverslag'
+      Text = 'Verskaffer betalingsverslag'
     end
     item
       IndexID = 2227
@@ -9640,11 +9640,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2859
-      Text = 'Debiteurafspraak'
+      Text = 'Kli'#235'ntafspraak'
     end
     item
       IndexID = 2860
-      Text = 'Krediteurafspraak'
+      Text = 'Verskafferafspraak'
     end
     item
       IndexID = 2861
@@ -9812,11 +9812,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2901
-      Text = 'Opsoek debiteur'
+      Text = 'Opsoek kli'#235'nt'
     end
     item
       IndexID = 2902
-      Text = 'Opsoek krediteur'
+      Text = 'Opsoek verskaffer'
     end
     item
       IndexID = 2903
@@ -10018,7 +10018,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2950
-      Text = 'Debiteurverkoopprys'
+      Text = 'Kli'#235'ntverkoopprys'
     end
     item
       IndexID = 2949
@@ -10656,11 +10656,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3107
-      Text = 'Kolombalanse - Debiteure'
+      Text = 'Kolombalanse - Kli'#235'nte'
     end
     item
       IndexID = 3108
-      Text = 'Kolombalanse - Krediteure'
+      Text = 'Kolombalanse - Verskaffers'
     end
     item
       IndexID = 3109
@@ -10820,7 +10820,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 902005
-      Text = '<Alle debtiteure>'
+      Text = '<Alle kli'#235'nte>'
     end
     item
       IndexID = 903000
@@ -11269,7 +11269,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906035
-      Text = 'Debiteur - Prysooreenkoms'
+      Text = 'Kli'#235'nt - Prysooreenkoms'
     end
     item
       IndexID = 906036
@@ -11309,19 +11309,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906045
-      Text = 'Debiteurelys'
+      Text = 'Kli'#235'ntelys'
     end
     item
       IndexID = 906046
-      Text = 'Krediteurelys'
+      Text = 'Verskafferlys'
     end
     item
       IndexID = 906047
-      Text = 'Kontaklys - Debiteure'
+      Text = 'Kontaklys - Kli'#235'nte'
     end
     item
       IndexID = 906048
-      Text = 'Kontaklys - Krediteure'
+      Text = 'Kontaklys - Verskaffers'
     end
     item
       IndexID = 906049
@@ -11381,11 +11381,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906062
-      Text = 'Etiket vir geselekteerde debiteur se posadres'
+      Text = 'Etiket vir geselekteerde kli'#235'nt se posadres'
     end
     item
       IndexID = 906063
-      Text = 'Etiket vir geselekteerde krediteur se posadres'
+      Text = 'Etiket vir geselekteerde verskaffer se posadres'
     end
     item
       IndexID = 906064
@@ -11393,11 +11393,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906065
-      Text = 'Etiket vir geselekteerde debiteur se afleweringsadres'
+      Text = 'Etiket vir geselekteerde kli'#235'nt se afleweringsadres'
     end
     item
       IndexID = 906066
-      Text = 'Etiket vir geselekteerde krediteur se afleweringsadres'
+      Text = 'Etiket vir geselekteerde verskaffer se afleweringsadres'
     end
     item
       IndexID = 906067
@@ -11640,11 +11640,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3167
-      Text = 'Kolombalanse - Debiteure D/K'
+      Text = 'Kolombalanse - Kli'#235'nte D/K'
     end
     item
       IndexID = 3168
-      Text = 'Kolombalanse - Krediteure D/K'
+      Text = 'Kolombalanse - Verskaffers D/K'
     end
     item
       IndexID = 3169
@@ -11872,7 +11872,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3224
-      Text = 'Basisomslag - Debiteur / Krediteur'
+      Text = 'Basisomslag - Kli'#235'nt / Verskaffer'
     end
     item
       IndexID = 3225
@@ -12046,11 +12046,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906076
-      Text = 'Vergelyk periode - Debiteure'
+      Text = 'Vergelyk periode - Kli'#235'nte'
     end
     item
       IndexID = 906077
-      Text = 'Vergelyk periode - Krediteure'
+      Text = 'Vergelyk periode - Verskaffers'
     end
     item
       IndexID = 906078
@@ -12102,7 +12102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906088
-      Text = 'Krediteur - Prysooreenkoms'
+      Text = 'Verskaffer - Prysooreenkoms'
     end
     item
       IndexID = 906089
@@ -12844,11 +12844,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906103
-      Text = 'Krediteure uitstaande op datum'
+      Text = 'Verskaffers uitstaande op datum'
     end
     item
       IndexID = 906104
-      Text = 'Debiteure uitstaande op datum'
+      Text = 'Kli'#235'nte uitstaande op datum'
     end
     item
       IndexID = 906105
@@ -12856,19 +12856,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906106
-      Text = 'Debiteurtransaksies - Standaard'
+      Text = 'Kli'#235'nttransaksies - Standaard'
     end
     item
       IndexID = 906107
-      Text = 'Debiteurtransaksies - Ekstra'
+      Text = 'Kli'#235'nttransaksies - Ekstra'
     end
     item
       IndexID = 906108
-      Text = 'Krediteurtransaksies - Standaard'
+      Text = 'Verskaffertransaksies - Standaard'
     end
     item
       IndexID = 906109
-      Text = 'Krediteurtransaksies - Ekstra'
+      Text = 'Verskaffertransaksies - Ekstra'
     end
     item
       IndexID = 906110
@@ -12896,11 +12896,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906116
-      Text = 'Krediteurgroep'
+      Text = 'Verskaffersgroep'
     end
     item
       IndexID = 906117
-      Text = 'Debiteurgroep'
+      Text = 'Kli'#235'ntegroep'
     end
     item
       IndexID = 906118
@@ -12924,11 +12924,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906123
-      Text = 'Debiteurtransaksies'
+      Text = 'Kli'#235'nttransaksies'
     end
     item
       IndexID = 906124
-      Text = 'Krediteurtransaksies'
+      Text = 'Verskafferstransaksies'
     end
     item
       IndexID = 906125
@@ -13016,7 +13016,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906146
-      Text = 'Debiteur ouderdomsontleding'
+      Text = 'Kli'#235'nt-ouderdomsontleding'
     end
     item
       IndexID = 906147
@@ -13040,11 +13040,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906152
-      Text = 'Aankope per periode - Krediteurgroep 1'
+      Text = 'Aankope per periode - Verskaffersgroep 1'
     end
     item
       IndexID = 906153
-      Text = 'Aankope per periode - Krediteurgroep 2'
+      Text = 'Aankope per periode - Verskaffersgroep 2'
     end
     item
       IndexID = 906154
@@ -13060,11 +13060,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906157
-      Text = 'Fakture per periode - Debiteurgroep 1'
+      Text = 'Fakture per periode - Kli'#235'ntegroep 1'
     end
     item
       IndexID = 906158
-      Text = 'Fakture per periode - Debiteurgroep 2'
+      Text = 'Fakture per periode - Kli'#235'ntegroep 2'
     end
     item
       IndexID = 906159
@@ -13100,11 +13100,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906167
-      Text = 'Grafiek - Krediteure per week'
+      Text = 'Grafiek - Verskaffers per week'
     end
     item
       IndexID = 906168
-      Text = 'Grafiek - Debiteure per week'
+      Text = 'Grafiek - Kli'#235'nte per week'
     end
     item
       IndexID = 906169
@@ -13596,11 +13596,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903124
-      Text = 'Verwyder debiteure'
+      Text = 'Verwyder kli'#235'nte'
     end
     item
       IndexID = 903125
-      Text = 'Verwyder krediteure'
+      Text = 'Verwyder verskaffers'
     end
     item
       IndexID = 903126
@@ -13640,19 +13640,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903135
-      Text = 'Verwyder debiteure nie in rekening'
+      Text = 'Verwyder kli'#235'nte nie in rekening'
     end
     item
       IndexID = 903136
-      Text = 'Verwyder krediteure nie in rekening'
+      Text = 'Verwyder verskaffers nie in rekening'
     end
     item
       IndexID = 903137
-      Text = 'Stel alle debiteure as oopitem'
+      Text = 'Stel alle kli'#235'nte as oopitem'
     end
     item
       IndexID = 903138
-      Text = 'Stel alle krediteure as oopitem'
+      Text = 'Stel alle verskaffers as oopitem'
     end
     item
       IndexID = 903139
@@ -13664,7 +13664,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903141
-      Text = 'Stel debiteuradres en stel eerste karakter as HOOFLETTER'
+      Text = 'Stel kli'#235'ntadres en stel eerste karakter as HOOFLETTER'
     end
     item
       IndexID = 903142
@@ -13704,7 +13704,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903151
-      Text = 'Outo-koppel alle nul debiteure'
+      Text = 'Outo-koppel alle nul kli'#235'nte'
     end
     item
       IndexID = 903152
@@ -13744,11 +13744,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903161
-      Text = 'Soek debiteure'
+      Text = 'Soek kli'#235'nte'
     end
     item
       IndexID = 903162
-      Text = 'Soek krediteure'
+      Text = 'Soek verskaffers'
     end
     item
       IndexID = 903163
@@ -14314,13 +14314,13 @@ object TTranslationSaveObject
       IndexID = 3535
       Text = 
         'Di'#233' aksie sal die laaste betalingsdatum vir die "geselekteerde" ' +
-        'debiteure aanpas! Wil jy voortgaan?'
+        'kli'#235'nte aanpas! Wil jy voortgaan?'
     end
     item
       IndexID = 3536
       Text = 
-        'Di'#233' aksie sal die laaste Betalingsdatum vir die "ALLE SIGBARE" d' +
-        'ebiteure aanpas! Wil jy voortgaan?'
+        'Di'#233' aksie sal die laaste betalingsdatum vir die "ALLE SIGBARE" k' +
+        'li'#235'nte aanpas! Wil jy voortgaan?'
     end
     item
       IndexID = 3537
@@ -14440,11 +14440,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906291
-      Text = 'Kredietnotas per periode - Debiteurgroep 1'
+      Text = 'Kredietnotas per periode - Kli'#235'ntegroep 1'
     end
     item
       IndexID = 906292
-      Text = 'Kredietnotas per periode - Debiteurgroep 2'
+      Text = 'Kredietnotas per periode - Kli'#235'ntegroep 2'
     end
     item
       IndexID = 906293
@@ -14460,11 +14460,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906296
-      Text = 'Verskafferretoere per periode - Krediteurgroep 1'
+      Text = 'Verskafferretoere per periode - Verskaffersgroep 1'
     end
     item
       IndexID = 906297
-      Text = 'Verskafferretoere per periode - Krediteurgroep 2'
+      Text = 'Verskafferretoere per periode - Verskaffersgroep 2'
     end
     item
       IndexID = 906298
@@ -14480,11 +14480,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906301
-      Text = 'Kwotasies per periode - Debiteurgroep 1'
+      Text = 'Kwotasies per periode - Kli'#235'ntegroep 1'
     end
     item
       IndexID = 906302
-      Text = 'Kwotasies per periode - Debiteurgroep 2'
+      Text = 'Kwotasies per periode - Kli'#235'ntegroep 2'
     end
     item
       IndexID = 906303
@@ -14500,11 +14500,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906306
-      Text = 'Bestellings per periode - Krediteurgroep 1'
+      Text = 'Bestellings per periode - Verskaffersgroep 1'
     end
     item
       IndexID = 906307
-      Text = 'Bestellings per periode - Krediteurgroep 2'
+      Text = 'Bestellings per periode - Verskaffersgroep 2'
     end
     item
       IndexID = 906308
@@ -14600,11 +14600,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906327
-      Text = 'Aankoopdokumente per periode - Krediteurgroep 1'
+      Text = 'Aankoopdokumente per periode - Verskaffersgroep 1'
     end
     item
       IndexID = 906328
-      Text = 'Aankoopdokumente per periode - Krediteurgroep 2'
+      Text = 'Aankoopdokumente per periode - Verskaffersgroep 2'
     end
     item
       IndexID = 906329
@@ -14620,11 +14620,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906332
-      Text = 'Verkope per periode - Debiteurgroep 1'
+      Text = 'Verkope per periode - Kli'#235'ntegroep 1'
     end
     item
       IndexID = 906333
-      Text = 'Verkope per periode - Debiteurgroep 2'
+      Text = 'Verkope per periode - Kli'#235'ntegroep 2'
     end
     item
       IndexID = 906334
@@ -16106,7 +16106,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3672
-      Text = 'Aktiveer outo-stel as onaktief vir debiteur na x dae onbetaald'
+      Text = 'Stoor of kanselleer eers jou kli'#235'nterekening!'
     end
     item
       IndexID = 3673
@@ -16118,11 +16118,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3674
-      Text = 'Wil jy di'#233' proses vir kredieteur 1 inisieer?'
+      Text = 'Wil jy di'#233' proses vir verskaffer 1 inisieer?'
     end
     item
       IndexID = 3675
-      Text = 'BTW-lys - Debiteure met BTW-id'
+      Text = 'BTW-lys - Kli'#235'nte met BTW-id'
     end
     item
       IndexID = 3676
@@ -16164,15 +16164,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906551
-      Text = 'Krediteur - Betalingsadvies - Uitstaande'
+      Text = 'Verskaffer - Betalingsadvies - Uitstaande'
     end
     item
       IndexID = 906552
-      Text = 'Debiteur - Rekeningstaat - Uitstaande'
+      Text = 'Kli'#235'nt - Rekeningstaat - Uitstaande'
     end
     item
       IndexID = 906553
-      Text = 'BTW-lys - Krediteure met BTW-id'
+      Text = 'BTW-lys - Verskaffers met BTW-id'
     end
     item
       IndexID = 3685
@@ -16216,11 +16216,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3695
-      Text = 'Stoor of kanselleer eers jou debiteurrekening!'
+      Text = 'Stoor of kanselleer eers jou kli'#235'nterekening!'
     end
     item
       IndexID = 3696
-      Text = 'Stoor of kanselleer eers jou krediteurrekening!'
+      Text = 'Stoor of kanselleer eers jou verskaffersrekening!'
     end
     item
       IndexID = 3697
@@ -16284,11 +16284,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906555
-      Text = 'Bondel aangekoop vanaf krediteur'
+      Text = 'Bondel aangekoop vanaf verskaffer'
     end
     item
       IndexID = 906556
-      Text = 'Bondel verkoop aan debiteur'
+      Text = 'Bondel verkoop aan kli'#235'nt'
     end
     item
       IndexID = 3711
@@ -16429,11 +16429,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906561
-      Text = 'Grafiek - Debiteure per maand'
+      Text = 'Grafiek - Kli'#235'nte per maand'
     end
     item
       IndexID = 906562
-      Text = 'Grafiek - Krediteure per maand'
+      Text = 'Grafiek - Verskaffers per maand'
     end
     item
       IndexID = 906563
