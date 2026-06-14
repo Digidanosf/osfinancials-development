@@ -10680,7 +10680,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Afrikaans - Suid Afrika'
+      Text = 
+        'Afrikaanse Meesterl'#234'er vir Afrikaans Suid-Afrika (af-ZA) - Moeni' +
+        'e Vertaal Nie. Skep '#39'n kopie om hierdie taall'#234'er aan te pas. '
     end
     item
       IndexID = 1000001

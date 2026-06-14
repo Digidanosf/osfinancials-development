@@ -3213,7 +3213,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 793
-      Text = 'Tjek'
+      Text = 'Bankkaart'
     end
     item
       IndexID = 794
@@ -4728,7 +4728,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1172
-      Text = 'Tjeks'
+      Text = 'Bankkaarte'
     end
     item
       IndexID = 1173
@@ -5451,7 +5451,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1352
-      Text = 'Tjeknommer'
+      Text = 'Kaartnommer'
     end
     item
       IndexID = 1353
@@ -5797,7 +5797,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1725
-      Text = 'Fakt. %s (Tjek)'
+      Text = 'Fakt. %s (Bankkaart)'
     end
     item
       IndexID = 1726
@@ -5817,7 +5817,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1730
-      Text = '(Tjek)'
+      Text = '(Bankkaart)'
     end
     item
       IndexID = 1731
@@ -10680,7 +10680,9 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000000
-      Text = 'Afrikaans - Suid Afrika'
+      Text = 
+        'Afrikaanse Meesterl'#234'er vir Afrikaans Suid-Afrika (af-ZA) - Moeni' +
+        'e Vertaal Nie. Skep '#39'n kopie om hierdie taall'#234'er aan te pas. '
     end
     item
       IndexID = 1000001
