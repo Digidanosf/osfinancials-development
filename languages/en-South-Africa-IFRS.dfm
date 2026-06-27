@@ -2292,19 +2292,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 553
-      Text = 'Trade debtors control'
+      Text = 'Customers control'
     end
     item
       IndexID = 552
-      Text = 'Trade creditors control'
+      Text = 'Suppliers control'
     end
     item
       IndexID = 563
-      Text = 'Creating required accounts (Trade debtors control)...'
+      Text = 'Creating required accounts (Customers control)...'
     end
     item
       IndexID = 562
-      Text = 'Creating required accounts (Trade creditors control)...'
+      Text = 'Creating required accounts (Suppliers control)...'
     end
     item
       IndexID = 561
@@ -6148,19 +6148,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1811
-      Text = 'Trade debtors control'
+      Text = 'Customers control'
     end
     item
       IndexID = 1810
-      Text = 'Creating required accounts (Trade debtors control)...'
+      Text = 'Creating required accounts (Customers control)...'
     end
     item
       IndexID = 1809
-      Text = 'Trade creditors control'
+      Text = 'Suppliers control'
     end
     item
       IndexID = 1808
-      Text = 'Creating required accounts (Trade creditors control)...'
+      Text = 'Creating required accounts (Suppliers control)...'
     end
     item
       IndexID = 1820
@@ -14607,7 +14607,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906337
-      Text = 'Purchases and purchase returns per period'
+      Text = 'Purchases and supplier returns per period'
     end
     item
       IndexID = 3567
@@ -14647,7 +14647,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3574
-      Text = 'Purchase returns per period'
+      Text = 'Supplier returns per period'
     end
     item
       IndexID = 3575
