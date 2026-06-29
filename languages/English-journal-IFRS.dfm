@@ -1,6 +1,46 @@
 object TTranslationSaveObject
   aTranslationCollection = <
     item
+      IndexID = 906589
+      Text = 'NO-TAX Layout file'
+    end
+    item
+      IndexID = 906590
+      Text = 'NO-TAX Document layout'
+    end
+    item
+      IndexID = 906591
+      Text = 'NO-TAX Document layout (15-code)'
+    end
+    item
+      IndexID = 906588
+      Text = 'Value inventory account'
+    end
+    item
+      IndexID = 906587
+      Text = 'Document reference'
+    end
+    item
+      IndexID = 906586
+      Text = 'Inventory - Expected quantities'
+    end
+    item
+      IndexID = 906585
+      Text = 'Inventory item list - Active inventory'
+    end
+    item
+      IndexID = 906584
+      Text = 'Production list'
+    end
+    item
+      IndexID = 902009
+      Text = 'Price list - Large retail - Purchases'
+    end
+    item
+      IndexID = 902008
+      Text = 'Price list - Large retail - Sales'
+    end
+    item
       IndexID = 906557
       Text = 'Graphs'
     end
@@ -106,7 +146,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906583
-      Text = 'Tax codes - VAT rates'
+      Text = 'Tax codes - Tax rates'
     end
     item
       IndexID = 1756
@@ -234,7 +274,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'VAT account'
+      Text = 'Tax account'
     end
     item
       IndexID = 34
@@ -350,7 +390,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 63
-      Text = '&VAT'
+      Text = '&Tax'
     end
     item
       IndexID = 64
@@ -726,11 +766,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Pounds'
+      Text = 'Rands'
     end
     item
       IndexID = 158
-      Text = 'Pence'
+      Text = 'Cents'
     end
     item
       IndexID = 159
@@ -906,7 +946,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 202
-      Text = 'VAT reference'
+      Text = 'Tax reference'
     end
     item
       IndexID = 203
@@ -974,11 +1014,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 219
-      Text = 'Input VAT'
+      Text = 'Input tax'
     end
     item
       IndexID = 220
-      Text = 'Output VAT'
+      Text = 'Output tax'
     end
     item
       IndexID = 221
@@ -1114,7 +1154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 254
-      Text = 'VAT accounts'
+      Text = 'Tax accounts'
     end
     item
       IndexID = 255
@@ -1354,7 +1394,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'VAT method'
+      Text = 'Tax method'
     end
     item
       IndexID = 315
@@ -1366,7 +1406,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 317
-      Text = 'VAT reg. no.'
+      Text = 'Tax reg. no.'
     end
     item
       IndexID = 318
@@ -1642,11 +1682,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 390
-      Text = 'VAT report options'
+      Text = 'Tax report options'
     end
     item
       IndexID = 391
-      Text = 'VAT code'
+      Text = 'Tax code'
     end
     item
       IndexID = 392
@@ -1710,7 +1750,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 407
-      Text = 'Show VAT transactions'
+      Text = 'Show tax transactions'
     end
     item
       IndexID = 408
@@ -1978,7 +2018,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 469
-      Text = 'This is not a VAT account!'
+      Text = 'This is not a tax account!'
     end
     item
       IndexID = 470
@@ -2241,8 +2281,8 @@ object TTranslationSaveObject
     item
       IndexID = 529
       Text = 
-        'This VAT account has transactions! Do you wish to transfer the t' +
-        'ransactions to another VAT account?'
+        'This tax account has transactions! Do you wish to transfer the t' +
+        'ransactions to another tax account?'
     end
     item
       IndexID = 530
@@ -2582,7 +2622,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'VAT'
+      Text = 'Tax'
     end
     item
       IndexID = 610
@@ -2892,11 +2932,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 687
-      Text = 'VAT excluded'
+      Text = 'Tax excluded'
     end
     item
       IndexID = 688
-      Text = 'VAT included'
+      Text = 'Tax included'
     end
     item
       IndexID = 689
@@ -3148,7 +3188,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 750
-      Text = 'VAT Invoice no.'
+      Text = 'Tax Invoice no.'
     end
     item
       IndexID = 751
@@ -3440,8 +3480,8 @@ object TTranslationSaveObject
     item
       IndexID = 821
       Text = 
-        'The payments based method of VAT treats VAT purely on a cash bas' +
-        'is. VAT is payable to the revenue authorities only when it is re' +
+        'The payments based method of tax treats tax purely on a cash bas' +
+        'is. Tax is payable to the revenue authorities only when it is re' +
         'ceived from the customer. Do you wish to continue?'
     end
     item
@@ -4663,7 +4703,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1130
-      Text = 'Customer VAT ref.'
+      Text = 'Customer tax ref.'
     end
     item
       IndexID = 1131
@@ -4683,7 +4723,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1135
-      Text = 'VAT registration'
+      Text = 'TAX registration'
     end
     item
       IndexID = 1136
@@ -4695,7 +4735,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1138
-      Text = 'VAT amount'
+      Text = 'Tax amount'
     end
     item
       IndexID = 1139
@@ -6440,7 +6480,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1863
-      Text = 'VAT'
+      Text = 'Tax'
     end
     item
       IndexID = 1862
@@ -6696,7 +6736,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1925
-      Text = 'VAT'
+      Text = 'Tax'
     end
     item
       IndexID = 1924
@@ -7286,7 +7326,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1982
-      Text = 'No VAT'
+      Text = 'No tax'
     end
     item
       IndexID = 1981
@@ -7324,7 +7364,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1985
-      Text = 'Remember VAT on contra account'
+      Text = 'Remember tax on contra account'
     end
     item
       IndexID = 1984
@@ -7708,11 +7748,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2044
-      Text = '20.00%'
+      Text = '15.00%'
     end
     item
       IndexID = 2043
-      Text = 'VAT-AMT'
+      Text = 'TAX-AMT'
     end
     item
       IndexID = 2054
@@ -8204,7 +8244,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 'VAT amount found but VAT account is deleted!'
+      Text = 'Tax amount found but tax account is deleted!'
     end
     item
       IndexID = 2176
@@ -8340,7 +8380,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2203
-      Text = 'Edit VAT'
+      Text = 'Edit tax'
     end
     item
       IndexID = 2214
@@ -9584,15 +9624,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3055
-      Text = 'Contra VAT'
+      Text = 'Contra tax'
     end
     item
       IndexID = 3054
-      Text = 'Link VAT'
+      Text = 'Link tax'
     end
     item
       IndexID = 3053
-      Text = 'Link VAT'
+      Text = 'Link tax'
     end
     item
       IndexID = 3052
@@ -9604,7 +9644,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3050
-      Text = 'Default VAT'
+      Text = 'Default tax'
     end
     item
       IndexID = 3018
@@ -10424,11 +10464,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3027
-      Text = 'Default VAT'
+      Text = 'Default tax'
     end
     item
       IndexID = 3028
-      Text = 'Default VAT account'
+      Text = 'Default tax account'
     end
     item
       IndexID = 3029
@@ -10456,15 +10496,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3035
-      Text = 'Link VAT'
+      Text = 'Link tax'
     end
     item
       IndexID = 3036
-      Text = 'Link VAT'
+      Text = 'Link tax'
     end
     item
       IndexID = 3037
-      Text = 'Contra VAT'
+      Text = 'Contra tax'
     end
     item
       IndexID = 3038
@@ -10814,8 +10854,8 @@ object TTranslationSaveObject
     item
       IndexID = 1000000
       Text = 
-        'English Master File for English United Kingdom (en-GB) - Do Not ' +
-        'Translate. To customise this language file, create a copy.'
+        'English Master File - Do Not Translate. This English Master file' +
+        ' contains Journal in stead of Batch related translations.'
     end
     item
       IndexID = 1000001
@@ -11065,7 +11105,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = #163
+      Text = '*Your Currency'
     end
     item
       IndexID = 1000004
@@ -11317,7 +11357,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906020
-      Text = 'VAT'
+      Text = 'Tax'
     end
     item
       IndexID = 906021
@@ -11513,7 +11553,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906069
-      Text = 'Your VAT reference'
+      Text = 'Your tax reference'
     end
     item
       IndexID = 1000054
@@ -11733,7 +11773,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3169
-      Text = 'Strict VAT on account'
+      Text = 'Strict tax on account'
     end
     item
       IndexID = 3170
@@ -11769,7 +11809,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3178
-      Text = 'Link VAT'
+      Text = 'Link tax'
     end
     item
       IndexID = 3179
@@ -12161,11 +12201,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906084
-      Text = 'Document VAT'
+      Text = 'Document tax'
     end
     item
       IndexID = 906085
-      Text = 'VAT on VAT account'
+      Text = 'Tax on tax account'
     end
     item
       IndexID = 906086
@@ -12361,7 +12401,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3294
-      Text = 'Show VAT in documents'
+      Text = 'Show tax in documents'
     end
     item
       IndexID = 3295
@@ -12373,7 +12413,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3297
-      Text = 'Hide this VAT'
+      Text = 'Hide this tax'
     end
     item
       IndexID = 3298
@@ -12568,8 +12608,8 @@ object TTranslationSaveObject
     item
       IndexID = 3345
       Text = 
-        'Consolidating lines and using VAT will mess up your VAT report! ' +
-        'Please make sure you do not use VAT or do not consolidate lines!'
+        'Consolidating lines and using tax will mess up your tax report! ' +
+        'Please make sure you do not use tax or do not consolidate lines!'
     end
     item
       IndexID = 3346
@@ -12601,7 +12641,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3352
-      Text = 'Sales, Purchase, Cost of sales and VAT accounts'
+      Text = 'Sales, Purchase, Cost of sales and Tax accounts'
     end
     item
       IndexID = 3353
@@ -12931,7 +12971,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906105
-      Text = 'VAT per period'
+      Text = 'Tax per period'
     end
     item
       IndexID = 906106
@@ -13499,51 +13539,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906248
-      Text = 'Invoice No VAT (no codes)'
+      Text = 'Invoice No Tax (no codes)'
     end
     item
       IndexID = 906249
-      Text = 'Credit note No VAT (no codes)'
+      Text = 'Credit note No Tax (no codes)'
     end
     item
       IndexID = 906250
-      Text = 'Quote No VAT (no codes)'
+      Text = 'Quote No Tax (no codes)'
     end
     item
       IndexID = 906251
-      Text = 'Supplier invoice No VAT (no codes)'
+      Text = 'Supplier invoice No Tax (no codes)'
     end
     item
       IndexID = 906252
-      Text = 'Supplier return No VAT (no codes)'
+      Text = 'Supplier return No Tax (no codes)'
     end
     item
       IndexID = 906253
-      Text = 'Order No VAT (no codes)'
+      Text = 'Order No Tax (no codes)'
     end
     item
       IndexID = 906254
-      Text = 'Invoice No VAT (15 code)'
+      Text = 'Invoice No Tax (15 code)'
     end
     item
       IndexID = 906255
-      Text = 'Credit note No VAT (15 code)'
+      Text = 'Credit note No Tax (15 code)'
     end
     item
       IndexID = 906256
-      Text = 'Quote No VAT (15 code)'
+      Text = 'Quote No Tax (15 code)'
     end
     item
       IndexID = 906257
-      Text = 'Supplier invoice No VAT (15 code)'
+      Text = 'Supplier invoice No Tax (15 code)'
     end
     item
       IndexID = 906258
-      Text = 'Supplier return No VAT (15 code)'
+      Text = 'Supplier return No Tax (15 code)'
     end
     item
       IndexID = 906259
-      Text = 'Order No VAT (15 code)'
+      Text = 'Order No Tax (15 code)'
     end
     item
       IndexID = 906217
@@ -13571,7 +13611,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906265
-      Text = 'VAT report'
+      Text = 'Tax report'
     end
     item
       IndexID = 3429
@@ -14057,11 +14097,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'VAT classes'
+      Text = 'Tax classes'
     end
     item
       IndexID = 3466
-      Text = 'VAT class'
+      Text = 'Tax class'
     end
     item
       IndexID = 3467
@@ -14101,7 +14141,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906280
-      Text = 'Ledger and VAT'
+      Text = 'Ledger and tax'
     end
     item
       IndexID = 906281
@@ -14727,7 +14767,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906339
-      Text = 'VAT and company registration numbers'
+      Text = 'Tax and company registration numbers'
     end
     item
       IndexID = 3568
@@ -16189,7 +16229,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906550
-      Text = 'VAT report - Reference / Document no.'
+      Text = 'Tax report - Reference / Document no.'
     end
     item
       IndexID = 3674
@@ -16347,7 +16387,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3709
-      Text = 'Link on'
+      Text = 'Link on '
+    end
+    item
+      IndexID = 906554
+      Text = 'Outdated batch'
+    end
+    item
+      IndexID = 906555
+      Text = 'Batch bought from supplier'
+    end
+    item
+      IndexID = 906556
+      Text = 'Batch sold to customer'
     end
     item
       IndexID = 3710
@@ -16375,18 +16427,6 @@ object TTranslationSaveObject
     item
       IndexID = 3715
       Text = 'Install'
-    end
-    item
-      IndexID = 906554
-      Text = 'Outdated batch'
-    end
-    item
-      IndexID = 906555
-      Text = 'Batch bought from supplier'
-    end
-    item
-      IndexID = 906556
-      Text = 'Batch sold to customer'
     end
     item
       IndexID = 3716
@@ -16485,46 +16525,6 @@ object TTranslationSaveObject
     item
       IndexID = 3738
       Text = 'LTR'
-    end
-    item
-      IndexID = 906589
-      Text = 'NO-VAT Layout file'
-    end
-    item
-      IndexID = 906590
-      Text = 'NO-VAT Document layout'
-    end
-    item
-      IndexID = 906591
-      Text = 'NO-VAT Document layout (15-code)'
-    end
-    item
-      IndexID = 906588
-      Text = 'Value inventory account'
-    end
-    item
-      IndexID = 906587
-      Text = 'Document reference'
-    end
-    item
-      IndexID = 906586
-      Text = 'Inventory - Expected quantities'
-    end
-    item
-      IndexID = 906585
-      Text = 'Inventory item list - Active inventory'
-    end
-    item
-      IndexID = 906584
-      Text = 'Production list'
-    end
-    item
-      IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
-    end
-    item
-      IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
     end
     item
       IndexID = 3739

@@ -1,114 +1,6 @@
 object TTranslationSaveObject
   aTranslationCollection = <
     item
-      IndexID = 906557
-      Text = 'Graphs'
-    end
-    item
-      IndexID = 906558
-      Text = 'Graphs per week'
-    end
-    item
-      IndexID = 906559
-      Text = 'Graphs per month'
-    end
-    item
-      IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
-    end
-    item
-      IndexID = 906561
-      Text = 'Graph - Customers per month'
-    end
-    item
-      IndexID = 906562
-      Text = 'Graph - Suppliers per month'
-    end
-    item
-      IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
-    end
-    item
-      IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
-    end
-    item
-      IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
-    end
-    item
-      IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
-    end
-    item
-      IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
-    end
-    item
-      IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
-    end
-    item
-      IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
-    end
-    item
-      IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns per month - Amount'
-    end
-    item
-      IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
-    end
-    item
-      IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
-    end
-    item
-      IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
-    end
-    item
-      IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
-    end
-    item
-      IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
-    end
-    item
-      IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
-    end
-    item
-      IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
-    end
-    item
-      IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
-    end
-    item
-      IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
-    end
-    item
-      IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
-    end
-    item
-      IndexID = 906583
-      Text = 'Tax codes - VAT rates'
-    end
-    item
       IndexID = 1756
       Text = 'Change alias (journal name)'
     end
@@ -726,11 +618,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Pounds'
+      Text = 'Shillings'
     end
     item
       IndexID = 158
-      Text = 'Pence'
+      Text = 'Centi'
     end
     item
       IndexID = 159
@@ -7708,7 +7600,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2044
-      Text = '20.00%'
+      Text = '18.00%'
     end
     item
       IndexID = 2043
@@ -10814,8 +10706,8 @@ object TTranslationSaveObject
     item
       IndexID = 1000000
       Text = 
-        'English Master File for English United Kingdom (en-GB) - Do Not ' +
-        'Translate. To customise this language file, create a copy.'
+        'English Master File for English Tanzania (en-TZ) - Do Not Transl' +
+        'ate. To customise this language file, create a copy.'
     end
     item
       IndexID = 1000001
@@ -11065,7 +10957,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000003
-      Text = #163
+      Text = 'Tshs'
     end
     item
       IndexID = 1000004
@@ -16485,6 +16377,114 @@ object TTranslationSaveObject
     item
       IndexID = 3738
       Text = 'LTR'
+    end
+    item
+      IndexID = 906557
+      Text = 'Graphs'
+    end
+    item
+      IndexID = 906558
+      Text = 'Graphs per week'
+    end
+    item
+      IndexID = 906559
+      Text = 'Graphs per month'
+    end
+    item
+      IndexID = 906560
+      Text = 'Graph - Profit / Loss per month'
+    end
+    item
+      IndexID = 906561
+      Text = 'Graph - Customers per month'
+    end
+    item
+      IndexID = 906562
+      Text = 'Graph - Creditors per month'
+    end
+    item
+      IndexID = 906563
+      Text = 'Graph - Quotes per month - Quantities'
+    end
+    item
+      IndexID = 906564
+      Text = 'Graph - Quotes per month - Amount'
+    end
+    item
+      IndexID = 906565
+      Text = 'Graph - Credit notes per month - Quantities'
+    end
+    item
+      IndexID = 906566
+      Text = 'Graph - Credit notes per month - Amount'
+    end
+    item
+      IndexID = 906567
+      Text = 'Graph - Invoices per month - Quantities'
+    end
+    item
+      IndexID = 906568
+      Text = 'Graph - Invoices per month - Amount'
+    end
+    item
+      IndexID = 906569
+      Text = 'Graph - Invoices - Credit notes per month - Quantities'
+    end
+    item
+      IndexID = 906570
+      Text = 'Graph - Invoices - Credit notes per month - Amount'
+    end
+    item
+      IndexID = 906571
+      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
+    end
+    item
+      IndexID = 906572
+      Text = 'Graph - Purchases - Supplier returns per month - Amount'
+    end
+    item
+      IndexID = 906573
+      Text = 'Graph - Orders per month - Amount'
+    end
+    item
+      IndexID = 906574
+      Text = 'Graph - Orders per month - Quantities'
+    end
+    item
+      IndexID = 906575
+      Text = 'Graph - Supplier returns per month - Amount'
+    end
+    item
+      IndexID = 906576
+      Text = 'Graph - Supplier returns per month - Quantities'
+    end
+    item
+      IndexID = 906577
+      Text = 'Graph - Purchases per month - Amount'
+    end
+    item
+      IndexID = 906578
+      Text = 'Graph - Purchases per month - Quantities'
+    end
+    item
+      IndexID = 906579
+      Text = 'Graph - Invoices - Credit notes per week - Quantities'
+    end
+    item
+      IndexID = 906580
+      Text = 'Graph - Invoices - Credit notes per week - Amount'
+    end
+    item
+      IndexID = 906581
+      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
+    end
+    item
+      IndexID = 906582
+      Text = 'Graph - Purchases - Supplier returns per week - Amount'
+    end
+    item
+      IndexID = 906583
+      Text = 'Tax codes - Tax rates'
     end
     item
       IndexID = 906589
