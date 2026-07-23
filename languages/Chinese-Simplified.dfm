@@ -13880,11 +13880,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = #31246#29575#31867#21035' '
+      Text = #21508#31185#30446#31867#21035
     end
     item
       IndexID = 3466
-      Text = #31246#29575#31867#21035
+      Text = #31185#30446#31867#21035
     end
     item
       IndexID = 3467

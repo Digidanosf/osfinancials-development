@@ -12113,11 +12113,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Porezne skupine'
+      Text = 'Kontne skupine'
     end
     item
       IndexID = 3466
-      Text = 'Porezna skupina'
+      Text = 'Kontne skupina'
     end
     item
       IndexID = 3467

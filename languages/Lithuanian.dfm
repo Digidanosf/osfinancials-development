@@ -13942,11 +13942,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Mokes'#269'i'#371' klas'#279's'
+      Text = 'S'#261'skait'#371' klas'#279's'
     end
     item
       IndexID = 3466
-      Text = 'Mokes'#269'i'#371' klas'#279
+      Text = 'S'#261'skaitos klas'#279
     end
     item
       IndexID = 3467

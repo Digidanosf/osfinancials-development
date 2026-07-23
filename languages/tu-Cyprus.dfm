@@ -12106,11 +12106,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Vergi s'#305'n'#305'flar'#305
+      Text = 'Hesap ba'#287'lant'#305'lar'#305
     end
     item
       IndexID = 3466
-      Text = 'Vergi s'#305'n'#305'f'#305
+      Text = 'Hesap ba'#287'lant'#305's'#305
     end
     item
       IndexID = 3467

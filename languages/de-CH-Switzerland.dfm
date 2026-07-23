@@ -12838,11 +12838,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'MWST-Klassen'
+      Text = 'Kontenklassen'
     end
     item
       IndexID = 3466
-      Text = 'MWST-Klasse'
+      Text = 'Kontenklasse'
     end
     item
       IndexID = 3467

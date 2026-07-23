@@ -14030,11 +14030,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Iindidi zeRhafu'
+      Text = 'Iinqhagamshelo zama-akhawunti'
     end
     item
       IndexID = 3466
-      Text = 'Udidi lweRhafu'
+      Text = 'Uqhagamshelo lwama-akhawunti'
     end
     item
       IndexID = 3467
