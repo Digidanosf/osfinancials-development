@@ -2,27 +2,27 @@ object TTranslationSaveObject
   aTranslationCollection = <
     item
       IndexID = 1756
-      Text = 'Promjeni  Alias'
+      Text = 'Spremeni alias (ime dnevnika)'
     end
     item
       IndexID = 1755
-      Text = '&otvorena ladica blagajne'
+      Text = '&Odpri predal blagajne'
     end
     item
       IndexID = 1754
-      Text = '&Izvje'#353'taj'
+      Text = '&Poro'#269'ilo'
     end
     item
       IndexID = 1753
-      Text = 'Uklj/Isklj. PDV'
+      Text = 'Na'#269'in z/brez DDV'
     end
     item
       IndexID = 1752
-      Text = 'Za&tvori Shift'
+      Text = 'Za&pri izmeno'
     end
     item
       IndexID = 1751
-      Text = '*&Reprint zadnje a'
+      Text = '&Ponovni tisk zadnjega ra'#269'una'
     end
     item
       IndexID = 7
@@ -58,19 +58,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 9901
-      Text = '//  Ovo su glavni komentari na meni'
+      Text = '// Ovo su glavni komentari na meniju'
     end
     item
       IndexID = 16
-      Text = '&Odpri knjige'
+      Text = '&Odpri enoto'
     end
     item
       IndexID = 17
-      Text = '&Pripravi knjige'
+      Text = '&Ustvari enoto'
     end
     item
       IndexID = 18
-      Text = '&Izbri'#353'i knjige'
+      Text = '&Izbri'#353'i enoto'
     end
     item
       IndexID = 20
@@ -78,15 +78,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 21
-      Text = '&Izhod iz <@APPNAME@> a'
+      Text = '&Izhod iz <@APPNAME@>'
     end
     item
       IndexID = 22
-      Text = '&Racun'
+      Text = '&Konti'
     end
     item
       IndexID = 23
-      Text = '&Proracun'
+      Text = '&Prora'#269'uni'
     end
     item
       IndexID = 24
@@ -94,31 +94,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 25
-      Text = '&Ponavljajoci vnosi'
+      Text = '&Ponavljajo'#269'e se transakcije'
     end
     item
       IndexID = 26
-      Text = 'Ponavljajoci &racuni'
+      Text = 'Ponavljajo'#269'i &ra'#269'uni'
     end
     item
       IndexID = 27
-      Text = '&Skladi'#353'ce'
+      Text = '&Zaloga'
     end
     item
       IndexID = 28
-      Text = '&Uporabni'#353'ka porocila'
+      Text = '&Uporabni'#353'ka poro'#269'ila'
     end
     item
       IndexID = 29
-      Text = 'Bancni racun'
+      Text = 'Ban'#269'ni ra'#269'un'
     end
     item
       IndexID = 30
-      Text = 'Dobavitelj'
+      Text = 'Dobavitelji'
     end
     item
       IndexID = 31
-      Text = 'Kupec'
+      Text = 'Kupci'
     end
     item
       IndexID = 32
@@ -126,7 +126,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 33
-      Text = 'Davcni racun'
+      Text = 'Dav'#269'ni konto'
     end
     item
       IndexID = 34
@@ -134,11 +134,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 35
-      Text = 'Uporabni'#353'ko porocilo'
+      Text = 'Uporabni'#353'ko poro'#269'ilo'
     end
     item
       IndexID = 37
-      Text = 'Izdelek'
+      Text = 'Artikel zaloge'
     end
     item
       IndexID = 38
@@ -146,7 +146,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 39
-      Text = 'Izbri'#353'i racune'
+      Text = 'Izbri'#353'i ra'#269'une'
     end
     item
       IndexID = 40
@@ -154,7 +154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 41
-      Text = 'Izbri'#353'i vracilo izdelka'
+      Text = 'Izbri'#353'i vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 42
@@ -162,11 +162,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 43
-      Text = '&Ulaz skupine'
+      Text = '&Vnos v dnevnik'
     end
     item
       IndexID = 44
-      Text = '&Bancna poravnava'
+      Text = '&Uskladitev banke'
     end
     item
       IndexID = 45
@@ -174,15 +174,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 46
-      Text = 'Vpi'#353'i v knjigo'
+      Text = 'Knji'#382'enje vnosov v glavno knjigo'
     end
     item
       IndexID = 47
-      Text = '&Dobropis'
+      Text = '&Dobropisi'
     end
     item
       IndexID = 48
-      Text = '&Racuni'
+      Text = '&Ra'#269'uni'
     end
     item
       IndexID = 49
@@ -190,27 +190,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 50
-      Text = 'Vracilo &Izdelkov'
+      Text = 'Vra'#269'ila &dobaviteljem'
     end
     item
       IndexID = 51
-      Text = '&Vnos'
+      Text = '&Vnesi'
     end
     item
       IndexID = 52
-      Text = '&Tiskanje'
+      Text = '&Natisni'
     end
     item
       IndexID = 53
-      Text = '&Osve'#382'i glavno knjigo'
+      Text = '&Posodobi glavno knjigo'
     end
     item
       IndexID = 54
-      Text = 'Izpis& Dobavnice'
+      Text = 'Tisk &dobavnic'
     end
     item
       IndexID = 55
-      Text = '&Vrsta skupine'
+      Text = '&Vrsta dnevnika'
     end
     item
       IndexID = 56
@@ -226,19 +226,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 59
-      Text = '&Poravnava'
+      Text = '&Uskladitev'
     end
     item
       IndexID = 60
-      Text = '&Racuni'
+      Text = '&Ra'#269'uni'
     end
     item
       IndexID = 61
-      Text = '&Nabave'
+      Text = '&Nabava'
     end
     item
       IndexID = 62
-      Text = '&Izdelki'
+      Text = '&Zaloga'
     end
     item
       IndexID = 63
@@ -246,7 +246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 64
-      Text = '&Uporabni'#353'ka porocila'
+      Text = '&Uporabni'#353'ka poro'#269'ila'
     end
     item
       IndexID = 65
@@ -266,7 +266,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 69
-      Text = '&Opomnik'
+      Text = '&Obvestila o pla'#269'ilu'
     end
     item
       IndexID = 70
@@ -274,15 +274,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 71
-      Text = '&Izjave'
+      Text = '&Izpiski'
     end
     item
       IndexID = 72
-      Text = '&Uspe'#353'nost proracuna'
+      Text = '&Realizacija prora'#269'una'
     end
     item
       IndexID = 73
-      Text = '&Kontni nacrt'
+      Text = '&Kontni na'#269'rt'
     end
     item
       IndexID = 74
@@ -290,47 +290,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 75
-      Text = '&Poskusna bilanca'
+      Text = '&Bruto bilanca'
     end
     item
       IndexID = 76
-      Text = '&Izlistaj o povratu narud'#382'bi'
+      Text = '&Pregled zaostalih naro'#269'il'
     end
     item
       IndexID = 77
-      Text = '&Seznam dobropisov'
+      Text = '&Pregled dobropisov'
     end
     item
       IndexID = 78
-      Text = '&Seznam racunov'
+      Text = '&Pregled ra'#269'unov'
     end
     item
       IndexID = 162
-      Text = 'Zgodovina racunov'
+      Text = 'Zgodovina ra'#269'unov'
     end
     item
       IndexID = 79
-      Text = '&Seznam nabave'
+      Text = '&Pregled nabave'
     end
     item
       IndexID = 80
-      Text = '&Seznam vracil'
+      Text = '&Pregled vra'#269'il dobaviteljem'
     end
     item
       IndexID = 81
-      Text = '&Aktivnost'
+      Text = '&Promet'
     end
     item
       IndexID = 82
-      Text = '&Povzetek premikov'
+      Text = '&Povzetek gibanja'
     end
     item
       IndexID = 83
-      Text = 'Pon&ovna narud'#382'ba  izvje'#353'taj'
+      Text = '&Poro'#269'ilo o naro'#269'anju zalog'
     end
     item
       IndexID = 84
-      Text = '&Seznam izdelkov'
+      Text = '&Pregled artiklov'
     end
     item
       IndexID = 85
@@ -338,31 +338,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 86
-      Text = '&Podrobnosti racuna'
+      Text = '&Podrobnosti obra'#269'una'
     end
     item
       IndexID = 87
-      Text = '&Skupaj racuni'
+      Text = '&Povzetek obra'#269'una'
     end
     item
       IndexID = 88
-      Text = '&Primljeno /Detalji placanja'
+      Text = '&Podrobnosti prejetih/pla'#269'anih zneskov'
     end
     item
       IndexID = 89
-      Text = 'Primljeno / &Ukupno placanje'
+      Text = 'Povzetek prejetih/&pla'#269'anih zneskov'
     end
     item
       IndexID = 90
-      Text = '&Kontrola dostopa'
+      Text = '&Nadzor dostopa'
     end
     item
       IndexID = 91
-      Text = 'Backup & Path'
+      Text = 'Pot za &arhiv'
     end
     item
       IndexID = 92
-      Text = '&Vrsta skupine'
+      Text = '&Vrste dnevnikov'
     end
     item
       IndexID = 93
@@ -374,7 +374,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 95
-      Text = 'Ustvari &nalepko'
+      Text = 'Dolo'#269'i &oznake'
     end
     item
       IndexID = 97
@@ -390,7 +390,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 100
-      Text = '&Datumi porocanja'
+      Text = '&Obdobja poro'#269'anja'
     end
     item
       IndexID = 101
@@ -398,23 +398,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 102
-      Text = '&Izjave'
+      Text = '&Izpiski'
     end
     item
       IndexID = 103
-      Text = 'Informacije o skladi'#353'cu'
+      Text = 'Podatki o zalogi'
     end
     item
       IndexID = 104
-      Text = '&Arhiviranje / Obnova knjig'
+      Text = '&Arhiviranje / Obnova enote'
     end
     item
       IndexID = 105
-      Text = '&Kalkulator'
+      Text = '&Ra'#269'unalo'
     end
     item
       IndexID = 106
-      Text = '&Preverjanje integritete podatkov'
+      Text = 'Preverjanje celovitosti podatkov'
     end
     item
       IndexID = 107
@@ -422,7 +422,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 108
-      Text = '&Globalni procesi'
+      Text = '&Splo'#353'ni procesi'
     end
     item
       IndexID = 109
@@ -430,7 +430,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 110
-      Text = '*&Open Item Relink'
+      Text = '&Ponovno povezovanje odprtih postavk'
     end
     item
       IndexID = 111
@@ -438,7 +438,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 112
-      Text = '&Pogled'
+      Text = '&Pregledovalnik'
     end
     item
       IndexID = 113
@@ -446,23 +446,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 114
-      Text = '&Ci'#353'cenje / Resetiranje'
+      Text = '&Po'#269'isti / Ponastavi'
     end
     item
       IndexID = 115
-      Text = '&Naredi zakljucek leta'
+      Text = '&Letni zaklju'#269'ek'
     end
     item
       IndexID = 116
-      Text = '&Poravnava'
+      Text = '&Uskladi'
     end
     item
       IndexID = 117
-      Text = '&Prenesi transakcijo'
+      Text = '&Prenesi transakcije'
     end
     item
       IndexID = 118
-      Text = 'Uradi obrnuto od poravnavanja'
+      Text = 'Razveljavi uskladitev'
     end
     item
       IndexID = 119
@@ -474,7 +474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 121
-      Text = 'Urejanje'
+      Text = 'Uredi'
     end
     item
       IndexID = 122
@@ -482,11 +482,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 123
-      Text = 'Porocila'
+      Text = 'Poro'#269'ila'
     end
     item
       IndexID = 124
-      Text = 'Namestitev'
+      Text = 'Nastavitve'
     end
     item
       IndexID = 125
@@ -494,7 +494,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 126
-      Text = 'Pomoc'
+      Text = 'Pomo'#269
     end
     item
       IndexID = 127
@@ -522,7 +522,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 133
-      Text = 'Sedam'
+      Text = 'Sedem'
     end
     item
       IndexID = 134
@@ -610,7 +610,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 155
-      Text = 'Tisoc'
+      Text = 'Tiso'#269
     end
     item
       IndexID = 156
@@ -618,23 +618,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 157
-      Text = 'Euro'
+      Text = 'Evro'
     end
     item
       IndexID = 158
-      Text = 'Cents'
+      Text = 'Centi'
     end
     item
       IndexID = 159
-      Text = '*Piece Price'
+      Text = 'Cena za kos'
     end
     item
       IndexID = 160
-      Text = 'Kupec'
+      Text = 'Kupci'
     end
     item
       IndexID = 161
-      Text = 'Dobavitelj'
+      Text = 'Dobavitelji'
     end
     item
       IndexID = 163
@@ -642,23 +642,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 164
-      Text = 'Vnos skupin'
+      Text = 'Vnos v dnevnik'
     end
     item
       IndexID = 165
-      Text = 'Racun'
+      Text = 'Ra'#269'un'
     end
     item
       IndexID = 166
-      Text = 'Poravnava'
+      Text = 'Vnos Blagajna / Banka'
     end
     item
       IndexID = 167
-      Text = '&OK'
+      Text = '&V redu'
     end
     item
       IndexID = 168
-      Text = '&Prekini'
+      Text = '&Prekli'#269'i'
     end
     item
       IndexID = 169
@@ -666,15 +666,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 170
-      Text = '*Packaging Unit'
+      Text = 'Embala'#382'na enota'
     end
     item
       IndexID = 171
-      Text = 'Izberi jezik'
+      Text = 'Izberite jezik'
     end
     item
       IndexID = 172
-      Text = 'Skupina knjig'
+      Text = 'Enota'
     end
     item
       IndexID = 173
@@ -686,7 +686,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 175
-      Text = 'Ime nove skupine knjig'
+      Text = 'Ime za novo enoto'
     end
     item
       IndexID = 176
@@ -694,7 +694,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 177
-      Text = 'Pod-konto'
+      Text = 'Podkonto'
     end
     item
       IndexID = 19
@@ -706,27 +706,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 179
-      Text = 'Porocilo skupine 1'
+      Text = 'Skupina poro'#269'anja 1'
     end
     item
       IndexID = 180
-      Text = 'Porocilo skupine 2'
+      Text = 'Skupina poro'#269'anja 2'
     end
     item
       IndexID = 181
-      Text = 'Placila'
+      Text = 'Pla'#269'ila'
     end
     item
       IndexID = 182
-      Text = 'Primanje'
+      Text = 'Prejemki'
     end
     item
       IndexID = 183
-      Text = 'Bancni racuni'
+      Text = 'Ban'#269'ni ra'#269'uni'
     end
     item
       IndexID = 184
-      Text = 'Otvori konto stavki'
+      Text = 'Konto z odprtimi postavkami'
     end
     item
       IndexID = 185
@@ -746,7 +746,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 189
-      Text = 'Fax'
+      Text = 'Faks'
     end
     item
       IndexID = 190
@@ -754,27 +754,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 191
-      Text = 'E-mail'
+      Text = 'E-po'#353'ta'
     end
     item
       IndexID = 192
-      Text = 'Kredit Limit'
+      Text = 'Kreditni limit'
     end
     item
       IndexID = 193
-      Text = 'Skupaj za placilo'
+      Text = 'Znesek bremenitve'
     end
     item
       IndexID = 194
-      Text = 'Trenutna bilanca'
+      Text = 'Trenutni saldo'
     end
     item
       IndexID = 195
-      Text = 'Zadnje placilo'
+      Text = 'Zadnje pla'#269'ilo'
     end
     item
       IndexID = 196
-      Text = 'Na'
+      Text = 'Dne'
     end
     item
       IndexID = 197
@@ -790,15 +790,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 200
-      Text = 'Sporocilo'
+      Text = 'Sporo'#269'ilo'
     end
     item
       IndexID = 201
-      Text = 'Racun onemogocen'
+      Text = 'Konto onemogo'#269'en'
     end
     item
       IndexID = 202
-      Text = 'Davcna '#353'tevilka'
+      Text = 'Dav'#269'na '#353'tevilka'
     end
     item
       IndexID = 203
@@ -806,7 +806,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 204
-      Text = 'Mesecne zamudne obresti'
+      Text = 'Mese'#269'ne zamudne obresti na zapadle zneske'
     end
     item
       IndexID = 205
@@ -814,7 +814,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 206
-      Text = 'Prihodki / Odhodki'
+      Text = 'Izkaz poslovnega izida'
     end
     item
       IndexID = 207
@@ -822,7 +822,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 208
-      Text = 'do'
+      Text = 'Do'
     end
     item
       IndexID = 209
@@ -834,19 +834,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 211
-      Text = 'Debit'
+      Text = 'V breme'
     end
     item
       IndexID = 212
-      Text = 'Kredit'
+      Text = 'V dobro'
     end
     item
       IndexID = 213
-      Text = #352'ifra izdelka'
+      Text = #352'ifra artikla'
     end
     item
       IndexID = 214
-      Text = 'Merska enota'
+      Text = 'Enote'
     end
     item
       IndexID = 215
@@ -874,11 +874,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 221
-      Text = 'Nivo ponovnog narucivanja'
+      Text = 'Raven za ponovno naro'#269'anje'
     end
     item
       IndexID = 222
-      Text = 'Prijavi popust na'
+      Text = 'Uveljavi popust na ra'#269'unu'
     end
     item
       IndexID = 223
@@ -886,51 +886,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 224
-      Text = 'Stro'#353'ki prodaje'
+      Text = 'Nabavna vrednost prodanega blaga'
     end
     item
       IndexID = 225
-      Text = 'Kontrola zaloge'
+      Text = 'Nadzor zalog'
     end
     item
       IndexID = 226
-      Text = 'Povprecni stro'#353'ek'
+      Text = 'Povpre'#269'na nabavna cena'
     end
     item
       IndexID = 227
-      Text = 'Kolicina na zalogi'
+      Text = 'Koli'#269'ina na zalogi'
     end
     item
       IndexID = 228
-      Text = 'Celotni stro'#353'ki'
+      Text = 'Skupni stro'#353'ki'
     end
     item
       IndexID = 229
-      Text = 'Zadnji racun'
+      Text = 'Zadnji ra'#269'un'
     end
     item
       IndexID = 230
-      Text = 'Od racuna'
+      Text = 'Od ra'#269'una'
     end
     item
       IndexID = 231
-      Text = 'Do racuna'
+      Text = 'Do ra'#269'una'
     end
     item
       IndexID = 232
-      Text = 'Vkljuci stavke do'
+      Text = 'Vklju'#269'i postavke do'
     end
     item
       IndexID = 233
-      Text = 'Stanje v banki'
+      Text = 'Stanje na banki'
     end
     item
       IndexID = 234
-      Text = 'Racun '#353't.'
+      Text = #352't. ra'#269'una'
     end
     item
       IndexID = 235
-      Text = 'Po'#353'tna '#353'tevilka'
+      Text = 'Po'#353'tni naslov'
     end
     item
       IndexID = 236
@@ -938,7 +938,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 237
-      Text = 'Referencna '#353'tevilka'
+      Text = 'Va'#353'a referenca'
     end
     item
       IndexID = 238
@@ -946,23 +946,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 239
-      Text = 'Sporocilo'
+      Text = 'Sporo'#269'ilo'
     end
     item
       IndexID = 240
-      Text = 'Po'#353'lji porocilo'
+      Text = 'Po'#353'lji poro'#269'ilo na'
     end
     item
       IndexID = 241
-      Text = 'Vrsta skupine'
+      Text = 'Vrsta dnevnika'
     end
     item
       IndexID = 242
-      Text = 'Katero leto'
+      Text = 'Za leto'
     end
     item
       IndexID = 243
-      Text = 'Od datuma porocanja'
+      Text = 'Od datuma poro'#269'anja'
     end
     item
       IndexID = 244
@@ -970,7 +970,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 245
-      Text = 'Poka'#382'i zacetna stanja'
+      Text = 'Prika'#382'i izravnalne vnose'
     end
     item
       IndexID = 246
@@ -978,71 +978,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 247
-      Text = 'Sekvenca'
+      Text = 'Zaporedje'
     end
     item
       IndexID = 248
-      Text = 'Vkljuci nicne bilance'
+      Text = 'Vklju'#269'i ni'#269'elne salde'
     end
     item
       IndexID = 249
-      Text = 'Mo'#382'nosti porocil za transakcije dobaviteljev'
+      Text = 'Mo'#382'nosti poro'#269'ila o transakcijah dobaviteljev'
     end
     item
       IndexID = 250
-      Text = 'Bancni racun'
+      Text = 'Ban'#269'ni ra'#269'uni'
     end
     item
       IndexID = 251
-      Text = 'Konto dobavitelja'
+      Text = 'Konti dobaviteljev'
     end
     item
       IndexID = 252
-      Text = 'Konto kupca'
+      Text = 'Konti kupcev'
     end
     item
       IndexID = 253
-      Text = 'Konto Glavne knjige salda konta'
+      Text = 'Konti glavne knjige'
     end
     item
       IndexID = 254
-      Text = 'Davcni konto'
+      Text = 'Dav'#269'ni konti'
     end
     item
       IndexID = 255
-      Text = 'Konto proracuna'
+      Text = 'Konti prora'#269'una'
     end
     item
       IndexID = 256
-      Text = 'Konto bank'
+      Text = 'Ban'#269'ni ra'#269'uni'
     end
     item
       IndexID = 257
-      Text = 'Izdelki v skladi'#353'cu'
+      Text = 'Artikel zaloge'
     end
     item
       IndexID = 258
-      Text = 'Uporabni'#353'ko porocilo'
+      Text = 'Uporabni'#353'ko poro'#269'ilo'
     end
     item
       IndexID = 259
-      Text = 'Poravnanje konta banke'
+      Text = 'Uskladi ban'#269'ni ra'#269'un'
     end
     item
       IndexID = 260
-      Text = 'Izdaja racuna'
+      Text = 'Izdajanje ra'#269'unov'
     end
     item
       IndexID = 261
-      Text = 'Opcije izvje'#353'taja po tipu skupine'
+      Text = 'Mo'#382'nosti poro'#269'ila po vrstah dnevnikov'
     end
     item
       IndexID = 262
-      Text = 'Opcije izvje'#353'taja po kontu'
+      Text = 'Mo'#382'nosti seznama kontov'
     end
     item
       IndexID = 263
-      Text = 'Vremenska analiza placanja du'#382'nika'
+      Text = 'Mo'#382'nosti starostne analize kupcev'
     end
     item
       IndexID = 264
@@ -1050,11 +1050,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 265
-      Text = 'Uporabi odprto postavko'
+      Text = 'Odprta postavka'
     end
     item
       IndexID = 266
-      Text = 'Zanemari niclo bilanco'
+      Text = 'Prezri ni'#269'elne salde'
     end
     item
       IndexID = 267
@@ -1062,7 +1062,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 268
-      Text = 'Razvrsti po imenu'
+      Text = 'Razvrsti po nazivu'
     end
     item
       IndexID = 269
@@ -1070,35 +1070,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 270
-      Text = 'Date of Ageing'
+      Text = 'Datum starostne analize'
     end
     item
       IndexID = 271
-      Text = '*up to'
+      Text = 'do'
     end
     item
       IndexID = 272
-      Text = '*Month(s) up to'
+      Text = #352'tevilo mesecev do'
     end
     item
       IndexID = 273
-      Text = 'Mo'#382'nosti prikaza kontov'
+      Text = 'Mo'#382'nosti seznama kontov'
     end
     item
       IndexID = 274
-      Text = 'Opcije promjena du'#382'nika'
+      Text = 'Mo'#382'nosti prometa kupcev'
     end
     item
       IndexID = 275
-      Text = 'Opcije izvje'#353'taja transakcija du'#382'nika'
+      Text = 'Mo'#382'nosti poro'#269'ila o transakcijah kupcev'
     end
     item
       IndexID = 276
-      Text = 'Prika'#382'i pod - konto'
+      Text = 'Prika'#382'i podkonte'
     end
     item
       IndexID = 277
-      Text = 'Opcije znacajki proracuna'
+      Text = 'Mo'#382'nosti realizacije prora'#269'una'
     end
     item
       IndexID = 278
@@ -1106,15 +1106,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 279
-      Text = 'Opcije promjena kreditora'
+      Text = 'Mo'#382'nosti prometa dobaviteljev'
     end
     item
       IndexID = 280
-      Text = 'Opcije promjena generalnog salda konta'
+      Text = 'Mo'#382'nosti prometa kontov glavne knjige'
     end
     item
       IndexID = 281
-      Text = 'Mo'#382'nosti poskusne bilance'
+      Text = 'Mo'#382'nosti bruto bilance'
     end
     item
       IndexID = 282
@@ -1122,15 +1122,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 283
-      Text = 'Poravnava bancnih racunov'
+      Text = 'Ban'#269'na uskladitev'
     end
     item
       IndexID = 284
-      Text = 'Od '#352'tevilke'
+      Text = 'Od '#353't. ra'#269'una'
     end
     item
       IndexID = 285
-      Text = 'Do '#352'tevilke'
+      Text = 'Do '#353't. ra'#269'una'
     end
     item
       IndexID = 286
@@ -1146,15 +1146,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 289
-      Text = 'Od kode izdelka'
+      Text = 'Od '#353'ifre artikla'
     end
     item
       IndexID = 290
-      Text = 'Mo'#382'nosti aktivnosti skladi'#353'ca'
+      Text = 'Mo'#382'nosti gibanja zaloge'
     end
     item
       IndexID = 291
-      Text = 'Kontrola dostopa'
+      Text = 'Nadzor dostopa'
     end
     item
       IndexID = 292
@@ -1174,7 +1174,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 296
-      Text = 'Uredi konto'
+      Text = 'Uredi konte'
     end
     item
       IndexID = 297
@@ -1182,63 +1182,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 298
-      Text = 'Vnos skupine'
+      Text = 'Vnos v dnevnik'
     end
     item
       IndexID = 299
-      Text = 'Dobropis '#353't.'
+      Text = #352't. dobropisa'
     end
     item
       IndexID = 300
-      Text = 'Racuni'
+      Text = 'Ra'#269'uni'
     end
     item
       IndexID = 301
-      Text = 'Namestitev sistema'
+      Text = 'Nastavitve sistema'
     end
     item
       IndexID = 302
-      Text = 'Prejem'
+      Text = 'Nabava'
     end
     item
       IndexID = 303
-      Text = 'Vracilo izdelkov'
+      Text = 'Vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 304
-      Text = 'Onemogoceno'
+      Text = 'Onemogo'#269'eno'
     end
     item
       IndexID = 305
-      Text = 'Porocilo o dobavitelju'
+      Text = 'Poro'#269'ila o dobaviteljih'
     end
     item
       IndexID = 306
-      Text = 'Porocilo o doll'#382'niku'
+      Text = 'Poro'#269'ila o kupcih'
     end
     item
       IndexID = 307
-      Text = 'Porocilo glavne knjige'
+      Text = 'Poro'#269'ila glavne knjige'
     end
     item
       IndexID = 308
-      Text = 'Porocilo o zalogi'
+      Text = 'Poro'#269'ila o zalogah'
     end
     item
       IndexID = 309
-      Text = 'Uporabni'#353'ka porocila'
+      Text = 'Uporabni'#353'ka poro'#269'ila'
     end
     item
       IndexID = 310
-      Text = 'Po'#353'lji'
+      Text = 'Knji'#382'enje'
     end
     item
       IndexID = 311
-      Text = 'Globalni procesi'
+      Text = 'Splo'#353'ni procesi'
     end
     item
       IndexID = 312
-      Text = 'Tel'
+      Text = 'Tel.'
     end
     item
       IndexID = 313
@@ -1246,39 +1246,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 314
-      Text = 'Davcna metoda'
+      Text = 'Metoda obra'#269'una DDV'
     end
     item
       IndexID = 315
-      Text = 'Konto koji se du'#382'i'
+      Text = 'Zapadli konto'
     end
     item
       IndexID = 316
-      Text = 'Maticna '#353'tevilka podjetja'
+      Text = 'Mati'#269'na '#353'tevilka podjetja'
     end
     item
       IndexID = 317
-      Text = 'Davcna '#353'tevilka podjetja'
+      Text = 'ID '#353'tevilka za DDV'
     end
     item
       IndexID = 318
-      Text = 'Izvje'#353'tj o iznosu s'
+      Text = 'Prika'#382'i zneske poro'#269'ila z'
     end
     item
       IndexID = 319
-      Text = 'Pritisnite tukaj za nastavitev datuma v Windowsih'
+      Text = 'Nastavitev oblike datuma v sistemu Windows'
     end
     item
       IndexID = 320
-      Text = 'Informacije o podjetju'
+      Text = 'Podatki o podjetju'
     end
     item
       IndexID = 321
-      Text = 'Naslednja '#353't. racuna'
+      Text = 'Naslednja '#353't. ra'#269'una'
     end
     item
       IndexID = 322
-      Text = 'Skupina racunov'
+      Text = 'Dnevnik izdanih ra'#269'unov'
     end
     item
       IndexID = 323
@@ -1286,11 +1286,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 324
-      Text = 'Glava racuna'
+      Text = 'Glava ra'#269'una'
     end
     item
       IndexID = 325
-      Text = 'Sporocilo na racunu'
+      Text = 'Sporo'#269'ilo na ra'#269'unu'
     end
     item
       IndexID = 326
@@ -1298,7 +1298,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 327
-      Text = 'Skupina dobropisov'
+      Text = 'Dnevnik dobropisov'
     end
     item
       IndexID = 328
@@ -1306,51 +1306,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 329
-      Text = 'Sporocilo na dobropisu'
+      Text = 'Sporo'#269'ilo na dobropisu'
     end
     item
       IndexID = 330
-      Text = 'Naslednja '#353't. prejema'
+      Text = 'Naslednja '#353't. nabave'
     end
     item
       IndexID = 331
-      Text = 'Skupina prejemov'
+      Text = 'Dnevnik prejetih ra'#269'unov'
     end
     item
       IndexID = 332
-      Text = 'Glava prejema'
+      Text = 'Glava nabavnega dokumenta'
     end
     item
       IndexID = 333
-      Text = 'Sporocilo na prejemu'
+      Text = 'Sporo'#269'ilo na nabavnem dokumentu'
     end
     item
       IndexID = 334
-      Text = 'Naslednja '#353't. vracila'
+      Text = 'Naslednja '#353't. vra'#269'ila dobavitelju'
     end
     item
       IndexID = 335
-      Text = 'Skupina vracila'
+      Text = 'Dnevnik vra'#269'il dobaviteljem'
     end
     item
       IndexID = 336
-      Text = 'Glava vracila'
+      Text = 'Glava vra'#269'ila dobavitelju'
     end
     item
       IndexID = 337
-      Text = 'Sporocilo na vracilu'
+      Text = 'Sporo'#269'ilo na vra'#269'ilu dobavitelju'
     end
     item
       IndexID = 338
-      Text = 'Naslednja '#353't. narocila'
+      Text = 'Naslednja '#353't. naro'#269'ila'
     end
     item
       IndexID = 339
-      Text = 'Glava narocila'
+      Text = 'Glava naro'#269'ila'
     end
     item
       IndexID = 340
-      Text = 'Sporocilo na narocilu'
+      Text = 'Sporo'#269'ilo na naro'#269'ilu'
     end
     item
       IndexID = 341
@@ -1362,11 +1362,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 343
-      Text = 'Sporocilo na ponudbi'
+      Text = 'Sporo'#269'ilo na ponudbi'
     end
     item
       IndexID = 344
-      Text = 'Nastavitev dokumentov'
+      Text = 'Nastavitve dokumentov'
     end
     item
       IndexID = 345
@@ -1374,39 +1374,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 346
-      Text = 'Vrsta placila'
+      Text = 'Vrste pla'#269'il'
     end
     item
       IndexID = 347
-      Text = 'Namestitev izjave'
+      Text = 'Nastavitve izpiskov'
     end
     item
       IndexID = 348
-      Text = 'Besedilo na izjavi'
+      Text = 'Sporo'#269'ilo na izpisku'
     end
     item
       IndexID = 349
-      Text = 'Skupina stro'#353'kov prodaje'
+      Text = 'Dnevnik NVBP'
     end
     item
       IndexID = 350
-      Text = 'Informacije o zalogi'
+      Text = 'Podatki o zalogi'
     end
     item
       IndexID = 351
-      Text = 'Pripravi stro'#353'ke prodaje'
+      Text = 'Obra'#269'unaj NVBP'
     end
     item
       IndexID = 352
-      Text = 'Splo'#353'ne informacije'
+      Text = 'Splo'#353'ni podatki'
     end
     item
       IndexID = 353
-      Text = 'Racunovodske informacije'
+      Text = 'Ra'#269'unovodski podatki'
     end
     item
       IndexID = 354
-      Text = 'Izjave'
+      Text = 'Izpiski'
     end
     item
       IndexID = 355
@@ -1422,15 +1422,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 358
-      Text = 'Osve'#382'i'
+      Text = 'Posodobi'
     end
     item
       IndexID = 359
-      Text = 'Otvori relink stavki'
+      Text = 'Ponovno povezovanje odprtih postavk'
     end
     item
       IndexID = 360
-      Text = 'Otvori link stavki'
+      Text = 'Povezovanje odprtih postavk'
     end
     item
       IndexID = 365
@@ -1438,15 +1438,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 366
-      Text = 'Vnos skupine'
+      Text = 'Vnos v dnevnik'
     end
     item
       IndexID = 367
-      Text = '^I: Izbri'#353'i'
+      Text = '^D: Izbri'#353'i'
     end
     item
       IndexID = 368
-      Text = '^D: Dodaj'
+      Text = '^N: Vstavi'
     end
     item
       IndexID = 369
@@ -1454,11 +1454,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 370
-      Text = 'F6: Po'#353'lji'
+      Text = 'F6: Knji'#382'i'
     end
     item
       IndexID = 371
-      Text = 'F7: Brez Davka'
+      Text = 'F7: Brez DDV'
     end
     item
       IndexID = 372
@@ -1466,31 +1466,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 373
-      Text = 'F9: Proces'
+      Text = 'F9: Obdelaj'
     end
     item
       IndexID = 374
-      Text = 'F10: Namestitev'
+      Text = 'F10: Nastavitve'
     end
     item
       IndexID = 375
-      Text = 'Vrednost z davkom:'
+      Text = 'Znesek z DDV:'
     end
     item
       IndexID = 376
-      Text = 'Vrednost brez davka:'
+      Text = 'Znesek brez DDV:'
     end
     item
       IndexID = 377
-      Text = 'Odgovarajuci zbroj:'
+      Text = 'Referen'#269'na vsota:'
     end
     item
       IndexID = 378
-      Text = 'Smje'#353'ten na:'
+      Text = 'Zapri na:'
     end
     item
       IndexID = 379
-      Text = 'Proti konto:'
+      Text = 'Protikonto:'
     end
     item
       IndexID = 380
@@ -1498,31 +1498,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 381
-      Text = 'Prodaja po izdelku'
+      Text = 'Prodaja po artiklih'
     end
     item
       IndexID = 382
-      Text = 'Prodaja po prodajalcu'
+      Text = 'Prodaja po prodajalcih'
     end
     item
       IndexID = 383
-      Text = 'Prodaja po skupini'
+      Text = 'Prodaja po skupinah'
     end
     item
       IndexID = 384
-      Text = 'Prodaja po mo'#382'nostih kupca'
+      Text = 'Mo'#382'nosti prodaje po kupcih'
     end
     item
       IndexID = 385
-      Text = 'Prodaja po mo'#382'nostih izdelka'
+      Text = 'Mo'#382'nosti prodaje po artiklih'
     end
     item
       IndexID = 386
-      Text = 'Prodaja po mo'#382'nostih prodajalca'
+      Text = 'Mo'#382'nosti prodaje po prodajalcih'
     end
     item
       IndexID = 387
-      Text = 'Prodaja po mo'#382'nostih skupine'
+      Text = 'Mo'#382'nosti prodaje po skupinah'
     end
     item
       IndexID = 388
@@ -1530,23 +1530,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 389
-      Text = 'Od izdelka'
+      Text = 'Od artikla'
     end
     item
       IndexID = 390
-      Text = 'Opcije izvje'#353'taja poreza'
+      Text = 'Mo'#382'nosti poro'#269'ila o DDV'
     end
     item
       IndexID = 391
-      Text = #352'ifra davka'
+      Text = #352'ifra DDV'
     end
     item
       IndexID = 392
-      Text = 'Poka'#382'i podrobnosti'
+      Text = 'Prika'#382'i podrobnosti'
     end
     item
       IndexID = 393
-      Text = 'Klasicno'
+      Text = 'Klasi'#269'na'
     end
     item
       IndexID = 394
@@ -1566,11 +1566,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 398
-      Text = 'Sme'#353'na'
+      Text = 'Comic'
     end
     item
       IndexID = 399
-      Text = 'Egipt'
+      Text = 'Egypt'
     end
     item
       IndexID = 400
@@ -1582,7 +1582,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 402
-      Text = 'Vesoljska'
+      Text = 'Space'
     end
     item
       IndexID = 403
@@ -1590,43 +1590,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 404
-      Text = 'Odprto'
+      Text = 'Povezovanje odprtih postavk'
     end
     item
       IndexID = 405
-      Text = 'Osve'#382'i racune'
+      Text = 'Posodobi ra'#269'une'
     end
     item
       IndexID = 406
-      Text = 'Datum izjave'
+      Text = 'Datum izpiskov'
     end
     item
       IndexID = 407
-      Text = 'Prika'#382'i davcne transakcije'
+      Text = 'Prika'#382'i transakcije DDV'
     end
     item
       IndexID = 408
-      Text = 'Porocilo o dol'#382'niku'
+      Text = 'Poro'#269'ila o kupcih'
     end
     item
       IndexID = 409
-      Text = 'Prika'#382'i davek posebej'
+      Text = 'Prika'#382'i DDV lo'#269'eno'
     end
     item
       IndexID = 410
-      Text = 'Opcije promjena zaliha skladi'#353'ta'
+      Text = 'Mo'#382'nosti gibanja zaloge'
     end
     item
       IndexID = 411
-      Text = 'Opcije izvje'#353'taja skladi'#353'ta'
+      Text = 'Mo'#382'nosti seznama zaloge'
     end
     item
       IndexID = 412
-      Text = 'Informacija za ukljuciti'
+      Text = 'Podatki za vklju'#269'itev'
     end
     item
       IndexID = 413
-      Text = 'Kolicina'
+      Text = 'Koli'#269'ina'
     end
     item
       IndexID = 414
@@ -1634,7 +1634,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 415
-      Text = 'Stanje zaloge'
+      Text = 'Popis zaloge'
     end
     item
       IndexID = 416
@@ -1642,15 +1642,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 417
-      Text = 'Vrijednost zaloge'
+      Text = 'Vrednost zaloge'
     end
     item
       IndexID = 418
-      Text = 'Ponudba'
+      Text = 'Ponudbe'
     end
     item
       IndexID = 419
-      Text = 'Vracilo dobavitelju'
+      Text = 'Vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 420
@@ -1658,7 +1658,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 421
-      Text = 'Skupine dol'#382'nikov'
+      Text = 'Skupine kupcev'
     end
     item
       IndexID = 422
@@ -1666,7 +1666,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 423
-      Text = 'Skupine skladi'#353'ca'
+      Text = 'Skupine artiklov'
     end
     item
       IndexID = 424
@@ -1675,162 +1675,162 @@ object TTranslationSaveObject
     item
       IndexID = 425
       Text = 
-        'Opozorilo, ta sprememba bo resno spremenila va'#353'e knjige, '#382'elite ' +
-        #353'e vedno nadaljevati?'
+        'Opozorilo! To bo resno vplivalo na va'#353'o enoto! Ali '#353'e vedno '#382'eli' +
+        'te nadaljevati?'
     end
     item
       IndexID = 426
-      Text = 'Izbrali ste brisanje vseh uporabnikov, dostop ne bo vec mogoc'
+      Text = 
+        'Izbrali ste brisanje vseh uporabnikov! Nadzor dostopa bo zdaj on' +
+        'emogo'#269'en!'
     end
     item
       IndexID = 427
       Text = 
-        'Obstaja neposlana skupina, ki pripada temu uporabniku, prosimo v' +
-        'as da jo po'#353'ljete ali izbri'#353'ete preden izbri'#353'ete tega uporabnika'
+        'S tem uporabnikom so povezani neknji'#382'eni dnevniki! Prosimo, knji' +
+        #382'ite ali izbri'#353'ite jih pred brisanjem tega uporabnika.'
     end
     item
       IndexID = 428
       Text = 
-        'Obstaja batch tega uporabnika, prosimo izberite novega uporabnik' +
-        'a, ki mu bo dodana ta skupina'
+        'S tem uporabnikom so povezani dnevniki! Prosimo, izberite novega' +
+        ' uporabnika, ki mu boste dodelili te dnevnike.'
     end
     item
       IndexID = 429
       Text = 
-        '*Postoji transakcija od ovog korisnika, molimo vas odaberite nov' +
-        'og korisnika kojem ce se pridru'#382'iti ta transakcija'
+        'S tem uporabnikom so povezane transakcije! Prosimo, izberite nov' +
+        'ega uporabnika, ki mu boste dodelili te transakcije.'
     end
     item
       IndexID = 430
-      Text = 
-        #381'elite shraniti spremembe, ki ste jih naredili za tega uporabnik' +
-        'a?'
+      Text = 'Ali '#382'elite shraniti spremembe za tega uporabnika?'
     end
     item
       IndexID = 431
-      Text = 'Prosim vnesite geslo za tega uporabnika.'
+      Text = 'Prosimo, vnesite geslo za tega uporabnika!'
     end
     item
       IndexID = 432
-      Text = 'Ustvari konto?'
+      Text = #381'elite ustvariti ta konto?'
     end
     item
       IndexID = 433
-      Text = 'Nepravilna '#353't. konta, na prvem mestu mora biti '#353'tevilka.'
+      Text = 'Neveljavna '#353'tevilka konta! Prvi znak mora biti '#353'tevilka!'
     end
     item
       IndexID = 434
-      Text = 'To ni bancni konto.'
+      Text = 'To ni ban'#269'ni konto!'
     end
     item
       IndexID = 435
-      Text = #381'elite shraniti spremembe?'
+      Text = 'Ali '#382'elite shraniti spremembe?'
     end
     item
       IndexID = 436
-      Text = '!!! KRITICNA NAPAKA DATOTEKE 12 !!!'
+      Text = '!!! KRITI'#268'NA NAPAKA DATOTEKE 12 !!!'
     end
     item
       IndexID = 437
-      Text = 'Ste prepricani da '#382'elite izbrisati transakcijo?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati to transakcijo?'
     end
     item
       IndexID = 438
-      Text = #381'elite prenesti to transakcijo na preteklo leto?'
+      Text = 'Ali '#382'elite to transakcijo dodeliti preteklemu poslovnemu letu?'
     end
     item
       IndexID = 439
-      Text = 'Skupina ni v izenacena.'
+      Text = 'Dnevnik ni uravnote'#382'en!'
     end
     item
       IndexID = 440
-      Text = 'Konto ne obstaja, ali ga '#382'elite odpreti?'
+      Text = 'Konto ne obstaja. Ali ga '#382'elite ustvariti?'
     end
     item
       IndexID = 441
-      Text = #381'elite nadaljevati z porocilom?'
+      Text = 'Ali '#382'elite nadaljevati z izdelavo poro'#269'ila?'
     end
     item
       IndexID = 442
       Text = 
-        'Ne morem izbrisati te vrste skupine zaradi povezave z drugimi el' +
-        'ementi.'
+        'Te vrste dnevnika ni mogo'#269'e izbrisati! Z njo so povezani obstoje' +
+        #269'i dnevniki!'
     end
     item
       IndexID = 443
       Text = 
-        'Izmjena tipa skupine ce ozbiljno utjecati na va'#353'e knjige, dali s' +
-        'te sigurni da '#382'elite uraditit to?'
+        'Urejanje vrst dnevnikov bo resno vplivalo na va'#353'o enoto! Ali ste' +
+        ' prepri'#269'ani, da '#382'elite to storiti?'
     end
     item
       IndexID = 444
       Text = 
-        'Ovo ce ozbiljno utjecati na va'#353'a konta, dali '#382'elite prekinuti ov' +
-        'o sada?'
+        'To bo resno vplivalo na va'#353'o enoto! Ali '#382'elite postopek zdaj pre' +
+        'klicati?'
     end
     item
       IndexID = 445
-      Text = #381'elite shraniti te spremembe?'
+      Text = 'Ali '#382'elite shraniti te spremembe?'
     end
     item
       IndexID = 446
-      Text = 'Ste prepricani da '#382'elite ustvariti'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite ustvariti'
     end
     item
       IndexID = 447
-      Text = 'Skupina knjig?'
+      Text = 'Enoto?'
     end
     item
       IndexID = 448
-      Text = 'Skupina knjig ustvarjena.'
+      Text = 'Enota je ustvarjena!'
     end
     item
       IndexID = 449
-      Text = 'Napaka pri izdelavi knjig.'
+      Text = 'Napaka pri ustvarjanju knjig!'
     end
     item
       IndexID = 450
-      Text = '*The'
+      Text = 'Ta'
     end
     item
       IndexID = 451
-      Text = 'Skupina knjig '#382'e obstaja.'
+      Text = 'Enota '#382'e obstaja!'
     end
     item
       IndexID = 452
-      Text = 'Konto ne sme biti prazen.'
+      Text = 'Konto ne sme biti prazen!'
     end
     item
       IndexID = 453
-      Text = 'Na prvem mestu mora biti '#353'tevilka.'
+      Text = 'Prvi znak '#353'tevilke konta mora biti '#353'tevilka!'
     end
     item
       IndexID = 454
-      Text = 'Zakljuceno!'
+      Text = 'Kon'#269'ano!'
     end
     item
       IndexID = 455
-      Text = 'Mapa ne vsebuje TurboCASH 2.01, 2.02 or 2.03 knjig.'
+      Text = 'Ta imenik ne vsebuje enote TurboCASH 2.01, 2.02 ali 2.03!'
     end
     item
       IndexID = 456
-      Text = 'Ste prepricani da '#382'elite prekiniti?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite preklicati?'
     end
     item
       IndexID = 457
-      Text = #381'elite ustvariti ta konto?'
+      Text = 'Ali '#382'elite ustvariti ta konto?'
     end
     item
       IndexID = 458
-      Text = 'Ste prepricani da '#382'elite izbrisati'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati'
     end
     item
       IndexID = 459
-      Text = 'skupino knjig?'
+      Text = 'skupino kontov?'
     end
     item
       IndexID = 460
-      Text = 'Ste prepricani da '#382'elite izbrisati ta konto?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati ta konto?'
     end
     item
       IndexID = 461
@@ -1838,360 +1838,363 @@ object TTranslationSaveObject
     end
     item
       IndexID = 462
-      Text = 'pod-kont(i) ne more biti izbrisan.'
+      Text = 'podkonte in ga ni mogo'#269'e izbrisati!'
     end
     item
       IndexID = 463
       Text = 
-        'Ne morete izbrisati izdelka ker je povezan z drugimi transakcija' +
-        'mi.'
+        'Tega artikla ne morete izbrisati! Z njim so povezane transakcije' +
+        '!'
     end
     item
       IndexID = 464
-      Text = 'Ste prepricani da '#382'elite izbrisati ta izdelek?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati ta artikel?'
     end
     item
       IndexID = 465
-      Text = 'Izdelek je izbrisan.'
+      Text = 'Artikel zaloge je izbrisan!'
     end
     item
       IndexID = 466
-      Text = 'Ta izdelek na obstaja.'
+      Text = 'Ta artikel zaloge ne obstaja!'
     end
     item
       IndexID = 467
-      Text = 'To ni salda konto.'
+      Text = 'To ni konto glavne knjige!'
     end
     item
       IndexID = 468
       Text = 
-        'Ovaj konto je jo'#353' uvijek aktivan, sve transakcije ce biti premje' +
-        #353'tene na naovi pod-konto, sigurni ste da '#382'elite napraviti ovaj p' +
-        'od-konto?'
+        'Ta konto je '#353'e aktiven! Vse transakcije bodo prenesene na nov po' +
+        'dkonto. Ali res '#382'elite ustvariti podkonto?'
     end
     item
       IndexID = 469
-      Text = 'To ni konto za davek'
+      Text = 'To ni konto DDV!'
     end
     item
       IndexID = 470
-      Text = 'Vezani znesek mora biti manj'#353'i ali enak'
+      Text = 'Znesek povezave mora biti manj'#353'i ali enak'
     end
     item
       IndexID = 471
-      Text = 'Niste '#353'e ustvarili skupine knjig.'
+      Text = 'Enote '#353'e niste nastavili!'
     end
     item
       IndexID = 472
-      Text = 'Vnos je '#382'e povezan.'
+      Text = 'Ta vnos je '#382'e povezan!'
     end
     item
       IndexID = 473
-      Text = 'S tem kupcen ni nobenih povezav.'
+      Text = 'Za tega kupca ni postavk za povezavo!'
     end
     item
       IndexID = 474
-      Text = 'Ste prepricani da '#382'elite razvezati ta vnos?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite razveljaviti povezavo tega vnosa?'
     end
     item
       IndexID = 475
-      Text = 'Napacno geslo'
+      Text = 'Neveljavno geslo!'
     end
     item
       IndexID = 476
-      Text = 'Napaka pri datumu !!!! Preveri datum 1'
+      Text = 'Konflikt datumov !!!! Preverite datum 1'
     end
     item
       IndexID = 477
-      Text = 'Napaka pri datumu !!!! Preveri datum 2'
+      Text = 'Konflikt datumov !!!! Preverite datum 2'
     end
     item
       IndexID = 478
-      Text = 'Napaka pri datumu !!!! Preveri datum 3'
+      Text = 'Konflikt datumov !!!! Preverite datum 3'
     end
     item
       IndexID = 479
-      Text = 'Napaka pri datumu !!!! Preveri datum 4'
+      Text = 'Konflikt datumov !!!! Preverite datum 4'
     end
     item
       IndexID = 480
-      Text = 'Napaka pri datumu !!!! Preveri datum 5'
+      Text = 'Konflikt datumov !!!! Preverite datum 5'
     end
     item
       IndexID = 481
-      Text = 'Napaka pri datumu !!!! Preveri datum 6'
+      Text = 'Konflikt datumov !!!! Preverite datum 6'
     end
     item
       IndexID = 482
-      Text = 'Napaka pri datumu !!!! Preveri datum 7'
+      Text = 'Konflikt datumov !!!! Preverite datum 7'
     end
     item
       IndexID = 483
-      Text = 'Napaka pri datumu !!!! Preveri datum 8'
+      Text = 'Konflikt datumov !!!! Preverite datum 8'
     end
     item
       IndexID = 484
-      Text = 'Napaka pri datumu !!!! Preveri datum 9'
+      Text = 'Konflikt datumov !!!! Preverite datum 9'
     end
     item
       IndexID = 485
-      Text = 'Napaka pri datumu !!!! Preveri datum 10'
+      Text = 'Konflikt datumov !!!! Preverite datum 10'
     end
     item
       IndexID = 486
-      Text = 'Napaka pri datumu !!!! Preveri datum 11'
+      Text = 'Konflikt datumov !!!! Preverite datum 11'
     end
     item
       IndexID = 487
-      Text = 'Napaka pri datumu !!!! Preveri datum 12'
+      Text = 'Konflikt datumov !!!! Preverite datum 12'
     end
     item
       IndexID = 488
-      Text = 'Napaka pri datumu !!!! Preveri datum 13'
+      Text = 'Konflikt datumov !!!! Preverite datum 13'
     end
     item
       IndexID = 489
-      Text = 'Dovoljena so samo obdobja med 1 in 13'
+      Text = 'Dovoljena so samo obdobja med 1 in 13!'
     end
     item
       IndexID = 490
-      Text = 'Ste prepricani da '#382'elite prekiniti spremembe?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite preklicati spremembe?'
     end
     item
       IndexID = 491
-      Text = 'Ni podatkov za poravnavo!'
+      Text = 'Ni postavk za uskladitev!'
     end
     item
       IndexID = 492
-      Text = 'To ni konto iz skupine PRIHODKI/ODHODKI.'
+      Text = 'To ni konto prihodkov ali odhodkov!'
     end
     item
       IndexID = 493
-      Text = 'Konto vsebuje pod-konte.'
+      Text = 'Ta konto vsebuje podkonte!'
     end
     item
       IndexID = 494
-      Text = #381'elite ustvariti nov izdelek?'
+      Text = 'Ali '#382'elite ustvariti ta artikel zaloge?'
     end
     item
       IndexID = 495
-      Text = 'Error posting invoice, plase restore backup.'
+      Text = 
+        'Napaka pri knji'#382'enju ra'#269'una! Prosimo, obnovite podatke iz arhiva' +
+        '!'
     end
     item
       IndexID = 496
-      Text = 'Izberite uporabni'#353'ko porocilo'
+      Text = 'Izberite uporabni'#353'ko poro'#269'ilo'
     end
     item
       IndexID = 497
-      Text = 'Kolicina zaloge'
+      Text = 'Merske enote zaloge'
     end
     item
       IndexID = 498
-      Text = 'Opis prodajne cene'
+      Text = 'Opisi prodajnih cen'
     end
     item
       IndexID = 499
-      Text = 'Stro'#353'ki prodaje'
+      Text = 'NVBP'
     end
     item
       IndexID = 500
-      Text = #381'elite preveriti integriteto podatkov pred arhiviranjem?'
+      Text = 
+        'Ali '#382'elite pred ustvarjanjem arhiva zagnati preverjanje celovito' +
+        'sti podatkov?'
     end
     item
       IndexID = 501
-      Text = '*Do you wish to continue with the  backup?'
+      Text = 'Ali '#382'elite nadaljevati z arhiviranjem?'
     end
     item
       IndexID = 502
-      Text = '!!! FATALNA GRE'#352'KA NA DATOTECI 11 !!!'
+      Text = '!!! USODNA NAPAKA NA DATOTEKI 11 !!!'
     end
     item
       IndexID = 503
-      Text = 'Ovaj datum je van sada'#353'nje godine. On mora biti izmedu'
+      Text = 'Ta datum je izven teko'#269'ega leta! Biti mora med'
     end
     item
       IndexID = 504
-      Text = 'i'
+      Text = 'in'
     end
     item
       IndexID = 505
-      Text = #381'elite li isprintati ?'
+      Text = 'Ali '#382'elite takoj natisniti ta ra'#269'un?'
     end
     item
       IndexID = 506
-      Text = 'Upozorenje to su'
+      Text = 'Opozorilo! Na zalogi je'
     end
     item
       IndexID = 507
-      Text = 'Artikli na skladi'#353'tu.'
+      Text = 'artiklov.'
     end
     item
       IndexID = 508
-      Text = #381'elite li sigurno pocistiti sve upise u ovaj racun ?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite po'#269'istiti vse vnose v tem ra'#269'unu?'
     end
     item
       IndexID = 509
-      Text = 'Nepravilan popust, iznos mora biti pozitivan'
+      Text = 'Neveljaven popust! Znesek mora biti pozitiven!'
     end
     item
       IndexID = 510
       Text = 
-        #381'elite li napraviti provjeru cijelovitosti  podataka prije backu' +
-        'pa ?'
+        'Ali '#382'elite pred ustvarjanjem arhiva zagnati preverjanje celovito' +
+        'sti podatkov?'
     end
     item
       IndexID = 511
-      Text = '*Backup Complete.'
+      Text = 'Arhiviranje kon'#269'ano!'
     end
     item
       IndexID = 512
       Text = 
-        'Upozorenje ovo ce prebrisati va'#353'e sada'#353'nje knjige! Dal ste sigur' +
-        'ni da '#382'elite nastaviti?'
+        'OPOZORILO! S tem boste prepisali trenutno enoto! Ali ste prepri'#269 +
+        'ani, da '#382'elite nadaljevati?'
     end
     item
       IndexID = 513
       Text = 
-        'Molimo vas stavite disketu za backup i nastavite, ili odmah prek' +
-        'inute operaciju.'
+        'Prosimo, vstavite arhivski medij v pogon in nadaljujte ali pa ta' +
+        'koj prekli'#269'ite postopek.'
     end
     item
       IndexID = 514
-      Text = '*Restore Complete'
+      Text = 'Obnovitev podatkov je kon'#269'ana!'
     end
     item
       IndexID = 515
       Text = 
-        'Ova kopija <@APPNAME@> nije registrirana, dali '#382'elite da je odma' +
-        'h registrirate?'
+        'Ta kopija programa <@APPNAME@> ni registrirana! Ali jo '#382'elite re' +
+        'gistrirati zdaj?'
     end
     item
       IndexID = 516
       Text = 
-        'Ovo ce uni'#353'titi sve va'#353'e informacije. Dali ste sigurni da '#382'elite' +
-        ' to uraditi?'
+        'S tem boste izbrisali vse svoje podatke! Ali ste prepri'#269'ani, da ' +
+        #382'elite to storiti?'
     end
     item
       IndexID = 517
-      Text = 'Gotovo!'
+      Text = 'Kon'#269'ano!'
     end
     item
       IndexID = 518
-      Text = 'Ovaj direktorij ne sadr'#382'i skup knjiga.'
+      Text = 'Ta imenik ne vsebuje enote!'
     end
     item
       IndexID = 519
       Text = 
-        'Ovo ce ozbiljno promjeniti va'#353' skup knjiga, dali ste sigurni da ' +
-        #382'elite ocistii ovaj skup knjiga?'
+        'To bo resno vplivalo na va'#353'o enoto! Ali ste prepri'#269'ani, da '#382'elit' +
+        'e po'#269'istiti to enoto?'
     end
     item
       IndexID = 520
-      Text = 'Molimo vas ispunite registracijski obrazac.'
+      Text = 'Prosimo, izpolnite registracijski obrazec!'
     end
     item
       IndexID = 521
-      Text = 'Nepravilan kod za otkljucavanje.'
+      Text = 'Neveljavna koda za odklenitev!'
     end
     item
       IndexID = 522
-      Text = #381'elte li prekinuti registraciju?'
+      Text = 'Ali '#382'elite preklicati registracijo?'
     end
     item
       IndexID = 523
       Text = 
-        'Ovaj konto ima transakciju, dali '#382'elite prenijeti transakciju na' +
-        ' drugi konto?'
+        'Ta konto vsebuje transakcije! Ali '#382'elite prenesti transakcije na' +
+        ' drug konto?'
     end
     item
       IndexID = 524
-      Text = 'Ne mo'#382'ete prenijeti na ovaj konto po'#353'to on ima pod-konto.'
+      Text = 'Na ta konto ni mogo'#269'e prena'#353'ati! Vsebuje podkonte!'
     end
     item
       IndexID = 525
-      Text = 'Konto je obrisan.'
+      Text = 'Konto je izbrisan!'
     end
     item
       IndexID = 526
       Text = 
-        'Ovaj  du'#382'nik ima transakciju, dali je '#382'elite prenijeti na drugog' +
-        ' du'#382'nika ?'
+        'Ta kupec ima transakcije! Ali '#382'elite prenesti transakcije na dru' +
+        'gega kupca?'
     end
     item
       IndexID = 527
       Text = 
-        'Ovaj kreditor ima transakciju, dali je '#382'elite prenijeti na drugo' +
-        'g kreditora?'
+        'Ta dobavitelj ima transakcije! Ali '#382'elite prenesti transakcije n' +
+        'a drugega dobavitelja?'
     end
     item
       IndexID = 528
       Text = 
-        'Ovaj bankovni konto ima transakciju, dali ju '#382'elite prenijeti na' +
-        ' drugi konto?'
+        'Ta ban'#269'ni ra'#269'un ima transakcije! Ali '#382'elite prenesti transakcije' +
+        ' na drug ban'#269'ni ra'#269'un?'
     end
     item
       IndexID = 529
       Text = 
-        'Ovaj porezni konto ima transakciju, dali je '#382'elite prenijeti na ' +
-        'drugi porezni konto?'
+        'Ta dav'#269'ni konto ima transakcije! Ali '#382'elite prenesti transakcije' +
+        ' na drug dav'#269'ni konto?'
     end
     item
       IndexID = 530
-      Text = '*Upozorenje, tu je'
+      Text = 'Opozorilo! Obstajajo'
     end
     item
       IndexID = 531
-      Text = 'neposlana skupina i'
+      Text = 'Neknji'#382'eni dnevniki in'
     end
     item
       IndexID = 532
-      Text = 'neposlana skupina'
+      Text = 'Neknji'#382'eni dnevniki'
     end
     item
       IndexID = 534
-      Text = 'Karakteristike'
+      Text = 'Lastnosti'
     end
     item
       IndexID = 535
-      Text = 'Promijenite karakteristike skupa knjiga.'
+      Text = 'Spremeni lastnosti enote'
     end
     item
       IndexID = 536
-      Text = 'Ukucajte naziv za skup knjiga.'
+      Text = 'Vnesite ime enote'
     end
     item
       IndexID = 537
-      Text = 'Ukucajte mjesto gdje su knjige spremljenje.'
+      Text = 'Vnesite pot, kjer so shranjene knjige'
     end
     item
       IndexID = 538
-      Text = 'Promjeni'
+      Text = 'Spremeni'
     end
     item
       IndexID = 539
-      Text = 'Skup knjiga je pozvan'
+      Text = 'Enota z imenom'
     end
     item
       IndexID = 533
-      Text = 'neposlani dokumenti'
+      Text = 'nepoknji'#382'eni dokumenti'
     end
     item
       IndexID = 587
-      Text = 'Ulazni'
+      Text = 'Vnos ra'#269'una'
     end
     item
       IndexID = 588
-      Text = 'Gre'#353'ka'
+      Text = 'Napaka'
     end
     item
       IndexID = 589
       Text = 
-        'Upozorenje, ovaj datum ne pada niti u jedan izvje'#353'tajni datum u ' +
-        'ovoj niti u pro'#353'loj godini.'
+        'Opozorilo! Ta datum ne pripada nobenemu datumu poro'#269'anja za to a' +
+        'li preteklo leto!'
     end
     item
       IndexID = 590
-      Text = 'Ova skupina nije potvrdena!'
+      Text = 'Ta dnevnik ni veljaven!'
     end
     item
       IndexID = 1
@@ -2219,241 +2222,241 @@ object TTranslationSaveObject
     end
     item
       IndexID = 545
-      Text = 'Dali '#382'elite da:'
+      Text = 'Ali '#382'elite:'
     end
     item
       IndexID = 544
       Text = 
-        'Dobro do'#353'li u <@APPNAME@> dio za izradu skupa knjiga . Molimo va' +
-        's izaberite mogucnosti i stisnite na sljedece dugme ili stisnite' +
-        ' dugme za poni'#353'tenje da poni'#353'tite izradu novih knjiga.'
+        'Dobrodo'#353'li v '#269'arovniku za ustvarjanje enote <@APPNAME@>. Prosimo' +
+        ', izberite mo'#382'nost in kliknite gumb [Naprej] ali pa kliknite gum' +
+        'b [Prekli'#269'i] za prekinitev ustvarjanja nove enote.'
     end
     item
       IndexID = 543
-      Text = 'Gotovo'
+      Text = 'Kon'#269'aj'
     end
     item
       IndexID = 542
-      Text = 'Tra'#382'i'
+      Text = 'Brskaj'
     end
     item
       IndexID = 541
       Text = 
-        'Molimo vas izaberite skup knjiga sa liste, ili stisnite dugme za' +
-        ' tra'#382'enje da izaberete skup knjiga koje '#382'elite kopirati na drugo' +
-        ' mjesto u alnom sustavu.'
+        'Prosimo, izberite enoto s spodnjega seznama ali kliknite gumb [B' +
+        'rskaj], da izberete enoto, ki jo '#382'elite kopirati v drugo mapo v ' +
+        'va'#353'em sistemu.'
     end
     item
       IndexID = 540
-      Text = 'Kreacijski carobnjak'
+      Text = #268'arovnik za ustvarjanje'
     end
     item
       IndexID = 551
-      Text = 'Dalje >>'
+      Text = 'Naprej >>'
     end
     item
       IndexID = 550
-      Text = 'Pretvaranje TurboCASH3 -> <@APPNAME@>?'
+      Text = 'Pretvoriti TurboCASH3 -> <@APPNAME@>'
     end
     item
       IndexID = 549
-      Text = 'Izradi po svojoj volji skup knjiga ( za napredne )?'
+      Text = 'Prilagodite lastno enoto (napredno)'
     end
     item
       IndexID = 548
-      Text = 'Dopustite <@APPNAME@> da izradi Skup knjiga?'
+      Text = 'Naj vam <@APPNAME@> pomaga ustvariti enoto'
     end
     item
       IndexID = 547
-      Text = 'Kopiranje postojeceg skupa knjiga?'
+      Text = 'Kopiraj obstoje'#269'o enoto'
     end
     item
       IndexID = 546
-      Text = 'Pretvorba sa starije verzijeTurboCASH (v 2.01, 2.02, 2.03)?'
+      Text = 'Pretvoriti iz starej'#353'e razli'#269'ice TurboCASH (v 2.01, 2.02, 2.03)'
     end
     item
       IndexID = 557
-      Text = 'Molimo vas stisnite  zavr'#353'etak da odredite va'#353'::'
+      Text = 'Prosimo, kliknite [Kon'#269'aj], da dolo'#269'ite va'#353'e:'
     end
     item
       IndexID = 556
       Text = 
-        'Sada treba'#353' ukucati broj perioda koji su u tvojoj financijskoj g' +
-        'odini i datum pocetka godine.'
+        'Zdaj morate vnesti '#353'tevilo obdobij v va'#353'em finan'#269'nem letu in dat' +
+        'um za'#269'etka leta!'
     end
     item
       IndexID = 555
-      Text = 'Izrada skupa konta...'
+      Text = 'Ustvarjanje niza kontov...'
     end
     item
       IndexID = 554
-      Text = 'Zadr'#382'ana dobit'
+      Text = 'Zadr'#382'ani dobi'#269'ek'
     end
     item
       IndexID = 553
-      Text = 'Du'#382'nikov kontrolni'
+      Text = 'Kontrolni konto kupcev'
     end
     item
       IndexID = 552
-      Text = 'Kreditorov kontrolni'
+      Text = 'Kontrolni konto dobaviteljev'
     end
     item
       IndexID = 563
-      Text = 'Izradujem zahtjevani konto ( kontrolni za du'#382'nike)...'
+      Text = 'Ustvarjanje zahtevanih kontov (Kontrolni konto kupcev)...'
     end
     item
       IndexID = 562
-      Text = 'Izradujem zahtjevani konto (kontrolni za kreditore)...'
+      Text = 'Ustvarjanje zahtevanih kontov (Kontrolni konto dobaviteljev)...'
     end
     item
       IndexID = 561
-      Text = 'Izradujem zahtjevani konto...'
+      Text = 'Ustvarjanje zahtevanih kontov...'
     end
     item
       IndexID = 560
-      Text = 'Skup knjiga se radi...'
+      Text = 'Ustvarjanje enote...'
     end
     item
       IndexID = 559
-      Text = 'Mora'#353' izabrati skup knjiga i direktorij gdje ce'#353' kopirati.'
+      Text = 'Izbrati morate enoto ali imenik za kopiranje!'
     end
     item
       IndexID = 558
-      Text = 
-        'Ovaj direktorij  ne sadr'#382'i skup knjiga, ili je skup knjiga uni'#353't' +
-        'en.'
+      Text = 'Ta imenik ne vsebuje enote ali pa je enota po'#353'kodovana!'
     end
     item
       IndexID = 569
-      Text = 'Konvertiram Pastel skladi'#353'te...'
+      Text = 'Pretvaranje zalog iz programa Pastel...'
     end
     item
       IndexID = 568
-      Text = 'Konvertiram Pasel konta...'
+      Text = 'Pretvaranje kontov iz programa Pastel...'
     end
     item
       IndexID = 567
-      Text = 'Prebacujem Pastel sistemske poadatke...'
+      Text = 'Pretvaranje sistemskih spremenljivk programa Pastel...'
     end
     item
       IndexID = 566
-      Text = 'Ucitavam podatke s Pastela...'
+      Text = 'Branje podatkov iz programa Pastel...'
     end
     item
       IndexID = 565
-      Text = 'Prebacujem skup knjiga...'
+      Text = 'Pretvarjanje enote v teku...'
     end
     item
       IndexID = 564
-      Text = 'Izradujem zahtjevana konta (Zadr'#382'ana dobit)...'
+      Text = 'Ustvarjanje zahtevanih kontov (Zadr'#382'ani dobi'#269'ek)...'
     end
     item
       IndexID = 575
-      Text = 'Broj'
+      Text = #352'tevilka'
     end
     item
       IndexID = 574
-      Text = 'Uzmi direktorij'
+      Text = 'Izberite imenik'
     end
     item
       IndexID = 573
-      Text = 'Molimo vas izaberite Pastel Partner podatke za prebacivanje.'
+      Text = 
+        'Prosimo, s spodnjega seznama izberite podatke Pastel Partner za ' +
+        'pretvorbo.'
     end
     item
       IndexID = 572
-      Text = 'Molimo vas izaberite stari skup knjiga za prebacivanje.'
+      Text = 'Prosimo, s spodnjega seznama izberite staro enoto za pretvorbo.'
     end
     item
       IndexID = 571
-      Text = 'Molimo vas izaberite Pastel data folder'
+      Text = 'Prosimo, izberite mapo s podatki programa Pastel'
     end
     item
       IndexID = 570
-      Text = 'Konvertiram Pastel izvje'#353'taje...'
+      Text = 'Pretvaranje dnevnikov iz programa Pastel...'
     end
     item
       IndexID = 581
-      Text = 'Naljepnica Philipsovog vlasni'#353'tva'
+      Text = 'Vnesite svoje podatke'
     end
     item
       IndexID = 580
-      Text = 'Otvoreno za slanje'
+      Text = 'Odprto za knji'#382'enje'
     end
     item
       IndexID = 579
-      Text = 'Zavr'#353'etak'
+      Text = 'Kon'#269'a se dne'
     end
     item
       IndexID = 578
-      Text = 'Po'#353'alji na pro'#353'lu godinu'
+      Text = 'Knji'#382'enje v druga leta'
     end
     item
       IndexID = 577
-      Text = 'Pocetak'
+      Text = 'Za'#269'etni datum'
     end
     item
       IndexID = 576
-      Text = 'Izvje'#353'tajni datumi'
+      Text = 'Datumi poro'#269'anja'
     end
     item
       IndexID = 591
-      Text = 'to je van ravnote'#382'e sa'
+      Text = 'ni uravnote'#382'ena za'
     end
     item
       IndexID = 592
-      Text = 'Linija'
+      Text = 'Vrstica'
     end
     item
       IndexID = 593
-      Text = 'Dozvoli oboje'
+      Text = 'Dovoli oboje'
     end
     item
       IndexID = 594
-      Text = 'Skupina sadr'#382'i transakciju koja se '#353'alje u pro'#353'lu godinu.'
+      Text = 'Dnevnik vsebuje transakcije, ki se knji'#382'ijo v preteklo leto!'
     end
     item
       IndexID = 595
-      Text = 'Dali '#382'elite nastaviti slanje?'
+      Text = 'Ali '#382'elite nadaljevati s knji'#382'enjem?'
     end
     item
       IndexID = 596
-      Text = 'Ne mogu poslati jer glavni konto sadr'#382'i pod-konto..'
+      Text = 'Knji'#382'enje ni mogo'#269'e na glavni konto, ki vsebuje podkonte!'
     end
     item
       IndexID = 597
-      Text = 'Konto ne postoji dali ga '#382'elite izraditi?'
+      Text = 'Konto ne obstaja! Ali ga '#382'elite ustvariti?'
     end
     item
       IndexID = 598
-      Text = 'Nema podataka za uvoz.'
+      Text = 'Ni podatkov za uvoz!'
     end
     item
       IndexID = 599
-      Text = 'Unesi mjesec i godinu za ponavljajuci ulaz'
+      Text = 'Vnesite mesec in leto za ponavljanje vnosov do'
     end
     item
       IndexID = 600
-      Text = 'Period'
+      Text = 'Obdobje'
     end
     item
       IndexID = 601
-      Text = 'Godina'
+      Text = 'Leto'
     end
     item
       IndexID = 602
-      Text = '&Izaberi kontra konto'
+      Text = '&Izberi protikonto'
     end
     item
       IndexID = 603
-      Text = 'Ove godine'
+      Text = 'Letos'
     end
     item
       IndexID = 604
-      Text = 'Pro'#353'le godine'
+      Text = 'Lani'
     end
     item
       IndexID = 605
-      Text = 'Kodovi'
+      Text = 'Koda'
     end
     item
       IndexID = 606
@@ -2469,83 +2472,83 @@ object TTranslationSaveObject
     end
     item
       IndexID = 609
-      Text = 'Porez'
+      Text = 'Davek'
     end
     item
       IndexID = 610
-      Text = 'Definicja skracenice'
+      Text = 'Definicija kratice'
     end
     item
       IndexID = 611
-      Text = 'Uravnote'#382'i skupinu'
+      Text = 'Uravnote'#382'i dnevnik'
     end
     item
       IndexID = 612
-      Text = 'Neograniceni uvoz datoteka'
+      Text = 'Uvoz razmejene datoteke'
     end
     item
       IndexID = 613
-      Text = 'Obri'#353'i skupinu'
+      Text = 'Izbri'#353'i dnevnik'
     end
     item
       IndexID = 614
-      Text = 'Generiraj vi'#353'estruke ulaze'
+      Text = 'Generiraj ve'#269' transakcij'
     end
     item
       IndexID = 615
-      Text = 'Pregled skupina'
+      Text = 'Seznam vrstic dnevnika'
     end
     item
       IndexID = 616
-      Text = 'Slanje skupina'
+      Text = 'Knji'#382'i dnevnik'
     end
     item
       IndexID = 617
-      Text = 'Ponavljajuce transakcije'
+      Text = 'Ponavljajo'#269'e transakcije'
     end
     item
       IndexID = 618
-      Text = 'Totali za svaki period'
+      Text = 'Skupaj za vsako obdobje'
     end
     item
       IndexID = 619
-      Text = 'Napi'#353'i neogranicene datoteke'
+      Text = 'Zapi'#353'i razmejeno datoteko'
     end
     item
       IndexID = 620
-      Text = 'Procesiraj skupinu'
+      Text = 'Obdelaj dnevnik'
     end
     item
       IndexID = 621
-      Text = 'Dali ste sigrni da '#382'elite obrisati ovaj ulaz u skupinu?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati celoten ta dnevnik?'
     end
     item
       IndexID = 622
-      Text = 'Mogucnosti za ovu skupinu'
+      Text = 'Mo'#382'nosti za ta dnevnik'
     end
     item
       IndexID = 623
-      Text = 'Povecanje referentnog broja'
+      Text = 'Pove'#269'uj '#353'tevilko reference'
     end
     item
       IndexID = 624
-      Text = 'Ponovi detalje'
+      Text = 'Ponovi podrobnosti'
     end
     item
       IndexID = 625
-      Text = 'Kontra konto po liniji'
+      Text = 'Protikonto po vrstici'
     end
     item
       IndexID = 626
-      Text = 'Konsolodiraj uravnote'#382'enje'
+      Text = 'Konsolidiraj uravnote'#382'enje'
     end
     item
       IndexID = 627
-      Text = 'Ulazna suma'
+      Text = 'Vnos zneska'
     end
     item
       IndexID = 628
-      Text = 'Potvrda'
+      Text = 'Potrditev'
     end
     item
       IndexID = 629
@@ -2553,97 +2556,97 @@ object TTranslationSaveObject
     end
     item
       IndexID = 630
-      Text = 'Upozorenje'
+      Text = 'Opozorilo'
     end
     item
       IndexID = 631
-      Text = 'Ne mo'#382'ete izvjestiti od'
+      Text = 'Ne morete poro'#269'ati od'
     end
     item
       IndexID = 632
-      Text = 'vec postoji.'
+      Text = #382'e obstaja!'
     end
     item
       IndexID = 633
-      Text = 'Izaberi Pastel Data folder !!!'
+      Text = 'Izberite mapo s podatki programa Pastel!'
     end
     item
       IndexID = 635
-      Text = 'Morate imati skup knjiga otvoren za upoterbu ove mogucnosti.'
+      Text = 'Za uporabo te mo'#382'nosti morate imeti odprto enoto!'
     end
     item
       IndexID = 636
-      Text = 'Jo'#353' niste namjestili skup knjiga do sada.'
+      Text = 'Enote '#353'e niste nastavili!'
     end
     item
       IndexID = 637
-      Text = 'Ukljuci otvorena poravnavanja'
+      Text = 'Vklju'#269'i za'#269'etna stanja'
     end
     item
       IndexID = 638
-      Text = 'Ne mo'#382'ete odabati ovaj konto zato '#353'to sadr'#382'i pod-konto'
+      Text = 'Tega konta ne morete izbrati, ker vsebuje podkonte!'
     end
     item
       IndexID = 639
       Text = 
-        'Informacije na ovoj liniji ce biti izgubljene ako se oni promjen' +
-        'e za komentare'
+        'Podatki v tej vrstici bodo izgubljeni, '#269'e se spremeni v komentar' +
+        '!'
     end
     item
       IndexID = 640
-      Text = 'Sigurni ste da '#382'elite staviti komentar na ovu liniju?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite v tej vrstici ustvariti komentar?'
     end
     item
       IndexID = 641
       Text = 
-        'Ovo ce radikalno promjeniti va'#353'e podatke. Preporucujemo da stane' +
-        'te i napravite backup.'
+        'To bo radikalno spremenilo va'#353'e podatke! Priporo'#269'amo, da se zaus' +
+        'tavite in ustvarite arhiv!'
     end
     item
       IndexID = 642
-      Text = #381'elite li nastaviti?'
+      Text = 'Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 643
       Text = 
-        'Ovaj konto ima otvorenno poravnavanje od pro'#353'le godine, vi ne mo' +
-        #382'ete obrisati konto .'
+        'Ta konto ima za'#269'etno stanje iz preteklega leta! Konta ni mogo'#269'e ' +
+        'izbrisati!'
     end
     item
       IndexID = 644
-      Text = 'Ovaj konto nije prihod/rashod konto.'
+      Text = 'Ta konto ni konto prihodkov / odhodkov!'
     end
     item
       IndexID = 645
-      Text = 'Iskljuceni total'
+      Text = 'Skupaj brez davka'
     end
     item
       IndexID = 646
-      Text = 'Total racuna'
+      Text = 'Skupaj po ra'#269'unu'
     end
     item
       IndexID = 647
-      Text = 'Total popusta'
+      Text = 'Skupni popust'
     end
     item
       IndexID = 648
-      Text = 'Jedinica iskljucena.'
+      Text = 'Enota brez davka'
     end
     item
       IndexID = 649
-      Text = 'Jedinica ukjlucena.'
+      Text = 'Enota z davkom'
     end
     item
       IndexID = 650
-      Text = 'Iznos iskljucen PDV.'
+      Text = 'Znesek brez davka'
     end
     item
       IndexID = 651
-      Text = 'Iznos ukljucen PDV.'
+      Text = 'Znesek z davkom'
     end
     item
       IndexID = 652
-      Text = 'Kod artikla'
+      Text = 'Koda artikla'
     end
     item
       IndexID = 653
@@ -2651,15 +2654,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 655
-      Text = 'Narucena kolicina'
+      Text = 'Naro'#269'ena kol.'
     end
     item
       IndexID = 656
-      Text = 'Isporucena kolicina'
+      Text = 'Dobavljena kol.'
     end
     item
       IndexID = 657
-      Text = 'Popust.'
+      Text = 'Popust'
     end
     item
       IndexID = 658
@@ -2671,297 +2674,299 @@ object TTranslationSaveObject
     end
     item
       IndexID = 660
-      Text = 'F10: Izbri'#353'i sve'
+      Text = 'F10: Izbri'#353'i vse'
     end
     item
       IndexID = 662
-      Text = '&Linija za komentar'
+      Text = '&Vrstica za komentar'
     end
     item
       IndexID = 663
-      Text = '&Unesi ukupni popust'
+      Text = '&Vnesi skupni popust'
     end
     item
       IndexID = 664
-      Text = 'F7: Ukljuceno'
+      Text = 'F7: Z davkom'
     end
     item
       IndexID = 665
       Text = 
-        'Promijenili ste skupinu za placanje i primitke, Ovo ce smetati v' +
-        'a'#353'em poravnanju.. '#381'elite li nastaviti ?'
+        'Spremenili ste dnevnik prejemkov in izpla'#269'il! To bo pokvarilo va' +
+        #353'o uskladitev! Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 666
-      Text = 'Kontrolni konto ne mo'#382'e biti kori'#353'ten.'
+      Text = 'Kontrolnega konta ni mogo'#269'e uporabiti!'
     end
     item
       IndexID = 667
-      Text = 'Promijenili ste postotak.'
+      Text = 'Spremenili ste odstotek!'
     end
     item
       IndexID = 668
-      Text = 'Ne mo'#382'ete imati proracun za konto koji ima pod-konto.'
+      Text = 'Ni mogo'#269'e imeti prora'#269'unov za konto, ki vsebuje podkonte!'
     end
     item
       IndexID = 669
-      Text = 'Generalni konto salda konta ne mo'#382'e biti  kori'#353'ten.'
+      Text = 'Konta glavne knjige ni mogo'#269'e uporabiti!'
     end
     item
       IndexID = 670
-      Text = 'Ulaz za povratnice od kupca'
+      Text = 'Vnos dobropisa'
     end
     item
       IndexID = 671
-      Text = 'F10: Izbri'#353'i povratnicu od kupca'
+      Text = 'F10: Izbri'#353'i dobropis'
     end
     item
       IndexID = 673
-      Text = #381'elite li ispisati povratnicu od kupca odmah?'
+      Text = 'Ali '#382'elite takoj natisniti ta dobropis?'
     end
     item
       IndexID = 674
-      Text = 'Ucitaj povratnicu od kupca'
+      Text = 'Posodobi dobropise'
     end
     item
       IndexID = 675
-      Text = 'Za povratnicu od kupca'
+      Text = 'Od dobropisa'
     end
     item
       IndexID = 676
-      Text = 'Prema povratnici od kupca'
+      Text = 'Do dobropisa'
     end
     item
       IndexID = 677
-      Text = 'Nastavi'
+      Text = 'Nadaljuj'
     end
     item
       IndexID = 678
-      Text = 'Nema racuna za '#353'tampanje.'
+      Text = 'Ni ra'#269'unov za tiskanje!'
     end
     item
       IndexID = 679
       Text = 
-        'Ne mo'#382'ete imati isti tip skupine za placanje kao drugi bankarski' +
-        ' konto !'
+        'Ne morete imeti enake vrste dnevnika izpla'#269'il kot za kak'#353'en drug' +
+        ' ban'#269'ni ra'#269'un!'
     end
     item
       IndexID = 680
-      Text = 'Podsjetnik'
+      Text = 'Nakaznica'
     end
     item
       IndexID = 681
-      Text = 'Poruka za podsjetnik'
+      Text = 'Sporo'#269'ilo nakaznice'
     end
     item
       IndexID = 682
-      Text = 'Roba primljena'
+      Text = 'Prejeto blago'
     end
     item
       IndexID = 683
       Text = 
-        'Nemo'#382'ete imati istu skupinu za primljene racune kao drugi bankov' +
-        'ni konto!'
+        'Ne morete imeti enake vrste dnevnika prejemkov kot za kak'#353'en dru' +
+        'g ban'#269'ni ra'#269'un!'
     end
     item
       IndexID = 684
-      Text = 'Cijena po jedinici'
+      Text = 'Cena na enoto'
     end
     item
       IndexID = 685
-      Text = 
-        'Sigurni ste da '#382'elite pobrisati sve '#353'to ste unijeli u ovu dostav' +
-        'nicu?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite po'#269'istiti vse vnose v tej nabavi?'
     end
     item
       IndexID = 686
-      Text = 'Ispi'#353'ite dostavnicu sada?'
+      Text = 'Ali '#382'elite zdaj natisniti nabavni dokument?'
     end
     item
       IndexID = 687
-      Text = 'Porez iskljucen'
+      Text = 'Davek izklju'#269'en'
     end
     item
       IndexID = 688
-      Text = 'Porez ukjucen'
+      Text = 'Davek vklju'#269'en'
     end
     item
       IndexID = 689
-      Text = 'Pro'#353'lost od povratnice od kupca'
+      Text = 'Zgodovina dobropisov'
     end
     item
       IndexID = 690
-      Text = 'Pro'#353'lost od povratnice skladi'#353'ta'
+      Text = 'Zgodovina vra'#269'il dobaviteljem'
     end
     item
       IndexID = 691
-      Text = 'Pro'#353'lost od primki'
+      Text = 'Zgodovina nabave'
     end
     item
       IndexID = 692
-      Text = 'Pro'#353'lost od ponude'
+      Text = 'Zgodovina ponudb'
     end
     item
       IndexID = 693
-      Text = 'Pro'#353'lost od narud'#382'benica'
+      Text = 'Zgodovina naro'#269'il'
     end
     item
       IndexID = 694
-      Text = 'Od primke'
+      Text = 'Od nabave'
     end
     item
       IndexID = 695
-      Text = 'Izbri'#353'i povratnicu od kupca'
+      Text = 'Izbri'#353'i dobropise'
     end
     item
       IndexID = 696
-      Text = 'Netocan sljedeci broj, promjeni ga u namje'#353'tanju dokumenata.'
+      Text = 
+        'Neveljavna naslednja '#353'tevilka! Spremenite jo v '#39'Nastavitve '#8594' Nas' +
+        'tavitev dokumentov'#39'!'
     end
     item
       IndexID = 697
-      Text = #381'elite li nastaviti backup'
+      Text = 'Ali '#382'elite nadaljevati z arhiviranjem?'
     end
     item
       IndexID = 698
-      Text = #381'elite li nastaviti s restore od'
+      Text = 'Ali '#382'elite nadaljevati z obnovitvijo podatkov iz?'
     end
     item
       IndexID = 699
-      Text = 'Nije izabran skup knjiga.'
+      Text = 'Ni izbrana nobena enota!'
     end
     item
       IndexID = 700
-      Text = 'Ucitaj primku'
+      Text = 'Posodobi nabavo'
     end
     item
       IndexID = 701
-      Text = 'Ucitaj povratnicu skladi'#353'ta'
+      Text = 'Posodobi vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 702
-      Text = 'Od povratnice skladi'#353'ta'
+      Text = 'Od vra'#269'ila dobavitelju'
     end
     item
       IndexID = 703
-      Text = 'Primka broj.'
+      Text = 'Nabava '#353't.'
     end
     item
       IndexID = 704
-      Text = 'Povratnica skladi'#353'ta broj.'
+      Text = 'Vra'#269'ilo dobavitelju '#353't.'
     end
     item
       IndexID = 705
-      Text = 'Povratak'
+      Text = 'Vra'#269'ilo dobavitelju'
     end
     item
       IndexID = 706
-      Text = 'Povratnica od kupca'
+      Text = 'Dobropisi'
     end
     item
       IndexID = 707
-      Text = #381'elite li ispisati ovu narud'#382'benicu?'
+      Text = 'Ali '#382'elite natisniti to naro'#269'ilo?'
     end
     item
       IndexID = 708
-      Text = #381'elite li isprintati ovu povratnicu skladi'#353'ta?'
+      Text = 'Ali '#382'elite natisniti to vra'#269'ilo dobavitelju?'
     end
     item
       IndexID = 709
-      Text = #381'elite li isprintati ovu dostavnicu?'
+      Text = 'Ali '#382'elite natisniti to nabavo?'
     end
     item
       IndexID = 710
-      Text = #381'elite isprintati ovu ponudu?'
+      Text = 'Ali '#382'elite natisniti to ponudbo?'
     end
     item
       IndexID = 711
-      Text = 'Pokreni namje'#353'tanje i izaberi kontra konto za ovu skupinu.'
+      Text = 
+        'Za'#382'enite '#39'Nastavitve '#8594' Vrste dnevnikov'#39' in izberite protikonto z' +
+        'a ta dnevnik!'
     end
     item
       IndexID = 712
-      Text = 'Sigurni ste da '#382'elite obrisati ovu informaciju u ovom redu?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati podatke v tej vrstici?'
     end
     item
       IndexID = 713
-      Text = 'Ucitavam korisnicki server'
+      Text = 'Posodobitev odjemalec/stre'#382'nik'
     end
     item
       IndexID = 714
-      Text = 'Skini sa interneta'
+      Text = 'Spletna posodobitev'
     end
     item
       IndexID = 715
-      Text = #381'elite li obrisati ovu definiciju labela?'
+      Text = 'Ali '#382'elite izbrisati te definije oznak?'
     end
     item
       IndexID = 716
-      Text = 'Mjesto:'
+      Text = 'Lokacija:'
     end
     item
       IndexID = 717
-      Text = 'Skup kniga nije probaden, direktorij ne postoji::'
+      Text = 'Enota ni bila najdena! Imenik ne obstaja:'
     end
     item
       IndexID = 718
-      Text = 'ili problemi na oznacenom mre'#382'nom pogonu'
+      Text = 'Ali pa gre za te'#382'avo z omre'#382'no preslikanim pogonom'
     end
     item
       IndexID = 719
       Text = 
-        'Ovo ce obrisati sve va'#353'e informacije dali ste sigurni da '#382'elite ' +
-        'nastaviti?'
+        'To bo izbrisalo vse va'#353'e podatke! Ali ste prepri'#269'ani, da '#382'elite ' +
+        'nadaljevati?'
     end
     item
       IndexID = 720
-      Text = 'Btrv Gre'#353'ka:'
+      Text = 'Btrv napaka:'
     end
     item
       IndexID = 721
-      Text = 'Nemam nikakvu vezu za ovog kreditora.'
+      Text = 'Za tega dobavitelja ni ni'#269'esar za povezavo!'
     end
     item
       IndexID = 722
       Text = 
-        'Upozorenje, ako stisnete da, izgubit cete sve va'#353'e trenutne veze' +
-        ' na ovaj konto.'
+        'Opozorilo! '#268'e kliknete [Da], boste izgubili vse trenutne povezav' +
+        'e za ta konto!'
     end
     item
       IndexID = 723
-      Text = 'Umetni diisketu'
+      Text = 'Vstavite disk v'
     end
     item
       IndexID = 724
       Text = 
-        'Informacije za namje'#353'tanje interneta su netocne.Pokreni namje'#353'ta' +
-        'nje interneta'
+        'Podatki za internetne nastavitve so napa'#269'ni! Za'#382'enite '#39'Nastavitv' +
+        'e '#8594' Internet'#39'.'
     end
     item
       IndexID = 725
-      Text = #381'elite li to obrisati'
+      Text = 'Ali '#382'elite izbrisati?'
     end
     item
       IndexID = 726
-      Text = 'Snimi'
+      Text = 'Shrani'
     end
     item
       IndexID = 727
-      Text = '&Prvo'
+      Text = '&Prvi'
     end
     item
       IndexID = 728
-      Text = '&Prija'#353'nje'
+      Text = '&Prej'#353'nji'
     end
     item
       IndexID = 729
-      Text = '&Sljedece'
+      Text = '&Naslednji'
     end
     item
       IndexID = 730
-      Text = '&Posljednje'
+      Text = '&Zadnji'
     end
     item
       IndexID = 731
-      Text = '&Zum'
+      Text = '&Pove'#269'ava'
     end
     item
       IndexID = 732
@@ -2969,11 +2974,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 733
-      Text = 'Print rang'
+      Text = 'Obseg tiskanja'
     end
     item
       IndexID = 734
-      Text = '&Stranice'
+      Text = '&Strani'
     end
     item
       IndexID = 735
@@ -2985,223 +2990,223 @@ object TTranslationSaveObject
     end
     item
       IndexID = 737
-      Text = '&Sve stranice'
+      Text = '&Vse strani'
     end
     item
       IndexID = 738
-      Text = 'Broj od &Kopije'
+      Text = #352'tevilo &kopij'
     end
     item
       IndexID = 739
-      Text = 'Izvoz gre'#353'eke printanja'
+      Text = 'Napaka pri izvozu poro'#269'ila!'
     end
     item
       IndexID = 740
-      Text = 'Gre'#353'ka kod izrade privremenog zapisa'
+      Text = 'Napaka pri ustvarjanju za'#269'asne datoteke (Tmp)!'
     end
     item
       IndexID = 741
-      Text = 'Netocan pasword'
+      Text = 'Napa'#269'no geslo!'
     end
     item
       IndexID = 742
-      Text = 
-        'Ne mo'#382'ete koristiti ovaj konto kao kontra konto buduci da on sad' +
-        'r'#382'i pod-konto'
+      Text = 'Tega konta ne morete uporabiti kot protikonto! Vsebuje podkonte!'
     end
     item
       IndexID = 743
-      Text = 'Izradi direktorij'
+      Text = 'Ustvari imenik'
     end
     item
       IndexID = 744
-      Text = 'Ovaj skup knjiga vec postoji. Molimo vas ponovo udite.'
+      Text = 'Ta enota '#382'e obstaja! Prosimo, vnesite znova!'
     end
     item
       IndexID = 745
-      Text = 'Ne mogu izraditi direktorij.'
+      Text = 'Ni bilo mogo'#269'e ustvariti imenika!'
     end
     item
       IndexID = 746
-      Text = 'Molimo  ponovo unesite.'
+      Text = 'Prosimo, vnesite znova!'
     end
     item
       IndexID = 747
-      Text = 'Nemam podataka za printanje'
+      Text = 'Ni podatkov za tiskanje!'
     end
     item
       IndexID = 748
-      Text = 'Netocan broj konta'
+      Text = 'Nedovoljena koda konta!'
     end
     item
       IndexID = 750
-      Text = 'Broj por. broja'
+      Text = 'Dav'#269'ni ra'#269'un '#353't.'
     end
     item
       IndexID = 751
-      Text = 'Br. ponude'
+      Text = 'Ponudba '#353't.'
     end
     item
       IndexID = 752
-      Text = 'Broj povratnice od mene prema kreditoru.'
+      Text = 'Vra'#269'ilo dobavitelju '#353't.'
     end
     item
       IndexID = 753
-      Text = 'Krivi tip medija za backup'
+      Text = 'Neveljavna vrsta medija za arhiviranje!'
     end
     item
       IndexID = 754
-      Text = 'Nemogu izbrisati kontrolni konto'
+      Text = 'Kontrolnega konta ni mogo'#269'e izbrisati!'
     end
     item
       IndexID = 755
-      Text = 'Knjige'
+      Text = 'Enota'
     end
     item
       IndexID = 756
-      Text = 'biti ce trajno izbrisano sa tvrdog diska.'
+      Text = 'bo trajno odstranjen z diska!'
     end
     item
       IndexID = 757
-      Text = #381'elite li prekinuti brisanje?'
+      Text = 'Ali '#382'elite preklicati brisanje?'
     end
     item
       IndexID = 758
-      Text = 'Broj povratnice od kupca'
+      Text = 'Dobropis '#353't.'
     end
     item
       IndexID = 759
-      Text = 'Broj primke'
+      Text = 'Nabava '#353't.'
     end
     item
       IndexID = 761
-      Text = 'Vaucer za primljenu robu'
+      Text = 'Prejemnica blaga'
     end
     item
       IndexID = 762
-      Text = 'Broj narud'#382'be'
+      Text = 'Naro'#269'ilo '#353't.'
     end
     item
       IndexID = 763
-      Text = 'Uravnote'#382'i napredno prekidanje kod slanja'
+      Text = 'Uravnote'#382'i preneseno stanje ob knji'#382'enju'
     end
     item
       IndexID = 764
-      Text = 'Pritisni tipku zatvori za svr'#353'etak carobnjaka za namje'#353'tanje.'
+      Text = 'Nato kliknite [Zapri] za dokon'#269'anje '#269'arovnika za ustvarjanje.'
     end
     item
       IndexID = 765
-      Text = 'Uravnote'#382'enje kupca je preko kreditnog limita za:'
+      Text = 'Stanje kupca presega kreditni limit za:'
     end
     item
       IndexID = 766
-      Text = 'Ne mogu prenijeti transakciju na isti konto.'
+      Text = 'Transakcij ni mogo'#269'e prenesti na isti konto!'
     end
     item
       IndexID = 767
       Text = 
-        'Kada ste posljednji put radili sa ovim skupom knjiga niste iza'#353'l' +
-        'i iz programa uredno.'
+        'Ko ste zadnji'#269' delali s to enoto, programa niste pravilno zaprli' +
+        '!'
     end
     item
       IndexID = 768
-      Text = 'If you encounter any problems, restore your data from a backup.'
+      Text = 
+        #268'e naletite na kakr'#353'ne koli te'#382'ave, obnovite va'#353'e podatke iz arh' +
+        'iva.'
     end
     item
       IndexID = 769
-      Text = '<@APPNAME@> bi vas '#382'elio upozoriti da:'
+      Text = 'Program <@APPNAME@> vas '#382'eli opomniti, da:'
     end
     item
       IndexID = 770
       Text = 
-        'Napravite redoviti backup te spremite sigurnosne kopije va'#353'ih kn' +
-        'jiga kako bi sprijecili mogucnost gubitka podataka.'
+        'Redno ustvarjanje arhivov in arhivskih kopij va'#353'e enote je dobra' +
+        ' praksa za prepre'#269'evanje izgube podatkov.'
     end
     item
       IndexID = 771
-      Text = 'Br. ponude:'
+      Text = 'Ponudba '#353't.'
     end
     item
       IndexID = 772
-      Text = 'Od ponude:'
+      Text = 'Od ponudbe:'
     end
     item
       IndexID = 773
-      Text = 'Do narudbe:'
+      Text = 'Od naro'#269'ila:'
     end
     item
       IndexID = 774
-      Text = 'Ovaj konto ima uravnote'#382'enje te zbog toga ne mo'#382'e biti izbrisan.'
+      Text = 'Ta konto ima salde in ga ni mogo'#269'e izbrisati!'
     end
     item
       IndexID = 775
-      Text = #381'elite li zapisati ovu kontakt osobu?'
+      Text = 'Ali '#382'elite ustvariti to kontaktno osebo?'
     end
     item
       IndexID = 776
-      Text = #381'elite li obrisati ovu kontakt osobu?'
+      Text = 'Ali '#382'elite izbrisati to kontaktno osebo?'
     end
     item
       IndexID = 777
-      Text = 'Kontaktna osoba je izbrisana.'
+      Text = 'Kontaktna oseba je izbrisana!'
     end
     item
       IndexID = 778
-      Text = 'Pogre'#353'no  ime kontakt osobe'
+      Text = 'Nedovoljeno ime stika!'
     end
     item
       IndexID = 779
-      Text = 'Broj konta mora biti jedinstven.'
+      Text = #352'tevilke kontov morajo biti edinstvene!'
     end
     item
       IndexID = 780
       Text = 
-        'Sve transakcije ce biti izbrisane i konto uravnote'#382'en na nultu v' +
-        'rijednost.'
+        'Vse transakcije bodo odstranjene, stanja kontov pa bodo postavlj' +
+        'ena na ni'#269'!'
     end
     item
       IndexID = 781
-      Text = #381'elite li prekinuti proces ci'#353'cenja?'
+      Text = 'Ali '#382'elite preklicati postopek brisanja podatkov?'
     end
     item
       IndexID = 782
-      Text = 'vec postoji!'
+      Text = #382'e obstajajo!'
     end
     item
       IndexID = 783
-      Text = 'Krivi broj dokumenta'
+      Text = 'Nedovoljena '#353'tevilka dokumenta!'
     end
     item
       IndexID = 784
-      Text = 'Krivi broj koda artikla'
+      Text = 'Neveljavna '#353'ifra artikla!'
     end
     item
       IndexID = 785
-      Text = 'Uravnote'#382'i kupca sa iznosom < Rx.xx'
+      Text = 'Izravnaj kupce z zneskom < x.xx'
     end
     item
       IndexID = 786
-      Text = 'Kreditor sa charge iznosom'
+      Text = 'Dobavitelji z zneskom obremenitve'
     end
     item
       IndexID = 787
-      Text = 'Du'#382'nik sa  charge iznosom'
+      Text = 'Kupci z zneskom bremenitve'
     end
     item
       IndexID = 788
-      Text = 'Trajni iznos za sve kupce'
+      Text = 'Fiksni znesek za vse kupce'
     end
     item
       IndexID = 789
-      Text = 'kamata koju mora platiti du'#382'nik koji je  zakasnio sa placanjem'
+      Text = 'Obresti na zapadle terjatve kupcev'
     end
     item
       IndexID = 790
-      Text = 'Bilanca kreditora na dan'
+      Text = 'Stanja dobaviteljev na dan'
     end
     item
       IndexID = 791
-      Text = 'Izradi'
+      Text = 'Ustvari prejemke'
     end
     item
       IndexID = 792
@@ -3209,133 +3214,138 @@ object TTranslationSaveObject
     end
     item
       IndexID = 793
-      Text = 'Cek'
+      Text = #268'ek'
     end
     item
       IndexID = 794
-      Text = 'Ostali'
+      Text = 'Drugo'
     end
     item
       IndexID = 795
-      Text = 'Billion'
+      Text = 'Milijarda'
     end
     item
       IndexID = 796
-      Text = 'Trillion'
+      Text = 'Bilijon'
     end
     item
       IndexID = 797
-      Text = 'Iznos nije isti kao i transakcijski iznos.'
+      Text = 'Znesek ni enak znesku transakcije!'
     end
     item
       IndexID = 798
-      Text = 'Narud'#382'ba'
+      Text = 'Naro'#269'ila'
     end
     item
       IndexID = 799
-      Text = 'Referenca nije ista kao i transakcijska referenca.'
+      Text = 'Referenca ni enaka referenci transakcije!'
     end
     item
       IndexID = 800
-      Text = #381'elite li zatvoriti <@APPNAME@>?'
+      Text = 'Ali '#382'elite zapreti program <@APPNAME@>?'
     end
     item
       IndexID = 801
-      Text = #381'elite li ptekinuti ispis dokumenta?'
+      Text = 'Ali '#382'elite preklicati tiskanje dokumentov?'
     end
     item
       IndexID = 802
-      Text = 'Metoda nije odabrana, molimo vas odaberite jednu'
+      Text = 'Nobena metoda ni izbrana! Prosimo, izberite eno!'
     end
     item
       IndexID = 803
       Text = 
-        'Ne mogu uzeti artikl sa skladi'#353'ta kao stavku po'#353'to ga nema na sk' +
-        'ladi'#353'tu.'
+        'Ni mogo'#269'e prevzeti zaloge za artikel, ki ima koli'#269'ino na zalogi ' +
+        'razli'#269'no od ni'#269'!'
     end
     item
       IndexID = 804
-      Text = 'Korisnicki izvje'#353'taj nije odabran, molimo vas odaberite jedan.'
+      Text = 'Nobeno uporabni'#353'ko poro'#269'ilo ni izbrano! Prosimo, izberite enega!'
     end
     item
       IndexID = 805
-      Text = #381'elite li ispuniti sve detalje za ovaj novi kontakt?'
+      Text = 'Ali '#382'elite izpolniti vse podrobnosti za ta novi kontakt?'
     end
     item
       IndexID = 806
-      Text = #381'elite li  promjeniti sljedeci broj dokumenta?'
+      Text = 
+        'Ali ste prepri'#269'ani, da '#382'elite spremeniti naslednjo '#353'tevilko doku' +
+        'menta?'
     end
     item
       IndexID = 807
-      Text = 'Gre'#353'ka se javila prilikom procesa kopiranja.'
+      Text = 'Med postopkom kopiranja je pri'#353'lo do napake!'
     end
     item
       IndexID = 808
-      Text = 'Popus mora biti u rasponu od 0 % do 99.99 %'
+      Text = 'Popust mora biti v obmo'#269'ju od 0 % do 99.99 %'
     end
     item
       IndexID = 809
-      Text = 'Kamata zanplaceni  dug mora biti izmdu 0 % to 99.99 %'
+      Text = 
+        'Obresti na zapadle zneske morajo biti v obmo'#269'ju od 0 % do 99.99 ' +
+        '%'
     end
     item
       IndexID = 810
-      Text = 'Ova cijena je manja nego cijena po jedinici'
+      Text = 'Ta cena je ni'#382'ja od cene na enoto za'
     end
     item
       IndexID = 811
-      Text = 'na skladi'#353'tni zapis'
+      Text = 'v datoteki zaloge'
     end
     item
       IndexID = 812
-      Text = 'Strai T3 podaci su uspje'#353'no prebaceni'
+      Text = 'Stari podatki T3 so bili uspe'#353'no pretvorjeni'
     end
     item
       IndexID = 813
-      Text = 'Gre'#353'ka se javila prilikom prebacivanja va'#353'ih starih T3 podataka.'
+      Text = 'Med pretvorbo va'#353'ih starih podatkov T3 je pri'#353'lo do napake!'
     end
     item
       IndexID = 814
-      Text = 'Ne mogu naci neplaceni iznos.'
+      Text = 'Ni mogo'#269'e najti nepla'#269'anega zneska!'
     end
     item
       IndexID = 815
       Text = 
-        'Va'#353'a skupina primljenih i placenih racuna a nije dobro vezana za' +
-        ' ovaj bankarski konto .'
+        'Va'#353' dnevnik prejemkov in izpla'#269'il ni pravilno povezan s tem ban'#269 +
+        'nim ra'#269'unom!'
     end
     item
       IndexID = 816
       Text = 
-        'Nemate tip poreza za du'#382'nika i krditora u poreznom sustavu na ba' +
-        'zi placanja.'
+        'Morda nimate vrste davka za kupca ali dobavitelja v sistemu na p' +
+        'odlagi pla'#269'il!'
     end
     item
       IndexID = 817
-      Text = 'Backup podaci nisu nadeni'
+      Text = 'Arhivska datoteka ni bila najdena v'
     end
     item
       IndexID = 818
-      Text = 'Select Backup or Restore Mode'
+      Text = 'Izberite na'#269'in arhiviranja ali obnove'
     end
     item
       IndexID = 820
       Text = 
-        'Rad na bazi placanja a zahtjeva da se svi du'#382'nici i krediori pre' +
-        'bace na konta sa otvorenim stavkama? '#381'elite li nastaviti'
+        'Delovanje na podlagi pla'#269'il zahteva, da se vsi kupci in dobavite' +
+        'lji pretvorijo v konta z odprtimi postavkami. Ali '#382'elite nadalje' +
+        'vati?'
     end
     item
       IndexID = 821
       Text = 
-        'Metoda placanja poreza na bazi placanja a tretira porez na bazi ' +
-        'placanja?Porez se mora paltiti dr'#382'avi samo kada je novac primlje' +
-        'n od kupca.'#381'elite li nastaviti.'
+        'Metoda obdav'#269'itve na podlagi pla'#269'il obravnava davek izklju'#269'no na' +
+        ' gotovinski podlagi. Davek se pla'#269'a dav'#269'nemu organu '#353'ele, ko je ' +
+        'prejet od kupca. Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 822
       Text = 
-        'Vi radite u sustavu placanja poreza prema placanju, a  du'#382'nicki ' +
-        'konto  ne mo'#382'e biti naden.Molimo vas uradite namje'#353'tanje podatak' +
-        'a o poduzecu .'
+        'Uporabljate metodo na podlagi pla'#269'il, vendar zapadlega konta ni ' +
+        'mogo'#269'e najti! Prosimo, za'#382'enite '#39'Nastavitve '#8594' Podatki o podjetju' +
+        #39'!'
     end
     item
       IndexID = 823
@@ -3343,87 +3353,87 @@ object TTranslationSaveObject
     end
     item
       IndexID = 824
-      Text = 'Pritisnute zavr'#353'i tipku da zavr'#353'ite.'
+      Text = 'Kliknite na [Zavr'#353'i] za izvedbo.'
     end
     item
       IndexID = 825
-      Text = 'Koji skup knjiga '#382'elite koristiti'
+      Text = 'Kateri kontni na'#269'rt '#382'elite uporabiti?'
     end
     item
       IndexID = 826
-      Text = 'Molimo vas upi'#353'ite naziv novog skupa knjiga'
+      Text = 'Prosimo, vtipkajte ime nove enote!'
     end
     item
       IndexID = 827
-      Text = 'Od skupine'
+      Text = 'Od dnevnika'
     end
     item
       IndexID = 828
-      Text = 'Zatvori'
+      Text = 'Zapri'
     end
     item
       IndexID = 829
-      Text = 'Vi nemate prava za nastavak. Pristup ovom procesu je zabranjen.'
+      Text = 'Nimate pravic za obdelavo! Dostop do tega postopka je zavrnjen!'
     end
     item
       IndexID = 830
-      Text = 'Molimo vas kontaktirajte va'#353'eg <@APPNAME@> administratora.'
+      Text = 'Prosimo, kontaktirajte va'#353'ega <@APPNAME@> administratorja!'
     end
     item
       IndexID = 831
-      Text = 'Ovaj konto je uga'#353'en i ne mo'#382'e biti u upotrebi.'
+      Text = 'Ta konto je onemogo'#269'en in ga ni mogo'#269'e uporabiti!'
     end
     item
       IndexID = 832
-      Text = 'Konto ne postoji operacija ne mo'#382'e biti izvr'#353'ena.'
+      Text = 'Konto ne obstaja! Postopka ni mogo'#269'e izvesti!'
     end
     item
       IndexID = 833
-      Text = 'Ne mogu otvoriti fax potpisnu datoteku'
+      Text = 'Ni mogo'#269'e odpreti datoteke s faks podpisom v'
     end
     item
       IndexID = 834
-      Text = '*Backup / Restore'
+      Text = 'Arhiviranje / Obnova'
     end
     item
       IndexID = 835
-      Text = 'Z&atvori skup knjiga'
+      Text = 'Z&apri enoto'
     end
     item
       IndexID = 836
-      Text = '*&Backup / Restore skup knjiga'
+      Text = '&Arhiviranje / Obnova enote'
     end
     item
       IndexID = 837
-      Text = 'Da&ta Re-Index'
+      Text = 'Ponovna i&ndeksacija podatkov'
     end
     item
       IndexID = 838
-      Text = '&Kontakt'
+      Text = '&Kontakti'
     end
     item
       IndexID = 839
-      Text = 'Ponud&a'
+      Text = '&Ponudbe'
     end
     item
       IndexID = 840
-      Text = 'Po&tvrdi'
+      Text = 'Po&trdi'
     end
     item
       IndexID = 841
-      Text = 'Na&rud'#382'ba'
+      Text = '&Naro'#269'ila'
     end
     item
       IndexID = 842
-      Text = '&Izvje'#353'ce o dobiti'
+      Text = '&Izkaz poslovnega izida'
     end
     item
       IndexID = 843
-      Text = '&Ispis kontakata'
+      Text = '&Seznam kontaktov'
     end
     item
       IndexID = 844
-      Text = '&Povrat narud'#382'be'
+      Text = '&Zaostala naro'#269'ila'
     end
     item
       IndexID = 845
@@ -3431,15 +3441,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 846
-      Text = '&Financijske kategorije'
+      Text = '&Finan'#269'ne kategorije'
     end
     item
       IndexID = 847
-      Text = '&Fontovi'
+      Text = '&Pisave'
     end
     item
       IndexID = 848
-      Text = 'Podaci &Parameteri'
+      Text = 'Sistemski &parametri'
     end
     item
       IndexID = 849
@@ -3451,63 +3461,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 851
-      Text = 'Poka'#382'i &dobrodo'#353'licu'
+      Text = 'Prika'#382'i &dobrodo'#353'lico'
     end
     item
       IndexID = 852
-      Text = '*Online &Registration'
+      Text = 'Spletna &registracija'
     end
     item
       IndexID = 853
-      Text = '*Online &Update'
+      Text = 'Spletna &posodobitev'
     end
     item
       IndexID = 854
-      Text = '&Tra'#382'i'
+      Text = '&Prebrskaj'
     end
     item
       IndexID = 855
-      Text = 'Prodavac po prodanima proizvodima'
+      Text = 'Prodajalec po artiklu'
     end
     item
       IndexID = 856
-      Text = 'Prodavac po kupcima'
+      Text = 'Prodajalec po kupcu'
     end
     item
       IndexID = 857
-      Text = 'Proizvodi po kupcima'
+      Text = 'Artikel po kupcu'
     end
     item
       IndexID = 858
-      Text = 'Proizvodi po prodavacima'
+      Text = 'Artikel po prodajalcu'
     end
     item
       IndexID = 859
-      Text = 'Kupci po prodavacima'
+      Text = 'Kupec po prodajalcu'
     end
     item
       IndexID = 860
-      Text = 'Kupci po proizvodima'
+      Text = 'Kupec po artiklu'
     end
     item
       IndexID = 861
-      Text = 'Primke po dobavljacima'
+      Text = 'Nabava po dobavitelju'
     end
     item
       IndexID = 862
-      Text = 'Primke po proizvodima'
+      Text = 'Nabava po artiklu'
     end
     item
       IndexID = 863
-      Text = 'Opcije ispisa'
+      Text = 'Mo'#382'nosti tiskanja'
     end
     item
       IndexID = 864
-      Text = '*&Printer Setup'
+      Text = '&Nastavitev tiskalnika'
     end
     item
       IndexID = 865
-      Text = 'Po'#353'alji izvje'#353'taj na:'
+      Text = 'Po'#353'lji poro'#269'ilo na:'
     end
     item
       IndexID = 866
@@ -3519,249 +3529,251 @@ object TTranslationSaveObject
     end
     item
       IndexID = 868
-      Text = '&Tablice'
+      Text = '&Tabele'
     end
     item
       IndexID = 869
-      Text = 'Artikli'
+      Text = 'Zaloga'
     end
     item
       IndexID = 870
-      Text = '&Prihvatljivo polje'
+      Text = '&Razpolo'#382'ljiva polja'
     end
     item
       IndexID = 871
-      Text = '&Izabrana polja'
+      Text = '&Izbrana polja'
     end
     item
       IndexID = 872
-      Text = 'Izaberi formu:'
+      Text = 'Izberi iz:'
     end
     item
       IndexID = 873
-      Text = '&Obri'#353'i sve'
+      Text = '&Po'#269'isti vse'
     end
     item
       IndexID = 874
-      Text = 'Tablice'
+      Text = 'Tabela'
     end
     item
       IndexID = 875
-      Text = 'Financijsko razdoblje'
+      Text = 'Finan'#269'na obdobja'
     end
     item
       IndexID = 876
-      Text = 'Prodavac'
+      Text = 'Prodajalec'
     end
     item
       IndexID = 877
-      Text = 'Kopiraj skup knjiga:'
+      Text = 'Enota za kopiranje:'
     end
     item
       IndexID = 879
-      Text = '&Povratak'
+      Text = '&Nazaj'
     end
     item
       IndexID = 880
-      Text = '*Files Corruption'
+      Text = 'Po'#353'kodovane datoteke'
     end
     item
       IndexID = 881
-      Text = 'Poravnanja po periodima'
+      Text = 'Saldi po obdobjih'
     end
     item
       IndexID = 882
-      Text = 'Zbrojni konto i artikli'
+      Text = 'Pre'#353'tej konte in artikle zaloge'
     end
     item
       IndexID = 883
-      Text = 'Du'#382'nici i kreditori'
+      Text = 'Kupci in dobavitelji'
     end
     item
       IndexID = 884
-      Text = 'Otvorene skupine i dokumenti'
+      Text = 'Odprti dnevniki in dokumenti'
     end
     item
       IndexID = 885
-      Text = 'Neposlati dokumenti'
+      Text = 'Neknji'#382'eni dokumenti'
     end
     item
       IndexID = 886
-      Text = 'Izaberi skup knjiga'
+      Text = 'Izberite enoto'
     end
     item
       IndexID = 887
-      Text = 'Provjeri'
+      Text = 'Preveri'
     end
     item
       IndexID = 888
-      Text = 'Pro'#353'la godina je zatvorena za slanje'
+      Text = 'Preteklo leto je zaprto za knji'#382'enje!'
     end
     item
       IndexID = 889
-      Text = 'Ovaj period je zatvoren za slanje'
+      Text = 'To obdobje je zaprto za knji'#382'enje!'
     end
     item
       IndexID = 890
-      Text = 'Za ukljucenje, otvori opcije izvje'#353'tajnih datuma'
+      Text = 'Za vklop pojdite na '#39'Nastavitve '#8594' Datumi poro'#269'anja'#39
     end
     item
       IndexID = 891
-      Text = '*Backup'
+      Text = 'Arhiviraj'
     end
     item
       IndexID = 892
-      Text = '*Restore'
+      Text = 'Obnova'
     end
     item
       IndexID = 893
-      Text = '*Restore From'
+      Text = 'Obnovi iz'
     end
     item
       IndexID = 894
-      Text = '*Restore To'
+      Text = 'Obnovi v'
     end
     item
       IndexID = 895
-      Text = '*Backup From'
+      Text = 'Vir arhiviranja'
     end
     item
       IndexID = 896
-      Text = '*Backup To'
+      Text = 'Cilj arhiviranja'
     end
     item
       IndexID = 897
-      Text = '*Stop'
+      Text = 'Zaustavi'
     end
     item
       IndexID = 898
-      Text = '*Restore skup knjiga'
+      Text = 'Obnovi enoto'
     end
     item
       IndexID = 899
-      Text = '*Backup skup knjiga'
+      Text = 'Arhiviranje enote'
     end
     item
       IndexID = 900
-      Text = '*Backup completed...'
+      Text = 'Arhiviranje dokon'#269'ano...'
     end
     item
       IndexID = 901
-      Text = '*The backup process is completed'
+      Text = 'Postopek arhiviranja je kon'#269'an!'
     end
     item
       IndexID = 902
-      Text = 'Sa'#382'imanje'
+      Text = 'Arhiviranje (Zip)'
     end
     item
       IndexID = 903
-      Text = 'Molimo vas stavite disk'
+      Text = 'Prosimo, vstavite disk!'
     end
     item
       IndexID = 904
-      Text = '*of the multi-disk Set of Books Backup..'
+      Text = 'arhiviranja enote na ve'#269' medijih.'
     end
     item
       IndexID = 905
-      Text = '*Select Backup target'
+      Text = 'Izberite cilj arhiviranja'
     end
     item
       IndexID = 906
-      Text = 'Povrat sa'#382'etog'
+      Text = 'Raz'#353'irjanje (Unzip)'
     end
     item
       IndexID = 908
-      Text = '*The Restore process is completed'
+      Text = 'Postopek obnove je dokon'#269'an!'
     end
     item
       IndexID = 909
-      Text = '*Restored'
+      Text = 'Obnovljeno'
     end
     item
       IndexID = 910
-      Text = 'Umetni posljedniji disk od seta diskova i onda'
+      Text = 'Vstavite zadnji disk iz kompleta diskov in nato'
     end
     item
       IndexID = 911
-      Text = 'Pritisni da za nastavak ili ne za prekid'
+      Text = 'Kliknite na [Da] za nadaljevanje ali [Ne] za prekinitev'
     end
     item
       IndexID = 912
-      Text = '*Starting Backup...'
+      Text = 'Zagon arhiviranja...'
     end
     item
       IndexID = 913
-      Text = 'Nisu nadene odgovarajuce knjige:'
+      Text = 'V tej mapi ni bila najdena veljavna enota:'
     end
     item
       IndexID = 914
-      Text = 'Ne mogu koristiti ovaj pogon, mapiraj ga i probaj iznova...'
+      Text = 
+        'Tega pogona ni mogo'#269'e uporabiti! Preslikajte ga in poskusite zno' +
+        'va...'
     end
     item
       IndexID = 915
-      Text = '*Cannot run Backup....'
+      Text = 'Arhiviranja ni mogo'#269'e zagnati...'
     end
     item
       IndexID = 916
-      Text = '*Backup incompleted...'
+      Text = 'Arhiviranje ni dokon'#269'ano...'
     end
     item
       IndexID = 917
-      Text = '*Set of Books Backup Process Cancelled by User'
+      Text = 'Enota - Uporabnik je prekinil postopek arhiviranja!'
     end
     item
       IndexID = 918
-      Text = 'Podaci su sa'#382'eti'
+      Text = 'Datoteke so stisnjene'
     end
     item
       IndexID = 919
-      Text = 'Operacija je prekinuta sa strane korisnika'
+      Text = 'Uporabnik je prekinil postopek!'
     end
     item
       IndexID = 920
-      Text = '*Starting Restore...'
+      Text = 'Zagon obnove...'
     end
     item
       IndexID = 921
-      Text = '*Your Set of Books will be restored in:'
+      Text = 'Va'#353'a enota bo obnovljena v:'
     end
     item
       IndexID = 922
-      Text = '*Files Restored'
+      Text = 'Datoteke so obnovljene'
     end
     item
       IndexID = 923
-      Text = 'Netocan password'
+      Text = 'Napa'#269'no geslo!'
     end
     item
       IndexID = 924
-      Text = 'Preskacem datoteku:'
+      Text = 'Preskakujem datoteko:'
     end
     item
       IndexID = 925
-      Text = 'Gre'#353'ka pri otvaranju datoteke'
+      Text = 'Napaka: Odpiranje datoteke!'
     end
     item
       IndexID = 926
-      Text = 'Cekam za pocetak...'
+      Text = #268'akanje na zagon...'
     end
     item
       IndexID = 927
       Text = 
-        'Ovo namje'#353'tanje za korisnika je namje'#353'teno kao administratorsko ' +
-        'za <@APPNAME@>!'
+        'Ta uporabni'#353'ka nastavitev je sedaj spremenjena v skrbni'#353'kega upo' +
+        'rabnika s strani <@APPNAME@>!'
     end
     item
       IndexID = 928
-      Text = 'Zapis u dokumentu'
+      Text = 'Vnos dokumenta'
     end
     item
       IndexID = 929
-      Text = 'Primka'
+      Text = 'Nabava'
     end
     item
       IndexID = 930
-      Text = 'detalji'
+      Text = 'Podrobnosti'
     end
     item
       IndexID = 931
@@ -3769,67 +3781,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 932
-      Text = 'Pocisti vezu'
+      Text = 'Po'#269'isti povezave'
     end
     item
       IndexID = 933
-      Text = '*Gen BB/F'
+      Text = 'Ustvari za'#269'etni saldo'
     end
     item
       IndexID = 934
-      Text = 'Odspoji'
+      Text = 'Razve'#382'i'
     end
     item
       IndexID = 935
-      Text = 'Ukupni iznos'
+      Text = 'Skupni znesek'
     end
     item
       IndexID = 936
-      Text = 'Ukupno preostalo'
+      Text = 'Skupaj odprto'
     end
     item
       IndexID = 937
-      Text = 'Ukupni ledger'
+      Text = 'Skupna glavna knjiga'
     end
     item
       IndexID = 938
-      Text = 'Razlika/Iznos'
+      Text = 'Razlika/Znesek'
     end
     item
       IndexID = 939
-      Text = 'Razlika/Preostalo.'
+      Text = 'Razlika/Odprto'
     end
     item
       IndexID = 940
-      Text = 'Opcije brisanja veza'
+      Text = 'Mo'#382'nosti brisanja povezav'
     end
     item
       IndexID = 941
-      Text = 'Obri'#353'i sve veze'
+      Text = 'Po'#269'isti vse povezave'
     end
     item
       IndexID = 942
-      Text = 'Koristi pocetni datum'
+      Text = 'Za'#269'etni datum'
     end
     item
       IndexID = 943
-      Text = 'Za kreditni datum'
+      Text = 'Po datumih dobropisov'
     end
     item
       IndexID = 944
-      Text = 'Tra'#382'i po'
+      Text = 'I'#353#269'i po'
     end
     item
       IndexID = 945
-      Text = 'Prijavi'
+      Text = 'Uveljavi'
     end
     item
       IndexID = 946
-      Text = 'Iznos'
+      Text = 'Znesek'
     end
     item
       IndexID = 947
-      Text = 'Preostalo'
+      Text = 'Odprto'
     end
     item
       IndexID = 948
@@ -3837,27 +3849,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 949
-      Text = 'Poka'#382'i izjavu'
+      Text = 'Prika'#382'i izpisek'
     end
     item
       IndexID = 950
-      Text = 'Poravnaj'
+      Text = 'Uskladi'
     end
     item
       IndexID = 951
-      Text = 'Nemoj poravnavat'
+      Text = 'Razveljavi uskladitev'
     end
     item
       IndexID = 952
-      Text = '&Tra'#382'i'
+      Text = '&Iskanje'
     end
     item
       IndexID = 953
-      Text = 'Proces'
+      Text = 'Obdelaj'
     end
     item
       IndexID = 954
-      Text = 'Poravnato'
+      Text = 'Usklajeno'
     end
     item
       IndexID = 955
@@ -3865,80 +3877,80 @@ object TTranslationSaveObject
     end
     item
       IndexID = 956
-      Text = 'Tra'#382'i po referencama'
+      Text = 'I'#353#269'i po referenci'
     end
     item
       IndexID = 957
-      Text = '1 Tra'#382'enje po iznosu'
+      Text = 'I'#353#269'i po znesku'
     end
     item
       IndexID = 958
-      Text = 'Tra'#382'enje po datumu'
+      Text = 'I'#353#269'i po datumu'
     end
     item
       IndexID = 959
-      Text = 'Trenutni bankarski konto'
+      Text = 'Trenutni ban'#269'ni konto'
     end
     item
       IndexID = 960
-      Text = 'Ukupno'
+      Text = 'Skupaj'
     end
     item
       IndexID = 961
-      Text = 'Poslano'
+      Text = 'Knji'#382'eno'
     end
     item
       IndexID = 962
-      Text = 'Neposlano'
+      Text = 'Neknji'#382'eno'
     end
     item
       IndexID = 963
-      Text = 'Stavka placanja'
+      Text = 'Postavka pla'#269'ila'
     end
     item
       IndexID = 964
-      Text = 'Stavka racuna'
+      Text = 'Postavka prejemka'
     end
     item
       IndexID = 965
       Text = 
-        'Prodajni konto i kontrolni konto zaliha nisu dobro namje'#353'teni za' +
-        ' ovaj artikl'
+        'Konto zalog in/ali konto prodaje nista pravilno nastavljena za t' +
+        'a artikel!'
     end
     item
       IndexID = 966
       Text = 
-        'Ovaj dokument ne mo'#382'e biti poslan,molimo vas odaberite dobar pro' +
-        'dajni konto, kontrolni konto zaliha (i konto tro'#353'kova prodaje) t' +
-        'e ih onda po'#353'aljite'
+        'Tega dokumenta ni mogo'#269'e knji'#382'iti! Prosimo, pravilno nastavite k' +
+        'onto prodaje, konto zalog (in konto nabavne vrednosti prodanega ' +
+        'blaga) ter nato knji'#382'ite!'
     end
     item
       IndexID = 967
-      Text = 'Neregistrirana kopija <@APPNAME@> -a'
+      Text = 'Neregistrirane kopije <@APPNAME@>'
     end
     item
       IndexID = 968
-      Text = 'ograniceno je na 150 transakcija'
+      Text = 'so omejene na 500 transakcij ali 500 dokumentov'
     end
     item
       IndexID = 969
-      Text = '*&Get it Online'
+      Text = 'Pridobite jo na spletu'
     end
     item
       IndexID = 970
-      Text = 'Otkljucavajuci kod ( od <@APPNAME@>):'
+      Text = 'Koda za odklepanje (od <@APPNAME@>):'
     end
     item
       IndexID = 971
-      Text = '*Serial Number (On Disk):'
+      Text = 'Serijska '#353'tevilka:'
     end
     item
       IndexID = 972
-      Text = 'Registriraj <@APPNAME@>'
+      Text = 'Registrirajte va'#353' <@APPNAME@>'
     end
     item
       IndexID = 973
-      Text = 'da dobije'#353' svoj otkljucavajuci kod ili'
+      Text = 'Da pridobite kodo za odklepanje ali'
     end
     item
       IndexID = 974
@@ -3947,12 +3959,12 @@ object TTranslationSaveObject
     item
       IndexID = 975
       Text = 
-        'Ova kopija <@APPNAME@> a nije registrirana dali je '#382'elite regist' +
-        'rirati sada?'
+        'Ta kopija <@APPNAME@> ni registrirana! Ali jo '#382'elite registrirat' +
+        'i zdaj?'
     end
     item
       IndexID = 976
-      Text = 'Naziv poduzeca:'
+      Text = 'Naziv podjetja:'
     end
     item
       IndexID = 977
@@ -3960,7 +3972,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 978
-      Text = 'Opcije bilance'
+      Text = 'Mo'#382'nosti bilance stanja'
     end
     item
       IndexID = 979
@@ -3968,15 +3980,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 980
-      Text = 'Opcije prikaza racuna dobitka i gubitka'
+      Text = 'Mo'#382'nosti izkaza poslovnega izida'
     end
     item
       IndexID = 981
-      Text = 'Prika'#382'i pro'#353'lu godinu'
+      Text = 'Prika'#382'i preteklo leto'
     end
     item
       IndexID = 982
-      Text = 'Prika'#382'i odstupanja'
+      Text = 'Prika'#382'i odstopanje'
     end
     item
       IndexID = 983
@@ -3984,71 +3996,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 984
-      Text = 'Obri'#353'i'
+      Text = 'Izberi'
     end
     item
       IndexID = 985
-      Text = 'Monitor'
+      Text = 'Zaslon'
     end
     item
       IndexID = 986
-      Text = '*Printer'
+      Text = 'Tiskalnik'
     end
     item
       IndexID = 987
-      Text = '*Start'
+      Text = 'Za'#269'etek'
     end
     item
       IndexID = 988
-      Text = 'Kraj'
+      Text = 'Konec'
     end
     item
       IndexID = 989
-      Text = 'Auto odabir'
+      Text = 'Samodejna izbira'
     end
     item
       IndexID = 990
-      Text = '*Bar Code'
+      Text = #268'rtna koda'
     end
     item
       IndexID = 991
-      Text = '*Bar Code'
+      Text = #268'rtna koda'
     end
     item
       IndexID = 992
-      Text = 'Proizvodi po kupcevim opcijama'
+      Text = 'Mo'#382'nosti artikla po kupcu'
     end
     item
       IndexID = 993
-      Text = 'Proizvodi po opcijama prodavaca'
+      Text = 'Mo'#382'nosti artikla po prodajalcu'
     end
     item
       IndexID = 994
-      Text = 'Kupci po opcijama prodavaca'
+      Text = 'Mo'#382'nosti kupca po prodajalcu'
     end
     item
       IndexID = 995
-      Text = 'Kupci po opcijama proizvoda'
+      Text = 'Mo'#382'nosti kupca po artiklu'
     end
     item
       IndexID = 996
-      Text = 'Prodavac po opcijama kupca'
+      Text = 'Mo'#382'nosti prodajalca po kupcu'
     end
     item
       IndexID = 997
-      Text = 'Knjiga gotovinskog placanja'
+      Text = 'Blagajni'#353'ka knjiga pla'#269'il'
     end
     item
       IndexID = 998
-      Text = 'Knjiga primljenog novca'
+      Text = 'Blagajni'#353'ka knjiga prejemkov'
     end
     item
       IndexID = 999
-      Text = 'Ukljucen porez'
+      Text = 'Na'#269'in z vklju'#269'enim davkom'
     end
     item
       IndexID = 1000
-      Text = 'Bilanca'
+      Text = 'Bilanca stanja'
     end
     item
       IndexID = 1001
@@ -4077,8 +4089,8 @@ object TTranslationSaveObject
     item
       IndexID = 1007
       Text = 
-        'Ovo ce uvelike promjeniti va'#353'e knjige dali ste sigurni da '#382'elite' +
-        ' obrisati ovaj tip skupine?'
+        'To bo resno vplivalo na va'#353'o enoto! Ali ste prepri'#269'ani, da '#382'elit' +
+        'e izbrisati to vrsto dnevnika?'
     end
     item
       IndexID = 1008
@@ -4090,7 +4102,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1010
-      Text = '*Company Logo'
+      Text = 'Logotip poduze'#263'a'
     end
     item
       IndexID = 1011
@@ -4142,7 +4154,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1023
-      Text = '*Neto Profit'
+      Text = 'Neto dobit'
     end
     item
       IndexID = 1024
@@ -4170,11 +4182,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1030
-      Text = 'T&ok  novca'
+      Text = 'T&ok novca'
     end
     item
       IndexID = 1033
-      Text = 'Opcije analize placanja kreditorima'
+      Text = 'Mo'#382'nosti starostne analize obveznosti do dobaviteljev'
     end
     item
       IndexID = 1034
@@ -4202,7 +4214,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1041
-      Text = '*Spec File'
+      Text = 'Specifikacijska datoteka'
     end
     item
       IndexID = 1042
@@ -4210,11 +4222,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1043
-      Text = 'Opcije izvje'#353'taja du'#382'nika'
+      Text = 'Mo'#382'nosti seznama kupcev'
     end
     item
       IndexID = 1044
-      Text = 'Opcije izvje'#353'taja kreditora'
+      Text = 'Mo'#382'nosti seznama dobaviteljev'
     end
     item
       IndexID = 1045
@@ -4234,7 +4246,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1049
-      Text = 'Naziv skupa knjiga ne mo'#382'e biti prazan'
+      Text = 'Ime enote ne more biti prazno!'
     end
     item
       IndexID = 1050
@@ -4279,16 +4291,16 @@ object TTranslationSaveObject
     item
       IndexID = 1060
       Text = 
-        'Tvoj skup knjiga nije u redu. Pokreni reindex podataka za ponovn' +
-        'u izgradnju klljucnih vrijednosti'
+        'Va'#353'a enota je po'#353'kodovana! Za ponovno izgradnjo klju'#269'nih vrednos' +
+        'ti za'#382'enite reindeksiranje podatkov.'
     end
     item
       IndexID = 1063
-      Text = 'Izaberi Lotus predlo'#382'ak za artikle'
+      Text = 'Izberite datoteko preglednice z artikli'
     end
     item
       IndexID = 1064
-      Text = '*Password'
+      Text = 'Lozinka'
     end
     item
       IndexID = 1065
@@ -4316,7 +4328,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1071
-      Text = 'Skupine'
+      Text = 'Dnevniki'
     end
     item
       IndexID = 1072
@@ -4328,11 +4340,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1074
-      Text = 'Ucitaj skupinu'
+      Text = 'Posodobi dnevnike'
     end
     item
       IndexID = 1076
-      Text = 'Prika'#382'i skladi'#353'tne grupe'
+      Text = 'Prika'#382'i skupine artiklov'
     end
     item
       IndexID = 1077
@@ -4340,7 +4352,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1078
-      Text = 'Primke po opcijama dobavljaca'
+      Text = 'Mo'#382'nosti nabave po dobaviteljih'
     end
     item
       IndexID = 1079
@@ -4360,7 +4372,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1083
-      Text = 'Opcije povrata narud'#382'be'
+      Text = 'Mo'#382'nosti zaostalih naro'#269'il'
     end
     item
       IndexID = 1084
@@ -4384,11 +4396,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1089
-      Text = 'Podsjetnik'
+      Text = 'Obvestilo o nakazilu dobavitelju'
     end
     item
       IndexID = 1090
-      Text = 'Izjava du'#382'nika'
+      Text = 'Izpisek za kupca'
     end
     item
       IndexID = 1091
@@ -4400,7 +4412,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1093
-      Text = '*Backspace'
+      Text = 'Povratnica (Backspace)'
     end
     item
       IndexID = 1094
@@ -4432,27 +4444,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1101
-      Text = 'Neporavnate opcije'
+      Text = 'Mo'#382'nosti razuskladitve'
     end
     item
       IndexID = 1102
-      Text = 'Neporavnato po danu'
+      Text = 'Razuskladitev po datumu'
     end
     item
       IndexID = 1103
-      Text = 'Neporavnato po referencama'
+      Text = 'Razuskladitev po referenci'
     end
     item
       IndexID = 1104
-      Text = 'Opcije poravnavanja'
+      Text = 'Mo'#382'nosti uskladitve'
     end
     item
       IndexID = 1105
-      Text = 'Poravnavanje po danu'
+      Text = 'Uskladitev po datumu'
     end
     item
       IndexID = 1106
-      Text = 'Poravnavanje po referencama'
+      Text = 'Uskladitev po referenci'
     end
     item
       IndexID = 1107
@@ -4468,7 +4480,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1110
-      Text = 'Na bazi racuna'
+      Text = 'Na podlagi ra'#269'una'
     end
     item
       IndexID = 1111
@@ -4476,23 +4488,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1112
-      Text = '*Preprinted'
+      Text = 'Unaprijed tiskano'
     end
     item
       IndexID = 1113
-      Text = '*Plain A4'
+      Text = 'Obi'#269'an A4'
     end
     item
       IndexID = 1114
-      Text = '*Service'
+      Text = 'Usluga'
     end
     item
       IndexID = 1115
-      Text = '*Plain Eyeline'
+      Text = 'Obi'#269'an Eyeline'
     end
     item
       IndexID = 1116
-      Text = '*Forty'
+      Text = #268'etrdeset'
     end
     item
       IndexID = 1117
@@ -4525,8 +4537,8 @@ object TTranslationSaveObject
     item
       IndexID = 1124
       Text = 
-        'Nedostaju ili su netocni podaci o kontrolnim kontima kreditorima' +
-        ', Molimo vas kontaktirajte <@APPNAME@> za pomoc.'
+        'Manjkajo ali so nepravilni podatki o kontrolnih kontih kupcev in' +
+        ' dobaviteljev! Za pomo'#269' se obrnite na <@APPNAME@>.'
     end
     item
       IndexID = 1125
@@ -4538,7 +4550,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1127
-      Text = 'Carried forward'
+      Text = 'Preneseno'
     end
     item
       IndexID = 1128
@@ -4562,7 +4574,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1133
-      Text = 'Racun je prihvacen'
+      Text = 'Ra'#269'un je sprejet'
     end
     item
       IndexID = 1134
@@ -4606,11 +4618,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1144
-      Text = 'Adresa dobavljaca'
+      Text = 'Naslov dobavitelja'
     end
     item
       IndexID = 1145
-      Text = 'Adresa za'
+      Text = 'Naslov za ra'#269'un'
     end
     item
       IndexID = 1146
@@ -4618,7 +4630,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1147
-      Text = '*GRV Prihvacen'
+      Text = 'Prihva'#263'en dokument o nabavi'
     end
     item
       IndexID = 1148
@@ -4650,7 +4662,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1155
-      Text = '*Ukupno Net profit/loss'
+      Text = 'Ukupna neto dobit/gubitak'
     end
     item
       IndexID = 1156
@@ -4670,11 +4682,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1160
-      Text = '*Net Profit/Loss'
+      Text = 'Neto dobit/gubitak'
     end
     item
       IndexID = 1161
-      Text = '*Search stopped, limit reached.'
+      Text = 'Pretraga zaustavljena! Ograni'#269'enje je dosegnuto!'
     end
     item
       IndexID = 1162
@@ -4684,7 +4696,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1163
-      Text = '*&Lookup'
+      Text = '&Tra'#382'i'
     end
     item
       IndexID = 1164
@@ -4692,7 +4704,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1165
-      Text = '*&Float'
+      Text = '&Plutaju'#263'i'
     end
     item
       IndexID = 1166
@@ -4700,7 +4712,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1167
-      Text = '*&Obri'#353'i sve'
+      Text = '&Obri'#353'i sve'
     end
     item
       IndexID = 1168
@@ -4728,7 +4740,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1174
-      Text = '*POS pristupna kontrola'
+      Text = 'Nadzor dostopa POS'
     end
     item
       IndexID = 1175
@@ -4756,11 +4768,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1181
-      Text = 'Promjene du'#382'nika'
+      Text = 'Promet kupcev'
     end
     item
       IndexID = 1182
-      Text = 'Promjene kreditora'
+      Text = 'Promet dobaviteljev'
     end
     item
       IndexID = 1183
@@ -4792,11 +4804,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1190
-      Text = 'Stavke po redu povrata'
+      Text = 'Postavke na zaostalem naro'#269'ilu'
     end
     item
       IndexID = 1191
-      Text = 'Narud'#382'be za povrat koje su preostale'
+      Text = 'Zaostala naro'#269'ila'
     end
     item
       IndexID = 1192
@@ -4808,7 +4820,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1194
-      Text = 'Detalji sadr'#382'aja skupine'
+      Text = 'Podrobnosti vnosov v dnevnik'
     end
     item
       IndexID = 1195
@@ -4828,7 +4840,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1199
-      Text = 'Detalji izvje'#353'taja po tipu skupine'
+      Text = 'Poro'#269'ilo o podrobnostih vrst dnevnikov'
     end
     item
       IndexID = 1200
@@ -4886,7 +4898,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1213
-      Text = 'Informacije o kontima'
+      Text = 'Podatki o kontih'
     end
     item
       IndexID = 1214
@@ -4894,7 +4906,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1215
-      Text = '*Where ever in'
+      Text = 'Gdje god u'
     end
     item
       IndexID = 1216
@@ -4922,11 +4934,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1222
-      Text = 'Izaberi du'#382'nika'
+      Text = 'Izberi kupca'
     end
     item
       IndexID = 1223
-      Text = 'Pretvaranje ponude u racun'
+      Text = 'Pretvorba ponudb v ra'#269'un'
     end
     item
       IndexID = 1224
@@ -4938,7 +4950,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1226
-      Text = 'Izaberi kreditora'
+      Text = 'Izberi dobavitelja'
     end
     item
       IndexID = 1227
@@ -4966,7 +4978,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1233
-      Text = 'Total  uravnote'#382'enja banke'
+      Text = 'Total uravnote'#382'enja banke'
     end
     item
       IndexID = 1234
@@ -5050,7 +5062,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1254
-      Text = '*Email Address'
+      Text = 'E-mail adresa'
     end
     item
       IndexID = 1255
@@ -5066,7 +5078,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1258
-      Text = '*Fix Decimals'
+      Text = 'Fiksne decimale'
     end
     item
       IndexID = 1259
@@ -5098,11 +5110,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1266
-      Text = '*Point- of-Sale'
+      Text = 'Prodajno mjesto (POS)'
     end
     item
       IndexID = 1267
-      Text = '*&Script Engine'
+      Text = '&Pokreta'#269' skripti'
     end
     item
       IndexID = 1268
@@ -5114,7 +5126,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1270
-      Text = '*POS'
+      Text = 'POS-ra'#269'un'
     end
     item
       IndexID = 1271
@@ -5146,11 +5158,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1278
-      Text = 'Otvori stavku'
+      Text = 'Izbira odprtih postavk'
     end
     item
       IndexID = 1279
-      Text = '*Pmt Reference'
+      Text = 'Poziv na broj pla'#263'anja'
     end
     item
       IndexID = 1280
@@ -5158,7 +5170,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1281
-      Text = 'Transakcije s du'#382'nicima'
+      Text = 'Transakcije s kupci'
     end
     item
       IndexID = 1282
@@ -5166,7 +5178,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1283
-      Text = 'Transakcije s kreditorima'
+      Text = 'Transakcije z dobavitelji'
     end
     item
       IndexID = 1284
@@ -5202,11 +5214,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1292
-      Text = 'Izaberi skup knjiga za ponovnu izgradnju'
+      Text = 'Izberite enoto za ponovno izgradnjo'
     end
     item
       IndexID = 1293
-      Text = '*Status'
+      Text = 'Status'
     end
     item
       IndexID = 1294
@@ -5214,7 +5226,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1295
-      Text = 'Indexes'
+      Text = 'Indeksi'
     end
     item
       IndexID = 1296
@@ -5270,7 +5282,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1309
-      Text = '*Sa'#382'imam Message.db'
+      Text = 'Sa'#382'imam Message.db'
     end
     item
       IndexID = 1310
@@ -5298,11 +5310,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1316
-      Text = 'Pregled konta du'#382'nika'
+      Text = 'Seznam kontov kupcev'
     end
     item
       IndexID = 1317
-      Text = 'Pregled konta kreditora'
+      Text = 'Seznam kontov dobaviteljev'
     end
     item
       IndexID = 1318
@@ -5314,7 +5326,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1320
-      Text = 'Otvorena stavka'
+      Text = 'Odprta postavka'
     end
     item
       IndexID = 1321
@@ -5326,7 +5338,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1323
-      Text = 'Izvje'#353'tajna  Groupa 1'
+      Text = 'Izvje'#353'tajna Groupa 1'
     end
     item
       IndexID = 1324
@@ -5334,7 +5346,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1325
-      Text = 'Izvje'#353'tajna  Groupa 2'
+      Text = 'Izvje'#353'tajna Groupa 2'
     end
     item
       IndexID = 1326
@@ -5386,7 +5398,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1338
-      Text = '*mm'
+      Text = 'mm'
     end
     item
       IndexID = 1339
@@ -5426,7 +5438,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1348
-      Text = 'Pritisni <ESC> da zatvori'#353
+      Text = 'Pritisni da zatvori'#353
     end
     item
       IndexID = 1349
@@ -5462,7 +5474,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1357
-      Text = '*POS analiza prodaje'
+      Text = 'Analiza prodaje POS'
     end
     item
       IndexID = 1358
@@ -5498,7 +5510,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1366
-      Text = '*Allow Cash Float'
+      Text = 'Dopusti blagajni'#269'ki polog'
     end
     item
       IndexID = 1367
@@ -5522,7 +5534,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1372
-      Text = '*Ledger'
+      Text = 'Glavna knjiga'
     end
     item
       IndexID = 1373
@@ -5538,11 +5550,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1376
-      Text = 'Upis u skupinu prodaje'
+      Text = 'Vnos v prodajni dnevnik'
     end
     item
       IndexID = 1377
-      Text = 'Upis u skupinu primljenih uplata'
+      Text = 'Vnos v dnevnik prejetih pla'#269'il'
     end
     item
       IndexID = 1378
@@ -5558,11 +5570,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1381
-      Text = '*Till Account'
+      Text = 'Konto blagajne'
     end
     item
       IndexID = 1382
-      Text = '*Max Cash in Till'
+      Text = 'Maksimalno gotovine u blagajni'
     end
     item
       IndexID = 1383
@@ -5570,7 +5582,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1384
-      Text = '*&Koristi POS poruku'
+      Text = '&POS sporo'#269'ila'
     end
     item
       IndexID = 1385
@@ -5578,7 +5590,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1386
-      Text = '*Barcode Scanner prikljucen'
+      Text = 'Barkod skener priklju'#269'en'
     end
     item
       IndexID = 1387
@@ -5586,11 +5598,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1388
-      Text = '*Serial Port Parameteri'
+      Text = 'Parametri serijskog porta'
     end
     item
       IndexID = 1389
-      Text = '*Port'
+      Text = 'Port'
     end
     item
       IndexID = 1390
@@ -5598,31 +5610,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1391
-      Text = '*Parallel Port'
+      Text = 'Paralelni port'
     end
     item
       IndexID = 1392
-      Text = '*Serial Port'
+      Text = 'Serijski port'
     end
     item
       IndexID = 1393
-      Text = '*Baud Rate'
+      Text = 'Brzina prijenosa (Baud Rate)'
     end
     item
       IndexID = 1394
-      Text = '*Data Bits'
+      Text = 'Podatkovni bitovi'
     end
     item
       IndexID = 1395
-      Text = '*Stop Bits'
+      Text = 'Stop bitovi'
     end
     item
       IndexID = 1396
-      Text = '*Parity'
+      Text = 'Paritet'
     end
     item
       IndexID = 1397
-      Text = '*Port Number'
+      Text = 'Broj porta'
     end
     item
       IndexID = 1398
@@ -5650,11 +5662,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1404
-      Text = '*Printer Control Code'
+      Text = 'Kontrolni kod pisa'#269'a'
     end
     item
       IndexID = 1405
-      Text = '*Login'
+      Text = 'Prijava'
     end
     item
       IndexID = 1406
@@ -5662,7 +5674,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1407
-      Text = '*Dotmatrix Printer Paper Setup'
+      Text = 'Postavke papira za matri'#269'ni pisa'#269
     end
     item
       IndexID = 1408
@@ -5670,11 +5682,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1409
-      Text = '*POS Setup'
+      Text = 'Nastavitve POS'
     end
     item
       IndexID = 1410
-      Text = '&Koristi poruku na u'
+      Text = '&Sporo'#269'ila na ra'#269'unu'
     end
     item
       IndexID = 1411
@@ -5686,7 +5698,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1413
-      Text = 'Korisnik ne mo'#382'e koristiti ovu skupinu.'
+      Text = 'Uporabnik ne more uporabljati tega dnevnika!'
     end
     item
       IndexID = 1414
@@ -5696,71 +5708,71 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1993
-      Text = #352'aljem: %s of %s'
+      Text = 'Knji'#382'enje: %s od %s...'
     end
     item
       IndexID = 1994
-      Text = 'Tro'#353'ak prodaje'
+      Text = 'NABAVNA VREDNOST PRODANIH BLAG IN MATERIALOV'
     end
     item
       IndexID = 1995
-      Text = '*COS*DOC*'
+      Text = 'NV*DOK*'
     end
     item
       IndexID = 1700
-      Text = 'Analiza dobavljaca po vremenu'
+      Text = 'Analiza zapadlosti obveznosti do dobaviteljev'
     end
     item
       IndexID = 586
-      Text = '&Pomoc'
+      Text = '&Pomo'#269
     end
     item
       IndexID = 585
-      Text = '&Kontrola pristupa'
+      Text = '&Nadzor dostopa'
     end
     item
       IndexID = 584
-      Text = '&Sistemski podaci'
+      Text = '&Sistemski parametri'
     end
     item
       IndexID = 583
-      Text = '&Znacajke'
+      Text = '&Nastavitve'
     end
     item
       IndexID = 582
-      Text = '&Client Server'
+      Text = '&Odjemalec/Stre'#382'nik'
     end
     item
       IndexID = 1707
-      Text = 'Kod artikla'
+      Text = #352'ifra artikla'
     end
     item
       IndexID = 1706
-      Text = 'Ne'
+      Text = #352't.'
     end
     item
       IndexID = 1704
-      Text = 'Analiza du'#382'nika po vremenu kao'
+      Text = 'Analiza zapadlosti terjatev do kupcev na dan'
     end
     item
       IndexID = 1703
-      Text = 'Totali za izvje'#353'taj :'
+      Text = 'Skupaj za poro'#269'ilo:'
     end
     item
       IndexID = 1702
-      Text = 'Total transakcije'
+      Text = 'Skupaj transakcije'
     end
     item
       IndexID = 1701
-      Text = 'Referentni broj'
+      Text = 'Referen'#269'na '#353't.'
     end
     item
       IndexID = 1713
-      Text = '*Float Movement'
+      Text = 'Gibanje pologa blagajne'
     end
     item
       IndexID = 1712
-      Text = 'Iznos'
+      Text = 'Znesek'
     end
     item
       IndexID = 1711
@@ -5768,11 +5780,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1710
-      Text = 'kolicina'
+      Text = 'Koli'#269'ina'
     end
     item
       IndexID = 1709
-      Text = 'Cijena'
+      Text = 'Cena'
     end
     item
       IndexID = 1708
@@ -5784,51 +5796,51 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1718
-      Text = 'Prodavac:'
+      Text = 'Prodajalec:'
     end
     item
       IndexID = 1717
-      Text = 'Kupac'
+      Text = 'Kupec'
     end
     item
       IndexID = 1716
-      Text = '&U ladici kase'
+      Text = '&V blagajni'#353'ki predal'
     end
     item
       IndexID = 1715
-      Text = '&Izvan ladice kase'
+      Text = '&Izven blagajni'#353'kega predala'
     end
     item
       IndexID = 1714
-      Text = 'Ulaz u POS'
+      Text = 'Vnos POS-ra'#269'una'
     end
     item
       IndexID = 1726
-      Text = 'Rac. %s (Gotovina)'
+      Text = 'Ra'#269'un %s (gotovina)'
     end
     item
       IndexID = 1725
-      Text = 'Rac. %s (Cek)'
+      Text = 'Ra'#269'un %s ('#269'ek)'
     end
     item
       IndexID = 1724
-      Text = 'Rac. %s (Vaucer)'
+      Text = 'Ra'#269'un %s (bon/vav'#269'er)'
     end
     item
       IndexID = 1723
-      Text = 'Rac. %s ()'
+      Text = 'Ra'#269'un %s (odprt ra'#269'un)'
     end
     item
       IndexID = 1722
-      Text = 'Rac. %s (kredit kartica)'
+      Text = 'Ra'#269'un %s (kreditna kartica)'
     end
     item
       IndexID = 1721
-      Text = 'Novi racun'
+      Text = 'Novi ra'#269'un'
     end
     item
       IndexID = 1732
-      Text = 'Broj kartice:'
+      Text = #352'tevilka kartice:'
     end
     item
       IndexID = 1731
@@ -5836,15 +5848,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1730
-      Text = '(cek)'
+      Text = '('#268'ek)'
     end
     item
       IndexID = 1729
-      Text = '(Vaucer)'
+      Text = '(Bon/Vav'#269'er)'
     end
     item
       IndexID = 1728
-      Text = '(Racun)'
+      Text = '(Odprt ra'#269'un)'
     end
     item
       IndexID = 1727
@@ -5852,19 +5864,21 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1738
-      Text = 'Ovo ce zatvoriti ulau u  i poslati sve POS e na ...'
+      Text = 
+        'S tem boste zaprli okno za vnos ra'#269'unov in knji'#382'ili vse POS ra'#269'u' +
+        'ne za...'
     end
     item
       IndexID = 1737
-      Text = 'Ne mogu raditi bez standardnih podataka'
+      Text = 'Ni mogo'#269'e zagnati brez privzetih nastavitev!'
     end
     item
       IndexID = 1736
-      Text = #381'elite li zatvoriti i prekinuti ovaj  odmah ?'
+      Text = 'Ali '#382'elite takoj zapreti in preklicati ta ra'#269'un?'
     end
     item
       IndexID = 1735
-      Text = 'Istice dana:'
+      Text = 'Velja do:'
     end
     item
       IndexID = 1734
@@ -5872,27 +5886,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1733
-      Text = 'Ime vlasnika:'
+      Text = 'Ime imetnika:'
     end
     item
       IndexID = 1720
-      Text = 'Standardni kupcev  nije namje'#353'ten, molimo vas namjestite ga'
+      Text = 'Privzeti ra'#269'un kupca ni nastavljen! Prosimo, nastavite ga!'
     end
     item
       IndexID = 1744
-      Text = 'Ravnanje lijeve strane'
+      Text = 'Poravnava levo'
     end
     item
       IndexID = 1743
-      Text = '*Till Splip PRINTER TEST'
+      Text = 'TEST TISKALNIKA POS-odrezkov'
     end
     item
       IndexID = 1742
-      Text = 'Slanje dokumenata'
+      Text = 'Knji'#382'enje dokumenta...'
     end
     item
       IndexID = 1741
-      Text = 'Zatvaranje shifta i slanje svih a'
+      Text = 'Zapiranje izmene in knji'#382'enje vseh ra'#269'unov'
     end
     item
       IndexID = 1740
@@ -5900,27 +5914,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1739
-      Text = 'Promjenjeno za uzvrcanje.'
+      Text = 'Vra'#269'ilo gotovine.'
     end
     item
       IndexID = 1778
-      Text = 'Ponovo narucivanje'
+      Text = 'Ponovno naro'#269'anje'
     end
     item
       IndexID = 1777
-      Text = 'Na zalihama'
+      Text = 'Na zalogi'
     end
     item
       IndexID = 1776
-      Text = 'Kolicine'
+      Text = 'Koli'#269'ine'
     end
     item
       IndexID = 1775
-      Text = 'Jedinica'
+      Text = 'Enota'
     end
     item
       IndexID = 1774
-      Text = '*Barcode'
+      Text = #268'rtna koda'
     end
     item
       IndexID = 1773
@@ -5928,59 +5942,59 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1750
-      Text = '&Uzimanje novca'
+      Text = '&Zaklju'#269'ek blagajne'
     end
     item
       IndexID = 1749
-      Text = '*<@APPNAME@> Till Test'
+      Text = '<@APPNAME@> test blagajne'
     end
     item
       IndexID = 1748
-      Text = 'Gore 3 prazne linije ?'
+      Text = 'Premik za 3 prazne vrstice navzgor?'
     end
     item
       IndexID = 1747
-      Text = '3 Prazne linije'
+      Text = '3 prazne vrstice'
     end
     item
       IndexID = 1746
-      Text = 'Ravnanje desne strane'
+      Text = 'Poravnava desno'
     end
     item
       IndexID = 1745
-      Text = 'Ravnanje centra'
+      Text = 'Poravnava sredinsko'
     end
     item
       IndexID = 1762
-      Text = '&Standard'
+      Text = '&Standardno'
     end
     item
       IndexID = 1761
-      Text = '&Dizajner izvje'#353'taja'
+      Text = '&Oblikovalec poro'#269'il'
     end
     item
       IndexID = 1760
-      Text = 'Tra'#382'i'
+      Text = 'Iskanje'
     end
     item
       IndexID = 1759
-      Text = '*Point-of-Sales'
+      Text = 'Dav'#269'na blagajna (POS)'
     end
     item
       IndexID = 1758
-      Text = 'Uvoz poslanih skupina'
+      Text = 'Uvoz knji'#382'enih dnevnikov'
     end
     item
       IndexID = 1757
-      Text = '*Reverse Batch'
+      Text = 'Obrni vrstice dnevnika (D<-->C)'
     end
     item
       IndexID = 1768
-      Text = 'Srednja && Zadnja cijena'
+      Text = 'Povpre'#269'na in zadnja nabavna cena'
     end
     item
       IndexID = 1767
-      Text = 'Prilagodi'
+      Text = 'Popravek'
     end
     item
       IndexID = 1766
@@ -5988,75 +6002,75 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1765
-      Text = 'Obri'#353'i stavku'
+      Text = 'Izbri'#353'i postavko'
     end
     item
       IndexID = 1764
-      Text = 'Nova stavka'
+      Text = 'Nova postavka'
     end
     item
       IndexID = 1763
-      Text = 'Tra'#382'i'
+      Text = 'Iskanje'
     end
     item
       IndexID = 1772
-      Text = 'Kod artikla'
+      Text = #352'ifra artikla'
     end
     item
       IndexID = 1771
-      Text = 'Uzimanje artikla'
+      Text = 'Prevzem zaloge'
     end
     item
       IndexID = 1770
-      Text = 'Prodajne cijene'
+      Text = 'Prodajne cene'
     end
     item
       IndexID = 1899
-      Text = 'Korisnicko ime'
+      Text = 'Uporabni'#353'ko ime'
     end
     item
       IndexID = 1898
-      Text = 'Standardna sigurnost'
+      Text = 'Standardna varnost'
     end
     item
       IndexID = 1897
-      Text = 'Kontrola pristupa'
+      Text = 'Nadzor dostopa'
     end
     item
       IndexID = 1783
-      Text = 'nabavna cijena'
+      Text = 'Nabavna cena'
     end
     item
       IndexID = 1782
-      Text = 'Prodajna cijena 3'
+      Text = 'Prodajna cena 3'
     end
     item
       IndexID = 1781
-      Text = 'Prodajna cijena 2'
+      Text = 'Prodajna cena 2'
     end
     item
       IndexID = 1780
-      Text = 'Prodajna cijena 1'
+      Text = 'Prodajna cena 1'
     end
     item
       IndexID = 1779
-      Text = 'Kal && Zadnja cijena'
+      Text = 'Koli'#269'ina in zadnja nabavna cena'
     end
     item
       IndexID = 1769
-      Text = 'Kal && Srednja cijena'
+      Text = 'Koli'#269'ina in povpre'#269'na nabavna cena'
     end
     item
       IndexID = 1789
-      Text = 'Porezni'
+      Text = 'Dav'#269'ni ra'#269'uni'
     end
     item
       IndexID = 1788
-      Text = 'Izlaz'
+      Text = 'Izhodni davek'
     end
     item
       IndexID = 1787
-      Text = 'Ulaz'
+      Text = 'Vhodni davek'
     end
     item
       IndexID = 1786
@@ -6064,23 +6078,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1785
-      Text = 'Cijena nabave po jedinici'
+      Text = 'Cena na enoto'
     end
     item
       IndexID = 1784
-      Text = 'Srednja cijena nabave'
+      Text = 'Povpre'#269'na nabavna cena'
     end
     item
       IndexID = 1795
-      Text = 'Izvje'#353'tajna  grupa 2'
+      Text = 'Skupina poro'#269'anja 2'
     end
     item
       IndexID = 1794
-      Text = 'Izvje'#353'tajne grupe'
+      Text = 'Skupina poro'#269'anja'
     end
     item
       IndexID = 1793
-      Text = 'Artikli'
+      Text = 'Zaloga'
     end
     item
       IndexID = 1792
@@ -6088,57 +6102,57 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1791
-      Text = 'Cijena nabave'
+      Text = 'Nabavna vrednost'
     end
     item
       IndexID = 1790
-      Text = 'Glavna knjiga salda konta'
+      Text = 'Konti glavne knjige'
     end
     item
       IndexID = 1801
-      Text = '*Barcode'
+      Text = #268'rtna koda'
     end
     item
       IndexID = 1800
-      Text = 'Za sve stavke'
+      Text = 'Za vse postavke'
     end
     item
       IndexID = 1799
-      Text = 'Koristi postotak'
+      Text = 'Odstotek'
     end
     item
       IndexID = 1798
-      Text = 'Napravi transakciju'
+      Text = 'Ustvari transakcije'
     end
     item
       IndexID = 1797
-      Text = 'Koristi predlo'#382'ak'
+      Text = 'Datoteka preglednice'
     end
     item
       IndexID = 1796
-      Text = 'Izvje'#353'tajna grupa'
+      Text = 'Skupina poro'#269'anja'
     end
     item
       IndexID = 1807
-      Text = 'Radim zahtjevani ...'
+      Text = 'Ustvarjanje zahtevanih kontov...'
     end
     item
       IndexID = 1806
-      Text = 'Izradi skup knjiga...'
+      Text = 'Ustvarjanje enote...'
     end
     item
       IndexID = 1805
-      Text = '*Plug-Ins'
+      Text = 'Vti'#269'niki'
     end
     item
       IndexID = 1804
-      Text = #381'elite li sigurno izmijeniti ovaj kod?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite spremeniti '#353'ifro?'
     end
     item
       IndexID = 1803
       Text = 
-        'Mijenjanje koda artikala rezultirat ce upotrebom tog koda kod sv' +
-        'ih izvje'#353'taja.'
+        'Sprememba '#353'ifre artikla bo vplivala na vsa poro'#269'ila, ki bodo upo' +
+        'rabila to '#353'ifro!'
     end
     item
       IndexID = 1802
@@ -6146,145 +6160,145 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1813
-      Text = 'Zadr'#382'ana dobit'
+      Text = 'Zadr'#382'ani dobi'#269'ek'
     end
     item
       IndexID = 1812
-      Text = 'Radim zahtjevani  (Zadr'#382'ane dobiti)...'
+      Text = 'Ustvarjanje zahtevanih kontov (zadr'#382'ani dobi'#269'ek)...'
     end
     item
       IndexID = 1811
-      Text = 'Du'#382'nikov kontrolni'
+      Text = 'Terjatve do kupcev (kontrolni konto)'
     end
     item
       IndexID = 1810
-      Text = 'Radim zahtjevani  (du'#382'nikov kontrolni)...'
+      Text = 'Ustvarjanje zahtevanih kontov (terjatve do kupcev)...'
     end
     item
       IndexID = 1809
-      Text = 'Kreditorov kontrolni'
+      Text = 'Obveznosti do dobaviteljev (kontrolni konto)'
     end
     item
       IndexID = 1808
-      Text = 'Radim zahtjevani  (kontrolni za kreditora)...'
+      Text = 'Ustvarjanje zahtevanih kontov (obveznosti do dobaviteljev)...'
     end
     item
       IndexID = 1820
-      Text = '&Tra'#382'i'
+      Text = '&Prebrskaj'
     end
     item
       IndexID = 1818
-      Text = 'Konvertiranje satarog skupa knjiga :'
+      Text = 'Stara enota za pretvorbo:'
     end
     item
       IndexID = 1817
-      Text = 'Kopiranje skupa knjiga :'
+      Text = 'Enota za kopiranje:'
     end
     item
       IndexID = 1816
-      Text = 'Daj ime novom setu knjiga'
+      Text = 'Vnesite ime nove enote'
     end
     item
       IndexID = 1815
-      Text = 'Izaberi kontrolne konte, namjesti podatke o poduzecu i parametre'
+      Text = 
+        'Nastavite '#353'tevilke kontrolnih kontov ter podatke in parametre po' +
+        'djetja'
     end
     item
       IndexID = 1814
-      Text = 'Gotovo !'
+      Text = 'Kon'#269'ano!'
     end
     item
       IndexID = 1826
-      Text = 'Dodaj prodavaca'
+      Text = 'Dodaj prodajalce'
     end
     item
       IndexID = 1825
-      Text = 'Prodajete li artikle?'
+      Text = 'Nastavitev dokumentov'
     end
     item
       IndexID = 1824
-      Text = #381'elite li promjeniti grupe.'
+      Text = 'Nastavitev skupin'
     end
     item
       IndexID = 1823
-      Text = #381'elite li promjeniti tip skupine.'
+      Text = 'Nastavitev vrst dnevnikov'
     end
     item
       IndexID = 1822
-      Text = 
-        #381'elite li odrediti broj knjigovodstvenih perioda u va'#353'oj financi' +
-        'jskoj godini i postaviti pocetni datum ?'
+      Text = 'Nastavitev ra'#269'unovodskih obdobij'
     end
     item
       IndexID = 1821
-      Text = 'Izradujem skup knjiga...'
+      Text = 'Ustvarjanje kontnega na'#269'rta...'
     end
     item
       IndexID = 1833
-      Text = 'Grupe konta'
+      Text = 'Skupine kontov'
     end
     item
       IndexID = 1832
-      Text = 'Stavka broj'
+      Text = #352't. postavke'
     end
     item
       IndexID = 1831
-      Text = 'Konvertiranje skupa knjiga...'
+      Text = 'Pretvarjanje enote...'
     end
     item
       IndexID = 1829
-      Text = 'Lokacija :'
+      Text = 'Lokacija:'
     end
     item
       IndexID = 1828
-      Text = 'Ime :'
+      Text = 'Ime:'
     end
     item
       IndexID = 1827
-      Text = 'Kopiranje skupa knjiga :'
+      Text = 'Enota je kopirana!'
     end
     item
       IndexID = 1839
-      Text = 'Groupa 2'
+      Text = 'Skupina 2'
     end
     item
       IndexID = 1838
-      Text = 'Groupa 1'
+      Text = 'Skupina 1'
     end
     item
       IndexID = 1837
-      Text = 'Grupe dokumeneta'
+      Text = 'Skupine dokumentov'
     end
     item
       IndexID = 1836
-      Text = 'Grupe artikala'
+      Text = 'Skupine artiklov'
     end
     item
       IndexID = 1835
-      Text = 'Grupe kreditora'
+      Text = 'Skupine dobaviteljev'
     end
     item
       IndexID = 1834
-      Text = 'Grupe du'#382'nika'
+      Text = 'Skupine kupcev'
     end
     item
       IndexID = 1845
-      Text = 'Naziv izvje'#353'tajnih grupa:'
+      Text = 'Ime skupine poro'#269'anja:'
     end
     item
       IndexID = 1844
-      Text = 'Dole'
+      Text = 'Premakni dol'
     end
     item
       IndexID = 1843
-      Text = 'Gore'
+      Text = 'Premakni gor'
     end
     item
       IndexID = 1842
-      Text = 'Obri'#353'i'
+      Text = 'Izbri'#353'i'
     end
     item
       IndexID = 1841
-      Text = 'Promjeni'
+      Text = 'Uredi'
     end
     item
       IndexID = 1840
@@ -6292,63 +6306,63 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1851
-      Text = 'Brisanje transakcije artikala...'
+      Text = 'Brisanje transakcij zalog...'
     end
     item
       IndexID = 1850
-      Text = 'Brisanje transakcije...'
+      Text = 'Brisanje transakcij...'
     end
     item
       IndexID = 1849
-      Text = 'Brisanje totala...'
+      Text = 'Brisanje skupnih vsot...'
     end
     item
       IndexID = 1848
-      Text = 'Postoji podzapis, prvo njega obri'#353'i !'
+      Text = 'Obstajajo podrejena vozli'#353#269'a, najprej izbri'#353'ite njih!'
     end
     item
       IndexID = 1847
-      Text = 'KORJEN IZVJE'#352'TAJNIH GRUPA'
+      Text = 'KOREN SKUPINE PORO'#268'ANJA'
     end
     item
       IndexID = 1846
-      Text = 'Grupe'
+      Text = 'Skupine'
     end
     item
       IndexID = 1857
-      Text = '30 Dana'
+      Text = '30 dni'
     end
     item
       IndexID = 1856
-      Text = 'Trenutno'
+      Text = 'Teko'#269'e'
     end
     item
       IndexID = 1855
-      Text = 'Nova grupa'
+      Text = 'Nova skupina'
     end
     item
       IndexID = 1854
-      Text = 'Brisanje informacije o skupinama...'
+      Text = 'Brisanje podatkov o dnevnikih...'
     end
     item
       IndexID = 1853
-      Text = 'Brisanje transakcije dokumenata...'
+      Text = 'Brisanje transakcij dokumentov...'
     end
     item
       IndexID = 1852
-      Text = 'Brisanje informacije o artiklima...'
+      Text = 'Brisanje podatkov o zalogi...'
     end
     item
       IndexID = 1863
-      Text = 'Porez'
+      Text = 'Davek'
     end
     item
       IndexID = 1862
-      Text = 'Isporuka'
+      Text = 'Dobava'
     end
     item
       IndexID = 1861
-      Text = 'Narud'#382'ba'
+      Text = 'Naro'#269'ilo'
     end
     item
       IndexID = 1860
@@ -6356,27 +6370,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1859
-      Text = '90+ Dana'
+      Text = '90+ dni'
     end
     item
       IndexID = 1858
-      Text = '60 Dana'
+      Text = '60 dni'
     end
     item
       IndexID = 1869
-      Text = 'Dokument tip'
+      Text = 'Vrsta dokumenta'
     end
     item
       IndexID = 1868
-      Text = 'Kontra konto'
+      Text = 'Protikonto'
     end
     item
       IndexID = 1867
-      Text = 'Naziv skupine'
+      Text = 'Ime dnevnika'
     end
     item
       IndexID = 1866
-      Text = 'Uklj. PDV iznos'
+      Text = 'Znesek z DDV'
     end
     item
       IndexID = 1865
@@ -6384,7 +6398,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1864
-      Text = 'Isklj. PDV iznos'
+      Text = 'Znesek brez DDV'
     end
     item
       IndexID = 1875
@@ -6392,43 +6406,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1874
-      Text = 'Potvrdi ponude i narud'#382'be'
+      Text = 'Potrdi ponudbe in naro'#269'ila'
     end
     item
       IndexID = 1873
-      Text = '&Ukloni'
+      Text = '&Odstrani'
     end
     item
       IndexID = 1872
-      Text = '*&Add Sel.'
+      Text = '&Dodaj izbrano'
     end
     item
       IndexID = 1871
-      Text = 'Narud'#382'be'
+      Text = 'Naro'#269'ila'
     end
     item
       IndexID = 1870
-      Text = 'Ponuda'
+      Text = 'Ponudbe'
     end
     item
       IndexID = 1881
-      Text = 'Veza'
+      Text = 'Povezava'
     end
     item
       IndexID = 1880
-      Text = '&Tra'#382'i...'
+      Text = '&I'#353#269'i...'
     end
     item
       IndexID = 1879
-      Text = 'Izaberi datum'
+      Text = 'Izberi datum'
     end
     item
       IndexID = 1878
-      Text = 'K&onvert'
+      Text = 'Pre&tvori'
     end
     item
       IndexID = 1877
-      Text = 'Potvrdeno'
+      Text = 'Potrjeno'
     end
     item
       IndexID = 1876
@@ -6436,167 +6450,167 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1887
-      Text = 'Ponavljanje racuna'
+      Text = 'Ponavljajo'#269'i se ra'#269'uni'
     end
     item
       IndexID = 1886
-      Text = 'Povijest racuna'
+      Text = 'Zgodovina ra'#269'unov'
     end
     item
       IndexID = 1885
-      Text = 'Dugovanje'
+      Text = 'Zapadlo'
     end
     item
       IndexID = 1884
-      Text = 'Preko 90 Dana'
+      Text = 'Nad 90 dni'
     end
     item
       IndexID = 1883
-      Text = 'Izjava'
+      Text = 'Izpisek'
     end
     item
       IndexID = 1882
-      Text = 'Proces'
+      Text = 'Obdelaj'
     end
     item
       IndexID = 1893
-      Text = 'Prijavi sve'
+      Text = 'Uporabi za vse'
     end
     item
       IndexID = 1892
-      Text = 'Prijavi za biranje'
+      Text = 'Uporabi za izbiro'
     end
     item
       IndexID = 1891
-      Text = 'Ponavljanje'
+      Text = 'Ponavljajo'#269'e'
     end
     item
       IndexID = 1979
-      Text = 'Odabir otvorenih stavki'
+      Text = 'Izbira odprtih postavk'
     end
     item
       IndexID = 1978
-      Text = 'Unesi iznos'
+      Text = 'Vnesite znesek'
     end
     item
       IndexID = 1977
-      Text = 'preostalo'
+      Text = 'Odprto/Neporavnano'
     end
     item
       IndexID = 1896
-      Text = 'Dodaj liniju za komentar'
+      Text = 'Dodaj to vrstico s komentarjem'
     end
     item
       IndexID = 1895
-      Text = 'Izaberi novi  koji se ponavlja'
+      Text = 'Nastavi nov ra'#269'un kot ponavljajo'#269' se'
     end
     item
       IndexID = 1894
-      Text = 'Poruku je zamjenio'
+      Text = 'Zamenjaj sporo'#269'ilo z'
     end
     item
       IndexID = 1902
-      Text = 'Izvje'#353'taj GK'
+      Text = 'Poro'#269'ila glavne knjige'
     end
     item
       IndexID = 1901
-      Text = 'Pristup izvje'#353'tajima'
+      Text = 'Dostop do poro'#269'il'
     end
     item
       IndexID = 1900
-      Text = 'Korisnicki E-mail'
+      Text = 'E-po'#353'ta uporabnika'
     end
     item
       IndexID = 1890
-      Text = 'Dodaj sve'
+      Text = 'Dodaj vse'
     end
     item
       IndexID = 1889
-      Text = 'Tra'#382'i po broju racuna'
+      Text = 'Iskanje po '#353'tevilki ra'#269'una'
     end
     item
       IndexID = 1888
-      Text = 'Izradi'
+      Text = 'Ustvari'
     end
     item
       IndexID = 1908
-      Text = 'Izmijeni korisnicki izvje'#353'taj'
+      Text = 'Uredi uporabni'#353'ko poro'#269'ilo'
     end
     item
       IndexID = 1907
-      Text = 'Promjeni artikle'
+      Text = 'Uredi zalogo'
     end
     item
       IndexID = 1906
-      Text = 'Promjeni konta'
+      Text = 'Uredi konte'
     end
     item
       IndexID = 1905
-      Text = 'Ostalo'
+      Text = 'Ostali'
     end
     item
       IndexID = 1904
-      Text = 'Izaberi konto za blokiranje'
+      Text = 'Izberi konte za blokado'
     end
     item
       IndexID = 1903
-      Text = 'Pristup skupinama'
+      Text = 'Dostop do dnevnikov'
     end
     item
       IndexID = 1914
-      Text = '&Kapital'
+      Text = 'Kapital'
     end
     item
       IndexID = 1913
-      Text = 'Izaberi kategorije i dodijeli pripadajuce grupe'
+      Text = 'Izberite kategorije in dodelite ustrezne skupine'
     end
     item
       IndexID = 1912
-      Text = 'Financijske kategorije'
+      Text = 'Finan'#269'ne kategorije'
     end
     item
       IndexID = 1911
-      Text = '&namje'#353'tanje stranice'
+      Text = '&Nastavitev strani'
     end
     item
       IndexID = 1910
-      Text = 'Predlo'#382'ak'
+      Text = 'Datoteka predloge'
     end
     item
       IndexID = 1909
-      Text = 'Novi korisnik'
+      Text = 'Novi uporabnik'
     end
     item
       IndexID = 1920
-      Text = 'Ispi'#353'i prihod prije rashoda'
+      Text = 'Natisni prihodke pred stro'#353'ki'
     end
     item
       IndexID = 1919
-      Text = 'Ispi'#353'i obveze prije kapitala'
+      Text = 'Natisni obveznosti pred kapitalom'
     end
     item
       IndexID = 1918
-      Text = 'Ispi'#353'i kapital prije obveza'
+      Text = 'Natisni kapital pred obveznostmi'
     end
     item
       IndexID = 1917
-      Text = '&Obveze'
+      Text = 'Obveznosti'
     end
     item
       IndexID = 1916
-      Text = '&Prihod'
+      Text = 'Prihodki'
     end
     item
       IndexID = 1915
-      Text = '&Rashodi'
+      Text = 'Stro'#353'ki'
     end
     item
       IndexID = 1926
-      Text = 'Skupina bankovnog konta nije dobro namje'#353'tena'
+      Text = 'Dnevniki ban'#269'nega ra'#269'una niso pravilno nastavljeni!'
     end
     item
       IndexID = 1925
-      Text = 'Porez'
+      Text = 'Davek'
     end
     item
       IndexID = 1924
@@ -6604,55 +6618,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1923
-      Text = 'Prijenos'
+      Text = 'Prenos...'
     end
     item
       IndexID = 1922
-      Text = 'Grupe'
+      Text = 'Skupine'
     end
     item
       IndexID = 1921
-      Text = 'Ispi'#353'i rashode prije prihoda'
+      Text = 'Natisni stro'#353'ke pred prihodki'
     end
     item
       IndexID = 1932
-      Text = 'na'
+      Text = 'Za'
     end
     item
       IndexID = 1931
-      Text = 'Ispi'#353'i'
+      Text = 'Natisni potrdilo'
     end
     item
       IndexID = 1930
-      Text = 'Primljeno od'
+      Text = 'Prejeto od'
     end
     item
       IndexID = 1929
-      Text = 'Proces'
+      Text = 'Obdelaj'
     end
     item
       IndexID = 1928
-      Text = 'Ne mogu poslati transakciju na konto koji ima pod-konto'
+      Text = 'Knji'#382'enje transakcij na konto, ki ima podkonte, ni mogo'#269'e!'
     end
     item
       IndexID = 1927
-      Text = 'Placanje -'
+      Text = 'Pla'#269'ilo'
     end
     item
       IndexID = 1938
-      Text = '&Ispi'#353'i listu'
+      Text = '&Natisni seznam'
     end
     item
       IndexID = 1937
-      Text = '*Push the key you want to assign an abreviation to'
+      Text = 'Pritisnite tipko, ki ji '#382'elite dodeliti kratico'
     end
     item
       IndexID = 1936
-      Text = 'Odaberi skracenicu'
+      Text = 'Nastavi kratico'
     end
     item
       IndexID = 1935
-      Text = 'Tip konta'
+      Text = 'Vrsta konta'
     end
     item
       IndexID = 1934
@@ -6660,131 +6674,131 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1933
-      Text = 'Sa konta'
+      Text = 'S konta'
     end
     item
       IndexID = 1944
-      Text = 'Mre'#382'ni server ( Ponavljanje podataka )'
+      Text = 'Omre'#382'ni stre'#382'nik (replikacija podatkov)'
     end
     item
       IndexID = 1943
-      Text = 'Korisnicki  ID'
+      Text = 'Uporabni'#353'ki ID'
     end
     item
       IndexID = 1942
-      Text = 'Naziv servera'
+      Text = 'Ime stre'#382'nika'
     end
     item
       IndexID = 1941
-      Text = 'E-Mail  :'
+      Text = 'E-po'#353'tni ra'#269'un:'
     end
     item
       IndexID = 1940
-      Text = '*Internet Setup'
+      Text = 'Internetna nastavitev'
     end
     item
       IndexID = 1939
-      Text = 'Upi'#353'i skracenicu :'
+      Text = 'Vnesite kratico:'
     end
     item
       IndexID = 1950
-      Text = 'nije potvrdeno. Test nije uspio'
+      Text = 'ni preverjeno! Test ni uspel!'
     end
     item
       IndexID = 1949
-      Text = 'Potvrdeno'
+      Text = 'preverjeno'
     end
     item
       IndexID = 1948
-      Text = 'Potvrda %s sa servera %s'
+      Text = 'Preverjanje %s na stre'#382'niku %s...'
     end
     item
       IndexID = 1947
-      Text = '&ispitivanje mre'#382'nog servera'
+      Text = '&Testiraj omre'#382'ni stre'#382'nik'
     end
     item
       IndexID = 1946
-      Text = 'ili IP Adresa'
+      Text = 'ali IP naslov'
     end
     item
       IndexID = 1945
-      Text = 'Naziv servera'
+      Text = 'Ime stre'#382'nika'
     end
     item
       IndexID = 1956
-      Text = 'Nije dobro spojeno'
+      Text = 'Povezava ni uspela!'
     end
     item
       IndexID = 1955
-      Text = 'Test zavr'#353'en uspje'#353'no'
+      Text = 'Test zaklju'#269'en! Uspe'#353'no!'
     end
     item
       IndexID = 1954
-      Text = 'e-mail test u radu...'
+      Text = 'Test e-po'#353'te je v teku...'
     end
     item
       IndexID = 1953
-      Text = 'Spojeno.'
+      Text = 'Povezano.'
     end
     item
       IndexID = 1952
-      Text = 'E-Mail Server nije pronaden...'
+      Text = 'E-po'#353'tni stre'#382'nik ni bil najden!'
     end
     item
       IndexID = 1951
-      Text = '<@APPNAME@> ReportMail Sender %s E-mail Account %s'
+      Text = '<@APPNAME@> Po'#353'iljatelj e-poro'#269'il %s E-po'#353'tni ra'#269'un %s'
     end
     item
       IndexID = 1962
-      Text = '*Invalid Server'
+      Text = 'Neveljaven stre'#382'nik!'
     end
     item
       IndexID = 1961
-      Text = '! Test spajanja je startao'
+      Text = 'Test povezave se je za'#269'el!'
     end
     item
       IndexID = 1960
-      Text = 'Test u radu :%s bytova van od %s'
+      Text = 'Test v teku: %s zunanjih bajtov od %s'
     end
     item
       IndexID = 1959
-      Text = 'Provjera identiteta nije uspjela.'
+      Text = 'Preverjanje pristnosti ni uspelo!'
     end
     item
       IndexID = 1958
-      Text = 'Nije spojeno...'
+      Text = 'Prekinjeno...'
     end
     item
       IndexID = 1957
-      Text = 'Opca e-mail gre'#353'ka'
+      Text = 'Splo'#353'na napaka e-po'#353'te!'
     end
     item
       IndexID = 1968
       Text = 
-        'Ne mo'#382'ete imati vi'#353'e od 150 za ovu neregistriranu kopiju <@APPNA' +
-        'ME@> -a.'
+        'Ta program je omejen na 500 transakcij ali 500 dokumentov! Prosi' +
+        'mo, registrirajte se in kupite licenco za <@APPNAME@>.'
     end
     item
       IndexID = 1967
       Text = 
-        'Neregistrirani <@APPNAME@> kopija je ogranicena na %s transakcij' +
-        'a%svi ste pre'#353'li %s %sMolimo vas registrirajte'
+        '<@APPNAME@> meja 500 transakcij ali 500 dokumentov je dose'#382'ena! ' +
+        'Prosimo, registrirajte se in kupite licenco.'
     end
     item
       IndexID = 1966
-      Text = 'Veza sa serverom je prekinuta'
+      Text = 'Povezava s stre'#382'nikom ni uspela!'
     end
     item
       IndexID = 1965
-      Text = '*User Testing on server'
+      Text = 'Uporabni'#353'ko testiranje na stre'#382'niku'
     end
     item
       IndexID = 1964
-      Text = 'Spajanje s %s'
+      Text = 'Povezovanje z %s...'
     end
     item
       IndexID = 1963
-      Text = '*Net Server Resolved'
+      Text = 'Omre'#382'ni stre'#382'nik razre'#353'en!'
     end
     item
       IndexID = 1974
@@ -6796,11 +6810,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1972
-      Text = 'Korisnicki password'
+      Text = 'Uporabni'#353'ko geslo'
     end
     item
       IndexID = 20123
-      Text = 'Filt'
+      Text = 'Filter (.flt)|.flt'
     end
     item
       IndexID = 20122
@@ -6808,27 +6822,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20121
-      Text = '&Prijavi'
+      Text = '&Uporabi'
     end
     item
       IndexID = 1976
-      Text = 'Iznos'
+      Text = #352'tevilka'
     end
     item
       IndexID = 1975
-      Text = '*Pmt Reference'
+      Text = 'Referenca pla'#269'ila'
     end
     item
       IndexID = 20001
-      Text = 'Potvrdi'
+      Text = 'Potrdi'
     end
     item
       IndexID = 20000
-      Text = 'Ne mo'#382'ete izraditi rekurzivne nivoe'
+      Text = 'Ni mogo'#269'e ustvariti rekurzivnih ravni!'
     end
     item
       IndexID = 1992
-      Text = 'kol && zadnja cijena nabave'
+      Text = 'Koli'#269'ina in zadnja nabavna cena'
     end
     item
       IndexID = 1991
@@ -6840,27 +6854,27 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1989
-      Text = 'tip tra'#382'enja kontra konta'
+      Text = 'Vrsta iskanja protikonta'
     end
     item
       IndexID = 20007
-      Text = 'Kolone'
+      Text = 'Stolpci'
     end
     item
       IndexID = 20006
-      Text = 'Namje'#353'tanje prema '#382'eljama'
+      Text = 'Prilagoditev'
     end
     item
       IndexID = 20005
-      Text = 'Filter je prazan>'
+      Text = 'Filter je <prazen>'
     end
     item
       IndexID = 20004
-      Text = 'Klikni ovdje za dodavanje novih redaka'
+      Text = 'Kliknite tukaj za dodajanje nove vrstice'
     end
     item
       IndexID = 20003
-      Text = 'Obri'#353'i sav izabrani zapis?'
+      Text = 'Izbri'#353'em vse izbrane zapise?'
     end
     item
       IndexID = 20002
@@ -6868,163 +6882,163 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20013
-      Text = 'Komponenta ne postoji'
+      Text = 'Komponenta ne obstaja!'
     end
     item
       IndexID = 20012
-      Text = 'cx tocka ne postoji'
+      Text = 'cxGrid ne obstaja!'
     end
     item
       IndexID = 20011
       Text = 
-        'Nedostaje srednja komponenta! Molimo vas dodajte %s komponente n' +
-        'a formu.'
+        'Manjka vmesna komponenta! Prosimo, dodajte komponento %s na obra' +
+        'zec!'
     end
     item
       IndexID = 20010
-      Text = 'Opseg'
+      Text = 'Pasovi'
     end
     item
       IndexID = 20009
-      Text = 'Namje'#353'tanje prema '#382'eljama...'
+      Text = 'Prilagodi...'
     end
     item
       IndexID = 20008
-      Text = 'Koristi mi'#353'a za dovlacenje kolone ovdje i grupiranje u tu kolonu'
+      Text = 'Z mi'#353'ko povlecite stolpec sem, da ga zdru'#382'ite po tem stolpcu'
     end
     item
       IndexID = 20019
-      Text = 'Jednako sa'
+      Text = 'Enako kot'
     end
     item
       IndexID = 20018
       Text = 
-        '*ExtLookupComboBox|Represents an ultra-advanced lookup using the' +
-        ' QuantumGrid as its drop down control'
+        'Raz'#353'irjeno kombinirano polje iskanja - Predstavlja napredno iska' +
+        'nje z uporabo QuantumGrid kot padajo'#269'ega nadzora!'
     end
     item
       IndexID = 20017
-      Text = 'Ne mogu izraditi datoteku za izvoz'
+      Text = 'Ni mogo'#269'e ustvariti izvozne datoteke!'
     end
     item
       IndexID = 20016
-      Text = 'Aktivni nivo  tocaka ne postoji'
+      Text = 'Aktivna raven mre'#382'e ne obstaja!'
     end
     item
       IndexID = 20015
-      Text = 'Pogled na  tocke ne postoji'
+      Text = 'Pogled mre'#382'e ne obstaja!'
     end
     item
       IndexID = 20014
-      Text = 'Gre'#353'ka pri uvozu'
+      Text = 'Napaka pri uvozu!'
     end
     item
       IndexID = 20025
-      Text = 'kao'
+      Text = 'Kot'
     end
     item
       IndexID = 20024
-      Text = 'Vece od ili jednako sa'
+      Text = 'Ve'#269' ali enako kot'
     end
     item
       IndexID = 20023
-      Text = 'Vece od'
+      Text = 'Ve'#269' kot'
     end
     item
       IndexID = 20022
-      Text = 'Manje od ili jednako sa'
+      Text = 'Manj ali enako kot'
     end
     item
       IndexID = 20021
-      Text = 'Manje od'
+      Text = 'Manj kot'
     end
     item
       IndexID = 20020
-      Text = 'Nije jednako sa'
+      Text = 'Ni enako kot'
     end
     item
       IndexID = 20031
-      Text = 'je jucer'
+      Text = 'je v'#269'eraj'
     end
     item
       IndexID = 20030
-      Text = 'Nije u'
+      Text = 'Ni v'
     end
     item
       IndexID = 20029
-      Text = 'u'
+      Text = 'v'
     end
     item
       IndexID = 20028
-      Text = 'Nije izmedu'
+      Text = 'Ni med'
     end
     item
       IndexID = 20027
-      Text = 'Izmedu'
+      Text = 'Med'
     end
     item
       IndexID = 20026
-      Text = 'Nije kao'
+      Text = 'Ni kot'
     end
     item
       IndexID = 20037
-      Text = 'je ovaj tjedan'
+      Text = 'je ta teden'
     end
     item
       IndexID = 20036
-      Text = 'je pro'#353'le godine'
+      Text = 'je lani'
     end
     item
       IndexID = 20035
-      Text = 'je pro'#353'li mjesec'
+      Text = 'je prej'#353'nji mesec'
     end
     item
       IndexID = 20034
-      Text = 'je pro'#353'li tjedan'
+      Text = 'je prej'#353'nji teden'
     end
     item
       IndexID = 20033
-      Text = 'je sutra'
+      Text = 'je jutri'
     end
     item
       IndexID = 20032
-      Text = 'je danas'
+      Text = 'je danes'
     end
     item
       IndexID = 20043
-      Text = 'i'
+      Text = 'in'
     end
     item
       IndexID = 20042
-      Text = 'je sljedece godine'
+      Text = 'je naslednje leto'
     end
     item
       IndexID = 20041
-      Text = 'je sljedeci mjesec'
+      Text = 'je naslednji mesec'
     end
     item
       IndexID = 20040
-      Text = 'je sljedeci tjedan'
+      Text = 'je naslednji teden'
     end
     item
       IndexID = 20039
-      Text = 'je ove godine'
+      Text = 'je letos'
     end
     item
       IndexID = 20038
-      Text = 'je ovaj mjesec'
+      Text = 'je ta mesec'
     end
     item
       IndexID = 20049
-      Text = 'Pocinje sa'
+      Text = 'Se za'#269'ne z'
     end
     item
       IndexID = 20048
-      Text = 'nije nula'
+      Text = 'ni prazno (not null)'
     end
     item
       IndexID = 20047
-      Text = 'je nula'
+      Text = 'je prazno (null)'
     end
     item
       IndexID = 20046
@@ -7036,31 +7050,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20044
-      Text = 'ili'
+      Text = 'ali'
     end
     item
       IndexID = 20055
-      Text = '(Sve)'
+      Text = '(Vse)'
     end
     item
       IndexID = 20054
-      Text = 'Ne sadr'#382'i'
+      Text = 'Ne vsebuje'
     end
     item
       IndexID = 20053
-      Text = 'Sadr'#382'i'
+      Text = 'Vsebuje'
     end
     item
       IndexID = 20052
-      Text = 'Ne zavr'#353'ava sa'
+      Text = 'Se ne kon'#269'a z'
     end
     item
       IndexID = 20051
-      Text = 'Zavr'#353'ava sa'
+      Text = 'Se kon'#269'a z'
     end
     item
       IndexID = 20050
-      Text = 'Ne pocinje sa'
+      Text = 'Se ne za'#269'ne z'
     end
     item
       IndexID = 20061
@@ -7068,15 +7082,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20060
-      Text = 'Broj skupine'
+      Text = #352't. dnevnika'
     end
     item
       IndexID = 20059
-      Text = 'Broj transakcije'
+      Text = #352't. transakcije'
     end
     item
       IndexID = 20058
-      Text = '(Nije prazno)'
+      Text = '(Ni prazno)'
     end
     item
       IndexID = 20057
@@ -7084,23 +7098,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20056
-      Text = '(Po izboru...)'
+      Text = '(Po meri...)'
     end
     item
       IndexID = 20067
-      Text = 'Totalna prodaja po danu'
+      Text = 'Skupna prodaja na dan'
     end
     item
       IndexID = 20066
-      Text = 'Totalna kolicina.'
+      Text = 'Skupna koli'#269'ina'
     end
     item
       IndexID = 20065
-      Text = 'Totalna prodaja'
+      Text = 'Skupna prodaja'
     end
     item
       IndexID = 20064
-      Text = 'Kolone'
+      Text = 'Stolpci'
     end
     item
       IndexID = 20063
@@ -7108,23 +7122,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20062
-      Text = 'Od brojavaj : 0'
+      Text = #352'teti : 0'
     end
     item
       IndexID = 20073
-      Text = 'Dijagram'
+      Text = 'Grafi'
     end
     item
       IndexID = 20072
-      Text = 'Stock Item invoice'
+      Text = 'Artikel > Ra'#269'un'
     end
     item
       IndexID = 20071
-      Text = '*Invocice stock item'
+      Text = 'Ra'#269'un > Artikel'
     end
     item
       IndexID = 20070
-      Text = 'Racun za kupca'
+      Text = 'Kupec > Ra'#269'un'
     end
     item
       IndexID = 20069
@@ -7132,107 +7146,107 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20068
-      Text = 'Totalna kolicina po danu'
+      Text = 'Skupna koli'#269'ina na dan'
     end
     item
       IndexID = 20079
-      Text = 'Otvori prvo skup knjiga.'
+      Text = 'Najprej odprite enoto!'
     end
     item
       IndexID = 20078
       Text = 
-        'This version will only work till 1-3-2005 for more info go to ht' +
-        'tps://www.osfinancials.org/'
+        'Ta razli'#269'ica bo delovala le do 1-3-2005 za ve'#269' informacij obi'#353#269'i' +
+        'te https://www.osfinancials.org/'
     end
     item
       IndexID = 20077
-      Text = 'Jedinstveni broj konta.'
+      Text = 'Unikatna '#353't. konta'
     end
     item
       IndexID = 20076
-      Text = 'Jedinstveni broj linije.'
+      Text = 'Unikatna '#353't. vrstice'
     end
     item
       IndexID = 20075
-      Text = 'Jedinstveni dokument.'
+      Text = 'Unikatna '#353't. dokumenta'
     end
     item
       IndexID = 20074
-      Text = 'Jedinstveni broj artikla.'
+      Text = 'Enoli'#269'na '#353't. artikla'
     end
     item
       IndexID = 20085
-      Text = 'Filteri'
+      Text = 'Filtri'
     end
     item
       IndexID = 20084
-      Text = 'Spremi SQL...'
+      Text = 'Shrani SQL...'
     end
     item
       IndexID = 20083
-      Text = 'Ucitaj SQL...'
+      Text = 'Nalo'#382'i SQL...'
     end
     item
       IndexID = 20082
-      Text = 'Pokreni SQL'
+      Text = 'Za'#382'eni SQL'
     end
     item
       IndexID = 20081
-      Text = 'Izlaz'
+      Text = 'Izhod'
     end
     item
       IndexID = 20080
-      Text = 'O'
+      Text = 'O programu'
     end
     item
       IndexID = 1982
-      Text = 'Bez poreza'
+      Text = 'Brez davka'
     end
     item
       IndexID = 1981
-      Text = 'Uvijek uravnote'#382'i'
+      Text = 'Vedno uravnote'#382'i'
     end
     item
       IndexID = 1980
-      Text = 'Korisnicki password'
+      Text = 'Uporabni'#353'ko geslo'
     end
     item
       IndexID = 1971
-      Text = #381'elite li spremiti promjene ?'
+      Text = 'Ali '#382'elite shraniti te spremembe?'
     end
     item
       IndexID = 1970
-      Text = 'Dozvoljeno je samo od 1 do 13 perioda'
+      Text = 'Dovoljena so le obdobja med 1 in 13!'
     end
     item
       IndexID = 1969
       Text = 
-        'Ne mo'#382'ete imati vi'#353'e od %s za ovu neregistriranu kopij%u <@APPNA' +
-        'ME@> -a, molimo vas registrirajte i dobijte licencu.'
+        'Ni mogo'#269'e imeti ve'#269' kot %s za to neregistrirano kopijo <@APPNAME' +
+        '@> %s! Prosimo, registrirajte se in pridobite licen'#269'no kodo!'
     end
     item
       IndexID = 1988
-      Text = 'Tip zatvaranja koda a'
+      Text = 'Vrsta iskanja konta'
     end
     item
       IndexID = 1987
-      Text = '*Ledgers special'
+      Text = 'Posebne glavne knjige'
     end
     item
       IndexID = 1986
-      Text = 'Upamti kontra za konto'
+      Text = 'Zapomni si protikonto na kontu'
     end
     item
       IndexID = 1985
-      Text = 'Upamti porez za kontra'
+      Text = 'Zapomni si davek na protikontu'
     end
     item
       IndexID = 1984
-      Text = 'Obrnuto od kontra'
+      Text = 'Storniraj protikonto'
     end
     item
       IndexID = 1983
-      Text = 'Nema otvorenih stavki za skupine'
+      Text = 'Ni dnevnik odprtih postavk'
     end
     item
       IndexID = 20091
@@ -7240,23 +7254,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20090
-      Text = 'Vidljive kolone'
+      Text = 'Vidni stolpci'
     end
     item
       IndexID = 20089
-      Text = 'Otvori direktorij'
+      Text = 'Odpri imenik'
     end
     item
       IndexID = 20088
-      Text = 'Prirodni  stil'
+      Text = 'Izvorni slog'
     end
     item
       IndexID = 20087
-      Text = 'Promjeni Font...'
+      Text = 'Pisava urejevalnika...'
     end
     item
       IndexID = 20086
-      Text = 'Grupiranje'
+      Text = 'Zdru'#382'evanje'
     end
     item
       IndexID = 20097
@@ -7264,19 +7278,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20096
-      Text = 'ili ne'
+      Text = 'ali ne'
     end
     item
       IndexID = 20095
-      Text = 'i ne'
+      Text = 'in ne'
     end
     item
       IndexID = 20094
-      Text = 'ili'
+      Text = 'ali'
     end
     item
       IndexID = 20093
-      Text = 'i'
+      Text = 'in'
     end
     item
       IndexID = 20092
@@ -7284,43 +7298,43 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20103
-      Text = 'Sadr'#382'i sljedece uvjete'
+      Text = 'Vsebuje naslednje pogoje'
     end
     item
       IndexID = 20102
-      Text = 'Pritisni dugme da doda'#353' uvjet'
+      Text = 'Pritisnite ta gumb za dodajanje pogoja'
     end
     item
       IndexID = 20101
-      Text = 'Obri'#353'i &sve'
+      Text = 'Izbri'#353'i &vse'
     end
     item
       IndexID = 20100
-      Text = '&obri'#353'i redove'
+      Text = '&Izbri'#353'i vrstico'
     end
     item
       IndexID = 20099
-      Text = 'Novo &grupe'
+      Text = 'Nova &skupina'
     end
     item
       IndexID = 20098
-      Text = 'Novi &uvjeti'
+      Text = 'Nov &pogoj'
     end
     item
       IndexID = 20109
-      Text = 'Koristi'
+      Text = 'Uporabi'
     end
     item
       IndexID = 20108
-      Text = 'Kriva vrijednost'
+      Text = 'Neveljavna vrednost'
     end
     item
       IndexID = 20107
-      Text = 'Prilagoden filter'
+      Text = 'Prilagojen filter'
     end
     item
       IndexID = 20106
-      Text = 'Ne mogu isprazniti filter'
+      Text = 'Filtra ni mogo'#269'e izprazniti!'
     end
     item
       IndexID = 20105
@@ -7332,55 +7346,55 @@ object TTranslationSaveObject
     end
     item
       IndexID = 20115
-      Text = 'Napravi filter'
+      Text = 'Ustvari filter'
     end
     item
       IndexID = 20114
-      Text = 'Prika'#382'i redove ovdje :'
+      Text = 'Prika'#382'i vrstice, kjer:'
     end
     item
       IndexID = 20113
-      Text = 'ili'
+      Text = 'ali'
     end
     item
       IndexID = 20112
-      Text = 'i'
+      Text = 'in'
     end
     item
       IndexID = 20111
-      Text = 'za predstavljanje vi'#353'e karaktera'
+      Text = 'za predstavitev ve'#269' znakov'
     end
     item
       IndexID = 20110
-      Text = 'za prestavljanje jednog karaktera'
+      Text = 'za predstavitev enega znaka'
     end
     item
       IndexID = 20120
-      Text = '&Otvori...'
+      Text = '&Odpri...'
     end
     item
       IndexID = 20119
-      Text = '&Spremi kao...'
+      Text = '&Shrani kot...'
     end
     item
       IndexID = 20118
-      Text = 'Spremi aktivni filter'
+      Text = 'Shrani aktivni filter'
     end
     item
       IndexID = 20117
-      Text = 'Otvori spremljeni filter'
+      Text = 'Odpri shranjen filter'
     end
     item
       IndexID = 20116
-      Text = 'Filter bez imena.flt'
+      Text = 'brezmena.flt'
     end
     item
       IndexID = 1996
-      Text = 'Provjeravam ulazne podatke u skupini ...'
+      Text = 'Preverjanje vnosov v dnevnik...'
     end
     item
       IndexID = 1997
-      Text = 'Ucitavam totals'
+      Text = 'Posodabljanje skupnih vsot...'
     end
     item
       IndexID = 1998
@@ -7388,47 +7402,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1999
-      Text = 'Zalihe'
+      Text = 'Zaloga'
     end
     item
       IndexID = 2000
-      Text = 'Du'#382'nici'
+      Text = 'Kupci'
     end
     item
       IndexID = 2001
-      Text = 'Konta'
+      Text = 'Konti'
     end
     item
       IndexID = 2002
-      Text = 'Kreditori'
+      Text = 'Dobavitelji'
     end
     item
       IndexID = 2003
-      Text = 'Poslane skupine'
+      Text = 'Knji'#382'eni dnevniki'
     end
     item
       IndexID = 2004
-      Text = 'Izvoz prema'
+      Text = 'Izvozi v:'
     end
     item
       IndexID = 2005
-      Text = 'Tip datoteke'
+      Text = 'Vrsta datoteke'
     end
     item
       IndexID = 2006
-      Text = 'Izvoz datoteke naziva'
+      Text = 'Ime izvoznih datotek'
     end
     item
       IndexID = 2007
-      Text = 'Datoteka naziva'
+      Text = 'Ime datoteke'
     end
     item
       IndexID = 2008
-      Text = 'Log datoteka'
+      Text = 'Dnevni'#353'ka datoteka (Log)'
     end
     item
       IndexID = 2009
-      Text = 'Rang'
+      Text = 'Razpon'
     end
     item
       IndexID = 2010
@@ -7440,7 +7454,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2012
-      Text = 'Datum / Perioda'
+      Text = 'Datum / Obdobje'
     end
     item
       IndexID = 2013
@@ -7456,47 +7470,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2016
-      Text = 'Zaglavlja'
+      Text = 'Glave'
     end
     item
       IndexID = 2017
-      Text = 'Linije'
+      Text = 'Vrstice'
     end
     item
       IndexID = 2018
-      Text = 'Uvoz od:'
+      Text = 'Uvoz iz:'
     end
     item
       IndexID = 2019
-      Text = 'Pogledaj datoteku'
+      Text = 'Prika'#382'i datoteko'
     end
     item
       IndexID = 2020
-      Text = 'Uvoz predlo'#353'ka podataka'
+      Text = #268'arovnik za uvoz podatkov'
     end
     item
       IndexID = 2021
-      Text = 'Uvoz podataka u <@APPNAME@>'
+      Text = 'Uvoz podatkov v <@APPNAME@>'
     end
     item
       IndexID = 2022
-      Text = 'Uvoz podataka je zavr'#353'en'
+      Text = 'Uvoz podatkovne datoteke uspe'#353'no zaklju'#269'en!'
     end
     item
       IndexID = 2023
-      Text = 'Nije ugraden uvoz tog formata datoteke'
+      Text = 'Format uvozne datoteke ni podprt!'
     end
     item
       IndexID = 2024
-      Text = 'Poredaj po datumima'
+      Text = 'Razvrsti po datumu'
     end
     item
       IndexID = 2025
-      Text = 'Odredite tipove podataka koje uvozite'
+      Text = 'Prosimo, izberite vrsto podatkov, ki jih '#382'elite uvoziti'
     end
     item
       IndexID = 2026
-      Text = 'Tip podataka za uvoz'
+      Text = 'Vrsta podatkov za uvoz'
     end
     item
       IndexID = 2027
@@ -7504,19 +7518,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2028
-      Text = 'Kliknite na import za pocetak procesa'
+      Text = 'Zdaj lahko kliknete [Uvoz] za za'#269'etek postopka.'
     end
     item
       IndexID = 2029
-      Text = 'Promjena Aliasa'
+      Text = '&Spremeni alias'
     end
     item
       IndexID = 2030
-      Text = 'Molimo vas pricekajte...'
+      Text = 'Prosimo, po'#269'akajte...'
     end
     item
       IndexID = 2031
-      Text = 'Obradujem'
+      Text = 'Obdelava...'
     end
     item
       IndexID = 2032
@@ -7524,23 +7538,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2033
-      Text = 'Izmjena podataka o poduzecu'
+      Text = 'Spremeni podatke o podjetju'
     end
     item
       IndexID = 2034
-      Text = 'Odabir otvorenih stavaka'
+      Text = 'Izbira odprtih postavk'
     end
     item
       IndexID = 2035
-      Text = 'Otvaram ladicu'
+      Text = 'Odpiranje predala...'
     end
     item
       IndexID = 2036
-      Text = '<@APPNAME@> RACUN'
+      Text = '<@APPNAME@> Ra'#269'un'
     end
     item
       IndexID = 2037
-      Text = 'POREZNI RACUN'
+      Text = 'DAV'#268'NI RA'#268'UN'
     end
     item
       IndexID = 2038
@@ -7548,39 +7562,39 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2039
-      Text = 'Fax.'
+      Text = 'Faks'
     end
     item
       IndexID = 2040
-      Text = 'Cel.'
+      Text = 'Gsm'
     end
     item
       IndexID = 2041
-      Text = 'Ukupno dano'
+      Text = 'GOTOVINA'
     end
     item
       IndexID = 2042
-      Text = 'Ostalo za vratiti'
+      Text = 'Vra'#269'ilo'
     end
     item
       IndexID = 2043
-      Text = 'Porez'
+      Text = 'ZNESEK-DDV'
     end
     item
       IndexID = 2044
-      Text = '20.00%'
+      Text = '22.00%'
     end
     item
       IndexID = 2045
-      Text = 'Blagajnik :'
+      Text = 'Ime blagajnika:'
     end
     item
       IndexID = 2046
-      Text = 'Broj'
+      Text = #352'tevilka'
     end
     item
       IndexID = 2047
-      Text = 'Ime'
+      Text = 'Priimek'
     end
     item
       IndexID = 2048
@@ -7588,237 +7602,239 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2049
-      Text = 'Adresa dostave'
+      Text = 'Naslov za dostavo'
     end
     item
       IndexID = 2050
-      Text = 'Komentar'
+      Text = 'Komentarji'
     end
     item
       IndexID = 2051
-      Text = 'Predstavlja stavku bez poreza'
+      Text = '*Ozna'#269'uje neobdav'#269'ljivo postavko'
     end
     item
       IndexID = 2052
-      Text = 'Artikla'
+      Text = 'Artikli'
     end
     item
       IndexID = 2053
-      Text = 'Dugujete'
+      Text = 'Zapadlo'
     end
     item
       IndexID = 2054
-      Text = 'Zapis je zakljucao drugi korisnik. Ponovite!'
+      Text = 'Zapis je zaklenil drug uporabnik! Prosimo, poskusite znova!'
     end
     item
       IndexID = 2056
-      Text = 'Ispi'#353'i racun'
+      Text = 'Tiskanje ra'#269'una'
     end
     item
       IndexID = 2057
-      Text = '*Bottom Feed Lines'
+      Text = 'Spodnje vrstice za pomik papirja'
     end
     item
       IndexID = 2058
-      Text = 'Pos uzimanje gotovine'
+      Text = 'POS-zaklju'#269'ek blagajne'
     end
     item
       IndexID = 2059
-      Text = 'Ne mogu dobii novi broj zapis je zatvoren probjte ponovo kasnije'
+      Text = 
+        'Ni mogo'#269'e pridobiti nove '#353'tevilke! Zapis je zaklenjen! Poskusite' +
+        ' pozneje!'
     end
     item
       IndexID = 2060
-      Text = '*Generate bank bookings'
+      Text = 'Ustvari ban'#269'ne knji'#382'be'
     end
     item
       IndexID = 2061
-      Text = 'Transakcija bankinog izvje'#353'taja'
+      Text = 'Transakcije ban'#269'nega izpiska'
     end
     item
       IndexID = 2062
-      Text = 'Izradujem bilance ...'
+      Text = 'Ustvarjanje saldov...'
     end
     item
       IndexID = 2063
-      Text = 'Tra'#382'im preostale bilance'
+      Text = 'Dodeljevanje odprtih saldov...'
     end
     item
       IndexID = 2064
-      Text = '*Ageing ...'
+      Text = #268'asovna analiza zapadlosti...'
     end
     item
       IndexID = 2065
-      Text = 'Stvaram skup knjiga'
+      Text = 'Ustvarjanje enote...'
     end
     item
       IndexID = 2066
-      Text = 'Konsolidiram'
+      Text = 'Konsolidiranje...'
     end
     item
       IndexID = 2067
-      Text = 'Uravnote'#382'ujem'
+      Text = 'Uravnote'#382'enje...'
     end
     item
       IndexID = 2068
-      Text = 'Uvozim artikle'
+      Text = 'Uva'#382'anje artiklov...'
     end
     item
       IndexID = 2069
-      Text = 'Citam Lotus datotku'
+      Text = 'Branje datoteke preglednice...'
     end
     item
       IndexID = 2070
-      Text = 'Uvozim konta'
+      Text = 'Uva'#382'anje kontov...'
     end
     item
       IndexID = 2071
-      Text = 'Izvozim transakcije'
+      Text = 'Izva'#382'anje transakcij...'
     end
     item
       IndexID = 2072
-      Text = 'Izvozim du'#382'nike'
+      Text = 'Izvoz kupcev...'
     end
     item
       IndexID = 2073
-      Text = 'Uvozim artikle'
+      Text = 'Uva'#382'anje artiklov...'
     end
     item
       IndexID = 2074
-      Text = 'Izvozim skup konta'
+      Text = 'Izva'#382'anje kontnega na'#269'rta...'
     end
     item
       IndexID = 2075
-      Text = 'Izvozim konta'
+      Text = 'Izva'#382'anje kontov...'
     end
     item
       IndexID = 2076
-      Text = 'Uvozim dokumente'
+      Text = 'Uva'#382'anje dokumentov...'
     end
     item
       IndexID = 2077
-      Text = 'Izvozim dokumente'
+      Text = 'Izva'#382'anje dokumentov...'
     end
     item
       IndexID = 2078
-      Text = 'Izvozim u CSV datoteku'
+      Text = 'Izva'#382'anje v CSV datoteko...'
     end
     item
       IndexID = 2079
-      Text = 'Izvozim u Lotus datoteku'
+      Text = 'Izvoz v datoteko preglednice...'
     end
     item
       IndexID = 2080
-      Text = 'Izvozim u OpenOffice predlo'#382'ak'
+      Text = 'Izvoz v preglednico OpenOffice...'
     end
     item
       IndexID = 2081
-      Text = 'Izvozim u SYLK predlo'#382'ak'
+      Text = 'Izvoz v SYLK datoteko preglednice....'
     end
     item
       IndexID = 2082
-      Text = 'Izvozim u MS Excel datoteku'
+      Text = 'Izva'#382'anje v MS Excel datoteko...'
     end
     item
       IndexID = 2083
-      Text = 'Pripremam listu'
+      Text = 'Priprava seznama...'
     end
     item
       IndexID = 2084
-      Text = 'Vrati nazad poslanu skupinu/dokument'
+      Text = 'Storniraj knji'#382'en dnevnik/dokument'
     end
     item
       IndexID = 2085
-      Text = 'Alias'
+      Text = 'Alias (ime dnevnika)'
     end
     item
       IndexID = 2086
-      Text = 'Vrati nazad poslanu skupinu'
+      Text = 'Storniraj knji'#382'en dnevnik'
     end
     item
       IndexID = 2087
-      Text = 'Vrati nazad poslani dokument'
+      Text = 'Storniraj knji'#382'en dokument'
     end
     item
       IndexID = 2088
-      Text = 'Brojac linija'
+      Text = #352'tevec vrstic'
     end
     item
       IndexID = 2089
-      Text = 'Dok. br.'
+      Text = #352't. dok.'
     end
     item
       IndexID = 2090
-      Text = 'Broj korisnika'
+      Text = #352'tevilke'
     end
     item
       IndexID = 2091
-      Text = 'Koristi period'
+      Text = 'Obdobja'
     end
     item
       IndexID = 2092
-      Text = 'Poka'#382'i kontra'
+      Text = 'Prika'#382'i protikonto'
     end
     item
       IndexID = 2093
-      Text = 'Ukljuci neposlane stavke'
+      Text = 'Vklju'#269'no z neknji'#382'enimi postavkami'
     end
     item
       IndexID = 2094
-      Text = #381'elite li koristiti trenutne bilance kao otvorena bilance?'
+      Text = 'Ali '#382'elite trenutni saldo uporabiti kot otvoritveni saldo?'
     end
     item
       IndexID = 2095
-      Text = 'Ne mo'#382'ete izvje'#353'tavati od %s do %s'
+      Text = 'Poro'#269'anje od %s do %s ni mogo'#269'e!'
     end
     item
       IndexID = 2096
-      Text = 'Zapis je mjenjan . '#381'elite li poslati svoje podatke?'
+      Text = 'Zapis je bil spremenjen! Ali '#382'elite knji'#382'iti svoje podatke?'
     end
     item
       IndexID = 2097
-      Text = 'Float Transfer njie dozvoljen'
+      Text = 'Prenos pologa blagajne ni dovoljen!'
     end
     item
       IndexID = 2098
       Text = 
-        'Jo'#353' uvije imate izmos za primiti. %s Ne mo'#382'e se napustiti neplac' +
-        'eni iznos za POS racun'
+        #352'e vedno morate prejeti znesek %s. Nepla'#269'anega zneska za POS ra'#269 +
+        'un ni mogo'#269'e zapustiti!'
     end
     item
       IndexID = 2099
-      Text = 'Predlo'#382'ak  izvje'#353'tajne datoteke nije pronaden'
+      Text = 'Datoteka z datoteko predloge poro'#269'ila ni bila najdena!'
     end
     item
       IndexID = 2100
-      Text = 'Koristi OK za pamcenje novog imena'
+      Text = 'Kliknite na [V redu] za shranjevanje novega imena'
     end
     item
       IndexID = 2101
-      Text = 'Opci brojevi'
+      Text = 'Splo'#353'ne '#353'tevilke'
     end
     item
       IndexID = 2102
-      Text = 'Automatski po'#353'alji dokumenat nakon ispisa'
+      Text = 'Samodejno knji'#382'i dokument po tiskanju'
     end
     item
       IndexID = 2103
-      Text = '&Uredi'
+      Text = '&Prilagodi'
     end
     item
       IndexID = 2104
-      Text = '*&Update Server'
+      Text = 'Posodobi stre'#382'nik'
     end
     item
       IndexID = 2105
-      Text = 'Verzija :'
+      Text = 'Razli'#269'ica:'
     end
     item
       IndexID = 2106
-      Text = 'broj'
+      Text = #352'tevilka'
     end
     item
       IndexID = 2107
-      Text = 'Poka'#382'i stvarnu adresu'
+      Text = 'Prika'#382'i podatke o stiku'
     end
     item
       IndexID = 2108
@@ -7826,89 +7842,89 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2109
-      Text = 'Izaberi direktorij skupa knjiga'
+      Text = 'Izberite imenik mape enote'
     end
     item
       IndexID = 2110
-      Text = 'Prodi kroz folder'
+      Text = 'Prebrskaj za mapo'
     end
     item
       IndexID = 2111
-      Text = 'Samoraspakirajuci exe'
+      Text = 'Samorazpakirna izvr'#353'ljiva datoteka (exe)'
     end
     item
       IndexID = 2112
-      Text = '*E-mail Backup'
+      Text = 'Arhiviranje e-po'#353'te'
     end
     item
       IndexID = 2113
-      Text = '*Restore from Server'
+      Text = 'Obnovi s stre'#382'nika'
     end
     item
       IndexID = 2114
-      Text = '*<@APPNAME@> Select backup file'
+      Text = '<@APPNAME@> - Izberite arhivsko datoteko'
     end
     item
       IndexID = 2115
-      Text = 'Knjigovodstveni znakovi'
+      Text = 'Mesta konta'
     end
     item
       IndexID = 2116
-      Text = 'Naziv skupa knjiga'
+      Text = 'Ime mape enote'
     end
     item
       IndexID = 2117
-      Text = 'Putanja'
+      Text = 'Poti'
     end
     item
       IndexID = 2118
-      Text = 'Sa'#382'mi datoteku s porukom'
+      Text = 'Stisni datoteko s sporo'#269'ili'
     end
     item
       IndexID = 2119
-      Text = 'Mjenjaj kod'
+      Text = 'Spremeni '#353'ifro'
     end
     item
       IndexID = 2120
       Text = 
-        'Izmjena koda rezultirat ce upotrebom toga koda u svim izvje'#353'taji' +
-        'ma.'
+        'Sprememba '#353'ifre artikla bo vplivala na vsa poro'#269'ila, ki bodo upo' +
+        'rabila to '#353'ifro!'
     end
     item
       IndexID = 2121
-      Text = #381'elite li sigurno izmijeniti kod?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite spremeniti '#353'ifro?'
     end
     item
       IndexID = 2122
-      Text = 'Novi kod za arikl'
+      Text = 'Nova '#353'ifra artikla'
     end
     item
       IndexID = 2123
-      Text = 'Kod'
+      Text = #352'ifra'
     end
     item
       IndexID = 2124
-      Text = 'Informacije o artiklu'
+      Text = 'Podatki o artiklu'
     end
     item
       IndexID = 2125
-      Text = 'Ucitaj sve'
+      Text = 'Posodobi vse'
     end
     item
       IndexID = 2126
-      Text = 'Poravnavam ulaze'
+      Text = 'USKLAJEVANJE VNOSA'
     end
     item
       IndexID = 2127
-      Text = 'Ispravit debit/credit'
+      Text = 'Popravi breme/dobro'
     end
     item
       IndexID = 2128
-      Text = 'Ukupno za svaki period'
+      Text = 'Skupaj za vsako obdobje'
     end
     item
       IndexID = 2129
-      Text = 'Dodaj ovo u opis'
+      Text = 'Dodaj to v opise'
     end
     item
       IndexID = 2130
@@ -7916,7 +7932,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2131
-      Text = 'Procesiranje'
+      Text = 'Obdelaj'
     end
     item
       IndexID = 2132
@@ -7924,7 +7940,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2133
-      Text = '&Kontra konto'
+      Text = '&Proti-konto'
     end
     item
       IndexID = 2134
@@ -7932,23 +7948,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2135
-      Text = 'Prema kupcu za iznos'
+      Text = 'Kupcem za (znesek)'
     end
     item
       IndexID = 2136
-      Text = 'Prema kupcu s poravnanjem manjim od iznosa'
+      Text = 'Kupcem s saldom, manj'#353'im od (znesek)'
     end
     item
       IndexID = 2137
-      Text = 'Broj dana dugovanja'
+      Text = #352'tevilo dni zamude'
     end
     item
       IndexID = 2138
-      Text = 'Napravi vi'#353'estruke transakcije'
+      Text = 'Ustvari ve'#269' transakcij'
     end
     item
       IndexID = 2139
-      Text = 'Od du'#382'nika:'
+      Text = 'Od kupca:'
     end
     item
       IndexID = 2140
@@ -7956,131 +7972,131 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2141
-      Text = '%s %s od %s dug preko %s'
+      Text = '%s %s od %s z zamudo na dan %s'
     end
     item
       IndexID = 2142
-      Text = 'Por'
+      Text = 'Saldo'
     end
     item
       IndexID = 2143
-      Text = 'Broj :'
+      Text = #352'tevilo:'
     end
     item
       IndexID = 2144
-      Text = 'Koristi A5 velicinu'
+      Text = 'Velikost A5'
     end
     item
       IndexID = 2145
-      Text = 'i'
+      Text = 'in'
     end
     item
       IndexID = 2146
-      Text = 'Nula'
+      Text = 'Null'
     end
     item
       IndexID = 2147
-      Text = 'Bilanca banke na'
+      Text = 'Stanje na banki na dan'
     end
     item
       IndexID = 2148
-      Text = 'Prema <@APPNAME@>:'
+      Text = 'Glede na <@APPNAME@>:'
     end
     item
       IndexID = 2149
-      Text = 'PORAVNANJE S'
+      Text = 'STANJE NA DAN'
     end
     item
       IndexID = 2150
-      Text = 'Artikli na zalihama'
+      Text = 'Artikli na zalogi'
     end
     item
       IndexID = 2151
-      Text = 'Unesi sveukupni popust'
+      Text = 'Vnesite splo'#353'ni popust'
     end
     item
       IndexID = 2152
-      Text = 'Povratnica od kupca'
+      Text = 'Dobropis kupcu'
     end
     item
       IndexID = 2153
-      Text = 'Primka'
+      Text = 'Nabave'
     end
     item
       IndexID = 2154
-      Text = 'Povratnica dobavljacu'
+      Text = 'Vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 2155
-      Text = 'Roba/Vraceno'
+      Text = 'Ra'#269'un'
     end
     item
       IndexID = 2156
-      Text = 'Racun ukupno:'
+      Text = 'Skupaj ra'#269'un:'
     end
     item
       IndexID = 2157
-      Text = 'K/Zapis Ukupno :'
+      Text = 'Skupaj dobropis:'
     end
     item
       IndexID = 2158
-      Text = 'Kupcev ukupni iznos :'
+      Text = 'Skupaj kupec:'
     end
     item
       IndexID = 2159
-      Text = 'Analiza prodaje - Prodaja po kupcu'
+      Text = 'Analiza prodaje - Prodaja po kupcih'
     end
     item
       IndexID = 2160
-      Text = 'Ukupno primke :'
+      Text = 'Skupaj nabave:'
     end
     item
       IndexID = 2161
-      Text = 'Roba/vraceno Total :'
+      Text = 'Skupaj vra'#269'ila dobaviteljem:'
     end
     item
       IndexID = 2162
-      Text = 'Ukupno dobavljac :'
+      Text = 'Skupaj dobavitelji:'
     end
     item
       IndexID = 2163
-      Text = 'Analiza prodaje - Primke po dobavljacu'
+      Text = 'Analiza nabave - Nabave po dobaviteljih'
     end
     item
       IndexID = 2167
-      Text = 'Tra'#382'i po br. rac.'
+      Text = 'Iskanje po '#353't. ra'#269'una'
     end
     item
       IndexID = 2168
-      Text = 'Lokacija skupa knjiga :'
+      Text = 'Lokacija mape enote:'
     end
     item
       IndexID = 2169
-      Text = 'Kolicina'
+      Text = 'Ponudba'
     end
     item
       IndexID = 2170
-      Text = 'Narud'#382'ba'
+      Text = 'Naro'#269'ilo'
     end
     item
       IndexID = 2171
-      Text = 'Upotrijebi referncu'
+      Text = 'Referenca'
     end
     item
       IndexID = 2172
-      Text = 'Izradi poravnanje s BF opcijom'
+      Text = 'Ustvari mo'#382'nosti prenosa stanja (B/F)'
     end
     item
       IndexID = 2173
-      Text = 'Ocisti link opcije'
+      Text = 'Po'#269'isti mo'#382'nosti povezav'
     end
     item
       IndexID = 2174
-      Text = 'Sa Debitnim datumom'
+      Text = 'Po datumih bremenitve'
     end
     item
       IndexID = 2175
-      Text = 'Ukljuci  stavke od'
+      Text = 'Vklju'#269'i postavke od'
     end
     item
       IndexID = 2176
@@ -8088,15 +8104,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2177
-      Text = 'Iznos poreza pronaden ali je porezni konto  izbrisan'
+      Text = 'Znesek davka je bil najden, vendar je dav'#269'ni konto izbrisan!'
     end
     item
       IndexID = 2178
-      Text = 'TRO'#352'AK PRODAJE'
+      Text = 'NABAVNA VREDNOST PRODANEGA BLAGA'
     end
     item
       IndexID = 2179
-      Text = 'Dana'
+      Text = 'Dan'
     end
     item
       IndexID = 2180
@@ -8104,19 +8120,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2181
-      Text = 'Od du'#382'nika'
+      Text = 'Od kupca'
     end
     item
       IndexID = 2182
-      Text = 'Prema du'#382'niku'
+      Text = 'Kupcu'
     end
     item
       IndexID = 2183
-      Text = 'Uvoz : %s  of %s'
+      Text = 'Uva'#382'anje: %s od %s...'
     end
     item
       IndexID = 2184
-      Text = 'Uvozim Du'#382'nik/Kreditor'
+      Text = 'Uvoz kupcev/dobaviteljev...'
     end
     item
       IndexID = 2185
@@ -8124,7 +8140,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2186
-      Text = 'Opcije por. konta banke'
+      Text = 'Mo'#382'nosti ban'#269'nega izpiska'
     end
     item
       IndexID = 2187
@@ -8132,35 +8148,35 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2188
-      Text = 'Provjera neposlanih stavki'
+      Text = 'Preverjanje neknji'#382'enih postavk'
     end
     item
       IndexID = 2189
-      Text = 'Samo '#353'to je neposlano'
+      Text = 'Samo neknji'#382'eno'
     end
     item
       IndexID = 2190
-      Text = 'Svaka skupina posebno'
+      Text = 'Vsaka obdelava dnevnika posebej'
     end
     item
       IndexID = 2191
-      Text = 'Poka'#382'i detalje'
+      Text = 'Prika'#382'i podrobnosti'
     end
     item
       IndexID = 2192
-      Text = 'Printanje'
+      Text = 'Tiskanje na...'
     end
     item
       IndexID = 2193
-      Text = 'Nizozemski nacin odbrojavanja texta.'
+      Text = 'Nizozemsko '#353'tevil'#269'enje besedila'
     end
     item
       IndexID = 2194
-      Text = 'Koristi oznaku za valutu'
+      Text = 'Simbol valute'
     end
     item
       IndexID = 2195
-      Text = 'Digit simbol'
+      Text = 'Simbol za tiso'#269'ice'
     end
     item
       IndexID = 2196
@@ -8168,339 +8184,339 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2197
-      Text = 'Nacin'
+      Text = 'Na'#269'in'
     end
     item
       IndexID = 2198
-      Text = 'Racun/Knjigovodstvo'
+      Text = 'Ra'#269'un/Ra'#269'unovodstvo'
     end
     item
       IndexID = 2199
-      Text = 'Knjigovodstvo'
+      Text = 'Ra'#269'unovodstvo'
     end
     item
       IndexID = 2200
-      Text = '*Point-of-Sale'
+      Text = 'Blagajna (POS)'
     end
     item
       IndexID = 2201
-      Text = 'Ispravak podataka o du'#382'niku'
+      Text = 'Uredi kupce'
     end
     item
       IndexID = 2202
-      Text = 'Ispravak podataka o kreditoru'
+      Text = 'Uredi dobavitelje'
     end
     item
       IndexID = 2203
-      Text = 'Ispravak podataka o porezu'
+      Text = 'Uredi davek'
     end
     item
       IndexID = 2204
-      Text = 'Ispravak podataka o banci'
+      Text = 'Uredi banko'
     end
     item
       IndexID = 2205
-      Text = 'Vidi ispis izvoda od banke'
+      Text = 'Ro'#269'no usklajevanje banke'
     end
     item
       IndexID = 2206
-      Text = 'Addresa 2'
+      Text = 'Naslov 2'
     end
     item
       IndexID = 2207
-      Text = 'Addresa 3'
+      Text = 'Dr'#382'ava'
     end
     item
       IndexID = 2208
-      Text = '11 Dokaz'
+      Text = 'Preizkus 11'
     end
     item
       IndexID = 2209
-      Text = 'Presuda'
+      Text = 'Arbitra'#382'a'
     end
     item
       IndexID = 2210
-      Text = 'Tip  bankarskog konta'
+      Text = 'Vrsta ban'#269'nega ra'#269'una'
     end
     item
       IndexID = 2211
-      Text = 'Broj bankovnog konta.'
+      Text = #352't. ban'#269'nega ra'#269'una'
     end
     item
       IndexID = 2212
-      Text = 'Plati kreditora'
+      Text = 'Samodejna pla'#269'ila'
     end
     item
       IndexID = 2213
-      Text = 'Datum placanja'
+      Text = 'Datum pla'#269'ila'
     end
     item
       IndexID = 2214
-      Text = '*Create clieop file'
+      Text = 'Ustvari datoteko Clieop'
     end
     item
       IndexID = 2215
-      Text = 'Racun u banci za placanje'
+      Text = 'Ban'#269'ni ra'#269'un za pla'#269'ila'
     end
     item
       IndexID = 2216
-      Text = 'Plati transakciju'
+      Text = 'Pla'#269'aj transakcijo'
     end
     item
       IndexID = 2217
-      Text = 'Spremi datoteku'
+      Text = 'Shrani datoteko'
     end
     item
       IndexID = 2218
-      Text = 'Kod za Du'#382'nika'
+      Text = #352'ifra kupca'
     end
     item
       IndexID = 2219
-      Text = 'Kod za Kreditora'
+      Text = #352'ifra dobavitelja'
     end
     item
       IndexID = 2220
-      Text = 'Adresa'
+      Text = 'Naslov'
     end
     item
       IndexID = 2221
-      Text = 'Odgoda placanja u danima'
+      Text = 'Dni do zapadlosti'
     end
     item
       IndexID = 2222
-      Text = 'Datum kada treba  platiti'
+      Text = 'Datum zapadlosti'
     end
     item
       IndexID = 2223
-      Text = 'Sve je neprovjereno'
+      Text = 'Odozna'#269'i vse'
     end
     item
       IndexID = 2224
-      Text = 'Izabrano nemoj provjeravati'
+      Text = 'Odozna'#269'i izbrano'
     end
     item
       IndexID = 2225
-      Text = 'Provjeri izabrano'
+      Text = 'Ozna'#269'i izbrano'
     end
     item
       IndexID = 2226
-      Text = 'Izvje'#353'taj o placanju prema kreditorima'
+      Text = 'Poro'#269'ilo o pla'#269'ilih dobaviteljem'
     end
     item
       IndexID = 2227
-      Text = 'Ukupno redova'
+      Text = 'Skupaj vrstic'
     end
     item
       IndexID = 2228
-      Text = 'Ukupan iznos'
+      Text = 'Skupni znesek'
     end
     item
       IndexID = 2229
-      Text = 'Provjerna suma za bankarska konta'
+      Text = 'Kontrolna vsota ban'#269'nih ra'#269'unov'
     end
     item
       IndexID = 2230
-      Text = 'Unesi referencu za izjavu'
+      Text = 'Vnesite sklic izpiska'
     end
     item
       IndexID = 2231
-      Text = 'Izjava'
+      Text = 'Sklic izpiska'
     end
     item
       IndexID = 2232
-      Text = 'Placanje'
+      Text = 'Pla'#269'ila'
     end
     item
       IndexID = 2233
-      Text = 'Primljene uplate'
+      Text = 'Prejemki'
     end
     item
       IndexID = 2234
-      Text = 'Zadnja suma'
+      Text = 'Zadnja vsota'
     end
     item
       IndexID = 2235
-      Text = 'Zadnja une'#353'ena izjava'
+      Text = 'Zadnji vneseni izpisek'
     end
     item
       IndexID = 2236
-      Text = '^O : Obri'#353'i izjavu'
+      Text = '^D: Izbri'#353'i izpisek'
     end
     item
       IndexID = 2237
-      Text = 'Obri'#353'i liniju'
+      Text = 'Izbri'#353'i vrstico'
     end
     item
       IndexID = 2238
-      Text = 'Uvezi izvadak od banke'
+      Text = 'Uvozi ban'#269'ni izpisek'
     end
     item
       IndexID = 2239
-      Text = '11 Dokaz'
+      Text = 'Preizkus 11'
     end
     item
       IndexID = 2240
-      Text = 'Nema provjere'
+      Text = 'Brez preverjanja'
     end
     item
       IndexID = 2241
-      Text = 'Dana odgode placanja'
+      Text = 'Dni do zapadlosti'
     end
     item
       IndexID = 2242
-      Text = 'Poredaj'
+      Text = 'Razvrsti'
     end
     item
       IndexID = 2243
-      Text = '*Y'
+      Text = 'D'
     end
     item
       IndexID = 2244
-      Text = '*N'
+      Text = 'N'
     end
     item
       IndexID = 2245
-      Text = '*T'
+      Text = 'R'
     end
     item
       IndexID = 2246
-      Text = '*F'
+      Text = 'N'
     end
     item
       IndexID = 2247
-      Text = 'Za'#353'to'
+      Text = 'Zakaj'
     end
     item
       IndexID = 2248
-      Text = 'Obri'#353'i'
+      Text = 'Izbri'#353'i'
     end
     item
       IndexID = 2249
-      Text = 'Ova mogucnost trenutno nije ugradena.'
+      Text = 'Ta funkcija trenutno ni podprta!'
     end
     item
       IndexID = 2250
-      Text = 'Pogre'#353'ka: Krivi datum.'
+      Text = 'Napaka: Neveljaven datum!'
     end
     item
       IndexID = 2251
-      Text = 'Windowsov brojac vremena nije dostupan.'
+      Text = 'Sistemski '#269'asovniki Windows niso na voljo!'
     end
     item
       IndexID = 2252
-      Text = '*Invalid trigger handle.'
+      Text = 'Neveljavna ro'#269'ica spro'#382'ilca!'
     end
     item
       IndexID = 2253
-      Text = 'Ispravljac stavaka datoteka.'
+      Text = 'Urejevalnik elementov map.'
     end
     item
       IndexID = 2254
-      Text = 'Editor datoteka.'
+      Text = 'Urejevalnik map'
     end
     item
       IndexID = 2255
-      Text = 'Konflikt sa drugim exl. dogadajem.'
+      Text = 'Konflikt z drugim ekskluzivnim dogodkom!'
     end
     item
       IndexID = 2256
-      Text = 'Vrijeme svr'#353'etka ne mo'#382'e odrediti vrijeme pocetka.'
+      Text = #268'as konca ne more biti pred '#269'asom za'#269'etka!'
     end
     item
       IndexID = 2257
-      Text = 'Gre'#353'ka pri slanju podataka u datoteku.'
+      Text = 'Napaka: Knji'#382'enje podatkov v bazo podatkov!'
     end
     item
       IndexID = 2258
-      Text = 'Gre'#353'ka pri pretvaranju broja mjeseca.'
+      Text = 'Napaka pri pretvorbi '#353'tevilke meseca!'
     end
     item
       IndexID = 2259
-      Text = 'Gre'#353'ka: Pogra'#353'an dan.'
+      Text = 'Napaka: Neveljaven dan!'
     end
     item
       IndexID = 2260
-      Text = 'Pogre'#353'ka: pri stvaranju kontakta.'
+      Text = 'Napaka: Napaka pri ustvarjanju stika!'
     end
     item
       IndexID = 2261
-      Text = 'Pogra'#353'ka: pogre'#353'an mjesec.'
+      Text = 'Napaka: Neveljaven mesec!'
     end
     item
       IndexID = 2262
-      Text = 'Pogr'#353'ka: pogre'#353'an naziv mjeseca.'
+      Text = 'Napaka: Neveljavno ime meseca!'
     end
     item
       IndexID = 2263
-      Text = 'Pogre'#353'ka: Pogre'#353'na godina.'
+      Text = 'Napaka: Neveljavna godina!'
     end
     item
       IndexID = 2264
-      Text = 'Pogre'#353'ka: Zahatjeva se dan.'
+      Text = 'Napaka: Zahtevan je dan!'
     end
     item
       IndexID = 2265
-      Text = 'Pogre'#353'ka: Tra'#382'i se mjesec.'
+      Text = 'Napaka: Zahtevan je mesec!'
     end
     item
       IndexID = 2266
-      Text = 'Pogre'#353'ka: Tra'#382'i se godina.'
+      Text = 'Napaka: Zahtevano je leto!'
     end
     item
       IndexID = 2267
-      Text = 'Pogre'#353'ka: Ime za kontakt ne smije biti prazno.'
+      Text = 'Napaka: Ime ne more biti prazno!'
     end
     item
       IndexID = 2268
-      Text = 'Pogre'#353'ka: Pogre'#353'ka pri izradi zadataka.'
+      Text = 'Napaka: Napaka pri ustvarjanju opravila!'
     end
     item
       IndexID = 2269
-      Text = 'Pogra'#353'ka: Pogre'#353'ka pri izradi dogadaja.'
+      Text = 'Napaka: Napaka pri ustvarjanju dogodka!'
     end
     item
       IndexID = 2271
-      Text = 'Pogre'#353'ka: Pogre'#353'ka pri izradi resursa.'
+      Text = 'Napaka: Napaka pri ustvarjanju vira!'
     end
     item
       IndexID = 2272
-      Text = 'Pogre'#353'ka: Duplicirani resursi.'
+      Text = 'Napaka: Podvojen vir!'
     end
     item
       IndexID = 2273
-      Text = 'Pogre'#353'ka: Odredena je kriva tablica.'
+      Text = 'Napaka: Navedena je neveljavna tabela!'
     end
     item
       IndexID = 2274
-      Text = 'Pogre'#353'ka: Nemoguce je otvoriti'
+      Text = 'Napaka: Ni mogo'#269'e odpreti!'
     end
     item
       IndexID = 2275
-      Text = 'Pogre'#353'ka: Nije moguce ucitati'
+      Text = 'Napaka: Ni mogo'#269'e posodobiti!'
     end
     item
       IndexID = 2276
-      Text = 'Asistent'
+      Text = 'Pomo'#269'nik'
     end
     item
       IndexID = 2277
-      Text = 'Poziv nazad'
+      Text = 'Povratni klic'
     end
     item
       IndexID = 2278
-      Text = 'Auto'
+      Text = 'Avto'
     end
     item
       IndexID = 2279
-      Text = 'Poduzece'
+      Text = 'Podjetje'
     end
     item
       IndexID = 2280
-      Text = 'Kuca'
+      Text = 'Doma'
     end
     item
       IndexID = 2281
-      Text = 'Kucni fax.'
+      Text = 'Doma'#269'i faks'
     end
     item
       IndexID = 2282
@@ -8508,23 +8524,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2283
-      Text = 'Mobilni tel.'
+      Text = 'Mobilni telefon'
     end
     item
       IndexID = 2284
-      Text = 'Ostalo'
+      Text = 'Drugo'
     end
     item
       IndexID = 2285
-      Text = 'Ostali Faxevi'
+      Text = 'Drugi faks'
     end
     item
       IndexID = 2286
-      Text = 'Pager'
+      Text = 'Pozivnik (Pager)'
     end
     item
       IndexID = 2287
-      Text = 'Osnovno'
+      Text = 'Primarno'
     end
     item
       IndexID = 2288
@@ -8532,7 +8548,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2289
-      Text = 'Telex'
+      Text = 'Teleks'
     end
     item
       IndexID = 2290
@@ -8540,67 +8556,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2291
-      Text = 'Posao'
+      Text = 'Slu'#382'ba'
     end
     item
       IndexID = 2292
-      Text = 'Fax na poslu'
+      Text = 'Slu'#382'beni faks'
     end
     item
       IndexID = 2293
-      Text = 'Posao'
+      Text = 'Poslovno'
     end
     item
       IndexID = 2294
-      Text = 'Klijenti'
+      Text = 'Kupci'
     end
     item
       IndexID = 2295
-      Text = 'Obitelj'
+      Text = 'Dru'#382'ina'
     end
     item
       IndexID = 2296
-      Text = 'Osoblje'
+      Text = 'Osebno'
     end
     item
       IndexID = 2297
-      Text = 'Ostalo'
+      Text = 'Drugo'
     end
     item
       IndexID = 2298
-      Text = 'Tjedan od'
+      Text = 'Teden od'
     end
     item
       IndexID = 2299
-      Text = 'Kroz'
+      Text = 'Do vklju'#269'no'
     end
     item
       IndexID = 2300
-      Text = 'Nedjelja'
+      Text = 'Nedelja'
     end
     item
       IndexID = 2301
-      Text = 'Ponedjljak'
+      Text = 'Ponedeljek'
     end
     item
       IndexID = 2302
-      Text = 'Utorak'
+      Text = 'Torek'
     end
     item
       IndexID = 2303
-      Text = 'Srijeda'
+      Text = 'Sreda'
     end
     item
       IndexID = 2304
-      Text = 'Cetvrtak'
+      Text = #268'etrtek'
     end
     item
       IndexID = 2305
-      Text = 'Petak'
+      Text = 'Petek'
     end
     item
       IndexID = 2306
-      Text = 'Subota'
+      Text = 'Sobota'
     end
     item
       IndexID = 2307
@@ -8612,15 +8628,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2309
-      Text = 'Uto'
+      Text = 'Tor'
     end
     item
       IndexID = 2310
-      Text = 'Sri'
+      Text = 'Sre'
     end
     item
       IndexID = 2311
-      Text = 'Cet'
+      Text = #268'et'
     end
     item
       IndexID = 2312
@@ -8628,7 +8644,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2313
-      Text = 'Sub'
+      Text = 'Sob'
     end
     item
       IndexID = 2314
@@ -8640,7 +8656,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2316
-      Text = 'U'
+      Text = 'T'
     end
     item
       IndexID = 2317
@@ -8648,7 +8664,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2318
-      Text = 'C'
+      Text = #268
     end
     item
       IndexID = 2319
@@ -8660,7 +8676,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2321
-      Text = 'Nema'
+      Text = 'Brez'
     end
     item
       IndexID = 2322
@@ -8668,255 +8684,255 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2323
-      Text = 'Tjedno'
+      Text = 'Tedensko'
     end
     item
       IndexID = 2324
-      Text = 'Mjesecno po danu'
+      Text = 'Mese'#269'no po dnevu'
     end
     item
       IndexID = 2325
-      Text = 'Mjesecno po datumu'
+      Text = 'Mese'#269'no po datumu'
     end
     item
       IndexID = 2326
-      Text = 'Godi'#353'nje po danu'
+      Text = 'Letno po dnevu'
     end
     item
       IndexID = 2327
-      Text = 'Godi'#353'nje po datumu'
+      Text = 'Letno po datumu'
     end
     item
       IndexID = 2328
-      Text = 'Kupac'
+      Text = 'Poljubno'
     end
     item
       IndexID = 2329
-      Text = 'Minuti'
+      Text = 'Minute'
     end
     item
       IndexID = 2330
-      Text = 'Sati'
+      Text = 'Ure'
     end
     item
       IndexID = 2331
-      Text = 'Dani'
+      Text = 'Dnevi'
     end
     item
       IndexID = 2332
-      Text = 'Ne mo'#382'ete vratiti ovu operaciju!'
+      Text = 'Tega dejanja ni mogo'#269'e razveljaviti!'
     end
     item
       IndexID = 2333
-      Text = 'sa tvoje liste kontakata?'
+      Text = 'iz va'#353'ega seznama stikov?'
     end
     item
       IndexID = 2334
-      Text = 'Dodaj kontakt...'
+      Text = 'Dodaj stik...'
     end
     item
       IndexID = 2335
-      Text = 'Promjeni kontakt...'
+      Text = 'Uredi stik...'
     end
     item
       IndexID = 2336
-      Text = 'Obri'#353'i kontakt...'
+      Text = 'Izbri'#353'i stik...'
     end
     item
       IndexID = 2337
-      Text = 'Od tvojih zadataka?'
+      Text = 'iz va'#353'ega urnika?'
     end
     item
       IndexID = 2338
-      Text = 'Sa tvoje liste zadataka?'
+      Text = 'iz va'#353'ega seznama opravil?'
     end
     item
       IndexID = 2339
-      Text = 'Dodaj zadatak...'
+      Text = 'Dodaj opravilo...'
     end
     item
       IndexID = 2340
-      Text = 'Promjeni zadatak...'
+      Text = 'Uredi opravilo...'
     end
     item
       IndexID = 2341
-      Text = 'Obri'#353'i zadatak...'
+      Text = 'Izbri'#353'i opravilo...'
     end
     item
       IndexID = 2342
-      Text = 'Lista zadataka -'
+      Text = 'Seznam opravil -'
     end
     item
       IndexID = 2343
-      Text = 'Lista zadataka'
+      Text = 'Seznam opravil'
     end
     item
       IndexID = 2344
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2345
-      Text = 'Iduci mjesec'
+      Text = 'Naslednji mesec'
     end
     item
       IndexID = 2346
-      Text = 'Prija'#353'nji mjesec'
+      Text = 'Prej'#353'nji mesec'
     end
     item
       IndexID = 2347
-      Text = 'Iduca godina'
+      Text = 'Naslednje leto'
     end
     item
       IndexID = 2348
-      Text = 'Prija'#353'nja godina'
+      Text = 'Prej'#353'nje leto'
     end
     item
       IndexID = 2349
-      Text = 'Dodaj dogadaj...'
+      Text = 'Dodaj dogodek...'
     end
     item
       IndexID = 2350
-      Text = 'Promjeni dogadaj...'
+      Text = 'Uredi dogodek...'
     end
     item
       IndexID = 2351
-      Text = '&Obri'#353'i dogadaj...'
+      Text = '&Izbri'#353'i dogodek...'
     end
     item
       IndexID = 2352
-      Text = 'Izmijeni datum'
+      Text = 'Spremeni datum'
     end
     item
       IndexID = 2353
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2354
-      Text = 'Iduci tjedan'
+      Text = 'Naslednji teden'
     end
     item
       IndexID = 2355
-      Text = 'Prija'#353'nji tjedan'
+      Text = 'Prej'#353'nji teden'
     end
     item
       IndexID = 2356
-      Text = 'Iduci mjesec'
+      Text = 'Naslednji mesec'
     end
     item
       IndexID = 2357
-      Text = 'Prija'#353'nji mjesec'
+      Text = 'Prej'#353'nji mesec'
     end
     item
       IndexID = 2358
-      Text = 'Iduca godina'
+      Text = 'Naslednje leto'
     end
     item
       IndexID = 2359
-      Text = 'Prija'#353'nja godina'
+      Text = 'Prej'#353'nje leto'
     end
     item
       IndexID = 2360
-      Text = 'Prija'#353'nja stranica'
+      Text = 'Prej'#353'nja stran'
     end
     item
       IndexID = 2361
-      Text = 'Iduca stranica'
+      Text = 'Naslednja stran'
     end
     item
       IndexID = 2362
-      Text = 'Prva stranica'
+      Text = 'Prva stran'
     end
     item
       IndexID = 2363
-      Text = 'Zadnja stranica'
+      Text = 'Zadnja stran'
     end
     item
       IndexID = 2364
-      Text = 'Dodaj dogadaj...'
+      Text = 'Dodaj dogodek...'
     end
     item
       IndexID = 2365
-      Text = 'Promjeni dogadaj...'
+      Text = 'Uredi dogodek...'
     end
     item
       IndexID = 2366
-      Text = 'Obri'#353'i dogadaj...'
+      Text = 'Izbri'#353'i dogodek...'
     end
     item
       IndexID = 2367
-      Text = 'Promjeni datum'
+      Text = 'Spremeni datum'
     end
     item
       IndexID = 2368
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2369
-      Text = 'Sutra'
+      Text = 'Jutri'
     end
     item
       IndexID = 2370
-      Text = 'Jucer'
+      Text = 'V'#269'eraj'
     end
     item
       IndexID = 2371
-      Text = 'Iduci dan'
+      Text = 'Naslednji dan'
     end
     item
       IndexID = 2372
-      Text = 'Prija'#353'nji dan'
+      Text = 'Prej'#353'nji dan'
     end
     item
       IndexID = 2373
-      Text = 'Iduci tjedan'
+      Text = 'Naslednji teden'
     end
     item
       IndexID = 2374
-      Text = 'Prija'#353'nji tjedan'
+      Text = 'Prej'#353'nji teden'
     end
     item
       IndexID = 2375
-      Text = 'Iduci mjesec'
+      Text = 'Naslednji mesec'
     end
     item
       IndexID = 2376
-      Text = 'Prija'#353'nji mjesec'
+      Text = 'Prej'#353'nji mesec'
     end
     item
       IndexID = 2377
-      Text = 'Iduce godine'
+      Text = 'Naslednje leto'
     end
     item
       IndexID = 2378
-      Text = 'Prija'#353'nje godine'
+      Text = 'Prej'#353'nje leto'
     end
     item
       IndexID = 2379
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2380
-      Text = 'Sutra'
+      Text = 'Jutri'
     end
     item
       IndexID = 2381
-      Text = 'Jucer'
+      Text = 'V'#269'eraj'
     end
     item
       IndexID = 2382
-      Text = 'Iduci tjedan'
+      Text = 'Naslednji teden'
     end
     item
       IndexID = 2383
-      Text = 'Prija'#353'nji tjedan'
+      Text = 'Prej'#353'nji teden'
     end
     item
       IndexID = 2384
-      Text = 'Pozicija'
+      Text = 'Delovno mesto'
     end
     item
       IndexID = 2385
-      Text = 'Poduzece'
+      Text = 'Podjetje'
     end
     item
       IndexID = 2386
@@ -8924,11 +8940,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2387
-      Text = 'E-Mail'
+      Text = 'E-po'#353'ta'
     end
     item
       IndexID = 2388
-      Text = 'Zemlja'
+      Text = 'Dr'#382'ava'
     end
     item
       IndexID = 2389
@@ -8936,67 +8952,67 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2390
-      Text = 'Zapis'
+      Text = 'Opombe'
     end
     item
       IndexID = 2391
-      Text = 'Kupac 1'
+      Text = 'Poljubno 1'
     end
     item
       IndexID = 2392
-      Text = 'Kupac 2'
+      Text = 'Poljubno 2'
     end
     item
       IndexID = 2393
-      Text = 'Kupac 3'
+      Text = 'Poljubno 3'
     end
     item
       IndexID = 2394
-      Text = 'Kupac 4'
+      Text = 'Poljubno 4'
     end
     item
       IndexID = 2395
-      Text = 'OK'
+      Text = 'V redu'
     end
     item
       IndexID = 2396
-      Text = 'Prekini'
+      Text = 'Prekli'#269'i'
     end
     item
       IndexID = 2397
-      Text = '&Zatvori'
+      Text = '&Zapri'
     end
     item
       IndexID = 2398
-      Text = '&Ispis'
+      Text = '&Tiskaj'
     end
     item
       IndexID = 2399
-      Text = 'Bez prijevoda'
+      Text = 'Brez naslova'
     end
     item
       IndexID = 2400
-      Text = 'Izaberi zvik'
+      Text = 'Izberite zvok'
     end
     item
       IndexID = 2401
-      Text = 'Nadi zvuk'
+      Text = 'Iskalnik zvoka'
     end
     item
       IndexID = 2402
-      Text = 'Korisni osnovni zvuk'
+      Text = 'Privzeti zvok'
     end
     item
       IndexID = 2403
-      Text = 'Dogadaj'
+      Text = 'Dogodek'
     end
     item
       IndexID = 2404
-      Text = 'Sastanak'
+      Text = 'Sestanek'
     end
     item
       IndexID = 2405
-      Text = 'Tema:'
+      Text = 'Zadeva'
     end
     item
       IndexID = 2406
@@ -9004,23 +9020,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2407
-      Text = 'Vrijeme pocetka:'
+      Text = #268'as za'#269'etka:'
     end
     item
       IndexID = 2408
-      Text = 'Vrijeme zavr'#353'etka:'
+      Text = #268'as konca:'
     end
     item
       IndexID = 2409
-      Text = '&Podsjetnik'
+      Text = '&Opomnik'
     end
     item
       IndexID = 2410
-      Text = 'Appointment Recurrence:'
+      Text = 'Ponavljanje sestanka'
     end
     item
       IndexID = 2411
-      Text = 'Interval (dana):'
+      Text = 'Interval (dni):'
     end
     item
       IndexID = 2412
@@ -9028,15 +9044,15 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2413
-      Text = '&Cjelodnevni dogadaj'
+      Text = '&Celodnevni dogodek'
     end
     item
       IndexID = 2414
-      Text = 'Zapis:'
+      Text = 'Opombe:'
     end
     item
       IndexID = 2415
-      Text = 'Kontakt'
+      Text = 'Stik'
     end
     item
       IndexID = 2416
@@ -9048,91 +9064,91 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2418
-      Text = 'Adresa:'
+      Text = 'Naslov:'
     end
     item
       IndexID = 2419
-      Text = 'Grad:'
+      Text = 'Naslov 2:'
     end
     item
       IndexID = 2420
-      Text = 'Dr'#382'ava:'
+      Text = 'Naslov 3:'
     end
     item
       IndexID = 2421
-      Text = 'Zemlja:'
+      Text = 'Dr'#382'ava:'
     end
     item
       IndexID = 2422
-      Text = 'Zip kod:'
+      Text = 'Po'#353'tna '#353'tevilka:'
     end
     item
       IndexID = 2423
-      Text = 'Poduzce:'
+      Text = 'Podjetje:'
     end
     item
       IndexID = 2424
-      Text = 'Pozicija:'
+      Text = 'Delovno mesto:'
     end
     item
       IndexID = 2425
-      Text = 'Pogled prije ispisa'
+      Text = 'Predogled tiskanja'
     end
     item
       IndexID = 2426
-      Text = 'Zadatak'
+      Text = 'Opravilo'
     end
     item
       IndexID = 2427
-      Text = 'Du'#382'nicki datum:'
+      Text = 'Datum zapadlosti:'
     end
     item
       IndexID = 2428
-      Text = 'Detalji:'
+      Text = 'Podrobnosti:'
     end
     item
       IndexID = 2429
-      Text = 'Zadatak izvr'#353'en'
+      Text = 'Opravilo zaklju'#269'eno'
     end
     item
       IndexID = 2430
-      Text = 'Dana prekoraceno'
+      Text = 'Dni zamude'
     end
     item
       IndexID = 2431
-      Text = 'Izraden na'
+      Text = 'Ustvarjeno dne'
     end
     item
       IndexID = 2432
-      Text = 'Zavr'#353'en na'
+      Text = 'Zaklju'#269'eno dne'
     end
     item
       IndexID = 2433
-      Text = 'Podsjetnik'
+      Text = 'Opomnik'
     end
     item
       IndexID = 2434
-      Text = 'PREZADU'#381'EN!'
+      Text = 'ZAMUDA!'
     end
     item
       IndexID = 2435
-      Text = '*Klick &Snooze to be reminded again in:'
+      Text = 'Kliknite [&Snooze], da vas ponovno opomni '#269'ez:'
     end
     item
       IndexID = 2436
-      Text = 'Tema:'
+      Text = 'Zadeva:'
     end
     item
       IndexID = 2437
-      Text = 'Zapis:'
+      Text = 'Opombe:'
     end
     item
       IndexID = 2438
-      Text = '&Otpust'
+      Text = '&Opusti'
     end
     item
       IndexID = 2439
-      Text = '&Drijeme'#382
+      Text = '&Dremaj'
     end
     item
       IndexID = 2440
@@ -9140,483 +9156,483 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2441
-      Text = '5 Minutea'
+      Text = '5 minut'
     end
     item
       IndexID = 2442
-      Text = '10 Minuta'
+      Text = '10 minut'
     end
     item
       IndexID = 2443
-      Text = '15 Minutea'
+      Text = '15 minut'
     end
     item
       IndexID = 2444
-      Text = '30 Minuta'
+      Text = '30 minut'
     end
     item
       IndexID = 2445
-      Text = '45 Minuta'
+      Text = '45 minut'
     end
     item
       IndexID = 2446
-      Text = '1 Sat'
+      Text = '1 ura'
     end
     item
       IndexID = 2447
-      Text = '2 Sata'
+      Text = '2 uri'
     end
     item
       IndexID = 2448
-      Text = '3 Sata'
+      Text = '3 ure'
     end
     item
       IndexID = 2449
-      Text = '4 Sata'
+      Text = '4 ure'
     end
     item
       IndexID = 2450
-      Text = '5 Sati'
+      Text = '5 ur'
     end
     item
       IndexID = 2451
-      Text = '6 Sati'
+      Text = '6 ur'
     end
     item
       IndexID = 2452
-      Text = '7 Sati'
+      Text = '7 ur'
     end
     item
       IndexID = 2453
-      Text = '8 Sati'
+      Text = '8 ur'
     end
     item
       IndexID = 2454
-      Text = '1 Dan'
+      Text = '1 dan'
     end
     item
       IndexID = 2455
-      Text = '2 Dana'
+      Text = '2 dni'
     end
     item
       IndexID = 2456
-      Text = '3 Dana'
+      Text = '3 dni'
     end
     item
       IndexID = 2457
-      Text = '4 Dana'
+      Text = '4 dni'
     end
     item
       IndexID = 2458
-      Text = '5 Dana'
+      Text = '5 dni'
     end
     item
       IndexID = 2459
-      Text = '6 Dana'
+      Text = '6 dni'
     end
     item
       IndexID = 2460
-      Text = '1 Tjedan'
+      Text = '1 teden'
     end
     item
       IndexID = 2461
-      Text = 'Prija'#353'nji mjesec'
+      Text = 'Prej'#353'nji mesec'
     end
     item
       IndexID = 2462
-      Text = 'Iduci mjesec'
+      Text = 'Naslednji mesec'
     end
     item
       IndexID = 2463
-      Text = 'Prija'#353'nja godina'
+      Text = 'Prej'#353'nje leto'
     end
     item
       IndexID = 2464
-      Text = 'Iduca godina'
+      Text = 'Naslednje leto'
     end
     item
       IndexID = 2465
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2466
-      Text = 'Okreni'
+      Text = 'Razveljavi'
     end
     item
       IndexID = 2467
-      Text = 'Danas'
+      Text = 'Danes'
     end
     item
       IndexID = 2468
-      Text = 'Iduci mjesec'
+      Text = 'Naslednji mesec'
     end
     item
       IndexID = 2469
-      Text = 'Prija'#353'nji mjesec'
+      Text = 'Prej'#353'nji mesec'
     end
     item
       IndexID = 2470
-      Text = 'Iduca godina'
+      Text = 'Naslednje leto'
     end
     item
       IndexID = 2471
-      Text = 'Prija'#353'nja godina'
+      Text = 'Prej'#353'nje leto'
     end
     item
       IndexID = 2472
-      Text = 'Okreni'
+      Text = 'Razveljavi'
     end
     item
       IndexID = 2773
-      Text = 'Ne mogu otvoriti WININET, Microsoft IE potreban'
+      Text = 'Ni mogo'#269'e odpreti WININET! Potreben je Microsoft IE!'
     end
     item
       IndexID = 2774
-      Text = 'Ne mogu otvoriti datoteku'
+      Text = 'Ni mogo'#269'e odpreti datoteke!'
     end
     item
       IndexID = 2775
-      Text = 'Datoteka %s ne mo'#382'e biti nadena'
+      Text = 'Datoteke %s ni mogo'#269'e najti!'
     end
     item
       IndexID = 2776
-      Text = 'Ne mogu odrediti memriju za XML izvor'
+      Text = 'Ni mogo'#269'e dodeliti pomnilnika za XML vir!'
     end
     item
       IndexID = 2777
-      Text = 'HTTP zahtjev za citanjem nedostaje'
+      Text = 'Zahteva za branje HTTP je spodletela!'
     end
     item
       IndexID = 2778
-      Text = 'HTTP podaci nisu prisutni'
+      Text = 'HTTP podatki niso na voljo!'
     end
     item
       IndexID = 2779
-      Text = 'Ne mo'#382'e se posalti zahtjev za http'
+      Text = 'Ni mogo'#269'e poslati zahteve HTTP!'
     end
     item
       IndexID = 2780
-      Text = 'Ne mo'#382'e se otvoriti http zahtjev'
+      Text = 'Ni mogo'#269'e odpreti zahteve HTTP!'
     end
     item
       IndexID = 2781
-      Text = 'Ne mo'#382'e se uspostaviti internet veza'
+      Text = 'Ni mogo'#269'e vzpostaviti internetne povezave!'
     end
     item
       IndexID = 2782
-      Text = 'Ne mo'#382'e se otvoriti internet'
+      Text = 'Ni mogo'#269'e odpreti interneta!'
     end
     item
       IndexID = 2783
-      Text = 'Ne tocna ftp lokacija'
+      Text = 'Neveljavna lokacija FTP!'
     end
     item
       IndexID = 2784
-      Text = 'Krivi ftp direktorij'
+      Text = 'Neveljaven imenik FTP!'
     end
     item
       IndexID = 2785
-      Text = 'nedostaje ftp zahtjev za citanjem'
+      Text = 'Zahteva za branje FTP je spodletela!'
     end
     item
       IndexID = 2786
-      Text = 'Ftp podaci nisu prisutni'
+      Text = 'FTP podatki niso na voljo!'
     end
     item
       IndexID = 2787
-      Text = 'Ne mo'#382'e se otvoriti ftp datoteka'
+      Text = 'Ni mogo'#269'e odpreti datoteke FTP!'
     end
     item
       IndexID = 2788
-      Text = 'Ne mo'#382'e se spremiti datoteka preko ftp do %s'
+      Text = 'Datoteke ni bilo mogo'#269'e shraniti preko FTP na %s'
     end
     item
       IndexID = 2789
-      Text = 'Ne m'#382'e se ucitati izvor'
+      Text = 'Ni mogo'#269'e nalo'#382'iti vira!'
     end
     item
       IndexID = 2790
-      Text = '*Invalid memory Pointer'
+      Text = 'Neveljaven kazalec pomnilnika!'
     end
     item
       IndexID = 2791
-      Text = 'Linija: %d kol: %d Error: %s'
+      Text = 'Vrstica: %d Kolona: %d Napaka: %s !'
     end
     item
       IndexID = 2792
-      Text = 'POGRE'#352'KA INDEXI SU VAN GRANICA'
+      Text = 'NAPAKA: INDEKS JE ZUNAJ MEJA!'
     end
     item
       IndexID = 2793
-      Text = '*Expected markup declaration, but found:'
+      Text = 'Pri'#269'akovana je bila deklaracija oznak, vendar je bilo najdeno:'
     end
     item
       IndexID = 2794
-      Text = 'Krivi atribut tipa:'
+      Text = 'Nedovoljena vrsta atributa:'
     end
     item
       IndexID = 2795
-      Text = 'Kriva kljucna rijec za atribute osnovne vrijednosti:'
+      Text = 'Nedovoljena klju'#269'na beseda za privzeto vrednost atributa:'
     end
     item
       IndexID = 2796
-      Text = 'Nedostaje identifikator sistema'
+      Text = 'Manjka sistemski identifikator!'
     end
     item
       IndexID = 2797
-      Text = 'Nedostaje vnjski modificer:'
+      Text = 'Manjka zunanji modifikator:'
     end
     item
       IndexID = 2798
-      Text = 'Kondicionalni dio mora poceti sa Ukljuci ili IGNORIRAJ'
+      Text = 'Pogojni del se mora za'#269'eti z INCLUDE ali IGNORE!'
     end
     item
       IndexID = 2799
-      Text = 'Lo'#353' odvajatelj u sastavu modela:'
+      Text = 'Slab lo'#269'ilnik v modelu vsebine:'
     end
     item
       IndexID = 2800
-      Text = 'Ocekivan komentar ili or CDATA dio'
+      Text = 'Pri'#269'akovan komentar ali del CDATA!'
     end
     item
       IndexID = 2801
-      Text = 'Neocekivani kraj datoteke'
+      Text = 'Nepri'#269'akovan konec datoteke!'
     end
     item
       IndexID = 2802
-      Text = 'Razila'#382'enje zavr'#353'etka taga:'
+      Text = 'Neujemajo'#269'a se zaklju'#269'na oznaka:'
     end
     item
       IndexID = 2803
-      Text = 'Krivi karakter u referencama'
+      Text = 'Nedovoljen znak v referenci!'
     end
     item
       IndexID = 2804
-      Text = 'Reference za nedeklarirane entitete:'
+      Text = 'Referenca na nedeklarirano entiteto:'
     end
     item
       IndexID = 2805
-      Text = 'Ocekivan znak:'
+      Text = 'Pri'#269'akovan niz:'
     end
     item
       IndexID = 2806
-      Text = '*Whitespace expected at byte'
+      Text = 'Pri'#269'akovan je presledek na bajtu!'
     end
     item
       IndexID = 2807
-      Text = '*End of input while looking for delimiter:'
+      Text = 'Konec vnosa med iskanjem lo'#269'ilnika:'
     end
     item
       IndexID = 2808
-      Text = 'Ocekivan " ili '#39
+      Text = 'Pri'#269'akovan " ali '#39
     end
     item
       IndexID = 2809
-      Text = 'XMLPartner nema podr'#353'ku XML zncajke vce od %s'
+      Text = 'XMLPartner ne podpira specifikacije XML, ve'#269'je od %s'
     end
     item
       IndexID = 2810
-      Text = '*Unable to create stream for input.'
+      Text = 'Ni mogo'#269'e ustvariti toka za vnos!'
     end
     item
       IndexID = 2811
-      Text = 'Krivo XML ime:'
+      Text = 'Neveljavno XML ime:'
     end
     item
       IndexID = 2812
-      Text = 'Krivi komentar texta'
+      Text = 'Neveljavno besedilo komentarja!'
     end
     item
       IndexID = 2813
       Text = 
-        'Dokument ne mo'#382'e startati s komentarom ako on takoder  sadr'#382'i  X' +
-        'ML declaraciju'
+        'Dokument se ne more za'#269'eti s komentarjem, '#269'e vsebuje tudi XML de' +
+        'klaracijo!'
     end
     item
       IndexID = 2814
-      Text = 'Krivi karakteri u CDATA sekciji'
+      Text = 'Neveljavni znaki v sekciji CDATA'
     end
     item
       IndexID = 2815
-      Text = 'Atrubti ne mogi biti redefinirani u start tagu'
+      Text = 'Atributov ni mogo'#269'e ponovno definirati v za'#269'etni oznaki!'
     end
     item
       IndexID = 2816
-      Text = 'Kru'#382'na referenca za:'
+      Text = 'Kro'#382'na referenca na:'
     end
     item
       IndexID = 2817
-      Text = 'Krivi karakter u vrijednosti atributa:'
+      Text = 'Neveljaven znak v vrednosti atributa:'
     end
     item
       IndexID = 2818
-      Text = 'Krivi karakteri u  elementima karakternih podataka:'
+      Text = 'Neveljavni znaki v znakovnih podatkih elementa:'
     end
     item
       IndexID = 2820
       Text = 
-        'Kondicionalana sekcija nije dozvoljena u inetrnoj zamjeni intern' +
-        'al  od deklaracije tipa dokumenta'
+        'Pogojne sekcije niso dovoljene v interni podnabori deklaracije v' +
+        'rste dokumenta!'
     end
     item
       IndexID = 2821
-      Text = 'Zapis nije odreden:'
+      Text = 'Zapisi niso deklarirani:'
     end
     item
       IndexID = 2822
-      Text = 'Krivi Javni ID karakter:'
+      Text = 'Neveljaven javni ID znak:'
     end
     item
       IndexID = 2823
-      Text = '*NDATA not allowed in parameter entity declaration'
+      Text = 'NDATA ni dovoljen v deklaraciji entitete parametra'
     end
     item
       IndexID = 2824
-      Text = 'Samostalna vrijednost mora biti jednaka '#39'da'#39' ili '#39'ne'#39
+      Text = 'Samostojna vrednost mora biti '#39'yes'#39' ali '#39'no'#39
     end
     item
       IndexID = 2825
-      Text = 'Kriva deklaracija dekodiranja:'
+      Text = 'Neveljavna deklaracija kodiranja:'
     end
     item
       IndexID = 2826
-      Text = 'Krivi XML broj verzije:'
+      Text = 'Neveljavna '#353'tevilka razli'#269'ice XML:'
     end
     item
       IndexID = 2827
-      Text = 'Krivi karakter u vrijednosti entiteta:'
+      Text = 'Neveljaven znak v vrednosti entitete:'
     end
     item
       IndexID = 2828
-      Text = 'Komentar ne mo'#382'e biti stavljen s ostalim oznakama'
+      Text = 'Komentarjev ni mogo'#269'e postaviti znotraj drugih oznak!'
     end
     item
       IndexID = 2829
-      Text = 'Nakon ispravnog XML dokumenta su krivi podaci'
+      Text = 'Po veljavnem XML dokumentu so neveljavni podatki!'
     end
     item
       IndexID = 2830
-      Text = ' XML deklaracija mora se pojavit appear before the first element'
+      Text = 'XML deklaracija se mora pojaviti pred prvim elementom!'
     end
     item
       IndexID = 2831
-      Text = 'Krivo ime elementa:'
+      Text = 'Neveljavno ime elementa:'
     end
     item
       IndexID = 2832
-      Text = 'Parametar - entity text must be properly nested:'
+      Text = 'Besedilo entitete parametra mora biti pravilno ugnizdeno:'
     end
     item
       IndexID = 2833
-      Text = 'Odreden je krivi karakter dekodera.'
+      Text = 'Navedeno je neveljavno kodiranje znakov!'
     end
     item
       IndexID = 2834
-      Text = 'Atribut %s od elementat %s nema cjelobrojnu vrijednost.'
+      Text = 'Atribut %s elementa %s nima celo'#353'tevilske vrednosti.'
     end
     item
       IndexID = 2835
-      Text = 'Nepoznat odredivac osi: %s'
+      Text = 'Neznan dolo'#269'evalec osi: %s'
     end
     item
       IndexID = 2836
-      Text = 'Krivi XML karakter je pronaden'
+      Text = 'Najden je neveljaven XML znak!'
     end
     item
       IndexID = 2837
-      Text = '*Invalid (big-endian) UTF-16 character encoding'
+      Text = 'Neveljavno (big-endian) UTF-16 kodiranje znakov!'
     end
     item
       IndexID = 2838
-      Text = '*Invalid (little-endian) UTF-16 character encoding'
+      Text = 'Neveljavno (little-endian) UTF-16 kodiranje znakov!'
     end
     item
       IndexID = 2839
-      Text = '*Badly formed UTF-8 character in stream'
+      Text = 'Slabo oblikovan UTF-8 znak v toku!'
     end
     item
       IndexID = 2840
-      Text = '*Unexpected end of document stream'
+      Text = 'Nepri'#269'akovan konec toka dokumenta!'
     end
     item
       IndexID = 2841
-      Text = 'Ne mogu prebaciti UCS-4 karakter na ISO-8859-1'
+      Text = 'Ni mogo'#269'e pretvoriti znaka UCS-4 v ISO-8859-1!'
     end
     item
       IndexID = 2842
-      Text = 'Ne mogu prebaciti UCS-4 karakter na UTF-16'
+      Text = 'Ni mogo'#269'e pretvoriti znaka UCS-4 v UTF-16!'
     end
     item
       IndexID = 2843
-      Text = 'Ne mogu prebaciti UCS-4 karakter na UTF-8'
+      Text = 'Ni mogo'#269'e pretvoriti znaka UCS-4 v UTF-8!'
     end
     item
       IndexID = 2844
-      Text = 'Izvan ranga'
+      Text = 'Izven obsega!'
     end
     item
       IndexID = 2845
-      Text = 'Nema podr'#353'ke'
+      Text = 'ni podprto!'
     end
     item
       IndexID = 2846
-      Text = 'Molimo vas odredite elementu ime'
+      Text = 'Prosimo, navedite ime elementa!'
     end
     item
       IndexID = 2847
-      Text = 'Ime formata ne smije biti prazno'
+      Text = 'Ime formata ne more biti prazno!'
     end
     item
       IndexID = 2848
-      Text = '*Print controller is not owned by a TVpControlLink!'
+      Text = 'Nadzornik tiskanja ni v lasti TVpControlLink!'
     end
     item
       IndexID = 2849
-      Text = 'Krivi format ispisa'
+      Text = 'Neveljaven format tiskanja!'
     end
     item
       IndexID = 2850
-      Text = 'Krivi tip stavke'
+      Text = 'Neveljavna vrsta postavke!'
     end
     item
       IndexID = 2851
-      Text = 'Krivo mjerenje'
+      Text = 'Neveljavna meritev!'
     end
     item
       IndexID = 2852
-      Text = 'Vlasnik mora bit TWinControl odreden'
+      Text = 'Lastnik mora biti izpeljan iz TWinControl!'
     end
     item
       IndexID = 2853
-      Text = 'Komponenta mora biti povezana s  TVpControlLink'
+      Text = 'Komponenta mora biti povezana s TVpControlLink!'
     end
     item
       IndexID = 2854
-      Text = 'Jo'#353' uvijek nije definiran format za ispis'
+      Text = 'Formati tiskanja niso bili definirani!'
     end
     item
       IndexID = 2855
-      Text = 'TCanvas nije dodijeljen'
+      Text = 'TCanvas ni dodeljen!'
     end
     item
       IndexID = 2856
-      Text = 'Lokalizacijska datoteka nije pronadena.'
+      Text = 'Datoteka lokalizacije ni najdena!'
     end
     item
       IndexID = 2857
-      Text = 'Sastanak'
+      Text = 'Sestanek'
     end
     item
       IndexID = 2858
-      Text = 'Ponavljajuci racun'
+      Text = 'Ponavljajo'#269'i se ra'#269'uni'
     end
     item
       IndexID = 2859
-      Text = 'Dodijeljeno kupcima'
+      Text = 'Sestanek s kupcem'
     end
     item
       IndexID = 2860
-      Text = 'Dodijeljeno dobavljacima'
+      Text = 'Sestanek z dobaviteljem'
     end
     item
       IndexID = 2861
@@ -9644,31 +9660,31 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2867
-      Text = 'Izmjena u print formatu...'
+      Text = 'Uredi formate tiskanja...'
     end
     item
       IndexID = 2868
-      Text = 'Resursi nisu dfinirani, dali '#382'elite dodati jedan sada?'
+      Text = 'Viri niso definirani! Ali '#382'elite enega dodati zdaj?'
     end
     item
       IndexID = 2869
-      Text = 'Resusi nisu odabrani. '#381'lite li odabrati jedan sada?'
+      Text = 'Noben vir ni izbran! Ali ga '#382'elite izbrati zdaj?'
     end
     item
       IndexID = 2870
-      Text = 'Filtiraj kolonu'
+      Text = 'Filtriraj stolpec'
     end
     item
       IndexID = 2871
-      Text = 'Vrijednost'
+      Text = 'Vrednost'
     end
     item
       IndexID = 2872
-      Text = 'Poka'#382'i'
+      Text = 'Prikaz'
     end
     item
       IndexID = 2873
-      Text = 'Sat'
+      Text = 'Ura'
     end
     item
       IndexID = 2874
@@ -9676,65 +9692,65 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2875
-      Text = 'Zadaci'
+      Text = 'Opravila'
     end
     item
       IndexID = 2876
-      Text = 'Kontakti'
+      Text = 'Stiki'
     end
     item
       IndexID = 2877
-      Text = 'Ucitani sastanci'
+      Text = 'Nalo'#382'eni dogodki'
     end
     item
       IndexID = 2878
-      Text = '# Poka'#382'i dane'
+      Text = '# '#352'tevilo dni za prikaz'
     end
     item
       IndexID = 2879
-      Text = 'Kalendar'
+      Text = 'Koledar'
     end
     item
       IndexID = 2880
       Text = 
-        'Molimo vas spremite ovaj ponavljajuci racun sada. Nakon ponavlja' +
-        'na mo'#382'ete odati klijente na .'
+        'Prosimo, najprej shranite ta ponavljajo'#269'i se ra'#269'un! Po ponovnem ' +
+        'odpiranju lahko ra'#269'unu dodate kupce.'
     end
     item
       IndexID = 2881
-      Text = #381'elite li obrisati ovaj %s?'
+      Text = 'Ali '#382'elite izbrisati ta %s?'
     end
     item
       IndexID = 2882
-      Text = #381'elite li obrisati sve %s?'
+      Text = 'Ali '#382'elite izbrisati vse %s?'
     end
     item
       IndexID = 2883
-      Text = 'Ponavljajuci'
+      Text = 'Ponavljajo'#269'i se ra'#269'un'
     end
     item
       IndexID = 2884
-      Text = 'Datum racuna'
+      Text = 'Datum ra'#269'una'
     end
     item
       IndexID = 2885
-      Text = 'Procesiraj sve'
+      Text = 'Obdelaj vse'
     end
     item
       IndexID = 2886
-      Text = 'Lista procesa'
+      Text = 'Seznam obdelave'
     end
     item
       IndexID = 2887
-      Text = 'Proces odabran'
+      Text = 'Obdelaj izbrano'
     end
     item
       IndexID = 2888
-      Text = '&Novi'
+      Text = '&Novo'
     end
     item
       IndexID = 2889
-      Text = '&Promjeni'
+      Text = '&Uredi'
     end
     item
       IndexID = 2890
@@ -9746,889 +9762,891 @@ object TTranslationSaveObject
     end
     item
       IndexID = 2892
-      Text = '&Zapis'
+      Text = '&Opombe'
     end
     item
       IndexID = 2893
-      Text = 'Dugovni iznos'
+      Text = 'Znesek zapadlosti'
     end
     item
       IndexID = 2894
-      Text = 'Dokument(i) izradeni.'
+      Text = 'Dokumenti so ustvarjeni!'
     end
     item
       IndexID = 2895
-      Text = 'Datum naplate duga je manji od datuma dokumenta'
+      Text = 'Datum zapadlosti je pred datumom dokumenta!'
     end
     item
       IndexID = 2896
-      Text = 'Primljeno od du'#382'nika'
+      Text = 'Samodejni prejemki'
     end
     item
       IndexID = 2897
-      Text = 'Molimo unesite ime za skup knjiga'
+      Text = 'Prosimo, vnesite ime za mapo enote!'
     end
     item
       IndexID = 2898
-      Text = 'Ucitaj konto banke'
+      Text = 'Posodobi ban'#269'ni ra'#269'un'
     end
     item
       IndexID = 2899
-      Text = '*Lookup document'
+      Text = 'Iskanje dokumenta'
     end
     item
       IndexID = 2900
-      Text = '*Lookup Doc with amount'
+      Text = 'Iskanje dokumenta z zneskom'
     end
     item
       IndexID = 2901
-      Text = '*Lookup Debtor'
+      Text = 'Iskanje kupca'
     end
     item
       IndexID = 2902
-      Text = '*Lookup Creditor'
+      Text = 'Iskanje dobavitelja'
     end
     item
       IndexID = 2903
-      Text = 
-        '*There was already a bank account found! Do you wish to update t' +
-        'his?'
+      Text = 'Ban'#269'ni ra'#269'un je '#382'e bil najden! Ali ga '#382'elite posodobiti?'
     end
     item
       IndexID = 2904
-      Text = '*Report amounts with'
+      Text = 'Poro'#269'aj zneske z'
     end
     item
       IndexID = 2905
-      Text = 'Spremanje podataka'
+      Text = 'Shranjevanje podatkov'
     end
     item
       IndexID = 2906
-      Text = 'Brzina'
+      Text = 'Hitrost'
     end
     item
       IndexID = 2907
-      Text = 'Specijalne postavke'
+      Text = 'Posebne nastavitve'
     end
     item
       IndexID = 2908
-      Text = 'Decimale u izvje'#353'tajima'
+      Text = 'Decimalke v poro'#269'ilih'
     end
     item
       IndexID = 2909
-      Text = 'Otorene stavke knjige'
+      Text = 'Knjige odprtih postavk'
     end
     item
       IndexID = 2910
-      Text = 'Ne koristi Reportman'
+      Text = 'Ne uporabljaj Reportmana'
     end
     item
       IndexID = 2911
-      Text = 'Realni brojevi'
+      Text = 'Realna '#353'tevila'
     end
     item
       IndexID = 2912
-      Text = 'Fiksne decimale'
+      Text = 'Fiksne decimalke'
     end
     item
       IndexID = 2913
-      Text = '<>  za kredit'
+      Text = '<> za dobro'
     end
     item
       IndexID = 2914
-      Text = '+/-  za Debit/Credit'
+      Text = '+/- za breme/dobro'
     end
     item
       IndexID = 2915
-      Text = 'D/C za Debit/Credit'
+      Text = 'D/C za breme/dobro'
     end
     item
       IndexID = 2916
-      Text = 'Prika'#382'i kalandar'
+      Text = 'Prika'#382'i koledar'
     end
     item
       IndexID = 2917
-      Text = 'Ne upozoravaj na neposlano'
+      Text = 'Brez opozorila za neknji'#382'eno'
     end
     item
       IndexID = 2918
-      Text = 'Koristi dana'#353'nji datum za izvje'#353'taj'
+      Text = 'Trenutni datum za poro'#269'ila'
     end
     item
       IndexID = 2919
-      Text = 'Extra opis'
+      Text = 'Dodatni opis'
     end
     item
       IndexID = 2920
-      Text = '*BOM'
+      Text = 'Kosovnica (BOM)'
     end
     item
       IndexID = 2921
-      Text = 'Prodaja (bez artikala)'
+      Text = 'Prodaja (brez vodenja zaloge)'
     end
     item
       IndexID = 2922
-      Text = 'Primke (bez artikala)'
+      Text = 'Nabava (brez vodenja zaloge)'
     end
     item
       IndexID = 2923
-      Text = '*BOM List'
+      Text = 'Seznam kosovnic (BOM)'
     end
     item
       IndexID = 2924
-      Text = 'Kopiraj od stavke'
+      Text = 'Kopiraj iz postavke'
     end
     item
       IndexID = 2925
-      Text = 'Ne radi kalk. skupine'
+      Text = 'Ne izra'#269'unavaj dnevnikov'
     end
     item
       IndexID = 2926
-      Text = 'Kolicina dokumenata'
+      Text = 'Koli'#269'ina dokumenta'
     end
     item
       IndexID = 2927
-      Text = 'Auto kopi info'
+      Text = 'Samodejno kopiranje informacij'
     end
     item
       IndexID = 2928
-      Text = 'Koristi osnovni racun'
+      Text = 'Privzeti konto/ra'#269'un'
     end
     item
       IndexID = 2929
-      Text = 'Osnovni racun'
+      Text = 'Privzeti konto/ra'#269'un'
     end
     item
       IndexID = 2930
-      Text = 'Nema povrata narud'#382'be'
+      Text = 'Brez zaostalih naro'#269'il'
     end
     item
       IndexID = 2931
-      Text = 'Ne mogu prodavati ako je van zaliha'
+      Text = 'Ni mogo'#269'e prodati artikla, ki ni na zalogi'
     end
     item
       IndexID = 2932
-      Text = 'Ne traba potvrda ispisa'
+      Text = 'Brez potrditve tiskanja'
     end
     item
       IndexID = 2933
-      Text = 'Provjeri upotrebljenu referencu'
+      Text = 'Preveri uporabljeno referenco'
     end
     item
       IndexID = 2934
-      Text = 'Ne mogu izraditi stavku'
+      Text = 'Ni mogo'#269'e ustvariti postavk'
     end
     item
       IndexID = 2935
-      Text = 'Displej za kupca'
+      Text = 'Prikazovalnik za kupca (Pole)'
     end
     item
       IndexID = 2936
-      Text = 'Displej za kupca prikljucen'
+      Text = 'Prikazovalnik za kupca je povezan'
     end
     item
       IndexID = 2937
-      Text = 'Vidite li ovo ??'
+      Text = 'Ali lahko vidite to ??'
     end
     item
       IndexID = 2938
-      Text = 'Osnovno POS mjesto'
+      Text = 'Privzeti POS-prikazovalnik'
     end
     item
       IndexID = 2939
-      Text = '2 X 20 kar. POS mjesto'
+      Text = 'POS-prikazovalnik 2 x 20 znakov'
     end
     item
       IndexID = 2940
-      Text = 'Vaga'
+      Text = 'Tehtnica'
     end
     item
       IndexID = 2941
-      Text = 'Vaga je spojena'
+      Text = 'Tehtnica je povezana'
     end
     item
       IndexID = 2942
-      Text = 'Povratna vrijednost od vage'
+      Text = 'Povratna vrednost iz tehtnice'
     end
     item
       IndexID = 2943
-      Text = '*Test'
+      Text = 'Preizkus'
     end
     item
       IndexID = 2945
-      Text = 'Brzo prebacivanje porodavaca'
+      Text = 'Hitra zamenjava prodajalca'
     end
     item
       IndexID = 2946
-      Text = 'Zaokru'#382'i POS krajni iznos'
+      Text = 'Zaokro'#382'i kon'#269'ni POS-znesek'
     end
     item
       IndexID = 2947
-      Text = 'Poka'#382'i zalihe'
+      Text = 'Prika'#382'i koli'#269'ino na zalogi'
     end
     item
       IndexID = 2948
-      Text = 'Popust PW'
+      Text = 'Geslo za popust'
     end
     item
       IndexID = 2949
-      Text = 'Koristi pasw. za popust'
+      Text = 'Geslo za popust'
     end
     item
       IndexID = 2950
-      Text = 'Koristi du'#382'nikovu prodajnu cijenu'
+      Text = 'Prodajna cena za kupca'
     end
     item
       IndexID = 2951
-      Text = 'Ladica kase'
+      Text = 'Predal za denar'
     end
     item
       IndexID = 2952
       Text = 
-        'Ovim cete maknuti trenutnu registraciju i otvoriti novi obrazac ' +
-        'za registraciju ! '#381'elite li  prekinuti to?'
+        'To bo odstranilo va'#353'o trenutno registracijo in odprlo obrazec za' +
+        ' vnos registracije! Ali '#382'elite preklicati?'
     end
     item
       IndexID = 2953
-      Text = 'Ispi'#353'i barkodove'
+      Text = 'Natisni '#269'rtne kode'
     end
     item
       IndexID = 2954
-      Text = 'Promijeni konto'
+      Text = 'Spremeni konto/ra'#269'un'
     end
     item
       IndexID = 2956
-      Text = 'Izvje'#353'taj spremanja'
+      Text = 'Arhiviranje poro'#269'il'
     end
     item
       IndexID = 2957
-      Text = 'Izradi reportman dir'
+      Text = 'Ustvari imenike Reportman'
     end
     item
       IndexID = 2958
-      Text = 'Odlinkaj transakciju'
+      Text = 'Razve'#382'i transakcijo'
     end
     item
       IndexID = 2959
-      Text = 'Primi placanje'
+      Text = 'Prejmi pla'#269'ilo'
     end
     item
       IndexID = 2960
-      Text = 'Ponovo ispi'#353'i transakcije'
+      Text = 'Ponovno natisni transakcije'
     end
     item
       IndexID = 2961
-      Text = 'Upi'#353'i  iznos za vezu'
+      Text = 'Vnesite znesek za povezavo'
     end
     item
       IndexID = 2962
-      Text = '*Suppress Openitem'
+      Text = 'Zatiranje odprtih postavk'
     end
     item
       IndexID = 2963
-      Text = 'Remember inclusive'
+      Text = 'Zapomni si z DDV'
     end
     item
       IndexID = 2964
-      Text = '*Printed'
+      Text = 'Natisnjeno'
     end
     item
       IndexID = 2965
-      Text = '*Select Backup Directory'
+      Text = 'Izberite imenik za arhiviranje'
     end
     item
       IndexID = 2966
-      Text = '*Sample'
+      Text = 'Vzorec'
     end
     item
       IndexID = 2967
-      Text = '*Use filter'
+      Text = 'Filter'
     end
     item
       IndexID = 2968
-      Text = '*Outgoing Mail server identification (SMTP)'
+      Text = 'Identifikacija stre'#382'nika za odhodno po'#353'to (SMTP)'
     end
     item
       IndexID = 2969
-      Text = '*Default text'
+      Text = 'Privzeto besedilo'
     end
     item
       IndexID = 2970
-      Text = '*Please enter your list'
+      Text = 'Prosimo, vnesite svoj seznam'
     end
     item
       IndexID = 2971
-      Text = '*Your list with comma seperation'
+      Text = 'Va'#353' seznam lo'#269'en z vejicami'
     end
     item
       IndexID = 2972
-      Text = '*Select from delimeted list'
+      Text = 'Izberi iz seznama lo'#269'enega z lo'#269'ili'
     end
     item
       IndexID = 2973
-      Text = '*Hide disabled menu items'
+      Text = 'Skrij onemogo'#269'ene elemente menija'
     end
     item
       IndexID = 2974
-      Text = '*Doc posting'
+      Text = 'Knji'#382'enje dokumentov'
     end
     item
       IndexID = 2975
-      Text = '*Link to salesman'
+      Text = 'Pove'#382'i s prodajalcem'
     end
     item
       IndexID = 2976
-      Text = '*Edit Quantity'
+      Text = 'Uredi koli'#269'ino'
     end
     item
       IndexID = 2977
-      Text = '*Select New Set of Books Directory'
+      Text = 'Izberite nov imenik mape enote'
     end
     item
       IndexID = 2978
-      Text = '*Known bug fix'
+      Text = 'Popravek znanih napak'
     end
     item
       IndexID = 2979
-      Text = '*Opening balance only'
+      Text = 'Samo za'#269'etna stanja'
     end
     item
       IndexID = 2980
-      Text = '*Show Budget'
+      Text = 'Prika'#382'i prora'#269'un'
     end
     item
       IndexID = 2981
-      Text = '*Show all stock items'
+      Text = 'Prika'#382'i vse artikle na zalogi'
     end
     item
       IndexID = 2982
-      Text = '*Add unposted'
+      Text = 'Dodaj neknji'#382'eno'
     end
     item
       IndexID = 2983
-      Text = '*Quote / Purchase'
+      Text = 'Ponudbe / Naro'#269'ila'
     end
     item
       IndexID = 2984
-      Text = '*Price inclusive'
+      Text = 'Cena z DDV'
     end
     item
       IndexID = 2985
-      Text = '*Show Zero Stock Count'
+      Text = 'Prika'#382'i artikle z ni'#269'elno zalogo'
     end
     item
       IndexID = 2986
-      Text = '*Show All Salespersons'
+      Text = 'Prika'#382'i vse prodajalce'
     end
     item
       IndexID = 2987
-      Text = '*Show Invoice Number'
+      Text = 'Prika'#382'i '#353't. ra'#269'una'
     end
     item
       IndexID = 2988
-      Text = '*Cashup Report'
+      Text = 'Poro'#269'ilo o zaklju'#269'ku blagajne'
     end
     item
       IndexID = 2989
-      Text = '*Sales Report'
+      Text = 'Poro'#269'ilo o prodaji'
     end
     item
       IndexID = 2990
-      Text = '*Print Frames'
+      Text = 'Natisni okvirje'
     end
     item
       IndexID = 2991
-      Text = '*Print Logo'
+      Text = 'Natisni logotip'
     end
     item
       IndexID = 2992
-      Text = '*No doc posting'
+      Text = 'Brez knji'#382'enja dokumentov'
     end
     item
       IndexID = 2993
-      Text = '*Custom limitation'
+      Text = 'Poljubna omejitev'
     end
     item
       IndexID = 2994
-      Text = '*Hide'
+      Text = 'Skrij'
     end
     item
       IndexID = 2995
-      Text = '*Disable'
+      Text = 'Onemogo'#269'i'
     end
     item
       IndexID = 2996
-      Text = '*Show'
+      Text = 'Prika'#382'i'
     end
     item
       IndexID = 2997
-      Text = '*Enable'
+      Text = 'Omogo'#269'i'
     end
     item
       IndexID = 2998
-      Text = '*Replication'
+      Text = 'Replikacija'
     end
     item
       IndexID = 2999
-      Text = '*Open Batches'
+      Text = 'Odprti dnevniki'
     end
     item
       IndexID = 3000
-      Text = '*Upload Only'
+      Text = 'Samo prenos (Upload)'
     end
     item
       IndexID = 3001
-      Text = '*Download Only'
+      Text = 'Samo prenos'
     end
     item
       IndexID = 3002
-      Text = '*Creating Directory'
+      Text = 'Ustvarjanje mape...'
     end
     item
       IndexID = 3003
-      Text = '*Copying set of books'
+      Text = 'Kopiranje enote...'
     end
     item
       IndexID = 3004
-      Text = '*Copy from a set of books'
+      Text = 'Kopiraj iz enote'
     end
     item
       IndexID = 3005
-      Text = '*of'
+      Text = 'od'
     end
     item
       IndexID = 3006
-      Text = '*Tranfert Started To'
+      Text = 'Prenos za'#269'et v'
     end
     item
       IndexID = 3007
-      Text = '*Only this account'
+      Text = 'Samo ta konto'
     end
     item
       IndexID = 3008
-      Text = '*A new year has been opend succesfull!'
+      Text = 'Novo leto je bilo uspe'#353'no odprto!'
     end
     item
       IndexID = 3009
-      Text = '*Moving totals...'
+      Text = 'Premikanje skupnih zneskov...'
     end
     item
       IndexID = 3010
       Text = 
-        '*The reference has been used in a other document please check yo' +
-        'ur input for doubles'
+        'Sklic se '#382'e uporablja v drugem dokumentu! Preverite vnos za podv' +
+        'ojene zapise!'
     end
     item
       IndexID = 3011
-      Text = '*All documents'
+      Text = 'Vsi dokumenti'
     end
     item
       IndexID = 3012
-      Text = '*All years'
+      Text = 'Vsa leta'
     end
     item
       IndexID = 3013
-      Text = '*Bank balance as per bank statement'
+      Text = 'Ban'#269'no stanje po ban'#269'nem izpisku'
     end
     item
       IndexID = 3014
-      Text = '*Cash book report'
+      Text = 'Poro'#269'ilo o uskladitvi banke na dan'
     end
     item
       IndexID = 3015
-      Text = '*Reconciled Bank Balance'
+      Text = 'Usklajeno stanje na banki'
     end
     item
       IndexID = 3016
-      Text = '*Bank balance according to <@APPNAME@> at'
+      Text = 'Ban'#269'no stanje po <@APPNAME@> ob'
     end
     item
       IndexID = 3017
-      Text = '*difference'
+      Text = 'Razlika'
     end
     item
       IndexID = 3018
-      Text = '*Warning - This report contains unposted batches'
+      Text = 'Opozorilo - To poro'#269'ilo vsebuje neknji'#382'ene dnevnike!'
     end
     item
       IndexID = 3019
-      Text = '*Show zero stock count'
+      Text = 'Prika'#382'i zalogo z vrednostjo 0'
     end
     item
       IndexID = 3020
-      Text = '*Convert invoice to purchase'
+      Text = 'Pretvori ra'#269'un v naro'#269'ilo'
     end
     item
       IndexID = 3021
-      Text = '*Copy document'
+      Text = 'Kopiraj dokument'
     end
     item
       IndexID = 3022
-      Text = '*Set reportinggroup 1'
+      Text = 'Nastavi skupino poro'#269'anja 1'
     end
     item
       IndexID = 3023
-      Text = '*Set reportinggroup 2'
+      Text = 'Nastavi skupino poro'#269'anja 2'
     end
     item
       IndexID = 3024
-      Text = '*open OSCommerce order in browser'
+      Text = 'Odpri osCommerce naro'#269'ilo v brskalniku'
     end
     item
       IndexID = 3025
-      Text = '*Open OSCOmmerce customer in browser'
+      Text = 'Odpri osCommerce kupca v brskalniku'
     end
     item
       IndexID = 3026
-      Text = '*Bank name'
+      Text = 'Naziv banke'
     end
     item
       IndexID = 3027
-      Text = '*Use default tax'
+      Text = 'Privzeti davek'
     end
     item
       IndexID = 3028
-      Text = '*Default tax account'
+      Text = 'Konto privzetega davka'
     end
     item
       IndexID = 3029
-      Text = '*First name'
+      Text = 'Ime'
     end
     item
       IndexID = 3030
-      Text = '*Connect to remote Database'
+      Text = 'Pove'#382'i se z oddaljeno bazo podatkov'
     end
     item
       IndexID = 3031
-      Text = '*Inclusive mode'
+      Text = 'Vklju'#269'ujo'#269'i na'#269'in'
     end
     item
       IndexID = 3032
-      Text = '*Single line mode'
+      Text = 'Enovrsti'#269'ni na'#269'in'
     end
     item
       IndexID = 3033
-      Text = '*Auto alias'
+      Text = 'Samodejni vzdevek'
     end
     item
       IndexID = 3034
-      Text = '*Remember inclusive'
+      Text = 'Zapomni si btc z DDV'
     end
     item
       IndexID = 3035
-      Text = '*Use link tax'
+      Text = 'Povezava davka'
     end
     item
       IndexID = 3036
-      Text = '*Link tax'
+      Text = 'Povezava davka'
     end
     item
       IndexID = 3037
-      Text = '*Contra tax'
+      Text = 'Protikonto davka'
     end
     item
       IndexID = 3038
-      Text = '*Openitem Account'
+      Text = 'Konto z odprtimi postavkami'
     end
     item
       IndexID = 3039
-      Text = '*Pos Report Option'
+      Text = 'Mo'#382'nosti POS-poro'#269'ila'
     end
     item
       IndexID = 3040
-      Text = '*Use Doc Date'
+      Text = 'Datum dokumenta'
     end
     item
       IndexID = 3041
-      Text = '*Contra ref as account Ref'
+      Text = 'Protiknji'#382'ba kot sklic konta'
     end
     item
       IndexID = 3042
-      Text = '*Auto refresh'
+      Text = 'Samodejno osve'#382'evanje'
     end
     item
       IndexID = 3043
-      Text = '*Interval (sec)'
+      Text = 'Interval (sek.)'
     end
     item
       IndexID = 3044
-      Text = '*Limit Doc SQL'
+      Text = 'Omejitev SQL za dokumente'
     end
     item
       IndexID = 3045
-      Text = '*Like search for strings'
+      Text = 'Iskanje nizov'
     end
     item
       IndexID = 3046
-      Text = '*Sub-total'
+      Text = 'Vmesni se'#353'tevek'
     end
     item
       IndexID = 3047
-      Text = '*Amount entry'
+      Text = 'Vnos zneska'
     end
     item
       IndexID = 3048
-      Text = '*Document row'
+      Text = 'Vrstica dokumenta'
     end
     item
       IndexID = 3049
-      Text = '*Import a posted batch'
+      Text = 'Uvozi knji'#382'en dnevnik'
     end
     item
       IndexID = 3050
-      Text = '*Use Default Tax'
+      Text = 'Privzeti davek'
     end
     item
       IndexID = 3051
-      Text = '*Account starts with'
+      Text = 'Konto se za'#269'ne z'
     end
     item
       IndexID = 3052
-      Text = '*Expand after refresh'
+      Text = 'Raz'#353'iri po osve'#382'itvi'
     end
     item
       IndexID = 3053
-      Text = '*Use link tax'
+      Text = 'Povezava davka'
     end
     item
       IndexID = 3054
-      Text = '*Link tax'
+      Text = 'Povezava davka'
     end
     item
       IndexID = 3055
-      Text = '*Contra tax'
+      Text = 'Protikonto davka'
     end
     item
       IndexID = 3056
-      Text = '*Refresh'
+      Text = 'Osve'#382'i'
     end
     item
       IndexID = 3057
-      Text = '*Expand'
+      Text = 'Raz'#353'iri'
     end
     item
       IndexID = 3058
-      Text = '*Collaps'
+      Text = 'Strni'
     end
     item
       IndexID = 3059
-      Text = '*Move left'
+      Text = 'Premakni levo'
     end
     item
       IndexID = 3060
-      Text = '*Subaccounts'
+      Text = 'Podkonti'
     end
     item
       IndexID = 3061
-      Text = '*Total period budget'
+      Text = 'Skupni prora'#269'un obdobja'
     end
     item
       IndexID = 3062
-      Text = '*Set period budget'
+      Text = 'Nastavi prora'#269'un obdobja'
     end
     item
       IndexID = 3063
-      Text = '*Financial Categorie'
+      Text = 'Finan'#269'ne kategorije'
     end
     item
       IndexID = 3064
-      Text = '*Not a valid account'
+      Text = 'Ni veljaven konto!'
     end
     item
       IndexID = 3065
-      Text = '*No user rights!'
+      Text = 'Ni uporabni'#353'kih pravic!'
     end
     item
       IndexID = 3066
-      Text = '*Field missing please check importfile!'
+      Text = 'Manjka polje! Preverite uvozno datoteko!'
     end
     item
       IndexID = 3067
-      Text = '*Error in closing shift please try again.'
+      Text = 'Napaka pri zapiranju izmene! Poskusite znova!'
     end
     item
       IndexID = 3068
-      Text = '*Error no account found'
+      Text = 'Napaka: Konto ni bil najden!'
     end
     item
       IndexID = 3070
-      Text = '*Clieop comment lines must be filled'
+      Text = 'Vrstice s komentarji Clieop morajo biti izpolnjene!'
     end
     item
       IndexID = 3071
-      Text = '*You need to enter a bank account number'
+      Text = 'Vnesti morate '#353'tevilko ban'#269'nega ra'#269'una!'
     end
     item
       IndexID = 3072
-      Text = '*Abort import!'
+      Text = 'Prekini uvoz!'
     end
     item
       IndexID = 3073
-      Text = '*Group still has nesteled groups remove them first!'
+      Text = 
+        'Skupina '#353'e vedno vsebuje vgnzdene skupine! Najprej jih odstranit' +
+        'e!'
     end
     item
       IndexID = 3074
       Text = 
-        '*Theres still accounts using this group please remove them first' +
-        '! (Firts account ='
+        'To skupino '#353'e vedno uporabljajo konti! Najprej jih odstranite! (' +
+        'Prvi konto ='
     end
     item
       IndexID = 3075
       Text = 
-        '*Theres still documents using this group please remove them firs' +
-        't!'
+        'To skupino '#353'e vedno uporabljajo dokumenti! Najprej jih odstranit' +
+        'e!'
     end
     item
       IndexID = 3076
-      Text = '*Theres still stock using this group please remove them first!'
+      Text = 
+        'To skupino '#353'e vedno uporabljajo artikli! Najprej jih odstranite ' +
+        'ali preusmerite!'
     end
     item
       IndexID = 3077
-      Text = '*No connection assigned'
+      Text = 'Povezava ni dodeljena!'
     end
     item
       IndexID = 3078
-      Text = '*Accountcode already exist!'
+      Text = 'Koda konta '#382'e obstaja!'
     end
     item
       IndexID = 3079
-      Text = '*Quote(s) are generated!'
+      Text = 'Ponudba(e) ustvarjena(e)!'
     end
     item
       IndexID = 3080
-      Text = '*Do you wish to post on the retained earnings account?'
+      Text = #381'elite knji'#382'iti na konto zadr'#382'anega dobi'#269'ka?'
     end
     item
       IndexID = 3081
-      Text = '*Reset stock?'
+      Text = #381'elite ponastaviti zalogo?'
     end
     item
       IndexID = 3082
-      Text = '*file format Import Not Implemented'
+      Text = 'Format datoteke za uvoz ni podprt!'
     end
     item
       IndexID = 3083
-      Text = '*This item is out of stock! Auto adjusting qty'
+      Text = 'Ta artikel ni na zalogi! Samodejno prilagajanje koli'#269'ine!'
     end
     item
       IndexID = 3084
-      Text = '*Finished'
+      Text = 'Kon'#269'ano!'
     end
     item
       IndexID = 3085
-      Text = '*Empty code!'
+      Text = 'Prazna koda!'
     end
     item
       IndexID = 3086
-      Text = '*Code exists!'
+      Text = 'Koda obstaja!'
     end
     item
       IndexID = 3087
-      Text = '*Number %s is not a valide 11 proof number!'
+      Text = #352'tevilka %s ni veljavna '#353'tevilka po modulu 11!'
     end
     item
       IndexID = 3088
-      Text = '*Use barcode printer'
+      Text = 'Tiskalnik '#269'rtnih kod'
     end
     item
       IndexID = 3089
-      Text = '*Advanced mode'
+      Text = 'Napredni na'#269'in'
     end
     item
       IndexID = 3090
-      Text = '*Update type'
+      Text = 'Vrsta posodobitve'
     end
     item
       IndexID = 3091
-      Text = '*Setup stock'
+      Text = 'Nastavitev zaloge'
     end
     item
       IndexID = 3092
-      Text = '*Setup group'
+      Text = 'Nastavitev skupine'
     end
     item
       IndexID = 3093
-      Text = '*Transaction date'
+      Text = 'Datum transakcije'
     end
     item
       IndexID = 3094
-      Text = '*Preferred Supplier1'
+      Text = 'Prednostni dobavitelj 1'
     end
     item
       IndexID = 3095
-      Text = '*Preferred Supplier2'
+      Text = 'Prednostni dobavitelj 2'
     end
     item
       IndexID = 3096
-      Text = '*Create houre invoices'
+      Text = 'Ustvari ra'#269'une za ure'
     end
     item
       IndexID = 3097
-      Text = '*Limit Stock SQL'
+      Text = 'SQL omejitev za zalogo'
     end
     item
       IndexID = 3098
-      Text = '*Inc unposted invoices'
+      Text = 'Vklju'#269'i neknji'#382'ene ra'#269'une'
     end
     item
       IndexID = 3099
-      Text = '*Projects'
+      Text = 'Projekti'
     end
     item
       IndexID = 3100
       Text = 
-        '*You are trying to connect to a remote database! This version do' +
-        'es not support that by default! Please contact us at https://www' +
-        '.osfinancials.org/ to support the project and receive your multi' +
-        '-user license!'
+        'Povezujete se z oddaljeno bazo podatkov! Ta razli'#269'ica tega privz' +
+        'eto ne podpira! Prosimo, kontaktirajte nas na https://www.osfina' +
+        'ncials.org/ za podporo projektu in prejem ve'#269'uporabni'#353'ke licence' +
+        '!'
     end
     item
       IndexID = 3101
-      Text = '*Unregistered'
+      Text = 'Neregistrirano'
     end
     item
       IndexID = 3102
-      Text = '*registered to'
+      Text = 'Registrirano na'
     end
     item
       IndexID = 3103
-      Text = ' *Single user'
+      Text = 'En uporabnik'
     end
     item
       IndexID = 3104
-      Text = '*T-Ledger Analyser'
+      Text = 'Analizator glavne knjige'
     end
     item
       IndexID = 3105
-      Text = '*Serial number'
+      Text = 'Serijska '#353'tevilka'
     end
     item
       IndexID = 3106
-      Text = '*Column balans'
+      Text = 'Stanja po stolpcih'
     end
     item
       IndexID = 3107
-      Text = '*Column balans debtor'
+      Text = 'Stanja po stolpcih - kupci'
     end
     item
       IndexID = 3108
-      Text = '*Column balans creditor'
+      Text = 'Stanja po stolpcih - dobavitelji'
     end
     item
       IndexID = 3109
-      Text = '*Document layout'
+      Text = 'Datoteka izpisa 1'
     end
     item
       IndexID = 3110
-      Text = '*Creditnote layout'
+      Text = 'Datoteka izpisa 2'
     end
     item
       IndexID = 3111
-      Text = '*Quote layout'
+      Text = 'Datoteka izpisa 3'
     end
     item
       IndexID = 3112
-      Text = '*Language'
+      Text = 'Jezik'
     end
     item
       IndexID = 3113
@@ -10644,20 +10662,19 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3116
-      Text = 'https://www.osfinancials.org/en/forum-en?view=category&catid=8 '
+      Text = 'https://www.osfinancials.org/en/forum-en?view=category&catid=8'
     end
     item
       IndexID = 3117
       Text = 
-        'Unregistered version! Please buy this plugin at https://www.osfi' +
-        'nancials.org/en/webshop and support the <@APPNAME@> development.'
+        'Neregistrirana razli'#269'ica! Prosimo, kupite ta vti'#269'nik na https://' +
+        'www.osfinancials.org/en/webshop in podprite razvoj <@APPNAME@>.'
     end
     item
       IndexID = 3118
       Text = 
-        'This demo plugin allows %s records to be entered. If you need mo' +
-        're, please buy the product at https://www.osfinancials.org/en/we' +
-        'bshop'
+        'Ta demo vti'#269'nik omogo'#269'a vnos %s zapisov. '#268'e potrebujete ve'#269', kup' +
+        'ite izdelek na https://www.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3119
@@ -10666,20 +10683,20 @@ object TTranslationSaveObject
     item
       IndexID = 3120
       Text = 
-        ':Time license expires in 1 day! Please visit https://www.osfinan' +
-        'cials.org/en/webshop '
+        ':'#268'asovna licenca pote'#269'e '#269'ez 1 dan! Prosimo, obi'#353#269'ite https://www' +
+        '.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3121
       Text = 
-        ':Time license expires in %s days! Please visit https://www.osfin' +
-        'ancials.org/en/webshop '
+        ':'#268'asovna licenca pote'#269'e '#269'ez %s dni! Prosimo, obi'#353#269'ite https://ww' +
+        'w.osfinancials.org/en/webshop'
     end
     item
       IndexID = 3122
       Text = 
-        'Time license expired! Please visit https://www.osfinancials.org/' +
-        'en/webshop '
+        #268'asovna licenca je potekla! Prosimo, obi'#353#269'ite https://www.osfina' +
+        'ncials.org/en/webshop'
     end
     item
       IndexID = 3123
@@ -10687,75 +10704,78 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3124
-      Text = 'Forward'
+      Text = 'Naprej'
     end
     item
       IndexID = 3125
-      Text = 'Auto open when starting <@APPNAME@>'
+      Text = 'Samodejno odpri ob zagonu <@APPNAME@>'
     end
     item
       IndexID = 3126
-      Text = 'Convert <@APPNAME@> to this version?'
+      Text = 'Pretvori <@APPNAME@> v to razli'#269'ico'
     end
     item
       IndexID = 1000000
-      Text = 'Republika Slovenija (slovenski jezik)'
+      Text = 
+        'Slovenska mojstrska datoteka za Slovenijo (sl-SI) - Ne prevajajt' +
+        'e. '#268'e '#382'elite prilagoditi to jezikovno datoteko, ustvarite kopijo' +
+        '.'
     end
     item
       IndexID = 1000001
-      Text = 'Welcome to <@APPNAME@>'
+      Text = 'Dobrodo'#353'li v <@APPNAME@>'
     end
     item
       IndexID = 900000
-      Text = 'Parcelware code'
+      Text = 'Koda Parcelware'
     end
     item
       IndexID = 900001
-      Text = 'Send to Parcelware'
+      Text = 'Po'#353'lji v Parcelware'
     end
     item
       IndexID = 900002
-      Text = 'House No.'
+      Text = 'Hi'#353'na '#353't.'
     end
     item
       IndexID = 900003
-      Text = 'House No. tv'
+      Text = 'Enota hi'#353'ne '#353't.'
     end
     item
       IndexID = 900004
-      Text = 'Street'
+      Text = 'Ulica'
     end
     item
       IndexID = 901000
-      Text = 'Subscriptions'
+      Text = 'Naro'#269'nine'
     end
     item
       IndexID = 901001
-      Text = 'Subscriptions list'
+      Text = 'Seznam naro'#269'nin'
     end
     item
       IndexID = 901002
-      Text = 'Warnings'
+      Text = 'Opozorila'
     end
     item
       IndexID = 901003
-      Text = 'Subscriptions to process'
+      Text = 'Naro'#269'nine za obdelavo'
     end
     item
       IndexID = 901004
-      Text = 'Line value (Inc)'
+      Text = 'Vrednost vrstice (z DDV)'
     end
     item
       IndexID = 901005
-      Text = 'Invoice in days before subscription date'
+      Text = 'Ra'#269'un v dneh pred datumom naro'#269'nine'
     end
     item
       IndexID = 901006
-      Text = 'Warning in days before subscription date'
+      Text = 'Opozorilo v dneh pred datumom naro'#269'nine'
     end
     item
       IndexID = 901007
-      Text = 'Interval type'
+      Text = 'Vrsta intervala'
     end
     item
       IndexID = 901008
@@ -10763,111 +10783,111 @@ object TTranslationSaveObject
     end
     item
       IndexID = 901009
-      Text = '<Select Stock Item>'
+      Text = '<Izberite artikel z zaloge>'
     end
     item
       IndexID = 901010
-      Text = 'Are you sure you want to delete this subscription?'
+      Text = 'Ali ste prepri'#269'ani, da '#382'elite izbrisati to naro'#269'nino?'
     end
     item
       IndexID = 901011
-      Text = 'Last run'
+      Text = 'Zadnji zagon'
     end
     item
       IndexID = 901012
-      Text = 'Next run'
+      Text = 'Naslednji zagon'
     end
     item
       IndexID = 901013
-      Text = 'Start Date'
+      Text = 'Za'#269'etni datum'
     end
     item
       IndexID = 901014
-      Text = 'To'
+      Text = 'Do'
     end
     item
       IndexID = 901015
-      Text = 'Processed'
+      Text = 'Obdelano'
     end
     item
       IndexID = 901016
-      Text = 'Subscriptions'
+      Text = 'Naro'#269'nine'
     end
     item
       IndexID = 901017
-      Text = 'Day'
+      Text = 'Dan'
     end
     item
       IndexID = 901018
-      Text = 'Week'
+      Text = 'Teden'
     end
     item
       IndexID = 901019
-      Text = 'Month'
+      Text = 'Mesec'
     end
     item
       IndexID = 901020
-      Text = 'Quarter'
+      Text = '3 meseci'
     end
     item
       IndexID = 901021
-      Text = '1/2 year'
+      Text = '6 mesecev'
     end
     item
       IndexID = 901022
-      Text = 'Year'
+      Text = 'Leto'
     end
     item
       IndexID = 902000
-      Text = 'Price Agreement'
+      Text = 'Cenovni dogovor'
     end
     item
       IndexID = 902001
-      Text = 'Until qty'
+      Text = 'Do koli'#269'ine'
     end
     item
       IndexID = 902002
-      Text = 'External product code'
+      Text = 'Zunanja koda izdelka'
     end
     item
       IndexID = 902003
-      Text = 'Percentage of avg cost price'
+      Text = 'Odstotek povpre'#269'ne nabavne cene'
     end
     item
       IndexID = 902004
-      Text = '<All Stock>'
+      Text = '<Vsi / Vsa artikli zaloga>'
     end
     item
       IndexID = 902005
-      Text = '<All Debtors>'
+      Text = '<Vsi kupci>'
     end
     item
       IndexID = 903000
-      Text = 'Multimedia'
+      Text = 'Ve'#269'predstavnost'
     end
     item
       IndexID = 903001
-      Text = 'File location'
+      Text = 'Lokacija datoteke'
     end
     item
       IndexID = 903002
-      Text = 'Original filename'
+      Text = 'Izvirno ime datoteke'
     end
     item
       IndexID = 903003
-      Text = 'File date'
+      Text = 'Datum datoteke'
     end
     item
       IndexID = 903004
-      Text = 'To database'
+      Text = 'V bazo podatkov'
     end
     item
       IndexID = 903005
-      Text = 'Link file'
+      Text = 'Pove'#382'i datoteko'
     end
     item
       IndexID = 903006
-      Text = 'Copy file'
+      Text = 'Kopiraj datoteko'
     end
     item
       IndexID = 903007
@@ -10875,33 +10895,33 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903008
-      Text = 'View/Edit'
+      Text = 'Pogled/Uredi'
     end
     item
       IndexID = 903009
       Text = 
-        'Press OK when you are done editing the file to save it to the da' +
-        'tabase!'
+        'Kliknite [V redu], ko kon'#269'ate z urejanjem datoteke, da jo shrani' +
+        'te v bazo podatkov!'
     end
     item
       IndexID = 903010
-      Text = 'Save as...'
+      Text = 'Shrani kot...'
     end
     item
       IndexID = 903011
-      Text = 'List'
+      Text = 'Seznam'
     end
     item
       IndexID = 902006
-      Text = 'Historical'
+      Text = 'Zgodovinski'
     end
     item
       IndexID = 902007
-      Text = 'Price type'
+      Text = 'Vrsta cene'
     end
     item
       IndexID = 1000002
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000003
@@ -10913,179 +10933,179 @@ object TTranslationSaveObject
     end
     item
       IndexID = 1000005
-      Text = 'Open item - Due report'
+      Text = 'Odprte postavke - Poro'#269'ilo o zapadlosti'
     end
     item
       IndexID = 1000006
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000007
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000008
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000009
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000011
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000012
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000013
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000014
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000015
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000016
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000017
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporabl se / Ne prevajaj'
     end
     item
       IndexID = 1000018
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000019
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000020
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000021
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000022
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000023
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000024
-      Text = 'Set of Books'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000025
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000026
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000027
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000028
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000029
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000030
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000031
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000032
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000033
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000034
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000035
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000036
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000037
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000038
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000039
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000040
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000041
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000042
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000043
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000044
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 1000045
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 906000
       Text = 
-        'In spite of previous reminders, according to our records your ac' +
-        'count is still overdue.'
+        'Kljub predhodnim opominom je va'#353' ra'#269'un po na'#353'ih evidencah '#353'e ved' +
+        'no zapadel.'
     end
     item
       IndexID = 906001
       Text = 
-        'The next subscription will start soon. The invoice for the new p' +
-        'eriod will start soon.'
+        'Naslednja naro'#269'nina bo kmalu za'#269'ela veljati. Ra'#269'un za novo obdob' +
+        'je bo sledil v kratkem.'
     end
     item
       IndexID = 906002
-      Text = 'Document Date and Time'
+      Text = 'Datum in '#269'as dokumenta'
     end
     item
       IndexID = 906003
@@ -11093,47 +11113,47 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906004
-      Text = 'Supplier'
+      Text = 'Dobavitelj'
     end
     item
       IndexID = 906005
-      Text = 'Order Date'
+      Text = 'Datum naro'#269'ila'
     end
     item
       IndexID = 906006
-      Text = 'Quote Date'
+      Text = 'Datum ponudbe'
     end
     item
       IndexID = 906007
-      Text = 'Cum'
+      Text = 'Kumulativno'
     end
     item
       IndexID = 906008
-      Text = 'Total Paid'
+      Text = 'Skupaj pla'#269'ano'
     end
     item
       IndexID = 906009
-      Text = 'Pin'
+      Text = 'PIN'
     end
     item
       IndexID = 906010
-      Text = 'Please settle  your account as soon as possible.'
+      Text = 'Prosimo, poravnajte svoj ra'#269'un v najkraj'#353'em mo'#382'nem '#269'asu!'
     end
     item
       IndexID = 906011
-      Text = 'Iskljuceni'
+      Text = 'Brez DDV'
     end
     item
       IndexID = 906012
-      Text = 'Ukljuceno'
+      Text = 'Z DDV'
     end
     item
       IndexID = 906013
-      Text = 'On Account'
+      Text = 'Na ra'#269'un'
     end
     item
       IndexID = 906014
-      Text = 'POS Tax Invoice'
+      Text = 'POS-dav'#269'ni ra'#269'un'
     end
     item
       IndexID = 906015
@@ -11149,11 +11169,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906018
-      Text = 'Thank you for your patronage.'
+      Text = 'Zahvaljujemo se vam za va'#353' obisk.'
     end
     item
       IndexID = 906019
-      Text = 'Have a nice day.'
+      Text = 'Lep dan vam '#382'elimo.'
     end
     item
       IndexID = 906020
@@ -11161,199 +11181,199 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906021
-      Text = 'Branch Code'
+      Text = 'Koda podru'#382'nice'
     end
     item
       IndexID = 906022
-      Text = 'Account Holder'
+      Text = 'Imetnik ra'#269'una'
     end
     item
       IndexID = 906023
-      Text = '- End of Report -'
+      Text = '- Konec poro'#269'ila -'
     end
     item
       IndexID = 906024
-      Text = 'Credit Note Date'
+      Text = 'Datum dobropisa'
     end
     item
       IndexID = 906025
-      Text = 'Cum gen'
+      Text = 'Skupna kumulativna vrednost'
     end
     item
       IndexID = 906026
-      Text = 'Purchase Document'
+      Text = 'Nabavni dokument'
     end
     item
       IndexID = 906027
-      Text = 'Purchase Date'
+      Text = 'Datum nabave'
     end
     item
       IndexID = 906028
-      Text = 'Supplier Return Date'
+      Text = 'Datum vra'#269'ila dobavitelju'
     end
     item
       IndexID = 906029
-      Text = 'Supplier Return Document'
+      Text = 'Dokument o vra'#269'ilu dobavitelju'
     end
     item
       IndexID = 906030
-      Text = 'Supplier Return Accepted'
+      Text = 'Vra'#269'ilo dobavitelju sprejeto'
     end
     item
       IndexID = 1000046
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 906031
-      Text = 'Historical Value'
+      Text = 'Zgodovinska vrednost'
     end
     item
       IndexID = 906032
-      Text = 'Order List'
+      Text = 'Seznam naro'#269'il'
     end
     item
       IndexID = 906033
-      Text = 'Outstanding Orders'
+      Text = 'Odprta naro'#269'ila'
     end
     item
       IndexID = 906034
-      Text = 'Outstanding Quotes'
+      Text = 'Odprte ponudbe'
     end
     item
       IndexID = 906035
-      Text = 'Price List - Price Agreement'
+      Text = 'Kupec - Cenovni sporazum'
     end
     item
       IndexID = 906036
-      Text = 'Re-order Quantities'
+      Text = 'Koli'#269'ine za ponovno naro'#269'ilo'
     end
     item
       IndexID = 906037
-      Text = 'Sales Hours'
+      Text = 'Ure prodaje'
     end
     item
       IndexID = 906038
-      Text = 'Stock Movement'
+      Text = 'Gibanje zalog'
     end
     item
       IndexID = 906039
-      Text = 'Transaction Details'
+      Text = 'Podrobnosti transakcije'
     end
     item
       IndexID = 906040
-      Text = 'Yagoda Barcode'
+      Text = #268'rtna koda Yagoda'
     end
     item
       IndexID = 906041
-      Text = 'P/L'
+      Text = 'D/I'
     end
     item
       IndexID = 906042
-      Text = 'Profit/Loss'
+      Text = 'Dobi'#269'ek/Izguba'
     end
     item
       IndexID = 906043
-      Text = 'Sales by Customer Group'
+      Text = 'Prodaja po skupinah kupcev'
     end
     item
       IndexID = 906044
-      Text = 'Sales by Stock Group'
+      Text = 'Prodaja po skupinah artiklov'
     end
     item
       IndexID = 906045
-      Text = 'Debtor List'
+      Text = 'Seznam kupcev'
     end
     item
       IndexID = 906046
-      Text = 'Creditor List'
+      Text = 'Seznam dobaviteljev'
     end
     item
       IndexID = 906047
-      Text = 'Debtor Contact List'
+      Text = 'Seznam kontaktov - Kupci'
     end
     item
       IndexID = 906048
-      Text = 'Creditor Contact List'
+      Text = 'Seznam kontaktov - Dobavitelji'
     end
     item
       IndexID = 906049
-      Text = 'Contact List - All'
+      Text = 'Seznam kontaktov - Vsi'
     end
     item
       IndexID = 906050
-      Text = 'Back-Order'
+      Text = 'Zaostalo naro'#269'ilo'
     end
     item
       IndexID = 906051
-      Text = 'Log-on Report'
+      Text = 'Poro'#269'ilo o prijavah'
     end
     item
       IndexID = 906052
-      Text = 'Log-on'
+      Text = 'Prijava'
     end
     item
       IndexID = 906053
-      Text = 'Log-off'
+      Text = 'Odjava'
     end
     item
       IndexID = 906054
-      Text = 'OS User'
+      Text = 'OS uporabnik'
     end
     item
       IndexID = 906055
-      Text = 'From PC'
+      Text = 'Ra'#269'unalnik'
     end
     item
       IndexID = 906056
-      Text = 'Bar Oder'
+      Text = 'Naro'#269'ilo to'#269'ilnice'
     end
     item
       IndexID = 906057
-      Text = 'Kitchen Order'
+      Text = 'Naro'#269'ilo kuhinje'
     end
     item
       IndexID = 906058
-      Text = 'Turnover'
+      Text = 'Promet'
     end
     item
       IndexID = 906059
-      Text = 'Utilisation'
+      Text = 'Prodaja po kupcih'
     end
     item
       IndexID = 906060
-      Text = 'Contact List - Main'
+      Text = 'Seznam kontaktov - Glavni'
     end
     item
       IndexID = 906061
-      Text = 'new'
+      Text = 'Seznam transakcij - Odprte postavke'
     end
     item
       IndexID = 1000054
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 3325
-      Text = '<- Set selected to this price'
+      Text = '<- Nastavi izbrano na to ceno'
     end
     item
       IndexID = 3326
-      Text = 'Open Item'
+      Text = 'Odpri vnos'
     end
     item
       IndexID = 3327
-      Text = 'Clieop comment'
+      Text = 'Clieop komentar'
     end
     item
       IndexID = 3328
-      Text = 'City'
+      Text = 'Kraj'
     end
     item
       IndexID = 3329
-      Text = 'Cur'
+      Text = 'Val'
     end
     item
       IndexID = 3330
-      Text = 'Quote'
+      Text = 'Ponudba'
     end
     item
       IndexID = 3331
@@ -11361,350 +11381,355 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3332
-      Text = 'LP'
+      Text = 'ZP'
     end
     item
       IndexID = 3333
-      Text = 'Order'
+      Text = 'Naro'#269'ilo'
     end
     item
       IndexID = 3334
-      Text = 'Exp'
+      Text = 'Pri'#269'ak'
     end
     item
       IndexID = 3335
-      Text = 'Log level'
+      Text = 'Raven dnevnika'
     end
     item
       IndexID = 3336
-      Text = 'Next batch nr'
+      Text = 'Naslednja '#353't. dnevnika'
     end
     item
       IndexID = 3337
-      Text = 'Backcolor'
+      Text = 'Barva ozadja'
     end
     item
       IndexID = 3338
-      Text = 'Frontcolor'
+      Text = 'Barva pisave'
     end
     item
       IndexID = 3339
-      Text = 'Link image'
+      Text = 'Pove'#382'i sliko'
     end
     item
       IndexID = 3340
-      Text = 'Clear image'
+      Text = 'Po'#269'isti sliko'
     end
     item
       IndexID = 3341
-      Text = 'Init all translations and plugins'
+      Text = 'Inicializiraj vse prevode in vti'#269'nike'
     end
     item
       IndexID = 3342
-      Text = 'Show colors'
+      Text = 'Prika'#382'i barve'
     end
     item
       IndexID = 3343
-      Text = 'Find invalide'
+      Text = 'Najdi neveljavne'
     end
     item
       IndexID = 3344
-      Text = 'Adjust payment date'
+      Text = 'Prilagodi datum pla'#269'ila'
     end
     item
       IndexID = 3345
       Text = 
-        'Consolidating lines and using tax will mess up your tax report! ' +
-        'please make sure you do not use tax or do not consolidate lines.' +
-        '!'
+        'Zdru'#382'evanje vrstic in uporaba davka bo pokvarila va'#353'e dav'#269'no por' +
+        'o'#269'ilo! Prosimo, prepri'#269'ajte se, da ne uporabljate davka ali ne z' +
+        'dru'#382'ujete vrstic!'
     end
     item
       IndexID = 3346
-      Text = 'As PDF file'
+      Text = 'Kot datoteka PDF'
     end
     item
       IndexID = 3347
-      Text = 'Timeslot'
+      Text = #268'asovni termin'
     end
     item
       IndexID = 3348
-      Text = 'Show at startup'
+      Text = 'Prika'#382'i ob zagonu'
     end
     item
       IndexID = 3349
       Text = 
-        'There is document input asossiated with this project do you wish' +
-        ' to continue ? all project data will be lost'
+        'S tem projektom je povezan vnos dokumentov! '#381'elite nadaljevati? ' +
+        'Vsi podatki projekta bodo izgubljeni!'
     end
     item
       IndexID = 3350
       Text = 
-        'There is transaction input asossiated with this project do you w' +
-        'ish to continue ? all project data will be lost'
+        'S tem projektom je povezan vnos transakcij! '#381'elite nadaljevati? ' +
+        'Vsi podatki projekta bodo izgubljeni!'
     end
     item
       IndexID = 3351
-      Text = 'There are unposted documents you cannot close this project!'
+      Text = 'Obstajajo neknji'#382'eni dokumenti! Tega projekta ne morete zapreti!'
     end
     item
       IndexID = 3352
-      Text = 'Sales, Purchase, Cost of sales and tax accounts'
+      Text = 
+        'Konti prodaje, nabave, nabavne vrednosti prodanega blaga in davk' +
+        'ov'
     end
     item
       IndexID = 3353
-      Text = 'Open transactions only'
+      Text = 'Samo odprte transakcije'
     end
     item
       IndexID = 3354
-      Text = 'Remove fault links'
+      Text = 'Odstrani napa'#269'ne povezave'
     end
     item
       IndexID = 3355
-      Text = 'Transfare transactions'
+      Text = 'Prenesi transakcije'
     end
     item
       IndexID = 3356
-      Text = 'Payroll import'
+      Text = 'Uvoz pla'#269'ilne liste'
     end
     item
       IndexID = 3357
-      Text = 'Free selection'
+      Text = 'Prost izbor'
     end
     item
       IndexID = 3358
-      Text = 'AutoPymt'
+      Text = 'SamodejnoPla'#269'ilo'
     end
     item
       IndexID = 3359
-      Text = 'Barcode printer'
+      Text = 'Tiskalnik '#269'rtnih kod'
     end
     item
       IndexID = 3360
-      Text = 'Label printer'
+      Text = 'Tiskalnik nalepk'
     end
     item
       IndexID = 3361
-      Text = 'Use multiprinter'
+      Text = 'Ve'#269' tiskalnikov'
     end
     item
       IndexID = 3362
-      Text = 'change remark'
+      Text = 'Spremeni opombo'
     end
     item
       IndexID = 3363
-      Text = 'Please enter change remark'
+      Text = 'Prosimo, vnesite opombo o spremembi'
     end
     item
       IndexID = 3364
-      Text = 'No remaker entered operation aborted!'
+      Text = 'Opomba ni vnesena, postopek prekinjen!'
     end
     item
       IndexID = 3365
       Text = 
-        'Stock Qty has been changed do you want to retain the current dat' +
-        'abase data?'
+        'Koli'#269'ina zaloge je bila spremenjena! Ali '#382'elite obdr'#382'ati trenutn' +
+        'e podatke v podatkovni zbirki?'
     end
     item
       IndexID = 3366
-      Text = 'Manual adjust'
+      Text = 'Ro'#269'na prilagoditev'
     end
     item
       IndexID = 3367
-      Text = 'Continue action %s ?'
+      Text = 'Nadaljujem dejanje %s ?'
     end
     item
       IndexID = 3368
-      Text = 'Standard Column balance'
+      Text = 'Standardna stanja po stolpcih'
     end
     item
       IndexID = 3369
       Text = 
-        'The data of this document has changed by a other user or input s' +
-        'creen. %s Do you wish to override the data? '
+        'Podatke tega dokumenta je spremenil drug uporabnik ali vnosni za' +
+        'slon. %s Ali '#382'elite prepisati podatke?'
     end
     item
       IndexID = 3370
-      Text = 'User exit!'
+      Text = 'Izhod uporabnika!'
     end
     item
       IndexID = 3371
-      Text = 'Do you wish to clear all documents or set them to unposted?'
+      Text = 
+        #268'e '#382'elite po'#269'istiti (odstraniti) vse dokumente, kliknite [Da]. '#268 +
+        'e '#382'elite obdr'#382'ati vse dokumente in jih nastaviti kot neknji'#382'ene,' +
+        ' kliknite [Ne].'
     end
     item
       IndexID = 3372
-      Text = 'Budget vs actual'
+      Text = 'Prora'#269'un proti dejanskemu stanju'
     end
     item
       IndexID = 3373
-      Text = 'This year vs last year'
+      Text = 'Leto'#353'nje leto proti lanskemu letu'
     end
     item
       IndexID = 3374
-      Text = 'Tools'
+      Text = 'Orodja'
     end
     item
       IndexID = 3375
-      Text = 'External system links'
+      Text = 'Zunanje sistemske povezave'
     end
     item
       IndexID = 3376
-      Text = 'financial tools'
+      Text = 'Finan'#269'na orodja'
     end
     item
       IndexID = 3377
-      Text = 'Generic plugins'
+      Text = 'Splo'#353'ni vti'#269'niki'
     end
     item
       IndexID = 3378
-      Text = 'Freefields'
+      Text = 'Poljubna polja'
     end
     item
       IndexID = 3379
-      Text = 'Multimedia'
+      Text = 'Ve'#269'predstavnost'
     end
     item
       IndexID = 3380
-      Text = 'Price agreement'
+      Text = 'Dogovor o ceni'
     end
     item
       IndexID = 3381
-      Text = 'Stockcheck'
+      Text = 'NadzorZaloge'
     end
     item
       IndexID = 3382
-      Text = 'QuickOrder'
+      Text = 'HitroNaro'#269'ilo'
     end
     item
       IndexID = 3383
-      Text = 'E-commerce'
+      Text = 'e-Poslovanje'
     end
     item
       IndexID = 3384
-      Text = 'Activa'
+      Text = 'Osnovna sredstva'
     end
     item
       IndexID = 3385
-      Text = 'Office'
+      Text = 'Pisarna'
     end
     item
       IndexID = 3386
-      Text = 'Sql browser'
+      Text = 'Sql brskalnik'
     end
     item
       IndexID = 3387
-      Text = 'Drill down'
+      Text = 'Natan'#269'nej'#353'i pregled'
     end
     item
       IndexID = 3388
-      Text = 'Xml audit file'
+      Text = 'Xml revizijska datoteka'
     end
     item
       IndexID = 3389
-      Text = 'Pos display'
+      Text = 'POS-zaslon'
     end
     item
       IndexID = 3390
-      Text = 'Send package'
+      Text = 'Po'#353'lji paket'
     end
     item
       IndexID = 3391
-      Text = 'Subscriptions'
+      Text = 'Naro'#269'nine'
     end
     item
       IndexID = 3392
-      Text = 'Web export'
+      Text = 'Spletni izvoz'
     end
     item
       IndexID = 3393
-      Text = 'Customer on hold'
+      Text = 'Kupec na '#269'akanju'
     end
     item
       IndexID = 3394
-      Text = 'Document email pro'
+      Text = 'Dokument E-mail Pro'
     end
     item
       IndexID = 3395
-      Text = 'HORECA Pos'
+      Text = 'Gostinski POS'
     end
     item
       IndexID = 3396
-      Text = 'RETAIL Pos'
+      Text = 'Trgovski POS'
     end
     item
       IndexID = 3397
-      Text = 'Charter'
+      Text = #268'arter'
     end
     item
       IndexID = 3398
-      Text = 'Location-Serilization-batches'
+      Text = 'Lokacija-Serijske-Partije'
     end
     item
       IndexID = 3400
-      Text = 'Remittance'
+      Text = 'Nakazilo'
     end
     item
       IndexID = 3401
-      Text = 'Reportman'
+      Text = 'Upravitelj poro'#269'il'
     end
     item
       IndexID = 3402
-      Text = 'Handytools'
+      Text = 'Uporabna orodja (Samo za napredne uporabnike)'
     end
     item
       IndexID = 3403
-      Text = 'Register plugins'
+      Text = 'Registracija vti'#269'nikov'
     end
     item
       IndexID = 3404
-      Text = 'Export / import'
+      Text = 'Izvoz / Uvoz'
     end
     item
       IndexID = 3405
-      Text = 'Stock plugins'
+      Text = 'Vti'#269'niki za zalogo'
     end
     item
       IndexID = 3406
-      Text = 'Document plugins'
+      Text = 'Vti'#269'niki za dokumente'
     end
     item
       IndexID = 3407
-      Text = 'Branch specific'
+      Text = 'Specifi'#269'no za panogo'
     end
     item
       IndexID = 3408
-      Text = 'Driverschool plugin'
+      Text = 'Vti'#269'nik za avto'#353'ole'
     end
     item
       IndexID = 3409
-      Text = 'Postalcode / tax id / regno lookup'
+      Text = 'Iskanje po'#353'tne '#353'tevilke / dav'#269'ne '#353't. / mat. '#353't.'
     end
     item
       IndexID = 3410
-      Text = 'Dutch tax plugin'
+      Text = 'Nizozemski dav'#269'ni vti'#269'nik'
     end
     item
       IndexID = 3411
-      Text = 'CCV Pin'
+      Text = 'CCV PIN'
     end
     item
       IndexID = 3412
-      Text = 'Pos points'
+      Text = 'POS to'#269'ke'
     end
     item
       IndexID = 3413
-      Text = 'Controler login'
+      Text = 'Prijava nadzornika'
     end
     item
       IndexID = 3414
-      Text = 'Multi user agenda'
+      Text = 'Ve'#269'uporabni'#353'ki urnik'
     end
     item
       IndexID = 3415
-      Text = 'Woodsales'
+      Text = 'Prodaja lesa'
     end
     item
       IndexID = 3416
-      Text = 'Document export import'
+      Text = 'Uvoz izvoz dokumentov'
     end
     item
       IndexID = 3417
@@ -11712,880 +11737,890 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3418
-      Text = 'Plugin load list'
+      Text = 'Seznam nalaganja vti'#269'nikov'
     end
     item
       IndexID = 3419
-      Text = 'Activate plugin'
+      Text = 'Aktiviraj vti'#269'nik'
     end
     item
       IndexID = 3420
-      Text = 'Deactivate plugin'
+      Text = 'Deaktiviraj vti'#269'nik'
     end
     item
       IndexID = 3421
-      Text = 'Use tabs in stock'
+      Text = 'Zavihki modula zaloge'
     end
     item
       IndexID = 3422
       Text = 
-        'You are not yet registered to post on our forum you will need to' +
-        ' register <@APPNAME@> then you can use that username password to' +
-        ' login to our forum or shop.'
+        #352'e niste registrirani za objavljanje na na'#353'em forumu! Morali bos' +
+        'te registrirati <@APPNAME@>, nato pa lahko uporabite to uporabni' +
+        #353'ko ime in geslo za prijavo na na'#353' forum ali v trgovino.'
     end
     item
       IndexID = 3423
-      Text = 'Copy to'
+      Text = 'Kopiraj v'
     end
     item
       IndexID = 3424
-      Text = 'Delete not local (Books this pc can not find)'
+      Text = 
+        'Izbri'#353'i tiste, ki niso lokalne (knjige, ki jih ta ra'#269'unalnik ne ' +
+        'najde)'
     end
     item
       IndexID = 3425
-      Text = 'Reprint ticket'
+      Text = 'Ponovno natisni listek'
     end
     item
       IndexID = 3426
-      Text = 'Rental / reservations'
+      Text = 'Najem / Rezervacije'
     end
     item
       IndexID = 3427
-      Text = 'Calculate minutes'
+      Text = 'Izra'#269'unaj minute'
     end
     item
       IndexID = 3428
-      Text = 'Minutes inactive'
+      Text = 'Minute neaktivnosti'
     end
     item
       IndexID = 20124
-      Text = '<No data to display>'
+      Text = '<Ni podatkov prikaz\ za>'
     end
     item
       IndexID = 901023
-      Text = 'Next warning'
+      Text = 'Naslednje opozorilo'
     end
     item
       IndexID = 901500
-      Text = 'Split'
+      Text = 'Razdeli'
     end
     item
       IndexID = 901501
-      Text = 'Seat'
+      Text = 'Sede'#382
     end
     item
       IndexID = 901502
-      Text = 'Couvert'
+      Text = 'Pogrinjek'
     end
     item
       IndexID = 901503
-      Text = 'Waiter'
+      Text = 'Natakar'
     end
     item
       IndexID = 901504
-      Text = 'The item %s is out of stock! Please review your entry!'
+      Text = 'Artikel %s ni na zalogi! Prosimo, preverite svoj vnos!'
     end
     item
       IndexID = 901505
-      Text = 'New lines added please review this payment!'
+      Text = 'Dodane so nove vrstice, prosimo, preglejte to pla'#269'ilo!'
     end
     item
       IndexID = 901506
-      Text = 'Please close all open invoices first!'
+      Text = 'Prosimo, najprej zaprite vse odprte ra'#269'une!'
     end
     item
       IndexID = 901507
-      Text = 'Are you sure you want to continue to close the POS?'
+      Text = 
+        'Ali ste prepri'#269'ani, da '#382'elite nadaljevati z zapiranjem blagajne ' +
+        '(POS)?'
     end
     item
       IndexID = 901508
-      Text = 'Close POS'
+      Text = 'Zapri POS blagajno'
     end
     item
       IndexID = 901509
-      Text = 'Handheld'
+      Text = 'Ro'#269'ni terminal (Handheld)'
     end
     item
       IndexID = 906062
-      Text = 'Selected Debtor Label'
+      Text = 'Nalepka za izbranega kupca (po'#353'tni naslov)'
     end
     item
       IndexID = 906063
-      Text = 'Selected Creditor Label'
+      Text = 'Nalepka za izbranega dobavitelja (po'#353'tni naslov)'
     end
     item
       IndexID = 906064
-      Text = 'Delivery Address Labels'
+      Text = 'Nalepke za naslov za dostavo'
     end
     item
       IndexID = 906065
-      Text = 'Selected Debtor Delivery Label'
+      Text = 'Nalepka za izbranega kupca (naslov za dostavo)'
     end
     item
       IndexID = 906066
-      Text = 'Selected Creditor Delivery Label'
+      Text = 'Nalepka za izbranega dobavitelja (naslov za dostavo)'
     end
     item
       IndexID = 906067
-      Text = 'Payments'
+      Text = 'Pla'#269'ila'
     end
     item
       IndexID = 906068
-      Text = 'Page No.'
+      Text = #352't. strani'
     end
     item
       IndexID = 906069
-      Text = 'Your Tax Reference'
+      Text = 'Va'#353'a dav'#269'na '#353'tevilka'
     end
     item
       IndexID = 1000055
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 906070
-      Text = 'Reprinted'
+      Text = 'Ponovno natisnjeno'
     end
     item
       IndexID = 906071
-      Text = 'Cost Centre 1'
+      Text = 'Stro'#353'kovno mesto 1'
     end
     item
       IndexID = 906072
-      Text = 'Cost Centre 2'
+      Text = 'Stro'#353'kovno mesto 2'
     end
     item
       IndexID = 906073
-      Text = 'POSPoints'
+      Text = 'POS to'#269'ke'
     end
     item
       IndexID = 906074
-      Text = 'Batch'
+      Text = 'Dnevnik'
     end
     item
       IndexID = 906075
-      Text = 'Compare Period'
+      Text = 'Primerjalno obdobje'
     end
     item
       IndexID = 906076
-      Text = 'Compare Period - Debtors'
+      Text = 'Primerjalno obdobje - Kupci'
     end
     item
       IndexID = 906077
-      Text = 'Compare Period - Creditors'
+      Text = 'Primerjalno obdobje - Dobavitelji'
     end
     item
       IndexID = 906078
-      Text = 'Compare Period - Profit / Loss'
+      Text = 'Primerjalno obdobje - Dobi'#269'ek / Izguba'
     end
     item
       IndexID = 906079
-      Text = 'Multi-Year'
+      Text = 'Ve'#269'letno'
     end
     item
       IndexID = 906080
-      Text = 'On selected account / other'
+      Text = 'Na izbranem ra'#269'unu / drugo'
     end
     item
       IndexID = 906081
-      Text = 'Transaction ID'
+      Text = 'ID transakcije'
     end
     item
       IndexID = 906082
-      Text = 'Batch Type ID'
+      Text = 'ID vrste dnevnika'
     end
     item
       IndexID = 906083
-      Text = 'Document Amount'
+      Text = 'Znesek dokumenta'
     end
     item
       IndexID = 906084
-      Text = 'Document Tax'
+      Text = 'Davek dokumenta'
     end
     item
       IndexID = 906085
-      Text = 'Tax on Tax Account'
+      Text = 'Davek na dav'#269'nem ra'#269'unu'
     end
     item
       IndexID = 906086
-      Text = 'Control Report - Transactions per Contra Account Processed'
+      Text = 'Kontrolno poro'#269'ilo - Knji'#382'ene transakcije po protikontih'
     end
     item
       IndexID = 903100
-      Text = 'Charter'
+      Text = 'Kontni na'#269'rt'
     end
     item
       IndexID = 906087
-      Text = 'POS Payment Types'
+      Text = 'POS-vrste pla'#269'il'
     end
     item
       IndexID = 906088
-      Text = 'Creditor - Price Agreement'
+      Text = 'Dobavitelj - Cenovni sporazum'
     end
     item
       IndexID = 906089
-      Text = 'POS Sales Report'
+      Text = 'POS-poro'#269'ilo o prodaji'
     end
     item
       IndexID = 906090
-      Text = 'POS Current Cash Report'
+      Text = 'POS-poro'#269'ilo o trenutnem stanju gotovine'
     end
     item
       IndexID = 906091
-      Text = 'POS Historical Cash Report'
+      Text = 'POS-zgodovinsko poro'#269'ilo o gotovini'
     end
     item
       IndexID = 906092
-      Text = 'Total Profit / Loss'
+      Text = 'Skupni dobi'#269'ek / izguba'
     end
     item
       IndexID = 906093
-      Text = 'Opening Balance'
+      Text = 'Za'#269'etno stanje'
     end
     item
       IndexID = 906094
-      Text = 'Total Balance'
+      Text = 'Skupno stanje'
     end
     item
       IndexID = 906095
-      Text = 'Total Lines'
+      Text = 'Skupaj vrstic'
     end
     item
       IndexID = 906096
-      Text = 'Checksum'
+      Text = 'Kontrolna vsota'
     end
     item
       IndexID = 906097
-      Text = 'Debtor Payment Report'
+      Text = 'Poro'#269'ilo o avtomatskih prejemkih'
     end
     item
       IndexID = 906098
-      Text = 'Batch Type Report'
+      Text = 'Poro'#269'ilo o vrstah dnevnikov'
     end
     item
       IndexID = 906099
-      Text = 'BatchID'
+      Text = 'ID dnevnika'
     end
     item
       IndexID = 906100
-      Text = 'Posted Batch'
+      Text = 'Knji'#382'en dnevnik'
     end
     item
       IndexID = 906101
-      Text = 'Unposted Batch'
+      Text = 'Neknji'#382'en dnevnik'
     end
     item
       IndexID = 3429
-      Text = 'Std disc%'
+      Text = 'Std. popust %'
     end
     item
       IndexID = 3430
-      Text = 'Document id'
+      Text = 'ID dokumenta'
     end
     item
       IndexID = 3431
-      Text = 'webshop/forum login and Newsletters'
+      Text = 'Prijava v spletno trgovino/forum in e-novice'
     end
     item
       IndexID = 3432
-      Text = 'Step status'
+      Text = 'Status koraka'
     end
     item
       IndexID = 3433
-      Text = 'Process'
+      Text = 'Obdelaj'
     end
     item
       IndexID = 3434
-      Text = 'Date last action'
+      Text = 'Datum zadnjega dejanja'
     end
     item
       IndexID = 3435
-      Text = 'Step name'
+      Text = 'Naziv koraka'
     end
     item
       IndexID = 3436
-      Text = 'Used time'
+      Text = 'Uporabljeni '#269'as'
     end
     item
       IndexID = 3437
-      Text = 'View closed'
+      Text = 'Poglej zaprto'
     end
     item
       IndexID = 3438
-      Text = 'Belgische btw aangifte'
+      Text = 'Belgijska dav'#269'na napoved'
     end
     item
       IndexID = 3439
-      Text = 'Retype password'
+      Text = 'Ponovno vnesite geslo'
     end
     item
       IndexID = 3440
-      Text = 'Branches'
+      Text = 'Podru'#382'nice'
     end
     item
       IndexID = 3441
-      Text = 'Skypename'
+      Text = 'Ime v ekipi Teams'
     end
     item
       IndexID = 3442
-      Text = 'Reset pass (email new pw to you)'
+      Text = 'Ponastavi geslo (po'#353'lje vam novo geslo po e-po'#353'ti)'
     end
     item
       IndexID = 3443
-      Text = 'Open webshop'
+      Text = 'Odpri spletno trgovino'
     end
     item
       IndexID = 3444
-      Text = 'Change password'
+      Text = 'Spremeni geslo'
     end
     item
       IndexID = 3445
-      Text = 'Please register <@APPNAME@> first!'
+      Text = 'Prosimo, najprej registrirajte <@APPNAME@>!'
     end
     item
       IndexID = 3446
-      Text = 'To register plugins you need to register <@APPNAME@> first!'
+      Text = 
+        'Za registracijo vti'#269'nikov morate najprej registrirati <@APPNAME@' +
+        '>!'
     end
     item
       IndexID = 3447
-      Text = 'Timelicence'
+      Text = #268'asovna licenca'
     end
     item
       IndexID = 3448
-      Text = 'Current total'
+      Text = 'Trenutna vsota'
     end
     item
       IndexID = 3449
-      Text = 'No points used! please us points or close window!'
+      Text = 
+        'To'#269'ke niso bile porabljene! Prosimo, uporabite to'#269'ke ali zaprite' +
+        ' okno!'
     end
     item
       IndexID = 3450
-      Text = 'Use point'
+      Text = 'To'#269'ke'
     end
     item
       IndexID = 3451
-      Text = 'Current points'
+      Text = 'Trenutne to'#269'ke'
     end
     item
       IndexID = 3452
-      Text = 'Points to use'
+      Text = 'To'#269'ke za porabo'
     end
     item
       IndexID = 3453
-      Text = 'General DIV ledger'
+      Text = 'Razlike glavne knjige'
     end
     item
       IndexID = 3454
-      Text = 'Symbol'
+      Text = 'Simbol'
     end
     item
       IndexID = 3455
-      Text = 'Rate'
+      Text = 'Te'#269'aj'
     end
     item
       IndexID = 3465
-      Text = 'Tax classes'
+      Text = 'Razredi kontov'
     end
     item
       IndexID = 3466
-      Text = 'Tax class'
+      Text = 'Razred konta'
     end
     item
       IndexID = 3467
-      Text = 'Force stocktype check'
+      Text = 'Prisili preverjanje vrst artiklov'
     end
     item
       IndexID = 3468
-      Text = 'Default costgroup'
+      Text = 'Privzeta stro'#353'kovna skupina'
     end
     item
       IndexID = 3469
-      Text = 'Workflow setup'
+      Text = 'Nastavitev delovnega toka'
     end
     item
       IndexID = 3470
-      Text = 'Currencies'
+      Text = 'Valute'
     end
     item
       IndexID = 3471
-      Text = 'I have read this instruction and i understaind the action!'
+      Text = 'Prebral sem to navodilo in razumem dejanje!'
     end
     item
       IndexID = 3472
-      Text = 'Payment discount'
+      Text = 'Popust pri pla'#269'ilu'
     end
     item
       IndexID = 3473
-      Text = 'Payment diverence'
+      Text = 'Razlika pri pla'#269'ilu'
     end
     item
       IndexID = 3474
-      Text = 'Auto process'
+      Text = 'Samodejna obdelava'
     end
     item
       IndexID = 3475
-      Text = 'Outlook sync'
+      Text = 'Uskladitev z Outlookom'
     end
     item
       IndexID = 3476
-      Text = 'Sync to <@APPNAME@>'
+      Text = 'Uskladi v <@APPNAME@>'
     end
     item
       IndexID = 3477
-      Text = 'From <@APPNAME@> to Outlook'
+      Text = 'Iz <@APPNAME@> v Outlook'
     end
     item
       IndexID = 3478
-      Text = 'Sync Email'
+      Text = 'Uskladi e-po'#353'to'
     end
     item
       IndexID = 3479
-      Text = 'Email link'
+      Text = 'Povezava e-po'#353'te'
     end
     item
       IndexID = 3480
-      Text = 'Outlook syngroniser'
+      Text = 'Usklajevalnik z Outlookom'
     end
     item
       IndexID = 3481
-      Text = 'Document links'
+      Text = 'Povezave dokumentov'
     end
     item
       IndexID = 3482
-      Text = 'Links from'
+      Text = 'Povezave iz'
     end
     item
       IndexID = 3483
-      Text = 'Links to'
+      Text = 'Povezave v'
     end
     item
       IndexID = 3484
-      Text = 'Link'
+      Text = 'Povezava'
     end
     item
       IndexID = 3485
-      Text = 'Where am i?'
+      Text = 'Kje sem?'
     end
     item
       IndexID = 3486
-      Text = 'Step hint'
+      Text = 'Namig koraka'
     end
     item
       IndexID = 3487
-      Text = 'Rights'
+      Text = 'Pravice'
     end
     item
       IndexID = 3488
-      Text = 'Add step'
+      Text = 'Dodaj korak'
     end
     item
       IndexID = 3489
-      Text = 'Edit step'
+      Text = 'Uredi korak'
     end
     item
       IndexID = 3490
-      Text = 'Delete step'
+      Text = 'Izbri'#353'i korak'
     end
     item
       IndexID = 3491
-      Text = 'Transition'
+      Text = 'Prehod'
     end
     item
       IndexID = 3492
-      Text = 'Create Transition'
+      Text = 'Ustvari prehod'
     end
     item
       IndexID = 3493
-      Text = 'Duration'
+      Text = 'Trajanje'
     end
     item
       IndexID = 3494
-      Text = 'Years'
+      Text = 'Leta'
     end
     item
       IndexID = 3495
-      Text = 'Status text'
+      Text = 'Besedilo statusa'
     end
     item
       IndexID = 3496
-      Text = 'Screentype'
+      Text = 'Vrsta zaslona'
     end
     item
       IndexID = 3497
-      Text = 'Stepname'
+      Text = 'Naziv koraka'
     end
     item
       IndexID = 3498
-      Text = 'Stepdata'
+      Text = 'Podatki koraka'
     end
     item
       IndexID = 3499
       Text = 
-        'You still have a detail screen open press cancel or save to clos' +
-        'e.'
+        #352'e vedno imate odprt podrobni zaslon! Kliknite [Prekli'#269'i] ali [S' +
+        'hrani] za zapiranje!'
     end
     item
       IndexID = 3500
-      Text = 'Add transition'
+      Text = 'Dodaj prehod'
     end
     item
       IndexID = 3501
-      Text = 'Condition'
+      Text = 'Pogoj'
     end
     item
       IndexID = 3502
-      Text = 'Next process date'
+      Text = 'Naslednji datum obdelave'
     end
     item
       IndexID = 3503
-      Text = 'Curent value'
+      Text = 'Trenutna vrednost'
     end
     item
       IndexID = 3504
-      Text = 'Purchase date'
+      Text = 'Datum nakupa'
     end
     item
       IndexID = 3505
-      Text = 'Write-off type'
+      Text = 'Vrsta odpisa'
     end
     item
       IndexID = 3506
-      Text = 'Write-off period'
+      Text = 'Obdobje odpisa'
     end
     item
       IndexID = 3507
-      Text = 'Linked transaction'
+      Text = 'Povezana transakcija'
     end
     item
       IndexID = 3508
-      Text = 'Rest-amount'
+      Text = 'Preostali znesek'
     end
     item
       IndexID = 3509
-      Text = 'Write-off percentage'
+      Text = 'Odstotek odpisa'
     end
     item
       IndexID = 3510
-      Text = 'Next write-off amount'
+      Text = 'Naslednji znesek odpisa'
     end
     item
       IndexID = 3511
-      Text = 'Total write-off on ledger'
+      Text = 'Skupni odpis v glavni knjigi'
     end
     item
       IndexID = 3512
-      Text = 'Needs processing'
+      Text = 'Potrebna obdelava'
     end
     item
       IndexID = 3513
-      Text = 'New transactions'
+      Text = 'Nove transakcije'
     end
     item
       IndexID = 3514
-      Text = 'Add manual'
+      Text = 'Dodaj ro'#269'no'
     end
     item
       IndexID = 3515
-      Text = 'Posted transactions'
+      Text = 'Knji'#382'ene transakcije'
     end
     item
       IndexID = 3516
-      Text = 'Process (selected) lines'
+      Text = 'Obdelaj (izbrane) vrstice'
     end
     item
       IndexID = 3517
-      Text = 'Purchase amount'
+      Text = 'Znesek nakupa'
     end
     item
       IndexID = 3518
-      Text = 'Activa'
+      Text = 'Aktivna / Osnovna sredstva'
     end
     item
       IndexID = 3519
-      Text = 'Add (selected) lines'
+      Text = 'Dodaj (izbrane) vrstice'
     end
     item
       IndexID = 3520
-      Text = 'add consolidated'
+      Text = 'Dodaj zbirno'
     end
     item
       IndexID = 3521
-      Text = 'Show for this user'
+      Text = 'Prika'#382'i za tega uporabnika'
     end
     item
       IndexID = 3522
-      Text = 'Selection'
+      Text = 'Izbor'
     end
     item
       IndexID = 3523
-      Text = 'Adjust remittance date of selection to :'
+      Text = 'Prilagodi datum nakazila izbora na:'
     end
     item
       IndexID = 3524
-      Text = 'No auto incasso'
+      Text = 'Brez samodejnega pla'#269'ila'
     end
     item
       IndexID = 3525
-      Text = 'With a remittance date from'
+      Text = 'Z datumom nakazila od'
     end
     item
       IndexID = 3526
-      Text = 'Openitems with paydate from'
+      Text = 'Odprte postavke z datumom pla'#269'ila od'
     end
     item
       IndexID = 3527
-      Text = 'Email filter'
+      Text = 'Filter e-po'#353'te'
     end
     item
       IndexID = 3528
-      Text = 'Email selected'
+      Text = 'Izbrana e-po'#353'ta'
     end
     item
       IndexID = 3529
-      Text = 'Edit remittance'
+      Text = 'Uredi nakazilo'
     end
     item
       IndexID = 3530
-      Text = 'Print all'
+      Text = 'Natisni vse'
     end
     item
       IndexID = 3531
-      Text = 'Edit report'
+      Text = 'Uredi poro'#269'ilo'
     end
     item
       IndexID = 3532
-      Text = 'Show report'
+      Text = 'Prika'#382'i poro'#269'ilo'
     end
     item
       IndexID = 3533
-      Text = 'Default days no remittance'
+      Text = 'Privzeto dni brez nakazila'
     end
     item
       IndexID = 3534
-      Text = 'Update multimedia'
+      Text = 'Posodobi ve'#269'predstavnost'
     end
     item
       IndexID = 3535
       Text = 
-        'This action will adjust the lats date remittance at the "selecte' +
-        'd" debtors. Do you wish to continue?'
+        'To dejanje bo prilagodilo zadnji datum nakazila pri "izbranih" k' +
+        'upcih! '#381'elite nadaljevati?'
     end
     item
       IndexID = 3536
       Text = 
-        'This action will adjust the lats date remittance at the "ALL VIS' +
-        'IBLE" debtors. Do you wish to continue?'
+        'To dejanje bo prilagodilo zadnji datum nakazila pri "VSEH VIDNIH' +
+        '" kupcih! '#381'elite nadaljevati?'
     end
     item
       IndexID = 3537
-      Text = 'Popup if there are transactions'
+      Text = 'Pojavno okno, '#269'e obstajajo transakcije'
     end
     item
       IndexID = 3538
-      Text = 'Date oldest transaction'
+      Text = 'Datum najstarej'#353'e transakcije'
     end
     item
       IndexID = 3539
-      Text = 'Date last remittance'
+      Text = 'Datum zadnjega nakazila'
     end
     item
       IndexID = 3540
-      Text = 'Design edit fields'
+      Text = 'Oblikovanje polj za urejanje'
     end
     item
       IndexID = 3541
-      Text = 'Design search fields'
+      Text = 'Oblikovanje polj za iskanje'
     end
     item
       IndexID = 3542
-      Text = 'Search sql'
+      Text = 'Iskalni SQL'
     end
     item
       IndexID = 3543
-      Text = 'Lookup language'
+      Text = 'Jezik iskanja'
     end
     item
       IndexID = 3544
-      Text = 'Type of control'
+      Text = 'Vrsta kontrole'
     end
     item
       IndexID = 3545
-      Text = 'Heigth'
+      Text = 'Vi'#353'ina'
     end
     item
       IndexID = 3546
-      Text = 'Size'
+      Text = 'Velikost'
     end
     item
       IndexID = 3547
-      Text = 'Translation'
+      Text = 'Prevod'
     end
     item
       IndexID = 3548
-      Text = 'Col origin'
+      Text = 'Izvor stolpca'
     end
     item
       IndexID = 3549
-      Text = 'Save and rebuild'
+      Text = 'Shrani in znova zgradi'
     end
     item
       IndexID = 3550
-      Text = 'Copy as new'
+      Text = 'Kopiraj kot novo'
     end
     item
       IndexID = 3551
-      Text = 'Gen on table'
+      Text = 'Ustvari na tabeli'
     end
     item
       IndexID = 3552
-      Text = 'Sql and extra data'
+      Text = 'SQL in dodatni podatki'
     end
     item
       IndexID = 3553
-      Text = 'Fieldtype'
+      Text = 'Vrsta polja'
     end
     item
       IndexID = 3554
-      Text = 'Default value'
+      Text = 'Privzeta vrednost'
     end
     item
       IndexID = 3555
-      Text = 'Write off for %s ended do you want to clear the activa accounts?'
+      Text = 
+        'Odpis za %s je kon'#269'an, ali '#382'elite po'#269'istiti konte osnovnih sreds' +
+        'tev (aktive)?'
     end
     item
       IndexID = 3556
-      Text = 'Project'
+      Text = 'Projekt'
     end
     item
       IndexID = 3557
-      Text = 'Create entries'
+      Text = 'Ustvari vnose'
     end
     item
       IndexID = 3558
-      Text = 'Entries createded!'
+      Text = 'Vnosi uspe'#353'no ustvarjeni!'
     end
     item
       IndexID = 3559
-      Text = 'Bulk time entry'
+      Text = 'Masovni vnos ur'
     end
     item
       IndexID = 3560
-      Text = 'Stock out'
+      Text = 'Izdaja zaloge'
     end
     item
       IndexID = 3561
-      Text = 'Stock in'
+      Text = 'Prejem zaloge'
     end
     item
       IndexID = 3562
-      Text = 'Limit rows'
+      Text = 'Omejitev vrstic'
     end
     item
       IndexID = 3563
-      Text = 'User tab'
+      Text = 'Uporabni'#353'ki zavihek'
     end
     item
       IndexID = 3564
-      Text = 'Auto learn'
+      Text = 'Samodejno u'#269'enje'
     end
     item
       IndexID = 3565
-      Text = 'Unlinked items'
+      Text = 'Nepovezane postavke'
     end
     item
       IndexID = 3567
-      Text = 'Show inactive'
+      Text = 'Prika'#382'i onemogo'#269'eno'
     end
     item
       IndexID = 3568
-      Text = 'Quotes per period'
+      Text = 'Ponudbe po obdobjih'
     end
     item
       IndexID = 3569
-      Text = 'Credits per period'
+      Text = 'Dobropisi po obdobjih'
     end
     item
       IndexID = 3570
-      Text = 'Invoices per period'
+      Text = 'Ra'#269'uni po obdobjih'
     end
     item
       IndexID = 3571
-      Text = 'Sales per product'
+      Text = 'Prodaja po izdelkih'
     end
     item
       IndexID = 3572
-      Text = 'Orders per period'
+      Text = 'Naro'#269'ila po obdobjih'
     end
     item
       IndexID = 3573
-      Text = 'Purchase per period'
+      Text = 'Nabave po obdobjih'
     end
     item
       IndexID = 3574
-      Text = 'Returnnote per period'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih'
     end
     item
       IndexID = 3575
-      Text = 'Purchase per product'
+      Text = 'Nabave po izdelkih'
     end
     item
       IndexID = 3576
-      Text = 'New report'
+      Text = 'Novo poro'#269'ilo'
     end
     item
       IndexID = 3577
-      Text = 'New folder'
+      Text = 'Nova mapa'
     end
     item
       IndexID = 3578
-      Text = 'Create params and open'
+      Text = 'Ustvari parametre in odpri'
     end
     item
       IndexID = 3579
-      Text = 'No refresh after save'
+      Text = 'Brez osve'#382'evanja po shranjevanju'
     end
     item
       IndexID = 3580
-      Text = 'Select test document id'
+      Text = 'Izberite ID testnega dokumenta'
     end
     item
       IndexID = 3581
-      Text = 'Explorer folder'
+      Text = 'Mapa raziskovalca'
     end
     item
       IndexID = 3582
-      Text = 'Copy report'
+      Text = 'Kopiraj poro'#269'ilo'
     end
     item
       IndexID = 36
-      Text = '*Order confirmation'
+      Text = 'Potrditev naro'#269'ila'
     end
     item
       IndexID = 96
-      Text = '*Proforma'
+      Text = 'Predra'#269'un'
     end
     item
       IndexID = 3583
-      Text = 'Save gridlayout'
+      Text = 'Shrani mre'#382'no postavitev'
     end
     item
       IndexID = 3584
-      Text = 'Leads'
+      Text = 'Prodajne prilo'#382'nosti (Leadi)'
     end
     item
       IndexID = 3585
-      Text = 'Mass tag'
+      Text = 'Masovno ozna'#269'evanje'
     end
     item
       IndexID = 3586
-      Text = 'Tags'
+      Text = 'Oznake (Tagi)'
     end
     item
       IndexID = 3587
-      Text = 'Add tag'
+      Text = 'Dodaj oznako'
     end
     item
       IndexID = 3588
-      Text = 'Mass activity'
+      Text = 'Masovna aktivnost'
     end
     item
       IndexID = 3589
@@ -12593,1465 +12628,1471 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3590
-      Text = 'Activities'
+      Text = 'Aktivnosti'
     end
     item
       IndexID = 3591
-      Text = 'Add %s to records'
+      Text = 'Dodaj %s k zapisom'
     end
     item
       IndexID = 3592
-      Text = 'Start timer'
+      Text = 'Za'#382'eni '#269'asovnik'
     end
     item
       IndexID = 3593
-      Text = 'Stop timer'
+      Text = 'Zaustavi '#269'asovnik'
     end
     item
       IndexID = 3594
-      Text = 'All accounts'
+      Text = 'Vsi konti'
     end
     item
       IndexID = 3595
-      Text = 'Lead'
+      Text = 'Prodajna prilo'#382'nost (Lead)'
     end
     item
       IndexID = 3596
-      Text = 'Followup'
+      Text = 'Nadaljnje ukrepanje (Follow-up)'
     end
     item
       IndexID = 3597
-      Text = 'Direction'
+      Text = 'Smer'
     end
     item
       IndexID = 3598
-      Text = 'Incomming'
+      Text = 'Prejeto'
     end
     item
       IndexID = 3599
-      Text = 'Outgoing'
+      Text = 'Odhodno'
     end
     item
       IndexID = 3600
-      Text = 'Handeled'
+      Text = 'Obdelano'
     end
     item
       IndexID = 3601
-      Text = 'preform run on'
+      Text = 'Izvedi zagon na'
     end
     item
       IndexID = 3602
-      Text = 'mass contact'
+      Text = 'Masovni kontakt'
     end
     item
       IndexID = 3603
-      Text = 'Billing matrix'
+      Text = 'Matrika obra'#269'unavanja'
     end
     item
       IndexID = 3604
-      Text = 'Minimum bill minutes'
+      Text = 'Najmanj'#353'e '#353'tevilo obra'#269'unskih minut'
     end
     item
       IndexID = 3605
-      Text = 'Increment bill minutes'
+      Text = 'Korak pove'#269'anja obra'#269'unskih minut'
     end
     item
       IndexID = 3606
-      Text = 'Cross link'
+      Text = 'Navzkri'#382'na povezava'
     end
     item
       IndexID = 3607
-      Text = 'Skip lines'
+      Text = 'Presko'#269'i vrstice'
     end
     item
       IndexID = 3608
-      Text = 'Delimiter'
+      Text = 'Lo'#269'ilo'
     end
     item
       IndexID = 3609
-      Text = 'Date format'
+      Text = 'Format datuma'
     end
     item
       IndexID = 3610
-      Text = 'Date seperator'
+      Text = 'Lo'#269'ilo datuma'
     end
     item
       IndexID = 3611
-      Text = 'Decimal seprator'
+      Text = 'Decimalno lo'#269'ilo'
     end
     item
       IndexID = 3612
-      Text = 'Redo'
+      Text = 'Ponovi'
     end
     item
       IndexID = 3613
-      Text = 'Leads dataset importer'
+      Text = 'Uvoznik nabora podatkov prodajnih prilo'#382'nosti'
     end
     item
       IndexID = 3614
-      Text = 'Headers in file'
+      Text = 'Glave v datoteki'
     end
     item
       IndexID = 3615
-      Text = 'Billing'
+      Text = 'Obra'#269'unavanje'
     end
     item
       IndexID = 3616
-      Text = 'Bill visible'
+      Text = 'Obra'#269'un viden'
     end
     item
       IndexID = 3617
-      Text = 'Convert to'
+      Text = 'Pretvori v'
     end
     item
       IndexID = 3618
-      Text = 'Dashbord view'
+      Text = 'Pogled nadzorne plo'#353#269'e'
     end
     item
       IndexID = 3619
-      Text = 'Duration'
+      Text = 'Trajanje'
     end
     item
       IndexID = 3620
-      Text = 'Manual input in minutes'
+      Text = 'Ro'#269'ni vnos v minutah'
     end
     item
       IndexID = 3621
-      Text = 'Is billed'
+      Text = 'Je obra'#269'unano'
     end
     item
       IndexID = 3622
-      Text = 'Convert'
+      Text = 'Pretvori'
     end
     item
       IndexID = 3623
-      Text = 'Order is placed!'
+      Text = 'Naro'#269'ilo je oddano!'
     end
     item
       IndexID = 3624
-      Text = 'Select or create a document!'
+      Text = 'Izberite ali ustvarite dokument!'
     end
     item
       IndexID = 3625
-      Text = 'Please add items to your order!'
+      Text = 'Prosimo, dodajte artikle v va'#353'e naro'#269'ilo!'
     end
     item
       IndexID = 3626
-      Text = 'This list shows what you already ordered'
+      Text = 'Ta seznam prikazuje, kaj ste '#382'e naro'#269'ili'
     end
     item
       IndexID = 3627
       Text = 
-        'This list shows what you are going to order when you press the o' +
-        'rder button'
+        'Ta seznam prikazuje, kaj boste naro'#269'ili, ko kliknete gumb [Naro'#269 +
+        'i]'
     end
     item
       IndexID = 3628
-      Text = 'Select a product to add to your order list'
+      Text = 'Izberite izdelek, ki ga '#382'elite dodati na svoj seznam naro'#269'il'
     end
     item
       IndexID = 3629
-      Text = 'Merge'
+      Text = 'Zdru'#382'i'
     end
     item
       IndexID = 21216
-      Text = 'Save Metafile As'
+      Text = 'Shrani metadatoteko kot'
     end
     item
       IndexID = 21094
-      Text = 'Cancel'
+      Text = 'Prekli'#269'i'
     end
     item
       IndexID = 21218
-      Text = 'Cancels the report calculation'
+      Text = 'Prekli'#269'e izra'#269'un poro'#269'ila'
     end
     item
       IndexID = 21052
-      Text = 'Print'
+      Text = 'Natisni'
     end
     item
       IndexID = 21053
-      Text = 'Print the report, you can select pages to print'
+      Text = 'Natisni poro'#269'ilo. Izberete lahko strani za tiskanje.'
     end
     item
       IndexID = 21046
-      Text = 'Save...'
+      Text = 'Shrani...'
     end
     item
       IndexID = 21217
-      Text = 'Save the report as a metafile report'
+      Text = 'Shrani poro'#269'ilo kot metadatoteko'
     end
     item
       IndexID = 22230
-      Text = 'Mail to'
+      Text = 'Po'#353'lji e-po'#353'to na'
     end
     item
       IndexID = 22231
-      Text = 'Sends the reports to a e-mail destination'
+      Text = 'Po'#353'lje poro'#269'ila na e-po'#353'tni naslov'
     end
     item
       IndexID = 21044
-      Text = 'AExit'
+      Text = 'Izhod'
     end
     item
       IndexID = 21219
-      Text = 'Closes the preview window'
+      Text = 'Zapre okno predogleda'
     end
     item
       IndexID = 21135
-      Text = 'Parameters'
+      Text = 'Parametri'
     end
     item
       IndexID = 21136
-      Text = 'Show report parameters'
+      Text = 'Poka'#382'i parametre poro'#269'ila'
     end
     item
       IndexID = 21220
-      Text = 'First page'
+      Text = 'Prva stran'
     end
     item
       IndexID = 21221
-      Text = 'Goes to the first page of the report'
+      Text = 'Gre na prvo stran poro'#269'ila'
     end
     item
       IndexID = 21222
-      Text = 'Previous page'
+      Text = 'Prej'#353'nja stran'
     end
     item
       IndexID = 21223
-      Text = 'Shows the previous page'
+      Text = 'Prika'#382'e prej'#353'njo stran'
     end
     item
       IndexID = 21224
-      Text = 'Next page'
+      Text = 'Naslednja stran'
     end
     item
       IndexID = 21225
-      Text = 'Shows the next page'
+      Text = 'Prika'#382'e naslednjo stran'
     end
     item
       IndexID = 21226
-      Text = 'Last page'
+      Text = 'Zadnja stran'
     end
     item
       IndexID = 21227
-      Text = 'Goes to the last page of the report'
+      Text = 'Gre na zadnjo stran poro'#269'ila'
     end
     item
       IndexID = 21228
-      Text = 'Normal Scale'
+      Text = 'Normalno merilo'
     end
     item
       IndexID = 21229
-      Text = 'Shows the report in real size'
+      Text = 'Poka'#382'e poro'#269'ilo v dejanski velikosti'
     end
     item
       IndexID = 21230
-      Text = 'Scale to window'
+      Text = 'Prilagodi oknu'
     end
     item
       IndexID = 21231
-      Text = 'Scale adjusting the paper to the window width'
+      Text = 'Prilagodi merilo '#353'irini papirja oknu'
     end
     item
       IndexID = 21232
-      Text = 'Scale to full page'
+      Text = 'Prilagodi celotni strani'
     end
     item
       IndexID = 21233
-      Text = 'Scale to view full page'
+      Text = 'Prilagodi merilo za ogled celotne strani'
     end
     item
       IndexID = 21234
-      Text = 'Zoom-'
+      Text = 'Pomanj'#353'aj-'
     end
     item
       IndexID = 21235
-      Text = 'Zooms out the view'
+      Text = 'Pomanj'#353'a pogled'
     end
     item
       IndexID = 21236
-      Text = 'Zoom+'
+      Text = 'Pove'#269'aj+'
     end
     item
       IndexID = 21237
-      Text = 'Zooms in the view'
+      Text = 'Pove'#269'a pogled'
     end
     item
       IndexID = 21050
-      Text = 'Page Setup'
+      Text = 'Nastavitev strani'
     end
     item
       IndexID = 21051
-      Text = 'Show report page setup'
+      Text = 'Poka'#382'i nastavitve strani poro'#269'ila'
     end
     item
       IndexID = 22434
-      Text = 'Find'
+      Text = 'Najdi'
     end
     item
       IndexID = 22435
-      Text = 'Find text'
+      Text = 'Najdi besedilo'
     end
     item
       IndexID = 21095
-      Text = 'Default'
+      Text = 'Privzeto'
     end
     item
       IndexID = 21093
-      Text = 'OK'
+      Text = 'V redu'
     end
     item
       IndexID = 21096
-      Text = 'Custom'
+      Text = 'Po meri'
     end
     item
       IndexID = 21732
-      Text = 'User defined'
+      Text = 'Uporabni'#353'ko dolo'#269'eno'
     end
     item
       IndexID = 21097
-      Text = 'Page size'
+      Text = 'Velikost strani'
     end
     item
       IndexID = 21104
-      Text = 'Custom size'
+      Text = 'Velikost po meri'
     end
     item
       IndexID = 21733
-      Text = 'Custom size'
+      Text = 'Velikost po meri'
     end
     item
       IndexID = 21098
-      Text = 'Page orientation'
+      Text = 'Usmerjenost strani'
     end
     item
       IndexID = 21099
-      Text = 'Page Margins'
+      Text = 'Robovi strani'
     end
     item
       IndexID = 21100
-      Text = 'Left'
+      Text = 'Levo'
     end
     item
       IndexID = 21101
-      Text = 'Right'
+      Text = 'Desno'
     end
     item
       IndexID = 21102
-      Text = 'Top'
+      Text = 'Zgoraj'
     end
     item
       IndexID = 21103
-      Text = 'Bottom'
+      Text = 'Spodaj'
     end
     item
       IndexID = 21105
-      Text = 'Custom page orientation'
+      Text = 'Usmerjenost strani po meri'
     end
     item
       IndexID = 21106
-      Text = 'Portrait'
+      Text = 'Pokon'#269'no'
     end
     item
       IndexID = 21107
-      Text = 'Landscape'
+      Text = 'Le'#382'e'#269'e'
     end
     item
       IndexID = 21108
-      Text = 'Copies'
+      Text = 'Izvedi kopij'
     end
     item
       IndexID = 22377
-      Text = 'Lines per inch'
+      Text = 'Vrstic na palec'
     end
     item
       IndexID = 21109
-      Text = 'Collate copies'
+      Text = 'Zlo'#382'i kopije'
     end
     item
       IndexID = 21110
-      Text = 'Dialog'
+      Text = 'Pogovorno okno'
     end
     item
       IndexID = 21111
-      Text = 'Two pass report'
+      Text = 'Dvoprehodno poro'#269'ilo'
     end
     item
       IndexID = 21800
-      Text = 'Print only if data available'
+      Text = 'Natisni le, '#269'e so podatki na voljo'
     end
     item
       IndexID = 21112
-      Text = 'Report language'
+      Text = 'Jezik poro'#269'ila'
     end
     item
       IndexID = 21113
-      Text = 'Printer Fonts (Windows GDI Only)'
+      Text = 'Pisave tiskalnika (samo Windows GDI)'
     end
     item
       IndexID = 21114
-      Text = 'Always use printer fonts'
+      Text = 'Vedno uporabi pisave tiskalnika'
     end
     item
       IndexID = 21115
-      Text = 'Never use printer fonts'
+      Text = 'Nikoli ne uporabljaj pisav tiskalnika'
     end
     item
       IndexID = 22433
-      Text = 'Recalculte report'
+      Text = 'Ponovno izra'#269'unaj poro'#269'ilo'
     end
     item
       IndexID = 21116
-      Text = 'Background color'
+      Text = 'Barva ozadja'
     end
     item
       IndexID = 21741
-      Text = 'Select Printer'
+      Text = 'Izberi tiskalnik'
     end
     item
       IndexID = 21143
-      Text = 'Configure printers'
+      Text = 'Nastavi tiskalnike'
     end
     item
       IndexID = 21840
-      Text = 'Preview window and scale'
+      Text = 'Okno predogleda in merilo'
     end
     item
       IndexID = 21841
-      Text = 'Normal'
+      Text = 'Normalno'
     end
     item
       IndexID = 21842
-      Text = 'Maxmized'
+      Text = 'Maksimirano'
     end
     item
       IndexID = 21843
-      Text = 'Wide'
+      Text = #352'iroko'
     end
     item
       IndexID = 21844
-      Text = 'Normal'
+      Text = 'Normalno'
     end
     item
       IndexID = 21845
-      Text = 'Page'
+      Text = 'Stran'
     end
     item
       IndexID = 21857
-      Text = 'Page setup'
+      Text = 'Nastavitev strani'
     end
     item
       IndexID = 21858
-      Text = 'Print setup'
+      Text = 'Nastavitev tiskanja'
     end
     item
       IndexID = 22347
-      Text = 'Application Font'
+      Text = 'Pisava aplikacije'
     end
     item
       IndexID = 22348
-      Text = 'Application Font'
+      Text = 'Pisava aplikacije'
     end
     item
       IndexID = 21000
-      Text = '&File'
+      Text = '&Datoteka'
     end
     item
       IndexID = 21001
-      Text = 'Report Manager Designer'
+      Text = 'Oblikovalnik upravljalnika poro'#269'il'
     end
     item
       IndexID = 21002
-      Text = '&Report'
+      Text = '&Poro'#269'ilo'
     end
     item
       IndexID = 21003
-      Text = '&Edit'
+      Text = '&Uredi'
     end
     item
       IndexID = 21004
-      Text = '&Display'
+      Text = '&Prikaz'
     end
     item
       IndexID = 21007
-      Text = 'Grid'
+      Text = 'Mre'#382'a'
     end
     item
       IndexID = 21008
-      Text = 'Grid options for this report'
+      Text = 'Mo'#382'nosti mre'#382'e za to poro'#269'ilo'
     end
     item
       IndexID = 21009
-      Text = 'Cut'
+      Text = 'Izre'#382'i'
     end
     item
       IndexID = 21150
-      Text = 'Delete'
+      Text = 'Izbri'#353'i'
     end
     item
       IndexID = 22106
-      Text = 'Delete the selected object'
+      Text = 'Izbri'#353'i izbrani predmet'
     end
     item
       IndexID = 21010
-      Text = 'Copy'
+      Text = 'Kopiraj'
     end
     item
       IndexID = 21011
-      Text = 'Paste'
+      Text = 'Prilepi'
     end
     item
       IndexID = 21012
-      Text = 'Cut selected object'
+      Text = 'Izre'#382'i izbrani predmet'
     end
     item
       IndexID = 21013
-      Text = 'Copy selected object to clipboard'
+      Text = 'Kopiraj izbrani predmet odlo'#382'i'#353#269'e'
     end
     item
       IndexID = 21014
-      Text = 'Paste from clipboard'
+      Text = 'Prilepi iz odlo'#382'i'#353#269'a'
     end
     item
       IndexID = 21015
-      Text = 'Hide'
+      Text = 'Skrij'
     end
     item
       IndexID = 21016
-      Text = 'Hide selected objects'
+      Text = 'Skrij izbrane predmete'
     end
     item
       IndexID = 21017
-      Text = 'Show all'
+      Text = 'Prika'#382'i vse'
     end
     item
       IndexID = 21018
-      Text = 'Shows all the hiden components'
+      Text = 'Poka'#382'e vse skrite komponente'
     end
     item
       IndexID = 21019
-      Text = 'All'
+      Text = 'Vse'
     end
     item
       IndexID = 21117
-      Text = 'All Text'
+      Text = 'Vse besedilo'
     end
     item
       IndexID = 21118
-      Text = 'Selects all text components of the report'
+      Text = 'Izbere vse tekstovne komponente poro'#269'ila'
     end
     item
       IndexID = 21020
-      Text = 'Selects all components of the report'
+      Text = 'Izbere vse komponente poro'#269'ila'
     end
     item
       IndexID = 21021
-      Text = 'Select'
+      Text = 'Izberi'
     end
     item
       IndexID = 21022
-      Text = 'Move'
+      Text = 'Premakni'
     end
     item
       IndexID = 21023
-      Text = 'Left'
+      Text = 'Levo'
     end
     item
       IndexID = 21024
-      Text = 'Moves the selection to the left'
+      Text = 'Premakne izbiro v levo'
     end
     item
       IndexID = 21025
-      Text = 'Right'
+      Text = 'Desno'
     end
     item
       IndexID = 21026
-      Text = 'Moves the selection to the left'
+      Text = 'Premakne izbiro v desno'
     end
     item
       IndexID = 21027
-      Text = 'Up'
+      Text = 'Gor'
     end
     item
       IndexID = 21028
-      Text = 'Moves the selection up'
+      Text = 'Premakne izbiro navzgor'
     end
     item
       IndexID = 21029
-      Text = 'Down'
+      Text = 'Dol'
     end
     item
       IndexID = 21030
-      Text = 'Moves the selection down'
+      Text = 'Premakne izbiro navzdol'
     end
     item
       IndexID = 21031
-      Text = 'Align'
+      Text = 'Poravnaj'
     end
     item
       IndexID = 21032
-      Text = 'Aligns selection to the left'
+      Text = 'Poravna izbiro na levo'
     end
     item
       IndexID = 21033
-      Text = 'Aligns selection to the right'
+      Text = 'Poravna izbiro na desno'
     end
     item
       IndexID = 21034
-      Text = 'Aligns selection up'
+      Text = 'Poravna izbiro navzgor'
     end
     item
       IndexID = 21035
-      Text = 'Aligns selection down'
+      Text = 'Poravna izbiro navzdol'
     end
     item
       IndexID = 21036
-      Text = 'Horizontal space'
+      Text = 'Vodoravni razmik'
     end
     item
       IndexID = 21037
-      Text = 'Aligns selection distributing horzontal space'
+      Text = 'Poravna izbiro z razporeditvijo vodoravnega prostora'
     end
     item
       IndexID = 21038
-      Text = 'Vertical space'
+      Text = 'Navpi'#269'ni razmik'
     end
     item
       IndexID = 21039
-      Text = 'Aligns selection distributing vertical space'
+      Text = 'Poravna izbiro z razporeditvijo navpi'#269'nega prostora'
     end
     item
       IndexID = 21040
-      Text = 'New'
+      Text = 'Novo'
     end
     item
       IndexID = 21041
-      Text = 'Creates a new report'
+      Text = 'Ustvari novo poro'#269'ilo'
     end
     item
       IndexID = 21042
-      Text = 'Open'
+      Text = 'Odpri'
     end
     item
       IndexID = 21043
-      Text = 'Opens an existing report'
+      Text = 'Odpre obstoje'#269'e poro'#269'ilo'
     end
     item
       IndexID = 21045
-      Text = 'Closes de application'
+      Text = 'Zapre aplikacijo'
     end
     item
       IndexID = 21047
-      Text = 'Saves the current report'
+      Text = 'Shrani trenutno poro'#269'ilo'
     end
     item
       IndexID = 21048
-      Text = 'Save as...'
+      Text = 'Shrani kot...'
     end
     item
       IndexID = 21049
-      Text = 'Saves the report to a new file'
+      Text = 'Shrani poro'#269'ilo v novo datoteko'
     end
     item
       IndexID = 21054
-      Text = 'Print Preview'
+      Text = 'Predogled tiskanja'
     end
     item
       IndexID = 21055
-      Text = 'Preview the report in the screen'
+      Text = 'Predogled poro'#269'ila na zaslonu'
     end
     item
       IndexID = 21056
-      Text = 'Printer setup...'
+      Text = 'Nastavitev tiskalnika...'
     end
     item
       IndexID = 21057
-      Text = 'Displays printer setup dialog'
+      Text = 'Prika'#382'e pogovorno okno za nastavitev tiskalnika'
     end
     item
       IndexID = 21006
-      Text = '&Help'
+      Text = '&Pomo'#269
     end
     item
       IndexID = 21058
-      Text = 'About Report Manager'
+      Text = 'O programu Report Manager'
     end
     item
       IndexID = 21059
-      Text = 'Shows information about Report Manger'
+      Text = 'Prika'#382'e informacije o Upravljalniku poro'#269'il'
     end
     item
       IndexID = 21060
-      Text = 'Documentation'
+      Text = 'Dokumentacija'
     end
     item
       IndexID = 21061
-      Text = 'Display Report Manager Designer Documentation'
+      Text = 'Poka'#382'i dokumentacijo oblikovalnika poro'#269'il'
     end
     item
       IndexID = 21062
-      Text = 'Measurement'
+      Text = 'Meritev'
     end
     item
       IndexID = 21063
-      Text = '&Cms'
+      Text = '&Cm'
     end
     item
       IndexID = 21064
-      Text = 'Change measurement units to cms'
+      Text = 'Spremeni merske enote v centimetre'
     end
     item
       IndexID = 21065
-      Text = 'Inches'
+      Text = 'Palci'
     end
     item
       IndexID = 21066
-      Text = 'Changes measurement units to inchess'
+      Text = 'Spremeni merske enote v palce'
     end
     item
       IndexID = 21067
-      Text = 'Driver'
+      Text = 'Gonilnik'
     end
     item
       IndexID = 21068
-      Text = 'Qt driver (CLX)'
+      Text = 'Qt gonilnik (CLX)'
     end
     item
       IndexID = 21069
-      Text = 'Activates the Qt cross platform graphics and printing driver'
+      Text = 'Aktivira navzkri'#382'ni grafi'#269'ni in tiskalni gonilnik Qt'
     end
     item
       IndexID = 21070
-      Text = 'GDI Driver (VCL)'
+      Text = 'GDI gonilnik (VCL)'
     end
     item
       IndexID = 21071
-      Text = 'Activates the GDI32 direct rendering driver (VCL), Windows only'
+      Text = 
+        'Aktivira gonilnik GDI32 za neposredno izrisovanje (VCL), samo za' +
+        ' Windows'
     end
     item
       IndexID = 21936
-      Text = 'Native driver'
+      Text = 'Izvorni gonilnik'
     end
     item
       IndexID = 21939
-      Text = 'Activates the Native driver, no graphics dependent'
+      Text = 'Aktivira izvorni gonilnik, neodvisen od grafike'
     end
     item
       IndexID = 21074
-      Text = 'Kylix Print Bugfix'
+      Text = 'Popravek napak za tiskanje Kylix'
     end
     item
       IndexID = 21075
-      Text = 'Uses kylix print bugfix (use metaprint to print metafiles)'
+      Text = 
+        'Uporabi popravek za tiskanje Kylix (uporabi metaprint za tiskanj' +
+        'e metadatotek)'
     end
     item
       IndexID = 21076
-      Text = 'Status bar'
+      Text = 'Vrstica stanja'
     end
     item
       IndexID = 21077
-      Text = 'Shows or hides the status bar'
+      Text = 'Poka'#382'e ali skrije vrstico stanja'
     end
     item
       IndexID = 21005
-      Text = '&Preferences'
+      Text = '&Nastavitve'
     end
     item
       IndexID = 21072
-      Text = 'Qt System print dialog'
+      Text = 'Sistemsko pogovorno okno za tiskanje Qt'
     end
     item
       IndexID = 21073
-      Text = 'Shows the system print dialog, or a custom print dialog'
+      Text = 'Prika'#382'e sistemsko ali prilagojeno okno za tiskanje'
     end
     item
       IndexID = 21081
-      Text = 'Select objects'
+      Text = 'Izberi predmete'
     end
     item
       IndexID = 21082
-      Text = 'Inserts a static text'
+      Text = 'Vstavi stati'#269'no besedilo'
     end
     item
       IndexID = 21083
-      Text = 'Inserts a expression'
+      Text = 'Vstavi izraz'
     end
     item
       IndexID = 21084
-      Text = 'Inserts a simple drawing'
+      Text = 'Vstavi preprosto risbo'
     end
     item
       IndexID = 21085
-      Text = 'Inserts a image'
+      Text = 'Vstavi sliko'
     end
     item
       IndexID = 21086
-      Text = 'Inserts a barcode'
+      Text = 'Vstavi '#269'rtno kodo'
     end
     item
       IndexID = 21087
-      Text = 'Inserts a chart'
+      Text = 'Vstavi grafikon'
     end
     item
       IndexID = 22059
-      Text = 'Align height 1/6'
+      Text = 'Poravnaj vi'#353'ino 1/6'
     end
     item
       IndexID = 22060
       Text = 
-        'Aligns all sections height to 1/6 inchess for dot matrix compati' +
-        'bility'
+        'Poravna vi'#353'ino vseh odsekov na 1/6 palca za zdru'#382'ljivost z matri' +
+        #269'nimi tiskalniki'
     end
     item
       IndexID = 22080
-      Text = 'Libraries'
+      Text = 'Knji'#382'nice'
     end
     item
       IndexID = 22081
-      Text = 'Open report libraries dialog'
+      Text = 'Odpri pogovorno okno knji'#382'nic poro'#269'il'
     end
     item
       IndexID = 21976
-      Text = 'System information'
+      Text = 'Sistemske informacije'
     end
     item
       IndexID = 21977
-      Text = 'Shows system and printer information'
+      Text = 'Prika'#382'e informacije o sistemu in tiskalniku'
     end
     item
       IndexID = 21119
-      Text = 'Page header'
+      Text = 'Glava strani'
     end
     item
       IndexID = 21120
-      Text = 'Inserts a page header in the selected subreport'
+      Text = 'Vstavi glavo strani v izbrano podporo'#269'ilo'
     end
     item
       IndexID = 21121
-      Text = 'Page footer'
+      Text = 'Noga strani'
     end
     item
       IndexID = 21122
-      Text = 'Inserts a page footer in the selected subreport'
+      Text = 'Vstavi nogo strani v izbrano podporo'#269'ilo'
     end
     item
       IndexID = 21123
-      Text = 'Group header and footer'
+      Text = 'Glava in noga skupine'
     end
     item
       IndexID = 21124
-      Text = 'Insert a group header an footer'
+      Text = 'Vstavi glavo in nogo skupine'
     end
     item
       IndexID = 21125
-      Text = 'Subreport'
+      Text = 'Podporo'#269'ilo'
     end
     item
       IndexID = 21126
-      Text = 'Insert a new subreport'
+      Text = 'Vstavi novo podporo'#269'ilo'
     end
     item
       IndexID = 21127
-      Text = 'Delete section/subreport'
+      Text = 'Izbri'#353'i odsek/podporo'#269'ilo'
     end
     item
       IndexID = 21128
-      Text = 'Deletes the selected subreport or section'
+      Text = 'Izbri'#353'e izbrano podporo'#269'ilo ali odsek'
     end
     item
       IndexID = 21129
-      Text = 'Detail'
+      Text = 'Podrobnosti'
     end
     item
       IndexID = 21130
-      Text = 'Inserts a detail section in the selected subreport'
+      Text = 'Vstavi odsek podrobnosti v izbrano podporo'#269'ilo'
     end
     item
       IndexID = 21131
-      Text = 'Data access configuration'
+      Text = 'Konfiguracija dostopa do podatkov'
     end
     item
       IndexID = 21132
-      Text = 'Modifies data access information'
+      Text = 'Spremeni podatke za dostop do podatkov'
     end
     item
       IndexID = 21133
-      Text = 'Parameter definition'
+      Text = 'Definicija parametrov'
     end
     item
       IndexID = 21134
-      Text = 'Shows parameter definition for the report and data configuration'
+      Text = 
+        'Prika'#382'e definicijo parametrov za poro'#269'ilo in konfiguracijo podat' +
+        'kov'
     end
     item
       IndexID = 21149
-      Text = 'Add'
+      Text = 'Dodaj'
     end
     item
       IndexID = 21835
-      Text = 'Load section'
+      Text = 'Nalo'#382'i odsek'
     end
     item
       IndexID = 21836
-      Text = 'Save section'
+      Text = 'Shrani odsek'
     end
     item
       IndexID = 21137
-      Text = 'Delete section'
+      Text = 'Izbri'#353'i odsek'
     end
     item
       IndexID = 21138
-      Text = 'Delete the selected section'
+      Text = 'Izbri'#353'i izbrani odsek'
     end
     item
       IndexID = 21139
-      Text = 'Moves the section up'
+      Text = 'Premakne odsek navzgor'
     end
     item
       IndexID = 21140
-      Text = 'Moves the section down'
+      Text = 'Premakne odsek navzdol'
     end
     item
       IndexID = 21734
-      Text = 'Adds a section to the selected subreport'
+      Text = 'Doda odsek v izbrano podporo'#269'ilo'
     end
     item
       IndexID = 22097
-      Text = 'Database connections and datasets'
+      Text = 'Zbirke podatkov in povezave z bazo podatkov'
     end
     item
       IndexID = 21142
-      Text = 'Connections'
+      Text = 'Povezave'
     end
     item
       IndexID = 21148
-      Text = 'Datasets'
+      Text = 'Podatkovne zbirke'
     end
     item
       IndexID = 21144
-      Text = 'Login prompt'
+      Text = 'Prijava'
     end
     item
       IndexID = 21145
-      Text = 'Load params'
+      Text = 'Nalo'#382'i parametre'
     end
     item
       IndexID = 21146
-      Text = 'Load driver params'
+      Text = 'Nalo'#382'i parametre gonilnika'
     end
     item
       IndexID = 21753
-      Text = 'Connect'
+      Text = 'Pove'#382'i'
     end
     item
       IndexID = 21168
-      Text = 'Build...'
+      Text = 'Izgradi...'
     end
     item
       IndexID = 22098
-      Text = 'Available connections'
+      Text = 'Povezave na voljo'
     end
     item
       IndexID = 22099
-      Text = 'Connection String'
+      Text = 'Povezovalni niz'
     end
     item
       IndexID = 22100
-      Text = 'Available'
+      Text = 'Na voljo'
     end
     item
       IndexID = 22101
-      Text = 'Database driver'
+      Text = 'Gonilnik baze podatkov'
     end
     item
       IndexID = 22102
-      Text = 'New connection'
+      Text = 'Nova povezava'
     end
     item
       IndexID = 22103
-      Text = 'Adds a new connection'
+      Text = 'Doda novo povezavo'
     end
     item
       IndexID = 22104
-      Text = 'Delete connection'
+      Text = 'Izbri'#353'i povezavo'
     end
     item
       IndexID = 22105
-      Text = 'Deletes the selected connection'
+      Text = 'Izbri'#353'e izbrano povezavo'
     end
     item
       IndexID = 21152
-      Text = 'Parameters'
+      Text = 'Parametri'
     end
     item
       IndexID = 21154
-      Text = 'Connection'
+      Text = 'Povezava'
     end
     item
       IndexID = 21155
-      Text = 'Master dataset'
+      Text = 'Glavna podatkovna zbirka'
     end
     item
       IndexID = 21156
-      Text = 'Show data'
+      Text = 'Poka'#382'i podatke'
     end
     item
       IndexID = 21157
-      Text = 'BDE Type'
+      Text = 'Tip BDE'
     end
     item
       IndexID = 21158
-      Text = 'Table and order'
+      Text = 'Tabela in vrstni red'
     end
     item
       IndexID = 21159
-      Text = 'Query'
+      Text = 'Poizvedba'
     end
     item
       IndexID = 21160
-      Text = 'Table'
+      Text = 'Tabela'
     end
     item
       IndexID = 21161
-      Text = 'BDE Filter'
+      Text = 'Filter BDE'
     end
     item
       IndexID = 21162
-      Text = 'Table'
+      Text = 'Tabela'
     end
     item
       IndexID = 21163
-      Text = 'Index Name'
+      Text = 'Ime indeksa'
     end
     item
       IndexID = 21164
-      Text = 'Index Fields'
+      Text = 'Polja indeksa'
     end
     item
       IndexID = 21165
-      Text = 'Master fields'
+      Text = 'Glavna polja'
     end
     item
       IndexID = 21166
-      Text = 'Note: Write fields separated by ; character'
+      Text = 'Opomba: Vnesite polja, lo'#269'ena z znakom ;'
     end
     item
       IndexID = 21167
-      Text = 'MyBase Filename'
+      Text = 'Ime datoteke MyBase'
     end
     item
       IndexID = 21831
-      Text = 'First range'
+      Text = 'Prvi obseg'
     end
     item
       IndexID = 21832
-      Text = 'Last range'
+      Text = 'Zadnji obseg'
     end
     item
       IndexID = 21833
       Text = 
-        'Each line will be evaluated and assigned to each field as the st' +
-        'art of the filter and end of the filter'
+        'Vsaka vrstica bo ocenjena in dodeljena vsakemu polju kot za'#269'etek' +
+        ' in konec filtra'
     end
     item
       IndexID = 22082
-      Text = 'Dataset client side unions'
+      Text = 'Zdru'#382'evanje podatkovnih zbirk na strani odjemalca'
     end
     item
       IndexID = 22083
-      Text = 'Unions'
+      Text = 'Zdru'#382'itve'
     end
     item
       IndexID = 22084
-      Text = 'Union grouping'
+      Text = 'Zdru'#382'evanje v unije'
     end
     item
       IndexID = 22440
-      Text = 'Parallel union'
+      Text = 'Vzporedna zdru'#382'itev'
     end
     item
       IndexID = 22085
-      Text = 'Field defs file'
+      Text = 'Datoteka z definicijami polj'
     end
     item
       IndexID = 22086
-      Text = 'Modify...'
+      Text = 'Spremeni...'
     end
     item
       IndexID = 21539
-      Text = 'New dataset'
+      Text = 'Nova podatkovna zbirka'
     end
     item
       IndexID = 21540
-      Text = 'Rename dataset'
+      Text = 'Preimenuj podatkovno zbirko'
     end
     item
       IndexID = 21743
-      Text = 'Configuraiton file'
+      Text = 'Konfiguracijska datoteka'
     end
     item
       IndexID = 21744
-      Text = 'User configuration'
+      Text = 'Uporabni'#353'ka konfiguracija'
     end
     item
       IndexID = 21745
-      Text = 'System configuration'
+      Text = 'Sistemska konfiguracija'
     end
     item
       IndexID = 21742
-      Text = 'Dialog'
+      Text = 'Pogovorno okno'
     end
     item
       IndexID = 21746
-      Text = 'Position adjustment'
+      Text = 'Prilagoditev polo'#382'aja'
     end
     item
       IndexID = 21763
-      Text = 'Operations after print'
+      Text = 'Operacije po tiskanju'
     end
     item
       IndexID = 21764
-      Text = 'Example, TM200 Open Drawer: #27#112#48#160#160#4'
+      Text = 'Primer, TM200 Odpri predal: #27#112#48#160#160#4'
     end
     item
       IndexID = 21765
-      Text = 'Example, TM88 Open Drawer: #27#112#48#40#200#4'
+      Text = 'Primer, TM88 Odpri predal: #27#112#48#40#200#4'
     end
     item
       IndexID = 21766
-      Text = 'Cut paper'
+      Text = 'Odre'#382'i papir'
     end
     item
       IndexID = 21767
-      Text = 'Open drawer'
+      Text = 'Odpri predal'
     end
     item
       IndexID = 22058
-      Text = 'Text only driver'
+      Text = 'Gonilnik samo za besedilo'
     end
     item
       IndexID = 906102
-      Text = 'Contra Accounts'
+      Text = 'Protikonti'
     end
     item
       IndexID = 906103
-      Text = 'Creditors Outstanding at date'
+      Text = 'Odprte obveznosti do dobaviteljev na dan'
     end
     item
       IndexID = 906104
-      Text = 'Debtors Outstanding at date'
+      Text = 'Odprte terjatve do kupcev na dan'
     end
     item
       IndexID = 906105
-      Text = 'Tax per period'
+      Text = 'Davek po obdobjih'
     end
     item
       IndexID = 906106
-      Text = 'Debtor Transactions - Standard'
+      Text = 'Transakcije kupcev - Standardno'
     end
     item
       IndexID = 906107
-      Text = 'Debtor Transactions - Extra Details'
+      Text = 'Transakcije kupcev - Dodatne podrobnosti'
     end
     item
       IndexID = 906108
-      Text = 'Creditor Transactions - Standard'
+      Text = 'Transakcije dobaviteljev - Standardno'
     end
     item
       IndexID = 906109
-      Text = 'Creditor Transactions - Extra Details'
+      Text = 'Transakcije dobaviteljev - Dodatne podrobnosti'
     end
     item
       IndexID = 906110
-      Text = 'General Ledger Transactions - Standard'
+      Text = 'Transakcije glavne knjige - Standardno'
     end
     item
       IndexID = 906111
-      Text = 'General Ledger Transactions - Extra Details'
+      Text = 'Transakcije glavne knjige - Dodatne podrobnosti'
     end
     item
       IndexID = 906112
-      Text = 'Stock In / Out'
+      Text = 'Prejem / Izdaja zaloge'
     end
     item
       IndexID = 906113
-      Text = 'Period Quantity'
+      Text = 'Koli'#269'ina v obdobju'
     end
     item
       IndexID = 906114
-      Text = 'Purchases per period'
+      Text = 'Nabave po obdobjih'
     end
     item
       IndexID = 906115
-      Text = 'Items per period'
+      Text = 'Artikli po obdobjih'
     end
     item
       IndexID = 906116
-      Text = 'Creditor Group'
+      Text = 'Skupina dobaviteljev'
     end
     item
       IndexID = 906117
-      Text = 'Debtor Group'
+      Text = 'Skupina kupcev'
     end
     item
       IndexID = 906118
-      Text = 'Stock Group'
+      Text = 'Skupina artiklov'
     end
     item
       IndexID = 906119
-      Text = 'Document Group'
+      Text = 'Skupina dokumentov'
     end
     item
       IndexID = 906120
-      Text = 'Supplier Returns per period'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih'
     end
     item
       IndexID = 906121
-      Text = 'Credit Notes per period'
+      Text = 'Dobropisi po obdobjih'
     end
     item
       IndexID = 906122
-      Text = 'Sales per period'
+      Text = 'Prodaja po obdobjih'
     end
     item
       IndexID = 906123
-      Text = 'Debtor Transactions'
+      Text = 'Transakcije kupcev'
     end
     item
       IndexID = 906124
-      Text = 'Creditor Transactions'
+      Text = 'Transakcije dobaviteljev'
     end
     item
       IndexID = 906125
-      Text = 'Posted Invoices'
+      Text = 'Knji'#382'eni ra'#269'uni'
     end
     item
       IndexID = 906126
-      Text = 'Unposted Invoices'
+      Text = 'Neknji'#382'eni ra'#269'uni'
     end
     item
       IndexID = 906127
-      Text = 'Posted Credit Notes'
+      Text = 'Knji'#382'eni dobropisi'
     end
     item
       IndexID = 906128
-      Text = 'Unposted Credit Notes'
+      Text = 'Neknji'#382'eni dobropisi'
     end
     item
       IndexID = 906129
-      Text = 'Posted Purchases'
+      Text = 'Knji'#382'ene nabave'
     end
     item
       IndexID = 906130
-      Text = 'Unposted Purchases'
+      Text = 'Neknji'#382'ene nabave'
     end
     item
       IndexID = 906131
-      Text = 'Posted Supplier Returns'
+      Text = 'Knji'#382'ena vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 906132
-      Text = 'Unposted Supplier Returns'
+      Text = 'Neknji'#382'ena vra'#269'ila dobaviteljem'
     end
     item
       IndexID = 906133
-      Text = 'Confirmed Quotes'
+      Text = 'Potrjene ponudbe'
     end
     item
       IndexID = 906134
-      Text = 'Unconfirmed Quotes'
+      Text = 'Nepotrjene ponudbe'
     end
     item
       IndexID = 906135
-      Text = 'Confirmed Orders'
+      Text = 'Potrjena naro'#269'ila'
     end
     item
       IndexID = 906136
-      Text = 'Unconfirmed Orders'
+      Text = 'Nepotrjena naro'#269'ila'
     end
     item
       IndexID = 906137
-      Text = 'Postal Address Labels'
+      Text = 'Nalepke za po'#353'tne naslove'
     end
     item
       IndexID = 906138
-      Text = 'List Delivery Address'
+      Text = 'Seznam naslovov za dostavo'
     end
     item
       IndexID = 906139
-      Text = 'List Postal Address'
+      Text = 'Seznam po'#353'tnih naslovov'
     end
     item
       IndexID = 906140
-      Text = 'List Details'
+      Text = 'Seznam podrobnosti'
     end
     item
       IndexID = 906141
-      Text = 'Batch transactions per period'
+      Text = 'Transakcije dnevnika po obdobjih'
     end
     item
       IndexID = 906142
-      Text = 'Balances Detail'
+      Text = 'Podrobnosti stanj'
     end
     item
       IndexID = 906143
-      Text = 'Balances Detail History'
+      Text = 'Zgodovina podrobnosti stanj (odprte postavke)'
     end
     item
       IndexID = 906144
-      Text = 'Outstanding Open Item Transaction Totals'
+      Text = 'Skupni zneski odprtih postavk transakcij'
     end
     item
       IndexID = 906145
-      Text = 'Outstanding Transaction Totals'
+      Text = 'Skupni zneski odprtih transakcij'
     end
     item
       IndexID = 906146
-      Text = 'Debtor Age Analysis'
+      Text = 'Analiza zapadlosti terjatev do kupcev'
     end
     item
       IndexID = 906147
-      Text = 'Balances'
+      Text = 'Stanja'
     end
     item
       IndexID = 906148
-      Text = 'Balances Detail 1'
+      Text = 'Podrobnosti stanj 1'
     end
     item
       IndexID = 906149
-      Text = 'Reporting Groups'
+      Text = 'Skupine poro'#269'anja'
     end
     item
       IndexID = 906150
-      Text = 'Purchases per period - Quantities'
+      Text = 'Nabave po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906151
-      Text = 'Purchases per period - Cost'
+      Text = 'Nabave po obdobjih - Znesek'
     end
     item
       IndexID = 906152
-      Text = 'Purchases per period - Creditor Group 1'
+      Text = 'Nabave po obdobjih - Skupina dobaviteljev 1'
     end
     item
       IndexID = 906153
-      Text = 'Purchases per period - Creditor Group 2'
+      Text = 'Nabave po obdobjih - Skupina dobaviteljev 2'
     end
     item
       IndexID = 906154
-      Text = 'Purchases per period - Document Group 1'
+      Text = 'Nabave po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906155
-      Text = 'Invoices per period - Quantities'
+      Text = 'Ra'#269'uni po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906156
-      Text = 'Invoices per period - Turnover'
+      Text = 'Ra'#269'uni po obdobjih - Znesek'
     end
     item
       IndexID = 906157
-      Text = 'Invoices per period - Debtor Group 1'
+      Text = 'Ra'#269'uni po obdobjih - Skupina kupcev 1'
     end
     item
       IndexID = 906158
-      Text = 'Invoices per period - Debtor Group 2'
+      Text = 'Ra'#269'uni po obdobjih - Skupina kupcev 2'
     end
     item
       IndexID = 906159
-      Text = 'Invoices per period - Document Group 1'
+      Text = 'Ra'#269'uni po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906160
-      Text = 'Cash Slip Printer'
+      Text = 'Tiskalnik blagajni'#353'kih izpiskov'
     end
     item
       IndexID = 906161
-      Text = 'Document Listing per Account'
+      Text = 'Izpis dokumentov po ra'#269'unu'
     end
     item
       IndexID = 906162
-      Text = 'Unprinted Document Listing'
+      Text = 'Izpis nenatisnjenih dokumentov'
     end
     item
       IndexID = 906163
-      Text = 'Purchases per period - Document Group 2'
+      Text = 'Nabave po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906164
-      Text = 'Purchases per period - Salesperson'
+      Text = 'Nabave po obdobjih - Prodajalec'
     end
     item
       IndexID = 906165
-      Text = 'Invoices per period - Document Group 2'
+      Text = 'Ra'#269'uni po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906166
-      Text = 'Invoices per period - Salesperson'
+      Text = 'Ra'#269'uni po obdobjih - Prodajalec'
     end
     item
       IndexID = 906167
-      Text = 'Graph - Creditor per week'
+      Text = 'Graf - Dobavitelji na teden'
     end
     item
       IndexID = 906168
-      Text = 'Graph - Debtor per week'
+      Text = 'Graf - Kupci na teden'
     end
     item
       IndexID = 906169
-      Text = 'Graph - Profit / Loss per week'
+      Text = 'Graf - Dobi'#269'ek / Izguba na teden'
     end
     item
       IndexID = 906170
-      Text = 'Graph - Invoices per week - Quantities'
+      Text = 'Graf - Ra'#269'uni na teden - Koli'#269'ine'
     end
     item
       IndexID = 906171
-      Text = 'Graph - Invoices per week - Turnover'
+      Text = 'Graf - Ra'#269'uni na teden - Znesek'
     end
     item
       IndexID = 906172
-      Text = 'Purchases per Product - Stock Group 1'
+      Text = 'Nabava po artiklih - Skupina artiklov 1'
     end
     item
       IndexID = 906173
-      Text = 'Purchases per Product - Stock Group 2'
+      Text = 'Nabava po artiklih - Skupina artiklov 2'
     end
     item
       IndexID = 906174
-      Text = 'Sales per Product - Stock Group 1'
+      Text = 'Prodaja po artiklih - Skupina artiklov 1'
     end
     item
       IndexID = 906175
-      Text = 'Sales per Product - Stock Group 2'
+      Text = 'Prodaja po artiklih - Skupina artiklov 2'
     end
     item
       IndexID = 906176
-      Text = 'System User'
+      Text = 'Sistemski uporabnik'
     end
     item
       IndexID = 906177
-      Text = '<@APPNAME@> User'
+      Text = 'Uporabnik aplikacije <@APPNAME@>'
     end
     item
       IndexID = 906178
-      Text = 'Stock In'
+      Text = 'Prejem zaloge'
     end
     item
       IndexID = 906179
-      Text = 'Stock Out'
+      Text = 'Izdaja zaloge'
     end
     item
       IndexID = 906180
-      Text = 'Open Drawer'
+      Text = 'Odpri predal za denar'
     end
     item
       IndexID = 906181
-      Text = 'Delivery Note (No Codes)'
+      Text = 'Dobavnica (brez kod)'
     end
     item
       IndexID = 906182
-      Text = 'Delivery Note (15 Code)'
+      Text = 'Dobavnica (15-mestna koda)'
     end
     item
       IndexID = 906183
@@ -14059,7 +14100,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906184
-      Text = 'POS'
+      Text = 'POS 1'
     end
     item
       IndexID = 906185
@@ -14071,323 +14112,323 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906187
-      Text = 'Default A4'
+      Text = 'Privzeto A4'
     end
     item
       IndexID = 906188
-      Text = 'Default A4 (10 Code)'
+      Text = 'Privzeto A4 (10-mestna koda)'
     end
     item
       IndexID = 906189
-      Text = 'Default A4 (15 Code)'
+      Text = 'Privzeto A4 (15-mestna koda)'
     end
     item
       IndexID = 906190
-      Text = 'Invoice Test'
+      Text = 'Test ra'#269'una'
     end
     item
       IndexID = 906191
-      Text = 'Invoice English (15 Code)'
+      Text = 'Ra'#269'un v angle'#353#269'ini (15-mestna koda)'
     end
     item
       IndexID = 906192
-      Text = 'Invoice Bank Details (No Code)'
+      Text = 'Ra'#269'un z ban'#269'nimi podatki (brez kod)'
     end
     item
       IndexID = 906193
-      Text = 'Invoice Bank Details (15 Code)'
+      Text = 'Ra'#269'un z ban'#269'nimi podatki (15-mestna koda)'
     end
     item
       IndexID = 906194
-      Text = 'Invoice (No Code)'
+      Text = 'Ra'#269'un (brez kod)'
     end
     item
       IndexID = 906195
-      Text = 'Credit Note (No Code)'
+      Text = 'Dobropis (brez kod)'
     end
     item
       IndexID = 906196
-      Text = 'Quote (No Code)'
+      Text = 'Ponudba (brez kod)'
     end
     item
       IndexID = 906197
-      Text = 'Purchase (No Code)'
+      Text = 'Nabava (brez kod)'
     end
     item
       IndexID = 906198
-      Text = 'Supplier Return (No Code)'
+      Text = 'Vra'#269'ilo dobavitelju (brez kod)'
     end
     item
       IndexID = 906199
-      Text = 'Order (No Code)'
+      Text = 'Naro'#269'ilo (brez kod)'
     end
     item
       IndexID = 906200
-      Text = 'Invoice (10 Code)'
+      Text = 'Ra'#269'un (10-mestna koda)'
     end
     item
       IndexID = 906201
-      Text = 'Credit Note (10 Code)'
+      Text = 'Dobropis (10-mestna koda)'
     end
     item
       IndexID = 906202
-      Text = 'Quote (10 Code)'
+      Text = 'Ponudba (10-mestna koda)'
     end
     item
       IndexID = 906203
-      Text = 'Purchase (10 Code)'
+      Text = 'Nabava (10-mestna koda)'
     end
     item
       IndexID = 906204
-      Text = 'Supplier Return (10 Code)'
+      Text = 'Vra'#269'ilo dobavitelju (10-mestna koda)'
     end
     item
       IndexID = 906205
-      Text = 'Order (10 Code)'
+      Text = 'Naro'#269'ilo (10-mestna koda)'
     end
     item
       IndexID = 906206
-      Text = 'Invoice (15 Code)'
+      Text = 'Ra'#269'un (15-mestna koda)'
     end
     item
       IndexID = 906207
-      Text = 'Credit Note (15 Code)'
+      Text = 'Dobropis (15-mestna koda)'
     end
     item
       IndexID = 906208
-      Text = 'Quote (15 Code)'
+      Text = 'Ponudba (15-mestna koda)'
     end
     item
       IndexID = 906209
-      Text = 'Purchase (15 Code)'
+      Text = 'Nabava (15-mestna koda)'
     end
     item
       IndexID = 906210
-      Text = 'Supplier Return (15 Code)'
+      Text = 'Vra'#269'ilo dobavitelju (15-mestna koda)'
     end
     item
       IndexID = 906211
-      Text = 'Order (15 Code)'
+      Text = 'Naro'#269'ilo (15-mestna koda)'
     end
     item
       IndexID = 906212
-      Text = 'Invoice A4 (No Code)'
+      Text = 'Ra'#269'un A4 (brez kod)'
     end
     item
       IndexID = 906213
-      Text = 'Credit Note A4 (No Code)'
+      Text = 'Dobropis A4 (brez kod)'
     end
     item
       IndexID = 906214
-      Text = 'Quote A4 (No Code)'
+      Text = 'Ponudba A4 (brez kod)'
     end
     item
       IndexID = 906215
-      Text = 'Purchase A4 (No Code)'
+      Text = 'Nabava A4 (brez kod)'
     end
     item
       IndexID = 906216
-      Text = 'Supplier Return A4 (No Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 (brez kod)'
     end
     item
       IndexID = 906218
-      Text = 'Invoice A4 (10 Code)'
+      Text = 'Ra'#269'un A4 (10-mestna koda)'
     end
     item
       IndexID = 906219
-      Text = 'Credit Note A4 (10 Code)'
+      Text = 'Dobropis A4 (10-mestna koda)'
     end
     item
       IndexID = 906220
-      Text = 'Quote A4 (10 Code)'
+      Text = 'Ponudba A4 (10-mestna koda)'
     end
     item
       IndexID = 906221
-      Text = 'Purchase A4 (10 Code)'
+      Text = 'Nabava A4 (10-mestna koda)'
     end
     item
       IndexID = 906222
-      Text = 'Supplier Return A4 (10 Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 (10-mestna koda)'
     end
     item
       IndexID = 906223
-      Text = 'Order A4 (10 Code)'
+      Text = 'Naro'#269'ilo A4 (10-mestna koda)'
     end
     item
       IndexID = 906224
-      Text = 'Invoice A4 (15 Code)'
+      Text = 'Ra'#269'un A4 (15-mestna koda)'
     end
     item
       IndexID = 906225
-      Text = 'Credit Note A4 (15 Code)'
+      Text = 'Dobropis A4 (15-mestna koda)'
     end
     item
       IndexID = 906226
-      Text = 'Quote A4 (15 Code)'
+      Text = 'Ponudba A4 (15-mestna koda)'
     end
     item
       IndexID = 906227
-      Text = 'Purchase A4 (15 Code)'
+      Text = 'Nabava A4 (15-mestna koda)'
     end
     item
       IndexID = 906228
-      Text = 'Supplier Return A4 (15 Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 (15-mestna koda)'
     end
     item
       IndexID = 906229
-      Text = 'Order A4 (15 Code)'
+      Text = 'Naro'#269'ilo A4 (15-mestna koda)'
     end
     item
       IndexID = 906230
-      Text = 'Invoice A4 Plain (No Code)'
+      Text = 'Ra'#269'un A4 prazen (brez kod)'
     end
     item
       IndexID = 906231
-      Text = 'Credit Note A4 Plain (No Code)'
+      Text = 'Dobropis A4 prazen (brez kod)'
     end
     item
       IndexID = 906232
-      Text = 'Quote A4 Plain (No Code)'
+      Text = 'Ponudba A4 prazen (brez kod)'
     end
     item
       IndexID = 906233
-      Text = 'Purchase A4 Plain (No Code)'
+      Text = 'Nabava A4 prazen (brez kod)'
     end
     item
       IndexID = 906234
-      Text = 'Supplier Return A4 Plain (No Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 navaden (brez kod)'
     end
     item
       IndexID = 906235
-      Text = 'Order A4 Plain (No Code)'
+      Text = 'Naro'#269'ilo A4 prazen (brez kod)'
     end
     item
       IndexID = 906236
-      Text = 'Invoice A4 Plain (10 Code)'
+      Text = 'Ra'#269'un A4 prazen (10-mestna koda)'
     end
     item
       IndexID = 906237
-      Text = 'Credit Note A4 Plain (10 Code)'
+      Text = 'Dobropis A4 prazen (10-mestna koda)'
     end
     item
       IndexID = 906238
-      Text = 'Quote A4 Plain (10 Code)'
+      Text = 'Ponudba A4 prazen (10-mestna koda)'
     end
     item
       IndexID = 906239
-      Text = 'Purchase A4 Plain (10 Code)'
+      Text = 'Nabava A4 prazen (10-mestna koda)'
     end
     item
       IndexID = 906240
-      Text = 'Supplier Return A4 Plain (10 Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 navaden (10-mestna koda)'
     end
     item
       IndexID = 906241
-      Text = 'Order A4 Plain (10 Code)'
+      Text = 'Naro'#269'ilo A4 prazen (10-mestna koda)'
     end
     item
       IndexID = 906242
-      Text = 'Invoice A4 Plain (15 Code)'
+      Text = 'Ra'#269'un A4 prazen (15-mestna koda)'
     end
     item
       IndexID = 906243
-      Text = 'Credit Note A4 Plain (15 Code)'
+      Text = 'Dobropis A4 prazen (15-mestna koda)'
     end
     item
       IndexID = 906244
-      Text = 'Quote A4 Plain (15 Code)'
+      Text = 'Ponudba A4 prazen (15-mestna koda)'
     end
     item
       IndexID = 906245
-      Text = 'Purchase A4 Plain (15 Code)'
+      Text = 'Nabava A4 prazen (15-mestna koda)'
     end
     item
       IndexID = 906246
-      Text = 'Supplier Return A4 Plain (15 Code)'
+      Text = 'Vra'#269'ilo dobavitelju A4 navaden (15-mestna koda)'
     end
     item
       IndexID = 906247
-      Text = 'Order A4 Plain (15 Code)'
+      Text = 'Naro'#269'ilo A4 prazen (15-mestna koda)'
     end
     item
       IndexID = 906248
-      Text = 'Invoice No Tax (No Code)'
+      Text = 'Ra'#269'un brez davka (brez kod)'
     end
     item
       IndexID = 906249
-      Text = 'Credit Note No Tax (No Code)'
+      Text = 'Dobropis brez davka (brez kod)'
     end
     item
       IndexID = 906250
-      Text = 'Quote No Tax (No Code)'
+      Text = 'Ponudba brez davka (brez kod)'
     end
     item
       IndexID = 906251
-      Text = 'Purchase No Tax (No Code)'
+      Text = 'Nabava brez davka (brez kod)'
     end
     item
       IndexID = 906252
-      Text = 'Supplier Return No Tax (No Code)'
+      Text = 'Vra'#269'ilo dobavitelju brez davka (brez kod)'
     end
     item
       IndexID = 906253
-      Text = 'Order No Tax (No Code)'
+      Text = 'Naro'#269'ilo brez davka (brez kod)'
     end
     item
       IndexID = 906254
-      Text = 'Invoice No Tax (15 Code)'
+      Text = 'Ra'#269'un brez davka (15-mestna koda)'
     end
     item
       IndexID = 906255
-      Text = 'Credit Note No Tax (15 Code)'
+      Text = 'Dobropis brez davka (15-mestna koda)'
     end
     item
       IndexID = 906256
-      Text = 'Quote No Tax (15 Code)'
+      Text = 'Ponudba brez davka (15-mestna koda)'
     end
     item
       IndexID = 906257
-      Text = 'Purchase No Tax (15 Code)'
+      Text = 'Nabava brez davka (15-mestna koda)'
     end
     item
       IndexID = 906258
-      Text = 'Supplier Return No Tax (15 Code)'
+      Text = 'Vra'#269'ilo dobavitelju brez davka (15-mestna koda)'
     end
     item
       IndexID = 906259
-      Text = 'Order No Tax (15 Code)'
+      Text = 'Naro'#269'ilo brez davka (15-mestna koda)'
     end
     item
       IndexID = 906217
-      Text = 'Order A4 (No Code)'
+      Text = 'Naro'#269'ilo A4 (brez kod)'
     end
     item
       IndexID = 906260
-      Text = 'Invoice Bank Details (10 Code)'
+      Text = 'Ra'#269'un z ban'#269'nimi podatki (10-mestna koda)'
     end
     item
       IndexID = 906261
-      Text = 'Invoice English (10 Code)'
+      Text = 'Ra'#269'un v angle'#353#269'ini (10-mestna koda)'
     end
     item
       IndexID = 906262
-      Text = 'Invoice English (No Code)'
+      Text = 'Ra'#269'un v angle'#353#269'ini (brez kod)'
     end
     item
       IndexID = 906263
-      Text = 'New Report'
+      Text = 'Novo poro'#269'ilo'
     end
     item
       IndexID = 906264
-      Text = 'DOCUMENTS'
+      Text = 'DOKUMENTI'
     end
     item
       IndexID = 906265
-      Text = 'Tax Report'
+      Text = 'Dav'#269'no poro'#269'ilo'
     end
     item
       IndexID = 903101
-      Text = 'Corrections'
+      Text = 'Popravki'
     end
     item
       IndexID = 903102
@@ -14395,7 +14436,7 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903103
-      Text = 'Inconsistencies'
+      Text = 'Neskladnosti'
     end
     item
       IndexID = 903104
@@ -14403,645 +14444,647 @@ object TTranslationSaveObject
     end
     item
       IndexID = 903105
-      Text = 'Run SQL'
+      Text = 'Za'#382'eni SQL'
     end
     item
       IndexID = 903106
-      Text = 'Cleanup Batch'
+      Text = 'Po'#269'isti dnevnik'
     end
     item
       IndexID = 903107
-      Text = 'Colour Conditions'
+      Text = 'Barvni pogoji'
     end
     item
       IndexID = 903108
-      Text = 'Ledger Transactions'
+      Text = 'Transakcije glavne knjige'
     end
     item
       IndexID = 903109
-      Text = 'Import'
+      Text = 'Uvoz'
     end
     item
       IndexID = 903110
-      Text = 'Patches'
+      Text = 'Popravki (Patches)'
     end
     item
       IndexID = 903111
-      Text = 'Round-off Cents'
+      Text = 'Zaokro'#382'evanje centov'
     end
     item
       IndexID = 903112
-      Text = 'Add Extra Description to Stock'
+      Text = 'Dodaj dodatni opis artiklu'
     end
     item
       IndexID = 903113
-      Text = 'Drop Extra Description from Stock'
+      Text = 'Odstrani dodatni opis artikla'
     end
     item
       IndexID = 903114
-      Text = 'Change Stock Code Type'
+      Text = 'Spremeni vrsto '#353'ifre artikla'
     end
     item
       IndexID = 903115
-      Text = 'Calculate Total in Stock'
+      Text = 'Izra'#269'unaj skupne koli'#269'ine zaloge'
     end
     item
       IndexID = 903116
-      Text = 'Test Increase'
+      Text = 'Testno pove'#269'anje'
     end
     item
       IndexID = 903117
-      Text = 'Type ID'
+      Text = 'ID vrste'
     end
     item
       IndexID = 903118
-      Text = 'End Stock Code'
+      Text = 'Do '#353'ifre artikla'
     end
     item
       IndexID = 903119
-      Text = 'Remove Groups not in Stock'
+      Text = 'Odstrani skupine brez zaloge'
     end
     item
       IndexID = 903120
-      Text = 'Remove Stock not in Documents'
+      Text = 'Odstrani artikle, ki niso na dokumentih'
     end
     item
       IndexID = 903121
-      Text = 'Generate Stock per Ledger'
+      Text = 'Generiraj stanje zalog po glavni knjigi'
     end
     item
       IndexID = 903122
-      Text = 'Remove from BOM which is not BOM'
+      Text = 'Odstrani neveljavne artikle iz kosovnic (BOM)'
     end
     item
       IndexID = 903123
-      Text = 'Update Stock Qty for Option Items'
+      Text = 'Posodobi koli'#269'ine zaloge za opcijske artikle'
     end
     item
       IndexID = 903124
-      Text = 'Remove Debtors'
+      Text = 'Odstrani kupce'
     end
     item
       IndexID = 903125
-      Text = 'Remove Creditors'
+      Text = 'Odstrani dobavitelje'
     end
     item
       IndexID = 903126
-      Text = 'Remove Stock Items'
+      Text = 'Odstrani artikle'
     end
     item
       IndexID = 903127
-      Text = 'Remove Contacts'
+      Text = 'Odstrani kontakte'
     end
     item
       IndexID = 903128
-      Text = 'Clear Messages'
+      Text = 'Po'#269'isti sporo'#269'ila'
     end
     item
       IndexID = 903129
-      Text = 'Consolidate Closed Years'
+      Text = 'Konsolidiraj zaprta leta'
     end
     item
       IndexID = 903130
-      Text = 'Transfer Account Data'
+      Text = 'Prenesi podatke o kontih'
     end
     item
       IndexID = 903131
-      Text = 'Transfer Stock Data'
+      Text = 'Prenesi podatke o zalogi'
     end
     item
       IndexID = 903132
-      Text = 'Transfer Doubles to Min ID and Delete'
+      Text = 'Prenesi dvojnike na Min ID in izbri'#353'i'
     end
     item
       IndexID = 903133
-      Text = 'Consolidate Closed Years - Documents and Stock'
+      Text = 'Konsolidacija zaprtih let - dokumenti in zaloga'
     end
     item
       IndexID = 903134
-      Text = 'Fill Globals with Max + 1 ID'
+      Text = 'Napolni globale z Max + 1 ID'
     end
     item
       IndexID = 903135
-      Text = 'Remove Debtors not in Account'
+      Text = 'Bri'#353'i kupce brez konta'
     end
     item
       IndexID = 903136
-      Text = 'Remove Creditors not in Account'
+      Text = 'Bri'#353'i dobavitelje brez konta'
     end
     item
       IndexID = 903137
-      Text = 'Set all Debtors to Open Item'
+      Text = 'Nastavi kupce na odprte postavke'
     end
     item
       IndexID = 903138
-      Text = 'Set all Creditors to Open Item'
+      Text = 'Nastavi dobavitelje na odprte post.'
     end
     item
       IndexID = 903139
-      Text = 'Correct Account Numbers'
+      Text = 'Popravi '#353'tevilke kontov'
     end
     item
       IndexID = 903140
-      Text = 'Correct Sub-accounts'
+      Text = 'Popravi subkonte'
     end
     item
       IndexID = 903141
-      Text = 'Trim Debtor Address and Set First Character to the UPPERCASE'
+      Text = 'Obre'#382'i naslov kupca in nastavi prvo '#269'rko na VELIKO'
     end
     item
       IndexID = 903142
-      Text = 'Generate All Total Entries'
+      Text = 'Ustvari vse zbirne vnose'
     end
     item
       IndexID = 903143
-      Text = 'Remove Invalid Symbols from Bank Accounts'
+      Text = 'Odstrani neveljavne znake z ban'#269'nih ra'#269'unov'
     end
     item
       IndexID = 903144
-      Text = 'Reset Purchase to Basis of Last Document'
+      Text = 'Ponastavi nabavo na osnovo zadnjega dokumenta'
     end
     item
       IndexID = 903145
-      Text = 'Correct Errors Balance Bookings Descriptions'
+      Text = 'Popravi napake v opisih knji'#382'enja salda'
     end
     item
       IndexID = 903146
-      Text = 'Set Transact Previous Years'
+      Text = 'Nastavi knji'#382'enje za prej'#353'nja leta'
     end
     item
       IndexID = 903147
-      Text = 'Update Dochead FTaxAmt'
+      Text = 'Posodobi Dochead FTaxAmt'
     end
     item
       IndexID = 903148
-      Text = 'Correct Periods'
+      Text = 'Popravi obdobja'
     end
     item
       IndexID = 903149
-      Text = 'Fix Periods'
+      Text = 'Uredi obdobja'
     end
     item
       IndexID = 903150
-      Text = 'Find Unbalanced Entries'
+      Text = 'Najdi neuravnote'#382'ene vnose'
     end
     item
       IndexID = 903151
-      Text = 'Auto-link All Zero Debtors'
+      Text = 'Pove'#382'i kupce z ni'#269'. saldom'
     end
     item
       IndexID = 903152
-      Text = 'Remove All Links'
+      Text = 'Odstrani vse povezave'
     end
     item
       IndexID = 903153
-      Text = 'Correct Transact Line ID'
+      Text = 'Popravi Transact Line ID'
     end
     item
       IndexID = 903154
-      Text = 'Correct Incl. Excl. Tax Amount (Reverse Bug)'
+      Text = 'Popravi znesek davka z/brez (obrnjena napaka)'
     end
     item
       IndexID = 903155
-      Text = 'Clear Totals'
+      Text = 'Po'#269'isti vsote'
     end
     item
       IndexID = 903156
-      Text = 'Clear Sysvars Parameters'
+      Text = 'Po'#269'isti parametre Sysvars'
     end
     item
       IndexID = 903157
-      Text = 'Delete All Invoices'
+      Text = 'Izbri'#353'i vse ra'#269'une'
     end
     item
       IndexID = 903158
-      Text = 'Remove BatCon not in Transact'
+      Text = 'Bri'#353'i BatCon izven Transact'
     end
     item
       IndexID = 903159
-      Text = 'Remove Zero Invoices'
+      Text = 'Odstrani ni'#269'elne ra'#269'une'
     end
     item
       IndexID = 903160
-      Text = 'Remove Last Name from Contacts after a Comma'
+      Text = 'Odstrani priimek iz kontaktov za vejico'
     end
     item
       IndexID = 903161
-      Text = 'Find Debtors'
+      Text = 'Najdi kupce'
     end
     item
       IndexID = 903162
-      Text = 'Find Creditors'
+      Text = 'Najdi dobavitelje'
     end
     item
       IndexID = 903163
-      Text = 'Generate Contacts'
+      Text = 'Ustvari kontakte'
     end
     item
       IndexID = 903164
-      Text = 'Pick Colour'
+      Text = 'Izberi barvo'
     end
     item
       IndexID = 903165
       Text = 
-        'Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price' +
-        ' 2 at1.3 X of Purchase Price'
+        'Nastavi prodajno ceno 1 na 1.5 X nabavne cene in prodajno ceno 2' +
+        ' na 1.3 X nabavne cene'
     end
     item
       IndexID = 903166
-      Text = 'Select'
+      Text = 'Izberi'
     end
     item
       IndexID = 903167
-      Text = 'Rerun Patch X'
+      Text = 'Zazeni Popravek X'
     end
     item
       IndexID = 903168
-      Text = 'Reset Sysvars'
+      Text = 'Ponastavi Sysvars'
     end
     item
       IndexID = 903169
-      Text = 'Current Version'
+      Text = 'Trenutna razli'#269'ica'
     end
     item
       IndexID = 903170
-      Text = 'Execute'
+      Text = 'Izvedi'
     end
     item
       IndexID = 903171
-      Text = 'Script'
+      Text = 'Skripta'
     end
     item
       IndexID = 903172
-      Text = 'Set Term'
+      Text = 'Nastavi izraz (Term)'
     end
     item
       IndexID = 903173
-      Text = 'Drop'
+      Text = 'Odvrzi / Odstrani'
     end
     item
       IndexID = 903174
-      Text = 'Save to All Users'
+      Text = 'Shrani za vse uporabnike'
     end
     item
       IndexID = 903175
-      Text = 'Expression'
+      Text = 'Izraz'
     end
     item
       IndexID = 903176
-      Text = 'Font Expression'
+      Text = 'Izraz za pisavo'
     end
     item
       IndexID = 903177
-      Text = 'Background Expression'
+      Text = 'Izraz za ozadje'
     end
     item
       IndexID = 903178
-      Text = 'Are you sure ?'
+      Text = 'Ali ste prepri'#269'ani?'
     end
     item
       IndexID = 903179
-      Text = 'Nothing found !'
+      Text = 'Ni'#269' ni bilo najdeno!'
     end
     item
       IndexID = 903180
-      Text = 'Enter Code'
+      Text = 'Vnesite kodo'
     end
     item
       IndexID = 903181
-      Text = 'Please register <@APPNAME@> first !'
+      Text = 'Prosimo, najprej registrirajte <@APPNAME@>!'
     end
     item
       IndexID = 903182
-      Text = 'Registered'
+      Text = 'Registrirano'
     end
     item
       IndexID = 1000056
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 906266
-      Text = 'Posted Items - Outstanding'
+      Text = 'Knji'#382'eni artikli - Odprti'
     end
     item
       IndexID = 906267
-      Text = 'Unposted Items - Outstanding'
+      Text = 'Neknji'#382'eni artikli - Odprti'
     end
     item
       IndexID = 906268
-      Text = 'Current Stock Levels'
+      Text = 'Trenutno stanje zalog'
     end
     item
       IndexID = 906269
-      Text = 'The sum of'
+      Text = 'Vsota od'
     end
     item
       IndexID = 906270
-      Text = 'Amount Outstanding'
+      Text = 'Odprti znesek'
     end
     item
       IndexID = 906271
-      Text = 'Original Transaction Amount'
+      Text = 'Prvotni znesek transakcije'
     end
     item
       IndexID = 906272
-      Text = 'Paid to'
+      Text = 'Pla'#269'ano komu'
     end
     item
       IndexID = 906273
-      Text = 'Payment Number'
+      Text = #352'tevilka pla'#269'ila'
     end
     item
       IndexID = 906274
-      Text = 'LAY-BUYS (to pay)'
+      Text = 'ODLO'#381'ENA PLA'#268'ILA (za pla'#269'ilo)'
     end
     item
       IndexID = 1000057
-      Text = 'Not used / Do not translate'
+      Text = 'Se ne uporablja / Ne prevajaj'
     end
     item
       IndexID = 906275
-      Text = 'Accepted'
+      Text = 'sprejeto'
     end
     item
       IndexID = 906276
-      Text = 'Documentlayout (10 Codes)'
+      Text = 'Oblika dokumenta (10-mestna koda)'
     end
     item
       IndexID = 906277
-      Text = 'Documentlayout (15 Codes)'
+      Text = 'Oblika dokumenta (15-mestna koda)'
     end
     item
       IndexID = 906278
-      Text = 'Documentlayout (No Codes)'
+      Text = 'Oblika dokumenta (brez kod)'
     end
     item
       IndexID = 906279
-      Text = 'Supplier 1'
+      Text = 'Dobavitelj 1'
     end
     item
       IndexID = 906280
-      Text = 'Ledger and Tax'
+      Text = 'Glavna knjiga in davek'
     end
     item
       IndexID = 906281
-      Text = 'Dummy Price'
+      Text = 'Testna cena'
     end
     item
       IndexID = 906282
-      Text = 'Extra Convert to Languages'
+      Text = 'Dodatna pretvorba v jezike'
     end
     item
       IndexID = 906283
-      Text = 'Active Stock'
+      Text = 'Aktivna zaloga'
     end
     item
       IndexID = 906284
-      Text = 'Mark Copy'
+      Text = 'Ozna'#269'i kopijo'
     end
     item
       IndexID = 906285
-      Text = 'Multi-group Copy'
+      Text = 'Ve'#269'skupinska kopija'
     end
     item
       IndexID = 906286
-      Text = 'Report Total'
+      Text = 'Skupaj za poro'#269'ilo'
     end
     item
       IndexID = 906287
-      Text = 'Debit Transactions'
+      Text = 'Debetne transakcije'
     end
     item
       IndexID = 906288
-      Text = 'Credit Transactions'
+      Text = 'Kreditne transakcije'
     end
     item
       IndexID = 906289
-      Text = 'Graph - Purchases per week - Quantities'
+      Text = 'Graf - Nabava na teden - Koli'#269'ine'
     end
     item
       IndexID = 906290
-      Text = 'Graph - Purchases per week - Cost'
+      Text = 'Graf - Nabava na teden - Znesek'
     end
     item
       IndexID = 906291
-      Text = 'Credit Notes per period - Debtor Group 1'
+      Text = 'Dobropisi po obdobjih - Skupina kupcev 1'
     end
     item
       IndexID = 906292
-      Text = 'Credit Notes per period - Debtor Group 2'
+      Text = 'Dobropisi po obdobjih - Skupina kupcev 2'
     end
     item
       IndexID = 906293
-      Text = 'Credit Notes per period - Document Group 1'
+      Text = 'Dobropisi po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906294
-      Text = 'Credit Notes per period - Document Group 2'
+      Text = 'Dobropisi po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906295
-      Text = 'Credit Notes per period - Salesperson'
+      Text = 'Dobropisi po obdobjih - Prodajalec'
     end
     item
       IndexID = 906296
-      Text = 'Supplier Returns per period - Creditor Group 1'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Skupina dobaviteljev 1'
     end
     item
       IndexID = 906297
-      Text = 'Supplier Returns per period - Creditor Group 2'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Skupina dobaviteljev 2'
     end
     item
       IndexID = 906298
-      Text = 'Supplier Returns per period - Document Group 1'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906299
-      Text = 'Supplier Returns per period - Document Group 2'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906300
-      Text = 'Supplier Returns per period - Salesperson'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Prodajalec'
     end
     item
       IndexID = 906301
-      Text = 'Quotes per period - Debtor Group 1'
+      Text = 'Ponudbe po obdobjih - Skupina kupcev 1'
     end
     item
       IndexID = 906302
-      Text = 'Quotes per period - Debtor Group 2'
+      Text = 'Ponudbe po obdobjih - Skupina kupcev 2'
     end
     item
       IndexID = 906303
-      Text = 'Quotes per period - Document Group 1'
+      Text = 'Ponudbe po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906304
-      Text = 'Quotes per period - Document Group 2'
+      Text = 'Ponudbe po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906305
-      Text = 'Quotes per period - Salesperson'
+      Text = 'Ponudbe po obdobjih - Prodajalec'
     end
     item
       IndexID = 906306
-      Text = 'Orders per period - Creditor Group 1'
+      Text = 'Naro'#269'ila po obdobjih - Skupina dobaviteljev 1'
     end
     item
       IndexID = 906307
-      Text = 'Orders per period - Creditor Group 2'
+      Text = 'Naro'#269'ila po obdobjih - Skupina dobaviteljev 2'
     end
     item
       IndexID = 906308
-      Text = 'Orders per period - Document Group 1'
+      Text = 'Naro'#269'ila po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906309
-      Text = 'Orders per period - Document Group 2'
+      Text = 'Naro'#269'ila po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906310
-      Text = 'Orders per period - Salesperson'
+      Text = 'Naro'#269'ila po obdobjih - Prodajalec'
     end
     item
       IndexID = 906311
-      Text = 'Credit Notes per period - Quantities'
+      Text = 'Dobropisi po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906312
-      Text = 'Credit Notes per period - Turnover'
+      Text = 'Dobropisi po obdobjih - Znesek'
     end
     item
       IndexID = 906313
-      Text = 'Supplier Returns per period - Quantities'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906314
-      Text = 'Supplier Returns per period - Cost'
+      Text = 'Vra'#269'ila dobaviteljem po obdobjih - Znesek'
     end
     item
       IndexID = 906315
-      Text = 'Quotes per period - Quantities'
+      Text = 'Ponudbe po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906316
-      Text = 'Quotes per period - Turnover'
+      Text = 'Ponudbe po obdobjih - Znesek'
     end
     item
       IndexID = 906317
-      Text = 'Orders per period - Quantities'
+      Text = 'Naro'#269'ila po obdobjih - Koli'#269'ine'
     end
     item
       IndexID = 906318
-      Text = 'Orders per period - Cost'
+      Text = 'Naro'#269'ila po obdobjih - Znesek'
     end
     item
       IndexID = 906319
-      Text = 'Graph - Credit Notes per week - Quantities'
+      Text = 'Graf - Dobropisi na teden - Koli'#269'ine'
     end
     item
       IndexID = 906320
-      Text = 'Graph - Credit Notes per week - Turnover'
+      Text = 'Graf - Dobropisi na teden - Znesek'
     end
     item
       IndexID = 906321
-      Text = 'Graph - Supplier Returns per week - Quantities'
+      Text = 'Graf - Vra'#269'ila dobaviteljem na teden - Koli'#269'ine'
     end
     item
       IndexID = 906322
-      Text = 'Graph - Supplier Returns per week - Cost'
+      Text = 'Graf - Vra'#269'ila dobaviteljem na teden - Znesek'
     end
     item
       IndexID = 906323
-      Text = 'Graph - Quotes per week - Quantities'
+      Text = 'Graf - Ponudbe na teden - Koli'#269'ine'
     end
     item
       IndexID = 906324
-      Text = 'Graph - Quotes per week - Turnover'
+      Text = 'Graf - Ponudbe na teden - Znesek'
     end
     item
       IndexID = 906325
-      Text = 'Graph - Orders per week - Quantities'
+      Text = 'Graf - Naro'#269'ila na teden - Koli'#269'ine'
     end
     item
       IndexID = 906326
-      Text = 'Graph - Orders per week - Cost'
+      Text = 'Graf - Naro'#269'ila na teden - Znesek'
     end
     item
       IndexID = 906327
-      Text = 'Purchase Documents per period - Creditor Group 1'
+      Text = 'Nabavni dokumenti po obdobjih - Skupina dobaviteljev 1'
     end
     item
       IndexID = 906328
-      Text = 'Purchase Documents per period - Creditor Group 2'
+      Text = 'Nabavni dokumenti po obdobjih - Skupina dobaviteljev 2'
     end
     item
       IndexID = 906329
-      Text = 'Purchase Documents per period - Document Group 1'
+      Text = 'Nabavni dokumenti po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906330
-      Text = 'Purchase Documents per period - Document Group 2'
+      Text = 'Nabavni dokumenti po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906331
-      Text = 'Purchase Documents per period - Salesperson'
+      Text = 'Nabavni dokumenti po obdobjih - Prodajalec'
     end
     item
       IndexID = 906332
-      Text = 'Sales per period - Debtor Group 1'
+      Text = 'Prodaja po obdobjih - Skupina kupcev 1'
     end
     item
       IndexID = 906333
-      Text = 'Sales per period - Debtor Group 2'
+      Text = 'Prodaja po obdobjih - Skupina kupcev 2'
     end
     item
       IndexID = 906334
-      Text = 'Sales per period - Document Group 1'
+      Text = 'Prodaja po obdobjih - Skupina dokumentov 1'
     end
     item
       IndexID = 906335
-      Text = 'Sales per period - Document Group 2'
+      Text = 'Prodaja po obdobjih - Skupina dokumentov 2'
     end
     item
       IndexID = 906336
-      Text = 'Sales per period - Salesperson'
+      Text = 'Prodaja po obdobjih - Prodajalec'
     end
     item
       IndexID = 906337
-      Text = 'Purchases and Supplier Returns per period'
+      Text = 'Nabave in vra'#269'ila dobaviteljem po obdobjih'
     end
     item
       IndexID = 906338
-      Text = 'Credit Control Listing (Credit Limit vs Current Balance) as at '
+      Text = 
+        'Seznam za kontrolo terjatev (Kreditni limit proti trenutnemu sal' +
+        'du) na dan '
     end
     item
       IndexID = 906339
-      Text = 'Tax and Company Registration Numbers'
+      Text = 'Dav'#269'ne in mati'#269'ne '#353'tevilke podjetja'
     end
     item
       IndexID = 906440
-      Text = 'Transaction List'
+      Text = 'Seznam transakcij'
     end
     item
       IndexID = 906441
-      Text = 'Actual'
+      Text = 'Dejansko'
     end
     item
       IndexID = 906442
-      Text = 'Budget v/s realisation 3 periods'
+      Text = 'Prora'#269'un proti realizaciji za 3 obdobja'
     end
     item
       IndexID = 906443
-      Text = 'Ref. No.'
+      Text = 'Sklicna '#353't.'
     end
     item
       IndexID = 906444
-      Text = 'Data Integrity Check Report'
+      Text = 'Poro'#269'ilo o preverjanju celovitosti podatkov'
     end
     item
       IndexID = 906445
-      Text = 'Date / Time'
+      Text = 'Datum / '#268'as'
     end
     item
       IndexID = 906446
@@ -15049,23 +15092,23 @@ object TTranslationSaveObject
     end
     item
       IndexID = 906447
-      Text = 'Unposted Payments'
+      Text = 'Neknji'#382'ena pla'#269'ila'
     end
     item
       IndexID = 906448
-      Text = 'Unposted Receipts'
+      Text = 'Neknji'#382'eni prejemki'
     end
     item
       IndexID = 3127
-      Text = 'Net Weight'
+      Text = 'Neto te'#382'a'
     end
     item
       IndexID = 3128
-      Text = 'Gross Weight'
+      Text = 'Bruto te'#382'a'
     end
     item
       IndexID = 3129
-      Text = 'Reorder at'
+      Text = 'Ponovno naro'#269'i pri'
     end
     item
       IndexID = 3130
@@ -15074,270 +15117,270 @@ object TTranslationSaveObject
     item
       IndexID = 3131
       Text = 
-        'Reorder level - your items will be reordered until this quantity' +
-        '!'
+        'Raven ponovnega naro'#269'anja - va'#353'i artikli bodo naro'#269'eni do te kol' +
+        'i'#269'ine!'
     end
     item
       IndexID = 3132
       Text = 
-        'If your stock goes below this, then the system will reorder unti' +
-        'l the reorder quantity!'
+        #268'e zaloga pade pod to raven, bo sistem samodejno predlagal naro'#269 +
+        'ilo do ciljne koli'#269'ine!'
     end
     item
       IndexID = 3133
       Text = 
-        'If you want to reserve some stock for sales this field will be d' +
-        'educted from current stock levels in a quote!'
+        'Vrednost v tem polju se bo od'#353'tela od razpolo'#382'ljive zaloge pri i' +
+        'zdelavi ponudbe (rezervacija zaloge).'
     end
     item
       IndexID = 3134
-      Text = 'Languages'
+      Text = 'Jeziki'
     end
     item
       IndexID = 3135
-      Text = 'Language'
+      Text = 'Jezik'
     end
     item
       IndexID = 3136
-      Text = 'Multi-Group'
+      Text = 'Ve'#269' skupin'
     end
     item
       IndexID = 3137
-      Text = 'Select Image'
+      Text = 'Izberi sliko'
     end
     item
       IndexID = 3138
-      Text = 'Delete Image'
+      Text = 'Izbri'#353'i sliko'
     end
     item
       IndexID = 3139
-      Text = 'Cur : %s Quote : %s Order : %s Exp : %s'
+      Text = 'Tren : %s Ponudba : %s Nar : %s Pri'#269'ak : %s'
     end
     item
       IndexID = 3140
-      Text = 'Expected Quantity'
+      Text = 'Pri'#269'akovana koli'#269'ina'
     end
     item
       IndexID = 3141
-      Text = 'Manufacturer'
+      Text = 'Proizvajalec'
     end
     item
       IndexID = 3142
-      Text = 'Option Item'
+      Text = 'Opcijski artikel'
     end
     item
       IndexID = 3143
-      Text = 'Option Item (No Stock)'
+      Text = 'Opcijski artikel (brez vodenja zaloge)'
     end
     item
       IndexID = 3144
-      Text = 'Options'
+      Text = 'Mo'#382'nosti'
     end
     item
       IndexID = 3145
-      Text = 'Generate'
+      Text = 'Ustvari'
     end
     item
       IndexID = 3146
-      Text = 'Linked Options'
+      Text = 'Povezane mo'#382'nosti'
     end
     item
       IndexID = 3147
-      Text = 'View as Tree'
+      Text = 'Poglej kot drevo'
     end
     item
       IndexID = 3148
-      Text = 'Combination Name'
+      Text = 'Naziv kombinacije'
     end
     item
       IndexID = 3149
-      Text = 'Remove'
+      Text = 'Odstrani'
     end
     item
       IndexID = 3150
-      Text = 'Extra Price'
+      Text = 'Dodatna cena'
     end
     item
       IndexID = 3151
-      Text = 'Financial Entry'
+      Text = 'Finan'#269'ni vnos'
     end
     item
       IndexID = 3152
-      Text = 'Weight'
+      Text = 'Te'#382'a'
     end
     item
       IndexID = 3153
       Text = 
-        'If you have OpenOffice installed, you can edit this as HTML by d' +
-        'ouble-clicking in this text field!'
+        #268'e imate name'#353#269'en OpenOffice, lahko to urejate kot HTML z dvokli' +
+        'kom na to besedilno polje!'
     end
     item
       IndexID = 3154
-      Text = 'Options'
+      Text = 'Mo'#382'nosti'
     end
     item
       IndexID = 3155
-      Text = 'Setup Options'
+      Text = 'Nastavitve mo'#382'nosti'
     end
     item
       IndexID = 3156
-      Text = 'Double-click to enter the Option List.'
+      Text = 'Dvokliknite za vstop v seznam mo'#382'nosti.'
     end
     item
       IndexID = 3157
-      Text = 'Default Incl. for Docs'
+      Text = 'Privzeto z DDV za dokumente'
     end
     item
       IndexID = 3158
-      Text = 'SQL Only for Stock Lookup'
+      Text = 'SQL samo za iskanje artiklov'
     end
     item
       IndexID = 3159
-      Text = 'Merge Invoice to Orders'
+      Text = 'Zdru'#382'i ra'#269'un z naro'#269'ili'
     end
     item
       IndexID = 3160
-      Text = 'Merge Items per Tax on Ledger'
+      Text = 'Zdru'#382'i postavke po davku v glavni knjigi'
     end
     item
       IndexID = 3161
-      Text = 'Button Lookup'
+      Text = 'Gumb za iskanje'
     end
     item
       IndexID = 3162
-      Text = 'Cannot Edit Price'
+      Text = 'Cene ni mogo'#269'e urejati'
     end
     item
       IndexID = 3163
-      Text = 'Cannot Edit Description'
+      Text = 'Opisa ni mogo'#269'e urejati'
     end
     item
       IndexID = 3164
-      Text = 'Go to Quantity'
+      Text = 'Pojdi na koli'#269'ino'
     end
     item
       IndexID = 3165
-      Text = 'Bank Accounts'
+      Text = 'Ban'#269'ni ra'#269'uni'
     end
     item
       IndexID = 3166
-      Text = 'Column Balances D/C'
+      Text = 'Stanja po stolpcih debet/kredit'
     end
     item
       IndexID = 3167
-      Text = 'Column Balances Debtor D/C'
+      Text = 'Stanja po stolpcih kupci debet/kredit'
     end
     item
       IndexID = 3168
-      Text = 'Column Balances Creditor D/C'
+      Text = 'Stanja po stolpcih dobavitelji debet/kredit'
     end
     item
       IndexID = 3169
-      Text = 'Strict Tax on Account'
+      Text = 'Strogi davek na kontu'
     end
     item
       IndexID = 3170
-      Text = 'Post Warning per Invoice'
+      Text = 'Opozorilo o knji'#382'enju na ra'#269'un'
     end
     item
       IndexID = 3171
-      Text = 'Process Warnings'
+      Text = 'Obdelava opozoril'
     end
     item
       IndexID = 3172
-      Text = 'Process Subscriptions'
+      Text = 'Obdelava naro'#269'nin'
     end
     item
       IndexID = 3173
-      Text = 'Send E-mail'
+      Text = 'Po'#353'lji e-po'#353'to'
     end
     item
       IndexID = 3174
-      Text = 'Document Layout'
+      Text = 'Oblika dokumenta'
     end
     item
       IndexID = 3175
-      Text = 'Contract term not the same!'
+      Text = 'Pogodbeni rok ni enak!'
     end
     item
       IndexID = 3176
-      Text = 'Send Warning'
+      Text = 'Po'#353'lji opozorilo'
     end
     item
       IndexID = 3177
-      Text = 'E-mail Signed Document'
+      Text = 'Po'#353'lji podpisan dokument po e-po'#353'ti'
     end
     item
       IndexID = 3178
-      Text = 'Link Tax'
+      Text = 'Povezava davka'
     end
     item
       IndexID = 3179
-      Text = 'Bank Links'
+      Text = 'Ban'#269'ne povezave'
     end
     item
       IndexID = 3180
-      Text = 'Edit Account'
+      Text = 'Uredi konto'
     end
     item
       IndexID = 3181
-      Text = 'Convert to Credit Note / Return Note'
+      Text = 'Pretvori v dobropis / vra'#269'ilo dobavitelju'
     end
     item
       IndexID = 3182
-      Text = 'Open e-Commerce Order in Browser'
+      Text = 'Odpri e-Commerce naro'#269'ilo v brskalniku'
     end
     item
       IndexID = 3183
-      Text = 'Open e-Commerce Customer in Browser'
+      Text = 'Odpri e-Commerce kupca v brskalniku'
     end
     item
       IndexID = 3184
-      Text = 'Convert Documents to Single Document'
+      Text = 'Pretvori dokumente v en sam dokument'
     end
     item
       IndexID = 3185
-      Text = 'Create Purchase on Default Supplier 1'
+      Text = 'Ustvari nabavo pri privzetem dobavitelju 1'
     end
     item
       IndexID = 3186
-      Text = 'Image'
+      Text = 'Slika'
     end
     item
       IndexID = 3187
-      Text = 'Bug Report'
+      Text = 'Poro'#269'ilo o napaki'
     end
     item
       IndexID = 3189
-      Text = 'Close Active Forms'
+      Text = 'Zapri aktivne obrazce'
     end
     item
       IndexID = 3190
-      Text = 'Show / Hide Sidebar'
+      Text = 'Prika'#382'i / skrij stransko vrstico'
     end
     item
       IndexID = 3191
-      Text = 'Show / Hide Topbar'
+      Text = 'Prika'#382'i / skrij zgornjo vrstico'
     end
     item
       IndexID = 3192
-      Text = 'Only Look in Account for Search'
+      Text = 'I'#353#269'i samo znotraj konta'
     end
     item
       IndexID = 3188
-      Text = 'Cost Centres'
+      Text = 'Stro'#353'kovna mesta'
     end
     item
       IndexID = 3193
-      Text = 'Bug Report'
+      Text = 'Poro'#269'ilo o napaki'
     end
     item
       IndexID = 3194
-      Text = 'Webshop'
+      Text = 'Spletna trgovina'
     end
     item
       IndexID = 3195
-      Text = 'Help'
+      Text = 'Pomo'#269
     end
     item
       IndexID = 3196
@@ -15345,255 +15388,257 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3197
-      Text = 'Opening Balance - This Year'
+      Text = 'Otvoritveno stanje - Leto'#353'nje leto'
     end
     item
       IndexID = 3198
-      Text = 'Gender'
+      Text = 'Spol'
     end
     item
       IndexID = 3199
-      Text = 'Male'
+      Text = 'Mo'#353'ki'
     end
     item
       IndexID = 3200
-      Text = 'Female'
+      Text = #381'enska'
     end
     item
       IndexID = 3201
-      Text = 'Newsletters and Password'
+      Text = 'E-novice in geslo'
     end
     item
       IndexID = 3202
-      Text = 'Referral Source'
+      Text = 'Vir priporo'#269'ila'
     end
     item
       IndexID = 3203
-      Text = 'Newsletters'
+      Text = 'E-novice'
     end
     item
       IndexID = 3204
-      Text = 'Password Confirmation'
+      Text = 'Potrditev gesla'
     end
     item
       IndexID = 3205
-      Text = 'General'
+      Text = 'Splo'#353'no'
     end
     item
       IndexID = 3206
-      Text = 'Release'
+      Text = 'Izdaja'
     end
     item
       IndexID = 3207
-      Text = 'Bug Fix'
+      Text = 'Popravek napake'
     end
     item
       IndexID = 3208
-      Text = 'Community Day'
+      Text = 'Dan skupnosti'
     end
     item
       IndexID = 3209
-      Text = 'Existing User'
+      Text = 'Obstoje'#269'i uporabnik'
     end
     item
       IndexID = 3210
-      Text = 'You have registered successfully ! '
+      Text = 'Uspe'#353'no ste se registrirali!'
     end
     item
       IndexID = 3211
-      Text = 'Usage'
+      Text = 'Uporaba'
     end
     item
       IndexID = 3212
-      Text = 'Website'
+      Text = 'Spletna stran'
     end
     item
       IndexID = 3213
-      Text = 'Reregister'
+      Text = 'Ponovna registracija'
     end
     item
       IndexID = 3214
-      Text = 'Consultant'
+      Text = 'Svetovalec'
     end
     item
       IndexID = 3215
-      Text = 'Send'
+      Text = 'Po'#353'lji'
     end
     item
       IndexID = 3216
-      Text = 'New User'
+      Text = 'Nov uporabnik'
     end
     item
       IndexID = 3217
-      Text = 'Action'
+      Text = 'Dejanje'
     end
     item
       IndexID = 3218
       Text = 
-        'Username and password are used to log in to our forum and shop n' +
-        'ot for <@APPNAME@> self'
+        'Uporabni'#353'ko ime in geslo se uporabljata za prijavo v na'#353' forum i' +
+        'n trgovino, ne za sam program <@APPNAME@>'
     end
     item
       IndexID = 3219
-      Text = 'E-mail can be sent via the context menu in the Document list.'
+      Text = 
+        'E-po'#353'to lahko po'#353'ljete preko kontekstnega menija v seznamu dokum' +
+        'entov.'
     end
     item
       IndexID = 3220
-      Text = 'Mail Template'
+      Text = 'Predloga e-po'#353'te'
     end
     item
       IndexID = 3221
-      Text = 'Select Layout'
+      Text = 'Izberi izpis'
     end
     item
       IndexID = 3222
-      Text = 'Select Template'
+      Text = 'Izberi predlogo'
     end
     item
       IndexID = 3223
-      Text = 'Report Name'
+      Text = 'Naziv poro'#269'ila'
     end
     item
       IndexID = 3224
-      Text = 'Base Folder Debtor/Creditor'
+      Text = 'Osnovna mapa kupec/dobavitelj'
     end
     item
       IndexID = 3225
-      Text = 'Base Folder'
+      Text = 'Osnovna mapa'
     end
     item
       IndexID = 3226
-      Text = 'Test E-mail'
+      Text = 'Testna e-po'#353'ta'
     end
     item
       IndexID = 3227
-      Text = 'Send E-mail(s)'
+      Text = 'Po'#353'lji e-po'#353'to(e)'
     end
     item
       IndexID = 3228
-      Text = 'Resume E-mail(s)'
+      Text = 'Nadaljuj s po'#353'iljanjem e-po'#353'te'
     end
     item
       IndexID = 3229
-      Text = 'Stop E-mail(s)'
+      Text = 'Zaustavi po'#353'iljanje e-po'#353'te'
     end
     item
       IndexID = 3230
-      Text = 'Path to the HTML Files'
+      Text = 'Pot do datotek HTML'
     end
     item
       IndexID = 3231
-      Text = 'POP Username'
+      Text = 'POP uporabni'#353'ko ime'
     end
     item
       IndexID = 3232
-      Text = 'POP Password'
+      Text = 'POP geslo'
     end
     item
       IndexID = 3233
-      Text = 'POP Server'
+      Text = 'POP stre'#382'nik'
     end
     item
       IndexID = 3234
-      Text = 'SMTP Port'
+      Text = 'SMTP vrata'
     end
     item
       IndexID = 3235
-      Text = 'SMTP Server'
+      Text = 'SMTP stre'#382'nik'
     end
     item
       IndexID = 3236
-      Text = 'Return E-mail'
+      Text = 'Povratna e-po'#353'ta'
     end
     item
       IndexID = 3237
-      Text = 'Return Name'
+      Text = 'Povratno ime'
     end
     item
       IndexID = 3238
-      Text = 'E-mail Header Text'
+      Text = 'Besedilo glave e-po'#353'te'
     end
     item
       IndexID = 3239
-      Text = 'Send Max Mail'
+      Text = 'Po'#353'lji najve'#269' e-po'#353'te'
     end
     item
       IndexID = 3240
-      Text = 'Timer Treshhold in Sec.'
+      Text = 'Prag '#269'asovnika v sek.'
     end
     item
       IndexID = 3241
-      Text = 'SMTP Username'
+      Text = 'SMTP uporabni'#353'ko ime'
     end
     item
       IndexID = 3242
-      Text = 'SMTP Password'
+      Text = 'SMTP geslo'
     end
     item
       IndexID = 3243
-      Text = 'Sign Certificate'
+      Text = 'Podpi'#353'i certifikat'
     end
     item
       IndexID = 3244
-      Text = 'Certificate Password'
+      Text = 'Geslo certifikata'
     end
     item
       IndexID = 3245
-      Text = 'Sign any PDF'
+      Text = 'Podpi'#353'i kateri koli PDF'
     end
     item
       IndexID = 3246
-      Text = 'Free Text'
+      Text = 'Poljubno besedilo'
     end
     item
       IndexID = 3247
-      Text = 'Preview in Browser'
+      Text = 'Predogled v brskalniku'
     end
     item
       IndexID = 3248
-      Text = 'Test E-mail to Extra CC'
+      Text = 'Testna e-po'#353'ta na dodatni CC'
     end
     item
       IndexID = 3249
-      Text = 'Extra CC'
+      Text = 'Dodatni CC'
     end
     item
       IndexID = 3250
-      Text = 'CC (mutiple separate with ;)'
+      Text = 'CC (ve'#269' naslovov lo'#269'ite z ;)'
     end
     item
       IndexID = 3251
-      Text = 'BCC (mutiple separate with ;)'
+      Text = 'BCC (ve'#269' naslovov lo'#269'ite z ;)'
     end
     item
       IndexID = 3252
-      Text = 'Send E-mail'
+      Text = 'Po'#353'lji e-po'#353'to'
     end
     item
       IndexID = 3253
       Text = 
-        'No extra CC found! Please enter an e-mail address in text box be' +
-        'low this button!'
+        'Dodatni CC ni najden! Prosimo, vnesite e-po'#353'tni naslov v besedil' +
+        'no polje pod tem gumbom!'
     end
     item
       IndexID = 3254
-      Text = 'No POP Password entered!'
+      Text = 'POP geslo ni vneseno!'
     end
     item
       IndexID = 3255
-      Text = 'Stopped by User!'
+      Text = 'Prekinil uporabnik!'
     end
     item
       IndexID = 3256
-      Text = 'On'
+      Text = 'Vklopljeno'
     end
     item
       IndexID = 3257
-      Text = 'Off'
+      Text = 'Izklopljeno'
     end
     item
       IndexID = 3258
-      Text = 'Setup E-mail Pro'
+      Text = 'Nastavitev E-mail Pro'
     end
     item
       IndexID = 3259
@@ -15601,662 +15646,664 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3260
-      Text = 'No Category'
+      Text = 'Brez kategorije'
     end
     item
       IndexID = 3261
-      Text = 'Free Fields'
+      Text = 'Poljubna polja'
     end
     item
       IndexID = 3262
-      Text = 'Register'
+      Text = 'Registracija'
     end
     item
       IndexID = 3263
-      Text = 'Purge Invalid'
+      Text = 'Po'#269'isti neveljavne'
     end
     item
       IndexID = 3264
-      Text = 'Redo Discount on Document'
+      Text = 'Ponovi popust na dokumentu'
     end
     item
       IndexID = 3265
-      Text = 'Percentage of Sale'
+      Text = 'Odstotek prodaje'
     end
     item
       IndexID = 3266
-      Text = 'BOM (Production)'
+      Text = 'Kosovnica (Proizvodnja)'
     end
     item
       IndexID = 3267
-      Text = 'Supplier Stock Code'
+      Text = #352'ifra artikla pri dobavitelju'
     end
     item
       IndexID = 3268
-      Text = 'Preferred Supplier'
+      Text = 'Prednostni dobavitelj'
     end
     item
       IndexID = 3269
-      Text = 'Next Cost Price'
+      Text = 'Naslednja nabavna cena'
     end
     item
       IndexID = 3270
-      Text = 'Assemble'
+      Text = 'Sestavi'
     end
     item
       IndexID = 3271
-      Text = 'Disasemble'
+      Text = 'Razstavi'
     end
     item
       IndexID = 3272
-      Text = 'Link bank account from import to accounts'
+      Text = 'Pove'#382'i ban'#269'ni ra'#269'un iz uvoza s konti'
     end
     item
       IndexID = 3273
-      Text = 'Link all records with current account bank accounts'
+      Text = 'Pove'#382'i vse zapise z ban'#269'nimi ra'#269'uni trenutnega konta'
     end
     item
       IndexID = 3274
-      Text = 'Select from account open item list'
+      Text = 'Izberi s seznama odprtih postavk konta'
     end
     item
       IndexID = 3275
-      Text = 'Show refs for account'
+      Text = 'Prika'#382'i sklice za konto'
     end
     item
       IndexID = 3276
       Text = 
-        'Bank import extra link functions. Enter bank account for exact m' +
-        'atch on account. Enter text with a # prefix to look inside a imp' +
-        'orted'#13#10'bank line to see if the text is in that string. Text will' +
-        ' be searched in the uppercase.'
+        'Dodatne funkcije povezovanja uvoza banke. Vnesite ban'#269'ni ra'#269'un z' +
+        'a natan'#269'no ujemanje na kontu. Vnesite besedilo s predpono #, da ' +
+        'poi'#353#269'ete znotraj uvo'#382'ene ban'#269'ne vrstice, '#269'e je to besedilo v tem' +
+        ' nizu. Besedilo bo iskano z velikimi '#269'rkami.'
     end
     item
       IndexID = 3277
-      Text = 'Account Bank References'
+      Text = 'Ban'#269'ni sklici konta'
     end
     item
       IndexID = 3278
-      Text = 'Std Bank Account No.'
+      Text = 'Std. '#353'tevilka ban'#269'nega ra'#269'una'
     end
     item
       IndexID = 3279
-      Text = 'Delivery date'
+      Text = 'Datum dobave'
     end
     item
       IndexID = 3280
-      Text = 'Check'
+      Text = 'Preveri'
     end
     item
       IndexID = 3281
-      Text = 'Plugin mass action'
+      Text = 'Masovno dejanje vti'#269'nika'
     end
     item
       IndexID = 3282
-      Text = 'Plugin action'
+      Text = 'Dejanje vti'#269'nika'
     end
     item
       IndexID = 3283
-      Text = 'Fast add item (stock code / barcode / serial)'
+      Text = 'Hitro dodajanje artikla (koda/'#269'rtna koda/serijska)'
     end
     item
       IndexID = 3284
-      Text = 'Enter total'
+      Text = 'Vnesite skupni znesek'
     end
     item
       IndexID = 3285
-      Text = 'Recalculate base'
+      Text = 'Ponovno izra'#269'unaj osnovo'
     end
     item
       IndexID = 3286
-      Text = 'Cost Price'
+      Text = 'Nabavna cena'
     end
     item
       IndexID = 3287
-      Text = 'Selling Price'
+      Text = 'Prodajna cena'
     end
     item
       IndexID = 3288
-      Text = 'Recalculate Sales %'
+      Text = 'Ponovno izra'#269'unaj prodajni %'
     end
     item
       IndexID = 3289
-      Text = 'Copy from plugin'
+      Text = 'Kopiraj iz vti'#269'nika'
     end
     item
       IndexID = 3290
-      Text = 'Paste to plugin'
+      Text = 'Prilepi v vti'#269'nik'
     end
     item
       IndexID = 3291
-      Text = 'Copy from / init'
+      Text = 'Kopiraj iz / init'
     end
     item
       IndexID = 3292
-      Text = 'Paste to / preform'
+      Text = 'Prilepi v / izvedi'
     end
     item
       IndexID = 3293
-      Text = 'Copy'
+      Text = 'Kopiraj'
     end
     item
       IndexID = 3294
-      Text = 'Show tax in documents'
+      Text = 'Prika'#382'i davek v dokumentih'
     end
     item
       IndexID = 3295
-      Text = 'Sales/Debit'
+      Text = 'Prodaja/Debet'
     end
     item
       IndexID = 3296
-      Text = 'Purchase/Credit'
+      Text = 'Nabava/Kredit'
     end
     item
       IndexID = 3297
-      Text = 'Hide this tax'
+      Text = 'Skrij ta davek'
     end
     item
       IndexID = 3298
-      Text = 'All'
+      Text = 'Vse'
     end
     item
       IndexID = 3299
-      Text = 'No out of stock message'
+      Text = 'Brez opozorila o pomanjkanju zaloge'
     end
     item
       IndexID = 3300
-      Text = 'Use colours for out of stock'
+      Text = 'Barvno ozna'#269'evanje artiklov brez zaloge'
     end
     item
       IndexID = 3301
-      Text = 'Calc BOM stock'
+      Text = 'Izra'#269'unaj zalogo po kosovnici (BOM)'
     end
     item
       IndexID = 3302
-      Text = 'Limit stock purchase only for default suppier or non'
+      Text = 'Omeji nabavo artiklov samo na privzetega dobavitelja'
     end
     item
       IndexID = 3303
-      Text = 'Welcome'
+      Text = 'Dobrodo'#353'li'
     end
     item
       IndexID = 3304
-      Text = 'New invoice'
+      Text = 'Nov ra'#269'un'
     end
     item
       IndexID = 3305
-      Text = 'Data saved'
+      Text = 'Podatki shranjeni'
     end
     item
       IndexID = 3306
-      Text = 'Split bill'
+      Text = 'Razdeli ra'#269'un'
     end
     item
       IndexID = 3307
-      Text = 'Data saved'
+      Text = 'Podatki shranjeni'
     end
     item
       IndexID = 3308
-      Text = 'Reopen Invoice'
+      Text = 'Ponovno odpri ra'#269'un'
     end
     item
       IndexID = 3309
-      Text = 'Open Fast Add'
+      Text = '+Odpri hitro dodajanje'
     end
     item
       IndexID = 3310
-      Text = 'Close Fast Add'
+      Text = '-Zapri hitro dodajanje'
     end
     item
       IndexID = 3311
-      Text = 'Create Purchase on Default Supplier 1'
+      Text = 'Ustvari nabavo pri privzetem dobavitelju 1'
     end
     item
       IndexID = 3312
       Text = 
-        'No default supplier 1 for these stock items! Please correct firs' +
-        't!'
+        'Za te artikle ni nastavljen privzeti dobavitelj 1! Prosimo, najp' +
+        'rej uredite nastavitve!'
     end
     item
       IndexID = 3313
-      Text = 'Months'
+      Text = 'Meseci'
     end
     item
       IndexID = 3314
-      Text = 'Per Period'
+      Text = 'Na obdobje'
     end
     item
       IndexID = 3315
-      Text = 'Free Selection'
+      Text = 'Prost izbor'
     end
     item
       IndexID = 3316
-      Text = 'Hours between date'
+      Text = 'Ure med datumoma'
     end
     item
       IndexID = 3317
-      Text = 'Recalculate Selling Price'
+      Text = 'Ponovno izra'#269'unaj prodajno ceno'
     end
     item
       IndexID = 3318
-      Text = 'Default Cost Centre'
+      Text = 'Privzeto stro'#353'kovno mesto'
     end
     item
       IndexID = 3319
-      Text = 'Cost Centre'
+      Text = 'Stro'#353'kovno mesto'
     end
     item
       IndexID = 3320
-      Text = 'Save this unsaved document?'
+      Text = 'Shranim ta neshranjeni dokument?'
     end
     item
       IndexID = 3321
-      Text = 'Code, Description and Extra Description'
+      Text = 'Koda, opis in dodatni opis'
     end
     item
       IndexID = 3322
-      Text = 'Enter new inclusive total'
+      Text = 'Vnesite nov skupni znesek z DDV'
     end
     item
       IndexID = 3323
-      Text = 'Create Backorders to Deliver'
+      Text = 'Ustvari zaostala naro'#269'ila za dobavo'
     end
     item
       IndexID = 3324
-      Text = 'Only new items (no adjust)'
+      Text = 'Samo novi artikli (brez prilagajanja)'
     end
     item
       IndexID = 20130
-      Text = 'Do not cash'
+      Text = 'Ne unov'#269'i'
     end
     item
       IndexID = 20131
-      Text = 'Create goods sold not taken'
+      Text = 'Ustvari prodano blago, ki ni bilo prevzeto'
     end
     item
       IndexID = 20132
-      Text = 'Cannot delete!'
+      Text = 'Ni mogo'#269'e izbrisati!'
     end
     item
       IndexID = 20133
-      Text = 'Use Advanced Stock'
+      Text = 'Napredno vodenje zalog'
     end
     item
       IndexID = 906449
-      Text = 'Automatic Payments Report'
+      Text = 'Poro'#269'ilo o samodejnih pla'#269'ilih'
     end
     item
       IndexID = 3630
-      Text = 'Table overview'
+      Text = 'Pregled tabel / miz'
     end
     item
       IndexID = 3631
-      Text = 'All orders'
+      Text = 'Vsa naro'#269'ila'
     end
     item
       IndexID = 3632
-      Text = 'Print ticket'
+      Text = 'Natisni listek'
     end
     item
       IndexID = 3633
-      Text = 'Date reservation'
+      Text = 'Datum rezervacije'
     end
     item
       IndexID = 3634
-      Text = 'Day memo'
+      Text = 'Dnevni memo'
     end
     item
       IndexID = 3635
-      Text = 'Guest'
+      Text = 'Gost'
     end
     item
       IndexID = 3636
-      Text = 'Create POS ticket'
+      Text = 'Ustvari POS listek'
     end
     item
       IndexID = 3637
-      Text = 'Person(s)'
+      Text = 'Oseba(e)'
     end
     item
       IndexID = 3638
-      Text = 'Stay in minutes'
+      Text = 'Trajanje bivanja v minutah'
     end
     item
       IndexID = 3639
-      Text = 'Expected time'
+      Text = 'Pri'#269'akovani '#269'as'
     end
     item
       IndexID = 3640
-      Text = 'Horizontal pos layout'
+      Text = 'Vodoravna POS-postavitev'
     end
     item
       IndexID = 3641
-      Text = 'Vertical pos layout'
+      Text = 'Navpi'#269'na POS-postavitev'
     end
     item
       IndexID = 3642
-      Text = 'Clear table movement'
+      Text = 'Po'#269'isti premikanje miz'
     end
     item
       IndexID = 3643
-      Text = 'Move seat'
+      Text = 'Premakni sede'#382
     end
     item
       IndexID = 3644
-      Text = 'Link seat'
+      Text = 'Pove'#382'i sede'#382
     end
     item
       IndexID = 3645
-      Text = 'Unlink seat'
+      Text = 'Prekini povezavo sede'#382'a'
     end
     item
       IndexID = 3646
-      Text = 'Hide <@APPNAME@> interface'
+      Text = 'Skrij vmesnik <@APPNAME@>'
     end
     item
       IndexID = 3647
-      Text = 'Telephonic orders'
+      Text = 'Telefonska naro'#269'ila'
     end
     item
       IndexID = 3648
-      Text = 'Orders to deliverlist'
+      Text = 'Seznam naro'#269'il za dostavo'
     end
     item
       IndexID = 3649
-      Text = 'Lock'
+      Text = 'Zakleni'
     end
     item
       IndexID = 3650
-      Text = 'Start click here'
+      Text = 'Za za'#269'etek kliknite tukaj'
     end
     item
       IndexID = 3651
-      Text = 'Click here again'
+      Text = 'Kliknite tukaj znova'
     end
     item
       IndexID = 3652
-      Text = 'Click here'
+      Text = 'Kliknite tukaj'
     end
     item
       IndexID = 3653
-      Text = 'Reservations'
+      Text = 'Rezervacije'
     end
     item
       IndexID = 3654
-      Text = 'Close pos'
+      Text = 'Zapri POS'
     end
     item
       IndexID = 3655
-      Text = 'Cash entry'
+      Text = 'Gotovinski vnos'
     end
     item
       IndexID = 3656
-      Text = 'Payment of posted documents'
+      Text = 'Pla'#269'ilo knji'#382'enih dokumentov'
     end
     item
       IndexID = 3657
-      Text = 'Show doc info'
+      Text = 'Prika'#382'i info o dok.'
     end
     item
       IndexID = 3658
-      Text = 'Simple action buttons'
+      Text = 'Preprosti gumbi za dejanja'
     end
     item
       IndexID = 3659
-      Text = 'No captions'
+      Text = 'Brez napisov'
     end
     item
       IndexID = 3660
-      Text = 'dayly provission'
+      Text = 'Dnevna rezervacija / provizija'
     end
     item
       IndexID = 3661
-      Text = 'Document without border'
+      Text = 'Dokument brez obrobe'
     end
     item
       IndexID = 3662
-      Text = 'Posted payments'
+      Text = 'Knji'#382'ena pla'#269'ila'
     end
     item
       IndexID = 3663
-      Text = 'Sales per table'
+      Text = 'Prodaja po mizah'
     end
     item
       IndexID = 3664
-      Text = 'New order'
+      Text = 'Novo naro'#269'ilo'
     end
     item
       IndexID = 3665
-      Text = 'Show fixed first group list'
+      Text = 'Prika'#382'i fiksni seznam prve skupine'
     end
     item
       IndexID = 3666
-      Text = 'Show current totals in list'
+      Text = 'Prika'#382'i trenutne vsote na seznamu'
     end
     item
       IndexID = 3667
-      Text = 'Recieve seperate payments'
+      Text = 'Prejmi lo'#269'ena pla'#269'ila'
     end
     item
       IndexID = 3668
-      Text = 'Create account from documentdetails'
+      Text = 'Ustvari konto iz podrobnosti dokumenta'
     end
     item
       IndexID = 3669
-      Text = 'Send documenttype'
+      Text = 'Po'#353'lji vrsto dokumenta'
     end
     item
       IndexID = 3670
-      Text = 'Print document and send email'
+      Text = 'Natisni dokument in po'#353'lji e-po'#353'to'
     end
     item
       IndexID = 3671
-      Text = 'Username'
+      Text = 'Uporabni'#353'ko ime'
     end
     item
       IndexID = 3672
-      Text = 'Enable auto set inactive debtor after x days unpayed'
+      Text = 
+        'Omogo'#269'i samodejno nastavitev neaktivnega kupca po x dneh nepla'#269'i' +
+        'la'
     end
     item
       IndexID = 3673
-      Text = 'Days after payment before inactive'
+      Text = 'Dni po pla'#269'ilu pred neaktivnostjo'
     end
     item
       IndexID = 3674
-      Text = 'Do you want to run this process for 1 creditor?'
+      Text = 'Ali '#382'elite zagnati ta postopek za 1 dobavitelja?'
     end
     item
       IndexID = 3675
-      Text = 'Tax list debtor / creditor with taxid'
+      Text = 'Dav'#269'ni seznam kupcev z dav'#269'no '#353't.'
     end
     item
       IndexID = 3676
       Text = 
-        'Unposted documents found ! Please process all documents before m' +
-        'anual edit'
+        'Najdeni so neknji'#382'eni dokumenti! Prosimo, obdelajte vse dokument' +
+        'e pred ro'#269'nim urejanjem!'
     end
     item
       IndexID = 3677
-      Text = 'Start quantity'
+      Text = 'Za'#269'etna koli'#269'ina'
     end
     item
       IndexID = 3678
-      Text = 'Expected quantity'
+      Text = 'Pri'#269'akovana koli'#269'ina'
     end
     item
       IndexID = 3679
-      Text = 'Production date'
+      Text = 'Datum proizvodnje'
     end
     item
       IndexID = 3680
-      Text = 'Max salesdate'
+      Text = 'Maks. datum prodaje'
     end
     item
       IndexID = 3681
-      Text = 'Location'
+      Text = 'Lokacija'
     end
     item
       IndexID = 3682
-      Text = 'Serial'
+      Text = 'Serijska '#353'tevilka'
     end
     item
       IndexID = 3683
-      Text = 'Batch'
+      Text = 'Serija'
     end
     item
       IndexID = 3684
-      Text = 'Total sold'
+      Text = 'Skupaj prodano'
     end
     item
       IndexID = 21799
-      Text = 'No data available to print!'
+      Text = 'Na voljo ni nobenih podatkov za tiskanje!'
     end
     item
       IndexID = 21354
-      Text = 'Reportman manager designer'
+      Text = 'Oblikovalnik upravljalnika poro'#269'il'
     end
     item
       IndexID = 906550
-      Text = 'Tax report - Reference / Document no.'
+      Text = 'Dav'#269'no poro'#269'ilo - Sklic / '#352'tevilka dokumenta'
     end
     item
       IndexID = 906551
-      Text = 'Creditor remittance advise - Outstanding'
+      Text = 'Obvestilo o nakazilu dobavitelju - Odprte postavke'
     end
     item
       IndexID = 906552
-      Text = 'Debtor statement - Outstanding'
+      Text = 'Izpisek za kupca - Odprte postavke'
     end
     item
       IndexID = 3685
-      Text = 'Find with central search'
+      Text = 'Najdi s centralnim iskanjem'
     end
     item
       IndexID = 3686
-      Text = 'No account creation'
+      Text = 'Brez ustvarjanja konta'
     end
     item
       IndexID = 3687
-      Text = 'Match on open amounts'
+      Text = 'Ujemanje po odprtih zneskih'
     end
     item
       IndexID = 3688
-      Text = 'Total Exp sales on price 2'
+      Text = 'Skupna pri'#269'akovana prodaja po ceni 2'
     end
     item
       IndexID = 3689
-      Text = 'Total Stock value'
+      Text = 'Skupna vrednost zaloge'
     end
     item
       IndexID = 3690
-      Text = 'Enter email adress seperate with ;'
+      Text = 'Vnesite e-po'#353'tne naslove, lo'#269'ene z ;'
     end
     item
       IndexID = 3691
-      Text = 'Countries'
+      Text = 'Dr'#382'ave'
     end
     item
       IndexID = 3692
-      Text = 'Correction missing transact'
+      Text = 'Popravek zapadlosti transakcij'
     end
     item
       IndexID = 3693
-      Text = 'Please save or cancel your document first'
+      Text = 'Prosimo, najprej shranite ali prekli'#269'ite svoj dokument!'
     end
     item
       IndexID = 3694
-      Text = 'Please save or cancel your stock first'
+      Text = 'Prosimo, najprej shranite ali prekli'#269'ite vnos zaloge!'
     end
     item
       IndexID = 3695
-      Text = 'Please save or cancel your debtor first'
+      Text = 'Prosimo, najprej shranite ali prekli'#269'ite svojega kupca!'
     end
     item
       IndexID = 3696
-      Text = 'Please save or cancel your creditor first'
+      Text = 'Prosimo, najprej shranite ali prekli'#269'ite svojega dobavitelja!'
     end
     item
       IndexID = 3697
-      Text = 'Spreadsheet sales'
+      Text = 'Preglednica prodaje'
     end
     item
       IndexID = 3698
-      Text = 'Spreadsheet reports'
+      Text = 'Preglednica poro'#269'il'
     end
     item
       IndexID = 3699
-      Text = 'Use all to stop asking this question.'
+      Text = 'Izberite [Vse], da se to vpra'#353'anje ve'#269' ne pojavlja.'
     end
     item
       IndexID = 3700
-      Text = 'View'
+      Text = 'Pogled'
     end
     item
       IndexID = 3701
-      Text = 'Zoom'
+      Text = 'Pove'#269'ava'
     end
     item
       IndexID = 3702
-      Text = 'Page layout'
+      Text = 'Postavitev strani'
     end
     item
       IndexID = 3703
-      Text = 'Formules'
+      Text = 'Formule'
     end
     item
       IndexID = 3704
-      Text = 'Import check'
+      Text = 'Preverjanje uvoza'
     end
     item
       IndexID = 3705
-      Text = 'Profile'
+      Text = 'Profil'
     end
     item
       IndexID = 3706
-      Text = 'Save profile'
+      Text = 'Shrani profil'
     end
     item
       IndexID = 3707
-      Text = 'Add profile'
+      Text = 'Dodaj profil'
     end
     item
       IndexID = 3708
-      Text = 'Import type'
+      Text = 'Vrsta uvoza'
     end
     item
       IndexID = 3709
-      Text = 'Link on'
+      Text = 'Povezava na'
     end
     item
       IndexID = 3710
-      Text = 'Small backup (books)'
+      Text = 'Manj'#353'i arhiv (knjige)'
     end
     item
       IndexID = 3711
       Text = 
-        'This action will close <@APPNAME@> and install version %s we rec' +
-        'ommend you make a backup of the whole folder of <@APPNAME@>.'#13#10'Do' +
-        ' you wish to continue?'
+        'To dejanje bo zaprlo aplikacijo <@APPNAME@> in namestilo razli'#269'i' +
+        'co %s. Priporo'#269'amo, da pred tem ustvarite celoten arhiv mape <@A' +
+        'PPNAME@>. Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 3712
-      Text = 'Updates'
+      Text = 'Posodobitve'
     end
     item
       IndexID = 3713
-      Text = 'Check for update at start'
+      Text = 'Preveri posodobitve ob zagonu'
     end
     item
       IndexID = 3714
-      Text = 'Beta versions'
+      Text = 'Beta razli'#269'ice'
     end
     item
       IndexID = 3715
-      Text = 'Install'
+      Text = 'Namesti'
     end
     item
       IndexID = 3716
-      Text = 'Workflow'
+      Text = 'Delovni tok (Workflow)'
     end
     item
       IndexID = 3717
@@ -16264,105 +16311,105 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3718
-      Text = 'Activate plugins'
+      Text = 'Aktiviraj vti'#269'nike'
     end
     item
       IndexID = 3719
-      Text = 'Add to group'
+      Text = 'Dodaj v skupino'
     end
     item
       IndexID = 3720
-      Text = 'Spreadsheet import'
+      Text = 'Uvoz iz preglednice'
     end
     item
       IndexID = 3721
-      Text = 'Enable Blockchain'
+      Text = 'Omogo'#269'i Blockchain'
     end
     item
       IndexID = 3722
-      Text = 'Document show quantity'
+      Text = 'Koli'#269'ina, prikazana na dokumentu'
     end
     item
       IndexID = 906553
-      Text = 'Tax list creditor with tax id'
+      Text = 'Dav'#269'ni seznam dobaviteljev z dav'#269'no '#353'tevilko'
     end
     item
       IndexID = 906554
-      Text = 'Outdated batch'
+      Text = 'Pretekla serija'
     end
     item
       IndexID = 906555
-      Text = 'Batch bought from supplier'
+      Text = 'Serija, kupljena od dobavitelja'
     end
     item
       IndexID = 906556
-      Text = 'Batch sold to customer'
+      Text = 'Serija, prodana kupcu'
     end
     item
       IndexID = 3723
-      Text = 'Counted quantity'
+      Text = 'Pre'#353'teta koli'#269'ina'
     end
     item
       IndexID = 3724
-      Text = 'Current quantity'
+      Text = 'Trenutna koli'#269'ina'
     end
     item
       IndexID = 3725
-      Text = 'Date of count'
+      Text = 'Datum '#353'tetenja'
     end
     item
       IndexID = 3726
-      Text = 'Ok -> Next'
+      Text = 'V redu '#8594' Naprej'
     end
     item
       IndexID = 3727
-      Text = 'Uncounted'
+      Text = 'Nepre'#353'teto'
     end
     item
       IndexID = 3728
-      Text = 'Counted'
+      Text = 'Pre'#353'teto'
     end
     item
       IndexID = 3729
-      Text = 'Fast add'
+      Text = 'Hitro dodajanje'
     end
     item
       IndexID = 3730
-      Text = 'Post diverence'
+      Text = 'Knji'#382'i razliko'
     end
     item
       IndexID = 3731
-      Text = 'Checked and OK'
+      Text = 'Preverjeno in v redu'
     end
     item
       IndexID = 3732
       Text = 
-        'Your current open year end date "%s" is greater than today. do y' +
-        'ou want to stop opening a new year?'
+        'Va'#353' trenutni datum konca odprtega leta %s je ve'#269'ji od dana'#353'njega' +
+        ' datuma! Ali '#382'elite ustaviti odpiranje novega leta?'
     end
     item
       IndexID = 3733
-      Text = 'Are you sure you want to overwrite your current books?'
+      Text = 'Ste prepri'#269'ani, da '#382'elite prepisati svoje trenutne knjige?'
     end
     item
       IndexID = 3734
-      Text = 'Post in period 0'
+      Text = 'Knji'#382'i v obdobje 0'
     end
     item
       IndexID = 3735
       Text = 
-        'You are putting proffit/loss on ledger with tax. This will messu' +
-        'p tax reports Do you wish to continue?'
+        'Dobi'#269'ek/izgubo knji'#382'ite na konto z davkom! To bo pokvarilo dav'#269'n' +
+        'a poro'#269'ila! Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 3736
       Text = 
-        'You are putting cash from a bank/cash directly to a bank/cash ac' +
-        'count. Do you wish to continue?'
+        'Gotovino iz banke/blagajne prena'#353'ate neposredno na ban'#269'ni/blagaj' +
+        'ni'#353'ki konto! Ali '#382'elite nadaljevati?'
     end
     item
       IndexID = 3737
-      Text = 'Do you wish to cancel the print this reciept?'
+      Text = #381'elite preklicati tiskanje tega ra'#269'una/potrdila?'
     end
     item
       IndexID = 3738
@@ -16370,154 +16417,154 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3739
-      Text = 'Convert quote to one unproccessed invoice per client'
+      Text = 'Pretvori ponudbo v en neobdelan ra'#269'un na kupca'
     end
     item
       IndexID = 906589
-      Text = 'NO-TAX Layout file'
+      Text = 'Datoteka oblike dokumenta BREZ DAVKA'
     end
     item
       IndexID = 906590
-      Text = 'NO-TAX Document layout'
+      Text = 'Oblika dokumenta BREZ DAVKA'
     end
     item
       IndexID = 906591
-      Text = 'NO-TAX Document layout (15-code)'
+      Text = 'Oblika dokumenta BREZ DAVKA (15-mestna koda)'
     end
     item
       IndexID = 906588
-      Text = 'Value stock account'
+      Text = 'Vrednotenje zalog na kontu'
     end
     item
       IndexID = 906587
-      Text = 'Document reference'
+      Text = 'Sklicevanje na dokument'
     end
     item
       IndexID = 906586
-      Text = 'Stock - Expected quantities'
+      Text = 'Zaloga - Pri'#269'akovana koli'#269'ina'
     end
     item
       IndexID = 906585
-      Text = 'Stock item list - Active stock'
+      Text = 'Seznam artiklov - Aktivna zaloga'
     end
     item
       IndexID = 906584
-      Text = 'Production list'
+      Text = 'Seznam proizvodnje'
     end
     item
       IndexID = 902009
-      Text = 'Price list - Large retail - Purchases'
+      Text = 'Cenik - Velika maloprodaja - Nabava'
     end
     item
       IndexID = 902008
-      Text = 'Price list - Large retail - Sales'
+      Text = 'Cenik - Velika maloprodaja - Prodaja'
     end
     item
       IndexID = 906557
-      Text = 'Graphs'
+      Text = 'Grafi'
     end
     item
       IndexID = 906558
-      Text = 'Graphs per week'
+      Text = 'Grafi na teden'
     end
     item
       IndexID = 906559
-      Text = 'Graphs per month'
+      Text = 'Grafi na mesec'
     end
     item
       IndexID = 906560
-      Text = 'Graph - Profit / Loss per month'
+      Text = 'Graf - Dobi'#269'ek / Izguba na mesec'
     end
     item
       IndexID = 906561
-      Text = 'Graph - Debtors per month'
+      Text = 'Graf - Kupci na mesec'
     end
     item
       IndexID = 906562
-      Text = 'Graph - Creditors per month'
+      Text = 'Graf - Dobavitelji na mesec'
     end
     item
       IndexID = 906563
-      Text = 'Graph - Quotes per month - Quantities'
+      Text = 'Graf - Ponudbe na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906564
-      Text = 'Graph - Quotes per month - Amount'
+      Text = 'Graf - Ponudbe na mesec - Znesek'
     end
     item
       IndexID = 906565
-      Text = 'Graph - Credit notes per month - Quantities'
+      Text = 'Graf - Dobropisi na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906566
-      Text = 'Graph - Credit notes per month - Amount'
+      Text = 'Graf - Dobropisi na mesec - Znesek'
     end
     item
       IndexID = 906567
-      Text = 'Graph - Invoices per month - Quantities'
+      Text = 'Graf - Ra'#269'uni na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906568
-      Text = 'Graph - Invoices per month - Amount'
+      Text = 'Graf - Ra'#269'uni na mesec - Znesek'
     end
     item
       IndexID = 906569
-      Text = 'Graph - Invoices - Credit notes per month - Quantities'
+      Text = 'Graf - Ra'#269'uni in dobropisi na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906570
-      Text = 'Graph - Invoices - Credit notes per month - Amount'
+      Text = 'Graf - Ra'#269'uni in dobropisi na mesec - Znesek'
     end
     item
       IndexID = 906571
-      Text = 'Graph - Purchases - Supplier returns per month - Quantities'
+      Text = 'Graf - Nabava - Vra'#269'ila dobaviteljem na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906572
-      Text = 'Graph - Purchases - Supplier returns per month - Amount'
+      Text = 'Graf - Nabava - Vra'#269'ila dobaviteljem na mesec - Znesek'
     end
     item
       IndexID = 906573
-      Text = 'Graph - Orders per month - Amount'
+      Text = 'Graf - Naro'#269'ila na mesec - Znesek'
     end
     item
       IndexID = 906574
-      Text = 'Graph - Orders per month - Quantities'
+      Text = 'Graf - Naro'#269'ila na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906575
-      Text = 'Graph - Supplier returns per month - Amount'
+      Text = 'Graf - Vra'#269'ila dobaviteljem na mesec - Znesek'
     end
     item
       IndexID = 906576
-      Text = 'Graph - Supplier returns per month - Quantities'
+      Text = 'Graf - Vra'#269'ila dobaviteljem na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906577
-      Text = 'Graph - Purchases per month - Amount'
+      Text = 'Graf - Nabava na mesec - Znesek'
     end
     item
       IndexID = 906578
-      Text = 'Graph - Purchases per month - Quantities'
+      Text = 'Graf - Nabava na mesec - Koli'#269'ine'
     end
     item
       IndexID = 906579
-      Text = 'Graph - Invoices - Credit notes per week - Quantities'
+      Text = 'Graf - Ra'#269'uni in dobropisi na teden - Koli'#269'ine'
     end
     item
       IndexID = 906580
-      Text = 'Graph - Invoices - Credit notes per week - Amount'
+      Text = 'Graf - Ra'#269'uni in dobropisi na teden - Znesek'
     end
     item
       IndexID = 906581
-      Text = 'Graph - Purchases - Supplier returns per week - Quantities'
+      Text = 'Graf - Nabava - Vra'#269'ila dobaviteljem na teden - Koli'#269'ine'
     end
     item
       IndexID = 906582
-      Text = 'Graph - Purchases - Supplier returns per week - Amount'
+      Text = 'Graf - Nabava - Vra'#269'ila dobaviteljem na teden - Znesek'
     end
     item
       IndexID = 906583
-      Text = 'Tax codes - Tax rates'
+      Text = 'Dav'#269'ne stopnje po dav'#269'nih oznakah'
     end>
 end
