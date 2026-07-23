@@ -11588,11 +11588,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'KM klassid'
+      Text = 'Konto seos'
     end
     item
       IndexID = 3466
-      Text = 'KM klass'
+      Text = 'Konto seosed'
     end
     item
       IndexID = 3467

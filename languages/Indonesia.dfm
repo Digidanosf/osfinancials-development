@@ -11296,11 +11296,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Kelas PPN'
+      Text = 'Kelas akun'
     end
     item
       IndexID = 3466
-      Text = 'Kelas PPN'
+      Text = 'Kelas akun'
     end
     item
       IndexID = 3467

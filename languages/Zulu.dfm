@@ -13981,11 +13981,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Ama-Tax Classes'
+      Text = 'Ukuxhunyaniswa kwama-akhawunti'
     end
     item
       IndexID = 3466
-      Text = 'I-Tax Class'
+      Text = 'Ukuxhunyaniswa kwama-akhawunti'
     end
     item
       IndexID = 3467

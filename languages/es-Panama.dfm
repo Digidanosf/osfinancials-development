@@ -12967,11 +12967,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Clases de ITBMS'
+      Text = 'Clases de cuentas'
     end
     item
       IndexID = 3466
-      Text = 'Clase de ITBMS'
+      Text = 'Clase de cuentas'
     end
     item
       IndexID = 3467

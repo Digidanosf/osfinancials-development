@@ -14155,11 +14155,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Klasy podatkowe'
+      Text = 'Klasy kont'
     end
     item
       IndexID = 3466
-      Text = 'Klasa podatkowa'
+      Text = 'Klasa konta'
     end
     item
       IndexID = 3467

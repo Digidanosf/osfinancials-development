@@ -14086,11 +14086,11 @@ object TTranslationSaveObject
     end
     item
       IndexID = 3465
-      Text = 'Da'#328'ov'#233' t'#345#237'dy'
+      Text = #218#269'tov'#233' t'#345#237'dy'
     end
     item
       IndexID = 3466
-      Text = 'Da'#328'ov'#225' t'#345#237'da'
+      Text = #218#269'tov'#233' t'#345#237'da'
     end
     item
       IndexID = 3467
