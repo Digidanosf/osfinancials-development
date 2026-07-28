@@ -472,4 +472,3 @@ This review evaluates the framework against **IFRS for SMEs (Section 11, 13, 17,
 
 
 ***
-_Created with the Standard Edition of HelpNDoc: [Create Professional CHM Help Files with HelpNDoc's Easy-to-Use Tool](<https://www.helpndoc.com/feature-tour/create-chm-help-files/>)_
