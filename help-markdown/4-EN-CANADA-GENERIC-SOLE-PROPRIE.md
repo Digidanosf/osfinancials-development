@@ -469,7 +469,4 @@ This review evaluates the framework against **IFRS for SMEs (Section 11, 13, 17,
 | G9000400 | Loss on sale or disposal of business assets | OTHER INCOME AND EXPENSES@Other expenses | OTHER INCOME AND EXPENSES | Capital losses incurred when retiring or selling business fixed assets for less than their current net book value. | IFRS for SMEs Section 17 / ASPE 3061 | **CORRECT** |
 | G9000500 | Charitable contributions and donations | OTHER INCOME AND EXPENSES@Other expenses | OTHER INCOME AND EXPENSES | Financial donations made to registered Canadian charities (Note: for sole proprietors, these are reported on personal tax returns via Schedule 9). | CRA Sole Proprietor Rules | **CORRECT** |
 
-
-
 ***
-_Created with the Standard Edition of HelpNDoc: [Create Professional CHM Help Files with HelpNDoc's Easy-to-Use Tool](<https://www.helpndoc.com/feature-tour/create-chm-help-files/>)_
