@@ -1,0 +1,1060 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>FIXES - TurboCASH5-3 - Release-Candidate-7</title>
+  <meta name="description" content="FIXES - TurboCASH5-3 - Release-Candidate-7" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FIXES - TurboCASH5-3 - Release-Candidate-7">
+  <meta name="twitter:description" content="FIXES - TurboCASH5-3 - Release-Candidate-7">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="FIXES - TurboCASH5-3 - Release-Candidate-7" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="FIXES - TurboCASH5-3 - Release-Candidate-7" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="fixed-turboxash5-3-candidate7"
+		  data-hnd-context="1298"
+		  data-hnd-title="FIXES - TurboCASH5-3 - Release-Candidate-7"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="known-issue-plugin-quick-order.html" title="Known issues - Plugin - QuickOrder - Stockcount tab" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="fixed-reports.html" title="FIXED-Reports" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>FIXES - TurboCASH5-3 - Release-Candidate-7</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">FIXES - TurboCASH5-3 - Release-Candidate-7</span></span></h1>
+<p class="rvps2"><span class="rvts6">Compiled TurboCASH5-3-Release-Candidate-7 - after POS Fixes.</span></p>
+<p class="rvps2"><span class="rvts6">Updated osFinancials5.1.0.233 (from osFinancials5.1.0.227)</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">ADDED / Include OpenAI&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">OpenAI import on bank import form. Set the values in Setup -&gt; Company data second tab and press save.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">FIXED : tcash.ini files AppName=TurboCASH5-2025&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">AppName=TurboCASH5 change from TurboCASH5-2025 in all Language files of the TurboCASH5-MERGE Install sorce - Labels cut off in some screens and in some languages - Also changed in Inno Setup script.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">FIXED POS : Compiled TurboCASH5-Release-Candidate-6 with the POS invoice now displaying</span></span></h2>
+<p class="rvps2"><span class="rvts6">Works&nbsp;can see screen and interface is now displaying.</span></p>
+<p class="rvps2"><span class="rvts11">FIXED &nbsp;issues</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">POS&nbsp;Invoice&nbsp;discount</span><span class="rvts6">&nbsp;- Not&nbsp;working - For example, if add 10% discount it is not displays on the POS Invoice screen and Payment does not reduce discount.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Quantities entered</span><span class="rvts6"> e.g. 2 does not change the selling price - &nbsp;x2 showing in Quantity column - Payment = 1 item only.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Printing POS Invoice / Reprinting POS Invoices / Setup -&gt; POS</span><span class="rvts6"> - Cannot print Invoices or test printer - Prints blank with 0kb - I use Microsoft print PDF and cannot open these prints in Edge web browser. &nbsp;Think the last time got the Invoices printing was in TurboCASH4/osFinancials4.</span></li>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">FIXED : Budgets MSSQL Error</span></span></h1>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Updated Help file (EngHelp.chm)</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Updated the Help file to include TurboCASH in text e.g. osFinancials5/TurboCASH5. The reason for this is to get it ready for ChatGPT Search and other AI searches on the web.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Release Candidate 3 source &nbsp;= Wednesday, 25 December 2024 - 03:55:54 - osFinancials5/TurboCASH5 - Business Class - Help</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Help file outdated = Wednesday, 18 December 2024 - 06:23:01 - osFinancials5/TurboCASH5 - Business Class - Help</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Fixes in progress - Debtor Statements / Creditor Remittance Advices and Age analysis reports cut-off Description text</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Firebird databases - Debtor Statements / Creditor Remittance Advices and Debtor Age analysis / Creditor Age analysis reports not updated with Fixes to Descriptions not printing fully (Characters cut-off) in nounicode=FALSE setting (Unicode enabled for most users). References Such as the Document number and references entered in batch entry screens - still n cuts-off only in Firebird databases. &nbsp;Need to add similar sgl "</span><span class="rvts101">cast</span><span class="rvts99">(</span><span class="rvts616">messages</span><span class="rvts99">.</span><span class="rvts98">SDescription </span><span class="rvts97">as</span><span class="rvts98"> </span><span class="rvts97">varchar</span><span class="rvts99">(</span><span class="rvts98">255</span><span class="rvts99">))</span><span class="rvts98"> &nbsp;</span><span class="rvts97">as</span><span class="rvts98"> SDESCRIPTION_1 " for the SREFERENCE - I may need some guidance and pointers to fix these.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">MSSQL databases - Prints correct in all these reports - Prints the full References and Descriptions.</span></li>
+</ul>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Folders not included&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">execute\localfiles\dbname folder not included.&nbsp;</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Bank import - Shows the Reconcile button and Match log tab not correct &nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Neet to check the configuration / activation of the bank import plugin. The </span><span class="rvts11">Reconcile</span><span class="rvts6"> button should not be displayed as in osFinancials5.1.0.227.&nbsp;</span></p>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<p class="rvps22"><img alt="" style="padding : 1px;" src="lib/bank-import-reconcile-button-x.png"></p>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<p class="rvps22"><span class="rvts6">The Match log may display incorrect data</span></p>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">FIXED : Outstanding : Debtor Statements / Creditor Remittance Advices and Age analysis reports SREFERENCE cut off text</span></span></h2>
+<p class="rvps2"><span class="rvts6">In </span><span class="rvts11">Firebird</span><span class="rvts6"> Databases, the Reference only displays 7 Characters - not the full document number or reference as entered in the Reference field of batch entry screens. The Descriptions were fixed in TurboCASH5-2025-Release-Candidate-3 (Also replicated in osFinancials5-MERGE-7)</span></p>
+<p class="rvps2"><span class="rvts6">Replicated in </span><span class="rvts11">nounicode=FALSE </span><span class="rvts6">setting (installs for most users)</span></p>
+<p class="rvps2"><span class="rvts6">In </span><span class="rvts11">MSSQL</span><span class="rvts6"> Databases, it displays the full characters and does not replicate these Reference and Description labels not fully printed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Example of Debtors statement - Outstanding. </span><span class="rvts11">NOTE</span><span class="rvts6"> the Debtor statement prints the full characters, while the Debtor Age analysis and Creditor Remittance advices - Outstanding and Creditors Age analysis reports, replicates the same issues with the Reference not printing in Firebird databases fully.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">NOTE</span><span class="rvts6"> the Debtor statement prints the full characters but not the Debtor statement - Outstanding&nbsp;</span></p>
+<h1 class="rvps10"><img alt="" style="padding : 1px;" src="lib/nounicose-false-debtor-statement-outstanding.png"></h1>
+<p class="rvps2"><span class="rvts6">The Descriptions is fixed in TurboCASH5-2025-Release-Candidate-3 &nbsp;(Also fixed in osFinancials5-MERGE-7)</span></p>
+<p class="rvps2"><span class="rvts11">FIXED</span><span class="rvts6"> : Transactions sequence by date : After fixing the SReference for the &nbsp;Document number and References entered in Batches, the transactions prints according to "</span><span class="rvts42">order by 11</span><span class="rvts6">" instead of "</span><span class="rvts42">order by 12</span><span class="rvts6">" to print the transactions by date (TN_906552) fixed in all reports updated.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">FIXED : Debtor Statements / Creditor Remittance Advices and Age analysis reports cut off text</span></span></h2>
+<p class="rvps2"><span class="rvts6">On Debtors statements, the TrExpression26 = TRANSACTDETAIL.SDESCRIPTION_1 displays only 20 characters if </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> setting also in Data configuration and on printed report.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If the &nbsp;</span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> setting is set to </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6">, the full descriptions on Debtor statements will be printed.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Similar Descriptions issues were replicated in the following reports:</span></p>
+<p class="rvps2"><span class="rvts11">Debtors</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Debtor statements&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_160\TRN_1090 \TRN_1090 - </span><a class="rvts37" href="debtor-statement.html">Debtor statement</a></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_160\TRN_1090 \TRN_906552 - </span><a class="rvts37" href="debtor-statement-open-item.html">Debtor statement - Outstanding</a></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Debtors - Age analysis (Rreports)</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906142 - </span><a class="rvts37" href="debtors-ageing-balances-detail.html">Balances detail</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906143 - </span><a class="rvts37" href="debtors-ageing-open-item.html">Balances detail history (open item)</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906147 - </span><a class="rvts37" href="debtors-ageing-balances.html">Balances</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">Creditors&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Creditor remittance advices&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_161\TRN_1090 \1089 - </span><a class="rvts37" href="creditor-remittance-advice.html">Creditor remittance advises</a><span class="rvts6"> &nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_161\TRN_1090 \TRN_906551 - </span><a class="rvts37" href="creditor-remittance-advice-open.html">Creditor remittance advises - Outstanding</a><span class="rvts6"> &nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Creditors - Age analysis (Reports)</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906142 - </span><a class="rvts37" href="creditors-ageing-balances-detail.html">Balances detail</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906143 - </span><a class="rvts37" href="creditors-ageing-open-item.html">Balances detail history (open item)</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906147 - </span><a class="rvts37" href="creditors-ageing-balances.html">Balances</a><span class="rvts6"> &nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6">Added cast message field length to Descriptions in TRANSACTDETAIL&nbsp;</span></p>
+<div class="rvps18">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps2"><span class="rvts97">SELECT</span><span class="rvts98"> &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts101">cast</span><span class="rvts99">(</span><span class="rvts98">transact</span><span class="rvts99">.</span><span class="rvts98">FAmount </span><span class="rvts97">as</span><span class="rvts98"> </span><span class="rvts97">decimal</span><span class="rvts99">(</span><span class="rvts98">12</span><span class="rvts99">,</span><span class="rvts98">2</span><span class="rvts99">))</span><span class="rvts98"> p1</span><span class="rvts99">,</span></p>
+   <p class="rvps2"><span class="rvts98">transact</span><span class="rvts99">.*,</span><span class="rvts98">Account</span><span class="rvts99">.*,</span><span class="rvts98">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts101">cast</span><span class="rvts99">(</span><span class="rvts616">messages</span><span class="rvts99">.</span><span class="rvts98">SDescription </span><span class="rvts97">as</span><span class="rvts98"> </span><span class="rvts97">varchar</span><span class="rvts99">(</span><span class="rvts98">255</span><span class="rvts99">))</span><span class="rvts98"> &nbsp;</span><span class="rvts97">as</span><span class="rvts98"> SDESCRIPTION_1</span></p>
+   <p class="rvps2"><span class="rvts97">FROM</span><span class="rvts98"> transact</span></p>
+   <p class="rvps2"><span class="rvts98">&nbsp; &nbsp;</span><span class="rvts99">LEFT</span><span class="rvts98"> </span><span class="rvts99">OUTER</span><span class="rvts98"> </span><span class="rvts99">JOIN</span><span class="rvts98"> account</span></p>
+   <p class="rvps2"><span class="rvts98">&nbsp; &nbsp;</span><span class="rvts97">ON &nbsp;</span><span class="rvts99">(</span><span class="rvts98">transact</span><span class="rvts99">.</span><span class="rvts98">WAccountID </span><span class="rvts99">=</span><span class="rvts98"> account</span><span class="rvts99">.</span><span class="rvts98">WAccountID</span><span class="rvts99">)</span><span class="rvts98">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts99">join</span><span class="rvts98"> </span><span class="rvts616">Messages</span><span class="rvts98"> </span><span class="rvts97">on </span><span class="rvts99">(</span><span class="rvts98">transact</span><span class="rvts99">.</span><span class="rvts98">WDescriptionid </span><span class="rvts99">=</span><span class="rvts98"> </span><span class="rvts616">messages</span><span class="rvts99">.</span><span class="rvts98">WMessageID</span><span class="rvts99">)</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">FIXED - Access control - User tabs &nbsp;- Default -&gt; Caravan planning&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Default -&gt; Caravan planning item in User tabs - Probably for a plugin. Need to remove it. Needs to be available only if the plugin is activated. &nbsp;(osFinancials5.1.0.230)</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/access-control-caravan-planning.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">MSSQL ERROR - Budget&nbsp;</span></span></h1>
+<p class="rvps86"><span class="rvts36">Incorrect syntax near 'a'.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Included in the next merge install&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Document layout file&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">TRN_906277.rep Document layout file (15 code) &nbsp;Moved the Document type in the Header to the centre as printing to much to the right of the layout file.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Readme.txt android</span></span></h2>
+<p class="rvps2"><span class="rvts6">In TurcoCASH5 root directory but not in osfinancials5 root installation directory</span></p>
+<p class="rvps2"><span class="rvts6">Deleted file in TurboCASH5 install as Android app never took off (discontinued)</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Subscriptions MSSQL Error</span></span></h1>
+<p class="rvps86"><span class="rvts36">Operand type clash: date is incompatible with int</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">MSSQL - Set default language&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">In MSSQL / Firebird the </span><span class="rvts11">Apply</span><span class="rvts6"> button does not save the language if selected in Access control for no users.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Next release Fixes Updates</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Languages updated</span></span></h2>
+<p class="rvps2"><span class="rvts6">Fixed typo in Afrikaans language file</span></p>
+<p class="rvps2"><span class="rvts6">LabelID 337 Verskafferreoere =&gt; Verskafferretoere missing "t".</span></p>
+<p class="rvps2"><span class="rvts6">Scheduled for next installs compile.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Tutorials Updated</span></span></h2>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Images</span></span></h2>
+<p class="rvps2"><span class="rvts6">All tutorials - Added the Compressor and Drill press images to Stock items for tutorial and documentation purposes.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">These images were not included, since these tutorials was created from scratch on a blank database.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Resource name in Calendar &nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">For TurboCASH5 changed the resource shipped in the Calendar from</span></p>
+<p class="rvps2"><span class="rvts6">osFinancials/ TurboCASH in Tutorials shipped with TurboCASH5</span></p>
+<p class="rvps2"><span class="rvts6">For osFinancials, the resource remains osFinancials.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Unicode install and nounicode setting</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Unounicode=FALSE</span></span></h2>
+<p class="rvps4"><span class="rvts227">If you check both the Unicode and Unicode Check tick-boxes, the </span><span class="rvts6">Unicode setting will be set as false in the osf.ini file:</span></p>
+<p class="rvps86"><span class="rvts36">nounicode=false</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/osf-install-unicode1.png"></p>
+<p class="rvps4"><span class="rvts6">This will cause the MSSQL error, when opening a Set of Books (MSSQL database type).</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">UNICODE SETTING in FIREBIRD ERRORS</span></span></h2>
+<p class="rvps4"><span class="rvts227">&nbsp;</span><span class="rvts6">Unicode setting will be set as false in the osf.ini file:</span></p>
+<p class="rvps86"><span class="rvts36">nounicode=false</span></p>
+<p class="rvps4"><span class="rvts6">Entering an ê (Alt+0136) or ë (Alt+0137) in for example Company name (Registered company names may include these characters, including existing users) replicates this error:</span></p>
+<p class="rvps86"><span class="rvts36">Dynamic SQL Error</span><br/><span class="rvts36">SQL error code = -303</span><br/><span class="rvts36">arithmetic exception, numeric overflow, or string truncation</span></p>
+<p class="rvps4"><span class="rvts6">This error is not replicated in the following options&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Setup → Accounts</span></p>
+<p class="rvps4"><span class="rvts6">Setup → Batches</span></p>
+<p class="rvps4"><span class="rvts6">Setup → Groups&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Budgets (Reports ribbon)</span></p>
+<p class="rvps4"><span class="rvts6">Setup → Reporting dates&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Debtors&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Creditors&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Documents </span><span class="rvts11">NOTE</span><span class="rvts6"> The companyname (Setup → Company info with this error prints these characters incorrectly on document layout files</span></p>
+<p class="rvps4"><span class="rvts6">Need to check some more forms - or maybe this could be checked out in osFinancials core and plugins</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">nounicode=TRUE</span></span></h2>
+<p class="rvps4"><span class="rvts227">If you do not check the </span><span class="rvts20">Unicode</span><span class="rvts227"> checkbox (leave blank) and only select (tick) the </span><span class="rvts20">Unicode Checked</span><span class="rvts227"> tick-box, the </span><span class="rvts6">Unicode setting will be set as false in the osf.ini file:</span></p>
+<p class="rvps86"><span class="rvts36">nounicode=true</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/install-unicode-true.png"></p>
+<p class="rvps4"><span class="rvts6">This will resolve the MSSQL error, when opening a Set of Books (MSSQL database type). Can open all Set of Books (MSSQL database type).</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Unounicode=True setting&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">MSSQL Database</span></span></h2>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Open Set of Books - MSSQL database- nounicode=TRUE</span></span></h3>
+<p class="rvps2"><span class="rvts6">Can open Sets of Books in Firebird and MSSQL databases. This solves the issue with Opening a Set of Books error if </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps86"><span class="rvts36">"Invalid object name 'OPREPORT'."&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Unicode setting needs to be set to </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Replicates the error in osf5.1.0.227 with the Install </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> setting =</span></p>
+<p class="rvps86"><span class="rvts36">"Invalid object name 'OPREPORT'."&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Cannot open MSSQL all books in both in osFinancials5.1.0.227 and in osFinancials5.1.0.189. &nbsp;This error has to do with the </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> setting is set to false in the osf.ini file.</span></p>
+<p class="rvps86"><span class="rvts36">nounicode=false.</span></p>
+<p class="rvps2"><span class="rvts6">Changing the </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> setting in the osf.ini file to true, then all MSSQL Sets of Books can be opened:&nbsp;</span></p>
+<p class="rvps86"><span class="rvts36">nounicode=true&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">In osFinancials5.1.0.227, the Unicode settings is implemented in the install. Instead of editing the Unicode settings in the osf.ini file using a text editor, you can set the Unicode settings in the install.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports - MSSQL database- nounicode=TRUE</span></span></h2>
+<p class="rvps2"><span class="rvts6">All reports and layout files including spreadsheet reports, seems to print fine and neatly except for &nbsp;the following 4 reports:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">systemreports -Stock in / out</span><span class="rvts6">&nbsp;</span></li>
+</ol>
+<p class="rvps14"><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\systemreports\TRN_1999\TRN_906112 &nbsp;(Stock in / out)&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts11">REPORTS/STOCK -Stock sidebar reports - Historical value</span></li>
+</ol>
+<p class="rvps14"><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\REPORTS\STOCK\LANG_906031 (Historical value)</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">userreports - Debtors - Outstanding at date</span><span class="rvts6">&nbsp;</span></li>
+</ol>
+<p class="rvps14"><span class="rvts6">Location : plug_ins\reports\userreports\TRN_160\TRN_947\TRN_906104 - &nbsp;Debtors outstanding at date&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts11">userreports - Creditors - Outstanding at date</span><span class="rvts6">&nbsp;</span></li>
+</ol>
+<p class="rvps14"><span class="rvts6">Location : plug_ins\reports\userreports\TRN_161\TRN_947\TRN_906103 - Creditors outstanding at date</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Plugins - MSSQL database- nounicode=true</span></span></h2>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Subscriptions MSSQL Error</span></span></h3>
+<p class="rvps86"><span class="rvts36">Operand type clash: date is incompatible with int</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Colours Select for Reporting groups</span></span></h2>
+<p class="rvps2"><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> Groups</span></p>
+<p class="rvps2"><span class="rvts6">Setting Colours in Groups does not change easily - MSSQL databases is more sticky than in Firebird databases&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Cannot set the Account group 1 colours - Loses selected colours</span></p>
+<p class="rvps2"><span class="rvts6">Standard Theme palette - Hard colours - Cannot make softer colours using Custom colours&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Debtor groups, Creditor groups, Document groups and Stock groups works but sticky - If the grids is open, you may select </span><span class="rvts11">Tools </span><span class="rvts22">→</span><span class="rvts11"> Close active forms</span><span class="rvts6"> and access the grid to display the colours.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Customise Languages - Rest tab - Empty account / No group&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Replicated in both Firebird and MSSQL databases.</span></p>
+<p class="rvps2"><span class="rvts6">The</span><span class="rvts11"> Customise languages - Rest</span><span class="rvts6"> tab does not store "</span><span class="rvts42">Empty account</span><span class="rvts6">" in Groups when you click on the </span><span class="rvts11">Change</span><span class="rvts6"> button (second button).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">It displays "</span><span class="rvts42">Empty account</span><span class="rvts6">" from the first "</span><span class="rvts42">Description of Zero account</span><span class="rvts6">". It does not save correctly.</span></p>
+<p class="rvps2"><span class="rvts6">Difficult for translations or customisation.</span></p>
+<p class="rvps2"><span class="rvts6">Need to change the first </span><span class="rvts11">Change</span><span class="rvts6"> button and confirm to change it to for example no group have to enter "</span><span class="rvts42">No group"</span><span class="rvts6"> and click </span><span class="rvts11">Change</span><span class="rvts6"> (second button). Thereafter need to reopen the Set of Books for changes to have an effect.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/custom-lang-rest-tab-change.png"></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/custom-lang-rest-tab-settings.png"></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Access control&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Posting / Delete buttons</span></span></h2>
+<p class="rvps2"><span class="rvts6">Need to update documentation&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Access control - Documents</span><span class="rvts6"> tab - Document posting tick-box - Add </span><span class="rvts11">Posting</span><span class="rvts6"> and </span><span class="rvts11">Delete</span><span class="rvts6"> buttons to the Documents grid sidebar. Does not work for single users - Need to setup users before this Document posting will be available for a user.</span></p>
+<p class="rvps2"><span class="rvts6">It is just a entry in the database with user id 0</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Default language for a Set of Books&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">In Firebird and MSSQL database types cannot change the language on </span><span class="rvts11">Setup → Access control</span><span class="rvts6"> (System language) and click the </span><span class="rvts11">Apply</span><span class="rvts6"> button as the default language for the Set of Books. It reverts back to the original language e.g. Afrikaans if you change it to English. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Workaround - You have to use the </span><span class="rvts11">Switch language</span><span class="rvts6"> option on the </span><span class="rvts11">Start</span><span class="rvts6"> ribbon to update the </span><span class="rvts11">System language</span><span class="rvts6"> in </span><span class="rvts11">Setup Setup → Access control</span><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Language can be set at user level. So user a can login with language a and user b with language b</span></p>
+<p class="rvps2"><span class="rvts11">System language</span><span class="rvts6"> - Default language for the Set of Books&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Language - Cannot select a language (empty / blank). You need to use the Multi-language Set of Books plugin (</span><a class="rvts37" href="https://www.osfinancials.org/en/plugin-manuals/515-multi-language-plugin" target="_blank">Manual</a><span class="rvts6"> - </span><a class="rvts37" href="https://www.osfinancials.org/en/webshop/accountancy/multi-language-set-of-books" target="_blank">Shop</a><span class="rvts6"> ) to select a language added in the </span><a class="rvts17" href="plugin-multi-language-groups-tra.html">Setup → Groups - Languages</a><span class="rvts6"> reporting group. &nbsp;&nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Access Violations - Reports</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Ledger analyser - Balance sheet&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Produces Access violation error&nbsp;</span></p>
+<p class="rvps86"><span class="rvts36">Access violation at address 525C8283 in module 'rtl290.bpl'. Read of address 2E300858</span></p>
+<p class="rvps2"><span class="rvts6">Balance sheet prints after second attempt</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Graphs&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Some Graphs print Access violations click 1 or sometimes 2xtimes then it prints.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Cost centres</span></span></h2>
+<p class="rvps2"><span class="rvts6">Cost centres were producing similar Access violation errors in the Balance sheet and some reports. Need to click 1 or more tipes then the report prints.&nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Export - Accounts&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Spreadsheet import - Accounts</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Spreadsheet export import - No Sub-accounts Workaround delete accounts and recreate accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Export (Setup ribbon) Export tab txt file imports well - Need to delete the first tax account (No tax tab) and zero-rated items.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">You can check the Tax percentages (User reports </span><span class="rvts22">→</span><span class="rvts6"> Tax to see incorrect tax percentages such as the first Tax code (sub-account), which does not incluse a Tax tab and percentage.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Import Stock</span></span></h2>
+<p class="rvps2"><span class="rvts6">Stock - Import - Tab-delimited .txt file</span></p>
+<p class="rvps86"><span class="rvts36">The statement has been terminated. - Tab delimited *.txt file</span><br/><span class="rvts36">The INSERT statement conflicted with the FOREIGN KEY constraint "FK_DOCLINE_STOCK". The conflict occurred in database "MSSQL-TOETS-NUTSMAN", table "dbo.Stock", column 'WStockID'.</span></p>
+<p class="rvps2"><span class="rvts6">Spreadsheet Export from Firebird databases and Import to MSSQL works. &nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Imported Batches&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Replicated in both Firebird and MSSQL Database types.</span></p>
+<p class="rvps2"><span class="rvts11">F8: Batch list </span><span class="rvts6">Empty accounts on the Unposted batch report.</span></p>
+<p class="rvps2"><span class="rvts6">Balancing the batch will print only the balanced accounts - need to reselect or confirm the imported accounts</span></p>
+<p class="rvps2"><span class="rvts6">Reselect the accounts - list on Batch </span><span class="rvts11">F8:List</span><span class="rvts6"> Unposted batches report.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Bank import - Import Bank statement</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Delete Bank account with Posted transactions</span></span></h2>
+<p class="rvps2"><span class="rvts6">Bank statement - Import Account from spreadsheet - Cannot delete bank account</span></p>
+<p class="rvps86"><span class="rvts36">The statement has been terminated.</span><br/><span class="rvts36">The DELETE statement conflicted with the REFERENCE constraint "FK_TRANSACT_ACCOUNT". The conflict occurred in database "MSSQL-MY-BOOKS", table "dbo.TransAct", column 'WAccountID'.</span></p>
+<p class="rvps2"><span class="rvts6">If you have posted transactions to a bank account, you first need to cancel reverse posted batch and erase the batch to process the import bank statement&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Similar errors in Firebird databases.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Bank-Import Open Item link&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">When allocating transactions for an Open item account, the Open item selection screen.&nbsp;</span></p>
+<p class="rvps86"><span class="rvts36">The statement has been terminated.</span><br/><span class="rvts36">The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OILINKSPRE_BATCH". The conflict occurred in database "MSSQL-MY-BOOKS", table "dbo.BatCon", column 'WBatchID'.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Imported Documents&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Document Export Import plugin used to export documents from a Set of Books (Firebird Database). Imported into &nbsp;a &nbsp;Set of Books (MSSQL database).</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Import Exported documents&nbsp;</span></span></h2>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Financial entry&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Financial Entry - Need to reselect the Ledger Account and confirm it is correct.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Can select a main account (with sub accounts).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Tax by default looks like the Tax is codes is correct, Tax amount on Documents grid - When opening the document the tax code may be blank. Need to select the correct tax code.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Update Documents</span></span></h3>
+<p class="rvps2"><span class="rvts6">When updating documents, some errors were replicated in MSSQL databases. Some of these similar errors is replicated in Firebird databases.</span></p>
+<p class="rvps86"><span class="rvts36">Fault in rounding please set your rounding margin document:AK000001 of 150</span><br/><span class="rvts36">You cant post to the zero tax account!</span></p>
+<p class="rvps2"><span class="rvts6">Need to select the correct Tax account.</span></p>
+<p class="rvps86"><span class="rvts36">AK000001</span><span class="rvts36"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts36">Algemene Grootboek</span><span class="rvts36"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts36">1000</span><span class="rvts36"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts36">0</span><span class="rvts36"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Financial Entry - Imported Documents - Need to select a Ledger account&nbsp;</span></p>
+<p class="rvps2"><span class="rvts102">Languages</span><span class="rvts6">&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Language files updated&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">The </span><a class="rvts37" href="fixed-added-language-labels.html">Afrikaans and 26 English language files were updated</a><span class="rvts6"> with fixes to typos, etc. See - Language-files-changelog.docx</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : Changelog - </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/changelog-merge/Language-files-changelog.docx" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/changelog-merge/Language-files-changelog.docx</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Language files needs to be merged in " .../bin/languages " directory.</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/languages" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/languages</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Known issues - Language Files Label Inconsistencies&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Some </span><a class="rvts17" href="Known-issue--language-label-inco.html">Language Files Label Inconsistencies</a><span class="rvts6">: were found:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Bank import plugin</span><span class="rvts6">:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts6">Receipt column LabelID 1100 Receipt may need to be changed to labelID 2233 to reflect Receipts to be consistent with the plural LabelID 2233 reflecting Payments. &nbsp;</span></li>
+   <li class="rvps14 noindent"><span class="rvts6">Changing LabelID 1100 Receipt to Receipts will cause the Receipt options screen to print Receipts instead of Receipt.</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">Document Status</span><span class="rvts6">: In the Document entry form's header refers to Open (LanguageID's 163, 20120 or 21042)., which is used for the Open button on most screens. There is LabeID 580, Open for posting. Unposted (LabelID's 962 or 1097 shows in the Status column of documents grid. &nbsp;&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts111">Outstanding Translations</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">All the </span><a class="rvts17" href="translations-outstanding.html">Outstanding translations</a><span class="rvts6"> which is not translatable in the osFinancials5 source, including plugins are listed with screenshots, notes and possible LabelID's. These outstanding translations is listed in various documents according to function and each of the plugins.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><a class="rvts17" href="translations-outstanding.html">Outstanding Translations osFinancials Core</a><span class="rvts6">:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/translations" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/translations</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><a class="rvts17" href="translations-plugins.html">Outstanding Translations Plugins</a><span class="rvts11">:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/plugins-translations" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/plugins-translations</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><a class="rvts17" href="plugins-translations-dynareg.html">Outstanding Translations DynaReg Plugins</a><span class="rvts11">:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/plugins-dynabreg" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/plugins-dynabreg</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports, document layout files</span></span></h2>
+<p class="rvps2"><span class="rvts6">All reports and document layout files are translatable via the language files, except specific document layout files designed for the Dutch market.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Meticulous efforts have been exercised to resolve any language inconsistencies and include fixes for example, some lost in translation labels not printing in the Debtor or Creditor preferred language in the </span><a class="rvts37" href="reportman.html">Report designer</a><span class="rvts6">.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports</a><span class="rvts6"> This repository contains all updated reports, document layout files, including those related to plugins. This repository can be merged with the '...\plug_ins\reports\' directory. &nbsp;</span></li>
+ </ul>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Themes&nbsp;</span></span></h1>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Obsolete folders and files to Delete in ...bin/themes folder</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">My-Material</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">svg-theme</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">svg-theme.zip</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Known issues - Classic Report icons display in SVG themes</span><span class="rvts6">: The classic report icons are still displaying in SVG themes. This issue is addressed Compatible Theme Skins available for a download on GitHub to be to ensure consistency across themes.&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps106 noindent"><span class="rvts20">Issue</span><span class="rvts6">: Classic report icons are still displaying in SVG themes, which affects consistency across themes.</span></li>
+  <li class="rvps106 noindent"><span class="rvts20">Resolution</span><span class="rvts6">: Compatible theme skins are available for download on GitHub to address this issue and ensure consistency. These need to be updated and included in the next osFinancials installation.</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="o%20https://github.com/Digidanosf/osfinancials-development/tree/main/themes" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/themes</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><a class="rvts37" href="fix-themes.html">FIXED - Creditor control icon not loading correctly</a></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">The creditor icon - does not change when creating an image strip in all themes - </span><span class="rvts11">Setup → Accounts</span><span class="rvts6"> and in </span><span class="rvts11">Ledger viewer</span><span class="rvts6"> - It is not correctly rendered / displayed.&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Checked properties of creditor svg files and replaced the Acccreditors.svg icons and created new image strips in all themes containing svg icons with the correct colour.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Creditor control icon not loading correctly - Classic icon in some themes - Fixed in osFinancials5.1.0.109 &nbsp;- but with the osFinancials5.1.0.127 / &nbsp;osFinancials5.1.0.189 update does not include these fixes.&nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Compatible Theme Skins</span><span class="rvts6"> - Each theme folder includes a customizable theme skin. There are 34 custom themes available for osFinancials5/TurboCASH5. You can view </span><a class="rvts37" href="themes-screenshots.html">screenshots of the available themes</a><span class="rvts6"> to help you make your choice.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Installed Themes</span><span class="rvts6">: These 7 themes are included in the osFinancials5 installations and may include fixes. They can be downloaded as a zip file and copied to the `.../bin/themes` folder of your osFinancials5 installation directory.&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/themes/themes-installed.zip" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/themes/themes-installed.zip</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts6"> </span><span class="rvts11">New Themes</span><span class="rvts6"> - A collection of 27 themes. These themes are available for download as a zip file. Once unzipped, you can copy the themes you need to the `.../bin/themes` folder of your osFinancials5 installation directory. These themes are not included in the osFinancials5 installs..</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/themes/themes-new.zip" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/themes/themes-new.zip</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+ <li class="rvps2 noindent"><a class="rvts37" href="theme-icon-colors-change.html">Change the colour of your svg icons in one go</a><span class="rvts6"> - In osFinancials5, you have the option to easily customize the colour of all 227 icons (in the SVG "</span><span class="rvts42">Scalable Vector Graphics</span><span class="rvts6">" file format) used in the interface. This customization process can be completed in less than a minute by utilizing a text editor such as Notepad++ and the Search and Replace feature. By replacing the default black colour with a colour of your preference, you can personalize the appearance of the icons in a copy of the "</span><span class="rvts42">Material</span><span class="rvts6">" theme to suit your taste.</span></li>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Documentation Update Overview</span></span></h1>
+<p class="rvps2"><span class="rvts6">The Help documentation for osFinancials has undergone significant updates to enhance usability, accuracy, and relevance. This update is structured into two main sections: Release Notes and Core Functionalities. Below is a detailed breakdown of the recent changes and improvements made to the documentation.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Release Notes</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Release Notes section provides a comprehensive overview of known issues, fixes, and updates for osFinancials core, reports, and plugins. This section is particularly useful for tracking changes across different versions of the software, such as migrations from Delphi 10 to Delphi 11 and Delphi 12. Key features include:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Known Issues and Fixes</span><span class="rvts6">: Detailed notes and screenshots of bugs found and fixed in pre-release versions.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Retesting</span><span class="rvts6">: Each known issue is retested with every install and update to ensure ongoing stability and reliability.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Firebird and MSSQL Compatibility</span><span class="rvts6">: Updates and notes on compatibility with Firebird and MSSQL databases across the core, reports, plugins, and other components.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Core Functionalities</span></span></h2>
+<p class="rvps2"><span class="rvts6">This section covers all core functionalities of osFinancials5.1/TurboCASH5-3, including reports, the report designer, and plugins. The documentation is currently being updated to provide a more comprehensive guide to testing all features. Given that osFinancials and TurboCASH share the same source code, this documentation can also serve as a useful reference for future releases of TurboCASH.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Specific Updates in the osFinancials Help System</span></span></h2>
+<p class="rvps2"><span class="rvts6">The following specific updates have been made to the osFinancials Help system:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><a class="rvts17" href="known-issues-plug-ins.html">Webshop Links</a><span class="rvts6">: Fixed approximately 400 links that were previously pointing to </span><a class="rvts37" href="http://www.osf-boekhoudpakket-administratie.nl/en/webshop" target="_blank">http://www.osf-boekhoudpakket-administratie.nl/en/webshop</a><span class="rvts6"> to </span><a class="rvts37" href="https://www.osfinancials.org/en/webshop" target="_blank">https://www.osfinancials.org/en/webshop</a><span class="rvts6"> in the </span><a class="rvts37" href="https://www.osfinancials.org/htmlhelp_eng/welcome.html" target="_blank">English Online Help</a><span class="rvts6"> and </span><a class="rvts37" href="https://www.osfinancials.org/htmlhelp_af/welcome.html" target="_blank">Afrikaans Online Help</a><span class="rvts6">. This update applies to both the </span><a class="rvts37" href="https://www.osfinancials.org/htmlhelp_eng/welcome.html" target="_blank">English Online Help</a><span class="rvts6"> and </span><a class="rvts37" href="https://www.osfinancials.org/htmlhelp_af/welcome.html" target="_blank">Afrikaans Online Help</a><span class="rvts6">, as well as the CHM help files.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Afrikaans Language</span><span class="rvts6">: Enhanced the Afrikaans content with more translations and modernized language. This update aims to improve the accessibility and readability of the documentation for Afrikaans-speaking users.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">SEO Metatags</span><span class="rvts6">: Added and updated metatags to improve the search engine optimization (SEO) of the documentation, making it easier for users to find relevant information through search engines.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">New and Updated Topics</span><span class="rvts6">: Added and updated several topics, including:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6"> &nbsp;</span><a class="rvts17" href="blockchain.html">Blockchain</a><span class="rvts6">: Introduced new content related to blockchain technology and its integration with osFinancials.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6"> &nbsp;</span><a class="rvts17" href="activa-plugin.html">Activa</a><span class="rvts6">: Updated information on managing assets within the system.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">&nbsp;</span><span class="rvts11"> </span><a class="rvts17" href="plugin-price-agreement.html">Price agreements</a><span class="rvts6">: Expanded documentation on setting up and managing price agreements.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6"> &nbsp;</span><a class="rvts17" href="stock-print-single-item.html">Stock Sidebar Reports</a><span class="rvts6">: Added new sections on generating and interpreting stock sidebar reports.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6">These updates will be included in the next release of the help files, ensuring that users have access to the most current and accurate information.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Conclusion</span></span></h2>
+<p class="rvps2"><span class="rvts6">The recent updates to the osFinancials Help documentation reflect a commitment to providing users with a comprehensive, accurate, and user-friendly resource. By addressing known issues, updating core functionalities, and enhancing language support, the documentation aims to support users in effectively utilizing osFinancials and TurboCASH.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Firebird and MSSQL Compatibility</span></span></h1>
+<p class="rvps2"><span class="rvts6">Ensuring compatibility with different database systems is crucial for the flexibility and scalability of osFinancials5.1/TurboCASH5-3. The following updates and notes pertain to Firebird and MSSQL compatibility:</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Core</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Database Connectivity</span><span class="rvts6">: Enhanced database connectivity modules to support both Firebird and MSSQL.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Performance Optimization</span><span class="rvts6">: Optimized core functionalities for improved performance on both Firebird and MSSQL databases.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Query Compatibility</span><span class="rvts6">: Ensured that all SQL queries used in reports are compatible with both Firebird and MSSQL syntax.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Report Generation</span><span class="rvts6">: Tested and verified that report generation processes run smoothly on both database systems.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Error Handling</span><span class="rvts6">: Implemented robust error handling mechanisms to manage potential issues specific to each database system.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Plugins</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Database-Specific Features</span><span class="rvts6">: Added support for database-specific features and functions in plugins to maximize compatibility.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Configuration Options</span><span class="rvts6">: Provided configuration options within plugins to allow users to specify their preferred database system.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Cross-Database Compatibility</span><span class="rvts6">: Ensured that plugins can operate effectively regardless of the underlying database system.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Other Components</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">User Interface</span><span class="rvts6">: Updated the user interface to provide clear feedback on database connectivity and compatibility status.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Documentation</span><span class="rvts6">: Included detailed documentation on setting up and configuring osFinancials with Firebird and MSSQL databases.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Support and Troubleshooting</span><span class="rvts6">: Expanded support resources and troubleshooting guides to assist users with any compatibility issues.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Conclusion</span></span></h2>
+<p class="rvps2"><span class="rvts6">By incorporating Firebird and MSSQL compatibility updates into the Release Notes, we aim to provide users with a more comprehensive understanding of the software's capabilities and ensure a smoother experience when working with different database systems. These updates will be included in the next release of the help files, ensuring that users have access to the most current and accurate information.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Updated Reports - Larger Database Fields</span></span></h1>
+<p class="rvps2"><span class="rvts6">The Sets of Books for the Firebird Database type now supports larger field lengths for data entry, catering to the specific requirements of larger businesses or organisations. This enhancement allows for more detailed and comprehensive data management, particularly in scenarios where extensive account codes and descriptions are necessary.</span></p>
+<p class="rvps2"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED</a><span class="rvts6">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-3X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-3X3-DIGITS.zip</a></li>
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-4X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-4X3-DIGITS.zip</a></li>
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-5X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-5X3-DIGITS.zip</a></li>
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-6X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-6X3-DIGITS.zip</a></li>
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-7X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-7X3-DIGITS.zip</a></li>
+ <li class="rvps63 noindent"><a class="rvts93" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/CUSTOMISE-BOOKS-ADVANCED/CUSTOMISE-EMPTY-BOOKS-8X3-DIGITS.zip" target="_blank">CUSTOMISE-EMPTY-BOOKS-8X3-DIGITS.zip</a></li>
+</ul>
+<div class="rvps18">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps68"><img alt="" style="padding : 1px;" src="lib/B53.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps18"><a class="rvts182" href="plugin-field-length.html">osFinancials Field length</a><span class="rvts26"> - </span><a class="rvts93" href="https://www.osfinancials.org/en/webshop/support/osfinancials-field-length" target="_blank">Shop</a><span class="rvts26"> - Payment per request - In addition to these options, you may shop for customised field lengths.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">New Sets of Books</span></span></h2>
+<p class="rvps2"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/firebird-databases/4-DIGIT-BOOKS" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/firebird-databases/4-DIGIT-BOOKS</a><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">These Sets of Books, based on the Firebird database type, include a basic Chart of Accounts supporting 4-digit main account and 3-digit sub-account codes, along with larger database fields.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">4-DIGIT-BOOKS</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><a class="rvts17" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/4-DIGIT-BOOKS/4-EN-SOUTH-AFRICA-GENERIC.zip" target="_blank">4-EN-SOUTH-AFRICA-GENERIC.zip</a><span class="rvts6">: This generic Set of Books includes 4-digit main account and 3-digit sub-account codes, based on the South African Chart of Accounts. It incorporates specific South African terminology and includes the structure of South African VAT-accounts and VAT-codes, aligned with the VAT201-return.</span></li>
+ <li class="rvps2 noindent"><a class="rvts17" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/4-DIGIT-BOOKS/4-AF-SUID-AFRIKA-GENERIES.zip" target="_blank">4-AF-SUID-AFRIKA-GENERIES.zip</a><span class="rvts6">: This generic Set of Books includes 4-digit main account and 3-digit sub-account codes, based on the South African Chart of Accounts in Afrikaans. It incorporates specific South African terminology and includes the structure of South African VAT-accounts and VAT-codes (</span><a class="rvts37" href="tax-vat-south-africa.html">Belasting op Toegevoegde Waarde (BTW) Suid-Afrika (Afrikaans)</a><span class="rvts6">, aligned with the VAT201-return.</span></li>
+ <li class="rvps2 noindent"><a class="rvts17" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/4-DIGIT-BOOKS/4-EN-UK-GENERIC.zip" target="_blank">4-EN-UK-GENERIC.zip</a><span class="rvts6">: This generic Set of Books includes 4-digit main account and 3-digit sub-accounts, based on the United Kingdom (UK) Chart of Accounts. It incorporates specific UK terminology and includes </span><a class="rvts37" href="tax-vat-united-kingdom.html">Value Added Tax (VAT) - United Kingdom</a><span class="rvts6"> accounts based on the VAT Standard rate scheme. The VAT-account and VAT-codes structure in the Chart of Accounts is designed to match the various boxes on the UK VAT return. </span><span class="rvts11">NOTE</span><span class="rvts6">: Various schemes for VAT may be applicable for various scenarios.&nbsp;</span></li>
+</ul>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Conclusion</span></span></h3>
+<p class="rvps2"><span class="rvts6">These examples provide a comprehensive guide to structuring VAT accounts and codes in the Chart of Accounts to match the requirements of different VAT returns. By aligning the VAT accounts with the relevant fields or boxes on VAT returns, businesses can ensure compliance and accuracy in their VAT reporting. This documentation is particularly useful for users in South Africa and the United Kingdom, offering detailed insights tailored to their specific VAT schemes and requirements. See topic - </span><a class="rvts37" href="custom-empty-books.html">NEW - Empty Sets of Books - Supports up to 8 digit main accounts and 3 digit sub accounts</a><span class="rvts6">.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Options to create and customise your own Set of Books</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">"</span><a class="rvts17" href="create-books-advanced.html">Customise your own Set of Books (Advanced)?</a><span class="rvts6">" (Firebird database) - Only includes 3 control accounts (Retained earnings / Debtors control and Creditors control). Using this option, the account descriptions is limited to 35 characters and 64 characters, depending of the number of digits you select. In addition to this, you need to update the "</span><span class="rvts42">TYPES</span><span class="rvts6">" table with Paper types and may need to add the Groups for Cost centre 1 / Cost centre 2 / Projects and Languages.</span></li>
+ <li class="rvps2 noindent"><a class="rvts17" href="custom-empty-books-config.html">CUSTOMISE-EMPTY-BOOKS</a><span class="rvts6"> (Pre-configured Firebird database) - Only includes 3 control accounts (Retained earnings / Debtors control and Creditors control). The field length for Account descriptions and Groups description length is set to 128 characters. The "</span><span class="rvts42">TYPES</span><span class="rvts6">" table with Paper types and may need to add the Groups for Cost centre 1 / Cost centre 2 / Projects and Languages. The basic journals (such as Sales journal, Purchase journal and General journal) have been added and the basic settings for documents (such as Invoices, Credit notes, Quotes, Purchases, Supplier returns and Orders) is already set.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">The basic Sets of Books created using this option will include the essential three main accounts: Debtor's Control, Creditor's Control, and Retained Earnings.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Before you start to add your own accounts to fit in with your chart of accounts, you may change the account codes and their descriptions, if necessary.</span></p>
+<p class="rvps2"><span class="rvts6">The remaining Chart of Accounts can be fully customized according to your specific requirements. This flexibility enables you to tailor the Sets of Books to suit your unique accounting needs.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Adjustments for Larger Field Lengths on Reports&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">The larger field lengths may result in overlapping and untidy reports. To address this, all reports and document layout files in the </span><a class="rvts37" href="reportman.html">Report designer</a><span class="rvts6"> were accordingly adjusted and fixed where necessary. These adjustments cater to Sets of Books used by existing customers, including those with up to 8-digit main account codes and 3-digit sub-accounts, as well as larger account descriptions and input fields.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip</span></span></h3>
+<p class="rvps2"><span class="rvts6">A specialized test file, "</span><a class="rvts60" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip" target="_blank">TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip</a><span class="rvts6">", is available on GitHub for the Firebird Database type. This file is designed to test and adjust expressions, labels, and other elements across all reports and plugins when dealing with extreme field lengths.</span></p>
+<h4 class="rvps24"><span class="rvts0"><span class="rvts27">Key Features</span></span></h4>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Extreme Field Lengths</span><span class="rvts6">: The file includes fields with extreme lengths to rigorously test the handling of long descriptions and data entries.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Comprehensive Testing</span><span class="rvts6">: It is used to ensure that all reports and plugins can accommodate and correctly display these extended field lengths without overlapping or formatting issues.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Adjustments for Expressions and Labels</span><span class="rvts6">: The test file helps in fine-tuning expressions, labels, and other report elements to maintain readability and functionality even with very long data entries. All reports and document layout files were adjusted where necessary using the </span><a class="rvts37" href="reportman.html">Report designer</a><span class="rvts6">.</span></li>
+</ul>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/firebird-databases/TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<h4 class="rvps24"><span class="rvts0"><span class="rvts27">Conclusion</span></span></h4>
+<p class="rvps2"><span class="rvts6">The TEST-REPORTS-4-DIGIT-DESCRIPTION-1234567890123456.zip file is an essential tool for ensuring that osFinancials can handle extreme field lengths effectively. By using this test file, developers and users can verify the robustness and flexibility of the system, particularly in scenarios where detailed and extensive data entries are required. This ensures that all reports and plugins remain functional and visually coherent, even with the most demanding data management needs.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Compatibility with Firebird and MSSQL Databases</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Firebird Databases</span><span class="rvts6">: The larger field lengths have been thoroughly tested and are fully compatible with Firebird databases. This ensures that users can leverage the extended field lengths without compromising the integrity or performance of their Firebird-based systems.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">MSSQL Databases</span><span class="rvts6">: Similarly, the larger field lengths have been tested and verified for compatibility with MSSQL databases. This dual compatibility ensures that users across different database environments can benefit from the enhanced data entry capabilities.</span></li>
+</ul>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Conclusion</span></span></h3>
+<p class="rvps2"><span class="rvts6">These updates enhance the flexibility and usability of osFinancials5.1/TurboCASH5-3, particularly for larger businesses and organizations that require more detailed and comprehensive data management. By supporting larger field lengths and adjusting reports accordingly, osFinancials ensures that users can effectively manage their accounting needs while adhering to various accounting standards and frameworks. The compatibility with both Firebird and MSSQL databases further broadens the applicability and reliability of these enhancements.</span></p>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Updated Reports and Layout files to accommodate larger database field length</span></span></h1>
+<p class="rvps2"><span class="rvts6">All reports and document layout files, when printed, now support larger database fields to accommodate the extended data entry requirements. The following updates were included in the osFinancials5.1.0.189 update:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">systemreports</span><span class="rvts6"> - </span><span class="rvts11">Location</span><span class="rvts6"> : " ...\plug_ins\reports\systemreports\ " See - </span><a class="rvts37" href="fixed-reports.html">List of Fixes to reports</a><span class="rvts6"> for screenshots and notes -&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/systemreports" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/systemreports</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts11">GENERAL </span><span class="rvts6">- </span><span class="rvts11">Location</span><span class="rvts6"> : " ...\plug_ins\reports\GENERAL\ "</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">documents - Location</span><span class="rvts6"> : " ...\plug_ins\reports\GENERAL\documents\ " &nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/GENERAL/documents" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/GENERAL/documents</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">ledgerview </span><span class="rvts6">- </span><span class="rvts11">Location</span><span class="rvts6"> : " ...\plug_ins\reports\GENERAL\ledgerview\ " &nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/GENERAL/ledgerview" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/GENERAL/ledgerview</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">REPORTS - Location</span><span class="rvts6"> : "...\plug_ins\reports\REPORTS\" &nbsp;</span><span class="rvts11">REPORTS/STOCK - Sidebar reports&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11"> Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/REPORTS/STOCK" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/REPORTS/STOCK</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports fixed - after osFinancials5.1.0.127 / osFinancials5.1.0.189 Update install</span></span></h2>
+<p class="rvps2"><span class="rvts6">These updated reports were included in theosFinancials5.1.0.127 / osFinancials5.1.0.189 update installations. These Reports were retested in both Firebird database types and in MSSQL database types in osFinancials5.1.0.127 &nbsp;/ osFinancials5.1.0.189. &nbsp;The reports include standardised Headers and Footers.</span></p>
+<p class="rvps2"><span class="rvts6">See -</span><span class="rvts11"> </span><a class="rvts37" href="fixed-reports.html">FIXED - After &nbsp;osFinancials5.1.0.127 update - Details / Notes and screenshots</a><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The following reports were updated and fixed:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">systemreports</span><span class="rvts6"> - These updated reports were included in the osFinancials5.1.0.127 update installation. Fixed some adjustments to text (labels expressions) and data expressions were made in about 7 reports. &nbsp;Also tested and fixed - To print on MSSQL and Firebird databases See - screenshots and notes after&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ </span><span class="rvts11">Debtors </span><span class="rvts22">→ </span><span class="rvts11">Listing</span><span class="rvts6"> </span><span class="rvts11">- </span><a class="rvts17" href="debtors-list-delivery-address.html">List delivery address</a><span class="rvts6"> &nbsp;&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_66/TRN_906138.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_66/TRN_906138.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="2" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ </span><span class="rvts11">Debtors </span><span class="rvts22">→ </span><span class="rvts11">Listing</span><span class="rvts6"> - </span><a class="rvts17" href="debtors-list-postal-address.html">List postal address</a><span class="rvts6"> &nbsp;&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="%E2%96%AA%20https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_66/TRN_906139.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_66/TRN_906139.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ </span><span class="rvts11">Creditors </span><span class="rvts22">→ </span><span class="rvts11">Listing - </span><a class="rvts17" href="creditors-list-delivery-address.html">List delivery address</a><span class="rvts6"> &nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_66/TRN_906138.dfm" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_66/TRN_906138.dfm</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="4" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ </span><span class="rvts11">Creditors </span><span class="rvts22">→ </span><span class="rvts11">Listing - </span><a class="rvts17" href="creditors-list-postal-address.html">List postal address</a><span class="rvts6"> &nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_66/TRN_906139.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_66/TRN_906139.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="5" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ Stock → Stock In / Out - </span><a class="rvts200" href="report-stock-in-out.html">Stock in / Out</a><span class="rvts22">&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_1999/TRN_906112/TRN_906112.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_1999/TRN_906112/TRN_906112.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ Documents → </span><a class="rvts200" href="reports-documents-listing.html">Document listing</a><span class="rvts87">&nbsp;</span></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_38/TRN_45/TRN_45.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_38/TRN_45/TRN_45.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="7" class="rvps2 noindent"><span class="rvts11">Reports </span><span class="rvts22">→ Tax - </span><a class="rvts200" href="report-tax-period.html">Tax per period</a></li>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_906020/TRN_906105.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_906020/TRN_906105.rep</a><span class="rvts6">&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts11">GENERAL </span><span class="rvts6">- These updated reports were included in the osFinancials5.1.0.127 update installation.</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">documents</span><span class="rvts6"> - Reports for various functions in osFinancials such as, abbreviations, batch reports, logreports, groups,etc. (to name a few). Hope every report fixed is listed, but here are the changes that could be remembered:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><span class="rvts6">groups,rep&nbsp;</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/groups.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/groups.rep</a><span class="rvts6">&nbsp;</span></li>
+   </ul>
+   <li class="rvps14 noindent"><span class="rvts6">batch.rep&nbsp;</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/batch.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/batch.rep</a><span class="rvts6"> &nbsp;</span></li>
+   </ul>
+   <li class="rvps14 noindent"><span class="rvts6">postedbatch.rep&nbsp;</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/postedbatch.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/postedbatch.rep</a><span class="rvts6">&nbsp;</span></li>
+   </ul>
+   <li class="rvps2 noindent"><span class="rvts6">paycreditor.rep</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/paycreditor.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/paycreditor.rep</a><span class="rvts6">&nbsp;</span></li>
+   </ul>
+   <li class="rvps14 noindent"><span class="rvts6">recon.rep&nbsp;</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/recon.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/recon.rep</a><span class="rvts6"> &nbsp;</span></li>
+   </ul>
+   <li class="rvps14 noindent"><span class="rvts6">Userlog.rep&nbsp;</span></li>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps69 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="%E2%80%A2%20https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/Userlog.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/GENERAL/documents/Userlog.rep</a><span class="rvts6">&nbsp;</span></li>
+   </ul>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">ledgerview</span><span class="rvts6"> - Ledger analyser 1 / 2 - Reports for Trial balance, Income statement, Balance sheet, Budget vs actual, This year vs last year, Standard column balances, T-Account viewer and Age analysis on the </span><span class="rvts11">Reports</span><span class="rvts6"> ribbon. (budvsactsimple.rep, colbal.rep, colbalopen.rep, colbalopenonly.rep, colbalsimple.rep, detail.rep, ledgerdetail.rep, openitemdays.rep)&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">REPORTS/STOCK - Sidebar reports - </span><a class="rvts17" href="print-single-item-stock-movement.html">Stock movement</a><span class="rvts6"> - This report prints similar data to the "</span><span class="rvts42">Voorraad verloop</span><span class="rvts6">" report.</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">Renamed text report name to &nbsp;LANG_906038 to be translatable via the language files. Added report name "</span><span class="rvts42">Stock movement - Average cost - Grid</span><span class="rvts6">" in Header section.&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Total print on Page 2 and Total - Data type = Currency as " ##,###,###,##0.00" in Detail of Group section (e.g. 1,000.00) - Set the Group footer data type for the Total (e.g. 1000.00) to display similar than the Detail report section.&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts11">REPORTS/DEBTOR/Subscriptions.rep - New</span><span class="rvts6"> - Included in the osFinancials5.1.0.189 update installation &nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts11">Menu access</span><span class="rvts6"> : Debtors grid - Context menu - </span><span class="rvts11">Reports </span><span class="rvts22">→</span><span class="rvts11"> Subscriptions</span><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\REPORTS\DEBTOR\reports\TRN_9061000.rep - Subscriptions&nbsp;</span></li>
+ </ul>
+</ul>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/REPORTS/DEBTOR/reports/LANG_901000.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/REPORTS/DEBTOR/reports/LANG_901000.rep</a><span class="rvts6"> &nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">See - </span><a class="rvts37" href="fix-plugin-reports-subscriptions.html">Subscriptions for notes and screenshots of fixes</a><span class="rvts6">.&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts11">excelreports</span><span class="rvts6"> - </span><span class="rvts11">Spreadsheet reports </span><span class="rvts22">→</span><span class="rvts11"> Sales analysis </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="spreadsheet-report-sales-period.html">Sales per period</a><span class="rvts11"> </span><span class="rvts6">-</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6"> </span><a class="rvts17" href="fix-mssql-firebird-reports.html">Firebird database type error fixed</a><span class="rvts6"> - This report now prints in both Firebird and MSSQL database types.&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/excelreports/TRN_85/TRN_906122/trn_1296.sql" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/excelreports/TRN_85/TRN_906122/trn_1296.sql</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports Added / Fixed - Excluded in osFinancials5.1.0.127 / osFinancials5.1.0.189 Update install&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">These reports were not included in theosFinancials5.1.0.127 / osFinancials5.1.0.189 update installations. These Reports were retested in both Firebird database types and in MSSQL database types in osFinancials5.1.0.127 &nbsp;/ osFinancials5.1.0.189. &nbsp;The reports include standardised Headers and Footers.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" class="rvps2 noindent"><a class="rvts17" href="fix-userreports.html">userreports</a><span class="rvts6"> - Reports in the user reports menu. Restructured and fixed overlapping labels, etc. &nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/userreports" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/userreports</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><a class="rvts17" href="fix-document-layout-files.html">DOCUMENTS/DOCUMENTS</a><span class="rvts6"> - All document layout files updated to fix overlapping labels, remarks, etc. to accommodate databases with larger input fields. Standardised the Company and Tax registration numbers before contact details, etc. Standardised the Company and Tax registration numbers before contact details, etc.&nbsp;</span></li>
+</ol>
+<p class="rvps13"><span class="rvts6">In addition to this, the following document layout files are included in the '...\plug_ins\reports\DOCUMENTS\DOCUMENTS' folder:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Added</span><span class="rvts6"> : Layout files for NON-Standard document types</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps69 noindent"><span class="rvts6">Adjustment - TRN_1767</span></li>
+   <li class="rvps69 noindent"><a class="rvts37" href="stock-item-new-bom-production.htm">BOM (Production)</a><span class="rvts6"> Stock Item Type - TRN_3266&nbsp;</span></li>
+   <li class="rvps69 noindent"><span class="rvts6">Project - TRN_3556 - Project - Quote&nbsp;</span></li>
+  </ul>
+  <li class="rvps14 noindent"><span class="rvts11">Added</span><span class="rvts6"> : Layout files for NON-Standard document types : Plugins</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps69 noindent"><span class="rvts6">Stock in - TRN_906178&nbsp;</span></li>
+   <li class="rvps69 noindent"><span class="rvts6">Stock out - TRN_906179&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/DOCUMENTS/DOCUMENTS" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/DOCUMENTS/DOCUMENTS</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><a class="rvts17" href="fix-userreports.html">userreports</a><span class="rvts6"> - Reports in the user reports menu. Restructured and fixed overlapping labels, etc.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">New.rep</span><span class="rvts6"> - Blank report with no Datasets. SubReport-0 consists of three blank sections Page header, detail and Page footer.&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/New.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/New.rep</a><span class="rvts6"> &nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts11">Empty.rep</span><span class="rvts6"> - Tidied and standardised report Page header and Page footer to be consistent for all to be consistent with other reports such as on the </span><span class="rvts11">Reports</span><span class="rvts6"> menu, </span><span class="rvts11">User reports</span><span class="rvts6"> menu and stock sidebar reports (</span><span class="rvts11">Print single item</span><span class="rvts6"> - context menu). Includes an empty Detail section. Updated and standardised Page header and Page footer. It is aligned with all Reports, User reports to accommodate databases with larger input fields.&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="o%20https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/Empty.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/Empty.rep</a><span class="rvts6"> &nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reports for plugins Added / Fixed - Excluded in osFinancials5.1.0.127 / osFinancials5.1.0.189 Update install</span></span></h2>
+<p class="rvps2"><span class="rvts6">The following plugins Excluded in osFinancials5.0.189 Update in the ...\osfinancials5\plug_ins\reports\ folder:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps13 noindent"><span class="rvts6">CRM - </span><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\CRM\ - Not updated - Need to activate and configure the CRM plugin before any reports could be printed. - MSSQL Errors in print preview</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">"DOCUMENTHEAD:Incorrect syntax near '|'."</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/CRM" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/CRM&nbsp;</a></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps13 noindent"><span class="rvts6">EMailInvoice</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/EMailInvoice" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/EMailInvoice</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps13 noindent"><span class="rvts6">remittance&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/remittance" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/remittance</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts6">See - </span><a class="rvts17" href="fix-plugin-reports-remittance.html">Reminders / Remittace plugin</a><span class="rvts6"> &nbsp;for notes on Reminders / Remittance plugin.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps13 noindent"><span class="rvts6">Subscriptions&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/Subscriptions" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/Subscriptions</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">See - </span><a class="rvts37" href="fix-plugin-reports-subscriptions.html">Subscriptions for notes and screenshots of fixes</a><span class="rvts6">.&nbsp;</span></li>
+ </ul>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">FIXED - MSSQL Database support - Reports</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Fixed - To print on MSSQL and Firebird databases&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts11">Debtors</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Debtor statements&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_160\TRN_1090 \TRN_906552 - </span><a class="rvts37" href="debtor-statement-open-item.html">Debtor statement - Outstanding</a></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Debtors - Age analysis (Reports)</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location</span><span class="rvts6"> : plug_ins\reports\userreports\TRN_160\TRN_906143 - </span><a class="rvts37" href="debtors-ageing-open-item.html">Balances detail history (open item)</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_160/TRN_65/TRN_906143.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_160/TRN_65/TRN_906143.rep</a></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">Creditors&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Creditor remittance advices&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_161\TRN_1090 \TRN_906551 - </span><a class="rvts37" href="creditor-remittance-advice-open.html">Creditor remittance advises - Outstanding</a><span class="rvts6"> &nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_1089/TRN_906551.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_1089/TRN_906551.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">Creditors - Age analysis (Reports)</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location :</span><span class="rvts6"> plug_ins\reports\userreports\TRN_161\TRN_906143 - </span><a class="rvts37" href="creditors-ageing-open-item.html">Balances detail history (open item)</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : &nbsp;</span><a class="rvts37" href="o%20https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_161/TRN_65/TRN_906143.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_65/TRN_906143.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Outstanding - Fixed - To print on MSSQL and Firebird databases - Period 2 includes Period 1&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts11">Debtor statements</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\systemreports\TRN_160\TRN_1090\TRN_1090 - </span><a class="rvts37" href="debtor-statement.html">Debtor statement</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_1090/TRN_1090.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_1090/TRN_1090.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">Creditor Remittance advises</span><span class="rvts6">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location :</span><span class="rvts6"> plug_ins\reports\systemreports\TRN_161\TRN_1090\TRN_1089 - </span><a class="rvts37" href="creditor-remittance-advice.html">Creditor remittance advises</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_1089/TRN_1089.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_1089/TRN_1089.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">Debtor age analysis</span><span class="rvts6"> </span><span class="rvts11">(Userreports)</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\userreports\userreports\TRN_160\TRN_906142 - </span><a class="rvts37" href="debtors-ageing-balances-detail.html">Balances detail</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_160/TRN_65/TRN_906142.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_65/TRN_906142.rep</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Location :</span><span class="rvts6"> plug_ins\reports\userreports\TRN_160\TRN_906147 - </span><a class="rvts37" href="debtors-ageing-balances.html">Balances</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_160/TRN_65/TRN_906147.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_160/TRN_65/TRN_906147.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">Creditor age analysis</span><span class="rvts6"> </span><span class="rvts11">(Userreports)&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Location :</span><span class="rvts6"> plug_ins\userreports\userreports\TRN_161\TRN_906142 - </span><a class="rvts37" href="creditors-ageing-balances-detail.html">Balances detail</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_161/TRN_65/TRN_906142.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_65/TRN_906142.rep</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Location : </span><span class="rvts6">plug_ins\reports\userreports\TRN_161\TRN_906147 - </span><a class="rvts37" href="creditors-ageing-balances.html">Balances</a><span class="rvts6">&nbsp;</span></li>
+  <li class="rvps171 noindent"><span class="rvts11">Location on GitHub</span><span class="rvts6"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/userreports/TRN_161/TRN_65/TRN_906147.rep" target="_blank">https://github.com/Digidanosf/osfinancials-development/blob/main/reports/plug_ins/reports/systemreports/TRN_161/TRN_65/TRN_906147.rep</a><span class="rvts6">&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
