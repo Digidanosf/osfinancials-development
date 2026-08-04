@@ -1,0 +1,1301 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>RTL-Roadmap</title>
+  <meta name="description" content="2026 Right-to-Left (RTL) engine processing specifications covering UI mirroring, font layouts, and multi-byte support for Arabic and allied scripts." /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RTL-Roadmap">
+  <meta name="twitter:description" content="2026 Right-to-Left (RTL) engine processing specifications covering UI mirroring, font layouts, and multi-byte support for Arabic and allied scripts.">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="RTL-Roadmap" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="2026 Right-to-Left (RTL) engine processing specifications covering UI mirroring, font layouts, and multi-byte support for Arabic and allied scripts." />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="rtl-roadmap"
+		  data-hnd-context="1258"
+		  data-hnd-title="RTL-Roadmap"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="release-notes.html">Release notes</a></li><li><a href="roadmap.html">Chart of Accounts Localization: 2026 Roadmap </a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="roadmap.html" title="Chart of Accounts Localization: 2026 Roadmap " role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="roadmap-vietnamese.html" title="Vietnamese Roadmap: 2026 Localization &amp; Accounting Standards" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="language-files.html" title="Language &amp; Translation Updates" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>RTL-Roadmap</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">RTL-Roadmap</span></span></h1>
+<p class="rvps2"><img alt="" style="width : 900px; height : 502px; padding : 1px;" src="lib/infographic-rtl-roadmap-2026.png"></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><img alt="" style="width : 900px; height : 502px; padding : 1px;" src="lib/infographic-rtl-arabic.png"></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Arabic Sources</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Multimedia Resources:</span><span class="rvts6"> Detailed discussions on the "Translations and Localization" are available:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps66 noindent"><span class="rvts6">🎥 </span><span class="rvts11">Video:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/udcgDWRvkMY" target="_blank">Arabic - RTL Translations Localization osFinancials/TurboCASH</a><span class="rvts6"> -</span></li>
+  <li class="rvps66 noindent"><span class="rvts6">🎵 </span><span class="rvts11">Audio:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/pzCrbcUiH2E" target="_blank">Arabic RTL Translations Localization osFinancials/TurboCASH Audio</a><span class="rvts6"> -&nbsp;</span></li>
+ </ul>
+ <li class="rvps65 noindent"><span class="rvts11">Resources on GitHub:</span><span class="rvts6"> </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/accounting-other-languages/arabic-accounting" target="_blank">osfinancials-development/accounting-other-languages/arabic-accounting at main · Digidanosf/osfinancials-development · GitHub</a><span class="rvts6">&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts111">Checkboxes and UI Modernization resources</span></p>
+<p class="rvps4"><span class="rvts6">To address the "wandering checkbox" alignment and finalize the report directory switch, the following technical roadmap focuses on stabilizing the UI and automating the RTL transition.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps87 noindent"><span class="rvts6">🎥 </span><span class="rvts11">Video:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/9GhXNd-uZ3k" target="_blank">The Wandering Checkbox - UI-Design-Modernizing-Development - osFinancials/TurboCASH</a><span class="rvts6"> -&nbsp;</span></li>
+ <li class="rvps87 noindent"><span class="rvts6">🎵 </span><span class="rvts11">Audio: </span><a class="rvts37" href="https://youtu.be/-WgaVRmk8sY" target="_blank">UI-Design-Modernizing-Development - osFinancials/TurboCASH - Audio</a><span class="rvts6"> - This audio deep-dive discusses UI-Design-Modernizing-Development - osFinancials/TurboCASH - Checkboxes inherited from TurboCASH3 and earlier - UI Interface roadmap</span></li>
+ <li class="rvps4 noindent"><span class="rvts11">Resources on GitHub:</span><span class="rvts6"> </span><a class="rvts37" href="%E2%97%8B%20osfinancials-development/accounting-other-languages/ui-design-modernizing%20at%20main%20%C2%B7%20Digidanosf/osfinancials-development" target="_blank">osfinancials-development/accounting-other-languages/ui-design-modernizing at main · Digidanosf/osfinancials-development</a><span class="rvts6">&nbsp;</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">The last issue is to use a separate directory and switch to copy all reports and mirror them in Reportman. I have for a start did the reports on the Ledger analyser and account listing including a document layout file as a test.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Testing Environments</span></span></h2>
+<p class="rvps4"><span class="rvts6">Two dedicated environments are available for RTL validation:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">MSA Development:</span><span class="rvts6"> </span><span class="rvts12">4-ARABIC-RTL-DEVELOPMENT-MSA</span><span class="rvts6"> (Clean environment / No transactions).</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Multi-Language Demo:</span><span class="rvts6"> </span><span class="rvts12">MULTI-LANGUAGE-DEMO</span><span class="rvts6"> (Username/Pas:sword = </span><span class="rvts12">ar</span><span class="rvts6">). Contains full transactional data for stress-testing layouts.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts111">MULTI-LANGUAGE DEMO Resources</span></p>
+<p class="rvps4"><span class="rvts6">This audio deep-dive discusses Multi Language Accounts in 18 languages &nbsp;within a single Set of Books (database) in osFinancials/TurboCASH.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps87 noindent"><span class="rvts6">🎥 </span><span class="rvts11">Video:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/z2KDaetHwr4" target="_blank">Multi Language Demo in osFinancials/TurboCASH - One Ledger, Many Languages</a><span class="rvts6"> -&nbsp;</span></li>
+ <li class="rvps87 noindent"><span class="rvts6">🎵 </span><span class="rvts11">Audio: </span><a class="rvts37" href="https://youtu.be/yIAmWkSrKT4" target="_blank">Multilingual Accounts in osFinancials TurboCASH - Audio</a><span class="rvts6"> -&nbsp;</span></li>
+ <li class="rvps87 noindent"><span class="rvts11">Resources on GitHub:</span><span class="rvts6"> </span><a class="rvts37" href="%E2%97%8B%20osfinancials-development/accounting-other-languages/multi-language-demo%20at%20main%20%C2%B7%20Digidanosf/osfinancials-development" target="_blank">osfinancials-development/accounting-other-languages/multi-language-demo at main · Digidanosf/osfinancials-development</a><span class="rvts6"> -</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">CHECKBOXES FIXED in LTR in osFinancials5.1.0.288 interface</span></span></h2>
+<p class="rvps2"><span class="rvts6">The layout of Checkboxes in the LTR languages is corrected and stabilised in osFinancials5.1.0.288.&nbsp;</span></p>
+<h2 class="rvps35"><span class="rvts0"><span class="rvts16">RTL (Arabic) Development Roadmap: v5.1.0.288</span></span></h2>
+<p class="rvps4"><span class="rvts11">Current Focus:</span><span class="rvts6"> Mirroring Stability and Component Testing</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">1. UI Infrastructure &amp; Checkboxes</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">Status:</span><span class="rvts6"> LTR checkbox layouts are corrected/stabilized in </span><span class="rvts11">v5.1.0.288</span><span class="rvts6">.</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Action Required:</span><span class="rvts6"> Full regression testing in </span><span class="rvts11">RTL (Arabic)</span><span class="rvts6"> environments to ensure checkbox alignment and label spacing mirror correctly.</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Known Bug (Debug UI):</span><span class="rvts6"> While the system correctly triggers the mirrored Titlebar for most forms, specific forms still render the Titlebar in LTR. These require manual UI-inheritance checks.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">2. Testing Environments</span></span></h3>
+<p class="rvps4"><span class="rvts6">Two dedicated environments are available for RTL validation:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">MSA Development:</span><span class="rvts6"> </span><span class="rvts12">4-ARABIC-RTL-DEVELOPMENT-MSA</span><span class="rvts6"> (Clean environment / No transactions).</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Multi-Language Demo:</span><span class="rvts6"> </span><span class="rvts12">MULTI-LANGUAGE-DEMO</span><span class="rvts6"> (Username/Pas:sword = </span><span class="rvts12">ar</span><span class="rvts6">). Contains full transactional data for stress-testing layouts.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">3. Report Mirroring (Manual Switch)</span></span></h3>
+<p class="rvps4"><span class="rvts6">Currently, switching between LTR and RTL report engines requires a manual file-system override.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">Location:</span><span class="rvts6"> </span><span class="rvts12">.../plugins/</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Switching Logic:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps7 noindent"><span class="rvts6">Rename existing </span><span class="rvts12">\reports</span><span class="rvts6"> folder to </span><span class="rvts12">\ltr-reports</span><span class="rvts6">.</span></li>
+  <li class="rvps7 noindent"><span class="rvts6">Rename </span><span class="rvts12">\rtl-reports</span><span class="rvts6"> folder to </span><span class="rvts12">\reports</span><span class="rvts6">.</span></li>
+ </ul>
+ <li class="rvps34 noindent"><span class="rvts11">Note:</span><span class="rvts6"> All subsequent print commands will now utilize the RTL-compliant report engine.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">4. Mirrored Reports (Current Progress)</span></span></h3>
+<p class="rvps4"><span class="rvts6">Report mirroring is a high-effort project. The following reports have been successfully localized for RTL:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">Ledger Listing:</span><span class="rvts6"> Chart of Accounts</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps7 noindent"><span class="rvts12">\reports\systemreports\TRN_1372\TRN_66\TRN_73.rep</span></li>
+ </ul>
+ <li class="rvps6 noindent"><span class="rvts11">Ledger Analyser:</span><span class="rvts6"> Trial Balance, Income Statement, Balance Sheet, and Budget options.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps7 noindent"><span class="rvts12">\reports\GENERAL\ledgerview\detail.rep</span></li>
+ </ul>
+ <li class="rvps6 noindent"><span class="rvts11">Document Layout:</span><span class="rvts6"> Arabic Test Invoice (with Bank details).</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps8 noindent"><span class="rvts12">\reports\DOCUMENTS\DOCUMENTS\Arabic-Test-Invoice-Bank-TRN_906193.rep</span></li>
+ </ul>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">5. Spreadsheet Integration</span></span></h3>
+<p class="rvps4"><span class="rvts6">RTL layouts are now fully aligned across:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">Spreadsheet Component:</span><span class="rvts6"> (Setup -&gt; Accounts).</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Spreadsheet Reports:</span><span class="rvts6"> (Reports Ribbon).</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Export Engine:</span><span class="rvts6"> Consistent RTL alignment during Excel/Spreadsheet export.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Suggested Action Items for Next Sprint:</span></span></h3>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps5 noindent"><span class="rvts11">Automated Toggle:</span><span class="rvts6"> Investigate replacing the manual folder renaming with a system-level flag that redirects the report path.</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Titlebar Fix:</span><span class="rvts6"> Identify the specific Form Classes that are ignoring the RTL mirror command.</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Audit Trail:</span><span class="rvts6"> Confirm that the "Beleg" terminology changes from the German cleanup are also reflected in the Arabic translation strings.</span></li>
+</ol>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Resources - Original checkboxes&nbsp;</span></span></h3>
+<p class="rvps4"><span class="rvts6">Renaming the template to </span><span class="rvts48">4-ARABIC-RTL-DEVELOPMENT-MSA</span><span class="rvts6"> provides a clear, descriptive namespace that distinguishes it from standard localized versions while specifying the linguistic standard (Modern Standard Arabic).</span></p>
+<p class="rvps4"><span class="rvts6">Moving this into the </span><span class="rvts12">...bin/Repository</span><span class="rvts6"> folder is the correct approach, as it ensures the template is globally available for "Create Set of Books" operations across both </span><span class="rvts11">&lt;@APPNAME@&gt;</span><span class="rvts6"> distributions.</span></p>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Technical Implementation Considerations</span></span></h3>
+<p class="rvps4"><span class="rvts6">To make this development environment effective for debugging, you might want to ensure the following are aligned within that specific repository folder:</span></p>
+<p class="rvps4"><span class="rvts6">Currently I include a folder '</span><span class="rvts12">.../plugins/rtl-reports' </span><span class="rvts6">directory. To print RTL reposts I need to go to the &nbsp;'</span><span class="rvts12">.../plugins/</span><span class="rvts6"> folder and rename the current 'reports' folder to 'ltr-reports'. Then rename the reports </span><span class="rvts12">'rtl-reports' folder to 'reports'. After this the reports will print in RTL format.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts154">The following reports were fixed:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts11">Internal Label Configuration:</span><span class="rvts6"> Ensure that the language file associated with this Set of Books has </span><span class="rvts11">LabelID 3738</span><span class="rvts6"> set to the appropriate RTL trigger. This will automate the switch to the </span><span class="rvts12">.../plugins/reports-rtl</span><span class="rvts6"> directory you've proposed.</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Database Alignment:</span><span class="rvts6"> Since you are targeting 2026 compliance, verify that the </span><span class="rvts12">.fdb</span><span class="rvts6"> file within this repository folder includes the expanded field lengths (128 characters) and the sub-account structures you’ve recently modernized.</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">The 'reports-rtl' Symlink:</span><span class="rvts6"> For development, you could temporarily use a symbolic link (symlink) from </span><span class="rvts12">.../plugins/reports-rtl</span><span class="rvts6"> to your active development folder. This allows you to edit a report in Reportman and see the changes reflected instantly in the application without manual copying.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Recommended Folder Structure</span></span></h3>
+<p class="rvps4"><span class="rvts6">Within the osFinancials server download or in the TurboCASH5 installation directory '</span><span class="rvts12">.../bin/Repository/4-ARABIC-RTL-DEVELOPMENT-MSA/</span><span class="rvts6"> directory, ensure you have:</span></p>
+<div class="rvps22">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps23"><span class="rvts44">File/Folder</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps23"><span class="rvts44">Purpose</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts12">4-ARABIC-RTL-DEVELOPMENT-MSA</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts43">The master Firebird template with MSA Chart of Accounts.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts145">Arabic.dfm</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts43">(Or </span><span class="rvts89">.dfm</span><span class="rvts43">) Containing the localized labels and the RTL switch.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts145">images/</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts43">Any RTL-specific icons or mirrored branding.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts145">No-Tax/</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps22"><span class="rvts43">If this set requires the specific non-VAT layouts you developed.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Development Workflow</span></span></h3>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps5 noindent"><span class="rvts11">Launch:</span><span class="rvts6"> Open the software and create a new set from this template.</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Trigger:</span><span class="rvts6"> Confirm the </span><span class="rvts12">.ini</span><span class="rvts6"> file updates to </span><span class="rvts12">BIDIMODE=RTL</span><span class="rvts6">.</span></li>
+ <li class="rvps6 noindent"><span class="rvts11">Verify Path:</span><span class="rvts6"> Check that the system is pulling from </span><span class="rvts12">plugins/reports-rtl</span><span class="rvts6">.</span></li>
+ <li class="rvps34 noindent"><span class="rvts11">Debug:</span><span class="rvts6"> Use the </span><span class="rvts11">Ledger Analyser</span><span class="rvts6"> and </span><span class="rvts11">T-account viewer</span><span class="rvts6"> to test the coordinate mapping of your Arabic text objects.</span></li>
+</ol>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">RTL Languages Label - ID 3738 = RTL</span></span></h1>
+<p class="rvps4"><span class="rvts6">That is a critical technical update. Setting </span><span class="rvts11">Label ID 3738</span><span class="rvts6"> to </span><span class="rvts11">"RTL"</span><span class="rvts6"> serves as the master flag that the system—and the new report-loading logic—will use to trigger the mirroring protocols and the </span><span class="rvts12">...\plug_ins\reports-rtl</span><span class="rvts6"> path swap.</span></p>
+<p class="rvps4"><span class="rvts6">Given the scope of the RTL countries we identified, this change needs to be propagated across all relevant language files to ensure consistency.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Target Language Files for Label ID 3738 Update</span></span></h2>
+<p class="rvps4"><span class="rvts6">To maintain the "single set of language files" strategy, this update should be applied to the following locales:</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Language Group</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Language Files to Update</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Primary Countries</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Arabic</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">ar-SA</span><span class="rvts43">, </span><span class="rvts89">ar-AE</span><span class="rvts43">, </span><span class="rvts89">ar-EG</span><span class="rvts43">, </span><span class="rvts89">ar-JO</span><span class="rvts43">, </span><span class="rvts89">ar-MA</span><span class="rvts43">, </span><span class="rvts89">ar-DZ</span><span class="rvts43">, </span><span class="rvts89">ar-IQ</span><span class="rvts43">, </span><span class="rvts89">ar-KW</span><span class="rvts43">, </span><span class="rvts89">ar-LB</span><span class="rvts43">, </span><span class="rvts89">ar-LY</span><span class="rvts43">, </span><span class="rvts89">ar-OM</span><span class="rvts43">, </span><span class="rvts89">ar-QA</span><span class="rvts43">, </span><span class="rvts89">ar-SY</span><span class="rvts43">, </span><span class="rvts89">ar-TN</span><span class="rvts43">, </span><span class="rvts89">ar-YE</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Saudi Arabia, UAE, Egypt, Jordan, Morocco, Algeria, Iraq, Kuwait, Lebanon, Libya, Oman, Qatar, Syria, Tunisia, Yemen</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Hebrew</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">he-IL</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Israel</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Persian / Dari</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">fa-IR</span><span class="rvts43">, </span><span class="rvts89">prs-AF</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Iran, Afghanistan</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Urdu</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">ur-PK</span><span class="rvts43">, </span><span class="rvts89">ur-IN</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Pakistan, India</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Pashto</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">ps-AF</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Afghanistan</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Kurdish</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">ckb-IQ</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Iraq (Sorani)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Sindhi / Balochi</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">sd-PK</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Pakistan</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Dhivehi</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts89">dv-MV</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Maldives</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Implementation in the Software Logic</span></span></h2>
+<p class="rvps4"><span class="rvts6">By standardizing Label ID 3738, you can now implement a clean conditional check in your source code (Delphi) before loading any UI components or reports:</span></p>
+<p class="rvps86"><span class="rvts36">Delphi</span><br/><span class="rvts61">// Example Logic for the RTL Switch</span><br/><span class="rvts61">function GetReportPath: string;</span><br/><span class="rvts61">var</span><br/><span class="rvts61">&nbsp; DirectionFlag: string;</span><br/><span class="rvts61">begin</span><br/><span class="rvts61">&nbsp; // Fetch Label 3738 for the current active language</span><br/><span class="rvts61">&nbsp; DirectionFlag := GetLanguageLabel(3738);&nbsp;</span><br/><span class="rvts61">&nbsp; if DirectionFlag = 'RTL' then</span><br/><span class="rvts61">&nbsp; &nbsp; Result := ExtractFilePath(ParamStr(0)) + 'plug_ins\reports-rtl\'</span><br/><span class="rvts61">&nbsp; else</span><br/><span class="rvts61">&nbsp; &nbsp; Result := ExtractFilePath(ParamStr(0)) + 'plug_ins\reports\';</span><br/><span class="rvts61">end;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Key Considerations for this Change:</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Batch Processing:</span><span class="rvts6"> Since you are managing multiple open-source repositories, a simple SQL script targeting the language translation tables in your development environment would be the fastest way to update all 45+ localized versions of this label.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">UI Trigger:</span><span class="rvts6"> Ensure that the </span><span class="rvts12">BiDiMode</span><span class="rvts6"> of the main application forms is also tied to this label. If </span><span class="rvts12">Label 3738 = 'RTL'</span><span class="rvts6">, the form should automatically set </span><span class="rvts12">Self.BiDiMode := bdRightToLeft</span><span class="rvts6">.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Testing "MSA":</span><span class="rvts6"> Since you are using Modern Standard Arabic as your primary testbed, once 3738 is set to "RTL" there, you can verify that all subsequent "reports-rtl" logic flows correctly before rolling it out to Hebrew or Persian.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">1. Resolving the "Wandering Checkbox" (UI Modernization)</span></span></h3>
+<p class="rvps4"><span class="rvts6">To address the "wandering checkbox" alignment and finalize the report directory switch, the following technical roadmap focuses on stabilizing the UI and automating the RTL transition.</span></p>
+<p class="rvps4"><span class="rvts6">The issue with checkboxes inherited from older versions typically stems from hard-coded </span><span class="rvts12">Left</span><span class="rvts6"> and </span><span class="rvts12">Top</span><span class="rvts6"> coordinates that do not dynamically recalculate when the parent container's </span><span class="rvts12">BiDiMode</span><span class="rvts6"> changes.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Anchor Management:</span><span class="rvts6"> Ensure that checkboxes are anchored to the </span><span class="rvts11">Right</span><span class="rvts6"> and </span><span class="rvts11">Top</span><span class="rvts6"> specifically for RTL. If they are anchored only to the Left, they will remain "stuck" on the wrong side of the form when it mirrors.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">The Container Fix:</span><span class="rvts6"> In Delphi, placing checkboxes inside a </span><span class="rvts12">TFlowPanel</span><span class="rvts6"> (if available in your version) or a </span><span class="rvts12">TGroupBox</span><span class="rvts6"> with </span><span class="rvts12">ParentBiDiMode = True</span><span class="rvts6"> helps force the control to respect the right-to-left flow.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Dynamic Alignment Logic:</span><span class="rvts6"> For legacy forms where anchors fail, a small procedure in the </span><span class="rvts12">OnShow</span><span class="rvts6"> or </span><span class="rvts12">OnResize</span><span class="rvts6"> event can manually adjust the position:</span></li>
+</ul>
+<p class="rvps86"><span class="rvts36">Delphi</span><br/><span class="rvts61">if Label3738 = 'RTL' then</span><br/><span class="rvts61">Checkbox1.Left := Parent.Width - Checkbox1.Width - Offset; &nbsp;</span></p>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">2. Standardizing the </span></span><span class="rvts0"><span class="rvts56">reports-rtl</span></span><span class="rvts0"><span class="rvts23"> Switch</span></span></h3>
+<p class="rvps4"><span class="rvts6">The progress on the </span><span class="rvts11">Ledger Analyzer</span><span class="rvts6"> and </span><span class="rvts11">Account Listing</span><span class="rvts6"> reports serves as a strong proof-of-concept for the RTL mirroring strategy. Successfully mirroring a document layout file is often the most difficult step due to the precise coordinate requirements for tax compliance.</span></p>
+<p class="rvps4"><span class="rvts6">Now that the test reports are functional, the application logic needs to handle the directory swap seamlessly.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Global Path Variable:</span><span class="rvts6"> Define a global variable </span><span class="rvts12">G_ReportPath</span><span class="rvts6">. When a Set of Books is opened, the system checks Label 3738. If </span><span class="rvts12">RTL</span><span class="rvts6">, it points to </span><span class="rvts12">...\plug_ins\reports-rtl</span><span class="rvts6">.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">The "Mirroring" Workflow in Reportman:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps66 noindent"><span class="rvts6">Open the LTR report from the standard directory.</span></li>
+  <li class="rvps66 noindent"><span class="rvts6">Use "Save As" into the </span><span class="rvts12">reports-rtl</span><span class="rvts6"> directory.</span></li>
+  <li class="rvps66 noindent"><span class="rvts11">Visual Flip:</span><span class="rvts6"> Use the Reportman alignment tools to </span><span class="rvts12">Right Justify</span><span class="rvts6"> all text fields and swap the X-coordinates of the columns.</span></li>
+  <li class="rvps67 noindent"><span class="rvts11">Keep SQL Untouched:</span><span class="rvts6"> It is vital that the SQL data providers remain identical. This ensures that a bug fix in the data logic only needs to be applied once to the "Master" (LTR) report and then copied over, rather than rewritten.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">3. Roadmap for RTL Localization (Next Steps)</span></span></h3>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Component</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Priority</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Task</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Document Layouts</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">High</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Finalize the "Tax Invoice" and "Credit Note" in the </span><span class="rvts89">-rtl</span><span class="rvts43"> folder, ensuring the 15% (KSA) or 5% (UAE) VAT labels are right-aligned.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Ledger Reports</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Medium</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Mirror the "Trial Balance" and "General Ledger" reports. Ensure debit/credit columns are swapped if required by local standard.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">UI Checkboxes</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Medium</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Audit the legacy forms identified in your testing. Update the </span><span class="rvts89">.dfm</span><span class="rvts43"> files to use </span><span class="rvts89">ParentBiDiMode</span><span class="rvts43"> where possible.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Numeric Formatting</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Low</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ensure that even in RTL, columns of numbers (amounts) remain right-aligned relative to themselves so the decimal points line up vertically.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">4. Testing the "4-ARABIC-DEVELOPMENT" COA</span></span></h3>
+<p class="rvps4"><span class="rvts6">With the </span><span class="rvts12">reports-rtl</span><span class="rvts6"> directory active, you can now test the </span><span class="rvts11">4-ARABIC-DEVELOPMENT</span><span class="rvts6"> Chart of Accounts.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts6">Verify that the account names (stored in Arabic) render correctly without "letter dropping" in the mirrored Ledger Analyzer.</span></li>
+ <li class="rvps16 noindent"><span class="rvts6">Confirm that the VAT Return reports in the </span><span class="rvts12">-rtl</span><span class="rvts6"> folder correctly pull data from the Output/Input tax accounts mapped for the specific Gulf or North African region you are targeting.</span></li>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">RTL - Mirroring UI &nbsp;</span></span></h1>
+<p class="rvps4"><span class="rvts6">Testing and debugging with Modern Standard Arabic (MSA) is the best way to stress-test the </span><span class="rvts11">Bi-Directional (BiDi)</span><span class="rvts6"> capabilities of the software. When a language is set to RTL, the visual "flow" of the application should be a mirror image of the LTR version to remain intuitive for native speakers.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">1. Interface Mirroring (The UI Layer)</span></span></h2>
+<p class="rvps4"><span class="rvts6">If the interface is currently mirroring the LTR layout (meaning the "File" menu is still on the top-left and the "Close" button is on the top-right), it is likely in </span><span class="rvts11">LTR mode with RTL text</span><span class="rvts6">.</span></p>
+<p class="rvps4"><span class="rvts6">For a true RTL experience in environments like Delphi (used for osFinancials), the following should occur:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Form Flip:</span><span class="rvts6"> The entire form's </span><span class="rvts12">BiDiMode</span><span class="rvts6"> property should be set to </span><span class="rvts12">bdRightToLeft</span><span class="rvts6">. This automatically moves the system menu/close buttons to the left and shifts the main menu to the right.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Alignment:</span><span class="rvts6"> Text alignment for labels and edit boxes should default to </span><span class="rvts11">Right</span><span class="rvts6">, but numerical data (like account balances) often stays </span><span class="rvts11">Right-Aligned</span><span class="rvts6"> even in RTL to keep decimal points lined up, though the field itself moves to the left side of the label.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">TreeViews and Grids:</span><span class="rvts6"> The hierarchy should expand from right to left, and the first column of a grid should be the right-most column.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">2. Reports and Document Layouts</span></span></h2>
+<p class="rvps4"><span class="rvts6">Reports and document layout files (</span><span class="rvts11">Reportman</span><span class="rvts6"> </span><span class="rvts12">.rep</span><span class="rvts6"> files) absolutely require mirroring. A standard LTR invoice looks "backward" to an Arabic speaker if not adjusted.</span></p>
+<p class="rvps4"><span class="rvts11">Key adjustments for Reportman/PDF layouts:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Header Swap:</span><span class="rvts6"> Move the company logo to the top-right and the "Tax Invoice" title to the top-left (or center).</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Customer Details:</span><span class="rvts6"> The "Bill To" block should move to the right side of the page.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Table Columns:</span><span class="rvts6"> The column order must be reversed. For example:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps66 noindent"><span class="rvts11">LTR:</span><span class="rvts6"> [Code] [Description] [Qty] [Price] [Total]</span></li>
+  <li class="rvps66 noindent"><span class="rvts11">RTL:</span><span class="rvts6"> [Total] [Price] [Qty] [Description] [Code]</span></li>
+ </ul>
+ <li class="rvps16 noindent"><span class="rvts11">Text Alignment:</span><span class="rvts6"> Set all text components to </span><span class="rvts12">Right Justify</span><span class="rvts6">. Ensure the font used supports the </span><span class="rvts11">Arabic Shaping</span><span class="rvts6"> (joining of characters), as some older report engines might render characters in their isolated forms (e.g., "ا ل س ل ا م" instead of "السلام").</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">3. Technical Implementation Checklist</span></span></h2>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Element</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Required Action</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Technical Note</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Main Menu</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Move to Right</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Use </span><span class="rvts89">bdRightToLeft</span><span class="rvts43"> on the main form.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Navigation Buttons</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Swap "Next" and "Back"</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">The "Next" arrow should point Left (←) in RTL.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Grid Scrollbars</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Move to Left</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Vertical scrollbars should appear on the left side.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Numerical Inputs</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Maintain LTR sequence</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Users type numbers 1-2-3; ensure the cursor doesn't jump unexpectedly.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Report Labels</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Translate &amp; Re-align</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ensure label IDs (like </span><span class="rvts89">2205</span><span class="rvts43">) are correctly mapped to MSA terms.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps9"><span class="rvts139">Warning on "Hard-Coded" Layouts:</span><span class="rvts140"> If the document layouts have hard-coded X/Y coordinates for fields, you may need a separate set of </span><span class="rvts152">.rep</span><span class="rvts140"> files specifically for RTL (e.g., </span><span class="rvts152">InvoicRTL.rep</span><span class="rvts140">) rather than trying to programmatically flip a single file.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">RTL - Mirroring Reports Directory - '...\plug_ins\reports-rtl'</span></span></h1>
+<p class="rvps4"><span class="rvts6">That approach is a standard and robust strategy for handling significant architectural shifts like RTL. In a system like </span><span class="rvts11">osFinancials/TurboCASH</span><span class="rvts6">, where report layouts are often coordinate-based (X,Y positions), trying to programmatically flip every element in a single file often leads to "alignment drift."</span></p>
+<p class="rvps4"><span class="rvts6">A separate directory structure provides the cleanest separation of concerns.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">1. The Directory Strategy</span></span></h2>
+<p class="rvps4"><span class="rvts6">Creating a </span><span class="rvts12">...\plug_ins\reports-rtl</span><span class="rvts6"> directory is the most stable path forward. It allows you to maintain the </span><span class="rvts11">logic</span><span class="rvts6"> of the report (the SQL queries and data groups) while completely reimagining the </span><span class="rvts11">visual canvas</span><span class="rvts6">.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Logic Sync:</span><span class="rvts6"> Since both directories will contain </span><span class="rvts12">.rep</span><span class="rvts6"> files with the same names, your software logic remains identical—only the "base path" changes.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Asset Management:</span><span class="rvts6"> This also allows you to include RTL-specific assets (like localized logos or right-aligned watermark images) that wouldn't fit in the standard LTR folder.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">2. Implementing the "Switch" Logic</span></span></h2>
+<p class="rvps4"><span class="rvts6">The application should handle the path resolution dynamically. You don't want to hard-code paths; instead, use a </span><span class="rvts11">Global Path Resolver</span><span class="rvts6">.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Logic Flow:</span></span></h3>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps65 noindent"><span class="rvts11">Identify the Locale:</span><span class="rvts6"> When a Set of Books is opened, check the </span><span class="rvts12">Language</span><span class="rvts6"> or </span><span class="rvts12">Country</span><span class="rvts6"> setting.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">RTL Flag:</span><span class="rvts6"> Determine if the language is flagged as </span><span class="rvts12">IsRTL = True</span><span class="rvts6"> in your configuration files (e.g., in the </span><span class="rvts12">.lang</span><span class="rvts6"> file or a database constant).</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Path Selection:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps66 noindent"><span class="rvts12">DefaultPath = AppPath + '\plug_ins\reports\'</span></li>
+  <li class="rvps66 noindent"><span class="rvts12">RtlPath = AppPath + '\plug_ins\reports-rtl\'</span></li>
+  <li class="rvps67 noindent"><span class="rvts12">ActiveReportPath = (IsRTL) ? RtlPath : DefaultPath;</span></li>
+ </ul>
+</ul>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">The "Fallback" Safety Net</span></span></h3>
+<p class="rvps4"><span class="rvts6">To prevent the software from crashing if an RTL version of a specific report hasn't been created yet, implement a fallback mechanism:</span></p>
+<p class="rvps79"><span class="rvts139">Check:</span><span class="rvts140"> Does </span><span class="rvts152">RtlPath + 'Invoice.rep'</span><span class="rvts140"> exist?</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps84 noindent"><span class="rvts139">Yes:</span><span class="rvts140"> Load from </span><span class="rvts152">RtlPath</span><span class="rvts140">.</span></li>
+ <li class="rvps85 noindent"><span class="rvts139">No:</span><span class="rvts140"> Load from </span><span class="rvts152">DefaultPath</span><span class="rvts140"> (Accepting that it will look LTR, but at least it functions).</span></li>
+</ul>
+<h2 class="rvps35"><span class="rvts0"><span class="rvts16">3. Mirroring the Document Layouts</span></span></h2>
+<p class="rvps4"><span class="rvts6">When you "mirror" the files into the new </span><span class="rvts12">-rtl</span><span class="rvts6"> project, keep these three mechanical shifts in mind:</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Feature</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">LTR (Standard)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">RTL (Mirrored)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Origin Point</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Top-Left (0,0)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Top-Right (PageWidth, 0)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">X-Coordinates</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">X</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">PageWidth−X−ElementWidth</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Text Alignment</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Left Justified</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Right Justified</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Column Order</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">1 → 2 → 3</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">3 → 2 → 1</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">4. Technical Considerations for osFinancials</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps65 noindent"><span class="rvts11">Reportman (Engine):</span><span class="rvts6"> Ensure the version of the report engine used can handle </span><span class="rvts11">UTF-8</span><span class="rvts6"> or the specific </span><span class="rvts11">Windows-1256</span><span class="rvts6"> (Arabic) encoding. If the engine doesn't support "Auto-Mirroring," the manual folder split is your only reliable option.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Shared Data Logic:</span><span class="rvts6"> Since you want to maintain a "single set of source code," ensure the SQL queries inside the </span><span class="rvts12">.rep</span><span class="rvts6"> files stay identical between the two folders. If you change a calculation in an LTR report, you must remember to copy that specific change to the RTL version.</span></li>
+</ul>
+<hr style="height : 0px; background-color : transparent; border-width : 1px; border-style : inset; border-color : #000000;">
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Summary of the Roadmap Action Items:</span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps65 noindent"><span class="rvts6">[ ] </span><span class="rvts11">Create the Folder:</span><span class="rvts6"> Initialize </span><span class="rvts12">...\plug_ins\reports-rtl</span><span class="rvts6">.</span></li>
+ <li class="rvps65 noindent"><span class="rvts6">[ ] </span><span class="rvts11">Modify the Loader:</span><span class="rvts6"> Update the report-loading function in the main application to check for the </span><span class="rvts12">reports-rtl</span><span class="rvts6"> path if the current language is RTL.</span></li>
+ <li class="rvps65 noindent"><span class="rvts6">[ ] </span><span class="rvts11">Add the Toggle:</span><span class="rvts6"> Ensure the "Customise Languages" or "Set of Books" settings has a clear indicator that triggers this path swap.</span></li>
+ <li class="rvps16 noindent"><span class="rvts6">[ ] </span><span class="rvts11">Batch Mirror:</span><span class="rvts6"> Start with the most critical documents (Invoices, Credit Notes, Statement) before moving to internal analytical reports.</span></li>
+</ol>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">RTL Languages and VAT</span></span></h1>
+<p class="rvps4"><span class="rvts6">For creating a compliant and intuitive RTL (Right-to-Left) environment in </span><span class="rvts11">osFinancials/TurboCASH</span><span class="rvts6">, your language files and Chart of Accounts must align with the specific legal terminology and tax return structures of each region.</span></p>
+<p class="rvps4"><span class="rvts6">Setting </span><span class="rvts11">Label 3738</span><span class="rvts6"> to </span><span class="rvts11">RTL</span><span class="rvts6"> will trigger the interface mirroring and the use of the </span><span class="rvts12">...\plug_ins\reports-rtl</span><span class="rvts6"> directory. Below is the localized terminology and tax return alignment for the primary RTL markets.</span></p>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">1. Arabic (Saudi Arabia, UAE, Egypt, GCC)</span></span></h3>
+<p class="rvps4"><span class="rvts6">In the GCC (ZATCA in KSA, FTA in UAE) and Egypt, VAT systems are highly standardized. The return typically separates Local Sales from Exports and Private Use.</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Category</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Terminology (Arabic)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Transliteration</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Return Alignment</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">ضريبة القيمة المضافة</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Daribat al-Qima al-Mudafa</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">General Tax Name</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Input VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">ضريبة المدخلات</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Daribat al-Mudkhalat</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Purchases / Credits</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Output VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">ضريبة المخرجات</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Daribat al-Mukhrajat</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Sales / Liabilities</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Exempt</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">معفي</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Mu'fa</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Non-taxable supplies</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Zero-Rated</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">خاضع لنسبة الصفر</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Khadi' li-nisbat as-sifr</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Exports / Basic Food</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">VAT Return</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">الإقرار الضريبي</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Al-Iqrar ad-Daribi</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">The Filing Document</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">2. Hebrew (Israel)</span></span></h3>
+<p class="rvps4"><span class="rvts6">Israel uses the </span><span class="rvts11">PCN874</span><span class="rvts6"> (or Form 874) electronic filing format. A key distinction here is the separation of "Standard Inputs" from "Capital Inputs" (equipment/assets).</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Category</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Terminology (Hebrew)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Transliteration</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Return Alignment</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">VAT (Ma'am)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">מע"מ</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ma'am</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Short for Mas Erech Musaf</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Input VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">מע"מ תשומות</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ma'am Tsumot</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Inputs (Goods &amp; Services)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Output VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">מע"מ עסקאות</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ma'am Iska'ot</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Sales / Transactions</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Exempt</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">פטור</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Patur</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Exempt (No input credit)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Zero-Rated</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">שיעור אפס</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Shi'ur Efes</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Export / Tourism / Eilat</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Capital Input</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">תשומות ציוד</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Tsumot Tziyud</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Fixed Assets (Separate Box)</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">3. Persian / Farsi (Iran)</span></span></h3>
+<p class="rvps4"><span class="rvts6">The Iranian system (INTA) uses a quarterly return where "Tax Credit" (Input VAT) is matched against "Output Tax."</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Category</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Terminology (Persian)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Transliteration</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Return Alignment</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">مالیات بر ارزش افزوده</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Maliat bar Arzesh Afzoudeh</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Standard Name</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Input VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">اعتبار مالیاتی</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">E'tebar Maliati</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">"Tax Credit" on Purchases</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Output VAT</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">مالیات فروش</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Maliat-e Foroush</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Tax on Sales</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Exempt</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">معاف</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Mo'af</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Exempted items</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Zero-Rated</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">نرخ صفر</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Nerkhe Sefr</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Exports / Specific zones</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">VAT Return</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">اظهارنامه مالیاتی</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Ezharnama Maliati</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Quarterly Declaration</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">4. Urdu (Pakistan)</span></span></h3>
+<p class="rvps4"><span class="rvts6">In Pakistan (FBR), the system is officially called "Sales Tax." The return alignment is based on </span><span class="rvts11">Annexures</span><span class="rvts6"> (Annex-A for Purchases, Annex-C for Sales).</span></p>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Category</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Terminology (Urdu)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Transliteration</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Return Alignment</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Sales Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">سیلز ٹیکس</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Sales Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Standard Name</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Input Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">ان پٹ ٹیکس</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Input Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Annexure A (Purchases)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Output Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">آؤٹ پٹ ٹیکس</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Output Tax</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Annexure C (Sales)</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Exempt</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">مستثنیٰ</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Mustasna</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">6th Schedule items</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Zero-Rated</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">زیرو ریٹڈ</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Zero-Rated</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">5th Schedule / Exports</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">5. Dhivehi (Maldives), Pashto &amp; Kurdish</span></span></h3>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Language</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">VAT/GST Term</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Input Tax Term</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps3"><span class="rvts44">Output Tax Term</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Dhivehi</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">މުދަލާއި ޚިދުމަތުގެ އަގުން ނަގާ ޓެކްސް</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">އިންޕުޓް ޓެކްސް</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">އައުޓްޕުޓް ޓެކްސް</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Pashto</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">مالیات پر اضافه ارزښت</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">د پیرودلو مالیات</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">د پلورلو مالیات</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Kurdish (Sorani)</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">باجی نرخی زیادکراو</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">باجی کڕین</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">باجی فرۆشتن</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Implementation for Language Files</span></span></h3>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps65 noindent"><span class="rvts11">Label 3738:</span><span class="rvts6"> Must be </span><span class="rvts12">RTL</span><span class="rvts6"> in all files listed above.</span></li>
+ <li class="rvps65 noindent"><span class="rvts11">Chart of Accounts Alignment:</span><span class="rvts6"> * </span><span class="rvts11">Sales Group:</span><span class="rvts6"> Map "Output VAT" accounts to the corresponding "Sales" fields on the return.</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps66 noindent"><span class="rvts11">Purchases Group:</span><span class="rvts6"> Map "Input VAT" accounts. Note that in Israel and South Africa (if using RTL for specific regions), you should have separate accounts for </span><span class="rvts11">Standard Inputs</span><span class="rvts6"> and </span><span class="rvts11">Capital Inputs</span><span class="rvts6"> as they appear in different boxes on the return.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps16 noindent"><span class="rvts11">Reverse Charge:</span><span class="rvts6"> For Arabic countries (UAE/KSA), ensure you have a "Reverse Charge" label (Arabic: </span><span class="rvts11">الاحتساب العكسي</span><span class="rvts6">) for services imported from abroad, which requires both an Input and Output entry on the same return.</span><span class="rvts6"></span></li>
+</ol>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

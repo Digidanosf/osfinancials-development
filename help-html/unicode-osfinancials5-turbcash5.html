@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Unicode settings in osFinanacials5/TurboCASH5</title>
+  <meta name="description" content="Understanding Unicode settings - in osFinancials5/TurboCASH5 - osfinancials.org" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Unicode settings in osFinanacials5/TurboCASH5">
+  <meta name="twitter:description" content="Understanding Unicode settings - in osFinancials5/TurboCASH5 - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Unicode settings in osFinanacials5/TurboCASH5" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Understanding Unicode settings - in osFinancials5/TurboCASH5 - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="unicode-osfinancials5-turbcash5"
+		  data-hnd-context="1227"
+		  data-hnd-title="Unicode settings in osFinanacials5/TurboCASH5"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="getting-started.html">Getting started</a></li><li><a href="system-requirements.html">System requirements</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="system-requirements.html" title="System requirements" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="system-setting-default-csv-app.html" title="System settings - Default app for csv file types" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="unicode-context-menu-forms.html" title="Unicode - Context menu on forms" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Unicode settings in osFinanacials5/TurboCASH5</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<h1 class="rvps10"><span class="rvts0"><span class="rvts228">Install osFinancials5/TurboCASH5 - Added Unicode Setting</span></span></h1>
+<p class="rvps22"><span class="rvts6">We've adjusted the installation script to include a new Unicode setting for Unicode databases. This setting allows you to control the </span><span class="rvts11">nounicode</span><span class="rvts6"> parameter in the osf.ini file during installation. Additionally, we've added options to update or retain the existing osf.ini file based on your Unicode preferences for your Unicode databases. </span><span class="rvts227">This allows you to set the Unicode settings via the installation process without editing the </span><span class="rvts6">osf.ini</span><span class="rvts227"> file in the osFinancials5 installation's root directory.&nbsp;</span></p>
+<div class="rvps68">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps22"><span class="rvts206">If you are using TurboCASH5, you may set the Unicode settings via the installation process without editing the tcash.ini file in the TurboCASH5 installation's root directory</span><span class="rvts230">.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Unicode Settings in osFinancials5/TurboCASH5</span></span></h1>
+<p class="rvps2"><span class="rvts6">In osFinancials5, the osf.ini (or in TurboCASH the tcash.ini file) includes the setting </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> or </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> to control Unicode settings. Here's what these settings mean:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Enable Unicode setting</span><span class="rvts6">:</span><span class="rvts11"> nounicode=FALSE</span><span class="rvts6">: This setting enables Unicode support. When Unicode is enabled, the software can handle a wide range of characters from different languages, ensuring proper display and processing of multilingual text.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Disable Unicode setting</span><span class="rvts6">:</span><span class="rvts11"> nounicode=TRUE</span><span class="rvts6">: This setting disables Unicode support. When Unicode is disabled, the software may not correctly handle special characters or characters from languages other than the default one.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">Enabling Unicode (</span><span class="rvts11">nounicode=FALSE</span><span class="rvts6">) is generally recommended if you need to work with multiple languages or special characters to ensure data integrity and proper functionality.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Unicode settings / System locale and Keyboard layout</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">When would that be necessary to use the nounicode=TRUE setting?</span></span></h2>
+<p class="rvps4"><span class="rvts6">Disabling Unicode support with </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> may be necessary or beneficial in certain specific scenarios. Here are a few examples:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps16 noindent"><span class="rvts20">Legacy Systems</span><span class="rvts6">: If you are working with older, legacy systems or applications that do not support Unicode, disabling Unicode might be necessary to ensure compatibility. Some older software and databases were designed to work with specific code pages and might not handle Unicode characters correctly.</span></li>
+ <li class="rvps16 noindent"><span class="rvts20">Performance Considerations</span><span class="rvts6">: In some cases, using non-Unicode (single-byte or multi-byte character encodings) can be more efficient in terms of storage and performance, particularly if all the text data falls within a single codepage or character set. Disabling Unicode could reduce the storage size and improve performance for certain operations.</span></li>
+ <li class="rvps16 noindent"><span class="rvts20">Specific Language Use</span><span class="rvts6">: If you are working exclusively with a language or character set that is fully supported by the non-Unicode codepage, and there is no need to handle characters from multiple languages, you might choose to disable Unicode. This can simplify the configuration and maintenance of osFinancials5/TurboCASH5.</span></li>
+ <li class="rvps16 noindent"><span class="rvts20">Data Migration and Conversion</span><span class="rvts6">: When migrating data from a non-Unicode system to a Unicode system, or vice versa, it might be necessary to temporarily disable Unicode support to ensure data integrity during the conversion process.</span></li>
+ <li class="rvps17 noindent"><span class="rvts20">Software Integration</span><span class="rvts6">: If osFinancials5/TurboCASH5 needs to integrate with other software or systems that do not support Unicode, it might be necessary to disable Unicode to ensure proper data exchange and compatibility.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">However, keep in mind that using </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> can lead to limitations in handling special characters and multilingual text. It's generally recommended to use Unicode (</span><span class="rvts11">nounicode=FALSE</span><span class="rvts6">) for better flexibility and accuracy in a modern, globalised context.</span></p>
+<p class="rvps4"><span class="rvts6">Ultimately, the decision to enable or disable Unicode support should be based on your specific requirements and the systems you are working with.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">How does Unicode settings, System locale (language settings) and keyboard layout relate to these special characters?</span></span></h2>
+<p class="rvps4"><span class="rvts6">Great question! The relationship between Unicode settings, system locale (language settings), and keyboard layout is crucial for typing and displaying special characters correctly. Here's how they interact:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Unicode</span><span class="rvts20"> </span><span class="rvts6">is a universal character encoding standard that assigns a unique code to every character, regardless of the platform, program, or language. It ensures that special characters like </span><span class="rvts20">ê</span><span class="rvts6">, </span><span class="rvts20">ë</span><span class="rvts6">, and </span><span class="rvts20">Å</span><span class="rvts6"> are represented consistently across different systems and devices.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">System Locale (Language Settings) - </span><span class="rvts20">System locale</span><span class="rvts6"> determines the language and regional settings for your operating system. It affects the default language for system messages, the date and time format, currency, and other regional preferences.</span></li>
+</ul>
+<p class="rvps107"><span class="rvts6">When you set your system locale to a specific language, it can also influence the availability and behaviour of certain characters and symbols in applications and text input.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4 noindent"><span class="rvts20">Keyboard layout</span><span class="rvts6"> defines the arrangement of keys on your keyboard and determines which characters appear when you press specific keys. Different languages and regions have their own keyboard layouts that include characters specific to those languages.</span></li>
+</ul>
+<p class="rvps106"><span class="rvts6">For example, if your keyboard layout is set to "</span><span class="rvts42">US</span><span class="rvts6">," you might not see characters like </span><span class="rvts20">ê</span><span class="rvts6"> or </span><span class="rvts20">ë</span><span class="rvts6"> directly on the keyboard. However, if you switch to a layout like "</span><span class="rvts42">Afrikaans</span><span class="rvts6">", "</span><span class="rvts42">French</span><span class="rvts6">" or "</span><span class="rvts42">Dutch</span><span class="rvts6">," these characters will be more accessible.</span></p>
+<p class="rvps107"><span class="rvts6">Many operating systems allow you to switch between different keyboard layouts, making it easier to type special characters. You can usually switch layouts via a keyboard shortcut or through the language settings in your system preferences.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Putting It All Together</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps16 noindent"><span class="rvts20">Unicode</span><span class="rvts6"> ensures that the characters you type are represented correctly in text across different systems.</span></li>
+  <li class="rvps16 noindent"><span class="rvts20">System locale</span><span class="rvts6"> influences how these characters are displayed and interpreted based on your regional settings.</span></li>
+  <li class="rvps17 noindent"><span class="rvts20">Keyboard layout</span><span class="rvts6"> determines the ease of typing these characters by providing access to language-specific keys and shortcuts.</span></li>
+ </ul>
+</ul>
+<p class="rvps4"><span class="rvts6">By configuring these settings appropriately, you can seamlessly type and display special characters in any language you need.</span></p>
+<p class="rvps4"><span class="rvts6">If you ever run into issues with special characters not displaying correctly, checking these settings can often help resolve the problem!</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">In osFinancials5/TurboCASH5 can the Unicode settings have implications and differences in Firebird database types and MSSQL database types?</span></span></h2>
+<p class="rvps4"><span class="rvts6">Unicode settings can have implications and differences when using accounting software like osFinancials5/TurboCASH5 with Firebird and MSSQL databases. Here are some key points to consider:</span></p>
+<p class="rvps4"><span class="rvts11">Firebird Databases (</span><span class="rvts6">See - </span><a class="rvts37" href="https://www.firebirdsql.org/file/community/ppts/fbcon11/FbCon2011-Charsets-Heymann.pdf" target="_blank">Character Sets and Unicode in Firebird</a><span class="rvts6">)&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4 noindent"><span class="rvts11">Character Sets</span><span class="rvts6">: Firebird supports various character sets and collations. Properly configuring these settings is crucial to ensure that special characters like </span><span class="rvts58">'ê'</span><span class="rvts42">,</span><span class="rvts6"> </span><span class="rvts58">'ë'</span><span class="rvts6">, and </span><span class="rvts58">'Å'</span><span class="rvts6"> are stored and retrieved correctly.</span></li>
+ <li class="rvps4 noindent"><span class="rvts11">Unicode Support</span><span class="rvts6">: Firebird 2.1 and later versions support Unicode, which allows for the storage of characters from multiple languages. Ensuring that your database is set up to use Unicode can help avoid issues with character encoding. All Sets of Books for the Firebird database type is upgraded from Firebird 1.5 to Firebird 2.1. The updated Sets of Books based on Firebird 2.1 is available in the following options:&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps106 noindent"><span class="rvts6">TurboCASH5 in the bin/Repository folder.&nbsp;</span></li>
+  <li class="rvps106 noindent"><span class="rvts6">osFinancials5.1 - The similar Firebird database type Sets of Books, including Sets of Books for the Dutch markets, is available as a free download from the </span><span class="rvts11">Online</span><span class="rvts6"> option in the Creation Wizard (</span><a class="rvts37" href="create-books-default-download.html">Let osFinancials / TurboCASH help you to create your own Set of Books</a><span class="rvts6"> from the osFinancials website.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps106"><span class="rvts6">Existing users of osFinancials5/TurboCASH5 running Firebird 1.5 Sets of Books, may need to </span><a class="rvts37" href="firebird-database-version-upgrad.html">upgrade their databases from Firebird 1.5 to Firebird 2.1</a><span class="rvts6">.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">MSSQL Databases</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4 noindent"><span class="rvts11">Collation</span><span class="rvts6">: MSSQL databases use collations to define rules for sorting and comparing characters. Choosing the right collation is important for correctly handling special characters.</span></li>
+ <li class="rvps4 noindent"><span class="rvts11">Unicode Support</span><span class="rvts6">: MSSQL also supports Unicode through the use of `nvarchar` and `nchar` data types, which can store any Unicode character. Ensuring that your database columns are set to use these data types can help maintain character integrity.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts11">Implications</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4 noindent"><span class="rvts11">Data Consistency</span><span class="rvts6">: Properly configuring Unicode settings ensures that special characters are consistently stored and displayed across different systems and applications.</span></li>
+ <li class="rvps4 noindent"><span class="rvts11">Compatibility</span><span class="rvts6">: Ensuring that both the database and the application are set up to use Unicode can prevent issues with character encoding mismatches, which can lead to data corruption or display issues.</span></li>
+ <li class="rvps4 noindent"><span class="rvts11">Performance</span><span class="rvts6">: While Unicode support is essential for handling multilingual data, it can also have performance implications. Proper indexing and optimisation are necessary to maintain performance levels.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">By carefully configuring Unicode settings and ensuring that both your database and application are set up to handle Unicode characters, you can avoid many common issues related to special characters in accounting software.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Codepage settings in osFinancials5/TurboCASH5</span></span></h2>
+<p class="rvps22"><span class="rvts6">Codepage settings in osFiosFinancials5/TurboCASH5 set in the </span><span class="rvts11">Tools → Customise language</span><span class="rvts6"> option (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon) for your selected language.</span></p>
+<p class="rvps4"><span class="rvts6">osFinancials and TurboCASH allow you to customise language settings, including codepage settings, through the </span><span class="rvts11">Tools → Customise language</span><span class="rvts6"> option (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon). This is essential for ensuring that the software correctly displays and processes text in your chosen language, especially for languages with special characters or different writing systems.</span></p>
+<p class="rvps4"><span class="rvts6">By adjusting these settings, you can enhance your user experience and make sure that all financial data and reports are presented accurately, regardless of the language or character set you are using.</span></p>
+<p class="rvps22"><span class="rvts11">Microsoft Windows Codepages</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps22 noindent"><span class="rvts6">874 Thai&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">932 Japanese&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">936 Simplified Chinese&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">949 Korean&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">950 Traditional Chinese&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1250 Central European&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1251 Cyrillic&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1252 Western European&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1253 Greek&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1254 Turkish&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1255 Hebrew&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1256 Arabic&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1257 Baltic&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts6">1258 Vietnamese</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">Microsoft Windows Codepages are used to map characters to bytes for various languages, ensuring proper display and input of text. Each codepage is designed to handle specific scripts or groups of languages.</span></p>
+<p class="rvps4"><span class="rvts11">For example</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps5 noindent"><span class="rvts20">1250 Central European</span><span class="rvts6"> includes languages like Polish, Czech, and Hungarian.</span></li>
+ <li class="rvps6 noindent"><span class="rvts20">1251 Cyrillic</span><span class="rvts6"> is used for languages like Russian, Bulgarian, and Serbian.</span></li>
+ <li class="rvps6 noindent"><span class="rvts20">1252 Western European</span><span class="rvts6"> covers languages like English, French, and German.</span></li>
+ <li class="rvps6 noindent"><span class="rvts20">1253 Greek</span><span class="rvts6"> is specifically for the Greek language.</span></li>
+ <li class="rvps6 noindent"><span class="rvts20">1255 Hebrew</span><span class="rvts6"> and </span><span class="rvts20">1256 Arabic</span><span class="rvts6"> handle those respective languages and their unique writing systems.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">These codepages are essential for ensuring that text is correctly encoded and displayed, especially in applications like accounting software, where accurate representation of financial data in multiple languages is critical.</span></p>
+<p class="rvps4"><span class="rvts6">If you're setting up osFinancials or TurboCASH, choosing the correct codepage for your specific language ensures that all characters are displayed correctly, avoiding any data corruption or display issues.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">In osFinancials accounting software supports LTR languages and RTL languages ?</span></span></h2>
+<p class="rvps4"><span class="rvts6">Yes, osFinancials accounting software supports both </span><span class="rvts20">Left-to-Right (LTR)</span><span class="rvts6"> and </span><span class="rvts20">Right-to-Left (RTL)</span><span class="rvts6"> languages! This makes it versatile and suitable for users in different regions and linguistic backgrounds.</span></p>
+<p class="rvps4"><span class="rvts6">For TurboCASH5, this RTL setting is not included in the tcash.ini file. However it is included in the osf.ini file.&nbsp;</span></p>
+<p class="rvps86"><span class="rvts36">;BIDIMODE=RTL</span></p>
+<p class="rvps4"><span class="rvts6">For Left to Right to Left language and interface support, the ;BIDIMODE=RTL may need to be uncommented.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Tests Unicode Settings</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">TESTS nounicode=TRUE</span></span></h2>
+<p class="rvps2"><span class="rvts6">MSSQL Support - Can open Sets of Books for the MSSQL Database type.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">TESTS nounicode=FALSE</span></span></h2>
+<p class="rvps2"><span class="rvts6">MSSQL Support - Can open Sets of Books for the MSSQL Database type. This seems to display the osFinancials5/TurboCASH5 interface and reports correctly.</span></p>
+<p class="rvps2"><span class="rvts6">Prints correctly om all screens and reports tested, including currencies.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6">Entering an ê (Alt+0136) or ë (Alt+0137) in for example Company name (Registered company names may include these characters, including existing users) does not replicate an error:</span></p>
+<p class="rvps2"><span class="rvts11">NOTE</span><span class="rvts6"> - If data is entered when </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> , the reports do not print correctly - you may have to reenter the data on the forms.&nbsp;</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Setup -&gt; Company information &nbsp;</span></span></h3>
+<p class="rvps4"><span class="rvts6">If your data in the forms was entered when </span><span class="rvts11">nounicode=TRUE </span><span class="rvts6">and you change the unicode settings to</span><span class="rvts11"> nounicode=FALSE </span><span class="rvts6">you may need to reenter the special characters, for example; ê (Alt+0136) or ë (Alt+0137). This resolves the display issues in the osFinancials5/TurboCASH5 interface, reports and layout files.</span></p>
+<p class="rvps4"><span class="rvts11">REMEMBER</span><span class="rvts6"> to close and relaunch osFinancials5/TurboCASH5 you have edited the setting in the osf.ini or tcash.ini files.</span></p>
+<p class="rvps4"><span class="rvts6">Alternatively you may rerun the osfiancials5/TurboCASH5 installation.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Company info correct display</span></span></h3>
+<h4 class="rvps24"><span class="rvts0"><span class="rvts27">Company info and titlebar&nbsp;</span></span></h4>
+<p class="rvps4"><img alt="" style="padding : 1px;" src="lib/tests-unicode-false-company-info-1.png"></p>
+<h4 class="rvps24"><span class="rvts0"><span class="rvts27">Company info and report Currencies</span></span></h4>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-unicode-false-company-info-currencies.png"></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Setup -&gt; Countries&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">By default, the �land Islands will display the � character irrespective of your Unicode settings if the </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> (for Firebird database type Set of Books) or </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> &nbsp;(for MSSQL database type Set of Books). &nbsp;Åland does not seem to be included in the </span><span class="rvts11">countries.xml</span><span class="rvts6"> file in the osfinancials5/TurboCASH5 root installation folder.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-unicode-false-countries-original.png"></p>
+<p class="rvps4"><span class="rvts6">Typing special characters can vary depending on your keyboard and operating system. Here are a few methods for typing the Å character in Windows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps4 noindent"><span class="rvts20">Using Alt Code</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps108 noindent"><span class="rvts6">Hold down the </span><span class="rvts12">Alt</span><span class="rvts6"> key.</span></li>
+  <li class="rvps108 noindent"><span class="rvts6">While holding down </span><span class="rvts12">Alt</span><span class="rvts6">, type </span><span class="rvts12">0197</span><span class="rvts6"> on the numeric keypad.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps4 noindent"><span class="rvts20">Keyboard Shortcuts</span><span class="rvts6">:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps39 noindent"><span class="rvts6">Ensure you're using a keyboard layout that includes Scandinavian characters (like Swedish or Finnish).</span></li>
+  <li class="rvps109 noindent"><span class="rvts6">Press </span><span class="rvts12">Shift</span><span class="rvts6"> + </span><span class="rvts12">Ctrl</span><span class="rvts6"> + </span><span class="rvts12">;</span><span class="rvts6"> and then </span><span class="rvts12">A</span><span class="rvts6">.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-unicode-false-countries.png"></p>
+<p class="rvps4"><span class="rvts6">The Åland Islands - This fascinating archipelago belongs to Finland but has a large degree of autonomy. The unique letter “Å” is a telltale sign of the Scandinavian influence.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Errors Firebird database type - nounicode=TRUE&nbsp;</span></span></h2>
+<p class="rvps4"><span class="rvts6">If the Unicode setting is set to </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> and data is entered in forms and screens, it will cause display errors in the forms, reports and layout files.</span></p>
+<p class="rvps4"><span class="rvts6">Some screenshots of incorrect data display.</span></p>
+<p class="rvps4"><img alt="" style="padding : 1px;" src="lib/tests-firebird-nounicode-true-errors-2.png"></p>
+<p class="rvps2"><span class="rvts6">Error in documents, if no items are selected titlebar captions company name displayed incorrectly on all confirmation, warning, error messages across the entire program..&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-firebird-nounicode-true-errors-1.png"></p>
+<p class="rvps2"><span class="rvts6">Accounts&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-firebird-nounicode-true-errors-4.png"></p>
+<p class="rvps2"><span class="rvts6">Stock&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-firebird-nounicode-true-errors-5.png"></p>
+<p class="rvps2"><span class="rvts6">Enter correctly - when saving the record, the characters displays incorrectly on the stock grid.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/tests-firebird-nounicode-true-errors-3.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">OLDER UNICODE TESTS &nbsp;</span></span></h1>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Firebird databases nounicode=TRUE</span></span></h1>
+<p class="rvps2"><span class="rvts11">Retested:</span></p>
+<p class="rvps2"><span class="rvts6">All reports seems to print fine and neat.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Display errors when data is entered in some screens and reports&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If the </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> setting is set to true - it also produces incorrect display of data in some screens and reports.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Setup Countries - Displays incorrect character " �land Islands "</span></span></h2>
+<p class="rvps2"><span class="rvts6">Replicated in osF5.1.100 since osFinancials5.1.0.16 displayed incorrectly, since unicode was introduced.</span></p>
+<p class="rvps2"><span class="rvts6">If the default setting " &nbsp;</span><span class="rvts11">nounicode=true</span><span class="rvts6"> " is in the osf.ini file, this replicate the error not displaying correctly.</span></p>
+<p class="rvps2"><span class="rvts6">If the default unicode setting in the osf.ini file is changed to " ;</span><span class="rvts11">nounicode=true</span><span class="rvts6"> " is uncommented or set to false </span><span class="rvts11">nounicode=false</span><span class="rvts6"> in the osf.ini file, these settings does not change the display of " </span><span class="rvts11">�land Islands </span><span class="rvts6">".</span></p>
+<p class="rvps2"><span class="rvts11">�land Islands </span><span class="rvts6">Displays incorrect character irrespective of unicode settings</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Setup </span></span><span class="rvts0"><span class="rvts190">→</span></span><span class="rvts0"><span class="rvts16"> Countries&nbsp;</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/bug-unicode-error-countries.png"></p>
+<p class="rvps2"><span class="rvts6">Last version was displaying correctly = Build 453</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts229">Currencies</span></span><span class="rvts0"><span class="rvts23">&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Replicated in osF5.1.100 since osFinancials5.1.0.16 displayed incorrectly, since unicode was introduced.</span></p>
+<p class="rvps2"><span class="rvts6">To use Currencies in osFinancials5 you need to change the osf.ini file&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Only works correctly if &nbsp;</span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> in the osf.ini file.</span></p>
+<p class="rvps2"><span class="rvts6">If the default setting </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> &nbsp;in the osf.ini file, this replicate the error not displaying correctly.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Default setting nounicode=TRUE in the osf.ini file, this replicate the error not displaying correctly</span></span></h3>
+<p class="rvps2"><span class="rvts6">Euro sign - € - (Alt+0128) Initially it displays correctly, but when the record is saved, it displays a | pipe symbol in the Currency screen.</span></p>
+<p class="rvps2"><span class="rvts6">When printing a report the Euro sign - € id incorrectly displayed as </span><span class="rvts11">�</span><span class="rvts6"> character.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-true-currencies-x.png"></p>
+<p class="rvps2"><span class="rvts11">See - </span><a class="rvts37" href="https://www.webnots.com/alt-code-shortcuts-for-currency-symbols/" target="_blank">Alt Code Shortcuts for Currency Symbols</a><span class="rvts6"> - List of Alt+Numeric keys for generating theCurrencies in the various countries. Example Works if the Alt+0165 for Yen, etc.</span></p>
+<p class="rvps2"><span class="rvts6">To display currencies correctly in Currencies setup and print the Currency report correctly in you need to change the osf.ini file.</span></p>
+<p class="rvps2"><span class="rvts11">nounicode=TRUE&nbsp;</span><span class="rvts6"> setting set it to false </span><span class="rvts11">nounicode=FALSE </span><span class="rvts6">in the osf.ini file &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">After changing it back to the default setting</span><span class="rvts11"> nounicode=FALSE</span><span class="rvts6"> in the osf.ini file, The error is not replicated and is displayed correctly correctly in</span><span class="rvts11"> &nbsp;Setup </span><span class="rvts22">→</span><span class="rvts11"> Currencies </span><span class="rvts6">and</span><span class="rvts11"> Reports </span><span class="rvts22">→</span><span class="rvts11"> Currencies </span><span class="rvts6">report or on document layout files.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-true-currency-report-x.png"></p>
+<p class="rvps2"><span class="rvts11">Layout file incorrect&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If the default setting </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> in the osf.ini file, this replicate the error not displaying currency symbol correctly.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-true-currency-layout-file-x.png"></p>
+<p class="rvps2"><span class="rvts11">Layout file correct&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Only works correctly if </span><span class="rvts11">nounicode=TRUE</span><span class="rvts6"> is set to false </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> in the osf.ini file.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-false-currency-layout-file-correct.png"></p>
+<p class="rvps2"><span class="rvts6">Was correct in osFinancials5 (Build 453)</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Plugins Multimedia&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">Character input ë (Alt+137) displays correctly for added multimedia files in File explorer in the Windows system. When file is added in the Plugins, e.g. Multimedia, the file names displays incorrect characters in the fields loaded in the when </span><span class="rvts11">nounicode=TRUE</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-true-multikedia-karakters-x.png"></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Firebird Database - nounicode=FALSE</span></span></h1>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6"> it does not replicate the errors found in when the nounicode=TRUE&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">MSSQL databases cannot open in the MSSQL Server. &nbsp;To open and work in MSSQL databases, the Unicode setting must be set to</span><span class="rvts11"> nounicode=TRUE</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">In Firebird databases the Unicode setting must be set to </span><span class="rvts11">nounicode=FALSE</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Retested</span><span class="rvts6">:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Reports</span><span class="rvts6"> : All reports and document layout files including spreadsheet reports &nbsp;print correctly and looks neat.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Screens</span><span class="rvts6"> : Currencies is fixed but not Countries&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Plugins</span><span class="rvts6"> : Displays correctly&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">Character input ë (Alt+137) displays correctly for added multimedia files in File explorer in the Windows system. When file is added in the Plugins, e.g. Multimedia, the file names displays correct characters in the fields loaded in the when </span><span class="rvts11">nounicode=FALSE</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/unicode-false-multimedia.png"></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16"><br/></span></span></h2>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins </title>
+  <meta name="description" content="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins " /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins ">
+  <meta name="twitter:description" content="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins " />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins " />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="known-issue-plugin-firebird-mssq"
+		  data-hnd-context="334"
+		  data-hnd-title="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins "
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="known-issue-reports.html">Known issues - Reports</a></li><li><a href="known-issue-plugin-firebird-mss2.html">Known issues - SQL Compatibility MSSQL and Firebird Database types</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="known-issue-plugin-firebird-mss2.html" title="Known issues - SQL Compatibility MSSQL and Firebird Database types" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="known-issue-plugin-firebird-mss1.html" title="Known issues - SQL Compatibility MSSQL and Firebird Database types - Reports" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="known-issue-outstanding-date-rep.html" title="Known issues - Outstanding at date reports - MSSQL" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins </h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins&nbsp;</span></span></h1>
+<p class="rvps220"><span class="rvts6">The double pipe characters (||) for concatenation are not supported in Microsoft SQL Server. To ensure compatibility with both Firebird and SQL Server, you should use the CONCAT function instead.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Reminders plugin - MSSQL Compatibility</span></span></h2>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts574">Email</span></span><span class="rvts0"><span class="rvts16">&nbsp;</span></span></h2>
+<p class="rvps86"><span class="rvts36">Invalid column name 'REGISTER_ATT'.</span><br/><span class="rvts36">Invalid column name 'REGISTERS_ID'.</span><br/><span class="rvts36">Invalid column name 'REGISTERS_EMAIL'.</span><br/><span class="rvts36">Invalid column name 'REGISTERS_SEND'.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Edit report&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">OPENITEMS:Column 'COUNTRIES.countries_name' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">CONCAT - in sql files &nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">The || double pipe characters works in Firebird databases but is not compatible in MSSQL databases - causes errors.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ff0000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Select SCompanyName || ascii_char(35) || ascii_char(25)&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">|| sysvars.SADDRESS1</span></p>
+   <p class="rvps18"><span class="rvts26">|| ascii_char(13) || ascii_char(10)&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">|| sysvars.SPOSTCODE</span></p>
+   <p class="rvps18"><span class="rvts26">|| ' ' || sysvars.SADDRESS2</span></p>
+   <p class="rvps18"><span class="rvts26">|| ascii_char(13) || ascii_char(10)&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">|| sysvars.SPHONENUMBER</span></p>
+   <p class="rvps18"><span class="rvts26">&nbsp;from sysvars</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Subscriptions plugin&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">SQL folder in the templates need update for compatibility in both MSSQL and Firebird Database types</span></p>
+<p class="rvps2"><span class="rvts11">Location</span><span class="rvts6"> : …\plug_ins\reports\Subscriptions\en\SqlInvoice&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Location</span><span class="rvts6"> : …\plug_ins\reports\Subscriptions\en\Sql&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Language templates </span><span class="rvts6">: nl folder for Netherlands and en folder for English and af for Afrikaans folder</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Current SQL Firebird database types</span></span></h2>
+<p class="rvps2"><span class="rvts6">The double pipe characters (||) is currently supported in Firebird database types included in the SqlInvoice and Sql folders, which supports Firebird database types only.</span></p>
+<p class="rvps220"><span class="rvts6">Sample of the current SQL code (companyname.txt file) that will work in Firebird database types only:</span></p>
+<div class="rvps97">
+<table width="100%" style="border-color: #ff0000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts103">Firebird database</span><span class="rvts591"> </span><span class="rvts103">type</span><span class="rvts591"> </span><span class="rvts103">SQL</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts587">Select</span><span class="rvts586"> SCompanyName </span><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">)</span><span class="rvts586"> </span><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">)</span><span class="rvts586">&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS1</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">)</span><span class="rvts586"> </span><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">)</span><span class="rvts586">&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SPOSTCODE</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">' '</span><span class="rvts586"> </span><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS2</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">)</span><span class="rvts586"> </span><span class="rvts588">||</span><span class="rvts586"> ascii_char</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">)</span><span class="rvts586">&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SPHONENUMBER</span></p>
+   <p class="rvps18"><span class="rvts586">&nbsp;</span><span class="rvts587">from</span><span class="rvts586"> sysvars</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps97"><span class="rvts97"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Change SQL - Compatibility = MSSQL database types and Firebird database types</span></span></h2>
+<p class="rvps220"><span class="rvts6">The double pipe characters (||) for concatenation are not supported in Microsoft SQL Server. To ensure compatibility with both Firebird and SQL Server, you should use the CONCAT function instead.</span></p>
+<p class="rvps220"><span class="rvts6">Sample of the modified SQL code (companyname.txt file) that will work in both database types:</span></p>
+<div class="rvps97">
+<table width="100%" style="border-color: #ff0000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts103">MSSQL database type SQL</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts587">SELECT</span><span class="rvts586"> </span><span class="rvts590">CONCAT</span><span class="rvts588">(</span><span class="rvts586">SCompanyName</span><span class="rvts588">,</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">),</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">),</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS1</span><span class="rvts588">,</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">),</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">),</span></p>
+   <p class="rvps18"><span class="rvts586">sysvars</span><span class="rvts588">.</span><span class="rvts586">SPOSTCODE</span><span class="rvts588">,</span><span class="rvts586"> </span><span class="rvts589">' '</span><span class="rvts588">,</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS2</span><span class="rvts588">,</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">13</span><span class="rvts588">),</span><span class="rvts586"> </span><span class="rvts587">CHAR</span><span class="rvts588">(</span><span class="rvts586">10</span><span class="rvts588">),</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SPHONENUMBER</span><span class="rvts588">)</span></p>
+   <p class="rvps18"><span class="rvts587">FROM</span><span class="rvts586"> sysvars</span><span class="rvts588">;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Subscription plugin Files to be converted to CONCAT function (concatenation)</span></span></h3>
+<p class="rvps2"><span class="rvts592">Location</span><span class="rvts98"> : </span><span class="rvts6">...\plug_ins\reports\Subscriptions\nl</span></p>
+<p class="rvps2"><span class="rvts592">Location on GitHub</span><span class="rvts98"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/Subscriptions/nl" target="_blank">osfinancials-development/reports/plug_ins/reports/Subscriptions/nl at main · Digidanosf/osfinancials-development · GitHub</a><span class="rvts43"> &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The double pipe characters (||) need to be converted and updated in the following files:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">companyname.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">email.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">HTMcompanyname.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">HTMlogo.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">HTMparcel.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">logo.txt</span></li>
+ <li style="text-indent: 0px" class="rvps89 noindent"><span class="rvts39">parcel.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Updsql.txt&nbsp;</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">EmailInvoice Plugin</span></span></h2>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Current SQL Firebird database types</span></span></h3>
+<p class="rvps2"><span class="rvts6">The double pipe characters (||) is currently supported in Firebird database types included in the SqlInvoice and Sql folders, which supports Firebird database types only.</span></p>
+<p class="rvps220"><span class="rvts6">Sample of the current SQL code (companyname.txt file) that will work in Firebird database types only:</span></p>
+<div class="rvps97">
+<table width="100%" style="border-color: #ff0000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts103">Firebird database type SQL</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts587">Select</span><span class="rvts586"> &nbsp;SCompanyName </span><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">'&lt;br/&gt;'</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS1 </span><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">'&lt;br/&gt;'</span><span class="rvts586">&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SPOSTCODE </span><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">' '</span><span class="rvts586"> </span><span class="rvts588">||</span><span class="rvts586"> sysvars</span><span class="rvts588">.</span><span class="rvts586">SADDRESS2 &nbsp;</span><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">'&lt;br/&gt;'</span><span class="rvts586"> </span><span class="rvts588">||</span></p>
+   <p class="rvps18"><span class="rvts586">sysvars</span><span class="rvts588">.</span><span class="rvts586">SPHONENUMBER </span><span class="rvts588">||</span><span class="rvts586"> </span><span class="rvts589">'&lt;br/&gt;'</span><span class="rvts586">&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts586">&nbsp;</span><span class="rvts587">from</span><span class="rvts586"> sysvars</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Change SQL - Computability = MSSQL database types and Firebird database types</span></span></h3>
+<p class="rvps220"><span class="rvts6">The double pipe characters (||) for concatenation are not supported in Microsoft SQL Server. To ensure compatibility with both Firebird and SQL Server, you should use the CONCAT function instead.</span></p>
+<p class="rvps220"><span class="rvts6">Sample of the modified SQL code (companyname.txt file) that will work in both database types:</span></p>
+<div class="rvps97">
+<table width="100%" style="border-color: #ff0000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps18"><span class="rvts103">MSSQL database type SQL</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts97">SELECT</span><span class="rvts98"> </span><span class="rvts101">CONCAT</span><span class="rvts99">(</span><span class="rvts98">SCompanyName</span><span class="rvts99">,</span><span class="rvts98"> </span><span class="rvts100">'&lt;br/&gt;'</span><span class="rvts99">,</span><span class="rvts98"> sysvars</span><span class="rvts99">.</span><span class="rvts98">SADDRESS1</span><span class="rvts99">,</span><span class="rvts98"> </span><span class="rvts100">'&lt;br/&gt;'</span><span class="rvts99">,</span><span class="rvts98">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts98">sysvars</span><span class="rvts99">.</span><span class="rvts98">SPOSTCODE</span><span class="rvts99">,</span><span class="rvts98"> </span><span class="rvts100">' '</span><span class="rvts99">,</span><span class="rvts98"> sysvars</span><span class="rvts99">.</span><span class="rvts98">SADDRESS2</span><span class="rvts99">,</span><span class="rvts98"> </span><span class="rvts100">'&lt;br/&gt;'</span><span class="rvts99">,</span><span class="rvts98"> sysvars</span><span class="rvts99">.</span><span class="rvts98">SPHONENUMBER</span><span class="rvts99">)</span></p>
+   <p class="rvps2"><span class="rvts97">FROM</span><span class="rvts98"> sysvars</span><span class="rvts99">;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps97"><span class="rvts459"><br/></span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">EmailInvoice plugin Files to be converted to CONCAT function (concatenation)</span></span></h3>
+<p class="rvps2"><span class="rvts592">Location</span><span class="rvts98"> : </span><span class="rvts6">...\plug_ins\reports\EMailInvoice\nl\Sql&nbsp;</span></p>
+<p class="rvps2"><span class="rvts592">Location on GitHub</span><span class="rvts98"> : </span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/reports/plug_ins/reports/EMailInvoice/nl/Sql" target="_blank">osfinancials-development/reports/plug_ins/reports/EMailInvoice/nl/Sql at main · Digidanosf/osfinancials-development · GitHub</a><span class="rvts43"> &nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Language templates </span><span class="rvts6">: nl folder for Netherlands and en folder for English and af for Afrikaans folder</span></p>
+<p class="rvps2"><span class="rvts6">The double pipe characters (||) need to be converted and updated in the following files:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts43">companyname.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">doclines.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">email.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">ExtraFiles.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">HTMcompanyname.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">HTMdoclines.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">HTMlogo.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">HTMparcel.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">logo.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">parcel.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">selectLayout.txt</span></li>
+ <li class="rvps2 noindent"><span class="rvts43">Updsql.txt</span></li>
+</ul>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

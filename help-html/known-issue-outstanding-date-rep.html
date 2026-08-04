@@ -1,0 +1,390 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Known issues - Outstanding at date reports - MSSQL</title>
+  <meta name="description" content="Known issues - Outstanding at date reports - MSSQL" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Known issues - Outstanding at date reports - MSSQL">
+  <meta name="twitter:description" content="Known issues - Outstanding at date reports - MSSQL">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Known issues - Outstanding at date reports - MSSQL" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Known issues - Outstanding at date reports - MSSQL" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="known-issue-outstanding-date-rep"
+		  data-hnd-context="1104"
+		  data-hnd-title="Known issues - Outstanding at date reports - MSSQL"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="known-issue-reports.html">Known issues - Reports</a></li><li><a href="known-issue-plugin-firebird-mss2.html">Known issues - SQL Compatibility MSSQL and Firebird Database types</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="known-issue-plugin-firebird-mss2.html" title="Known issues - SQL Compatibility MSSQL and Firebird Database types" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="known-issue-plugin-firebird-mssq.html" title="Known issues - SQL Compatibility MSSQL and Firebird Database types - Plugins " role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="known-issue.html" title="Known issues" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Known issues - Outstanding at date reports - MSSQL</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Outstanding at date reports</span></span></h1>
+<p class="rvps2"><span class="rvts6">These Outstanding at date reports prints in Firebird database types, but in MSSQL database types it produces an error:</span></p>
+<p class="rvps86"><span class="rvts36">TRANSACTION_DETAIL:ACCLIST:Parameter 'DDATETOFL' not found</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Debtors outstanding at date&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\userreports\TRN_160\TRN_947\TRN_906104.rep&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Creditors outstanding at date</span></span></h2>
+<p class="rvps2"><span class="rvts11">Location</span><span class="rvts6"> : ...\plug_ins\reports\userreports\TRN_161\TRN_947\TRN_906103.rep&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Debtors outstanding at date - Current SQL - TRANSACTION_DETAIL Dataset</span></span></h2>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><span class="rvts596">SELECT</span><span class="rvts594"> &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">cast</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAmount </span><span class="rvts596">as</span><span class="rvts594"> </span><span class="rvts596">decimal</span><span class="rvts593">(</span><span class="rvts594">12</span><span class="rvts593">,</span><span class="rvts594">2</span><span class="rvts593">))</span><span class="rvts594"> p1</span><span class="rvts593">,</span></p>
+   <p class="rvps2"><span class="rvts594">transact</span><span class="rvts593">.*,</span><span class="rvts594">Account</span><span class="rvts593">.*,</span><span class="rvts603">messages</span><span class="rvts593">.</span><span class="rvts594">SDescription</span></p>
+   <p class="rvps2"><span class="rvts596">FROM</span><span class="rvts594"> transact</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp;</span><span class="rvts593">LEFT</span><span class="rvts594"> </span><span class="rvts593">OUTER</span><span class="rvts594"> </span><span class="rvts593">JOIN</span><span class="rvts594"> account</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp;</span><span class="rvts596">ON &nbsp;</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WAccountID </span><span class="rvts593">=</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">WAccountID</span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">join</span><span class="rvts594"> </span><span class="rvts603">Messages</span><span class="rvts594"> </span><span class="rvts596">on </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WDescriptionid </span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts603">messages</span><span class="rvts593">.</span><span class="rvts594">WMessageID</span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts596">WHERE</span><span class="rvts594"> WAccountTypeId &nbsp;</span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">ACCID</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">waccountid </span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WACCOUNTID</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">DDate </span><span class="rvts593">&lt;=</span><span class="rvts594"> &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts599">{</span><span class="rvts601">if</span><span class="rvts598"> interbase</span><span class="rvts599">}</span></p>
+   <p class="rvps2"><span class="rvts597">dateadd</span><span class="rvts593">(</span><span class="rvts594">1 </span><span class="rvts597">day</span><span class="rvts594"> </span><span class="rvts596">to</span><span class="rvts594"> </span><span class="rvts597">dateadd</span><span class="rvts593">(-</span><span class="rvts594"> 1 </span><span class="rvts597">second</span><span class="rvts594"> </span><span class="rvts596">to</span><span class="rvts594"> &nbsp;</span><span class="rvts593">:</span><span class="rvts594">ddatetofl &nbsp;</span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">)</span><span class="rvts594"> &nbsp; &nbsp; &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts593">{</span><span class="rvts596">if</span><span class="rvts594"> mysql</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">date_add</span><span class="rvts593">(</span><span class="rvts594">date_add</span><span class="rvts593">(:</span><span class="rvts594">ddatetofl</span><span class="rvts593">,</span><span class="rvts594"> interval </span><span class="rvts593">-</span><span class="rvts594">1 </span><span class="rvts597">second</span><span class="rvts593">),</span><span class="rvts594"> interval 1 </span><span class="rvts597">day</span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts599">{</span><span class="rvts601">if</span><span class="rvts598"> postgresql</span><span class="rvts599">}</span></p>
+   <p class="rvps2"><span class="rvts593">(:</span><span class="rvts594">ddatetofl</span><span class="rvts593">::</span><span class="rvts596">timestamp</span><span class="rvts594"> </span><span class="rvts593">-</span><span class="rvts594"> &nbsp;interval </span><span class="rvts595">'1 second'</span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">+</span><span class="rvts594"> interval </span><span class="rvts595">'1 day'</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">DDate </span><span class="rvts593">&gt;=</span><span class="rvts594"> &nbsp;</span><span class="rvts593">:</span><span class="rvts594">ddatefromfl&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts596">union</span></p>
+   <p class="rvps2"><span class="rvts596">SELECT</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAmount </span><span class="rvts593">)</span><span class="rvts594"> p1</span><span class="rvts593">,</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WBATCHID</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WBATCHTYPEID</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WLINEID</span><span class="rvts593">),</span><span class="rvts594"> </span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">BCARRIEDFORWARD</span><span class="rvts593">),</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">BLASTYEAR</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">BLINKSUSED</span><span class="rvts593">),</span><span class="rvts594"> </span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">BMULTIPLEITEMS</span><span class="rvts593">),</span></p>
+   <p class="rvps2"><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WACCOUNTID</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">DDATE</span><span class="rvts593">),</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WPERIODID</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WYEARID</span><span class="rvts593">),</span><span class="rvts594"> </span><span class="rvts595">'Opening'</span><span class="rvts593">,</span><span class="rvts594"> </span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FTAXRATE</span><span class="rvts593">),</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WTAXACCOUNTID</span><span class="rvts593">),</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAMOUNT</span><span class="rvts593">),</span><span class="rvts594"> </span><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FTAXAMOUNT</span><span class="rvts593">),</span><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">FOUTSTANDINGAMOUNT</span><span class="rvts593">),</span><span class="rvts594"> </span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">BRECONCILED</span><span class="rvts593">),</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">WUSERID</span><span class="rvts593">),</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594"> transact</span><span class="rvts593">.</span><span class="rvts594">DSYSDATE</span><span class="rvts593">),</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">max</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">DPAYMENTDATE</span><span class="rvts593">),</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">WACCOUNTID</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SMAINACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">SSUBACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SDESCRIPTION</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WACCOUNTTYPEID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP1ID</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP2ID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">BSUBACCOUNTS</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">BINCOMEEXPENSE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">BOPENITEM</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">BINACTIVE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">DSYSDATE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WPROFILEID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">WLINKACCOUNT</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WTAXACCOUNT</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WCURRENCYID</span><span class="rvts593">,</span><span class="rvts595">'Opening'</span><span class="rvts594"> </span><span class="rvts596">FROM</span><span class="rvts594"> transact</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp;</span><span class="rvts593">LEFT</span><span class="rvts594"> &nbsp;</span><span class="rvts593">JOIN</span><span class="rvts594"> account</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp;</span><span class="rvts596">ON &nbsp;</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WAccountID </span><span class="rvts593">=</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">WAccountID</span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts596">WHERE</span><span class="rvts594"> WAccountTypeId &nbsp;</span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">ACCID&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">waccountid </span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WACCOUNTID</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">DDate </span><span class="rvts593">&lt;</span><span class="rvts594"> &nbsp;</span><span class="rvts593">:</span><span class="rvts594">ddatefromfl </span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP1ID </span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WREPORTINGGROUP1ID </span><span class="rvts593">or</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WREPORTINGGROUP1ID </span><span class="rvts593">=</span><span class="rvts594"> 0</span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP2ID </span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WREPORTINGGROUP2ID </span><span class="rvts593">or</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">WREPORTINGGROUP2ID </span><span class="rvts593">=</span><span class="rvts594"> 0</span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts596">group</span><span class="rvts594"> </span><span class="rvts596">by</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WACCOUNTID</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SMAINACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">SSUBACCOUNTCODE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">SDESCRIPTION</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WACCOUNTTYPEID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP1ID</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WREPORTINGGROUP2ID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">BSUBACCOUNTS</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">BINCOMEEXPENSE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">BOPENITEM</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">BINACTIVE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">DSYSDATE</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WPROFILEID</span><span class="rvts593">,</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts594">Account</span><span class="rvts593">.</span><span class="rvts594">WLINKACCOUNT</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WTAXACCOUNT</span><span class="rvts593">,</span><span class="rvts594"> Account</span><span class="rvts593">.</span><span class="rvts594">WCURRENCYID&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts596">having</span><span class="rvts594"> </span><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAmount </span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">&lt;&gt;</span><span class="rvts594"> 0</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts596">order</span><span class="rvts594"> </span><span class="rvts596">by</span><span class="rvts594"> @ORDER</span><span class="rvts593">,</span><span class="rvts594">11</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Debtors outstanding at date - Current SQL - ACCLIST Dataset</span></span></h2>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><span class="rvts596">SELECT</span><span class="rvts594"> &nbsp;account</span><span class="rvts593">.</span><span class="rvts594">waccountid</span><span class="rvts593">,</span><span class="rvts594">account</span><span class="rvts593">.</span><span class="rvts594">SAccountcode</span><span class="rvts593">,</span></p>
+   <p class="rvps2"><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAmount </span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts596">FROM</span><span class="rvts594"> transact</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp; </span><span class="rvts593">JOIN</span><span class="rvts594"> account</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp; &nbsp;</span><span class="rvts596">ON &nbsp;</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">WAccountID </span><span class="rvts593">=</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">WAccountID</span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts596">WHERE</span><span class="rvts594"> WAccountTypeId &nbsp;</span><span class="rvts593">=</span><span class="rvts594"> </span><span class="rvts593">:</span><span class="rvts594">ACCID</span></p>
+   <p class="rvps2"><span class="rvts599">and</span><span class="rvts598"> SAccountcode </span><span class="rvts599">&lt;=</span><span class="rvts598"> </span><span class="rvts602">trim</span><span class="rvts599">(</span><span class="rvts602">substring</span><span class="rvts599">(</span><span class="rvts600">'@SACCOUNTCODETOTX '</span><span class="rvts598"> </span><span class="rvts601">from</span><span class="rvts598"> 2 </span><span class="rvts601">for</span><span class="rvts598"> </span><span class="rvts599">{</span><span class="rvts601">if</span><span class="rvts598"> mysql</span><span class="rvts599">}</span><span class="rvts601">if</span><span class="rvts599">{</span><span class="rvts601">else</span><span class="rvts599">}</span><span class="rvts602">IIF</span><span class="rvts599">{</span><span class="rvts598">endif</span><span class="rvts599">}(</span><span class="rvts598">position</span><span class="rvts601"> </span><span class="rvts599">(</span><span class="rvts600">' '</span><span class="rvts598"> </span><span class="rvts599">in</span><span class="rvts598"> </span><span class="rvts600">'@SACCOUNTCODETOTX '</span><span class="rvts599">)=</span><span class="rvts598">0</span><span class="rvts599">,</span><span class="rvts598">0</span><span class="rvts599">,</span><span class="rvts598">position</span><span class="rvts601"> </span><span class="rvts599">(</span><span class="rvts600">' '</span><span class="rvts598"> </span><span class="rvts599">in</span><span class="rvts598"> </span><span class="rvts600">'@SACCOUNTCODETOTX '</span><span class="rvts599">)-</span><span class="rvts598">1</span><span class="rvts599">))</span><span class="rvts598"> </span><span class="rvts599">)</span></p>
+   <p class="rvps2"><span class="rvts599">and</span><span class="rvts598"> SAccountcode </span><span class="rvts599">&gt;=</span><span class="rvts598"> </span><span class="rvts602">trim</span><span class="rvts599">(</span><span class="rvts602">substring</span><span class="rvts599">(</span><span class="rvts600">'@SACCOUNTCODETX '</span><span class="rvts598"> </span><span class="rvts601">from</span><span class="rvts598"> 2 </span><span class="rvts601">for</span><span class="rvts598"> &nbsp;</span><span class="rvts599">{</span><span class="rvts601">if</span><span class="rvts598"> mysql</span><span class="rvts599">}</span><span class="rvts601">if</span><span class="rvts599">{</span><span class="rvts601">else</span><span class="rvts599">}</span><span class="rvts602">IIF</span><span class="rvts599">{</span><span class="rvts598">endif</span><span class="rvts599">}(</span><span class="rvts598">position</span><span class="rvts601"> </span><span class="rvts599">(</span><span class="rvts600">' '</span><span class="rvts598"> </span><span class="rvts599">in</span><span class="rvts598"> </span><span class="rvts600">'@SACCOUNTCODETX '</span><span class="rvts599">)=</span><span class="rvts598">0</span><span class="rvts599">,</span><span class="rvts598">0</span><span class="rvts599">,</span><span class="rvts598">position</span><span class="rvts601"> </span><span class="rvts599">(</span><span class="rvts600">' '</span><span class="rvts598"> </span><span class="rvts599">in</span><span class="rvts598"> </span><span class="rvts600">'@SACCOUNTCODETX '</span><span class="rvts599">)-</span><span class="rvts598">1</span><span class="rvts599">)))</span><span class="rvts598">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">DDate </span><span class="rvts593">&lt;=</span><span class="rvts594"> &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts596">if</span><span class="rvts594"> interbase</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts597">dateadd</span><span class="rvts593">(</span><span class="rvts594">1 </span><span class="rvts597">day</span><span class="rvts594"> </span><span class="rvts596">to</span><span class="rvts594"> </span><span class="rvts597">dateadd</span><span class="rvts593">(-</span><span class="rvts594"> 1 </span><span class="rvts597">second</span><span class="rvts594"> </span><span class="rvts596">to</span><span class="rvts594"> &nbsp;</span><span class="rvts593">:</span><span class="rvts594">ddatetofl &nbsp;</span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">)</span><span class="rvts594"> &nbsp; &nbsp; &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts593">{</span><span class="rvts596">if</span><span class="rvts594"> mysql</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">date_add</span><span class="rvts593">(</span><span class="rvts594">date_add</span><span class="rvts593">(:</span><span class="rvts594">ddatetofl</span><span class="rvts593">,</span><span class="rvts594"> interval </span><span class="rvts593">-</span><span class="rvts594">1 </span><span class="rvts597">second</span><span class="rvts593">),</span><span class="rvts594"> interval 1 </span><span class="rvts597">day</span><span class="rvts593">)</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts594">&nbsp;</span><span class="rvts593">{</span><span class="rvts596">if</span><span class="rvts594"> postgresql</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts593">(:</span><span class="rvts594">ddatetofl</span><span class="rvts593">::</span><span class="rvts596">timestamp</span><span class="rvts594"> </span><span class="rvts593">-</span><span class="rvts594"> &nbsp;interval </span><span class="rvts595">'1 second'</span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">+</span><span class="rvts594"> interval </span><span class="rvts595">'1 day'</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts593">{</span><span class="rvts594">endif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts596">group</span><span class="rvts594"> </span><span class="rvts596">by</span><span class="rvts594"> account</span><span class="rvts593">.</span><span class="rvts594">waccountid</span><span class="rvts593">,</span><span class="rvts594">account</span><span class="rvts593">.</span><span class="rvts594">SAccountcode</span></p>
+   <p class="rvps2"><span class="rvts596">having</span><span class="rvts594"> </span><span class="rvts597">sum</span><span class="rvts593">(</span><span class="rvts594">transact</span><span class="rvts593">.</span><span class="rvts594">FAmount </span><span class="rvts593">)</span><span class="rvts594"> </span><span class="rvts593">&lt;&gt;</span><span class="rvts594"> 0</span></p>
+   <p class="rvps2"><span class="rvts594"><br/></span></p>
+   <p class="rvps2"><span class="rvts596">union</span><span class="rvts594"> </span><span class="rvts593">all</span></p>
+   <p class="rvps2"><span class="rvts596">select</span><span class="rvts594"> 0</span><span class="rvts593">,</span><span class="rvts595">'ZZZZZZZZ'</span><span class="rvts594"> </span><span class="rvts593">,</span><span class="rvts594"> 0 </span><span class="rvts596">from</span><span class="rvts594"> rdb$database&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts596">order</span><span class="rvts594"> </span><span class="rvts596">by</span><span class="rvts594"> 2</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts11">Changed lookup section of ACCLIST to&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #000000; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><span class="rvts11">Changed to</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts594"> SAccountcode </span><span class="rvts593">&lt;=</span><span class="rvts594"> </span><span class="rvts597">trim</span><span class="rvts593">(</span><span class="rvts597">substring</span><span class="rvts593">(</span><span class="rvts595">'@SACCOUNTCODETOTX '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">ssfrom</span><span class="rvts593">}</span><span class="rvts594"> 2 </span><span class="rvts593">{</span><span class="rvts594">ssfor</span><span class="rvts593">}</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts597">iif</span><span class="rvts593">}</span></p>
+   <p class="rvps2"><span class="rvts593">({</span><span class="rvts594">pos</span><span class="rvts593">}</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts595">' '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">posin</span><span class="rvts593">}</span><span class="rvts594"> </span><span class="rvts595">'@SACCOUNTCODETOTX '</span><span class="rvts593">)=</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,{</span><span class="rvts594">pos</span><span class="rvts593">}</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts595">' '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">posin</span><span class="rvts593">}</span><span class="rvts594"> </span><span class="rvts595">'@SACCOUNTCODETOTX '</span><span class="rvts593">)-</span><span class="rvts594">1</span><span class="rvts593">))</span><span class="rvts594"> </span><span class="rvts593">)</span></p>
+   <p class="rvps2"><span class="rvts593">and</span><span class="rvts594"> SAccountcode </span><span class="rvts593">&gt;=</span><span class="rvts594"> </span><span class="rvts597">trim</span><span class="rvts593">(</span><span class="rvts597">substring</span><span class="rvts593">(</span><span class="rvts595">'@SACCOUNTCODETX '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">ssfrom</span><span class="rvts593">}</span><span class="rvts594"> 2 </span><span class="rvts593">{</span><span class="rvts594">ssfor</span><span class="rvts593">}</span><span class="rvts594">&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts597">IIF</span><span class="rvts596"> </span><span class="rvts593">({</span><span class="rvts594">pos</span><span class="rvts593">}</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts595">' '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">posin</span><span class="rvts593">}</span><span class="rvts594"> </span><span class="rvts595">'@SACCOUNTCODETX '</span><span class="rvts593">)=</span><span class="rvts594">0</span><span class="rvts593">,</span><span class="rvts594">0</span><span class="rvts593">,{</span><span class="rvts594">pos</span><span class="rvts593">}</span><span class="rvts596"> </span><span class="rvts593">(</span><span class="rvts595">' '</span><span class="rvts594"> </span><span class="rvts593">{</span><span class="rvts594">posin</span><span class="rvts593">}</span><span class="rvts594"> </span><span class="rvts595">'@SACCOUNTCODETX '</span><span class="rvts593">)-</span><span class="rvts594">1</span><span class="rvts593">)))</span><span class="rvts594">&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
