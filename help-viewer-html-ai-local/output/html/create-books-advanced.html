@@ -1,0 +1,1455 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Customise your own Set of Books (Advanced)</title>
+  <meta name="description" content="How to create a new blank set of books - osfinancials.org" /> 
+  <meta name="keywords" content="Accounting periods,Start ribbon,Firebird,MSSQL (Microsoft SQL Server),Customise language,Project groups,Cost centre groups,Creation wizard,Browse For Folder">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Customise your own Set of Books (Advanced)">
+  <meta name="twitter:description" content="How to create a new blank set of books - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Customise your own Set of Books (Advanced)" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to create a new blank set of books - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="create-books-advanced"
+		  data-hnd-context="110"
+		  data-hnd-title="Customise your own Set of Books (Advanced)"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="manage-sets-of-books.html">Manage Sets of Books</a></li><li><a href="create-set-of-books.html">Create Set of Books</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="create-set-of-books.html" title="Create Set of Books" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="create-books-default-download.html" title="Let osFinancials5/TurboCASH5 help you to create a Set of Books - Download" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="convert-books-options.html" title="Converting Sets of Books" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Customise your own Set of Books (Advanced)</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p class="rvps2"><span class="rvts6">In osFinancials5/TurboCASH5, when creating a Set of Books from scratch using the "</span><a class="rvts60" href="create-books-advanced.html">Customise your own Set of Books (Advanced)?</a><span class="rvts6">" option in the "</span><span class="rvts42">Creation wizard</span><span class="rvts6">", you have the flexibility to define your chart of accounts according to your specific needs and requirements. It is important to consider some steps when </span><a class="rvts37" href="chart-of-accounts-design-steps.html">designing you own Chart of Accounts</a><span class="rvts6">.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">Basic Sets of Books for the Firebird database is included in the </span><span class="rvts88">bin/CUSTOMISE-EMPTY-BOOKS </span><span class="rvts26">folder of your osFinancials5.1/TurboCASH5-3 installation. The following Sets of Books (templates) with longer field lengths and only the three basic control accounts is available in the </span><span class="rvts88">bin/CUSTOMISE-EMPTY-BOOKS</span><span class="rvts26"> folder:</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-3X3-DIGITS&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-4X3-DIGITS&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-5X3-DIGITS&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-6X3-DIGITS&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-7X3-DIGITS&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">CUSTOMISE-EMPTY-BOOKS-8X3-DIGITS&nbsp;</span></li>
+   </ol>
+   <p class="rvps18"><span class="rvts88">Select a CUSTOMIE-EMPTY-BOOKS template:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><span class="rvts88">Copy an existing Set of Books</span><span class="rvts26">c Use this option and use the </span><span class="rvts88">Browse</span><span class="rvts26"> button to navigate to the </span><span class="rvts88">bin/CUSTOMIE-EMPTY-BOOKS</span><span class="rvts26"> folder. Enter the name of your Set of Books.</span></li>
+    <li class="rvps18 noindent"><span class="rvts88">Save as</span><span class="rvts26">: Open a Set of Books and use the </span><span class="rvts88">Browse</span><span class="rvts26"> button to navigate to the </span><span class="rvts88">bin/CUSTOMIE-EMPTY-BOOKS</span><span class="rvts26"> folder. Once the CUSTOMISE SET OF BOOKS template of your choice is opened, go the </span><span class="rvts88">Save as</span><span class="rvts26"> option on the </span><span class="rvts88">Start</span><span class="rvts26"> ribbon and save your Set of Books with your own name in the books directory. &nbsp;&nbsp;</span></li>
+   </ul>
+   <p class="rvps18"><span class="rvts88">Key features</span><span class="rvts26">:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><span class="rvts26">Description length increased and Added missing entries in the Types table.&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">Changed the number of characters in the Descriptions (Account description and Groups description) to 128 characters.</span></li>
+   </ul>
+   <p class="rvps18"><span class="rvts26">Should you need any further field length adjustments for osFinancials and TurboCASH, please visit the </span><a class="rvts78" href="plugin-field-length.html">osFinancials webshop</a><span class="rvts26">.</span></p>
+   <p class="rvps18"><span class="rvts88">Accounts</span><span class="rvts26">:</span></p>
+   <p class="rvps18"><span class="rvts26">These Sets of Books only include the 3 control accounts (i.e. Debtors control + Creditors control + Retained earnings) accounts in the Chart of Accounts.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">You may change these three control account numbers and descriptions to meet your specific requirements. It is recommended that you do it before you add or import your ledger. accounts.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">See - </span><a class="rvts78" href="chart-of-accounts-design-steps.htm">Designing a Chart of Accounts</a><span class="rvts26"> in this documentation.</span></p>
+   <p class="rvps18"><span class="rvts88">Updated Types table</span><span class="rvts26">:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><span class="rvts88">Added</span><span class="rvts26">: Groups for Projects -1000, Cost centre 1 -1002, Cost centre 2 - 1003 and Languages -1004.</span></li>
+    <li class="rvps18 noindent"><span class="rvts88">Added</span><span class="rvts26">: Paper types - 55 - Till slip and 56 New plain paper types.</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">When creating a Set of Books using the "</span><a class="rvts60" href="create-books-advanced.html">Customise your own Set of Books (Advanced)?</a><span class="rvts6">" option, you begin with a clean slate and have to build your chart of accounts from scratch. The initial setup process will only include three main control accounts: the Debtor's control account, Creditor's control account, and Retained earnings account.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">As part of this customisation process, you will have the opportunity to set the number of main digits for your accounts, ranging from 3 to 8 digits. Additionally, you will specify the account numbers for three main control accounts: the Creditors control account, Debtors control account, and Retained earnings account.</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li class="rvps18 noindent"><span class="rvts26">The</span><span class="rvts88"> Creditors control account</span><span class="rvts26"> is a general ledger account that represents the total amount owed to the company by its creditors or suppliers. It serves as a summary account for all individual creditor accounts and helps track the company's outstanding payables.</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">The </span><span class="rvts88">Debtors control account</span><span class="rvts26">, on the other hand, is a general ledger account that represents the total amount owed to the company by its debtors or customers. It acts as a summary account for all individual debtor accounts and aids in monitoring the company's receivables.</span></li>
+    <li class="rvps18 noindent"><span class="rvts26">The </span><span class="rvts88">Retained earnings account</span><span class="rvts26">, reflects the cumulative net earnings or profits of the company that have been retained and reinvested in the business. It represents the portion of equity that is derived from the company's profitability and serves as a financial record of the accumulated profits over time.</span></li>
+   </ol>
+   <p class="rvps18"><span class="rvts26">By defining these main control accounts during the Set of Books creation process, you can structure your chart of accounts and design the account numbering system that aligns with your specific accounting practices and reporting requirements.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">To complete the setup and create a comprehensive chart of accounts, you will need to define and link all the necessary accounts in your organisation. This includes creating and setting up Ledger accounts, Bank accounts, Creditor accounts, Debtor accounts, and Tax accounts. You have the flexibility to customize the account structure and naming conventions based on your specific requirements.</span></p>
+<p class="rvps2"><span class="rvts6">Additionally, you will also need to create and configure other elements such as Batch types, Groups, and any other accounts or settings that are relevant to your business operations. This allows you to tailor the Set of Books to suit your organisation's needs and ensure accurate financial management and reporting.</span></p>
+<p class="rvps2"><span class="rvts6">By going through the setup process and defining the necessary accounts, you establish the foundation for recording and managing financial transactions within osFinancials5/TurboCASH5, enabling you to effectively track and analyse your company's financial activities.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Choosing the number of digits for main accounts</span></span></h1>
+<p class="rvps2"><span class="rvts6">See - Chart of Accounts - Optimising 4-,5-,6-,7- and 8-digit main accounts - </span><a class="rvts37" href="chart-of-accounts-digits-guide.html">Some recommendations and tips to plan your Chart of Accounts according to your selection on the number of Main account digits</a><span class="rvts6"> -&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Choosing the appropriate number of digits for main accounts is an important consideration when setting up your Chart of Accounts in osFinancials5/TurboCASH5. The number of digits determines the level of detail and granularity in your account numbering system.</span></p>
+<p class="rvps2"><span class="rvts6">When creating your Set of Books, you will be prompted to select the number of main account digits. For example, if you choose a 4-digit main accounts Chart of Accounts, the and you have initially assigned the following account numbers: 1100 for the Debtor's control account, 2100 for the Creditor's control account, and 3100 for the Retained earnings account. These are default account codes that can be modified later if needed.</span></p>
+<p class="rvps2"><span class="rvts6">The selection of main account digits impacts the structure and organization of your Chart of Accounts. Here are some recommendations and tips to consider:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">4-digit main accounts</span><span class="rvts6">: This option provides a concise and compact Chart of Accounts, it can be suitable for small and medium enterprises as well as larger organizations that need to comply with various accounting frameworks and standards such as GAAP US, GAAP UK, SA GAAP, NZ GAAP, IFRS (full), IFRS for SMEs, and others based on their jurisdiction and accounting needs. However, it's important to note that this option may have limitations in accommodating detailed account classifications or sub-categories.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">5 to 8-digit main accounts</span><span class="rvts6">: These options offer greater offer greater flexibility and granularity in your Chart of Accounts. These options allow for more detailed account classifications and sub-categories, making them beneficial for larger organizations or those with complex accounting requirements. With these options, you can design a Chart of Accounts that aligns precisely with your financial reporting needs and internal management requirements.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">It's crucial to consider your organization's size, complexity, and reporting needs when choosing the number of main account digits. By selecting the appropriate option, you can ensure that your Chart of Accounts supports accurate financial reporting, compliance with accounting standards, and effective management of your organization's financial data.</span></p>
+<div class="rvps56">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">When creating a Set of Books with the option to choose the number of digits for main accounts, you have the flexibility to select a structure that suits your needs. Here are the available options and the corresponding number of digits for the general ledger main accounts:</span></p>
+   <p class="rvps18"><span class="rvts88">4-Digit General ledger main accounts</span><span class="rvts26">: Enter a 4-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 2100, 1100, and 3100). This option includes 3-digit sub-accounts as well as 7-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger.</span></p>
+   <p class="rvps18"><span class="rvts88">5-Digit General ledger main accounts</span><span class="rvts26">: Enter a 5-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 21000, 11000, and 31000). This option includes 3-digit sub-accounts as well as 8-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">6-Digit General ledger main accounts</span><span class="rvts26">: Enter a 6-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 210000, 110000, and 310000). This option includes 3-digit sub-accounts as well as 9-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">7-Digit General ledger main accounts</span><span class="rvts26">: Enter a 7-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 2100000, 1100000, and 3100000). This option includes 3-digit sub-accounts as well as 10-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">8-Digit General ledger main accounts</span><span class="rvts26">: Enter an 8-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 21000000, 11000000, and 31000000). This option includes 3-digit sub-accounts as well as 11-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts26">When planning your Chart of Accounts, it's important to carefully consider and define the codes or numbers for these accounts based on the structure you have chosen. This will help ensure consistency and organization in your financial reporting and analysis.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">After creating your Set of Books, you still have the flexibility to change the account codes or numbers in the Chart of Accounts. In the</span><span class="rvts11"> Setup </span><span class="rvts22">→</span><span class="rvts11"> Accounts</span><span class="rvts6"> menu on the </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon, you can modify the account codes to align with your specific requirements, including the codes for the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 2100, 1100, and 3100 in the example of the 4-Digit General ledger main accounts). This initial stage allows you to plan and design your chart of accounts according to your needs.&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">However, it's important to note that once you start processing functions such as entering transactions or budgets, you may not be allowed to change the account codes or numbers. Therefore, careful consideration and planning during the initial setup stage is crucial to ensure accurate financial structure and reporting.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">By carefully selecting the number of main account digits and customizing the account codes in the Chart of Accounts, you can optimize the organization and usability of your financial data within osFinancials5/TurboCASH5.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts158">Defining Account groups and Financial categories</span></span></h1>
+<p class="rvps2"><span class="rvts6">Before creating and setting up Ledger accounts, Bank accounts, Creditor accounts, Debtor accounts, and Tax accounts in osFinancials5/TurboCASH5, it is recommended to define the basic classification of accounts using Account Group 1 or Account Group 2. This helps organize and categorize your accounts based on their nature or function.</span></p>
+<p class="rvps2"><span class="rvts6">In the </span><span class="rvts11">Setup → </span><a class="rvts17" href="reporting-groups-setup-accounts.html">Groups</a><span class="rvts6"> menu on the </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon, you can add Account Group 1 or Account Group 2 and assign them meaningful names that represent different account classifications. For example, you can create groups for fixed assets, cash and receivables, current assets, current liabilities, equity, operating expenses, operating revenue, non-operating expenses, non-operating revenue, etc. These groups provide a structured framework for organising your accounts.</span></p>
+<p class="rvps2"><span class="rvts6">After creating the account groups, you can map or link them to the five financial categories: Assets, Liabilities, Equity, Income, and Expenses in the </span><span class="rvts11">Setup → </span><a class="rvts17" href="financial-categories-setup.html">Financial categories</a><span class="rvts6"> menu on the </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon. This mapping ensures that the accounts are correctly classified within the financial framework of your organisation.</span></p>
+<p class="rvps2"><span class="rvts6">When you proceed to create and set up Ledger accounts, Bank accounts, and Tax accounts in the </span><span class="rvts11">Setup → </span><a class="rvts17" href="ledger-accounts.html">Accounts</a><span class="rvts6"> menu, you will have the option to select the appropriate Account Group 1 and/or Account Group 2 for each account. By associating the accounts with their respective account groups, you establish a hierarchical structure that allows for easier navigation and analysis of financial information.</span></p>
+<p class="rvps2"><span class="rvts6">By properly defining and linking account groups, you lay the foundation for accurate financial reporting and analysis within osFinancials5/TurboCASH5, enabling you to effectively track and manage your organisation's financial data.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Process to create a Set of Books using the Customize your own Set of Books (Advanced) option</span></span></h1>
+<p class="rvps56"><span class="rvts22">To create a Set of Books using the Advanced option:</span><span class="rvts156">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">On the </span><span class="rvts11">Start</span><span class="rvts6"> ribbon, you can select the </span><span class="rvts11">Create Set of Books</span><span class="rvts6"> option or simply press the </span><span class="rvts11">F10</span><span class="rvts6"> key on your keyboard.</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/books-create-advanced.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">osFinancials5 / TurboCASH</span><span class="rvts156"> automatically defaults to the option “</span><span class="rvts168">Let osFinancials help you to create a Set of Books?</span><span class="rvts156">”/ "</span><span class="rvts168">Let </span><span class="rvts42">TurboCASH</span><span class="rvts168"> help you to create a Set of Books?"</span><span class="rvts156"> , as this is the recommended option for most users. Select the "</span><span class="rvts168">Create a Set of Books (Advanced)?</span><span class="rvts156">" option.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">Click on the </span><span class="rvts22">Next</span><span class="rvts156"> button.</span><br/><img alt="" style="padding : 1px;" src="lib/books-create-advanced-enter-name.png"></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">Enter the name for your Set of Books.&nbsp;</span></li>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts239">The name must not already exist and may not be longer than 50 characters. This name will help you to identify the Set of Books on your system. You will need to select this name whenever you need to open the Set of Books or perform some other functions on the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts239">The Directory in which you create the Set of Books is displayed underneath the Location </span><span class="rvts217">Browse</span><span class="rvts239"> button. It will usually be the default directory </span><span class="rvts26">(e.g. "C: \ osfinancials5 \ books" folder</span><span class="rvts239"> in which </span><span class="rvts26">osFinancials5/TurboCASH5 </span><span class="rvts239">is installed or directory, which you have specified when you installed </span><span class="rvts26">osFinancials5/TurboCASH5</span><span class="rvts239">. If you wish to create your Set of Books in any other directory or location on your system, you may click on the </span><span class="rvts217">Browse</span><span class="rvts239"> button,</span><span class="rvts26"> if desired,</span><span class="rvts239"> to select any folder or drive on the "Pick a directory" screen.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">Check the location where you wish to create the Set of Books is correct, and click on the </span><span class="rvts22">Next</span><span class="rvts156"> button.&nbsp;</span><br/><img alt="" style="padding : 1px;" src="lib/books-create-advanced-account-digits.png"></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Account digits</span><span class="rvts156">: The default number of account Digits is 3. </span><span class="rvts6">Select the desired number of digits for your general ledger main accounts. This will determine the structure and length of the account codes for the Creditor's control, Debtor's control, and Retained income/earnings accounts.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts11">Account codes</span><span class="rvts6">: Enter the numeric code for each of these accounts based on the chosen number of digits. For example, in a 4-digit structure, you would enter codes like 2100, 1100, and 3100.</span></li>
+</ol>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">When creating a Set of Books with the option to choose the number of digits for main accounts, you have the flexibility to select a structure that suits your needs. Here are the available options and the corresponding number of digits for the general ledger main accounts:</span></p>
+   <p class="rvps18"><span class="rvts88">4-Digit General ledger main accounts</span><span class="rvts26">: Enter a 4-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 2100, 1100, and 3100). This option includes 3-digit sub-accounts as well as 7-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger.</span></p>
+   <p class="rvps18"><span class="rvts88">5-Digit General ledger main accounts</span><span class="rvts26">: Enter a 5-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 21000, 11000, and 31000). This option includes 3-digit sub-accounts as well as 8-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">6-Digit General ledger main accounts</span><span class="rvts26">: Enter a 6-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 210000, 110000, and 310000). This option includes 3-digit sub-accounts as well as 9-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">7-Digit General ledger main accounts</span><span class="rvts26">: Enter a 7-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 2100000, 1100000, and 3100000). This option includes 3-digit sub-accounts as well as 10-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts88">8-Digit General ledger main accounts</span><span class="rvts26">: Enter an 8-digit numeric code for each of the Creditor's control, Debtor's control, and Retained income/earnings accounts (e.g., 21000000, 11000000, and 31000000). This option includes 3-digit sub-accounts as well as 11-Digit account codes for Debtor accounts in the debtors ledger and Creditor accounts in the creditors ledger</span></p>
+   <p class="rvps18"><span class="rvts26">When planning your Chart of Accounts, it's important to carefully consider and define the codes or numbers for these accounts based on the structure you have chosen. This will help ensure consistency and organization in your financial reporting and analysis.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps14">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">However, it's important to note that once you start processing functions such as entering transactions or budgets, you may not be allowed to change the account codes or numbers. Therefore, careful consideration and planning during the initial setup stage is crucial to ensure accurate financial structure and reporting.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">Click on the </span><span class="rvts22">Next</span><span class="rvts156"> button to initiate each of the set up options listed on the right-hand side of the "Creation wizard" screen. Enter and select the necessary information and settings for the following screens:&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts282" href="setup-company-info.html">Company info</a><span class="rvts156"> - Enter all your business' details such as the address, e-mail address, contact numbers and Company and Tax Registration numbers, which you need to display on all documents, reports, and lists. You may also select the Tax method applicable to your VAT/GST/Sales Tax registration, whether your default output option for documents, reports and lists are on: screen, printer, file, e-mail or fax. You may also load a logo picture to be displayed on your reports or documents, and set your Windows operating system's default date and currency formats.</span></li>
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts282" href="setup-reporting-dates.html">Reporting dates</a><span class="rvts156"> - This option allows you to set up the number of reporting dates required, and the start date of your financial year period. The periods or dates will be displayed in the format in which you have set your Windows Operating System's default date on the previous screen.&nbsp;</span></li>
+ </ol>
+</ol>
+<div class="rvps136">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">The start date of the financial year is the first day of the calendar month in which the </span><a class="rvts176" href="create-books-advanced.html">Set of Books (Advanced option)</a><span class="rvts172"> is created.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">For example, it it is created on 20 August 2021, the Start date is 1 August 2021, etc.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps136">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 39px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 933px;">
+   <p class="rvps18"><span class="rvts239">Before the "Reporting dates" screen is launched, a message will be displayed.&nbsp;</span></p>
+   <p class="rvps77"><span class="rvts240">Periods are not there</span></p>
+   <p class="rvps18"><span class="rvts239">Click on </span><span class="rvts217">OK</span><span class="rvts239"> to launch the "Reporting dates" screen.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="3" style="text-indent: 0px" class="rvps136 noindent"><a class="rvts282" href="batch-types-setup.html">Batch types</a><span class="rvts156"> - This option allows you to create, delete an existing batch type, or change the name of an existing batch type in which you wish to enter and update or post your transactions to the ledger.</span></li>
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts244" href="setup-groups.html">Groups</a><span class="rvts156"> - This option allows you to set two Reporting groups for your General ledger accounts, Debtors, Creditors, Stock and Document groups.</span></li>
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts274" href="setup-salespersons.html">Salesperson</a><span class="rvts156"> - This option allows you to enter the salespersons names who will be selling your stock items, or selling services.</span></li>
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts244" href="documents-setup.html">Documents setup</a><span class="rvts156"> - This option allows you to set up your documents Invoices, Credit notes, Quotes, Orders, Purchases and Supplier return documents, you wish to hand to customers (debtors) or suppliers (creditors) when you sell, or quote, or order and purchase, physical stock items and services set up in your stock item code file.</span></li>
+  <li style="text-indent: 0px" class="rvps136 noindent"><a class="rvts282" href="stock-information.html">Stock information</a><span class="rvts156"> - The option allows you to define the units of stock you sell and the selling price descriptions and to set the Cost of sales parameters. This option should only be used if you use stock and/or wish to generate documents (Invoices, Credit notes, Quotes, Orders, Purchases and Supplier returns).&nbsp;</span></li>
+ </ol>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="9" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">After the last setup screen (i.e. </span><a class="rvts282" href="stock-information.html">Stock information</a><span class="rvts156">) is closed, the </span><span class="rvts22">Next</span><span class="rvts156"> button will change to the </span><span class="rvts22">Finish</span><span class="rvts156"> button.</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/books-create-advanced-finish.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="10" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts156">Click on the </span><span class="rvts22">Finish</span><span class="rvts156"> button. The new Set of Books will automatically be opened automatically and now ready to work in.</span></li>
+</ol>
+<div class="rvps18">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">Before you begin processing transactions, make sure to create your general ledger accounts, bank accounts, tax accounts, debtor accounts, creditor accounts, and review or modify your settings and parameters to ensure accuracy and efficiency.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Steps after creating the Set of Books (Advanced)</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Deactivate / Activate the Bank import plugin</span></span></h2>
+<p class="rvps2"><span class="rvts6">By default, the </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6"> setting activated.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The "</span><span class="rvts42">Default bank reconciliation</span><span class="rvts6">" option </span><span class="rvts11">(Setup → System parameters</span><span class="rvts6"> on </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon) is not selected.&nbsp;</span></p>
+<div class="rvps15">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-plugin.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><a class="rvts177" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts26"> </span><span class="rvts239">- </span><a class="rvts289" href="https://www.osfinancials.org/en/plugin-manuals/512-bank-reconciliations-plugin" target="_blank">Bank Reconciliations Plugin Manual</a><span class="rvts239"> - </span><a class="rvts320" href="https://www.osfinancials.org/en/plugin-manuals/428-bank-import-plugin" target="_blank">BankImport Plugin Manual</a><span class="rvts239"> </span><span class="rvts26">- </span><a class="rvts289" href="https://www.osfinancials.org/en/webshop/best-sellers/bankimport-plugin" target="_blank">Shop</a><span class="rvts239"> </span><span class="rvts26">- The Bank import plugin is included in the osFinancials5/TurboCASH5 subscription. &nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">The Bankimport plugin will import bank transactions and save you hours of data entry. You can simply link transactions to your debtors, creditors or other accounts. And with a simple mouse click link the payments to the right invoices.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">Needs to be activated on the </span><span class="rvts88">Setup</span><span class="rvts26"> ribbon, select </span><span class="rvts88">Setup </span><span class="rvts171">→</span><span class="rvts88"> System Parameters</span><span class="rvts26">.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">If you do not intend to wish to use the </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6"> at this stage, you need to turn the </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6"> off (Tick (select) the &nbsp;"</span><span class="rvts42">Default bank reconciliation</span><span class="rvts6">" field in </span><span class="rvts11">Setup → System parameters</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).</span></p>
+<p class="rvps2"><span class="rvts6">The </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6"> can be activated as it is included in the osFinancials5/TurboCASH5 subscription. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If the </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts156"> is not activated, separate Payments and Receipt batches will be created</span><span class="rvts6"> on the </span><span class="rvts11">Bank</span><span class="rvts6"> tab when you create (add) Bank accounts in </span><span class="rvts11">Setup → Accounts</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Customise labels for Document types&nbsp;</span></span></h2>
+<p class="rvps56"><span class="rvts156">You may need to customise labels and fix records.</span></p>
+<p class="rvps56"><span class="rvts156">Change the descriptions on the </span><span class="rvts22">Types</span><span class="rvts156"> tab on </span><span class="rvts22">Tools → Customise languages</span><span class="rvts156"> (</span><span class="rvts22">Setup</span><span class="rvts156"> ribbon). If you have a different language than English, you need to translate the descriptions for your language or specific requirements.</span></p>
+<p class="rvps56"><span class="rvts22">Document types</span><img alt="" style="float: left; padding : 5px; margin : 5px 5px;" src="lib/books-create-advanced-document-types.png"><span class="rvts6">5</span><img alt="" style="float: right; padding : 5px; margin : 5px 5px;" src="lib/books-create-advanced-document-types-custom.png"></p>
+<p class="rvps2"><span class="rvts156">"</span><span class="rvts168">Goods Returned</span><span class="rvts156">" - change to Supplier return to be consistent with the other labels in the language file.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The Document type (i.e. </span><span class="rvts319">Invoice, Credit note, Quote, Purchase, Supplier return</span><span class="rvts6"> or </span><span class="rvts319">Order</span><span class="rvts6">) is stored and edited 1n the </span><span class="rvts20">Tools → Customize language</span><span class="rvts6"> (</span><span class="rvts20">Setup</span><span class="rvts6"> ribbon).</span></p>
+<p class="rvps2"><span class="rvts6">It should print the Document type (i.e.</span><span class="rvts319"> Invoice, Credit note, Quote, Purchase, Supplier return</span><span class="rvts6"> or </span><span class="rvts319">Order</span><span class="rvts6">) as this is more correct for the recipient of these documents.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If you need to print documents using the document layout files supporting one (1) Layout file for all document types), it is recommended that the Document types are edited and/or translated to the singular in the </span><span class="rvts11">Types</span><span class="rvts6"> tab </span><span class="rvts20">Tools → Customize language</span><span class="rvts6"> menu (</span><span class="rvts20">Setup</span><span class="rvts6"> ribbon).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Change Edit Groups</span></span></h2>
+<p class="rvps56"><span class="rvts6">Change the reporting group names (descriptions) of the </span><span class="rvts11">Groups</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).&nbsp;</span></p>
+<p class="rvps56"><span class="rvts6">You may also add groups for reporting groups, if necessary.</span></p>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/books-create-advanced-groups.png"></p>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts239">The name must not already exist and may not be longer than 50 characters. This name will help you to identify the Set of Books on your system. You will need to select this name whenever you need to open the Set of Books or perform some other functions on the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps56"><span class="rvts6">The following groups are not included if the Set of Books was created using Create Set of Books (Advanced) option:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+ <li class="rvps2 noindent"><a class="rvts37" href="projects.html">Projects</a><span class="rvts156"> -</span><span class="rvts209"> </span><span class="rvts6">You may create &nbsp;groups for Projects. These Projects may be activated in batches and documents. Once the batches and/or documents are posted (updated to the ledger), you may generate various reports for each Projects on the Sidebar of the </span><a class="rvts271" href="default-ribbon.html">Default</a><span class="rvts20"> </span><span class="rvts6">menu.</span></li>
+ <li class="rvps2 noindent"><a class="rvts157" href="http://turbocash.ning.com/page/cost-centres-in-turbocash" target="_blank">Cost centre 1 and/or Cost centre 2</a><span class="rvts156"> -&nbsp;</span></li>
+ <li class="rvps2 noindent"><a class="rvts157" href="setup-groups-languages.html">Languages</a><span class="rvts156"> - </span><a class="rvts77" href="plugin-multi-language-accounts.html">Multi-Language accounts</a><span class="rvts6">&nbsp;</span></li>
+</ul>
+<div class="rvps131">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="width : 51px; height : 51px; padding : 1px;" src="lib/B-multi-language.jpg"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><a class="rvts259" href="plugin-multi-language-accounts.html">Multi-Language accounts</a><span class="rvts6"> - </span><a class="rvts290" href="https://www.osfinancials.org/en/plugin-manuals/515-multi-language-plugin" target="_blank">Manual</a><span class="rvts6"> - </span><a class="rvts290" href="https://www.osfinancials.org/en/webshop/accountancy/multi-language-set-of-books" target="_blank">Shop</a><span class="rvts6"> </span><span class="rvts198">- </span><span class="rvts201">Licence</span><span class="rvts198"> : Once-off -</span></p>
+   <p class="rvps18"><span class="rvts26">This plugin makes it possible to translate the ledger and group names in multiple languages. It is already possible to choose different languages for the interface (the buttons). But this plugin makes it possible to do the accounting in different languages. Per user you can select a language, so the user can account in his/her own language. The set of books can be viewed in different languages, therefore it is possible an employee enters information into an English Set of Books and a bookkeeper, auditor, etc. can see the set of books in a set language, e.g. Afrikaans, Dutch, etc.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Add missing Groups and Paper types in the Types table</span></span></h2>
+<p class="rvps2"><span class="rvts22">To add missing groups:&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If you intend to use Projects, Cost centres and/or Multi-language Set of Books, you need to add these Groups manually:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps56 noindent"><span class="rvts156">Activate the SQLBrowser plugin in </span><span class="rvts22">Tools → </span><a class="rvts192" href="plugins-activate.html">Activate plugins</a><span class="rvts156"> (</span><span class="rvts22">Setup</span><span class="rvts156"> ribbon)</span></li>
+ <li class="rvps56 noindent"><span class="rvts156">Launch the SQLBrowser plug-in </span><span class="rvts22">Plugins</span><span class="rvts156"> </span><span class="rvts22">→</span><span class="rvts156"> </span><span class="rvts22">Tools → SQLBrowser</span><span class="rvts156"> (</span><span class="rvts22">Setup</span><span class="rvts156"> ribbon).&nbsp;</span></li>
+ <li class="rvps56 noindent"><span class="rvts156">Select the "</span><span class="rvts168">TYPES</span><span class="rvts156">" table.&nbsp;</span></li>
+ <li class="rvps56 noindent"><span class="rvts156">Right-click and select "</span><span class="rvts168">Open</span><span class="rvts156">" on the context menu.</span></li>
+</ol>
+<p class="rvps15"><img alt="" style="padding : 1px;" src="lib/books-create-advanced-groups-add-sql-browser.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps56 noindent"><span class="rvts156">Select the last record WTYPEID - 93 in the TYPES table. Insert or Add a new record (you may also use the down arrow on your keyboard).</span></li>
+ <li class="rvps56 noindent"><span class="rvts22">Add Groups</span><span class="rvts156"> - Optional - If you are planning to use any of the following features in </span><span class="rvts6">osFinancials5/TurboCASH5</span><span class="rvts156">, you may add the groups, as required. To do this, type the following records and type 2 in the WTYPEPARENT column:&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+  <li class="rvps15 noindent"><span class="rvts156">1000 - </span><a class="rvts157" href="projects.html">Projects</a></li>
+  <li class="rvps15 noindent"><span class="rvts156">1002 - </span><a class="rvts157" href="cost-centres.html">Cost centre 1</a></li>
+  <li class="rvps15 noindent"><span class="rvts156">1003 - </span><a class="rvts157" href="cost-centres.html">Cost centre 2</a></li>
+  <li class="rvps15 noindent"><span class="rvts156">1004 - </span><a class="rvts157" href="setup-groups-languages.html">Languages</a><span class="rvts156">&nbsp;</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" class="rvps56 noindent"><span class="rvts22">Add Paper types</span><span class="rvts156"> - Type the following records and type 5 in the WTYPEPARENT column:&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: '🞙 ';">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+  <li class="rvps15 noindent"><span class="rvts156">55 - Till slip</span></li>
+  <li class="rvps15 noindent"><span class="rvts156">56 - New plain</span></li>
+ </ul>
+</ul>
+<div class="rvps113">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">The number of records in the "TYPES" table is 55 records. After adding the 4 records for the groups and the 2 records for the paper types, the number of records in the "TYPES" table should be 61 records.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="8" class="rvps56 noindent"><span class="rvts156">Close the SQLBrowser&nbsp;</span></li>
+</ol>
+<div class="rvps131">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/B93.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts171">SQLBrowser</span><span class="rvts172"> </span><span class="rvts26">- </span><a class="rvts178" href="https://www.osfinancials.org/en/plugin-manuals/507-sqlbrowser" target="_blank">Manual</a><span class="rvts26"> - </span><a class="rvts178" href="https://www.osfinancials.org/en/webshop/other/sqlbrowser" target="_blank">Shop</a><span class="rvts26"> - </span><span class="rvts88">Licence </span><span class="rvts26">: Once-off -</span></p>
+   <p class="rvps18"><span class="rvts172">Activate the SQLBrowser plug-in </span><span class="rvts171">Tools → Activate Plugins</span><span class="rvts172"> (select </span><span class="rvts171">Tools → SQLBrowser</span><span class="rvts172"> and click </span><span class="rvts171">Activate plugin</span><span class="rvts172">) on the </span><span class="rvts171">Setup</span><span class="rvts172"> ribbon.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps56"><span class="rvts156">The groups will be added on </span><span class="rvts22">Setup → Groups</span></p>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/books-create-advanced-groups-added.png"></p>
+<div class="rvps18">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">Before you can start any processing, you need to set up your general ledger accounts, bank account, tax accounts, accounts receivable (debtor accounts), accounts payable (creditor accounts), etc. create and check or change your settings and parameters. This should not take much time, but can save you a lot of extra work and frustration, as the key to success in your processing and reports is in setting up the osFinancials5/TurboCASH5 program.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Customise your own Set of Books (Advanced) - Set Books - Properties&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Length of description fields and the basic control accounts&nbsp;</span></span></h2>
+<p class="rvps22"><span class="rvts6">The basic features of your customized Set of Books with the "</span><span class="rvts42">Customise your own Set of Books (Advanced)?</span><span class="rvts6">" -option should be as follows:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps22 noindent"><span class="rvts11">Length of description fields</span><span class="rvts6"> - The default length of description fields for accounts is 64 characters and groups are up to 30 characters for group names. The group descriptions are more than 50 characters.&nbsp;</span></li>
+ <li class="rvps22 noindent"><span class="rvts11">Account codes</span><span class="rvts6"> - Character length and the default control accounts. Depending on your choice of the number of digits for account codes, during the creation of your own Set of Books, the number of characters for the control accounts and the debtor accounts as well as the creditor accounts will be as follows:</span></li>
+</ol>
+<div class="rvps13">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">Number of digits</span></p>
+   <p class="rvps18"><span class="rvts88">Account code</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts88">Retained earnings&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts88">Debtors control</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts88">Creditors control</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts88">Number of account code digits - Debtor accounts</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts88">Number of account code digits - Creditor accounts</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">3X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">&nbsp;G510-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">&nbsp; G700-000&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G900-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 5-characters &nbsp;D00001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 5-characters &nbsp;C00000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">4X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G3100-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G1100-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G2000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 6-characters &nbsp;D000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 6-characters &nbsp;C000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">5X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G31000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G11000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G20000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 7-characters &nbsp;D0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C+ 7-characters &nbsp;C0000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">6X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G310000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G110000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G200000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 8-characters &nbsp;D00000001&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 8-characters &nbsp;C00000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">7X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G3100000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G1100000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G2000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 9-characters &nbsp;D000000001&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 9-characters - C000000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">8X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G31000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G11000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G20000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 10-characters - D0000000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 10-characters - C0000000000</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Customise your own Set of Books - Configure Set of Books&nbsp;</span></span></h1>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Language settings&nbsp;</span></span></h2>
+<p class="rvps22"><span class="rvts6">If you have created your custom Set of Books in "</span><span class="rvts42">English</span><span class="rvts6">" as the default language, the osFinancials5/TurboCASH5 interface will be displayed in "</span><span class="rvts42">English</span><span class="rvts6">". If the osFinancials5/TurboCASH5 interface is displayed in the language of your choice, you can select a different available language in the "</span><a class="rvts212" href="switch-language.html">Switch language</a><span class="rvts6">" (</span><span class="rvts11">Start</span><span class="rvts6"> ribbon).&nbsp;</span></p>
+<p class="rvps22"><span class="rvts11">Set the default language for your Set Books</span><span class="rvts6"> - You can choose your language and country in </span><span class="rvts11">Setup → </span><a class="rvts17" href="set-default-language.html">Access control</a><span class="rvts6">. When you reopen your Set of Books, the language in the osFinancials interface, reports, etc. will be displayed in your selected language.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Customise your own language&nbsp;</span></span></h2>
+<p class="rvps22"><span class="rvts6">If you want to customise your own language, you can select your language in </span><span class="rvts11">Tools → Customise language</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).</span></p>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts239">It is strongly recommended that the label, which is edited or entered, is not longer than the default “English” labels’ length. If your label is too long, it may cause some options in the program not to function or display properly. Do not use the </span><span class="rvts217">Delete</span><span class="rvts239"> button to remove any of the existing edited labels.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps129">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts239">Care must be taken to ensure that existing labels or descriptions in the main language, i.e. "English" not be modified. You must create a copy of the "English" or other selected language and rename it with a new name. You may use your own language file to edit.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps13">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">If you decide to adapt a selected language file for your own specific industry or specific needs and want to modify these labels accordingly, it is important that you use a copy of the language file. This will prevent your language file from being overwritten when you reinstall osFinancials5/TurboCASH5, or </span><a class="rvts78" href="install-osfinancials-updates-man.html">install osFinancials update download files</a><span class="rvts26">, or </span><a class="rvts78" href="install-osfinancials-updates.html">install osFinancials updates through the Help menu</a><span class="rvts26">.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Customise the "TYPES"-tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">The entries on the "</span><span class="rvts58">Types</span><span class="rvts6">"-tab in </span><span class="rvts11">Tools → </span><a class="rvts17" href="customise-language.html">Customise language</a><span class="rvts6"> (</span><span class="rvts11">Setup </span><span class="rvts6">ribbon) is database specific and will update the "</span><span class="rvts42">TYPES</span><span class="rvts6">" table in your Set of Books. You may edit, translate or change the descriptions as necessary. &nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Reporting groups</span><span class="rvts6"> - The default descriptions for the reporting groups is available in English as </span><span class="rvts156">"</span><span class="rvts168">Account Reporting Group1 Name</span><span class="rvts156">", etc, , After adding the 4 reporting groups for Projects, Cost centre 1, Cost centre 2 and Languages, these </span><span class="rvts6">16 reporting groups, you may change, edit, translate these descriptions on the "</span><span class="rvts58">Types</span><span class="rvts6">"-tab in </span><span class="rvts11">Tools → </span><a class="rvts17" href="customise-language.html">Customise language</a><span class="rvts6"> (</span><span class="rvts11">Setup </span><span class="rvts6">ribbon). These reporting group names may also be reviewed, changes, edited, translated in </span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="setup-groups.html">Groups</a><span class="rvts6"> according to your specific requirements for your country language or industry. The common reporting group names in most databases, is "Account group 1, Account group 2, Debtor group 1, Debtor group 2, &nbsp;Creditor group 1, Creditor group 2, Stock group 1, Stock group 2, Document group 1, Document group 2, Payment types, Salespersons, Projects, Cost centre 1, Cost centre 2 and Languages".&nbsp;</span></li>
+  <li class="rvps14 noindent"><span class="rvts11">Document types</span><span class="rvts6"> - The default descriptions for the standard 6 document types is </span><span class="rvts156">"</span><span class="rvts42">Invoice", "Credit note", "Purchase", "Goods Returned</span><span class="rvts6">", "</span><span class="rvts42">Quote", </span><span class="rvts6">and "</span><span class="rvts42">Order</span><span class="rvts6">" . You may change, edit, translate the descriptions for the standard 6 document types for sales documents (</span><a class="rvts37" href="customise-language-invoice.html">Invoices</a><span class="rvts6">, </span><a class="rvts37" href="customise-language-credit-note.html">Credit notes</a><span class="rvts6"> and </span><a class="rvts37" href="customise-language-quote.html">Quotes</a><span class="rvts6"> and for purchase documents (</span><a class="rvts37" href="customise-language-purchase.html">Purchases</a><span class="rvts6">, </span><a class="rvts37" href="customise-language-supplier-retu.html">Supplier returns</a><span class="rvts6"> and </span><a class="rvts37" href="customise-language-order.html">Orders</a><span class="rvts6">) to match your specific requirements for your country language, tax regime or industry in the </span><span class="rvts11">Types</span><span class="rvts6"> tab.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps57"><span class="rvts6">In your language file, you may search and edit / translate the language labels for each of these document types. These matching descriptions are also displayed in the "</span><span class="rvts42">English</span><span class="rvts6">" language file. If you want to change or edit the labels according to your personal needs, you can make a copy of the "</span><span class="rvts42">English</span><span class="rvts6">" language file and feel free to translate the language labels for the document types according to your specific requirements, preferences and industry. You then also search for and modify and adapt the language labels for each of these document types in your own language file.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps14 noindent"><span class="rvts11">Tax terminology</span><span class="rvts6"> - Tax account is the default description for VAT/GST/Sales tax/Consumption tax in the </span><span class="rvts11">Types</span><span class="rvts6"> tab. You may change this description for your country language, tax regime or industry. &nbsp;In your language file, you may search and edit / translate the language labels for the for the </span><a class="rvts37" href="customise-language-tax.html">tax terminology</a><span class="rvts6">.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Customise the "Rest"-tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Customize language - </span><span class="rvts11">Rest</span><span class="rvts6"> tab entries on this tab is database specific. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Change descriptions of the "</span><span class="rvts42">Description of Zero account</span><span class="rvts6">" and "</span><span class="rvts42">Group empty account</span><span class="rvts6">". &nbsp;The 2 </span><span class="rvts11">change</span><span class="rvts6"> buttons only saves 1 description. </span><span class="rvts11">Work around</span><span class="rvts6"> change both to "</span><span class="rvts42">Empty</span><span class="rvts6">".</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">General ledger accounts</span></span></h2>
+<p class="rvps2"><span class="rvts11">Accounts</span><span class="rvts6"> &nbsp;</span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> Accounts</span><span class="rvts6"> - Only the 3 control accounts (i.e. Debtors control + Creditors control + Retained earnings) accounts in the Chart of Accounts is included in the Chart of Accounts.</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">You cannot delete these 3 control accounts. An error message will be displayed:&nbsp;</span></p>
+   <p class="rvps77"><span class="rvts321">"You cannot delete a control account!"</span></p>
+   <p class="rvps18"><span class="rvts26">You can edit the account code and description for each of these 3 control accounts, if necessary.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Depending on your choice of the number of digits for account codes, during the creation of your own Set of Books, the number of characters for the control accounts will be as follows:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">Number of digits</span></p>
+   <p class="rvps18"><span class="rvts88">Account code</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts88">Retained earnings&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts88">Debtors control</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts88">Creditors control</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">3X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">&nbsp;G510-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">&nbsp; G700-000&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G900-000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">4X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G3100-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G1100-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G2000-000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">5X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G31000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G11000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G20000-000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">6X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G310000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G110000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G200000-000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">7X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G3100000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G1100000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G2000000-000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 111px;">
+   <p class="rvps18"><span class="rvts88">8X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 112px;">
+   <p class="rvps18"><span class="rvts26">G31000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">G11000000-000</span></p>
+  </td>
+  <td style="padding: 5px; width: 118px;">
+   <p class="rvps18"><span class="rvts26">G20000000-000</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">Control accounts - You can edit the account code and account description for each of these 3 control accounts.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">It is important to note that you need to keep in mind that these control accounts need to be linked to account groups and financial categories:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts88">Control account name</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts88">Financial category</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts88">Account groups</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Retained earnings&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Capital</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Equity / Capital</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Debtors control&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Assets</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Current assets</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Creditors control&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Liabilities</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26">Current liabilities</span></p>
+  </td>
+  <td style="padding: 5px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts156">If you </span><a class="rvts157" href="accounts-import-tab-delimited.html">import general ledger accounts from a Tab delimited file</a><span class="rvts156">, you may:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts156">Change the account codes and descriptions to meet your specific requirements and needs. In the case of accounts, which contains sub-accounts, you cannot change the sub-accounts account codes. You first need to delete the sub-accounts and rename the account codes and account descriptions and recreate sub-accounts where necessary.</span></li>
+ <li class="rvps2 noindent"><span class="rvts156">Review your imported ledger accounts descriptions. You may use longer account descriptions (longer than the default 35-characters or 64-characters) , where necessary.</span></li>
+ <li class="rvps2 noindent"><span class="rvts156">Disabled (inactive) accounts imported - review and decide to keep these disabled (inactive) accounts or delete them if not required.</span></li>
+ <li class="rvps2 noindent"><span class="rvts156">Tax (VAT/GST/Sales tax) accounts - The first sub-account (tax code) may not include the Tax tab and Tax percentage - You need to delete and recreate the tax account (tax code) as a Tax account. Zero-rated Tax codes. You need to confirm the percentage.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts156">If Account groups 1 and / or Account group 2 is imported, these account groups may not be linked to the 5 financial categories. You may need to link these account groups to the 5 financial categories.</span></li>
+</ul>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts171">Imported or copied text in osFinancials screens from external files - Account / Group descriptions in Accounts description lines in batches&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">When importing or copying text for account. group descriptions or any other screens, or forms, the fields from external programs such as spreadsheet, word documents, etc. the hyphenation &nbsp; character "</span><span class="rvts173">–" may be displayed as a pipe character " | " in lookups and some screens or &nbsp;as</span><span class="rvts172"> " &nbsp;� " in some screens and in reports, document layout files, etc.</span></p>
+   <p class="rvps18"><span class="rvts172">For example, Motor vehicles � Net value if copied or imported into Setup - Accounts as Motor vehicles </span><span class="rvts173">–</span><span class="rvts172"> Net value (with the hyphenation format) it will be displayed as Motor vehicles � Net value on some screens and in reports and as &nbsp;Motor vehicles | Net value on lookup screens.</span></p>
+   <p class="rvps18"><span class="rvts172">You need to use the dash sign "-" to be displayed correctly.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts171">Solution</span><span class="rvts172">:</span></p>
+   <p class="rvps18"><span class="rvts172">To ensure hyphens display correctly in </span><span class="rvts26">osFinancials5 / TurboCASH</span><span class="rvts172">, use the standard dash character ("-") instead of the hyphenation character when copying or importing text from external files.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Debtor / Creditor accounts&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Depending on your choice of the number of digits for account codes, during the creation of your own Set of Books, the number of digits for the account codes of debtor accounts and creditor accounts will be as follows:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">Number of digits</span></p>
+   <p class="rvps18"><span class="rvts88">Account code</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts88">Number of account code digits - Debtor accounts</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts88">Number of account code digits - Creditor accounts</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">3X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 5-characters &nbsp;D00001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 5-characters &nbsp;C00000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">4X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 6-characters &nbsp;D000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 6-characters &nbsp;C000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">5X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 7-characters &nbsp;D0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C+ 7-characters &nbsp;C0000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">6X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 8-characters &nbsp;D00000001&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 8-characters &nbsp;C00000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">7X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 9-characters &nbsp;D000000001&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 9-characters - C000000000</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 115px;">
+   <p class="rvps18"><span class="rvts88">8X3-DIGITS</span></p>
+  </td>
+  <td style="padding: 5px; width: 195px;">
+   <p class="rvps18"><span class="rvts26">D + 10-characters - D0000000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 187px;">
+   <p class="rvps18"><span class="rvts26">C + 10-characters - C0000000000</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts171">When creating or adding Debtor accounts and Creditor accounts, it is important that you use a different prefix for the account codes:</span></p>
+   <p class="rvps18"><span class="rvts172">The first Debtor code (e.g. D00001, etc.), will automatically be generated. It is important to prefix Debtor codes with a unique prefix. In this documentation, the accounts is prefixed as follows:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><span class="rvts172">Debtor code = 1&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts172">Creditor code = 2</span></li>
+   </ul>
+   <p class="rvps18"><span class="rvts172">The reason for this, is that the account prefix is not always available when selecting accounts on some screens and reports. For example, if a Debtor code is D00001 and a Creditor code is C00001, and you select the Debtor code, it may set the Creditor code when selecting the contra account in the "Options for this batch" (</span><span class="rvts171">F10:Setup</span><span class="rvts172">) on "Batch entry" screens on "Batch entry" screens.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Company information&nbsp;</span></span></h2>
+<p class="rvps22"><span class="rvts6">Only "</span><span class="rvts42">osFinancials5.1.0.127</span><span class="rvts6">" / &nbsp;TurboCASH5.1.0.227 (osFinancials5/TurboCASH5 and the version number) will be displayed in the title bar, unless you have already entered your company name in the&nbsp;</span><span class="rvts11"> </span><a class="rvts17" href="setup-company-info.html">Company info</a><span class="rvts6"> screen during the creation of the Set of Books. Review and enter the name and contact details as well as the relevant registration numbers of your business in the </span><span class="rvts11">Setup</span><span class="rvts6"> →&nbsp;</span><span class="rvts11"> </span><a class="rvts17" href="setup-company-info.html">Company info</a><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Financial year and accounting periods&nbsp;</span></span></h2>
+<p class="rvps22"><span class="rvts6">The default start of the financial year is on the first day of the month in which you created your set of books. For example, if you created your Set of Books on 20 March 2024, the start of the financial year will automatically be set as "</span><span class="rvts42">1 March 2024</span><span class="rvts6">". You can change this in </span><span class="rvts11">Setup →</span><span class="rvts6"> </span><a class="rvts17" href="setup-reporting-dates.html">Reporting dates</a><span class="rvts6"> for the beginning of your financial year and set the accounting periods.&nbsp;</span></p>
+<p class="rvps22"><span class="rvts6">If you selected a different language than the English languages, for example, "</span><span class="rvts42">Afrikaans</span><span class="rvts6">" as the language to create your Set of Books in, the months of the year should already be displayed in "</span><span class="rvts42">Afrikaans</span><span class="rvts6">". You may need to review and edit or translate the months of your financial year, if necessary.</span></p>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<p class="rvps22"><span class="rvts96">Batches (Journals)</span></p>
+<p class="rvps22"><span class="rvts6">No batch types (journal types) are included in your customised Set Books. You will need to add your own batch types (journal types) in </span><span class="rvts11">Setup →</span><span class="rvts6"> </span><a class="rvts17" href="batch-types-setup.html">Batch types</a><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon) to meet your specific needs and requirements. The basic journals, are the "</span><span class="rvts42">Sales journal</span><span class="rvts6">", "</span><span class="rvts42">Purchase journal</span><span class="rvts6">" and the "</span><span class="rvts42">General journal</span><span class="rvts6">".&nbsp;</span></p>
+<div class="rvps13">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts88">Receipts journals and Payments journals for Bank accounts and Petty cash accounts&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">When you add or create a Bank account and Petty cash account, the Receipts journals and Payments journals will be created and added and linked to each Bank account and Petty cash account.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps22"><span class="rvts6">The "</span><span class="rvts42">Sales journal</span><span class="rvts6">", should be linked to the Invoices and Credit notes document types in </span><a class="rvts274" href="documents-setup.html">Documents setup</a><span class="rvts6">. This will update the transactions generated with the Invoices and Credit notes in the Sales journal to the ledger.&nbsp;</span></p>
+<p class="rvps22"><span class="rvts6">The "</span><span class="rvts42">Purchase journal</span><span class="rvts6">", should be linked to the Purchases and Supplier returns document types in the </span><a class="rvts274" href="documents-setup.html">Documents setup</a><span class="rvts6">. This will update the transactions generated with the Purchases and Supplier returns in the Purchase journal to the general ledger.&nbsp;</span></p>
+<p class="rvps22"><span class="rvts6">You can use any number of journal types as you deem necessary to group and process your transactions. In addition to the general journal, you may add specific journals for; cost of sales, adjustments, depreciation, payroll, etc. to accommodate your specific needs and requirements.&nbsp;</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Documents setup</span></span></h2>
+<p class="rvps2"><span class="rvts6">The defaults settings in the </span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts274" href="documents-setup.html">Documents setup</a><span class="rvts6"> is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Global settings - Documents setup</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Layout file point-of-sale</span><span class="rvts6"> : "</span><span class="rvts42">DefaultA4</span><span class="rvts6">" is the default setting and is not available in the " </span><span class="rvts42">...\plug_ins\reports\DOCUMENTS\DOCUMENTS </span><span class="rvts6">" folder. You may change the default layout file to "</span><span class="rvts42">POS - STARTSP100</span><span class="rvts6">".&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts11">Append notes below item</span><span class="rvts6">: By default this option is selected. The default sequence in which the document lines will be displayed on document entry forms and printed in document layout files, is Item/Remark/Comment. If you deselect this option, the sequence in which the document lines will be displayed on document entry forms and printed in document layout files, will be &nbsp;Comment, Item, Remark.&nbsp;</span></li>
+  <li class="rvps13 noindent"><a class="rvts17" href="doc-setting-auto-post-print.html">Auto-post documents on print</a><span class="rvts6">: By default this option is not selected. This means that you need to manually launch the Update ledger option to post or update documents to the ledger.</span></li>
+ </ul>
+</ul>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts6">Settings for specific document types. The basic configuration for each document type, is as follows:</span></li>
+</ol>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Field</span></p>
+  </td>
+  <td colspan="3" style="padding: 5px; width: 284px;">
+   <p class="rvps18"><span class="rvts88">Sales documents</span></p>
+  </td>
+  <td colspan="3" style="padding: 5px; width: 304px;">
+   <p class="rvps18"><span class="rvts88">Purchase documents</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Document type</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts88">Invoice</span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts88">Credit note&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts88">Quote</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts88">Purchase</span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts88">Purchase returns</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts88">Orders</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Next Document number</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">I0N000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26">C0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26">Q0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">P0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26">R0000001</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">OR000001</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Batch type&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Layout file</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26"><br/></span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Layout file 2</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Heading&nbsp;</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">Tax Invoice no.</span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26">Credit note no.</span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26">Quote No</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">GRV No</span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26">Goods Returned No</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">Order No</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; width: 96px;">
+   <p class="rvps18"><span class="rvts88">Message 1/2/3</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 89px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 75px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 93px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 92px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+  <td style="padding: 5px; width: 86px;">
+   <p class="rvps18"><span class="rvts26">-</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts11">Customise / translate notes:&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may need to customise, change and translate the following to suit your specific preferences and needs:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Next Document number</span><span class="rvts6"> - This is an 8-character alphanumeric field. You may use prefixes for each document type. Prefixes will make it easier to identify the document type in searches and filters, on reports and on exported data in spreadsheets. The character prefixes for each document number are in English. You can change the document numbers for each type of document to suit your specific preferences and needs.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Batch types</span><span class="rvts6"> - No batch types or journals are available at this stage. You will need to select the default journals in which the documents will be posted (updated) to the ledger. If you have already created journals earlier during the creation of your advanced Set of Books, you can select the "</span><span class="rvts42">Sales journal</span><span class="rvts6">" for Invoices and Credit notes and the "</span><span class="rvts42">Purchase journal</span><span class="rvts6">" for Purchases and Supplier returns. If not, you will first need to create the journal types in </span><span class="rvts11">Setup →</span><span class="rvts6"> </span><a class="rvts17" href="batch-types-setup.html">Batch types</a><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon) such as "</span><span class="rvts42">Sales journal</span><span class="rvts6">" and "</span><span class="rvts42">Purchase journal</span><span class="rvts6">". Journals do not apply to Quotes and Orders.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Layout file</span><span class="rvts6"> - You can select "</span><span class="rvts42">Layout file</span><span class="rvts6">" at this stage for all document types. The "Layout file" is one standard generic layout file that applies to all document types (Invoices, Credit notes, Quotes, Purchases, Supplier returns and Orders) and is translated via the language files. The layout file selected is a global setting. You may also select custom or other layout files as defaults for specific debtor or creditor accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Layout file 2</span><span class="rvts6"> - This option is not selected. You may select other layout files or the delivery note to print after the Layout file. &nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Headings</span><span class="rvts6"> - You may change the headings of each document headings to match your country language, tax regime or industry.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Messages</span><span class="rvts6"> - No messages is available at this stage. You may enter up to 3 lines as a global message (for each document type) that will be displayed on the "</span><span class="rvts42">Message</span><span class="rvts6">" fields of the document entry screens and printed on document layout files for each document type. Custom messages may be set as default for specific debtor or creditor accounts.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Statement message</span><span class="rvts6"> - You can enter up to 3 lines of statement messages in the </span><span class="rvts11">Statement setup</span><span class="rvts6"> tab. This is a global standard message that will appear on all debtor account statements.</span></li>
+</ul>
+<p class="rvps22"><span class="rvts11">Additional settings for documents</span></p>
+<p class="rvps22"><a class="rvts17" href="doc-setting-post-delete-buttons.html">Post / Confirm and Delete buttons on Documents grid</a><span class="rvts11"> -</span><span class="rvts6"> </span><span class="rvts156">By default, only the </span><span class="rvts22">New</span><span class="rvts156">, </span><span class="rvts22">Edit</span><span class="rvts156"> and </span><span class="rvts22">Print</span><span class="rvts156"> buttons are available on the Documents grid screen's sidebar. You may add the </span><span class="rvts22">Posting</span><span class="rvts156"> and </span><span class="rvts22">Delete</span><span class="rvts156"> buttons underneath the </span><span class="rvts22">Print</span><span class="rvts156"> button. To add the </span><span class="rvts22">Posting</span><span class="rvts156"> and </span><span class="rvts22">Delete</span><span class="rvts156"> buttons to the Document grid screen, select (tick) the "</span><span class="rvts168">Document posting</span><span class="rvts156">" field on the </span><span class="rvts22">Documents</span><span class="rvts156"> tab in </span><span class="rvts22">Setup → Access control</span><span class="rvts156">.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Stock items / Inventory items</span></span></h2>
+<p class="rvps2"><span class="rvts6">Before you add or import your stock items / inventory items / products you may need to configure some important basic settings such as Cost of sales, &nbsp;Create tax classes / account classes &nbsp;and Selling prices.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">At this point, your chart of accounts (general ledger accounts) should have already been finalised.&nbsp;</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Activate Cost of Sales&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">By default cost of sales is not activated. You need to configure cost of sales as follows:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Cost of Sales journal - Create a cost of sales batch (journal) type (</span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="batch-types-setup.html">Batch types</a><span class="rvts6">) to update the transactions for cost of sales to the ledger when you post documents. &nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Cost of sales settings (</span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="stock-create-cost-of-sales.html">Stock information</a><span class="rvts6">) - Select the following:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">Create cost of sales - To activate cost of sales, select (tick) the "</span><span class="rvts42">Create cost of sales</span><span class="rvts6">" tick box.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Cost of sales batch - Select the Cost of sales batch (journal) in which the cost of sales transactions will be posted.&nbsp;</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">Use “</span><span class="rvts42">Average cost</span><span class="rvts6">” or “</span><span class="rvts42">Latest cost</span><span class="rvts6">” option.&nbsp;</span></li>
+ </ul>
+</ul>
+<div class="rvps57">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts26">The method you use to calculate the value of your stock is crucial for determining its impact on your profit and loss figures. It is important to consider whether to use the “average cost” or the “latest cost” method.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">If you are unsure which method to use, it is recommended that you seek guidance from your accountant.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Create tax classes / account classes &nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">At this point, your chart of accounts (general ledger accounts) should have already been finalised.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You need to link each stock item / inventory item / product to the applicable ledger accounts (i.e. Input tax, Output tax, Sales account, Cost of sales account and Stock control account).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Tax classes may be set and linked to each category of tax and various tax rates such as Output tax, Input tax - Standard rate, &nbsp;Input tax - Capital goods, Zero rated goods, Exempt supplies applicable to the stock items / inventory items / products in your country and tax jurisdiction, etc.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Tax classes is defined and managed in the Tax classes tab in </span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="stock-information-tax-classes.html">Stock information</a><span class="rvts6">. When you create add or import your stock items / inventory items / products you may select a pre-configured Tax class to automatically link the 5 accounts (i.e. Input tax, Output tax, Sales account, Cost of sales account and Stock control account) applicable to the stock item / inventory item / product.&nbsp;</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Selling prices&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">osFinancials5/TurboCASH5 supports up to 3 selling prices (i.e. Selling price 1, Selling price 2 and Selling price 3). You may change the descriptions of these selling prices on the "Selling price descriptions" section of the Default tab of Setup </span><span class="rvts156">→</span><span class="rvts6"> </span><a class="rvts37" href="stock-selling-price-descriptions.html">Stock information</a><span class="rvts6"> to suit your specific requirements and set one of these Selling prices as the default Selling price (global setting) for your Set of Books.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">In addition to this, you may set one of these Selling prices as the default Selling price on the </span><a class="rvts17" href="debtor-tab-accounting-info.html">Accounting information</a><span class="rvts6"> tab for specific debtor (customer / client) accounts.&nbsp;</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 33px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/B59.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 610px;">
+   <p class="rvps18"><a class="rvts170" href="plugin-price-agreement.html">Price agreement plugin</a><span class="rvts88"> </span><span class="rvts26">- </span><a class="rvts78" href="https://www.osfinancials.org/en/plugin-manuals/513-price-agreement-plugin" target="_blank">Manual</a><span class="rvts26"> - </span><a class="rvts78" href="https://www.osfinancials.org/en/webshop/debtor-creditor-control/price-agreement-plugin" target="_blank">Shop</a><span class="rvts26"> - </span><span class="rvts88">Licence</span><span class="rvts26"> : Once-off -&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">In addition to the standard 3 selling prices in odFinancials, </span><a class="rvts170" href="plugin-price-agreement.html">Price agreement plugin</a><span class="rvts26">, allows you to set up to five (5) levels of quantity discounts that can be applied to specific debtors or groups of debtors. Additionally, you can set a special price for individual debtors per product. These prices will overrule the default Selling price 1 / 2 / 3 and can be set per debtor (customer / client). The price agreement may also be activated for creditor (supplier / vendor) accounts.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Units of stock&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Add and define the units such as each, hours, etc. for your stock items / inventory / products. You may add these descriptions on the Units tab in </span><span class="rvts11">Setup </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="stock-information-units-tab.html">Stock information</a><span class="rvts6">.</span></p>
+<h3 class="rvps25"><span class="rvts0"><span class="rvts23">Reporting groups - Stock group 1 / Stock group 2</span></span></h3>
+<p class="rvps2"><span class="rvts6">In osFinancials5/TurboCASH5, you have the option to set up to 2 reporting groups for your stock items / inventory items / products, allowing you to categorise search, filter and report on your products more effectively. These reporting groups provide a way to organize and analyse your inventory based on specific criteria.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You may add these Stock groups in </span><span class="rvts11">Setup</span><span class="rvts6"> </span><span class="rvts22">→</span><span class="rvts11"> </span><a class="rvts17" href="stock-item-reporting-groups.html">Groups</a><span class="rvts6"> can be linked to each stock item (inventory item / product).&nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Set the Calendar as default</span></span></h1>
+<p class="rvps2"><span class="rvts6">You have the option to </span><a class="rvts37" href="calendar-default-setting.html">activate the Calendar to be launched instead of the Welcome screen</a><span class="rvts6"> whenever you open a Set of Books, This means that the Calendar will be automatically displayed as the default screen.</span></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

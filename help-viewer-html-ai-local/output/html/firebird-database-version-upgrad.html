@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Firebird database upgrade</title>
+  <meta name="description" content="Firebird database upgrade using FlameRobin - osfinancials.org" /> 
+  <meta name="keywords" content="Database types,Firebird,FlameRobin">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Firebird database upgrade">
+  <meta name="twitter:description" content="Firebird database upgrade using FlameRobin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Firebird database upgrade" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Firebird database upgrade using FlameRobin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="firebird-database-version-upgrad"
+		  data-hnd-context="90"
+		  data-hnd-title="Firebird database upgrade"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="database-types.html">Database types</a></li><li><a href="firebird-database-type.html">Firebird databases</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="firebird-database-type.html" title="Firebird databases" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="firebird-flame-robin-connection.html" title="Flame Robin - Firebird connection" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="mssql-sql-databases.html" title="Microsoft SQL Server (MSSQL) Databases" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Firebird database upgrade</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<div class="rvps56">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts76">Before you upgrade please Backup the Database, use the make a copy or backup of the Set of Books to be Restored and upgraded.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps79"><span class="rvts0"><span class="rvts144">Firebird Database Sets of Books in osFinancials5.1/TurboCASH5-3</span></span></h1>
+<p class="rvps2"><span class="rvts6">All sets of books for use with osFinancials5.1 and TurboCASH5-3 have been updated from Firebird databases version 1.5 (ODS 10.1) to version 2.1 (ODS 11.1) and are available in the following options:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">osFinancials databases are available on the webserver. Download them via "Let osFinancials help you create a Set of Books?" or "Let TurboCASH5-3 help you create a Set of Books?" in Create Set of Books on the Start ribbon (Press F10). For year-end tasks, set your financial year start in Setup → Reporting dates.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">TurboCASH5-3 Sets of Books templates are stored in the following folders:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">bin/Repository: Various templates based on country and language choices during installation.</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">bin/4-DIGIT-BOOKS</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">bin/CHINESE</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">bin/CUSTOMISE-EMPTY-BOOKS</span></li>
+  <li class="rvps13 noindent"><span class="rvts6">bin/Tutorials</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts11">NOTE</span><span class="rvts6">: In TurboCASH5-2 and earlier versions, Sets of Books templates in the bin/Repository and bin/Tutorials folder are still Firebird databases from version 1.5 (ODS 10.1).</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Is it optional for existing users of previous versions of osFinancials/TurboCASH databases version 1.5 (ODS 10.1) to upgrade your Firebird databases from version 1.5 (ODS 10.1) to version 2.1 (ODS 11.1)?</span></span></h1>
+<p class="rvps2"><span class="rvts6">Existing users of previous versions of osFinancials/TurboCASH support Firebird databases version 1.5 (ODS 10.1). When Migrating their Set of Books to osFinancials5.1/TurboCASH5-3 their Set of Books may be using Firebird databases version 1.5 (ODS 10.1).</span></p>
+<p class="rvps4"><span class="rvts6">The decision to upgrade your Firebird databases from version 1.5 (ODS 10.1) to version 2.1 (ODS 11.1) depends on several factors, including your specific use case, the requirements of your software (osFinancials or TurboCASH), and your long-term goals. Here's a detailed breakdown to help you decide:</span></p>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts24">When Upgrading is Optional</span></span></h3>
+<p class="rvps4"><span class="rvts6">Upgrading is optional if:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts20">Your Current Setup Works Fine</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If your existing Firebird 1.5 databases are functioning correctly with your current version of osFinancials or TurboCASH, and you have no immediate need for new features or improvements, you can continue using the older version.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Are Not Facing Performance or Security Issues</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If your database performance is acceptable and you are not concerned about potential security vulnerabilities in Firebird 1.5, upgrading may not be urgent.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Are Not Planning to Upgrade Your Software</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If you do not plan to upgrade to osFinancials 5.1 or TurboCASH 5.3 (which are designed for Firebird 2.1), there is no immediate need to upgrade the database.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts24">When Upgrading is Recommended or Required</span></span></h3>
+<p class="rvps4"><span class="rvts6">Upgrading is recommended or required if:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts20">You Are Upgrading Your Software</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If you plan to upgrade to osFinancials 5.1 or TurboCASH 5.3, you </span><span class="rvts20">must</span><span class="rvts6"> upgrade your Firebird databases to version 2.1 (ODS 11.1). These newer software versions are designed to work with Firebird 2.1 and may not be compatible with Firebird 1.5.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Need Better Performance</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Firebird 2.1 includes significant performance improvements over Firebird 1.5. If your database operations are slow or inefficient, upgrading can help.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Require Enhanced Security</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Firebird 2.1 includes security enhancements that are not available in Firebird 1.5. If your database contains sensitive information, upgrading is strongly recommended.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Want Access to New Features</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Firebird 2.1 introduces new features and capabilities that may be beneficial for your application or workflow.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Need Ongoing Support</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Firebird 1.5 is an outdated version and is no longer supported by the Firebird project. Upgrading to Firebird 2.1 ensures that you have access to support, bug fixes, and updates.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">You Are Migrating to a New Environment</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If you are moving your database to a new server or environment, it is a good opportunity to upgrade to the latest supported stable version of Firebird.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts24">Risks of Not Upgrading</span></span></h3>
+<p class="rvps4"><span class="rvts6">If you choose not to upgrade, be aware of the following risks:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts20">Compatibility Issues</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Future updates to osFinancials or TurboCASH may not support Firebird 1.5, leaving you unable to upgrade your software.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">Security Vulnerabilities</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">Firebird 1.5 may have unpatched security vulnerabilities, putting your data at risk.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">Performance Limitations</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">You may miss out on performance optimizations available in Firebird 2.1.</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts20">Lack of Support</span><span class="rvts6">:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">If you encounter issues with Firebird 1.5, you may not be able to find support or solutions.</span></li>
+ </ul>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts24">Conclusion</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts20">Optional</span><span class="rvts6">: If you are satisfied with your current setup and do not plan to upgrade your software, you can continue using Firebird 1.5 (ODS 10.1).</span></li>
+ <li class="rvps2 noindent"><span class="rvts20">Recommended/Required</span><span class="rvts6">: If you are upgrading to osFinancials 5.1 or TurboCASH 5.3, or if you want better performance, security, and support, you should upgrade your Firebird databases to version 2.1 (ODS 11.1).</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6">Before upgrading, always back up your databases and test the upgraded environment to ensure compatibility with your applications. If you are unsure, consult the documentation for osFinancials, TurboCASH, or Firebird, or seek assistance from a qualified database administrator.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">FlameRobin Process to Upgrade Firebird Databases</span></span></h1>
+<p class="rvps2"><span class="rvts6">In FlameRobin, after registering an existing database using the </span><span class="rvts11">Register existing database</span><span class="rvts6"> option, you can verify the Firebird version of the database.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">To accomplish this, connect to the database and select </span><span class="rvts11">Database Properties</span><span class="rvts6"> from the </span><span class="rvts11">Database</span><span class="rvts6"> menu or from the context menu.</span></p>
+<p class="rvps2"><span class="rvts11">For reference</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="text-indent: 0px" class="rvps435 noindent"><span class="rvts39">Firebird database ODS version 10.1 corresponds to Firebird version 1.5.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/flame-robin-database-version10-1.png"></p>
+<p class="rvps2"><span class="rvts6">If you wish to upgrade the database (Set of Books) from Firebird1.5 (ODS Version 10.1) to Firebird2.1 (ODS Version 11.1), you need to do the following:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts6">Disconnect the database in FlameRobin.</span></li>
+ <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts6">Right-click and select the </span><span class="rvts11">Backup database...</span><span class="rvts6">&nbsp;</span></li>
+</ol>
+<p class="rvps13"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/flame-robin-database-upgrade.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">Backup</span><span class="rvts6"> the Database.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Enter a "</span><span class="rvts42">Backup file</span><span class="rvts6">" name to back up the database.</span></li>
+</ol>
+<p class="rvps13"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/flame-robin-backup-database1.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts11">Restore</span><span class="rvts6"> the Database - Use the same "</span><span class="rvts42">Backup file</span><span class="rvts6">" name to restore the database.&nbsp;</span></li>
+</ol>
+<p class="rvps13"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/flame-robin-restore-database.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" class="rvps13 noindent"><span class="rvts6">Connect to the database and verify it's Firebird ODS version 11.1, corresponding to Firebird version 2.1.</span></li>
+</ol>
+<p class="rvps13"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/flame-robin-database-version.png"></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
