@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TurboCASH / osFinancials Help Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="viewer.css">
+    <!-- Favicon Link -->
+    <link rel="icon" type="image/x-icon" href="output/html/favicon/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="output/html/favicon/favicon.ico">
+</head>
+<body>
+
+<!-- Fullscreen Splash Screen Overlay -->
+<div id="splashScreen" class="splash-overlay">
+  <div class="splash-content">
+    <div class="splash-loading-bar">
+      <div class="splash-spinner"></div>
+      <span class="splash-loading-text">Loading Local Help Viewer...</span>
+    </div>
+    <img src="images/turbocash-osfinancials-splash.png" alt="TurboCASH / osFinancials Splash" class="splash-image" />
+  </div>
+</div>
+
+<!-- UNIFIED MAIN APPLICATION HEADER -->
+<header id="topHeader" class="app-header" role="banner">
+    <!-- Top Row: Title Left + Action Buttons Right -->
+    <div class="header-main-row">
+        <h1 class="app-title">
+            <span class="title-icon">📚</span>
+            TurboCASH &amp; osFinancials Help Viewer <span class="title-local">(Local)</span>
+        </h1>
+        
+        <div class="header-actions">
+            <button id="btnReloadHelp" type="button" class="action-btn">
+                <span>🔄</span> Reload
+            </button>
+            <button id="btnToggleDarkMode" type="button" class="action-btn">
+                <span>🌙</span> Dark Mode
+            </button>
+        </div>
+    </div>
+
+    <!-- Sub Row: Navigation Buttons Left + Badge Right -->
+    <div class="header-nav-row">
+        <nav class="nav-buttons-bar" role="navigation" aria-label="Main Navigation">
+            <button id="navHome" type="button" class="nav-btn active">
+                <span class="nav-icon">🏠</span> Home
+            </button>
+            <button id="navSearch" type="button" class="nav-btn">
+                <span class="nav-icon">🔍</span> Advanced Search
+            </button>
+            <button id="navAI" type="button" class="nav-btn">
+                <span class="nav-icon">🤖</span> AI Assistant
+            </button>
+            <button id="navSettings" type="button" class="nav-btn">
+                <span class="nav-icon">⚙️</span> AI Settings
+            </button>
+        </nav>
+
+        <!-- Right Side Brand Badge -->
+        <div id="topNavVersion" class="header-brand-badge">
+            <a href="https://www.turbocash.net/" target="_blank" rel="noopener noreferrer" class="brand-link" title="Visit TurboCASH Website">
+                <img src="images/TurboCASH-32.png" alt="TurboCASH" class="brand-logo" />
+                <span class="brand-tc">TurboCASH</span>
+            </a>
+            &amp;
+            <a href="https://www.osfinancials.org/en/home" target="_blank" rel="noopener noreferrer" class="brand-link" title="Visit osFinancials Website">
+                <img src="images/osFinancials-32.png" alt="osFinancials" class="brand-logo" />
+                <span class="brand-osf">osFinancials</span>
+            </a>
+            Help Viewer
+        </div>
+    </div>
+</header>
+
+<!-- MAIN CONTAINER -->
+<div id="mainContainer">
+    <!-- CENTER PANE (Loads full HelpNDoc documentation suite) -->
+    <main id="centerPane" role="main">
+        <iframe id="topicFrame" name="topicFrame" src="output/html/welcome.html" title="Help Topic"></iframe>
+
+        <!-- FLOATING AI CHATBOT OVERLAY (ANCHORED INSIDE TOPIC CONTAINER) -->
+        <div id="ai-chatbot-container">
+            <div id="chatbot-bubble" onclick="toggleChatWindow()"><span>🤖</span> Click me</div>
+            <div id="chatbot-window">
+                <div class="chatbot-header">TurboCASH / osFinancials Assistant</div>
+                <div id="chat-history"><p style="color:#555;">Hi! Ask me anything about this topic.</p></div>
+                <div class="chatbot-input-row">
+                    <input type="text" id="chat-input" placeholder="Ask a question...">
+                    <button type="button" onclick="submitChatQuery()">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="resizer" id="resizerRight"></div>
+
+<!-- RIGHT PANE 1: ADVANCED SEARCH -->
+    <aside id="rightPane" class="rightPane" role="complementary" aria-label="Advanced Search">
+        <div class="rightPaneHeader">Advanced Search</div>
+        <div id="advSettingsPanel" class="adv-settings">
+            
+            <details class="search-accordion" open>
+                <summary class="accordion-header"><span>Search Options</span></summary>
+                <div class="accordion-content adv-checkbox-group">
+                    <label><input type="checkbox" id="chkSearchPrevious" name="searchOpt" value="previous"> 🔄 Search previous results</label>
+                    <label><input type="checkbox" id="chkMatchSimilar" name="searchOpt" value="similar" checked> 🔤 Match similar words</label>
+                    <label><input type="checkbox" id="chkSearchTitlesOnly" name="searchOpt" value="titlesOnly"> 🏷️ Search titles only</label>
+                </div>
+            </details>
+
+            <details class="search-accordion" open>
+                <summary class="accordion-header"><span>Search Mode</span></summary>
+                <div class="accordion-content adv-radio-group">
+                    <label><input type="radio" name="searchMode" value="current"> 🔎 Current Topic</label>
+                    <label><input type="radio" name="searchMode" value="titles"> 📄 Help Titles</label>
+                    <label><input type="radio" name="searchMode" value="content"> 📚 Help Content</label>
+                    <label><input type="radio" name="searchMode" value="ai"> 🤖 AI Search</label>
+                    <label><input type="radio" name="searchMode" value="hybrid" checked> 🔀 Hybrid Search</label>
+                </div>
+            </details>
+
+            <details class="search-accordion" open>
+                <summary class="accordion-header"><span>Search Scope</span></summary>
+                <div class="accordion-content adv-radio-group">
+                    <label><input type="radio" name="searchType" value="full" checked> 📑 Full-text Content</label>
+                    <label><input type="radio" name="searchType" value="keyword"> 🔑 Index Keywords</label>
+                    <label><input type="radio" name="searchType" value="combined"> 🔗 Combined (Full-text + Index)</label>
+                </div>
+            </details>
+
+            <div class="search-query-container">
+                <input id="advSearchQuery" type="text" placeholder="Enter search text..." class="advSearchInput">
+                <div id="advSearchStatus" class="searchStatus"></div>
+                <div id="advSearchResults" class="advResults"></div>
+                <div class="advSearchButtons">
+                    <button id="btnAdvancedSearch" type="button" class="searchButton">Search</button>
+                    <button id="btnClearSearch" type="button" class="searchButton btn-working-clear">Clear</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- RIGHT PANE 2: AI ASSISTANT -->
+    <aside id="aiAssistantPane" class="rightPane hidden" role="complementary" aria-label="AI Assistant">
+        <div class="rightPaneHeader">AI Assistant</div>
+        <div id="aiChatPanel" class="ai-panel">
+            <div id="aiChatOutput" class="ai-output">
+                <div class="message assistant">Hello! I am your Help Assistant. Ask a question below or request a summary!</div>
+            </div>
+            <textarea id="aiUserInput" class="ai-input" rows="2" placeholder="Ask a question about this topic..."></textarea>
+            <div class="ai-button-row">
+                <button id="aiSubmitBtn" type="button" class="ai-btn ai-btn-primary"><span>💬</span> Ask Assistant</button>
+                <button id="aiClearBtn" type="button" class="ai-btn ai-btn-danger"><span>🗑️</span> Clear Chat</button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- RIGHT PANE 3: AI SETTINGS PANEL -->
+    <aside id="aiSettingsPanel" class="rightPane hidden" role="complementary" aria-label="AI & Search Settings">
+        <div class="rightPaneHeader">AI &amp; Search Settings</div>
+        
+        <form id="ai-settings-form" autocomplete="off" onSubmit="return false;">
+            <div class="settings-group">
+                <h3>AI Keys</h3>
+                <label for="key-gemini">Gemini API Key: 
+                    <input type="password" id="key-gemini" name="key-gemini" autocomplete="off" placeholder="Enter Gemini API Key..." />
+                </label>
+                <label for="key-openai">OpenAI API Key: 
+                    <input type="password" id="key-openai" name="key-openai" autocomplete="off" placeholder="Enter OpenAI API Key..." />
+                </label>
+            </div>
+            
+            <div class="settings-actions">
+                <button type="button" id="ai-save-keys">Save Keys</button>
+                <button type="button" id="ai-clear-keys">Clear Keys</button>
+                <button type="button" id="ai-test-keys">Test AI Keys</button>
+            </div>
+        </form>
+    </aside>
+</div>
+
+<footer id="footerBar" role="contentinfo">
+    <div id="footerText">TurboCASH / osFinancials Help Viewer — Local Client Edition</div>
+</footer>
+
+<script>
+    function toggleChatWindow() {
+        const chatWin = document.getElementById('chatbot-window');
+        if (chatWin) chatWin.style.display = (chatWin.style.display === 'flex') ? 'none' : 'flex';
+    }
+    function submitChatQuery() {
+        const inputField = document.getElementById('chat-input');
+        const query = inputField ? inputField.value.trim() : '';
+        if (!query) return;
+        const history = document.getElementById('chat-history');
+        if (history) {
+            history.innerHTML += `<p><strong>You:</strong> ${query}</p>`;
+            history.scrollTop = history.scrollHeight;
+        }
+        inputField.value = '';
+        if (typeof window.submitAIViaViewer === 'function') window.submitAIViaViewer(query);
+    }
+</script>
+<script src="viewer.js"></script>
+</body>
+</html>

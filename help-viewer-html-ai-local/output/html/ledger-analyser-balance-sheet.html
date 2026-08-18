@@ -1,0 +1,504 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Ledger analyser - Balance sheet</title>
+  <meta name="description" content="How to print balance sheets and export to text file to spreadsheets - osfinancials.org" /> 
+  <meta name="keywords" content="Balance sheet,Account groups,Accounting periods,export text file (spreadsheets),Standard column balances,Ledger analyser,Budgets,T-Account viewer,Pivot,Show contra,Client groups,Customer groups,Debtor groups,Creditor groups,Vendor groups,Supplier groups">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ledger analyser - Balance sheet">
+  <meta name="twitter:description" content="How to print balance sheets and export to text file to spreadsheets - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Ledger analyser - Balance sheet" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to print balance sheets and export to text file to spreadsheets - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ledger-analyser-balance-sheet"
+		  data-hnd-context="805"
+		  data-hnd-title="Ledger analyser - Balance sheet"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="reports-ribbon-options.html">Reports (Reports ribbon)</a></li><li><a href="ledger-analyser.html">Ledger analyser</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="ledger-analyser.html" title="Ledger analyser" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-income-statement.html" title="Ledger analyser - Income statement" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ledger-analyser-standard-ccolumn.html" title="Ledger analyser - Standard column balances" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Ledger analyser - Balance sheet</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p class="rvps228"><span class="rvts43">The Balance sheet is a statement of all Assets and Liabilities of a business at a particular time. It has three main components, i.e. Assets, Liabilities and Capital. This report will reflect the owners' interest in the business, as well as all Liabilities and Assets.&nbsp;</span></p>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 58px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 905px;">
+   <p class="rvps18"><span class="rvts278">The balancing figure is the Net Profit or Loss. A Net Profit is displayed, when the Income account balances are more than the Expense account balances. A Net Loss is displayed, when the Expense account balances are more than the Income account balances.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps228"><span class="rvts43">The Balance sheet will list all the balances of your accounts which are not created as Income / Expense types</span><span class="rvts6"> in the&nbsp;</span><span class="rvts44">Setup → </span><span class="rvts11">Accounts</span><span class="rvts6">&nbsp;option on the </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon).&nbsp;&nbsp;</span></p>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 57px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 906px;">
+   <p class="rvps18"><span class="rvts278">The Reporting groups (on the Account Group 1 tab in the</span><span class="rvts279"> Groups</span><span class="rvts278">&nbsp;option on the </span><span class="rvts279">Setup</span><span class="rvts278"> ribbon) should be linked to the Assets, Capital and Liabilities Financial categories (in the&nbsp;</span><span class="rvts279">Setup → Financial categories&nbsp;</span><span class="rvts278">menu on the </span><span class="rvts239">(</span><a class="rvts248" href="setup-ribbon.html">Setup</a><span class="rvts239"> ribbon)</span><span class="rvts278">, before this report is generated.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 52px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 911px;">
+   <p class="rvps2"><span class="rvts346">This will list all accounts in the chart of accounts reported only in the&nbsp;</span><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.svg"><span class="rvts346">&nbsp;Balance sheet.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-balance.svg"><span class="rvts156"> Balance sheet - Assets, Liabilities and Capital. It includes the following account types, i.e.:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps131 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-bank.svg"><span class="rvts6"> </span><span class="rvts156">Bank accounts&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-tax.svg"><span class="rvts6"> </span><span class="rvts156">Tax accounts&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-retained-income.svg"><span class="rvts6"> </span><span class="rvts156">Retained income / earnings.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-creditor.svg"><span class="rvts6"> </span><span class="rvts156">Creditor's control account.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><img alt="" style="padding : 1px;" src="lib/admon-material-accounts-debtor.svg"><span class="rvts6"> </span><span class="rvts156">Debtor's control account. </span><span class="rvts43">&nbsp;</span></li>
+</ul>
+<div class="rvps56">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">This report only includes </span><span class="rvts26">batch and document transactions</span><span class="rvts172"> which are posted. Unposted </span><span class="rvts26">batches and documents </span><span class="rvts172">will be </span><span class="rvts171">NOT</span><span class="rvts172"> be included in this report.</span></p>
+   <p class="rvps18"><span class="rvts172">To view a list of unposted batches and documents, which is not updated to the ledger, go to </span><span class="rvts171">Input → </span><a class="rvts177" href="checking-for-unposted-items.html">Checking unposted items</a><span class="rvts172"> (</span><span class="rvts171">Default</span><span class="rvts172"> ribbon).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Balance sheet options</span></span></h1>
+<p class="rvps163"><span class="rvts44">To print a Balance sheet:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps328 noindent"><span class="rvts43">On the&nbsp;</span><span class="rvts44">Reports </span><span class="rvts43">ribbon, select&nbsp;</span><span class="rvts44">Ledger analyser 1</span><span class="rvts43">&nbsp;or&nbsp;</span><span class="rvts44">Ledger analyser 2</span><span class="rvts43">.</span></li>
+ <li style="text-indent: 0px" class="rvps328 noindent"><span class="rvts43">Select the “</span><span class="rvts32">Balance sheet</span><span class="rvts43">” report type. &nbsp;</span></li>
+</ol>
+<p class="rvps318"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-balancesheet-options.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps328 noindent"><span class="rvts44">Per&nbsp;period</span><span class="rvts43"> - Select a period (Month, 2 Months, 3 Months, 4 Months, 6 Months or Year).&nbsp;</span></li>
+</ol>
+<div class="rvps283">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps2"><span class="rvts346">You may click on the “Free selection” tab. You may select or enter any date or dates, which you need to include the Balance sheet. &nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps282 noindent"><span class="rvts30">Groups</span><span class="rvts32"> -</span><span class="rvts43"> "</span><span class="rvts32">None</span><span class="rvts43">" is the default option. You may select "</span><span class="rvts32">Reporting group 1</span><span class="rvts43">" or "</span><span class="rvts32">Reporting group 2</span><span class="rvts43">".&nbsp;</span></li>
+</ol>
+<div class="rvps283">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps18"><span class="rvts172">If you have created two (2) Reporting groups (</span><span class="rvts171">Setup → Groups</span><span class="rvts172">), you may have different views of your data. For example the Group options:&nbsp;</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><span class="rvts171">None</span><span class="rvts172"> - Lists all accounts according to account code.&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts171">Reporting group 1</span><span class="rvts172"> - List all accounts according to the reporting group (e.g. Capital + Current liabilities + Fixed assets + Current assets)&nbsp;</span></li>
+    <li class="rvps18 noindent"><span class="rvts171">Reporting group 2</span><span class="rvts172"> - List all accounts according to the reporting group (e.g. Fixed assets + Current assets + Capital + Current liabilities)&nbsp;</span></li>
+   </ul>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps283">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps18"><span class="rvts278">To change your view of the Accounting groups , select the groups and use the&nbsp;</span><span class="rvts279">Move up</span><span class="rvts278">&nbsp;and&nbsp;</span><span class="rvts279">Move down</span><span class="rvts278">&nbsp;buttons to change the sequence.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts278">This will determine the sequence in which your Groups are listed on the </span><span class="rvts171">Setup → </span><span class="rvts279">Accounts</span><span class="rvts278">&nbsp;option on the </span><span class="rvts279">Setup</span><span class="rvts278"> ribbon and on the&nbsp;</span><span class="rvts279">Ledger analyser</span><span class="rvts278">&nbsp;is displayed, when Reporting group 1 or Reporting group 2 is selected.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Ignore zero balances</span><span class="rvts43"> - If this field is not selected, all accounts will be listed for the Balance sheet. If you select (tick) this field; only those accounts with balances will be included in the Balance sheet. &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Viewer Debtors / Creditors</span><span class="rvts43"> - Do not select (tick) if you only need to list only the control accounts of the Debtor (customer / client) and Creditor (supplier / vendor) accounts. If this field is selected (ticked), it will list all the individual debtor (customer / client) and creditor (supplier / vendor) accounts.&nbsp;</span></li>
+</ol>
+<div class="rvps283">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts346">The Trial balance and the Balance sheet report types allows you to select the Viewer Debtors / Creditors option.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts346">Tick this option to show the break down of the Debtor (customer / client) accounts in the Debtor's control account and the break down of the Creditor (supplier / vendor) accounts in the Creditor's control account.&nbsp;This will list all individual debtor (customer / client) for the debtor's control account and creditor (supplier / vendor) account balances for the creditor's control account.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps283"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-view-debtor-creditor.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Include opening balances</span><span class="rvts43"> - If this option is selected (ticked), it will include the opening balances of those accounts which have opening balances. If this option is not selected; the opening balances will not be included in the Balance sheet. &nbsp; &nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Opening balances only </span><span class="rvts43">- </span><span class="rvts6">This option will only be available if the "</span><span class="rvts42">Include opening balances</span><span class="rvts6">" option is selected. You can select (check) this option to include only the opening balances. All other balances will then be ignored.</span></li>
+ <li style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Budget</span><span class="rvts43"> - Leave this option blank to include the actual posted (updated) transactions in the Balance sheet. &nbsp;</span></li>
+</ol>
+<div class="rvps283">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts278">The "Budget" option, if selected, will list only the budget figures (Budget listing) in the Trial balance, Income statement, Balance sheet and Standard column balances report types (if budget figures were entered in the</span><span class="rvts26"> </span><a class="rvts170" href="budgets-reports-ribbon.html">Budgets</a><span class="rvts26"> option (</span><span class="rvts88">Reports ribbon</span><span class="rvts26">) or</span><span class="rvts278">&nbsp;</span><span class="rvts279">Setup → Accounts</span><span class="rvts278">&nbsp;option on the </span><span class="rvts279">Setup</span><span class="rvts278"> ribbon).&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="10" style="text-indent: 0px" class="rvps282 noindent"><span class="rvts44">Cost centre 1</span><span class="rvts43"> and </span><span class="rvts44">Cost centre 2</span><span class="rvts43"> - The&nbsp;</span><a class="rvts37" href="cost-centres.html">Cost centres</a><span class="rvts43">&nbsp;(2 Groups) will only be available, if Cost centres are added in </span><span class="rvts44">Setup → Groups</span><span class="rvts43"> on the </span><span class="rvts44">Setup</span><span class="rvts43"> ribbon; and if activated.</span></li>
+ <li style="text-indent: 0px" class="rvps282 noindent"><span class="rvts43">Click on the&nbsp;</span><span class="rvts44">Report</span><span class="rvts43">&nbsp;button. This will build or refresh the Balance sheet with the selected options.&nbsp;</span></li>
+</ol>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Example : Balance sheet</span></span></h1>
+<p class="rvps163"><span class="rvts43">An example of the "</span><span class="rvts32">Balance sheet - Reporting group 1"</span><span class="rvts43">&nbsp;report type, is displayed as follows:&nbsp;</span></p>
+<p class="rvps163"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-balancesheet-report.png"></p>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps18"><span class="rvts278">Buttons </span><span class="rvts279">5, 4, 3, 2</span><span class="rvts278"> and </span><span class="rvts279">1</span><span class="rvts278"> at the bottom of the report - is shortcut keys to the last accessed </span><a class="rvts78" href="t-account-viewer.html">T-Account viewer</a><span class="rvts278"> options or </span><a class="rvts78" href="ledger-analyser-pivot.html">Pivot</a><span class="rvts278"> options. These shortcuts will be cleared when you </span><a class="rvts78" href="close-active-forms.html">close active forms</a><span class="rvts278">, or when you open the Set of Books.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps228"><span class="rvts43">If you have created two (2) Reporting groups (in</span><span class="rvts44"> Setup → Groups</span><span class="rvts43">&nbsp;</span><span class="rvts209">(</span><a class="rvts244" href="setup-ribbon.html">Setup</a><span class="rvts209"> ribbon)</span><span class="rvts43">), you may have different views of your data. For example the Group options:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps327 noindent"><span class="rvts44">None</span><span class="rvts43">&nbsp;- Lists all accounts according to account code.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps327 noindent"><span class="rvts44">Reporting group 1</span><span class="rvts43">&nbsp;- List all accounts according to the reporting group (e.g. Capital + Current Liabilities + Fixed Assets + Current Assets)&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps327 noindent"><span class="rvts44">Reporting group 2</span><span class="rvts43">&nbsp;- List all accounts according to the reporting group (e.g. Fixed Assets + Current Assets + Capital + Current Liabilities)&nbsp;</span></li>
+</ul>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 42px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 776px;">
+   <p class="rvps2"><span class="rvts346">To change your view of the Accounting groups , select the groups and use the&nbsp;</span><span class="rvts347">Move up</span><span class="rvts346">&nbsp;and&nbsp;</span><span class="rvts347">Move down</span><span class="rvts346">&nbsp;buttons to change the sequence.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts346">This will determine the sequence in which your Groups are listed on the&nbsp;</span><span class="rvts44">Setup → </span><span class="rvts347">Accounts</span><span class="rvts346">&nbsp;option on the </span><span class="rvts347">Setup</span><span class="rvts346"> ribbon and on the&nbsp;</span><span class="rvts347">Ledger analyser</span><span class="rvts346">&nbsp;is displayed, when Reporting group 1 or Reporting group 2 is selected.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Printed example : Balance sheet</span></span></h1>
+<p class="rvps281"><span class="rvts43">Click on the&nbsp;</span><span class="rvts44">Print</span><span class="rvts43">&nbsp;button. &nbsp;An example of the printed "</span><span class="rvts32">Balance sheet - Reporting group 1"</span><span class="rvts43">, is displayed as follows:&nbsp;</span></p>
+<p class="rvps163"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-balance-sheet-print.png"></p>
+<div class="rvps163">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color : #ddcef2 #ddcef2 #ddcef2 #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps2"><span class="rvts460">To save the Balance sheet as a PDF file:</span></p>
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+    <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts346">On the "Reportman print preview" screen, select&nbsp;</span><span class="rvts347">Save</span><span class="rvts346">&nbsp;(</span><span class="rvts347">Ctrl+S</span><span class="rvts346">)&nbsp;</span><img alt="" style="padding : 1px;" src="lib/reportman-preview-icon-save.png"><span class="rvts346">&nbsp;– This will launch the “</span><span class="rvts42">Save metafile as</span><span class="rvts346">” screen.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts346">Select the directory (folder) where you need to save this file, if necessary.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts346">Enter a file name.&nbsp;</span></li>
+    <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts346">Select the "PDF File – compressed" default file type.</span></li>
+    <li style="text-indent: 0px" class="rvps43 noindent"><span class="rvts346">Click&nbsp;</span><span class="rvts347">Save</span><span class="rvts346">.</span></li>
+   </ol>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps163"><span class="rvts43"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Spreadsheet example : Balance sheet</span></span></h1>
+<p class="rvps56"><span class="rvts11">To create a Balance sheet - Export file:</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">Click on the </span><span class="rvts11">Export</span><span class="rvts6"> button. This will launch the "</span><span class="rvts42">Save as"</span><span class="rvts6"> screen.</span></li>
+</ol>
+<p class="rvps131"><span class="rvts6">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/export-txt-save-as.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">Select the folder in which you wish to save the file.</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">The default file name will be "</span><span class="rvts42">Export.txt"</span><span class="rvts6">. Overtype this with your own name.</span></li>
+</ol>
+<div class="rvps131">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 47px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-warning.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 1125px;">
+   <p class="rvps18"><span class="rvts26">&nbsp;If you do not enter and save the Export.txt file name, you may replace existing (previously exported) files.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">Of an existing exported file is opened, and you are trying to save a export file with the same name, a similar error message as the following will be displayed:</span></p>
+   <p class="rvps77"><span class="rvts36">Cannot create file "D:\exports\Export.txt". The process cannot access the file because it is being used by another process.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">Click on the </span><span class="rvts11">Save</span><span class="rvts6"> button.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts6">This will automatically open (launch) the file in your system's default text editor program associated with value text file type.&nbsp;</span></li>
+</ol>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ledger-analyser-balance-sheet-exported.png"></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

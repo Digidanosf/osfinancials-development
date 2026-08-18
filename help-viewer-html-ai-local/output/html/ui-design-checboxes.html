@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>UI DESIGN - Modernizing osFinancials/TurboCASH Design</title>
+  <meta name="description" content="UI DESIGN - Modernizing osFinancials/TurboCASH Design" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="UI DESIGN - Modernizing osFinancials/TurboCASH Design">
+  <meta name="twitter:description" content="UI DESIGN - Modernizing osFinancials/TurboCASH Design">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="UI DESIGN - Modernizing osFinancials/TurboCASH Design" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="UI DESIGN - Modernizing osFinancials/TurboCASH Design" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ui-design-checboxes"
+		  data-hnd-context="1267"
+		  data-hnd-title="UI DESIGN - Modernizing osFinancials/TurboCASH Design"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="release-notes.html">Release notes</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="release-notes.html" title="Release notes" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="osfinancials-development.html" title="osFinancials-development" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="drop-downlistsauto-expandaccordi.html" title="Drop-down lists auto-expand according to field length" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>UI DESIGN - Modernizing osFinancials/TurboCASH Design</h2>
+
+            <div class="main-content">
+                
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">UI DESIGN - Modernizing osFinancials/TurboCASH Design</span></span></h1>
+<p class="rvps2"><img alt="" style="width : 900px; height : 502px; padding : 1px;" src="lib/infographic-ui-checkboxes.png"></p>
+<p class="rvps4"><img alt="" style="width : 900px; height : 502px; padding : 1px;" src="lib/infographic-ui-checkboxes-modernization.png"></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">UI Design resources</span></span></h1>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">Multimedia Resources:</span><span class="rvts6"> Detailed discussions on the "Translations and Localization" are available:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps54 noindent"><span class="rvts6">🎥 </span><span class="rvts11">Video:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/9GhXNd-uZ3k" target="_blank">The Wandering Checkbox - UI-Design-Modernizing-Development - osFinancials/TurboCASH</a><span class="rvts6"> -</span></li>
+  <li class="rvps54 noindent"><span class="rvts6">🎵 </span><span class="rvts11">Audio:</span><span class="rvts6"> </span><a class="rvts37" href="https://youtu.be/-WgaVRmk8sY" target="_blank">UI-Design-Modernizing-Development - osFinancials/TurboCASH - Audio</a><span class="rvts6"> -&nbsp;</span></li>
+ </ul>
+ <li class="rvps53 noindent"><span class="rvts11">Resources on GitHub:</span><span class="rvts6"> &nbsp;</span><a class="rvts37" href="https://github.com/Digidanosf/osfinancials-development/tree/main/accounting-other-languages/ui-design-modernizing" target="_blank">https://github.com/Digidanosf/osfinancials-development/tree/main/accounting-other-languages/ui-design-modernizing</a><span class="rvts6"> -&nbsp;</span></li>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">UI Design &amp; Linguistic Logic (v5.1.0.288)</span></span></h1>
+<p class="rvps4"><span class="rvts6">For global release notes, the focus should be on the </span><span class="rvts11">Universal UI Standards</span><span class="rvts6"> you’ve implemented. It shows your users that the software is evolving toward a cleaner, more intuitive "Professional Grade" interface, regardless of which language they use.</span></p>
+<p class="rvps4"><span class="rvts6">The user interface in version </span><span class="rvts11">5.1.0.288</span><span class="rvts6"> has been refined to improve scannability and professional clarity. These changes follow a standardized "UI Governance" model to ensure consistency across all screens and document types.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">1. Unified Transaction Terminology</span></span></h2>
+<p class="rvps4"><span class="rvts6">To better align with global ERP and accounting standards, we have unified how various transaction types are categorized.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">The Standard:</span><span class="rvts6"> All financial records—including Invoices, Quotes, Credit Notes, Purchase Orders, and Returns—are now managed under a single, consistent "Document" framework.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">The Benefit:</span><span class="rvts6"> This provides a seamless experience when switching between Sales and Purchase modules, ensuring that navigation and search terminology remain identical across the system.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">2. Context-Aware Labeling</span></span></h2>
+<p class="rvps4"><span class="rvts6">We have optimized the UI by distinguishing between </span><span class="rvts11">Informational Labels</span><span class="rvts6"> and </span><span class="rvts11">Actionable Options</span><span class="rvts6">:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">Informational Labels (Direct Noun):</span><span class="rvts6"> For field headers and column titles, redundant instructional verbs such as "Use" or "Enter" have been removed to reduce visual noise.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps54 noindent"><span class="rvts42">Example:</span><span class="rvts6"> "Use Document Date" has been streamlined to </span><span class="rvts11">"Document Date."</span></li>
+ </ul>
+ <li class="rvps53 noindent"><span class="rvts11">Functional Options (Action-Retained):</span><span class="rvts6"> For settings or checkboxes where a specific behavior must be defined, the verb is strictly maintained to ensure the outcome is clear.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps55 noindent"><span class="rvts42">Example:</span><span class="rvts6"> Labels such as </span><span class="rvts11">"Show tax,"</span><span class="rvts6"> </span><span class="rvts11">"Print border,"</span><span class="rvts6"> or </span><span class="rvts11">"Include discount"</span><span class="rvts6"> retain their verbs to distinguish between calculation logic and visual display.</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">3. Procedural vs. Dialog Phrasing</span></span></h2>
+<p class="rvps4"><span class="rvts6">To balance speed with user guidance, the software now applies two distinct tones:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">Background Processes:</span><span class="rvts6"> Ongoing tasks or status updates use the </span><span class="rvts11">Noun + Ellipsis</span><span class="rvts6"> format. This provides a clear "In-Progress" indicator without occupying unnecessary screen real estate.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps54 noindent"><span class="rvts42">Example:</span><span class="rvts6"> </span><span class="rvts11">"Document Posting..."</span><span class="rvts6"> or </span><span class="rvts11">"Data Export..."</span></li>
+ </ul>
+ <li class="rvps53 noindent"><span class="rvts11">Safety &amp; Security Dialogs:</span><span class="rvts6"> Critical confirmation questions and license-related notifications use </span><span class="rvts11">Full, Polite Sentences.</span><span class="rvts6"> This ensures that the user is fully aware of the consequences before committing to a destructive action or a system-wide change.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps55 noindent"><span class="rvts42">Example:</span><span class="rvts6"> </span><span class="rvts11">"Are you sure you want to change the next document number?"</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">4. Branded System Notifications</span></span></h2>
+<p class="rvps4"><span class="rvts6">System-level messages have been personalized using application-specific placeholders. This ensures that license warnings and system limits are clearly distinguished from general operating system errors, providing a more integrated brand experience.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Benchmarking Against Industry Leaders</span></span></h1>
+<p class="rvps4"><span class="rvts6">Aligning your checkboxes to the </span><span class="rvts11">left of the label</span><span class="rvts6"> (</span><span class="rvts12">[ ] Label Text</span><span class="rvts6">) isn't just a personal preference—it is the established "DNA" of modern software design.</span></p>
+<p class="rvps4"><span class="rvts6">By standardizing osFinancials/TurboCASH to this format, you are aligning it with the world's most-used productivity and business suites.</span></p>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">1. Microsoft Office (Word, Excel, Outlook)</span></span></h3>
+<p class="rvps4"><span class="rvts6">Microsoft is the primary architect of this standard. Whether you are in the </span><span class="rvts11">Options</span><span class="rvts6"> menu or creating a </span><span class="rvts11">Checklist</span><span class="rvts6"> in a document, the interactive box always precedes the text.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">Alignment:</span><span class="rvts6"> </span><span class="rvts12">[ ] Label Text</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Why:</span><span class="rvts6"> Microsoft’s research into "Reading Gravity" shows that users scan in an </span><span class="rvts11">"F-shaped pattern."</span><span class="rvts6"> They look down the left margin first. If the checkbox is on the left, they can see the option and the state (checked/unchecked) in a single glance.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">2. LibreOffice</span></span></h3>
+<p class="rvps4"><span class="rvts6">As the primary open-source rival to Office, LibreOffice follows the same </span><span class="rvts11">Universal UI Guidelines</span><span class="rvts6">.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">Alignment:</span><span class="rvts6"> </span><span class="rvts12">[ ] Label Text</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Observation:</span><span class="rvts6"> Even in its complex "Options" and "Preferences" dialogs, LibreOffice uses a clean vertical line of checkboxes on the left. This ensures that even when the software is translated into 100+ languages, the "clickable" area remains in a predictable location.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">3. ERP &amp; Accounting Rivals (QuickBooks, Xero, Sage)</span></span></h3>
+<p class="rvps4"><span class="rvts6">Modern cloud accounting platforms have almost entirely moved away from the "Label [ ]" format.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">QuickBooks Online:</span><span class="rvts6"> Uses the standard </span><span class="rvts12">[ ] Label</span><span class="rvts6"> for all settings.</span></li>
+ <li class="rvps53 noindent"><span class="rvts11">Xero:</span><span class="rvts6"> Follows the same pattern, specifically using the checkbox first to allow for "Selection Lists" where a user can check multiple invoices to pay at once.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Sage Intacct:</span><span class="rvts6"> Standardizes the control on the left to ensure that the user's focus stays on the data-entry margin.</span></li>
+</ul>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">4. The "SAP" Enterprise Exception</span></span></h3>
+<p class="rvps4"><span class="rvts6">In very specific, high-density ERP screens (like legacy SAP GUI), you sometimes see </span><span class="rvts11">Label ... [ ]</span><span class="rvts6">.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps53 noindent"><span class="rvts11">The Reason:</span><span class="rvts6"> This is done only when a checkbox is part of a "Form Column" where every other field is a text box. To make the form look like a perfect grid, they push the checkbox to the far right to match the edge of the text boxes.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">The Catch:</span><span class="rvts6"> SAP’s modern </span><span class="rvts11">Fiori</span><span class="rvts6"> design guidelines now recommend moving away from this toward the standard </span><span class="rvts12">[ ] Label</span><span class="rvts6"> because the far-right alignment is considered a "high cognitive load" design (it's too far for the eye to travel).</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps35"><span class="rvts0"><span class="rvts16">Summary of the Comparison</span></span></h2>
+<div class="rvps2">
+<table style="border-width: 0px; border-spacing: 2px;">
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Software Type</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Checkbox Alignment</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Reason</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Microsoft Office</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">[ ] Label</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Scanning efficiency (F-Pattern).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">LibreOffice</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">[ ] Label</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Cross-platform consistency.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">QuickBooks / Xero</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">[ ] Label</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts43">Mobile responsiveness and speed.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">osFinancials Legacy</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Label [ ]</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Legacy outlier</span><span class="rvts43"> (The "Exam Mark" style).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: middle;">
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">osFinancials Spreadsheet</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">[ ] Label</span></p>
+  </td>
+  <td style="padding: 1px;">
+   <p class="rvps2"><span class="rvts44">Modern standard</span><span class="rvts43"> (Already implemented here).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h3 class="rvps30"><span class="rvts0"><span class="rvts23">Recommendation for osFinancials 5.1</span></span></h3>
+<p class="rvps4"><span class="rvts6">The fact that your </span><span class="rvts11">Spreadsheet component</span><span class="rvts6"> already uses the left-aligned format is your "North Star." It proves that the modern parts of your code already know the right way to do it.</span></p>
+<p class="rvps4"><span class="rvts6">Standardizing the rest of the UI to match the Spreadsheet component will:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps53 noindent"><span class="rvts11">Reduce user confusion</span><span class="rvts6"> within your own app.</span></li>
+ <li class="rvps53 noindent"><span class="rvts11">Align with the muscle memory</span><span class="rvts6"> users have from using Excel and Word.</span></li>
+ <li class="rvps16 noindent"><span class="rvts11">Solve your translation "Use" verb problem</span><span class="rvts6"> permanently.</span></li>
+</ol>
+<p class="rvps4"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

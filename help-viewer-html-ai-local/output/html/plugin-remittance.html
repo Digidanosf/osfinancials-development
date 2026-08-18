@@ -1,0 +1,776 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Remittance plugin</title>
+  <meta name="description" content="Remittance plugin - osfinancials.org" /> 
+  <meta name="keywords" content="Plugins">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Remittance plugin">
+  <meta name="twitter:description" content="Remittance plugin - osfinancials.org">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Remittance plugin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Remittance plugin - osfinancials.org" />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="plugin-remittance"
+		  data-hnd-context="218"
+		  data-hnd-title="Remittance plugin"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="plugins.html">Plugins</a></li><li><a href="plugins-menu-file-structure.html">Plugins menu (Setup ribbon)</a></li><li><a href="plugins-menu-financial-tools.html">Plugins menu - Financial tools</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="plugins-menu-financial-tools.html" title="Plugins menu - Financial tools" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="plugin-drill-down.html" title="Drill Down plugin" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="plugins-menu-generic-plugins.html" title="Plugins menu - Generic plugins " role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Remittance plugin</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<div class="rvps2">
+<table width="100%" style="border-color: #0000ff; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: top; width: 76px;">
+   <p class="rvps56"><img alt="" style="padding : 5px; margin : 5px 5px;" src="lib/B56.png"></p>
+  </td>
+  <td style="padding: 3px; background-color: #faf5ff; vertical-align: middle; width: 976px;">
+   <p class="rvps18"><a class="rvts177" href="plugin-remittance.html">Remittance plugin</a><span class="rvts171"> </span><span class="rvts172">- </span><a class="rvts178" href="https://www.osfinancials.org/en/plugin-manuals/545-remittance-plugin" target="_blank">Manual</a><span class="rvts172"> -</span><span class="rvts26"> </span><a class="rvts178" href="https://www.osfinancials.org/en/webshop/debtor-creditor-control/remittance-plugin" target="_blank">Shop</a><span class="rvts26"> - </span><span class="rvts88">License </span><span class="rvts26">: Once-off -&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts88">Translations</span><span class="rvts26"> : </span><a class="rvts78" href="translate-plugins-remittance.html">Outstanding</a><span class="rvts26">&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">With the remittance plugin allows you to easily manage your outstanding items. You may send an e-mail to all debtors to remind them their outstanding amounts and totals.</span></p>
+<p class="rvps2"><span class="rvts6">You may also print outstanding (arrears) accounts and send them by post.</span></p>
+<p class="rvps2"><span class="rvts6">By also purchasing the Multimedia plugin, you can immediately see which e-mails and reminders you have sent.</span></p>
+<p class="rvps2"><span class="rvts6">The setup and configuration process is briefly as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts6">Activate – Enable the </span><span class="rvts11">Remittance plugin</span><span class="rvts6"> in a Set of Books.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Configure the e-mail with the settings and details from your Internet Service Provider (ISP).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Creating e-mail templates to be displayed in your system's default e-mail program. You may create any number of email templates for your requirements.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Customise the remittance / reminder layout files for your specific needs. These layout files will automatically generate the list of outstanding transactions and the total for each debtor account. The remittance / reminder layout files will be attached to each debtor e-mail.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">After the setup and configuration process, using the Remittance plugin is briefly as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" class="rvps2 noindent"><span class="rvts6">Access the </span><span class="rvts11">Remittance plugin</span><span class="rvts6">. (An option is available to automatically launch this plugin if transactions are outstanding).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Check the selection criteria on the</span><span class="rvts11"> Remittance plugin</span><span class="rvts6">. (You may select and preview remittance layout files).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Print selected or all debtors.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">To send e-mails:</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts6">Emails may be sent from the </span><span class="rvts11">Documents</span><span class="rvts6"> grid on the</span><span class="rvts11"> E-mail Pro</span><span class="rvts6"> tab on </span><span class="rvts11">Debtors</span><span class="rvts6"> accounts (</span><span class="rvts11">Default</span><span class="rvts6"> ribbon).</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Enter the e-mail text header (topic / subject)&nbsp;</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Select an e-mail template. (You may preview the template or the remittance layout file)</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Enter additional text (free text) to be added to the e-mail template. (An extra file can be attached – in addition to the Remittance layout file).</span></li>
+  <li class="rvps2 noindent"><span class="rvts6">Click on the </span><span class="rvts11">Send</span><span class="rvts6"> button to fire off the e-mails.</span></li>
+ </ul>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts510">Activation</span></span></h2>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts11">Setup</span><span class="rvts6"> ribbon, select </span><span class="rvts11">Plugins → Financial tools → Remittance</span><span class="rvts6">. If this plugin is not listed under </span><span class="rvts20">Plugins → </span><span class="rvts11">Financial tools</span><span class="rvts6">, activate it via </span><span class="rvts20">Tools → </span><a class="rvts17" href="plugins-activate.html">Activate plugins</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6">The activation screen for the </span><span class="rvts11">Remittance plugin</span><span class="rvts6"> is launched.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-activate.png"></p>
+<p class="rvps2"><span class="rvts6">The options are as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Enabled</span><span class="rvts6">: Select the </span><span class="rvts11">On</span><span class="rvts6"> radio button option to enable the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Popup if there are transactions</span><span class="rvts6"> (check box): By default, this field is not checked. When you reopen the Set of Books, the </span><span class="rvts11">Remittance</span><span class="rvts6"> icon (additional icon) will be available on the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon from where you can manually launch the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin. If you select (check) the "</span><span class="rvts42">Popup if there are transactions</span><span class="rvts6">" checkbox, the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin will be launched automatically to remind you when reminders are due.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Document style</span><span class="rvts6"> - This option provides 2 interfaces for the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin. By default, this option is not checked. If you check or uncheck, the "</span><span class="rvts42">Document style</span><span class="rvts6">" option, and reopen the Set of Books, the </span><span class="rvts11">Remittance</span><span class="rvts6"> screen will be initiated from the </span><span class="rvts11">Remittance</span><span class="rvts6"> icon on the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon:</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">List</span><span class="rvts6"> button: This will launch the following </span><span class="rvts11">Remittance</span><span class="rvts6"> screen:&nbsp;</span></li>
+</ol>
+<p class="rvps13"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-activate-list.png"></p>
+<p class="rvps13"><span class="rvts6">If you do not check the "</span><span class="rvts42">Document style</span><span class="rvts6">" option, and reopen the Set of Books, the Reminders screen will be initiated from the </span><span class="rvts11">Remittance</span><span class="rvts6"> icon on the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon, similar to how the </span><span class="rvts11">List</span><span class="rvts6"> button is initiated.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts11">Save</span><span class="rvts6"> button: If you have clicked on the </span><span class="rvts11">List</span><span class="rvts6"> button, you need to click on the Close (X) icon on the title bar of the above </span><span class="rvts11">Remittance</span><span class="rvts6"> screen (this screen will be discussed in the next sections).&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Reopen the Set of Books. Alternatively, you may close active forms (</span><span class="rvts11">Tools → Close active forms</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon)) and relaunch the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin from the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon to switch between the "</span><span class="rvts42">Document style</span><span class="rvts6">" option, not selected or selected in </span><span class="rvts11">Remittance</span><span class="rvts6"> setup.</span></li>
+</ol>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Document style modes&nbsp;</span></span></h1>
+<p class="rvps2"><span class="rvts6">You may switch to the different modes for processing transactions in the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin in </span><span class="rvts11">Plugins → Financial tools → Remittance</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon}</span><span class="rvts11"> </span><span class="rvts6">. After changing the "</span><span class="rvts42">Document style</span><span class="rvts6">" option, you may need to:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Reopen the Set of Books.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Alternatively, you may close active forms (</span><span class="rvts11">Tools → Close active forms</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon)) and relaunch the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin from the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon to switch between the "</span><span class="rvts42">Document style</span><span class="rvts6">" option, not selected or selected in </span><span class="rvts11">Remittance</span><span class="rvts6"> setup.</span></li>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts135">Document style option - Not selected</span></span></h1>
+<p class="rvps2"><span class="rvts6">If you</span><span class="rvts11"> do not select</span><span class="rvts6"> the "</span><span class="rvts42">Document style</span><span class="rvts6">" option in </span><span class="rvts11">Plugins → Financial tools → Remittance</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon}, the Remittance screen will display as follows:&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-activate-list.png"></p>
+<p class="rvps2"><span class="rvts6">The screen consists of four (4) sections as well as the data (columns section):</span></p>
+<p class="rvps2"><span class="rvts11">Selection</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Open item since pay date from</span><span class="rvts6"> - Enter or select the date.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">With a remittance date from and to </span><span class="rvts6">- Enter or select the date.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">No auto payment</span><span class="rvts6"> - Hide the debtors for which automatic payments have been scheduled.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">E-mail filter</span><span class="rvts6"> – If this field is not selected, all debtor accounts (including those without e-mail addresses will be listed. Select (tick) this option to hide debtors without e-mail addresses. If selected, only those Debtors with e-mail addresses entered in the E-mail field of the Debtor accounts screen will be listed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Refresh</span><span class="rvts6"> button – After selecting these dates, you may click on this button to list only those transactions matching your selection criteria.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts11">Customise</span><span class="rvts6"> -&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Adjust remittance date of selection to</span><span class="rvts6"> - Enter or select the date. This will set the date "last reminder" for the selected debtor (or all debtors) to the date selected.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Selection</span><span class="rvts6"> button - If you click on this button, the following confirmation message will be displayed:&nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">“This action will adjust the last date remittance at the "selected" debtors! Do you wish to continue?”</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">All</span><span class="rvts6"> button – If you click on this button, the following confirmation message will be displayed:&nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">“This action will adjust the last date remittance at the "ALL VISIBLE" debtors! Do you wish to continue?”</span></p>
+<p class="rvps2"><span class="rvts11">Print -</span><span class="rvts6">&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Print all</span><span class="rvts6"> button – This will print the Remittance (reminder) layout file for all debtor accounts in the list to the default system printer. These layout files are stored in the following folder:</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">" ...\plug_ins\reports\remittance\layouts "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps2 noindent"><span class="rvts11">Print selected</span><span class="rvts6"> button – This will print the Remittance (reminder) layout file for a selected debtor account in the list to the default system printer. These layout files are stored in the following folder:&nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">" ...\plug_ins\reports\remittance\layouts "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps2 noindent"><span class="rvts11">Print preview</span><span class="rvts6"> button - This will print the Remittance (reminder) layout file for a selected debtor account in the list in the Reportman preview screen.&nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">" ....\plug_ins\reports\remittance\layouts "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" class="rvps2 noindent"><span class="rvts11">Edit remittance</span><span class="rvts6"> button - This will open the </span><span class="rvts11">Remittance</span><span class="rvts6"> (reminder) layout file in the </span><span class="rvts11">Report designer</span><span class="rvts6">. You may then edit the Remittance layout files. These layout files are stored in the following folder:</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">&nbsp;" ...\plug_ins\reports\remittance\layouts "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps2 noindent"><span class="rvts11">Edit report</span><span class="rvts6"> - This will open the Remittance (listing all debtor accounts) report in the </span><span class="rvts11">Report designer</span><span class="rvts6">. You may then edit the report. These reports are stored in the following folder:</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">" ...\plug_ins\reports\remittance\layouts\list.rep "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="6" class="rvps2 noindent"><span class="rvts11">Show report</span><span class="rvts6"> - This will print the Remittance (listing all debtor accounts) report for a selected debtor account in the list in the Reportman preview screen located in the following directory: &nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">" ...\plug_ins\reports\remittance\list.rep "</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="7" class="rvps2 noindent"><span class="rvts11">E-mail selected </span><span class="rvts6">– This will send the Remittance report as an e-mail attachment for a selected debtor account. To use the E-mail functionality, you need to setup and configure your email settings.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">E-mail</span><span class="rvts6"> - This will send the Remittance report as an e-mail attachment for all debtor accounts in the list.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts11">Setup options</span><span class="rvts6"> – This section consists of two (2) tabs (i.e. </span><span class="rvts11">Layout file</span><span class="rvts6"> and </span><span class="rvts11">General</span><span class="rvts6"> tabs).</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">&nbsp;</span><span class="rvts11">Layout file </span><span class="rvts6">tab&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts11">Document layout files</span><span class="rvts6"> – You may select up to 4 remittance (reminder) reports.These reports are stored in the following directory:</span></li>
+ </ul>
+</ul>
+<p class="rvps177"><span class="rvts36">" ...\plug_ins\reports\remittance\layouts "</span></p>
+<p class="rvps57"><span class="rvts6">You may add your own remittance, reminder reports and edit these reports using the Report designer to suit your specific requirements.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts6">You may also specify (enter) the number of days for which the reports must be printed.&nbsp;</span></li>
+ </ul>
+ <li class="rvps2 noindent"><span class="rvts11">General</span><span class="rvts6"> tab -&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2 noindent"><span class="rvts11">Advanced options</span><span class="rvts6"> – This is an advanced search filter in which you may enter extra text to filter the debtors on the list. For example, to list only debtor accounts for a specific postal code, enter “ </span><span class="rvts42">and SPostalCode = '2222' “.</span><span class="rvts6"> Then click on the </span><span class="rvts11">Refresh</span><span class="rvts6"> button. This will only list those debtors with postal code</span><span class="rvts42"> “2222” </span><span class="rvts6">on the list.</span></li>
+  <li class="rvps2 noindent"><span class="rvts11">Update in Multimedia</span><span class="rvts6"> - By default all e-mail will be updated in the Multimedia feature of this plugin. Should you wish to send the reminders via the </span><span class="rvts11">Print selected</span><span class="rvts6"> or the </span><span class="rvts11">Print all</span><span class="rvts6"> button, you need to select this option, if you need to archive these documents in the Multimedia component of this Plugin.</span></li>
+  <li class="rvps2 noindent"><span class="rvts11">Default days no remittance</span><span class="rvts6"> - Enter the number of days for processing reminders.</span></li>
+ </ul>
+</ul>
+<p class="rvps22"><span class="rvts11">Columns</span><span class="rvts6"> - You may click on the * before the column headings. The columns is as follows:&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-no-document-style-columns.png"></p>
+<p class="rvps2"><span class="rvts6">You may click on the (Sorted) option to list and view the columns alphabetically.&nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts135">Document style option - Selected</span></span></h1>
+<p class="rvps2"><span class="rvts6">If you </span><span class="rvts11">select</span><span class="rvts6"> the "</span><span class="rvts42">Document style</span><span class="rvts6">" option in </span><span class="rvts11">Plugins → Financial tools → Remittance</span><span class="rvts6"> (</span><span class="rvts11">Setup</span><span class="rvts6"> ribbon}, the </span><span class="rvts11">Remittance</span><span class="rvts6"> screen will display as follows:&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-no-document-style-interface.png"></p>
+<p class="rvps2"><span class="rvts6">The screen consists of the main section as well as the data (columns section):&nbsp;</span></p>
+<p class="rvps2"><span class="rvts11">Main section</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Email selected</span><span class="rvts6"> button - Once you have selected a debtor account, and you click on this button, it will launch the "</span><span class="rvts42">Send Email</span><span class="rvts6">" screen. The "</span><span class="rvts42">Send Email</span><span class="rvts6">" screen, will launch the </span><span class="rvts11">Free text</span><span class="rvts6"> tab. Before you can send emails for the first time, you need to configure your email settings on the </span><span class="rvts11">Settings</span><span class="rvts6"> tab from your Internet Service Provider (ISP). The Email settings for the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin, only needs to be done once, unless your requirements changes.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Show all </span><span class="rvts6">tick-box -&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Show print</span><span class="rvts6"> button - Once you have selected a debtor account, and you click on this button, This will print the "</span><span class="rvts42">Open Item selection</span><span class="rvts6">" document layout file. An example of the printed "</span><span class="rvts42">Open Item selection</span><span class="rvts6">" document layout file,is as follows:</span></li>
+</ul>
+<p class="rvps13"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-no-document-style-print.png"></p>
+<p class="rvps13"><span class="rvts6">These document layout files are stored in the following folder:&nbsp;</span></p>
+<p class="rvps13"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Edit</span><span class="rvts6"> button - You may edit the statement messages on the following screen:</span></li>
+</ul>
+<p class="rvps13"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-no-document-style-edit.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Set checked</span><span class="rvts6"> button -&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Document layout</span><span class="rvts6"> - You may select up to four Document layout files for the Remittance plugin. These document layout files are stored in the following folder:&nbsp;</span></li>
+</ul>
+<p class="rvps42"><span class="rvts36">" \plug_ins\reports\remittance\doctype\layouts "</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Default days no remittance</span><span class="rvts6"> - Enter the default number of days. By default, the number of days entered in the "</span><span class="rvts42">Due days</span><span class="rvts6">" field on the Accounting informationtab of the </span><span class="rvts11">Debtors</span><span class="rvts6"> form (</span><span class="rvts11">Default</span><span class="rvts6"> ribbon), will be displayed.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts11">Columns</span><span class="rvts6"> - You may click on the * before the column headings. The columns is as follows:&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-document-style-columns.png"></p>
+<p class="rvps2"><span class="rvts6">You may click on the (Sorted) option to list and view the columns alphabetically.&nbsp;</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Important notes to optimise the Remittance plugin</span></span></h1>
+<p class="rvps2"><span class="rvts6">To use this plugin, the exact same principles (good accounting practice) as applicable to all reports should be applied.</span></p>
+<p class="rvps2"><span class="rvts6">You need to check that all transactions for the debtors are posted (updated to the ledger) and check that the correct debit transactions are linked to the correct credit transactions.</span></p>
+<p class="rvps2"><span class="rvts6">If you do not see a list of debtors, the incorrect date is probably selected.</span></p>
+<p class="rvps2"><span class="rvts6">To get back the original list, you can perform this operation:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">The date of the field "</span><span class="rvts42">Not since reminded</span><span class="rvts6">" puts you on a date, for example, two years later than the date on which it now stands.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">And the field "Customizing the date selection to for example, 2 years back in time.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Unposted batches and documents</span></span></h2>
+<p class="rvps2"><span class="rvts6">Make sure that all:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">Unposted transactions in documents are updated (posted) to the ledger.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">All unposted transactions in batches are updated (posted) to the ledger.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">All unposted transactions in bank accounts (receipts and payments batches) are updated (posted) to the ledger. In the case of using the </span><a class="rvts192" href="plugin-bank-import.html">Bank import plugin</a><span class="rvts6"> – make sure that your bank statements are correctly imported and processed (including updated (posted) to the ledger).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">If you use repeating transactions in batches make sure that these are processed (Repeating transactions) are imported and processed in a normal batch and posted (updated) to the ledger.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">If you are using the Calendar (Planner) make sure that Repeating invoices, Invoices for hours, bulk time entries, etc. are processed (including updated (posted) to the ledger).</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">If you need to generate multiple transactions in batches (i.e. Interest on overdue debtor accounts, Balances with outstanding amount less than a specified amount, Fixed amount to all debtors, Charge amounts for debtor accounts (you need to process and post (update) to the ledger.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Open item / Balance brought forward processing</span></span></h2>
+<p class="rvps2"><span class="rvts11">Basic principles:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Open item</span><span class="rvts6"> processing for debtor accounts will list only those transactions in journals (batches) and documents which is outstanding. Transactions / Invoices which are fully settled (paid) and/or credited with a credit note (or other batch transactions) will not be listed.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Balance brought forward</span><span class="rvts6"> processing for debtor accounts will list all the transactions / documents which is recorded (posted (updated) to the ledger). Transactions / Invoices irrespective whether these are fully settled (paid) and/or credited with a credit note (or other batch transactions) will be listed.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Open item processing (recommended)</span></span></h2>
+<p class="rvps2"><span class="rvts11">To check the outstanding items on debtor accounts:&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon, click on the </span><span class="rvts11">Open item link</span><span class="rvts6"> icon.</span></p>
+<p class="rvps2"><span class="rvts6">On the </span><span class="rvts11">Totals</span><span class="rvts6"> tab, select </span><span class="rvts11">Debtors</span><span class="rvts6"> and click on the </span><span class="rvts11">Filter</span><span class="rvts6"> button. All debtor accounts (set as an open item account on the </span><span class="rvts11">Accounting information</span><span class="rvts6"> tab), should be linked.</span></p>
+<p class="rvps2"><span class="rvts11">Note</span><span class="rvts6"> - If there are any outstanding items (debit transaction(s) which are not linked to a credit transaction(s)), the line colour will display in an orange colour.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-open-item-totals.png"></p>
+<p class="rvps2"><span class="rvts6">For example, Mr. AB Green, is displayed in an orange font colour. Double-click on that account, it will list the debit as well as credit transactions separately.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-open-item-account.png"></p>
+<p class="rvps2"><span class="rvts6">If the payment (receipt) and credit notes are linked to the correct transactions, the credit transactions will be cleared and only those invoices with outstanding amounts, will be listed.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-open-item-account-linked.png"></p>
+<p class="rvps2"><span class="rvts6">In this example, invoice IN000018 will not be listed, as IN000018 is cancelled with credit note CR000001. Invoice IN000022 has a an outstanding amount of 4600,00 as credit note CR000003 of 2875,00 is linked a part of IN000022 to the amount of 7475,00.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Open item reports</span></span></h2>
+<p class="rvps22"><span class="rvts6">In addition to the </span><span class="rvts11">Open item</span><span class="rvts6"> reports available on the </span><a class="rvts17" href="open-item-due-tab.html">Due</a><span class="rvts6"> tab of the </span><span class="rvts11">Open item link</span><span class="rvts6"> functionality (</span><span class="rvts11">Default</span><span class="rvts6"> ribbon), you can also use the following reports to manage open item transactions:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Reports</span><span class="rvts6"> menu&nbsp;</span></li>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps13 noindent"><span class="rvts11">Transaction reports -</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><a class="rvts157" href="debtors-transaction-lists.html">Transaction list - Open item</a><span class="rvts156"> - </span><span class="rvts6">This report lists only those outstanding transactions in documents and batches which are posted (updated) to the ledger. It will list only those transactions with outstanding amounts. Any debit amounts, which are not linked to credit transactions, should be processed in </span><span class="rvts11">Open item link</span><span class="rvts6"> (</span><span class="rvts11">Default</span><span class="rvts6"> ribbon).</span></li>
+   <li class="rvps14 noindent"><a class="rvts157" href="debtors-transaction-lists.html">Transaction list</a><span class="rvts6"> - This report lists all the transactions in documents and batches which are posted (updated) to the ledger. All transactions will be listed irrespective of open item links.</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">Debtor statements -&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><a class="rvts37" href="debtor-statement.html">Debtor statements</a><span class="rvts6"> - The statement will print all transactions. It does not use the "</span><span class="rvts42">Open item</span><span class="rvts6">" feature.</span></li>
+   <li class="rvps14 noindent"><a class="rvts37" href="debtor-statement-open-item.html">Debtor statements - Outstanding</a><span class="rvts6"> &nbsp;The statement will print only the transactions with outstanding amounts.&nbsp;</span></li>
+  </ul>
+  <li class="rvps13 noindent"><span class="rvts11">Age analysis reports</span><span class="rvts6"> -</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li class="rvps14 noindent"><a class="rvts37" href="debtors-ageing-balances-detail.html">Age analysis - Balances detail</a><span class="rvts6"> - Displays the reference, date, amount and description for each transaction. The Total outstanding as at the Date of ageing is split to the number of days specified in up to 3 periods.&nbsp;</span></li>
+   <li class="rvps14 noindent"><a class="rvts37" href="debtors-ageing-open-item.html">Age analysis - Balances detail history (open item)</a><span class="rvts6"> - This is similar to the "</span><span class="rvts42">Balances detail</span><span class="rvts6">" report, but it displays the outstanding amount and TransactionID.</span></li>
+   <li class="rvps14 noindent"><a class="rvts37" href="debtors-ageing-balances.html">Age analysis - Balances</a><span class="rvts6"> - This is a similar report as the "</span><span class="rvts42">Balances detail</span><span class="rvts6">" report. It will only list the balances for each ageing period.</span></li>
+  </ul>
+ </ul>
+</ul>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts411">Configuration and setup</span></span></h1>
+<p class="rvps2"><span class="rvts6">If the Remittance plugin is not already configured or automatically launched, you may click on the, </span><span class="rvts11">Remittance</span><span class="rvts6"> icon (additional icon) on the </span><span class="rvts11">Default</span><span class="rvts6"> ribbon.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-activate-list.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">E-mail account setup</span></span></h1>
+<p class="rvps2"><span class="rvts6">Before you can send e-mails, you need to configure your e-mail account in the Set of Books. This is only a once off configuration. Unless your requirements change.</span></p>
+<p class="rvps2"><span class="rvts6">To do this, you need to click on the </span><span class="rvts11">E-mail</span><span class="rvts6"> or </span><span class="rvts11">E-mail selected</span><span class="rvts6"> button.</span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Settings tab</span></span></h2>
+<p class="rvps2"><span class="rvts6">Then click on the </span><span class="rvts11">Settings</span><span class="rvts6"> tab.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-mail-settings-tab-x.png"></p>
+<p class="rvps2"><span class="rvts6">Select or enter the following, where applicable:</span></p>
+<div class="rvps2">
+<table width="100%" style="border-color: #333399; border-style: solid; border-width: 1px; border-spacing: 0px;">
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; background-color: #ccffff; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts88">Field</span></p>
+  </td>
+  <td style="padding: 5px; background-color: #ccffff; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts88">Description</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Path to the HTML file:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">The default path is displayed as"</span></p>
+   <p class="rvps77"><span class="rvts36">&nbsp;“C:\osFinancials5\plug_ins\reports\remittance\emailtemplates\”&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">If you have installed osFinancials5/TurboCASH5 into a different folder, you may need to overtype this. Specifies the path where the files for the Reminders plugin is located. This path may be edited for your own requirements if you have a personal set of files.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">POP username:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter the POP username as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">POP password:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter the POP Password as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">POP server:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter the POP server as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">SMTP port:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">The default port is “25”. This is determined by the default configuration of your operating system and as provided by your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">SMTP server:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter a valid SMTP as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+   <p class="rvps18"><span class="rvts26">Note when POP before SMTP (usually when you are not using your provider sent emails) you can create an e-mail box which nobody reads. This is because if there are multiple ISP's on the mail box mail is read, the POP for SMTP is not working properly.</span></p>
+   <p class="rvps18"><span class="rvts26">It is best to use an account that is further used by anyone.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">SMTP username:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter the SMTP username as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">SMTP password:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Enter the SMTP password as registered with your ISP (Internet Service Provider) for your e-mail account settings.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Return e-mail:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">This field is optional. You may enter your own e-mail address.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Return name:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">This field is optional. You may enter your own name ro be displayed on the message to be displayed on the email field of the recipients e-mail or if the message is returned by your ISP in the case of an invalid e-mail address.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">E-mail header text:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Type the text to be displayed as the Subject field of your operating system's default e-mail program.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">CC: (multiple separate with ;)</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">This abbreviation </span><span class="rvts88">CC</span><span class="rvts26"> “Carbon Copy” indicates secondary recipients of a message. Those recipients who are to receive a copy of a message directed to another. The list of recipients in the CC field is visible to all other recipients of the message.</span></p>
+   <p class="rvps18"><span class="rvts26">Enter a valid e-mail address, if necessary. Note you need to add a space before and after the semi-colon. If you do not add spaces, the first digit of the second and subsequent e-mail addresses may cut off. This could result in an undelivered mail error.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">BCC: (multiple separate with ;)</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">This abbreviation </span><span class="rvts88">BCC</span><span class="rvts26"> “Blind Carbon Copy” allows you to send a copy of your correspondence to a third party when you do not want to let the recipient know that you are doing this (or when you do not want the recipient to know the third party's e-mail address). You may also wish to enter this filed, when sending an e-mail to multiple recipients, you can hide their e-mail addresses from each other.</span></p>
+   <p class="rvps18"><span class="rvts26">Enter a valid e-mail address, if necessary. Note you need to add a space before and after the semi-colon. If you do not add spaces, the first digit of the second and subsequent e-mail addresses may cut off. This could result in an undelivered mail error.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Send max mail:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">The default is “100”. You may use the scroll buttons or enter the number of the maximum emails required to send in a batch. This will limit the number of email messages.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Timer threshold in sec:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">The default is “10” seconds. This is determined by the default configuration of your operating system. It is not recommend ed to change this, but you could experiment by changing the values.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Default:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Default is the standard option. You may select the html only option.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Alt methode:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Tick to select the alternative mode.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Send receipt notification:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">If this field is selected (ticked), a read receipt will be requested by the recipient.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Priority:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Normal is the default priority. You may select Highest, High, Low or Below low option. This is the priority in which e-mails will be sent.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Sign any PDF:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">Optional should be you can sign any pdf with this button (also the ones send to you).</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Find certificate:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">If you have a certificate, click in this button to locate it and add it to this plugin.</span></p>
+   <p class="rvps18"><span class="rvts26">You may use add Digital signatures to the PDF (portable document format) files (e.g. OpenSSL pkcs12.pxf) to your e-mail received by your recipients (e.g. debtors (customers).</span></p>
+   <p class="rvps18"><span class="rvts88">See:</span></p>
+   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+    <li class="rvps18 noindent"><a class="rvts505" href="http://www.openssl.org/" target="_blank">http://www.openssl.org/</a></li>
+    <li class="rvps18 noindent"><a class="rvts505" href="http://www.rsa.com/rsalabs/node.asp?id=2138" target="_blank">PKCS #12: Personal Information Exchange Syntax Standard</a></li>
+   </ul>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Certificate password:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">If you have selected a certificate, you need to enter a valid password for that certificate.</span></p>
+  </td>
+ </tr>
+ <tr style="vertical-align: top;">
+  <td style="padding: 5px; vertical-align: top; width: 16%;">
+   <p class="rvps18"><span class="rvts26">Send test mails button:</span></p>
+  </td>
+  <td style="padding: 5px; vertical-align: top; width: 73%;">
+   <p class="rvps18"><span class="rvts26">You may send test e-mails to check that the configuration is correct.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">The box (on the lower right-hand side) - Some messages, e.g. may be displayed in the text area of the </span><span class="rvts11">Settings </span><span class="rvts6">screen. An example may be “your e-mail address </span><span class="rvts42">Login failed”</span><span class="rvts6">. This may indicate that something is not correctly entered on the settings.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Show current sql</span><span class="rvts6"> button - The sql, is used to add the debtors, etc. for the </span><span class="rvts11">Remittance</span><span class="rvts6"> plugin.</span></li>
+</ul>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Send E-mail tab</span></span></h2>
+<p class="rvps2"><span class="rvts6">A list of all the debtor accounts matching your criteria for which you will send e-mails will be listed.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-mail-send-email-tab.png"></p>
+<p class="rvps2"><span class="rvts11">Mail template</span><span class="rvts6"> – This is the text which will be displayed in the e-mail message sent to the debtor account(s). At current only one (1) mail template (test.html) is shipped for the English language. You may add your own mail templates as necessary.</span></p>
+<p class="rvps2"><span class="rvts6">The mail template are stored in the following folder&nbsp;</span></p>
+<p class="rvps77"><span class="rvts36">" ...\plug_ins\reports\remittance\emailtemplates "</span></p>
+<p class="rvps2"><span class="rvts6">Once you have created or added your templates, you may select the template.</span></p>
+<p class="rvps2"><span class="rvts11">Edit</span><span class="rvts6"> button – If you click on this button, the ...\plug_ins\reports\remittance\emailtemplates folder will be opened in Windows explorer or your system's default file browser.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-04.png"></p>
+<p class="rvps2"><span class="rvts6">To create your own template it is easy and you may create as many templates, as required.</span></p>
+<p class="rvps2"><span class="rvts6">It is recommended that you copy the test.html file and rename it to your own needs.</span></p>
+<p class="rvps2"><span class="rvts6">The basic test.html template is as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-05.png"></p>
+<p class="rvps2"><span class="rvts6">You may change all text as necessary. Please take note of the following two (2) fields:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts6">&lt;#SDESCRIPTION#&gt; - This will add the name for the respective debtor accounts to the e-mail message.</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">&lt;#FREETEXT#&gt; - This will add the text as entered for the e-mail messages, as entered on the Free text field on the </span><span class="rvts11">Free text </span><span class="rvts6">tab.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6">You may preview the template when you click on the Preview in browser button on the </span><span class="rvts11">Free text</span><span class="rvts6"> tab.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-06.png"></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts16">Free text tab</span></span></h2>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-mail-free-text-tab.png"></p>
+<p class="rvps2"><span class="rvts11">Preview in browser</span><span class="rvts6"> button – This will display the mail template in your system's default.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/plugin-reminders-mail-free-text-preview-brows.png"></p>
+<p class="rvps2"><span class="rvts11">Preview att </span><span class="rvts6">button – This will display the remittance (reminder) layout file (...\plug_ins\reports\remittance\layouts) in your system's default pdf reader.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-08.png"></p>
+<p class="rvps2"><span class="rvts11">Test E-mail to extra CC</span><span class="rvts6"> – Test the mail to the extra e-mail address entered in the Extra CC field. Note if the remittance (reminder) layout file is opened using the </span><span class="rvts11">Preview att </span><span class="rvts6">button an error “Error sending e-mail” message may be displayed.</span></p>
+<p class="rvps2"><span class="rvts11">Extra attachment</span><span class="rvts6"> button – In addition to the remittance (reminder) layout file (...\plug_ins\reports\remittance\layouts) which will be automatically be attached to the e-mail, you may attach another file as an extra attachment. Please note that this attachment will be sent to all debtor accounts on your list.</span></p>
+<p class="rvps2"><span class="rvts11">Send e-mail(s) </span><span class="rvts6">button – This will start to send e-mails and the attachments to the debtor accounts on the list.</span></p>
+<p class="rvps2"><span class="rvts11">Resume e-mail(s)</span><span class="rvts6"> button - If you have clicked on the </span><span class="rvts11">Stop e-mail(s)</span><span class="rvts6"> button, this button will start sending the rest of the e-mails.</span></p>
+<p class="rvps2"><span class="rvts11">Stop e-mail(s)</span><span class="rvts6"> button – This will stop the e-mails from sending. You may click on the </span><span class="rvts11">Resume e-mail(s)</span><span class="rvts6"> button to start sending the rest of the e-mails.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">E-mail reminders</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once you have selected your criteria, you may e-mail the reminders to your debtors (customers). To do this, you may click on the following two (2) buttons:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">E-mail selected</span><span class="rvts6"> - click to send e-mail to a selected debtor (customer / client).</span></li>
+</ul>
+<p class="rvps2"><span class="rvts11">Tip :</span><span class="rvts6"> To select more than one debtor (customer / client) on the list, press the </span><span class="rvts11">Ctrl</span><span class="rvts6"> key on your keyboard and select other debtors (customers) on the list and click on the </span><span class="rvts11">E-mail selected</span><span class="rvts6"> button.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">Email</span><span class="rvts6"> - click to send e-mails to all the debtors (customers) in the list. This will not send e-mails to all the other debtors (customers) which are excluded from your search and filter criteria.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts11">Recipient's E-Mail message</span></p>
+<p class="rvps2"><span class="rvts6">All debtor (customer / client) accounts (which have a valid e-mail address) will receive an email message with the reminder as a Potable Document Format (pdf file) as an attachment. An example of the e-mail message received by the recipient(s), is as follows:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-09.png"></p>
+<p class="rvps2"><span class="rvts11">Note :</span><span class="rvts6"> Remember to check and enter the subject (topic) in the </span><span class="rvts11">E-mail header text</span><span class="rvts6"> field on the </span><span class="rvts11">Settings</span><span class="rvts6"> tab. Type the text to be displayed as the Subject field of your operating system's default e-mail program. (In this example, “</span><span class="rvts42">Remittance 1-4</span><span class="rvts6">” was entered.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts411">Customise remittance layout files</span></span></h1>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-edit-01.png"></p>
+<p class="rvps2"><span class="rvts11">Change the text on the file:</span></p>
+<p class="rvps2"><span class="rvts6">Click on a text object (field) (red rectangles as per this example) and select the </span><span class="rvts11">Label</span><span class="rvts6"> tab. Overtype the text as necessary.</span></p>
+<p class="rvps2"><span class="rvts6">Move text – drag it to the desired place.</span></p>
+<p class="rvps2"><span class="rvts6">Delete text or expressions</span><span class="rvts11">.</span></p>
+<p class="rvps2"><span class="rvts11">Adding text</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts11">TRpLabel</span><span class="rvts6"> – Add static text object to the report. Examples on the above picture are, , Telephone:, Fax:, E-mail:, Website:, Company registration no.:, Tax registration no.: address, etc.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts6">Add the messages or text to display on the report.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts11">Add company logo</span></p>
+<p class="rvps2"><span class="rvts11">TRpImage</span><span class="rvts6"> – Click on this icon and click on the space and drag to insert a blank image object.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/pi-reminders-email-10.png"></p>
+<p class="rvps2"><span class="rvts6">Enter “COMPANYDATA.BLOBLOGO” in the Expression field.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">This is used to display your company logo on the reports and document layout files. The Company Logo dataset is COMPANYDATA.BLOBLOGO. The logo is stored in the database as a BLOB (Binary Large Object) and will be displayed printed on remittance layout files if loaded in </span><span class="rvts11">Company info - Options</span><span class="rvts6"> screen (</span><span class="rvts11">Default </span><span class="rvts6">ribbon).</span></p>
+<p class="rvps2"><span class="rvts11">Add a static picture</span></p>
+<p class="rvps2"><span class="rvts11">TRpImage</span><span class="rvts6"> – Click on this icon and click on the space and drag to insert a blank image object.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Right-click on the image object and select the </span><span class="rvts11">Open</span><span class="rvts6"> option on the context menu.</span></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,566 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 10.4.0.281">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Take-on General Ledger Opening Balances</title>
+  <meta name="description" content="How to Take-on opening balances in the general ledger - osfinancials.org " /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Take-on General Ledger Opening Balances">
+  <meta name="twitter:description" content="How to Take-on opening balances in the general ledger - osfinancials.org ">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Take-on General Ledger Opening Balances" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="How to Take-on opening balances in the general ledger - osfinancials.org " />
+  <meta property="og:site_name" content="osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 300px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 300px} body.md-nav-expanded header { padding-left: 314px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>osFinancials5.1.0.300/TurboCASH5-4 - Business Class - Online Help</h1>
+    <img src="_logo.png" alt="osfinancials logo" class="logo"/>
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="0"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="batch-transactions-open-ledger"
+		  data-hnd-context="611"
+		  data-hnd-title="Take-on General Ledger Opening Balances"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="batches-journals.html">Batches (Journals)</a></li><li><a href="batch-transactions.html">Batch transactions / Journal transactions</a></li><li><a href="batch-transactions-open-balances.html">Take-on Opening Balances</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><div class="btn-group"><button type="button" title="In this page..." class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></button><ul id="inline-toc" class="dropdown-menu dropdown-menu-right"></ul></div><a class="btn btn-default" href="batch-transactions-open-balances.html" title="Take-on Opening Balances" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-transactions-open-balances.html" title="Take-on Opening Balances" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="batch-transactions-open-debtors.html" title="Take-on Debtor Opening Balances" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Take-on General Ledger Opening Balances</h2>
+
+            <div class="main-content">
+                
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Entering opening balances for general ledger accounts</span></span></h1>
+<p class="rvps2"><span class="rvts6">To enter opening balances for general ledger accounts, you will need to have the account balances as of the start of your accounting period. This could be the beginning of a new financial year or the start of a new accounting cycle.</span></p>
+<p class="rvps2"><span class="rvts6">It is important to ensure that your opening balances are entered accurately, as they will form the foundation for all future transactions in your accounts. You should also ensure that you have supporting documentation for your opening balances, such as, bank statements and previous trial balance and other financial statements.</span></p>
+<p class="rvps2"><span class="rvts6">Once you have entered your opening balances, you can begin recording transactions for the current period. You should also regularly review and reconcile your accounts to ensure that they are accurate and up-to-date.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Guidelines to process opening balances for general ledger accounts</span></span></h1>
+<p class="rvps2"><span class="rvts6">When setting up a new accounting system, it is important to set up the chart of accounts correctly to ensure that your financial information is accurate and organized. Here are some steps you can follow to set up your chart of accounts:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Review your existing chart of accounts</span><span class="rvts6">: If your new Set of Books already includes a chart of accounts, review it to ensure that it meets the needs of your business. Compare it to your previous accounting system's chart of accounts to identify any differences.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Make necessary changes</span><span class="rvts6">: If your new Set of Books chart of accounts is missing any accounts that you need, or includes accounts that you don't require, make the necessary changes. This may involve adding new accounts, deleting accounts, or modifying account names or numbers.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Determine account structure</span><span class="rvts6">: Determine the structure of your accounts, including the number of digits in your account numbers, the grouping of accounts, the linking of account groups to financial categories, and the use of sub-accounts. This will help ensure that your accounts are organized in a way that makes sense for your business.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Create a standard naming convention</span><span class="rvts6">: Establish a standard naming convention for your accounts to ensure consistency and clarity. This may involve using abbreviations, codes, or other conventions to make it easier to identify accounts.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Enter your opening balances</span><span class="rvts6">: Once you've set up your chart of accounts, enter the opening balances for each account to ensure that your financial statements are accurate from the beginning.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Review and adjust</span><span class="rvts6">: After setting up your chart of accounts and entering opening balances, review your work to ensure that everything is correct. Make any necessary adjustments to ensure that your accounts are accurate and organized.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">By following these steps, you can ensure that your chart of accounts is set up correctly and that your financial information is accurate and well-organized.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts15">Steps to Process General Ledger Opening Balances</span></span></h1>
+<p class="rvps2"><span class="rvts6">Once you have set up your chart of accounts and entered the opening balances correctly, you can begin recording transactions in your new accounting database. It is important to maintain accurate records of all transactions to ensure that your financial statements are accurate.</span></p>
+<p class="rvps2"><span class="rvts6">To maintain accurate records, you should:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2 noindent"><span class="rvts11">Record transactions timely</span><span class="rvts6">: Record all transactions as soon as possible to avoid any delay and ensure that the records are up-to-date.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Enter all transactions correctly</span><span class="rvts6">: Ensure that you enter all transactions accurately, with the correct account and amount.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Categorize transactions correctly</span><span class="rvts6">: Categorize transactions correctly based on the chart of accounts you have set up, to ensure that your financial reports reflect the correct information.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Reconcile accounts regularly</span><span class="rvts6">: Regularly reconcile your accounts to ensure that your records match your bank and other statements. This will help you identify and correct any errors or discrepancies.</span></li>
+ <li class="rvps2 noindent"><span class="rvts11">Generate financial reports</span><span class="rvts6">: Regularly generate financial reports, such as balance sheets and income statements, to help you analyse the financial health of your business.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6">By following these practices, you can maintain accurate records in your new accounting database, which will help you make informed business decisions and ensure that your financial statements are accurate.</span></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts158">Example: Source document</span></span></h1>
+<p class="rvps18"><img alt="" style="padding : 1px;" src="lib/svg-open-balances-ledger.png"></p>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts158">Process opening Balances in General journal&nbsp;</span></span></h1>
+<p class="rvps56"><span class="rvts156">These transactions can be replicated in HANDYMAN, HANDYMAN-A en HANDYMAN-B Tutorials Sets of Books.</span></p>
+<p class="rvps56"><span class="rvts156">Since you cannot enter transactions to the Debtors control account and Creditors control account you need to:&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps56 noindent"><span class="rvts156">Add an "</span><span class="rvts168">Opening balances - Debtors</span><span class="rvts156">" account in the Debtors ledger in </span><span class="rvts22">Debtors</span><span class="rvts156"> (</span><span class="rvts22">Default</span><span class="rvts156"> ribbon). &nbsp;</span></li>
+ <li class="rvps56 noindent"><span class="rvts156">Add an "</span><span class="rvts168">Opening balances - Creditors</span><span class="rvts156">" account in the Creditors ledger in </span><span class="rvts22">Creditors</span><span class="rvts156"> (</span><span class="rvts22">Default</span><span class="rvts156"> ribbon).&nbsp;</span></li>
+</ul>
+<p class="rvps56"><span class="rvts22">To enter opening balances from your trial balance:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps56 noindent"><span class="rvts156">On the </span><span class="rvts11">Default </span><span class="rvts6">ribbon</span><span class="rvts156">, select </span><span class="rvts22">Batch entry </span><span class="rvts156">(</span><span class="rvts22">F2</span><span class="rvts156">).</span></li>
+</ol>
+<p class="rvps15"><img alt="" style="padding : 1px;" src="lib/general-journal-select.png"></p>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps56"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps2"><span class="rvts210">If no contra account, or a different contra account than the contra account you wish to use, is displayed on the Batch type selection screen, you need to set up the options for the batch. If you have not yet set up the General journal, or if your requirements should change, </span><span class="rvts168">click</span><span class="rvts210"> on the </span><span class="rvts388">F10:Setup</span><span class="rvts210"> icon.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps56 noindent"><span class="rvts156">Select the </span><span class="rvts22">General Jnl</span><span class="rvts156"> and click on the </span><span class="rvts22">Open</span><span class="rvts156"> button.&nbsp;</span></li>
+ <li class="rvps56 noindent"><span class="rvts156">Enter the Alias (batch name) in the '</span><span class="rvts168">Change alias'</span><span class="rvts156"> field on the "</span><span class="rvts168">Batch entry</span><span class="rvts156">" screen.&nbsp;</span></li>
+</ol>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/general-journal-alias.png"></p>
+<p class="rvps56"><span class="rvts96">Batch Settings</span><span class="rvts156">&nbsp;</span></p>
+<p class="rvps56"><span class="rvts156">Before you can process transactions for opening balances, you first need to setup or configure the batch (journal). The setup "</span><span class="rvts168">Options for this batch</span><span class="rvts156">", consists of two tabs, i.e. </span><span class="rvts22">Standard</span><span class="rvts156"> tab and </span><span class="rvts22">Advanced</span><span class="rvts156"> tab.</span></p>
+<p class="rvps56"><span class="rvts22">To set the Options for this batch</span><span class="rvts156">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" class="rvps56 noindent"><span class="rvts156">Click on the </span><span class="rvts22">F10:Setup</span><span class="rvts156"> icon to set your batch up. On the </span><span class="rvts22">Standard</span><span class="rvts156"> tab, the options is as follows:</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/opening-balance-setup-standard.png"></p>
+<div class="rvps260">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">The first time you enter transactions in a General journal, you should set it up according to your requirements. This should be done for each journal, but only need to be done once, unless your requirements change.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">The recommended settings (</span><span class="rvts22">Standard</span><span class="rvts156"> tab) for entering opening balances in the General journal, is as follows:</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Contra account</span><span class="rvts156"> - The relevant contra account for the batch (i.e. the account to which </span><span class="rvts6">osFinancials5/TurboCASH5 </span><span class="rvts156">will create a balancing entry). &nbsp;Select the suspense account, i.e. “</span><span class="rvts168">999 - Suspense Account</span><span class="rvts156">”.</span></li>
+  <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">No Tax</span><span class="rvts156"> - Select this option, as no VAT/GST/Sales Tax (Output VAT/GST/Sales Tax and Input VAT/GST/Sales Tax) is applicable to the opening balance transactions.</span></li>
+  <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Consolidate balancing</span><span class="rvts156"> - If you tick this field, </span><span class="rvts6">osFinancials5/TurboCASH5</span><span class="rvts156"> will consolidate all balancing entries into 1 entry, if you have used an account more than once. As for the take-on of opening balances, it is NOT necessary to tick this option, since you will be entering both debits and credits from your Trial balance and will not be asking </span><span class="rvts6">osFinancials5/TurboCASH5</span><span class="rvts156"> to balance the batch.</span></li>
+  <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Repeat details</span><span class="rvts156"> - If you tick this field, the detail entered in the "</span><span class="rvts168">Description</span><span class="rvts156">" column will be repeated (duplicated) on each subsequent line. Tick this option to repeat the details for the next transactions.</span></li>
+  <li style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Amount entry</span><span class="rvts156"> - Set to “</span><span class="rvts168">Allow both</span><span class="rvts156">”, since you will enter amounts in both the debit and credit column.</span></li>
+ </ol>
+</ol>
+<div class="rvps136">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">The rest of the tick-boxes may be left blank.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li value="6" style="text-indent: 0px" class="rvps131 noindent"><span class="rvts22">Post in period 0</span><span class="rvts156"> - Need to tick this field for opening balances, if you need to post retained income transactions to the previous year.</span></li>
+ </ol>
+</ol>
+<div class="rvps136">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">If the "Post in period 0" field is not selected (ticked), you will not be allowed to post the transactions to the Retained earnings / income account.</span></p>
+   <p class="rvps18"><span class="rvts172">An error message (similar to this error message, will be produced:&nbsp;</span></p>
+   <p class="rvps77"><span class="rvts38">“This batch does not validate!&nbsp;</span><br/><span class="rvts38">Line JNL1 Opening balance - Take-on retained income must be adjusted in opening balance batch! See </span><span class="rvts211">F10</span><span class="rvts38"> in batch for setup.”&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Click on the </span><span class="rvts22">Advanced</span><span class="rvts156"> tab. On the </span><span class="rvts22">Advanced</span><span class="rvts156"> tab, the options is as follows:</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/opening-balance-setup-advanced.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="4" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Leave all fields blank, and make sure that the default option, "</span><span class="rvts168">Account lookup type</span><span class="rvts156">" and "</span><span class="rvts168">Contra account lookup type</span><span class="rvts156">" both, is set to “</span><span class="rvts168">All</span><span class="rvts156">” for opening balances.&nbsp;</span></li>
+</ol>
+<div class="rvps94">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">You need to enter the total opening balance for all debtor accounts in the Debtors control account on the source Trial balance to the "Opening balances - Debtors" account. There after you need to clear this Opening balances - Debtors" account and debit the individual debtor accounts with their own opening balances.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">Similarly, you need to enter the total opening balance for all creditor accounts in the Creditors control account on the source Trial balance to the to the "Opening balances - Creditors" account. There after you need to clear this Opening balances - Creditors" account and credit the individual creditor accounts with their own opening balances.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="5" class="rvps56 noindent"><span class="rvts156">Click on the </span><span class="rvts22">OK</span><span class="rvts156"> button.</span></li>
+</ol>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts182">Capturing opening balances in the General ledger</span></span></h2>
+<p class="rvps2"><span class="rvts156">Capture the transactions, from your source document (Trial balance) from your previous accounting system. &nbsp;</span></p>
+<p class="rvps129"><img alt="" style="padding : 1px;" src="lib/svg-open-balances-ledger.png"></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Capture the first transaction as follows:&nbsp;</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
+  <li style="text-indent: 0px" class="rvps257 noindent"><span class="rvts156">Reference:</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156">JNL1</span></li>
+  <li style="text-indent: 0px" class="rvps258 noindent"><span class="rvts156">Date:</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156">2024/02/29</span></li>
+  <li style="text-indent: 0px" class="rvps258 noindent"><span class="rvts156">Description:</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156">Opening Balance Take-on</span></li>
+  <li style="text-indent: 0px" class="rvps258 noindent"><span class="rvts156">Account:</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156">505 (for Capital)</span></li>
+  <li style="text-indent: 0px" class="rvps258 noindent"><span class="rvts156">Amount:</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts156">11500.00 CR</span></li>
+ </ol>
+</ol>
+<div class="rvps259">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">Use the same reference number, date and details for all the entries.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps259">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts171">Tax</span></p>
+   <p class="rvps18"><span class="rvts172">Since No Tax (VAT/GST/Sales Tax) is applicable, to the opening balance transactions in this tutorial, we have selected to hide the Tax column in the Setup Options.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Repeat as above for capturing the rest of the Trial balance. After capturing the Trial balance, the transactions should reflect as follows:</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/opening-balance-journal.png"></p>
+<div class="rvps131">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">When entering the opening balance for the Debtor's control account (Account number G700-000), </span><span class="rvts172"></span><span class="rvts172"> will not allow you to select the Debtor's control account.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">The same applies to the Creditor's control account (Account number G900-000).</span></p>
+   <p class="rvps18"><span class="rvts172">The reason for this is that you cannot post any transactions to the Debtor's control account in the General ledger. You need to select the individual Debtor accounts in the Debtor's ledger, to take on each individual Debtor's opening balance. When posting the transactions for the opening balances in the General journal, the Debtor's control account in the General ledger will automatically be updated with the total of all the individual transactions posted to the Debtor's ledger.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps131">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-note.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">It is not necessary to "balance" your batch, as your Trial balance should already be in balance.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">You will note that there is an amount indicating the difference between the debit and credit entries at the end of the Debit Amount column.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts172">This amount (and the Reference Total at the bottom of the screen) should reflect a zero after entering all your transactions.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts182">Checking your transactions before posting the transactions</span></span></h2>
+<p class="rvps2"><span class="rvts156">Once your transactions is entered in the General ledger journal, you need to make absolutely sure that you have captured the transactions correctly. This is crucial to post the transactions on the correct date, correct references, descriptions debit and credit amounts to the correct accounts.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts22">To print a list of transactions in the unposted batch</span><span class="rvts156">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Click on the </span><span class="rvts22">F8:List</span><span class="rvts156"> icon to print a list of the transactions in the batch (journal). The batch list is displayed as follows:</span></li>
+</ol>
+<p class="rvps131"><img alt="" style="padding : 1px;" src="lib/opening-balance-journal-list.png"></p>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">It is recommended that the source document (e.g. trial balance or balance sheet and income statement, etc.) be attached to this List of the transactions (take-on of opening balances) and that it be retained for record and audit purposes.</span></p>
+   <p class="rvps18"><span class="rvts172">You may also click on the </span><img alt="" style="padding : 1px;" src="lib/reportman-preview-icon-save.png"><span class="rvts172"> icon (Save the report as a metafile report), and save it as a PDF - compressed file for archiving purposes.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">If there are any errors, you may fix this before you update (post) the transactions to the ledger.&nbsp;</span></li>
+</ol>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-tip.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts171">Print a Trial balance for unposted batches</span></p>
+   <p class="rvps18"><span class="rvts172">You may print a Trial balance of unposted batches journals. To do this, press the </span><span class="rvts171">F2</span><span class="rvts172">-key and right-click on the Batch entry selection screen and select "Trail balance" from the context menu. A confirmation screen will be displayed:&nbsp;</span></p>
+   <p class="rvps77"><span class="rvts38">"Unposted only?"</span></p>
+   <p class="rvps18"><span class="rvts172">Click </span><span class="rvts171">Yes</span><span class="rvts172"> and the Trial balance for unposted batches (journals) will be launched:&nbsp;</span></p>
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/opening-balance-unposted-trial-balance-option.png"></p>
+   <p class="rvps18"><span class="rvts88">NOTE</span><span class="rvts26">: Initially, the </span><span class="rvts88">Print</span><span class="rvts26"> button will not be displayed. To display the </span><span class="rvts88">Print</span><span class="rvts26"> button, go to the "Report type" and re-select the "Trial balance".</span></p>
+   <p class="rvps18"><span class="rvts26">You may print the Trial balance for unposted batches.&nbsp;</span></p>
+   <p class="rvps18"><span class="rvts26">An example of the Trial balance for the opening balances (not updated (posted) to the ledger should display as follows:</span></p>
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/opening-balance-unposted-trial-balance-print.png"><span class="rvts171">-</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps90"><span class="rvts156"><br/></span></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts182">Update (post) transactions to the ledger</span></span></h2>
+<p class="rvps2"><span class="rvts156">Once you have entered your transactions an you are absolutely sure that it is correct, you may proceed with the final step in processing jour opening balances in the journal (batch).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts22">To Update (post) transactions to the ledger</span><span class="rvts156">:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" style="text-indent: 0px" class="rvps94 noindent"><span class="rvts156">Click on the </span><span class="rvts22">F6:Post</span><span class="rvts156"> icon, to post (update) the batch to the ledger. A confirmation message will be displayed.&nbsp;</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">“Do you want to continue posting? Batch contains transactions posting to last year!”&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="2" class="rvps56 noindent"><span class="rvts156">Click on the </span><span class="rvts22">Yes</span><span class="rvts156"> button, or press the </span><span class="rvts22">Enter</span><span class="rvts156"> key to continue. A confirmation message will be displayed.</span></li>
+</ol>
+<p class="rvps42"><span class="rvts36">“Do you wish to post on the retained earnings account?”&nbsp;</span></p>
+<div class="rvps90">
+<table width="100%" style="border-color: #ddcef2; border-style: solid; border-width: 1px; border-spacing: 2px;">
+ <tr style="vertical-align: top;">
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-right: none; background-color: #faf5ff; vertical-align: top; width: 51px;">
+   <p class="rvps18"><img alt="" style="padding : 1px;" src="lib/admon-important.png"></p>
+  </td>
+  <td style="border-width : 1px; border-color: #ddcef2; border-style: solid; padding: 3px; border-left: none; background-color: #faf5ff; vertical-align: middle; width: 912px;">
+   <p class="rvps18"><span class="rvts172">If you click on the </span><span class="rvts171">No</span><span class="rvts172"> button, the transactions will not be posted.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="3" class="rvps56 noindent"><span class="rvts6">osFinancials5/TurboCASH5</span><span class="rvts156"> will now post all the transactions to the general ledger.</span></li>
+</ol>
+<h1 class="rvps10"><span class="rvts0"><span class="rvts158">Opening Balances - Transactions</span></span></h1>
+<p class="rvps56"><span class="rvts156">Once the transactions is updated (posted) to the ledger, you may print a Trial balance of your opening balances.&nbsp;</span></p>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/opening-balance-trial-balance-options.png"></p>
+<p class="rvps56"><span class="rvts156">Click on the </span><span class="rvts22">Print</span><span class="rvts156"> button to print your opening balances.&nbsp;</span></p>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/opening-balance-trial-balance-print.png"></p>
+<p class="rvps129"><img alt="" style="padding : 1px;" src="lib/svg-open-balances-ledger.png"></p>
+<h2 class="rvps11"><span class="rvts0"><span class="rvts182">Ledger analyser - View transactions&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts156">In the Ledger analyser you may export your transactions and open it in a spreadsheet. In addition to this, you have two options to view your transactions.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2 noindent"><span class="rvts156">T-Account viewer - View and filter and export your transactions.&nbsp;</span></li>
+ <li class="rvps2 noindent"><span class="rvts156">Pivot - View and analyse your transactions in pivot tables.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts22">T-Account viewer&nbsp;</span></p>
+<p class="rvps2"><span class="rvts156">Once you have printed the Trial balance, you may print and view and analyse your transactions in the T-Account account viewer.&nbsp;</span></p>
+<p class="rvps56"><img alt="" style="padding : 1px;" src="lib/opening-balance-t-account-view.png"></p>
+<p class="rvps129"><img alt="" style="padding : 1px;" src="lib/svg-open-balances-ledger.png"></p>
+<p class="rvps18"><span class="rvts172"><br/></span></p>
+<hr style="height : 1px; background-color : #000000; border-style : none;">
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">osFinancials5 .1 / TurboCASH5-4 - &copy; Dan van Zyl - Special thanks to Pieter Valentijn (Delphi Dreams) and Philip Copeman (TurboCASH)</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 300px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
