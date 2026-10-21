@@ -1,0 +1,307 @@
+/* ---------------------------------------------------------
+   GLOBAL
+--------------------------------------------------------- */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+}
+
+#layout {
+    display: flex;
+    height: 100%;
+}
+
+/* ---------------------------------------------------------
+   LEFT PANE (TOPICS)
+--------------------------------------------------------- */
+#leftPane {
+    width: 260px;
+    background: #e9eef5;
+    border-right: 1px solid #c7d0dd;
+    padding: 10px;
+    overflow-y: auto;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+#leftPane h2 {
+    margin-top: 0;
+    color: #1a4f8b;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+}
+
+#topicList {
+    list-style: none;
+    padding-left: 0;
+}
+
+#topicList li {
+    margin: 6px 0;
+}
+
+#topicList a {
+    text-decoration: none;
+    color: #1a4f8b;
+    font-weight: bold;
+}
+
+#topicList a:hover {
+    text-decoration: underline;
+}
+
+/* Toggle Left Pane Button */
+#toggleLeft {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #1a4f8b;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* ---------------------------------------------------------
+   CENTER PANE (HELP CONTENT)
+--------------------------------------------------------- */
+#centerPane {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#navButtons button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background: #1a4f8b;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#navButtons button:hover {
+    background: #163e6d;
+}
+
+#content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #c7d0dd;
+    border-radius: 6px;
+}
+
+/* ---------------------------------------------------------
+   RIGHT PANE (TABS)
+--------------------------------------------------------- */
+#rightPane {
+    width: 380px;
+    background: #f0f3f8;
+    border-left: 1px solid #c7d0dd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+/* ---------------------------------------------------------
+   TABS
+--------------------------------------------------------- */
+#tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tabButton {
+    flex: 1;
+    padding: 8px;
+    background: #d0d7e2;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabButton.active {
+    background: #1a4f8b;
+    color: white;
+    border-color: #163e6d;
+}
+
+.tabContent {
+    display: block;
+}
+
+/* ---------------------------------------------------------
+   AI TAB
+--------------------------------------------------------- */
+#aiInput {
+    width: 100%;
+    min-height: 160px;
+    max-height: 240px;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 14px;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    background: white;
+}
+
+#aiOutput {
+    flex: 1;
+    min-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background: white;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#aiHistory {
+    max-height: 150px;
+    overflow-y: auto;
+    background: #fafafa;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Buttons inside AI tab */
+#aiTab button {
+    margin-right: 5px;
+    margin-top: 10px;
+    background: #1a4f8b;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#aiTab button:hover {
+    background: #163e6d;
+}
+
+/* ---------------------------------------------------------
+   SEARCH TAB (Advanced Option 2)
+--------------------------------------------------------- */
+#searchTab input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#searchTab button {
+    background: #1a4f8b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchTab button:hover {
+    background: #163e6d;
+}
+
+#searchResults {
+    margin-top: 15px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* ---------------------------------------------------------
+   SETTINGS TAB
+--------------------------------------------------------- */
+#settingsTab input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b8c3d1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#settingsTab button {
+    background: #1a4f8b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#settingsTab button:hover {
+    background: #163e6d;
+}
+
+/* ---------------------------------------------------------
+   DARK MODE
+--------------------------------------------------------- */
+body.dark {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark #leftPane,
+body.dark #rightPane {
+    background-color: #2a2a2a;
+}
+
+body.dark #centerPane {
+    background-color: #1e1e1e;
+}
+
+body.dark #content {
+    background: #2a2a2a;
+    border-color: #444;
+}
+
+body.dark a {
+    color: #9ecbff;
+}
+
+/* ---------------------------------------------------------
+   PRINT MODE
+--------------------------------------------------------- */
+@media print {
+    #leftPane, #rightPane, #navButtons {
+        display: none;
+    }
+    #centerPane {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

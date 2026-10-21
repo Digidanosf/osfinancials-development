@@ -1,0 +1,35 @@
+(async function () {
+    const diag = document.getElementById("diagnostic");
+
+    function log(msg) {
+        diag.innerHTML += msg + "<br>";
+    }
+
+    log("Checking WebView2 environment…");
+
+    // Check fetch support
+    try {
+        await fetch("https://www.microsoft.com");
+        log("✔ External HTTPS fetch works.");
+    } catch (err) {
+        log("❌ External HTTPS fetch FAILED: " + err.message);
+    }
+
+    // Check local file access
+    try {
+        const cfg = await fetch("ai-config.json");
+        if (cfg.ok) log("✔ ai-config.json loaded.");
+        else log("❌ ai-config.json not found.");
+    } catch (err) {
+        log("❌ ai-config.json load error: " + err.message);
+    }
+
+    // Check JavaScript execution
+    try {
+        eval("let x = 123;");
+        log("✔ JavaScript execution OK.");
+    } catch (err) {
+        log("❌ JavaScript execution blocked.");
+    }
+
+})();

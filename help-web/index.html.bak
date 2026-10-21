@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TurboCASH Help Viewer</title>
+
+    <link rel="stylesheet" href="viewer.css">
+
+    <!-- Markdown renderer -->
+    <script src="libs/marked.min.js"></script>
+
+    <!-- Main viewer logic -->
+    <script src="viewer.js"></script>
+</head>
+
+<body>
+
+<!-- LEFT PANE TOGGLE -->
+<button id="btnTogglePane">☰</button>
+
+<div id="layout">
+
+    <!-- LEFT PANE (TOPICS) -->
+    <div id="leftPane">
+        <h2>Help Topics</h2>
+
+        <input id="searchBox" placeholder="Search help...">
+
+        <ul id="topicList"></ul>
+    </div>
+
+    <!-- CENTER PANE (HELP CONTENT) -->
+    <div id="centerPane">
+
+        <div id="breadcrumb"></div>
+
+        <div id="navButtons">
+            <button id="btnHome">Home</button>
+            <button id="btnBack">Back</button>
+            <button id="btnNext">Next</button>
+            <button id="btnPrint">Print / PDF</button>
+            <button id="btnOpenGitHub">Open on GitHub</button>
+            <button id="btnCopyLink">Copy Link</button>
+            <button id="btnReportIssue">Report Issue</button>
+            <button id="btnEditTopic">Edit Topic</button>
+        </div>
+
+        <div id="content"></div>
+    </div>
+
+    <!-- RIGHT PANE (TABS) -->
+    <div id="rightPane">
+
+        <!-- TAB BUTTONS -->
+        <div id="tabs">
+            <button class="tabButton" id="tabHelp">Help</button>
+            <button class="tabButton" id="tabAI">AI</button>
+            <button class="tabButton" id="tabSearch">Search</button>
+            <button class="tabButton" id="tabSettings">Settings</button>
+        </div>
+
+        <!-- HELP TAB -->
+        <div id="helpTab" class="tabContent">
+            <h2>Help Viewer</h2>
+            <p>This tab shows the currently loaded TurboCASH help topic.</p>
+            <p>Use the left pane to select a topic.</p>
+        </div>
+
+        <!-- AI TAB -->
+        <div id="aiTab" class="tabContent" style="display:none;">
+
+            <h2>AI Assistant</h2>
+
+            <label for="aiModel">AI Model:</label>
+            <select id="aiModel">
+                <option value="gemini" selected>Gemini (Default)</option>
+                <option value="deepseek">DeepSeek</option>
+                <option value="openai">OpenAI</option>
+                <option value="groq">Groq</option>
+            </select>
+
+            <div id="aiActions">
+                <select id="aiActionSelect">
+                    <option value="">AI Actions…</option>
+                    <option value="explain">Explain Topic</option>
+                    <option value="summarize">Summarize Topic</option>
+                    <option value="related">Suggest Related Topics</option>
+                    <option value="askAbout">Ask AI About This Topic</option>
+                    <option value="translate">Translate Topic</option>
+                    <option value="rewrite">Rewrite Topic</option>
+                    <option value="manual">Convert to Training Manual</option>
+                    <option value="video">Convert to Video Script</option>
+                    <option value="screenshots">Generate Screenshot Instructions</option>
+                    <option value="exercises">Generate Training Exercises</option>
+                    <option value="combinedSearch">AI + Help Combined Search</option>
+                </select>
+            </div>
+
+            <textarea id="aiInput" placeholder="Ask TurboCASH AI..."></textarea>
+
+            <button id="btnRunAI">Ask AI</button>
+            <button id="btnAIHistory">Show AI History</button>
+            <button id="btnAIClearHistory">Clear AI History</button>
+
+            <div id="aiOutput"></div>
+            <div id="aiHistory"></div>
+        </div>
+
+        <!-- SEARCH TAB -->
+        <div id="searchTab" class="tabContent" style="display:none;">
+
+            <h2>Advanced Search</h2>
+
+            <h3>Search Mode</h3>
+            <label><input type="radio" name="searchMode" value="current" checked> Current Topic</label><br>
+            <label><input type="radio" name="searchMode" value="all"> All Help Topics</label><br>
+            <label><input type="radio" name="searchMode" value="web"> Web Search (Bing + Google)</label><br>
+            <label><input type="radio" name="searchMode" value="hybrid"> Hybrid (AI + Help + Web)</label><br>
+
+            <h3>Filters</h3>
+            <label><input type="checkbox" id="filterAI" checked> Include AI Answer</label><br>
+            <label><input type="checkbox" id="filterTopics" checked> Include Help Topics</label><br>
+            <label><input type="checkbox" id="filterContent" checked> Include Help Content</label><br>
+            <label><input type="checkbox" id="filterWeb" checked> Include Web Results</label><br>
+
+            <h3>Search Query</h3>
+            <input id="searchQuery" type="text" placeholder="Enter search text...">
+
+            <button id="btnAdvancedSearch">Search</button>
+
+            <div id="searchResults"></div>
+        </div>
+
+        <!-- SETTINGS TAB -->
+        <div id="settingsTab" class="tabContent" style="display:none;">
+
+            <h2>AI & Search Settings</h2>
+
+            <h3>AI Keys</h3>
+            <label>Gemini API Key:</label>
+            <input id="keyGemini" type="text">
+
+            <label>DeepSeek API Key:</label>
+            <input id="keyDeepSeek" type="text">
+
+            <label>OpenAI API Key:</label>
+            <input id="keyOpenAI" type="text">
+
+            <label>Groq API Key:</label>
+            <input id="keyGroq" type="text">
+
+            <h3>Web Search Keys</h3>
+            <label>Bing API Key:</label>
+            <input id="keyBing" type="text">
+
+            <label>Google API Key:</label>
+            <input id="keyGoogle" type="text">
+
+            <label>Google CSE ID (cx):</label>
+            <input id="keyGoogleCX" type="text">
+
+            <button id="btnSaveKeys">Save Keys</button>
+            <button id="btnClearKeys">Clear Keys</button>
+            <button id="btnTestAIKeys">Test AI Keys</button>
+            <button id="btnTestWebKeys">Test Web Keys</button>
+        </div>
+
+        <button id="btnDarkMode">Dark Mode</button>
+    </div>
+
+</div>
+
+</body>
+</html>

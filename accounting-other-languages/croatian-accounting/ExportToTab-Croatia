@@ -1,0 +1,4074 @@
+﻿1	&Ne	&No
+2	&Da	&Yes
+3	Sijeeanj	January
+4	Veljaea	February
+5	Ožujak	March
+6	Travanj	April
+7	Svibanj	May
+8	Lipanj	June
+9	Srpanj	July
+10	Kolovoz	August
+11	Rujan	September
+13	Listopad	October
+14	Studeni	November
+15	Prosinac	December
+16	&Otvori knjige	&Open Set of Books
+17	&Izradi knjige	&Create Set of Books
+18	&Obrši knjige	&Delete Set of Books
+19	Spremi kao	Save as
+20	&Prebaci jezik	&Switch language
+21	&Izlaz it <@APPNAME@>	&Exit <@APPNAME@>
+22	&Raeun	&Accounts
+23	&Proraeun	&Budgets
+24	&Obriši	&Delete
+25	&Ponavljajuai ulazi	&Repeating transactions
+26	Ponavljajuai &raeuni	Repeating &invoices
+27	&Skladište	Stock
+28	&Korisnieki izvještaj	&User reports
+29	Raeun u banci	Bank account
+30	Kreditor	Creditors
+31	Dužnik	Debtors
+32	Glavna knjiga	General ledger
+33	Porezni raeun	Tax account
+34	Konto	Account
+35	Korisnieki izvještaj	User report
+36	*Order confirmation	Order confirmation
+37	Artikl	Stock item
+38	Dokumenti	Documents
+39	Obriši	Delete invoices
+40	Obriši primku	Delete purchases
+41	Obriši povrat artikla	Delete supplier returns
+42	&Prilagodi sladište	&Adjust stock
+43	&Ulaz skupine	&Batch entry
+44	&Poravnaj banku	&Reconcile bank
+45	&Pregled dokumenata	&Documents listing
+46	Upis pošalji u knjigu	Input post to ledger
+47	&Povrat od kupca	&Credit notes
+48	&Raeun	&Invoices
+49	&Primka	&Purchases
+50	Artikli &Povrat	Supplier &returns
+51	&Ulaz	&Enter
+52	&Ispis	&Print
+53	&Update glavnu knjigu	&Update ledger
+54	Ispis& Dostavnice	Print &delivery notes
+55	&Tip skupine	&Batch type
+56	&Kreditor	&Creditor
+57	&Dužnik	&Debtor
+58	&Glavna knjiga	&General ledger
+59	&Poravnjavanje	&Reconciliation
+60	&Raeun	&Invoices
+61	&Primka	&Purchases
+62	&Artikli	&Stock
+63	&Porez	&Tax
+64	&korisnieki izvještaj	&User reports
+65	&Vremenska analiza	&Age analysis
+66	&Pregled	&Listing
+67	&Kretanje	&Movements
+68	&Print labela	&Print labels
+69	&Podsjetnik	&Remittance advises
+70	&Transakcije	&Transactions
+71	&Izjava	&Statements
+72	&Znaeajke proraeuna	&Budget performance
+73	&Konta	&Chart of accounts
+74	Transakcije	Transactions
+75	&Pokusna bilanca	&Trial balance
+76	&Izlistaj o povratu narudžbi	&Backorder listing
+77	&Izlistaj o povratu od a	&Credit note listing
+78	&Pregled raeuna	&Invoice listing
+79	&izlistaj nabave	&Purchases listing
+80	&izlistaj povrata	&Supplier return listing
+81	&Aktivnost	&Activity
+82	&Ukupno kretanje	&Movement summary
+83	Pon&ovna narudžba  izvještaj	&Reorder report
+84	&Pregled artikala	&Stock item listing
+85	Analiza prodaje	Sales analysis
+86	&Detalji raeuna	&Invoiced details
+87	&Raeuni ukupno	&Invoiced summary
+88	&Primljeno /Detalji plaeanja	&Received / paid details
+89	Primljeno / &Ukupno plaeanje	Received / &paid summary
+90	&Kontrola pristupa	&Access control
+91	Backup & Path	Backup &path
+92	&Tip skupine	&Batch types
+93	Poduzeae &Info	Company &info
+94	&Boje	&Colours
+95	Izradi &label	Define &labels
+96	*Proforma	Proforma
+97	&Grupe	&Groups
+98	&Dokumenti	&Documents
+99	&Printer	&Printer
+100	&Datumi izvještaja	&Reporting dates
+101	Proda&vae	Sales&person
+102	&Izjava	&Statements
+103	Informacije o skladištu	Stock information
+104	&Backup / Restore skup knjiga	&Backup / Restore Set of Books
+105	&Kalkulator	&Calculator
+106	&Provjera integriteta podataka	Data integrity check
+107	&Izvoz	&Export
+108	&Globalni procesi	&Global processes
+109	&Uvoz	&Import
+110	&Open Item Relink	&Open item relink
+111	&Restore from Backup	&Restore from backup
+112	&Pogled	&Viewer
+113	&Potpora	&Support
+114	&Eišaenje / Resetiranje	&Clear / Reset
+115	&Uradi kraj godine	&Do year end
+116	&Poravnaj	&Reconcile
+117	&Prenesi transakciju	&Transfer transactions
+118	Uradi obrnuto od poravnavanja	Unreconcile
+119	O <@APPNAME@>-u	About <@APPNAME@>
+120	Datoteke	File
+121	Izmjeni	Edit
+122	Ulaz	Input
+123	Izvještaji	Reports
+124	Namještanje	Setup
+125	Alati	Tools
+126	Pomoa	Help
+127	Jedan	One
+128	Dva	Two
+129	Tri	Three
+130	Eetri	Four
+131	Pet	Five
+132	Šest	Six
+133	Sedam	Seven
+134	Osam	Eight
+135	Devet	Nine
+136	Deset	Ten
+137	Jedanest	Eleven
+138	Dvanaest	Twelve
+139	Trinaest	Thirteen
+140	Eetrnest	Fourteen
+141	Petnaest	Fifteen
+142	Šesnaest	Sixteen
+143	Sedamnest	Seventeen
+144	Osamnaest	Eighteen
+145	Devetnaest	Nineteen
+146	Dvadeset	Twenty
+147	Trideset	Thirty
+148	Eetrdest	Forty
+149	Pedeset	Fifty
+150	Šezdeset	Sixty
+151	Sedamdeset	Seventy
+152	Osamdeset	Eighty
+153	devedeset	Ninety
+154	Stotinu	Hundred
+155	Tisuau	Thousand
+156	Million	Million
+157	Kuna	Rands
+158	Lipa	Cents
+159	*Piece Price	Piece price
+160	Dužnik	Debtors
+161	Kreditor	Creditors
+162	Povijest	Invoice history
+163	&Otvori	&Open
+164	Ulaz skupine	Batch entry
+165	Raeun	Invoice
+166	Poravnanje	Cash/Bank entry
+167	&OK	&OK
+168	&Prekini	&Cancel
+169	&Zatvori	&Close
+170	*Packaging Unit	Packaging unit
+171	Biraj jezik	Choose a language
+172	Skup knjiga	Set of Books
+173	Obriši	Delete
+174	Izradi	Create
+175	Ime za novi skup knjiga	Name for a new Set of Books
+176	Broj konta	Account no.
+177	Pod-konto	Sub-account
+178	Opis	Description
+179	Izvještaj Groupe 1	Reporting group 1
+180	Izvještaj Groupe 2	Reporting group 2
+181	Plaeanje	Payments
+182	Primanje	Receipts
+183	Bankovni konto	Bank accounts
+184	Otvori konto stavki	Open item account
+185	Ime	Name
+186	Adresa	Address
+187	Telefon 1	Phone 1
+188	Telefon 2	Phone 2
+189	Fax	Fax
+190	Poštanski kod	Postal code
+191	E-mail	E-mail
+192	Kredit Limit	Credit limit
+193	Ukupno za platiti	Charge amount
+194	Trenutna bilanca	Current balance
+195	Zadnje plaeanje	Last paid
+196	Na	On
+197	Kontaktna osoba	Contactperson
+198	Prodavae	Salesperson
+199	Adresa isporuke	Delivery address
+200	Poruka	Message
+201	Konto je ugašen	Account disabled
+202	Referenti porez	Tax reference
+203	Sniženje kupcu	Customer discount
+204	Mjeseena kamata zbog neplaeenog iznosa	Monthly interest on overdue amounts
+205	%	%
+206	Prihod / Rashod	Income statement
+207	Važi od	Valid from
+208	do	To
+209	Postotak	Percentage
+210	Godišnje	Annual
+211	Debit	Debit
+212	Kredit	Credit
+213	Kod robe	Stock code
+214	Velieina mjerne jedinica	Units
+215	Zadnja cijena nabave	Latest cost
+216	Prodajna cijena 1	Selling price 1
+217	Prodajna cijena 2	Selling price 2
+218	Prodajna cijena 3	Selling price 3
+219	Ulazni porez	Input tax
+220	Izlazni porez	Output tax
+221	Nivo ponovnog narueivanja	Reorder level
+222	Prijavi popust na	Apply invoice discount
+223	Prodajni konto	Sales account
+224	Troškovi prodaje	Cost of sales
+225	Kontrolni skladišta	Stock control
+226	Prosjeeni trošak	Average cost
+227	Kolieina na skladištu	Quantity on hand
+228	Totalni troškovi	Total cost
+229	Zadnji raeun	Last invoice
+230	Od raeuna	From invoice
+231	Do raeuna	To invoice
+232	Ukljuei stavke do	Include items until
+233	Bilanca banke	Bank balance
+234	Raeun br.	Invoice no.
+235	Poštanska adresa	Postal address
+236	Dostupno	Available
+237	Vaš broj	Your reference
+238	Datum	Date
+239	Poruka	Message
+240	Pošalji izvještaj	Send report to
+241	Tip skupine	Batch type
+242	Koja godina	Which year
+243	Od izvještajnog datuma	From reporting date
+244	Svaki period posebno	Each period separately
+245	Pokaži ulazne bilance	Show balancing entries
+246	Od konta	From account
+247	Sekvenca	Sequence
+248	Ukljuei nulte bilance	Include zero balances
+249	Opcije izvještaja za transakcije kreditora	Creditor transaction report options
+250	Bankovni konto	Bank accounts
+251	Konto kreditora	Creditor accounts
+252	Konto dužnika	Debtor accounts
+253	Konto glavene knjige salda konta	General ledger accounts
+254	Konto poreza	Tax accounts
+255	Konto proraeuna	Budget accounts
+256	Konto banaka	Bank accounts
+257	Artikli skladišta	Stock item
+258	Korisnieki izvještaj	User report
+259	Poravnanje konta banke	Reconcile bank account
+260	Izd. raeuna	Invoicing
+261	Opcije izvještaja po tipu skupine	Batch type report options
+262	Opcije izvještaja po kontu	Account list options
+263	Vremenska analiza plaeanja dužnika	Debtor age analysis options
+264	Minimalni iznos	Minimum amount
+265	Koristi otvorenu stavku	Use open item
+266	Zanemari nultu balancu	Ignore zero balances
+267	Prikaži detalje konta	Show account detail
+268	Poredaj po imenu	Sort by name
+269	Prikaži transakcije	Show transactions
+270	Date of Ageing	Date of ageing
+271	up to	up to
+272	Month(s) up to	Month(s) up to
+273	Opcije prikaza konta	Account list options
+274	Opcije promjena dužnika	Debtor movement options
+275	Opcije izvještaja transakcija dužnika	Debtor transaction report options
+276	Pokaži pod - konto	Show sub-accounts
+277	Opcije znaeajki proraeuna	Budget performance options
+278	Opcije glavne knjige	General ledger options
+279	Opcije promjena kreditora	Creditor movement options
+280	Opcije promjena generalnog salda konta	General ledger account movement options
+281	Opcije pokusne bilance	Trial balance options
+282	Od	From
+283	Poravnavanje bankovnog konta	Bank reconciliation
+284	Od broja	From invoice no.
+285	Do broja	To invoice no.
+286	Od datuma	From date
+287	Do datuma	To date
+288	Opcije pregleda dokumenata	Documents listing options
+289	Od koda artikala	From stock code
+290	Opcije aktivnosti skladišta	Stock activity options
+291	Kontrola pristupa	Access control
+292	Dodaj	Add
+293	Obriši	Delete
+294	Sigurnosne opcije	Security Options
+295	Korisnieka šifra	User password
+296	Izmijeni konto	Edit accounts
+297	Izmijeni skladište	Edit stock
+298	Ulaz skupine	Batch entry
+299	Kreditni izvještaj broj.	Credit note no.
+300	Raeun	Invoices
+301	Namještanje sistema	System setup
+302	Primka	Purchases
+303	Povrat artikala	Supplier returns
+304	Nestajanje	Disabled
+305	Izvještaji o  kreditoru	Creditor reports
+306	Izvještaji o  dužniku	Debtor reports
+307	Izvjestaji glavne knjige	General ledger reports
+308	Izvještaji skladišta	Stock reports
+309	Korisnieki izvještaji	User reports
+310	Pošalji	Posting
+311	Globalni procesi	Global processes
+312	Tel	Tel
+313	Naziv poduzeaa	Company name
+314	Porezna metoda	Tax method
+315	Konto koji se duži	Due account
+316	Registracijiski broj tvrtke.	Company reg. no.
+317	Porezni broj	Tax reg. no.
+318	Izvještj o iznosu s	Report amount with
+319	Pritisni ovdje za postavke datuma u windowsima	Set Windows date format/style
+320	Informacije o poduzeau	Company info
+321	Iduai raeun br..	Next invoice no.
+322	Skupina raeuna	Invoice batch
+323	Tip papira	Paper type
+324	Zaglavlje	Invoice heading
+325	Poruka	Invoice message
+326	Iduaa povratnica od kupca br.	Next credit note no.
+327	Skupina izvještaja o kreditu	Credit note batch
+328	Zaglavlje povratnice od kupca	Credit note heading
+329	Poruka na  povratnici od kupca	Credit note message
+330	Iduaa primka br.	Next purchase no.
+331	Skupina primki	Purchase batch
+332	Zaglavlje na primki	Purchase heading
+333	Poruka na primki	Purchase message
+334	Iduai povrat broj	Next supplier return no.
+335	Skupina povrata robe	Supplier return batch
+336	Zaglavlje povratnice robe	Supplier return heading
+337	Poruka na povratnici robe dobavljaau	Supplier return message
+338	Iduaa narudžba broj.	Next order no.
+339	Zaglavlje narudžbe	Order heading
+340	Poruka na narudžbi	Order message
+341	Iduai broj ponude	Next quote no.
+342	Zaglavlje ponude	Quote heading
+343	Poruka ponude	Quote message
+344	Namještanje dokumenata	Documents setup
+345	Grupe	Groups
+346	Tip plaeanja	Payment types
+347	Namještanje izjave	Statement setup
+348	Izjava na poruci	Statement message
+349	Skupina troškova prodaje	Cost of sales batch
+350	Informacije o skladištu	Stock information
+351	Izradi troškove prodaje	Create cost of sales
+352	Generalne informacije	General information
+353	Raeunovodstvene informacije	Accounting information
+354	Izjava	Statements
+355	Opis	Description
+356	Edit	Edit
+357	Reset	Reset
+358	Ueitaj	Update
+359	Otvori relink stavki	Open item relink
+360	Otvori link stavki	Open item link
+365	O <@APPNAME@>-u	About <@APPNAME@>
+366	Ulaz skupine	Batch entry
+367	^O: Obriši	^D: Delete
+368	^U:Ubaci	^N: Insert
+369	F5:Poravnaj	F5: Balance
+370	F6: Pošalji	F6: Post
+371	F7: Iskljuei porez	F7: Exclusive
+372	F8: List	F8: List
+373	F9: Proces	F9: Process
+374	F10: Namjesti	F10: Setup
+375	Iznos s porezom:	Inclusive amount:
+376	Iznos bez poreza:	Exclusive amount:
+377	Odgovarajuai zbroj:	Reference total:
+378	Smješten na:	Allocate to:
+379	Kontra konto:	Contra account:
+380	Prodaja po kupcu	Sales per customer
+381	Prodaja po proizvodu	Sales per product
+382	Prodaja po prodavaeu	Sales per salesperson
+383	Prodaja po grupi	Sales per group
+384	Prodaja po opcijama kupca	Sales per customer options
+385	Prodajama po opcijama proizvoda	Sales per product options
+386	Prodaja po opcijama prodavaea	Sales per salesperson options
+387	Prodajama po opcijama grupe	Sales per group options
+388	Od grupe	From group
+389	Prema grupi	From product
+390	Opcije izvještaja poreza	Tax report options
+391	Kod poreza	Tax code
+392	Prikaži detalje	Show details
+393	Klasika	Classic
+394	Brilliant	Brilliant
+395	New SA	New SA
+396	Tema	Theme
+397	Christian	Christian
+398	Comic	Comic
+399	Egypt	Egypt
+400	Jewish	Jewish
+401	Scottish	Scottish
+402	Space	Space
+403	Wildlife	Wildlife
+404	Otvoreno	Open item link
+405	Ueitaj raeun	Update invoices
+406	Datum izjave	Date of statements
+407	Prikaži porezne transakcije	Show tax transactions
+408	Izvještaj o dužniku	Debtor reports
+409	Prikaži porez posebno	Show tax separately
+410	Opcije promjena zaliha skladišta	Stock movement options
+411	Opcije izvještaja skladišta	Stock list options
+412	Informacija za ukljueiti	Information to include
+413	Kolieina	Quantity
+414	Nabavna cijena	Cost price
+415	Stanje skladišta	Stock count
+416	Prodajna cijena	Selling price
+417	Vrijednost zaliha	Stock value
+418	Ponuda	Quotes
+419	Povratnica dobavljaeu	Supplier returns
+420	Grupe konta	Account groups
+421	Grupe dužnika	Debtor groups
+422	Grupe kreditora	Creditor groups
+423	Grupe skladišta	Stock groups
+424	Grupe dokumenata	Document groups
+425	Upozorenje, ovo ae ozbiljno promijeniti vaše knjige, dali još uvijek želite nastaviti?	Warning! This will seriously affect your Set of Books! Do you still wish to continue?
+426	Vi ste izabrali da obrišete sve korisnike, pristupne kontrole više neae biti dozvoljene	You have chosen to delete all users! Access control will now be disabled!
+427	Postoji neposlana skupina koja pripada ovom korisniku, molimo vas da je pošaljete ili obrišete prije nego što obrišete ovog korisnika	There are unposted batches associated with this user! Please post or delete them before deleting this user.
+428	Postoji skupina od ovog korisnika, molimo vas odaberite novog korisnika kojem ae biti pridružena ova skupina.	There are batches associated with this user! Please select a new user to assign these batches to.
+429	Postoji transakcija od ovog korisnika, molimo vas odaberite novog korisnika kojem ae se pridružiti ta transakcija	There are transactions associated with this user! Please select a new user to assign these transactions to.
+430	Da li želite spremiti promjene koje ste uradili za ovog korisnika?	Do you wish to save the changes to this user?
+431	Molimo vas ukucajte pasvord za ovog korisnika.	Please type in a password for this user!
+432	Izradi ovaj konto?	Create this account?
+433	Netoean broj konta, na prvom mjestu mora biti brojka.	Invalid account number! The first character must be a number!
+434	Ovo nije bankovni konto.	This is not a bank account!
+435	Da li želite spremiti promjene?	Do you want to save the changes?
+436	!!! FATAL FILE ERROR 12 !!!	!!! FATAL FILE ERROR 12 !!!
+437	Dali sigurno želite obrisati ovu transakciju?	Are you sure you wish to delete this transaction?
+438	Dali želite premjestiti ovu transakciju na prošlu godinu?	Do you wish to allocate this transaction to last year?
+439	Skupina nije poravnata.	Batch is not in balance!
+440	Konto ne postoji dali želite da ga napravite?	Account does not exist, do you wish to create it?
+441	Želite li da nastavite sa izvještajem?	Do you want to continue reporting?
+442	Ne mogu obrisati ovaj tip skupine, kao ni skupine u vezi sa njom.	Cannot delete this batch type! It has batches associated with it!
+443	Izmjena tipa skupine ae ozbiljno utjecati na vaše knjige, dali ste sigurni da želite uraditit to?	Editing batch types will seriously affect your Set of Books! Are you sure you want to do this?
+444	Ovo ae ozbiljno utjecati na vaša konta, dali želite prekinuti ovo sada?	This will seriously affect your Set of Books! Do you wish to cancel now?
+445	Želite spremiti ove promjene?	Do you want to save these changes?
+446	Jeste li sigurni da želite napraviti	Are you sure you want to create the
+447	Skup knjiga?	 Set of Books?
+448	Skup knjiga je izra?en.	 Set of Books created!
+449	Greška u izradi knjiga.	Error creating books!
+450		The
+451	Skup knjiga vea postoji.	 Set of Books already exist!
+452	Konto ne može biti prazan.	Account cannot be blank!
+453	Na prvom mjestu mora stajati brojka.	The first character of the account number must be a number!
+454	Završeno!	Finished!
+455	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books.	This directory does not contain a TurboCASH 2.01, 2.02 or 2.03 Set of Books!
+456	Sigurni ste da želite prekinuti?	Are you sure you wish to cancel?
+457	Želite li napraviti ovaj konto?	Do you want to create this account?
+458	Sigurni ste da želite izbrisati	Are you sure you want to delete the
+459	skup knjiga?	set of accounts?
+460	Sigurni ste da želite izbrisati ovaj konto?	Are you sure you want to delete this account?
+461	Ovaj koto sadrži	This account contains
+462	pod-konto i ne može biti obrisan.	Sub-account(s) and cannot be deleted!
+463	Ne možete obrisati artikl pošto ima transakciju.	You cannot delete this stock item! It has transactions!
+464	Sigurni ste da želite obrisati ovaj artikl?	Are you sure you want to delete this stock item?
+465	Artikl je obrisan.	Stock item deleted!
+466	Ovaj artikl ne postoji.	This stock item does not exist!
+467	Ovo nije glavni saldo konti .	This is not a general ledger account!
+468	Ovaj konto je još uvijek aktivan, sve transakcije ae biti premještene na naovi pod-konto, sigurni ste da želite napraviti ovaj pod-konto?	This account is still active! All transactions will be moved to new sub-account! Are you sure you wish to create sub-account?
+469	Ovo nije konto za porez	This is not a tax account!
+470	Vezani iznos mora biti manji ili jednak	The link amount has to be less than or equal to
+471	Vi još niste namjestili skup knjiga.	You have not set up a Set of Books yet!
+472	Ovaj ulaz je vea povezan.	This entry is already linked!
+473	Sa ovim kupcem nije ništa vezano.	Nothing to link for this debtor!
+474	Sigurni ste da želite od spojiti ovaj ulaz?	Are you sure you want to unlink this entry?
+475	Krivi password	Invalid password!
+476	Datum nije dobar !!!! Provjeri datum 1	Date conflict !!!! Check date 1
+477	Datum nije dobar !!!! Provjeri datum 2	Date conflict !!!! Check date 2
+478	Datum nije dobar  !!!! Provjeri datum 3	Date conflict !!!! Check date 3
+479	Datum nije dobar !!!! provjeri datum 4	Date conflict !!!! Check date 4
+480	Datum nije dobar !!!! Provjeri datum 5	Date conflict !!!! Check date 5
+481	Datum nije dobar  !!!! Provjeri datum 6	Date conflict !!!! Check date 6
+482	Datum nije dobar !!!! Provjeri datum 7	Date conflict !!!! Check date 7
+483	Datum nije dobar !!!! Provjeri datum 8	Date conflict !!!! Check date 8
+484	Datum nije dobar !!!! Provjeri datum 9	Date conflict !!!! Check date 9
+485	Datum nije dobar !!!! Provjeri datum 10	Date conflict !!!! Check date 10
+486	Datum nije dobar !!!! Provjeri datum 11	Date conflict !!!! Check date 11
+487	Datum nije dobar !!!! Provjeri datum 12	Date conflict !!!! Check date 12
+488	Datum nije dobar !!!! Provjeri datum 13	Date conflict !!!! Check date 13
+489	Samo periodi izme?u 1 i 13 su dozvoljeni	Only periods between 1 and 13 are allowed!
+490	Sigurni ste da želite izbrisati ove promjene?	Are you sure you want to cancel the changes?
+491	Nema se što poravnati!	No items to reconcile!
+492	Ovo nije prihod/rashod konto.	This is not an income / expense account!
+493	Ovaj kono sadrži pod-konto.	This account contains sub-accounts!
+494	Želite li napraviti ovaj artikl?	Do you wish to create this stock item?
+495	Error posting invoice, plase restore backup.	Error posting invoice! Please restore backup!
+496	Izaberite korisnieki izvještaj	Select a user report
+497	Jedinica skladišta	Units of stock
+498	Opis prodajne cijene	Selling price descriptions
+499	Troškovi prodaje	Cost of sales
+500	Do you want to run the data integrity check before making the backup?	Do you want to run the Data integrity check before making the backup?
+501	Do you wish to continue with the  backup?	Do you wish to continue with the backup?
+502	!!! FATALNA GREŠKA NA DATOTECI 11 !!!	!!! FATAL FILE ERROR 11 !!!
+503	Ovaj datum je van sadašnje godine. On mora biti izme?u	This date is out of the current year! It must be between
+504	i	and
+505	Želite li isprintati ?	Do you wish to print this Invoice now?
+506	Upozorenje to su	Warning! There are
+507	Artikli na skladištu.	items on hand.
+508	Želite li sigurno poeistiti sve upise u ovaj racun ?	Are you sure you want to clear all the entries in this Invoice?
+509	Nepravilan popust, iznos mora biti pozitivan	Invalid discount! Amount must be positive!
+510	Želite li napraviti provjeru cijelovitosti  podataka prije backupa ?	Do you want to run the Data integrity check before making the backup?
+511	Backup Complete.	Backup completed!
+512	Upozorenje ovo ae prebrisati vaše sadašnje knjige! Dal ste sigurni da želite nastaviti?	WARNING! This will overwrite your current Set of Books! Are you sure you want to continue?
+513	Molimo vas stavite disketu za backup i nastavite, ili odmah prekinute operaciju.	Please insert your backup disk in the drive and continue, or cancel the operation now.
+514	Restore Complete	Restore completed!
+515	Ova kopija <@APPNAME@> nije registrirana, dali želite da je odmah registrirate?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+516	Ovo ae uništiti sve vaše informacije. Dali ste sigurni da želite to uraditi?	This will delete all your information! Are you sure you want to do this?
+517	Gotovo!	Finished!
+518	Ovaj direktorij ne sadrži skup knjiga.	This directory does not contain a Set of Books!
+519	Ovo ae ozbiljno promjeniti vaš skup knjiga, dali ste sigurni da želite oeistii ovaj skup knjiga?	This will seriously affect your Set of Books! Are you sure you want to clear this Set of Books?
+520	Molimo vas ispunite registracijski obrazac.	Please complete the registration form!
+521	Nepravilan kod za otkljueavanje.	Invalid unlocking code!
+522	Želte li prekinuti registraciju?	Do you wish to cancel registration?
+523	Ovaj konto ima transakciju, dali želite prenijeti transakciju na drugi konto?	This account has transactions! Do you wish to transfer the transactions to another account?
+524	Ne možete prenijeti na ovaj konto pošto on ima pod-konto.	You cannot transfer to this account! It has sub-accounts!
+525	Konto je obrisan.	Account deleted!
+526	Ovaj  dužnik ima transakciju, dali je želite prenijeti na drugog dužnika ?	This debtor has transactions! Do you wish to transfer the transactions to another debtor?
+527	Ovaj kreditor ima transakciju, dali je želite prenijeti na drugog kreditora?	This creditor has transactions! Do you wish to transfer the transactions to another creditor?
+528	Ovaj bankovni konto ima transakciju, dali ju želite prenijeti na drugi konto?	This bank account has transactions! Do you wish to transfer the transactions to another bank account?
+529	Ovaj porezni konto ima transakciju, dali je želite prenijeti na drugi porezni konto?	This tax account has transactions! Do you wish to transfer the transactions to another tax account?
+530	Upozorenje, tu je	Warning! There are
+531	neposlana skupina i	Unposted batches and
+532	neposlana skupina	Unposted batches
+533	neposlani dokumenti	Unposted documents
+534	Karakteristike	Properties
+535	Promijenite karakteristike skupa knjiga.	Change Set of Books properties
+536	Ukucajte naziv za skup knjiga.	Enter the name of the Set of Books
+537	Ukucajte mjesto gdje su knjige spremljenje.	Enter the path where the books are stored
+538	Promjeni	Change
+539	Skup knjiga je pozvan	A Set of Books called
+540	Kreacijski earobnjak	Creation wizard
+541	Molimo vas izaberite skup knjiga sa liste, ili stisnite dugme za traženje da izaberete skup knjiga koje želite kopirati na drugo mjesto u alnom sustavu.	Please select a Set of Books from the list below, or click [Browse] button to select the Set of Books you wish to copy in a folder elsewhere on your system.
+542	Traži	Browse
+543	Gotovo	Finish
+544	Dobro došli u <@APPNAME@> dio za izradu skupa knjiga . Molimo vas izaberite moguanosti i stisnite na sljedeae dugme ili stisnite dugme za poništenje da poništite izradu novih knjiga.	Welcome to the <@APPNAME@> Set of Books Creation wizard. Please select an option and click on the [Next] button, or click on the [Cancel] button to cancel the creation of a new Set of Books.
+545	Dali želite da:	Do you wish to:
+546	Pretvorba sa starije verzijeTurboCASH (v 2.01, 2.02, 2.03)?	Convert from an older TurboCASH (v 2.01, 2.02, 2.03)
+547	Kopiranje postojeaeg skupa knjiga?	Copy an existing Set of Books
+548	Dopustite <@APPNAME@>u da izradi Skup knjiga?	Let <@APPNAME@> help you to create a Set of Books
+549	Izradi po svojoj volji skup knjiga ( za napredne )?	Customise your own Set of Books (Advanced)
+550	Pretvaranje sa TurboCASH3 -> <@APPNAME@>?	Convert TurboCASH3 to <@APPNAME@>
+551	Dalje >>	Next >>
+552	Kreditorov kontrolni	Creditors control
+553	Dužnikov kontrolni	Debtors control
+554	Zadržana dobit	Retained earnings
+555	Izrada skupa konta...	Creating set of accounts...
+556	Sada trebaš ukucati broj perioda koji su u tvojoj financijskoj godini i datum poeetka godine.	You now need to type in the number of periods there are in your financial year and the date of the start of the year!
+557	Molimo vas stisnite  završetak da odredite vaš::	Please click [Finish] to specify your:
+558	Ovaj direktorij  ne sadrži skup knjiga, ili je skup knjiga uništen.	This directory does not contain a Set of Books, or the Set of Books is damaged!
+559	Moraš izabrati skup knjiga i direktorij gdje eeš kopirati.	You have to choose a Set of Books or directory to copy!
+560	Skup knjiga se radi...	Creating Set of Books...
+561	Izra?ujem zahtjevani konto...	Creating required accounts...
+562	Izra?ujem zahtjevani konto (kontrolni za kreditore)...	Creating required accounts (Creditors control)...
+563	Izra?ujem zahtjevani konto ( kontrolni za dužnike)...	Creating required accounts (Debtors control)...
+564	Izra?ujem zahtjevana konta (Zadržana dobit)...	Creating required accounts (Retained earnings)...
+565	Prebacujem skup knjiga...	Converting Set of Books...
+566	Ueitavam podatke s Pastela...	Reading data from Pastel...
+567	Prebacujem Pastel sistemske poadatke...	Converting Pastel system variables...
+568	Konvertiram Pasel konta...	Converting Pastel accounts...
+569	Konvertiram Pastel skladište...	Converting Pastel stock...
+570	Konvertiram Pastel izvještaje...	Converting Pastel batches...
+571	Molimo vas izaberite Pastel data folder	Please select a Pastel data folder
+572	Molimo vas izaberite stari skup knjiga za prebacivanje.	Please select an old Set of Books to convert from the list below.
+573	Molimo vas izaberite Pastel Partner podatke za prebacivanje.	Please select Pastel Partner data to convert from the list below.
+574	Uzmi direktorij	Pick a directory
+575	Broj	Number
+576	Izvještajni datumi	Reporting dates
+577	Poeetak	Start date
+578	Pošalji na prošlu godinu	Post to other years
+579	Završetak	Ends on
+580	Otvoreno za slanje	Open for posting
+581	Naljepnica Philipsovog vlasništva	*Translate : Enter your details
+582	&Client Server	&Client server
+583	&Znaeajke	&Preferences
+584	&Sistemski podaci	&System parameters
+585	&Kontrola pristupa	&Access control
+586	&Pomoa	&Help
+587	Ulazni	Invoice entry
+588	Greška	Error
+589	Upozorenje, ovaj datum ne pada niti u jedan izvještajni datum u ovoj niti u prošloj godini.	Warning! This date does not fall into any of this or last year's reporting dates!
+590	Ova skupina nije potvr?ena!	This batch does not validate!
+591	to je van ravnoteže sa	is out of balance by
+592	Linija	Line
+593	Dozvoli oboje	Allow both
+594	Skupina sadrži transakciju koja se šalje u prošlu godinu.	Batch contains transactions posting to last year!
+595	Dali želite nastaviti slanje?	Do you want to continue posting?
+596	Ne mogu poslati jer glavni konto sadrži pod-konto..	Cannot post to main account containing sub-accounts!
+597	Konto ne postoji dali ga želite izraditi?	Account does not exist! Do you wish to create it?
+598	Nema podataka za uvoz.	No data to import!
+599	Unesi mjesec i godinu za ponavljajuai ulaz	Enter month and year to repeat entries to
+600	Period	Period
+601	Godina	Year
+602	&Izaberi kontra konto	&Select contra account
+603	Ove godine	This year
+604	Prošle godine	Last year
+605	Kodovi	Code
+606	Opis	Description
+607	Referenca	Reference
+608	Konto	Account
+609	Porez	Tax
+610	Definicja skraeenice	Abbreviation definition
+611	Uravnoteži skupinu	Balance batch
+612	Neogranieeni uvoz datoteka	Delimited file import
+613	Obriši skupinu	Erase batch
+614	Generiraj višestruke ulaze	Generate multiple transactions
+615	Pregled skupina	List batch
+616	Slanje skupina	Post batch
+617	Ponavljajuae transakcije	Repeating transactions
+618	Totali za svaki period	Totals for each period
+619	Napiši neogranieene datoteke	Write delimited file
+620	Procesiraj skupinu	Process the batch
+621	Dali ste sigrni da želite obrisati ovaj ulaz u skupinu?	Are you sure you want to erase this entire batch?
+622	Moguenosti za ovu skupinu	Options for this batch
+623	Poveeanje referentnog broja	Increment reference
+624	Ponovi detalje	Repeat details
+625	Kontra konto po liniji	Contra account per line
+626	Konsolodiraj uravnoteženje	Consolidate balancing
+627	Ulazna suma	Amount entry
+628	Potvrda	Confirmation
+629	Informacija	Information
+630	Upozorenje	Warning
+631	Ne možete izvjestiti od	You cannot report from
+632	vea postoji.	already exists!
+633	Izaberi Pastel Data folder !!!	Select Pastel data folder!
+635	Morate imati skup knjiga otvoren za upoterbu ove moguenosti.	You must have a Set of Books open to use this option!
+636	Još niste namjestili skup knjiga do sada.	You have not set up a Set of Books yet!
+637	Ukljuei otvorena poravnavanja	Include opening balances
+638	Ne možete odabati ovaj konto zato što sadrži pod-konto	You cannot select this account because it contains sub-accounts!
+639	Informacije na ovoj liniji ae biti izgubljene ako se oni promjene za komentare	The information on this line will be lost if it's changed to comment!
+640	Sigurni ste da želite staviti komentar na ovu liniju?	Are you sure you want a comment on this line?
+641	Ovo ae radikalno promjeniti vaše podatke. Preporueujemo da stanete i napravite backup.	This will radically alter your data! We recommend that you stop and make a backup!
+642	Želite li nastaviti?	Do you wish to continue?
+643	Ovaj konto ima otvorenno poravnavanje od prošle godine, vi ne možete obrisati konto .	This account has an opening last year balance! You cannot delete the account!
+644	Ovaj konto nije prihod/rashod konto.	This account is not an income / expense account!
+645	Iskljueeni total	Exclusive total
+646	Total racuna	Invoice total
+647	Total popusta	Total discount
+648	Jedinica iskljueena.	Unit excl.
+649	Jedinica ukjlueena.	Unit incl.
+650	Iznos iskljueen PDV.	Amount excl.
+651	Iznos ukljueen PDV.	Amount incl.
+652	Kod artikla	Item code
+653	Opis	Description
+655	Narueena kolieina	Qty order
+656	Isporueena kolieina	Qty ship
+657	Popust.	Disc.
+658	F8: Popust	F8: Discount
+659	F9: Komentar	F9: Comment
+660	F10: Izbriši sve	F10: Delete all
+662	&Linija za komentar	&Comment line
+663	&Unesi ukupni popust	&Enter overall discount
+664	F7: Ukljueeno	F7: Inclusive
+665	Promijenili ste skupinu za plaeanje i primitke, Ovo ae smetati vašem poravnanju.. Želite li nastaviti ?	You have changed payment and receipt batch! This will corrupt your recon! Do you wish to continue?
+666	Kontrolni konto ne može biti korišten.	Control account cannot be used!
+667	Promijenili ste postotak.	You have changed the percentage!
+668	Ne možete imati proraeun za konto koji ima pod-konto.	Cannot have budgets for an account which has sub-accounts!
+669	Generalni konto salda konta ne može biti  korišten.	General ledger account cannot be used!
+670	Ulaz za povratnice od kupca	Credit note entry
+671	F10: Izbriši povratnicu od kupca	F10: Delete credit note
+673	Želite li ispisati povratnicu od kupca odmah?	Do you wish to print this credit note now?
+674	Ueitaj povratnicu od kupca	Update credit notes
+675	Za povratnicu od kupca	From credit note
+676	Prema povratnici od kupca	To credit note
+677	Nastavi	Continue
+678	Nema racuna za štampanje.	There is no invoice to print!
+679	Ne možete imati isti tip skupine za plaeanje kao drugi bankarski konto !	Cannot have the same payments batch type as for another bank account!
+680	Podsjetnik	Remittance
+681	Poruka za podsjetnik	Remittance message
+682	Roba primljena	Goods received
+683	Nemožete imati istu skupinu za primljene racune kao drugi bankovni konto!	Cannot have the same receipt batch type as for another bank account!
+684	Cijena po jedinici	Unit price
+685	Sigurni ste da želite pobrisati sve što ste unijeli u ovu dostavnicu?	Are you sure you want to clear all the entries in this purchase?
+686	Ispišite dostavnicu sada?	Print a purchase document now?
+687	Porez iskljueen	Tax excluded
+688	Porez ukjueen	Tax included
+689	Prošlost od povratnice od kupca	Credit note history
+690	Prošlost od povratnice skladišta	Supplier return history
+691	Prošlost od primki	Purchases history
+692	Prošlost od ponude	Quote history
+693	Prošlost od narudžbenica	Orders history
+694	Od primke	From purchase
+695	Izbriši povratnicu od kupca	Delete credit notes
+696	Netoean sljedeai broj, promjeni ga u namještanju dokumenata.	Invalid next number! Change it in 'Setup → Documents setup'!
+697	Želite li nastaviti backup	Do you want to continue backup?
+698	Želite li nastaviti s restore od	Do you want to continue restore from?
+699	Nije izabran skup knjiga.	No Set of Books selected!
+700	Ueitaj primku	Update purchase
+701	Ueitaj povratnicu skladišta	Update supplier returns
+702	Od povratnice skladišta	From supplier return
+703	Primka broj.	Purchase no.
+704	Povratnica skladišta broj.	Supplier ret. no.
+705	Povratak	Supplier return
+706	Povratnica od kupca	Credit notes
+707	Želite li ispisati ovu narudžbenicu?	Do you wish to print this order?
+708	Želite li isprintati ovu povratnicu skladišta?	Do you wish to print this supplier return?
+709	Želite li isprintati ovu dostavnicu?	Do you wish to print this purchase?
+710	Želite isprintati ovu ponudu?	Do you wish to print this quote?
+711	Pokreni namještanje i izaberi kontra konto za ovu skupinu.	Run 'Setup → Batch types' and select contra account for this batch!
+712	Sigurni ste da želite obrisati ovu informaciju u ovom redu?	Are you sure you wish to delete this row's information?
+713	Ueitavam korisnieki server	Client server update
+714	Skini sa interneta	Internet update
+715	Želite li obrisati ovu definiciju labela?	Do want to delete this label definitions?
+716	Mjesto:	Location :
+717	Skup kniga nije proba?en, direktorij ne postoji::	Set of Books not found! Directory doesn't exist:
+718	ili problemi na oznaeenom mrežnom pogonu	Or trouble on a network mapped drive
+719	Ovo ae obrisati sve vaše informacije dali ste sigurni da želite nastaviti?	This will delete all your information! Are you sure you want to continue?
+720	Btrv Greška:	Btrv error:
+721	Nemam nikakvu vezu za ovog kreditora.	Nothing to link for this creditor!
+722	Upozorenje, ako stisnete da, izgubit aete sve vaše trenutne veze na ovaj konto.	Warning! If you click [Yes] you will lose all your current links for this account!
+723	Umetni diisketu	Insert disk in
+724	Informacije za namještanje interneta su netoene.Pokreni namještanje interneta	Internet setup information is incorrect! Run 'Setup → Internet'.
+725	Želite li to obrisati	Do you want to delete?
+726	Snimi	Save
+727	&Prvo	&First
+728	&Prijašnje	&Previous
+729	&Sljedeae	&Next
+730	&Posljednje	&Last
+731	&Zum	&Zoom
+732	Kopije	Copies
+733	Print rang	Print range
+734	&Stranice	&Pages
+735	&Od	&From
+736	&Do	&To
+737	&Sve stranice	&All pages
+738	Broj od &Kopije	Number of &copies
+739	Izvoz grešeke printanja	Exporting report error!
+740	Greška kod izrade privremenog zapisa	Error when creating Tmp!
+741	Netoean pasword	Invalid password!
+742	Ne možete koristiti ovaj konto kao kontra konto buduai da on sadrži pod-konto	You cannot use this account as a contra account! It contains sub-accounts!
+743	Izradi direktorij	Create directory
+744	Ovaj skup knjiga vee postoji. Molimo vas ponovo u?ite.	That Set of Books already exists! Please re-enter!
+745	Ne mogu izraditi direktorij.	Couldn't create directory!
+746	Molimo  ponovo unesite.	Please re-enter!
+747	Nemam podataka za printanje	No data to print!
+748	Netoean broj konta	Illegal account code!
+750	Broj por. broja	Tax Invoice no.
+751	Br. ponude	Quote no.
+752	Broj povratnice od mene prema kreditoru.	Supplier return no.
+753	Krivi tip medija za backup	Invalid media type for backup!
+754	Nemogu izbrisati kontrolni konto	Cannot delete a control account!
+755	Knjige	The Set of Books
+756	biti ae trajno izbrisano sa tvrdog diska.	will permanently be removed from disk!
+757	Želite li prekinuti brisanje?	Do you want to cancel the deletion?
+758	Broj povratnice od kupca	Credit note no.
+759	Broj primke	Purchase no.
+761	Vaueer za primljenu robu	Goods received voucher
+762	Broj narudžbe	Order no.
+763	Uravnoteži napredno prekidanje kod slanja	Balance brought forward when posting
+764	Pritisni tipku zatvori za svršetak earobnjaka za namještanje.	Then click [Close] to finish the Creation wizard.
+765	Uravnoteženje kupca je preko kreditnog limita za:	Debtor's balance is over credit limit with:
+766	Ne mogu prenijeti transakciju na isti konto.	Cannot transfer transactions to the same account!
+767	Kada ste posljednji put radili sa ovim skupom knjiga niste izašli iz programa uredno.	The last time that you worked with this Set of Books you did not exit the program properly!
+768	If you encounter any problems, restore your data from a backup.	If you encounter any problems, restore your data from a backup.
+769	<@APPNAME@> bi vas želio upozoriti da:	<@APPNAME@> would like to remind you that:
+770	Napravite redoviti backup te spremite sigurnosne kopije vaših knjiga kako bi sprijeeili moguenost gubitka podataka.	It is good practice to make regular backups and archive copies of your Sets of Books to prevent loss of data.
+771	Br. ponude:	Quote no.
+772	Od ponude:	From quote
+773	Do naru?be:	From order
+774	Ovaj konto ima uravnoteženje te zbog toga ne može biti izbrisan.	This account has balances, cannot be deleted!
+775	Želite li zapisati ovu kontakt osobu?	Do you want to create this contactperson?
+776	Želite li obrisati ovu kontakt osobu?	Do you want to delete this contactperson?
+777	Kontaktna osoba je izbrisana.	Contactperson deleted!
+778	Pogrešno  ime kontakt osobe	Illegal contact name!
+779	Broj konta mora biti jedinstven.	Account numbers should be unique!
+780	Sve transakcije ae biti izbrisane i konto uravnotežen na nultu vrijednost.	All transactions will be removed and account balances will be set to zero!
+781	Želite li prekinuti proces eišaenja?	Do you want to cancel the clearing process?
+782	vea postoji!	already exist!
+783	Krivi broj dokumenta	Illegal document number!
+784	Krivi broj koda artikla	Illegal stock code!
+785	Uravnoteži kupca sa iznosom < Rx.xx	Balance debtors with amount < x.xx
+786	Kreditor sa charge iznosom	Creditors with charge amount
+787	Dužnik sa  charge iznosom	Debtors with charge amount
+788	Trajni iznos za sve kupce	Fixed amount to all debtors
+789	kamata koju mora platiti dužnik koji je  zakasnio sa plaeanjem	Interest on overdue debtors
+790	Bilanca kreditora na dan	Creditor balances at date
+791	Izradi	Create receipts
+792	Gotovina	Cash
+793	Eek	Cheque
+794	Ostali	Other
+795	Billion	Billion
+796	Trillion	Trillion
+797	Iznos nije isti kao i transakcijski iznos.	Amount is not the same as the transaction amount!
+798	Narudžba	Orders
+799	Referenca nije ista kao i transakcijska referenca.	Reference is not the same as the transaction reference!
+800	Želite li zatvoriti <@APPNAME@>?	Do you wish to close <@APPNAME@>?
+801	Želite li ptekinuti ispis dokumenta?	Do you want to cancel documents printing?
+802	Metoda nije odabrana, molimo vas odaberite jednu	No method selected! Please select one!
+803	Ne mogu uzeti artikl sa skladišta kao stavku pošto ga nema na skladištu.	Cannot take stock on for an item with a non-zero quantity on hand!
+804	Korisnieki izvještaj nije odabran, molimo vas odaberite jedan.	No user report selected! Please select one!
+805	Želite li ispuniti sve detalje za ovaj novi kontakt?	Do you want to fill all details for this new contact?
+806	Želite li  promjeniti sljedeai broj dokumenta?	Are you sure you want to change the next document number?
+807	Greška se javila prilikom procesa kopiranja.	Error occurred during copy process!
+808	Popus mora biti u rasponu od 0 % do 99.99 %	Discount must be in range 0 % to 99.99 %
+809	Kamata zanplaaeni  dug mora biti izm?u 0 % to 99.99 %	Interest on overdue amount must be in range 0 % to 99.99 %
+810	Ova cijena je manja nego cijena po jedinici	This price is lower than the unit price of
+811	na skladištni zapis	on the stock file
+812	Strai T3 podaci su uspješno prebaaeni	The old T3 data was successfully converted
+813	Greška se javila prilikom prebacivanja vaših starih T3 podataka.	An error occurred while converting your old T3 data!
+814	Ne mogu naai neplaaeni iznos.	Could not find unpaid amount!
+815	Vaša skupina primljenih i plaeenih raeuna a nije dobro vezana za ovaj bankarski konto .	Your payment and receipt batch are not linked correctly to this bank account!
+816	Nemate tip poreza za dužnika i krditora u poreznom sustavu na bazi plaeanja.	May not have a tax type for a debtor or creditor in the payments based system!
+817	Backup podaci nisu na?eni	Backup file not found in
+818	Select Backup or Restore Mode	Select Backup or Restore mode
+820	Rad na bazi plaeanja a zahtjeva da se svi dužnici i krediori prebace na konta sa otvorenim stavkama? Želite li nastaviti	Running on the payment basis requires that all debtors and creditors be converted to open item account. Do you want to continue?
+821	Metoda plaeanja poreza na bazi plaeanja a tretira porez na bazi plaeanja?Porez se mora paltiti državi samo kada je novac primljen od kupca.Želite li nastaviti.	The payments based method of tax treats tax purely on a cash basis. Tax is payable to the revenue authorities only when it is received from the customer. Do you wish to continue?
+822	Vi radite u sustavu plaeanja poreza prema plaeanju, a  dužnieki konto  ne može biti na?en.Molimo vas uradite namještanje podataka o poduzeau .	You are running payment based method and the due account cannot be found! Please run 'Setup → Company info'!
+823	Kreditna kartica	Credit Card
+824	Pritisnute završi tipku da završite.	Click on [Finish] to execute.
+825	Koji skup knjiga želite koristiti	Which Chart of Accounts do you want to use?
+826	Molimo vas upišite naziv novog skupa knjiga	Please type in the name of the new Set of Books!
+827	Od skupine	From batch
+828	Zatvori	Close
+829	Vi nemate prava za nastavak. Pristup ovom procesu je zabranjen.	You have no right to process!  Access to this process denied!
+830	Molimo vas kontaktirajte vašeg <@APPNAME@> administratora.	Please contact your <@APPNAME@> administrator!
+831	Ovaj konto je ugašen i ne može biti u upotrebi.	This account is disabled and cannot be used!
+832	Konto ne postoji operacija ne može biti izvršena.	Account does not exist! Process cannot be performed!
+833	Ne mogu otvoriti fax potpisnu datoteku	Cannot open fax signature file in
+834	Backup / Restore	Backup / Restore
+835	Z&atvori skup knjiga	C&lose Set of Books
+836	&Backup / Restore skup knjiga	&Backup / Restore Set of Books
+837	Da&ta Re-Index	Da&ta Re-index
+838	&Kontakt	&Contacts
+839	Ponud&a	&Quotes
+840	Po&tvrdi	Co&nfirm
+841	Na&rudžba	Or&ders
+842	&Izvješae o dobiti	&Income statement
+843	&Ispis kontakata	&Contact listing
+844	&Povrat narudžbe	&Backorders
+845	&Internet	&Internet
+846	&Financijske kategorije	&Financial categories
+847	&Fontovi	&Fonts
+848	Podaci &Parameteri	System &parameters
+849	Prilagodi jezik	Customise language
+850	&Uvoz	&Import
+851	Pokaži &dobrodošlicu	Show &welcome
+852	Online &Registration	Online &registration
+853	Online &Update	Online &update
+854	&Traži	&Browse
+855	Prodavae po prodanima proizvodima	Salesperson per product
+856	Prodavae po kupcima	Salesperson per customer
+857	Proizvodi po kupcima	Product per customer
+858	Proizvodi po prodavaeima	Product per salesperson
+859	Kupci po prodavaeima	Customer per salesperson
+860	Kupci po proizvodima	Customer per product
+861	Primke po dobavljaeima	Purchases per supplier
+862	Primke po proizvodima	Purchases per product
+863	Opcije ispisa	Printing options
+864	&Printer Setup	&Printer setup
+865	Pošalji izvještaj na:	Send report to:
+866	Kopije:	Copies:
+867	F11: Kopiraj	F11: Copy
+868	&Table	&Tables
+869	Artikli	Stock
+870	&Prihvatljivo polje	&Available fields
+871	&Izabrana polja	&Selected fields
+872	Izaberi formu:	Select from:
+873	&Obriši sve	&Clear All
+874	Tablice	Table
+875	Financijsko razdoblje	Financial periods
+876	Prodavae	Salesperson
+877	Kopiraj skup knjiga:	Set of Books to copy:
+879	&Povratak	&Back
+880	Files Corruption	Files corruption
+881	Poravnanja po periodima	Balances per period
+882	Zbrojni konto i artikli	Count accounts and stock items
+883	Dužnici i kreditori	Debtors and creditors
+884	Otvorene skupine i dokumenti	Outstanding batches and documents
+885	Neposlati dokumenti	Unposted documents
+886	Izaberi skup knjiga	Select Set of Books
+887	Provjeri	Check
+888	Prošla godina je zatvorena za slanje	Last year is closed for posting!
+889	Ovaj period je zatvoren za slanje	This period is closed for posting!
+890	Za ukljueenje, otvori opcije izvještajnih datuma	To turn it on, go to 'Setup → Reporting dates'
+891	Backup	Backup
+892	Restore	Restore
+893	Restore From	Restore from
+894	Restore To	Restore to
+895	Backup From	Backup from
+896	Backup To	Backup to
+897	Stop	Stop
+898	Restore skup knjiga	Restore Set of Books
+899	Backup skup knjiga	Backup Set of Books
+900	Backup completed...	Backup completed...
+901	The backup process is completed	The backup process is completed!
+902	Sažimanje	Zipping
+903	Molimo vas stavite disk	Please insert disk!
+904	of the multi-disk Set of Books Backup..	of the multi-disk Set of Books backup.
+905	Select Backup target	Select backup target
+906	Povrat sažetog	UnZipping
+908	The Restore process is completed	The restore process is completed!
+909	Restored	Restored
+910	Umetni posljedniji disk od seta diskova i onda	Insert the last disk of disk set then
+911	Pritisni da za nastavak ili ne za prekid	Click on [Yes] to continue or [No] to abort
+912	Starting Backup...	Starting backup...
+913	Nisu na?ene odgovarajuae knjige:	No valid Set of Books found in:
+914	Ne mogu koristiti ovaj pogon, mapiraj ga i probaj iznova...	Cannot use this drive! Map it and try again...
+915	Cannot run Backup....	Cannot run backup...
+916	Backup incompleted...	Backup incompleted...
+917	Set of Books Backup Process Cancelled by User	Set of Books - Backup process cancelled by user!
+918	Podaci su sažeti	Files compressed
+919	Operacija je prekinuta sa strane korisnika	Process cancelled by the user!
+920	Starting Restore...	Starting restore...
+921	Your Set of Books will be restored in:	Your Set of Books will be restored in:
+922	Files Restored	Files restored
+923	Netoean password	Incorrect password!
+924	Preskaeem datoteku:	Skipping file:
+925	Greška pri otvaranju datoteke	Error: Opening file!
+926	Eekam za poeetak...	Waiting to run...
+927	Ovo namještanje za korisnika je namješteno kao administratorsko za <@APPNAME@>.	This user setting is now turned to administrator user by <@APPNAME@>!
+928	Zapis u dokumentu	Document entry
+929	Primka	Purchases
+930	detalji	Details
+931	Glava	Header
+932	Poeisti vezu	Clear links
+933	Gen BB/F	Generate Balance B/F
+934	Odspoji	Unlink
+935	Ukupni iznos	Total amount
+936	Ukupno preostalo	Total outstanding
+937	Ukupni ledger	Total ledger
+938	Razlika/Iznos	Difference/Amount
+939	Razlika/Preostalo.	Difference/Outstand.
+940	Opcije brisanja veza	Clear link options
+941	Obriši sve veze	Clear all links
+942	Koristi poeetni datum	Use start date
+943	Za kreditni datum	By credit dates
+944	Traži po	Search by
+945	Prijavi	Apply
+946	Iznos	Amount
+947	Preostalo	Outstanding
+948	Konsolidiraj	Consolidate
+949	Pokaži izjavu	Show statement
+950	Poravnaj	Reconcile
+951	Nemoj poravnavat	UnReconcile
+952	&Traži	&Search
+953	Proces	Process
+954	Poravnato	Reconciled
+955	Razlika	Difference
+956	Traži po referencama	Search by reference
+957	1 Traženje po iznosu	Search by amount
+958	Traženje po datumu	Search by date
+959	Trenutni bankarski konto	Current bank account
+960	Ukupno	Total
+961	Poslano	Posted
+962	Neposlano	Unposted
+963	Stavka plaeanja	Payment item
+964	Stavka racuna	Receipt item
+965	Prodajni konto i kontrolni konto zaliha nisu dobro namješteni za ovaj artikl	Stock control and / or Sales account not set up correctly for this stock item!
+966	Ovaj dokument ne može biti poslan,molimo vas odaberite dobar prodajni konto, kontrolni konto zaliha (i konto troškova prodaje) te ih onda pošaljite	This document cannot be posted! Please set up correctly - Sales, Stock control account (and Cost of sales account) and then post it!
+967	Neregistrirana kopija <@APPNAME@>-a	Unregistered copies of <@APPNAME@>
+968	are limited to 500 transactions or 500 documents	are limited to 500 transactions or 500 documents
+969	&Get it Online	&Get it online
+970	Otkljueavajuai kod ( od <@APPNAME@>a):	Unlocking code (from <@APPNAME@>):
+971	Serial Number (On Disk):	Serial number:
+972	Registriraj <@APPNAME@>	Register your <@APPNAME@>
+973	da dobiješ svoj otkljueavajuai kod ili	To get your unlocking code or
+974	Telefon:	Phone:
+975	Ova kopija <@APPNAME@> a nije registrirana dali je želite registrirati sada?	This copy of <@APPNAME@> is not registered! Do you wish to register it now?
+976	Naziv poduzeaa:	Company name:
+977	Analiza nabave	Purchase analysis
+978	Opcije bilance	Balance sheet options
+979	Prikaži decimale	Show decimal
+980	Opcije prikaza raeuna dobitka i gubitka	Income statement options
+981	Prikaži prošlu godinu	Show last year
+982	Prikaži odstupanja	Show variance
+983	Novo	New
+984	Obriši	Delete
+985	Monitor	Screen
+986	Printer	Printer
+987	Start	Start
+988	Kraj	End
+989	Auto odabir	Auto-select
+990	Bar Code	Barcode
+991	Bar Code	Barcode
+992	Proizvodi po kupeevim opcijama	Product per customer options
+993	Proizvodi po opcijama prodavaea	Product per salesperson options
+994	Kupci po opcijama prodavaea	Customer per salesperson options
+995	Kupci po opcijama proizvoda	Customer per product options
+996	Prodavae po opcijama kupca	Salesperson per customer options
+997	Knjiga gotovinskog plaeanja	Payments cashbook
+998	Knjiga primljenog novca	Receipt cashbook
+999	Ukljueen porez	Inclusive mode
+1000	Bilanca	Balance sheet
+1001	Standardne postavke Windowsa	Windows default
+1002	Konta	Accounts
+1003	Izaberi kontakt	Select contact
+1004	Izaberi grupe	Select groups
+1005	Želite li prekinuti proces zatvaranja knjigovodstvene godine?	Do you want to cancel the year-end process?
+1006	Želiteli sigurno izbrisati ovaj korisnieki izvještaj?	Are you sure you want delete this user report?
+1007	Ovo ae uvelike promjeniti vaše knjige dali ste sigurni da želite obrisati ovaj tip skupine?	This will seriously affect your Set of Books! Are you sure you want delete this batch type?
+1008	Prodaja po opcijama proizvoda	Sales per product options
+1009	Standardni izlaz	Default output
+1010	Company Logo	Company logo
+1011	Koristi sliku loga na izvješju	Use logo on reports
+1012	Opcije	Options
+1013	Preimenuj	Rename
+1014	&Ueitaj iz datoteke	&Load from file
+1015	&Zalijepi	&Paste
+1016	&Poeisti	&Clear
+1017	<@APPNAME@> - Ueitaj sliku	<@APPNAME@> - Load logo
+1018	Obriši ponudu	Delete quotes
+1019	Obriši narudžbe	Delete orders
+1020	Ispiši standardni logo	Print standard logo
+1021	Probna bilanca	Trial balance
+1022	za	to
+1023	Neto Profit	Net profit
+1024	Strana	Page
+1025	Neto izgubljeno	Net loss
+1026	Ukupno za	Total for
+1027	Proraeun	Budget
+1028	kao na	As at
+1029	&ponovo pokreni	&Re-run
+1030	T&ok  novca	C&ash flow
+1033	Opcije analize plaaanja kreditorima	Creditor age analysis options
+1034	Opcije knjige	Ledger options
+1035	Svaki period zasebno	Each period separately
+1036	Nova stranica po kontu ?	New page per account
+1037	Datum izvještaja	Date of report
+1039	Izaberi izvještaj	Select report
+1040	Prikaži linije	Show lines
+1041	Spec File	Spec file
+1042	Opcije izvještaja labela	Labels report options
+1043	Opcije izvještaja dužnika	Debtor listing options
+1044	Opcije izvještaja kreditora	Creditor listing options
+1045	Opcije toka novca	Cash flow options
+1046	Periodi	Periods
+1047	Od konta banke.	From bank account
+1048	Ukljuei blagajnu	Include petty cash
+1049	Naziv skupa knjiga ne može biti prazan	Set of Books name cannot be blank!
+1050	Standardni Zoom pogled	Default zoom preview
+1051	Opcije po prodavaeima i proizvodima	Salesperson per product options
+1052	Oeisti listu	Purge list
+1053	Izaberi namještene podatke o kompaniji koje želiš promjeniti	Select 'Setup → Company info' you want to change!
+1054	Želiš li prekinuti proces?	Do you want to cancel the process?
+1055	Želiš li obrisati prodavaea	Do you want to delete the salesperson?
+1056	Sve prodajne cijene	All selling prices
+1057	Nema	None
+1058	Opis artikla	Stock description
+1059	Prvi izvještaj je u radu, nemogu raditi dva izvještaja	Cannot run a report twice! The first report is running!
+1060	Tvoj skup knjiga nije u redu. Pokreni reindex podataka za ponovnu izgradnju klljuenih vrijednosti	Your Set of Books is corrupted! Run Data Re-index to rebuild key values.
+1063	Izaberi Lotus predložak za artikle	Select spreadsheet stock file
+1064	Password	Password
+1065	Kontaktno ime	Contact name
+1066	Otvaranje uravnoteženja	Opening balances
+1067	&Predpogled	&Preview
+1068	Izaberi tip	Select type
+1069	Od ... Do	From ... to
+1070	Izabrano	Selected
+1071	Skupine	Batches
+1072	Korisnik	User
+1073	Povezano	Online
+1074	Ueitaj skupinu	Update batches
+1076	Prikaži skladištne grupe	Show stock groups
+1077	Primke po opcijama proizvoda	Purchases per product options
+1078	Primke po opcijama dobavljaea	Purchases per supplier options
+1079	Tip	Type
+1080	Koristi	Use
+1081	Konto troškova prodaje	Cost of sales account
+1082	Opcije ponovnog narueivanja	Reorder options
+1083	Opcije povrata narudžbe	Backorder options
+1084	Prikaži sve stavke	Show all items
+1085	Nova stranica po stavki ?	New page per item
+1086	Opcije dokumenata za isporuku	Delivery note options
+1087	Tip dokumenta	Document type
+1088	Samo zadnja godina	Last year only
+1089	Podsjetnik	Creditor remittance advise
+1090	Izjava dužnika	Debtor statement
+1091	Grafieki prikaz	Graph
+1092	Kalkulator	Calculator
+1093	Backspace	Backspace
+1094	Prijenos	Transfer
+1095	Ispis Dokumenata	Print documents
+1096	Neispisano	UnPrinted
+1097	Neposlano	Unposted
+1098	Svi	All
+1099	Plaeanje	Payment
+1100	Primanje	Receipt
+1101	Neporavnate opcije	UnReconcile options
+1102	Neporavnato po danu	UnReconcile by date
+1103	Neporavnato po referencama	UnReconcile by reference
+1104	Opcije poravnavanja	Reconcile options
+1105	Poravnavanje po danu	Reconcile by date
+1106	Poravnavanje po referencama	Reconcile by reference
+1107	Direktorij	Directory
+1108	Opis konta	Account description
+1109	Tip konta	Account type
+1110	Na bazi raeuna	Invoice based
+1111	Na bazi plaeanja	Payments based
+1112	Preprinted	Preprinted
+1113	Plain A4	Plain A4
+1114	Service	Service
+1115	Plain Eyeline	Plain Eyeline
+1116	Forty	Forty
+1117	Dodano	Added
+1118	Prikaži kontaktne osobe	Show contactperson
+1119	Od liste	From list
+1120	Dokument broj	Document no.
+1121	Dokument datum	Document date
+1122	"Ime cijene",vrijednost	"Price Name",Value
+1123	Obrisano	deleted!
+1124	Nedostaju ili su netoeni podaci o kontrolnim kontima kreditorima, Molimo vas kontaktirajte <@APPNAME@> za pomoa.	Missing or corrupted debtors and creditors control accounts! Please contact <@APPNAME@> for support!
+1125	Dugovni	Due
+1126	Plaeanje po vremenskom redosljedu	Brought forward
+1127	Carried forward	Carried forward
+1128	Izjava za	Statement to
+1129	Podsjetnik za	Remittance advise to
+1130	Porezni broj od kupca:	Customer tax ref.
+1131	Jedinica	Unit
+1132	Cijena	Price
+1133	Raeun je prihvaaen	Invoice accepted
+1134	Potpis	Signature
+1135	Porezni broj	TAX registration
+1136	Iznos bez poreza	Amount exclusive
+1137	Iznos s porezom	Amount inclusive
+1138	Porez	Tax amount
+1139	broj.	Inv.
+1140	stavka	Item
+1141	Popust	Discount
+1142	Opis artikla	Stock item description
+1143	Kategorija	Category
+1144	Adresa dobavljaea	Supplier address
+1145	Adresa za	Invoice address
+1146	Povratnica od kupca prihvaaena	Credit note accepted
+1147	GRV Prihvaaen	Purchase document accepted
+1148	Ponuda prihvaaena	Quote accepted
+1149	Narudžba prihvaaena	Order accepted
+1150	Dostavnica prihvaaena	Delivery note accepted
+1151	Imovina	Assets
+1152	Ukupna imovina	Total Assets
+1153	Kapital i obveze	Capital and Liabilities
+1154	Ukupni kapital i obveze	Total Capital and Liabilities
+1155	Ukupno Net profit/loss	Total Net Profit/Loss
+1156	Nelocirano	unllocated
+1157	do	at
+1158	Izvještaj o prihodu i rashodu	Income and expense report
+1159	Odstupanja	Variance
+1160	Net Profit/Loss	Net Profit/Loss
+1161	Search stopped, limit reached.	Search stopped! Limit reached!
+1162	Današnji dan je izme?u vašeg financijskog perioda, morate napraviti ob za kraj godine	Today's date is beyond your financial period. You should run your year end to process to this date!
+1163	&Lookup	&Lookup
+1164	&Kupac	&Customer
+1165	&Float	&Float
+1166	&Plaeanje	&Payment
+1167	&Obriši sve	&Delete all
+1168	Molimo vas proeitajte ovo	Please read this
+1169	Novac u kasi	Cash in drawer
+1170	Kreditne kartice	Credit Cards
+1171	Tok unutra/van	Float in/out
+1172	Eekovi	Cheques
+1173	Vaueeri	Vouchers
+1174	POS pristupna kontrola	POS Access control
+1175	Logiranje u POS	Point-of-Sale login
+1176	Ime blagajnika	Cashier name
+1177	(Ime prodavaea)	(Saleperson name)
+1178	Upamti moje logiranje	Remember my login
+1179	Kljue	Key
+1180	Popis kratica	Abbreviation list
+1181	Promjene dužnika	Debtor movement
+1182	Promjene kreditora	Creditor movement
+1183	Promjene konta	Account movement
+1184	Krakteristike proraeuna	Budget performance
+1185	Razlike u iznosima	Variance amount
+1186	Razlike u postocima	Variance percentage
+1187	Zadržana dobit	Retained income
+1188	Pri/Ras	Inc / Exp
+1189	Popis konta	List of accounts
+1190	Stavke po redu povrata	Items on backorder
+1191	Narudžbe za povrat koje su preostale	Backorders
+1192	Totali za svaki period	Totals for each period
+1193	Za uravnoteženje	To balance
+1194	Detalji sadržaja skupine	Batch entry details
+1195	Ukljueeno	Inclusive
+1196	Kontra	Contra
+1197	<@APPNAME@> podrška	<@APPNAME@> Support
+1198	<@APPNAME@> potporna stranica	<@APPNAME@> Support page
+1199	Detalji izvještaja po tipu skupine	Batch type details report
+1200	Iznos sa iskljueenim PDV-om	Excl. amt.
+1201	Iznos sa ukljueenim PDV-om	Incl. amt.
+1202	Ukupno:	Total:
+1203	Istražitelj	Investigator
+1204	Traži	Search
+1205	Traži za	Seach for
+1206	Traži sada	Search now
+1207	Napredne opcije	Advanced options
+1208	Povrat	Back
+1209	Ponovo definiraj tip traženja	Refine search
+1210	Na?en je ogranieen zapis	Record found limit
+1211	Upiši što tražiš ako želiš tražiti odre?eni tip, provjeri odgovarajuau tipku ili pritisni dole za ponovno pretraživanje	Type in what you are looking for if want to look a specific type check the corresponding button or click down here to refine your search.
+1212	Tip pretraživanja	Search tip
+1213	Informacije o kontima	Account information
+1214	Osjetljivost na slova	Case sensitive
+1215	Where ever in	Where ever in
+1216	Poeetna pozicija	Starting position
+1217	Završetak	Ending
+1218	Više	More
+1219	Opcije pretraživanja	Search options
+1220	Naziv racuna	Account names
+1221	Sve	Everything
+1222	Izaberi dužnika	Select debtor
+1223	Pretvaranje ponude u raeun	Quotes to convert to invoice
+1224	Narudžba broj	Order no.
+1225	Pretvaranje narudžbe u primku	Order to convert to purchase
+1226	Izaberi kreditora	Select creditor
+1227	Traži po broju	Search by number
+1228	Traži po kontu	Search by account
+1229	Traži po opisu	Search by description
+1230	Tijek novca	CASH flow
+1231	Otvaranje uravnoteženja banke	Opening BANK balance
+1232	Neto tijek novca	Net cash flow
+1233	Total  uravnoteženja banke	Total bank balance
+1234	Otvaranje uravnoteženja blagajne	Opening petty cash balance
+1235	U blagajnu	Petty cash in
+1236	Van blagajne	Petty cash out
+1237	Aisti tok  blagajne	Net petty cash flow
+1238	Total blagajne	Total petty cash
+1239	Total toka novca	Total cash flow
+1240	Dostupna noveana sredstva	Funds available
+1241	NOVAC PRIMLJEN	CASH RECEIVED
+1242	PLAAENO NOVCEM	CASH PAID OUT
+1243	Provjera novca u POS-u	Point-of-Sale cash-up check
+1244	Sistem	System
+1245	Kolieina	Quantity
+1246	Novac u kasi	Cashed up (in the drawer)
+1247	Ukupno	Summary
+1248	Provjeravam neposlane stavke	Checking unposted items
+1249	Stavke	Items
+1250	Brojae	Count
+1251	Pregled kontakata	Contact listing
+1252	Telefon 1	Telephone 1
+1253	Telefon 2	Telephone 2
+1254	Email Address	E-mail address
+1255	Procesiranje	Processing...
+1256	Molim saeekajte...	Please wait...
+1257	Realni brojevi	Real numbers
+1258	Fix Decimals	Fix decimals
+1259	Kolieina dokumenata	Document quantity
+1260	Decimale u izvještaju	Reporting decimals
+1261	Datum spremanja	Data storage
+1262	Izvještajni iznos s	Report amounts with
+1263	Za kredit	for Credit
+1264	za Debit/Credit	for Debit/Credit
+1265	T-Account preglednik	T-Account viewer
+1266	Point- of-Sale	Point-of-Sale
+1267	&Script Engine	&Script engine
+1268	Prodajni dokumenti	Sales documents
+1269	Dokumenti primki	Purchase documents
+1270	POS	POS Invoice
+1271	Unesi iznos za povezivanje	Enter amount to link
+1272	Unesi iznos	Enter amount
+1273	Broj racuna	Receipt number
+1274	Izdano od	Issued by
+1275	Naein plaaanja	Payment method
+1276	Primljeno za	Received for
+1277	Primljeno od	Received from
+1278	Otvori stavku	Open item selection
+1279	Pmt Reference	Payment reference
+1280	Preostalo	Outstanding
+1281	Transakcije s dužnicima	Debtor transactions
+1282	Detaljna knjiga	Detailed ledger
+1283	Transakcije s kreditorima	Creditor transactions
+1284	Rang izvještaja	Report range
+1285	Reference	Reference
+1286	Ukupno uravnoteženje	Cumulative balance
+1287	Uravnoteženje sa	Balance at
+1288	Otvaranje uravnoteženja sa	Opening balance at
+1289	Zatvaranje uravnoteženja sa	Closing balance at
+1290	Total sakupljenoga	Accumulative total
+1291	Ponovna izgradnja baze	Database rebuild
+1292	Izaberi skup knjiga za ponovnu izgradnju	Select Set of Books to rebuild
+1293	Status	Status
+1294	Glava	Header
+1295	Indexes	Indexes
+1296	Podaci	Data
+1297	Ponovo izgradi	Rebuild
+1298	Svi korisnici se moraju izlogirati prije poeetka procesa	All users must logout before running this process!
+1299	Eekam da krenem ...	Waiting to run...
+1300	Ponova izgradnja kljueeva	Re-building keys...
+1301	Provjereno	Checked
+1302	Vrijednost kljuea	Key values
+1303	Kvarenje kljuea	Key corruption
+1304	Provjereno OK file(s)	Checked OK file(s)
+1305	Pokvareno file(s)	Corrupted file(s)
+1306	Transakcija Datum/Period ponovo izgra?ena	Transaction date/period rebuilt
+1307	Transakcija Datum/Period neuspjela. Probaj ponovo.	Transaction date/period failed! Try again!
+1308	Ueitavam Message.db zapise	Loading Message.db records
+1309	Sažimam Message.db	Compressing Message.db...
+1310	Greška u popunjavanju tablice	Error: Filling table structure!
+1311	Ponovna izgradnja	Rebuilding...
+1312	Dobit aete izvještaj po datumima	Get date report value
+1313	Povratnica od kupca	Delivery note
+1314	Ulaz u opcije racuna	Receipt options
+1315	Izlazni izvještaj	Print out
+1316	Pregled konta dužnika	List of debtor accounts
+1317	Pregled konta kreditora	List of creditor accounts
+1318	Nelocirano	Unlocated
+1319	Telefon	Telephone
+1320	Otvorena stavka	Open item
+1321	Uravnoteženje B/F	Balance B/F
+1322	Ukljueeno	Enabled
+1323	Izvještajna  Groupa 1	Reporting group 1
+1324	Vremenski tip	Age type
+1325	Izvještajna  Groupa 2	Reporting group 2
+1326	Prodavae	Salesperson
+1327	Kontakt	Contact
+1328	Mjeseeni interes	Monthly interest
+1329	Izvještaj tipa	Report type
+1330	Margine	Margins
+1331	velieina papira	Paper size
+1332	Kvaliteta papira	Paper quality
+1333	Ostali	Others
+1334	preostalo	Left
+1335	Gore	Top
+1336	Desno	Right
+1337	Dolje	Bottom
+1338	mm	mm
+1339	Duljina	Length
+1340	Širina	Width
+1341	Default	Default
+1342	Korisnieki	Custom
+1343	Papir	Paper
+1344	Crtež	Draft
+1345	Pismo	Letter
+1346	Kupac	Customer
+1347	Izaberi kupca	Select customer
+1348	Pritisni <ESC> da zatvoriš	Press <ESC> to close
+1349	Ostalo za platiti	Still to pay
+1350	Zaracunato na	Charge to account
+1351	Kod konta banke	Bank account code
+1352	Broj eeka	Cheque number
+1353	Broj kartice	Card number
+1354	Ime vlasnika	Holder's name
+1355	Tip kartice	Card type
+1356	Istiee datumom	Expiry date
+1357	POS analiza prodaje	POS Sales analysis
+1358	Opis stavke	Item description
+1359	Prodajni iznos	Sales amount
+1360	Totali	Totals
+1361	Uravnoteženje	Balance
+1362	Unos cijene	Edit price
+1363	Koristi traženje po serijskom broju	Use serial number tracking
+1364	Standardni metod plaaanja	Default payment method
+1365	Limit toka	Float limit
+1366	Allow Cash Float	Allow cash float
+1367	General	General
+1368	Namještanje	Settings
+1369	Ulaz	Entry
+1370	Prikljueci	Peripherals
+1371	Ulazni zaslon	Entry screen
+1372	Ledger	Ledger
+1373	Ispis kupeevih detalja	Print customer details
+1374	Ispis adrese isporuke	Print delivery address
+1375	Ispis detalja plaeanja	Print payment details
+1376	Upis u skupinu prodaje	Sales batch entry
+1377	Upis u skupinu primljenih uplata	Receipts batch entry
+1378	Upis opisa plaeanja	Payment description entry
+1379	Konto prodaje za keš	Cash sales account
+1380	Konto za transfer gotovine	Cash transfer account
+1381	Till Account	Till account
+1382	Max Cash in Till	Max cash in till
+1383	Sljedeai broj	Next number
+1384	&Koristi POS poruku	&Use POS messages
+1385	Ladica na kasi prikljueena	Drawer connected
+1386	Barcode Scanner prikljueen	Barcode scanner connected
+1387	&Test ladice	&Test drawer
+1388	Serial Port Parameteri	Serial port parameters
+1389	Port	Port
+1390	Otvori ladicu od kase za	Open cash drawer for
+1391	Parallel Port	Parallel port
+1392	Serial Port	Serial port
+1393	Baud Rate	Baud rate
+1394	Data Bits	Data bits
+1395	Stop Bits	Stop bits
+1396	Parity	Parity
+1397	Port Number	Port number
+1398	Potvrdi ispis	Confirm printing
+1399	Koristi prvi printer	Use first printer
+1400	Koristi drugi printer	Use second printer
+1401	Drugi printer	Second printer
+1402	Prvi printer	First printer
+1403	&Test Printera	&Test printers
+1404	Printer Control Code	Printer control code
+1405	Login	Login
+1406	Unesi password	Enter your password
+1407	Dotmatrix Printer Paper Setup	Dot-matrix printer paper setup
+1408	Parametri podataka	System parameters
+1409	POS Setup	POS setup
+1410	&Koristi poruku na u	&Use invoice messages
+1411	Printeri	Printers
+1412	Greška prilikom izvoza podataka ili krivi format zapisa	Error while importing or invalid file format!
+1413	Korisnik ne može koristiti ovu skupinu.	User cannot use this batch!
+1414	Da ukljueiš pristup koristi :Setup->System Parameteri->kontrola pristupa	Enable access in 'Setup → Access control'
+1700	Analiza dobavljaea po vremenu	Creditor age analysis
+1701	Referentni broj	Reference no.
+1702	Total transakcije	Transaction total
+1703	Totali za izvještaj :	Totals for report :
+1704	Analiza dužnika po vremenu kao	Debtor age analysis as at
+1706	Ne	No.
+1707	Kod artikla	Stock code
+1708	Opis	Description
+1709	cijena	Price
+1710	kolieina	Qty
+1711	Popust	Discount
+1712	Iznos	Amount
+1713	Float Movement	Float movement
+1714	Ulaz u POS	Point-of-Sale invoice entry
+1715	&Izvan ladice kase	&Out of the drawer
+1716	&U ladici kase	&Into the drawer
+1717	Kupac	Customer
+1718	Prodavae:	Salesperson:
+1719	Referenca	Reference
+1720	Standardni kupeev  nije namješten, molimo vas namjestite ga	Default customer account not setup! Please setup!
+1721	Novi racun	New invoice
+1722	Rae. %s (kredit kartica)	Inv. %s (Credit Card)
+1723	Rae. %s ()	Inv. %s (Account)
+1724	Rae. %s (Vaueer)	Inv. %s (Voucher)
+1725	Rae. %s (Eek)	Inv. %s (Cheque)
+1726	Rae. %s (Gotovina)	Inv. %s (Cash)
+1727	(Kreditna kartica)	(Credit Card)
+1728	(Raeun)	(Account)
+1729	(Vaueer)	(Voucher)
+1730	(eek)	(Cheque)
+1731	(Gotovina)	(Cash)
+1732	Broj kartice:	Card number:
+1733	Ime vlasnika:	Holder name:
+1734	Tip kartice:	Card type:
+1735	Istiae dana:	Expiry date:
+1736	Želite li zatvoriti i prekinuti ovaj  odmah ?	Do you want to close and cancel this invoice now?
+1737	Ne mogu raditi bez standardnih podataka	Cannot run without default!
+1738	Ovo ae zatvoriti ulau u  i poslati sve POS e na ...	This will close the invoice entry screen and post all POS invoices for...
+1739	Promjenjeno za uzvreanje.	Change to give back.
+1740	Hvala.	Thanks.
+1741	Zatvaranje shifta i slanje svih a	Closing shift and posting all invoices
+1742	Slanje dokumenata	Posting document...
+1743	Till Splip PRINTER TEST	Till slip PRINTER TEST
+1744	Ravnanje lijeve strane	Left alignment
+1745	Ravnanje centra	Centre alignment
+1746	Ravnanje desne strane	Right alignment
+1747	3 Prazne linije	3 Blank lines
+1748	Gore 3 prazne linije ?	Up 3 blank lines ?
+1749	<@APPNAME@> Till Test	<@APPNAME@> till test
+1750	&Uzimanje novca	&Cash up
+1751	&Reprint zadnje a	&Reprint last invoice
+1752	Za&tvori Shift	Cl&ose shift
+1753	Uklj/Isklj. PDV	Incl./Excl. mode
+1754	&Izvještaj	&Report
+1755	&otvorena ladica blagajne	&Open drawer
+1756	Promjeni  Alias	Change alias (batch name)
+1757	Reverse Batch	Reverse batch (D<-->C)
+1758	Uvoz poslanih skupina	Posted batches import
+1759	Point-of-Sales	Point-of-Sale
+1760	Traži	Search
+1761	&Dizajner izvještaja	&Report designer
+1762	&Standard	&Standard
+1763	Traži	Search
+1764	Nova stavka	New item
+1765	Obriši stavku	Delete item
+1766	&Napredno	&Advanced
+1767	Prilagodi	Adjustment
+1768	Srednja && Zadnja cijena	Ave & latest cost
+1769	Kal && Srednja cijena	Qty & ave cost
+1770	Prodajne cijene	Selling prices
+1771	Uzimanje artikla	Stock take-on
+1772	Kod artikla	Stock code
+1773	Opis	Description
+1774	Barcode	Barcode
+1775	Jedinica	Unit
+1776	Kolieine	Quantities
+1777	Na zalihama	On hand
+1778	Ponovo narueivanje	Reorder
+1779	Kal && Zadnja cijena	Qty & latest cost
+1780	Prodajna cijena 1	Selling price1
+1781	Prodajna cijena 2	Selling price2
+1782	Prodajna cijena 3	Selling price3
+1783	nabavna cijena	Cost
+1784	Srednja cijena nabave	Avg. cost
+1785	Cijena nabave po jedinici	Unit cost
+1786	Popust	Discount
+1787	Ulaz	Input
+1788	Izlaz	Output
+1789	Porezni	Tax accounts
+1790	Glavna knjiga salda konta	General ledger accounts
+1791	Cijena nabave	Cost
+1792	Prodaja	Sales
+1793	Artikli	Stock
+1794	Izvještajne grupe	Reporting group
+1795	Izvještajna  grupa 2	Reporting group2
+1796	Izvještajna grupa	Reporting group
+1797	Koristi predložak	Use spreadsheet file
+1798	Napravi transakciju	Generate transactions
+1799	Koristi postotak	Use percentage
+1800	Za sve stavke	To all items
+1801	Barcode	Barcode
+1802	Datum	Date
+1803	Mijenjanje koda artikala rezultirat ae upotrebom tog koda kod svih izvještaja.	Changing the stock code will result in all reports to use this code!
+1804	Želite li sigurno izmijeniti ovaj kod?	 Are you sure you want to change the code?
+1805	Plug-Ins	Plugins
+1806	Izradi skup knjiga...	Creating Set of Books...
+1807	Radim zahtjevani ...	Creating required accounts...
+1808	Radim zahtjevani  (kontrolni za kreditora)...	Creating required accounts (Creditors control)...
+1809	Kreditorov kontrolni	Creditors control
+1810	Radim zahtjevani  (dužnikov kontrolni)...	Creating required accounts (Debtors control)...
+1811	Dužnikov kontrolni	Debtors control
+1812	Radim zahtjevani  (Zadržane dobiti)...	Creating required accounts (Retained earnings)...
+1813	Zadržana dobit	Retained earnings
+1814	Gotovo !	Finished!
+1815	Izaberi kontrolne konte, namjesti podatke o poduzeau i parametre	Set control accounts number and company setting and parameters
+1816	Daj ime novom setu knjiga	Enter the name of new Set of Books
+1817	Kopiranje skupa knjiga :	Set of Books to copy :
+1818	Konvertiranje satarog skupa knjiga :	Old Set of Books to convert :
+1820	&Traži	&Browse
+1821	Izra?ujem skup knjiga...	Creating set of accounts...
+1822	Želite li odrediti broj knjigovodstvenih perioda u vašoj financijskoj godini i postaviti poeetni datum ?	Accounting periods setup
+1823	Želite li promjeniti tip skupine.	Batch types setup
+1824	Želite li promjeniti grupe.	Groups setup
+1825	Prodajete li artikle?	Documents setup
+1826	Dodaj prodavaea	Add salespersons
+1827	Kopiranje skupa knjiga :	Set of Books copied!
+1828	Ime :	Name :
+1829	Lokacija :	Location :
+1831	Konvertiranje skupa knjiga...	Converting Set of Books...
+1832	Stavka broj	Item no.
+1833	Grupe konta	Account groups
+1834	Grupe dužnika	Debtor groups
+1835	Grupe kreditora	Creditor groups
+1836	Grupe artikala	Stock groups
+1837	Grupe dokumeneta	Document groups
+1838	Groupa 1	Group1
+1839	Groupa 2	Group2
+1840	Novo	New
+1841	Promjeni	Edit
+1842	Obriši	Delete
+1843	Gore	Move up
+1844	Dole	Move down
+1845	Naziv izvještajnih grupa:	Reporting group name:
+1846	Grupe	Groups
+1847	KORJEN IZVJEŠTAJNIH GRUPA	REPORTING GROUP ROOT
+1848	Postoji podzapis, prvo njega obriši !	There are subnodes delete subnodes first!
+1849	Brisanje totala...	Clearing totals...
+1850	Brisanje transakcije...	Clearing transactions...
+1851	Brisanje transakcije artikala...	Clearing stock transactions...
+1852	Brisanje informacije o artiklima...	Clearing stock information...
+1853	Brisanje transakcije dokumenata...	Clearing document transactions...
+1854	Brisanje informacije o skupinama...	Clearing batch information...
+1855	Nova grupa	New group
+1856	Trenutno	Current
+1857	30 Dana	30 days
+1858	60 Dana	60 days
+1859	90+ Dana	90+ days
+1860	Opis	Description
+1861	Narudžba	Order
+1862	Isporuka	Ship
+1863	Porez	Tax
+1864	Isklj. PDV iznos	Excl. amt.
+1865	Popust %	Disc%
+1866	Uklj. PDV iznos	Incl. amt.
+1867	Naziv skupine	Batch name
+1868	Kontra konto	Contra account
+1869	Dokument tip	Document type
+1870	Ponuda	Quotes
+1871	Narudžbe	Orders
+1872	&Add Sel.	&Add selected
+1873	&Ukloni	&Remove
+1874	Potvrdi ponude i narudžbe	Confirm quotes and orders
+1875	Datum	Date
+1876	Konto	Account
+1877	Potvr?eno	Confirmed
+1878	K&onvert	C&onvert
+1879	Izaberi datum	Select date
+1880	&Traži...	&Search...
+1881	Veza	Link
+1882	Proces	Process
+1883	Izjava	Statement
+1884	Preko 90 Dana	Over 90 days
+1885	Dugovanje	Due
+1886	Povijest raeuna	Invoice history
+1887	Ponavljanje raeuna	Invoices to repeat
+1888	Izradi	Generate
+1889	Traži po broju racuna	Search by invoice number
+1890	Dodaj sve	Add all
+1891	Ponavljanje	Repeating
+1892	Prijavi za biranje	Apply to selection
+1893	Prijavi sve	Apply to all
+1894	Poruku je zamjenio	Replace message with
+1895	Izaberi novi  koji se ponavlja	Set new invoice as repeating
+1896	Dodaj liniju za komentar	Add this comment line
+1897	Kontrola pristupa	Access control
+1898	Standardna sigurnost	Standard security
+1899	Korisnieko ime	Username
+1900	Korisnieki E-mail	User e-mail
+1901	Pristup izvještajima	Reports access
+1902	Izvještaj GK	General ledger reports
+1903	Pristup skupinama	Batches access
+1904	Izaberi konto za blokiranje	Select accounts to block
+1905	Ostalo	Others
+1906	Promjeni konta	Edit accounts
+1907	Promjeni artikle	Edit stock
+1908	Izmijeni korisnieki izvještaj	Edit user report
+1909	Novi korisnik	New user
+1910	Predložak	Layout file
+1911	&namještanje stranice	&Page setup
+1912	Financijske kategorije	Financial categories
+1913	Izaberi kategorije i dodijeli pripadajuae grupe	Select categories and allocate appropriate groups
+1914	&Kapital	Capital
+1915	&Rashodi	Expenses
+1916	&Prihod	Income
+1917	&Obveze	Liabilities
+1918	Ispiši kapital prije obveza	Print Capital before Liabilities
+1919	Ispiši obveze prije kapitala	Print Liabilities before Capital
+1920	Ispiši prihod prije rashoda	Print Income before Expenses
+1921	Ispiši rashode prije prihoda	Print Expenses before Income
+1922	Grupe	Groups
+1923	Prijenos	Transfering...
+1924	Banka	Bank
+1925	Porez	Tax
+1926	Skupina bankovnog konta nije dobro namještena	Bank account batches not setup correctly!
+1927	Plaeanje -	Payment
+1928	Ne mogu poslati transakciju na konto koji ima pod-konto	Cannot post transactions to an account which has sub-accounts!
+1929	Proces	Process
+1930	Primljeno od	Receiving from
+1931	Ispiši	Print receipt
+1932	na	To
+1933	Sa konta	From account
+1934	Na konto	To account
+1935	Tip konta	Account type
+1936	Odaberi skraeenicu	Set an abbreviation
+1937	Push the key you want to assign an abreviation to	Push the key you want to assign an abbreviation to
+1938	&Ispiši listu	&Print list
+1939	Upiši skraeenicu :	Type in the abbreviation :
+1940	Internet Setup	Internet setup
+1941	E-Mail  :	E-mail account :
+1942	Naziv servera	Server name
+1943	Korisnieki  ID	User id
+1944	Mrežni server ( Ponavljanje podataka )	Network server (data replication)
+1945	Naziv servera	Server name
+1946	ili IP Adresa	or IP address
+1947	&ispitivanje mrežnog servera	&Test net server
+1948	Potvrda %s sa servera %s	Verifying %s on server %s...
+1949	Potvr?eno	verified
+1950	nije potvr?eno. Test nije uspio	not verified! Test failed!
+1951	<@APPNAME@> ReportMail Sender %s E-mail Account %s	<@APPNAME@> Report mail sender %s e-mail account %s
+1952	E-Mail Server nije prona?en...	E-mail server not found!
+1953	Spojeno.	Connected.
+1954	e-mail test u radu...	E-mail test in progress...
+1955	Test završen uspješno	Test finished! Success!
+1956	Nije dobro spojeno	Connection failed!
+1957	Opaa e-mail greška	General e-mail failure!
+1958	Nije spojeno...	Disconnected...
+1959	Provjera identiteta nije uspjela.	Authentication failed!
+1960	Test u radu :%s bytova van od %s	Test in progress :%s bytes out of %s
+1961	! Test spajanja je startao	Connection test started!
+1962	Invalid Server	Invalid server!
+1963	Net Server Resolved	Net server resolved!
+1964	Spajanje s %s	Connecting to %s...
+1965	User Testing on server	User testing on server
+1966	Veza sa serverom je prekinuta	Server connection failed!
+1967	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.	<@APPNAME@> the limit of 500 transactions or 500 document is reached! Please register and buy a licence.
+1968	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.	This software is limited to 500 transactions or 500 documents! Please register and buy a licence for <@APPNAME@>.
+1969	Ne možete imati više od %s za ovu neregistriranu kopij%s <@APPNAME@> -a, molimo vas registrirajte i dobijte licencu.	Cannot have more than %s for this unregistered <@APPNAME@> copie %s! Please register and get your licence code!
+1970	Dozvoljeno je samo od 1 do 13 perioda	Only periods between 1 and 13 are allowed!
+1971	Želite li spremiti promjene ?	Do you want to save these changes ?
+1972	Korisnieki password	User password
+1973	Datum	Date
+1974	Referece	Reference
+1975	Pmt Reference	Payment reference
+1976	Iznos	Number
+1977	preostalo	Outstanding
+1978	Unesi iznos	Enter amount
+1979	Odabir otvorenih stavki	Open item selection
+1980	Korisnieki password	User password
+1981	Uvijek uravnoteži	Always balance
+1982	Bez poreza	No tax
+1983	Nema otvorenih stavki za skupine	Not open item batch
+1984	Obrnuto od kontra	Reverse contra
+1985	Upamti porez za kontra	Remember tax on contra account
+1986	Upamti kontra za konto	Remember contra on account
+1987	Ledgers special	Special ledgers
+1988	Tip zatvaranja koda a	Account lookup type
+1989	tip traženja kontra konta	Contra account lookup type
+1990	Standardno	Standard
+1991	Napredno	Advanced
+1992	kol && zadnja cijena nabave	Qty & latest cost
+1993	Šaljem: %s of %s	Posting: %s of %s...
+1994	Trošak prodaje	COST OF SALES
+1995	COS*DOC*	COS*DOC*
+1996	Provjeravam ulazne podatke u skupini ...	Checking batch entries...
+1997	Ueitavam totals	Updating totals...
+1998	Dokumenti	Documents
+1999	Zalihe	Stock
+2000	Dužnici	Debtors
+2001	Konta	Accounts
+2002	Kreditori	Creditors
+2003	Poslane skupine	Posted batches
+2004	Izvoz prema	Export to:
+2005	Tip datoteke	File type
+2006	Izvoz datoteke naziva	Export files name
+2007	Datoteka naziva	File name
+2008	*Log datoteka	Log file
+2009	Rang	Range
+2010	Od	From
+2011	Do	To
+2012	Datum perioda	Date / Period
+2013	&Izvoz	&Export
+2014	&Uvoz	&Import
+2015	Datoteka za uvoz	File to import
+2016	Zaglavlja	Headers
+2017	Linije	Lines
+2018	Uvoz od:	Import from:
+2019	Pogledaj datoteku	View file
+2020	Uvoz predloška podataka	Import data wizard
+2021	Uvoz podataka u <@APPNAME@>	Import data into <@APPNAME@>
+2022	Uvoz podataka je završen	Data file import completed!
+2023	Nije ugra?en uvoz tog formata datoteke	Import file format not implemented!
+2024	Poredaj po datumima	Sort by date
+2025	Odredite tipove podataka koje uvozite	Please select the type of data you want to import
+2026	Tip podataka za uvoz	Data type to import
+2027	Format datoteke	File format
+2028	Kliknite na import za poeetak procesa	You can now click on [Import] to start the process.
+2029	Promjena Aliasa	&Change alias
+2030	Molimo vas prieekajte...	Please wait...
+2031	Obra?ujem	Processing...
+2032	od	of
+2033	Izmjena podataka o poduzeau	Change company info
+2034	Odabir otvorenih stavaka	Open item selection
+2035	Otvaram ladicu	Opening drawer...
+2036	<@APPNAME@> Invoice	<@APPNAME@> Invoice
+2037	POREZNI RACUN	TAX INVOICE
+2038	Tel.	Tel.
+2039	Fax.	Fax.
+2040	*Cel.	Cel.
+2041	Ukupno dano	CASH
+2042	Ostalo za vratiti	Change
+2043	Porez	TAX-AMT
+2044	22.00%	15.00%
+2045	Blagajnik :	Cashier name :
+2046	Broj	Number
+2047	Ime	Last name
+2048	Kontakt	Contact
+2049	Adresa dostave	Delivery address
+2050	Komentar	Comments
+2051	*Predstavlja stavku bez poreza	*Indicates non-TAX item
+2052	Artikla	Items
+2053	Dugujete	Due
+2054	Zapis je zakljueao drugi korisnik. Ponovite!	Record locked by other user! Please try again!
+2056	Ispiši raeun	Use invoice print
+2057	*Bottom Feed Lines	Bottom feed lines
+2058	Pos uzimanje gotovine	POS Cash up
+2059	*Ne mogu dobii novi broj zapis je zatvoren probjte ponovo kasnije	Cannot get new number! Record is locked! Try again later!
+2060	*Generate bank bookings	Generate bank bookings
+2061	Transakcija bankinog izvještaja	Bank statement transactions
+2062	Izra?ujem bilance ...	Generating balances...
+2063	Tražim preostale bilance	Allocating outstanding balances...
+2064	*Ageing ...	Ageing...
+2065	Stvaram skup knjiga	Creating Set of Books...
+2066	Konsolidiram	Consolidating...
+2067	Uravnotežujem	Balancing...
+2068	Uvozim artikle	Importing stock items...
+2069	Eitam Lotus datotku	Reading spreadsheet file...
+2070	Uvozim konta	Importing accounts...
+2071	Izvozim transakcije	Exporting transactions...
+2072	Izvozim dužnike	Exporting debtors...
+2073	Uvozim artikle	Importing stock items...
+2074	Izvozim skup konta	Exporting chart of accounts...
+2075	Izvozim konta	Exporting accounts...
+2076	Uvozim dokumente	Importing documents...
+2077	Izvozim dokumente	Exporting documents...
+2078	Izvozim u CSV datoteku	Exporting to CSV file...
+2079	Izvozim u Lotus datoteku	Exporting to spreadsheet file...
+2080	Izvozim u OpenOffice predložak	Exporting to OpenOffice spreadsheet file...
+2081	Izvozim u SYLK predložak	Exporting to SYLK spreadsheet file...
+2082	Izvozim u MS Excel datoteku	Exporting to MS Excel file...
+2083	Pripremam listu	Preparing list...
+2084	Vrati nazad poslanu skupinu/dokument	Reverse posted batch/document
+2085	Alias	Alias (batch name)
+2086	Vrati nazad poslanu skupinu	Reverse posted batch
+2087	Vrati nazad poslani dokument	Reverse posted document
+2088	Brojae linija	Line count
+2089	Dok. br.	Doc. no.
+2090	Broj korisnika	Use numbers
+2091	Koristi period	Use periods
+2092	Pokaži kontra	Show contra
+2093	Ukljuei neposlane stavke	Including unposted items
+2094	Želite li koristiti trenutne bilance kao otvorena bilance?	Do you wish to use the current balance as opening balance?
+2095	Ne možete izvještavati od %s do %s	You cannot report from %s to %s !
+2096	Zapis je mjenjan . Želite li poslati svoje podatke?	A record was edited! Do you wish to post you data?
+2097	Float Transfer njie dozvoljen	Float transfer not allowed!
+2098	Još uvije imate izmos za primiti. %s Ne može se napustiti neplaaeni iznos za POS raaun	You still have amount receive. %s Cannot leave unpaid amount for POS invoice!
+2099	Predložak  izvještajne datoteke nije prona?en	Report layout file not found!
+2100	Koristi OK za pamaenje novog imena	Click on [OK] to save new name
+2101	Opai brojevi	General numbers
+2102	Automatski pošalji dokumenat nakon ispisa	Auto-post documents on print
+2103	&Uredi	&Customise
+2104	&Update Server	&Update server
+2105	Verzija :	Version :
+2106	broj	Number
+2107	Pokaži stvarnu adresu	Show contact details
+2108	Od datuma	From date
+2109	Izaberi direktorij skupa knjiga	Select Set of Books directory
+2110	Pro?i kroz folder	Browse for folder
+2111	Samoraspakirajuai exe	Executable exe file
+2112	*E-mail Backup	E-mail backup
+2113	*Restore from Server	Restore from server
+2114	*<@APPNAME@> Select Backup File	<@APPNAME@> select backup file
+2115	Knjigovodstveni znakovi	Account digits
+2116	Naziv skupa knjiga	Name of Set of Books
+2117	Putanja	Path
+2118	Sažmi datoteku s porukom	Compress message file
+2119	Mjenjaj kod	Change code
+2120	Izmjena koda rezultirat ae upotrebom toga koda u svim izvještajima.	Changing the stock code will result in all reports to use this code!
+2121	Želite li sigurno izmijeniti kod?	Are you sure you want to change the code?
+2122	Novi kod za arikl	New stock code
+2123	Kod	Code
+2124	Informacije o artiklu	Stock information
+2125	Ueitaj sve	Update all
+2126	Poravnavam ulaze	BALANCING ENTRY
+2127	Ispravit debit/credit	Correct Debit/Credit
+2128	Ukupno za svaki period	Totals for each period
+2129	Dodaj ovo u opis	Add this to descriptions
+2130	Nova referenca	New reference
+2131	Procesiranje	Process
+2132	&Datum za transakcije	&Date for transactions
+2133	&Kontra konto	&Contra account
+2134	Op&is	De&scription
+2135	Prema kupcu za iznos	To debtors for (amount)
+2136	Prema kupcu s poravnanjem manjim od iznosa	To debtors with a balance less than (amount)
+2137	Broj dana dugovanja	Number of days overdue
+2138	Napravi višestruke transakcije	Generate multiple transactions
+2139	Od dužnika:	From debtor
+2140	Do:	To:
+2141	*%s %s od %s dug preko %s	%s %s of %s overdue on %s
+2142	Por	Bal
+2143	Broj :	Count :
+2144	Koristi A5 velieinu	Use A5 size
+2145	i	and
+2146	Nula	Zero
+2147	Bilanca banke na	Bank balance at
+2148	Prema <@APPNAME@>:	According to <@APPNAME@>:
+2149	PORAVNANJE S	BALANCE AT
+2150	Artikli na zalihama	items on hand
+2151	Unesi sveukupni popust	Enter overall discount
+2152	Povratnica od kupca	Credit note
+2153	Primka	Purchases
+2154	Povratnica dobavljaeu	Supplier returns
+2155	Roba/Vraaeno	Invoice
+2156	Raeun ukupno:	Invoice totals :
+2157	K/Zapis Ukupno :	Credit note totals :
+2158	Kupeev ukupni iznos :	Customer totals :
+2159	Analiza prodaje - Prodaja po kupcu	Sales analysis - Sales per customer
+2160	Ukupno primke :	Purchase totals :
+2161	Roba/vraaeno Total :	Supplier return totals :
+2162	Ukupno dobavljaa :	Supplier totals :
+2163	Analiza prodaje - Primke po dobavljaau	Purchase analysis - Purchases per supplier
+2167	Traži po br. rac.	Search by invoice no.
+2168	Lokacija skupa knjiga :	Set of Books location :
+2169	Kolieina	Quote
+2170	Narudžba	Order
+2171	Upotrijebi referncu	Use reference
+2172	Izradi poravnanje s BF opcijom	Generate Balance B/F options
+2173	Oeisti link opcije	Clear links options
+2174	Sa Debitnim datumom	By debit dates
+2175	Ukljuei  stavke od	Include items since
+2176	Trenutni datum	Current date
+2177	Iznos poreza prona?en ali je porezni konto  izbrisan	Tax amount found but tax account is deleted!
+2178	TROŠAK PRODAJE	COST OF SALES
+2179	Dana	Day
+2180	N	N
+2181	Od dužnika	From debtor
+2182	Prema dužniku	To debtor
+2183	Uvoz : %s  of %s	Importing : %s of %s...
+2184	Uvozim Dužnik/Kreditor	Importing debtors/creditors...
+2185	Moj opis	My description
+2186	Opcije por. konta banke	Bank statement options
+2187	(Dok.)	(Doc.)
+2188	Provjera neposlanih stavki	Checking unposted items
+2189	Samo što je neposlano	Unposted only
+2190	Svaka skupina posebno	Each batch separately
+2191	Pokaži detalje	Show details
+2192	Printanje	Printing on...
+2193	Nizozemski naein odbrojavanja texta.	Dutch text numbering
+2194	Koristi oznaku za valutu	Use currency sign
+2195	Digit simbol	Digit symbol
+2196	Decimalni simbol	Decimal symbol
+2197	Naein	Mode
+2198	Raeun/Knjigovodstvo	Invoice/Accounting
+2199	Knjigovodstvo	Accounting
+2200	Point-of-Sale	Point-of-Sale
+2201	Ispravak podataka o dužniku	Edit debtors
+2202	Ispravak podataka o kreditoru	Edit creditors
+2203	Ispravak podataka o porezu	Edit tax
+2204	Ispravak podataka o banci	Edit bank
+2205	Vidi ispis izvoda od banke	Manual bank reconciliation
+2206	Addresa 2	Address 2
+2207	Addresa 3	Country
+2208	11 Dokaz	11 Proof
+2209	Presuda	Arbitrair
+2210	Tip  bankarskog konta	Bank account type
+2211	Broj bankovnog konta.	Bank account no.
+2212	Plati kreditora	Automatic payments
+2213	Datum plaeanja	Payment date
+2214	*Create clieop file	Create Clieop file
+2215	Raeun u banci za plaeanje	Payment bank account
+2216	Plati transakciju	Pay transaction
+2217	Spremi datoteku	Save file
+2218	Kod za dužnika	Debtor code
+2219	Kod za Kreditora	Creditor code
+2220	Adresa	Address
+2221	Odgoda plaeanja u danima	Due days
+2222	Datum kada treba  platiti	Due date
+2223	Sve je neprovjereno	Uncheck all
+2224	Izabrano nemoj provjeravati	Uncheck selected
+2225	Provjeri izabrano	Check selected
+2226	Izvještaj o plaeanju prema kreditorima	Creditor payment report
+2227	Ukupno redova	Total rows
+2228	Ukupan iznos	Total amount
+2229	Provjerna suma za bankarska konta	Checksum bank accounts
+2230	Unesi referencu za izjavu	Enter statement reference
+2231	Izjava	Statement reference
+2232	Plaeanje	Payments
+2233	Primljene uplate	Receipts
+2234	Zadnja suma	Last total
+2235	Zadnja unešena izjava	Last entered statement
+2236	^O : Obriši izjavu	^D : Delete statement
+2237	Obriši liniju	Delete line
+2238	Uvezi izvadak od banke	Import bank statement
+2239	11 Dokaz	11 Proof
+2240	Nema provjere	No check
+2241	Dana odgode plaeanja	Due days
+2242	Poredaj	Sort
+2243	Y	Y
+2244	N	N
+2245	T	T
+2246	F	F
+2247	Zašto	Wy
+2248	Obriši	Delete
+2249	Ova moguenost trenutno nije ugra?ena.	This feature is not implemented at this time!
+2250	Pogreška: Krivi datum.	Error: Invalid date!
+2251	Windowsov brojae vremena nije dostupan.	No Windows timers are available!
+2252	*Invalid trigger handle.	Invalid trigger handle!
+2253	Ispravljae stavaka datoteka.	Folder items editor.
+2254	Editor datoteka.	Folder editor
+2255	Konflikt sa drugim exl. doga?ajem.	Conflicts with another exclusive event!
+2256	Vrijeme svršetka ne može odrediti vrijeme poeetka.	The end time cannot precede the start time!
+2257	Greška pri slanju podataka u datoteku.	Error: Posting data to the database!
+2258	Greška pri pretvaranju broja mjeseca.	Error converting the month number!
+2259	Greška: Pograšan dan.	Error: Invalid day!
+2260	Pogreška: pri stvaranju kontakta.	Error: Failure while creating contact!
+2261	Pograška: pogrešan mjesec.	Error: Invalid month!
+2262	Pogrška: pogrešan naziv mjeseca.	Error: Invalid month name!
+2263	Pogreška: Pogrešna godina.	Error: Invalid year!
+2264	Pogreška: Zahatjeva se dan.	Error: Day is required!
+2265	Pogreška: Traži se mjesec.	Error: Month is required!
+2266	Pogreška: Traži se godina.	Error: Year is required!
+2267	Pogreška: Ime za kontakt ne smije biti prazno.	Error: Name cannot be empty!
+2268	Pogreška: Pogreška pri izradi zadataka.	Error: Failure while creating task!
+2269	Pograška: Pogreška pri izradi doga?aja.	Error: Failure while creating event!
+2271	Pogreška: Pogreška pri izradi resursa.	Error: Failure while creating resource!
+2272	Pogreška: Duplicirani resursi.	Error: Duplicate resource!
+2273	*Pogreška: Odre?ena je kriva tablica.	Error: Invalid table specified!
+2274	Pogreška: Nemoguae je otvoriti	Error: Unable to open!
+2275	Pogreška: Nije moguae ueitati	Error: Unable to update!
+2276	Asistent	Assistant
+2277	Poziv nazad	Callback
+2278	Auto	Car
+2279	Poduzeae	Company
+2280	Kuaa	Home
+2281	Kuani fax.	Home fax
+2282	ISDN	ISDN
+2283	*Mobilni tel.	Mobile
+2284	Ostalo	Other
+2285	Ostali Faxevi	Other fax
+2286	Pager	Pager
+2287	Osnovno	Primary
+2288	Radio	Radio
+2289	Telex	Telex
+2290	TTY/TDD	TTY/TDD
+2291	Posao	Work
+2292	Fax na poslu	Work fax
+2293	Posao	Business
+2294	Klijenti	Clients
+2295	Obitelj	Family
+2296	Osoblje	Personal
+2297	Ostalo	Other
+2298	Tjedan od	Week of
+2299	Kroz	Through
+2300	Nedjelja	Sunday
+2301	Ponedjljak	Monday
+2302	Utorak	Tuesday
+2303	Srijeda	Wednesday
+2304	Eetvrtak	Thursday
+2305	Petak	Friday
+2306	Subota	Saturday
+2307	Ned	Sun
+2308	Pon	Mon
+2309	Uto	Tue
+2310	Sri	Wed
+2311	Eet	Thu
+2312	Pet	Fri
+2313	Sub	Sat
+2314	N	S
+2315	P	M
+2316	U	T
+2317	S	W
+2318	E	T
+2319	P	F
+2320	S	S
+2321	Nema	None
+2322	Dnevno	Daily
+2323	Tjedno	Weekly
+2324	Mjeseeno po danu	Monthly by day
+2325	Mjeseeno po datumu	Monthly by date
+2326	Godišnje po danu	Yearly by day
+2327	Godišnje po datumu	Yearly by date
+2328	Kupac	Custom
+2329	Minuti	Minutes
+2330	Sati	Hours
+2331	Dani	Days
+2332	Ne možete vratiti ovu operaciju!	This operation cannot be undone!
+2333	sa tvoje liste kontakata?	from your list of contacts?
+2334	Dodaj kontakt...	Add contact...
+2335	Promjeni kontakt...	Edit contact...
+2336	Obriši kontakt...	Delete contact...
+2337	Od tvojih zadataka?	from your schedule?
+2338	Sa tvoje liste zadataka?	from your task list?
+2339	Dodaj zadatak...	Add task...
+2340	Promjeni zadatak...	Edit task...
+2341	Obriši zadatak...	Delete task...
+2342	Lista zadataka -	Task list -
+2343	Lista zadataka	Task list
+2344	Danas	Today
+2345	Iduai mjesec	Next month
+2346	Prijašnji mjesec	Previous month
+2347	Iduaa godina	Next year
+2348	Prijašnja godina	Previous year
+2349	Dodaj doga?aj...	Add event...
+2350	Promjeni doga?aj...	Edit event...
+2351	&Obriši doga?aj...	&Delete event...
+2352	Izmijeni datum	Change date
+2353	Danas	Today
+2354	Iduai tjedan	Next week
+2355	Prijašnji tjedan	Previous week
+2356	Iduai mjesec	Next month
+2357	Prijašnji mjesec	Previous month
+2358	Iduaa godina	Next year
+2359	Prijašnja godina	Previous year
+2360	Prijašnja stranica	Previous page
+2361	Iduaa stranica	Next page
+2362	Prva stranica	First page
+2363	Zadnja stranica	Last page
+2364	Dodaj doga?aj...	Add event...
+2365	Promjeni doga?aj...	Edit event...
+2366	Obriši doga?aj...	Delete event...
+2367	Promjeni datum	Change date
+2368	Danas	Today
+2369	Sutra	Tomorrow
+2370	Jueer	Yesterday
+2371	Iduai dan	Next day
+2372	Prijašnji dan	Previous day
+2373	Iduai tjedan	Next week
+2374	Prijašnji tjedan	Previous week
+2375	Iduai mjesec	Next month
+2376	Prijašnji mjesec	Previous month
+2377	Iduae godine	Next year
+2378	Prijašnje godine	Previous year
+2379	Danas	Today
+2380	Sutra	Tomorrow
+2381	Jueer	Yesterday
+2382	Iduai tjedan	Next week
+2383	Prijašnji tjedan	Previous week
+2384	Pozicija	Position
+2385	Poduzeae	Company
+2386	Naziv	Title
+2387	E-Mail	E-mail
+2388	Zemlja	Country
+2389	Kategorija	Category
+2390	Zapis	Notes
+2391	Kupac 1	Custom 1
+2392	Kupac 2	Custom 2
+2393	Kupac 3	Custom 3
+2394	Kupac 4	Custom 4
+2395	OK	OK
+2396	Prekini	Cancel
+2397	&Zatvori	&Close
+2398	&Ispis	&Print
+2399	Bez prijevoda	Untitled
+2400	Izaberi zvik	Select a sound
+2401	Na?i zvuk	Sound finder
+2402	Korisni osnovni zvuk	Use default sound
+2403	Doga?aj	Event
+2404	Sastanak	Appointment
+2405	Tema:	Subject
+2406	Kategorija:	Category
+2407	Vrijeme poeetka:	Start time
+2408	Vrijeme završetka:	End time
+2409	&Podsjetnik	&Reminder
+2410	*Appointment Recurrence:	Appointment recurrence
+2411	Interval (dana):	Interval (days)
+2412	Ponovi do:	Repeat until
+2413	&Cjelodnevni doga?aj	&All day event
+2414	Zapis:	Notes
+2415	Kontakt	Contact
+2416	Ime:	Name
+2417	Naziv:	Title
+2418	Adresa:	Address
+2419	Grad:	Address 2
+2420	Država:	Address 3
+2421	Zemlja:	Country
+2422	Zip kod:	Postal code
+2423	Poduzae:	Company
+2424	Pozicija:	Position
+2425	Pogled prije ispisa	Print preview
+2426	Zadatak	Task
+2427	Dužnieki datum:	Due date
+2428	Detalji:	Details
+2429	Zadatak izvršen	Task complete
+2430	Dana prekoraeeno	Days overdue
+2431	Izra?en na	Created on
+2432	Završen na	Completed on
+2433	Podsjetnik	Reminder
+2434	PREZADUŽEN!	OVERDUE!
+2435	*Klick &Snooze to be reminded again in:	Click [&Snooze] to be reminded again in:
+2436	Tema:	Subject
+2437	Zapis:	Notes
+2438	*&Otpust	&Dismiss
+2439	*&Drijemež	&Snooze
+2440	&Otvorena stavka	&Open item
+2441	5 Minutea	5 minutes
+2442	10 Minuta	10 minutes
+2443	15 Minutea	15 minutes
+2444	30 Minuta	30 minutes
+2445	45 Minuta	45 minutes
+2446	1 Sat	1 hour
+2447	2 Sata	2 hours
+2448	3 Sata	3 hours
+2449	4 Sata	4 hours
+2450	5 Sati	5 hours
+2451	6 Sati	6 hours
+2452	7 Sati	7 hours
+2453	8 Sati	8 hours
+2454	1 Dan	1 day
+2455	2 Dana	2 days
+2456	3 Dana	3 days
+2457	4 Dana	4 days
+2458	5 Dana	5 days
+2459	6 Dana	6 days
+2460	1 Tjedan	1 week
+2461	Prijašnji mjesec	Previous month
+2462	Iduai mjesec	Next month
+2463	Prijašnja godina	Previous year
+2464	Iduaa godina	Next year
+2465	Danas	Today
+2466	Okreni	Revert
+2467	Danas	Today
+2468	Iduai mjesec	Next month
+2469	Prijašnji mjesec	Previous month
+2470	Iduaa godina	Next year
+2471	Prijašnja godina	Previous year
+2472	Okreni	Revert
+2773	*Ne mogu otvoriti WININET, Microsoft IE potreban	Cannot open WININET! Microsoft IE required!
+2774	Ne mogu otvoriti datoteku	Unable to open file!
+2775	Datoteka %s ne može biti na?ena	File %s could not be found!
+2776	Ne mogu odrediti memriju za XML izvor	Unable to allocate memory for XML source!
+2777	Http zahtjev za eitanjem nedostaje	HTTP read request failed!
+2778	Http podaci nisu prisutni	HTTP data not available!
+2779	Ne može se posalti zahtjev za http	Unable to send HTTP request!
+2780	Ne može se otvoriti http zahtjev	Unable to open HTTP request!
+2781	Ne može se uspostaviti internet veza	Unable to make Internet connection!
+2782	Ne može se otvoriti internet	Unable to open Internet!
+2783	Ne toena ftp lokacija	Invalid FTP location!
+2784	Krivi ftp direktorij	Invalid FTP directory!
+2785	nedostaje ftp zahtjev za eitanjem	FTP read request failed!
+2786	Ftp podaci nisu prisutni	FTP data not available!
+2787	Ne može se otvoriti ftp datoteka	Unable to open FTP file!
+2788	Ne može se spremiti datoteka preko ftp do %s	Could not save file via FTP to %s
+2789	Ne mže se ueitati izvor	Unable to load source!
+2790	*Invalid memory Pointer	Invalid memory pointer!
+2791	*Linija: %d kol: %d Error: %s	Line: %d Col: %d Error: %s !
+2792	POGREŠKA INDEXI SU VAN GRANICA	ERROR INDEX OUT OF BOUNDS!
+2793	*Expected markup declaration, but found:	Expected markup declaration, but found:
+2794	*Krivi atribut tipa:	Illegal attribute type:
+2795	Kriva kljuena rijee za atribute osnovne vrijednosti:	Illegal keyword for attribute default value:
+2796	Nedostaje identifikator sistema	System identifier missing!
+2797	Nedostaje vnjski modificer:	External modifier missing:
+2798	Kondicionalni dio mora poeeti sa Ukljuei ili IGNORIRAJ	Conditional section must begin with INCLUDE or IGNORE!
+2799	Loš odvajatelj u sastavu modela:	Bad separator in content model:
+2800	Oeekivan komentar ili or CDATA dio	Expected comment or CDATA section!
+2801	Neoeekivani kraj datoteke	Unexpected end of file!
+2802	Razilaženje završetka taga:	Mismatched end tag:
+2803	Krivi karakter u referencama	Illegal character in reference!
+2804	Reference za nedeklarirane entitete:	Reference to undeclared entity:
+2805	Oeekivan znak:	Expected String:
+2806	*Whitespace expected at byte	Whitespace expected at byte!
+2807	*End of input while looking for delimiter:	End of input while looking for delimiter:
+2808	Oeekivan " ili '	Expected " or '
+2809	*XMLPartner nema podršku XML zneajke vae od %s	XMLPartner does not support XML specification greater than %s
+2810	*Unable to create stream for input.	Unable to create stream for input!
+2811	Krivo XML ime:	Invalid XML name:
+2812	Krivi komentar texta	Invalid comment text!
+2813	Dokument ne može startati s komentarom ako on tako?er  sadrži  XML declaraciju	Document cannot start with a comment if it also contains an XML declaration!
+2814	Krivi karakteri u CDATA sekciji	Invalid characters in CDATA section
+2815	Atrubti ne mogi biti redefinirani u start tagu	Attributes cannot be redefined in a start tag!
+2816	Kružna referenca za:	Circular reference to:
+2817	Krivi karakter u vrijednosti atributa:	Invalid character in attribute value:
+2818	Krivi karakteri u  elementima karakternih podataka:	Invalid characters in element's character data:
+2820	*Kondicionalana sekcija nije dozvoljena u inetrnoj zamjeni internal  od deklaracije tipa dokumenta	Conditional sections not allowed in internal subset of document type declaration!
+2821	Zapis nije odre?en:	Notation not declared:
+2822	Krivi Javni ID karakter:	Invalid public id character:
+2823	*NDATA not allowed in parameter entity declaration	NDATA not allowed in parameter entity declaration
+2824	Samostalna vrijednost mora biti jednaka 'da' ili 'ne'	Stand alone value must equal 'yes' or 'no'
+2825	Kriva deklaracija dekodiranja:	Invalid encoding declaration:
+2826	Krivi XML broj verzije:	Invalid XML version number:
+2827	Krivi karakter u vrijednosti entiteta:	Invalid character in entity value:
+2828	Komentar ne može biti stavljen s ostalim oznakama	Comments cannot be placed within other markup!
+2829	Nakon ispravnog XML dokumenta su krivi podaci	There is invalid data after valid XML document!
+2830	 XML deklaracija mora se pojavit appear before the first element	The XML declaration must appear before the first element!
+2831	Krivo ime elementa:	Invalid element name:
+2832	Parametar - entity text must be properly nested:	Parameter-entity text must be properly nested:
+2833	Odre?en je krivi karakter dekodera.	Invalid character encoding specified!
+2834	*Atribut %s od elementat %s nema cjelobrojnu vrijednost.	Attribute %s of element %s does not have an integer value!
+2835	Nepoznat odre?ivae osi: %s	Unknown axis specifier: %s
+2836	Krivi XML karakter je prona?en	Invalid XML Character found!
+2837	*Invalid (big-endian) UTF-16 character encoding	Invalid (big-endian) UTF-16 character encoding!
+2838	*Invalid (little-endian) UTF-16 character encoding	Invalid (little-endian) UTF-16 character encoding!
+2839	*Badly formed UTF-8 character in stream	Badly formed UTF-8 character in stream!
+2840	*Unexpected end of document stream	Unexpected end of document stream!
+2841	Ne mogu prebaciti UCS-4 karakter na ISO-8859-1	Cannot convert UCS-4 character to ISO-8859-1!
+2842	Ne mogu prebaciti UCS-4 karakter na UTF-16	Cannot convert UCS-4 character to UTF-16!
+2843	Ne mogu prebaciti UCS-4 karakter na UTF-8	Cannot convert UCS-4 character to UTF-8!
+2844	Izvan ranga	Out of range!
+2845	Nema podrške	not supported!
+2846	Molimo vas odredite elementu ime	Please supply an element name!
+2847	Ime formata ne smije biti prazno	Format name cannot be blank!
+2848	*Print controller is not owned by a TVpControlLink!	Print controller is not owned by a TVpControlLink!
+2849	Krivi format ispisa	Invalid Print format!
+2850	Krivi tip stavke	Invalid item type!
+2851	Krivo mjerenje	Invalid measurement!
+2852	Vlasnik mora bit TWinControl odre?en	Owner must be a TWinControl descendent!
+2853	Komponenta mora biti povezana s  TVpControlLink	Component must be linked to a TVpControlLink!
+2854	Još uvijek nije definiran format za ispis	No print formats have been defined!
+2855	TCanvas nije dodijeljen	TCanvas not assigned!
+2856	Lokalizacijska datoteka nije prona?ena.	Localisation file not found!
+2857	Sastanak	Appointment
+2858	Ponavljajuai racun	Repeating invoices
+2859	Dodijeljeno kupcima	Debtor appointment
+2860	Dodijeljeno dobavljaeima	Creditor appointment
+2861	Kategorija 4	Category 4
+2862	Kategorija 5	Category 5
+2863	Kategorija 6	Category 6
+2864	Kategorija 7	Category 7
+2865	Kategorija 8	Category 8
+2866	Kategorija 9	Category 9
+2867	Izmjena u print formatu...	Edit print formats...
+2868	Resursi nisu dfinirani, dali želite dodati jedan sada?	No resources have been defined! Would you like to add one now?
+2869	Resusi nisu odabrani. Žlite li odabrati jedan sada?	No resource has been selected! Would you like to select one now?
+2870	Filtiraj kolonu	Filter column
+2871	Vrijednost	Value
+2872	Pokaži	Display
+2873	Sat	Clock
+2874	Dnevni red	Agenda
+2875	Zadaci	Tasks
+2876	Kontakti	Contacts
+2877	Ueitani sastanci	Loaded events
+2878	*# Pokaži dane	# Display days
+2879	Kalendar	Calendar
+2880	Molimo vas spremite ovaj ponavljajuai raaun sada. Nakon ponavljana možete odati klijente na .	Please save this repeating invoice first! After reopening you can add clients to the invoice.
+2881	Želite li obrisati ovaj %s?	Do you wish to delete this %s?
+2882	Želite li obrisati sve %s?	Do you wish to delete all %s?
+2883	Ponavljajuai	Repeating invoice
+2884	Datum racuna	Invoice date
+2885	Procesiraj sve	Process all
+2886	Lista procesa	Process list
+2887	Proces odabran	Process selected
+2888	&Novi	&New
+2889	*&Promjeni	&Edit
+2890	&Glavno	&Main
+2891	&Telefon	&Telephone
+2892	&Zapis	&Notes
+2893	Dugovni iznos	Due amount
+2894	Dokument(i) izra?eni.	Document(s) created!
+2895	Datum naplate duga je manji od datuma dokumenta	Due date is lower then document date!
+2896	Primljeno od dužnika	Automatic receipts
+2897	Molimo unesite ime za skup knjiga	Please enter a name for the Set of Books!
+2898	Ueitaj konto banke	Update bank account
+2899	*Lookup document	Lookup document
+2900	*Lookup Doc with amount	Lookup document with amount
+2901	*Lookup Debtor	Lookup debtor
+2902	*Lookup Creditor	Lookup creditor
+2903	*There was already a bank account found! Do you wish to update this?	There was already a bank account found! Do you wish to update this?
+2904	Report amounts with	Report amounts with
+2905	Spremanje podataka	Data storage
+2906	Brzina	Speed
+2907	Specijalne postavke	Special settings
+2908	Decimale u izvještajima	Reporting decimals
+2909	Otorene stavke knjige	Open item ledgers
+2910	Ne koristi Reportman	Do not use Reportman
+2911	Realni brojevi	Real numbers
+2912	Fiksne decimale	Fixed decimals
+2913	<>  za kredit	<>  for Credit
+2914	+/-  za Debit/Credit	+/-  for Debit/Credit
+2915	D/C za Debit/Credit	D/C for Debit/Credit
+2916	Prikaži kalandar	Show calandar
+2917	Ne upozoravaj na neposlano	No warning unposted
+2918	Koristi današnji datum za izvještaj	Use current date for reports
+2919	Extra opis	Extra description
+2920	*BOM	BOM
+2921	Prodaja (bez artikala)	Sales (no stock)
+2922	Primke  (bez artikala)	Purchase (no stock)
+2923	*BOM List	BOM list
+2924	Kopiraj od stavke	Copy from item
+2925	Ne radi kalk. skupine	Do not calculate batches
+2926	Kolieina dokumenata	Document quantity
+2927	Auto kopi info	Auto-copy info
+2928	Koristi osnovni raeun	Use default account
+2929	Osnovni raeun	Default account
+2930	Nema povrata narudžbe	No backorder
+2931	Ne mogu prodavati ako je van zaliha	Cannot sell out of stock
+2932	Ne traba potvrda ispisa	No print confirmation
+2933	Provjeri upotrebljenu referencu	Check reference used
+2934	Ne mogu izraditi stavku	Cannot create items
+2935	Displej za kupca	Pole display
+2936	Displej za kupca prikljueen	Pole display connected
+2937	Vidite li ovo ??	Can you see this ??
+2938	Osnovno POS mjesto	Default POS Pole
+2939	2 X 20 kar. POS mjesto	2 X 20 chars POS Pole
+2940	Vaga	Weight dish
+2941	Vaga je spojena	Weight dish connected
+2942	Povratna vrijednost od vage	Return value from weight dish
+2943	Test	Test
+2945	Brzo prebacivanje porodavaea	Fast switch salesperson
+2946	Zaokruži POS krajni iznos	Round POS end amount
+2947	Pokaži zalihe	Show qty on hand
+2948	Popust PW	Discount password
+2949	Koristi pasw. za popust	Use password for discount
+2950	Koristi dužnikovu prodajnu cijenu	Use debtor selling price
+2951	Ladica kase	Drawer
+2952	Ovim aete maknuti trenutnu registraciju i otvoriti novi obrazac za registraciju ! Želite li  prekinuti to?	This will remove your current registration and open the enter registration form! Do you want to cancel?
+2953	Ispiši barkodove	Print bacodes
+2954	Promijeni konto	Change account
+2956	Izvještaj spremanja	Backup reports
+2957	Izradi reportman dir	Generate Reportman directories
+2958	Odlinkaj transakciju	Unlink transaction
+2959	Primi plaeanje	Receive payment
+2960	Ponovo ispiši transakcije	Reprint transactions
+2961	Upiši  iznos za vezu	Enter amount to link
+2962	Suppress Openitem	Suppress open item
+2963	Remember inclusive	Remember inclusive
+2964	Printed	Printed
+2965	Select Backup Directory	Select backup directory
+2966	Sample	Sample
+2967	Use filter	Use filter
+2968	Outgoing Mail server identification (SMTP)	Outgoing mail server identification (SMTP)
+2969	Default text	Default text
+2970	Please enter your list	Please enter your list
+2971	Your list with comma seperation	Your list with comma separation
+2972	Select from delimeted list	Select from delimited list
+2973	Hide disabled menu items	Hide disabled menu items
+2974	Doc posting	Document posting
+2975	Link to salesman	Link to salesperson
+2976	Edit Qantity	Edit quantity
+2977	Select New Set of Books Directory	Select new Set of Books directory
+2978	Known bug fix	Known bug fix
+2979	Opening balance only	Opening balances only
+2980	Show Budget	Show budget
+2981	Show all stockitems	Show all stock items
+2982	Add unposted	Add unposted
+2983	Quotes / Purchases	Quotes / Orders
+2984	Price inclusive	Price inclusive
+2985	Each SalesPerson Separetly	Show zero stock count
+2986	Show All Salespersons	Show all salespersons
+2987	Show Invoice Number	Show invoice no.
+2988	Cashup Report	Cash-up report
+2989	Sales Report	Sales report
+2990	Print Frames	Print frames
+2991	Print Logo	Print logo
+2992	No doc posting	No document posting
+2993	Custom limitation	Custom limitation
+2994	Hide	Hide
+2995	Disable	Disable
+2996	Show	Show
+2997	Enable	Enable
+2998	Replication	Replication
+2999	Open Batches	Open batches
+3000	Upload Only	Upload only
+3001	Download Only	Download only
+3002	Creating Directory	Creating directory...
+3003	Copying set of books	Copying Set of Books...
+3004	Copy from a set of books	Copy from a Set of Books
+3005	of	of
+3006	Tranfert Started To	Transfer started to
+3007	Only this account	Only this account
+3008	A new year has been opened succesfully!	A new year has been opened succesfully!
+3009	Moving totals...	Moving totals...
+3010	The reference has been used in a other document please check your input for doubles	The reference has been used in a other document! Please check your input for duplicates!
+3011	All documents	All documents
+3012	All years	All years
+3013	Bank balance as per bank statement	Bank balance as per bank statement
+3014	Cash book report	Bank reconciliation report as at
+3015	Reconciled Bank Balance	Reconciled bank balance
+3016	Bank balance according to <@APPNAME@> at	Bank balance according to <@APPNAME@> at
+3017	diverence	Difference
+3018	Warning - This report contains unposted batches	Warning - This report contains unposted batches!
+3019	Show zero stock count	Show zero stock count
+3020	Convert invoice to purchase	Convert invoice to order
+3021	Copy document	Copy document
+3022	Set reportinggroup 1	Set reporting group 1
+3023	Set reportinggroup 2	Set reporting group 2
+3024	open osCommerce order in browser	Open osCommerce order in browser
+3025	Open OSCOmmerce customer in browser	Open osCommerce customer in browser
+3026	Bank name	Bank name
+3027	Use default tax	Use default tax
+3028	Default tax account	Default tax account
+3029	Firtsname	First name
+3030	Connect to remote Database	Connect to remote database
+3031	Inclusive mode	Inclusive mode
+3032	Single line mode	Single line mode
+3033	Auto alias	Auto-alias
+3034	Remember inclusive	Remember inclusive
+3035	Use link tax	Use link tax
+3036	Link tax	Link tax
+3037	Contra tax	Contra tax
+3038	Openitem Account	Open item account
+3039	Pos Report Option	POS report options
+3040	Use Doc Date	Use document date
+3041	Contra ref as account Ref	Contra ref. as account ref.
+3042	Auto refresh	Auto refresh
+3043	Interval (sec)	Interval (sec.)
+3044	Limit Doc SQL	Limit documents SQL
+3045	Like search for strings	Search for strings
+3046	Sub-total	Subtotal
+3047	Amount entry	Amount entry
+3048	Document row	Document row
+3049	Import a posted batch	Import a posted batch
+3050	Closed!	Use default tax
+3051	Account starts with	Account starts with
+3052	Expand after refresh	Expand after refresh
+3053	Use link tax	Use link tax
+3054	Link tax	Link tax
+3055	Contra tax	Contra tax
+3056	Refresh	Refresh
+3057	Expand	Expand
+3058	Collaps	Collapse
+3059	Move left	Move left
+3060	Subaccounts	Sub-accounts
+3061	Total period budged	Total period budget
+3062	Set period buged	Set period budget
+3063	Financial Categorie	Financial categories
+3064	Not a valid account	Not a valid account!
+3065	No user rights!	No user rights!
+3066	Field missing please check importfile!	Field missing! Please check import file!
+3067	Error in closing shift please try again.	Error in closing shift! Please try again!
+3068	Error no account found	Error : No account found!
+3070	Clieop comment lines must be filled	Clieop comment lines must be filled!
+3071	You need to enter a bank account number	You need to enter a bank account number!
+3072	Abort import!	Abort import!
+3073	Group still has nesteled groups remove them first!	Group still has nested groups! Remove them first!
+3074	Theres still accounts using this group please remove them first! (Firts account =	There's still accounts using this group! Please remove them first! (First account =
+3075	Theres still documents using this group please remove them first!	There's still documents using this group! Please remove them first!
+3076	Theres still stock using this group please remove them first!	There's still stock using this group! Please remove them first!
+3077	No connection assigned	No connection assigned!
+3078	Accountcode already exist!	Account code already exists!
+3079	Quote(s) are generated!	Quote(s) generated!
+3080	Do you wish to post on the retained earnings account?	Do you wish to post on the retained earnings account?
+3081	Reset stock?	Reset stock?
+3082	file format Import Not Implemented	Import file format not implemented!
+3083	This item is out of stock! Auto adjusting qty	This item is out of stock! Auto adjusting quantity!
+3084	Gotovo	Finished!
+3085	Empty code!	Empty code!
+3086	Code exists!	Code exists!
+3087	Number %s is not a valide 11 proof number!	Number %s is not a valid 11 proof number!
+3088	Use barcode printer	Use barcode printer
+3089	Advanced mode	Advanced mode
+3090	Ucitaj Tip	Update type
+3091	Setup stock	Setup stock
+3092	Setup group	Setup group
+3093	Transaction Date	Transaction date
+3094	Preferovaný Povratnica1	Preferred supplier1
+3095	Preferovaný Povratnica2	Preferred supplier2
+3096	Create houre invoices	Create invoices for hours
+3097	Limit Stock SQL	Limit stock SQL
+3098	Inc unposted invoices	Include unposted invoices
+3099	Projects	Projects
+3100	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!	You are trying to connect to a remote database! This version does not support that by default! Please contact us at https://www.osfinancials.org/ to support the project and receive your multi-user license!
+3101	Unregistered	Unregistered
+3102	registered to	Registered to
+3103	 Single user	Single user
+3104	T-Ledger Analyser	Ledger analyser
+3105	Serial number	Serial number
+3106	Column Balances	Column balances
+3107	Column Balances - Debtor	Column balances debtors
+3108	Column Balances - Creditor	Column balances creditors
+3109	Invoice layout	Layout file 1
+3110	Credit Note layout	Layout file 2
+3111	Quote layout	Layout file 3
+3112	Language	Language
+3113	https://www.osfinancials.org/en/forum-en?view=category&catid=8	https://www.osfinancials.org/en/forum-en?view=category&catid=8
+3114	https://www.osfinancials.org/en/forum-en	https://www.osfinancials.org/en/forum-en
+3115	https://www.osfinancials.org/en/webshop	https://www.osfinancials.org/en/webshop
+3116	https://www.osfinancials.org/en/forum-en?view=category&catid=8 	https://www.osfinancials.org/en/forum-en?view=category&catid=8 
+3117	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.	Unregistered version! Please buy this plugin at https://www.osfinancials.org/en/webshop and support the <@APPNAME@> development.
+3118	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop	This demo plugin allows %s records to be entered. If you need more, please buy the product at https://www.osfinancials.org/en/webshop
+3119	https://www.osfinancials.org/	https://www.osfinancials.org/
+3120	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 	:Time license expires in 1 day! Please visit https://www.osfinancials.org/en/webshop 
+3121	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 	:Time license expires in %s days! Please visit https://www.osfinancials.org/en/webshop 
+3122	Time license expired! Please visit https://www.osfinancials.org/en/webshop 	Time license expired! Please visit https://www.osfinancials.org/en/webshop 
+3123	Dobrodošli na <@APPNAME@>	Welcome to <@APPNAME@>
+3124	Forward	Forward
+3125	Auto Otvori našto pocetak <@APPNAME@>	Auto-open when starting <@APPNAME@>
+3126	Pretvoriti <@APPNAME@> to ovaj inacici?	Convert <@APPNAME@> to this version
+3127	Net Weight	Net weight
+3128	Gross Weight	Gross weight
+3129	Reorder at	Reorder at
+3130	Minimum	Minimum
+3131	Reorder level - your items will be reordered until this quantity!	Reorder level - your items will be reordered until this quantity!
+3132	If your stock goes below this, then the system will reorder until the reorder quantity!	If your stock goes below this, then the system will reorder until the reorder quantity!
+3133	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!	If you want to reserve some stock for sales this field will be deducted from current stock levels in a quote!
+3134	Languages	Languages
+3135	Language	Language
+3136	Multi-Group	Multi-group
+3137	Select Image	Select image
+3138	Delete Image	Delete image
+3139	Cur : %s Quote : %s Order : %s Exp : %s	Cur : %s Quote : %s Order : %s Exp : %s
+3140	Expected Quantity	Expected quantity
+3141	Manufacturer	Manufacturer
+3142	Option Item	Option item
+3143	Option Item (No Stock)	Option item (no stock)
+3144	Options	Options
+3145	Generate	Generate
+3146	Linked Options	Linked options
+3147	View as Tree	View as tree
+3148	Combination Name	Combination name
+3149	Remove	Remove
+3150	Extra Price	Extra price
+3151	Financial Entry	Financial entry
+3152	Weight	Weight
+3153	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!	If you have OpenOffice installed, you can edit this as HTML by double-clicking in this text field!
+3154	Options	Options
+3155	Setup Options	Setup options
+3156	Double-click to enter the Option List.	Double-click to enter the option list.
+3157	Default Incl. for Docs	Default inclusive for documents
+3158	SQL Only for Stock Lookup	SQL only for stock lookup
+3159	Merge Invoice to Orders	Merge invoice to orders
+3160	Merge Items per Tax on Ledger	Merge items per tax on ledger
+3161	Button Lookup	Button lookup
+3162	Cannot Edit Price	Cannot edit price
+3163	Cannot Edit Description	Cannot edit description
+3164	Go to Quantity	Go to quantity
+3165	Bank Accounts	Bank accounts
+3166	Column Balances D/C	Column balances D/C
+3167	Column Balances Debtor D/C	Column balances debtors D/C
+3168	Column Balances Creditor D/C	Column balances creditors D/C
+3169	Strict Tax on Account	Strict tax on account
+3170	Post Warning per Invoice	Post warning per invoice
+3171	Process Warnings	Process warnings
+3172	Process Subscriptions	Process subscriptions
+3173	Send E-mail	Send e-mail
+3174	Document Layout	Document layout
+3175	Contract term not the same!	Contract term not the same!
+3176	Send Warning	Send warning
+3177	E-mail Signed Document	E-mail signed document
+3178	Link Tax	Link tax
+3179	Bank Links	Bank links
+3180	Edit Account	Edit account
+3181	Convert to Credit Note / Return Note	Convert to credit note / supplier return
+3182	Open e-Commerce Order in Browser	Open e-Commerce order in browser
+3183	Open e-Commerce Customer in Browser	Open e-Commerce customer in browser
+3184	Convert Documents to Single Document	Convert documents to single document
+3185	Create Purchase on Default Supplier 1	Create purchase on default supplier 1
+3186	Image	Image
+3187	Bug Report	Bug report
+3188	Cost Centres	Cost centres
+3189	Close Active Forms	Close active forms
+3190	Show / Hide Sidebar	Show / hide sidebar
+3191	Show / Hide Topbar	Show / hide topbar
+3192	Only Look in Account for Search	Only look in account for search
+3193	Bug Report	Bug report
+3194	Wiki	Webshop
+3195	Help	Help
+3196	Forum	Forum
+3197	Opening Balance - This Year	Opening balance - This year
+3198	Gender	Gender
+3199	Male	Male
+3200	Female	Female
+3201	Newsletters and Password	Newsletters and password
+3202	Referral Source	Referral source
+3203	Newsletters	Newsletters
+3204	Password Confirmation	Password confirmation
+3205	General	General
+3206	Release	Release
+3207	Bug Fix	Bug fix
+3208	Community Day	Community day
+3209	Existing User	Existing user
+3210	You have registered successfully ! 	You have registered successfully ! 
+3211	Usage	Usage
+3212	Website	Website
+3213	Reregister	Reregister
+3214	Consultant	Consultant
+3215	Send	Send
+3216	New User	New user
+3217	Action	Action
+3218	Username and password are used to log in to our forum and shop not for <@APPNAME@> self	Username and password are used to log in to our forum and shop not for <@APPNAME@> self
+3219	E-mail can be sent via the context menu in the Document list.	E-mail can be sent via the context menu in the Document list.
+3220	Mail Template	Mail template
+3221	Select Layout	Select layout
+3222	Select Template	Select template
+3223	Report Name	Report name
+3224	Base Folder Debtor/Creditor	Base folder debtor/creditor
+3225	Base Folder	Base folder
+3226	Test E-mail	Test e-mail
+3227	Send E-mail(s)	Send e-mail(s)
+3228	Resume E-mail(s)	Resume e-mail(s)
+3229	Stop E-mail(s)	Stop e-mail(s)
+3230	Path to the HTML Files	Path to the HTML files
+3231	POP Username	POP username
+3232	POP Password	POP password
+3233	POP Server	POP server
+3234	SMTP Port	SMTP port
+3235	SMTP Server	SMTP server
+3236	Return E-mail	Return e-mail
+3237	Return Name	Return name
+3238	E-mail Header Text	E-mail header text
+3239	Send Max Mail	Send max mail
+3240	Timer Treshhold in Sec.	Timer threshold in sec.
+3241	SMTP Username	SMTP username
+3242	SMTP Password	SMTP password
+3243	Sign Certificate	Sign certificate
+3244	Certificate Password	Certificate password
+3245	Sign any PDF	Sign any PDF
+3246	Free Text	Free text
+3247	Preview in Browser	Preview in browser
+3248	Test E-mail to Extra CC	Test E-mail to Extra CC
+3249	Extra CC	Extra CC
+3250	CC (mutiple separate with ;)	CC (multiple separate with ;)
+3251	BCC (mutiple separate with ;)	BCC (multiple separate with ;)
+3252	Send E-mail	Send E-mail
+3253	No extra CC found! Please enter an e-mail address in text box below this button!	No extra CC found! Please enter an e-mail address in text box below this button!
+3254	No POP Password entered!	No POP password entered!
+3255	Stopped by User!	Stopped by user!
+3256	On	On
+3257	Off	Off
+3258	Setup E-mail Pro	Setup E-mail Pro
+3259	E-mail Pro	E-mail Pro
+3260	No Category	No category
+3261	Free Fields	Freefields
+3262	Register	Register
+3263	Purge Invalid	Purge invalid
+3264	Redo Discount on Document	Redo discount on document
+3265	Percentage of Sale	Percentage of sale
+3266	BOM (Production)	BOM (Production)
+3267	Supplier Stock Code	Supplier stock code
+3268	Preferred Supplier	Preferred supplier
+3269	Next Cost Price	Next cost price
+3270	Assemble	Assemble
+3271	Disasemble	Disassemble
+3272	Link bank account from import to accounts	Link bank account from import to accounts
+3273	Link all records with current account bank accounts	Link all records with current account bank accounts
+3274	Select from account open item list	Select from account open item list
+3275	Show refs for account	Show references for account
+3276	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside a imported
+bank line to see if the text is in that string. Text will be searched in the uppercase.	Bank import extra link functions. Enter bank account for exact match on account. Enter text with a # prefix to look inside an imported bank line to see if the text is in that string. Text will be searched in the uppercase.
+3277	Account Bank References	Account bank references
+3278	Std Bank Account No.	Std Bank account no.
+3279	Delivery date	Delivery date
+3280	Check	Check
+3281	Plugin mass action	Plugin mass action
+3282	Plugin action	Plugin action
+3283	Fast add item (stock code / barcode / serial)	Fast add item (code/barcode/serial)
+3284	Enter total	Enter total
+3285	Recalculate base	Recalculate base
+3286	Cost Price	Cost price
+3287	Selling Price	Selling price
+3288	Recalculate Sales %	Recalculate sales %
+3289	Copy from plugin	Copy from plugin
+3290	Paste to plugin	Paste to plugin
+3291	Copy from / init	Copy from / init
+3292	Paste to / preform	Paste to / perform
+3293	Copy	Copy
+3294	Show tax in documents	Show tax in documents
+3295	Sales/Debit	Sales/Debit
+3296	Purchase/Credit	Purchase/Credit
+3297	Hide this tax	Hide this tax
+3298	All	All
+3299	No out of stock message	No out of stock message
+3300	Use colours for out of stock	Use colours for out of stock
+3301	Calc BOM stock	Calculate BOM stock
+3302	Limit stock purchase only for default suppier or non	Limit stock purchase only for default supplier or non
+3303	Welcome	Welcome
+3304	New invoice	New invoice
+3305	Data saved	Data saved
+3306	Split bill	Split bill
+3307	Data saved	Data saved
+3308	Reopen Invoice	Reopen invoice
+3309	Open Fast Add	+Open fast add
+3310	Close Fast Add	-Close fast add
+3311	Create Purchase on Default Supplier 1	Create purchase on default supplier 1
+3312	No default supplier 1 for these stock items! Please correct first!	No default supplier 1 for these stock items! Please correct first!
+3313	Months	Months
+3314	Per Period	Per period
+3315	Free Selection	Free selection
+3316	Hours between date	Hours between date
+3317	Recalculate Selling Price	Recalculate selling price
+3318	Default Cost Centre	Default cost centre
+3319	Cost Centre	Cost centre
+3320	Save this unsaved document?	Save this unsaved document?
+3321	Code, Description and Extra Description	Code, description and extra description
+3322	Enter new inclusive total	Enter new inclusive total
+3323	Create Backorders to Deliver	Create backorders to deliver
+3324	Only new items (no adjust)	Only new items (no adjust)
+3325	<- Set selected to this price	<- Set selected to this price
+3326	Openitem	Open item
+3327	Clieop comment	Clieop comment
+3328	City	City
+3329	Cur	Cur
+3330	Quote	Quote
+3331	P	P
+3332	LP	LP
+3333	Order	Order
+3334	Exp	Exp
+3335	Log level	Log level
+3336	Next batch nr	Next batch no.
+3337	Backcolor	Back colour
+3338	Frontcolor	Font colour
+3339	Link image	Link image
+3340	Clear image	Clear image
+3341	Init all translations and plugins	Init all translations and plugins
+3342	Show colors	Show colours
+3343	Find invalide	Find invalid
+3344	Adjust payment date	Adjust payment date
+3345	Consolidating lines and using tax will mess up your tax report! please make sure you do not use tax or do not consolidate lines.!	Consolidating lines and using tax will mess up your tax report! Please make sure you do not use tax or do not consolidate lines!
+3346	As PDF file	As PDF file
+3347	Timeslot	Timeslot
+3348	Show at startup	Show at startup
+3349	There is document input asossiated with this project do you wish to continue ? all project data will be lost	There is document(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3350	There is transaction input asossiated with this project do you wish to continue ? all project data will be lost	There is transaction(s) associated with this project! Do you wish to continue ? All project data will be lost!
+3351	There are unposted documents you cannot close this project!	There are unposted documents! You cannot close this project!
+3352	Sales, Purchase, Cost of sales and tax accounts	Sales, Purchase, Cost of sales and Tax accounts
+3353	Open transactions only	Open transactions only
+3354	Remove fault links	Remove fault links
+3355	Transfare transactions	Transfer transactions
+3356	Payroll import	Payroll import
+3357	Free selection	Free selection
+3358	AutoPymt	AutoPayment
+3359	Barcode printer	Barcode printer
+3360	Label printer	Label printer
+3361	Use multiprinter	Use multi printers
+3362	change remark	Change remark
+3363	Please enter change remark	Please enter change remark
+3364	No remaker entered operation aborted!	No remark entered, process aborted!
+3365	Stock Qty has been changed do you want to retain the current database data?	Stock quantity has been changed! Do you want to retain the current database data?
+3366	Manual adjust	Manual adjust
+3367	Continue action %s ?	Continue action %s ?
+3368	Standard Column balance	Standard column balances
+3369	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 	The data of this document has changed by a other user or input screen. %s Do you wish to override the data? 
+3370	User exit!	User exit!
+3371	Do you wish to clear all documents or set them to unposted?	If you wish to clear (remove) all documents, click [Yes]. If you wish to retain all documents and set them to unposted, click [No].
+3372	Budget vs actual	Budget vs actual
+3373	This year vs last year	This year vs last year
+3374	Tools	Tools
+3375	External system links	External system links
+3376	financial tools	Financial tools
+3377	Generic plugins	Generic plugins
+3378	Freefields	Freefields
+3379	Multimedia	Multimedia
+3380	Price agreement	Price agreement
+3381	Stockcheck	StockCheck
+3382	QuickOrder	QuickOrder
+3383	E-commerce	e-Commerce
+3384	Activa	Activa
+3385	Office	Office
+3386	Sql browser	Sql Browser
+3387	Drill down	DrillDown
+3388	Xml audit file	Xml Audit File
+3389	Pos display	POS Display
+3390	Send package	Send Package
+3391	Subscriptions	Subscriptions
+3392	Web export	Web Export
+3393	Customer on hold	Customer on hold
+3394	Document email pro	Document E-mail Pro
+3395	HORECA Pos	HORECA POS
+3396	RETAIL Pos	RETAIL POS
+3397	Charter	Charter
+3398	Location-Serilization-batches	Location-Serials-Batches
+3400	Remittance	Remittance
+3401	Reportman	Reportman
+3402	Handytools	HandyTools (Advanced users only)
+3403	Register plugins	Register plugins
+3404	Export / import	Export / Import
+3405	Stock plugins	Stock plugins
+3406	Document plugins	Document plugins
+3407	Branch specific	Branch Specific
+3408	Driverschool plugin	Driving school plugin
+3409	Postalcode / tax id / regno lookup	Postal code / tax id / reg. no. lookup
+3410	Dutch tax plugin	Dutch Tax plugin
+3411	CCV Pin	CCV PIN
+3412	Pos points	POS Points
+3413	Controler login	Controller Login
+3414	Multi user agenda	Multi-user Agenda
+3415	Woodsales	Woodsales
+3416	Document export import	Document Export Import
+3417	Promeetec	Promeetec
+3418	Plugin load list	Plugin load list
+3419	Activate plugin	Activate plugin
+3420	Deactivate plugin	Deactivate plugin
+3421	Use tabs in stock	Use tabs in stock
+3422	You are not yet registered to post on our forum you will need to register <@APPNAME@> then you can use that username password to login to our forum or shop.	You are not yet registered to post on our forum! You will need to register <@APPNAME@> to use that username password to login to our forum or shop.
+3423	Copy to	Copy to
+3424	Delete not local (Books this pc can not find)	Delete not local (Books this PC cannot find)
+3425	Reprint ticket	Reprint ticket
+3426	Rental / reservations	Rental / Reservations
+3427	Calculate minutes	Calculate minutes
+3428	Minutes inactive	Minutes inactive
+3429	Std disc%	Std disc%
+3430	Document id	Document id
+3431	webshop/forum login and Newsletters	Webshop/Forum Login and Newsletters
+3432	Step status	Step status
+3433	Process	Process
+3434	Date last action	Date last action
+3435	Step name	Step name
+3436	Used time	Used time
+3437	View closed	View closed
+3438	Belgische btw aangifte	Belgium Tax Returns
+3439	Retype password	Retype password
+3440	Branches	Branches
+3441	Skypename	Teams name
+3442	Reset pass (email new pw to you)	Reset password (E-mail new password to you)
+3443	Open webshop	Open webshop
+3444	Change password	Change password
+3445	Please register <@APPNAME@> first!	Please register <@APPNAME@> first!
+3446	To register plugins you need to register <@APPNAME@> first!	To register plugins, you need to register <@APPNAME@> first!
+3447	Timelicence	Time license
+3448	Current total	Current total
+3449	No points used! please us points or close window!	No points used! Please use points or close window!
+3450	Use point	Use points
+3451	Current points	Current points
+3452	Points to use	Points to use
+3453	General DIV ledger	General ledger differences
+3454	Symbol	Symbol
+3455	Rate	Rate
+3465	Tax classes	Tax classes
+3466	Tax class	Tax class
+3467	Force stocktype check	Force stock type check
+3468	Default costgroup	Default cost group
+3469	Workflow setup	Workflow setup
+3470	Currencies	Currencies
+3471	I have read this instruction and i understaind the action!	I have read this instruction, and I understand the action!
+3472	Payment discount	Payment discount
+3473	Payment diverence	Payment difference
+3474	Auto process	Auto process
+3475	Outlook sync	Outlook sync
+3476	Sync to <@APPNAME@>	Sync to <@APPNAME@>
+3477	From <@APPNAME@> to Outlook	From <@APPNAME@> to Outlook
+3478	Sync Email	Sync E-mail
+3479	Email link	E-mail link
+3480	Outlook syngroniser	Outlook syncroniser
+3481	Document links	Document links
+3482	Links from	Links from
+3483	Links to	Links to
+3484	Link	Link
+3485	Where am i?	Where am I?
+3486	Step hint	Step hint
+3487	Rights	Rights
+3488	Add step	Add step
+3489	Edit step	Edit step
+3490	Delete step	Delete step
+3491	Transition	Transition
+3492	Create Transition	Create transition
+3493	Duration	Duration
+3494	Years	Years
+3495	Status text	Status text
+3496	Screentype	Screen type
+3497	Stepname	Step name
+3498	Stepdata	Step data
+3499	You still have a detail screen open press cancel or save to close.	You still have a detail screen open! Click [Cancel] or [Save] to close!
+3500	Add transition	Add transition
+3501	Condition	Condition
+3502	Next process date	Next process date
+3503	Curent value	Current value
+3504	Purchase date	Purchase date
+3505	Write-off type	Write-off type
+3506	Write-off period	Write-off period
+3507	Linked transaction	Linked transaction
+3508	Rest-amount	Rest-amount
+3509	Write-off percentage	Write-off percentage
+3510	Next write-off amount	Next write-off amount
+3511	Total write-off on ledger	Total write-off on ledger
+3512	Needs processing	Needs processing
+3513	New transactions	New transactions
+3514	Add manual	Add manual
+3515	Posted transactions	Posted transactions
+3516	Process (selected) lines	Process (selected) lines
+3517	Purchase amount	Purchase amount
+3518	Activa	Activa
+3519	Add (selected) lines	Add (selected) lines
+3520	add consolidated	Add consolidated
+3521	Show for this user	Show for this user
+3522	Selection	Selection
+3523	Adjust remittance date of selection to :	Adjust remittance date of selection to :
+3524	No auto incasso	No auto payment
+3525	With a remittance date from	With a remittance date from
+3526	Openitems with paydate from	Open items with pay date from
+3527	Email filter	E-mail filter
+3528	Email selected	E-mail selected
+3529	Edit remittance	Edit remittance
+3530	Print all	Print all
+3531	Edit report	Edit report
+3532	Show report	Show report
+3533	Default days no remittance	Default days no remittance
+3534	Update multimedia	Update Multimedia
+3535	This action will adjust the lats date remittance at the "selected" debtors. Do you wish to continue?	This action will adjust the last date remittance at the "selected" debtors! Do you wish to continue?
+3536	This action will adjust the lats date remittance at the "ALL VISIBLE" debtors. Do you wish to continue?	This action will adjust the last date remittance at the "ALL VISIBLE" debtors! Do you wish to continue?
+3537	Popup if there are transactions	Popup if there are transactions
+3538	Date oldest transaction	Date oldest transaction
+3539	Date last remittance	Date last remittance
+3540	Design edit fields	Design edit fields
+3541	Design search fields	Design search fields
+3542	Search sql	Search SQL
+3543	Lookup language	Lookup language
+3544	Type of control	Type of control
+3545	Heigth	Height
+3546	Size	Size
+3547	Translation	Translation
+3548	Col origin	Column origin
+3549	Save and rebuild	Save and rebuild
+3550	Copy as new	Copy as new
+3551	Gen on table	Generate on table
+3552	Sql and extra data	SQL and extra data
+3553	Fieldtype	Field type
+3554	Default value	Default value
+3555	Write off for %s ended do you want to clear the activa accounts?	Write off for %s ended do you want to clear the activa accounts?
+3556	Project	Project
+3557	Create entries	Create entries
+3558	Entries createded!	Entries created!
+3559	Bulk time entry	Bulk time entry
+3560	Stock out	Stock out
+3561	Stock in	Stock in
+3562	Limit rows	Limit rows
+3563	User tab	User tab
+3564	Auto learn	Auto learn
+3565	Unlinked items	Unlinked items
+3567	Show inactive	Show disabled
+3568	Quotes per period	Quotes per period
+3569	Credits per period	Credit notes per period
+3570	Invoices per period	Invoices per period
+3571	Sales per product	Sales per product
+3572	Orders per period	Orders per period
+3573	Purchase per period	Purchases per period
+3574	Returnnote per period	Supplier returns per period
+3575	Purchase per product	Purchases per product
+3576	New report	New report
+3577	New folder	New folder
+3578	Create params and open	Create parameters and open
+3579	No refresh after save	No refresh after save
+3580	Select test document id	Select test document id
+3581	Explorer folder	Explorer folder
+3582	Copy report	Copy report
+3583	Save gridlayout	Save grid layout
+3584	Leads	Leads
+3585	Mass tag	Mass tag
+3586	Tags	Tags
+3587	Add tag	Add tag
+3588	Mass activity	Mass activity
+3589	CRM	CRM
+3590	Activities	Activities
+3591	Add %s to records	Add %s to records
+3592	Start timer	Start timer
+3593	Stop timer	Stop timer
+3594	All accounts	All accounts
+3595	Lead	Lead
+3596	Followup	Follow-up
+3597	Direction	Direction
+3598	Incomming	Incoming
+3599	Outgoing	Outgoing
+3600	Handeled	Handled
+3601	preform run on	Perform run on
+3602	mass contact	Mass contact
+3603	Billing matrix	Billing matrix
+3604	Minimum bill minutes	Minimum bill minutes
+3605	Increment bill minutes	Increment bill minutes
+3606	Cross link	Cross link
+3607	Skip lines	Skip lines
+3608	Delimiter	Delimiter
+3609	Date format	Date format
+3610	Date seperator	Date separator
+3611	Decimal seprator	Decimal separator
+3612	Redo	Redo
+3613	Leads dataset importer	Leads dataset importer
+3614	Headers in file	Headers in file
+3615	Billing	Billing
+3616	Bill visible	Bill visible
+3617	Convert to	Convert to
+3618	Dashbord view	Dashbord view
+3619	Duration	Duration
+3620	Manual input in minutes	Manual input in minutes
+3621	Is billed	Is billed
+3622	Convert	Convert
+3623	Order is placed!	Order is placed!
+3624	Select or create a document!	Select or create a document!
+3625	Please add items to your order!	Please add items to your order!
+3626	This list shows what you already ordered	This list shows what you already ordered
+3627	This list shows what you are going to order when you press the order button	This list shows what you are going to order when you click the [Order] button
+3628	Select a product to add to your order list	Select a product to add to your order list
+3629	Merge	Merge
+3630	Table overview	Table overview
+3631	All orders	All orders
+3632	Print ticket	Print ticket
+3633	Date reservation	Date reservation
+3634	Day memo	Day memo
+3635	Guest	Guest
+3636	Create POS ticket	Create POS ticket
+3637	Person(s)	Person(s)
+3638	Stay in minutes	Stay in minutes
+3639	Expected time	Expected time
+3640	Horizontal pos layout	Horizontal POS layout
+3641	Vertical pos layout	Vertical POS layout
+3642	Clear table movement	Clear table movement
+3643	Move seat	Move seat
+3644	Link seat	Link seat
+3645	Unlink seat	Unlink seat
+3646	Hide <@APPNAME@> interface	Hide <@APPNAME@> interface
+3647	Telephonic orders	Telephonic orders
+3648	Orders to deliverlist	Orders to deliver list
+3649	Lock	Lock
+3650	Start click here	Start click here
+3651	Click here again	Click here again
+3652	Click here	Click here
+3653	Reservations	Reservations
+3654	Close pos	Close POS
+3655	Cash entry	Cash entry
+3656	Payment of posted documents	Payment of posted documents
+3657	Show doc info	Show doc. info
+3658	Simple action buttons	Simple action buttons
+3659	No captions	No captions
+3660	dayly provission	Daily provision
+3661	Document without border	Document without border
+3662	Posted payments	Posted payments
+3663	Sales per table	Sales per table
+3664	New order	New order
+3665	Show fixed first group list	Show fixed first group list
+3666	Show current totals in list	Show current totals in list
+3667	Recieve seperate payments	Receive separate payments
+3668	Create account from documentdetails	Create account from document details
+3669	Send documenttype	Send document type
+3670	Print document and send email	Print document and send e-mail
+3671	Username	Username
+3672	Enable auto set inactive debtor after x days unpayed	Enable auto set inactive debtor after x days unpaid
+3673	Days after payment before inactive	Days after payment before inactive
+3674	Do you want to run this process for 1 creditor?	Do you want to run this process for 1 creditor?
+3675	Tax list debtor / creditor with taxid	Tax list debtor with tax id
+3676	Unposted documents found ! Please process all documents before manual edit	Unposted documents found ! Please process all documents before manual edit!
+3677	Start quantity	Start quantity
+3678	Expected quantity	Expected quantity
+3679	Production date	Production date
+3680	Max salesdate	Max sales date
+3681	Location	Location
+3682	Serial	Serial
+3683	Batch	Batch
+3684	Total sold	Total sold
+3685	Find with central search	Find with central search
+3686	No account creation	No account creation
+3687	Match on open amounts	Match on open amounts
+3688	Total Exp sales on price 2	Total Exp sales on price 2
+3689	Total Stock value	Total Stock value
+3690	Enter email adress seperate with ;	Enter e-mail address separate with ;
+3691	Countries	Countries
+3692	Correction missing transact	Correction transaction ageing
+3693	Please save or cancel your document first	Please save or cancel your document first!
+3694	Please save or cancel your stock first	Please save or cancel your stock first!
+3695	Please save or cancel your debtor first	Please save or cancel your debtor first!
+3696	Please save or cancel your creditor first	Please save or cancel your creditor first!
+3697	Spreadsheet sales	Spreadsheet sales
+3698	Spreadsheet reports	Spreadsheet reports
+3699	Use all to stop asking this question.	Select [All] to stop asking this question.
+3700	View	View
+3701	Zoom	Zoom
+3702	Page layout	Page layout
+3703	Formules	Formulas
+3704	Import check	Import check
+3705	Profile	Profile
+3706	Save profile	Save profile
+3707	Add profile	Add profile
+3708	Import type	Import type
+3709	Link on	Link on 
+3710	Small backup (books)	Small backup (books)
+3711	This action wil close <@APPNAME@> and install version %s we recomend you make a backup of the whole folder of <@APPNAME@>.
+Do you wish to continue?	This action will close <@APPNAME@> and install version %s we recommend you make a backup of the whole folder of <@APPNAME@>. Do you wish to continue?
+3712	Updates	Updates
+3713	Check for update at start	Check for update at start
+3714	Beta versions	Beta versions
+3715	Install	Install
+3716	Workflow	Workflow
+3717	Block chain	Blockchain
+3718	Activate plugins	Activate plugins
+3719	Add to group	Add to group
+3720	Spreadsheet import	Spreadsheet import
+3721	Enable blockchain	Enable Blockchain
+3722	Document show quantity	Document show quantity
+3723	Counted quantity	Counted quantity
+3724	Current quantity	Current quantity
+3725	Date of count	Date of count
+3726	Ok -> Next	OK → Next
+3727	Uncounted	Uncounted
+3728	Counted	Counted
+3729	Fast add	Fast add
+3730	Post diverence	Post difference
+3731	Checked and OK	Checked and OK
+3732	Your current open year end date "%s" is greater than today. do you want to stop opening a new year?	Your current open year end date %s is greater than today! Do you want to stop opening a new year?
+3733	Are you sure you want to overwrite your current books?	Are you sure you want to overwrite your current books?
+3734	Post in period 0	Post in period 0
+3735	You are putting proffit/loss on ledger with tax. This will messup tax reports Do you wish to continue?	You are putting profit/loss on ledger with tax! This will mess up tax reports! Do you wish to continue?
+3736	You are putting cash from a bank/cash directly to a bank/cash account. Do you wish to continue?	You are putting cash from a bank/cash directly to a bank/cash account! Do you wish to continue?
+3737	Do you wish to cancel the print this reciept?	Do you wish to cancel the print this receipt?
+3738	LTR	LTR
+3739	Convert quote to one unproccessed invoice per client	Convert quote to one unprocessed invoice per client
+9901	//  Ovo su glavni komentari na meni	//  These are the main menu comments
+20000	Ne možete izraditi rekurzivne nivoe	You cannot create recursive levels!
+20001	Potvrdi	Confirm
+20002	Izbriši zapis?	Delete record?
+20003	Obriši sav izabrani zapis?	Delete all selected records?
+20004	Klikni ovdje za dodavanje novih redaka	Click here to add a new row
+20005	Filter je prazan>	Filter is <empty>
+20006	Namještanje prema željama	Customisation
+20007	Kolone	Columns
+20008	Koristi miša za dovlaeenje kolone ovdje i grupiranje u tu kolonu	Use your mouse to pull a column here to group on that column
+20009	Namještanje prema željama...	Customise...
+20010	Opseg	Bands
+20011	Nedostaje srednja komponenta! Molimo vas dodajte %s komponente na formu.	Missing an intermediary component! Please add a %s component to the form!
+20012	cx toeka ne postoji	cxGrid does not exist!
+20013	Komponenta ne postoji	Component does not exist!
+20014	Greška pri uvozu	Import error!
+20015	Pogled na  toeke ne postoji	Grid view does not exist!
+20016	Aktivni nivo  toeaka ne postoji	Active grid level does not exist!
+20017	Ne mogu izraditi datoteku za izvoz	Cannot create the export output file!
+20018	ExtLookupComboBox|Represents an ultra-advanced lookup using the QuantumGrid as its drop down control	Ext Lookup Combo Box - Represents an ultra-advanced lookup using the quantum grid as its drop down control!
+20019	Jednako sa	Equal to
+20020	Nije jednako sa	Not equal to
+20021	Manje od	Less than
+20022	Manje od ili jednako sa	Less than or equal to
+20023	Veae od	Greater than
+20024	Veae od ili jednako sa	Greater than or equal to
+20025	kao	Like
+20026	Nije kao	Not like
+20027	Izme?u	Between
+20028	Nije izme?u	Not between
+20029	u	in
+20030	Nije u	Not in
+20031	je juaer	is yesterday
+20032	je danas	is today
+20033	je sutra	is tomorrow
+20034	je prošli tjedan	is last week
+20035	je prošli mjesec	is last month
+20036	je prošle godine	is last year
+20037	je ovaj tjedan	is this week
+20038	je ovaj mjesec	is this month
+20039	je ove godine	is this year
+20040	je sljedeai tjedan	is next week
+20041	je sljedeai mjesec	is next month
+20042	je sljedeae godine	is next year
+20043	i	and
+20044	ili	or
+20045	Ne	Not
+20046	Prazno	Empty
+20047	je nula	is nul
+20048	nije nula	is not nul
+20049	Poeinje sa	Begins with
+20050	Ne poeinje sa	Does not begin with
+20051	Završava sa	Ends with
+20052	Ne završava sa	Does not end with
+20053	Sadrži	Contains
+20054	Ne sadrži	Does not contain
+20055	(Sve)	(All)
+20056	(Po izboru...)	(Custom...)
+20057	(Prazno)	(Empty)
+20058	(Nije prazno)	(Not empty)
+20059	Broj transakcije	Transaction no.
+20060	Broj skupine	Batch no.
+20061	,0.00	,0.00
+20062	Od brojavaj : 0	Count : 0
+20063	Izvoz	Export
+20064	Kolone	Columns
+20065	Totalna prodaja	Total sales
+20066	Totalna kolieina.	Total Qty.
+20067	Totalna prodaja po danu	Total sales per day
+20068	Totalna kolieina po danu	Total qty. per day
+20069	Transakcije	Transactions
+20070	Raeun za kupca	Customer > Invoice
+20071	Invocice stock item	Invoice > Stock item
+20072	Stock Item invoice	Stock item > Invoice
+20073	Dijagram	Charts
+20074	Jedinstveni broj artikla.	Unique stock no.
+20075	Jedinstveni dokument.	Unique document no.
+20076	Jedinstveni broj linije.	Unique line no.
+20077	Jedinstveni broj konta.	Unique account no.
+20078	Ova verzija ae raditi do1-3-2005, više informacija saznaj na https://www.osfinancials.org/	This version will only work till 1-3-2005 for more info go to https://www.osfinancials.org/
+20079	Otvori prvo skup knjiga.	Open a Set of Books first!
+20080	O	About
+20081	Izlaz	Exit
+20082	Pokreni SQL	Run SQL
+20083	Ueitaj SQL...	Load SQL...
+20084	Spremi SQL...	Save SQL...
+20085	Filteri	Filters
+20086	Grupiranje	Grouping
+20087	Promjeni Font...	Editor font...
+20088	Prirodni  stil	Native style
+20089	Otvori direktorij	Open directory
+20090	Vidljive kolone	Visible columns
+20091	Od	From
+20092	Do	Until
+20093	i	and
+20094	ili	or
+20095	i ne	and not
+20096	ili ne	or not
+20097	Filter	Filter
+20098	Novi &uvjeti	New &condition
+20099	Novo &grupe	New &group
+20100	&obriši redove	&Delete row
+20101	Obriši &sve	Delete &all
+20102	Pritisni dugme da dodaš uvjet	Push this button to add a condition
+20103	Sadrži sljedeae uvjete	Contains the following conditions
+20104	<Glava>	<Head>
+20105	<Prazno>	<Empty>
+20106	Ne mogu isprazniti filter	Cannot empty filter!
+20107	Prilago?en filter	Adjusted filter
+20108	Kriva vrijednost	Invalid value
+20109	Koristi	Use
+20110	za prestavljanje jednog karaktera	to present a single character
+20111	za predstavljanje više karaktera	to present multiple characters
+20112	i	and
+20113	ili	or
+20114	Prikaži redove ovdje :	Show rows where :
+20115	Napravi filter	Make filter
+20116	Filter bez imena.flt	noname.flt
+20117	Otvori spremljeni filter	Open a saved filter
+20118	Spremi aktivni filter	Save active filter
+20119	&Spremi kao...	&Save as...
+20120	&Otvori...	&Open...
+20121	&Prijavi	&Apply
+20122	flt	flt
+20123	Filt	Filter (*.flt)|*.flt
+20124	<No data to display>	<No data to display>
+20130	Do not Cash	Do not cash
+20131	Create Good sold Not Taken	Create goods sold not taken
+20132	Can Not Delete	Cannot delete!
+20133	Use Advance Stock	Use advanced stock
+21000	&File	&File
+21001	Report Manager Designer	Report Manager Designer
+21002	&Report	&Report
+21003	&Edit	&Edit
+21004	&Display	&Display
+21005	&Preferences	&Preferences
+21006	&Help	&Help
+21007	Grid	Grid
+21008	Grid options for this report	Grid options for this report
+21009	Cut	Cut
+21010	Copy	Copy
+21011	Paste	Paste
+21012	Cut selected object	Cut selected object
+21013	Copy selected object to clipboard	Copy selected object to clipboard
+21014	Paste from clipboard	Paste from clipboard
+21015	Hide	Hide
+21016	Hide selected objects	Hide selected objects
+21017	Show all	Show all
+21018	Shows all the hiden components	Shows all the hidden components
+21019	All	All
+21020	Selects all components of the report	Selects all components of the report
+21021	Select	Select
+21022	Move	Move
+21023	Left	Left
+21024	Moves the selection to the left	Moves the selection to the left
+21025	Right	Right
+21026	Moves the selection to the left	Moves the selection to the right
+21027	Up	Up
+21028	Moves the selection up	Moves the selection up
+21029	Down	Down
+21030	Moves the selection down	Moves the selection down
+21031	Align	Align
+21032	Aligns selection to the left	Aligns selection to the left
+21033	Aligns selection to the right	Aligns selection to the right
+21034	Aligns selection up	Aligns selection up
+21035	Aligns selection down	Aligns selection down
+21036	Horizontal space	Horizontal space
+21037	Aligns selection distributing horzontal space	Aligns selection distributing horizontal space
+21038	Vertical space	Vertical space
+21039	Aligns selection distributing vertical space	Aligns selection distributing vertical space
+21040	New	New
+21041	Creates a new report	Creates a new report
+21042	Open	Open
+21043	Opens an existing report	Opens an existing report
+21044	AExit	Exit
+21045	Closes de application	Closes the application
+21046	Save...	Save...
+21047	Saves the current report	Saves the current report
+21048	Save as...	Save as...
+21049	Saves the report to a new file	Saves the report to a new file
+21050	Page Setup	Page setup
+21051	Show report page setup	Show report page setup
+21052	Print	Print
+21053	Print the report, you can select pages to print	Print the report. You can select pages to print.
+21054	Print Preview	Print preview
+21055	Preview the report in the screen	Preview the report in the screen
+21056	Printer setup...	Printer setup...
+21057	Displays printer setup dialog	Displays printer setup dialog
+21058	About Report Manager	About Report Manager
+21059	Shows information about Report Manger	Shows information about Report Manger
+21060	Documentation	Documentation
+21061	Display Report Manager Designer Documentation	Display Report Manager Designer Documentation
+21062	Measurement	Measurement
+21063	&Cms	&Cms
+21064	Change measurement units to cms	Change measurement units to cms
+21065	Inches	Inches
+21066	Changes measurement units to inchess	Changes measurement units to inches
+21067	Driver	Driver
+21068	Qt driver (CLX)	Qt driver (CLX)
+21069	Activates the Qt cross platform graphics and printing driver	Activates the Qt cross platform graphics and printing driver
+21070	GDI Driver (VCL)	GDI Driver (VCL)
+21071	Activates the GDI32 direct rendering driver (VCL), Windows only	Activates the GDI32 direct rendering driver (VCL), Windows only
+21072	Qt System print dialog	Qt System print dialog
+21073	Shows the system print dialog, or a custom print dialog	Shows the system print dialog, or a custom print dialog
+21074	Kylix Print Bugfix	Kylix Print Bugfix
+21075	Uses kylix print bugfix (use metaprint to print metafiles)	Uses Kylix print bugfix (use metaprint to print metafiles)
+21076	Status bar	Status bar
+21077	Shows or hides the status bar	Shows or hides the status bar
+21081	Select objects	Select objects
+21082	Inserts a static text	Inserts a static text
+21083	Inserts a expression	Inserts an expression
+21084	Inserts a simple drawing	Inserts a simple drawing
+21085	Inserts a image	Inserts an image
+21086	Inserts a barcode	Inserts a barcode
+21087	Inserts a chart	Inserts a chart
+21093	OK	OK
+21094	Cancel	Cancel
+21095	Default	Default
+21096	Custom	Custom
+21097	Page size	Page size
+21098	Page orientation	Page orientation
+21099	Page Margins	Page margins
+21100	Left	Left
+21101	Right	Right
+21102	Top	Top
+21103	Bottom	Bottom
+21104	Custom size	Custom size
+21105	Custom page orientation	Custom page orientation
+21106	Portrait	Portrait
+21107	Landscape	Landscape
+21108	Copies	Copies
+21109	Collate copies	Collate copies
+21110	Dialog	Dialog
+21111	Two pass report	Two pass report
+21112	Report language	Report language
+21113	Printer Fonts (Windows GDI Only)	Printer fonts (Windows GDI Only)
+21114	Always use printer fonts	Always use printer fonts
+21115	Never use printer fonts	Never use printer fonts
+21116	Background color	Background color
+21117	All Text	All Text
+21118	Selects all text components of the report	Selects all text components of the report
+21119	Page header	Page header
+21120	Inserts a page header in the selected subreport	Inserts a page header in the selected subreport
+21121	Page footer	Page footer
+21122	Inserts a page footer in the selected subreport	Inserts a page footer in the selected subreport
+21123	Group header and footer	Group header and footer
+21124	Insert a group header an footer	Insert a group header and footer
+21125	Subreport	Subreport
+21126	Insert a new subreport	Insert a new subreport
+21127	Delete section/subreport	Delete section/subreport
+21128	Deletes the selected subreport or section	Deletes the selected subreport or section
+21129	Detail	Detail
+21130	Inserts a detail section in the selected subreport	Inserts a detail section in the selected subreport
+21131	Data access configuration	Data access configuration
+21132	Modifies data access information	Modifies data access information
+21133	Parameter definition	Parameter definition
+21134	Shows parameter definition for the report and data configuration	Shows parameter definition for the report and data configuration
+21135	Parameters	Parameters
+21136	Show report parameters	Show report parameters
+21137	Delete section	Delete section
+21138	Delete the selected section	Delete the selected section
+21139	Moves the section up	Moves the section up
+21140	Moves the section down	Moves the section down
+21142	Connections	Connections
+21143	Configure printers	Configure printers
+21144	Login prompt	Login prompt
+21145	Load params	Load parameters
+21146	Load driver params	Load driver parameters
+21148	Datasets	Datasets
+21149	Add	Add
+21150	Delete	Delete
+21152	Parameters	Parameters
+21154	Connection	Connection
+21155	Master dataset	Master dataset
+21156	Show data	Show data
+21157	BDE Type	BDE type
+21158	Table and order	Table and order
+21159	Query	Query
+21160	Table	Table
+21161	BDE Filter	BDE filter
+21162	Table	Table
+21163	Index Name	Index name
+21164	Index Fields	Index fields
+21165	Master fields	Master fields
+21166	Note: Write fields separated by ; character	Note: Write fields separated by ; character
+21167	MyBase Filename	MyBase file name
+21168	Build...	Build...
+21216	Save Metafile As	Save metafile as
+21217	Save the report as a metafile report	Save the report as a metafile report
+21218	Cancels the report calculation	Cancels the report calculation
+21219	Closes the preview window	Closes the preview window
+21220	First page	First page
+21221	Goes to the first page of the report	Goes to the first page of the report
+21222	Previous page	Previous page
+21223	Shows the previous page	Shows the previous page
+21224	Next page	Next page
+21225	Shows the next page	Shows the next page
+21226	Last page	Last page
+21227	Goes to the last page of the report	Goes to the last page of the report
+21228	Normal Scale	Normal scale
+21229	Shows the report in real size	Shows the report in real size
+21230	Scale to window	Scale to window
+21231	Scale adjusting the paper to the window width	Scale adjusting the paper to the window width
+21232	Scale to full page	Scale to full page
+21233	Scale to view full page	Scale to view full page
+21234	Zoom-	Zoom-
+21235	Zooms out the view	Zooms out the view
+21236	Zoom+	Zoom+
+21237	Zooms in the view	Zooms in the view
+21354	Reportman manager designer	Reportman manager designer
+21539	New dataset	New dataset
+21540	Rename dataset	Rename dataset
+21732	User defined	User defined
+21733	Custom size	Custom size
+21734	Adds a section to the selected subreport	Adds a section to the selected subreport
+21741	Select Printer	Select printer
+21742	Dialog	Dialog
+21743	Configuraiton file	Configuration file
+21744	User configuration	User configuration
+21745	System configuration	System configuration
+21746	Position adjustment	Position adjustment
+21753	Connect	Connect
+21763	Operations after print	Operations after print
+21764	Example, TM200 Open Drawer: #27#112#48#160#160#4	Example, TM200 Open Drawer: #27#112#48#160#160#4
+21765	Example, TM88 Open Drawer: #27#112#48#40#200#4	Example, TM88 Open Drawer: #27#112#48#40#200#4
+21766	Cut paper	Cut paper
+21767	Open drawer	Open drawer
+21799	No data available to print!	No data available to print!
+21800	Print only if data available	Print only if data available
+21831	First range	First range
+21832	Last range	Last range
+21833	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter	Each line will be evaluated and assigned to each field as the start of the filter and end of the filter
+21835	Load section	Load section
+21836	Save section	Save section
+21840	Preview window and scale	Preview window and scale
+21841	Normal	Normal
+21842	Maxmized	Maximized
+21843	Wide	Wide
+21844	Normal	Normal
+21845	Page	Page
+21857	Page setup	Page setup
+21858	Print setup	Print setup
+21936	Native driver	Native driver
+21939	Activates the Native driver, no graphics dependent	Activates the Native driver, no graphics dependent
+21976	System information	System information
+21977	Shows system and printer information	Shows system and printer information
+22058	Text only driver	Text only driver
+22059	Align height 1/6	Align height 1/6
+22060	Aligns all sections height to 1/6 inchess for dot matrix compatibility	Aligns all sections height to 1/6 inches for dot matrix compatibility
+22080	Libraries	Libraries
+22081	Open report libraries dialog	Open report libraries dialog
+22082	Dataset client side unions	Dataset client side unions
+22083	Unions	Unions
+22084	Union grouping	Union grouping
+22085	Field defs file	Field defs file
+22086	Modify...	Modify...
+22097	Database connections and datasets	Database connections and datasets
+22098	Available connections	Available connections
+22099	Connection String	Connection string
+22100	Available	Available
+22101	Database driver	Database driver
+22102	New connection	New connection
+22103	Adds a new connection	Adds a new connection
+22104	Delete connection	Delete connection
+22105	Deletes the selected connection	Deletes the selected connection
+22106	Delete the selected object	Delete the selected object
+22230	Mail to	Mail to
+22231	Sends the reports to a e-mail destination	Sends the reports to an e-mail destination
+22347	Application Font	Application font
+22348	Application Font	Application font
+22377	Lines per inch	Lines per inch
+22433	Recalculte report	Recalculte report
+22434	Find	Find
+22435	Find text	Find text
+22440	Parallel union	Parallel union
+900000	Parcelware code	Parcelware code
+900001	Send to Parcelware	Send to Parcelware
+900002	House No.	House no.
+900003	House No. tv	House no. unit
+900004	Street	Street
+901000	Subscriptions	Subscriptions
+901001	Subscriptions list	Subscriptions list
+901002	Warnings	Warnings
+901003	Subscriptions to process	Subscriptions to process
+901004	Line value (Inc)	Line value (Incl.)
+901005	Invoice in days before subscription date	Invoice in days before subscription date
+901006	Warning in days before subscription date	Warning in days before subscription date
+901007	Interval type	Interval type
+901008	Interval	Interval
+901009	<Select Stock Item>	<Select stock item>
+901010	Are you sure you want to delete this subscription?	Are you sure you want to delete this subscription?
+901011	Last run	Last run
+901012	Next run	Next run
+901013	Start Date	Start date
+901014	To	To
+901015	Processed	Processed
+901016	Subscriptions	Subscriptions
+901017	Day	Day
+901018	Week	Week
+901019	Month	Month
+901020	Quarter	3 Months
+901021	1/2 year	6 Months
+901022	Year	Year
+901023	Next warning	Next warning
+901500	Split	Split
+901501	Seat	Seat
+901502	Couvert	Couvert
+901503	Waiter	Waiter
+901504	The item %s is out of stock! Please review your entry!	The item %s is out of stock! Please review your entry!
+901505	New lines added please review this payment!	New lines added please review this payment!
+901506	Please close all open invoices first!	Please close all open invoices first!
+901507	Are you sure you want to continue to close the POS?	Are you sure you want to continue to close the POS?
+901508	Close POS	Close POS
+901509	Handheld	Handheld
+902000	Price Agreement	Price agreement
+902001	Until qty	Until quantity
+902002	External product code	External product code
+902003	Percentage of avg cost price	Percentage of avg. cost price
+902004	<All Stock>	<All stock>
+902005	<All Debtors>	<All debtors>
+902006	Povijesni	Historical
+902007	Cijena Tip	Price type
+902008	Price list - Large retail - Sales	Price list - Large retail - Sales
+902009	Price list - Large retail - Purchases	Price list - Large retail - Purchases
+903000	Multimedia	Multimedia
+903001	File location	File location
+903002	Original filename	Original file name
+903003	File date	File date
+903004	To database	To database
+903005	Link file	Link file
+903006	Copy file	Copy file
+903007	URL	URL
+903008	View/Edit	View/Edit
+903009	Press OK when you are done editing the file to save it to the database!	Click [OK] when you are done editing the file to save it to the database!
+903010	Save as...	Save as...
+903011	Lista	List
+903100	Charter	Charter
+903101	Corrections	Corrections
+903102	Sysvars	Sysvars
+903103	Inconsistencies	Inconsistencies
+903104	MSG	MSG
+903105	Run SQL	Run SQL
+903106	Cleanup Batch	Cleanup batch
+903107	Colour Conditions	Colour conditions
+903108	Ledger Transactions	Ledger transactions
+903109	Import	Import
+903110	Patches	Patches
+903111	Round-off Cents	Round-off cents
+903112	Add Extra Description to Stock	Add extra description to stock
+903113	Drop Extra Description from Stock	Drop extra description from stock
+903114	Change Stock Code Type	Change stock code type
+903115	Calculate Total in Stock	Calculate total in stock
+903116	Test Increase	Test increase
+903117	Type ID	Type id
+903118	End Stock Code	End stock code
+903119	Remove Groups not in Stock	Remove groups not in stock
+903120	Remove Stock not in Documents	Remove stock not in documents
+903121	Generate Stock per Ledger	Generate stock per ledger
+903122	Remove from BOM which is not BOM	Remove from BOM which is not BOM
+903123	Update Stock Qty for Option Items	Update stock qty for option items
+903124	Remove Debtors	Remove debtors
+903125	Remove Creditors	Remove creditors
+903126	Remove Stock Items	Remove stock items
+903127	Remove Contacts	Remove contacts
+903128	Clear Messages	Clear messages
+903129	Consolidate Closed Years	Consolidate closed years
+903130	Transfer Account Data	Transfer account data
+903131	Transfer Stock Data	Transfer stock data
+903132	Transfer Doubles to Min ID and Delete	Transfer doubles to Min id and delete
+903133	Consolidate Closed Years - Documents and Stock	Consolidate closed years - documents and stock
+903134	Fill Globals with Max + 1 ID	Fill globals with max + 1 id
+903135	Remove Debtors not in Account	Remove debtors not in account
+903136	Remove Creditors not in Account	Remove creditors not in account
+903137	Set all Debtors to Open Item	Set all debtors to open item
+903138	Set all Creditors to Open Item	Set all creditors to open item
+903139	Correct Account Numbers	Correct account numbers
+903140	Correct Sub-accounts	Correct sub-accounts
+903141	Trim Debtor Address and Set First Character to the UPPERCASE	Trim debtor address and set first character to the UPPERCASE
+903142	Generate All Total Entries	Generate all total entries
+903143	Remove Invalid Symbols from Bank Accounts	Remove invalid symbols from bank accounts
+903144	Reset Purchase to Basis of Last Document	Reset purchase to basis of last document
+903145	Correct Errors Balance Bookings Descriptions	Correct errors balance booking descriptions
+903146	Set Transact Previous Years	Set Transact previous years
+903147	Update Dochead FTaxAmt	Update Dochead FTaxAmt
+903148	Correct Periods	Correct periods
+903149	Fix Periods	Fix periods
+903150	Find Unbalanced Entries	Find unbalanced entries
+903151	Auto-link All Zero Debtors	Auto-link all zero debtors
+903152	Remove All Links	Remove all links
+903153	Correct Transact Line ID	Correct Transact line id
+903154	Correct Incl. Excl. Tax Amount (Reverse Bug)	Correct Incl./Excl. Tax amount (Reverse bug)
+903155	Clear Totals	Clear totals
+903156	Clear Sysvars Parameters	Clear Sysvars parameters
+903157	Delete All Invoices	Delete all invoices
+903158	Remove BatCon not in Transact	Remove BatCon not in Transact
+903159	Remove Zero Invoices	Remove zero invoices
+903160	Remove Last Name from Contacts after a Comma	Remove last name from contacts after a comma
+903161	Find Debtors	Find debtors
+903162	Find Creditors	Find creditors
+903163	Generate Contacts	Generate contacts
+903164	Pick Colour	Pick colour
+903165	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price	Set Selling Price 1 at 1.5 X of Purchase Price and Selling Price 2 at1.3 X of Purchase Price
+903166	Select	Select
+903167	Rerun Patch X	Rerun Patch X
+903168	Reset Sysvars	Reset Sysvars
+903169	Current Version	Current version
+903170	Execute	Execute
+903171	Script	Script
+903172	Set Term	Set term
+903173	Drop	Drop
+903174	Save to All Users	Save to all users
+903175	Expression	Expression
+903176	Font Expression	Font expression
+903177	Background Expression	Background expression
+903178	Are you sure ?	Are you sure?
+903179	Nothing found !	Nothing found !
+903180	Enter Code	Enter code
+903181	Please register <@APPNAME@> first !	Please register <@APPNAME@> first!
+903182	Registered	Registered
+906000	In spite of previous reminders, according to our records your account is still overdue.	Despite previous reminders, according to our records your account is still overdue. 
+906001	Subscriptions default layout message	The next subscription will start soon. The invoice for the new period will follow shortly.
+906002	Dokument Datum i Vrijeme	Document date/time
+906003	Alias	Alias
+906004	Povratnica	Supplier
+906005	Narudžba Datum	Order date
+906006	Kolicina Datum	Quote date
+906007	Cum	Cum
+906008	Total Paid	Total paid
+906009	Pin	PIN
+906010	Please settle  your account as soon as possible.	Please settle your account as soon as possible!
+906011	Iskljuei porez	Exclusive
+906012	Ukljueeno	Inclusive
+906013	On Account	On account
+906014	POS Tax Invoice	POS Tax Invoice
+906015	IBAN	IBAN
+906016	BIC	BIC
+906017	SWIFT	SWIFT
+906018	Thank you for your patronage.	Thank you for your patronage.
+906019	Have a nice day.	Have a nice day.
+906020	Price type	Tax
+906021	Branch Code	Branch code
+906022	Account Holder	Account holder
+906023	- Kraj od Izvještaj -	- End of report -
+906024	Povratnica od kupca Datum	Credit note date
+906025	Cum gen	Cum total
+906026	Dokument Primka	Purchase document
+906027	Primka Datum	Purchase date
+906028	Povratnica dobavljacu Datum	Supplier return date
+906029	Povratnica dobavljacu Dokument	Supplier return document
+906030	Povratnica dobavljacu je prihvacen	Supplier return accepted
+906031	Historical Value	Historical value
+906032	Order List	Order list
+906033	Outstanding Orders	Outstanding orders
+906034	Outstanding Quotes	Outstanding quotes
+906035	Price List - Price Agreement	Debtor - Price agreement
+906036	Re-order Quantities	Reorder quantities
+906037	Sales Hours	Sales hours
+906038	Stock Movement	Stock movement
+906039	Transaction Details	Transaction details
+906040	Yagoda Barcode	Yagoda barcode
+906041	P/L	P/L
+906042	Profit/Loss	Profit/Loss
+906043	Sales by Customer Group	Sales per customer group
+906044	Sales by Stock Group	Sales per stock group
+906045	Debtor List	Debtor list
+906046	Creditor List	Creditor list
+906047	Debtor Contact List	Contact list - Debtors
+906048	Creditor Contact List	Contact list - Creditors
+906049	Contact List - All	Contact list - All
+906050	Back-Order	Backorder
+906051	Log-on Report	Log report
+906052	Log-on	Log-on
+906053	Log-off	Log-off
+906054	OS User	OS user
+906055	From PC	From PC
+906056	Bar Oder	Bar order
+906057	Kitchen Order	Kitchen order
+906058	Turnover	Turnover
+906059	Utilisation	Sales per customer
+906060	Contact List - Main	Contact list - Main
+906061	new	Transaction list - Open item
+906062	Selected Debtor Label	Selected debtor label
+906063	Selected Creditor Label	Selected creditor label
+906064	Delivery Address Labels	Delivery address labels
+906065	Selected Debtor Delivery Label	Selected debtor delivery label
+906066	Selected Creditor Delivery Label	Selected creditor delivery label
+906067	Payments	Payments
+906068	Page No.	Page no.
+906069	Your Tax Reference	Your tax reference
+906070	Reprinted	Reprinted
+906071	Cost Centre 1	Cost centre 1
+906072	Cost Centre 2	Cost centre 2
+906073	POSPoints	POSPoints
+906074	Batch	Batch
+906075	Compare Period	Compare period
+906076	Compare Period - Debtors	Compare period - Debtors
+906077	Compare Period - Creditors	Compare period - Creditors
+906078	Compare Period - Profit / Loss	Compare period - Profit / Loss
+906079	Multi-Year	Multi-year
+906080	On selected account / other	On selected account / other
+906081	Transaction ID	Transaction id
+906082	Batch Type ID	Batch type id
+906083	Document Amount	Document amount
+906084	Document Tax	Document tax
+906085	Tax on Tax Account	Tax on tax account
+906086	Control Report - Transactions per Contra Account Processed	Control report - Processed transactions per contra account
+906087	POS Payment Types	POS Payment types
+906088	Creditor - Price Agreement	Creditor - Price agreement
+906089	POS Sales Report	POS Sales report
+906090	POS Current Cash Report	POS Current cash report
+906091	POS Historical Cash Report	POS Historical cash report
+906092	Total Profit / Loss	Total Profit / Loss
+906093	Opening Balance	Opening balance
+906094	Total Balance	Total balance
+906095	Total Lines	Total lines
+906096	Checksum	Checksum
+906097	Debtor Payment Report	Automatic receipts report
+906098	Batch Type Report	Batch type report
+906099	BatchID	Batch id
+906100	Posted Batch	Posted batch
+906101	Unposted Batch	Unposted batch
+906102	Contra Accounts	Contra accounts
+906103	Creditors Outstanding at date	Creditors outstanding at date
+906104	Debtors Outstanding at date	Debtors outstanding at date
+906105	Tax per period	Tax per period
+906106	Debtor Transactions - Standard	Debtor transactions - Standard
+906107	Debtor Transactions - Extra Details	Debtor transactions - Extra details
+906108	Creditor Transactions - Standard	Creditor transactions - Standard
+906109	Creditor Transactions - Extra Details	Creditor transactions - Extra details
+906110	General Ledger Transactions - Standard	General ledger transactions - Standard
+906111	General Ledger Transactions - Extra Details	General ledger transactions - Extra details
+906112	Stock In / Out	Stock In / Out
+906113	Period Quantity	Period quantity
+906114	Purchases per period	Purchases per period
+906115	Items per period	Items per period
+906116	Creditor Group	Creditor group
+906117	Debtor Group	Debtor group
+906118	Stock Group	Stock group
+906119	Document Group	Document group
+906120	Supplier Returns per period	Supplier returns per period
+906121	Credit Notes per period	Credit notes per period
+906122	Sales per period	Sales per period
+906123	Debtor Transactions	Debtor transactions
+906124	Creditor Transactions	Creditor transactions
+906125	Posted Invoices	Posted invoices
+906126	Unposted Invoices	Unposted invoices
+906127	Posted Credit Notes	Posted credit notes
+906128	Unposted Credit Notes	Unposted credit notes
+906129	Posted Purchases	Posted purchases
+906130	Unposted Purchases	Unposted purchases
+906131	Posted Supplier Returns	Posted supplier returns
+906132	Unposted Supplier Returns	Unposted supplier returns
+906133	Confirmed Quotes	Confirmed quotes
+906134	Unconfirmed Quotes	Unconfirmed quotes
+906135	Confirmed Orders	Confirmed orders
+906136	Unconfirmed Orders	Unconfirmed orders
+906137	Postal Address Labels	Postal address labels
+906138	List Delivery Address	List delivery address
+906139	List Postal Address	List postal address
+906140	List Details	List details
+906141	Batch transactions per period	Batch transactions per period
+906142	Balances Detail	Balances detail
+906143	Balances Detail History	Balances detail history (open item)
+906144	Outstanding Open Item Transaction Totals	Outstanding open item transaction totals
+906145	Outstanding Transaction Totals	Outstanding transaction totals
+906146	Debtor Age Analysis	Debtor age analysis
+906147	Balances	Balances
+906148	Balances Detail 1	Balances detail 1
+906149	Reporting Groups	Reporting groups
+906150	Purchases per period - Quantities	Purchases per period - Quantities
+906151	Purchases per period - Cost	Purchases per period - Amount
+906152	Purchases per period - Creditor Group 1	Purchases per period - Creditor group 1
+906153	Purchases per period - Creditor Group 2	Purchases per period - Creditor group 2
+906154	Purchases per period - Document Group 1	Purchases per period - Document group 1
+906155	Invoices per period - Quantities	Invoices per period - Quantities
+906156	Invoices per period - Turnover	Invoices per period - Amount
+906157	Invoices per period - Debtor Group 1	Invoices per period - Debtor group 1
+906158	Invoices per period - Debtor Group 2	Invoices per period - Debtor group 2
+906159	Invoices per period - Document Group 1	Invoices per period - Document group 1
+906160	Cash Slip Printer	Cash slip printer
+906161	Document Listing per Account	Document listing per account
+906162	Unprinted Document Listing	Unprinted document listing
+906163	Purchases per period - Document Group 2	Purchases per period - Document group 2
+906164	Purchases per period - Salesperson	Purchases per period - Salesperson
+906165	Invoices per period - Document Group 2	Invoices per period - Document group 2
+906166	Invoices per period - Salesperson	Invoices per period - Salesperson
+906167	Graph - Creditor per week	Graph - Creditors per week
+906168	Graph - Debtor per week	Graph - Debtors per week
+906169	Graph - Profit / Loss per week	Graph - Profit / Loss per week
+906170	Graph - Invoices per week - Quantities	Graph - Invoices per week - Quantities
+906171	Graph - Invoices per week - Turnover	Graph - Invoices per week - Amount
+906172	Purchases per Product - Stock Group 1	Purchases per product - Stock group 1
+906173	Purchases per Product - Stock Group 2	Purchases per product - Stock group 2
+906174	Sales per Product - Stock Group 1	Sales per product - Stock group 1
+906175	Sales per Product - Stock Group 2	Sales per product - Stock group 2
+906176	System User	System user
+906177	<@APPNAME@> User	<@APPNAME@> user
+906178	Stock In	Stock in
+906179	Stock Out	Stock out
+906180	Open Drawer	Open drawer
+906181	Delivery Note (No Codes)	Delivery note (no codes)
+906182	Delivery Note (15 Code)	Delivery note (15 code)
+906183	POS - STARTSP100	POS - STARTSP100
+906184	POS	POS 1
+906185	POS 2	POS 2
+906186	POS A4	POS A4
+906187	Default A4	Default A4
+906188	Default A4 (10 Code)	Default A4 (10 code)
+906189	Default A4 (15 Code)	Default A4 (15 code)
+906190	Invoice Test	Invoice test
+906191	Invoice English (15 Code)	Invoice English (15 code)
+906192	Invoice Bank Details (No Code)	Invoice Bank details (no codes)
+906193	Invoice Bank Details (15 Code)	Invoice Bank details (15 code)
+906194	Invoice (No Code)	Invoice (no codes)
+906195	Credit Note (No Code)	Credit note (no codes)
+906196	Quote (No Code)	Quote (no codes)
+906197	Purchase (No Code)	Purchase (no codes)
+906198	Supplier Return (No Code)	Supplier return (no codes)
+906199	Order (No Code)	Order (no codes)
+906200	Invoice (10 Code)	Invoice (10 code)
+906201	Credit Note (10 Code)	Credit note (10 code)
+906202	Quote (10 Code)	Quote (10 code)
+906203	Purchase (10 Code)	Purchase (10 code)
+906204	Supplier Return (10 Code)	Supplier return (10 code)
+906205	Order (10 Code)	Order (10 code)
+906206	Invoice (15 Code)	Invoice (15 code)
+906207	Credit Note (15 Code)	Credit note (15 code)
+906208	Quote (15 Code)	Quote (15 code)
+906209	Purchase (15 Code)	Purchase (15 code)
+906210	Supplier Return (15 Code)	Supplier return (15 code)
+906211	Order (15 Code)	Order (15 code)
+906212	Invoice A4 (No Code)	Invoice A4 (no codes)
+906213	Credit Note A4 (No Code)	Credit note A4 (no codes)
+906214	Quote A4 (No Code)	Quote A4 (no codes)
+906215	Purchase A4 (No Code)	Purchase A4 (no codes)
+906216	Supplier Return A4 (No Code)	Supplier return A4 (no codes)
+906217	Order A4 (No Code)	Order A4 (no codes)
+906218	Invoice A4 (10 Code)	Invoice A4 (10 code)
+906219	Credit Note A4 (10 Code)	Credit note A4 (10 code)
+906220	Quote A4 (10 Code)	Quote A4 (10 code)
+906221	Purchase A4 (10 Code)	Purchase A4 (10 code)
+906222	Supplier Return A4 (10 Code)	Supplier return A4 (10 code)
+906223	Order A4 (10 Code)	Order A4 (10 code)
+906224	Invoice A4 (15 Code)	Invoice A4 (15 code)
+906225	Credit Note A4 (15 Code)	Credit note A4 (15 code)
+906226	Quote A4 (15 Code)	Quote A4 (15 code)
+906227	Purchase A4 (15 Code)	Purchase A4 (15 code)
+906228	Supplier Return A4 (15 Code)	Supplier return A4 (15 code)
+906229	Order A4 (15 Code)	Order A4 (15 code)
+906230	Invoice A4 Plain (No Code)	Invoice A4 Plain (no codes)
+906231	Credit Note A4 Plain (No Code)	Credit note A4 Plain (no codes)
+906232	Quote A4 Plain (No Code)	Quote A4 Plain (no codes)
+906233	Purchase A4 Plain (No Code)	Purchase A4 Plain (no codes)
+906234	Supplier Return A4 Plain (No Code)	Supplier return A4 Plain (no codes)
+906235	Order A4 Plain (No Code)	Order A4 Plain (no codes)
+906236	Invoice A4 Plain (10 Code)	Invoice A4 Plain (10 code)
+906237	Credit Note A4 Plain (10 Code)	Credit note A4 Plain (10 code)
+906238	Quote A4 Plain (10 Code)	Quote A4 Plain (10 code)
+906239	Purchase A4 Plain (10 Code)	Purchase A4 Plain (10 code)
+906240	Supplier Return A4 Plain (10 Code)	Supplier return A4 Plain (10 code)
+906241	Order A4 Plain (10 Code)	Order A4 Plain (10 code)
+906242	Invoice A4 Plain (15 Code)	Invoice A4 Plain (15 code)
+906243	Credit Note A4 Plain (15 Code)	Credit note A4 Plain (15 code)
+906244	Quote A4 Plain (15 Code)	Quote A4 Plain (15 code)
+906245	Purchase A4 Plain (15 Code)	Purchase A4 Plain (15 code)
+906246	Supplier Return A4 Plain (15 Code)	Supplier return A4 Plain (15 code)
+906247	Order A4 Plain (15 Code)	Order A4 Plain (15 code)
+906248	Invoice No Tax (No Code)	Invoice No Tax (no codes)
+906249	Credit Note No Tax (No Code)	Credit note No Tax (no codes)
+906250	Quote No Tax (No Code)	Quote No Tax (no codes)
+906251	Purchase No Tax (No Code)	Purchase No Tax (no codes)
+906252	Supplier Return No Tax (No Code)	Supplier return No Tax (no codes)
+906253	Order No Tax (No Code)	Order No Tax (no codes)
+906254	Invoice No Tax (15 Code)	Invoice No Tax (15 code)
+906255	Credit Note No Tax (15 Code)	Credit note No Tax (15 code)
+906256	Quote No Tax (15 Code)	Quote No Tax (15 code)
+906257	Purchase No Tax (15 Code)	Purchase No Tax (15 code)
+906258	Supplier Return No Tax (15 Code)	Supplier return No Tax (15 code)
+906259	Order No Tax (15 Code)	Order No Tax (15 code)
+906260	Invoice Bank Details (10 Code)	Invoice Bank details (10 code)
+906261	Invoice English (10 Code)	Invoice English (10 code)
+906262	Invoice English (No Code)	Invoice English (no codes)
+906263	New Report	New report
+906264	DOCUMENTS	DOCUMENTS
+906265	Tax Report	Tax report
+906266	Posted Items - Outstanding	Posted items - Outstanding
+906267	Unposted Items - Outstanding	Unposted items - Outstanding
+906268	Current Stock Levels	Current stock levels
+906269	The sum of	The sum of
+906270	Amount Outstanding	Amount outstanding
+906271	Original Transaction Amount	Original transaction amount
+906272	Paid to	Paid to
+906273	Payment Number	Payment number
+906274	LAY-BUYS (to pay)	LAY-BUYS (to pay)
+906275	Accepted	accepted
+906276	Documentlayout (10 Codes)	Document layout (10 code)
+906277	Documentlayout (15 Codes)	Document layout (15 code)
+906278	Documentlayout (No Codes)	Document layout (no codes)
+906279	Supplier 1	Supplier 1
+906280	Ledger and Tax	Ledger and tax
+906281	Dummy Price	Dummy price
+906282	Extra Convert to Languages	Extra convert to languages
+906283	Active Stock	Active stock
+906284	Mark Copy	Mark copy
+906285	Multi-group Copy	Multi-group copy
+906286	Report Total	Report total
+906287	Debit Transactions	Debit transactions
+906288	Credit Transactions	Credit transactions
+906289	Graph - Purchases per week - Quantities	Graph - Purchases per week - Quantities
+906290	Graph - Purchases per week - Cost	Graph - Purchases per week - Amount
+906291	Credit Notes per period - Debtor Group 1	Credit notes per period - Debtor group 1
+906292	Credit Notes per period - Debtor Group 2	Credit notes per period - Debtor group 2
+906293	Credit Notes per period - Document Group 1	Credit notes per period - Document group 1
+906294	Credit Notes per period - Document Group 2	Credit notes per period - Document group 2
+906295	Credit Notes per period - Salesperson	Credit notes per period - Salesperson
+906296	Supplier Returns per period - Creditor Group 1	Supplier returns per period - Creditor group 1
+906297	Supplier Returns per period - Creditor Group 2	Supplier returns per period - Creditor group 2
+906298	Supplier Returns per period - Document Group 1	Supplier returns per period - Document group 1
+906299	Supplier Returns per period - Document Group 2	Supplier returns per period - Document group 2
+906300	Supplier Returns per period - Salesperson	Supplier returns per period - Salesperson
+906301	Quotes per period - Debtor Group 1	Quotes per period - Debtor group 1
+906302	Quotes per period - Debtor Group 2	Quotes per period - Debtor group 2
+906303	Quotes per period - Document Group 1	Quotes per period - Document group 1
+906304	Quotes per period - Document Group 2	Quotes per period - Document group 2
+906305	Quotes per period - Salesperson	Quotes per period - Salesperson
+906306	Orders per period - Creditor Group 1	Orders per period - Creditor group 1
+906307	Orders per period - Creditor Group 2	Orders per period - Creditor group 2
+906308	Orders per period - Document Group 1	Orders per period - Document group 1
+906309	Orders per period - Document Group 2	Orders per period - Document group 2
+906310	Orders per period - Salesperson	Orders per period - Salesperson
+906311	Credit Notes per period - Quantities	Credit notes per period - Quantities
+906312	Credit Notes per period - Turnover	Credit notes per period - Amount
+906313	Supplier Returns per period - Quantities	Supplier returns per period - Quantities
+906314	Supplier Returns per period - Cost	Supplier returns per period - Amount
+906315	Quotes per period - Quantities	Quotes per period - Quantities
+906316	Quotes per period - Turnover	Quotes per period - Amount
+906317	Orders per period - Quantities	Orders per period - Quantities
+906318	Orders per period - Cost	Orders per period - Amount
+906319	Graph - Credit Notes per week - Quantities	Graph - Credit notes per week - Quantities
+906320	Graph - Credit Notes per week - Turnover	Graph - Credit notes per week - Amount
+906321	Graph - Supplier Returns per week - Quantities	Graph - Supplier returns per week - Quantities
+906322	Graph - Supplier Returns per week - Cost	Graph - Supplier returns per week - Amount
+906323	Graph - Quotes per week - Quantities	Graph - Quotes per week - Quantities
+906324	Graph - Quotes per week - Turnover	Graph - Quotes per week - Amount
+906325	Graph - Orders per week - Quantities	Graph - Orders per week - Quantities
+906326	Graph - Orders per week - Cost	Graph - Orders per week - Amount
+906327	Purchase Documents per period - Creditor Group 1	Purchase documents per period - Creditor group 1
+906328	Purchase Documents per period - Creditor Group 2	Purchase documents per period - Creditor group 2
+906329	Purchase Documents per period - Document Group 1	Purchase documents per period - Document group 1
+906330	Purchase Documents per period - Document Group 2	Purchase documents per period - Document group 2
+906331	Purchase Documents per period - Salesperson	Purchase documents per period - Salesperson
+906332	Sales per period - Debtor Group 1	Sales per period - Debtor group 1
+906333	Sales per period - Debtor Group 2	Sales per period - Debtor group 2
+906334	Sales per period - Document Group 1	Sales per period - Document group 1
+906335	Sales per period - Document Group 2	Sales per period - Document group 2
+906336	Sales per period - Salesperson	Sales per period - Salesperson
+906337	Purchases and Supplier Returns per period	Purchases and supplier returns per period
+906338	Credit Control Listing (Credit Limit vs Current Balance) as at 	Credit control listing (Credit limit vs current balance) as at 
+906339	Tax and Company Registration Numbers	Tax and company registration numbers
+906440	Transaction List	Transaction list
+906441	Actual	Actual
+906442	Budget v/s realisation 3 periods	Budget v/s realisation 3 periods
+906443	Ref. No.	Ref. no.
+906444	Data Integrity Check Report	Data integrity check report
+906445	Date / Time	Date / Time
+906446	ID	ID
+906447	Unposted Payments	Unposted payments
+906448	Unposted Receipts	Unposted receipts
+906449	Automatic Payments Report	Automatic payments report
+906550	Tax report - Reference / Document no.	Tax report - Reference / Document no.
+906551	Creditor remittance advise - Outstanding	Creditor remittance advise - Outstanding
+906552	Debtor statement - Outstanding	Debtor statement - Outstanding
+906553	Tax list creditor with tax id	Tax list creditor with tax id
+906554	Outdated batch	Outdated batch
+906555	Batch bought from supplier	Batch bought from supplier
+906556	Batch sold to customer	Batch sold to customer
+906557	Graphs	Graphs
+906558	Graphs per week	Graphs per week
+906559	Graphs per month	Graphs per month
+906560	Graph - Profit / Loss per month	Graph - Profit / Loss per month
+906561	Graph - Debtors per month	Graph - Debtors per month
+906562	Graph - Creditors per month	Graph - Creditors per month
+906563	Graph - Quotes per month - Quantities	Graph - Quotes per month - Quantities
+906564	Graph - Quotes per month - Amount	Graph - Quotes per month - Amount
+906565	Graph - Credit notes per month - Quantities	Graph - Credit notes per month - Quantities
+906566	Graph - Credit notes per month - Amount	Graph - Credit notes per month - Amount
+906567	Graph - Invoices per month - Quantities	Graph - Invoices per month - Quantities
+906568	Graph - Invoices per month - Amount	Graph - Invoices per month - Amount
+906569	Graph - Invoices - Credit notes per month - Quantities	Graph - Invoices - Credit notes per month - Quantities
+906570	Graph - Invoices - Credit notes per month - Amount	Graph - Invoices - Credit notes per month - Amount
+906571	Graph - Purchases - Supplier returns per month - Quantities	Graph - Purchases - Supplier returns per month - Quantities
+906572	Graph - Purchases - Supplier returns per month - Amount	Graph - Purchases - Supplier returns per month - Amount
+906573	Graph - Orders per month - Amount	Graph - Orders per month - Amount
+906574	Graph - Orders per month - Quantities	Graph - Orders per month - Quantities
+906575	Graph - Supplier returns per month - Amount	Graph - Supplier returns per month - Amount
+906576	Graph - Supplier returns per month - Quantities	Graph - Supplier returns per month - Quantities
+906577	Graph - Purchases per month - Amount	Graph - Purchases per month - Amount
+906578	Graph - Purchases per month - Quantities	Graph - Purchases per month - Quantities
+906579	Graph - Invoices - Credit notes per week - Quantities	Graph - Invoices - Credit notes per week - Quantities
+906580	Graph - Invoices - Credit notes per week - Amount	Graph - Invoices - Credit notes per week - Amount
+906581	Graph - Purchases - Supplier returns per week - Quantities	Graph - Purchases - Supplier returns per week - Quantities
+906582	Graph - Purchases - Supplier returns per week - Amount	Graph - Purchases - Supplier returns per week - Amount
+906583	Tax codes - Tax rates	Tax codes - Tax rates
+906584	Production list	Production list
+906585	Stock item list - Active stock	Stock item list - Active stock
+906586	Stock - Expected quantities	Stock - Expected quantities
+906587	Document reference	Document reference
+906588	Value stock account	Value stock account
+906589	NO-TAX Layout file	NO-TAX Layout file
+906590	NO-TAX Document layout	NO-TAX Document layout
+906591	NO-TAX Document layout (15-code)	NO-TAX Document layout (15-code)
+1000000	Republika Hrvatska (Hrvatski) (Croatian)	English Master File - Do Not Translate
+1000001	Welcome to <@APPNAME@>	Welcome to <@APPNAME@>
+1000002	Not used / Do not translate	Not used / Do not translate
+1000003	kn	*Your Currency
+1000004	<@APPNAME@>	<@APPNAME@>
+1000005	Open item - Due report	Age analysis - Due report
+1000006	Not used / Do not translate	Not used / Do not translate
+1000007	Not used / Do not translate	Not used / Do not translate
+1000008	Not used / Do not translate	Not used / Do not translate
+1000009	Not used / Do not translate	Not used / Do not translate
+1000011	Not used / Do not translate	Not used / Do not translate
+1000012	Not used / Do not translate	Not used / Do not translate
+1000013	Not used / Do not translate	Not used / Do not translate
+1000014	Not used / Do not translate	Not used / Do not translate
+1000015	Not used / Do not translate	Not used / Do not translate
+1000016	Not used / Do not translate	Not used / Do not translate
+1000017	Not used / Do not translate	Not used / Do not translate
+1000018	Not used / Do not translate	Not used / Do not translate
+1000019	Not used / Do not translate	Not used / Do not translate
+1000020	Not used / Do not translate	Not used / Do not translate
+1000021	Not used / Do not translate	Not used / Do not translate
+1000022	Not used / Do not translate	Not used / Do not translate
+1000023	Not used / Do not translate	Not used / Do not translate
+1000024	Not used / Do not translate	Not used / Do not translate
+1000025	Not used / Do not translate	Not used / Do not translate
+1000026	Not used / Do not translate	Not used / Do not translate
+1000027	Not used / Do not translate	Not used / Do not translate
+1000028	Not used / Do not translate	Not used / Do not translate
+1000029	Not used / Do not translate	Not used / Do not translate
+1000030	Not used / Do not translate	Not used / Do not translate
+1000031	Not used / Do not translate	Not used / Do not translate
+1000032	Not used / Do not translate	Not used / Do not translate
+1000033	Not used / Do not translate	Not used / Do not translate
+1000034	Not used / Do not translate	Not used / Do not translate
+1000035	Not used / Do not translate	Not used / Do not translate
+1000036	Not used / Do not translate	Not used / Do not translate
+1000037	Not used / Do not translate	Not used / Do not translate
+1000038	Not used / Do not translate	Not used / Do not translate
+1000039	Not used / Do not translate	Not used / Do not translate
+1000040	Not used / Do not translate	Not used / Do not translate
+1000041	Not used / Do not translate	Not used / Do not translate
+1000042	Not used / Do not translate	Not used / Do not translate
+1000043	Not used / Do not translate	Not used / Do not translate
+1000044	Not used / Do not translate	Not used / Do not translate
+1000045	Not used / Do not translate	Not used / Do not translate
+1000046	Not used / Do not translate	Not used / Do not translate
+1000054	Not used / Do not translate	Not used / Do not translate
+1000055	Not used / Do not translate	Not used / Do not translate
+1000056	Not used / Do not translate	Not used / Do not translate
+1000057	Not used / Do not translate	Not used / Do not translate

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TurboCASH Help Viewer</title>
+    <link rel="stylesheet" href="viewer.css">
+    <script src="libs/marked.min.js"></script>
+    <script src="viewer.js"></script>
+</head>
+
+<body>
+    <div id="content"></div>
+</body>
+</html>

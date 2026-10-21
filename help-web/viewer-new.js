@@ -1,0 +1,469 @@
+/* ============================================================
+   TurboCASH Help Viewer - Full AI Edition (Section 1/5)
+   Clean, synced, safe viewer.js rebuild
+============================================================ */
+
+/* ============================================================
+   GLOBAL STATE
+============================================================ */
+let topics = [];
+let currentTopic = null;
+let history = [];
+let historyIndex = -1;
+
+/* ============================================================
+   DOM ELEMENTS
+============================================================ */
+const leftPane = document.getElementById("leftPane");
+const topicList = document.getElementById("topicList");
+const content = document.getElementById("content");
+const breadcrumb = document.getElementById("breadcrumb");
+
+/* ============================================================
+   BUTTONS
+============================================================ */
+const btnTogglePane = document.getElementById("btnTogglePane");
+const btnHome = document.getElementById("btnHome");
+const btnBack = document.getElementById("btnBack");
+const btnNext = document.getElementById("btnNext");
+const btnPrint = document.getElementById("btnPrint");
+const btnOpenGitHub = document.getElementById("btnOpenGitHub");
+const btnCopyLink = document.getElementById("btnCopyLink");
+const btnReportIssue = document.getElementById("btnReportIssue");
+const btnEditTopic = document.getElementById("btnEditTopic");
+const btnDarkMode = document.getElementById("btnDarkMode");
+
+/* ============================================================
+   AI ELEMENTS
+============================================================ */
+const aiModel = document.getElementById("aiModel");
+const aiActionSelect = document.getElementById("aiActionSelect");
+const aiInput = document.getElementById("aiInput");
+const aiOutput = document.getElementById("aiOutput");
+const aiHistory = document.getElementById("aiHistory");
+const btnRunAI = document.getElementById("btnRunAI");
+const btnAIHistory = document.getElementById("btnAIHistory");
+const btnAIClearHistory = document.getElementById("btnAIClearHistory");
+
+/* ============================================================
+   SEARCH ELEMENTS
+============================================================ */
+const searchQuery = document.getElementById("searchQuery");
+const btnAdvancedSearch = document.getElementById("btnAdvancedSearch");
+const searchResults = document.getElementById("searchResults");
+
+/* ============================================================
+   SETTINGS ELEMENTS
+============================================================ */
+const keyGemini = document.getElementById("keyGemini");
+const keyDeepSeek = document.getElementById("keyDeepSeek");
+const keyOpenAI = document.getElementById("keyOpenAI");
+const keyGroq = document.getElementById("keyGroq");
+const keyBing = document.getElementById("keyBing");
+const keyGoogle = document.getElementById("keyGoogle");
+const keyGoogleCX = document.getElementById("keyGoogleCX");
+
+const btnSaveKeys = document.getElementById("btnSaveKeys");
+const btnClearKeys = document.getElementById("btnClearKeys");
+const btnTestAIKeys = document.getElementById("btnTestAIKeys");
+const btnTestWebKeys = document.getElementById("btnTestWebKeys");
+
+/* ============================================================
+   TAB SWITCHING
+============================================================ */
+function showTab(tabId) {
+    document.querySelectorAll(".tabContent").forEach(div => {
+        div.style.display = "none";
+    });
+
+    document.getElementById(tabId).style.display = "block";
+
+    document.querySelectorAll(".tabButton").forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    const tabButtonId = "tab" + tabId.replace("Tab", "");
+    document.getElementById(tabButtonId).classList.add("active");
+}
+
+/* ============================================================
+   DARK MODE
+============================================================ */
+function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+}
+
+/* ============================================================
+   LOAD TOPIC LIST
+============================================================ */
+async function loadTopics() {
+    try {
+        const response = await fetch("topics.json");
+        topics = await response.json();
+
+        topicList.innerHTML = "";
+
+        topics.forEach(t => {
+            const li = document.createElement("li");
+            li.innerHTML = `<a href="#" onclick="loadTopicContent('${t.file}', true, false)">${t.title}</a>`;
+            topicList.appendChild(li);
+        });
+
+    } catch (err) {
+        topicList.innerHTML = "<li style='color:red;'>Unable to load topics.json</li>";
+    }
+}
+/* ============================================================
+   LOAD TOPIC CONTENT (Section 2/5)
+============================================================ */
+
+async function loadTopicContent(topic, addToHistory = true, useLocal = false) {
+    currentTopic = topic;
+    content.innerHTML = "<h2>Loading...</h2>";
+
+    const base = "https://raw.githubusercontent.com/turbocash/help/main/";
+    const localBase = "help/";
+
+    let md = "";
+
+    /* ============================================================
+       TRY GITHUB FIRST
+    ============================================================= */
+    try {
+        const response = await fetch(base + topic);
+        if (!response.ok) throw new Error("GitHub failed");
+        md = await response.text();
+    } catch {
+        /* ============================================================
+           FALL BACK TO LOCAL
+        ============================================================= */
+        try {
+            const response = await fetch(localBase + topic);
+            if (!response.ok) throw new Error("Local failed");
+            md = await response.text();
+        } catch {
+            content.innerHTML =
+                "<h2 style='color:red;'>Unable to load topic (GitHub + Local failed).</h2>";
+            return;
+        }
+    }
+
+    /* ============================================================
+       SECTION 3 WILL BE INSERTED HERE
+       (FIX IMAGE PATHS + FIX INTERNAL LINKS)
+============================================================ */
+
+    /* ============================================================
+       RENDER MARKDOWN
+    ============================================================= */
+    content.innerHTML = marked.parse(md);
+
+    /* ============================================================
+       UPDATE BREADCRUMB
+    ============================================================= */
+    breadcrumb.innerHTML =
+        `<span>Home</span> / <span>${topic.replace(".md", "")}</span>`;
+
+    /* ============================================================
+       UPDATE HISTORY
+    ============================================================= */
+    if (addToHistory) {
+        history.push(topic);
+        historyIndex = history.length - 1;
+    }
+}
+
+/* ============================================================
+   NAVIGATION (Section 2/5)
+============================================================ */
+
+function goHome() {
+    loadTopicContent("index.md", true, false);
+}
+
+function goBack() {
+    if (historyIndex > 0) {
+        historyIndex--;
+        loadTopicContent(history[historyIndex], false, false);
+    }
+}
+function goNext() {
+    if (historyIndex < history.length - 1) {
+        historyIndex++;
+        loadTopicContent(history[historyIndex], false, false);
+    }
+}
+/* ============================================================
+   AI ENGINE (Section 4/5)
+   Full AI: Gemini + DeepSeek + OpenAI + Groq
+   Uses ai-proxy.php (your chosen format)
+============================================================ */
+
+async function runAI() {
+    const model = aiModel.value;
+    const action = aiActionSelect.value;
+    const prompt = aiInput.value.trim();
+
+    if (!prompt) {
+        aiOutput.innerHTML = "<p style='color:red;'>Please enter a prompt.</p>";
+        return;
+    }
+
+    aiOutput.innerHTML = "<p><em>Thinking...</em></p>";
+
+    /* ============================================================
+       SELECT API KEY BASED ON MODEL
+    ============================================================= */
+    let key = "";
+    if (model === "gemini") key = keyGemini.value;
+    if (model === "deepseek") key = keyDeepSeek.value;
+    if (model === "openai") key = keyOpenAI.value;
+    if (model === "groq") key = keyGroq.value;
+
+    if (!key) {
+        aiOutput.innerHTML = `<p style="color:red;">Missing API key for ${model}.</p>`;
+        return;
+    }
+
+    /* ============================================================
+       BUILD PAYLOAD FOR ai-proxy.php
+    ============================================================= */
+    const payload = {
+        model: model,
+        key: key,
+        action: action,
+        prompt: prompt
+    };
+
+    try {
+        const response = await fetch("ai-proxy.php", {
+            method: "POST",
+            body: JSON.stringify(payload)
+        });
+
+        const result = await response.text();
+
+        /* ============================================================
+           DISPLAY AI RESULT
+        ============================================================= */
+        aiOutput.innerHTML = `<div class="aiResult">${result}</div>`;
+
+        /* ============================================================
+           SAVE TO AI HISTORY
+        ============================================================= */
+        aiHistory.innerHTML += `
+            <div class="aiHistoryItem">
+                <strong>${model} (${action}):</strong><br>
+                ${result}
+            </div>
+        `;
+
+    } catch (err) {
+        aiOutput.innerHTML =
+            `<p style="color:red;">AI request failed.<br>${err}</p>`;
+    }
+}
+
+/* ============================================================
+   AI HISTORY BUTTONS
+============================================================ */
+
+btnRunAI.addEventListener("click", runAI);
+
+btnAIHistory.addEventListener("click", () => {
+    aiHistory.style.display =
+        aiHistory.style.display === "block" ? "none" : "block";
+});
+
+btnAIClearHistory.addEventListener("click", () => {
+    aiHistory.innerHTML = "";
+});
+/* ============================================================
+   SEARCH ENGINE (Section 5/5)
+============================================================ */
+
+function runSearch() {
+    const q = searchQuery.value.trim().toLowerCase();
+    searchResults.innerHTML = "";
+
+    if (!q) {
+        searchResults.innerHTML = "<p>Please enter a search term.</p>";
+        return;
+    }
+
+    let results = [];
+
+    /* ============================================================
+       SEARCH TITLES
+    ============================================================= */
+    topics.forEach(t => {
+        if (t.title.toLowerCase().includes(q)) {
+            results.push({
+                file: t.file,
+                title: t.title,
+                match: "Title match"
+            });
+        }
+    });
+
+    /* ============================================================
+       SEARCH CONTENT (GitHub + Local)
+    ============================================================= */
+    for (const t of topics) {
+        fetch("help/" + t.file)
+            .then(r => r.text())
+            .then(md => {
+                if (md.toLowerCase().includes(q)) {
+                    results.push({
+                        file: t.file,
+                        title: t.title,
+                        match: "Content match"
+                    });
+                }
+
+                searchResults.innerHTML = buildSearchResults(results);
+            })
+            .catch(() => {});
+    }
+}
+
+function buildSearchResults(results) {
+    if (results.length === 0) {
+        return "<p>No results found.</p>";
+    }
+
+    let html = "<ul>";
+    results.forEach(r => {
+        html += `
+            <li>
+                <a href="#" onclick="loadTopicContent('${r.file}', true, false)">
+                    ${r.title}
+                </a>
+                <span style="color:#888;"> - ${r.match}</span>
+            </li>
+        `;
+    });
+    html += "</ul>";
+
+    return html;
+}
+
+btnAdvancedSearch.addEventListener("click", runSearch);
+
+/* ============================================================
+   SETTINGS ENGINE
+============================================================ */
+
+btnSaveKeys.addEventListener("click", () => {
+    localStorage.setItem("keyGemini", keyGemini.value);
+    localStorage.setItem("keyDeepSeek", keyDeepSeek.value);
+    localStorage.setItem("keyOpenAI", keyOpenAI.value);
+    localStorage.setItem("keyGroq", keyGroq.value);
+    localStorage.setItem("keyBing", keyBing.value);
+    localStorage.setItem("keyGoogle", keyGoogle.value);
+    localStorage.setItem("keyGoogleCX", keyGoogleCX.value);
+
+    alert("API keys saved.");
+});
+
+btnClearKeys.addEventListener("click", () => {
+    localStorage.removeItem("keyGemini");
+    localStorage.removeItem("keyDeepSeek");
+    localStorage.removeItem("keyOpenAI");
+    localStorage.removeItem("keyGroq");
+    localStorage.removeItem("keyBing");
+    localStorage.removeItem("keyGoogle");
+    localStorage.removeItem("keyGoogleCX");
+
+    keyGemini.value = "";
+    keyDeepSeek.value = "";
+    keyOpenAI.value = "";
+    keyGroq.value = "";
+    keyBing.value = "";
+    keyGoogle.value = "";
+    keyGoogleCX.value = "";
+
+    alert("API keys cleared.");
+});
+
+btnTestAIKeys.addEventListener("click", () => {
+    let missing = [];
+
+    if (!keyGemini.value) missing.push("Gemini");
+    if (!keyDeepSeek.value) missing.push("DeepSeek");
+    if (!keyOpenAI.value) missing.push("OpenAI");
+    if (!keyGroq.value) missing.push("Groq");
+
+    if (missing.length === 0) {
+        alert("All AI keys are set.");
+    } else {
+        alert("Missing AI keys: " + missing.join(", "));
+    }
+});
+
+btnTestWebKeys.addEventListener("click", () => {
+    let missing = [];
+
+    if (!keyBing.value) missing.push("Bing");
+    if (!keyGoogle.value) missing.push("Google");
+    if (!keyGoogleCX.value) missing.push("Google CX");
+
+    if (missing.length === 0) {
+        alert("All web search keys are set.");
+    } else {
+        alert("Missing web search keys: " + missing.join(", "));
+    }
+});
+
+/* ============================================================
+   EVENT LISTENERS
+============================================================ */
+
+btnTogglePane.addEventListener("click", () => {
+    leftPane.classList.toggle("hidden");
+});
+
+btnHome.addEventListener("click", goHome);
+btnBack.addEventListener("click", goBack);
+btnNext.addEventListener("click", goNext);
+
+btnPrint.addEventListener("click", () => window.print());
+
+btnOpenGitHub.addEventListener("click", () => {
+    window.open("https://github.com/turbocash/help");
+});
+
+btnCopyLink.addEventListener("click", () => {
+    navigator.clipboard.writeText(location.href);
+    alert("Link copied.");
+});
+
+btnReportIssue.addEventListener("click", () => {
+    window.open("https://github.com/turbocash/help/issues");
+});
+
+btnEditTopic.addEventListener("click", () => {
+    if (!currentTopic) return;
+    window.open("https://github.com/turbocash/help/edit/main/" + currentTopic);
+});
+
+btnDarkMode.addEventListener("click", toggleDarkMode);
+
+/* ============================================================
+   INITIALIZATION
+============================================================ */
+
+function loadSavedKeys() {
+    keyGemini.value = localStorage.getItem("keyGemini") || "";
+    keyDeepSeek.value = localStorage.getItem("keyDeepSeek") || "";
+    keyOpenAI.value = localStorage.getItem("keyOpenAI") || "";
+    keyGroq.value = localStorage.getItem("keyGroq") || "";
+    keyBing.value = localStorage.getItem("keyBing") || "";
+    keyGoogle.value = localStorage.getItem("keyGoogle") || "";
+    keyGoogleCX.value = localStorage.getItem("keyGoogleCX") || "";
+}
+
+loadSavedKeys();
+loadTopics();
+showTab("helpTab");
+goHome();
